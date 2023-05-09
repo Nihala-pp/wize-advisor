@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::controller(AdminController::class)
+    ->as('admin.user_profiles.')
+    ->prefix('listProfiles')
+    ->group(function () {
+        Route::get('/', 'index')->name('index');
+        Route::get('/view_profile', 'view_profile')->name('view_profile');
+        // Route::get('/create', 'create')->name('create');
+        // Route::get('/edit/{id}', 'edit')->name('edit');
+        // Route::post('/store', 'store')->name('store');
+        // Route::get('/print/{id}', 'print')->name('print');
+        // Route::get('/show/{id}', 'show')->name('show');
+    });
