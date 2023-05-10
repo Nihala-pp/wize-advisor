@@ -78,15 +78,37 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="./pages/rtl.html">
+          <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white " aria-controls="applicationsExamples" role="button" aria-expanded="false">
+            <i class="material-icons-round {% if page.brand == 'RTL' %}ms-2{% else %} me-2{% endif %}">apps</i>
+            <span class="nav-link-text ms-2 ps-1">Mentors</span>
+          </a>
+          <div class="collapse " id="applicationsExamples">
+            <ul class="nav ">
+              <li class="nav-item ">
+                <a class="nav-link text-white " href="{{ route('admin.mentors.list_mentors') }}">
+                  <span class="sidenav-mini-icon"> P </span>
+                  <span class="sidenav-normal  ms-2  ps-1"> Profile </span>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white " href="{{ route('admin.mentors.reviews') }}">
+                  <span class="sidenav-mini-icon"> R </span>
+                  <span class="sidenav-normal  ms-2  ps-1"> Reviews </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link text-white " href="{{ route('admin.mentors.list_mentors') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-user"></i>
             </div>
             <span class="nav-link-text ms-1">Mentors</span>
           </a>
-        </li>
+        </li> -->
         <li class="nav-item">
-          <a class="nav-link text-white " href="./pages/notifications.html">
+          <a class="nav-link text-white " href="{{ route('admin.mentors.scheduled-calls') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="fas fa-phone-alt"></i>
             </div>

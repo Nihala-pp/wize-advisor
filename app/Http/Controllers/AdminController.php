@@ -16,5 +16,29 @@ class AdminController extends Controller
     {
         return view('admin.view_profile');
     }
-    //
+
+    public function list_mentors()
+    {
+        return view('admin.mentors');
+    }
+
+    public function mentors_profile()
+    {
+        return view('admin.mentors_profile');
+    }
+
+    public function reviews()
+    {
+        return view('admin.reviews');
+    }
+
+    public function experience()
+    {
+        return view('admin.experience');
+    }
+
+    public function expertise()
+    {
+        return view('admin.expertise');
+    }
 }

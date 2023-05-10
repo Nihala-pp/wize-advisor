@@ -19,11 +19,17 @@ Route::get('/', function () {
 });
 
 Route::controller(AdminController::class)
-    ->as('admin.user_profiles.')
+    ->as('admin.')
     ->prefix('listProfiles')
     ->group(function () {
-        Route::get('/', 'index')->name('index');
-        Route::get('/view_profile', 'view_profile')->name('view_profile');
+        Route::get('/', 'index')->name('user_profiles.index');
+        Route::get('/view_profile', 'view_profile')->name('user_profiles.view_profile');
+        Route::get('/mentors', 'list_mentors')->name('mentors.list_mentors');
+        Route::get('/mentors_profile', 'mentors_profile')->name('mentors.mentors_profile');
+        Route::get('/reviews', 'reviews')->name('mentors.reviews');
+        Route::get('/experience', 'experience')->name('mentors.experience');
+        Route::get('/expertise', 'expertise')->name('mentors.expertise');
+        Route::get('/scheduled-calls', 'scheduled-calls')->name('mentors.scheduled-calls');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');
         // Route::post('/store', 'store')->name('store');

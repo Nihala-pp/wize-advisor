@@ -1,5 +1,5 @@
 <head>
-<meta charset="utf-8" />
+  <meta charset="utf-8" />
   <<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
@@ -18,6 +18,265 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
   <link id="pagestyle" href="{{ asset('assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
+  <style>
+    /*====================================================
+                      Client Testimonials
+======================================================*/
+
+    .testimonial-card .card-up {
+      height: 120px;
+      overflow: hidden;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+
+    .testimonial-card .avatar {
+      width: 110px;
+      margin-top: -60px;
+      overflow: hidden;
+      border: 3px solid #fff;
+      border-radius: 50%;
+    }
+
+    /*====================================================
+                      Experience
+======================================================*/
+
+    #experience {
+      background: #f5f5f5;
+    }
+
+    #experience .card h4 {
+      font-family: 'Roboto Condensed', sans-serif;
+      text-transform: none;
+      color: #555;
+    }
+
+    /*====================================================
+                      AWARD
+======================================================*/
+
+    #awards {
+      background: #f0f0f0;
+    }
+
+    #award-box {
+      overflow: hidden;
+      position: relative;
+      padding: 60px 0;
+    }
+
+    #award-box:before {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background: #cfcdcd;
+      position: absolute;
+      top: 0;
+      left: 50%;
+    }
+
+    #award-box .award {
+      width: 50%;
+      clear: both;
+      position: relative;
+    }
+
+    #award-box .award:before,
+    #award-box .award:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    #award-box .award:first-child:before,
+    #award-box .award:last-child:before {
+      content: "";
+      width: 11px;
+      height: 11px;
+      background: #cfcdcd;
+      box-sizing: content-box;
+      border: 5px solid #fff;
+      box-shadow: 0 0 0 2px #cfcdcd;
+      position: absolute;
+      top: -54px;
+      right: -11px;
+      transform: rotate(45deg);
+    }
+
+    #award-box .award:last-child:before {
+      top: auto;
+      bottom: -54px;
+    }
+
+    #award-box .award:last-child:nth-child(even):before {
+      right: auto;
+      left: -11px;
+    }
+
+    #award-box .award-icon {
+      width: 24px;
+      height: 24px;
+      background: #fff;
+      border: 1px solid #cfcdcd;
+      position: absolute;
+      top: 17px;
+      right: -13px;
+      z-index: 1;
+      transform: rotate(45deg);
+    }
+
+    #award-box .award-icon:before {
+      content: "";
+      display: block;
+      width: 15px;
+      height: 15px;
+      background: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: background-color 0.2s ease 0s;
+    }
+
+    #award-box .award:hover .award-icon:before {
+      background: #39b3ff;
+    }
+
+    #award-box .award-content {
+      width: 85%;
+      padding: 18px 30px;
+      background: #fff;
+      text-align: right;
+      float: left;
+      border: 1px solid transparent;
+      position: relative;
+      transition: all 0.3s ease 0s;
+    }
+
+    #award-box .award:hover .award-content {
+      border: 1px solid #cfcdcd;
+    }
+
+    #award-box .award-content:before {
+      content: "";
+      display: block;
+      width: 14px;
+      height: 14px;
+      background: #fff;
+      border: 1px solid #cfcdcd;
+      position: absolute;
+      top: 21px;
+      right: -7.3px;
+      transform: rotate(45deg);
+      transition: all 0.2s ease 0s;
+    }
+
+    #award-box .award:hover .award-content:before {
+      background: #39b3ff;
+      border-color: #39b3ff;
+    }
+
+    #award-box .award-content:after {
+      content: "";
+      width: 11%;
+      height: 1px;
+      background: #cfcdcd;
+      position: absolute;
+      top: 28px;
+      right: -14%;
+    }
+
+    #award-box .date {
+      display: block;
+      font-size: 15px;
+      font-weight: 600;
+      color: #39b3ff;
+      margin: 0 0 8px;
+      transition: all 0.3s ease 0s;
+    }
+
+    #award-box .award:hover .date {
+      color: #444;
+    }
+
+    #award-box .title {
+      font-size: 18px;
+      color: #444;
+      margin-top: 0;
+      transition: all 0.3s ease 0s;
+    }
+
+    #award-box .award:hover .title {
+      color: #39b3ff;
+    }
+
+    #award-box .description {
+      font-size: 16px;
+      color: #777;
+      line-height: 28px;
+      margin-top: 8px;
+    }
+
+    #award-box .award:nth-child(2n),
+    #award-box .award:nth-child(2n) .award-content {
+      float: right;
+      text-align: left;
+    }
+
+    #award-box .award:nth-child(2n) .award-icon {
+      right: 0;
+      left: -12px;
+    }
+
+    #award-box .award:nth-child(2n) .award-content:before {
+      left: -7.3px;
+    }
+
+    #award-box .award:nth-child(2n) .award-content:after {
+      left: -14%;
+    }
+
+    @media only screen and (max-width: 767px) {
+      #award-box {
+        padding-left: 20px;
+      }
+
+      #award-box:before {
+        left: 20px;
+      }
+
+      #award-box .award {
+        width: 100%;
+      }
+
+      #award-box .award,
+      #award-box .award-content {
+        float: right;
+        padding: 5px;
+        text-align: left;
+      }
+
+      #award-box .award:first-child:before,
+      #award-box .award:last-child:nth-child(odd):before {
+        right: auto;
+        left: -11px;
+      }
+
+      #award-box .award-icon {
+        right: 0;
+        left: -12px;
+      }
+
+      #award-box .award-content:before {
+        left: -7.3px;
+      }
+
+      #award-box .award-content:after {
+        left: -14%;
+      }
+    }
+  </style>
   <script src="{{ asset('assets/js/core/popper.min.js') }}"></script>
   <script src="{{ asset('assets/js/core/bootstrap.min.js') }}"></script>
   <script src="{{ asset('assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
