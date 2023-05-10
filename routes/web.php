@@ -29,7 +29,9 @@ Route::controller(AdminController::class)
         Route::get('/reviews', 'reviews')->name('mentors.reviews');
         Route::get('/experience', 'experience')->name('mentors.experience');
         Route::get('/expertise', 'expertise')->name('mentors.expertise');
-        Route::get('/scheduled-calls', 'scheduled-calls')->name('mentors.scheduled-calls');
+        Route::get('/scheduled-calls', 'scheduledCalls')->name('mentors.scheduled-calls');
+        Route::get('/sign-in', 'signin')->name('mentors.sign-in');
+        Route::get('/sign-up', 'signup')->name('mentors.sign-up');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');
         // Route::post('/store', 'store')->name('store');

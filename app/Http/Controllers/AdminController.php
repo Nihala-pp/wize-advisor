@@ -41,4 +41,19 @@ class AdminController extends Controller
     {
         return view('admin.expertise');
     }
+
+    public function scheduledCalls()
+    {
+        return view('admin.scheduled-calls');
+    }
+
+    public function signin()
+    {
+        return view('admin.sign-in');
+    }
+
+    public function signup()
+    {
+        return view('admin.sign-up');
+    }
 }

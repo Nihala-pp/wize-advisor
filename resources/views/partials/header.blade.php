@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8" />
-  <<meta charset="utf-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
   <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
@@ -12,8 +12,11 @@
   <!-- Nucleo Icons -->
   <link href="{{ asset('assets/css/nucleo-icons.css') }}" rel="stylesheet" />
   <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
@@ -22,6 +25,9 @@
     /*====================================================
                       Client Testimonials
 ======================================================*/
+    .modal-backdrop {
+      display: none;
+    }
 
     .testimonial-card .card-up {
       height: 120px;
@@ -277,11 +283,18 @@
       }
     }
   </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@6.1.5/index.global.min.js"></script>
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
   <script src="{{ asset('assets/js/core/popper.min.js') }}"></script>
   <script src="{{ asset('assets/js/core/bootstrap.min.js') }}"></script>
   <script src="{{ asset('assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
   <script src="{{ asset('assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
   <script src="{{ asset('assets/js/plugins//chartjs.min.js') }}"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="{{ asset('assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -291,8 +304,4 @@
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
   </script>
-  <!-- Github buttons -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="{{ asset('assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
 </head>
