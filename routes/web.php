@@ -23,6 +23,10 @@ Route::get('/mentor', function () {
     return view('mentors.index');
 });
 
+Route::get('/user', function () {
+    return view('users.index');
+});
+
 Route::controller(AdminController::class)
     ->as('admin.')
     ->prefix('listProfiles')
