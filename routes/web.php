@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MentorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/admin', function () {
     return view('index');
+});
+
+Route::get('/mentor', function () {
+    return view('mentors.index');
 });
 
 Route::controller(AdminController::class)
@@ -37,4 +42,18 @@ Route::controller(AdminController::class)
         // Route::post('/store', 'store')->name('store');
         // Route::get('/print/{id}', 'print')->name('print');
         // Route::get('/show/{id}', 'show')->name('show');
+    });
+
+Route::controller(MentorController::class)
+    ->as('mentor.')
+    ->prefix('mentor')
+    ->group(function () {
+        Route::get('/dashboard', 'index')->name('dashboard');
+        Route::get('/dashboard/my_sessions', 'my_sessions')->name('dashboard.my_sessions');
+        Route::get('/dashboard/profile', 'profile')->name('dashboard.profile');
+        Route::get('/dashboard/reviews', 'reviews')->name('dashboard.reviews');
+        Route::get('/dashboard/experience', 'experience')->name('dashboard.experience');
+        Route::get('/dashboard/expertise', 'expertise')->name('dashboard.expertise');
+        Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
+        // Route::get('/sign-in', 'signin')->name('sign-in');
     });
