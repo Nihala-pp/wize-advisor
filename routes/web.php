@@ -53,7 +53,7 @@ Route::controller(MentorController::class)
     ->as('mentor.')
     ->prefix('mentor')
     ->group(function () {
-        Route::get('/mentor', 'index')->name('dashboard');
+        Route::get('/', 'index')->name('dashboard');
         Route::get('/dashboard/my_sessions', 'my_sessions')->name('dashboard.my_sessions');
         Route::get('/dashboard/profile', 'profile')->name('dashboard.profile');
         Route::get('/dashboard/reviews', 'reviews')->name('dashboard.reviews');
