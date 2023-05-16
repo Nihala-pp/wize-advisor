@@ -19,9 +19,9 @@ Route::get('/admin', function () {
     return view('index');
 });
 
-Route::get('/mentor', function () {
-    return view('mentors.index');
-});
+// Route::get('/mentor', function () {
+//     return view('mentors.index');
+// });
 
 Route::get('/user', function () {
     return view('users.index');
@@ -53,7 +53,7 @@ Route::controller(MentorController::class)
     ->as('mentor.')
     ->prefix('mentor')
     ->group(function () {
-        Route::get('/dashboard', 'index')->name('dashboard');
+        Route::get('/mentor', 'index')->name('dashboard');
         Route::get('/dashboard/my_sessions', 'my_sessions')->name('dashboard.my_sessions');
         Route::get('/dashboard/profile', 'profile')->name('dashboard.profile');
         Route::get('/dashboard/reviews', 'reviews')->name('dashboard.reviews');
