@@ -3,8 +3,7 @@
 * Material Dashboard 2 - v3.0.0
 =========================================================
 
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
+* Copyright 2023 Pransa Investment
 * Coded by Nihala PP
 
 =========================================================
