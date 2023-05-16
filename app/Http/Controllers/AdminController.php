@@ -9,6 +9,11 @@ class AdminController extends Controller
 {
     public function index()
     {
+        return view('index');
+    }
+
+    public function user_profiles()
+    {
         return view('admin.user_list');
     }
 

@@ -31,7 +31,8 @@ Route::controller(AdminController::class)
     ->as('admin.')
     ->prefix('listProfiles')
     ->group(function () {
-        Route::get('/', 'index')->name('user_profiles.index');
+        Route::get('/', 'index')->name('dashboard');
+        Route::get('/user_profiles', 'user_profiles')->name('user_profiles.index');
         Route::get('/view_profile', 'view_profile')->name('user_profiles.view_profile');
         Route::get('/mentors', 'list_mentors')->name('mentors.list_mentors');
         Route::get('/mentors_profile', 'mentors_profile')->name('mentors.mentors_profile');

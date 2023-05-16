@@ -63,7 +63,7 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
+                                                <img src="{{ asset('public/assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -81,7 +81,7 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                                                <img src="{{ asset('public/assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -144,7 +144,7 @@
                             <div class="card card-blog card-plain">
                                 <div class="card-header p-0 mt-n4 mx-3">
                                     <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="../assets/img/home-decor-1.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                                        <img src="{{ asset('public/assets/img/home-decor-1.jpg') }}" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
@@ -161,16 +161,16 @@
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">
                                             </a>
                                         </div>
                                     </div>
@@ -181,7 +181,7 @@
                             <div class="card card-blog card-plain">
                                 <div class="card-header p-0 mt-n4 mx-3">
                                     <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="../assets/img/home-decor-2.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
+                                        <img src="{{ asset('public/assets/img/home-decor-2.jpg') }}" alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
@@ -198,16 +198,16 @@
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder" src="../assets/img/team-4.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}.jpg">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">
                                             </a>
                                         </div>
                                     </div>
@@ -218,7 +218,7 @@
                             <div class="card card-blog card-plain">
                                 <div class="card-header p-0 mt-n4 mx-3">
                                     <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="../assets/img/home-decor-3.jpg" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
+                                        <img src="{{ asset('public/assets/img/home-decor-3.jpg') }}" alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
@@ -234,17 +234,17 @@
                                     <div class="d-flex align-items-center justify-content-between">
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
                                         <div class="avatar-group mt-2">
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder" src="../assets/img/team-4.jpg">
-                                            </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
                                             </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}.jpg">
+                                            </a>
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">
                                             </a>
                                         </div>
                                     </div>
@@ -271,17 +271,17 @@
                                     <div class="d-flex align-items-center justify-content-between">
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
                                         <div class="avatar-group mt-2">
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder" src="../assets/img/team-4.jpg">
-                                            </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder" src="../assets/img/team-3.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
                                             </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder" src="../assets/img/team-2.jpg">
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="../assets/img/team-1.jpg">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}.jpg">
+                                            </a>
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">
                                             </a>
                                         </div>
                                     </div>

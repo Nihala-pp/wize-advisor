@@ -63,7 +63,7 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
+                                                <img src="{{ asset('public/assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -81,7 +81,7 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                                                <img src="{{ asset('public/assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -151,7 +151,7 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('assets/img/team-4.jpg') }}" class="rounded-circle img-fluid" />
+                                    <img src="{{ asset('public/assets/img/team-4.jpg') }}" class="rounded-circle img-fluid" />
                                 </div>
                                 <div class="card-body">
                                     <h4 class="mb-4">Maria Smantha</h4>
@@ -186,7 +186,7 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #7a81a8;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('assets/img/team-3.jpg') }}" class="rounded-circle img-fluid" />
+                                    <img src="{{ asset('public/assets/img/team-3.jpg') }}" class="rounded-circle img-fluid" />
                                 </div>
                                 <div class="card-body">
                                     <h4 class="mb-4">Lisa Cudrow</h4>
@@ -221,7 +221,7 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #6d5b98;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('assets/img/team-2.jpg') }}" class="rounded-circle img-fluid" />
+                                    <img src="{{ asset('public/assets/img/team-2.jpg') }}" class="rounded-circle img-fluid" />
                                 </div>
                                 <div class="card-body">
                                     <h4 class="mb-4">John Smith</h4>

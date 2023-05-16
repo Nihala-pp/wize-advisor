@@ -2,16 +2,16 @@
   <meta charset="utf-8" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
-  <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('public/assets/img/apple-icon.png') }}">
+  <link rel="icon" type="image/png" href="{{ asset('public/assets/img/favicon.png') }}">
   <title>
     wize-advisor
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
   <!-- Nucleo Icons -->
-  <link href="{{ asset('assets/css/nucleo-icons.css') }}" rel="stylesheet" />
-  <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
+  <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
+  <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'>
   <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
@@ -20,7 +20,7 @@
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
-  <link id="pagestyle" href="{{ asset('assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
+  <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
   <style>
     /*====================================================
                       Client Testimonials
@@ -288,14 +288,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@6.1.5/index.global.min.js"></script>
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-  <script src="{{ asset('assets/js/core/popper.min.js') }}"></script>
-  <script src="{{ asset('assets/js/core/bootstrap.min.js') }}"></script>
-  <script src="{{ asset('assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
-  <script src="{{ asset('assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
-  <script src="{{ asset('assets/js/plugins//chartjs.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins//chartjs.min.js') }}"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script src="{{ asset('assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
-  <script src="{{ asset('assets/js/plugins/timepicker-bs4.js') }}"></script>
+  <script src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/timepicker-bs4.js') }}"></script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
