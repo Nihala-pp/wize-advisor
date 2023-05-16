@@ -19,9 +19,9 @@ Route::get('/admin', function () {
     return view('index');
 });
 
-// Route::get('/mentor', function () {
-//     return view('mentors.index');
-// });
+Route::get('/mentor', function () {
+    return view('mentors.index');
+});
 
 Route::get('/user', function () {
     return view('users.index');
