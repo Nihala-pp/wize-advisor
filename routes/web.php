@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MentorController;
+use App\Http\Controllers\Auth\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,21 +16,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/admin', function () {
-    return view('index');
-});
+// Route::get('admin/login', function () {
+//     return view('auth.login');
+// });
 
-Route::get('/mentor', function () {
-    return view('mentors.index');
-});
+// Route::get('/mentor', function () {
+//     return view('mentors.index');
+// });
 
-Route::get('/user', function () {
-    return view('users.index');
-});
+// Route::get('/user', function () {
+//     return view('users.index');
+// })
+
+Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post');
+Route::get('registration', [AuthController::class, 'registration'])->name('register');
+Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post');
+// Route::get('dashboard', [AuthController::class, 'dashboard']);
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
+
 
 Route::controller(AdminController::class)
     ->as('admin.')
-    ->prefix('listProfiles')
+    ->prefix('admin')
     ->group(function () {
         Route::get('/', 'index')->name('dashboard');
         Route::get('/user_profiles', 'user_profiles')->name('user_profiles.index');
@@ -62,3 +72,7 @@ Route::controller(MentorController::class)
         Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
+
+// Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
