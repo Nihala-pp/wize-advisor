@@ -38,12 +38,12 @@
                       </a> -->
                                         <!-- </div> -->
                                         <div class="col-3 text-center ms-auto">
-                                            <a class="btn btn-link px-2" href="javascript:;">
+                                            <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
                                                 <i class="fa fa-linkedin text-white text-lg"></i>
                                             </a>
                                         </div>
                                         <div class="col-3 text-center me-auto">
-                                            <a class="btn btn-link px-2" href="javascript:;">
+                                            <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
                                                 <i class="fa fa-google text-white text-lg"></i>
                                             </a>
                                         </div>
@@ -81,12 +81,10 @@
                                         </button>
                                     </div>
                                     <p class="mt-4 text-sm text-center">
-                                    <!-- Don't have an account? -->
-                                        @if (Route::has('password.request'))
-                                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        <!-- Don't have an account? -->
+                                       <a class="btn btn-link" href="{{ route('forget.password.get') }}">
                                             {{ __('Forgot Your Password?') }}
                                         </a>
-                                        @endif
                                     </p>
                                 </form>
                             </div>

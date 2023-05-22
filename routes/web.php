@@ -3,7 +3,14 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MentorController;
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\Auth\ForgotPasswordController;
+use App\Http\Controllers\Auth\LinkedinSocialiteController;
+use App\Http\Controllers\Auth\GoogleSocialiteController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Auth\Events\PasswordReset;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Password;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +42,21 @@ Route::post('post-registration', [AuthController::class, 'postRegistration'])->n
 // Route::get('dashboard', [AuthController::class, 'dashboard']);
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
+Route::get('auth/linkedin', [LinkedinSocialiteController::class, 'redirectToLinkedin'])->name('auth.linkedin');
+Route::get('callback/linkedin', [LinkedinSocialiteController::class, 'handleCallback'])->name('callback.linkedin');
 
+Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle'])->name('auth.google');
+Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback'])->name('callback.google');
+
+Route::get('/forget-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
+Route::post('/forgot-password-email', [ForgotPasswordController::class, 'forgotPasswordEmail'])->name('password.email');
+Route::get('/reset-password/{token}', [ForgotPasswordController::class, 'passwordReset'])->name('password.reset');
+Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword'])->name('password.update');
+
+// Route::get('forget-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
+// Route::post('forget-password', [ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post');
+// Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
+// Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
 
 Route::controller(AdminController::class)
     ->as('admin.')
@@ -50,6 +71,7 @@ Route::controller(AdminController::class)
         Route::get('/experience', 'experience')->name('mentors.experience');
         Route::get('/expertise', 'expertise')->name('mentors.expertise');
         Route::get('/scheduled-calls', 'scheduledCalls')->name('mentors.scheduled-calls');
+        Route::post('/mark-as-read', 'markNotification')->name('markNotification');
         Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         Route::get('/sign-up', 'signup')->name('mentors.sign-up');
         // Route::get('/create', 'create')->name('create');
@@ -72,7 +94,3 @@ Route::controller(MentorController::class)
         Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
-
-// Auth::routes();
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
