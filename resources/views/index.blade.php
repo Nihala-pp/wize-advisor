@@ -145,11 +145,11 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="{{ route('admin.mentors.sign-in') }}">
+          <a class="nav-link text-white " href="{{ route('admin.settings') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">login</i>
             </div>
-            <span class="nav-link-text ms-1">Sign In</span>
+            <span class="nav-link-text ms-1">Settings</span>
           </a>
         </li>
         <li class="nav-item">
@@ -183,6 +183,7 @@
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
             <div class="input-group input-group-outline">
               <label class="form-label">Type here...</label>
+
               <input type="text" class="form-control">
             </div>
           </div>
@@ -511,68 +512,64 @@
         <div class="col-lg-4 col-md-6">
           <div class="card h-100">
             <div class="card-header pb-0">
-              <h6>Orders overview</h6>
-              <p class="text-sm">
-                <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
-                <span class="font-weight-bold">24%</span> this month
-              </p>
+              <h6>TO-DO List</h6>
             </div>
             <div class="card-body p-3">
+              <div class="d-flex flex-row align-items-center">
+                <!-- <form method="POST" href="{{ route('admin.addTodoList') }}" class="to-do-list-form"> -->
+                <!-- @csrf -->
+                <input type="text" class="form-control form-control-lg task" id="exampleFormControlInput1" placeholder="Add new...">
+                <!-- <a href="#!" data-mdb-toggle="tooltip" title="Set due date"><i class="fas fa-calendar-alt fa-lg me-3"></i></a> -->
+                <div>
+                  <button type="button" class="btn btn-primary addTodoList">Add</button>
+                </div>
+                <!-- </form> -->
+              </div>
               <div class="timeline timeline-one-side">
+                @foreach($todolists as $todolist)
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
                     <i class="material-icons text-success text-gradient">notifications</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0"> {{ $todolist->tasks }}</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0"> {{ $todolist->created_at}}</p>
+                    <span>
+                      <a id="viewTask" data-id="{{ $todolist->id }}" data-mdb-toggle="tooltip" title="View"><i class="fas fa-eye text-success me-3"></i></a>
+                      <a href="{{ route('admin.update_todo_status',$todolist->id) }}" data-mdb-toggle="tooltip" title="Done"><i class="fas fa-check text-success me-3"></i></a>
+                      <a href="{{ route('admin.delete_todo_status',$todolist->id) }}" data-mdb-toggle="tooltip" title="Remove"><i class="fas fa-trash-alt text-danger"></i></a>
+                    </span>
                   </div>
                 </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="material-icons text-danger text-gradient">code</i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">New order #1832412</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
-                  </div>
+                @endforeach
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- <button type="button" class="btn btn-block bg-gradient-warning mb-3" >Notification</button> -->
+        <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
+          <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6 class="modal-title font-weight-normal" id="modal-title-notification">Your attention is required</h6>
+                <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="py-3 text-center">
+                  <i class="material-icons h1 text-secondary">
+                    notifications_active
+                  </i>
+                  <h4 class="text-gradient text-danger mt-4">You should read this!</h4>
+                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="material-icons text-info text-gradient">shopping_cart</i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Server payments for April</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
-                  </div>
-                </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="material-icons text-warning text-gradient">credit_card</i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order #4395133</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
-                  </div>
-                </div>
-                <div class="timeline-block mb-3">
-                  <span class="timeline-step">
-                    <i class="material-icons text-primary text-gradient">key</i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
-                  </div>
-                </div>
-                <div class="timeline-block">
-                  <span class="timeline-step">
-                    <i class="material-icons text-dark text-gradient">payments</i>
-                  </span>
-                  <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">New order #9583120</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
-                  </div>
-                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-white">Ok, Got it</button>
+                <button type="button" class="btn btn-link text-white ml-auto" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -693,8 +690,14 @@
     </div>
   </div>
   <!--   Core JS Files   -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@6.1.5/index.global.min.js"></script>
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/sweetalert.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/chartjs.min.js') }}"></script>
@@ -959,15 +962,15 @@
       return $.ajax("{{ route('admin.markNotification') }}", {
         method: 'POST',
         data: {
-          _token,
-          id
+          // _token,
+          // id
         }
       });
     }
 
     $(function() {
       $('.mark-as-read').click(function() {
-        let request = sendMarkRequest($(this).data('id'));
+        let task = sendMarkRequest($(this).data('id'));
         request.done(() => {
           $(this).parents('div.alert').remove();
         });
@@ -978,6 +981,52 @@
         request.done(() => {
           $('div.alert').remove();
         })
+      });
+
+      $('.addTodoList').click(function() {
+        let task = $('.task').val();
+        // let form = $('.to-do-list-form').serialize();
+        return $.ajax("{{ route('admin.addTodoList') }}", {
+          method: 'POST',
+          data: {
+            "_token": "{{ csrf_token() }}",
+            "task": task,
+          },
+          success: function() {
+            swal("Added!", "Your Task has been added.", "success");
+          }
+        });
+      });
+
+      $('#viewTask').on('click', function() {
+        var taskId = $(this).data("id");
+        console.log(taskId);
+
+        $.get("admin/viewTask", {
+            id: taskId
+          },
+          function(response) {
+           return new swal({
+              title: "To Do List",
+              text: response,
+              type: "info",
+              showCancelButton: true,
+              closeOnConfirm: false,
+              showLoaderOnConfirm: true
+            }, function() {
+              setTimeout(function() {
+                swal("Ajax request finished!");
+              }, 2000);
+            });
+          });
+      });
+
+      return $.ajax("{{ route('admin.markNotification') }}", {
+        method: 'POST',
+        data: {
+          // _token,
+          // id
+        }
       });
     });
   </script>

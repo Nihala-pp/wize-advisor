@@ -72,6 +72,12 @@ Route::controller(AdminController::class)
         Route::get('/expertise', 'expertise')->name('mentors.expertise');
         Route::get('/scheduled-calls', 'scheduledCalls')->name('mentors.scheduled-calls');
         Route::post('/mark-as-read', 'markNotification')->name('markNotification');
+        Route::post('/addTodoList', 'addTodoList')->name('addTodoList');
+        Route::get('/update_todo_status/{id}', 'update_todo_status')->name('update_todo_status');
+        Route::get('/delete_todo_status/{id}', 'delete_todo_status')->name('delete_todo_status');
+        Route::get('/viewTask', 'viewTask')->name('viewTask');
+        Route::get('/settings', 'settings')->name('settings');
+        Route::post('/settings/update', 'updateSettings')->name('settings.update');
         Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         Route::get('/sign-up', 'signup')->name('mentors.sign-up');
         // Route::get('/create', 'create')->name('create');
