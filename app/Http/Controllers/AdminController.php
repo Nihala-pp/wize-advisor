@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Setting;
 use App\Models\TodoList;
 use App\Models\User;
+use App\Models\UserMeta;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -27,7 +29,9 @@ class AdminController extends Controller
 
     public function user_profiles()
     {
-        return view('admin.user_list');
+        $users = User::where('role_id', 3)->get();
+
+        return view('admin.user_list', ['users' => $users]);
     }
 
     public function view_profile()
@@ -144,5 +148,41 @@ class AdminController extends Controller
         Setting::updateSettings($settings);
 
         return $this->json_response("success", $settings, __("Settings Saved"));
+    }
+
+    public function add_user()
+    {
+        return view('admin.add-user');
+    }
+
+    public function create_user(Request $request)
+    {
+        // dd($request->name);
+        $users = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => bcrypt($request->pass),
+            'role_id' => 3,
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ];
+
+        $user_record = User::create([
+            $users
+        ]);
+
+        $meta_data = [
+            'user_id' => $user_record->id,
+            'mobile' => $request->phone,
+            'company' => $request->company,
+            'designation' => $request->designation,
+            'address' => $request->address,
+            'social_linked_in' => $request->linkedin,
+            'industry' => $request->industry,
+            'expertise' => $request->expertise,
+            'language' => $request->language,
+        ];
+
+        UserMeta::update_user_details($meta_data);
     }
 }

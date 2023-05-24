@@ -64,6 +64,8 @@ Route::controller(AdminController::class)
     ->group(function () {
         Route::get('/', 'index')->name('dashboard');
         Route::get('/user_profiles', 'user_profiles')->name('user_profiles.index');
+        Route::get('/add_user', 'add_user')->name('users.add');
+        Route::post('/create_user', 'create_user')->name('users.create');
         Route::get('/view_profile', 'view_profile')->name('user_profiles.view_profile');
         Route::get('/mentors', 'list_mentors')->name('mentors.list_mentors');
         Route::get('/mentors_profile', 'mentors_profile')->name('mentors.mentors_profile');
