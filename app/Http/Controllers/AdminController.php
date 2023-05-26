@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\LoginActivity;
 use App\Models\Setting;
 use App\Models\TodoList;
 use App\Models\User;
 use App\Models\UserMeta;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class AdminController extends Controller
 {
@@ -34,19 +36,27 @@ class AdminController extends Controller
         return view('admin.user_list', ['users' => $users]);
     }
 
-    public function view_profile()
+    public function view_profile($id)
     {
-        return view('admin.view_profile');
+        Log::info('Showing user profile for user: ' . $id);
+
+        $data = User::find($id);
+
+        return view('admin.view_profile', compact('data'));
     }
 
     public function list_mentors()
     {
-        return view('admin.mentors');
+        $mentors = User::where('role_id', 2)->get();
+
+        return view('admin.mentors', compact('mentors'));
     }
 
-    public function mentors_profile()
+    public function mentors_profile($id)
     {
-        return view('admin.mentors_profile');
+        $mentor = User::find($id);
+
+        return view('admin.mentors_profile', compact('mentor'));
     }
 
     public function reviews()
@@ -157,22 +167,17 @@ class AdminController extends Controller
 
     public function create_user(Request $request)
     {
-        // dd($request->name);
         $users = [
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->pass),
             'role_id' => 3,
-            'created_at' => Carbon::now(),
-            'updated_at' => Carbon::now(),
         ];
 
-        $user_record = User::create([
-            $users
-        ]);
+        $user_record = User::create($users);
 
         $meta_data = [
-            'user_id' => $user_record->id,
+            'user_id' => $user_record['id'],
             'mobile' => $request->phone,
             'company' => $request->company,
             'designation' => $request->designation,
@@ -184,5 +189,71 @@ class AdminController extends Controller
         ];
 
         UserMeta::update_user_details($meta_data);
+    }
+
+    public function add_mentors($id = null)
+    {
+        $data = '';
+
+        if (!empty($id)) {
+            $data = User::find($id);
+        }
+
+        return view('admin.add-mentors', compact('data'));
+    }
+
+    public function save_mentors(Request $request)
+    {
+        $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
+        $request->profile_pic->move(public_path('assets/img'), $pro_pic);
+        // dd($request->all());
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'role_id' => 2,
+        ];
+
+        $user_record = User::updateOrCreate(
+            ['id' => $request->row_id],
+            $data
+        );
+
+        $meta_data = [
+            'user_id' => $user_record['id'],
+            'mobile' => $request->phone,
+            'company' => $request->company,
+            'designation' => $request->designation,
+            'address' => $request->address,
+            'social_linked_in' => $request->linked_in,
+            'youtube_link' => $request->youtube_link,
+            'website_link' => $request->website_link,
+            'industry' => $request->industry,
+            'expertise' => json_encode($request->expertise),
+            'price_per_call' => $request->price_per_call,
+            'profile_pic' => $pro_pic,
+            'about_me' => $request->bio,
+            'company_name' => $request->company_name,
+            'year' => $request->year,
+            'position' => $request->position,
+            'commission' => $request->commission,
+            'language' => json_encode($request->languages)
+        ];
+
+        UserMeta::update_user_details($request->row_id, $meta_data);
+    }
+
+    public function login_history()
+    {
+        $activities = LoginActivity::get();
+
+        return view('admin.login_history', compact('activities'));
+    }
+
+    public function logs()
+    {
+        $data = '';
+        // dd($monolog);
+
+        return view('admin.logs', compact('data'));
     }
 }

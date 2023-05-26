@@ -8,6 +8,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Auth\Passwords\CanResetPassword;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+
 
 class User extends Authenticatable
 {
@@ -25,6 +27,7 @@ class User extends Authenticatable
         'social_id',
         'social_type',
         'role_id'
+
     ];
 
     /**
@@ -54,5 +57,13 @@ class User extends Authenticatable
     public function getIsAdminAttribute()
     {
         return $this->roles()->where('id', 1)->exists();
+    }
+
+    /**
+     * Get the phone record associated with the user.
+     */
+    public function metaData(): HasOne
+    {
+        return $this->hasOne(UserMeta::class, 'user_id', 'id');
     }
 }

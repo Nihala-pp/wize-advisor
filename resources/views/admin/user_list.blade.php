@@ -447,6 +447,7 @@
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">{{ $user->name }}</h6>
+                            <p class="text-xs text-secondary mb-0">{{ 'USR000'.$user->id }}</p>
                             <p class="text-xs text-secondary mb-0">{{ $user->email }}</p>
                           </div>
                         </div>
@@ -462,7 +463,7 @@
                         <span class="text-secondary text-xs font-weight-bold">{{ $user->created_at }}</span>
                       </td>
                       <td class="align-middle">
-                        <a href="{{ route('admin.user_profiles.view_profile') }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View user">
+                        <a href="{{ route('admin.user_profiles.view_profile',[$user->id]) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View user">
                           View
                         </a>
                       </td>

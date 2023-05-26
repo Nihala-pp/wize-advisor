@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
+
 <body class="g-sidenav-show bg-gray-200">
-@include('partials.sidebar')
+  @include('partials.sidebar')
   <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
     <!-- Navbar -->
     <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
@@ -134,13 +135,13 @@
           <div class="col-auto my-auto">
             <div class="h-100">
               <h5 class="mb-1">
-                Richard Davis
+                {{ $data->name }}
               </h5>
               <p class="mb-0 font-weight-normal text-sm">
-                CEO / Co-Founder
+                {{ $data->metaData->designation }}
               </p>
               <p class="mb-0 font-weight-normal text-sm">
-                Pentame LLC
+                {{ $data->metaData->company }}
               </p>
             </div>
           </div>
@@ -211,7 +212,7 @@
                         <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault4" checked>
                         <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault4">Delete Account</label>
                       </div>
-                    </li>               
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -232,17 +233,17 @@
                 </div>
                 <div class="card-body p-3">
                   <p class="text-sm">
-                    Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).
+                    {{ $data->metaData->about_me }}
                   </p>
                   <hr class="horizontal gray-light my-4">
                   <ul class="list-group">
-                    <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; Alec M. Thompson</li>
-                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
-                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
-                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; USA</li>
+                    <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; {{ $data->name }}</li>
+                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; {{ $data->metaData->mobile }}</li>
+                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; {{ $data->email }}</li>
+                    <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; {{ $data->metaData->address }}</li>
                     <li class="list-group-item border-0 ps-0 pb-0">
                       <strong class="text-dark text-sm">Social:</strong> &nbsp;
-                      <a class="btn btn-linkedin btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
+                      <a class="btn btn-linkedin btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $data->metaData->social_linked_in }}">
                         <i class="fab fa-linkedin fa-lg"></i>
                       </a>
                       <a class="btn btn-facebook btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
@@ -321,11 +322,50 @@
               </div>
             </div>
             <div class="col-12 mt-4">
-              <div class="mb-5 ps-3">
-                <h6 class="mb-1">Expertise</h6>
-                <p class="text-sm">Architects design houses</p>
+              <div class="ps-3">
+                <h6 class="mb-1">Expertise looking For</h6>
+                <p class="text-sm">
+                  @php
+                  $decoded = json_decode($data->metaData->expertise, true);
+                  foreach($decoded as $d) {
+                  foreach($d as $k=>$v) {
+                  echo "$v,\n";
+                  }
+                  }
+                  @endphp
+                </p>
               </div>
-              <div class="row">
+            </div>
+            <div class="col-12">
+              <div class="ps-3">
+                <h6 class="mb-1">Industry</h6>
+                <p class="text-sm">
+                  @php
+                  $decoded = json_decode($data->metaData->industry, true);
+                  foreach($decoded as $d) {
+                  foreach($d as $k=>$v) {
+                  echo "$v,\n";
+                  }
+                  }
+                  @endphp
+                </p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="ps-3">
+                <h6 class="mb-1">Language</h6>
+                <p class="text-sm">
+                  @php
+                  $decoded = json_decode($data->metaData->language, true);
+                  foreach($decoded as $d) {
+                  foreach($d as $k=>$v) {
+                  echo "$v,\n";
+                  }
+                  }
+                  @endphp
+                </p>
+              </div>
+              <!-- <div class="row">
                 <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
                   <div class="card card-blog card-plain">
                     <div class="card-header p-0 mt-n4 mx-3">
@@ -474,15 +514,16 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
     </div>
-    @include('partials.footer')
+    <!-- @include('partials.footer') -->
   </div>
   @include('partials.settings')
   <!--   Core JS Files   -->
 </body>
+
 </html>

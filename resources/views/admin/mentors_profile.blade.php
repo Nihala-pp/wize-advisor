@@ -10,7 +10,7 @@
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
+                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Mentors</a></li>
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Profile</li>
                     </ol>
                     <h6 class="font-weight-bolder mb-0">Profile</h6>
@@ -129,19 +129,19 @@
                 <div class="row gx-4 mb-2">
                     <div class="col-auto">
                         <div class="avatar avatar-xl position-relative">
-                            <img src="{{ asset('assets/img/bruce-mars.jpg') }}" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+                            <img src="{{ asset('assets/img/').'/'.$mentor->metaData->profile_pic }}" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
                         </div>
                     </div>
                     <div class="col-auto my-auto">
                         <div class="h-100">
                             <h5 class="mb-1">
-                                Richard Davis
+                                {{ $mentor->name }}
                             </h5>
                             <p class="mb-0 font-weight-normal text-sm">
-                                CEO / Co-Founder
+                                {{ $mentor->metaData->designation }}
                             </p>
                             <p class="mb-0 font-weight-normal text-sm">
-                                Pentame LLC
+                                {{ $mentor->metaData->company }}
                             </p>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                                             <h6 class="mb-0">Profile Information</h6>
                                         </div>
                                         <div class="col-md-4 text-end">
-                                            <a href="javascript:;">
+                                            <a href="{{ route('admin.mentors.add',[$mentor->id]) }}">
                                                 <i class="fas fa-user-edit text-secondary text-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Profile"></i>
                                             </a>
                                         </div>
@@ -233,24 +233,26 @@
                                 </div>
                                 <div class="card-body p-3">
                                     <p class="text-sm">
-                                        Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).
+                                        {{ $mentor->metaData->about_me }}
                                     </p>
                                     <hr class="horizontal gray-light my-4">
                                     <ul class="list-group">
-                                        <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; Alec M. Thompson</li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; USA</li>
+                                        <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp;{{ $mentor->name }}</li>
+                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; {{ $mentor->metadata->mobile }}</li>
+                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; {{ $mentor->email }}</li>
+                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; {{ $mentor->metadata->address }}</li>
+                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Price per call:</strong> &nbsp; {{ $mentor->metadata->price_per_call }}</li>
+                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Commission:</strong> &nbsp; {{ $mentor->metadata->commission }}</li>
                                         <li class="list-group-item border-0 ps-0 pb-0">
                                             <strong class="text-dark text-sm">Social:</strong> &nbsp;
-                                            <a class="btn btn-linkedin btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
+                                            <a class="btn btn-linkedin btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $mentor->metadata->social_linked_in }}">
                                                 <i class="fab fa-linkedin fa-lg"></i>
                                             </a>
-                                            <a class="btn btn-facebook btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
-                                                <i class="fab fa-facebook fa-lg"></i>
+                                            <a class="btn btn-facebook btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $mentor->metadata->youtube_link }}">
+                                                <i class="fab fa-youtube fa-lg"></i>
                                             </a>
-                                            <a class="btn btn-twitter btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
-                                                <i class="fab fa-twitter fa-lg"></i>
+                                            <a class="btn btn-twitter btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $mentor->metadata->website_link }}">
+                                                <i class="fab fa-website fa-lg"></i>
                                             </a>
                                             <a class="btn btn-instagram btn-simple mb-0 ps-1 pe-2 py-0" href="javascript:;">
                                                 <i class="fab fa-instagram fa-lg"></i>
@@ -319,6 +321,30 @@
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Expertise</h6>
+                                <p class="text-sm">
+                                    @php
+                                    $decoded = json_decode($mentor->metaData->expertise, true); 
+                                    foreach($decoded as $d) {
+                                    echo "$d\n"; 
+                                    }
+                                    @endphp
+                                </p>
+                            </div>
+                            <div class="ps-3">
+                                <h6 class="mb-1">Languages</h6>
+                                <p class="text-sm">
+                                    @php
+                                    $decoded = json_decode($mentor->metaData->language, true);
+                                    foreach($decoded as $d) {
+                                        echo "$d\n";
+                                    }                 
+                                    @endphp
+                                </p>
                             </div>
                         </div>
                         <!-- <div class="col-12 mt-4">

@@ -66,9 +66,11 @@ Route::controller(AdminController::class)
         Route::get('/user_profiles', 'user_profiles')->name('user_profiles.index');
         Route::get('/add_user', 'add_user')->name('users.add');
         Route::post('/create_user', 'create_user')->name('users.create');
-        Route::get('/view_profile', 'view_profile')->name('user_profiles.view_profile');
+        Route::get('/view_profile/{id?}', 'view_profile')->name('user_profiles.view_profile');
         Route::get('/mentors', 'list_mentors')->name('mentors.list_mentors');
-        Route::get('/mentors_profile', 'mentors_profile')->name('mentors.mentors_profile');
+        Route::post('/save_mentors', 'save_mentors')->name('mentors.save');
+        Route::get('/add_mentors/{id?}', 'add_mentors')->name('mentors.add');
+        Route::get('/mentors_profile/{id?}', 'mentors_profile')->name('mentors.mentors_profile');
         Route::get('/reviews', 'reviews')->name('mentors.reviews');
         Route::get('/experience', 'experience')->name('mentors.experience');
         Route::get('/expertise', 'expertise')->name('mentors.expertise');
@@ -80,6 +82,8 @@ Route::controller(AdminController::class)
         Route::get('/viewTask', 'viewTask')->name('viewTask');
         Route::get('/settings', 'settings')->name('settings');
         Route::post('/settings/update', 'updateSettings')->name('settings.update');
+        Route::get('/login_history', 'login_history')->name('login_history');
+        Route::get('/logs', 'logs')->name('logs');
         Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         Route::get('/sign-up', 'signup')->name('mentors.sign-up');
         // Route::get('/create', 'create')->name('create');
