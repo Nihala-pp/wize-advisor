@@ -49,8 +49,14 @@ class AuthController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
+            if (auth()->user()->role_id == 1) {
+                return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
+            } elseif (auth()->user()->role_id == 2) {
+                return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin');
+            }       
+
             // if (auth()->user()->name == 'Admin') {
-            return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
+            // return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
             // } else {
             //     return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin');
             // }

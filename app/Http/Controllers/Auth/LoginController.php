@@ -41,10 +41,10 @@ class LoginController extends Controller
     public function redirectTo()
     {
 
-        if (auth()->user()->name == 'Admin') {
+        if (auth()->user()->role_id == 1) {
             return $this->redirectTo = route('admin.dashboard');
-        } else {
+        } elseif (auth()->user()->role_id == 2) {
             return $this->redirectTo = route('mentor.dashboard');
-        }
+        }       
     }
 }
