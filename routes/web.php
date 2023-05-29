@@ -8,9 +8,7 @@ use App\Http\Controllers\Auth\LinkedinSocialiteController;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\Events\PasswordReset;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Password;
-use Illuminate\Support\Str;
+
 
 /*
 |--------------------------------------------------------------------------
