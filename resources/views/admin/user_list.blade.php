@@ -140,12 +140,13 @@
             </div>
             <div class="ms-auto my-auto mt-lg-3">
               <div class="ms-auto my-auto">
+                <a href="{{ route('admin.users.add') }}" class="btn bg-gradient-primary btn-sm mb-0" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New User</a>
                 <!-- <a class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User" data-bs-url="{{ route('admin.users.add') }}" data-bs-selector="#cm_lg_Modal" type="button">
                   <span class="btn-inner--text1">{{ __('+ New') . ' ' . __('User') }}</span>
                 </a> -->
-                <button type="button" class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="modal" data-bs-target="#import" fdprocessedid="j9ya3f">
+                <!-- <button type="button" class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="modal" data-bs-target="#import" fdprocessedid="j9ya3f">
                   +&nbsp; New User
-                </button>
+                </button> -->
                 <!-- <a href="./new-product.html" class="btn bg-gradient-primary btn-sm mb-0" target="_blank">+&nbsp; New Product</a> -->
                 <!-- <div class="modal fade" id="import" tabindex="-1" style="display: none;" aria-hidden="true">
                   <div class="modal-dialog mt-lg-10">

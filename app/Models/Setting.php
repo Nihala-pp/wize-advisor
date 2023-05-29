@@ -13,9 +13,7 @@ class Setting extends Model
 
     public static function updateSettings($data)
     {
-        Self::create([
-            $data
-        ]);
+        Self::create($data);
         return $data;
     }
 }

@@ -64,16 +64,16 @@ Route::controller(AdminController::class)
     ->group(function () {
         Route::get('/', 'index')->name('dashboard');
         Route::get('/user_profiles', 'user_profiles')->name('user_profiles.index');
-        Route::get('/add_user', 'add_user')->name('users.add');
+        Route::get('/add_user/{id?}', 'add_user')->name('users.add');
         Route::post('/create_user', 'create_user')->name('users.create');
         Route::get('/view_profile/{id?}', 'view_profile')->name('user_profiles.view_profile');
         Route::get('/mentors', 'list_mentors')->name('mentors.list_mentors');
         Route::post('/save_mentors', 'save_mentors')->name('mentors.save');
         Route::get('/add_mentors/{id?}', 'add_mentors')->name('mentors.add');
         Route::get('/mentors_profile/{id?}', 'mentors_profile')->name('mentors.mentors_profile');
-        Route::get('/reviews', 'reviews')->name('mentors.reviews');
-        Route::get('/experience', 'experience')->name('mentors.experience');
-        Route::get('/expertise', 'expertise')->name('mentors.expertise');
+        Route::get('/reviews/{id?}', 'reviews')->name('mentors.reviews');
+        Route::get('/experience/{id?}', 'experience')->name('mentors.experience');
+        Route::get('/expertise/{id?}', 'expertise')->name('mentors.expertise');
         Route::get('/scheduled-calls', 'scheduledCalls')->name('mentors.scheduled-calls');
         Route::post('/mark-as-read', 'markNotification')->name('markNotification');
         Route::post('/addTodoList', 'addTodoList')->name('addTodoList');

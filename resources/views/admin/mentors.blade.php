@@ -143,9 +143,9 @@
             </div>
             <div class="ms-auto my-auto mt-lg-3">
               <div class="ms-auto my-auto">
-              <a href="{{ route('admin.mentors.add') }}" class="btn bg-gradient-primary btn-sm mb-0" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New Mentor</a>
+                <a href="{{ route('admin.mentors.add') }}" class="btn bg-gradient-primary btn-sm mb-0" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New Mentor</a>
                 <!-- <a class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User" data-bs-url="{{ route('admin.users.add') }}" data-bs-selector="" type="button"> -->
-                  <!-- <span class="btn-inner--text1">{{ __('+ New') . ' ' . __('Mentor') }}</span>
+                <!-- <span class="btn-inner--text1">{{ __('+ New') . ' ' . __('Mentor') }}</span>
                 </a> -->
                 <!-- <button type="button" class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="modal" data-bs-target="#import" fdprocessedid="j9ya3f">
                   +&nbsp; New User
@@ -439,6 +439,9 @@
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Registered at</th>
                       <th class="text-secondary opacity-7"></th>
+                      <th class="text-secondary opacity-7"></th>
+                      <th class="text-secondary opacity-7"></th>
+                      <th class="text-secondary opacity-7"></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -468,7 +471,22 @@
                       </td>
                       <td class="align-middle">
                         <a href="{{ route('admin.mentors.mentors_profile',[$mentor->id]) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View Profile">
-                          View
+                          View Profile
+                        </a>
+                      </td>
+                      <td class="align-middle">
+                        <a href="{{ route('admin.mentors.experience',[$mentor->id]) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View Profile">
+                          View Experience
+                        </a>
+                      </td>
+                      <td class="align-middle">
+                        <a href="{{ route('admin.mentors.expertise',[$mentor->id]) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View Experience">
+                          View Blogs
+                        </a>
+                      </td>
+                      <td class="align-middle">
+                        <a href="{{ route('admin.mentors.reviews',[$mentor->id]) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View Experience">
+                          View Reviews
                         </a>
                       </td>
                     </tr>

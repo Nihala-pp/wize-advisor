@@ -59,17 +59,19 @@ class AdminController extends Controller
         return view('admin.mentors_profile', compact('mentor'));
     }
 
-    public function reviews()
+    public function reviews($id=null)
     {
         return view('admin.reviews');
     }
 
-    public function experience()
+    public function experience($id=null)
     {
-        return view('admin.experience');
+        $data = UserMeta::where('user_id', $id)->first();
+
+        return view('admin.experience', compact('data'));
     }
 
-    public function expertise()
+    public function expertise($id=null)
     {
         return view('admin.expertise');
     }
@@ -160,13 +162,22 @@ class AdminController extends Controller
         return $this->json_response("success", $settings, __("Settings Saved"));
     }
 
-    public function add_user()
+    public function add_user($id = null)
     {
-        return view('admin.add-user');
+        $data = '';
+
+        if (!empty($id)) {
+            $data = User::find($id);
+        }
+
+        return view('admin.add-user', compact('data'));
     }
 
     public function create_user(Request $request)
     {
+        $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
+        $request->profile_pic->move(public_path('assets/img'), $pro_pic);
+
         $users = [
             'name' => $request->name,
             'email' => $request->email,
@@ -174,7 +185,10 @@ class AdminController extends Controller
             'role_id' => 3,
         ];
 
-        $user_record = User::create($users);
+        $user_record = User::updateOrCreate(
+            ['id' => $request->row_id],
+            $users
+        );
 
         $meta_data = [
             'user_id' => $user_record['id'],
@@ -186,9 +200,10 @@ class AdminController extends Controller
             'industry' => $request->industry,
             'expertise' => $request->expertise,
             'language' => $request->language,
+            'profile_pic' => $pro_pic
         ];
 
-        UserMeta::update_user_details($meta_data);
+        UserMeta::update_user_details($request->row_id, $meta_data);
     }
 
     public function add_mentors($id = null)
