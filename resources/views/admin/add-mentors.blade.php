@@ -144,27 +144,27 @@
                                     <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Full Name</label>
-                                        <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}">
+                                        <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Email</label>
-                                        <input type="email" name="email" class="form-control" value="{{ $data->email ? : '' }}">
+                                        <input type="email" name="email" class="form-control" value="{{ $data->email ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
-                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ? : '' }}">
+                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Linked-In Profile</label>
-                                        <input type="url" class="form-control" name="linked_in" value="{{ $data->metaData->social_linked_in ? : '' }}">
+                                        <input type="url" class="form-control" name="linked_in" value="{{ $data->metaData->social_linked_in ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Youtube Link (if any)</label>
-                                        <input type="url" class="form-control" name="youtube_link" value="{{ $data->metaData->youtube_link ? : '' }}">
+                                        <input type="url" class="form-control" name="youtube_link" value="{{ $data->metaData->youtube_link ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Website Link (if any)</label>
-                                        <input type="url" class="form-control" name="website_link" value="{{ $data->metaData->website_link ? : '' }}">
+                                        <input type="url" class="form-control" name="website_link" value="{{ $data->metaData->website_link ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">BIO</label>
@@ -172,27 +172,27 @@
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Company</label>
-                                        <input type="text" name="company" class="form-control" value="{{ $data->metaData->company ? : '' }}">
+                                        <input type="text" name="company" class="form-control" value="{{ $data->metaData->company ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Designation</label>
-                                        <input type="text" name="designation" class="form-control" value="{{ $data->metaData->designation ? : '' }}">
+                                        <input type="text" name="designation" class="form-control" value="{{ $data->metaData->designation ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Price per call</label>
-                                        <input type="number" name="price_per_call" class="form-control" value="{{ $data->metaData->price_per_call ? : '' }}">
+                                        <input type="number" name="price_per_call" class="form-control" value="{{ $data->metaData->price_per_call ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Wise Advizor Commission</label>
-                                        <input type="number" name="commission" class="form-control" value="{{ $data->metaData->commission ? : '' }}">
+                                        <input type="number" name="commission" class="form-control" value="{{ $data->metaData->commission ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <!-- <label class="form-label">Expertise</label> -->
-                                        <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ? : '' }}" placeholder="Type Expertise and press enter">
+                                        <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ? : '' }}" placeholder="Type Expertise and press enter" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Languages</label>
-                                        <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ? : '' }}" placeholder="Type Languages and press enter">
+                                        <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ? : '' }}" placeholder="Type Languages and press enter" required>
                                     </div>
                                     <div class="panel panel-default">
                                         <div class="panel-heading"> Experience</div>
@@ -201,17 +201,17 @@
                                             </div>
                                             <!-- <div class="col-sm-4"> -->
                                             <div class="input-group input-group-outline my-3">
-                                                <input type="text" name="company_name" class="form-control" placeholder="Company Name" value="{{ $data->metaData->company_name ? : '' }}">
+                                                <input type="text" name="company_name" class="form-control" placeholder="Company Name" value="{{ $data->metaData->company_name ? : '' }}" required>
                                             </div>
                                             <!-- </div> -->
                                             <!-- <div class="col-sm-4"> -->
                                             <div class="input-group input-group-outline my-3">
-                                                <input type="text" class="form-control" id="Major" name="position" value="{{ $data->metaData->position ? : '' }}" placeholder="Position">
+                                                <input type="text" class="form-control" id="Major" name="position" value="{{ $data->metaData->position ? : '' }}" placeholder="Position" required>
                                             </div>
                                             <!-- <div class="col-sm-3 nopadding">
                                                 <div class="form-group"> -->
                                             <div class="input-group input-group-outline my-3">
-                                                <select class="form-control" id="educationDate" name="year">
+                                                <select class="form-control" id="educationDate" name="year" required>
                                                     <option value="">Date</option>
                                                     <option value="2015">2015</option>
                                                     <option value="2016">2016</option>
@@ -230,7 +230,7 @@
                                     </div>
                                     <div class="input-group input-group-static my-3">
                                         <label>Profile Pic</label>
-                                        <input type="file" name="profile_pic" class="form-control">
+                                        <input type="file" name="profile_pic" class="form-control" required>
                                     </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
