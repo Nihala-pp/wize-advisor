@@ -2,10 +2,6 @@
 =========================================================
 * Material Dashboard 2 - v3.0.0
 =========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
 * Coded by Nihala PP
 =========================================================
 -->
@@ -35,9 +31,9 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                                <i class="fa fa-user me-sm-1"></i>
-                                <span class="d-sm-inline d-none">Sign In</span>
+                        <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
+                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                            <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -152,83 +148,43 @@
                                         <tr>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Description</th>
                                             <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        @foreach($upcoming_sessions as $upcoming_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Ankur</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}</h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    2023-07-05 13:45
+                                                {{ $upcoming_session->date.' '.$upcoming_session->start_time. ' - ' .$upcoming_session->end_time }}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar-group mt-2">
+                                                {{ $upcoming_session->description }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ $upcoming_session->call_link }}" target="_blank" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
                                                         Join Session
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Nihala</h6>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    2023-07-09 15:45
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Join Session
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Shikha</h6>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    2023-07-08 16:45
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Join Session
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -256,98 +212,54 @@
                                         <tr>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Description</th>
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Documents</th>
                                             <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach($requested_sessions as $requested_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Ankur</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user->name }}</h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    2023-07-05 13:45
+                                                {{ $requested_session->date.' '.$requested_session->start_time. ' - ' .$requested_session->end_time }}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar-group mt-2">
+                                                {{ $requested_session->description }}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar-group mt-2">
+                                                {{ $requested_session->documents }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Approve Session">
+                                                    <a href="{{ route('mentor.update_status',[$requested_session->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Approve Session">
                                                         Approve
                                                     </a>
                                                 </div>
                                                 <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reject Session">
+                                                    <a href="{{ route('mentor.reject_call',[$requested_session->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reject Session">
                                                         Reject
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Nihala</h6>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    2023-07-09 15:45
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Approve Session">
-                                                        Approve
-                                                    </a>
-                                                </div>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reject Session">
-                                                        Reject
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Shikha</h6>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    2023-07-08 16:45
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Approve Session">
-                                                        Approve
-                                                    </a>
-                                                </div>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reject Session">
-                                                        Reject
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -381,20 +293,21 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach($completed_sessions as $completed_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Ankur</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user->name }}</h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    2023-07-05 13:45
+                                                {{ $completed_session->date.' '.$completed_session->start_time. ' - ' .$completed_session->end_time }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
@@ -405,54 +318,7 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Nihala</h6>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    2023-07-09 15:45
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Review
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Shikha</h6>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    2023-07-08 16:45
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Review
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                             </div>

@@ -147,9 +147,9 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                                <i class="fa fa-user me-sm-1"></i>
-                                <span class="d-sm-inline d-none">Sign In</span>
+                            <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
+                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                            <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -254,7 +254,7 @@
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Total Calls Scheduled </p>
-                                <h4 class="mb-0">20</h4>
+                                <h4 class="mb-0">{{ $total_calls_scheduled }}</h4>
                             </div>
                         </div>
                         <hr class="dark horizontal my-0">
@@ -270,8 +270,8 @@
                                 <i class="material-icons opacity-10">person</i>
                             </div>
                             <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize">Completed Calls</p>
-                                <h4 class="mb-0">8</h4>
+                                <p class="text-sm mb-0 text-capitalize">Approved Calls</p>
+                                <h4 class="mb-0">{{ $total_calls_approved }}</h4>
                             </div>
                         </div>
                         <hr class="dark horizontal my-0">
@@ -287,8 +287,8 @@
                                 <i class="material-icons opacity-10">person</i>
                             </div>
                             <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize">New Clients</p>
-                                <h4 class="mb-0">32</h4>
+                                <p class="text-sm mb-0 text-capitalize">Rejected Calls</p>
+                                <h4 class="mb-0">{{ $total_calls_rejected }}</h4>
                             </div>
                         </div>
                         <hr class="dark horizontal my-0">
@@ -304,9 +304,9 @@
                                 <i class="material-icons opacity-10">weekend</i>
                             </div>
                             <div class="text-end pt-1">
-                                <p class="text-sm mb-0 text-capitalize">My Earnings</p>
-                                <h4 class="mb-0">$103,430</h4>
-                            </div>
+                                <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
+                                <h4 class="mb-0">${{ $total_earning }}</h4>
+                            </div> 
                         </div>
                         <hr class="dark horizontal my-0">
                         <div class="card-footer p-3">

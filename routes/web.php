@@ -97,10 +97,12 @@ Route::controller(MentorController::class)
     ->group(function () {
         Route::get('/dashboard', 'index')->name('dashboard');
         Route::get('/dashboard/my_sessions', 'my_sessions')->name('dashboard.my_sessions');
-        Route::get('/dashboard/profile', 'profile')->name('dashboard.profile');
+        Route::get('/dashboard/profile/{id?}', 'profile')->name('dashboard.profile');
         Route::get('/dashboard/reviews', 'reviews')->name('dashboard.reviews');
         Route::get('/dashboard/experience', 'experience')->name('dashboard.experience');
         Route::get('/dashboard/expertise', 'expertise')->name('dashboard.expertise');
         Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
+        Route::get('/update_status/{id?}', 'update_status')->name('update_status');
+        Route::get('/reject_call/{id?}', 'reject_call')->name('reject_call');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });

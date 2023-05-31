@@ -35,9 +35,9 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                                <i class="fa fa-user me-sm-1"></i>
-                                <span class="d-sm-inline d-none">Sign In</span>
+                        <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
+                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                            <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -139,50 +139,40 @@
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-10 col-xl-8 text-center">
                             <h3 class="mb-4">Testimonials</h3>
-                            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                            <!-- <p class="mb-4 pb-2 mb-md-5 pb-md-0">
                                 Autem, totam debitis suscipit saepe
                                 sapiente magnam officiis quaerat necessitatibus odio assumenda perferendis
                                 labore laboriosam.
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                     <div class="row text-center d-flex align-items-stretch">
+                        @foreach($reviews as $review)
                         <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('public/assets/img/team-4.jpg') }}" class="rounded-circle img-fluid" />
+                                    <img src="{{ asset('public/assets/img/').'/' }}{{ $review->user->metaData->profile_pic }}" class="rounded-circle img-fluid" />
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="mb-4">Maria Smantha</h4>
-                                    <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                                    <h4 class="mb-4">{{ $review->user->name }}</h4>
+                                    <h6 class="font-weight-bold my-3">{{ $review->user->metaData->designation }} at {{ $review->user->metaData->company }}</h6>
                                     <ul class="list-unstyled d-flex justify-content-center">
+                                        @for($i=0; $i<$review->rating; $i++)
                                         <li>
                                             <i class="fas fa-star fa-sm text-info"></i>
                                         </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star-half-alt fa-sm text-info"></i>
-                                        </li>
+                                        @endfor
                                     </ul>
                                     <hr />
                                     <p class="dark-grey-text mt-4">
-                                        <i class="fas fa-quote-left pe-2"></i>Cras sit amet nibh libero, in gravida
-                                        nulla metus scelerisque ante sollicitudin commodo cras purus odio,
-                                        vestibulum in tempus viverra turpis.
+                                        <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                        @endforeach
+                        <!-- <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #7a81a8;"></div>
                                 <div class="avatar mx-auto bg-white">
@@ -250,7 +240,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
                 <!-- </div> -->
