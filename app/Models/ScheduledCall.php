@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class ScheduledCall extends Model
 {
     use HasFactory;
-    use SoftDelete;
+    use SoftDeletes;
 
     protected $table = 'scheduled_calls';
     protected $guarded = [];

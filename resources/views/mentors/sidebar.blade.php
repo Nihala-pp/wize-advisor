@@ -27,7 +27,7 @@
             </li>
             <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white " aria-controls="applicationsExamples" role="button" aria-expanded="false">
-                    <i class="fas fa-user-tag"></i>
+                    <i class="fa fa-user"></i>
                     <span class="">My Profile</span>
                 </a>
                 <div class="collapse " id="applicationsExamples">
@@ -41,13 +41,13 @@
                         <li class="nav-item ">
                             <a class="nav-link text-white " href="{{ route('mentor.dashboard.experience') }}">
                                 <span class="sidenav-mini-icon"> E </span>
-                                <span class="sidenav-normal  ms-2  ps-1"> Experience & Achievements </span>
+                                <span class="sidenav-normal  ms-2  ps-1"> Experience </span>
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-white " href="{{ route('mentor.dashboard.expertise') }}">
                                 <span class="sidenav-mini-icon"> E </span>
-                                <span class="sidenav-normal  ms-2  ps-1"> Expertise </span>
+                                <span class="sidenav-normal  ms-2  ps-1"> Blogs </span>
                             </a>
                         </li>
                     </ul>

@@ -12,7 +12,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
     <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
@@ -22,9 +21,9 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                         <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Mentor</a></li>
-                        <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Expertise</li>
+                        <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Blogs</li>
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">Expertise</h6>
+                    <h6 class="font-weight-bolder mb-0">Blogs</h6>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -35,10 +34,10 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                                <i class="fa fa-user me-sm-1"></i>
-                                <span class="d-sm-inline d-none">Sign In</span>
-                            </a>
+                        <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
+                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                                <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
+                        </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
@@ -136,8 +135,8 @@
             <div class="row">
                 <div class="col-12 mt-4">
                     <div class="mb-5 ps-3">
-                        <h6 class="mb-1">Projects</h6>
-                        <p class="text-sm">Architects design houses</p>
+                        <h6 class="mb-1"></h6>
+                        <p class="text-sm"></p>
                     </div>
                     <div class="row">
                         <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
@@ -148,7 +147,7 @@
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Project #2</p>
+                                    <p class="mb-0 text-sm">Blog #1</p>
                                     <a href="javascript:;">
                                         <h5>
                                             Modern
@@ -158,7 +157,7 @@
                                         As Uber works through a huge amount of internal management turmoil.
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Blog</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
@@ -185,7 +184,7 @@
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Project #1</p>
+                                    <p class="mb-0 text-sm">Blog #2</p>
                                     <a href="javascript:;">
                                         <h5>
                                             Scandinavian
@@ -195,7 +194,7 @@
                                         Music is something that every person has his or her own specific opinion about.
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Blog</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
@@ -203,8 +202,8 @@
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}.jpg">
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">
@@ -222,7 +221,7 @@
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Project #3</p>
+                                    <p class="mb-0 text-sm">Blog #3</p>
                                     <a href="javascript:;">
                                         <h5>
                                             Minimalist
@@ -232,7 +231,7 @@
                                         Different people have different taste, and various types of music.
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Blog</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
@@ -240,8 +239,8 @@
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}.jpg">
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">
@@ -259,7 +258,7 @@
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Project #4</p>
+                                    <p class="mb-0 text-sm">Blog #4</p>
                                     <a href="javascript:;">
                                         <h5>
                                             Gothic
@@ -269,7 +268,7 @@
                                         Why would anyone pick blue over pink? Pink is obviously a better color.
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
+                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Blog</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-2.jpg') }}">
@@ -277,8 +276,8 @@
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-1.jpg') }}">
                                             </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}.jpg">
+                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/team-3.jpg') }}">
                                             </a>
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
                                                 <img alt="Image placeholder" src="{{ asset('public/assets/img/team-4.jpg') }}">

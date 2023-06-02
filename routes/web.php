@@ -104,5 +104,9 @@ Route::controller(MentorController::class)
         Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
         Route::get('/update_status/{id?}', 'update_status')->name('update_status');
         Route::get('/reject_call/{id?}', 'reject_call')->name('reject_call');
+        Route::get('/add_mentors/{id?}', 'add_mentors')->name('add');
+        Route::post('/account_status', 'account_status')->name('account_status');
+        Route::post('/delete', 'delete_account')->name('delete_account');
+        Route::post('/save_mentors', 'save_mentors')->name('save');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });

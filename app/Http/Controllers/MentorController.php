@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\ScheduledCall;
 use App\Models\Review;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Carbon;
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\UserMeta;
 
 
 class MentorController extends Controller
@@ -33,7 +35,10 @@ class MentorController extends Controller
 
     public function profile()
     {
-        return view('mentors.profile');
+        $profile = User::find(Auth::id());
+        $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
+
+        return view('mentors.profile', compact('profile','scheduled_calls'));
     }
 
     public function reviews()
@@ -66,5 +71,65 @@ class MentorController extends Controller
     public function reject_call($id)
     {
        ScheduledCall::find($id)->update(['status' => 'Rejected']);
+    }
+
+    public function add_mentors($id = null)
+    {
+        $data = '';
+
+        if (!empty($id)) {
+            $data = User::find($id);
+        }
+
+        return view('mentors.add-mentors', compact('data'));
+    }
+
+    public function account_status(Request $request)
+    {
+       dd($request->all());
+    }
+
+    public function delete_account(Request $request)
+    {
+
+    }
+
+    public function save_mentors(Request $request)
+    {
+        $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
+        $request->profile_pic->move(public_path('public/assets/img'), $pro_pic);
+        // dd($request->all());
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'role_id' => 2,
+        ];
+
+        $user_record = User::updateOrCreate(
+            ['id' => $request->row_id],
+            $data
+        );
+
+        $meta_data = [
+            'user_id' => $user_record['id'],
+            'mobile' => $request->phone,
+            'company' => $request->company,
+            'designation' => $request->designation,
+            'address' => $request->address,
+            'social_linked_in' => $request->linked_in,
+            'youtube_link' => $request->youtube_link,
+            'website_link' => $request->website_link,
+            'industry' => $request->industry,
+            'expertise' => json_encode($request->expertise),
+            'price_per_call' => $request->price_per_call,
+            'profile_pic' => $pro_pic,
+            'about_me' => $request->bio,
+            'company_name' => $request->company_name,
+            'year' => $request->year,
+            'position' => $request->position,
+            'language' => json_encode($request->languages)
+        ];
+
+        UserMeta::update_user_details($request->row_id, $meta_data);
     }
 }

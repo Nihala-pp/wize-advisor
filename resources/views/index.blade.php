@@ -992,9 +992,9 @@
             "_token": "{{ csrf_token() }}",
             "task": task,
           },
-          success: function() {
-            swal("Added!", "Your Task has been added.", "success");
-          }
+          // success: function() {
+          //   swal("Added!", "Your Task has been added.", "success");
+          // }
         });
       });
 

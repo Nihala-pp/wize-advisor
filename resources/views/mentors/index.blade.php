@@ -683,7 +683,7 @@
                                 </div>
                                 <div class="timeline-block mb-3">
                                     <span class="timeline-step">
-                                        <i class="material-icons text-info text-gradient">New Review from client</i>
+                                        <i class="material-icons text-info text-gradient"></i>
                                     </span>
                                     <div class="timeline-content">
                                         <h6 class="text-dark text-sm font-weight-bold mb-0">Payment for last call procedded</h6>
@@ -1103,5 +1103,4 @@
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
 </body>
-
 </html>

@@ -176,7 +176,7 @@ class AdminController extends Controller
     public function create_user(Request $request)
     {
         $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
-        $request->profile_pic->move(public_path('assets/img'), $pro_pic);
+        $request->profile_pic->move(public_path('public/assets/img'), $pro_pic);
 
         $users = [
             'name' => $request->name,
