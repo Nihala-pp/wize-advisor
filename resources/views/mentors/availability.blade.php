@@ -12,7 +12,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
     <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
@@ -35,10 +34,10 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                                <i class="fa fa-user me-sm-1"></i>
-                                <span class="d-sm-inline d-none">Sign In</span>
-                            </a>
+                        <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
+                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                                <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
+                        </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
@@ -247,7 +246,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Set your weekly hours</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -255,29 +254,55 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form role="form text-left">
+                                <form method="POST" action="{{ route('mentor.schedule.save') }}" role="form text-left">
+                                    @csrf
+                                      <input type="hidden" name="row_id" value="">
                                     <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Choose Dates</label>
-                                        <input type="text" class="form-control date" onfocus="focused(this)" onfocusout="defocused(this)">
+                                        <label class="form-label"></label>
+                                        <select class="form-control" name="time_zone" required>
+                                             <option value="">Choose your time zones</option>
+                                           @foreach($timezones as $timezone => $value)
+                                             <option value="{{ $value }}">{{ $timezone }}</option>
+                                           @endforeach
+                                        </select>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Start Time</label>
-                                        <!-- <input type="text" id="example" class="form-control" name="example" autocomplete="off" /> -->
-                                        <input type="text" class="form-control time" onfocus="focused(this)" onfocusout="defocused(this)">
-                                    </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">End Time</label>
-                                        <!-- <input type="text" id="example" class="form-control" name="example" autocomplete="off" /> -->
-                                        <input type="text" class="form-control time" onfocus="focused(this)" onfocusout="defocused(this)">
-                                    </div>
-                                </form>
+                                    @for($i=0; $i<7; $i++)
+                                      <div class="row">
+                                       <div class="col-md-3">
+                                          <div class="input-group input-group-static my-3">
+                                            <label>Date</label>
+                                            <input type="text" name="date[{{$i}}]" class="form-control date" required>
+                                         </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                         <div class="input-group input-group-static my-3">
+                                          <label>Start Time</label>
+                                          <input type="time" name="start_time[{{$i}}]" class="form-control" required>
+                                         </div>   
+                                       </div> 
+                                       <div class="col-md-3">                             
+                                          <div class="input-group input-group-static my-3">
+                                            <label>End Time</label>
+                                            <input type="time" name="end_time[{{$i}}]" class="form-control" required>
+                                         </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                          <div class="input-group input-group-static my-3">
+                                            <label></label>
+                                            <i class="fa fa-plus" id="rowAdder"> Add</i>
+                                          </div>
+                                        </div>
+                                        <div id="newinput"></div>
+                                      </div>
+                                    @endfor
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn bg-gradient-primary">Save changes</button>
+                        <button type="submit" class="btn bg-gradient-primary">Save changes</button>
                     </div>
+                  </form>
                 </div>
             </div>
         </div>
@@ -291,13 +316,40 @@
                     format: 'dd-mm-yyyy'
                 });
 
-                $('.time').timepicker({
-                    format: 'hh:mm A',
-                });
+                // $('.time').timepicker({
+                //     format: 'hh:mm A',
+                // });
+
+            $("#rowAdder").click(function () {
+              newRowAdd =
+                '<div class="row">' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label> </label>' +
+                '<input type="hidden" name="id" class="form-control">' +                
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label>Start Time</label>' +
+                '<input type="time" name="start_time[]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                ' <label>End Time</label>' +
+                '<input type="time" name="end_time[]" class="form-control">' +
+                '</div></div>' +
+                // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
+                '<i class="bi bi-trash"> Delete</i>  </div>';
+                // ' </div> </div>';
+               $('#newinput').append(newRowAdd);
             });
+
+             $("#DeleteRow").click(function () {
+               $(this).parents("#row").remove();
+             });
+          });
         </script>
 </body>
-
 </html>
 <style>
     .datepicker {

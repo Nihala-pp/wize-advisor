@@ -157,7 +157,7 @@
                   <textarea class="form-control" name="privacy_policy" rows="10" placeholder="Privacy Policy" spellcheck="true"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+            </form>
             </div>
           </div>
         </div>

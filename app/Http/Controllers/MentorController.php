@@ -10,6 +10,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
+use App\Models\AvailableSchedule;
 
 
 class MentorController extends Controller
@@ -60,7 +61,12 @@ class MentorController extends Controller
 
     public function availability()
     {
-        return view('mentors.availability');
+        $timezones = AvailableSchedule::timezones();
+        $weekStartDate = Carbon::parse('this monday')->toDateString();
+        //    dd($weekStartDate);
+
+
+        return view('mentors.availability', compact('timezones','weekStartDate'));
     }
 
     public function update_status($id)
@@ -131,5 +137,20 @@ class MentorController extends Controller
         ];
 
         UserMeta::update_user_details($request->row_id, $meta_data);
+    }
+
+    public function save_schedule(Request $request)
+    {
+          dd($request->all());
+
+        //   $data = [
+        //     'mentor_id' => Auth::id(),
+        //     'date' => $request->date,
+        //     'time_zone' => $request->time_zone,
+        //     'start_time' => $request->start_time,
+        //     'end_time' => $request->end_time
+        // ];
+
+        // AvailableSchedule::update_schedule($request->row_id, $data);
     }
 }

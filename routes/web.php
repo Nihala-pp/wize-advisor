@@ -108,5 +108,6 @@ Route::controller(MentorController::class)
         Route::post('/account_status', 'account_status')->name('account_status');
         Route::post('/delete', 'delete_account')->name('delete_account');
         Route::post('/save_mentors', 'save_mentors')->name('save');
+        Route::post('/save_schedule', 'save_schedule')->name('schedule.save');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
