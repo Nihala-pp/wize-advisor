@@ -30,8 +30,8 @@
                     <i class="fa fa-user"></i>
                     <span class="">My Profile</span>
                 </a>
-                <div class="collapse " id="applicationsExamples">
-                    <ul class="nav ">
+                <div class="collapse" id="applicationsExamples">
+                    <ul class="nav">
                         <li class="nav-item ">
                             <a class="nav-link text-white " href="{{ route('mentor.dashboard.profile') }}">
                                 <span class="sidenav-mini-icon"> P </span>
