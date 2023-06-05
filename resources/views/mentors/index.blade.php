@@ -385,12 +385,12 @@
                                 <div class="col-lg-6 col-7">
                                     <h6>Notification</h6>
                                     <p class="text-sm mb-0">
-                                        <i class="fa fa-check text-info" aria-hidden="true"></i>
-                                        <span class="font-weight-bold ms-1">30 done</span> this month
+                                        <!-- <i class="fa fa-check text-info" aria-hidden="true"></i> -->
+                                        <span class="font-weight-bold ms-1">New</span> Notifications
                                     </p>
                                 </div>
                                 <div class="col-lg-6 col-5 my-auto text-end">
-                                    <div class="dropdown float-lg-end pe-4">
+                                    <!-- <div class="dropdown float-lg-end pe-4">
                                         <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
                                             <i class="fa fa-ellipsis-v text-secondary"></i>
                                         </a>
@@ -399,34 +399,34 @@
                                             <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
                                             <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
                         <div class="card-body px-0 pb-2">
                             <div class="table-responsive">
                                 <table class="table align-items-center mb-0">
-                                    <thead>
+                                    <!-- <thead>
                                         <tr>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Companies</th>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Members</th>
                                             <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Budget</th>
                                             <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th>
                                         </tr>
-                                    </thead>
+                                    </thead> -->
                                     <tbody>
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/small-logos/logo-xd.svg') }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/1685621887.jpg') }}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">Material XD Version</h6>
+                                                        <h6 class="mb-0 text-sm">New Profile Updated</h6>
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td>
+                                            <!-- <td>
                                                 <div class="avatar-group mt-2">
                                                     <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
                                                         <img src="{{ asset('public/assets/img/team-1.jpg') }}" alt="team1">
@@ -456,9 +456,9 @@
                                                         <div class="progress-bar bg-gradient-info w-60" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
-                                            </td>
+                                            </td> -->
                                         </tr>
-                                        <tr>
+                                        <!-- <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
@@ -645,7 +645,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                        </tr>
+                                        </tr> -->
                                     </tbody>
                                 </table>
                             </div>
