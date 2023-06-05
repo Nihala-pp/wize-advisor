@@ -268,31 +268,32 @@
                                     </div>
                                     @for($i=0; $i<7; $i++)
                                       <div class="row">
-                                         <div class="col-md-3">
-                                           <div class="input-group input-group-static my-3">
+                                       <div class="col-md-3">
+                                          <div class="input-group input-group-static my-3">
                                             <label>Date</label>
                                             <input type="text" name="date[{{$i}}]" class="form-control date" required>
                                          </div>
-                                         <div class="col-md-3">
+                                       </div>
+                                       <div class="col-md-3">
                                          <div class="input-group input-group-static my-3">
                                           <label>Start Time</label>
                                           <input type="time" name="start_time[{{$i}}]" class="form-control" required>
                                          </div>   
-                                         </div> 
-                                         <div class="col-md-3">                             
-                                             <div class="input-group input-group-static my-3">
-                                              <label>End Time</label>
-                                              <input type="time" name="end_time[{{$i}}]" class="form-control" required>
-                                             </div>
-                                          </div>
-                                         <div class="col-md-3">
-                                           <div class="input-group input-group-static my-3">
-                                              <label></label>
-                                              <i class="fa fa-plus" id="rowAdder"> Add</i>
-                                           </div>
+                                       </div> 
+                                       <div class="col-md-3">                             
+                                          <div class="input-group input-group-static my-3">
+                                            <label>End Time</label>
+                                            <input type="time" name="end_time[{{$i}}]" class="form-control" required>
                                          </div>
-                                         <div id="newinput"></div>
                                        </div>
+                                       <div class="col-md-3">
+                                          <div class="input-group input-group-static my-3">
+                                            <label></label>
+                                            <i class="fa fa-plus" id="rowAdder"> Add</i>
+                                          </div>
+                                        </div>
+                                        <div id="newinput"></div>
+                                      </div>
                                     @endfor
                             </div>
                         </div>
@@ -305,7 +306,6 @@
                 </div>
             </div>
         </div>
-    </div>
         <!--====================================================
                            Requested Sessions
     ======================================================-->
