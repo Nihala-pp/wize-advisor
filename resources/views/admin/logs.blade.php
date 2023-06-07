@@ -154,9 +154,9 @@
                                             <th class="text-secondary opacity-7"></th>
                                         </tr>
                                     </thead>
-                                    @if(!empty($data))
                                     <tbody>
-                                        @foreach($data as $dt)
+                                    @if(!empty($data))
+                                      @foreach($data as $dt)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
@@ -194,11 +194,11 @@
                                                 </a>
                                             </td> -->
                                         </tr>
-                                        @endforeach
-                                    </tbody>
+                                      @endforeach
                                     @else
-                                    No Data Found
+                                        <tr><td class="nodata"><b>No Data Found</b></td></tr>
                                     @endif
+                                    </tbody>
                                 </table>
                             </div>
                         </div>
@@ -212,5 +212,10 @@
     </div>
     <!--   Core JS Files   -->
 </body>
-
 </html>
+<style>
+  td.nodata
+  {
+    padding-left:25px;
+  }
+</style>

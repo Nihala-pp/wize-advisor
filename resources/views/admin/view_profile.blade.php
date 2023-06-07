@@ -209,7 +209,7 @@
                     </li>
                     <li class="list-group-item border-0 px-0">
                       <div class="form-check form-switch ps-0">
-                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault4" checked>
+                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault4">
                         <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault4">Delete Account</label>
                       </div>
                     </li>
@@ -327,11 +327,7 @@
                 <p class="text-sm">
                   @php
                   $decoded = json_decode($data->metaData->expertise, true);
-                  foreach($decoded as $d) {
-                  foreach($d as $k=>$v) {
-                  echo "$v,\n";
-                  }
-                  }
+                 echo $decoded;
                   @endphp
                 </p>
               </div>
@@ -342,11 +338,8 @@
                 <p class="text-sm">
                   @php
                   $decoded = json_decode($data->metaData->industry, true);
-                  foreach($decoded as $d) {
-                  foreach($d as $k=>$v) {
-                  echo "$v,\n";
-                  }
-                  }
+                  echo $decoded;
+
                   @endphp
                 </p>
               </div>
@@ -357,11 +350,8 @@
                 <p class="text-sm">
                   @php
                   $decoded = json_decode($data->metaData->language, true);
-                  foreach($decoded as $d) {
-                  foreach($d as $k=>$v) {
-                  echo "$v,\n";
-                  }
-                  }
+                  echo $decoded;
+
                   @endphp
                 </p>
               </div>

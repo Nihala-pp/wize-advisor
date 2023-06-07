@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('partials.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -147,25 +146,23 @@
                             <div class="col-md-6 col-md-offset-3">
                                 <form id="msform" method="POST" action="{{ route('admin.users.create') }}" enctype="multipart/form-data">
                                     @csrf
-                                    <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
-
+                                    <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
                                     <!-- progressbar -->
-
                                     <!-- fieldsets -->
                                     <fieldset>
                                         <h2 class="fs-title">Personal Details</h2>
                                         <h3 class="fs-subtitle">Tell us something more about you</h3>
-                                        <input type="text" name="name" placeholder="Full Name" value="{{ $data->name ? : ''}}" required>
-                                        <input type="text" name="phone" placeholder="Phone" value="{{ $data->metaData->mobile ? : ''}}" required>
-                                        <input type="text" name="company" placeholder="Company" value="{{ $data->metaData->company ? : ''}}" required>
-                                        <input type="text" name="designtion" placeholder="Designation" value="{{ $data->metaData->designation ? : ''}}" required>
-                                        <input type="text" name="address" placeholder="Address" value="{{ $data->metaData->address ? : ''}}" required>
+                                        <input type="text" name="name" placeholder="Full Name" value="{{ $data->name ??  ''}}" required>
+                                        <input type="text" name="phone" placeholder="Phone" value="{{ $data->metaData->mobile ??  ''}}" required>
+                                        <input type="text" name="company" placeholder="Company" value="{{ $data->metaData->company ??  ''}}" required>
+                                        <input type="text" name="designtion" placeholder="Designation" value="{{ $data->metaData->designation ??  ''}}" required>
+                                        <input type="text" name="address" placeholder="Address" value="{{ $data->metaData->address ??  ''}}" required>
                                         <input type="button" name="next" class="next action-button" value="Next" />
                                     </fieldset>
                                     <fieldset>
                                         <h2 class="fs-title">Social Profiles</h2>
                                         <h3 class="fs-subtitle">Your presence on the social network</h3>
-                                        <input type="text" name="linkedin" placeholder="LinkedIn" value="{{ $data->metaData->social_linked_in ? : ''}}" required>
+                                        <input type="text" name="linkedin" placeholder="LinkedIn" value="{{ $data->metaData->social_linked_in ??  ''}}" required>
                                         <input type="file" name="profile_pic" class="form-control" placeholder="choose your profile pic" required>
 
                                         <!-- <input type="text" name="facebook" placeholder="Facebook" />
@@ -176,9 +173,9 @@
                                     <fieldset>
                                         <h2 class="fs-title">Specifications</h2>
                                         <h3 class="fs-subtitle">Your requirements to choose the mentor</h3>
-                                        <input name="expertise" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ? : ''}}" placeholder="Enter Expertise" required>
-                                        <input name="industry" class="form-control" id="industry-tags" data-color="dark" type="text" value="{{ $data->metaData->industry ? : ''}}" placeholder="Enter Industry" required>
-                                        <input name="language" class="form-control" id="language-tags" data-color="dark" type="text" value="{{ $data->metaData->language ? : ''}}" placeholder="Enter Language" required>
+                                        <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ??  ''}}" placeholder="Enter Expertise" required>
+                                        <input name="industry[]" class="form-control" id="industry-tags" data-color="dark" type="text" value="{{ $data->metaData->industry ??  ''}}" placeholder="Enter Industry" required>
+                                        <input name="language[]" class="form-control" id="language-tags" data-color="dark" type="text" value="{{ $data->metaData->language ??  ''}}" placeholder="Enter Language" required>
                                         <!-- <input type="text" name="facebook" placeholder="Facebook" />
                                             <input type="text" name="gplus" placeholder="Google Plus" /> -->
                                         <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
@@ -187,8 +184,8 @@
                                     <fieldset>
                                         <h2 class="fs-title">Create your account</h2>
                                         <h3 class="fs-subtitle">Fill in your credentials</h3>
-                                        <input type="text" name="email" placeholder="Email" value="{{ $data->email ? : ''}}" required>
-                                        <input type="password" name="pass" placeholder="Password" value="{{ $data->pass ? : ''}}" required>
+                                        <input type="text" name="email" placeholder="Email" value="{{ $data->email ??  ''}}" required>
+                                        <input type="password" name="pass" placeholder="Password" value="{{ $data->pass ??  ''}}" required>
                                         <input type="password" name="cpass" placeholder="Confirm Password" />
                                         <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
                                         <button type="submit" class="btn btn-primary">Submit</button>
@@ -527,8 +524,10 @@
         font-size: 12px;
         color: #333;
         background: white;
-        border-radius: 25px;
-        margin: 0 auto 10px auto;
+        border-radius: 30px;
+        margin-top:15px;
+        text-align:center;
+        /* margin: 0 auto 0px auto; */
     }
 
     /*progressbar connectors*/

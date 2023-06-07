@@ -190,8 +190,8 @@
           <ul class="navbar-nav  justify-content-end">
             <li class="nav-item d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                <i class="fa fa-user me-sm-1"></i>
-                <span class="d-sm-inline d-none">Sign In</span>
+                <img src="{{ asset('public/assets/img/user-avatar.png') }}" class="avatar avatar-sm me-3" alt="xd">
+                <span class="d-sm-inline d-none">Admin</span>
               </a>
             </li>
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -292,7 +292,7 @@
           <div class="card">
             <div class="card-header p-3 pt-2">
               <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
-                <i class="material-icons opacity-10">weekend</i>
+                <i class="fa fa-user"></i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Users</p>
@@ -309,11 +309,11 @@
           <div class="card">
             <div class="card-header p-3 pt-2">
               <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4 position-absolute">
-                <i class="material-icons opacity-10">person</i>
+                <i class="fa fa-money"></i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Amount</p>
-                <h4 class="mb-0">2,300</h4>
+                <h4 class="mb-0">$ {{ $total_amount }}</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -326,7 +326,7 @@
           <div class="card">
             <div class="card-header p-3 pt-2">
               <div class="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute">
-                <i class="material-icons opacity-10">person</i>
+                <i class="fa fa-handshake-o"></i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Mentors</p>
@@ -343,11 +343,11 @@
           <div class="card">
             <div class="card-header p-3 pt-2">
               <div class="icon icon-lg icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 position-absolute">
-                <i class="material-icons opacity-10">weekend</i>
+                <i class="fa fa-dollar"></i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
-                <h4 class="mb-0">$103,430</h4>
+                <h4 class="mb-0">$ 103,430</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -360,11 +360,11 @@
           <div class="card">
             <div class="card-header p-3 pt-2">
               <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
-                <i class="material-icons opacity-10">weekend</i>
+                <i class="fa fa-phone"></i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Calls scheduled </p>
-                <h4 class="mb-0">$53k</h4>
+                <h4 class="mb-0">$ 53k</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -437,7 +437,7 @@
         </div>
       </div>
       <div class="row mb-4">
-        <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
+        <div class="col-lg-8 col-md-8 mb-md-0 mb-4">
           <div class="card">
             <div class="card-header pb-0">
               <div class="row">
@@ -449,7 +449,7 @@
                   </p>
                 </div>
                 <div class="col-lg-6 col-5 my-auto text-end">
-                  <div class="dropdown float-lg-end pe-4">
+                  <!-- <div class="dropdown float-lg-end pe-4">
                     <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
                       <i class="fa fa-ellipsis-v text-secondary"></i>
                     </a>
@@ -458,7 +458,7 @@
                       <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
                       <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
                     </ul>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -499,7 +499,16 @@
                         </a>
                         @endif
                         @empty
-                        There are no new notifications
+                        <div class="alert alert-info noti">
+                          <!-- <button type="button" aria-hidden="true" class="close">
+                            <i class="material-icons">close</i>
+                          </button> -->
+                          <span><b>  There are no new notifications </b>
+                            <!-- <a href="#" class="float-right mark-as-read" data-id="">
+                              Mark as read
+                            </a> -->
+                          </span>
+                        </div>
                       </td>
                     </tr>
                     @endforelse
@@ -509,10 +518,10 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-4">
           <div class="card h-100">
             <div class="card-header pb-0">
-              <h6>TO-DO List</h6>
+              <h6>To Do List</h6>
             </div>
             <div class="card-body p-3">
               <div class="d-flex flex-row align-items-center">
@@ -584,7 +593,7 @@
                   document.write(new Date().getFullYear())
                 </script>,
                 made with <i class="fa fa-heart"></i> by
-                <a href=" class=" font-weight-bold" target="_blank">Pransa Investment LLC</a>
+                <a href=" class="font-weight-bold" target="_blank">Pransa Investment LLC</a>
                 for a better web.
               </div>
             </div>
@@ -689,6 +698,13 @@
       </div>
     </div>
   </div>
+<div class="modal fade bd-example-modal-sm info-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content info">
+      ...
+    </div>
+  </div>
+</div>
   <!--   Core JS Files   -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
@@ -1006,19 +1022,21 @@
             id: taskId
           },
           function(response) {
-            return new swal({
-              title: "To Do List",
-              text: response,
-              type: "info",
-              showCancelButton: true,
-              closeOnConfirm: false,
-              showLoaderOnConfirm: true
-            }, function() {
-              setTimeout(function() {
-                swal("Ajax request finished!");
-              }, 2000);
-            });
+                $('body').find('.info').html(response); 
+            // return new swal({
+            //   title: "To Do List",
+            //   text: response,
+            //   type: "info",
+            //   showCancelButton: true,
+            //   closeOnConfirm: false,
+            //   showLoaderOnConfirm: true
+            // }, function() {
+            //   setTimeout(function() {
+            //     swal("Ajax request finished!");
+            //   }, 2000);
+            // });
           });
+          $('body').find('.info-modal').modal('toggle');
       });
 
       return $.ajax("{{ route('admin.markNotification') }}", {
@@ -1037,3 +1055,10 @@
 </body>
 
 </html>
+<style>
+  .noti
+  {
+    margin-left:25px;
+    margin-right:25px;
+  }
+</style>

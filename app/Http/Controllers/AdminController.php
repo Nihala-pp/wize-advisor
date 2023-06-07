@@ -8,9 +8,13 @@ use App\Models\Setting;
 use App\Models\TodoList;
 use App\Models\User;
 use App\Models\UserMeta;
+use App\Models\ScheduledCall;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use App\Notifications\CustomNotification;
+use Notification;
+// use CustomNotification;
 
 class AdminController extends Controller
 {
@@ -18,7 +22,7 @@ class AdminController extends Controller
     {
         //    $role = Roles
         $total_users = User::where('role_id', 3)->count();
-        $total_amount = '';
+        $total_amount = ScheduledCall::get()->sum('price');
         $total_earnings = '';
         $total_call_scheduled = '';
         $total_mentors = User::where('role_id', 2)->count();
@@ -107,16 +111,22 @@ class AdminController extends Controller
     {
         $task = $request->all();
         TodoList::todo_List($task);
+
+        return redirect->route('admin.dashboard');
     }
 
     public function update_todo_status($id)
     {
         TodoList::find($id)->update(['is_done' => 1]);
+
+        return redirect->route('admin.dashboard');
     }
 
     public function delete_todo_status($id)
     {
         TodoList::find($id)->delete();
+
+        return redirect->route('admin.dashboard');
     }
 
     public function viewTask(Request $request)
@@ -185,25 +195,35 @@ class AdminController extends Controller
             'role_id' => 3,
         ];
 
-        $user_record = User::updateOrCreate(
-            ['id' => $request->row_id],
-            $users
-        );
+        if(!empty($request->row_id)) {
+            $user_record = User::find($request->row_id)->update(
+                $users
+            );
+        }
+        else {
+            $user_record = User::create(
+                $users
+            ); 
+        }
+       
+        $user_record->notify(new CustomNotification($user_record));
 
         $meta_data = [
             'user_id' => $user_record['id'],
             'mobile' => $request->phone,
             'company' => $request->company,
-            'designation' => $request->designation,
+            'designation' => $request->designtion,
             'address' => $request->address,
             'social_linked_in' => $request->linkedin,
-            'industry' => $request->industry,
-            'expertise' => $request->expertise,
-            'language' => $request->language,
+            'industry' => json_encode($request->industry),
+            'expertise' => json_encode($request->expertise),
+            'language' => json_encode($request->language),
             'profile_pic' => $pro_pic
         ];
 
         UserMeta::update_user_details($request->row_id, $meta_data);
+
+        // Notification::send($users, new CustomNotification($meta_data));
     }
 
     public function add_mentors($id = null)

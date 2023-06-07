@@ -140,7 +140,7 @@
             </div>
             <div class="ms-auto my-auto mt-lg-3">
               <div class="ms-auto my-auto">
-                <a href="{{ route('admin.users.add') }}" class="btn bg-gradient-primary btn-sm mb-0" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New User</a>
+                <a href="{{ route('admin.users.add') }}" class="btn bg-gradient-primary btn-sm mb-0 newuser" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New User</a>
                 <!-- <a class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User" data-bs-url="{{ route('admin.users.add') }}" data-bs-selector="#cm_lg_Modal" type="button">
                   <span class="btn-inner--text1">{{ __('+ New') . ' ' . __('User') }}</span>
                 </a> -->
@@ -431,10 +431,10 @@
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">User</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Designation</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Registered at</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">User</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-sm heading">Designation</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">Status</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">Registered at</th>
                       <th class="text-secondary opacity-7"></th>
                     </tr>
                   </thead>
@@ -458,7 +458,11 @@
                         <p class="text-xs text-secondary mb-0">Organization</p>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">{{ $user->email_verified_at ? 'Active' : 'In-Active'}}</span>
+                        @if($user->email_verified_at)
+                        <span class="badge badge-sm bg-gradient-success">Active</span>
+                        @else
+                        <span class="badge badge-sm bg-gradient-danger">In-Active</span>
+                        @endif
                       </td>
                       <td class="align-middle text-center">
                         <span class="text-secondary text-xs font-weight-bold">{{ $user->created_at }}</span>
@@ -484,5 +488,13 @@
   </div>
   <!--   Core JS Files   -->
 </body>
-
 </html>
+<style>
+  .newuser {
+    margin-right: 20px;
+  }
+
+  thead tr th heading {
+    color:black;
+  }
+</style>

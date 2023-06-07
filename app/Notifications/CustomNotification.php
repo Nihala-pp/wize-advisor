@@ -5,22 +5,21 @@ namespace App\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Notifications\Notification;
+use Illuminate\Support\Facades\Notification;
 use App\Models\User;
 
 class CustomNotification extends Notification
 {
     use Queueable;
 
-    private $messages;
+    protected $user;
 
-    /**
+     /**
      * Create a new notification instance.
      */
-    public function __construct($user)
+    public function __construct(User $user)
     {
         $this->user = $user;
-        //
     }
 
     /**
@@ -52,9 +51,9 @@ class CustomNotification extends Notification
     public function toArray($notifiable): array
     {
         return [
-            'name' => $this->user->name,
-            'email' => $this->user->email,
-            'event' => 'Registered as User'
+            // 'name' => $this->user->name,
+            // 'email' => $this->user->email,
+            'data' => 'New User '. $this->user->name.' has been registered'
         ];
     }
 }

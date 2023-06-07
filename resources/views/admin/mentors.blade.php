@@ -143,7 +143,7 @@
             </div>
             <div class="ms-auto my-auto mt-lg-3">
               <div class="ms-auto my-auto">
-                <a href="{{ route('admin.mentors.add') }}" class="btn bg-gradient-primary btn-sm mb-0" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New Mentor</a>
+                <a href="{{ route('admin.mentors.add') }}" class="btn bg-gradient-primary btn-sm mb-0 new-mentor" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New Mentor</a>
                 <!-- <a class="btn btn-outline-primary btn-sm mb-0" data-bs-toggle="tooltip" data-bs-placement="left" title="Add User" data-bs-url="{{ route('admin.users.add') }}" data-bs-selector="" type="button"> -->
                 <!-- <span class="btn-inner--text1">{{ __('+ New') . ' ' . __('Mentor') }}</span>
                 </a> -->
@@ -464,7 +464,12 @@
                         <p class="text-xs text-secondary mb-0">{{ $mentor->metaData ? $mentor->metaData->company : '' }}</p>
                       </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success">{{ $mentor->email_verified_at ? 'Active' : 'In-Active' }}</span>
+                      @if($mentor->email_verified_at)
+                        <span class="badge badge-sm bg-gradient-success">Active</span>
+                        @else
+                        <span class="badge badge-sm bg-gradient-danger">In-Active</span>
+                      @endif
+
                       </td>
                       <td class="align-middle text-center">
                         <span class="text-secondary text-xs font-weight-bold">{{ $mentor->created_at }}</span>
@@ -731,5 +736,9 @@
   </div>
   <!--   Core JS Files   -->
 </body>
-
 </html>
+<style>
+  .new-mentor {
+    margin-right: 20px;
+  }
+</style>

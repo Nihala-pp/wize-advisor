@@ -329,9 +329,7 @@
                                 <p class="text-sm">
                                     @php
                                     $decoded = json_decode($mentor->metaData->expertise, true); 
-                                    foreach($decoded as $d) {
-                                    echo "$d\n"; 
-                                    }
+                                    echo $decoded;
                                     @endphp
                                 </p>
                             </div>
@@ -340,9 +338,7 @@
                                 <p class="text-sm">
                                     @php
                                     $decoded = json_decode($mentor->metaData->language, true);
-                                    foreach($decoded as $d) {
-                                        echo "$d\n";
-                                    }                 
+                                    echo $decoded;            
                                     @endphp
                                 </p>
                             </div>
