@@ -140,7 +140,7 @@
                         </div>
                         <div class="card-body px-0 pb-2">
                             <div class="table-responsive p-0">
-                                <table class="table align-items-center mb-0">
+                                <table class="table align-items-center mb-0" id="datatable-basic">
                                     <thead>
                                         <tr>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
@@ -209,6 +209,13 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
+
+  <script type="text/javascript">
+      const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+        searchable: true,
+        fixedHeight: true
+      });
+  </script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@ use App\Models\TodoList;
 use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\ScheduledCall;
+use App\Models\MentorsExperience;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
@@ -239,6 +240,7 @@ class AdminController extends Controller
 
     public function save_mentors(Request $request)
     {
+        // dd($request->all());
         $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
         $request->profile_pic->move(public_path('assets/img'), $pro_pic);
         // dd($request->all());
@@ -267,14 +269,46 @@ class AdminController extends Controller
             'price_per_call' => $request->price_per_call,
             'profile_pic' => $pro_pic,
             'about_me' => $request->bio,
-            'company_name' => $request->company_name,
-            'year' => $request->year,
-            'position' => $request->position,
+            'company_name' => json_encode($request->experience['company_name']),
+            'year' => json_encode($request->experience['year']),
+            'position' => json_encode($request->experience['position']),
+            'end_date' => json_encode($request->experience['end_date']),
             'commission' => $request->commission,
             'language' => json_encode($request->languages)
         ];
 
         UserMeta::update_user_details($request->row_id, $meta_data);
+
+        foreach($request->experience['company_name'] as $key => $company_name)
+        {
+            $company = $company_name;
+        }
+
+        foreach($request->experience['position'] as $key => $position)
+        {
+            $pos = $position;
+        }
+
+        foreach($request->experience['year'] as $key => $year)
+        {
+            $start_date = $year;
+        }
+
+        foreach($request->experience['end_date'] as $key => $end_date)
+        {
+            $resigned_date = $end_date;
+        }
+
+        MentorsExperience::updateOrCreate(
+            ['user_id' => $user_record['id']],
+
+            [
+            'company_name' => $company,
+            'position' => $pos,
+            'start_date' => $start_date,
+            'end_date' => $resigned_date
+            ]
+        );
     }
 
     public function login_history()

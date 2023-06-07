@@ -431,7 +431,7 @@
             </div>
             <div class="card-body px-0 pb-2">
               <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
+                <table class="table align-items-center mb-0" id="datatable-basic">
                   <thead>
                     <tr>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Mentor</th>
@@ -450,7 +450,10 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="{{ asset('assets/img/').'/'.$mentor->metaData->profile_pic }}" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                            @php
+                              $pro = $mentor->metaData->profile_pic ?? 'user-avatar.png';
+                            @endphp
+                            <img src="{{ asset('assets/img/').'/'.$pro }}" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
                             <h6 class="mb-0 text-sm">{{ $mentor->name }}</h6>
@@ -734,6 +737,12 @@
   </main>
   @include('partials.settings')
   </div>
+  <script type="text/javascript">
+      const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+        searchable: true,
+        fixedHeight: true
+      });
+  </script>
   <!--   Core JS Files   -->
 </body>
 </html>

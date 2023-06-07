@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('partials.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -138,7 +137,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <div class="row">
+                            <div class="row" id="row">
                                 <form method="POST" action="{{ route('admin.mentors.save') }}" enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
@@ -152,7 +151,7 @@
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
-                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ??  '' }}" required>
+                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ??  '' }}">
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Linked-In Profile</label>
@@ -160,15 +159,15 @@
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Youtube Link (if any)</label>
-                                        <input type="url" class="form-control" name="youtube_link" value="{{ $data->metaData->youtube_link ??  '' }}" required>
+                                        <input type="url" class="form-control" name="youtube_link" value="{{ $data->metaData->youtube_link ??  '' }}">
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Website Link (if any)</label>
-                                        <input type="url" class="form-control" name="website_link" value="{{ $data->metaData->website_link ??  '' }}" required>
+                                        <input type="url" class="form-control" name="website_link" value="{{ $data->metaData->website_link ??  '' }}">
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">BIO</label>
-                                        <textarea name="bio" class="form-control" rows="5">{{ $data->metaData->about_me ??  '' }}</textarea>
+                                        <textarea name="bio" class="form-control" rows="5" required>{{ $data->metaData->about_me ??  '' }}</textarea>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Company</label>
@@ -186,50 +185,50 @@
                                         <label class="form-label">WiseAdvizor Commission (USD)</label>
                                         <input type="number" name="commission" class="form-control" value="{{ $data->metaData->commission ??  '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <!-- <label class="form-label">Expertise</label> -->
-                                        <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ??  '' }}" placeholder="Type Expertise and press enter" required>
+                                    <div>
+                                        <label class="form-label">Expertise (Type and Press Enter)</label>
+                                        <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ??  '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Languages</label>
-                                        <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ??  '' }}" placeholder="Type Languages and press enter" required>
+                                    <div>
+                                        <label class="form-label">Languages (Type and Press Enter)</label>
+                                        <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ??  '' }}" required>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading"> Experience</div>
-                                        <div class="panel-body">
-                                            <div id="education_fields">
-                                            </div>
-                                            <!-- <div class="col-sm-4"> -->
-                                            <div class="input-group input-group-outline my-3">
-                                                <input type="text" name="company_name" class="form-control" placeholder="Company Name" value="{{ $data->metaData->company_name ??  '' }}" required>
-                                            </div>
-                                            <!-- </div> -->
-                                            <!-- <div class="col-sm-4"> -->
-                                            <div class="input-group input-group-outline my-3">
-                                                <input type="text" class="form-control" id="Major" name="position" value="{{ $data->metaData->position ??  '' }}" placeholder="Position" required>
-                                            </div>
-                                            <!-- <div class="col-sm-3 nopadding">
-                                                <div class="form-group"> -->
-                                            <div class="input-group input-group-outline my-3">
-                                                <select class="form-control" id="educationDate" name="year" required>
-                                                    <option value="">Date</option>
-                                                    <option value="2015">2015</option>
-                                                    <option value="2016">2016</option>
-                                                    <option value="2017">2017</option>
-                                                    <option value="2018">2018</option>
-                                                </select>
-                                                <!-- <div class="input-group-btn">
-                                                    <button class="btn btn-success" type="button" onclick="education_fields();"> <span class="fa fa-plus" aria-hidden="true"></span> </button>
-                                                </div> -->
-                                            </div>
-                                            <!-- </div>
-                                            </div> -->
-                                            <!-- <div class="clear"></div> -->
+                                    <div class="row">
+                                    <div class="panel-heading"> Experience</div>
+                                       <div class="col-md-3">
+                                          <div class="input-group input-group-static my-3">
+                                            <label>Company</label>
+                                            <input type="text" name="experience[company_name][]" class="form-control" required>
+                                         </div>
+                                       </div>
+                                       <div class="col-md-3">
+                                          <div class="input-group input-group-static my-3">
+                                            <label>Designation</label>
+                                            <input type="text" name="experience[position][]" class="form-control" required>
+                                         </div>
+                                       </div>
+                                       <div class="col-md-2">
+                                         <div class="input-group input-group-static my-3">
+                                          <label>Start Date</label>
+                                          <input type="text" name="experience[year][]" class="form-control date" required>
+                                         </div>   
+                                       </div> 
+                                       <div class="col-md-2">                             
+                                          <div class="input-group input-group-static my-3">
+                                            <label>End Date</label>
+                                            <input type="text" name="experience[end_date][]" class="form-control date" required>
+                                         </div>
+                                       </div>
+                                       <div class="col-md-2">
+                                          <div class="input-group input-group-static my-3">
+                                            <label></label>
+                                            <i class="fa fa-plus" id="rowAdder"> Add</i>
+                                          </div>
                                         </div>
-                                        <!-- <div class="panel-footer"><small> <span class="glyphicon glyphicon-plus gs"></span> </small><small> <span class="glyphicon glyphicon-minus gs"></span> </small></div> -->
-                                    </div>
+                                        <div id="newinput"></div>
+                                      </div>
                                     <div class="input-group input-group-static my-3">
-                                        <label>Profile Pic</label>
+                                        <label class="form-label">Profile Pic</label>
                                         <input type="file" name="profile_pic" class="form-control" required>
                                     </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
@@ -244,6 +243,55 @@
     </main>
     @include('partials.settings')
     </div>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $('.date').datepicker({
+                    multidate: true,
+                    format: 'dd-mm-yyyy'
+                });
+                // $('.time').timepicker({
+                //     format: 'hh:mm A',
+                // });
+
+            $("#rowAdder").click(function () {
+              newRowAdd =
+                '<div class="row">' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label>Company </label>' +
+                '<input type="text" name="experience[company_name][]" class="form-control">' +                
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label>Designation</label>' +
+                '<input type="text" name="experience[position][]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label>Start Date</label>' +
+                '<input type="text" name="experience[year][]" class="form-control date-pick">' +
+                '</div></div>' +
+                '<div class="col-md-2">' +
+                '<div class="input-group input-group-static my-3">' +
+                ' <label>End Date</label>' +
+                '<input type="text" name="experience[end_date][]" class="form-control date-pick">' +
+                '</div></div>' +
+                // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
+                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
+                // ' </div> </div>';
+               $('#newinput').append(newRowAdd);
+            });
+
+             $("#DeleteRow").click(function () {
+               $(this).parents("#row").remove();
+             });
+
+             $('.date-pick').datepicker({
+                    multidate: true,
+                    format: 'dd-mm-yyyy'
+                });  
+          });
+        </script>
     <script type="text/javascript">
         if (document.getElementById('choices-button')) {
             var element = document.getElementById('choices-button');
@@ -306,5 +354,4 @@
     </script>
     <!--   Core JS Files   -->
 </body>
-
 </html>

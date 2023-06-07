@@ -290,6 +290,7 @@
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/datatables.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/multistep-form.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/choices.min.js') }}"></script>
