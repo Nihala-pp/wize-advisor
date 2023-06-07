@@ -25,9 +25,9 @@
           <ul class="navbar-nav  justify-content-end">
             <li class="nav-item d-flex align-items-center">
             <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                              <img src="{{ asset('public/assets/img/user-avatar.png') }}" class="avatar avatar-sm me-3" alt="xd">
-                              <span class="d-sm-inline d-none">Admin</span>
-                          </a>
+                <img src="{{ asset('public/assets/img/user-avatar.png') }}" class="avatar avatar-sm me-3" alt="xd">
+                <span class="d-sm-inline d-none">Admin</span>
+              </a>
             </li>
             <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
               <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
