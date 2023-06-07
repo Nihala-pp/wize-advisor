@@ -296,7 +296,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Users</p>
-                <h4 class="mb-0">{{ $total_users }}</h4>
+                <h4 class="mb-0"><span id="state1" countTo="{{ $total_users }}"></span></h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -313,7 +313,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Amount</p>
-                <h4 class="mb-0">$ {{ $total_amount }}</h4>
+                <h4 class="mb-0">$ <span id="state2" countTo="{{  $total_amount }}"></span></h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -330,7 +330,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Mentors</p>
-                <h4 class="mb-0">{{ $total_mentors }}</h4>
+                <h4 class="mb-0"><span id="state3" countTo="{{  $total_mentors }}"></span></h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -347,7 +347,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
-                <h4 class="mb-0">$ 103,430</h4>
+                <h4 class="mb-0">$ <span id="state4" countTo="{{  $total_earnings }}"></span></h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -364,7 +364,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Total Calls scheduled </p>
-                <h4 class="mb-0">$ 53k</h4>
+                <h4 class="mb-0"><span id="state5" countTo="{{  $total_call_scheduled }}"></span></h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -715,8 +715,11 @@
   <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/sweetalert.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/choices.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/countup.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/chartjs.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/datatables.js') }}"></script>
   <script>
     var ctx = document.getElementById("chart-bars").getContext("2d");
 
@@ -1048,6 +1051,48 @@
       });
     });
   </script>
+  <script type="text/javascript">
+      if (document.getElementById('state1')) {
+        const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+        if (!countUp.error) {
+          countUp.start();
+        } else {
+          console.error(countUp.error);
+        }
+      }
+      if (document.getElementById('state2')) {
+        const countUp = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+        if (!countUp.error) {
+          countUp.start();
+        } else {
+          console.error(countUp.error);
+        }
+      }
+      if (document.getElementById('state3')) {
+        const countUp = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+        if (!countUp.error) {
+          countUp.start();
+        } else {
+          console.error(countUp.error);
+        }
+      }
+      if (document.getElementById('state4')) {
+        const countUp = new CountUp('state4', document.getElementById("state4").getAttribute("countTo"));
+        if (!countUp.error) {
+          countUp.start();
+        } else {
+          console.error(countUp.error);
+        }
+      }
+      if (document.getElementById('state5')) {
+        const countUp = new CountUp('state5', document.getElementById("state5").getAttribute("countTo"));
+        if (!countUp.error) {
+          countUp.start();
+        } else {
+          console.error(countUp.error);
+        }
+      }
+    </script>
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->

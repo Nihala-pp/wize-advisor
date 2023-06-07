@@ -294,6 +294,7 @@
   <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/multistep-form.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/choices.min.js') }}"></script>
+  <script src="{{ asset('public/assets/js/plugins/countup.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/plugins//chartjs.min.js') }}"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>

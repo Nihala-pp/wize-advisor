@@ -24,8 +24,8 @@ class AdminController extends Controller
         //    $role = Roles
         $total_users = User::where('role_id', 3)->count();
         $total_amount = ScheduledCall::get()->sum('price');
-        $total_earnings = '';
-        $total_call_scheduled = '';
+        $total_earnings = ScheduledCall::get()->sum('price');
+        $total_call_scheduled = ScheduledCall::get()->count();
         $total_mentors = User::where('role_id', 2)->count();
         $notifications = auth()->user()->unreadNotifications;
         $todolists = TodoList::where('is_done', 0)->get();
