@@ -180,7 +180,7 @@
                                                 <p class="text-xs font-weight-bold mb-0">{{ $activity->user_agent }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <span class="badge badge-sm bg-gradient-success">{{ _('Success') }}</span>
+                                                <span class="badge badge-sm bg-gradient-success">Success</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span class="text-secondary text-xs font-weight-bold">{{ $activity->created_at }}</span>
