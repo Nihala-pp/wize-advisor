@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Auth\LinkedinSocialiteController;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\Events\PasswordReset;
 
@@ -51,10 +52,18 @@ Route::post('/forgot-password-email', [ForgotPasswordController::class, 'forgotP
 Route::get('/reset-password/{token}', [ForgotPasswordController::class, 'passwordReset'])->name('password.reset');
 Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword'])->name('password.update');
 
+// Route::get('/sign-up', 'signup')->name('sign-up');
+
 // Route::get('forget-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
 // Route::post('forget-password', [ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post');
 // Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
 // Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
+
+Route::get('home', [HomeController::class, 'index'])->name('home');
+Route::get('profile/{id?}', [HomeController::class, 'profile'])->name('profile');
+Route::get('browseMentor/{expertise?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
+Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-mentor');
+Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
 
 Route::controller(AdminController::class)
     ->as('admin.')
@@ -83,7 +92,6 @@ Route::controller(AdminController::class)
         Route::get('/login_history', 'login_history')->name('login_history');
         Route::get('/logs', 'logs')->name('logs');
         Route::get('/sign-in', 'signin')->name('mentors.sign-in');
-        Route::get('/sign-up', 'signup')->name('mentors.sign-up');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');
         // Route::post('/store', 'store')->name('store');
