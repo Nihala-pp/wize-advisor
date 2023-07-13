@@ -210,7 +210,7 @@ html body .animated  {
 				<div class="elementor-element elementor-element-ae81400 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="ae81400" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm" href="http://localhost/wize-advisor/browse-mentor/">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('browseMentor') }}">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Browse Mentor</span>
 		</span>

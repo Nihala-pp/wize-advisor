@@ -310,7 +310,7 @@ html body .animated  {
                 </div>
             </div>
     <!-- </main> -->
-    </div>
+        </div>
     <script type="text/javascript">
         if (document.getElementById('choices-button')) {
             var element = document.getElementById('choices-button');

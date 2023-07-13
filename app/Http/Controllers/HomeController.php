@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
+use App\Models\AvailableSchedule;
 use App\Models\MentorJoinRequest;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\Builder;
 
 class HomeController extends Controller
 {
@@ -38,20 +41,56 @@ class HomeController extends Controller
         return view('profile', compact('data'));
     }
 
-    public function browseMentor($name = NULL)
+    public function browseMentor($name = NULL, $filter = NULL)
     {
-        if(!empty($name)) {
-
-            $mentors = User::whereHas('metaData', function($q) {
-                $q->whereJsonContains('expertise', $name);
-            });
-            dd($mentors);
+        // dd($name);
+        $variable = $name;
+        if(!empty($variable)) {
+            switch($filter) {
+                case 'name':
+                    $mentors = User::where('name', 'LIKE', '%'.$variable.'%')->get();  
+                  break;
+                case 'price':
+                    $mentors = User::where('role_id', 2)
+                      ->whereHas('metaData', function (Builder $query) use ($variable) {
+                        $query->where('price_per_call', 'LIKE', '%'.$variable.'%');
+                       })->get();
+                  break;
+                  case 'expertise':
+                    $mentors = User::where('role_id', 2)
+                      ->whereHas('metaData', function (Builder $query) use ($variable) {
+                        $query->where('expertise', 'LIKE', '%'.$variable.'%');
+                       })->get();
+                  break;
+                  case 'date':
+                    $schedule = AvailableSchedule::with('user')->where('date', 'LIKE', '%'.$variable.'%')->get();  
+                  break;
+                  case 'time':
+                    $mentors = AvailableSchedule::where('price', 'LIKE', '%'.$variable.'%')->get();  
+                  break;
+                  case 'sortBy':
+                    $mentors = User::where('role_id', 2)->orderBy('name', $variable)->get();  
+                  break;
+                default:
+                   $mentors = User::where('role_id', 2)->get();
+              }
         }
         else {
             $mentors = User::where('role_id', 2)->get();
         }
-        
-        return view('browse-mentor', compact('data'));
+
+        // dd($mentors);
+
+        $price = User::where('role_id', 2)->get();
+        $slot = AvailableSchedule::where('date', '>=', now())
+        // ->disctint()
+        ->get();
+
+        $expertise = UserMeta::select('expertise')
+        ->groupBy('expertise')
+        ->get();
+        // dd($expertise);
+        return view('browse-mentor', compact('mentors','slot','expertise', 'price', 'variable'));
     }
 
     public function addMentor()
@@ -77,5 +116,30 @@ class HomeController extends Controller
 
         MentorJoinRequest::create($data);
         echo("Request Submitted Succcessfully");
+    }
+
+    public function scheduleCall($id)
+    {
+        $mentor = User::find($id);
+        $timezone = AvailableSchedule::timezones();
+
+        return view('schedule-call', compact('mentor','timezone'));
+    }
+
+    public function addScheduleRequest(Request $request)
+    {
+       dd($request->all());
+
+        
+    }
+
+    public function getTimeAvailability(Request $request)
+    {
+        $mentor = $request->mentor;
+        $nmonth = date("m", strtotime($request->month));
+        $date = $request->day.'-'.$nmonth.'-'.$request->year;
+        $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('time_zone', $request->timezone)->get()->toArray();
+        // dd($availability);
+        return response()->json($availability);
     }
 }

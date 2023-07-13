@@ -61,9 +61,12 @@ Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword
 
 Route::get('home', [HomeController::class, 'index'])->name('home');
 Route::get('profile/{id?}', [HomeController::class, 'profile'])->name('profile');
-Route::get('browseMentor/{expertise?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
+Route::get('browseMentor/{expertise?}/{filter?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
 Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-mentor');
 Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
+Route::get('schedule-call/{id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
+Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest');
+Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
 
 Route::controller(AdminController::class)
     ->as('admin.')
