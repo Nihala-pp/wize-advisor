@@ -14,6 +14,7 @@
 
 @include('partials.header')
 
+
 <body class="">
     <div class="container position-sticky z-index-sticky top-0">
         <div class="row">
@@ -86,34 +87,60 @@
                                     <p class="mb-0">Enter your email and password to register</p>
                                 </div>
                                 <div class="card-body">
-                                    <form role="form">
+                                    <form method="POST" action="{{ route('register.post') }}">
+                                    @csrf
+
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Name</label>
-                                            <input type="text" class="form-control">
+                                            <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Email</label>
-                                            <input type="email" class="form-control">
+                                            <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Password</label>
-                                            <input type="password" class="form-control">
+                                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
                                         </div>
-                                        <div class="form-check form-check-info text-start ps-0">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                                        <div class="input-group input-group-outline mb-3">
+                                            <label class="form-label">Confirm Password</label>
+                                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                        </div>
+                                        <div class="input-group input-group-outline mb-3">
+                                            <label class="form-label">Company Name</label>
+                                            <input type="text" class="form-control" name="company_name">
+                                        </div>
+                                        <div class="input-group input-group-outline mb-3">
+                                            <label class="form-label">Designation</label>
+                                            <input type="text" class="form-control" name="designation">
+                                        </div>
+                                        <div class="input-group input-group-outline mb-3">
+                                            <label class="form-label">Linked-In Url</label>
+                                            <input type="url" class="form-control" name="linked_in">
+                                        </div>
+                                        <div>
+                                        <label class="form-label">Expertise</label></br>
+                                        <select class="select form-control" multiple data-mdb-clear-button="true" name="expert[]">
+                                           @foreach($expertise as $key => $expert)
+                                             <option value="{{ $expert }}">{{ $expert }}</option>
+                                           @endforeach
+                                        </select>
+                                        </div>
+                                        <div class="form-check form-check-info text-start ps-0 mt-3">
+                                            <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault" required>
                                             <label class="form-check-label" for="flexCheckDefault">
-                                                I agree the <a href="javascript:;" class="text-dark font-weight-bolder">Terms and Conditions</a>
+                                                I agree the <a href="{{ route('termsConditions') }}" class="text-dark font-weight-bolder">Terms and Conditions</a>
                                             </label>
                                         </div>
                                         <div class="text-center">
-                                            <button type="button" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Sign Up</button>
+                                            <button type="submit" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Sign Up</button>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="card-footer text-center pt-0 px-lg-2 px-1">
                                     <p class="mb-2 text-sm mx-auto">
                                         Already have an account?
-                                        <a href="../pages/sign-in.html" class="text-primary text-gradient font-weight-bold">Sign in</a>
+                                        <a href="{{ route('login') }}" class="text-primary text-gradient font-weight-bold">Sign in</a>
                                     </p>
                                 </div>
                             </div>

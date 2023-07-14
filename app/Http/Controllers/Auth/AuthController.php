@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
 use Session;
 use App\Models\User;
+use App\Models\UserMeta;
 use Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -31,7 +32,32 @@ class AuthController extends Controller
      */
     public function registration()
     {
-        return view('auth.registration');
+        $expertise = [
+            '1' =>	'Sales',
+            '2' =>	'Marketing',
+            '3'  =>	'Technology',
+            '4'  =>	'Idea Validation',
+            '5'  =>	'Product Market Fit',
+            '6'  =>	'Team Management',
+            '7'  =>	'Content creation',
+            '8'  =>	'Leadership',
+            '9'  =>	'Fund raising',
+            '10'  => 'Networking',
+            '11'  => 'Social Media',
+            '12'  => 'Pricing Strategy',
+            '13'  => 'Startup valuation',
+            '14'  => 'Business Strategy',
+            '15'  =>  'Email Marketing',
+            '16'  =>  'Brand Building ',
+            '17'  =>	'SEO',
+            '18'  =>	'Operations and logistics',
+            '19'  =>	'Risk Management',
+            '20'  =>	'Ads Strategy',
+            '21'  =>	'Go to Market Strategy',
+            '22'  =>	'Growth Strategy'          
+        ];
+
+        return view('auth.registration', compact('expertise'));
     }
 
     /**
@@ -52,8 +78,10 @@ class AuthController extends Controller
             if (auth()->user()->role_id == 1) {
                 return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
             } elseif (auth()->user()->role_id == 2) {
-                return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin');
-            }       
+                return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin'); 
+            } elseif (auth()->user()->role_id == 3) {
+                return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+            }          
 
             // if (auth()->user()->name == 'Admin') {
             // return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
@@ -81,7 +109,7 @@ class AuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
-        return redirect("dashboard")->withSuccess('Great! You have Successfully loggedin');
+        return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');    
     }
 
     /**
@@ -105,16 +133,24 @@ class AuthController extends Controller
      */
     public function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => Hash::make($data['password'])
+            'password' => Hash::make($data['password']),
+            'role_id' => 3
+        ]);
+
+        UserMeta::create([
+            'user_id' =>  $user['id'],
+            'company' => $data['company_name'],
+            'designation' => $data['designation'],
+            'expertise' => json_encode($data['expert']),
+            'social_linked_in' => $data['linked_in']
         ]);
     }
 
     /**
      * Write code on Method
-     *
      * @return response()
      */
     public function logout()

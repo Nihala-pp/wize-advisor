@@ -223,4 +223,14 @@ class HomeController extends Controller
 
       //  dd("Email is sent successfully.");
     }
+
+    public function termsConditions()
+    {
+        return view('terms-conditions');
+    }
+
+    public function privacyPolicy()
+    {
+         return view('privacy-policy');
+    }
 }

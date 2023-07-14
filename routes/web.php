@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MentorController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Auth\LinkedinSocialiteController;
@@ -68,6 +69,8 @@ Route::get('schedule-call/{id?}', [HomeController::class, 'scheduleCall'])->name
 Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
 Route::get('success', [HomeController::class, 'success'])->name('success');
+Route::get('terms-conditions', [HomeController::class, 'termsConditions'])->name('termsConditions');
+Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
@@ -125,4 +128,11 @@ Route::controller(MentorController::class)
         Route::post('/save_mentors', 'save_mentors')->name('save');
         Route::post('/save_schedule', 'save_schedule')->name('schedule.save');
         // Route::get('/sign-in', 'signin')->name('sign-in');
+    });
+
+    Route::controller(UserController::class)
+    ->as('user.')
+    ->prefix('user')
+    ->group(function () {
+        Route::get('/dashboard', 'index')->name('dashboard');
     });
