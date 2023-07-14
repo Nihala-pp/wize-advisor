@@ -67,6 +67,10 @@ Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->na
 Route::get('schedule-call/{id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
 Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
+Route::get('success', [HomeController::class, 'success'])->name('success');
+
+Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
+Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
 
 Route::controller(AdminController::class)
     ->as('admin.')

@@ -6,9 +6,14 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
+use App\Models\ScheduledCall;
 use App\Models\MentorJoinRequest;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Builder;
+use Carbon\Carbon;
+use App\Mail\ScheduleCallRequest;
+use App\Mail\ScheduleCallRequestUser;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -128,9 +133,59 @@ class HomeController extends Controller
 
     public function addScheduleRequest(Request $request)
     {
-       dd($request->all());
+      $requestData = $request->all();
+      $data = array();
+      parse_str($requestData['data'], $data);
+      //  dd($data['duration']);
 
-        
+       $month =  $data['month'];
+       $nmonth = date("m", strtotime($data['month']));
+       $date = $data['year'].'-'.$nmonth.'-'.$data['day'];
+       $start_time = Carbon::parse($data['time'])->format('H:i');
+       $end_time =  Carbon::parse($data['time'])->addMinutes($data['duration']);
+       $finish_time = $end_time->toTimeString();
+      
+       ScheduledCall::create([
+        'user_id' => 2,
+        'mentor_id' => $data['mentor'],
+        'price' => $data['price'],
+        'date' => $date,
+        'duration' => $data['duration'],
+        'start_time' => $data['time'],
+        'end_time' => $finish_time,
+        'utc' => $data['timezone'],
+        'status' => 'Pending',
+        'description' =>  $data['desc'],
+        'documents' => ''
+       ]);
+
+       $mentor = User::find($data['mentor']);
+       $user = User::find(4);
+
+
+       $details = [
+        'mentor' => $data['mentor'],
+        'mentor_name' => $mentor->name,
+        'user_id' => 4,
+        'user' => $user->name,
+        'date' => $date,
+        'start_time' => $data['time'],
+        'finish_time' => $finish_time,
+        'UTC' => $data['timezone'],
+        'duration' => $data['duration'],
+       ];
+
+
+
+    //    return redirect()->action(
+    //     [HomeController::class, 'success'], [$data]
+    // );
+      //  return $this->success($data);
+      $this->sendScheduleRequestMail($details);
+      $this->sendScheduleRequestUserMail($details);
+
+      return view('success', compact('details', 'mentor'));
+       
     }
 
     public function getTimeAvailability(Request $request)
@@ -141,5 +196,31 @@ class HomeController extends Controller
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('time_zone', $request->timezone)->get()->toArray();
         // dd($availability);
         return response()->json($availability);
+    }
+
+    public function success($details)
+    {
+
+       $mentor = User::find($details['mentor']);
+        
+       return view('success', compact('details', 'mentor'));
+    }
+
+    public function sendScheduleRequestMail($details)
+    {
+       $mentor = User::find($details['mentor']);
+
+       Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+
+      //  dd("Email is sent successfully.");
+    }
+
+    public function sendScheduleRequestUserMail($details)
+    {
+      $mentor = User::find($details['user_id']);
+
+       Mail::to($mentor->email)->send(new ScheduleCallRequestUser($details));
+
+      //  dd("Email is sent successfully.");
     }
 }
