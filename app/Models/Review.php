@@ -13,6 +13,8 @@ class Review extends Model
     use SoftDeletes;
 
     protected $table = 'reviews';
+    protected $guarded = [];
+    protected $fillable = [];
 
     public function user(): BelongsTo
     {

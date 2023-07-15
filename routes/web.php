@@ -135,4 +135,8 @@ Route::controller(MentorController::class)
     ->prefix('user')
     ->group(function () {
         Route::get('/dashboard', 'index')->name('dashboard');
+        Route::get('/review/{id?}', 'review')->name('review');
+        Route::post('/review/save', 'saveReview')->name('review.save');
+        Route::get('/schedule/update/{id?}', 'updateSchedule')->name('schedule.update');
+        Route::post('/schedule/save', 'saveSchedule')->name('schedule.save');
     });

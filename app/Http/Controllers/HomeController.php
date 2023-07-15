@@ -35,8 +35,10 @@ class HomeController extends Controller
     public function index()
     {
         $mentors = User::where('role_id', 2)->get();
+        $users = User::where('role_id', 3)->get()->count();
+        $calls = ScheduledCall::get()->count();
 
-        return view('home', compact('mentors'));
+        return view('home', compact('mentors','users','calls'));
     }
 
     public function profile($id)

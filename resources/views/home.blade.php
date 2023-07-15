@@ -352,7 +352,7 @@ empower startups and fuel their growth.   </p>		</div>
     	
     <div id="uc_blob_shapes_elementor_56bc6db" style="background-image:url()" class="blob"></div>
     <div class="ue-blob-text-holder">
-  		 <div class="ue-blob-title">Total Mentors</div>         <div class="ue-blob-text">12</div>    </div>
+  		 <div class="ue-blob-title">Total Mentors</div>         <div class="ue-blob-text">{{ $mentors->count() }}</div>    </div>
     </div>
 </div>
 			<!-- end Blob Shapes -->		</div>
@@ -421,7 +421,7 @@ empower startups and fuel their growth.   </p>		</div>
     	
     <div id="uc_blob_shapes_elementor_605fd17" style="background-image:url()" class="blob"></div>
     <div class="ue-blob-text-holder">
-  		 <div class="ue-blob-title">Total Calls Scheduled</div>         <div class="ue-blob-text">200</div>    </div>
+  		 <div class="ue-blob-title">Total Calls Scheduled</div>         <div class="ue-blob-text">{{ $calls }}</div>    </div>
     </div>
 </div>
 			<!-- end Blob Shapes -->		</div>
@@ -490,7 +490,7 @@ empower startups and fuel their growth.   </p>		</div>
     	
     <div id="uc_blob_shapes_elementor_f8230d2" style="background-image:url()" class="blob"></div>
     <div class="ue-blob-text-holder">
-  		 <div class="ue-blob-title">Total Users</div>         <div class="ue-blob-text">400</div>    </div>
+  		 <div class="ue-blob-title">Total Users</div>         <div class="ue-blob-text">{{ $users }}</div>    </div>
     </div>
 </div>
 			<!-- end Blob Shapes -->		</div>
