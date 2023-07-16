@@ -63,10 +63,9 @@ class MentorController extends Controller
     {
         $timezones = AvailableSchedule::timezones();
         $weekStartDate = Carbon::parse('this monday')->toDateString();
-        //    dd($weekStartDate);
+        $availability = AvailableSchedule::where('mentor_id', Auth::id())->order_by('id', 'desc')->get();
 
-
-        return view('mentors.availability', compact('timezones','weekStartDate'));
+        return view('mentors.availability', compact('timezones','weekStartDate','availability'));
     }
 
     public function update_status($id)
@@ -141,7 +140,23 @@ class MentorController extends Controller
 
     public function save_schedule(Request $request)
     {
-          dd($request->all());
+        // dd($request->all());
+
+
+          foreach($request->schedule as $key => $schedule)
+          {
+            //  dd($schedule['start_time']);
+               $data = [
+                'mentor_id' => Auth::id(),
+                'date' => $schedule['date'],
+                'time_zone' => $request->time_zone,
+                'start_time' => $schedule['start_time'],
+                'end_time' => $schedule['end_time']
+              ];
+
+                AvailableSchedule::update_schedule($request->row_id, $data);
+
+          }
 
         //   $data = [
         //     'mentor_id' => Auth::id(),

@@ -162,78 +162,32 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        @foreach($availability as $avail)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
-                                                    2023-07-05
+                                                   {{ $avail->date }} 
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    13:30 - 14:00
+                                                {{ $avail->start_time }} {{ $avail->end_time }} 
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ $avail->id }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
                                                         Edit
                                                     </a>
                                                 </div>
                                                 <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ $avail->id }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
                                                         Delete
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    2023-07-09
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    15:45 - 16:15
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Edit
-                                                    </a>
-                                                </div>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Delete
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    2023-07-11
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    12:00 - 12:30
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Edit
-                                                    </a>
-                                                </div>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
-                                                        Delete
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -257,7 +211,7 @@
                                 <form method="POST" action="{{ route('mentor.schedule.save') }}" role="form text-left">
                                     @csrf
                                       <input type="hidden" name="row_id" value="">
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group">
                                         <label class="form-label"></label>
                                         <select class="form-control" name="time_zone" required>
                                              <option value="">Choose your time zones</option>
@@ -266,35 +220,33 @@
                                            @endforeach
                                         </select>
                                     </div>
-                                    @for($i=0; $i<7; $i++)
                                       <div class="row">
-                                       <div class="col-md-3">
+                                       <div class="col-md-4">
                                           <div class="input-group input-group-static my-3">
                                             <label>Date</label>
-                                            <input type="text" name="date[{{$i}}]" class="form-control date" required>
-                                         </div>
+                                            <input type="text" name="schedule[0][date]" class="form-control date" required>
+                                           </div>
                                        </div>
-                                       <div class="col-md-3">
+                                       <div class="col-md-4">
                                          <div class="input-group input-group-static my-3">
                                           <label>Start Time</label>
-                                          <input type="time" name="start_time[{{$i}}]" class="form-control" required>
+                                          <input type="time" name="schedule[0][start_time]" class="form-control" required>
                                          </div>   
                                        </div> 
-                                       <div class="col-md-3">                             
+                                       <div class="col-md-4">                             
                                           <div class="input-group input-group-static my-3">
                                             <label>End Time</label>
-                                            <input type="time" name="end_time[{{$i}}]" class="form-control" required>
+                                            <input type="time" name="schedule[0][end_time]" class="form-control" required>
                                          </div>
                                        </div>
-                                       <div class="col-md-3">
+                                       <div class="col-md-0">
                                           <div class="input-group input-group-static my-3">
                                             <label></label>
-                                            <i class="fa fa-plus" id="rowAdder"> Add</i>
+                                            <i class="fa fa-plus" id="rowAdder"> </i>
                                           </div>
                                         </div>
                                         <div id="newinput"></div>
                                       </div>
-                                    @endfor
                             </div>
                         </div>
                     </div>
@@ -322,30 +274,28 @@
 
             $("#rowAdder").click(function () {
               newRowAdd =
-                '<div class="row">' +
-                '<div class="col-md-3">' +
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<label> </label>' +
-                '<input type="hidden" name="id" class="form-control">' +                
+                '<label> Date </label>' +
+                '<input type="date" name="schedule[1][date]" class="form-control date" required>' +
                 '</div></div>' +
-                '<div class="col-md-3">' +
+                '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<label>Start Time</label>' +
-                '<input type="time" name="start_time[]" class="form-control">' +
+                '<input type="time" name="schedule[1][start_time]" class="form-control">' +
                 '</div></div>' +
-                '<div class="col-md-3">' +
+                '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 ' <label>End Time</label>' +
-                '<input type="time" name="end_time[]" class="form-control">' +
+                '<input type="time" name="schedule[1][end_time]" class="form-control">' +
                 '</div></div>' +
-                // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
-                '<i class="bi bi-trash"> Delete</i>  </div>';
-                // ' </div> </div>';
+                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
                $('#newinput').append(newRowAdd);
             });
 
              $("#DeleteRow").click(function () {
-               $(this).parents("#row").remove();
+                 $(this).parents("#row").remove();
              });
           });
         </script>
