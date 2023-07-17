@@ -45,6 +45,8 @@ class LoginController extends Controller
             return $this->redirectTo = route('admin.dashboard');
         } elseif (auth()->user()->role_id == 2) {
             return $this->redirectTo = route('mentor.dashboard');
-        }       
+        } elseif (auth()->user()->role_id == 3) {
+            return $this->redirectTo = route('user.dashboard');
+        }        
     }
 }

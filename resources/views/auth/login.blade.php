@@ -53,6 +53,8 @@
                             <div class="card-body">
                                 <form method="POST" action="{{ route('login.post') }}">
                                     @csrf
+                                      <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
+                                      <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">{{ __('Email Address') }}</label>
                                         <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -79,6 +81,12 @@
                                     <div class="text-center">
                                         <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"> {{ __('Login') }}
                                         </button>
+                                    </div>
+                                    <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                                      <p class="mb-2 text-sm mx-auto">
+                                        Don't have an account?
+                                        <a href="{{ route('register', [$token, $id]) }}" class="text-primary text-gradient font-weight-bold">Sign Up</a>
+                                      </p>
                                     </div>
                                     <p class="mt-4 text-sm text-center">
                                         <!-- Don't have an account? -->

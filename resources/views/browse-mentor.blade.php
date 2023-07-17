@@ -218,11 +218,19 @@ label {
 		<div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
 		  <div class="elementor-widget-container">
 			<div class="elementor-button-wrapper">
-			   <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+				@if(Auth::id())
+			     <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('user.dashboard') }}">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Dashboard</span>
+		                </span>
+			     </a>
+			   @else
+			     <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login') }}">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Sign In</span>
 		                </span>
-			   </a>
+			     </a>
+			   @endif
 		    </div>
 		</div>
 	</div>
@@ -268,7 +276,7 @@ label {
         <select id="expertise" class="selectpicker" data-style="btn-info">
 		     <option value="">Expertise</option>
 				@foreach($expertise as $key => $expert)
-                  <option value="{{ $expert->expertise }}">{{ $expert->expertise }}</option>
+                  <option value="{{ $expert }}" {{ $variable == $expert ? 'selected' : ''}}>{{ $expert }}</option>
                 @endforeach
         </select>
       </div>
@@ -333,8 +341,12 @@ label {
 				<h5 class="text-center">{{ $mentor->name }}</h5>
 				<p class="text-center">{{ $mentor->metaData ? $mentor->metaData->about_me : '' }} </p>
 				<div class="d-grid gap-2 col-6 mx-auto">
-				 <a href="{{ route('profile', [$mentor->id]) }}" class="btn btn-primary mid-center" style="background-color:#001E64; align:center;">Schedule Call</a></br>
-				 <a href="{{ route('schedule-call', [$mentor->id]) }}" class="card-link mid-center" style="color:#007bff;; font: size 4px;">View Profile</a>
+				@if(Auth::id())
+				 <a href="{{ route('schedule-call', [$mentor->id]) }}" class="btn btn-primary mid-center" style="background-color:#001E64; align:center;">Schedule Call</a></br>
+				@else
+				<a href="{{ route('login', ['schedule-call', $mentor->id]) }}" class="btn btn-primary mid-center" style="background-color:#001E64; align:center;">Schedule Call</a></br>
+                @endif
+				 <a href="{{ route('profile', [$mentor->id]) }}" class="card-link mid-center" style="color:#007bff;; font: size 4px;">View Profile</a>
 				 </div>
 			</div>
 			<div class="card-footer">

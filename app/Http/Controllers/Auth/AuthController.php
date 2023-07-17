@@ -20,9 +20,9 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function index()
+    public function index($token='Null', $id='Null')
     {
-        return view('auth.login');
+        return view('auth.login', compact('token', 'id'));
     }
 
     /**
@@ -30,34 +30,34 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function registration()
+    public function registration($token='Null', $id='Null')
     {
         $expertise = [
-            '1' =>	'Sales',
-            '2' =>	'Marketing',
-            '3'  =>	'Technology',
-            '4'  =>	'Idea Validation',
-            '5'  =>	'Product Market Fit',
-            '6'  =>	'Team Management',
-            '7'  =>	'Content creation',
-            '8'  =>	'Leadership',
-            '9'  =>	'Fund raising',
-            '10'  => 'Networking',
-            '11'  => 'Social Media',
-            '12'  => 'Pricing Strategy',
-            '13'  => 'Startup valuation',
-            '14'  => 'Business Strategy',
-            '15'  =>  'Email Marketing',
-            '16'  =>  'Brand Building ',
-            '17'  =>	'SEO',
-            '18'  =>	'Operations and logistics',
-            '19'  =>	'Risk Management',
-            '20'  =>	'Ads Strategy',
-            '21'  =>	'Go to Market Strategy',
-            '22'  =>	'Growth Strategy'          
+            '1'  =>	 'Sales',
+            '2'  =>	 'Marketing',
+            '3'  =>	 'Technology',
+            '4'  =>	 'Idea Validation',
+            '5'  =>	 'Product Market Fit',
+            '6'  =>	 'Team Management',
+            '7'  =>	 'Content creation',
+            '8'  =>	 'Leadership',
+            '9'  =>	 'Fund raising',
+            '10' =>  'Networking',
+            '11' =>  'Social Media',
+            '12' =>  'Pricing Strategy',
+            '13' =>  'Startup valuation',
+            '14' =>  'Business Strategy',
+            '15' =>  'Email Marketing',
+            '16' =>  'Brand Building ',
+            '17' =>	 'SEO',
+            '18' =>	 'Operations and logistics',
+            '19' =>	 'Risk Management',
+            '20' =>	 'Ads Strategy',
+            '21' =>	 'Go to Market Strategy',
+            '22' =>	 'Growth Strategy'          
         ];
 
-        return view('auth.registration', compact('expertise'));
+        return view('auth.registration', compact('expertise', 'token', 'id'));
     }
 
     /**
@@ -74,6 +74,11 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
+
+            if(!empty($request->token)) 
+            {
+               return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin'); 
+            }
 
             if (auth()->user()->role_id == 1) {
                 return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
@@ -109,7 +114,13 @@ class AuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
-        return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');    
+        if(!empty($request->token)) 
+        {
+           return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin'); 
+        }
+        else {
+            return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');    
+        }
     }
 
     /**
