@@ -11,6 +11,9 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
+use App\Models\ZoomAPI;
+use GuzzleHttp\Client;
+use Log;
 
 
 class MentorController extends Controller
@@ -70,7 +73,11 @@ class MentorController extends Controller
 
     public function update_status($id)
     {
+       $schedule =  ScheduledCall::find($id);
+
        ScheduledCall::find($id)->update(['status' => 'Approved']);
+       
+       $call_link = $this->getZoomCallLink($schedule);
     }
 
     public function reject_call($id)
@@ -167,5 +174,103 @@ class MentorController extends Controller
         // ];
 
         // AvailableSchedule::update_schedule($request->row_id, $data);
+    }
+
+    public function getZoomCallLink()
+    {
+        // $this->generateAccessToken();
+
+        $client = new \GuzzleHttp\Client(['base_uri' => 'https://api.zoom.us']);
+ 
+        $arr_token = $this->get_access_token();
+        $accessToken = $arr_token->access_token;
+ 
+    try {
+        $response = $client->request('POST', '/v2/users/me/meetings', [
+            "headers" => [
+                "Authorization" => "Bearer $accessToken"
+            ],
+            'json' => [
+                "topic" => "30 Min Meeting",
+                "type" => 2,
+                "start_time" => "2023-07-25T20:30:00",
+                "duration" => "30", // 30 mins
+                "password" => "123456"
+            ],
+        ]);
+ 
+        $data = json_decode($response->getBody());
+        echo "Join URL: ". $data->join_url;
+        echo "<br>";
+        echo "Meeting Password: ". $data->password;
+ 
+    } catch(Exception $e) {
+        if( 401 == $e->getCode() ) {
+            $refresh_token = $this->get_refresh_token();
+ 
+            $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
+            $response = $client->request('POST', '/oauth/token', [
+                "headers" => [
+                    "Authorization" => "Basic ". base64_encode(env('ZOOM_API_KEY').':'.env('ZOOM_API_SECRET'))
+                ],
+                'form_params' => [
+                    "grant_type" => "refresh_token",
+                    "refresh_token" => $refresh_token
+                ],
+            ]);
+            
+            ZoomAPI::update_access_token($response->getBody());
+ 
+            $this->getZoomCallLink();
+        } else {
+            echo $e->getMessage();
+        }
+    }
+          $this->getZoomCallLink();
+    }
+
+    public function generateAccessToken()
+    {
+        try {
+            $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
+         
+            $response = $client->request('POST', '/oauth/token', [
+                "headers" => [
+                    "Authorization" => "Basic ". base64_encode("TmMHewoTsKJZz0nXFRUZg".':'."CAknNOkx8yqcKBOuPBBb2fa9UW2a4FRI")
+                ],
+                'form_params' => [
+                    "grant_type" => "authorization_code",
+                    "code" => "BDKCvyB3L5J145JJ0LlTI634McNvVuWfA",
+                    "redirect_uri" => "http://localhost/mentor/meeting/success"
+                ],
+            ]);
+         
+            $token = json_decode($response->getBody()->getContents(), true);
+         
+            ZoomAPI::update_access_token(json_encode($token));
+              dd("Access token inserted successfully.");
+        } catch(Exception $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public function get_access_token() {
+
+        $data = ZoomAPI::where('provider', 'zoom')->first();
+       
+        return json_decode($data->provider_value);
+    }
+
+    public function get_refresh_token() {
+        $result = $this->get_access_token();
+        return $result->refresh_token;
+    }
+
+    public function test()
+    {
+        $client_id = env('ZOOM_API_KEY');
+        $redirect_uri = env('REDIRECT_URI');
+
+        return view('test', compact('client_id', 'redirect_uri'));
     }
 }

@@ -71,6 +71,8 @@ Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'
 Route::get('success', [HomeController::class, 'success'])->name('success');
 Route::get('terms-conditions', [HomeController::class, 'termsConditions'])->name('termsConditions');
 Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
+Route::post('contact-us/save', [HomeController::class, 'saveContact'])->name('contact.save');
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
@@ -126,7 +128,10 @@ Route::controller(MentorController::class)
         Route::post('/account_status', 'account_status')->name('account_status');
         Route::post('/delete', 'delete_account')->name('delete_account');
         Route::post('/save_mentors', 'save_mentors')->name('save');
-        Route::post('/save_schedule', 'save_schedule')->name('schedule.save');
+        Route::get('/zoom_api/test', 'test')->name('zoom_api.test');
+        Route::get('/zoom_api/generate_token', 'generateAccessToken')->name('zoom_api.token');
+        Route::get('/zoom_api/create_link', 'getZoomCallLink')->name('zoom_api.create_link');
+        Route::post('/meeting/success', 'success')->name('meeting.success');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
 

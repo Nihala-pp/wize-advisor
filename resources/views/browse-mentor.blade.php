@@ -252,7 +252,7 @@ label {
 </div>
 </header>
 <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
-	<section class="elementor-section elementor-top-section elementor-element elementor-element-82fl1zs elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="82fl1zs" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-82fl1zs elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="82fl1zs" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-no">
 			  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49ee3de" data-id="49ee3de" data-element_type="column">
@@ -260,12 +260,13 @@ label {
 					<div class="elementor-element elementor-element-c828001 elementor-widget elementor-widget-heading" data-id="c828001" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.14.0 - 26-06-2023 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
-<h1 class="elementor-heading-title elementor-size-default">Browse mentor and schedule a call right away</h1>		</div>
-</div>
-</div>
-</div>
-</div>
+              .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}
+			</style>
+                           <h1 class="elementor-heading-title elementor-size-default">Browse mentor and schedule a call right away</h1>		</div>
+              </div>
+                 </div>
+                      </div>
+        </div>
 </section>
 <section class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2aff472" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 	 <div class="elementor-container elementor-column-gap-default">
@@ -276,7 +277,7 @@ label {
         <select id="expertise" class="selectpicker" data-style="btn-info">
 		     <option value="">Expertise</option>
 				@foreach($expertise as $key => $expert)
-                  <option value="{{ $expert }}" {{ $variable == $expert ? 'selected' : ''}}>{{ $expert }}</option>
+                  <option value="{{ $expert }}" {{$expert == $variable  ? 'selected' : ''}}>{{ $expert }}</option>
                 @endforeach
         </select>
       </div>

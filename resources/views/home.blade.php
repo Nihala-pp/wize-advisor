@@ -178,7 +178,7 @@ html body .animated  {
 				</div>
 				<nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow" data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;" data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;" data-full-width="yes"><ul id="menu-1-ff5e4cd" class="hfe-nav-menu">
 <li id="menu-item-29" itemprop="name" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="http://localhost/wize-advisor/about-us/" itemprop="url" class="hfe-menu-item">About Us</a></li>
-<li id="menu-item-28" itemprop="name" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="http://localhost/wize-advisor/contact-us/" itemprop="url" class="hfe-menu-item">Contact Us</a></li>
+<li id="menu-item-28" itemprop="name" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="{{ route('contactUs') }}" itemprop="url" class="hfe-menu-item">Contact Us</a></li>
 <li id="menu-item-27" itemprop="name" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
 <div class="hfe-has-submenu-container"><a href="http://localhost/wize-advisor/resources/" itemprop="url" class="hfe-menu-item">Resource<span class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i class="fa"></i></span></a></div>
 <ul class="sub-menu">

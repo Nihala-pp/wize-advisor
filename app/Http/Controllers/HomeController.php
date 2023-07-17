@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
+use App\Models\Contact;
 use App\Models\ScheduledCall;
 use App\Models\MentorJoinRequest;
 use Illuminate\Support\Facades\DB;
@@ -13,6 +14,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Carbon\Carbon;
 use App\Mail\ScheduleCallRequest;
 use App\Mail\ScheduleCallRequestUser;
+use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -129,6 +131,11 @@ class HomeController extends Controller
     public function addMentor()
     {
         return view('be-a-mentor');   
+    }
+
+    public function contactUs()
+    {
+        return view('contact-us');   
     }
 
     public function addMentorRequest(Request $request)
@@ -260,5 +267,22 @@ class HomeController extends Controller
     public function privacyPolicy()
     {
          return view('privacy-policy');
+    }
+
+    public function saveContact(Request $request)
+    {
+        $email = 'info@wizeadvisor.com';
+
+        $details = Contact::create([
+         'firstname' => $request->firstname,
+         'lastname' => $request->lastname,
+         'mob' => $request->mobilenumber,
+         'email' => $request->email,
+         'message' => $request->message,
+        ]);
+
+        Mail::to($email)->send(new ContactMail($details));
+
+        return view('thankyou');
     }
 }
