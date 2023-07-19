@@ -73,7 +73,7 @@ class MentorController extends Controller
     {
         $timezones = AvailableSchedule::timezones();
         $weekStartDate = Carbon::parse('this monday')->toDateString();
-        $availability = AvailableSchedule::where('mentor_id', Auth::id())->order_by('id', 'desc')->get();
+        $availability = AvailableSchedule::where('mentor_id', Auth::id())->orderby('id', 'desc')->get();
 
         return view('mentors.availability', compact('timezones','weekStartDate','availability'));
     }
@@ -82,6 +82,43 @@ class MentorController extends Controller
     {
 
        ScheduledCall::find($id)->update(['status' => 'Approved']);
+
+       try {
+        $url = "https://zoom.us/oauth/authorize?response_type=code&";
+        $client_id = env('ZOOM_API_KEY');
+        $client_secret = env('ZOOM_API_SECRET');
+        $redirect_uri = env('REDIRECT_URI');
+        $data = "client_id=$client_id&redirect_uri=$redirect_uri";
+        $api_url = $url.$data;
+        $authorization_code = $this->get_authorization_code($api_url);
+       
+        $code = $request->code;
+        dd($code);
+        
+        $client =  new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);            
+
+
+        // $authorization_code = redirect($api_url);
+        // dd($authorization_code);
+     
+        $response = $client->request('POST', '/oauth/token', [
+            "headers" => [
+                "Authorization" => "Basic ". base64_encode($client_id.':'.$client_secret)
+            ],
+            'form_params' => [
+                "grant_type" => "authorization_code",
+                "code" => $code,
+                "redirect_uri" => $redirect_uri 
+            ],
+        ]);
+     
+        $token = json_decode($response->getBody()->getContents(), true);
+     
+        ZoomAPI::update_access_token(json_encode($token));
+          dd("Access token inserted successfully.");
+        } catch(Exception $e) {
+          echo $e->getMessage();
+       }
        
        $call_link = $this->getZoomCallLink($id);
     }

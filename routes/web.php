@@ -60,7 +60,7 @@ Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword
 // Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
 // Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
 
-Route::get('home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('profile/{id?}', [HomeController::class, 'profile'])->name('profile');
 Route::get('browseMentor/{expertise?}/{filter?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
 Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-mentor');
@@ -128,6 +128,8 @@ Route::controller(MentorController::class)
         Route::post('/account_status', 'account_status')->name('account_status');
         Route::post('/delete', 'delete_account')->name('delete_account');
         Route::post('/save_mentors', 'save_mentors')->name('save');
+        Route::post('/save_mentors', 'save_mentors')->name('save');
+        Route::post('/schedule/save', 'save_schedule')->name('schedule.save');
         Route::get('/zoom_api/test', 'test')->name('zoom_api.test');
         Route::get('/meeting/generate_token', 'generateAccessToken')->name('zoom_api.token');
         Route::get('/zoom_api/create_link', 'getZoomCallLink')->name('zoom_api.create_link');
