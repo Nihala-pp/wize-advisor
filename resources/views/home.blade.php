@@ -2046,7 +2046,7 @@ display:inline-block;
 <link rel="stylesheet" id="elementor-post-934-css" href="{{ asset('public/wp-content/uploads/elementor/css/post-934.css?ver=1688647328') }}" media="all">
 <link rel="stylesheet" id="elementor-post-1015-css" href="{{ asset('public/wp-content/uploads/elementor/css/post-1015.css?ver=1688647329') }}" media="all">
 <link rel="stylesheet" id="elementor-post-941-css" href="{{ asset('public/wp-content/uploads/elementor/css/post-941.css?ver=1688647329') }}" media="all">
-<link rel="stylesheet" id="e-animations-css" href="{{ asset('public/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1) }}" media="all">
+<link rel="stylesheet" id="e-animations-css" href="{{ asset('public/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1') }}" media="all">
 <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}" id="niso-carousel-owl.min-js"></script>
 <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}" id="jquery.mousewheel.min-js"></script>
 <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}" id="niso-carousel-lightbox.min-js"></script>
