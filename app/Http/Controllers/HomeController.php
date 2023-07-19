@@ -15,6 +15,8 @@ use Carbon\Carbon;
 use App\Mail\ScheduleCallRequest;
 use App\Mail\ScheduleCallRequestUser;
 use App\Mail\ContactMail;
+use App\Models\Expertise;
+use App\Models\MentorsExperience;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -46,8 +48,11 @@ class HomeController extends Controller
     public function profile($id)
     {
         $data = User::find($id);
+        $expertise = Expertise::where('mentor_id', $id)->get();
+        $experience = MentorsExperience::where('user_id', $id)->take(2)->get();
+        $last_experience = MentorsExperience::where('user_id', $id)->skip(2)->take(10)->get();
 
-        return view('profile', compact('data'));
+        return view('profile', compact('data','experience','expertise','last_experience'));
     }
 
     public function browseMentor($name = NULL, $filter = NULL)

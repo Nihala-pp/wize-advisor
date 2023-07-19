@@ -129,9 +129,9 @@ Route::controller(MentorController::class)
         Route::post('/delete', 'delete_account')->name('delete_account');
         Route::post('/save_mentors', 'save_mentors')->name('save');
         Route::get('/zoom_api/test', 'test')->name('zoom_api.test');
-        Route::get('/zoom_api/generate_token', 'generateAccessToken')->name('zoom_api.token');
+        Route::get('/meeting/generate_token', 'generateAccessToken')->name('zoom_api.token');
         Route::get('/zoom_api/create_link', 'getZoomCallLink')->name('zoom_api.create_link');
-        Route::post('/meeting/success', 'success')->name('meeting.success');
+        Route::get('/meeting/success', 'success')->name('meeting.success');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
 
