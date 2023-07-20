@@ -720,9 +720,9 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/procurement-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/procurement-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['operations']) }}">
+                                <a href="{{ route('browseMentor', ['Operations and logistics']) }}">
 					<h5 class="qodef-e-title">
 					Operations and logistics			</h5>
 </a>
