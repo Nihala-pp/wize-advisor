@@ -27,7 +27,7 @@ $(document).ready(function(){
         alert('wdswdsd');
         // var time = $('.event-card').val();
         var formdata = $('.scheduleCallForm').serialize();
-        return $.ajax("http://localhost/wize-advisor/public/addScheduleRequest", {
+        return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
               method: 'POST',
                data: {
                 "data": formdata,
@@ -118,9 +118,9 @@ function date_click(event) {
 
     var timezone = $("#timezone").val(); 
     var csrf = "{{ csrf_token() }}";
-    // let url = "http://localhost/wize-advisor/public/getTimeAvailability";
+    // let url = "https://wiseadvizor.com/public/getTimeAvailability";
 
-    return $.ajax("http://localhost/wize-advisor/public/getTimeAvailability", {
+    return $.ajax("https://wiseadvizor.com/getTimeAvailability", {
         method: 'POST',
         data: {
           "_token": $('meta[name="csrf-token"]').attr('content'),

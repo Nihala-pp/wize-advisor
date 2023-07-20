@@ -1416,11 +1416,13 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="{{ route('aboutUs') }}" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="{{ route('contactUs') }}" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a href="" itemprop="url"
@@ -1431,15 +1433,18 @@
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('community-posts') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">Community Post</a></li>
+                                                                class="hfe-sub-menu-item">Community Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('libraries') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a></li>
+                                                                class="hfe-sub-menu-item">Libraries</a>
+                                                        </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('faq') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
                                                             <a href="{{ route('blogs') }}" itemprop="url"
@@ -2174,101 +2179,103 @@
                                                     </div>
                                                 </div>
                                             </div>
-											<div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b1ed54d"
-                                            data-id="b1ed54d" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-7b6d864 elementor-widget elementor-widget-heading"
-                                                    data-id="7b6d864" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('privacyPolicy') }}">Privacy Policy</a>
-                                                        </p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b1ed54d"
+                                                data-id="b1ed54d" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-7b6d864 elementor-widget elementor-widget-heading"
+                                                        data-id="7b6d864" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('privacyPolicy') }}">Privacy
+                                                                    Policy</a>
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c000038"
-                                            data-id="c000038" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading"
-                                                    data-id="aaf88ad" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('termsConditions') }}">Terms &
-                                                                Conditions</a></p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c000038"
+                                                data-id="c000038" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading"
+                                                        data-id="aaf88ad" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('termsConditions') }}">Terms &
+                                                                    Conditions</a></p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-bd39b49"
-                                            data-id="bd39b49" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b23aa07 elementor-widget elementor-widget-heading"
-                                                    data-id="b23aa07" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('community-guidelines') }}">Community
-                                                                Guidelines</a></p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-bd39b49"
+                                                data-id="bd39b49" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-b23aa07 elementor-widget elementor-widget-heading"
+                                                        data-id="b23aa07" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('community-guidelines') }}">Community
+                                                                    Guidelines</a></p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-2775f92"
-                                            data-id="2775f92" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-269f902 elementor-widget elementor-widget-heading"
-                                                    data-id="269f902" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('aboutUs') }}">About Us</a></p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-2775f92"
+                                                data-id="2775f92" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-269f902 elementor-widget elementor-widget-heading"
+                                                        data-id="269f902" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('aboutUs') }}">About Us</a></p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-12e052a"
-                                            data-id="12e052a" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-32f5614 elementor-widget elementor-widget-heading"
-                                                    data-id="32f5614" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('contactUs') }}">Contact Us</a></p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-12e052a"
+                                                data-id="12e052a" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-32f5614 elementor-widget elementor-widget-heading"
+                                                        data-id="32f5614" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('contactUs') }}">Contact Us</a></p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-7c20640"
-                                            data-id="7c20640" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-159e6db elementor-widget elementor-widget-heading"
-                                                    data-id="159e6db" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('faq') }}">FAQs</a></p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-7c20640"
+                                                data-id="7c20640" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-159e6db elementor-widget elementor-widget-heading"
+                                                        data-id="159e6db" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('faq') }}">FAQs</a></p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b37b831"
-                                            data-id="b37b831" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-5db6379 elementor-widget elementor-widget-heading"
-                                                    data-id="5db6379" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="{{ route('browseMentor') }}">Browse Mentors</a>
-                                                        </p>
+                                            <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b37b831"
+                                                data-id="b37b831" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-5db6379 elementor-widget elementor-widget-heading"
+                                                        data-id="5db6379" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="elementor-heading-title elementor-size-default"><a
+                                                                    href="{{ route('browseMentor') }}">Browse
+                                                                    Mentors</a>
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
                                         </div>
                                     </section>
                                     <div class="elementor-element elementor-element-6bd5898 elementor-widget__width-auto elementor-widget elementor-widget-copyright"
