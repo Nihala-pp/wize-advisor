@@ -27,7 +27,8 @@ class UserController extends Controller
         $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
         $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('date', '<', Carbon::now())->get();
         $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->get();
-        $expertise =  UserMeta::where('user_id', Auth::id())->first()->expertise ?: '';
+        $expertise =  UserMeta::where('user_id', Auth::id())->first();
+        dd($expertise);
         $suggested_mentors = User::where('role_id', 2)
           ->whereHas('metaData', function($q) use($expertise) {
             $q->where('expertise', 'LIKE', '%'.$expertise.'%');
