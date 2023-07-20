@@ -105,8 +105,7 @@ class AuthController extends Controller
      */
     public function postRegistration(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
+        $credentials = $request->validate([
             'email' => 'required|email|unique:users',
             'password' => 'required|min:6',
         ]);
@@ -119,7 +118,12 @@ class AuthController extends Controller
            return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin'); 
         }
         else {
-            return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');    
+            if (Auth::attempt($credentials)) {
+
+               $request->session()->regenerate();
+                   
+               return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+            }        
         }
     }
 
