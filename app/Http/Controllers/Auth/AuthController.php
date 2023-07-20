@@ -10,8 +10,6 @@ use Session;
 use App\Models\User;
 use App\Models\UserMeta;
 use Hash;
-use Illuminate\Support\Facades\Validator;
-
 
 class AuthController extends Controller
 {
