@@ -858,7 +858,7 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 				  <div class="qodef-e-main-image">
-					<img width="300" height="200" src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }}" class="attachment-medium size-medium" alt="" decoding="async" srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }}" 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }} 600w sizes="(max-width: 300px) 100vw, 300px"></div>
+					<img width="300" height="200" src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }}" class="attachment-medium size-medium" alt="" decoding="async" srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }}" 600w sizes="(max-width: 300px) 100vw, 300px"></div>
 				  </div>
 					<h5 class="qodef-e-title">
 			 {{ $mentor->name }}		</h5>
