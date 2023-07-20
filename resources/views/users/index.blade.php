@@ -54,7 +54,7 @@
                     <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('communityPosts') }}" class="nav-link text-muted" target="_blank">Posts</a>
+                    <a href="{{ route('community-posts') }}" class="nav-link text-muted" target="_blank">Posts</a>
                 </li>
                 <li class="nav-item">
                     <a href="{{ route('browseMentor') }}" class="nav-link pe-0 text-muted" target="_blank">Browse Mentors</a>
