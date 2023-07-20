@@ -64,6 +64,9 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('profile/{id?}', [HomeController::class, 'profile'])->name('profile');
 Route::get('browseMentor/{expertise?}/{filter?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
 Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-mentor');
+Route::get('resources', [HomeController::class, 'resources'])->name('resources');
+Route::get('blogs', [HomeController::class, 'blogs'])->name('blogs');
+Route::get('faq', [HomeController::class, 'faq'])->name('faq');
 Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
 Route::get('schedule-call/{id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
 Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest');
@@ -71,6 +74,7 @@ Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'
 Route::get('success', [HomeController::class, 'success'])->name('success');
 Route::get('terms-conditions', [HomeController::class, 'termsConditions'])->name('termsConditions');
 Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('community-guidelines', [HomeController::class, 'community-guidelines'])->name('community-guidelines');
 Route::get('contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
 Route::post('contact-us/save', [HomeController::class, 'saveContact'])->name('contact.save');
 

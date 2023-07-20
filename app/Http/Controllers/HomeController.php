@@ -290,4 +290,9 @@ class HomeController extends Controller
 
         return view('thankyou');
     }
+
+    public function resources()
+    {
+       return view('resources');
+    }
 }
