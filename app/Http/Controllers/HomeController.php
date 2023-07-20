@@ -295,4 +295,34 @@ class HomeController extends Controller
     {
        return view('resources');
     }
+
+    public function blogs()
+    {
+       return view('blogs');
+    }
+
+    public function faq()
+    {
+       return view('faq');
+    }
+
+    public function communityGuidelines()
+    {
+       return view('community-guidelines');
+    }
+
+    public function libararies()
+    {
+       return view('libraries');
+    }
+
+    public function communityPosts()
+    {
+       return view('community-post');
+    }
+
+    public function aboutUs()
+    {
+       return view('about-us');
+    }
 }

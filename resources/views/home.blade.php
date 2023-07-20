@@ -240,7 +240,7 @@ html body .animated  {
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image" data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="360" height="360" src="{{ asset('public/') }}wp-content/uploads/2023/06/ain-14-unscreen.gif" class="attachment-full size-full wp-image-2588" alt="">															</div>
+															<img decoding="async" width="360" height="360" src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.gif') }}" class="attachment-full size-full wp-image-2588" alt="">															</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-db6ff7f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="db6ff7f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
