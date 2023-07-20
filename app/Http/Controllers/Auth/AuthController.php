@@ -114,7 +114,7 @@ class AuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
-        if(!empty($request->token)) 
+        if(!($request->token == "Null")) 
         {
            return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin'); 
         }
