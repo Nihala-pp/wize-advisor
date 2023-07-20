@@ -1537,7 +1537,7 @@
                             <input class="year" type="hidden" name="year" value="">
                             <input type="hidden" class="mentor" name="mentor" value="{{ $mentor ? $mentor->id : '' }}">
                             <input type="hidden" class="price" name="price"
-                                value="{{ @if($mentor && $mentor->metaData) $mentor->metaData->price_per_call @else '0' @endif }}">
+                                value="{{ $mentor->metaData ? $mentor->metaData->price_per_call : '0' }}">
                             <input type="hidden" class="time" name="time" value="">
                             <label class="form-label" style="color:black;">Description</label>
                             <textarea class="form-control" rows="5" cols="5"
