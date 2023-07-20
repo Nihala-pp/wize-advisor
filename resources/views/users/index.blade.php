@@ -45,19 +45,19 @@
         <div class="col-lg-8">
             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item active">
-                    <a href="" class="nav-link text-muted active" target="_blank">Dashboard </a>
+                    <a href="{{ route('home') }}" class="nav-link text-muted active" target="_blank">Dashboard </a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link text-muted" target="_blank">About Us</a>
+                    <a href="{{ route('aboutUs') }}" class="nav-link text-muted" target="_blank">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link text-muted" target="_blank">Contact Us</a>
+                    <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link text-muted" target="_blank">Posts</a>
+                    <a href="{{ route('communityPosts') }}" class="nav-link text-muted" target="_blank">Posts</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link pe-0 text-muted" target="_blank">Browse Mentors</a>
+                    <a href="{{ route('browseMentor') }}" class="nav-link pe-0 text-muted" target="_blank">Browse Mentors</a>
                 </li>
             </ul>
         </div>
