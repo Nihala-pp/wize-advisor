@@ -74,8 +74,10 @@ Route::get('success', [HomeController::class, 'success'])->name('success');
 Route::get('terms-conditions', [HomeController::class, 'termsConditions'])->name('termsConditions');
 Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('community-guidelines', [HomeController::class, 'communityGuidelines'])->name('community-guidelines');
+Route::get('community-guidelines', [HomeController::class, 'communityPosts'])->name('community-posts');
 Route::get('about-us', [HomeController::class, 'aboutUs'])->name('aboutUs');
 Route::get('contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
+Route::get('libraries', [HomeController::class, 'libraries'])->name('libraries');
 Route::post('contact-us/save', [HomeController::class, 'saveContact'])->name('contact.save');
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
