@@ -57,7 +57,7 @@
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Confirm Password</label>
-                                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                            <input id="password-confirm" type="password_confirmation" class="form-control" name="password_confirmation" required autocomplete="new-password">
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Company Name</label>
