@@ -75,7 +75,7 @@ img.emoji {
 var smoothAllowedBrowsers = [];</script>
 <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js"></script>
 <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}" id="jquery-migrate-js"></script>
-<script src="{{ asset('public/}wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }" id="font-awesome-4-shim-js"></script>
+<script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}" id="font-awesome-4-shim-js"></script>
 <script src="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5') }}" id="she-header-js"></script>
 <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
 <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/18') }}">
