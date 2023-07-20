@@ -6,85 +6,85 @@
     <title>Profile &#8211; WISE ADVIZOR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-    var theplus_ajax_url = "http://localhost/wize-advisor/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "http://localhost/wize-advisor/wp-admin/admin-post.php";
+    var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
+    var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
     var theplus_nonce = "cbe4e9be63";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <title>Profile &#8211; WISE ADVIZOR</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
-        href="http://localhost/wize-advisor/feed/">
+        href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="http://localhost/wize-advisor/comments/feed/">
-		<style>
-                                                /*! elementor - v3.14.0 - 26-06-2023 */
-                                                .elementor-widget-progress {
-                                                    text-align: left
-                                                }
+        href="{{ asset('public/comments/feed/') }}">
+    <style>
+    /*! elementor - v3.14.0 - 26-06-2023 */
+    .elementor-widget-progress {
+        text-align: left
+    }
 
-                                                .elementor-progress-wrapper {
-                                                    position: relative;
-                                                    background-color: #eee;
-                                                    color: #fff;
-                                                    height: 100%;
-                                                    border-radius: 2px
-                                                }
+    .elementor-progress-wrapper {
+        position: relative;
+        background-color: #eee;
+        color: #fff;
+        height: 100%;
+        border-radius: 2px
+    }
 
-                                                .elementor-progress-bar {
-                                                    display: flex;
-                                                    background-color: #69727d;
-                                                    width: 0;
-                                                    font-size: 11px;
-                                                    height: 30px;
-                                                    line-height: 30px;
-                                                    border-radius: 2px;
-                                                    transition: width 1s ease-in-out
-                                                }
+    .elementor-progress-bar {
+        display: flex;
+        background-color: #69727d;
+        width: 0;
+        font-size: 11px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 2px;
+        transition: width 1s ease-in-out
+    }
 
-                                                .elementor-progress-text {
-                                                    flex-grow: 1;
-                                                    white-space: nowrap;
-                                                    text-overflow: ellipsis;
-                                                    overflow: hidden;
-                                                    padding-left: 15px
-                                                }
+    .elementor-progress-text {
+        flex-grow: 1;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding-left: 15px
+    }
 
-                                                .elementor-progress-percentage {
-                                                    padding-right: 15px
-                                                }
+    .elementor-progress-percentage {
+        padding-right: 15px
+    }
 
-                                                .elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
-                                                    background-color: #5bc0de
-                                                }
+    .elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
+        background-color: #5bc0de
+    }
 
-                                                .elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
-                                                    background-color: #5cb85c
-                                                }
+    .elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
+        background-color: #5cb85c
+    }
 
-                                                .elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
-                                                    background-color: #f0ad4e
-                                                }
+    .elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
+        background-color: #f0ad4e
+    }
 
-                                                .elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
-                                                    background-color: #d9534f
-                                                }
+    .elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
+        background-color: #d9534f
+    }
 
-                                                .elementor-progress .elementor-title {
-                                                    display: block
-                                                }
+    .elementor-progress .elementor-title {
+        display: block
+    }
 
-                                                @media (max-width:767px) {
-                                                    .elementor-progress-text {
-                                                        padding-left: 10px
-                                                    }
-                                                }
+    @media (max-width:767px) {
+        .elementor-progress-text {
+            padding-left: 10px
+        }
+    }
 
-                                                .e-con-inner .elementor-progress-wrapper,
-                                                .e-con .elementor-progress-wrapper {
-                                                    height: auto
-                                                }
-                                                </style>
+    .e-con-inner .elementor-progress-wrapper,
+    .e-con .elementor-progress-wrapper {
+        height: auto
+    }
+    </style>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -367,18 +367,18 @@
     }
     </style>
     <link rel="preload"
-        href="http://localhost/wize-advisor/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+        href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="http://localhost/wize-advisor/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+            href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
             media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205"
+        href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205') }}"
         media="all">
     <style id="global-styles-inline-css">
     body {
@@ -962,25 +962,25 @@
     }
     </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0') }}"
         media="all">
     <link rel="stylesheet" id="niso-carousel-owl-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0') }}"
         media="all">
     <link rel="stylesheet" id="niso-theme-default-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0') }}"
         media="all">
     <link rel="stylesheet" id="niso-animate-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18') }}"
         media="all">
     <link rel="stylesheet" id="niso-carousel-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18') }}"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0') }}"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
+        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0') }}"
         media="all">
     <style id="wp-webfonts-inline-css">
     @font-face {
@@ -988,7 +988,7 @@
         font-style: normal;
         font-weight: 200 900;
         font-display: fallback;
-        src: url('http://localhost/wize-advisor/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
+        src: url('{{ asset('public/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') }}') format('woff2');
         font-stretch: normal;
     }
 
@@ -997,75 +997,75 @@
         font-style: italic;
         font-weight: 200 900;
         font-display: fallback;
-        src: url('http://localhost/wize-advisor/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
+        src: url('{{ asset('public/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') }}') format('woff2');
         font-stretch: normal;
     }
     </style>
     <link rel="stylesheet" id="hfe-style-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
+        href="{{ asset('public/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14') }}"
         media="all">
     <link rel="stylesheet" id="elementor-icons-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0') }}"
         media="all">
     <link rel="stylesheet" id="elementor-frontend-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1') }}"
         media="all">
     <link rel="stylesheet" id="swiper-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5') }}"
         media="all">
     <link rel="stylesheet" id="elementor-post-5-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
+        href="{{ asset('public/wp-content/uploads/elementor/css/post-5.css?ver=1688377903') }}" media="all">
     <link rel="stylesheet" id="elementor-pro-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
+        href="{{ asset('public/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0') }}"
         media="all">
     <link rel="stylesheet" id="font-awesome-5-all-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1') }}"
         media="all">
     <link rel="stylesheet" id="font-awesome-4-shim-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1') }}"
         media="all">
     <link rel="stylesheet" id="she-header-style-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        href="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5') }}"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">
+        href="{{ asset('public/wp-content/uploads/elementor/css/global.css?ver=1688377904') }}" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        href="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14') }}"
         media="all">
     <link rel="stylesheet" id="elementor-post-2372-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/elementor/css/post-2372.css?ver=1689690069" media="all">
+        href="{{ asset('public/wp-content/uploads/elementor/css/post-2372.css?ver=1689690069') }}" media="all">
     <link rel="stylesheet" id="elementor-post-3007-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
+        href="{{ asset('public/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136') }}" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
+        href="{{ asset('public/wp-content/uploads/elementor/css/post-32.css?ver=1688661608') }}" media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2"
+        href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2') }}"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2"
+        href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2') }}"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
+        href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2') }}"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="http://localhost/wize-advisor/wp-content/uploads/theplus-addons/theplus.min.css?ver=1689690069"
+        href="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.css?ver=1689690069') }}"
         media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="http://localhost/wize-advisor/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+        href="{{ asset('public/wp-content/themes/twentytwentytwo/style.css?ver=1.4') }}" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3') }}"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3') }}"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3') }}"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3') }}"
         media="all">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
@@ -1074,28 +1074,28 @@
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
+    <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js">
     </script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
+    <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}"
         id="jquery-migrate-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
+        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}"
         id="font-awesome-4-shim-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
+        src="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5') }}"
         id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="http://localhost/wize-advisor/wp-json/">
-    <link rel="alternate" type="application/json" href="http://localhost/wize-advisor/wp-json/wp/v2/pages/2372">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wize-advisor/xmlrpc.php?rsd">
+    <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
+    <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/2372') }}">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="http://localhost/wize-advisor/wp-includes/wlwmanifest.xml">
+        href="{{ asset('public/wp-includes/wlwmanifest.xml') }}">
     <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="http://localhost/wize-advisor/profile/">
-    <link rel="shortlink" href="http://localhost/wize-advisor/?p=2372">
+    <link rel="canonical" href="{{ route('profile') }}">
+    <link rel="shortlink" href="{{ asset('public/?p=2372') }}">
     <link rel="alternate" type="application/json+oembed"
-        href="http://localhost/wize-advisor/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
+        href="{{ asset('public/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F') }}">
     <link rel="alternate" type="text/xml+oembed"
-        href="http://localhost/wize-advisor/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml">
+        href="{{ asset('public/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml') }}">
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style type="text/css">
@@ -1402,7 +1402,7 @@
         </defs>
     </svg>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="http://localhost/wize-advisor/"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}"
                 title="WISE ADVIZOR" rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -1435,11 +1435,11 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="http://localhost/wize-advisor/home">
+                                    </style> <a href="{{ route('home') }}">
                                         <img width="932" height="140"
-                                            src="http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC.png"
+                                            src="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }}"
                                             class="attachment-large size-large wp-image-624" alt=""
-                                            srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC.png 932w, http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }} 932w, {{ asset('public/wp-content/uploads/2023/06/pngLargeC-300x45.png') }} 300w, {{ asset('public/wp-content/uploads/2023/06/pngLargeC-768x115.png') }} 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -1467,42 +1467,44 @@
                                             data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
                                             data-full-width="yes">
                                             <ul id="menu-1-359f243" class="hfe-nav-menu">
-                                                <li id="menu-item-29" itemprop="name"
+                                                < <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="http://localhost/wize-advisor/about-us/" itemprop="url"
+                                                    <a href="{{ route('aboutUs') }}" itemprop="url"
                                                         class="hfe-menu-item">About Us</a></li>
-                                                <li id="menu-item-28" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="http://localhost/wize-advisor/contact-us/" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
-                                                <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                    <div class="hfe-has-submenu-container"><a
-                                                            href="http://localhost/wize-advisor/resources/"
-                                                            itemprop="url" class="hfe-menu-item">Resource<span
-                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div>
-                                                    <ul class="sub-menu">
-                                                        <li id="menu-item-24" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="http://localhost/wize-advisor/community-post/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
-                                                        <li id="menu-item-25" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="http://localhost/wize-advisor/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
-                                                        </li>
-                                                        <li id="menu-item-26" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="http://localhost/wize-advisor/blogs/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a></li>
-                                                        <li id="menu-item-2842" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="http://localhost/wize-advisor/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
-                                                    </ul>
-                                                </li>
+                                                    <li id="menu-item-28" itemprop="name"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                        <a href="{{ route('contactUs') }}" itemprop="url"
+                                                            class="hfe-menu-item">Contact Us</a>
+                                                    </li>
+                                                    <li id="menu-item-27" itemprop="name"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
+                                                        <div class="hfe-has-submenu-container"><a href="" itemprop="url"
+                                                                class="hfe-menu-item">Resource<span
+                                                                    class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                        class="fa"></i></span></a></div>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-24" itemprop="name"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                                <a href="{{ route('community-posts') }}" itemprop="url"
+                                                                    class="hfe-sub-menu-item">Community Post</a>
+                                                            </li>
+                                                            <li id="menu-item-25" itemprop="name"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                                <a href="{{ route('libraries') }}" itemprop="url"
+                                                                    class="hfe-sub-menu-item">Libraries</a>
+                                                            </li>
+                                                            <li id="menu-item-26" itemprop="name"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                                <a href="{{ route('faq') }}" itemprop="url"
+                                                                    class="hfe-sub-menu-item">FAQ</a>
+                                                            </li>
+                                                            <li id="menu-item-2842" itemprop="name"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
+                                                                <a href="{{ route('blogs') }}" itemprop="url"
+                                                                    class="hfe-sub-menu-item hfe-sub-menu-item-active">BLOGS</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -1517,11 +1519,21 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        @if(Auth::id())
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('user.dashboard') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Dashboard</span>
+                                            </span>
+                                        </a>
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
@@ -1530,7 +1542,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="http://localhost/wize-advisor/browse-mentor/">
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -2093,9 +2105,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="640" height="814"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/section-1-bg1.jpg"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/section-1-bg1.jpg') }}"
                                                     class="attachment-full size-full wp-image-2413" alt=""
-                                                    srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/section-1-bg1.jpg 640w, http://localhost/wize-advisor/wp-content/uploads/2023/06/section-1-bg1-236x300.jpg 236w"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/section-1-bg1.jpg') }} 640w, {{ asset('public/wp-content/uploads/2023/06/section-1-bg1-236x300.jpg') }} 236w"
                                                     sizes="(max-width: 640px) 100vw, 640px">
                                             </div>
                                         </div>
@@ -2134,16 +2146,17 @@
                         <div class="elementor-element elementor-element-71f202c elementor-widget elementor-widget-text-editor"
                             data-id="71f202c" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-								
-							        @php
-								       $json = preg_replace('/,/','\n',trim($data->metaData->achievements));
-                                     @endphp
-									 @foreach(json_decode($json) as $achievement)
+
+                                @php
+                                $json = preg_replace('/,/','\n',trim($data->metaData->achievements));
+                                @endphp
+                                @foreach(json_decode($json) as $achievement)
 
                                 <ul>
-                                      <li>{{ $achievement }} <\n></li>
+                                    <li>{{ $achievement }} <\n>
+                                    </li>
                                 </ul>
-								@endforeach
+                                @endforeach
                             </div>
                         </div>
                     </div>
@@ -2221,9 +2234,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="256" height="256"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/computer.png"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
                                                     class="attachment-large size-large wp-image-2422" alt=""
-                                                    srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/computer.png 256w, http://localhost/wize-advisor/wp-content/uploads/2023/06/computer-150x150.png 150w, http://localhost/wize-advisor/wp-content/uploads/2023/06/computer-450x450.png 450w, http://localhost/wize-advisor/wp-content/uploads/2023/06/computer-700x700.png 700w, http://localhost/wize-advisor/wp-content/uploads/2023/06/computer-650x650.png 650w, http://localhost/wize-advisor/wp-content/uploads/2023/06/computer-1300x1300.png 1300w"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/computer.png') }} 256w, {{ asset('public/wp-content/uploads/2023/06/computer-150x150.png') }} 150w, {{ asset('public/wp-content/uploads/2023/06/computer-450x450.png') }} 450w, {{ asset('public/wp-content/uploads/2023/06/computer-700x700.png') }} 700w, {{ asset('public/wp-content/uploads/2023/06/computer-650x650.png') }} 650w, {{ asset('public/wp-content/uploads/2023/06/computer-1300x1300.png') }} 1300w"
                                                     sizes="(max-width: 256px) 100vw, 256px">
                                             </div>
                                         </div>
@@ -2315,7 +2328,7 @@
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div class="elementor-background-overlay"></div>
                             <div class="elementor-container elementor-column-gap-no">
-								@foreach($experience as $exp)
+                                @foreach($experience as $exp)
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8a50591"
                                     data-id="8a50591" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2325,7 +2338,8 @@
                                             data-id="3f8ebce" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-medium"> {{ $exp->position }}</span>
+                                                <span class="elementor-heading-title elementor-size-medium">
+                                                    {{ $exp->position }}</span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-3af0bab elementor-widget elementor-widget-heading"
@@ -2333,7 +2347,8 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-default">
-													{{ $exp->start_date }} - {{ $exp->end_date ? $exp->end_date : 'Present' }}
+                                                    {{ $exp->start_date }} -
+                                                    {{ $exp->end_date ? $exp->end_date : 'Present' }}
                                                 </span>
                                             </div>
                                         </div>
@@ -2362,14 +2377,14 @@
                                         </div>
                                     </div>
                                 </div>
-								@endforeach
+                                @endforeach
                             </div>
                         </section>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-ed09546 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="ed09546" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no">
-								@foreach($last_experience as $last_exp)
+                                @foreach($last_experience as $last_exp)
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-651f958"
                                     data-id="651f958" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2378,15 +2393,18 @@
                                             data-id="7bebc4a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-medium">{{ $last_exp->position }}</span>
+                                                <span
+                                                    class="elementor-heading-title elementor-size-medium">{{ $last_exp->position }}</span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-c95ee9d elementor-widget elementor-widget-heading"
                                             data-id="c95ee9d" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default"> {{ $last_exp->start_date }} - {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
-											   </span>
+                                                <span class="elementor-heading-title elementor-size-default">
+                                                    {{ $last_exp->start_date }} -
+                                                    {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
+                                                </span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-37316f5 elementor-widget elementor-widget-text-editor"
@@ -2394,7 +2412,7 @@
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-												{{ $last_exp->description }}
+                                                    {{ $last_exp->description }}
                                                 </ul>
                                             </div>
                                         </div>
@@ -2407,14 +2425,15 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                     aria-valuetext="100% (Paytm)">
                                                     <div class="elementor-progress-bar" data-max="100">
-                                                        <span class="elementor-progress-text">{{ $last_exp->company_name }}</span>
+                                                        <span
+                                                            class="elementor-progress-text">{{ $last_exp->company_name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>  
-                               @endforeach
+                                </div>
+                                @endforeach
                             </div>
                         </section>
                     </div>
@@ -2475,35 +2494,35 @@
                                             aria-label="1 of 5">
                                             <figure class="swiper-slide-inner"><img decoding="async"
                                                     class="swiper-slide-image"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/portfolio-2.png"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/portfolio-2.png') }}"
                                                     alt="portfolio-2.png"></figure>
                                         </div>
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="2 of 5">
                                             <figure class="swiper-slide-inner"><img decoding="async"
                                                     class="swiper-slide-image"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/portfolio-3.png"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/portfolio-3.png') }}"
                                                     alt="portfolio-3.png"></figure>
                                         </div>
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="3 of 5">
                                             <figure class="swiper-slide-inner"><img decoding="async"
                                                     class="swiper-slide-image"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/portfolio-6-1.png"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/portfolio-6-1.png') }}"
                                                     alt="portfolio-6-1.png"></figure>
                                         </div>
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="4 of 5">
                                             <figure class="swiper-slide-inner"><img decoding="async"
                                                     class="swiper-slide-image"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/portfolio-4.png"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/portfolio-4.png') }}"
                                                     alt="portfolio-4.png"></figure>
                                         </div>
                                         <div class="swiper-slide" role="group" aria-roledescription="slide"
                                             aria-label="5 of 5">
                                             <figure class="swiper-slide-inner"><img decoding="async"
                                                     class="swiper-slide-image"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/portfolio-7-1.png"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/portfolio-7-1.png') }}"
                                                     alt="portfolio-7-1.png"></figure>
                                         </div>
                                     </div>
@@ -2563,9 +2582,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="336" height="336"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3.jpg"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }}"
                                                     class="attachment-large size-large wp-image-2460" alt=""
-                                                    srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3.jpg 336w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3-300x300.jpg 300w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3-150x150.jpg 150w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3-450x450.jpg 450w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3-700x700.jpg 700w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3-650x650.jpg 650w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-3-1300x1300.jpg 1300w"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }} 336w, {{ asset('public/wp-content/uploads/2023/06/male-3-300x300.jpg') }} 300w, {{ asset('public/wp-content/uploads/2023/06/male-3-150x150.jpg') }} 150w, {{ asset('public/wp-content/uploads/2023/06/male-3-450x450.jpg') }} 450w, {{ asset('public/wp-content/uploads/2023/06/male-3-700x700.jpg') }} 700w, {{ asset('public/wp-content/uploads/2023/06/male-3-650x650.jpg') }} 650w, {{ asset('public/wp-content/uploads/2023/06/male-3-1300x1300.jpg') }} 1300w"
                                                     sizes="(max-width: 336px) 100vw, 336px">
                                             </div>
                                         </div>
@@ -2638,9 +2657,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="150" height="150"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-150x150.jpg"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/female-3-150x150.jpg') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-2461" alt=""
-                                                    srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-150x150.jpg 150w, http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-300x300.jpg 300w, http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-450x450.jpg 450w, http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-700x700.jpg 700w, http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-650x650.jpg 650w, http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3-1300x1300.jpg 1300w, http://localhost/wize-advisor/wp-content/uploads/2023/06/female-3.jpg 336w"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/female-3-150x150.jpg') }} 150w, {{ asset('public/wp-content/uploads/2023/06/female-3-300x300.jpg') }} 300w, {{ asset('public/wp-content/uploads/2023/06/female-3-450x450.jpg') }} 450w, {{ asset('public/wp-content/uploads/2023/06/female-3-700x700.jpg') }} 700w, {{ asset('public/wp-content/uploads/2023/06/female-3-650x650.jpg') }} 650w, {{ asset('public/wp-content/uploads/2023/06/female-3-1300x1300.jpg') }} 1300w, {{ asset('public/wp-content/uploads/2023/06/female-3.jpg') }} 336w"
                                                     sizes="(max-width: 150px) 100vw, 150px">
                                             </div>
                                         </div>
@@ -2713,9 +2732,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="336" height="336"
-                                                    src="http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1.jpg"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/male-1.jpg') }}"
                                                     class="attachment-large size-large wp-image-2462" alt=""
-                                                    srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1.jpg 336w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1-300x300.jpg 300w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1-150x150.jpg 150w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1-450x450.jpg 450w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1-700x700.jpg 700w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1-650x650.jpg 650w, http://localhost/wize-advisor/wp-content/uploads/2023/06/male-1-1300x1300.jpg 1300w"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/male-1.jpg') }} 336w, {{ asset('public/wp-content/uploads/2023/06/male-1-300x300.jpg') }} 300w, {{ asset('public/wp-content/uploads/2023/06/male-1-150x150.jpg') }} 150w, {{ asset('public/wp-content/uploads/2023/06/male-1-450x450.jpg') }} 450w, {{ asset('public/wp-content/uploads/2023/06/male-1-700x700.jpg') }} 700w, {{ asset('public/wp-content/uploads/2023/06/male-1-6500x650.jpg') }} 650w, {{ asset('public/wp-content/uploads/2023/06/male-1-1300x1300.jpg') }} 1300w"
                                                     sizes="(max-width: 336px) 100vw, 336px">
                                             </div>
                                         </div>
@@ -2773,7 +2792,7 @@
                 </div>
             </div>
         </section>
-		@if(!empty($data->metaData->achievements))
+        @if(!empty($data->metaData->achievements))
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-de2b30f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="de2b30f" data-element_type="section"
@@ -2850,7 +2869,7 @@
                 </div>
             </div>
         </section>
-		@endif
+        @endif
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-o8fq3al elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="o8fq3al" data-element_type="section"
@@ -3270,8 +3289,8 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/privacy-policy/">Privacy
-                                                                Policy</a></p>
+                                                                href="{{ route('privacyPolicy') }}">Privacy Policy</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3284,8 +3303,8 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/terms-and-conditions/">Terms
-                                                                & Conditions</a></p>
+                                                                href="{{ route('termsConditions') }}">Terms &
+                                                                Conditions</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3298,7 +3317,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/community-guidelines/">Community
+                                                                href="{{ route('community-guidelines') }}">Community
                                                                 Guidelines</a></p>
                                                     </div>
                                                 </div>
@@ -3312,8 +3331,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/about-us/">About
-                                                                Us</a></p>
+                                                                href="{{ route('aboutUs') }}">About Us</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3326,8 +3344,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/contact-us/">Contact
-                                                                Us</a></p>
+                                                                href="{{ route('contactUs') }}">Contact Us</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3340,7 +3357,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/blogs/">FAQs</a></p>
+                                                                href="{{ route('faq') }}">FAQs</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3353,8 +3370,8 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="http://localhost/wize-advisor/browse-mentor/">Browse
-                                                                Mentors</a></p>
+                                                                href="{{ route('browseMentor') }}">Browse Mentors</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3791,15 +3808,15 @@
     }());
     </script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+        src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
         id="niso-carousel-owl.min-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
+        src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
         id="jquery.mousewheel.min-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
+        src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
         id="niso-carousel-lightbox.min-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2') }}" id="jquery-ui-core-js">
     </script>
     <script id="qi-addons-for-elementor-script-js-extra">
     var qodefQiAddonsGlobal = {
@@ -3812,23 +3829,23 @@
     };
     </script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
+        src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
         id="qi-addons-for-elementor-script-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2"
+    <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}"
         id="jquery-ui-mouse-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2"
+    <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}"
         id="jquery-ui-slider-js"></script>
-    <script src="http://localhost/wize-advisor/wp-content/uploads/theplus-addons/theplus.min.js?ver=1689690069"
+    <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1689690069') }}"
         id="theplus-front-js-js" defer></script>
-    <script src="http://localhost/wize-advisor/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
-    <script src="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
         id="elementor-webpack-runtime-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
         id="elementor-frontend-modules-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3952,17 +3969,17 @@
         }
     };
     </script>
-    <script src="http://localhost/wize-advisor/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1"
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+    <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
         id="wp-polyfill-inert-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11"
+    <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
         id="regenerator-runtime-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+    <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}"
         id="wp-polyfill-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5"
+    <script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}"
         id="wp-hooks-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae"
+    <script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}"
         id="wp-i18n-js"></script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
@@ -3970,10 +3987,10 @@
     });
     </script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2"
+        src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2') }}"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0"
+        src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
@@ -4060,15 +4077,15 @@
         }
     };
     </script>
-    <script src="http://localhost/wize-advisor/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0"
+    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
         id="elementor-pro-frontend-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
+        src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
         id="pro-elements-handlers-js"></script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0"
+        src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
         id="e-sticky-js"></script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+    <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4') }}" id="underscore-js"></script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
         "ajax": {
@@ -4076,7 +4093,7 @@
         }
     };
     </script>
-    <script src="http://localhost/wize-advisor/wp-includes/js/wp-util.min.js?ver=6.2.2" id="wp-util-js"></script>
+    <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js"></script>
     <script id="wpforms-elementor-js-extra">
     var wpformsElementorVars = {
         "captcha_provider": "recaptcha",
@@ -4084,7 +4101,7 @@
     };
     </script>
     <script
-        src="http://localhost/wize-advisor/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
+        src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
     <script type="text/javascript">
     (function($) {
