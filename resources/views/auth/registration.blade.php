@@ -46,14 +46,31 @@
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Name</label>
                                             <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                            
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Email</label>
                                             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                       
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Password</label>
                                             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                            @error('password')
+                                              <span class="invalid-feedback" role="alert">
+                                                 <strong>{{ $message }}</strong>
+                                               </span>
+                                            @enderror
                                         </div>
                                         <div class="input-group input-group-outline mb-3">
                                             <label class="form-label">Confirm Password</label>
@@ -80,10 +97,15 @@
                                         </select>
                                         </div>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
-                                            <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault" required>
+                                            <input class="form-check-input" type="checkbox" name="terms_condition" value="1" id="flexCheckDefault" required>
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 I agree the <a href="{{ route('termsConditions') }}" class="text-dark font-weight-bolder">Terms and Conditions</a>
                                             </label>
+                                            @error('terms_condition')
+                                              <span class="invalid-feedback" role="alert">
+                                                 <strong>{{ $message }}</strong>
+                                               </span>
+                                            @enderror
                                         </div>
                                         <div class="text-center">
                                             <button type="submit" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Sign Up</button>
