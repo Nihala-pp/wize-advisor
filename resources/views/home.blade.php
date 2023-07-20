@@ -550,7 +550,7 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 				  <div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/sales-final-50x50.png" alt="" width="50" height="50">				
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}" alt="" width="50" height="50">				
                   </div>
 				  </div>
                   <a href="{{ route('browseMentor', ['Sales']) }}">
@@ -564,11 +564,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/validation-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                <a href="{{ route('browseMentor', ['idea-Validation']) }}">
+                <a href="{{ route('browseMentor', ['Idea Validation']) }}">
 					<h5 class="qodef-e-title">
-					idea Validation			
+					Idea Validation		
                     </h5>
                 </a>
 			</div>
@@ -577,11 +577,12 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/PMF-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/PMF-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
                     <a href="{{ route('browseMentor', ['product-market-fit']) }}">
 					<h5 class="qodef-e-title">
-					product market fit			</h5>
+					Product Market Fit			
+				    </h5>
                     </a>
 			</div>
 </div>
@@ -589,11 +590,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/marketing-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                    <a href="{{ route('browseMentor', ['marketing']) }}">
+                    <a href="{{ route('browseMentor', ['Marketing']) }}">
 					  <h5 class="qodef-e-title">
-					   marketing			
+					  Marketing			
                       </h5>
                    </a>
 			</div>
@@ -602,11 +603,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/leadership-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                 <a href="{{ route('browseMentor', ['leadership']) }}">          
+                 <a href="{{ route('browseMentor', ['Leadership']) }}">          
 					<h5 class="qodef-e-title">
-					leadership			
+					Leadership			
                     </h5>
                 </a>
 			</div>
@@ -623,11 +624,12 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/funds-raise-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                <a href="{{ route('browseMentor', ['fund-raise']) }}">          
+                <a href="{{ route('browseMentor', ['Fund raising']) }}">          
 					<h5 class="qodef-e-title">
-					Fund Raise			</h5>
+					Fund raising			
+				   </h5>
                </a>
 			</div>
 </div>
@@ -635,9 +637,9 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/network-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                    <a href="{{ route('browseMentor', ['networking']) }}">          
+                    <a href="{{ route('browseMentor', ['Networking']) }}">          
 					<h5 class="qodef-e-title">
 					Networking			</h5>
                     </a>
@@ -647,11 +649,12 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/roadmap-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/roadmap-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                <a href="{{ route('browseMentor', ['bussiness-strategy']) }}">       
+                <a href="{{ route('browseMentor', ['Business Strategy']) }}">       
 					<h5 class="qodef-e-title">
-					Business strategy			</h5>
+					  Business Strategy			
+				   </h5>
                 </a>
 			</div>
 </div>
@@ -659,11 +662,12 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/Price-strategy-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                <a href="{{ route('browseMentor', ['price-strategy']) }}">       
+                <a href="{{ route('browseMentor', ['Pricing Strategy']) }}">       
 					<h5 class="qodef-e-title">
-					price strategy			</h5>
+					  Pricing Strategy			
+					</h5>
                </a>
 			</div>
 </div>
@@ -671,11 +675,12 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/social-media_-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                <a href="{{ route('browseMentor', ['social-media']) }}">       
+                <a href="{{ route('browseMentor', ['Social Media']) }}">       
 					<h5 class="qodef-e-title">
-					Social media			</h5>
+					   Social Media			
+				    </h5>
                 </a>
 			</div>
 </div>
@@ -691,11 +696,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/CC-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/CC-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                <a href="{{ route('browseMentor', ['content-creation']) }}">
+                <a href="{{ route('browseMentor', ['Content creation']) }}">
 					<h5 class="qodef-e-title">
-					content creation			</h5>
+					Content creation			</h5>
                 </a>
 			</div>
 </div>
@@ -703,11 +708,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/seo-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/seo-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['seo']) }}">
+                                <a href="{{ route('browseMentor', ['SEO']) }}">
 					<h5 class="qodef-e-title">
-					seo			</h5>
+					SEO			</h5>
 </a>
 			</div>
 </div>
@@ -727,9 +732,9 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/risk-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/risk-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['risk-management']) }}">
+                                <a href="{{ route('browseMentor', ['Risk Management']) }}">
 					<h5 class="qodef-e-title">
 					Risk Management			</h5>
 </a>
@@ -739,11 +744,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/attraction-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/attraction-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['ads-strategy']) }}">
+                                <a href="{{ route('browseMentor', ['Ads Strategy']) }}">
 					<h5 class="qodef-e-title">
-					ads strategy			</h5>
+					Ads Strategy			</h5>
 </a>
 			</div>
 </div>
@@ -759,11 +764,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/creative-mind-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/creative-mind-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['brand-building']) }}">
+                                <a href="{{ route('browseMentor', ['Brand Building']) }}">
 					<h5 class="qodef-e-title">
-					brand building			</h5>
+					Brand Building			</h5>
 </a>
 			</div>
 </div>
@@ -771,9 +776,9 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/team-management-final-50x50.png" alt="" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/team-management-final-50x50.png') }}" alt="" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['technology']) }}">
+                                <a href="{{ route('browseMentor', ['Technology']) }}">
 					<h5 class="qodef-e-title">
 					Technology			</h5>
 </a>
@@ -783,9 +788,9 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/valuation-final-50x50.png" alt="Valuation" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/valuation-final-50x50.png') }}" alt="Valuation" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['Startup-Valuation']) }}">
+                                <a href="{{ route('browseMentor', ['Startup valuation']) }}">
 					<h5 class="qodef-e-title">
 					Startup Valuation			</h5>
 </a>
@@ -795,11 +800,11 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/icons8-final-50x50.png" alt="Technology" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/icons8-final-50x50.png') }}" alt="Technology" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['technology']) }}">
+                                <a href="{{ route('browseMentor', ['Technology']) }}">
 					<h5 class="qodef-e-title">
-					technology			</h5>
+					Technology			</h5>
 </a>
 			</div>
 </div>
@@ -807,9 +812,9 @@ empower startups and fuel their growth.   </p>		</div>
 	<div class="qodef-e-inner">
 				<div class="qodef-e-images-holder">
 							<div class="qodef-e-main-image">
-					<img decoding="async" src="{{ asset('public/') }}wp-content/uploads/2023/06/email-final-50x50.png" alt="Email" width="50" height="50">				</div>
+					<img decoding="async" src="{{ asset('public/wp-content/uploads/2023/06/email-final-50x50.png') }}" alt="Email" width="50" height="50">				</div>
 								</div>
-                                <a href="{{ route('browseMentor', ['email-marketing']) }}">
+                                <a href="{{ route('browseMentor', ['Email Marketing']) }}">
 					<h5 class="qodef-e-title">
 					Email marketing			</h5>
 </a>
