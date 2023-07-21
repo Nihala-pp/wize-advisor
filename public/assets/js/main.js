@@ -276,7 +276,7 @@
         console.log(event_data["events"]);
         // If there are no events for this date, notify the user
         if (events.length === 0) {
-            var event_card = $("<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' style='background-color:white; width:75%' value=''></button>");
+            var event_card = $("<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' style='background-color:white;border:solid;border-color:#007bff; width:75%' value=''></button>");
             var event_name = $("<div class='event-name'>There are no calls planned for " + month + " " + day + ".</div>");
             $(event_card).css({ "border-left": "10px solid #FF1744" });
             $(event_card).append(event_name);
