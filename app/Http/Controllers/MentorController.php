@@ -191,10 +191,20 @@ class MentorController extends Controller
     public function save_schedule(Request $request)
     {
         // dd($request->all());
-
-
           foreach($request->schedule as $key => $schedule)
           {
+            $exists = AvailableSchedule::where('mentor_id', Auth::id())
+            ->where('date', $schedule['date'])
+            ->where('start_time',  $schedule['start_time'])
+            ->where('time_zone', $request->time_zone)
+            ->first();
+
+            if($exists)
+            {
+                return abort(403, 'Time slot already exists. Choose a different One');
+            }
+            else {
+
             //  dd($schedule['start_time']);
                $data = [
                 'mentor_id' => Auth::id(),
@@ -205,7 +215,7 @@ class MentorController extends Controller
               ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
-
+            }
           }
 
         //   $data = [

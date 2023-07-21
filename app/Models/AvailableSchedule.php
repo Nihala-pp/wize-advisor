@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Http\RedirectResponse;
+
 
 
 class AvailableSchedule extends Model
@@ -152,6 +154,8 @@ class AvailableSchedule extends Model
             ['id' => $id],
             $details
         );
+
+        return redirect()->route('mentor.dashboard.availability');
     }
 
     public function user(): BelongsTo
