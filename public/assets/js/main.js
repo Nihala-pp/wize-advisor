@@ -21,7 +21,7 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-        
+
         show_events(events, months[date.getMonth()], today);
 
         $("body").on('click', '#payNow', function () {
@@ -45,6 +45,7 @@
 
         $("body").on('change', '.timezone', function () {
             var timezone = $(this).val();
+            alert(timezone);
             return $.ajax("https://wiseadvizor.com/getDateAvailability", {
                 method: 'GET',
                 data: {
