@@ -302,7 +302,7 @@
     function check_events(day, month, year) {
         var events = [];
         for (var i = 0; i < event_data["events"].length; i++) {
-            var event = event_data[i];
+            var event = event_data["events"][i];
             if (event["day"] === day &&
                 event["month"] === month &&
                 event["year"] === year) {
