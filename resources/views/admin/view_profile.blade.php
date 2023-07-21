@@ -327,11 +327,14 @@
                             <div class="ps-3">
                                 <h6 class="mb-1">Expertise looking For</h6>
                                 <p class="text-sm">
-                                @php
+                                    @php
                                     $expertise = $data->metaData ? $data->metaData->expertise : '';
+
+                                    @if(!empty($expertise))
                                     @foreach(json_decode($expertise) as $expert)
                                     <li> {{ $expert }} </li>
                                     @endforeach
+                                    @endif
                                     @endphp
                                 </p>
                             </div>
@@ -343,9 +346,11 @@
                                     @php
                                     $industry = $data->metaData ? $data->metaData->industry : '';
 
+                                    @if(!empty($industry))
                                     @foreach(json_decode($industry) as $ind)
                                     <li>{{ $ind }}</li>
                                     @endforeach
+                                    @endif
                                     @endphp
                                 </p>
                             </div>
@@ -357,9 +362,11 @@
                                     @php
                                     $language = $data->metaData ? $data->metaData->language : '';
 
+                                    @if(!empty($language))
                                     @foreach(json_decode($language) as $lang)
                                     <li>{{ $lang }}</li>
                                     @endforeach
+                                    @endif
                                     @endphp
                                 </p>
                             </div>
