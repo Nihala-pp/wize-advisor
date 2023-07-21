@@ -74,7 +74,6 @@
                         // Pass class name and tooltip text
                         return [true, "highlight", tooltip_text];
                     }
-                    return [true];
                     // check_events(today, date.getMonth() + 1, date.getFullYear());
                 },
             });
