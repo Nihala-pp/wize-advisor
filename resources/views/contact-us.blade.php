@@ -2014,12 +2014,12 @@
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input type="tel" name="mobilenumber"
+                                                            <input type="number" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Mobile Number" required="required"
                                                                 aria-required="true"
-                                                                title="Mobile Number should only contains numbers. eg[0-9], starts with 0 or 971">
+                                                                pattern="[0-9]{13}" title="Mobile Number should only contains numbers. eg[0-9], starts with 0 or 971">
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
