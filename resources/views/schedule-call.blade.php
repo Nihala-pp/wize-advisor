@@ -1560,7 +1560,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="content w-100">
-                                        <div class="calendar-container">
+                                        <div class="calendar-container mb-3">
                                         <div class="timezone">
                                             <select name="timezone" class="form-control mt-1 timezone" id="timezone"
                                                 style="width:50%" required>
