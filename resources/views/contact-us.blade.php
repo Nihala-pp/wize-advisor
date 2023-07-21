@@ -1028,6 +1028,12 @@
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fcontact-us%2F#038;format=xml">
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        display: none;
+    }
+    </style>
     <style type="text/css">
     #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
         height: 350px;
@@ -1701,15 +1707,6 @@
                                             data-widget_type="form.default">
                                             <div class="elementor-widget-container">
                                                 <style>
-                                                input[type="number"] {
-                                                    -moz-appearance: textfield;
-                                                }
-
-                                                input[type="number"]:hover,
-                                                input[type="number"]:focus {
-                                                    -moz-appearance: number-input;
-                                                }
-
                                                 /*! elementor-pro - v3.5.0 - 01-11-2021 */
                                                 .elementor-button.elementor-hidden,
                                                 .elementor-hidden {
