@@ -8416,7 +8416,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 .table-date:not(.nil):hover {
-  border-color: #007bff; }
+  border-color: var(--blue); }
 
 .event-date {
   border-color: #7e0cf5;
