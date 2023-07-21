@@ -8216,7 +8216,8 @@ h1, h2, h3, h4, h5,
   max-width: 100%;
   display: block;
   background: #fff;
-  border: none !important;
+  
+  border: solid #007bff !important;
   margin: 20px;
   margin-left: 12px; }
   @media (max-width: 991.98px) {
