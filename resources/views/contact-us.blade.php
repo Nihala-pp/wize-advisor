@@ -2014,9 +2014,12 @@
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input type="tel" id="form-field-mobilenumber"
-                                                                name="mobilenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                                                                required />
+                                                            <input type="tel" name="mobilenumber"
+                                                                id="form-field-mobilenumber"
+                                                                class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                placeholder="Mobile Number" required="required"
+                                                                aria-required="true"
+                                                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
