@@ -329,13 +329,13 @@
                                 <p class="text-sm">
                                     @php
                                     $expertise = $data->metaData ? $data->metaData->expertise : '';
+                                    @endphp
 
                                     @if(!empty($expertise))
                                     @foreach(json_decode($expertise) as $expert)
                                     <li> {{ $expert }} </li>
                                     @endforeach
                                     @endif
-                                    @endphp
                                 </p>
                             </div>
                         </div>
@@ -345,13 +345,13 @@
                                 <p class="text-sm">
                                     @php
                                     $industry = $data->metaData ? $data->metaData->industry : '';
+                                    @endphp
 
                                     @if(!empty($industry))
                                     @foreach(json_decode($industry) as $ind)
                                     <li>{{ $ind }}</li>
                                     @endforeach
                                     @endif
-                                    @endphp
                                 </p>
                             </div>
                         </div>
@@ -361,13 +361,12 @@
                                 <p class="text-sm">
                                     @php
                                     $language = $data->metaData ? $data->metaData->language : '';
-
+                                    @endphp
                                     @if(!empty($language))
                                     @foreach(json_decode($language) as $lang)
                                     <li>{{ $lang }}</li>
                                     @endforeach
                                     @endif
-                                    @endphp
                                 </p>
                             </div>
                             <!-- <div class="row">
