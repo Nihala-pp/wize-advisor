@@ -378,8 +378,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205') }}"
-        media="all">
+        href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205') }}" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1048,8 +1047,7 @@
         href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2') }}"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.css?ver=1689690069') }}"
-        media="all">
+        href="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.css?ver=1689690069') }}" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="{{ asset('public/wp-content/themes/twentytwentytwo/style.css?ver=1.4') }}" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
@@ -1076,8 +1074,8 @@
     </script>
     <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js">
     </script>
-    <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}"
-        id="jquery-migrate-js"></script>
+    <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}" id="jquery-migrate-js">
+    </script>
     <script
         src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}"
         id="font-awesome-4-shim-js"></script>
@@ -1087,8 +1085,7 @@
     <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
     <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/2372') }}">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="{{ asset('public/wp-includes/wlwmanifest.xml') }}">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('public/wp-includes/wlwmanifest.xml') }}">
     <meta name="generator" content="WordPress 6.2.2">
     <link rel="canonical" href="{{ route('profile') }}">
     <link rel="shortlink" href="{{ asset('public/?p=2372') }}">
@@ -1402,8 +1399,8 @@
         </defs>
     </svg>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}"
-                title="WISE ADVIZOR" rel="home">WISE ADVIZOR</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}" title="WISE ADVIZOR"
+                rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf19fcc elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"
@@ -1658,12 +1655,21 @@
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-button-wrapper">
-                                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                            href="{{ route('schedule-call', [$data->id]) }}">
+                                                        @if(Auth::id())
+                                                        <a href="{{ route('schedule-call', [$data->id]) }}"
+                                                            class="elementor-button elementor-button-link elementor-size-sm">
                                                             <span class="elementor-button-content-wrapper">
                                                                 <span class="elementor-button-text">Schedule Call</span>
                                                             </span>
                                                         </a>
+                                                        @else
+                                                        <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                                            class="elementor-button elementor-button-link elementor-size-sm">
+                                                            <span class="elementor-button-content-wrapper">
+                                                                <span class="elementor-button-text">Schedule Call</span>
+                                                            </span>
+                                                        </a>
+                                                        @endif
                                                     </div>
                                                 </div>
                                             </div>
@@ -2064,12 +2070,21 @@
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('schedule-call', [$data->id]) }}">
+                                                    @if(Auth::id())
+                                                    <a href="{{ route('schedule-call', [$data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-text">Schedule Call</span>
                                                         </span>
                                                     </a>
+                                                    @else
+                                                    <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Schedule Call</span>
+                                                        </span>
+                                                    </a>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -3807,14 +3822,12 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <script
-        src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
+    <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
         id="niso-carousel-owl.min-js"></script>
     <script
         src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
         id="jquery.mousewheel.min-js"></script>
-    <script
-        src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
+    <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
         id="niso-carousel-lightbox.min-js"></script>
     <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2') }}" id="jquery-ui-core-js">
     </script>
@@ -3828,24 +3841,21 @@
         }
     };
     </script>
-    <script
-        src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
+    <script src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
         id="qi-addons-for-elementor-script-js"></script>
-    <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}"
-        id="jquery-ui-mouse-js"></script>
-    <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}"
-        id="jquery-ui-slider-js"></script>
+    <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
+    </script>
+    <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
+    </script>
     <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1689690069') }}"
         id="theplus-front-js-js" defer></script>
     <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
         id="elementor-webpack-runtime-js"></script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
         id="elementor-frontend-modules-js"></script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3975,12 +3985,12 @@
         id="wp-polyfill-inert-js"></script>
     <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
         id="regenerator-runtime-js"></script>
-    <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}"
-        id="wp-polyfill-js"></script>
-    <script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}"
-        id="wp-hooks-js"></script>
-    <script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}"
-        id="wp-i18n-js"></script>
+    <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}" id="wp-polyfill-js">
+    </script>
+    <script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
+    </script>
+    <script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
+    </script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
         'text directionltr': ['ltr']
@@ -3989,8 +3999,7 @@
     <script
         src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2') }}"
         id="qi-addons-for-elementor-elementor-js"></script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
@@ -4079,8 +4088,7 @@
     </script>
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
         id="elementor-pro-frontend-js"></script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
         id="pro-elements-handlers-js"></script>
     <script
         src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
