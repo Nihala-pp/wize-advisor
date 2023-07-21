@@ -47,7 +47,10 @@ class AdminController extends Controller
 
         $data = User::find($id);
 
-        return view('admin.view_profile', compact('data'));
+        $scheduled_calls = ScheduledCall::where('user_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
+
+
+        return view('admin.view_profile', compact('data','scheduled_calls'));
     }
 
     public function list_mentors()
