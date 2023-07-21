@@ -1701,6 +1701,15 @@
                                             data-widget_type="form.default">
                                             <div class="elementor-widget-container">
                                                 <style>
+                                                input[type="number"] {
+                                                    -moz-appearance: textfield;
+                                                }
+
+                                                input[type="number"]:hover,
+                                                input[type="number"]:focus {
+                                                    -moz-appearance: number-input;
+                                                }
+
                                                 /*! elementor-pro - v3.5.0 - 01-11-2021 */
                                                 .elementor-button.elementor-hidden,
                                                 .elementor-hidden {
@@ -2014,12 +2023,12 @@
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input type="tel" name="mobilenumber"
+                                                            <input type="number" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Mobile Number" required="required"
-                                                                aria-required="true"
-                                                                pattern="[0-9]{13}" title="Mobile Number should only contains numbers. eg[0-9]">
+                                                                aria-required="true" pattern="[0-9]{13}"
+                                                                title="Mobile Number should only contains numbers. eg[0-9]">
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
