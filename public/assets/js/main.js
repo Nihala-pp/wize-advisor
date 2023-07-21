@@ -14,7 +14,7 @@
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(date.getMonth() + 1, date.getFullYear());
+        var events = check_events(date.getDay(), date.getMonth() + 1, date.getFullYear());
 
         $.ajaxSetup({
             headers: {
@@ -63,7 +63,7 @@
                             "day":  value.date.getDay(),
                         });
                     });
-                    check_events(date.getMonth() + 1, date.getFullYear());
+                    check_events(date.getDay(), date.getMonth() + 1, date.getFullYear());
                 },
             });
         });
@@ -100,7 +100,7 @@
             }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
-                var events = check_events(month + 1, year);
+                var events = check_events(day, month + 1, year);
                 if (today === day && $(".active-date").length === 0) {
                     curr_date.addClass("active-date");
                     // show_events(events, months[month], day);
@@ -288,7 +288,7 @@
     }
 
     // Checks if a specific date has any events
-    function check_events(month, year) {
+    function check_events(day, month, year) {
         var events = [];
         for (var i = 0; i < event_data.length; i++) {
             var event = event_data[i];
