@@ -330,7 +330,7 @@ class HomeController extends Controller
     {
        $timezone = $request->timezone;
        $today = Carbon::now()->format('Y-m-d');
-       $date = AvailableSchedule::where('mentor_id', $request->mentor)->where('date', '>=', $today)->where('utc', $timezone)->get();
+       $date = AvailableSchedule::where('mentor_id', $request->mentor)->where('date', '>=', $today)->where('time_zone', $timezone)->get();
        dd($date);
 
        return response()->json($date);
