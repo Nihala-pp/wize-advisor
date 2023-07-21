@@ -134,13 +134,13 @@
                     <div class="col-auto my-auto">
                         <div class="h-100">
                             <h5 class="mb-1">
-                            {{ $profile->name }}
+                            {{ $profile->name ?: '' }}
                             </h5>
                             <p class="mb-0 font-weight-normal text-sm">
-                            {{ $profile->metaData->designation }}
+                            {{ $profile->metaData ? $profile->metaData->designation : '' }}
                             </p>
                             <p class="mb-0 font-weight-normal text-sm">
-                            {{ $profile->metaData->company }}
+                            {{ $profile->metaData ? $profile->metaData->company : '' }}
                             </p>
                         </div>
                     </div>
