@@ -1559,6 +1559,15 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
+                                    <div class="timezone">
+                                        <select name="timezone" class="form-control mt-1 timezone" id="timezone"
+                                            style="width:50%" required>
+                                            <option value=""><b>Time zone</b></option>
+                                            @foreach($timezone as $zone => $time)
+                                            <option value="{{ $time }}">{{ $zone }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
                                     <div class="content w-100">
                                         <div class="calendar-container">
                                             <div class="calendar">
@@ -1600,7 +1609,7 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <div class="timezone">
+                                                <!-- <div class="timezone">
                                                     <select name="timezone" class="form-control mt-1 timezone"
                                                         id="timezone" style="width:50%" required>
                                                         <option value=""><b>Time zone</b></option>
@@ -1608,7 +1617,7 @@
                                                         <option value="{{ $time }}">{{ $zone }}</option>
                                                         @endforeach
                                                     </select>
-                                                </div>
+                                                </div> -->
                                                 </form>
                                                 <!-- <select class="form-control" id="add-button">Add Event
 
