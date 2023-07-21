@@ -71,6 +71,8 @@
                     });
                     // Check date in Array
                     if (jQuery.inArray(newdate, event_data[date]) != -1) {
+                        $('.table-date').css({"background": "white", "border-radius": "50%", "position": "absolute","top":"0","left":"0","top": "0",
+                        "left": "0", "width":"10px", "height":"10px"})
                         // Pass class name and tooltip text
                         return [true, "highlight", tooltip_text];
                     }

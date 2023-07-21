@@ -1654,7 +1654,7 @@
                         </div>
                         <div class="text-center">
                             <button type="button" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
-                                style="align:center">Pay Now</button>
+                                style="align:center">Continue</button>
                         </div>
                     </div>
                 </div>
