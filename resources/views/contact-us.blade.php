@@ -2014,7 +2014,7 @@
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input type="number" name="mobilenumber"
+                                                            <input type="tel" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Mobile Number" required="required"
