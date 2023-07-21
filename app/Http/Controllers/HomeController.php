@@ -167,8 +167,6 @@ class HomeController extends Controller
     {
         $mentor = User::find($id);
         $timezone = AvailableSchedule::timezones();
-        $today = Carbon::now()->format('Y-m-d');
-        // $dates = AvailableSchedule::where('mentor_id', $id)->where('date', '>=', $today)->;
 
         return view('schedule-call', compact('mentor','timezone'));
     }
@@ -331,6 +329,10 @@ class HomeController extends Controller
     public function getDateAvailability(Request $request)
     {
        $timezone = $request->timezone;
-       dd($timezone);
+       $today = Carbon::now()->format('Y-m-d');
+       $date = AvailableSchedule::where('mentor_id', $request->mentor)->where('date', '>=', $today)->where('utc', $timezone)->get();
+       dd($date);
+
+       return response()->json($date);
     }
 }

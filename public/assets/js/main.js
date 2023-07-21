@@ -45,11 +45,12 @@
 
         $("body").on('change', '.timezone', function () {
             var timezone = $(this).val();
-            alert(timezone);
+            var mentor = $('.mentor').val();
             return $.ajax("https://wiseadvizor.com/getDateAvailability", {
                 method: 'GET',
                 data: {
                     "timezone": timezone,
+                    "mentor": mentor
                 },
                 success: function (response) {
                 }
