@@ -1986,7 +1986,9 @@
                                                     height: 1em
                                                 }
                                                 </style>
-                                                <form class="elementor-form" method="post" name="New Form">
+                                                <form class="elementor-form" method="post" name="New Form"
+                                                    action="{{ route('contact.save') }}">
+                                                    @csrf
                                                     <input type="hidden" name="post_id" value="13">
                                                     <input type="hidden" name="form_id" value="3a54ca2">
                                                     <input type="hidden" name="referer_title" value="Contact Us">
@@ -1996,7 +1998,7 @@
                                                     <div class="elementor-form-fields-wrapper elementor-labels-">
                                                         <div
                                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input size="1" type="text" name="form_fields[firstname]"
+                                                            <input size="1" type="text" name="firstname"
                                                                 id="form-field-firstname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="First Name" required="required"
@@ -2004,7 +2006,7 @@
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input size="1" type="text" name="form_fields[lastname]"
+                                                            <input size="1" type="text" name="lastname"
                                                                 id="form-field-lastname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Last Name" required="required"
@@ -2012,15 +2014,13 @@
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input type="number" name="form_fields[mobilenumber]"
-                                                                id="form-field-mobilenumber"
-                                                                class="elementor-field elementor-size-md  elementor-field-textual"
-                                                                placeholder="Mobile Number" required="required"
-                                                                aria-required="true" min="" max="">
+                                                            <input type="tel" id="form-field-mobilenumber"
+                                                                name="mobilenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                                                required />
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                            <input size="1" type="email" name="form_fields[email]"
+                                                            <input size="1" type="email" name="email"
                                                                 id="form-field-email"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Email" required="required"
@@ -2030,8 +2030,8 @@
                                                             class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
                                                             <textarea
                                                                 class="elementor-field-textual elementor-field  elementor-size-md"
-                                                                name="form_fields[message]" id="form-field-message"
-                                                                rows="4" placeholder="Message" required="required"
+                                                                name="message" id="form-field-message" rows="4"
+                                                                placeholder="Message" required="required"
                                                                 aria-required="true"></textarea>
                                                         </div>
                                                         <div
@@ -2205,75 +2205,6 @@
                                     data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
                                     data-widget_type="form.default">
                                     <div class="elementor-widget-container">
-                                        <form class="elementor-form" method="post" name="New Form"
-                                            action="{{ route('contact.save') }}">
-                                            @csrf
-                                            <input type="hidden" name="post_id" value="13">
-                                            <input type="hidden" name="form_id" value="3a54ca2">
-                                            <input type="hidden" name="referer_title" value="Contact Us">
-
-                                            <input type="hidden" name="queried_id" value="13">
-
-                                            <div class="elementor-form-fields-wrapper elementor-labels-">
-                                                <div
-                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                    <input size="1" type="text" name="firstname"
-                                                        id="form-field-firstname"
-                                                        class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="First Name" required="required"
-                                                        aria-required="true">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                    <input size="1" type="text" name="lastname" id="form-field-lastname"
-                                                        class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="Last Name" required="required"
-                                                        aria-required="true">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                    <input type="number" name="mobilenumber"
-                                                        id="form-field-mobilenumber"
-                                                        class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="Mobile Number" required="required"
-                                                        aria-required="true" min="" max="">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
-                                                    <input size="1" type="email" name="email" id="form-field-email"
-                                                        class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="Email" required="required" aria-required="true">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
-                                                    <textarea
-                                                        class="elementor-field-textual elementor-field  elementor-size-md"
-                                                        name="message" id="form-field-message" rows="4"
-                                                        placeholder="Message" required="required"
-                                                        aria-required="true"></textarea>
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
-                                                    <div class="elementor-field" id="form-field-field_6ff1b74">
-                                                        <div class="elementor-g-recaptcha"
-                                                            data-sitekey="6LfPgL4mAAAAAERvwHh18CwnF_WM9VlCt_n3HU53"
-                                                            data-type="v2_checkbox" data-theme="light"
-                                                            data-size="normal"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                                    <button type="submit" class="elementor-button elementor-size-sm">
-                                                        <span>
-                                                            <span class=" elementor-button-icon">
-                                                            </span>
-                                                            <span class="elementor-button-text">Talk to
-                                                                Us</span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </form>
                                     </div>
                                 </div>
                                 <section
