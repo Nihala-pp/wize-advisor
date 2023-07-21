@@ -8432,7 +8432,7 @@ h1, h2, h3, h4, h5,
     content: '';
     background: #28a745; }
 
-.active-date {
+  .table-date.active-date {
   background: #007bff;
   color: #fff; }
 
