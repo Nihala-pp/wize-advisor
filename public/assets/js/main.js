@@ -14,7 +14,7 @@
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
+        var events = check_events(date.getMonth() + 1, date.getFullYear());
 
         $.ajaxSetup({
             headers: {
@@ -53,7 +53,18 @@
                     "mentor": mentor
                 },
                 success: function (response) {
-                }
+                    var event_data = [];
+                    response.forEach(function (value, key) {
+                        event_data.push({
+                            "occasion": " Repeated Test Event ",
+                            "invited_count": 120,
+                            "year": value.date.getFullYear(),
+                            "month": value.date.getMonth(),
+                            "day":  value.date.getDay(),
+                        });
+                    });
+                    check_events(date.getMonth() + 1, date.getFullYear());
+                },
             });
         });
     });
@@ -89,7 +100,7 @@
             }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
-                var events = check_events(day, month + 1, year);
+                var events = check_events(month + 1, year);
                 if (today === day && $(".active-date").length === 0) {
                     curr_date.addClass("active-date");
                     // show_events(events, months[month], day);
@@ -277,10 +288,10 @@
     }
 
     // Checks if a specific date has any events
-    function check_events(day, month, year) {
+    function check_events(month, year) {
         var events = [];
-        for (var i = 0; i < event_data["events"].length; i++) {
-            var event = event_data["events"][i];
+        for (var i = 0; i < event_data.length; i++) {
+            var event = event_data[i];
             if (event["day"] === day &&
                 event["month"] === month &&
                 event["year"] === year) {
@@ -291,93 +302,93 @@
     }
 
     // Given data for events in JSON format
-    var event_data = {
-        "events": [
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Test Event",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 11
-            }
-        ]
-    };
+    // var event_data = {
+    //     "events": [
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10,
+    //             "cancelled": true
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10,
+    //             "cancelled": true
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10,
+    //             "cancelled": true
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10,
+    //             "cancelled": true
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10,
+    //             "cancelled": true
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10,
+    //             "cancelled": true
+    //         },
+    //         {
+    //             "occasion": " Repeated Test Event ",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 10
+    //         },
+    //         {
+    //             "occasion": " Test Event",
+    //             "invited_count": 120,
+    //             "year": 2020,
+    //             "month": 5,
+    //             "day": 11
+    //         }
+    //     ]
+    // };
 
     const months = [
         "January",
