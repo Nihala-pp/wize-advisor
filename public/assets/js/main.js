@@ -14,7 +14,7 @@
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(date.getDay(), date.getMonth() + 1, date.getFullYear());
+        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
 
         $.ajaxSetup({
             headers: {
@@ -46,6 +46,16 @@
         $("body").on('change', '.timezone', function () {
             var timezone = $(this).val();
             var mentor = $('.mentor').val();
+            var month = date.getMonth() + 1;
+            var year = date.getFullYear();
+            var day = date.getDate();
+
+            // Change format of date
+            var newdate = day + "-" + month + '-' + year;
+
+            // Set tooltip text when mouse over date
+            var tooltip_text = "Availability on " + newdate;
+
             return $.ajax("https://wiseadvizor.com/getDateAvailability", {
                 method: 'GET',
                 data: {
@@ -56,14 +66,16 @@
                     var event_data = [];
                     response.forEach(function (value, key) {
                         event_data.push({
-                            "occasion": " Repeated Test Event ",
-                            "invited_count": 120,
-                            "year": value.date.getFullYear(),
-                            "month": value.date.getMonth(),
-                            "day":  value.date.getDay(),
+                            "date": value.date
                         });
                     });
-                    check_events(date.getDay(), date.getMonth() + 1, date.getFullYear());
+                    // Check date in Array
+                    if (jQuery.inArray(newdate, event_data[date]) != -1) {
+                        // Pass class name and tooltip text
+                        return [true, "highlight", tooltip_text];
+                    }
+                    return [true];
+                    // check_events(today, date.getMonth() + 1, date.getFullYear());
                 },
             });
         });
