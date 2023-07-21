@@ -285,7 +285,7 @@
         else {
             // Go through and add each event as a card to the events container
             for (var i = 0; i < events.length; i++) {
-                var event_card = $("<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' value=" + events[i]["start_time"] + " style='background-color:white; width:75%'></button>");
+                var event_card = $("<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' value=" + events[i]["start_time"] + " style='background-color:white; width:75%' required></button>");
                 var event_name = $("<div class='event-name'>" + events[i]["start_time"] + "</div>");
                 // var event_count = $("<div class='event-count'>"+events[i]["invited_count"]+" Invited</div>");
                 if (events[i]["cancelled"] === true) {
