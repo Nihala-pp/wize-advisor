@@ -276,7 +276,7 @@ class HomeController extends Controller
 
     public function saveContact(Request $request)
     {
-        $email = 'info@wizeadvisor.com';
+        $email = 'ankur.sharma@wiseadvizor.com';
 
         $details = Contact::create([
          'firstname' => $request->firstname,
