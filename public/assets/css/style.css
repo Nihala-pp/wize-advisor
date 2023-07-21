@@ -8144,7 +8144,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #7e0cf5; }
+  color: #e6e6e6; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8201,7 +8201,6 @@ h1, h2, h3, h4, h5,
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
   padding: 0; 
-  background-color: #fff;
 }
   @media (max-width: 767.98px) {
     .events-container {
@@ -8305,7 +8304,7 @@ h1, h2, h3, h4, h5,
       -o-transition: none;
       transition: none; } }
   .left-button:hover, .right-button:hover {
-    color: #7e0cf5 !important; }
+    color: #fff !important; }
 
 .left-button {
   left: 0; }
@@ -8329,7 +8328,7 @@ h1, h2, h3, h4, h5,
   transition: .2s ease all;
   color: white;
   border: none;
-  background: #7e0cf5; }
+  background: #fff; }
   .button.button-white {
     background: #fff;
     color: #000; }
@@ -8417,10 +8416,10 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 .table-date:not(.nil):hover {
-  border-color: var(--blue); }
+  border-color: #007bff; }
 
 .event-date {
-  border-color: var(--blue);
+  border-color: #007bff;
   background: #fff;
   color: #fff; }
   .event-date:after {
@@ -8434,7 +8433,7 @@ h1, h2, h3, h4, h5,
     background: #28a745; }
 
 .active-date {
-  background: var(--blue);
+  background: #007bff;
   color: #fff; }
 
 .event-date.active-date {

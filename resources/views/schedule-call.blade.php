@@ -1624,7 +1624,7 @@
 </select> -->
                                             </div>
                                         </div>
-                                        <div class="events-container">
+                                        <div class="events-container" style="background-color:white;">
                                             <div class='event-card'>
                                                 <div class='event-name'>
                                                 </div>
