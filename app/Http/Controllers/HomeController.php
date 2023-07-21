@@ -330,6 +330,7 @@ class HomeController extends Controller
 
     public function getDateAvailability(Request $request)
     {
-          dd($request->all());
+       $timezone = $request->timezone;
+       dd($timezone);
     }
 }
