@@ -8419,8 +8419,8 @@ h1, h2, h3, h4, h5,
   border-color: var(--blue); }
 
 .event-date {
-  border-color: #7e0cf5;
-  background: #7e0cf5;
+  border-color: var(--blue);
+  background: #fff;
   color: #fff; }
   .event-date:after {
     position: absolute;
@@ -8433,7 +8433,7 @@ h1, h2, h3, h4, h5,
     background: #28a745; }
 
 .active-date {
-  background: #007bff;
+  background: var(--blue);
   color: #fff; }
 
 .event-date.active-date {
