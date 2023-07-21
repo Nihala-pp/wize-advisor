@@ -1560,8 +1560,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="content w-100">
-                                        <div class="calendar-container">
-                                            <div class="timezone">
+                                    <div class="timezone">
                                                 <select name="timezone" class="form-control mt-1 timezone" id="timezone"
                                                     style="width:50%" required>
                                                     <option value=""><b>Time zone</b></option>
@@ -1570,6 +1569,8 @@
                                                     @endforeach
                                                 </select>
                                             </div>
+                                        <div class="calendar-container">
+                                           
                                             <div class="calendar">
                                                 <div class="year-header">
                                                     <span class="left-button fa fa-chevron-left" id="prev"> </span>
