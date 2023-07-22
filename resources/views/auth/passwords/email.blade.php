@@ -74,6 +74,4 @@
         </div>
     </main>
 </body>
-
 </html>
-<!-- @endsection -->
