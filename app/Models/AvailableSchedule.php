@@ -154,8 +154,6 @@ class AvailableSchedule extends Model
             ['id' => $id],
             $details
         );
-
-        return redirect()->route('mentor.dashboard.availability');
     }
 
     public function user(): BelongsTo

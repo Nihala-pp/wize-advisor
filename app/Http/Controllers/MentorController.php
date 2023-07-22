@@ -13,6 +13,7 @@ use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
 use App\Models\ZoomAPI;
 use GuzzleHttp\Client;
+use Illuminate\Http\Response;
 use Log;
 
 
@@ -201,10 +202,9 @@ class MentorController extends Controller
 
             if($exists)
             {
-                return abort(403, 'Time slot already exists. Choose a different One');
+                return redirect()->route('mentor.dashboard.availability')->with('error','Time Slot already exists, Please choose different one');
             }
             else {
-
             //  dd($schedule['start_time']);
                $data = [
                 'mentor_id' => Auth::id(),
@@ -215,6 +215,8 @@ class MentorController extends Controller
               ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
+
+                return redirect()->route('mentor.dashboard.availability')->with('message','Data added Successfully');
             }
           }
 
