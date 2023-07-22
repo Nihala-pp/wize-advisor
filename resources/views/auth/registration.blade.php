@@ -98,7 +98,7 @@
                                             <label class="form-label">Linked-In Url</label>
                                             <input type="url" class="form-control" name="linked_in">
                                         </div>
-                                        <div>
+                                        <div class="mb-3">
                                             <label class="form-label">Expertise</label></br>
                                             <select class="select form-control" multiple data-mdb-clear-button="true"
                                                 name="expert[]">
@@ -107,8 +107,8 @@
                                                 @endforeach
                                             </select>
                                         </div>
-                                        <div class="timezone">
-                                            <!-- <label class="form-label">Timezone</label></br> -->
+                                        <div class="timezone mb-3">
+                                            <label class="form-label">Timezone</label></br>
                                             <select name="timezone" class="select form-control" required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
