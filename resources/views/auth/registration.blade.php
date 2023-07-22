@@ -108,7 +108,7 @@
                                             </select>
                                         </div>
                                         <div class="timezone">
-                                            <label class="form-label">Timezone</label></br>
+                                            <!-- <label class="form-label">Timezone</label></br> -->
                                             <select name="timezone" class="select form-control" required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
