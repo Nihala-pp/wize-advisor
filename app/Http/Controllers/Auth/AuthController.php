@@ -9,6 +9,7 @@ use Illuminate\Http\RedirectResponse;
 use Session;
 use App\Models\User;
 use App\Models\UserMeta;
+use App\Models\AvailableSchedule;
 use Hash;
 
 class AuthController extends Controller
@@ -55,7 +56,9 @@ class AuthController extends Controller
             '22' =>	 'Growth Strategy'          
         ];
 
-        return view('auth.registration', compact('expertise', 'token', 'id'));
+        $timezone = AvailableSchedule::timezones();
+
+        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone'));
     }
 
     /**
