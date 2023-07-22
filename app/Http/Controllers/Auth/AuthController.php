@@ -161,7 +161,8 @@ class AuthController extends Controller
             'company' => $data['company_name'],
             'designation' => $data['designation'],
             'expertise' => json_encode($data['expert']),
-            'social_linked_in' => $data['linked_in']
+            'social_linked_in' => $data['linked_in'],
+            'timezone' => $data['timezone']
         ]);
     }
 
