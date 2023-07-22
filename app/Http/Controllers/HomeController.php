@@ -18,6 +18,7 @@ use App\Mail\ContactMail;
 use App\Models\Expertise;
 use App\Models\MentorsExperience;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -186,7 +187,7 @@ class HomeController extends Controller
        $finish_time = $end_time->toTimeString();
       
        ScheduledCall::create([
-        'user_id' => 2,
+        'user_id' => Auth::id(),
         'mentor_id' => $data['mentor'],
         'price' => $data['price'],
         'date' => $date,
@@ -200,13 +201,12 @@ class HomeController extends Controller
        ]);
 
        $mentor = User::find($data['mentor']);
-       $user = User::find(4);
-
+       $user = User::find(Auth::id());
 
        $details = [
         'mentor' => $data['mentor'],
         'mentor_name' => $mentor->name,
-        'user_id' => 4,
+        'user_id' => Auth::id(),
         'user' => $user->name,
         'date' => $date,
         'start_time' => $data['time'],
@@ -231,11 +231,29 @@ class HomeController extends Controller
     public function getTimeAvailability(Request $request)
     {
         $mentor = $request->mentor;
+        $timezone = $request->timezone ? $request->timezone : auth()  ;
         $nmonth = date("m", strtotime($request->month));
-        $date = $request->day.'-'.$nmonth.'-'.$request->year;
-        $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('time_zone', $request->timezone)->get()->toArray();
+        $date = $request->year.'-'.$nmonth.'-'.$request->day;
+        $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
         // dd($availability);
-        return response()->json($availability);
+        $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
+
+        return response()->json($timeAvailability);
+
+    }
+
+    public function utcToChangeTimezone($availability, $timezone)
+    {
+      foreach($availability as $avail)
+      {
+         $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone($avail->time_zone));
+        //  echo $date->format('Y-m-d H:i:sP') . "\n";
+            
+         $date->setTimezone(new \DateTimeZone($timezone));
+         $time[] = $date->format('H:i:sP');
+
+      }
+          return $time;
     }
 
     public function success($details)
