@@ -100,7 +100,7 @@
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Expertise</label></br>
-                                            <select class="select form-control" multiple data-mdb-clear-button="true"
+                                            <select class="select form-control @error('expert') is-invalid @enderror" multiple data-mdb-clear-button="true"
                                                 name="expert[]">
                                                 @foreach($expertise as $key => $expert)
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
@@ -109,15 +109,20 @@
                                         </div>
                                         <div class="timezone mb-3">
                                             <label class="form-label">Timezone</label></br>
-                                            <select name="timezone" class="select form-control" required>
+                                            <select name="timezone" class="select form-control @error('timezone') is-invalid @enderror" required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
                                                 <option value="{{ $time }}">{{ $zone }}</option>
                                                 @endforeach
                                             </select>
+                                            @error('timezone')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
-                                            <input class="form-check-input" type="checkbox" name="terms_condition"
+                                            <input class="form-check-input @error('terms_condition') is-invalid @enderror" type="checkbox" name="terms_condition"
                                                 value="1" id="flexCheckDefault" required>
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 I agree the <a href="{{ route('termsConditions') }}"
