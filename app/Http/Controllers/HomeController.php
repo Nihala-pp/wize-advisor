@@ -221,8 +221,8 @@ class HomeController extends Controller
     //     [HomeController::class, 'success'], [$data]
     // );
       //  return $this->success($data);
-      $this->sendScheduleRequestMail($details);
-      $this->sendScheduleRequestUserMail($details);
+      // $this->sendScheduleRequestMail($details);
+      // $this->sendScheduleRequestUserMail($details);
 
       return view('success', compact('details', 'mentor'));
        
