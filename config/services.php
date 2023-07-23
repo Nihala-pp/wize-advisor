@@ -34,12 +34,12 @@ return [
     'linkedin' => [
         'client_id' => env('LINKEDIN_CLIENT_ID'),
         'client_secret' => env('LINKEDIN_CLIENT_SECRET'),
-        'redirect' => 'http://localhost/wize-advisor/public/callback/linkedin',
+        'redirect' => 'https://wiseadvizor.com/callback/linkedin',
     ],
 
     'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => 'http://localhost/wize-advisor/public/callback/google',
+        'redirect' => 'https://wiseadvizor.com/callback/google',
     ],
 ];
