@@ -35,7 +35,7 @@
                                 <label class="form-label" for="form6Example5">Linked-In Url</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <select class="select form-control @error('expert') is-invalid @enderror" multiple
+                                <select class="select form-control" multiple
                                     data-mdb-clear-button="true" name="expert[]">
                                     @foreach($expertise as $key => $expert)
                                     <option value="{{ $expert }}">{{ $expert }}</option>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="form-outline mb-4">
                                 <select name="timezone"
-                                    class="select form-control @error('timezone') is-invalid @enderror">
+                                    class="select form-control">
                                     @foreach($timezone as $zone=> $time)
                                     <option value="{{ $time }}">{{ $zone }}</option>
                                     @endforeach
@@ -54,7 +54,7 @@
                             </div>
                             <hr class="my-4">
                             <div class="form-check">
-                                <input class="form-check-input @error('timezone') is-invalid @enderror" type="radio"
+                                <input class="form-check-input" type="radio"
                                     name="terms_condition" id="checkoutForm3" value="1">
                                 <label class="form-check-label" for="checkoutForm3">
                                     Terms and Conditions
