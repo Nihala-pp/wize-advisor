@@ -44,6 +44,8 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('auth/linkedin', [LinkedinSocialiteController::class, 'redirectToLinkedin'])->name('auth.linkedin');
 Route::get('callback/linkedin', [LinkedinSocialiteController::class, 'handleCallback'])->name('callback.linkedin');
+Route::get('personal-info/{id?}', [AuthController::class, 'personalInfo'])->name('user.personalInfo');
+Route::post('save-personal-info', [AuthController::class, 'savePersonalInfo'])->name('update-details.save');
 
 Route::get('auth/google', [GoogleSocialiteController::class, 'redirectToGoogle'])->name('auth.google');
 Route::get('callback/google', [GoogleSocialiteController::class, 'handleCallback'])->name('callback.google');

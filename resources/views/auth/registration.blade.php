@@ -36,7 +36,7 @@
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
                             <div class="card card-plain">
                                 <div class="card-header">
-                                    <h4 class="font-weight-bolder">Sign Up</h4>
+                                    <h4 class="font-weight-bolder">Create Account</h4>
                                     <p class="mb-0">Welcome! Join us and start your journey today.</p>
                                 </div>
                                 <div class="card-body">
@@ -100,8 +100,8 @@
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Expertise</label></br>
-                                            <select class="select form-control @error('expert') is-invalid @enderror" multiple data-mdb-clear-button="true"
-                                                name="expert[]">
+                                            <select class="select form-control @error('expert') is-invalid @enderror"
+                                                multiple data-mdb-clear-button="true" name="expert[]">
                                                 @foreach($expertise as $key => $expert)
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                                 @endforeach
@@ -109,7 +109,9 @@
                                         </div>
                                         <div class="timezone mb-3">
                                             <label class="form-label">Timezone</label></br>
-                                            <select name="timezone" class="select form-control @error('timezone') is-invalid @enderror" required>
+                                            <select name="timezone"
+                                                class="select form-control @error('timezone') is-invalid @enderror"
+                                                required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
                                                 <option value="{{ $time }}">{{ $zone }}</option>
@@ -122,8 +124,9 @@
                                             @enderror
                                         </div>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
-                                            <input class="form-check-input @error('terms_condition') is-invalid @enderror" type="checkbox" name="terms_condition"
-                                                value="1" id="flexCheckDefault" required>
+                                            <input class="form-check-input @error('terms_condition') is-invalid @enderror"
+                                                type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
+                                                required>
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 I agree the <a href="{{ route('termsConditions') }}"
                                                     class="text-dark font-weight-bolder">Terms and Conditions</a>
@@ -156,5 +159,4 @@
         </section>
     </main>
 </body>
-
 </html>

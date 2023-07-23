@@ -177,4 +177,26 @@ class AuthController extends Controller
 
         return Redirect('login');
     }
+
+    public function personalInfo($id)
+    {
+        return view('auth.update-details', compact('id'));
+    }
+
+    public function savePersonalInfo(Request $request)
+    {
+        $newuser = User::find($request->user_id);
+
+        UserMeta::where('user_id', $request->user_id)->update([
+            'company' =>  $request->company_name,
+            'designation' => $request->designation,
+            'expertise' => json_encode($request->expert),
+            'linked_in' => $request->linked_in,
+            'timezone' => $request->timezone
+        ]);
+
+        Auth::login($newuser);
+
+        return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+    }
 }
