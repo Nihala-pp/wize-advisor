@@ -32,8 +32,8 @@
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
                         <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
-                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
-                            <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
+                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                            <span class="d-sm-inline d-none">{{ Auth::user()->name ?: '' }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -159,26 +159,26 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? upcoming_session->user->metaData->profile_pic : ''}}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user ? $upcoming_session->user->name : '' }}</h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $upcoming_session->date.' '.$upcoming_session->start_time. ' - ' .$upcoming_session->end_time }}
+                                                {{ $upcoming_session ? $upcoming_session->date.' '.$upcoming_session->start_time. ' - ' .$upcoming_session->end_time : '' }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $upcoming_session->description }}
+                                                {{ $upcoming_session ? $upcoming_session->description : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ $upcoming_session->call_link }}" target="_blank" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ $upcoming_session ? $upcoming_session->call_link : '' }}" target="_blank" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
                                                         Join Session
                                                     </a>
                                                 </div>
@@ -227,23 +227,23 @@
                                                         <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user->name }}</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user ? $requested_session->user->name : '' }}</h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session->date.' '.$requested_session->start_time. ' - ' .$requested_session->end_time }}
+                                                {{ $requested_session ? $requested_session->date.' '.$requested_session->start_time. ' - ' .$requested_session->end_time : '' }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session->description }}
+                                                {{ $requested_session ? $requested_session->description : '' }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session->documents }}
+                                                {{ $requested_session ? $requested_session->documents : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
@@ -301,13 +301,13 @@
                                                         <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user->name }}</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user ? $completed_session->user->name : '' }}</h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $completed_session->date.' '.$completed_session->start_time. ' - ' .$completed_session->end_time }}
+                                                {{ $completed_session ? $completed_session->date.' '.$completed_session->start_time. ' - ' .$completed_session->end_time : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
