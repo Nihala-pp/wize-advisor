@@ -376,7 +376,7 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('schedule-call') }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Schedule Again">
+                                                    <a href="{{ route('schedule-call', [$completed_session->mentor_id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Schedule Again">
                                                         Schedule Again
                                                     </a>
                                                 </div>
