@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<body style="align:center;">
     <section>
         <div class="row">
             <div class="col-md-8 mb-4">
