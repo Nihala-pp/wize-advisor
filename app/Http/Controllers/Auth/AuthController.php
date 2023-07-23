@@ -218,7 +218,7 @@ class AuthController extends Controller
             'company' =>  $request->company_name,
             'designation' => $request->designation,
             'expertise' => json_encode($request->expert),
-            'linked_in' => $request->linked_in,
+            'social_linked_in' => $request->linked_in,
             'timezone' => $request->timezone
         ]);
 
