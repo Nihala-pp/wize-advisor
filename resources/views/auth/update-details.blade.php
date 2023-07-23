@@ -35,7 +35,7 @@
                                 <label class="form-label" for="form6Example5">Linked-In Url</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <select class="select form-control" multiple
+                                <select class="select form-control select-label" multiple
                                     data-mdb-clear-button="true" name="expert[]">
                                     @foreach($expertise as $key => $expert)
                                     <option value="{{ $expert }}">{{ $expert }}</option>
@@ -45,7 +45,7 @@
                             </div>
                             <div class="form-outline mb-4">
                                 <select name="timezone"
-                                    class="select form-control">
+                                    class="select form-control select-label">
                                     @foreach($timezone as $zone=> $time)
                                     <option value="{{ $time }}">{{ $zone }}</option>
                                     @endforeach
