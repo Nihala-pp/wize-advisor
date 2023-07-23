@@ -305,6 +305,7 @@
                                             @php
                                             $language = $profile->metaData ? $profile->metaData->language : '';
                                             @endphp
+                                            
                                             @if(!empty($language))
                                             @foreach(json_decode($language) as $lang)
                                             {{ $lang }}
