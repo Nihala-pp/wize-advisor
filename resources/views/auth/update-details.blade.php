@@ -50,7 +50,7 @@
                                     <option value="{{ $time }}">{{ $zone }}</option>
                                     @endforeach
                                 </select>
-                                <label class="form-label" for="form6Example6">Timezone</label>
+                                <label class="form-label" for="form6Example7">Timezone</label>
                             </div>
                             <hr class="my-4">
                             <div class="form-check">
