@@ -184,7 +184,7 @@ class HomeController extends Controller
       {
           ?>
 <script type="text/javascript">
-  Id = {{ $data['mentor'] }};
+  Id = "{{ $data['mentor'] }}";
 alert("Please choose the time slot");
 window.location.href = "https://wiseadvizor.com/schedule-call/" +Id;
 </script>
@@ -195,7 +195,7 @@ window.location.href = "https://wiseadvizor.com/schedule-call/" +Id;
       {
           ?>
 <script type="text/javascript">
-    Id = {{ $data['mentor'] }};
+    Id = "{{ $data['mentor'] }}";
 alert("Please choose the timezone");
 window.location.href = "https://wiseadvizor.com/schedule-call/" +Id;
 </script>
