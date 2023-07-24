@@ -432,4 +432,9 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php        
     }
+
+    public function deleteAvailability(Request $request)
+    {
+        AvailableSchedule::find($request->Id)->delete();
+    }
 }

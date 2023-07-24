@@ -284,7 +284,7 @@
             </div>
         </div>
 
-        <div class="modal fade" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -366,18 +366,11 @@
             $(".delete").click(function() {
                 var Id = $(this).data('id');
                 $.ajax({
-                    url: "{{ route('mentor.dashboard.availability.edit') }}",
+                    url: "{{ route('mentor.dashboard.availability.delete') }}",
                     type: "GET",
                     data: {
                         'Id': Id
                     },
-                    success: function(response) {
-                        $("#editAvailability .modal-body").html(response);
-                        $("#editAvailability").modal({
-                            backdrop: 'static',
-                            keyboard: false
-                        });
-                    }
                 });
             });
         });

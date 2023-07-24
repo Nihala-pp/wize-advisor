@@ -132,6 +132,7 @@ Route::controller(MentorController::class)
         Route::get('/dashboard/expertise', 'expertise')->name('dashboard.expertise');
         Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
         Route::get('/dashboard/availability/edit', 'editAvailability')->name('dashboard.availability.edit');
+        Route::get('/dashboard/availability/delete', 'deleteAvailability')->name('dashboard.availability.delete');
         Route::get('/update_status/{id?}', 'update_status')->name('update_status');
         Route::get('/reject_call/{id?}', 'reject_call')->name('reject_call');
         Route::get('/add_mentors/{id?}', 'add_mentors')->name('add');
