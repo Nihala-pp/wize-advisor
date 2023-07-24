@@ -137,7 +137,7 @@
 
 </html>
 <style>
-    .loginForm { 
-    padding-right:300px;
+.loginForm {
+    padding-right: 600px;
 }
 </style>
