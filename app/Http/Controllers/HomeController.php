@@ -311,7 +311,7 @@ window.location.href = "' + custom_location + "/" + Id + '";
 
     public function saveContact(Request $request)
     {
-        $email = 'nihalanichu76@gmail.com';
+        $email = 'ankur.sharma@wiseadvizor.com';
 
         $details = Contact::create([
          'firstname' => $request->firstname,
