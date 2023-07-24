@@ -1,9 +1,13 @@
-<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
+<aside
+    class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark"
+    id="sidenav-main">
     <div class="sidenav-header">
-        <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+        <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
+            aria-hidden="true" id="iconSidenav"></i>
         <a class="navbar-brand m-0" href="{{ route('admin.dashboard') }}" target="_blank">
-            <img src="{{ asset('public/assets/img/logo-ct.png') }}" class="navbar-brand-img h-100" alt="main_logo">
-            <span class="ms-1 font-weight-bold text-white">Wize-Advisor </span>
+            <img src="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }}" class="navbar-brand-img h-100"
+                alt="main_logo">
+            <span class="ms-1 font-weight-bold text-white">wiseAdvizor </span>
         </a>
     </div>
     <hr class="horizontal light mt-0 mb-2">
@@ -42,7 +46,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white " aria-controls="applicationsExamples" role="button" aria-expanded="false">
+                <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white "
+                    aria-controls="applicationsExamples" role="button" aria-expanded="false">
                     <i class="material-icons-round {% if page.brand == 'RTL' %}ms-2{% else %} me-2{% endif %}">apps</i>
                     <span class="nav-link-text ms-2 ps-1">Mentors</span>
                 </a>
@@ -118,7 +123,7 @@
                     <span class="nav-link-text ms-1">Sign Out</span>
                 </a>
             </li>
-          
+
         </ul>
     </div>
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
