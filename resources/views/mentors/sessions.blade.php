@@ -312,7 +312,7 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('dashboard.reviews') }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ route('mentor.dashboard.reviews') }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
                                                         Review
                                                     </a>
                                                 </div>
