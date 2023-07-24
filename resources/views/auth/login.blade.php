@@ -23,7 +23,7 @@
   </div> -->
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-100"
-            style="background-image: url('{{ asset('public/assets/img/online-security-dark-background-3d-illustration.jpg') }}')">
+            style="background-image: url('{{ asset('public/assets/img/biometric-technology-background-with-fingerprint-scanning-system-virtual-screen-digital-remix.jpg') }}')">
             <!-- <span class="mask bg-gradient-dark opacity-6"></span> -->
             <div class="container my-auto loginForm">
                 <div class="row">
