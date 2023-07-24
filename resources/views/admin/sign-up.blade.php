@@ -101,6 +101,7 @@
                             <div class="card card-plain">
                                 <div class="card-header">
                                     <h4 class="font-weight-bolder">Sign Up</h4>
+                                    <p class="mb-0">Enter your email and password to register</p>
                                     <div class="row mt-3">
                                         <!-- <div class="col-2 text-center ms-auto"> -->
                                         <!-- <a class="btn btn-link px-3" href="javascript:;">
@@ -123,7 +124,6 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <p class="mb-0">Enter your email and password to register</p>
                                 </div>
                                 <div class="card-body">
                                     <form role="form">
