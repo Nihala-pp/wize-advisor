@@ -36,6 +36,7 @@
                             <div class="card card-plain">
                                 <div class="card-header">
                                     <h4 class="font-weight-bolder">Create Account</h4>
+                                    <p class="mb-0">Welcome! Join us and start your journey today.</p>
                                     <div class="row mt-3">
                                         <!-- <div class="col-2 text-center ms-auto"> -->
                                         <!-- <a class="btn btn-link px-3" href="javascript:;">
@@ -58,7 +59,6 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <p class="mb-0">Welcome! Join us and start your journey today.</p>
                                 </div>
                                 <div class="card-body">
                                     <form method="POST" action="{{ route('register.post') }}">
