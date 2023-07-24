@@ -373,7 +373,6 @@
                             keyboard: false
                         });
                     }
-                    return false;
                 });
             });
         });
