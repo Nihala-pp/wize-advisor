@@ -351,7 +351,7 @@
 
             $('body').on('click', '.edit', function() {
                 var Id = $(this).data('id');
-                $.get("route('dashboard.availability.edit')", {
+                $.get(route('dashboard.availability.edit'), {
                     Id: Id
                 }, function(response) {
                     $("#editAvailability .modal-body").html(response);
