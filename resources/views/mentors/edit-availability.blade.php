@@ -3,33 +3,29 @@
         <form method="POST" action="{{ route('mentor.schedule.save') }}" role="form text-left">
             @csrf
             <input type="hidden" name="row_id" value="">
-            <div class="input-group">
-                <label class="form-label"></label>
-                <select class="form-control" name="time_zone" required>
-                    <option value="">Choose your time zones</option>
-                    @foreach($timezones as $timezone => $value)
-                    <option value="{{ $value }}">{{ $timezone }}</option>
-                    @endforeach
-                </select>
-            </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="input-group input-group-static my-3">
-                        <label>Date</label>
-                        <input type="text" name="schedule[0][date]" class="form-control date" required>
-                    </div>
+                <div class="col-md-6">
+                    <label class="form-label">Timezone</label>
+                    <select class="form-control" name="time_zone" required>
+                        <option value="">Choose your time zones</option>
+                        @foreach($timezones as $timezone => $value)
+                        <option value="{{ $value }}" {{ $value == $availability->time_zone ? 'selected' : '' }}>{{ $timezone }}</option>
+                        @endforeach
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Date</label>
+                    <input type="text" name="date" class="form-control date" value="{{ $availability->date }}" required>
                 </div>
                 <div class="col-md-4">
-                    <div class="input-group input-group-static my-3">
-                        <label>Start Time</label>
-                        <input type="time" name="schedule[0][start_time]" class="form-control" required>
-                    </div>
+                    <label class="form-label">Start Time</label>
+                    <input type="time" name="start_time" class="form-control" value="{{ $availability->start_time }}"
+                        required>
                 </div>
                 <div class="col-md-4">
-                    <div class="input-group input-group-static my-3">
-                        <label>End Time</label>
-                        <input type="time" name="schedule[0][end_time]" class="form-control" required>
-                    </div>
+                    <label class="form-label">End Time</label>
+                    <input type="time" name="end_time" class="form-control" value="{{ $availability->end_time }}"
+                        required>
                 </div>
             </div>
     </div>
