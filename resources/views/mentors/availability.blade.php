@@ -199,17 +199,10 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a class="fa fa-edit edit" data-bs-placement="bottom"
-                                                        title="Edit Availability" data-bs-toggle="tooltip"
-                                                        data-id="{{ $avail->id }}">
-                                                        Edit
-                                                    </a>
-                                                </div>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ $avail->id }}" class="" data-bs-toggle="tooltip"
-                                                        data-bs-placement="bottom" title="Join Session">
-                                                        Delete
-                                                    </a>
+                                                    <a class="fa fa-edit edit" title="Edit" data-toggle="tooltip"
+                                                        data-id="{{ $avail->id }}"></a>
+                                                    <a class="fa fa-trash delete" title="Delete" data-toggle="tooltip"
+                                                        data-id="{{ $avail->id }}"></a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -301,10 +294,10 @@
                     </div>
                     <div class="modal-body">
                     </div>
-                    <div class="modal-footer">
+                    <!-- <div class="modal-footer">
                         <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn bg-gradient-primary">Save changes</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -368,6 +361,7 @@
         });
         </script>
 </body>
+
 </html>
 <style>
 .datepicker {
