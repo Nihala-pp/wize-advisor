@@ -46,14 +46,14 @@
                                         <div class="col-3 text-center ms-auto">
                                             <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
-                                                    class="avatar avatar-sm me-3" alt="linkedin">
+                                                    class="avatar avatar-sm me-1" alt="linkedin">
                                                 <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
                                             </a>
                                         </div>
                                         <div class="col-3 text-center me-auto">
                                             <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
                                                 <img src="{{ asset('public/assets/img/google.png') }}"
-                                                    class="avatar avatar-sm me-3" alt="google">
+                                                    class="avatar avatar-sm me-1" alt="google">
                                                 <!-- <i class="fa fa-google text-white text-lg"></i> -->
                                             </a>
                                         </div>
