@@ -45,7 +45,7 @@
         <div class="col-lg-8">
             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item active">
-                    <a href="{{ route('home') }}" class="nav-link text-muted active" target="_blank">Dashboard </a>
+                    <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active" target="_blank">Dashboard </a>
                 </li>
                 <li class="nav-item">
                     <a href="{{ route('aboutUs') }}" class="nav-link text-muted" target="_blank">About Us</a>
