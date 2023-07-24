@@ -42,7 +42,7 @@ class LinkedinSocialiteController extends Controller
                 if ($finduser->role_id == 2) {
                     return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin'); 
                 } elseif ($finduser->role_id == 3) {
-                    return redirect()->route('user.personalInfo', [$finduser->id])->withSuccess('You have Successfully loggedin');
+                    return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
                 }     
             } else {
                 $newUser = User::create([
