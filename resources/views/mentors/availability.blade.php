@@ -201,7 +201,7 @@
                                                 <div class="avatar-group mt-2">
                                                     <a href="{{ $avail->id }}" class="" data-bs-placement="bottom"
                                                         title="Edit Availability" data-bs-toggle="modal"
-                                                        data-bs-target="#">
+                                                        data-bs-target="#editAvailability">
                                                         Edit
                                                     </a>
                                                 </div>
@@ -348,10 +348,22 @@
             $("#DeleteRow").click(function() {
                 $(this).parents("#row").remove();
             });
+
+            $('body').on('click', '.edit', function() {
+                var patientId = $(this).data('id');
+                $.post("<?php echo site_url('admin/Patients/editPatient'); ?>", {
+                    patientId: patientId
+                }, function(response) {
+                    $("#editAvailability .modal-body").html(response);
+                    $("#editAvailability").modal({
+                        backdrop: 'static',
+                        keyboard: false
+                    });
+                });
+            });
         });
         </script>
 </body>
-
 </html>
 <style>
 .datepicker {
