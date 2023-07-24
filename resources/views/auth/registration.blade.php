@@ -37,7 +37,7 @@
                                 <div class="card-header">
                                     <h4 class="font-weight-bolder">Create Account</h4>
                                     <p class="mb-0">Welcome! Join us and start your journey today.</p>
-                                    <div class="row mt-3">
+                                    <div class="row">
                                         <!-- <div class="col-2 text-center ms-auto"> -->
                                         <!-- <a class="btn btn-link px-3" href="javascript:;">
                         <i class="fa fa-facebook text-white text-lg"></i>
@@ -47,7 +47,6 @@
                                             <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
                                                     class="avatar avatar-sm me-3" alt="linkedin">
-
                                                 <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
                                             </a>
                                         </div>
