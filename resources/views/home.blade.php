@@ -254,7 +254,7 @@ html body .animated  {
 				</div>
 				<div class="elementor-element elementor-element-ca8bffa elementor-widget elementor-widget-heading" data-id="ca8bffa" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">#with WiseAdvizor</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">#with wiseAdvizor</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading" data-id="9ecb7fe" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
