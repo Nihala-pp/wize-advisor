@@ -26,7 +26,7 @@
 <style>/*! elementor - v3.14.0 - 26-06-2023 */
 .elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:right;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:left;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style>
 <div class="elementor-image-box-wrapper">
-<figure class="elementor-image-box-img"><a href="{{ route('profile', [$mentor->id]) }}"><img decoding="async" width="600" height="400" src="http://localhost/wize-advisor/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera.webp" class="attachment-2048x2048 size-2048x2048 wp-image-601" alt="" srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera.webp 600w, http://localhost/wize-advisor/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp 300w" sizes="(max-width: 600px) 100vw, 600px"></a></figure><div class="elementor-image-box-content">
+<figure class="elementor-image-box-img"><a href="{{ route('profile', [$mentor->id]) }}"><img decoding="async" width="600" height="400" src="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera.webp" class="attachment-2048x2048 size-2048x2048 wp-image-601" alt="" srcset="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera.webp 600w, http://localhost/wiseAdvizor/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp 300w" sizes="(max-width: 600px) 100vw, 600px"></a></figure><div class="elementor-image-box-content">
 <h5 class="elementor-image-box-title"><a href="{{ route('profile', [$mentor->id]) }}">{{ $mentor->name ? : '' }}</a></h5>
 <p class="elementor-image-box-description">{{ $mentor->metaData ? $mentor->metaData->about_me : '' }}</p>
 </div>
@@ -75,7 +75,7 @@
 				<div class="elementor-element elementor-element-ca80055 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="ca80055" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper">
-<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="612" height="408" src="http://localhost/wize-advisor/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1.jpg" class="attachment-full size-full wp-image-599" alt="" srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1.jpg 612w, http://localhost/wize-advisor/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1-300x200.jpg 300w" sizes="(max-width: 612px) 100vw, 612px"></a></figure><div class="elementor-image-box-content">
+<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="612" height="408" src="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1.jpg" class="attachment-full size-full wp-image-599" alt="" srcset="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1.jpg 612w, http://localhost/wiseAdvizor/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1-300x200.jpg 300w" sizes="(max-width: 612px) 100vw, 612px"></a></figure><div class="elementor-image-box-content">
 <h5 class="elementor-image-box-title"><a href="#">Martin Cyrus</a></h5>
 <p class="elementor-image-box-description">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
 </div>
@@ -94,7 +94,7 @@
 				</div>
 	<div class="elementor-element elementor-element-806564a elementor-widget elementor-widget-heading" data-id="806564a" data-element_type="widget" data-widget_type="heading.default">
 		<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wize-advisor/profile">View Profile</a></p>		</div>
+			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wiseAdvizor/profile">View Profile</a></p>		</div>
 				</div>
 					</div>
 		</div>
@@ -117,7 +117,7 @@
 				<div class="elementor-element elementor-element-fe8afe8 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="fe8afe8" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper">
-<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="509" height="339" src="http://localhost/wize-advisor/wp-content/uploads/2023/06/istockphoto-1413766112-170667a.webp" class="attachment-full size-full wp-image-598" alt="" srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/istockphoto-1413766112-170667a.webp 509w, http://localhost/wize-advisor/wp-content/uploads/2023/06/istockphoto-1413766112-170667a-300x200.webp 300w" sizes="(max-width: 509px) 100vw, 509px"></a></figure><div class="elementor-image-box-content">
+<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="509" height="339" src="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/istockphoto-1413766112-170667a.webp" class="attachment-full size-full wp-image-598" alt="" srcset="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/istockphoto-1413766112-170667a.webp 509w, http://localhost/wiseAdvizor/wp-content/uploads/2023/06/istockphoto-1413766112-170667a-300x200.webp 300w" sizes="(max-width: 509px) 100vw, 509px"></a></figure><div class="elementor-image-box-content">
 <h5 class="elementor-image-box-title"><a href="#">Nicolas Sen</a></h5>
 <p class="elementor-image-box-description">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
 </div>
@@ -136,7 +136,7 @@
 				</div>
 				<div class="elementor-element elementor-element-d134474 elementor-widget elementor-widget-heading" data-id="d134474" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wize-advisor/profile">View Profile</a></p>		</div>
+			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wiseAdvizor/profile">View Profile</a></p>		</div>
 				</div>
 					</div>
 		</div>
@@ -162,7 +162,7 @@
 				<div class="elementor-element elementor-element-b17e243 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="b17e243" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper">
-<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="390" height="261" src="http://localhost/wize-advisor/wp-content/uploads/2023/06/portrait-smiling-african-businessman-standing-260nw-2224341695-e1688374457618.webp" class="attachment-full size-full wp-image-600" alt="" srcset="http://localhost/wize-advisor/wp-content/uploads/2023/06/portrait-smiling-african-businessman-standing-260nw-2224341695-e1688374457618.webp 390w, http://localhost/wize-advisor/wp-content/uploads/2023/06/portrait-smiling-african-businessman-standing-260nw-2224341695-e1688374457618-300x201.webp 300w" sizes="(max-width: 390px) 100vw, 390px"></a></figure><div class="elementor-image-box-content">
+<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="390" height="261" src="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/portrait-smiling-african-businessman-standing-260nw-2224341695-e1688374457618.webp" class="attachment-full size-full wp-image-600" alt="" srcset="http://localhost/wiseAdvizor/wp-content/uploads/2023/06/portrait-smiling-african-businessman-standing-260nw-2224341695-e1688374457618.webp 390w, http://localhost/wiseAdvizor/wp-content/uploads/2023/06/portrait-smiling-african-businessman-standing-260nw-2224341695-e1688374457618-300x201.webp 300w" sizes="(max-width: 390px) 100vw, 390px"></a></figure><div class="elementor-image-box-content">
 <h5 class="elementor-image-box-title"><a href="#">Jane Davis</a></h5>
 <p class="elementor-image-box-description">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
 </div>
@@ -181,7 +181,7 @@
 				</div>
 				<div class="elementor-element elementor-element-f383765 elementor-widget elementor-widget-heading" data-id="f383765" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wize-advisor/profile">View Profile</a></p>		</div>
+			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wiseAdvizor/profile">View Profile</a></p>		</div>
 				</div>
 					</div>
 		</div>
@@ -203,7 +203,7 @@
 				<div class="elementor-element elementor-element-fc43ddb elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="fc43ddb" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper">
-<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="1280" height="848" src="http://localhost/wize-advisor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358.jpg" class="attachment-full size-full wp-image-2815" alt="entrepreneur, start-up, man-593358.jpg" srcset="http://localhost/wize-advisor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358.jpg 1280w, http://localhost/wize-advisor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358-300x199.jpg 300w, http://localhost/wize-advisor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358-1024x678.jpg 1024w, http://localhost/wize-advisor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358-768x509.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"></a></figure><div class="elementor-image-box-content">
+<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="1280" height="848" src="http://localhost/wiseAdvizor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358.jpg" class="attachment-full size-full wp-image-2815" alt="entrepreneur, start-up, man-593358.jpg" srcset="http://localhost/wiseAdvizor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358.jpg 1280w, http://localhost/wiseAdvizor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358-300x199.jpg 300w, http://localhost/wiseAdvizor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358-1024x678.jpg 1024w, http://localhost/wiseAdvizor/wp-content/uploads/2023/07/entrepreneur-start-up-man-593358-768x509.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"></a></figure><div class="elementor-image-box-content">
 <h5 class="elementor-image-box-title"><a href="#">Krsylin  Doe</a></h5>
 <p class="elementor-image-box-description">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
 </div>
@@ -222,7 +222,7 @@
 				</div>
 				<div class="elementor-element elementor-element-42d0cdc elementor-widget elementor-widget-heading" data-id="42d0cdc" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wize-advisor/profile">View Profile</a></p>		</div>
+			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wiseAdvizor/profile">View Profile</a></p>		</div>
 				</div>
 					</div>
 		</div>
@@ -244,7 +244,7 @@
 				<div class="elementor-element elementor-element-9481642 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="9481642" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper">
-<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="1280" height="853" src="http://localhost/wize-advisor/wp-content/uploads/2023/07/male-model-portrait-7275449.jpg" class="attachment-full size-full wp-image-2816" alt="male, model, portrait-7275449.jpg" srcset="http://localhost/wize-advisor/wp-content/uploads/2023/07/male-model-portrait-7275449.jpg 1280w, http://localhost/wize-advisor/wp-content/uploads/2023/07/male-model-portrait-7275449-300x200.jpg 300w, http://localhost/wize-advisor/wp-content/uploads/2023/07/male-model-portrait-7275449-1024x682.jpg 1024w, http://localhost/wize-advisor/wp-content/uploads/2023/07/male-model-portrait-7275449-768x512.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"></a></figure><div class="elementor-image-box-content">
+<figure class="elementor-image-box-img"><a href="#"><img decoding="async" width="1280" height="853" src="http://localhost/wiseAdvizor/wp-content/uploads/2023/07/male-model-portrait-7275449.jpg" class="attachment-full size-full wp-image-2816" alt="male, model, portrait-7275449.jpg" srcset="http://localhost/wiseAdvizor/wp-content/uploads/2023/07/male-model-portrait-7275449.jpg 1280w, http://localhost/wiseAdvizor/wp-content/uploads/2023/07/male-model-portrait-7275449-300x200.jpg 300w, http://localhost/wiseAdvizor/wp-content/uploads/2023/07/male-model-portrait-7275449-1024x682.jpg 1024w, http://localhost/wiseAdvizor/wp-content/uploads/2023/07/male-model-portrait-7275449-768x512.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px"></a></figure><div class="elementor-image-box-content">
 <h5 class="elementor-image-box-title"><a href="#">Cruise Jad</a></h5>
 <p class="elementor-image-box-description">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
 </div>
@@ -263,7 +263,7 @@
 				</div>
 				<div class="elementor-element elementor-element-b9f6838 elementor-widget elementor-widget-heading" data-id="b9f6838" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wize-advisor/profile">View Profile</a></p>		</div>
+			<p class="elementor-heading-title elementor-size-default"><a href="http://localhost/wiseAdvizor/profile">View Profile</a></p>		</div>
 				</div>
 					</div>
 		</div>

@@ -24,7 +24,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\/http:\/\/localhost\/wize-advisor\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "\/http:\/\/localhost\/wiseAdvizor\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
@@ -1000,7 +1000,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "\/http:\/\/localhost\/wiseAdvizor\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
@@ -2895,7 +2895,7 @@
             "e_scroll_snap": true
         },
         "urls": {
-            "assets": "\/http:\/\/localhost\/wize-advisor\/wp-content\/plugins\/elementor\/assets\/"
+            "assets": "\/http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor\/assets\/"
         },
         "swiperClass": "swiper",
         "settings": {
@@ -2945,11 +2945,11 @@
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
-        "ajaxurl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php",
+        "ajaxurl": "\/http:\/\/localhost\/wiseAdvizor\/wp-admin\/admin-ajax.php",
         "nonce": "b803da9bff",
         "urls": {
-            "assets": "\/http:\/\/localhost\/wize-advisor\/wp-content\/plugins\/elementor-pro\/assets\/",
-            "rest": "\/http:\/\/localhost\/wize-advisor\/wp-json\/"
+            "assets": "\/http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor-pro\/assets\/",
+            "rest": "\/http:\/\/localhost\/wiseAdvizor\/wp-json\/"
         },
         "i18n": {
             "toc_no_headings_found": "No headings were found on this page."
@@ -3024,7 +3024,7 @@
             "app_id": ""
         },
         "lottie": {
-            "defaultAnimationUrl": "\/http:\/\/localhost\/wize-advisor\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+            "defaultAnimationUrl": "\/http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
         }
     };
     </script>
