@@ -200,11 +200,11 @@
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
                                                     <button type="button" class="btn btn-block edit"
-                                                        onclick="editAvailability()" data-id="{{ $avail->id }}">Edit <i
-                                                            class="fa fa-edit"></button></i><br />
+                                                        onclick="edit()" data-id="{{ $avail->id }}">Edit <i
+                                                            class="fa fa-edit"></button></i>
                                                     <button type="button" class="btn btn-block delete"
-                                                        onclick="deleteAvailability()" data-id="{{ $avail->id }}">Delete
-                                                        <i class="fa fa-trash"></button></i><br />
+                                                        onclick="delete()" data-id="{{ $avail->id }}">Delete
+                                                        <i class="fa fa-trash"></button></i>
                                                 </div>
                                             </td>
                                         </tr>
@@ -339,7 +339,7 @@
                 $(this).parents("#row").remove();
             });
 
-            function editAvailability() {
+            function edit() {
                 var Id = $(this).data('id');
                 return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
                     method: 'GET',
@@ -358,7 +358,7 @@
                 return false;
             }
 
-            function deleteAvailability() {
+            function delete() {
                 var Id = $(this).data('id');
                 return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
                     method: 'GET',
