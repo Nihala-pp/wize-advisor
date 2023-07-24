@@ -138,6 +138,6 @@
 </html>
 <style>
 .loginForm {
-    padding-right: 600px;
+    padding-right: 750px;
 }
 </style>
