@@ -101,6 +101,28 @@
                             <div class="card card-plain">
                                 <div class="card-header">
                                     <h4 class="font-weight-bolder">Sign Up</h4>
+                                    <div class="row mt-3">
+                                        <!-- <div class="col-2 text-center ms-auto"> -->
+                                        <!-- <a class="btn btn-link px-3" href="javascript:;">
+                        <i class="fa fa-facebook text-white text-lg"></i>
+                      </a> -->
+                                        <!-- </div> -->
+                                        <div class="col-3 text-center ms-auto">
+                                            <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
+                                                <img src="{{ asset('public/assets/img/linkedin.png') }}"
+                                                    class="avatar avatar-sm me-3" alt="linkedin">
+
+                                                <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
+                                            </a>
+                                        </div>
+                                        <div class="col-3 text-center me-auto">
+                                            <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
+                                                <img src="{{ asset('public/assets/img/google.png') }}"
+                                                    class="avatar avatar-sm me-3" alt="google">
+                                                <!-- <i class="fa fa-google text-white text-lg"></i> -->
+                                            </a>
+                                        </div>
+                                    </div>
                                     <p class="mb-0">Enter your email and password to register</p>
                                 </div>
                                 <div class="card-body">
