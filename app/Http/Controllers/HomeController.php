@@ -185,7 +185,6 @@ class HomeController extends Controller
           ?>
 <script type="text/javascript">
 alert("Please choose the time slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php          
       } 
@@ -195,7 +194,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
           ?>
 <script type="text/javascript">
 alert("Please choose the timezone");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php          
       } 
