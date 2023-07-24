@@ -394,4 +394,42 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         return view('mentors.edit-availability', compact('availability', 'timezones'));
     }
+
+    public function edit_schedule(Request $request)
+    {
+        $exists = AvailableSchedule::where('mentor_id', Auth::id())
+            ->where('date', $request->date)
+            ->where('start_time',  $request->start_time)
+            ->where('time_zone', $request->time_zone)
+            ->first();
+
+            if($exists)
+            {
+                ?>
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php          
+            } 
+            
+        $schedule = [
+            'mentor_id' => Auth::id(),
+            'start_time' => $request->start_time,
+            'end_time' => $request->end_time,
+            'date' => $request->date,
+            'time_zone' => $request->time_zone
+        ];
+
+        AvailableSchedule::find($request->row_id)->update([
+            $schedule
+        ]);
+        ?>
+
+<script type="text/javascript">
+alert("Updated Successfully");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php        
+    }
 }

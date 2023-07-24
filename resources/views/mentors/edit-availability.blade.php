@@ -2,7 +2,7 @@
     <div class="card-body">
         <form method="POST" action="{{ route('mentor.schedule.save') }}" role="form text-left">
             @csrf
-            <input type="hidden" name="row_id" value="">
+            <input type="hidden" name="row_id" value="{{ $availability->id }}">
             <div class="row">
                 <div class="col-md-6">
                     <label class="form-label">Timezone</label>

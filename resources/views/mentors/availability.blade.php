@@ -295,8 +295,16 @@
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
-                    <div class="modal-body editAvailability">
-                    </div>
+                    <form method="POST" action="{{ route('mentor.schedule.edit') }}" role="form text-left">
+                        @csrf
+                        <div class="modal-body editAvailability">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn bg-gradient-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
