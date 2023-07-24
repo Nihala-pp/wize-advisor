@@ -198,7 +198,7 @@
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">editAvailability
+                                                <div class="avatar-group mt-2">
                                                     <a href="{{ $avail->id }}" class="" data-bs-placement="bottom"
                                                         title="Edit Availability" data-bs-toggle="modal"
                                                         data-bs-target="#">
