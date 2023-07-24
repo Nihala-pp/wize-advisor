@@ -183,7 +183,7 @@
                                         <input type="number" name="price_per_call" class="form-control" value="{{ $data->metaData->price_per_call ? : '' }}" required>
                                     </div>
                                     <!-- <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Wise Advizor Commission</label>
+                                        <label class="form-label">wiseAdvizor Commission</label>
                                         <input type="number" name="commission" class="form-control" value="{{ $data->metaData->commission ? : '' }}" required>
                                     </div> -->
                                     <div class="input-group input-group-outline my-3">
