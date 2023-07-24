@@ -23,7 +23,7 @@
   </div> -->
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-100"
-            style="background-image: url('https://img.freepik.com/free-vector/data-security-technology-background-vector-blue-tone_53876-112201.jpg');">
+            style="background-image: url('{{ asset('public/assets/img/online-security-dark-background-3d-illustration.jpg') }}')">
             <!-- <span class="mask bg-gradient-dark opacity-6"></span> -->
             <div class="container my-auto loginForm">
                 <div class="row">
