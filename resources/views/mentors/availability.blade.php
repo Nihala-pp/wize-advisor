@@ -351,20 +351,24 @@
 
             $('body').on('click', '.edit', function() {
                 var Id = $(this).data('id');
-                $.get(route('dashboard.availability.edit'), {
-                    Id: Id
-                }, function(response) {
-                    $("#editAvailability .modal-body").html(response);
-                    $("#editAvailability").modal({
-                        backdrop: 'static',
-                        keyboard: false
-                    });
+                return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
+                    method: 'GET',
+                    data: {
+                        "_token": $('meta[name="csrf-token"]').attr('content'),
+                        "id": Id,
+                    },
+                    success: function(response) {
+                        $("#editAvailability .modal-body").html(response);
+                        $("#editAvailability").modal({
+                            backdrop: 'static',
+                            keyboard: false
+                        });
+                    },
                 });
             });
         });
         </script>
 </body>
-
 </html>
 <style>
 .datepicker {
