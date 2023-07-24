@@ -390,8 +390,8 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     public function editAvailability(Request $request)
     {
         $availability = AvailableSchedule::find($request->Id);
-        $timezone = AvailableSchedule::timezones();
+        $timezones = AvailableSchedule::timezones();
 
-        return view('mentors.edit-availability', compact('availability', 'timezone'));
+        return view('mentors.edit-availability', compact('availability', 'timezones'));
     }
 }
