@@ -25,7 +25,7 @@
         <div class="page-header align-items-start min-vh-100"
             style="background-image: url('https://img.freepik.com/free-vector/cyber-lock-security-padlock-abstract-wire-low-poly-polygonal-wire-frame-mesh-looks-like-constellation-dark-blue-night-sky-with-dots-stars-illustration-background_587448-642.jpg');">
             <!-- <span class="mask bg-gradient-dark opacity-6"></span> -->
-            <div class="container my-auto" style="align:left;">
+            <div class="container my-auto loginForm">
                 <div class="row">
                     <div class="col-lg-4 col-md-8 col-12 mx-auto">
                         <div class="card z-index-0 fadeIn3 fadeInBottom">
@@ -136,3 +136,8 @@
 </body>
 
 </html>
+<style>
+    .row { 
+    padding-left:300px;
+}
+</style>
