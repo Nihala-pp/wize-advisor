@@ -284,17 +284,18 @@
             </div>
         </div>
 
-        <div class="modal fade" id="editAvailability" tabindex="-1" role="dialog"
-            aria-labelledby="editAvailabilityLabel" aria-hidden="true">
+        <div class="modal fade" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title font-weight-normal" id="editAvailabilityLabel">Edit Availability</h5>
-                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                    <div class="modal-header info-color white-text">
+                        <h6 class="title"><b>Edit Availability</b></h6>
+                        <button type="button" class="close waves-effect waves-light" data-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">×</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body editAvailability">
                     </div>
                 </div>
             </div>
@@ -339,7 +340,7 @@
                 $(this).parents("#row").remove();
             });
 
-            $(".edit").click(function() {
+            $('body').on('click', '.edit', function() {
                 var Id = $(this).data('id');
                 $.ajax({
                     url: "{{ route('mentor.dashboard.availability.edit') }}",
@@ -348,8 +349,8 @@
                         'Id': Id
                     },
                     success: function(response) {
-                        $("#editAvailability .modal-body").html(response);
-                        $("#editAvailability").modal({
+                        $("#edit_availability .modal-body").html(response);
+                        $("#edit_availability").modal({
                             backdrop: 'static',
                             keyboard: false
                         });
