@@ -570,7 +570,7 @@
         </div> -->
             <!-- </div>
         </div>
-    </div> --> -->
+    </div> --> 
     <!--   Core JS Files   -->
     <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
