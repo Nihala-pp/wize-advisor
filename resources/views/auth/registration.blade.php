@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
                             <div class="card card-plain">
-                                <div class="card-header">
+                                <div class="card-header mt-0">
                                     <h4 class="font-weight-bolder">Create Account</h4>
                                     <p class="mb-0">Welcome! Join us and start your journey today.</p>
                                     <div class="row">
@@ -59,7 +59,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-body">
+                                <div class="card-body mt-0">
                                     <form method="POST" action="{{ route('register.post') }}">
                                         @csrf
                                         <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
