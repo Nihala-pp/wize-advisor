@@ -187,7 +187,7 @@ class HomeController extends Controller
   var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
   Id = "{{ $data['mentor'] }}";
 alert("Please choose the time slot");
-window.location.href = '" + custom_location + "/" + Id + "';
+window.location.href = "" + custom_location + "/" + Id + "";
 </script>
 <?php          
       } 
@@ -199,7 +199,7 @@ window.location.href = '" + custom_location + "/" + Id + "';
   var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
   Id = "{{ $data['mentor'] }}";
 alert("Please choose the time slot");
-window.location.href = '" + custom_location + "/" + Id + "';
+window.location.href = "" + custom_location + "/" + Id + "";
 </script>
 <?php          
       } 
