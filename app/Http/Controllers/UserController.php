@@ -53,7 +53,7 @@ class UserController extends Controller
 
         ?>
         <script type="text/javascript">
-             alert("Successfully Added");
+             alert("Review has been submitted");
                     window.location.href = "https://wiseadvizor.com/user/dashboard";
         </script>
          <?php        
