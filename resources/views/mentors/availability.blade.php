@@ -341,11 +341,11 @@
 
             $(".edit").click(function() {
                 var Id = $(this).data('id');
-                return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
-                    method: 'GET',
+                $.ajax({
+                    url: "{{ route('mentor.dashboard.availability.edit') }}",
+                    type: "GET",
                     data: {
-                        "_token": $('meta[name="csrf-token"]').attr('content'),
-                        "id": Id,
+                        'Id': Id
                     },
                     success: function(response) {
                         $("#editAvailability .modal-body").html(response);
@@ -353,18 +353,18 @@
                             backdrop: 'static',
                             keyboard: false
                         });
-                    },
+                    }
+                    return false;
                 });
-                return false;
             });
 
             $(".delete").click(function() {
                 var Id = $(this).data('id');
-                return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
-                    method: 'GET',
+                $.ajax({
+                    url: "{{ route('mentor.dashboard.availability.edit') }}",
+                    type: "GET",
                     data: {
-                        "_token": $('meta[name="csrf-token"]').attr('content'),
-                        "id": Id,
+                        'Id': Id
                     },
                     success: function(response) {
                         $("#editAvailability .modal-body").html(response);
@@ -372,9 +372,9 @@
                             backdrop: 'static',
                             keyboard: false
                         });
-                    },
+                    }
+                    return false;
                 });
-                return false;
             });
         });
         </script>
