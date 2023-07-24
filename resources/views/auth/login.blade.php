@@ -140,12 +140,4 @@
 .loginForm {
     padding-left: 750px;
 }
-
-.linkedin {
-    padding-right: 50px;
-}
-
-.google {
-    padding-right: 50px;
-}
 </style>

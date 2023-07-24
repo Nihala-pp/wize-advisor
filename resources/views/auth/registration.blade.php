@@ -180,3 +180,12 @@
     </main>
 </body>
 </html>
+<style>
+    .linkedin {
+    padding-right: 50px;
+}
+
+.google {
+    padding-right: 50px;
+}
+</style>
