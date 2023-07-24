@@ -421,9 +421,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             'time_zone' => $request->time_zone
         ];
 
-        AvailableSchedule::find($request->row_id)->update([
-            $schedule
-        ]);
+        AvailableSchedule::find($request->row_id)->update($schedule);
         ?>
 
 <script type="text/javascript">
@@ -436,5 +434,13 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     public function deleteAvailability(Request $request)
     {
         AvailableSchedule::find($request->Id)->delete();
+
+        ?>
+
+        <script type="text/javascript">
+        alert("Deleted Successfully");
+        window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+        </script>
+        <?php        
     }
 }
