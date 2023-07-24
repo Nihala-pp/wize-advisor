@@ -199,10 +199,12 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a class="fa fa-edit edit" title="Edit" data-toggle="tooltip"
-                                                        data-id="{{ $avail->id }}"></a>
-                                                    <a class="fa fa-trash delete" title="Delete" data-toggle="tooltip"
-                                                        data-id="{{ $avail->id }}"></a>
+                                                    <button type="button" class="btn btn-block edit"
+                                                        onclick="editAvailability()" data-id="{{ $avail->id }}">Edit <i
+                                                            class="fa fa-edit"></button></i><br />
+                                                    <button type="button" class="btn btn-block delete"
+                                                        onclick="deleteAvailability()" data-id="{{ $avail->id }}">Delete
+                                                        <i class="fa fa-trash"></button></i><br />
                                                 </div>
                                             </td>
                                         </tr>
@@ -294,10 +296,6 @@
                     </div>
                     <div class="modal-body">
                     </div>
-                    <!-- <div class="modal-footer">
-                        <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn bg-gradient-primary">Save changes</button>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -341,7 +339,7 @@
                 $(this).parents("#row").remove();
             });
 
-            $('body').on('click', '.edit', function() {
+            function editAvailability() {
                 var Id = $(this).data('id');
                 return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
                     method: 'GET',
@@ -357,7 +355,26 @@
                         });
                     },
                 });
-            });
+            }
+
+            function deleteAvailability() {
+                var Id = $(this).data('id');
+                return $.ajax("https://wiseadvizor.com/mentor/dashboard/availability/edit", {
+                    method: 'GET',
+                    data: {
+                        "_token": $('meta[name="csrf-token"]').attr('content'),
+                        "id": Id,
+                    },
+                    success: function(response) {
+                        $("#editAvailability .modal-body").html(response);
+                        $("#editAvailability").modal({
+                            backdrop: 'static',
+                            keyboard: false
+                        });
+                    },
+                });
+            }
+
         });
         </script>
 </body>
