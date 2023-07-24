@@ -174,11 +174,32 @@ class HomeController extends Controller
 
     public function addScheduleRequest(Request $request)
     {
+
       $requestData = $request->all();
       $data = array();
       parse_str($requestData['data'], $data);
       //  dd($data['duration']);
 
+      if(empty($data['time']))
+      {
+          ?>
+<script type="text/javascript">
+alert("Please choose the time slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php          
+      } 
+
+      if(empty($data['timezone']))
+      {
+          ?>
+<script type="text/javascript">
+alert("Please choose the timezone");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php          
+      } 
+      else {
        $month =  $data['month'];
        $nmonth = date("m", strtotime($data['month']));
        $date = $data['year'].'-'.$nmonth.'-'.$data['day'];
@@ -215,17 +236,9 @@ class HomeController extends Controller
         'duration' => $data['duration'],
        ];
 
-
-
-    //    return redirect()->action(
-    //     [HomeController::class, 'success'], [$data]
-    // );
-      //  return $this->success($data);
-      // $this->sendScheduleRequestMail($details);
-      // $this->sendScheduleRequestUserMail($details);
-
-      return view('success', compact('details', 'mentor'));
-       
+       return view('success', compact('details', 'mentor'));
+  
+      }
     }
 
     public function getTimeAvailability(Request $request)
