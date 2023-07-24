@@ -59,7 +59,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-body mb-3">
+                                <div class="card-body">
                                     <form method="POST" action="{{ route('register.post') }}">
                                         @csrf
                                         <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
