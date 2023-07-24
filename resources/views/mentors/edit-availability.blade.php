@@ -1,7 +1,5 @@
 <div class="card card-plain">
     <div class="card-body">
-        <form method="POST" action="{{ route('mentor.schedule.save') }}" role="form text-left">
-            @csrf
             <input type="hidden" name="row_id" value="{{ $availability->id }}">
             <div class="row">
                 <div class="col-md-6">
