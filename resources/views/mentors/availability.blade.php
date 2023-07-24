@@ -354,7 +354,6 @@
                             keyboard: false
                         });
                     }
-                    return false;
                 });
             });
 
