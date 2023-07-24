@@ -434,8 +434,8 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     public function deleteAvailability(Request $request)
     {
         AvailableSchedule::find($request->Id)->delete();
-        
         ?>
+
 <script type="text/javascript">
 alert("Deleted Successfully");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
