@@ -36,8 +36,8 @@
                                     <div class="row mt-3">
                                         <!-- <div class="col-2 text-center ms-auto"> -->
                                         <!-- <a class="btn btn-link px-3" href="javascript:;">
-                        <i class="fa fa-facebook text-white text-lg"></i>
-                      </a> -->
+                                            <i class="fa fa-facebook text-white text-lg"></i>
+                                             </a> -->
                                         <!-- </div> -->
                                         <div class="col-3 text-center ms-auto linkedin">
                                             <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
