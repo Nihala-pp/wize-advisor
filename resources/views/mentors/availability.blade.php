@@ -355,6 +355,7 @@
                         });
                     },
                 });
+                return false;
             }
 
             function deleteAvailability() {
@@ -373,8 +374,8 @@
                         });
                     },
                 });
+                return false;
             }
-
         });
         </script>
 </body>
