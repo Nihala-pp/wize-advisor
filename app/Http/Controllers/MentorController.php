@@ -391,6 +391,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
         $availability = AvailableSchedule::find($request->Id);
         
-        return view('edit-availability', compact('availability'));
+        return view('mentors.edit-availability', compact('availability'));
     }
 }
