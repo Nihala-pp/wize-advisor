@@ -350,7 +350,7 @@
                     },
                     success: function(response) {
                         $("#edit_availability .modal-body").html(response);
-                        $("#edit_availability").modal();
+                        $("#edit_availability").modal('show');
                     }
                 });
             });
