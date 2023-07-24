@@ -199,9 +199,9 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ $avail->id }}" class="" data-bs-placement="bottom"
-                                                        title="Edit Availability" data-bs-toggle="modal"
-                                                        data-bs-target="#editAvailability">
+                                                    <a class="fa fa-edit edit" data-bs-placement="bottom"
+                                                        title="Edit Availability" data-bs-toggle="tooltip"
+                                                        data-id="{{ $avail->id }}">
                                                         Edit
                                                     </a>
                                                 </div>
@@ -350,9 +350,9 @@
             });
 
             $('body').on('click', '.edit', function() {
-                var patientId = $(this).data('id');
-                $.post("<?php echo site_url('admin/Patients/editPatient'); ?>", {
-                    patientId: patientId
+                var Id = $(this).data('id');
+                $.get("route('dashboard.availability.edit')", {
+                    Id: Id
                 }, function(response) {
                     $("#editAvailability .modal-body").html(response);
                     $("#editAvailability").modal({
@@ -364,6 +364,7 @@
         });
         </script>
 </body>
+
 </html>
 <style>
 .datepicker {

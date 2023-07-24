@@ -203,11 +203,11 @@ class MentorController extends Controller
             if($exists)
             {
                 ?>
-                <script type="text/javascript">
-                     alert("Slot already exists...Please try again with different slot");
-                            window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-                </script>
-                 <?php          
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php          
             } 
             
             else {
@@ -223,11 +223,11 @@ class MentorController extends Controller
                 AvailableSchedule::update_schedule($request->row_id, $data);
 
                 ?>
-                <script type="text/javascript">
-                     alert("Successfully Added");
-                            window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-                </script>
-                 <?php        
+<script type="text/javascript">
+alert("Successfully Added");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php        
             }
           }
 
@@ -385,5 +385,12 @@ class MentorController extends Controller
     public function success(Request $request)
     {
          return $request->code;
+    }
+
+    public function editAvailability(Request $request)
+    {
+        $availability = AvailableSchedule::find($request->Id);
+        
+        return view('edit-availability', compact('availability'));
     }
 }
