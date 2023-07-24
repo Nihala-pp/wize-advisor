@@ -23,7 +23,7 @@
   </div> -->
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-100"
-            style="background-image: url('https://img.freepik.com/free-vector/cyber-lock-security-padlock-abstract-wire-low-poly-polygonal-wire-frame-mesh-looks-like-constellation-dark-blue-night-sky-with-dots-stars-illustration-background_587448-642.jpg');">
+            style="background-image: url('https://img.freepik.com/free-vector/data-security-technology-background-vector-blue-tone_53876-112201.jpg');">
             <!-- <span class="mask bg-gradient-dark opacity-6"></span> -->
             <div class="container my-auto loginForm">
                 <div class="row">

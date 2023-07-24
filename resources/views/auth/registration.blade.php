@@ -99,7 +99,7 @@
                                             <input type="url" class="form-control" name="linked_in">
                                         </div>
                                         <div class="mb-3">
-                                            <label class="form-label">Expertise</label></br>
+                                            <label class="form-label">Expertise you are looking for?</label></br>
                                             <select class="select form-control @error('expert') is-invalid @enderror"
                                                 multiple data-mdb-clear-button="true" name="expert[]">
                                                 @foreach($expertise as $key => $expert)
