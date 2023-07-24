@@ -50,6 +50,13 @@ class UserController extends Controller
           'review' => $request->comment,
           'rating' => $request->rating,
         ]);
+
+        ?>
+        <script type="text/javascript">
+             alert("Successfully Added");
+                    window.location.href = "https://wiseadvizor.com/user/dashboard";
+        </script>
+         <?php        
     }
 
     public function updateSchedule($id)

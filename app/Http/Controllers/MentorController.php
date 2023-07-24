@@ -202,8 +202,14 @@ class MentorController extends Controller
 
             if($exists)
             {
-                return redirect()->route('mentor.dashboard.availability')->with('error','Time Slot already exists, Please choose different one');
-            }
+                ?>
+                <script type="text/javascript">
+                     alert("Slot already exists...Please try again with different slot");
+                            window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+                 <?php          
+            } 
+            
             else {
             //  dd($schedule['start_time']);
                $data = [
@@ -216,7 +222,12 @@ class MentorController extends Controller
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
 
-                return redirect()->route('mentor.dashboard.availability')->with('message','Data added Successfully');
+                ?>
+                <script type="text/javascript">
+                     alert("Successfully Added");
+                            window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+                 <?php        
             }
           }
 
