@@ -513,7 +513,7 @@
                         <i class="material-icons">clear</i>
                     </button>
                 </div>
-                <!-- End Toggle Button -->
+                 End Toggle Button -->
             <!-- </div>
             <hr class="horizontal dark my-1">
             <div class="card-body pt-sm-3 pt-0"> -->
@@ -531,7 +531,7 @@
                         <span class="badge filter bg-gradient-danger" data-color="danger" onclick="sidebarColor(this)"></span>
                     </div>
                 </a>
-                <!-- Sidenav Type -->
+                 Sidenav Type -->
                 <!-- <div class="mt-3">
                     <h6 class="mb-0">Sidenav Type</h6>
                     <p class="text-sm">Choose between 2 different sidenav types.</p>
@@ -556,7 +556,7 @@
                         <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
                     </div>
                 </div>
-                <hr class="horizontal dark my-sm-4"> --> -->
+                <hr class="horizontal dark my-sm-4"> --> 
                 <!-- <a class="btn btn-outline-dark w-100" href="">View documentation</a> -->
                 <!-- <div class="w-100 text-center">
           <a class="github-button" href="https://github.com/creativetimofficial/material-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>
