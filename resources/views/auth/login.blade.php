@@ -39,7 +39,7 @@
                                         <!-- </div> -->
                                         <div class="col-3 text-center ms-auto">
                                             <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
-                                                <i class="fa fa-linkedin text-white text-lg"></i>
+                                                <i class="fa fa-linkedin text-dark-blue text-lg"></i>
                                             </a>
                                         </div>
                                         <div class="col-3 text-center me-auto">
