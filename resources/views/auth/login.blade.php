@@ -40,7 +40,7 @@
                       </a> -->
                                         <!-- </div> -->
                                         <div class="col-3 text-center ms-auto">
-                                            <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
+                                            <a class="btn btn-link px-0" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
                                                     class="avatar avatar-sm me-3" alt="linkedin">
 
@@ -48,7 +48,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 text-center me-auto">
-                                            <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
+                                            <a class="btn btn-link px-0" href="{{ route('auth.google') }}">
                                                 <img src="{{ asset('public/assets/img/google.png') }}"
                                                     class="avatar avatar-sm me-3" alt="google">
                                                 <!-- <i class="fa fa-google text-white text-lg"></i> -->
