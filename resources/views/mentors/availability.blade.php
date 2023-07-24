@@ -350,10 +350,7 @@
                     },
                     success: function(response) {
                         $("#edit_availability .modal-body").html(response);
-                        $("#edit_availability").modal({
-                            backdrop: 'static',
-                            keyboard: false
-                        });
+                        $("#edit_availability").modal();
                     }
                 });
             });
