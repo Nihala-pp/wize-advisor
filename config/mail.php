@@ -99,7 +99,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'info@wiseadvizor.com'),
-        'name' => env('MAIL_FROM_NAME', 'WiseAdvizor'),
+        'name' => env('MAIL_FROM_NAME', 'wiseAdvizor'),
     ],
 
     /*
