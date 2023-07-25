@@ -30,12 +30,6 @@
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
-    <link rel="stylesheet" id="hfe-style-css"
-        href="{{ asset('public/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14') }}"
-        media="all">
-    <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14') }}"
-        media="all">
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
