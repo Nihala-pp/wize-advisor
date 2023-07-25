@@ -872,7 +872,7 @@ empower startups and fuel their growth.   </p>		</div>
 				</div>
 				<div class="elementor-element elementor-element-452c0d8f elementor-widget elementor-widget-heading" data-id="452c0d8f" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default">{{ $mentor->metaData ? $mentor->metaData->bio : '' }}</p>		</div>
+			<p class="elementor-heading-title elementor-size-default">{{ $mentor->metaData ? Str::limit($mentor->metaData->bio, 5) : '' }}</p>		</div>
 				</div>
 <section class="elementor-section elementor-inner-section elementor-element elementor-element-d375fb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d375fb7" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">

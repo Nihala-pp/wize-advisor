@@ -31,9 +31,9 @@ class MentorController extends Controller
         $total_calls_scheduled = ScheduledCall::where('mentor_id', Auth::id())->get()->count();
         $total_calls_approved = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->get()->count();
         $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Rejected')->get()->count();
-        $total_earning= ScheduledCall::where('mentor_id', Auth::id())->sum('price');
+        $total_earning = ScheduledCall::where('mentor_id', Auth::id())->sum('price');
 
-        return view('mentors.index', compact('total_calls_scheduled','total_calls_approved','total_calls_rejected','total_earning'));
+        return view('mentors.index', compact('total_calls_scheduled', 'total_calls_approved', 'total_calls_rejected', 'total_earning'));
     }
 
     public function my_sessions()
@@ -50,7 +50,7 @@ class MentorController extends Controller
         $profile = User::find(Auth::id());
         $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
 
-        return view('mentors.profile', compact('profile','scheduled_calls'));
+        return view('mentors.profile', compact('profile', 'scheduled_calls'));
     }
 
     public function reviews()
@@ -76,57 +76,57 @@ class MentorController extends Controller
         $weekStartDate = Carbon::parse('this monday')->toDateString();
         $availability = AvailableSchedule::where('mentor_id', Auth::id())->orderby('id', 'desc')->get();
 
-        return view('mentors.availability', compact('timezones','weekStartDate','availability'));
+        return view('mentors.availability', compact('timezones', 'weekStartDate', 'availability'));
     }
 
     public function update_status($id)
     {
 
-       ScheduledCall::find($id)->update(['status' => 'Approved']);
+        ScheduledCall::find($id)->update(['status' => 'Approved']);
 
-       try {
-        $url = "https://zoom.us/oauth/authorize?response_type=code&";
-        $client_id = env('ZOOM_API_KEY');
-        $client_secret = env('ZOOM_API_SECRET');
-        $redirect_uri = env('REDIRECT_URI');
-        $data = "client_id=$client_id&redirect_uri=$redirect_uri";
-        $api_url = $url.$data;
-        $authorization_code = $this->get_authorization_code($api_url);
-       
-        $code = $request->code;
-        dd($code);
-        
-        $client =  new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);            
+        try {
+            $url = "https://zoom.us/oauth/authorize?response_type=code&";
+            $client_id = env('ZOOM_API_KEY');
+            $client_secret = env('ZOOM_API_SECRET');
+            $redirect_uri = env('REDIRECT_URI');
+            $data = "client_id=$client_id&redirect_uri=$redirect_uri";
+            $api_url = $url . $data;
+            $authorization_code = $this->get_authorization_code($api_url);
+
+            $code = $request->code;
+            dd($code);
+
+            $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
 
 
-        // $authorization_code = redirect($api_url);
-        // dd($authorization_code);
-     
-        $response = $client->request('POST', '/oauth/token', [
-            "headers" => [
-                "Authorization" => "Basic ". base64_encode($client_id.':'.$client_secret)
-            ],
-            'form_params' => [
-                "grant_type" => "authorization_code",
-                "code" => $code,
-                "redirect_uri" => $redirect_uri 
-            ],
-        ]);
-     
-        $token = json_decode($response->getBody()->getContents(), true);
-     
-        ZoomAPI::update_access_token(json_encode($token));
-          dd("Access token inserted successfully.");
-        } catch(Exception $e) {
-          echo $e->getMessage();
-       }
-       
-       $call_link = $this->getZoomCallLink($id);
+            // $authorization_code = redirect($api_url);
+            // dd($authorization_code);
+
+            $response = $client->request('POST', '/oauth/token', [
+                "headers" => [
+                    "Authorization" => "Basic " . base64_encode($client_id . ':' . $client_secret)
+                ],
+                'form_params' => [
+                    "grant_type" => "authorization_code",
+                    "code" => $code,
+                    "redirect_uri" => $redirect_uri
+                ],
+            ]);
+
+            $token = json_decode($response->getBody()->getContents(), true);
+
+            ZoomAPI::update_access_token(json_encode($token));
+            dd("Access token inserted successfully.");
+        } catch (Exception $e) {
+            echo $e->getMessage();
+        }
+
+        $call_link = $this->getZoomCallLink($id);
     }
 
     public function reject_call($id)
     {
-       ScheduledCall::find($id)->update(['status' => 'Rejected']);
+        ScheduledCall::find($id)->update(['status' => 'Rejected']);
     }
 
     public function add_mentors($id = null)
@@ -142,7 +142,7 @@ class MentorController extends Controller
 
     public function account_status(Request $request)
     {
-       dd($request->all());
+        dd($request->all());
     }
 
     public function delete_account(Request $request)
@@ -187,38 +187,41 @@ class MentorController extends Controller
         ];
 
         UserMeta::update_user_details($request->row_id, $meta_data);
+
+         redirect()->route('mentor.dashboard.profile');
+        ?>
+<script type="text/javascript">
+alert("Your profile has been updated");
+</script>
+<?php
     }
 
     public function save_schedule(Request $request)
     {
         // dd($request->all());
-          foreach($request->schedule as $key => $schedule)
-          {
+        foreach ($request->schedule as $key => $schedule) {
             $exists = AvailableSchedule::where('mentor_id', Auth::id())
-            ->where('date', $schedule['date'])
-            ->where('start_time',  $schedule['start_time'])
-            ->where('time_zone', $request->time_zone)
-            ->first();
+                ->where('date', $schedule['date'])
+                ->where('start_time', $schedule['start_time'])
+                ->where('time_zone', $request->time_zone)
+                ->first();
 
-            if($exists)
-            {
+            if ($exists) {
                 ?>
 <script type="text/javascript">
 alert("Slot already exists...Please try again with different slot");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
-<?php          
-            } 
-            
-            else {
-            //  dd($schedule['start_time']);
-               $data = [
-                'mentor_id' => Auth::id(),
-                'date' => $schedule['date'],
-                'time_zone' => $request->time_zone,
-                'start_time' => $schedule['start_time'],
-                'end_time' => $schedule['end_time']
-              ];
+<?php
+            } else {
+                //  dd($schedule['start_time']);
+                $data = [
+                    'mentor_id' => Auth::id(),
+                    'date' => $schedule['date'],
+                    'time_zone' => $request->time_zone,
+                    'start_time' => $schedule['start_time'],
+                    'end_time' => $schedule['end_time']
+                ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
 
@@ -227,9 +230,9 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 alert("Successfully Added");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
-<?php        
+<?php
             }
-          }
+        }
 
         //   $data = [
         //     'mentor_id' => Auth::id(),
@@ -246,75 +249,75 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
         $client_id = env('ZOOM_API_KEY');
         $client_secret = env('ZOOM_API_SECRET');
-        $schedule =  ScheduledCall::find($id);
-        $date = $schedule->date.'\T'.$schedule->start_time;
+        $schedule = ScheduledCall::find($id);
+        $date = $schedule->date . '\T' . $schedule->start_time;
 
         $request = new \Illuminate\Http\Request();
 
         $this->generateAccessToken($request);
 
         $client = new \GuzzleHttp\Client(['base_uri' => 'https://api.zoom.us']);
- 
+
         $arr_token = $this->get_access_token();
         $accessToken = $arr_token->access_token;
         $url = '/v2/users/';
         $user = $schedule->user_id;
         $url_end = '/meetings';
-        $api_url =  $url.$user.$url_end;
- 
-    try {
-        $response = $client->request('POST',  $api_url, [
-            "headers" => [
-                "Authorization" => "Bearer $accessToken"
-            ],
-            'json' => [
-                "topic" => "30 Min Meeting",
-                "type" => self::MEETING_TYPE_SCHEDULE,
-                "start_time" => $date,
-                "duration" => $schedule->duration, 
-                "password" => "123456",
-                "timezone"     => $schedule->utc,
-                "schedule_for" => $schedule->mentor_id,
-                "allow_multiple_devices" => true,
-                "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
-                "alternative_hosts_email_notification" => true,
-                "approval_type" => self::MEETING_TYPE_SCHEDULE,
-                "settings"   => [
-                    'host_video'        => true,
-                    'participant_video' => true,
-                    'waiting_room'      => true,
-                ],
-            ],
-        ]);
- 
-        $data = json_decode($response->getBody());
-        echo "Join URL: ". $data->join_url;
-        echo "<br>";
-        echo "Meeting Password: ". $data->password;
- 
-    } catch(Exception $e) {
-        if( 401 == $e->getCode() ) {
-            $refresh_token = $this->get_refresh_token();
- 
-            $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
-            $response = $client->request('POST', '/oauth/token', [
+        $api_url = $url . $user . $url_end;
+
+        try {
+            $response = $client->request('POST', $api_url, [
                 "headers" => [
-                    "Authorization" => "Basic ". base64_encode($client_id.':'.$client_secret)
+                    "Authorization" => "Bearer $accessToken"
                 ],
-                'form_params' => [
-                    "grant_type" => "refresh_token",
-                    "refresh_token" => $refresh_token
+                'json' => [
+                    "topic" => "30 Min Meeting",
+                    "type" => self::MEETING_TYPE_SCHEDULE,
+                    "start_time" => $date,
+                    "duration" => $schedule->duration,
+                    "password" => "123456",
+                    "timezone" => $schedule->utc,
+                    "schedule_for" => $schedule->mentor_id,
+                    "allow_multiple_devices" => true,
+                    "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
+                    "alternative_hosts_email_notification" => true,
+                    "approval_type" => self::MEETING_TYPE_SCHEDULE,
+                    "settings" => [
+                        'host_video' => true,
+                        'participant_video' => true,
+                        'waiting_room' => true,
+                    ],
                 ],
             ]);
-            
-            ZoomAPI::update_access_token($response->getBody());
- 
-            $this->getZoomCallLink();
-        } else {
-            echo $e->getMessage();
+
+            $data = json_decode($response->getBody());
+            echo "Join URL: " . $data->join_url;
+            echo "<br>";
+            echo "Meeting Password: " . $data->password;
+
+        } catch (Exception $e) {
+            if (401 == $e->getCode()) {
+                $refresh_token = $this->get_refresh_token();
+
+                $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
+                $response = $client->request('POST', '/oauth/token', [
+                    "headers" => [
+                        "Authorization" => "Basic " . base64_encode($client_id . ':' . $client_secret)
+                    ],
+                    'form_params' => [
+                        "grant_type" => "refresh_token",
+                        "refresh_token" => $refresh_token
+                    ],
+                ]);
+
+                ZoomAPI::update_access_token($response->getBody());
+
+                $this->getZoomCallLink();
+            } else {
+                echo $e->getMessage();
+            }
         }
-    }
-          $this->getZoomCallLink();
+        $this->getZoomCallLink();
     }
 
     public function generateAccessToken(Request $request)
@@ -325,46 +328,48 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             $client_secret = env('ZOOM_API_SECRET');
             $redirect_uri = env('REDIRECT_URI');
             $data = "client_id=$client_id&redirect_uri=$redirect_uri";
-            $api_url = $url.$data;
+            $api_url = $url . $data;
             $authorization_code = $this->get_authorization_code($api_url);
-           
+
             $code = $request->code;
             dd($code);
-            
-            $client =  new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);            
+
+            $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
 
 
             // $authorization_code = redirect($api_url);
             // dd($authorization_code);
-         
+
             $response = $client->request('POST', '/oauth/token', [
                 "headers" => [
-                    "Authorization" => "Basic ". base64_encode($client_id.':'.$client_secret)
+                    "Authorization" => "Basic " . base64_encode($client_id . ':' . $client_secret)
                 ],
                 'form_params' => [
                     "grant_type" => "authorization_code",
                     "code" => $code,
-                    "redirect_uri" => $redirect_uri 
+                    "redirect_uri" => $redirect_uri
                 ],
             ]);
-         
+
             $token = json_decode($response->getBody()->getContents(), true);
-         
+
             ZoomAPI::update_access_token(json_encode($token));
-              dd("Access token inserted successfully.");
-        } catch(Exception $e) {
+            dd("Access token inserted successfully.");
+        } catch (Exception $e) {
             echo $e->getMessage();
         }
     }
 
-    public function get_access_token() {
+    public function get_access_token()
+    {
 
         $data = ZoomAPI::where('provider', 'zoom')->first();
-       
+
         return json_decode($data->provider_value);
     }
 
-    public function get_refresh_token() {
+    public function get_refresh_token()
+    {
         $result = $this->get_access_token();
         return $result->refresh_token;
     }
@@ -378,13 +383,13 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     }
 
     public function get_authorization_code($url)
-    {       
+    {
         return redirect($url);
     }
 
     public function success(Request $request)
     {
-         return $request->code;
+        return $request->code;
     }
 
     public function editAvailability(Request $request)
@@ -399,20 +404,19 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
         $exists = AvailableSchedule::where('mentor_id', Auth::id())
             ->where('date', $request->date)
-            ->where('start_time',  $request->start_time)
+            ->where('start_time', $request->start_time)
             ->where('time_zone', $request->time_zone)
             ->first();
 
-            if($exists)
-            {
-                ?>
+        if ($exists) {
+            ?>
 <script type="text/javascript">
 alert("Slot already exists...Please try again with different slot");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
-<?php          
-            } 
-            
+<?php
+        }
+
         $schedule = [
             'mentor_id' => Auth::id(),
             'start_time' => $request->start_time,
@@ -428,7 +432,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 alert("Updated Successfully");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
-<?php        
+<?php
     }
 
     public function deleteAvailability(Request $request)
@@ -440,6 +444,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 alert("Deleted Successfully");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
-<?php        
+<?php
     }
 }

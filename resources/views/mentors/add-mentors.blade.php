@@ -152,7 +152,7 @@
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
-                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ? : '' }}" required>
+                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ? : '' }}">
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Linked-In Profile</label>

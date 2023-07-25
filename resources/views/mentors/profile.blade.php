@@ -218,7 +218,7 @@
                       </div>
                     </li> -->
                                     </ul>
-                                    <h6 class="text-uppercase text-body text-xs font-weight-bolder mt-4">Account
+                                    <!-- <h6 class="text-uppercase text-body text-xs font-weight-bolder mt-4">Account
                                         Settings</h6>
                                     <ul class="list-group">
                                         <li class="list-group-item border-0 px-0">
@@ -238,7 +238,7 @@
                                                     for="flexSwitchCheckDefault4">Delete Account</label>
                                             </div>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
