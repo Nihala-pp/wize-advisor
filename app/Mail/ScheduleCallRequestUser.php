@@ -30,7 +30,7 @@ class ScheduleCallRequestUser extends Mailable
     {
         return new Envelope(
             subject: 'Call Schedule Request',
-            cc: ['ankur.sharma@wizeadvisor.com', 'deep.shikha@wizeadvisor.com'],
+            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
             bcc: ['nihala-pp@wiseadvizor.com']
         );
     }
