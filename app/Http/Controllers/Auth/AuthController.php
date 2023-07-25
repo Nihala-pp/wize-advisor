@@ -110,7 +110,7 @@ class AuthController extends Controller
         $credentials = $request->validate([
             'email' => 'required|email|unique:users',
             'password' => [
-                'required|confirmed|max:12',
+                'required|max:12|confirmed',
                 Password::min(8)
                     ->letters()
                     ->mixedCase()
