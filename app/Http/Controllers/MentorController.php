@@ -127,6 +127,14 @@ class MentorController extends Controller
     public function reject_call($id)
     {
         ScheduledCall::find($id)->update(['status' => 'Rejected']);
+
+        $notification = array(
+            'message' => 'Rejected Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('mentor.dashboard.my_sessions')
+            ->with( $notification, 'Rejected Successfully!');
     }
 
     public function add_mentors($id = null)

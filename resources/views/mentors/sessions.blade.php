@@ -13,11 +13,13 @@
     @include('mentors.sidebar')
     <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
+            navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Mentor</a></li>
+                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
+                                href="javascript:;">Mentor</a></li>
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page">My Sessions</li>
                     </ol>
                     <h6 class="font-weight-bolder mb-0">My Sessions</h6>
@@ -31,9 +33,11 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                        <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
-                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
-                            <span class="d-sm-inline d-none">{{ Auth::user()->name ?: '' }}</span>
+                            <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}"
+                                class="nav-link text-body font-weight-bold px-0">
+                                <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}"
+                                    class="avatar avatar-sm me-3" alt="xd">
+                                <span class="d-sm-inline d-none">{{ Auth::user()->name ?: '' }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -51,15 +55,18 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa fa-bell cursor-pointer"></i>
                             </a>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"
+                                aria-labelledby="dropdownMenuButton">
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
+                                                <img src="{{ asset('assets/img/team-2.jpg') }}"
+                                                    class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -77,7 +84,8 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}"
+                                                    class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -95,14 +103,21 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
-                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                        <g transform="translate(-2169.000000, -745.000000)"
+                                                            fill="#FFFFFF" fill-rule="nonzero">
                                                             <g transform="translate(1716.000000, 291.000000)">
                                                                 <g transform="translate(453.000000, 454.000000)">
-                                                                    <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                                                                    <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                                                    <path class="color-background"
+                                                                        d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z"
+                                                                        opacity="0.593633743"></path>
+                                                                    <path class="color-background"
+                                                                        d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z">
+                                                                    </path>
                                                                 </g>
                                                             </g>
                                                         </g>
@@ -146,10 +161,18 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Description</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Date & Time</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Description</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
@@ -159,26 +182,31 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : ''}}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : ''}}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user ? $upcoming_session->user->name : '' }}</h6>
+                                                        <h6 class="mb-0 text-sm">
+                                                            {{ $upcoming_session->user ? $upcoming_session->user->name : '' }}
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $upcoming_session ? $upcoming_session->date.' '.$upcoming_session->start_time. ' - ' .$upcoming_session->end_time : '' }}
+                                                    {{ $upcoming_session ? $upcoming_session->date.' '.$upcoming_session->start_time. ' - ' .$upcoming_session->end_time : '' }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $upcoming_session ? $upcoming_session->description : '' }}
+                                                    {{ $upcoming_session ? $upcoming_session->description : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ $upcoming_session ? $upcoming_session->call_link : '' }}" target="_blank" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ $upcoming_session ? $upcoming_session->call_link : '' }}"
+                                                        target="_blank" class="" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" title="Join Session">
                                                         Join Session
                                                     </a>
                                                 </div>
@@ -210,50 +238,67 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Description</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Documents</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Date & Time</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Description</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Documents</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($requested_sessions as $requested_session)
+                                        @foreach($requested_sessions as $requested_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user ? $requested_session->user->name : '' }}</h6>
+                                                        <h6 class="mb-0 text-sm">
+                                                            {{ $requested_session->user ? $requested_session->user->name : '' }}
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session ? $requested_session->date.' '.$requested_session->start_time. ' - ' .$requested_session->end_time : '' }}
+                                                    {{ $requested_session ? $requested_session->date.' '.$requested_session->start_time. ' - ' .$requested_session->end_time : '' }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session ? $requested_session->description : '' }}
+                                                    {{ $requested_session ? $requested_session->description : '' }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session ? $requested_session->documents : '' }}
+                                                    {{ $requested_session ? $requested_session->documents : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('mentor.update_status',[$requested_session->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Approve Session">
+                                                    <a href="{{ route('mentor.update_status',[$requested_session->id]) }}"
+                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Approve Session">
                                                         Approve
                                                     </a>
                                                 </div>
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('mentor.reject_call',[$requested_session->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reject Session">
+                                                    <a href="{{ route('mentor.reject_call',[$requested_session->id]) }}"
+                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Reject Session">
                                                         Reject
                                                     </a>
                                                 </div>
@@ -286,39 +331,50 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Date & Time</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($completed_sessions as $completed_session)
+                                        @foreach($completed_sessions as $completed_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user ? $completed_session->user->name : '' }}</h6>
+                                                        <h6 class="mb-0 text-sm">
+                                                            {{ $completed_session->user ? $completed_session->user->name : '' }}
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $completed_session ? $completed_session->date.' '.$completed_session->start_time. ' - ' .$completed_session->end_time : '' }}
+                                                    {{ $completed_session ? $completed_session->date.' '.$completed_session->start_time. ' - ' .$completed_session->end_time : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('mentor.dashboard.reviews') }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ route('mentor.dashboard.reviews') }}" class=""
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Join Session">
                                                         Review
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
-                                    @endforeach
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -327,5 +383,25 @@
                 </div>
             </div>
         </div>
+        <script>
+        @if(Session::has('message'))
+        var type = "{{Session::get('alert-type','info')}}"
+
+        switch (type) {
+            case 'info':
+                toastr.info("{{ Session::get('message') }}");
+                break;
+            case 'success':
+                toastr.success("{{ Session::get('message') }}");
+                break;
+            case 'warning':
+                toastr.warning("{{ Session::get('message') }}");
+                break;
+            case 'error':
+                toastr.error("{{ Session::get('message') }}");
+                break;
+        }
+        @endif
+        </script>
 </body>
 </html>
