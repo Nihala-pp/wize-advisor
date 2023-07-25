@@ -20,7 +20,7 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function index($token='Null', $id='Null')
+    public function index($token = 'Null', $id = 'Null')
     {
         return view('auth.login', compact('token', 'id'));
     }
@@ -30,31 +30,31 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function registration($token='Null', $id='Null')
+    public function registration($token = 'Null', $id = 'Null')
     {
         $expertise = [
-            '1'  =>	 'Sales',
-            '2'  =>	 'Marketing',
-            '3'  =>	 'Technology',
-            '4'  =>	 'Idea Validation',
-            '5'  =>	 'Product Market Fit',
-            '6'  =>	 'Team Management',
-            '7'  =>	 'Content creation',
-            '8'  =>	 'Leadership',
-            '9'  =>	 'Fund raising',
-            '10' =>  'Networking',
-            '11' =>  'Social Media',
-            '12' =>  'Pricing Strategy',
-            '13' =>  'Startup valuation',
-            '14' =>  'Business Strategy',
-            '15' =>  'Email Marketing',
-            '16' =>  'Brand Building ',
-            '17' =>	 'SEO',
-            '18' =>	 'Operations and logistics',
-            '19' =>	 'Risk Management',
-            '20' =>	 'Ads Strategy',
-            '21' =>	 'Go to Market Strategy',
-            '22' =>	 'Growth Strategy'          
+            '1' => 'Sales',
+            '2' => 'Marketing',
+            '3' => 'Technology',
+            '4' => 'Idea Validation',
+            '5' => 'Product Market Fit',
+            '6' => 'Team Management',
+            '7' => 'Content creation',
+            '8' => 'Leadership',
+            '9' => 'Fund raising',
+            '10' => 'Networking',
+            '11' => 'Social Media',
+            '12' => 'Pricing Strategy',
+            '13' => 'Startup valuation',
+            '14' => 'Business Strategy',
+            '15' => 'Email Marketing',
+            '16' => 'Brand Building ',
+            '17' => 'SEO',
+            '18' => 'Operations and logistics',
+            '19' => 'Risk Management',
+            '20' => 'Ads Strategy',
+            '21' => 'Go to Market Strategy',
+            '22' => 'Growth Strategy'
         ];
 
         $timezone = AvailableSchedule::timezones();
@@ -77,18 +77,17 @@ class AuthController extends Controller
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            if(!($request->token == "Null")) 
-            {
-               return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin'); 
+            if (!($request->token == "Null")) {
+                return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
             }
 
             if (auth()->user()->role_id == 1) {
                 return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
             } elseif (auth()->user()->role_id == 2) {
-                return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin'); 
+                return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin');
             } elseif (auth()->user()->role_id == 3) {
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
-            }          
+            }
 
             // if (auth()->user()->name == 'Admin') {
             // return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
@@ -110,8 +109,8 @@ class AuthController extends Controller
         $credentials = $request->validate([
             'email' => 'required|email|unique:users',
             'password' => [
-                'required|confirmed',
-                Password::min(8)
+                'required',
+                'confirmed', Password::min(8)
                     ->letters()
                     ->mixedCase()
                     ->numbers()
@@ -123,17 +122,15 @@ class AuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
-        if(!($request->token == "Null")) 
-        {
-           return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin'); 
-        }
-        else {
+        if (!($request->token == "Null")) {
+            return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
+        } else {
             if (Auth::attempt($credentials)) {
 
-               $request->session()->regenerate();
-                   
-               return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
-            }        
+                $request->session()->regenerate();
+
+                return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+            }
         }
     }
 
@@ -166,7 +163,7 @@ class AuthController extends Controller
         ]);
 
         UserMeta::create([
-            'user_id' =>  $user['id'],
+            'user_id' => $user['id'],
             'company' => $data['company_name'],
             'designation' => $data['designation'],
             'expertise' => json_encode($data['expert']),
@@ -190,28 +187,28 @@ class AuthController extends Controller
     public function personalInfo($id)
     {
         $expertise = [
-            '1'  =>	 'Sales',
-            '2'  =>	 'Marketing',
-            '3'  =>	 'Technology',
-            '4'  =>	 'Idea Validation',
-            '5'  =>	 'Product Market Fit',
-            '6'  =>	 'Team Management',
-            '7'  =>	 'Content creation',
-            '8'  =>	 'Leadership',
-            '9'  =>	 'Fund raising',
-            '10' =>  'Networking',
-            '11' =>  'Social Media',
-            '12' =>  'Pricing Strategy',
-            '13' =>  'Startup valuation',
-            '14' =>  'Business Strategy',
-            '15' =>  'Email Marketing',
-            '16' =>  'Brand Building ',
-            '17' =>	 'SEO',
-            '18' =>	 'Operations and logistics',
-            '19' =>	 'Risk Management',
-            '20' =>	 'Ads Strategy',
-            '21' =>	 'Go to Market Strategy',
-            '22' =>	 'Growth Strategy'          
+            '1' => 'Sales',
+            '2' => 'Marketing',
+            '3' => 'Technology',
+            '4' => 'Idea Validation',
+            '5' => 'Product Market Fit',
+            '6' => 'Team Management',
+            '7' => 'Content creation',
+            '8' => 'Leadership',
+            '9' => 'Fund raising',
+            '10' => 'Networking',
+            '11' => 'Social Media',
+            '12' => 'Pricing Strategy',
+            '13' => 'Startup valuation',
+            '14' => 'Business Strategy',
+            '15' => 'Email Marketing',
+            '16' => 'Brand Building ',
+            '17' => 'SEO',
+            '18' => 'Operations and logistics',
+            '19' => 'Risk Management',
+            '20' => 'Ads Strategy',
+            '21' => 'Go to Market Strategy',
+            '22' => 'Growth Strategy'
         ];
 
         $timezone = AvailableSchedule::timezones();
@@ -224,7 +221,7 @@ class AuthController extends Controller
         $newuser = User::find($request->user_id);
 
         UserMeta::where('user_id', $request->user_id)->update([
-            'company' =>  $request->company_name,
+            'company' => $request->company_name,
             'designation' => $request->designation,
             'expertise' => json_encode($request->expert),
             'social_linked_in' => $request->linked_in,
