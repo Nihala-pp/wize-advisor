@@ -27,7 +27,8 @@
             <div class="page-header min-vh-100">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
+                        <div
+                            class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
                             <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center"
                                 style="background-image: url('https://img.freepik.com/free-photo/portrait-smart-adult-woman-working-laptop_23-2148452706.jpg'); background-size: cover;">
                             </div>
@@ -144,7 +145,8 @@
                                             @enderror
                                         </div>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
-                                            <input class="form-check-input @error('terms_condition') is-invalid @enderror"
+                                            <input
+                                                class="form-check-input @error('terms_condition') is-invalid @enderror"
                                                 type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
                                                 required>
                                             <label class="form-check-label" for="flexCheckDefault">
@@ -159,7 +161,8 @@
                                         </div>
                                         <div class="text-center">
                                             <button type="submit"
-                                                class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0" style="background-color:#001E64;">Sign
+                                                class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0"
+                                                style="background-color:#001E64;">Sign
                                                 Up</button>
                                         </div>
                                     </form>
@@ -179,9 +182,10 @@
         </section>
     </main>
 </body>
+
 </html>
 <style>
-    .linkedin {
+.linkedin {
     padding-right: 50px;
 }
 
