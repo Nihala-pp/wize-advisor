@@ -3174,13 +3174,9 @@
                             items: 4,
                         }
                     }
-                })
-
-
-
+                });
             });
         }(jQuery));
         </script>
 </body>
-
 </html>
