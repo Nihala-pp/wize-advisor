@@ -947,7 +947,7 @@
     <link rel="stylesheet" id="elementor-post-5-css"
         href="{{ asset('public/wp-content/uploads/elementor/css/post-5.css?ver=1688377903') }}" media="all">
     <link rel="stylesheet" id="elementor-pro-css"
-        href="{{ asset('public/') }}wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
+        href="{{ asset('public/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0') }}"
         media="all">
     <link rel="stylesheet" id="font-awesome-5-all-css"
         href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1') }}"
