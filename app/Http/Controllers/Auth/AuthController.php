@@ -11,6 +11,7 @@ use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
 use Hash;
+use Illuminate\Validation\Rules\Password;
 
 class AuthController extends Controller
 {
@@ -108,7 +109,15 @@ class AuthController extends Controller
     {
         $credentials = $request->validate([
             'email' => 'required|email|unique:users',
-            'password' => 'required|confirmed|min:6',
+            'password' => [
+                'required|confirmed|max:12',
+                Password::min(8)
+                    ->letters()
+                    ->mixedCase()
+                    ->numbers()
+                    ->symbols()
+                    ->uncompromised()
+            ],
         ]);
 
         $data = $request->all();
