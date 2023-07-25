@@ -30,7 +30,7 @@ class ContactMail extends Mailable
     {
         return new Envelope(
             subject: 'Contact Us',
-            cc: ['ankur.sharma@wizeadvisor.com', 'deep.shikha@wizeadvisor.com'],
+            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
             bcc: ['nihala-pp@wiseadvizor.com']
         );
     }
