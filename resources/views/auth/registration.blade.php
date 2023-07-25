@@ -65,7 +65,7 @@
                                         <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
 
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Name</label>
                                             <input id="name" type="text"
                                                 class="form-control @error('name') is-invalid @enderror" name="name"
@@ -77,7 +77,7 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Email</label>
                                             <input id="email" type="email"
                                                 class="form-control @error('email') is-invalid @enderror" name="email"
@@ -89,7 +89,7 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
@@ -100,21 +100,21 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Confirm Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="iinput-group input-group-outline my-3">
                                             <label class="form-label">Company Name</label>
                                             <input type="text" class="form-control" name="company_name">
                                         </div>
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Designation</label>
                                             <input type="text" class="form-control" name="designation">
                                         </div>
-                                        <div class="input-group input-group-outline mb-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Linked-In Url</label>
                                             <input type="url" class="form-control" name="linked_in">
                                         </div>
