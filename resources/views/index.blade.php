@@ -30,6 +30,12 @@
     <!-- CSS Files -->
     <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" id="hfe-style-css"
+        href="{{ asset('public/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14') }}"
+        media="all">
+    <link rel="stylesheet" id="hfe-widgets-style-css"
+        href="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14') }}"
+        media="all">
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
@@ -1152,6 +1158,8 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
+        id="hfe-frontend-js-js"></script>
 </body>
 
 </html>
