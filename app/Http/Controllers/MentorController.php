@@ -134,7 +134,7 @@ class MentorController extends Controller
         );
 
         return redirect()->route('mentor.dashboard.my_sessions')
-            ->with( $notification, 'Rejected Successfully!');
+            ->with($notification, 'Rejected Successfully!');
     }
 
     public function add_mentors($id = null)
@@ -196,12 +196,13 @@ class MentorController extends Controller
 
         UserMeta::update_user_details($request->row_id, $meta_data);
 
-         redirect()->route('mentor.dashboard.profile');
-        ?>
-<script type="text/javascript">
-alert("Your profile has been updated");
-</script>
-<?php
+        $notification = array(
+            'message' => 'Profile Updated Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('mentor.dashboard.profile')
+            ->with($notification, 'Profile Updated Successfully!');
     }
 
     public function save_schedule(Request $request)
@@ -216,11 +217,11 @@ alert("Your profile has been updated");
 
             if ($exists) {
                 ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+                <script type="text/javascript">
+                    alert("Slot already exists...Please try again with different slot");
+                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+                <?php
             } else {
                 //  dd($schedule['start_time']);
                 $data = [
@@ -233,12 +234,13 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
 
-                ?>
-<script type="text/javascript">
-alert("Successfully Added");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+                $notification = array(
+                    'message' => 'Availability Added Successfully!',
+                    'alert-type' => 'success'
+                );
+
+                return redirect()->route('mentor.dashboard.availability')
+                    ->with($notification, 'Availability Added Successfully!');
             }
         }
 
@@ -418,11 +420,11 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         if ($exists) {
             ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+            <script type="text/javascript">
+                alert("Slot already exists...Please try again with different slot");
+                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+            </script>
+            <?php
         }
 
         $schedule = [
@@ -434,24 +436,28 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
         ];
 
         AvailableSchedule::find($request->row_id)->update($schedule);
-        ?>
 
-<script type="text/javascript">
-alert("Updated Successfully");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+        $notification = array(
+            'message' => 'Availability Updated Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('mentor.dashboard.availability')
+            ->with($notification, 'Availability Updated Successfully!');
+
     }
 
     public function deleteAvailability(Request $request)
     {
         AvailableSchedule::find($request->Id)->delete();
-        ?>
 
-<script type="text/javascript">
-alert("Deleted Successfully");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+        $notification = array(
+            'message' => 'Availability Deleted Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('mentor.dashboard.availability')
+            ->with($notification, 'Availability Deleted Successfully!');
+
     }
 }
