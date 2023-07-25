@@ -19,7 +19,8 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <title>wiseAdvizor </title>
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
     <!-- Nucleo Icons -->
     <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
@@ -42,10 +43,161 @@
     </div>
     <!-- </aside> -->
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        <div class="col-lg-8">
+    <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}" title="wiseAdvizor"
+                rel="home">wiseAdvizor</a></p>
+        <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
+            <header
+                class="elementor-section elementor-top-section elementor-element elementor-element-7527857 elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"
+                data-id="7527857" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#00000000&quot;,&quot;motion_fx_opacity_effect&quot;:&quot;yes&quot;,&quot;motion_fx_opacity_level&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;100&quot;,&quot;sizes&quot;:[]},&quot;motion_fx_opacity_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:&quot;23&quot;,&quot;end&quot;:&quot;27&quot;}},&quot;motion_fx_blur_effect&quot;:&quot;yes&quot;,&quot;motion_fx_blur_level&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;100&quot;,&quot;sizes&quot;:[]},&quot;motion_fx_opacity_direction&quot;:&quot;out-in&quot;,&quot;motion_fx_blur_direction&quot;:&quot;out-in&quot;,&quot;motion_fx_blur_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:&quot;20&quot;,&quot;end&quot;:&quot;80&quot;}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:&quot;0&quot;,&quot;sticky_effects_offset&quot;:&quot;0&quot;,&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;60&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+                <div class="elementor-background-overlay"></div>
+                <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8a75ec7"
+                        data-id="8a75ec7" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-26115fa elementor-widget elementor-widget-image"
+                                data-id="26115fa" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                    /*! elementor - v3.14.0 - 26-06-2023 */
+                                    .elementor-widget-image {
+                                        text-align: center
+                                    }
+
+                                    .elementor-widget-image a {
+                                        display: inline-block
+                                    }
+
+                                    .elementor-widget-image a img[src$=".svg"] {
+                                        width: 48px
+                                    }
+
+                                    .elementor-widget-image img {
+                                        vertical-align: middle;
+                                        display: inline-block
+                                    }
+                                    </style><a href="{{ route('home') }}">
+                                        <img width="932" height="140"
+                                            src="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }}"
+                                            class="attachment-large size-large wp-image-624" alt=""
+                                            srcset="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }} 932w, {{ asset('public/wp-content/uploads/2023/06/pngLargeC-300x45.png') }} 300w, {{ asset('public/wp-content/uploads/2023/06/pngLargeC-768x115.png') }} 768w"
+                                            sizes="(max-width: 932px) 100vw, 932px"> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-527a9b3"
+                        data-id="527a9b3" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-ff5e4cd hfe-nav-menu__align-center hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
+                                data-id="ff5e4cd" data-element_type="widget"
+                                data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                data-widget_type="navigation-menu.default">
+                                <div class="elementor-widget-container">
+                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
+                                        data-layout="horizontal">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
+                                            <span class="screen-reader-text">Menu</span>
+                                            <div class="hfe-nav-menu-icon">
+                                                <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
+                                            </div>
+                                        </div>
+                                        <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
+                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
+                                            data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
+                                            data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
+                                            data-full-width="yes">
+                                            <ul id="menu-1-ff5e4cd" class="hfe-nav-menu">
+                                                <li id="menu-item-29" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    <a href="{{ route('aboutUs') }}" itemprop="url"
+                                                        class="hfe-menu-item">About Us</a></li>
+                                                <li id="menu-item-28" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    <a href="{{ route('contactUs') }}" itemprop="url"
+                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                <li id="menu-item-27" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
+                                                    <div class="hfe-has-submenu-container"><a href="" itemprop="url"
+                                                            class="hfe-menu-item">Resource<span
+                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                    class="fa"></i></span></a></div>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-24" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="{{ route('community-posts') }}" itemprop="url"
+                                                                class="hfe-sub-menu-item">Community Post</a></li>
+                                                        <li id="menu-item-25" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="{{ route('libraries') }}" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a></li>
+                                                        <li id="menu-item-26" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="{{ route('faq') }}" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                        <li id="menu-item-2842" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="{{ route('blogs') }}" itemprop="url"
+                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-78f6337"
+                        data-id="78f6337" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-02e763c elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="02e763c" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        @if(Auth::id())
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('user.dashboard') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Dashboard</span>
+                                            </span>
+                                        </a>
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-ae81400 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="ae81400" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('browseMentor') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Browse Mentor</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </header>
+        <!-- <div class="col-lg-8">
             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item active">
-                    <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active" target="_blank">Dashboard </a>
+                    <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active" target="_blank">Dashboard
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="{{ route('aboutUs') }}" class="nav-link text-muted" target="_blank">About Us</a>
@@ -54,19 +206,22 @@
                     <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('community-posts') }}" class="nav-link text-muted" target="_blank">Posts</a>
+                    <a href="{{ route('community-posts') }}" class="nav-link text-muted" target="_blank">Resources</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('browseMentor') }}" class="nav-link pe-0 text-muted" target="_blank">Browse Mentors</a>
+                    <a href="{{ route('browseMentor') }}" class="nav-link pe-0 text-muted" target="_blank">Browse
+                        Mentors</a>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
+            navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="{{ route('user.dashboard') }}">Welcome, {{ auth()->user()->name }}</a></li>
+                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
+                                href="{{ route('user.dashboard') }}">Welcome, {{ auth()->user()->name }}</a></li>
                         <!-- <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Dashboard</li> -->
                     </ol>
                     <h6 class="font-weight-bolder mb-0">Dashboard</h6>
@@ -100,15 +255,18 @@
                             </a>
                         </li> -->
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa fa-bell cursor-pointer"></i>
                             </a>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"
+                                aria-labelledby="dropdownMenuButton">
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="./public/assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
+                                                <img src="./public/assets/img/team-2.jpg"
+                                                    class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -126,7 +284,8 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="./public/assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                                                <img src="./public/assets/img/small-logos/logo-spotify.svg"
+                                                    class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -144,14 +303,21 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
-                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                        <g transform="translate(-2169.000000, -745.000000)"
+                                                            fill="#FFFFFF" fill-rule="nonzero">
                                                             <g transform="translate(1716.000000, 291.000000)">
                                                                 <g transform="translate(453.000000, 454.000000)">
-                                                                    <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                                                                    <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                                                    <path class="color-background"
+                                                                        d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z"
+                                                                        opacity="0.593633743"></path>
+                                                                    <path class="color-background"
+                                                                        d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z">
+                                                                    </path>
                                                                 </g>
                                                             </g>
                                                         </g>
@@ -194,11 +360,21 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Description</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Description</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Date & Time</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            </th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
@@ -208,33 +384,38 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : '' }}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $upcoming_session->description }}
+                                                    {{ $upcoming_session->description }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $upcoming_session->date }} {{ $upcoming_session->start_time }}
+                                                    {{ $upcoming_session->date }} {{ $upcoming_session->start_time }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ $upcoming_session->call_link ?: '' }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ $upcoming_session->call_link ?: '' }}" class=""
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Join Session">
                                                         Join Session
                                                     </a>
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="update Session">
+                                                    <a href="" class="" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" title="update Session">
                                                         Update Session
                                                     </a>
                                                 </div>
@@ -266,45 +447,59 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Description</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Description</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Date & Time</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Status</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($requested_sessions as $requested_session)
+                                        @foreach($requested_sessions as $requested_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user->name }}</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user->name }}
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $requested_session->description }}
+                                                    {{ $requested_session->description }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                   {{ $requested_session->date }} {{ $requested_session->start_time }}
+                                                    {{ $requested_session->date }} {{ $requested_session->start_time }}
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    {{ $requested_session->status }} 
+                                                    {{ $requested_session->status }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('user.schedule.update', [$requested_session->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Update Session">
+                                                    <a href="{{ route('user.schedule.update', [$requested_session->id]) }}"
+                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Update Session">
                                                         Update Session
                                                     </a>
                                                 </div>
@@ -315,7 +510,7 @@
                                                 </div> -->
                                             </td>
                                         </tr>
-                                    @endforeach
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -342,47 +537,62 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date & Time</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Date & Time</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            </th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($completed_sessions as $completed_session)
+                                        @foreach($completed_sessions as $completed_session)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user->name }}</h6>
+                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user->name }}
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                {{ $completed_session->date }} - {{ $completed_session->start_time }}
+                                                    {{ $completed_session->date }} -
+                                                    {{ $completed_session->start_time }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('user.review', [$completed_session->mentor_id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Write Review" target="_blank">
+                                                    <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
+                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Write Review" target="_blank">
                                                         Write Review
                                                     </a>
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('schedule-call', [$completed_session->mentor_id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Schedule Again">
+                                                    <a href="{{ route('schedule-call', [$completed_session->mentor_id]) }}"
+                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Schedule Again">
                                                         Schedule Again
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
-                                    @endforeach
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -409,20 +619,29 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Topic</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Name</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                Topic</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                Action</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                            </th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($suggested_mentors as $suggested_mentor)
+                                        @foreach($suggested_mentors as $suggested_mentor)
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $suggested_mentor->user->metaData ? $suggested_mentor->user->metaData->profile_pic : '' }}" class="avatar avatar-sm me-3" alt="xd">
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $suggested_mentor->user->metaData ? $suggested_mentor->user->metaData->profile_pic : '' }}"
+                                                            class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
                                                         <h6 class="mb-0 text-sm">{{ $suggested_mentor->name }}</h6>
@@ -431,24 +650,28 @@
                                             </td>
                                             <td>
                                                 <div class="avat2023-07-05 13ar-group mt-2">
-                                                {{ $suggested_mentor->metaData->designation }} </div>
+                                                    {{ $suggested_mentor->metaData->designation }} </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('profile', [$suggested_mentor->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ route('profile', [$suggested_mentor->id]) }}" class=""
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Join Session">
                                                         View Profile
                                                     </a>
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group mt-2">
-                                                    <a href="{{ route('schedule-call', [$suggested_mentor->id]) }}" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Join Session">
+                                                    <a href="{{ route('schedule-call', [$suggested_mentor->id]) }}"
+                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Join Session">
                                                         Schedule Call
                                                     </a>
                                                 </div>
                                             </td>
                                         </tr>
-                                    @endforeach
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
@@ -464,7 +687,7 @@
                         <div class="col-lg-4 mb-lg-0 mb-4">
                             <div class="copyright text-center text-sm text-muted text-lg-start">
                                 © <script>
-                                    document.write(new Date().getFullYear())
+                                document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
                                 <a href="" class="font-weight-bold" target="_blank">IVY Investment LLC.</a>
@@ -514,11 +737,11 @@
                     </button>
                 </div>
                  End Toggle Button -->
-            <!-- </div>
+    <!-- </div>
             <hr class="horizontal dark my-1">
             <div class="card-body pt-sm-3 pt-0"> -->
-                <!-- Sidebar Backgrounds -->
-                <!-- <div>
+    <!-- Sidebar Backgrounds -->
+    <!-- <div>
                     <h6 class="mb-0">Sidebar Colors</h6>
                 </div>
                 <a href="javascript:void(0)" class="switch-trigger background-color">
@@ -532,7 +755,7 @@
                     </div>
                 </a>
                  Sidenav Type -->
-                <!-- <div class="mt-3">
+    <!-- <div class="mt-3">
                     <h6 class="mb-0">Sidenav Type</h6>
                     <p class="text-sm">Choose between 2 different sidenav types.</p>
                 </div>
@@ -542,8 +765,8 @@
                     <button class="btn bg-gradient-dark px-3 mb-2 ms-2" data-class="bg-white" onclick="sidebarType(this)">White</button>
                 </div>
                 <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p> -->
-                <!-- Navbar Fixed -->
-                <!-- <div class="mt-3 d-flex">
+    <!-- Navbar Fixed -->
+    <!-- <div class="mt-3 d-flex">
                     <h6 class="mb-0">Navbar Fixed</h6>
                     <div class="form-check form-switch ps-0 ms-auto my-auto">
                         <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
@@ -556,9 +779,9 @@
                         <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
                     </div>
                 </div>
-                <hr class="horizontal dark my-sm-4"> --> 
-                <!-- <a class="btn btn-outline-dark w-100" href="">View documentation</a> -->
-                <!-- <div class="w-100 text-center">
+                <hr class="horizontal dark my-sm-4"> -->
+    <!-- <a class="btn btn-outline-dark w-100" href="">View documentation</a> -->
+    <!-- <div class="w-100 text-center">
           <a class="github-button" href="https://github.com/creativetimofficial/material-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>
           <h6 class="mt-3">Thank you for sharing!</h6>
           <a href="https://twitter.com/intent/tweet?text=Check%20Material%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
@@ -568,9 +791,9 @@
             <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
           </a>
         </div> -->
-            <!-- </div>
+    <!-- </div>
         </div>
-    </div> --> 
+    </div> -->
     <!--   Core JS Files   -->
     <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
@@ -578,303 +801,482 @@
     <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/chartjs.min.js') }}"></script>
     <script>
-        var ctx = document.getElementById("chart-bars").getContext("2d");
+    var ctx = document.getElementById("chart-bars").getContext("2d");
 
-        new Chart(ctx, {
-            type: "bar",
-            data: {
-                labels: ["M", "T", "W", "T", "F", "S", "S"],
-                datasets: [{
-                    label: "Sales",
-                    tension: 0.4,
-                    borderWidth: 0,
-                    borderRadius: 4,
-                    borderSkipped: false,
-                    backgroundColor: "rgba(255, 255, 255, .8)",
-                    data: [50, 20, 10, 22, 50, 10, 40],
-                    maxBarThickness: 6
-                }, ],
+    new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: ["M", "T", "W", "T", "F", "S", "S"],
+            datasets: [{
+                label: "Sales",
+                tension: 0.4,
+                borderWidth: 0,
+                borderRadius: 4,
+                borderSkipped: false,
+                backgroundColor: "rgba(255, 255, 255, .8)",
+                data: [50, 20, 10, 22, 50, 10, 40],
+                maxBarThickness: 6
+            }, ],
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false,
+                }
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false,
+            interaction: {
+                intersect: false,
+                mode: 'index',
+            },
+            scales: {
+                y: {
+                    grid: {
+                        drawBorder: false,
+                        display: true,
+                        drawOnChartArea: true,
+                        drawTicks: false,
+                        borderDash: [5, 5],
+                        color: 'rgba(255, 255, 255, .2)'
+                    },
+                    ticks: {
+                        suggestedMin: 0,
+                        suggestedMax: 500,
+                        beginAtZero: true,
+                        padding: 10,
+                        font: {
+                            size: 14,
+                            weight: 300,
+                            family: "Roboto",
+                            style: 'normal',
+                            lineHeight: 2
+                        },
+                        color: "#fff"
+                    },
+                },
+                x: {
+                    grid: {
+                        drawBorder: false,
+                        display: true,
+                        drawOnChartArea: true,
+                        drawTicks: false,
+                        borderDash: [5, 5],
+                        color: 'rgba(255, 255, 255, .2)'
+                    },
+                    ticks: {
+                        display: true,
+                        color: '#f8f9fa',
+                        padding: 10,
+                        font: {
+                            size: 14,
+                            weight: 300,
+                            family: "Roboto",
+                            style: 'normal',
+                            lineHeight: 2
+                        },
                     }
                 },
-                interaction: {
-                    intersect: false,
-                    mode: 'index',
-                },
-                scales: {
-                    y: {
-                        grid: {
-                            drawBorder: false,
-                            display: true,
-                            drawOnChartArea: true,
-                            drawTicks: false,
-                            borderDash: [5, 5],
-                            color: 'rgba(255, 255, 255, .2)'
-                        },
-                        ticks: {
-                            suggestedMin: 0,
-                            suggestedMax: 500,
-                            beginAtZero: true,
-                            padding: 10,
-                            font: {
-                                size: 14,
-                                weight: 300,
-                                family: "Roboto",
-                                style: 'normal',
-                                lineHeight: 2
-                            },
-                            color: "#fff"
-                        },
-                    },
-                    x: {
-                        grid: {
-                            drawBorder: false,
-                            display: true,
-                            drawOnChartArea: true,
-                            drawTicks: false,
-                            borderDash: [5, 5],
-                            color: 'rgba(255, 255, 255, .2)'
-                        },
-                        ticks: {
-                            display: true,
-                            color: '#f8f9fa',
-                            padding: 10,
-                            font: {
-                                size: 14,
-                                weight: 300,
-                                family: "Roboto",
-                                style: 'normal',
-                                lineHeight: 2
-                            },
-                        }
-                    },
-                },
             },
-        });
+        },
+    });
 
 
-        var ctx2 = document.getElementById("chart-line").getContext("2d");
+    var ctx2 = document.getElementById("chart-line").getContext("2d");
 
-        new Chart(ctx2, {
-            type: "line",
-            data: {
-                labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-                datasets: [{
-                    label: "Mobile apps",
-                    tension: 0,
-                    borderWidth: 0,
-                    pointRadius: 5,
-                    pointBackgroundColor: "rgba(255, 255, 255, .8)",
-                    pointBorderColor: "transparent",
-                    borderColor: "rgba(255, 255, 255, .8)",
-                    borderColor: "rgba(255, 255, 255, .8)",
-                    borderWidth: 4,
-                    backgroundColor: "transparent",
-                    fill: true,
-                    data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
-                    maxBarThickness: 6
+    new Chart(ctx2, {
+        type: "line",
+        data: {
+            labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            datasets: [{
+                label: "Mobile apps",
+                tension: 0,
+                borderWidth: 0,
+                pointRadius: 5,
+                pointBackgroundColor: "rgba(255, 255, 255, .8)",
+                pointBorderColor: "transparent",
+                borderColor: "rgba(255, 255, 255, .8)",
+                borderColor: "rgba(255, 255, 255, .8)",
+                borderWidth: 4,
+                backgroundColor: "transparent",
+                fill: true,
+                data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
+                maxBarThickness: 6
 
-                }],
+            }],
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false,
+                }
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false,
+            interaction: {
+                intersect: false,
+                mode: 'index',
+            },
+            scales: {
+                y: {
+                    grid: {
+                        drawBorder: false,
+                        display: true,
+                        drawOnChartArea: true,
+                        drawTicks: false,
+                        borderDash: [5, 5],
+                        color: 'rgba(255, 255, 255, .2)'
+                    },
+                    ticks: {
+                        display: true,
+                        color: '#f8f9fa',
+                        padding: 10,
+                        font: {
+                            size: 14,
+                            weight: 300,
+                            family: "Roboto",
+                            style: 'normal',
+                            lineHeight: 2
+                        },
                     }
                 },
-                interaction: {
-                    intersect: false,
-                    mode: 'index',
-                },
-                scales: {
-                    y: {
-                        grid: {
-                            drawBorder: false,
-                            display: true,
-                            drawOnChartArea: true,
-                            drawTicks: false,
-                            borderDash: [5, 5],
-                            color: 'rgba(255, 255, 255, .2)'
-                        },
-                        ticks: {
-                            display: true,
-                            color: '#f8f9fa',
-                            padding: 10,
-                            font: {
-                                size: 14,
-                                weight: 300,
-                                family: "Roboto",
-                                style: 'normal',
-                                lineHeight: 2
-                            },
-                        }
-                    },
-                    x: {
-                        grid: {
-                            drawBorder: false,
-                            display: false,
-                            drawOnChartArea: false,
-                            drawTicks: false,
-                            borderDash: [5, 5]
-                        },
-                        ticks: {
-                            display: true,
-                            color: '#f8f9fa',
-                            padding: 10,
-                            font: {
-                                size: 14,
-                                weight: 300,
-                                family: "Roboto",
-                                style: 'normal',
-                                lineHeight: 2
-                            },
-                        }
-                    },
-                },
-            },
-        });
-
-        var ctx3 = document.getElementById("chart-line-tasks").getContext("2d");
-
-        new Chart(ctx3, {
-            type: "line",
-            data: {
-                labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-                datasets: [{
-                    label: "Mobile apps",
-                    tension: 0,
-                    borderWidth: 0,
-                    pointRadius: 5,
-                    pointBackgroundColor: "rgba(255, 255, 255, .8)",
-                    pointBorderColor: "transparent",
-                    borderColor: "rgba(255, 255, 255, .8)",
-                    borderWidth: 4,
-                    backgroundColor: "transparent",
-                    fill: true,
-                    data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
-                    maxBarThickness: 6
-
-                }],
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
+                x: {
+                    grid: {
+                        drawBorder: false,
                         display: false,
+                        drawOnChartArea: false,
+                        drawTicks: false,
+                        borderDash: [5, 5]
+                    },
+                    ticks: {
+                        display: true,
+                        color: '#f8f9fa',
+                        padding: 10,
+                        font: {
+                            size: 14,
+                            weight: 300,
+                            family: "Roboto",
+                            style: 'normal',
+                            lineHeight: 2
+                        },
                     }
                 },
-                interaction: {
-                    intersect: false,
-                    mode: 'index',
+            },
+        },
+    });
+
+    var ctx3 = document.getElementById("chart-line-tasks").getContext("2d");
+
+    new Chart(ctx3, {
+        type: "line",
+        data: {
+            labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            datasets: [{
+                label: "Mobile apps",
+                tension: 0,
+                borderWidth: 0,
+                pointRadius: 5,
+                pointBackgroundColor: "rgba(255, 255, 255, .8)",
+                pointBorderColor: "transparent",
+                borderColor: "rgba(255, 255, 255, .8)",
+                borderWidth: 4,
+                backgroundColor: "transparent",
+                fill: true,
+                data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+                maxBarThickness: 6
+
+            }],
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false,
+                }
+            },
+            interaction: {
+                intersect: false,
+                mode: 'index',
+            },
+            scales: {
+                y: {
+                    grid: {
+                        drawBorder: false,
+                        display: true,
+                        drawOnChartArea: true,
+                        drawTicks: false,
+                        borderDash: [5, 5],
+                        color: 'rgba(255, 255, 255, .2)'
+                    },
+                    ticks: {
+                        display: true,
+                        padding: 10,
+                        color: '#f8f9fa',
+                        font: {
+                            size: 14,
+                            weight: 300,
+                            family: "Roboto",
+                            style: 'normal',
+                            lineHeight: 2
+                        },
+                    }
                 },
-                scales: {
-                    y: {
-                        grid: {
-                            drawBorder: false,
-                            display: true,
-                            drawOnChartArea: true,
-                            drawTicks: false,
-                            borderDash: [5, 5],
-                            color: 'rgba(255, 255, 255, .2)'
-                        },
-                        ticks: {
-                            display: true,
-                            padding: 10,
-                            color: '#f8f9fa',
-                            font: {
-                                size: 14,
-                                weight: 300,
-                                family: "Roboto",
-                                style: 'normal',
-                                lineHeight: 2
-                            },
-                        }
+                x: {
+                    grid: {
+                        drawBorder: false,
+                        display: false,
+                        drawOnChartArea: false,
+                        drawTicks: false,
+                        borderDash: [5, 5]
                     },
-                    x: {
-                        grid: {
-                            drawBorder: false,
-                            display: false,
-                            drawOnChartArea: false,
-                            drawTicks: false,
-                            borderDash: [5, 5]
+                    ticks: {
+                        display: true,
+                        color: '#f8f9fa',
+                        padding: 10,
+                        font: {
+                            size: 14,
+                            weight: 300,
+                            family: "Roboto",
+                            style: 'normal',
+                            lineHeight: 2
                         },
-                        ticks: {
-                            display: true,
-                            color: '#f8f9fa',
-                            padding: 10,
-                            font: {
-                                size: 14,
-                                weight: 300,
-                                family: "Roboto",
-                                style: 'normal',
-                                lineHeight: 2
-                            },
-                        }
-                    },
+                    }
                 },
             },
-        });
+        },
+    });
     </script>
     <script>
-    (function(e){var t,o={className:"autosizejs",append:"",callback:!1,resizeDelay:10},i='<textarea tabindex="-1" style="position:absolute; top:-999px; left:0; right:auto; bottom:auto; border:0; padding: 0; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box; word-wrap:break-word; height:0 !important; min-height:0 !important; overflow:hidden; transition:none; -webkit-transition:none; -moz-transition:none;"/>',n=["fontFamily","fontSize","fontWeight","fontStyle","letterSpacing","textTransform","wordSpacing","textIndent"],s=e(i).data("autosize",!0)[0];s.style.lineHeight="99px","99px"===e(s).css("lineHeight")&&n.push("lineHeight"),s.style.lineHeight="",e.fn.autosize=function(i){return this.length?(i=e.extend({},o,i||{}),s.parentNode!==document.body&&e(document.body).append(s),this.each(function(){function o(){var t,o;"getComputedStyle"in window?(t=window.getComputedStyle(u,null),o=u.getBoundingClientRect().width,e.each(["paddingLeft","paddingRight","borderLeftWidth","borderRightWidth"],function(e,i){o-=parseInt(t[i],10)}),s.style.width=o+"px"):s.style.width=Math.max(p.width(),0)+"px"}function a(){var a={};if(t=u,s.className=i.className,d=parseInt(p.css("maxHeight"),10),e.each(n,function(e,t){a[t]=p.css(t)}),e(s).css(a),o(),window.chrome){var r=u.style.width;u.style.width="0px",u.offsetWidth,u.style.width=r}}function r(){var e,n;t!==u?a():o(),s.value=u.value+i.append,s.style.overflowY=u.style.overflowY,n=parseInt(u.style.height,10),s.scrollTop=0,s.scrollTop=9e4,e=s.scrollTop,d&&e>d?(u.style.overflowY="scroll",e=d):(u.style.overflowY="hidden",c>e&&(e=c)),e+=w,n!==e&&(u.style.height=e+"px",f&&i.callback.call(u,u))}function l(){clearTimeout(h),h=setTimeout(function(){var e=p.width();e!==g&&(g=e,r())},parseInt(i.resizeDelay,10))}var d,c,h,u=this,p=e(u),w=0,f=e.isFunction(i.callback),z={height:u.style.height,overflow:u.style.overflow,overflowY:u.style.overflowY,wordWrap:u.style.wordWrap,resize:u.style.resize},g=p.width();p.data("autosize")||(p.data("autosize",!0),("border-box"===p.css("box-sizing")||"border-box"===p.css("-moz-box-sizing")||"border-box"===p.css("-webkit-box-sizing"))&&(w=p.outerHeight()-p.height()),c=Math.max(parseInt(p.css("minHeight"),10)-w||0,p.height()),p.css({overflow:"hidden",overflowY:"hidden",wordWrap:"break-word",resize:"none"===p.css("resize")||"vertical"===p.css("resize")?"none":"horizontal"}),"onpropertychange"in u?"oninput"in u?p.on("input.autosize keyup.autosize",r):p.on("propertychange.autosize",function(){"value"===event.propertyName&&r()}):p.on("input.autosize",r),i.resizeDelay!==!1&&e(window).on("resize.autosize",l),p.on("autosize.resize",r),p.on("autosize.resizeIncludeStyle",function(){t=null,r()}),p.on("autosize.destroy",function(){t=null,clearTimeout(h),e(window).off("resize",l),p.off("autosize").off(".autosize").css(z).removeData("autosize")}),r())})):this}})(window.jQuery||window.$);
+    (function(e) {
+        var t, o = {
+                className: "autosizejs",
+                append: "",
+                callback: !1,
+                resizeDelay: 10
+            },
+            i =
+            '<textarea tabindex="-1" style="position:absolute; top:-999px; left:0; right:auto; bottom:auto; border:0; padding: 0; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box; word-wrap:break-word; height:0 !important; min-height:0 !important; overflow:hidden; transition:none; -webkit-transition:none; -moz-transition:none;"/>',
+            n = ["fontFamily", "fontSize", "fontWeight", "fontStyle", "letterSpacing", "textTransform",
+                "wordSpacing", "textIndent"
+            ],
+            s = e(i).data("autosize", !0)[0];
+        s.style.lineHeight = "99px", "99px" === e(s).css("lineHeight") && n.push("lineHeight"), s.style.lineHeight =
+            "", e.fn.autosize = function(i) {
+                return this.length ? (i = e.extend({}, o, i || {}), s.parentNode !== document.body && e(document
+                    .body).append(s), this.each(function() {
+                    function o() {
+                        var t, o;
+                        "getComputedStyle" in window ? (t = window.getComputedStyle(u, null), o = u
+                                .getBoundingClientRect().width, e.each(["paddingLeft", "paddingRight",
+                                    "borderLeftWidth", "borderRightWidth"
+                                ], function(e, i) {
+                                    o -= parseInt(t[i], 10)
+                                }), s.style.width = o + "px") : s.style.width = Math.max(p.width(), 0) +
+                            "px"
+                    }
 
-var __slice=[].slice;(function(e,t){var n;n=function(){function t(t,n){var r,i,s,o=this;this.options=e.extend({},this.defaults,n);this.$el=t;s=this.defaults;for(r in s){i=s[r];if(this.$el.data(r)!=null){this.options[r]=this.$el.data(r)}}this.createStars();this.syncRating();this.$el.on("mouseover.starrr","span",function(e){return o.syncRating(o.$el.find("span").index(e.currentTarget)+1)});this.$el.on("mouseout.starrr",function(){return o.syncRating()});this.$el.on("click.starrr","span",function(e){return o.setRating(o.$el.find("span").index(e.currentTarget)+1)});this.$el.on("starrr:change",this.options.change)}t.prototype.defaults={rating:void 0,numStars:5,change:function(e,t){}};t.prototype.createStars=function(){var e,t,n;n=[];for(e=1,t=this.options.numStars;1<=t?e<=t:e>=t;1<=t?e++:e--){n.push(this.$el.append("<span class='glyphicon .glyphicon-star-empty'></span>"))}return n};t.prototype.setRating=function(e){if(this.options.rating===e){e=void 0}this.options.rating=e;this.syncRating();return this.$el.trigger("starrr:change",e)};t.prototype.syncRating=function(e){var t,n,r,i;e||(e=this.options.rating);if(e){for(t=n=0,i=e-1;0<=i?n<=i:n>=i;t=0<=i?++n:--n){this.$el.find("span").eq(t).removeClass("glyphicon-star-empty").addClass("glyphicon-star")}}if(e&&e<5){for(t=r=e;e<=4?r<=4:r>=4;t=e<=4?++r:--r){this.$el.find("span").eq(t).removeClass("glyphicon-star").addClass("glyphicon-star-empty")}}if(!e){return this.$el.find("span").removeClass("glyphicon-star").addClass("glyphicon-star-empty")}};return t}();return e.fn.extend({starrr:function(){var t,r;r=arguments[0],t=2<=arguments.length?__slice.call(arguments,1):[];return this.each(function(){var i;i=e(this).data("star-rating");if(!i){e(this).data("star-rating",i=new n(e(this),r))}if(typeof r==="string"){return i[r].apply(i,t)}})}})})(window.jQuery,window);$(function(){return $(".starrr").starrr()})
+                    function a() {
+                        var a = {};
+                        if (t = u, s.className = i.className, d = parseInt(p.css("maxHeight"), 10), e
+                            .each(n, function(e, t) {
+                                a[t] = p.css(t)
+                            }), e(s).css(a), o(), window.chrome) {
+                            var r = u.style.width;
+                            u.style.width = "0px", u.offsetWidth, u.style.width = r
+                        }
+                    }
 
-$(function(){
+                    function r() {
+                        var e, n;
+                        t !== u ? a() : o(), s.value = u.value + i.append, s.style.overflowY = u.style
+                            .overflowY, n = parseInt(u.style.height, 10), s.scrollTop = 0, s.scrollTop =
+                            9e4, e = s.scrollTop, d && e > d ? (u.style.overflowY = "scroll", e = d) : (
+                                u.style.overflowY = "hidden", c > e && (e = c)), e += w, n !== e && (u
+                                .style.height = e + "px", f && i.callback.call(u, u))
+                    }
 
-  $('#new-review').autosize({append: "\n"});
-
-  var reviewBox = $('#post-review-box');
-  var newReview = $('#new-review');
-  var openReviewBtn = $('#open-review-box');
-  var closeReviewBtn = $('#close-review-box');
-  var ratingsField = $('#ratings-hidden');
-
-  openReviewBtn.click(function(e)
-  {
-    reviewBox.slideDown(400, function()
-      {
-        $('#new-review').trigger('autosize.resize');
-        newReview.focus();
-      });
-    openReviewBtn.fadeOut(100);
-    closeReviewBtn.show();
-  });
-
-  closeReviewBtn.click(function(e)
-  {
-    e.preventDefault();
-    reviewBox.slideUp(300, function()
-      {
-        newReview.focus();
-        openReviewBtn.fadeIn(200);
-      });
-    closeReviewBtn.hide();
-    
-  });
-
-  $('.starrr').on('starrr:change', function(e, value){
-    ratingsField.val(value);
-  });
-});
-</script>
-    <script>
-        var win = navigator.platform.indexOf('Win') > -1;
-        if (win && document.querySelector('#sidenav-scrollbar')) {
-            var options = {
-                damping: '0.5'
+                    function l() {
+                        clearTimeout(h), h = setTimeout(function() {
+                            var e = p.width();
+                            e !== g && (g = e, r())
+                        }, parseInt(i.resizeDelay, 10))
+                    }
+                    var d, c, h, u = this,
+                        p = e(u),
+                        w = 0,
+                        f = e.isFunction(i.callback),
+                        z = {
+                            height: u.style.height,
+                            overflow: u.style.overflow,
+                            overflowY: u.style.overflowY,
+                            wordWrap: u.style.wordWrap,
+                            resize: u.style.resize
+                        },
+                        g = p.width();
+                    p.data("autosize") || (p.data("autosize", !0), ("border-box" === p.css(
+                        "box-sizing") || "border-box" === p.css("-moz-box-sizing") ||
+                        "border-box" === p.css("-webkit-box-sizing")) && (w = p.outerHeight() -
+                        p.height()), c = Math.max(parseInt(p.css("minHeight"), 10) - w || 0, p
+                        .height()), p.css({
+                        overflow: "hidden",
+                        overflowY: "hidden",
+                        wordWrap: "break-word",
+                        resize: "none" === p.css("resize") || "vertical" === p.css(
+                            "resize") ? "none" : "horizontal"
+                    }), "onpropertychange" in u ? "oninput" in u ? p.on(
+                        "input.autosize keyup.autosize", r) : p.on("propertychange.autosize",
+                        function() {
+                            "value" === event.propertyName && r()
+                        }) : p.on("input.autosize", r), i.resizeDelay !== !1 && e(window).on(
+                        "resize.autosize", l), p.on("autosize.resize", r), p.on(
+                        "autosize.resizeIncludeStyle",
+                        function() {
+                            t = null, r()
+                        }), p.on("autosize.destroy", function() {
+                        t = null, clearTimeout(h), e(window).off("resize", l), p.off(
+                            "autosize").off(".autosize").css(z).removeData("autosize")
+                    }), r())
+                })) : this
             }
-            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    })(window.jQuery || window.$);
+
+    var __slice = [].slice;
+    (function(e, t) {
+        var n;
+        n = function() {
+            function t(t, n) {
+                var r, i, s, o = this;
+                this.options = e.extend({}, this.defaults, n);
+                this.$el = t;
+                s = this.defaults;
+                for (r in s) {
+                    i = s[r];
+                    if (this.$el.data(r) != null) {
+                        this.options[r] = this.$el.data(r)
+                    }
+                }
+                this.createStars();
+                this.syncRating();
+                this.$el.on("mouseover.starrr", "span", function(e) {
+                    return o.syncRating(o.$el.find("span").index(e.currentTarget) + 1)
+                });
+                this.$el.on("mouseout.starrr", function() {
+                    return o.syncRating()
+                });
+                this.$el.on("click.starrr", "span", function(e) {
+                    return o.setRating(o.$el.find("span").index(e.currentTarget) + 1)
+                });
+                this.$el.on("starrr:change", this.options.change)
+            }
+            t.prototype.defaults = {
+                rating: void 0,
+                numStars: 5,
+                change: function(e, t) {}
+            };
+            t.prototype.createStars = function() {
+                var e, t, n;
+                n = [];
+                for (e = 1, t = this.options.numStars; 1 <= t ? e <= t : e >= t; 1 <= t ? e++ : e--) {
+                    n.push(this.$el.append("<span class='glyphicon .glyphicon-star-empty'></span>"))
+                }
+                return n
+            };
+            t.prototype.setRating = function(e) {
+                if (this.options.rating === e) {
+                    e = void 0
+                }
+                this.options.rating = e;
+                this.syncRating();
+                return this.$el.trigger("starrr:change", e)
+            };
+            t.prototype.syncRating = function(e) {
+                var t, n, r, i;
+                e || (e = this.options.rating);
+                if (e) {
+                    for (t = n = 0, i = e - 1; 0 <= i ? n <= i : n >= i; t = 0 <= i ? ++n : --n) {
+                        this.$el.find("span").eq(t).removeClass("glyphicon-star-empty").addClass(
+                            "glyphicon-star")
+                    }
+                }
+                if (e && e < 5) {
+                    for (t = r = e; e <= 4 ? r <= 4 : r >= 4; t = e <= 4 ? ++r : --r) {
+                        this.$el.find("span").eq(t).removeClass("glyphicon-star").addClass(
+                            "glyphicon-star-empty")
+                    }
+                }
+                if (!e) {
+                    return this.$el.find("span").removeClass("glyphicon-star").addClass(
+                        "glyphicon-star-empty")
+                }
+            };
+            return t
+        }();
+        return e.fn.extend({
+            starrr: function() {
+                var t, r;
+                r = arguments[0], t = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+                return this.each(function() {
+                    var i;
+                    i = e(this).data("star-rating");
+                    if (!i) {
+                        e(this).data("star-rating", i = new n(e(this), r))
+                    }
+                    if (typeof r === "string") {
+                        return i[r].apply(i, t)
+                    }
+                })
+            }
+        })
+    })(window.jQuery, window);
+    $(function() {
+        return $(".starrr").starrr()
+    })
+
+    $(function() {
+
+        $('#new-review').autosize({
+            append: "\n"
+        });
+
+        var reviewBox = $('#post-review-box');
+        var newReview = $('#new-review');
+        var openReviewBtn = $('#open-review-box');
+        var closeReviewBtn = $('#close-review-box');
+        var ratingsField = $('#ratings-hidden');
+
+        openReviewBtn.click(function(e) {
+            reviewBox.slideDown(400, function() {
+                $('#new-review').trigger('autosize.resize');
+                newReview.focus();
+            });
+            openReviewBtn.fadeOut(100);
+            closeReviewBtn.show();
+        });
+
+        closeReviewBtn.click(function(e) {
+            e.preventDefault();
+            reviewBox.slideUp(300, function() {
+                newReview.focus();
+                openReviewBtn.fadeIn(200);
+            });
+            closeReviewBtn.hide();
+
+        });
+
+        $('.starrr').on('starrr:change', function(e, value) {
+            ratingsField.val(value);
+        });
+    });
+    </script>
+    <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+        var options = {
+            damping: '0.5'
         }
+        Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
     </script>
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -882,14 +1284,13 @@ $(function(){
     <script src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
 </body>
 <style>
-     .animated {
+.animated {
     -webkit-transition: height 0.2s;
     -moz-transition: height 0.2s;
     transition: height 0.2s;
 }
 
-.stars
-{
+.stars {
     margin: 20px 0;
     font-size: 24px;
     color: #d17581;
