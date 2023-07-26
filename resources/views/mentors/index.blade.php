@@ -66,8 +66,8 @@
                 <li class="nav-item">
                     <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white "
                         aria-controls="applicationsExamples" role="button" aria-expanded="false">
-                        <i class="fa fa-user"></i>
-                        <span class="">My Profile</span>
+                        <i class="fa fa-user-tag"></i>
+                        <span class="nav-link-text ms-1">My Profile</span>
                     </a>
                     <div class="collapse " id="applicationsExamples">
                         <ul class="nav ">
