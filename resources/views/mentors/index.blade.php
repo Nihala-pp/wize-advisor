@@ -126,7 +126,7 @@
     </aside>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl " id="navbarBlur"
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur" id="navbarBlur"
             navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
@@ -710,7 +710,7 @@
                                     </span>
                                     <div class="timeline-content">
                                         <h6 class="text-dark text-sm font-weight-bold mb-0">Payment for last call
-                                            procedded</h6>
+                                            proceeded</h6>
                                         <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
                                     </div>
                                 </div>
