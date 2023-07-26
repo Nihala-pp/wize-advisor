@@ -17,6 +17,8 @@
         href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+
     <style>
     /*! elementor - v3.14.0 - 26-06-2023 */
     .elementor-widget-progress {

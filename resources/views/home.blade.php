@@ -17,6 +17,8 @@
         href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1398,11 +1400,13 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="{{ route('aboutUs') }}" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="{{ route('contactUs') }}" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a href="" itemprop="url"
@@ -1413,19 +1417,23 @@
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('community-posts') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">Community Post</a></li>
+                                                                class="hfe-sub-menu-item">Community Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('libraries') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a></li>
+                                                                class="hfe-sub-menu-item">Libraries</a>
+                                                        </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('faq') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="{{ route('blogs') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
