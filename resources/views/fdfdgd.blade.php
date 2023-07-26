@@ -363,3 +363,6 @@
                                                         </div>
                                                     </div>
                                         </form>
+										
+<link id="pagestyle" href="https://demos.creative-tim.com/material-dashboard-pro/assets/css/material-dashboard.min.css?v=3.0.6" rel="stylesheet" />
+		<script src="https://demos.creative-tim.com/material-dashboard-pro/assets/js/material-dashboard.min.js?v=3.0.6"></script>

@@ -21,9 +21,7 @@
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <!-- CSS Files -->
-    <link id="pagestyle"
-        href="https://demos.creative-tim.com/material-dashboard-pro/assets/css/material-dashboard.min.css?v=3.0.6"
-        rel="stylesheet" />
+   
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet">
@@ -310,7 +308,6 @@
     <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins//chartjs.min.js') }}"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://demos.creative-tim.com/material-dashboard-pro/assets/js/material-dashboard.min.js?v=3.0.6"></script>
     <script src="{{ asset('public/assets/js/plugins/timepicker-bs4.js') }}"></script> 
     <script>
     var win = navigator.platform.indexOf('Win') > -1;
