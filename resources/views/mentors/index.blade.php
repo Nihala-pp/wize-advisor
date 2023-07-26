@@ -264,7 +264,7 @@
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
                                 <img src="{{ asset('public/assets/img/calendar.png') }}"
-                                    class="material-icons opacity-10 mt-3" alt="main_logo" height="30" width="30">
+                                    class="material-icons opacity-10 mt-3" alt="main_logo" height="40" width="40">
                                 <!-- <i class="material-icons opacity-10">weekend</i> -->
                             </div>
                             <div class="text-end pt-1">
