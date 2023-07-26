@@ -1364,7 +1364,7 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="{{ asset('public/') }}home">
+                                    </style> <a href="{{ route('home') }}">
                                         <img width="932" height="140"
                                             src="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }}"
                                             class="attachment-large size-large wp-image-624" alt=""
