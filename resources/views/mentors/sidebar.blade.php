@@ -21,7 +21,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="{{ route('mentor.dashboard.my_sessions') }}">
+                <a class="nav-link text-white" href="{{ route('mentor.dashboard.my_sessions') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="fa fa-bell"></i>
                     </div>
@@ -36,20 +36,20 @@
                 </a>
                 <div class="collapse" id="applicationsExamples">
                     <ul class="nav">
-                        <li class="nav-item ">
-                            <a class="nav-link text-white " href="{{ route('mentor.dashboard.profile') }}">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="{{ route('mentor.dashboard.profile') }}">
                                 <span class="sidenav-mini-icon"> P </span>
                                 <span class="sidenav-normal  ms-2  ps-1"> Profile </span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-white " href="{{ route('mentor.dashboard.experience') }}">
+                            <a class="nav-link text-white" href="{{ route('mentor.dashboard.experience') }}">
                                 <span class="sidenav-mini-icon"> E </span>
                                 <span class="sidenav-normal  ms-2  ps-1"> Experience </span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-white " href="{{ route('mentor.dashboard.expertise') }}">
+                            <a class="nav-link text-white" href="{{ route('mentor.dashboard.expertise') }}">
                                 <span class="sidenav-mini-icon"> E </span>
                                 <span class="sidenav-normal  ms-2  ps-1"> Blogs </span>
                             </a>
@@ -58,7 +58,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="{{ route('mentor.dashboard.reviews') }}">
+                <a class="nav-link text-white" href="{{ route('mentor.dashboard.reviews') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="fa fa-star"></i>
                     </div>
@@ -66,7 +66,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="{{ route('mentor.dashboard.availability') }}">
+                <a class="nav-link text-white" href="{{ route('mentor.dashboard.availability') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="fas fa-phone-alt"></i>
                     </div>
@@ -74,7 +74,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="{{ route('mentor.dashboard.availability') }}">
+                <a class="nav-link text-white" href="{{ route('mentor.dashboard.availability') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="fas fa-phone-alt"></i>
                     </div>
