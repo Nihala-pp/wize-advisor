@@ -126,7 +126,7 @@
     </aside>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3"
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur"
             id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
@@ -135,7 +135,7 @@
                                 href="javascript:;"></a></li>
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page"></li> -->
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">My Dashboard</h6>
+                    <h5 class="font-weight-bolder mb-0">Dashboard</h5>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
