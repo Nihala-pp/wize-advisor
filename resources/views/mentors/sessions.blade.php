@@ -156,7 +156,7 @@
                                 <h6 class="text-white text-capitalize ps-3">Upcoming Sessions</h6>
                             </div>
                         </div>
-                        <div class="card-body px-0 pb-2">
+                        <!-- <div class="card-body px-0 pb-2"> -->
                             <div class="table-responsive">
                                 <table class="table align-items-center mb-0">
                                     <thead>
@@ -216,7 +216,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
