@@ -17,6 +17,7 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1364,7 +1365,7 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="https://wiseadvizor.com/home">
+                                    </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
