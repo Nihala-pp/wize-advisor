@@ -14149,10 +14149,10 @@ svg.text-primary .color-background {
   fill: #D81B60; }
 
 svg.text-secondary .color-foreground {
-  fill: #747b8a; }
+  fill: #000; }
 
 svg.text-secondary .color-background {
-  fill: #495361; }
+  fill: #000; }
 
 svg.text-info .color-foreground {
   fill: #49a3f1; }
