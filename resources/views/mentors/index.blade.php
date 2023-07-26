@@ -126,8 +126,8 @@
     </aside>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur" id="navbarBlur"
-            navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3"
+            id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -805,12 +805,12 @@
                         <i class="material-icons">clear</i>
                     </button>
                 </div> -->
-                <!-- End Toggle Button -->
-            <!-- </div>
+    <!-- End Toggle Button -->
+    <!-- </div>
             <hr class="horizontal dark my-1">
             <div class="card-body pt-sm-3 pt-0"> -->
-                <!-- Sidebar Backgrounds -->
-                <!-- <div>
+    <!-- Sidebar Backgrounds -->
+    <!-- <div>
                     <h6 class="mb-0">Sidebar Colors</h6>
                 </div>
                 <a href="javascript:void(0)" class="switch-trigger background-color">
@@ -829,8 +829,8 @@
                             onclick="sidebarColor(this)"></span>
                     </div>
                 </a> -->
-                <!-- Sidenav Type -->
-                <!-- <div class="mt-3">
+    <!-- Sidenav Type -->
+    <!-- <div class="mt-3">
                     <h6 class="mb-0">Sidenav Type</h6>
                     <p class="text-sm">Choose between 2 different sidenav types.</p>
                 </div>
@@ -843,8 +843,8 @@
                         onclick="sidebarType(this)">White</button>
                 </div>
                 <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p> -->
-                <!-- Navbar Fixed -->
-                <!-- <div class="mt-3 d-flex">
+    <!-- Navbar Fixed -->
+    <!-- <div class="mt-3 d-flex">
                     <h6 class="mb-0">Navbar Fixed</h6>
                     <div class="form-check form-switch ps-0 ms-auto my-auto">
                         <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed"
@@ -860,8 +860,8 @@
                     </div>
                 </div>
                 <hr class="horizontal dark my-sm-4"> -->
-                <!-- <a class="btn btn-outline-dark w-100" href="">View documentation</a> -->
-                <!-- <div class="w-100 text-center">
+    <!-- <a class="btn btn-outline-dark w-100" href="">View documentation</a> -->
+    <!-- <div class="w-100 text-center">
           <a class="github-button" href="https://github.com/creativetimofficial/material-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/material-dashboard on GitHub">Star</a>
           <h6 class="mt-3">Thank you for sharing!</h6>
           <a href="https://twitter.com/intent/tweet?text=Check%20Material%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
@@ -871,7 +871,7 @@
             <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
           </a>
         </div> -->
-            <!-- </div>
+    <!-- </div>
         </div>
     </div> -->
     <!--   Core JS Files   -->
