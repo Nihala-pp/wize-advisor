@@ -11,10 +11,9 @@
 
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
-    <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3" id="navbarBlur"
-            navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -150,7 +149,7 @@
         <div class="container-fluid py-4">
             <div class="row">
                 <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                <div class="card">
+                    <div class="card">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
                                 <h6 class="text-white text-capitalize ps-3">Upcoming Sessions</h6>
@@ -227,7 +226,7 @@
         <div class="container-fluid py-4">
             <div class="row">
                 <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                <div class="card">
+                    <div class="card">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
                                 <h6 class="text-white text-capitalize ps-3">Requested Sessions</h6>
@@ -383,26 +382,27 @@
                 </div>
             </div>
         </div>
-        <script>
-        @if(Session::has('message'))
-        var type = "{{Session::get('alert-type','info')}}"
+    </main>
+    <script>
+    @if(Session::has('message'))
+    var type = "{{Session::get('alert-type','info')}}"
 
-        switch (type) {
-            case 'info':
-                toastr.info("{{ Session::get('message') }}");
-                break;
-            case 'success':
-                toastr.success("{{ Session::get('message') }}");
-                break;
-            case 'warning':
-                toastr.warning("{{ Session::get('message') }}");
-                break;
-            case 'error':
-                toastr.error("{{ Session::get('message') }}");
-                break;
-        }
-        @endif
-        </script>
+    switch (type) {
+        case 'info':
+            toastr.info("{{ Session::get('message') }}");
+            break;
+        case 'success':
+            toastr.success("{{ Session::get('message') }}");
+            break;
+        case 'warning':
+            toastr.warning("{{ Session::get('message') }}");
+            break;
+        case 'error':
+            toastr.error("{{ Session::get('message') }}");
+            break;
+    }
+    @endif
+    </script>
 </body>
 
 </html>
