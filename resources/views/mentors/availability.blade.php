@@ -15,10 +15,10 @@
 
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
-    <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3" id="navbarBlur"
-            navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3"
+            id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -308,93 +308,94 @@
                 </div>
             </div>
         </div>
-        <!--====================================================
+    </main>
+    <!--====================================================
                            Requested Sessions
     ======================================================-->
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('.date').datepicker({
-                multidate: true,
-                format: 'dd-mm-yyyy'
-            });
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.date').datepicker({
+            multidate: true,
+            format: 'dd-mm-yyyy'
+        });
 
-            // $('.time').timepicker({
-            //     format: 'hh:mm A',
-            // });
+        // $('.time').timepicker({
+        //     format: 'hh:mm A',
+        // });
 
-            $("#rowAdder").click(function() {
-                newRowAdd =
-                    '<div class="row" id="row">' +
-                    '<div class="col-md-4">' +
-                    '<div class="input-group input-group-static my-3">' +
-                    '<label> Date </label>' +
-                    '<input type="date" name="schedule[1][date]" class="form-control date" required>' +
-                    '</div></div>' +
-                    '<div class="col-md-4">' +
-                    '<div class="input-group input-group-static my-3">' +
-                    '<label>Start Time</label>' +
-                    '<input type="time" name="schedule[1][start_time]" class="form-control">' +
-                    '</div></div>' +
-                    '<div class="col-md-4">' +
-                    '<div class="input-group input-group-static my-3">' +
-                    ' <label>End Time</label>' +
-                    '<input type="time" name="schedule[1][end_time]" class="form-control">' +
-                    '</div></div>' +
-                    '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
-                $('#newinput').append(newRowAdd);
-            });
+        $("#rowAdder").click(function() {
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label> Date </label>' +
+                '<input type="date" name="schedule[1][date]" class="form-control date" required>' +
+                '</div></div>' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label>Start Time</label>' +
+                '<input type="time" name="schedule[1][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                ' <label>End Time</label>' +
+                '<input type="time" name="schedule[1][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
+            $('#newinput').append(newRowAdd);
+        });
 
-            $("#DeleteRow").click(function() {
-                $(this).parents("#row").remove();
-            });
+        $("#DeleteRow").click(function() {
+            $(this).parents("#row").remove();
+        });
 
-            $('body').on('click', '.edit', function() {
-                var Id = $(this).data('id');
-                $.ajax({
-                    url: "{{ route('mentor.dashboard.availability.edit') }}",
-                    type: "GET",
-                    data: {
-                        'Id': Id
-                    },
-                    success: function(response) {
-                        $("#edit_availability .modal-body").html(response);
-                        $("#edit_availability").modal('show');
-                    }
-                });
-            });
-
-            $(".delete").click(function() {
-                var Id = $(this).data('id');
-                $.ajax({
-                    url: "{{ route('mentor.dashboard.availability.delete') }}",
-                    type: "GET",
-                    data: {
-                        'Id': Id
-                    },
-                });
+        $('body').on('click', '.edit', function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('mentor.dashboard.availability.edit') }}",
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+                success: function(response) {
+                    $("#edit_availability .modal-body").html(response);
+                    $("#edit_availability").modal('show');
+                }
             });
         });
-        </script>
-        <script>
-        @if(Session::has('message'))
-        var type = "{{Session::get('alert-type','info')}}"
 
-        switch (type) {
-            case 'info':
-                toastr.info("{{ Session::get('message') }}");
-                break;
-            case 'success':
-                toastr.success("{{ Session::get('message') }}");
-                break;
-            case 'warning':
-                toastr.warning("{{ Session::get('message') }}");
-                break;
-            case 'error':
-                toastr.error("{{ Session::get('message') }}");
-                break;
-        }
-        @endif
-        </script>
+        $(".delete").click(function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('mentor.dashboard.availability.delete') }}",
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+            });
+        });
+    });
+    </script>
+    <script>
+    @if(Session::has('message'))
+    var type = "{{Session::get('alert-type','info')}}"
+
+    switch (type) {
+        case 'info':
+            toastr.info("{{ Session::get('message') }}");
+            break;
+        case 'success':
+            toastr.success("{{ Session::get('message') }}");
+            break;
+        case 'warning':
+            toastr.warning("{{ Session::get('message') }}");
+            break;
+        case 'error':
+            toastr.error("{{ Session::get('message') }}");
+            break;
+    }
+    @endif
+    </script>
 </body>
 
 </html>
