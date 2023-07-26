@@ -34,7 +34,7 @@
   --bs-warning: #fb8c00;
   --bs-danger: #F44335;
   --bs-light: #f0f2f5;
-  --bs-dark: #344767;
+  --bs-dark: #001E64;
   --bs-white: #fff;
   --bs-primary-rgb: 233, 30, 99;
   --bs-secondary-rgb: 123, 128, 154;
@@ -95,7 +95,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 400;
   line-height: 1.2;
-  color: #344767; }
+  color: #001E64; }
 
 h1, .h1 {
   font-size: calc(1.425rem + 2.1vw); }
@@ -257,7 +257,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: #000;
   text-align: left; }
 
 th {
@@ -1895,7 +1895,7 @@ progress {
   padding: 0.5rem 0;
   margin-bottom: 0;
   line-height: 1.5rem;
-  color: #344767;
+  color: #000;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
@@ -3722,7 +3722,7 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23344767' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
 .navbar-light .navbar-text {
-  color: #344767; }
+  color: #000; }
   .navbar-light .navbar-text a,
   .navbar-light .navbar-text a:hover,
   .navbar-light .navbar-text a:focus {
