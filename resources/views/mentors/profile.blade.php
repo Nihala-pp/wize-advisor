@@ -714,7 +714,6 @@
         @include('partials.footer')
     </div>
 </main>
-    <!-- @include('partials.settings') -->
     <!--   Core JS Files   -->
     <script type="text/javascript">
     $(document).ready(function() {
