@@ -14208,7 +14208,9 @@ svg.text-dark .color-background {
 .navbar-blur {
   -webkit-backdrop-filter: saturate(200%) blur(30px);
   backdrop-filter: saturate(200%) blur(30px);
-  background-color: rgba(255, 255, 255, 0.58) !important; }
+  background-color: rgba(255, 255, 255, 0.58) !important; 
+  padding-top:30px;
+}
 
 .blur-section {
   -webkit-backdrop-filter: saturate(200%) blur(30px);
