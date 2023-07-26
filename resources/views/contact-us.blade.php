@@ -1434,12 +1434,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                            <a href="{{ route('faq') }}" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="{{ route('blogs') }}" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1471,7 +1471,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="https://wiseadvizor.com/browse-mentor/">
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -2310,7 +2310,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/blogs/">FAQs</a>
+                                                                href="{{ route('faq') }}">FAQs</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2324,7 +2324,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/browseMentor">Browse
+                                                                href="{{ route('browseMentor') }}">Browse
                                                                 Mentors</a></p>
                                                     </div>
                                                 </div>
