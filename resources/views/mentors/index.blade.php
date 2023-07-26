@@ -323,7 +323,7 @@
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 position-absolute">
                                 <!-- <i class="material-icons opacity-10">weekend</i> -->
-                                <img src="{{ asset('public/assets/img/earnings.png') }}" class="navbar-brand-img h-50" alt="main_logo">
+                                <img src="{{ asset('public/assets/img/earnings.png') }}" class="material-icons opacity-10" alt="main_logo" height="50" width="50">
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
