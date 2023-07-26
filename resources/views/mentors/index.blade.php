@@ -263,8 +263,8 @@
                         <div class="card-header p-3 pt-2">
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
-                                <img src="{{ asset('public/assets/img/calender.png') }}"
-                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
+                                <img src="{{ asset('public/assets/img/calendar.png') }}"
+                                    class="material-icons opacity-10" alt="main_logo" height="30" width="30">
                                 <!-- <i class="material-icons opacity-10">weekend</i> -->
                             </div>
                             <div class="text-end pt-1">
@@ -285,7 +285,7 @@
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4 position-absolute">
                                 <img src="{{ asset('public/assets/img/service-call.png') }}"
-                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
+                                    class="material-icons opacity-10" alt="main_logo" height="30" width="30">
                                 <!-- <i class="material-icons opacity-10">person</i> -->
                             </div>
                             <div class="text-end pt-1">
@@ -306,7 +306,7 @@
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute">
                                 <img src="{{ asset('public/assets/img/missed-call.png') }}"
-                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
+                                    class="material-icons opacity-10" alt="main_logo" height="30" width="30">
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Rejected Calls</p>
@@ -327,7 +327,7 @@
                                 class="icon icon-lg icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 position-absolute">
                                 <!-- <i class="material-icons opacity-10">weekend</i> -->
                                 <img src="{{ asset('public/assets/img/earnings.png') }}"
-                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
+                                    class="material-icons opacity-10" alt="main_logo" height="30" width="30">
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
