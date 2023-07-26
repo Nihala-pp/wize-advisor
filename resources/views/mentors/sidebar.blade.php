@@ -32,7 +32,7 @@
                 <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white"
                     aria-controls="applicationsExamples" role="button" aria-expanded="false">
                     <i class="fa fa-user-tag"></i>
-                    <span class="">My Profile</span>
+                    <span class="mr-20">My Profile</span>
                 </a>
                 <div class="collapse" id="applicationsExamples">
                     <ul class="nav">
