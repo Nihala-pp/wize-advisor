@@ -17,6 +17,7 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1455,8 +1456,21 @@
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
-                                            </span>
+                                                @if(Auth::id())
+                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                    href="{{ route('user.dashboard') }}">
+                                                    <span class="elementor-button-content-wrapper">
+                                                        <span class="elementor-button-text">Dashboard</span>
+                                                    </span>
+                                                </a>
+                                                @else
+                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                    href="{{ route('login') }}">
+                                                    <span class="elementor-button-content-wrapper">
+                                                        <span class="elementor-button-text">Sign In</span>
+                                                    </span>
+                                                </a>
+                                                @endif </span>
                                         </a>
                                     </div>
                                 </div>
