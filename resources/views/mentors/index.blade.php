@@ -261,9 +261,11 @@
                 <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
                     <div class="card">
                         <div class="card-header p-3 pt-2">
-                            <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
-                            <img src="{{ asset('public/assets/img/calender.png') }}" class="navbar-brand-img h-50" alt="main_logo">
-                            <!-- <i class="material-icons opacity-10">weekend</i> -->
+                            <div
+                                class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
+                                <img src="{{ asset('public/assets/img/calender.png') }}"
+                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
+                                <!-- <i class="material-icons opacity-10">weekend</i> -->
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Total Calls Scheduled </p>
@@ -282,8 +284,8 @@
                         <div class="card-header p-3 pt-2">
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4 position-absolute">
-                                <img src="{{ asset('public/assets/img/service-call.png') }}" class="navbar-brand-img h-50" alt="main_logo">
-
+                                <img src="{{ asset('public/assets/img/service-call.png') }}"
+                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
                                 <!-- <i class="material-icons opacity-10">person</i> -->
                             </div>
                             <div class="text-end pt-1">
@@ -303,7 +305,8 @@
                         <div class="card-header p-3 pt-2">
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-success shadow-success text-center border-radius-xl mt-n4 position-absolute">
-                                <img src="{{ asset('public/assets/img/missed-call.png') }}" class="navbar-brand-img h-50" alt="main_logo">
+                                <img src="{{ asset('public/assets/img/missed-call.png') }}"
+                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Rejected Calls</p>
@@ -323,7 +326,8 @@
                             <div
                                 class="icon icon-lg icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 position-absolute">
                                 <!-- <i class="material-icons opacity-10">weekend</i> -->
-                                <img src="{{ asset('public/assets/img/earnings.png') }}" class="material-icons opacity-10" alt="main_logo" height="50" width="50">
+                                <img src="{{ asset('public/assets/img/earnings.png') }}"
+                                    class="material-icons opacity-10" alt="main_logo" height="50" width="50">
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
@@ -1144,4 +1148,5 @@
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
 </body>
+
 </html>
