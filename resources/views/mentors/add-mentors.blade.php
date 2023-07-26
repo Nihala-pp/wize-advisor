@@ -11,7 +11,7 @@
 
 <body class="g-sidenav-show  bg-gray-200">
       @include('mentors.sidebar')
-    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mb-3 mt-3">
         <!-- Navbar -->
         <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3" id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
