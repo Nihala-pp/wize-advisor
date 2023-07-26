@@ -29,9 +29,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white "
+                <a data-bs-toggle="collapse" href="#applicationsExamples" class="nav-link text-white"
                     aria-controls="applicationsExamples" role="button" aria-expanded="false">
-                    <i class="fas fa-user-tag"></i>
+                    <i class="fa fa-user-tag"></i>
                     <span class="">My Profile</span>
                 </a>
                 <div class="collapse" id="applicationsExamples">
