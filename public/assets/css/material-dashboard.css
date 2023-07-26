@@ -28,7 +28,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #001E64;
-  --bs-secondary: #7b809a;
+  --bs-secondary: #000;
   --bs-success: #4CAF50;
   --bs-info: #1A73E8;
   --bs-warning: #fb8c00;
@@ -1606,11 +1606,11 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #7b809a;
+  --bs-table-striped-color: #000;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #7b809a;
+  --bs-table-active-color: #000;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #7b809a;
+  --bs-table-hover-color: #000;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
@@ -14012,7 +14012,7 @@ label,
   background-image: radial-gradient(200px circle at 50% 70%, rgba(233, 30, 99, 0.3) 0, #001E64 100%); }
 
 .bg-gradient-faded-secondary-vertical {
-  background-image: radial-gradient(200px circle at 50% 70%, rgba(123, 128, 154, 0.3) 0, #7b809a 100%); }
+  background-image: radial-gradient(200px circle at 50% 70%, rgba(123, 128, 154, 0.3) 0, #000 100%); }
 
 .bg-gradient-faded-success-vertical {
   background-image: radial-gradient(200px circle at 50% 70%, rgba(76, 175, 80, 0.3) 0, #4CAF50 100%); }
