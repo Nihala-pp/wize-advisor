@@ -242,7 +242,6 @@
                 @include('partials.footer')
             </div>
     </main>
-    <!-- @include('partials.settings') -->
     </div>
     <script type="text/javascript">
         if (document.getElementById('choices-button')) {
