@@ -1020,7 +1020,7 @@
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
         href="https://wiseadvizor.com/wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="https://wiseadvizor.com/terms-and-conditions/">
+    <link rel="canonical" href="https://wiseadvizor.com/terms-conditions">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=2915">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fterms-and-conditions%2F">
@@ -2194,7 +2194,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/terms-and-conditions/">Terms
+                                                                href="https://wiseadvizor.com/terms-conditions">Terms
                                                                 & Conditions</a></p>
                                                     </div>
                                                 </div>

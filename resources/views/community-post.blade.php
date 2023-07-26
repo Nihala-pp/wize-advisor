@@ -283,7 +283,7 @@ html body .animated  {
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading" data-id="aaf88ad" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<p class="elementor-heading-title elementor-size-default"><a href="https://wiseadvizor.com/terms-and-conditions/">Terms & Conditions</a></p>		</div>
+			<p class="elementor-heading-title elementor-size-default"><a href="https://wiseadvizor.com/terms-conditions">Terms & Conditions</a></p>		</div>
 				</div>
 					</div>
 		</div>
