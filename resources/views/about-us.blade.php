@@ -1940,10 +1940,9 @@
                                                     display: flex;
                                                 }
                                                 </style>
-
                                                 <div class="uc_classic_carousel"
                                                     id="uc_card_carousel_elementor_4706453-wrapper">
-                                                    <div class="uc_carousel owl-carousel uc-items-wrapper  "
+                                                    <div class="uc_carousel owl-carousel uc-items-wrapper"
                                                         id="uc_card_carousel_elementor_4706453">
                                                         <div
                                                             class="uc_classic_carousel_container_holder ue-item elementor-repeater-item-dfd756d">
@@ -1960,23 +1959,18 @@
                                                                     style="direction:ltr;">
                                                                     <div class="ue-item-icon-wrapper">
                                                                         <div class="ue-item-icon">
-																		<a href="https://www.linkedin.com/in/deep-shikha-m/">
-																			<i class="fab fa-linkedin"></i>
-											                            </a>
-																		</div>
+                                                                            <a
+                                                                                href="https://www.linkedin.com/in/deep-shikha-m/">
+                                                                                <img decoding="async"
+                                                                                    src="https://wiseadvizor.com/public/wp-content/uploads/2023/06/linkedin.png"
+                                                                                    alt="shikha" width="150"
+                                                                                    height="150">
+                                                                                <!-- <i class="fab fa-linkedin"></i> -->
+                                                                            </a>
+                                                                        </div>
                                                                     </div>
-
-
                                                                     <div class="card_carousel_title">Deep Shikha</div>
-
-
-
                                                                     <p class="card_carousel_text">General Manager</p>
-
-
-
-
-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1995,9 +1989,13 @@
                                                                     style="direction:ltr;">
                                                                     <div class="ue-item-icon-wrapper">
                                                                         <div class="ue-item-icon">
-																		<a href="https://www.linkedin.com/in/ankur-sharma-711b2649/">
-																			<i class="fab fa-linkedin"></i>
-											                            </a>
+                                                                            <a
+                                                                                href="https://www.linkedin.com/in/ankur-sharma-711b2649/">
+                                                                                <img decoding="async"
+                                                                                    src="https://wiseadvizor.com/public/wp-content/uploads/2023/06/linkedin.png"
+                                                                                    alt="shikha" width="150"
+                                                                                    height="150">
+                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                     <div class="card_carousel_title">Ankur Sharma</div>
@@ -2021,9 +2019,13 @@
                                                                     style="direction:ltr;">
                                                                     <div class="ue-item-icon-wrapper">
                                                                         <div class="ue-item-icon">
-																		<a href="https://www.linkedin.com/in/nihala-pp/">
-																			<i class="fab fa-linkedin"></i>
-																		</a>      
+                                                                            <a
+                                                                                href="https://www.linkedin.com/in/nihala-pp/">
+                                                                                <img decoding="async"
+                                                                                    src="https://wiseadvizor.com/public/wp-content/uploads/2023/06/linkedin.png"
+                                                                                    alt="shikha" width="150"
+                                                                                    height="150">
+                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                     <div class="card_carousel_title">Nihala PP</div>
