@@ -17,7 +17,7 @@
     @include('mentors.sidebar')
     <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3" id="navbarBlur"
             navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
