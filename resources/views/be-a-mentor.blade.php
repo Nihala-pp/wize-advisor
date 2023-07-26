@@ -16,6 +16,7 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1383,11 +1384,13 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
@@ -1400,19 +1403,23 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
+                                                                Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a></li>
+                                                                class="hfe-sub-menu-item">Libraries</a>
+                                                        </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1452,7 +1459,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="https://wiseadvizor.com/browse-mentor/">
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -2057,7 +2064,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/blogs/">FAQs</a></p>
+                                                                href="https://wiseadvizor.com/faq/">FAQs</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2070,7 +2077,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
+                                                                href="{{ route('browseMentor') }}">Browse
                                                                 Mentors</a></p>
                                                     </div>
                                                 </div>
