@@ -15930,7 +15930,7 @@ hr.horizontal {
   border-width: 0; }
 
 .table > :not(:last-child) > :last-child > * {
-  border-bottom-color: #f0f2f5; }
+  border-bottom-color: #000; }
 
 .table > :not(:first-child) {
   border-top: 1px solid currentColor; }
