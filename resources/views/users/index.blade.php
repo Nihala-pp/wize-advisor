@@ -198,7 +198,7 @@
         <!--====================================================
                            Upcoming Sessions
     ======================================================-->
-        <div class="page-header align-items-start min-vh-100"
+        <div class="row"
             style="background-image: url('{{ asset('public/assets/img/user-dashboard.jpg') }}')">
             <div class="container-fluid py-4">
                 <div class="row">
