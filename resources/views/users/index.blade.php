@@ -86,11 +86,23 @@
                     </div>
 
                     <ul class="navbar-nav  justify-content-end">
-                        <li class="nav-item d-flex align-items-center">
-                            <a href="" class="nav-link text-body font-weight-bold px-0">
-                                <i class="fa fa-user me-sm-1"></i>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false"> 
+                                <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                    class="avatar avatar-sm me-3" alt="xd">
                                 <span class="d-sm-inline d-none">Welcome, {{ Auth::user()->name }}</span>
                             </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">My account</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Log out</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
