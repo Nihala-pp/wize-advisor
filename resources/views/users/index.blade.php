@@ -1155,9 +1155,9 @@
 }
 
 .navbar-main li a {
-    font-family: "Helvetica", Sans-serif;
-    font-size: 17px;
-    font-weight: 700;
+    font-family: "Helvetica", Sans-serif !important;
+    font-size: 17px !important; 
+    font-weight: 700 !important;
 }
 </style>
 
