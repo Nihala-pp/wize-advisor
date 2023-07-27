@@ -199,7 +199,7 @@
                            Upcoming Sessions
     ======================================================-->
         <div class="row" style="background-image: url('{{ asset('public/assets/img/user-dashboard.png') }}')">
-            <div class="container-fluid py-4">
+            <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
                         <div class="card my-4">
@@ -379,7 +379,7 @@
             <!--====================================================
                            Completed Sessions
     ======================================================-->
-            <div class="container-fluid py-4">
+            <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
                         <div class="card">
@@ -1073,10 +1073,9 @@
     border-radius: 0.75rem 0.75rem 0 0;
 }
 
-.container-fluid {
-    paddingLeft: 20px;
-    paddingRight: 20px;
-    overflow-y: hidden;
+.req {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 </style>
 
