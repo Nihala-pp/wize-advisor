@@ -44,6 +44,17 @@
                         width="150;" height="75px;" style="object-fit:contain;">
                 </a>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+                    <div class="ms-md-auto pe-md-3 d-flex align-items-cente">
+                        <div class="input-group input-group-outline">
+                            <!-- <label class="form-label">Type here...</label> -->
+                            <!-- <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
+                                href="{{ route('browseMentor') }}">
+                                {{ __('Browse
+                                    Mentor') }}
+                            </button> -->
+                            <!-- <input type="text" class="form-control">  -->
+                        </div>
+                    </div>
                     <div class="col-lg-8 d-flex align-items-center">
                         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                             <li class="nav-item active">
