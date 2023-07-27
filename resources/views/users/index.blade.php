@@ -49,7 +49,7 @@
     <!-- </aside> -->
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main bg-gradient-white navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light bg-white position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
             id="navbarBlur" data-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
@@ -68,35 +68,39 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-            <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                <li class="nav-item active">
-                    <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active" target="_blank">Dashboard
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('aboutUs') }}" class="nav-link text-muted" target="_blank">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Resource
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a></li>
-                        <li><a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a></li>
-                        <li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
-                        <li><a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('browseMentor') }}" class="nav-link text-muted" target="_blank">Browse
-                        Mentor</a>
-                </li>
-            </ul>
-        </div>
+                        <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                            <li class="nav-item active">
+                                <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active"
+                                    target="_blank">Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('aboutUs') }}" class="nav-link text-muted" target="_blank">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resource
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="{{ route('community-posts') }}">Community
+                                            Post</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('browseMentor') }}" class="nav-link text-muted" target="_blank">Browse
+                                    Mentor</a>
+                            </li>
+                        </ul>
+                    </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('user.profile') }}" class="nav-link text-body font-weight-bold px-0">
