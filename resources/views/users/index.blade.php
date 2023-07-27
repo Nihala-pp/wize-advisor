@@ -10,6 +10,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,9 +36,12 @@
     <!-- </aside> -->
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
+            id="navbarBlur" data-scroll="true">
             <div class="container-fluid py-1 px-3">
-            <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="{{ route('user.dashboard') }}">
+                    <img scr="{{ asset('public/assets/img/PNG-Blue.png') }}" alt="wiseAdvizor" height="100" width="100">
+                </a>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
                         <div class="input-group input-group-outline">
