@@ -112,10 +112,10 @@
   margin-left: -$card-cap-padding-x * .5;
   border-bottom: 0;
 
-  @if $nav-tabs-link-active-bg != $card-bg {
+  @if $nav-tabs-link-active-bg != #001E64  {
     .nav-link.active {
-      background-color: $card-bg;
-      border-bottom-color: $card-bg;
+      background-color: #001E64 !important;
+      border-bottom-color: #001E64 !important;
     }
   }
 }
