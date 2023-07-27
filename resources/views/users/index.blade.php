@@ -1074,7 +1074,7 @@
 }
 
 .req {
-    padding-right: 30px;
+    padding-right: 50px;
     margin-left: 20px;
 }
 </style>
