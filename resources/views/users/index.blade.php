@@ -1168,6 +1168,9 @@
 .card-header:first-child {
     border-radius: 0.75rem 0.75rem 0 0;
 }
-</style>
 
+.container-fluid {
+    overflow-y: hidden;
+}
+</style>
 </html>
