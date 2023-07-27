@@ -49,7 +49,7 @@
                             <input type="text" class="form-control"> -->
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 d-flex align-items-center">
                         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                             <li class="nav-item active">
                                 <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active"
