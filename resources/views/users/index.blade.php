@@ -88,11 +88,8 @@
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropdown" aria-expanded="false"> 
-                                <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
-                                    class="avatar avatar-sm me-3" alt="xd">
-                                <span class="d-sm-inline d-none">Welcome, {{ Auth::user()->name }}</span>
-                            </a>
+                                data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i>
+                                Profile </a>
                             <!-- Dropdown menu -->
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li>
@@ -104,7 +101,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                        <!-- <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
                                 <div class="sidenav-toggler-inner">
                                     <i class="sidenav-toggler-line">dffrerfe</i>
@@ -112,7 +109,7 @@
                                     <i class="sidenav-toggler-line">ferfergfre</i>
                                 </div>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item px-3 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0">
                                 <!-- <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i> -->
