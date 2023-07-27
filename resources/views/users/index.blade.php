@@ -86,23 +86,26 @@
                     </div>
 
                     <ul class="navbar-nav  justify-content-end">
-                    <li class="nav-item dropdown pe-2 d-flex align-items-center">
+                        <li class="nav-item dropdown pe-2 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i>
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                    class="avatar avatar-sm me-3" alt="xd">
                                 Welcome, {{ Auth::user()->name }}
                             </a>
                             <!-- Dropdown menu -->
                             <ul class="dropdown-menu dropdown-menu-end px-2 py-3 me-sm-n4"
                                 aria-labelledby="dropdownMenuButton">
                                 <li>
-                                    <a class="dropdown-item" href="#">My Profile</a>
+                                    <a class="dropdown-item" href="{{ route('user.profile', [Auth::user()->id]) }}">My
+                                        Profile</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">My Reviews</a>
+                                    <a class="dropdown-item" href="{{ route('user.review', [Auth::user()->id]) }}">My
+                                        Reviews</a>
                                 </li>
-
                                 <li>
-                                    <a class="dropdown-item" href="#">Log out</a>
+                                    <a class="dropdown-item" href="{{ route('logout') }}">Log out</a>
                                 </li>
                             </ul>
                         </li>

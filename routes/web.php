@@ -157,5 +157,5 @@ Route::controller(MentorController::class)
         Route::post('/review/save', 'saveReview')->name('review.save');
         Route::get('/schedule/update/{id?}', 'updateSchedule')->name('schedule.update');
         Route::post('/schedule/save', 'saveSchedule')->name('schedule.save');
-        Route::get('/profile', 'profile')->name('profile');
+        Route::get('/profile/{id?}', 'profile')->name('profile');
     });

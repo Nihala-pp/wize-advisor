@@ -110,7 +110,7 @@ class UserController extends Controller
       //  dd("Email is sent successfully.");
     }
 
-    public function profile()
+    public function profile($id)
     {
          $id = Auth::id();
          $profile = User::find($id);
