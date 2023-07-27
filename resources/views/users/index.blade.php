@@ -1164,6 +1164,10 @@
 .card-header {
     background-color: #001e64 !important;
 }
+
+.card-header:first-child {
+    border-radius: 0.75rem 0.75rem 0 0;
+}
 </style>
 
 </html>
