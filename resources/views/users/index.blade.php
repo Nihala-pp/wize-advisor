@@ -1153,6 +1153,12 @@
     font-size: 24px;
     color: #d17581;
 }
+
+.navbar-main li a {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
 </style>
 
 </html>
