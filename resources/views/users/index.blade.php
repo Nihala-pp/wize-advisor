@@ -90,11 +90,11 @@
                         </ul>
                     </div>
 
-                    <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
+                    <!-- <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
                         href="{{ route('browseMentor') }}">
                         {{ __('Browse
                                     Mentor') }}
-                    </button>
+                    </button> -->
 
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
