@@ -41,7 +41,7 @@
             <div class="container-fluid py-1 px-3">
                 <a class="navbar-brand" href="{{ route('user.dashboard') }}">
                     <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor"
-                        width="150;" height="75px;" style="object-fit:contain;">
+                        width="150;" height="75px;" style="object-fit:contain;" class="d-inline-block align-top">
                 </a>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex">
@@ -87,7 +87,7 @@
 
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="{{ route('user.profile') }}" class="nav-link text-body font-weight-bold px-0">
+                            <a href="" class="nav-link text-body font-weight-bold px-0">
                                 <i class="fa fa-user me-sm-1"></i>
                                 <span class="d-sm-inline d-none">Welcome, {{ Auth::user()->name }}</span>
                             </a>
