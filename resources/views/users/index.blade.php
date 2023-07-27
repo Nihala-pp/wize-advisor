@@ -1170,6 +1170,8 @@
 }
 
 .container-fluid {
+    paddingLeft: 20px;
+    paddingRight: 20px;
     overflow-y: hidden;
 }
 </style>
