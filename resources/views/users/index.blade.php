@@ -89,17 +89,13 @@
                             </li> -->
                         </ul>
                     </div>
-                    <div class="ms-md-auto pe-md-3 d-flex">
-                        <div class="input-group input-group-outline">
-                            <!-- <label class="form-label">Type here...</label> -->
-                            <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
-                                href="{{ route('browseMentor') }}">
-                                {{ __('Browse
+
+                    <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
+                        href="{{ route('browseMentor') }}">
+                        {{ __('Browse
                                     Mentor') }}
-                            </button>
-                            <!-- <input type="text" class="form-control">  -->
-                        </div>
-                    </div>
+                    </button>
+
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('user.profile') }}" class="nav-link text-body font-weight-bold px-0">
