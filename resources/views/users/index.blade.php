@@ -1160,6 +1160,10 @@
     font-weight: 700 !important;
     color: #001e64 !important;
 }
+
+.card-header {
+    background-color: #001e64 !important;
+}
 </style>
 
 </html>
