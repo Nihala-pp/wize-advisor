@@ -48,164 +48,7 @@
     </div>
     <!-- </aside> -->
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-            <p class="main-title bhf-hidden" itemprop="headline"><a href="{{ route('home') }}" title="wiseAdvizor"
-                    rel="home">wiseAdvizor</a></p>
-            <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
-                <header
-                    class="elementor-section elementor-top-section elementor-element elementor-element-7527857 elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"
-                    data-id="7527857" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#00000000&quot;,&quot;motion_fx_opacity_effect&quot;:&quot;yes&quot;,&quot;motion_fx_opacity_level&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;100&quot;,&quot;sizes&quot;:[]},&quot;motion_fx_opacity_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:&quot;23&quot;,&quot;end&quot;:&quot;27&quot;}},&quot;motion_fx_blur_effect&quot;:&quot;yes&quot;,&quot;motion_fx_blur_level&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;100&quot;,&quot;sizes&quot;:[]},&quot;motion_fx_opacity_direction&quot;:&quot;out-in&quot;,&quot;motion_fx_blur_direction&quot;:&quot;out-in&quot;,&quot;motion_fx_blur_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:&quot;20&quot;,&quot;end&quot;:&quot;80&quot;}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:&quot;0&quot;,&quot;sticky_effects_offset&quot;:&quot;0&quot;,&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;60&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8a75ec7"
-                            data-id="8a75ec7" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-26115fa elementor-widget elementor-widget-image"
-                                    data-id="26115fa" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <style>
-                                        /*! elementor - v3.14.0 - 26-06-2023 */
-                                        .elementor-widget-image {
-                                            text-align: center
-                                        }
-
-                                        .elementor-widget-image a {
-                                            display: inline-block
-                                        }
-
-                                        .elementor-widget-image a img[src$=".svg"] {
-                                            width: 48px
-                                        }
-
-                                        .elementor-widget-image img {
-                                            vertical-align: middle;
-                                            display: inline-block
-                                        }
-                                        </style><a href="{{ route('home') }}">
-                                            <img width="932" height="140"
-                                                src="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }}"
-                                                class="attachment-large size-large wp-image-624" alt=""
-                                                srcset="{{ asset('public/wp-content/uploads/2023/06/pngLargeC.png') }} 932w, {{ asset('public/wp-content/uploads/2023/06/pngLargeC-300x45.png') }} 300w, {{ asset('public/wp-content/uploads/2023/06/pngLargeC-768x115.png') }} 768w"
-                                                sizes="(max-width: 932px) 100vw, 932px"> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-527a9b3"
-                            data-id="527a9b3" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-ff5e4cd hfe-nav-menu__align-center hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
-                                    data-id="ff5e4cd" data-element_type="widget"
-                                    data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                                    data-widget_type="navigation-menu.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                            data-layout="horizontal">
-                                            <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
-                                                <span class="screen-reader-text">Menu</span>
-                                                <div class="hfe-nav-menu-icon">
-                                                    <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
-                                                </div>
-                                            </div>
-                                            <nav itemscope="itemscope"
-                                                itemtype="http://schema.org/SiteNavigationElement"
-                                                class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
-                                                data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
-                                                data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
-                                                data-full-width="yes">
-                                                <ul id="menu-1-ff5e4cd" class="hfe-nav-menu">
-                                                    <li id="menu-item-29" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                        <a href="{{ route('aboutUs') }}" itemprop="url"
-                                                            class="hfe-menu-item">About Us</a>
-                                                    </li>
-                                                    <li id="menu-item-28" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                        <a href="{{ route('contactUs') }}" itemprop="url"
-                                                            class="hfe-menu-item">Contact Us</a>
-                                                    </li>
-                                                    <li id="menu-item-27" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                        <div class="hfe-has-submenu-container"><a href="" itemprop="url"
-                                                                class="hfe-menu-item">Resource<span
-                                                                    class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                        class="fa"></i></span></a></div>
-                                                        <ul class="sub-menu">
-                                                            <li id="menu-item-24" itemprop="name"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                                <a href="{{ route('community-posts') }}" itemprop="url"
-                                                                    class="hfe-sub-menu-item">Community Post</a>
-                                                            </li>
-                                                            <li id="menu-item-25" itemprop="name"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                                <a href="{{ route('libraries') }}" itemprop="url"
-                                                                    class="hfe-sub-menu-item">Libraries</a>
-                                                            </li>
-                                                            <li id="menu-item-26" itemprop="name"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                                <a href="{{ route('faq') }}" itemprop="url"
-                                                                    class="hfe-sub-menu-item">FAQ</a>
-                                                            </li>
-                                                            <li id="menu-item-2842" itemprop="name"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                                <a href="{{ route('blogs') }}" itemprop="url"
-                                                                    class="hfe-sub-menu-item">BLOGS</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-78f6337"
-                            data-id="78f6337" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-02e763c elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                    data-id="02e763c" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            @if(Auth::id())
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="{{ route('user.dashboard') }}">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">Dashboard</span>
-                                                </span>
-                                            </a>
-                                            @else
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="{{ route('login') }}">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">Sign In</span>
-                                                </span>
-                                            </a>
-                                            @endif
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-ae81400 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                    data-id="ae81400" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="{{ route('browseMentor') }}">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">Browse Mentor</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-            </div>
-        </header>
-        <!-- <div class="col-lg-8">
+        <div class="col-lg-8">
             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item active">
                     <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active" target="_blank">Dashboard
@@ -217,26 +60,35 @@
                 <li class="nav-item">
                     <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                    <a href="{{ route('community-posts') }}" class="nav-link text-muted" target="_blank">Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ route('browseMentor') }}" class="nav-link pe-0 text-muted" target="_blank">Browse
-                        Mentors</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Resource
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a></li>
+                        <li><a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a></li>
+                        <li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
+                        <li><a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a></li>
+                    </ul>
                 </li>
             </ul>
-        </div> -->
+            <form class="d-flex">
+                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <button class="btn btn-outline-success" type="submit" href="{{ route('browseMentor') }}">Browse
+                    Mentor</button>
+            </form>
+        </div>
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
-            navbar-scroll="true">
+        <nav class="navbar navbar-main bg-gradient-dark navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
+            id="navbarBlur" data-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
-                                href="{{ route('user.dashboard') }}">Welcome, {{ auth()->user()->name }}</a></li>
-                        <!-- <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Dashboard</li> -->
-                    </ol>
-                    <h6 class="font-weight-bolder mb-0">Dashboard</h6>
+                    <a class="navbar-brand m-0" href="{{ route('user.dashboard') }}">
+                        <img src="{{ asset('public/assets/img/WhitePNG.png') }}" class="navbar-brand-img h-100"
+                            alt="main_logo">
+                        <!-- <span class="ms-1 font-weight-bold text-white">wiseAdvizor </span> -->
+                    </a>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -249,7 +101,7 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('user.profile') }}" class="nav-link text-body font-weight-bold px-0">
                                 <i class="fa fa-user me-sm-1"></i>
-                                <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
+                                <span class="d-sm-inline d-none">Welcome, {{ Auth::user()->name }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
