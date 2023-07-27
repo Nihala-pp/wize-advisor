@@ -90,7 +90,7 @@
                             <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
                                 data-bs-toggle="dropup" aria-expanded="false">
                                 <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
-                                    class="avatar avatar-sm me-3" alt="xd">
+                                    class="avatar avatar-sm me-3" alt="profile pic">
                                 Welcome, {{ Auth::user()->name }}
                             </a>
                             <!-- Dropdown menu -->
