@@ -89,11 +89,15 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                                 data-mdb-toggle="dropdown" aria-expanded="false"> <i class="fas fa-user mx-1"></i>
-                                Profile </a>
+                                Welcome, {{ Auth::user()->name }}
+                            </a>
                             <!-- Dropdown menu -->
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="dropdown-item" href="#">My account</a>
+                                    <a class="dropdown-item" href="#">My Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">My Reviews</a>
                                 </li>
 
                                 <li>
