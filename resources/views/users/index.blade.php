@@ -52,11 +52,11 @@
                     </div>
                     <div class="col-lg-8 d-flex align-items-center">
                         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                            <li class="nav-item active">
+                            <!-- <li class="nav-item active">
                                 <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active"
                                     target="_blank">Dashboard
                                 </a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a href="{{ route('aboutUs') }}" class="nav-link text-muted" target="_blank">About
                                     Us</a>
