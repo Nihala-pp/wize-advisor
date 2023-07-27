@@ -1094,6 +1094,12 @@
     padding-right: 50px;
     margin-left: 20px;
 }
+
+.navbar {
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 </style>
 
 </html>
