@@ -40,7 +40,8 @@
             id="navbarBlur" data-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <a class="navbar-brand" href="{{ route('user.dashboard') }}">
-                    <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor" width="150;" height="75px;" style="object-fit:contain;">
+                    <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor"
+                        width="150;" height="75px;" style="object-fit:contain;">
                 </a>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="col-lg-8 d-flex align-items-center">
@@ -71,11 +72,22 @@
                                     <li><a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a href="{{ route('browseMentor') }}" class="nav-link text-muted" target="_blank">Browse
                                     Mentor</a>
-                            </li>
+                            </li> -->
                         </ul>
+                    </div>
+                    <div class="ms-md-auto pe-md-3 d-flex">
+                        <div class="input-group input-group-outline">
+                            <!-- <label class="form-label">Type here...</label> -->
+                            <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
+                                href="{{ route('browseMentor') }}">
+                                {{ __('Browse
+                                    Mentor') }}
+                            </button>
+                            <!-- <input type="text" class="form-control">  -->
+                        </div>
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
