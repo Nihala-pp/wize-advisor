@@ -198,334 +198,341 @@
         <!--====================================================
                            Upcoming Sessions
     ======================================================-->
-        <div class="container-fluid py-4">
-            <div class="row">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card my-4">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Upcoming Sessions</h6>
+        <div class="page-header align-items-start min-vh-100"
+            style="background-image: url('{{ asset('public/assets/img/user-dashboard.jpg') }}')">
+            <div class="container-fluid py-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card my-4">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">Upcoming Sessions</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body px-0 pb-2">
-                            <div class="table-responsive">
-                                <table class="table align-items-center mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Name</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Description</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                Date & Time</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Action</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            </th>
-                                            <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach($upcoming_sessions as $upcoming_session)
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : '' }}"
-                                                            class="avatar avatar-sm me-3" alt="xd">
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Name</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Description</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Date & Time</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Action</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                </th>
+                                                <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($upcoming_sessions as $upcoming_session)
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 py-1">
+                                                        <div>
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : '' }}"
+                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                        </div>
+                                                        <div class="d-flex flex-column justify-content-center">
+                                                            <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}
+                                                            </h6>
+                                                        </div>
                                                     </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}
-                                                        </h6>
+                                                </td>
+                                                <td>
+                                                    <div class="avatar-group mt-2">
+                                                        {{ $upcoming_session->description }}
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $upcoming_session->description }}
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $upcoming_session->date }} {{ $upcoming_session->start_time }}
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ $upcoming_session->call_link ?: '' }}" class=""
-                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                        title="Join Session">
-                                                        Join Session
-                                                    </a>
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="" class="" data-bs-toggle="tooltip"
-                                                        data-bs-placement="bottom" title="update Session">
-                                                        Update Session
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
+                                                </td>
+                                                <td>
+                                                    <div class="avatar-group mt-2">
+                                                        {{ $upcoming_session->date }}
+                                                        {{ $upcoming_session->start_time }}
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="{{ $upcoming_session->call_link ?: '' }}" class=""
+                                                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="Join Session">
+                                                            Join Session
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="" class="" data-bs-toggle="tooltip"
+                                                            data-bs-placement="bottom" title="update Session">
+                                                            Update Session
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--====================================================
+            <!--====================================================
                            Requested Sessions
     ======================================================-->
-        <div class="container-fluid py-4">
-            <div class="row">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card my-4">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Requested Sessions</h6>
+            <div class="container-fluid py-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card my-4">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">Requested Sessions</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body px-0 pb-2">
-                            <div class="table-responsive">
-                                <table class="table align-items-center mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Name</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Description</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                Date & Time</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                Status</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Action</th>
-                                            <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach($requested_sessions as $requested_session)
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}"
-                                                            class="avatar avatar-sm me-3" alt="xd">
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Name</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Description</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Date & Time</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Status</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Action</th>
+                                                <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($requested_sessions as $requested_session)
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 py-1">
+                                                        <div>
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}"
+                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                        </div>
+                                                        <div class="d-flex flex-column justify-content-center">
+                                                            <h6 class="mb-0 text-sm">
+                                                                {{ $requested_session->user->name }}
+                                                            </h6>
+                                                        </div>
                                                     </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $requested_session->user->name }}
-                                                        </h6>
+                                                </td>
+                                                <td>
+                                                    <div class="avatar-group mt-2">
+                                                        {{ $requested_session->description }}
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $requested_session->description }}
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $requested_session->date }} {{ $requested_session->start_time }}
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $requested_session->status }}
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ route('user.schedule.update', [$requested_session->id]) }}"
-                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                        title="Update Session">
-                                                        Update Session
-                                                    </a>
-                                                </div>
-                                                <!-- <div class="avatar-group mt-2">
+                                                </td>
+                                                <td>
+                                                    <div class="avatar-group mt-2">
+                                                        {{ $requested_session->date }}
+                                                        {{ $requested_session->start_time }}
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="avatar-group mt-2">
+                                                        {{ $requested_session->status }}
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="{{ route('user.schedule.update', [$requested_session->id]) }}"
+                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="Update Session">
+                                                            Update Session
+                                                        </a>
+                                                    </div>
+                                                    <!-- <div class="avatar-group mt-2">
                                                     <a href="" class="" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Reject Session">
                                                         Reject
                                                     </a>
                                                 </div> -->
-                                            </td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
+                                                </td>
+                                            </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--====================================================
+            <!--====================================================
                            Completed Sessions
     ======================================================-->
-        <div class="container-fluid py-4">
-            <div class="row">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Completed Sessions</h6>
+            <div class="container-fluid py-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">Completed Sessions</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body px-0 pb-2">
-                            <div class="table-responsive">
-                                <table class="table align-items-center mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Name</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                Date & Time</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Action</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            </th>
-                                            <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach($completed_sessions as $completed_session)
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}"
-                                                            class="avatar avatar-sm me-3" alt="xd">
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Name</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Date & Time</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Action</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                </th>
+                                                <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($completed_sessions as $completed_session)
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 py-1">
+                                                        <div>
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}"
+                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                        </div>
+                                                        <div class="d-flex flex-column justify-content-center">
+                                                            <h6 class="mb-0 text-sm">
+                                                                {{ $completed_session->user->name }}
+                                                            </h6>
+                                                        </div>
                                                     </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $completed_session->user->name }}
-                                                        </h6>
+                                                </td>
+                                                <td>
+                                                    <div class="avatar-group mt-2">
+                                                        {{ $completed_session->date }} -
+                                                        {{ $completed_session->start_time }}
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $completed_session->date }} -
-                                                    {{ $completed_session->start_time }}
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                        title="Write Review" target="_blank">
-                                                        Write Review
-                                                    </a>
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ route('schedule-call', [$completed_session->mentor_id]) }}"
-                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                        title="Schedule Again">
-                                                        Schedule Again
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
+                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="Write Review" target="_blank">
+                                                            Write Review
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="{{ route('schedule-call', [$completed_session->mentor_id]) }}"
+                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="Schedule Again">
+                                                            Schedule Again
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--====================================================
+            <!--====================================================
                            Suggested Mentors
     ======================================================-->
-        <div class="container-fluid py-4">
-            <div class="row">
-                <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Suggested Mentors</h6>
+            <div class="container-fluid py-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">Suggested Mentors</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body px-0 pb-2">
-                            <div class="table-responsive">
-                                <table class="table align-items-center mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Name</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                Topic</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                                Action</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                            </th>
-                                            <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach($suggested_mentors as $suggested_mentor)
-                                        <tr>
-                                            <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $suggested_mentor->user->metaData ? $suggested_mentor->user->metaData->profile_pic : '' }}"
-                                                            class="avatar avatar-sm me-3" alt="xd">
+                            <div class="card-body px-0 pb-2">
+                                <div class="table-responsive">
+                                    <table class="table align-items-center mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Name</th>
+                                                <th
+                                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                    Topic</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                    Action</th>
+                                                <th
+                                                    class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                                </th>
+                                                <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($suggested_mentors as $suggested_mentor)
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex px-2 py-1">
+                                                        <div>
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $suggested_mentor->user->metaData ? $suggested_mentor->user->metaData->profile_pic : '' }}"
+                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                        </div>
+                                                        <div class="d-flex flex-column justify-content-center">
+                                                            <h6 class="mb-0 text-sm">{{ $suggested_mentor->name }}</h6>
+                                                        </div>
                                                     </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $suggested_mentor->name }}</h6>
+                                                </td>
+                                                <td>
+                                                    <div class="avat2023-07-05 13ar-group mt-2">
+                                                        {{ $suggested_mentor->metaData->designation }} </div>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="{{ route('profile', [$suggested_mentor->id]) }}"
+                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="Join Session">
+                                                            View Profile
+                                                        </a>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avat2023-07-05 13ar-group mt-2">
-                                                    {{ $suggested_mentor->metaData->designation }} </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ route('profile', [$suggested_mentor->id]) }}" class=""
-                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                        title="Join Session">
-                                                        View Profile
-                                                    </a>
-                                                </div>
-                                            </td>
-                                            <td class="align-middle text-center text-sm">
-                                                <div class="avatar-group mt-2">
-                                                    <a href="{{ route('schedule-call', [$suggested_mentor->id]) }}"
-                                                        class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                        title="Join Session">
-                                                        Schedule Call
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        @endforeach
-                                    </tbody>
-                                </table>
+                                                </td>
+                                                <td class="align-middle text-center text-sm">
+                                                    <div class="avatar-group mt-2">
+                                                        <a href="{{ route('schedule-call', [$suggested_mentor->id]) }}"
+                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="Join Session">
+                                                            Schedule Call
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
