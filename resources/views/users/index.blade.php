@@ -1158,7 +1158,7 @@
     font-family: "Helvetica", Sans-serif !important;
     font-size: 17px !important; 
     font-weight: 700 !important;
-    font-color : #001E64 !important;
+    color : #001E64 !important;
 }
 </style>
 
