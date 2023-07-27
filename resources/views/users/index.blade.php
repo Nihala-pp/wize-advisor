@@ -47,11 +47,6 @@
                     <div class="ms-md-auto pe-md-3 d-flex align-items-cente">
                         <div class="input-group input-group-outline">
                             <!-- <label class="form-label">Type here...</label> -->
-                            <!-- <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2"
-                                href="{{ route('browseMentor') }}">
-                                {{ __('Browse
-                                    Mentor') }}
-                            </button> -->
                             <!-- <input type="text" class="form-control">  -->
                         </div>
                     </div>
