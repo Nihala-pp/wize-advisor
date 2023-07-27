@@ -40,7 +40,7 @@
             id="navbarBlur" data-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <a class="navbar-brand" href="{{ route('user.dashboard') }}">
-                    <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor" height="100" width="100">
+                    <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor" width="100%;" height="90px;" >
                 </a>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
