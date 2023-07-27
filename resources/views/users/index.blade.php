@@ -65,7 +65,7 @@
                                 <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact
                                     Us</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropup">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Resource
@@ -88,7 +88,7 @@
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                                data-bs-toggle="dropup" aria-expanded="false">
                                 <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
                                     class="avatar avatar-sm me-3" alt="xd">
                                 Welcome, {{ Auth::user()->name }}
