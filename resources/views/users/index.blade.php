@@ -85,7 +85,7 @@
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <a class="navbar-brand m-0" href="{{ route('user.dashboard') }}">
-                        <img src="{{ asset('public/assets/img/WhitePNG.png') }}" class="navbar-brand-img h-100"
+                        <img src="{{ asset('public/assets/img/PNG-Blue.png') }}" width="932" height="140" class="navbar-brand-img h-100"
                             alt="main_logo">
                         <!-- <span class="ms-1 font-weight-bold text-white">wiseAdvizor </span> -->
                     </a>
