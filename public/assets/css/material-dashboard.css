@@ -2922,7 +2922,7 @@ textarea.form-control-lg {
   .btn-link:focus {
     text-decoration: none; }
   .btn-link:disabled, .btn-link.disabled {
-    color: #6c757d; }
+    color: #001E64; }
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.75rem 1.75rem;
