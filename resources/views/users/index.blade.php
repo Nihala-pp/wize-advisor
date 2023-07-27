@@ -198,11 +198,10 @@
         <!--====================================================
                            Upcoming Sessions
     ======================================================-->
-        <div class="row"
-            style="background-image: url('{{ asset('public/assets/img/user-dashboard.png') }}')">
+        <div class="row" style="background-image: url('{{ asset('public/assets/img/user-dashboard.png') }}')">
             <div class="container-fluid py-4">
                 <div class="row">
-                <div class="col-lg-12 col-md-8 mb-md-0 mb-8">
+                    <div class="col-lg-12 col-md-8 mb-md-0 mb-8">
                         <div class="card my-4">
                             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                 <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
