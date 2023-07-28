@@ -207,7 +207,7 @@ class MentorController extends Controller
 
     public function save_schedule(Request $request)
     {
-        dd($request->all());
+        // dd($request->all());
         foreach ($request->schedule as $key => $schedule) {
             $exists = AvailableSchedule::where('mentor_id', Auth::id())
                 ->where('date', $schedule['date'])
