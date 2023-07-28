@@ -247,7 +247,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control date">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -278,7 +278,7 @@
                                         <div class="col-md-4">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue1">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -309,7 +309,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue2">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -340,7 +340,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue3">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -371,7 +371,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue4">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -402,7 +402,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue5">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -433,7 +433,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control datevalue6">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
