@@ -272,6 +272,7 @@
                                         </div>
                                         <div id="newinput"></div>
                                     </div>
+                                    </hr>
                                     <div class="row">
                                         <div class="col-md-4 mt-4">
                                             <div class="form-check">
@@ -332,6 +333,7 @@
                                         </div>
                                         <div id="newinput"></div>
                                     </div>
+                                    </hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
                                             <div class="form-check">
@@ -362,6 +364,7 @@
                                         </div>
                                         <div id="newinput"></div>
                                     </div>
+                                    </hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
                                             <div class="form-check">
@@ -392,6 +395,7 @@
                                         </div>
                                         <div id="newinput"></div>
                                     </div>
+                                    </hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
                                             <div class="form-check">
@@ -422,6 +426,7 @@
                                         </div>
                                         <div id="newinput"></div>
                                     </div>
+                                    </hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
                                             <div class="form-check">
