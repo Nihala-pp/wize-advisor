@@ -512,7 +512,7 @@
 
         let row_number = 0;
         $(".rowAdder").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -545,7 +545,7 @@
         });
 
         $(".rowAdder5").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue5').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -578,7 +578,7 @@
         });
 
         $(".rowAdder6").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue6').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -611,7 +611,7 @@
         });
 
         $(".rowAdder1").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue1').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -644,7 +644,7 @@
         });
 
         $(".rowAdder2").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue2').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -677,7 +677,7 @@
         });
 
         $(".rowAdder3").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue3').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -710,7 +710,7 @@
         });
 
         $(".rowAdder4").click(function(e) {
-            var date = $('.date').val();
+            var date = $('.datevalue4').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
