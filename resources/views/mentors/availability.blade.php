@@ -269,6 +269,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
+                                                <i class="fa fa-trash" id="DeleteRow"> </i>
                                             </div>
                                         </div>
                                         <div id="newinput"></div>
@@ -300,6 +301,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
+                                                <i class="fa fa-trash" id="DeleteRow"> </i>
                                             </div>
                                         </div>
                                         <div id="newinput"></div>
@@ -331,6 +333,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
+                                                <i class="fa fa-trash" id="DeleteRow"> </i>
                                             </div>
                                         </div>
                                         <div id="newinput"></div>
@@ -362,6 +365,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
+                                                <i class="fa fa-trash" id="DeleteRow"> </i>
                                             </div>
                                         </div>
                                         <div id="newinput"></div>
@@ -393,6 +397,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
+                                                <i class="fa fa-trash" id="DeleteRow"> </i>
                                             </div>
                                         </div>
                                         <div id="newinput"></div>
@@ -424,7 +429,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
-                                                <i class="fa fa-plus" id="rowAdder"> </i>
+                                                <i class="fa fa-trash" id="DeleteRow"> </i>
                                             </div>
                                         </div>
                                         <div id="newinput"></div>
