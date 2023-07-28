@@ -543,7 +543,7 @@
         $(".DeleteRow").click(function(e) {
             e.preventDefault();
             if (row_number > 1) {
-                $(this).parents(".newinput" + (row_number - 1)).html('');
+                $(this).parents(".row" + (row_number - 1)).remove();
                 row_number--;
             }
         });
