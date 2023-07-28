@@ -269,7 +269,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
         $arr_token = $this->get_access_token();
         $accessToken = $arr_token->access_token;
         $url = '/v2/users/';
-        $user = $schedule->user_id;
+        $user = 'me';
         $url_end = '/meetings';
         $api_url = $url . $user . $url_end;
 
@@ -285,7 +285,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                     "duration" => $schedule->duration,
                     "password" => "123456",
                     "timezone" => $schedule->utc,
-                    'schedule_for' => "nihala.pp@pransainvestment.com",
                     "agenda" => "30 Min Meeting",
                     "allow_multiple_devices" => true,
                     "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
