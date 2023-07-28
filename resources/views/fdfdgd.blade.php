@@ -394,3 +394,27 @@
         // });
 
 
+		$response = $client->request('POST', $api_url, [
+                "headers" => [
+                    "Authorization" => "Bearer $accessToken"
+                ],
+                'json' => [
+                    "topic" => "30 Min Meeting",
+                    "type" => self::MEETING_TYPE_SCHEDULE,
+                    "start_time" => $date,
+                    "duration" => $schedule->duration,
+                    "password" => "123456",
+                    "timezone" => $schedule->utc,
+                    "agenda" => "30 Min Meeting",
+                    "allow_multiple_devices" => true,
+                    "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
+                    "alternative_hosts_email_notification" => true,
+                    "approval_type" => self::MEETING_TYPE_SCHEDULE,
+                    "settings" => [
+                        'host_video' => true,
+                        'participant_video' => true,
+                        'waiting_room' => true,
+                    ],
+                ],
+
+
