@@ -236,12 +236,13 @@
                                     <div class="input-group">
                                         <label class="form-label"></label>
                                         <select class="form-control" name="time_zone" required>
-                                            <option value="">Choose your time zones</option>
+                                            <option value="">Choose your time zone</option>
                                             @foreach($timezones as $timezone => $value)
                                             <option value="{{ $value }}">{{ $timezone }}</option>
                                             @endforeach
                                         </select>
                                     </div>
+                                    <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
                                             <div class="form-check">
