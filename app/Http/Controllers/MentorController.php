@@ -79,7 +79,7 @@ class MentorController extends Controller
         return view('mentors.availability', compact('timezones', 'weekStartDate', 'availability'));
     }
 
-    public function update_status($id)
+    public function update_status($id, Request $request)
     {
 
         ScheduledCall::find($id)->update(['status' => 'Approved']);
@@ -88,7 +88,8 @@ class MentorController extends Controller
             $url = "https://zoom.us/oauth/authorize?response_type=code&";
             $client_id = env('ZOOM_API_KEY');
             $client_secret = env('ZOOM_API_SECRET');
-            $redirect_uri = env('REDIRECT_URI');
+            $configured_redirect_uri = env('REDIRECT_URI');
+            $redirect_uri = $configured_redirect_uri.'/'.$id;
             $data = "client_id=$client_id&redirect_uri=$redirect_uri";
             $api_url = $url . $data;
             $authorization_code = $this->get_authorization_code($api_url);
