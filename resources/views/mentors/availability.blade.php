@@ -272,7 +272,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -304,7 +304,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -336,7 +336,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -368,7 +368,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -400,7 +400,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -432,7 +432,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -464,7 +464,7 @@
                                                 <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput"></div>
+                                        <div id="newinput" class="newinput"></div>
                                     </div>
                             </div>
                         </div>
@@ -518,7 +518,7 @@
         // });
 
         let row_number = 1;
-        $("#rowAdder").click(function(e) {
+        $(".rowAdder").click(function(e) {
             e.preventDefault();
             let new_row_number = row_number - 1;
             newRowAdd =
@@ -538,14 +538,14 @@
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
                 '</div></div></div>';
-            $('#newinput').append(newRowAdd);
+            $('.newinput').append(newRowAdd);
             row_number++;
         });
 
-        $("#DeleteRow").click(function(e) {
+        $(".DeleteRow").click(function(e) {
             e.preventDefault();
             if (row_number > 1) {
-                $("#product" + (row_number - 1)).html('');
+                $(this).parents(".newinput" + (row_number - 1)).html('');
                 row_number--;
             }
         });
