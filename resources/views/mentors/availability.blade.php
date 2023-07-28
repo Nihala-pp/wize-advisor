@@ -275,7 +275,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-4 ">
+                                        <div class="col-md-4">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -510,10 +510,10 @@
         //     format: 'hh:mm A',
         // });
 
-        let row_number = 1;
+        let row_number = 0;
         $(".rowAdder").click(function(e) {
             e.preventDefault();
-            let new_row_number = row_number - 1;
+            let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
                 '<div class="col-md-4">' +
@@ -536,8 +536,8 @@
         $(".DeleteRow").click(function(e) {
             e.preventDefault();
             if (row_number > 1) {
-                $(this).parents(".row" + (row_number - 1)).remove();
-                row_number--;
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
             }
         });
 
