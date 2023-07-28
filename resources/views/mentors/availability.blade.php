@@ -244,7 +244,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -264,7 +264,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -275,27 +275,27 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -306,27 +306,27 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -337,27 +337,27 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -368,27 +368,27 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -399,27 +399,27 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -430,27 +430,27 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-2">
+                                        <div class="col-md-4 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
