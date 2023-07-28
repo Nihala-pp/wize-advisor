@@ -244,7 +244,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -264,7 +264,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -275,7 +275,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -295,7 +295,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -306,7 +306,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -326,7 +326,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -337,7 +337,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -357,7 +357,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -368,7 +368,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -388,7 +388,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -399,7 +399,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -419,7 +419,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
@@ -430,7 +430,7 @@
                                     </div>
                                     <hr>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-3 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
                                                 <input type="date" name="schedule[0][date]" class="form-control">
@@ -450,7 +450,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1 mt-4">
+                                        <div class="col-md-1 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder" id="rowAdder"> </i>
