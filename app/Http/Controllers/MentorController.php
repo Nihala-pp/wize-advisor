@@ -96,7 +96,6 @@ class MentorController extends Controller
             // dd($authorization_code);
 
             $code = $request->code;
-            dd($code);
 
             $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
 
@@ -123,7 +122,7 @@ class MentorController extends Controller
             echo $e->getMessage();
         }
 
-        $call_link = $this->getZoomCallLink($id);
+       return $this->getZoomCallLink($id);
     }
 
     public function reject_call($id)
@@ -263,10 +262,7 @@ class MentorController extends Controller
         $client_secret = env('ZOOM_API_SECRET');
         $schedule = ScheduledCall::find($id);
         $date = $schedule->date . '\T' . $schedule->start_time;
-
-        $request = new \Illuminate\Http\Request();
-
-        $this->generateAccessToken($request);
+        // $this->generateAccessToken($request);
 
         $client = new \GuzzleHttp\Client(['base_uri' => 'https://api.zoom.us']);
 
@@ -289,7 +285,7 @@ class MentorController extends Controller
                     "duration" => $schedule->duration,
                     "password" => "123456",
                     "timezone" => $schedule->utc,
-                    "schedule_for" => $schedule->mentor_id,
+                    "schedule_for" => $schedule->user->name,
                     "allow_multiple_devices" => true,
                     "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
                     "alternative_hosts_email_notification" => true,
