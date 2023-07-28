@@ -245,10 +245,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">SUN</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -277,10 +276,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">MON</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -309,10 +307,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">TUE</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -341,10 +338,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">WED</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -373,10 +369,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">THU</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -405,10 +400,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">FRI</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -437,10 +431,9 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-3 mt-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1">
-                                                <label class="custom-control-label" for="customCheck1">SAT</label>
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]" class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
