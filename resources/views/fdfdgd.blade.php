@@ -370,3 +370,27 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
 
 
+		// $("#rowAdder").click(function() {
+        //     newRowAdd =
+        //         '<div class="row" id="row">' +
+        //         '<div class="col-md-3">' +
+        //         '<div class="input-group input-group-static my-3">' +
+        //         '</div></div>' +
+        //         '<div class="col-md-4">' +
+        //         '<div class="input-group input-group-static my-3">' +
+        //         '<label>Start Time</label>' +
+        //         '<input type="time" name="schedule[1][start_time]" class="form-control">' +
+        //         '</div></div>' +
+        //         '<div class="col-md-4">' +
+        //         '<div class="input-group input-group-static my-3">' +
+        //         '<label>End Time</label>' +
+        //         '<input type="time" name="schedule[1][end_time]" class="form-control">' +
+        //         '</div></div></div>';
+        //     $('#newinput').append(newRowAdd);
+        // });
+
+        // $("#DeleteRow").click(function() {
+        //     $(this).parents("#row").remove();
+        // });
+
+
