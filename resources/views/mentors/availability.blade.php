@@ -264,7 +264,7 @@
                                                     required>
                                             </div>
                                         </div>
-                                        <div class="col-md-1">
+                                        <div class="col-md-1 mt-4">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus" id="rowAdder"> </i>
