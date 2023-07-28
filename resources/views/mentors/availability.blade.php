@@ -520,7 +520,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -553,7 +553,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -586,7 +586,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -619,7 +619,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -652,7 +652,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -685,7 +685,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -718,7 +718,7 @@
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
-                '][start_time]" class="form-control" value='+ date +'>' +
+                '][date]" class="form-control" value="'+ date +'">' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
