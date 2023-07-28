@@ -273,7 +273,7 @@
                                         <div id="newinput"></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-3 mt-4">
+                                        <div class="col-md-4 mt-4">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value=""
                                                     id="fcustomCheck1">
