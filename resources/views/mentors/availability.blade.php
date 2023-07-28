@@ -247,7 +247,7 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control">
+                                                <input type="date" name="schedule[0][date]" class="form-control date">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -298,11 +298,11 @@
                                         <div class="col-md-2 ">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <i class="fa fa-plus rowAdder1 ml-2" id="rowAdder1"> </i>
+                                                <i class="fa fa-trash DeleteRow1" id="DeleteRow1"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="newinput1" class="newinput1"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -329,11 +329,11 @@
                                         <div class="col-md-2">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <i class="fa fa-plus rowAdder2 ml-2" id="rowAdder2"> </i>
+                                                <i class="fa fa-trash DeleteRow2" id="DeleteRow2"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="newinput2" class="newinpu2t"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -360,11 +360,11 @@
                                         <div class="col-md-2 ">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <i class="fa fa-plus rowAdder3 ml-2" id="rowAdder3"> </i>
+                                                <i class="fa fa-trash DeleteRow3" id="DeleteRow3"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="newinput3" class="newinput3"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -391,11 +391,11 @@
                                         <div class="col-md-2 ">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <i class="fa fa-plus rowAdder4 ml-2" id="rowAdder4"> </i>
+                                                <i class="fa fa-trash DeleteRow4" id="DeleteRow4"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="newinput" class="newinput4"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -422,11 +422,11 @@
                                         <div class="col-md-2 ">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <i class="fa fa-plus rowAdder5 ml-2" id="rowAdder5"> </i>
+                                                <i class="fa fa-trash DeleteRow5" id="DeleteRow5"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="newinput" class="newinput5"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
@@ -453,11 +453,11 @@
                                         <div class="col-md-2 ">
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <i class="fa fa-plus rowAdder6 ml-2" id="rowAdder6"> </i>
+                                                <i class="fa fa-trash DeleteRow6" id="DeleteRow6"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="newinput6" class="newinput6"></div>
                                     </div>
                             </div>
                         </div>
@@ -512,12 +512,15 @@
 
         let row_number = 0;
         $(".rowAdder").click(function(e) {
+            var date = $('.date').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
@@ -534,6 +537,204 @@
         });
 
         $(".DeleteRow").click(function(e) {
+            e.preventDefault();
+            if (row_number > 1) {
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
+            }
+        });
+
+        $(".rowAdder5").click(function(e) {
+            var date = $('.date').val();
+            e.preventDefault();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][end_time]" class="form-control">' +
+                '</div></div></div>';
+            $('.newinput5').append(newRowAdd);
+            row_number++;
+        });
+
+        $(".DeleteRow5").click(function(e) {
+            e.preventDefault();
+            if (row_number > 1) {
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
+            }
+        });
+
+        $(".rowAdder6").click(function(e) {
+            var date = $('.date').val();
+            e.preventDefault();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][end_time]" class="form-control">' +
+                '</div></div></div>';
+            $('.newinput6').append(newRowAdd);
+            row_number++;
+        });
+
+        $(".DeleteRow6").click(function(e) {
+            e.preventDefault();
+            if (row_number > 1) {
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
+            }
+        });
+
+        $(".rowAdder1").click(function(e) {
+            var date = $('.date').val();
+            e.preventDefault();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][end_time]" class="form-control">' +
+                '</div></div></div>';
+            $('.newinput1').append(newRowAdd);
+            row_number++;
+        });
+
+        $(".DeleteRow1").click(function(e) {
+            e.preventDefault();
+            if (row_number > 1) {
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
+            }
+        });
+
+        $(".rowAdder2").click(function(e) {
+            var date = $('.date').val();
+            e.preventDefault();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][end_time]" class="form-control">' +
+                '</div></div></div>';
+            $('.newinput2').append(newRowAdd);
+            row_number++;
+        });
+
+        $(".DeleteRow2").click(function(e) {
+            e.preventDefault();
+            if (row_number > 1) {
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
+            }
+        });
+
+        $(".rowAdder3").click(function(e) {
+            var date = $('.date').val();
+            e.preventDefault();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][end_time]" class="form-control">' +
+                '</div></div></div>';
+            $('.newinput3').append(newRowAdd);
+            row_number++;
+        });
+
+        $(".DeleteRow3").click(function(e) {
+            e.preventDefault();
+            if (row_number > 1) {
+                $(this).parents(".row" + (row_number + 1)).remove();
+                row_number++;
+            }
+        });
+
+        $(".rowAdder4").click(function(e) {
+            var date = $('.date').val();
+            e.preventDefault();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-4">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="hidden" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control" value='+ date +'>' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][start_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<input type="time" name="schedule[' + new_row_number +
+                '][end_time]" class="form-control">' +
+                '</div></div></div>';
+            $('.newinput4').append(newRowAdd);
+            row_number++;
+        });
+
+        $(".DeleteRow4").click(function(e) {
             e.preventDefault();
             if (row_number > 1) {
                 $(this).parents(".row" + (row_number + 1)).remove();
