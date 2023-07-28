@@ -321,12 +321,12 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
                 ZoomAPI::update_access_token($response->getBody());
 
-                $this->getZoomCallLink();
+                $this->getZoomCallLink($id);
             } else {
                 dd($e->getMessage());
             }
         }
-        $this->getZoomCallLink();
+        $this->getZoomCallLink($id);
     }
 
     public function generateAccessToken(Request $request)
