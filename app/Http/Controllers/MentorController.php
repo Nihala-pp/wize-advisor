@@ -93,9 +93,9 @@ class MentorController extends Controller
             $data = "client_id=$client_id&redirect_uri=$redirect_uri";
             $api_url = $url . $data;
             $authorization_code = $this->get_authorization_code($api_url);
+            dd($authorization_code);
 
             $code = $request->code;
-            dd($code);
 
             $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
 
