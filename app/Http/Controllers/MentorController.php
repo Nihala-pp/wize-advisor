@@ -15,6 +15,7 @@ use App\Models\ZoomAPI;
 use GuzzleHttp\Client;
 use Illuminate\Http\Response;
 use Log;
+use Exception;
 
 
 class MentorController extends Controller
@@ -84,43 +85,43 @@ class MentorController extends Controller
 
         ScheduledCall::find($id)->update(['status' => 'Approved']);
 
-        try {
-            $url = "https://zoom.us/oauth/authorize?response_type=code&";
-            $client_id = env('ZOOM_API_KEY');
-            $client_secret = env('ZOOM_API_SECRET');
-            $configured_redirect_uri = env('REDIRECT_URI');
-            $redirect_uri = $configured_redirect_uri.'/'.$id;
-            $data = "client_id=$client_id&redirect_uri=$redirect_uri";
-            $api_url = $url . $data;
-            $authorization_code = $this->get_authorization_code($api_url);
-            // dd($authorization_code);
+        // try {
+        //     $url = "https://zoom.us/oauth/authorize?response_type=code&";
+        //     $client_id = env('ZOOM_API_KEY');
+        //     $client_secret = env('ZOOM_API_SECRET');
+        //     $configured_redirect_uri = env('REDIRECT_URI');
+        //     $redirect_uri = $configured_redirect_uri.'/'.$id;
+        //     $data = "client_id=$client_id&redirect_uri=$redirect_uri";
+        //     $api_url = $url . $data;
+        //     $authorization_code = $this->get_authorization_code($api_url);
+        //     // dd($authorization_code);
 
-            $code = $request->code;
+        //     $code = $request->code;
 
-            $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
+        //     $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
 
 
-            // $authorization_code = redirect($api_url);
-            // dd($authorization_code);
+        //     // $authorization_code = redirect($api_url);
+        //     // dd($authorization_code);
 
-            $response = $client->request('POST', '/oauth/token', [
-                "headers" => [
-                    "Authorization" => "Basic " . base64_encode($client_id . ':' . $client_secret)
-                ],
-                'form_params' => [
-                    "grant_type" => "authorization_code",
-                    "code" => $code,
-                    "redirect_uri" => $redirect_uri
-                ],
-            ]);
+        //     $response = $client->request('POST', '/oauth/token', [
+        //         "headers" => [
+        //             "Authorization" => "Basic " . base64_encode($client_id . ':' . $client_secret)
+        //         ],
+        //         'form_params' => [
+        //             "grant_type" => "authorization_code",
+        //             "code" => $code,
+        //             "redirect_uri" => $redirect_uri
+        //         ],
+        //     ]);
 
-            $token = json_decode($response->getBody()->getContents(), true);
+        //     $token = json_decode($response->getBody()->getContents(), true);
 
-            ZoomAPI::update_access_token(json_encode($token));
-            dd("Access token inserted successfully.");
-        } catch (Exception $e) {
-            echo $e->getMessage();
-        }
+        //     ZoomAPI::update_access_token(json_encode($token));
+        //     dd("Access token inserted successfully.");
+        // } catch (Exception $e) {
+        //     dd($e->getMessage());
+        // }
 
        return $this->getZoomCallLink($id);
     }
@@ -322,7 +323,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
                 $this->getZoomCallLink();
             } else {
-                echo $e->getMessage();
+                dd($e->getMessage());
             }
         }
         $this->getZoomCallLink();
@@ -364,7 +365,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             ZoomAPI::update_access_token(json_encode($token));
             dd("Access token inserted successfully.");
         } catch (Exception $e) {
-            echo $e->getMessage();
+            dd($e->getMessage());
         }
     }
 
