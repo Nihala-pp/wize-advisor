@@ -246,7 +246,7 @@
                                         <div class="col-md-4">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value=""
-                                                    id="fcustomCheck1" checked="">
+                                                    id="fcustomCheck1">
                                                 <label class="custom-control-label" for="customCheck1">Monday</label>
                                             </div>
                                         </div>
