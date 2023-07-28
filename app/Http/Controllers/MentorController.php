@@ -16,7 +16,8 @@ use GuzzleHttp\Client;
 use Illuminate\Http\Response;
 use Log;
 use Exception;
-
+use App\Mail\CallApprovalUser;
+use Illuminate\Support\Facades\Mail;
 
 class MentorController extends Controller
 {
@@ -300,9 +301,23 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             ]);
 
             $data = json_decode($response->getBody());
-            echo "Join URL: " . $data->join_url;
-            echo "<br>";
-            echo "Meeting Password: " . $data->password;
+
+            $schedule->update([
+                'call_link' => $data->join_url
+            ]);
+
+            $details = [
+                'join_url' => $data->join_url,
+                'password' => $data->password
+            ];
+
+            Mail::to($schedule->user->email)->send(new CallApprovalUser($details));
+
+            dd("Meeting link successsfully emailed to the user");
+
+            // echo "Join URL: " . $data->join_url;
+            // echo "<br>";
+            // echo "Meeting Password: " . $data->password;
 
         } catch (Exception $e) {
             if (401 == $e->getCode()) {
@@ -326,7 +341,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 dd($e->getMessage());
             }
         }
-        $this->getZoomCallLink($id);
     }
 
     public function generateAccessToken(Request $request)
