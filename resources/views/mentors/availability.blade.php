@@ -528,13 +528,11 @@
                 '</div></div>' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<label>Start Time</label>' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][start_time]" class="form-control">' +
                 '</div></div>' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<label>End Time</label>' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
                 '</div></div></div>';
