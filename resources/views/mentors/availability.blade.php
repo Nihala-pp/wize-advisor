@@ -222,7 +222,7 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Set your weekly hours</h5>
+                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Set your Availability</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -244,10 +244,10 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="input-group input-group-static my-3">
-                                                <label>Date</label>
-                                                <input type="text" name="schedule[0][date]" class="form-control date"
-                                                    required>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="fcustomCheck1" checked="">
+                                                <label class="custom-control-label" for="customCheck1">Monday</label>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
