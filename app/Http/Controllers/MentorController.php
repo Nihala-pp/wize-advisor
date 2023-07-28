@@ -285,7 +285,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                     "duration" => $schedule->duration,
                     "password" => "123456",
                     "timezone" => $schedule->utc,
-                    "schedule_for" => $schedule->user->name,
                     "allow_multiple_devices" => true,
                     "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
                     "alternative_hosts_email_notification" => true,
