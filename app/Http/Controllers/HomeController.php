@@ -252,7 +252,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
         $nmonth = Carbon::parse($request->day.' '.$request->month)->month;
 
-        $format = $request->year.'-'.$request->nmonth.'-'.$request->day;
+        $format = $request->year.'-'.$nmonth.'-'.$request->day;
         $date = Carbon::parse($format)->toDateString();
         dd($date);
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
