@@ -251,7 +251,6 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $mentor = $request->mentor;
         $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
         $nmonth = Carbon::parse($request->day.' '.$request->month)->month;
-        dd($nmonth);
 
         $date = $request->year.'-'.$nmonth.'-'.$request->day;
         // dd($date);
