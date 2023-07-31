@@ -272,7 +272,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
          dd($time);
 
       }
-          return $time;
+          // return $time;
     }
 
     public function success($details)
