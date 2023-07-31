@@ -253,7 +253,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $nmonth = Carbon::parse($request->day.' '.$request->month)->month;
 
         $format = $request->year.'-'.$nmonth.'-'.$request->day;
-        $date = Carbon::createFromFormat('Y-m-d H:i:s', $format)->format('Y/m/d');
+        $date = Carbon::createFromFormat('Y-m-d H:i:s', $format)->format('Y-m-d');
         dd($date);
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
         dd($availability);
