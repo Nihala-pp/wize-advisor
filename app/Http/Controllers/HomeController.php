@@ -267,7 +267,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
          $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone('US/Pacific'));
         //  echo $date->format('Y-m-d H:i:sP') . "\n";
             
-         $date->setTimezone(new \DateTimeZone($timezone));
+         $date->setTimezone(new \DateTimeZone('Asia/Kolkata'));
          $time[] = $date->format('H:i:sP');
          dd($time);
 
