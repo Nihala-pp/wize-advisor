@@ -257,7 +257,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
         $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
-        // return response()->json($timeAvailability);
+        return response()->json($timeAvailability);
     }
 
     public function utcToChangeTimezone($availability, $timezone)
