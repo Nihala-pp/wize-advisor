@@ -265,12 +265,12 @@ window.location.href = "' + custom_location + " / " + Id + '";
       foreach($availability as $avail)
       {
          $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone('US/Pacific'));
-         dd($date->format('Y-m-d H:i:sP'));
+         echo($date->format('Y-m-d H:i:sP'));
         //  echo $date->format('Y-m-d H:i:sP') . "\n";
             
          $date->setTimezone(new \DateTimeZone('Asia/Kolkata'));
          $time[] = $date->format('Y-m-d H:i:sP');
-         dd($time);
+         echo($time);
 
       }
     }
