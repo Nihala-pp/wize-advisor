@@ -264,7 +264,7 @@
             "occasion": name,
             "invited_count": count,
             "year": date.getFullYear(),
-            "month": date.getMonth() + 1,
+            "month": date.getMonth(),
             "day": day
         };
         event_data["events"].push(event);
