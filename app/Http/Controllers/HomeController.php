@@ -269,7 +269,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
         //  echo $date->format('Y-m-d H:i:sP') . "\n";
             
          $date->setTimezone(new \DateTimeZone('Asia/Kolkata'));
-         $time[] = $date->format('Y-m-d H:i:sP');
+         $time = $date->format('Y-m-d H:i:sP');
          echo($time);
 
       }
