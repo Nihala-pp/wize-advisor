@@ -249,7 +249,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
     public function getTimeAvailability(Request $request)
     {
         $mentor = $request->mentor;
-        $timezone = $request->timezone ? $request->timezone : auth()  ;
+        $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
         $nmonth = date("m", strtotime($request->month));
         $date = $request->year.'-'.$nmonth.'-'.$request->day;
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
