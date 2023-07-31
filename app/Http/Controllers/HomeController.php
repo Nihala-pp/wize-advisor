@@ -166,7 +166,7 @@ class HomeController extends Controller
 
     public function scheduleCall($id)
     {
-         dd(Auth::user()->id);
+        //  dd(Auth::user()->id);
         $mentor = User::find($id);
         $timezone = AvailableSchedule::timezones();
 
