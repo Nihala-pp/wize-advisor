@@ -185,10 +185,10 @@ class HomeController extends Controller
       {
           ?>
 <script type="text/javascript">
-  var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-  Id = "{{ $data['mentor'] }}";
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $data['mentor'] }}";
 alert("Please choose the time slot");
-window.location.href = "' + custom_location + "/" + Id + '";
+window.location.href = "' + custom_location + " / " + Id + '";
 </script>
 <?php          
       } 
@@ -197,10 +197,10 @@ window.location.href = "' + custom_location + "/" + Id + '";
       {
           ?>
 <script type="text/javascript">
-  var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-  Id = "{{ $data['mentor'] }}";
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $data['mentor'] }}";
 alert("Please choose the time slot");
-window.location.href = "' + custom_location + "/" + Id + '";
+window.location.href = "' + custom_location + " / " + Id + '";
 </script>
 <?php          
       } 
@@ -269,6 +269,7 @@ window.location.href = "' + custom_location + "/" + Id + '";
             
          $date->setTimezone(new \DateTimeZone($timezone));
          $time[] = $date->format('H:i:sP');
+         dd($time);
 
       }
           return $time;
