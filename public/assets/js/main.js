@@ -148,6 +148,7 @@
         // console.log(event.data.year);
         var mentor = $('.mentor').val();
         var day = event.data.day;
+        console.log(event.data);
         $('body').find('.day').val(day);
         var year = new Date().getFullYear();
         $('body').find('.year').val(year);
