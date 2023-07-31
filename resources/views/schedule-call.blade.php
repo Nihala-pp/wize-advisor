@@ -1528,7 +1528,7 @@
                         </div>
                         <div class="card_carousel_title"> {{ $mentor ?  $mentor->name : '' }}</div>
                         <h5 class="card-title">30 Min Meeting</h5>
-                        <i class="fab fa-time"> 30 Min</i>
+                        <!-- <i class="fab fa-time"> 30 Min</i> -->
                         <form method="POST" enctype="multipart/form-data" class="scheduleCallForm">
                             @csrf
                             <input type="hidden" name="duration" value="30">
@@ -1541,8 +1541,8 @@
                             <input type="hidden" class="time" name="time" value="">
                             <label class="form-label" style="color:black;">Description</label>
                             <textarea class="form-control" rows="5" cols="5"
-                                placeholder="Please have a quick explanation regarding the topic"
-                                name="desc"></textarea>
+                                placeholder="Please have a quick explanation regarding the topic" name="desc"
+                                required></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
                             <input type="file" name="doc" class="form-control">
                     </div>
@@ -1561,15 +1561,17 @@
                                 <div class="col-md-12">
                                     <div class="content w-100">
                                         <div class="calendar-container mb-3">
-                                        <div class="timezone">
-                                            <select name="timezone" class="form-control mt-1 timezone" id="timezone"
-                                                style="width:50%" required>
-                                                <option value=""><b>Time zone</b></option>
-                                                @foreach($timezone as $zone => $time)
-                                                <option value="{{ $time }}" {{ $time == auth()->user()->metaData->timezone  ? 'selected' : '' }}>{{ $zone }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
+                                            <div class="timezone">
+                                                <select name="timezone" class="form-control mt-1 timezone" id="timezone"
+                                                    style="width:50%" required>
+                                                    <option value=""><b>Time zone</b></option>
+                                                    @foreach($timezone as $zone => $time)
+                                                    <option value="{{ $time }}"
+                                                        {{ $time == auth()->user()->metaData->timezone  ? 'selected' : '' }}>
+                                                        {{ $zone }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
                                             <div class="calendar">
                                                 <div class="year-header">
                                                     <span class="left-button fa fa-chevron-left" id="prev"> </span>
