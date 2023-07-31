@@ -251,7 +251,9 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $mentor = $request->mentor;
         $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
         $nmonth = date("m", strtotime($request->month));
+        dd($request->month);
         dd($nmonth);
+
         $date = $request->year.'-'.$nmonth.'-'.$request->day;
         // dd($date);
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
