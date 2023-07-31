@@ -190,7 +190,8 @@
         var date = event.data.date;
         $(".active-month").removeClass("active-month");
         $(this).addClass("active-month");
-        var new_month = $(".month").index(this);
+        var new_month  = $(".month").index(this);
+        alert(new_month);
         date.setMonth(new_month);
         init_calendar(date);
     }
