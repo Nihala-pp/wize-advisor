@@ -185,6 +185,7 @@
         $(".events-container").show(250);
         $("#dialog").hide(250);
         var date = event.data.date;
+        alert(date);
         $(".active-month").removeClass("active-month");
         $(this).addClass("active-month");
         var new_month = $(".month").index(this);

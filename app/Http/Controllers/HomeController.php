@@ -256,7 +256,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
         // dd($availability);
         $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
-        return response()->json($timeAvailability);
+        // return response()->json($timeAvailability);
     }
 
     public function utcToChangeTimezone($availability, $timezone)
