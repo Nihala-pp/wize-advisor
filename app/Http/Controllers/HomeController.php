@@ -264,7 +264,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
     {
       foreach($availability as $avail)
       {
-         $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone($avail->time_zone));
+         $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone('US/Pacific'));
         //  echo $date->format('Y-m-d H:i:sP') . "\n";
             
          $date->setTimezone(new \DateTimeZone($timezone));
