@@ -257,13 +257,13 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
         return response()->json($timeAvailability);
-
     }
 
     public function utcToChangeTimezone($availability, $timezone)
     {
       foreach($availability as $avail)
       {
+        dd($avail);
          $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone($avail->time_zone));
         //  echo $date->format('Y-m-d H:i:sP') . "\n";
             
