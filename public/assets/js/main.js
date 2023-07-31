@@ -14,15 +14,14 @@
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(today, date.getMonth(), date.getFullYear());
+        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
+        show_events(events, months[date.getMonth()], today);
 
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-
-        show_events(events, months[date.getMonth()], today);
 
         $("body").on('click', '#payNow', function () {
             // var time = $('.event-card').val();
@@ -71,8 +70,10 @@
                     });
                     // Check date in Array
                     if (jQuery.inArray(newdate, event_data[date]) != -1) {
-                        $('.table-date').css({"background": "white", "border-radius": "50%", "position": "absolute","top":"0","left":"0","top": "0",
-                        "left": "0", "width":"10px", "height":"10px"})
+                        $('.table-date').css({
+                            "background": "white", "border-radius": "50%", "position": "absolute", "top": "0", "left": "0", "top": "0",
+                            "left": "0", "width": "10px", "height": "10px"
+                        })
                         // Pass class name and tooltip text
                         return [true, "highlight", tooltip_text];
                     }
@@ -113,10 +114,10 @@
             }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
-                var events = check_events(day, month, year);
+                var events = check_events(day, month + 1, year);
                 if (today === day && $(".active-date").length === 0) {
                     curr_date.addClass("active-date");
-                    // show_events(events, months[month], day);
+                    show_events(events, months[month], day);
                 }
                 // If this date has any events, style it with .event-date
                 if (events.length !== 0) {
@@ -145,6 +146,7 @@
         $("#dialog").hide(250);
         $(".active-date").removeClass("active-date");
         $(this).addClass("active-date");
+
         // console.log(event.data.year);
         var mentor = $('.mentor').val();
         var day = event.data.day;
@@ -186,7 +188,6 @@
         $(".events-container").show(250);
         $("#dialog").hide(250);
         var date = event.data.date;
-        alert(date);
         $(".active-month").removeClass("active-month");
         $(this).addClass("active-month");
         var new_month = $(".month").index(this);
@@ -264,7 +265,7 @@
             "occasion": name,
             "invited_count": count,
             "year": date.getFullYear(),
-            "month": date.getMonth(),
+            "month": date.getMonth() + 1,
             "day": day
         };
         event_data["events"].push(event);
@@ -316,108 +317,108 @@
         return events;
     }
 
-    // Given data for events in JSON format
-    var event_data = {
-        "events": [
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10,
-                "cancelled": true
-            },
-            {
-                "occasion": " Repeated Test Event ",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 10
-            },
-            {
-                "occasion": " Test Event",
-                "invited_count": 120,
-                "year": 2020,
-                "month": 5,
-                "day": 11
-            }
-        ]
-    };
+  // Given data for events in JSON format
+var event_data = {
+    "events": [
+    {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10,
+        "cancelled": true
+    },
+    {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10,
+        "cancelled": true
+    },
+        {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10,
+        "cancelled": true
+    },
+    {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10
+    },
+        {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10,
+        "cancelled": true
+    },
+    {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10
+    },
+        {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10,
+        "cancelled": true
+    },
+    {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10
+    },
+        {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10,
+        "cancelled": true
+    },
+    {
+        "occasion": " Repeated Test Event ",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 10
+    },
+    {
+        "occasion": " Test Event",
+        "invited_count": 120,
+        "year": 2020,
+        "month": 5,
+        "day": 11
+    }
+    ]
+};
 
-    const months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ];
+const months = [ 
+    "January", 
+    "February", 
+    "March", 
+    "April", 
+    "May", 
+    "June", 
+    "July", 
+    "August", 
+    "September", 
+    "October", 
+    "November", 
+    "December" 
+];
 
 })(jQuery);
