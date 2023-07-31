@@ -14,7 +14,7 @@
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
+        var events = check_events(today, date.getMonth(), date.getFullYear());
 
         $.ajaxSetup({
             headers: {
@@ -46,7 +46,7 @@
         $("body").on('change', '.timezone', function () {
             var timezone = $(this).val();
             var mentor = $('.mentor').val();
-            var month = date.getMonth() + 1;
+            var month = date.getMonth();
             var year = date.getFullYear();
             var day = date.getDate();
 
