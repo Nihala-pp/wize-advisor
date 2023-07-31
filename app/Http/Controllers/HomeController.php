@@ -264,7 +264,6 @@ window.location.href = "' + custom_location + " / " + Id + '";
     {
       foreach($availability as $avail)
       {
-        dd($avail);
          $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone($avail->time_zone));
         //  echo $date->format('Y-m-d H:i:sP') . "\n";
             
