@@ -252,6 +252,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
         $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
         $nmonth = date("m", strtotime($request->month));
         $date = $request->year.'-'.$nmonth.'-'.$request->day;
+        dd($date);
         $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
         dd($availability);
         $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
