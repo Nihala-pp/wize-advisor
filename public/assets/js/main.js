@@ -117,10 +117,10 @@
                 var curr_date = $("<td class='table-date nil'>" + "</td>");
                 row.append(curr_date);
             }
-            if (day !== available_days) {
-                var curr_date = $("<td class='table-date nil'>" + "</td>");
-                row.append(curr_date);
-            }
+            // if (day !== available_days) {
+            //     var curr_date = $("<td class='table-date nil'>" + "</td>");
+            //     row.append(curr_date);
+            // }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
                 var events = check_events(day, month, year);
