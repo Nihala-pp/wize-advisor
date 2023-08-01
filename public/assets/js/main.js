@@ -119,7 +119,7 @@
                 row.append(curr_date);
             }
             if (!(day == data[0]["day"])) {
-                var curr_date = $("<td class='table-date nil'>" + "</td>");
+                var curr_date = $("<td class='table-date disable-date'>" + "</td>");
                 row.append(curr_date);
             }
             else {
