@@ -8489,8 +8489,8 @@ h1, h2, h3, h4, h5,
 .error-input {
   border-color: #cd4dcc; }
 
-  .disable-date {
+  /* .disable-date {
     color: #2b2b2b;
     background-color: #fff;
     cursor: not-allowed;
-}
+} */

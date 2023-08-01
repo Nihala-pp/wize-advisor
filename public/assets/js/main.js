@@ -18,8 +18,6 @@
         var events = check_events(today, date.getMonth(), date.getFullYear());
         show_events(events, months[date.getMonth()], today);
 
-
-
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -120,6 +118,12 @@
                 row.append(curr_date);
             }
 
+            if (!(day == data[0]["day"])) {
+                var curr_date = $("<td class='table-date'>" + day + "</td>");
+                curr_date.addClass("disable-date");
+                $('.disable-date').prop("disabled", true)
+            }
+
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
                 var events = check_events(day, month, year);
@@ -153,7 +157,7 @@
         var timezone = $("#timezone").val();
         var date = new Date();
 
-       return $.ajax("https://wiseadvizor.com/getDateAvailability", {
+        return $.ajax("https://wiseadvizor.com/getDateAvailability", {
             method: 'GET',
             data: {
                 "_token": $('meta[name="csrf-token"]').attr('content'),
