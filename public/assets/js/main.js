@@ -173,13 +173,21 @@
             },
             success: function (response) {
                 var times = [];
-                response.forEach(function (value, key) {
-                    value.forEach(function (time, index) {
+                for (var key in json.response) {
+                    for (var key1 in json.response[key]) {
                         times.push({
-                            start_time: time.start_time,
+                            start_time: json.response[key][key1],
                         });
-                    });
-                });
+                        console.log(json.response[key][key1])
+                    }
+                }
+                // response.forEach(function (value, key) {
+                //     value.forEach(function (time, index) {
+                //         times.push({
+                //             start_time: time.start_time,
+                //         });
+                //     });
+                // });
                 show_events(times, event.data.month, event.data.day);
             },
         });
