@@ -182,24 +182,24 @@ class HomeController extends Controller
 
     if (empty($data['time'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $data['mentor'] }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id + '";
-      </script>
-    <?php
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $data['mentor'] }}";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id + '";
+</script>
+<?php
     }
 
     if (empty($data['timezone'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $data['mentor'] }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id + '";
-      </script>
-    <?php
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $data['mentor'] }}";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id + '";
+</script>
+<?php
     } else {
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
@@ -266,12 +266,11 @@ class HomeController extends Controller
       $date->setTimezone(new \DateTimeZone('Asia/Kolkata'));
       $time[] = $date->format('H:i:s');
     }
-    return $time;
+       return $time;
   }
 
   public function success($details)
   {
-
     $mentor = User::find($details['mentor']);
 
     return view('success', compact('details', 'mentor'));
