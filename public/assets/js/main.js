@@ -320,7 +320,7 @@
     }
 
   // Given data for events in JSON format
-var event_data = {
+     var event_data = {
     "events": [
     {
         "occasion": " Repeated Test Event ",
@@ -406,9 +406,9 @@ var event_data = {
         "day": 11
     }
     ]
-};
+     };
 
-const months = [ 
+    const months = [ 
     "January", 
     "February", 
     "March", 
@@ -421,6 +421,6 @@ const months = [
     "October", 
     "November", 
     "December" 
-];
+     ];
 
 })(jQuery);

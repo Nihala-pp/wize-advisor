@@ -1566,8 +1566,8 @@
                                                     style="width:50%" required>
                                                     <option value=""><b>Time zone</b></option>
                                                     @foreach($timezone as $zone => $time)
-                                                    <option value="{{ $time }}"
-                                                        {{ $time == auth()->user()->metaData->timezone  ? 'selected' : '' }}>
+                                                    <option value="{{ $zone }}"
+                                                        {{ $zone == auth()->user()->metaData->timezone  ? 'selected' : '' }}>
                                                         {{ $zone }}</option>
                                                     @endforeach
                                                 </select>

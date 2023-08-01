@@ -135,7 +135,7 @@
                                                 required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
-                                                <option value="{{ $time }}">{{ $zone }}</option>
+                                                <option value="{{ $zone }}">{{ $zone }}</option>
                                                 @endforeach
                                             </select>
                                             @error('timezone')
