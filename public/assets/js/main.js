@@ -153,7 +153,7 @@
             data: {
                 "_token": $('meta[name="csrf-token"]').attr('content'),
                 "mentor": mentor,
-                "month": month,
+                "month": month+1,
                 "year": year,
                 "timezone": timezone,
             },
