@@ -165,14 +165,14 @@
                 "timezone" : timezone,
             },
             success: function (response) {
-                var available_dates = [];
-                for (var key in response) {
-                    // console.log(response[key]);
-                    available_dates.push({
-                        day: response[key],
-                    });
-                }
-                init_calendar(date, available_dates)
+                // var available_dates = [];
+                // for (var key in response) {
+                //     // console.log(response[key]);
+                //     available_dates.push({
+                //         day: response[key],
+                //     });
+                // }
+                init_calendar(date, response)
             },
         });
     }
