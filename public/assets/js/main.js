@@ -87,7 +87,7 @@
 
     // Initialize the calendar by appending the HTML dates
     function init_calendar(date, data = 'Null') {
-        console.log(data);
+        console.log(data[0]["day"]);
         $(".tbody").empty();
         $(".events-container").empty();
         var calendar_days = $(".tbody");
@@ -166,7 +166,7 @@
             success: function (response) {
                 var available_dates = [];
                 for (var key in response) {
-                    console.log(response[key]);
+                    // console.log(response[key]);
                     available_dates.push({
                         day: response[key],
                     });
