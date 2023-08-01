@@ -159,8 +159,7 @@
             },
             success: function (response) {
 
-                // return response;
-                var dates = [];
+             var dates = [];
                 for (var key in response) {
                     // console.log(response[key]);
                     dates.push({
