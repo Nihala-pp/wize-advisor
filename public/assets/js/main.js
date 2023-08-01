@@ -92,7 +92,7 @@
         var calendar_days = $(".tbody");
         var month = date.getMonth();
         var year = date.getFullYear();
-        getAvailableDates(month, year);
+        var available getAvailableDates(month, year);
         var day_count = days_in_month(month, year);
         var row = $("<tr class='table-row'></tr>");
         var today = date.getDate();
@@ -153,19 +153,22 @@
             data: {
                 "_token": $('meta[name="csrf-token"]').attr('content'),
                 "mentor": mentor,
-                "month": month+1,
+                "month": month + 1,
                 "year": year,
                 "timezone": timezone,
             },
             success: function (response) {
 
-                return response;
-                // var dates = [];
-                // response.forEach(function (value, key) {
-                //     dates.push({
-                //         start_time: time.start_time,
-                //     });
-                // });
+                // return response;
+                var dates = [];
+                for (var key in response) {
+                    // console.log(response[key]);
+                    dates.push({
+                        day: response[key],
+                    });
+                }
+
+                return dates;
             },
         });
     }
