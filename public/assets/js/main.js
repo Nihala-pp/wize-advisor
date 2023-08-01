@@ -174,13 +174,10 @@
             success: function (response) {
                 var times = [];
                 for (var key in response) {
-                    console.log(response[key]);
-                    for (var key1 in response[key]) {
+                    // console.log(response[key]);
                         times.push({
-                            start_time: response[key][key1],
+                            start_time: response[key],
                         });
-                       
-                    }
                 }
                 // response.forEach(function (value, key) {
                 //     value.forEach(function (time, index) {
