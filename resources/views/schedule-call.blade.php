@@ -2950,14 +2950,5 @@
         <script src="{{ asset('public/assets/js/main.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
         </script>
-        <script type="text/javascript">
-        // (function ($) {
-        // $(document).ready(function(){
-
-        //     });
-        // });
-        // }(jQuery));
-        </script>
     </body>
-
 </html>

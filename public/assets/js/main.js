@@ -17,6 +17,8 @@
         var events = check_events(today, date.getMonth(), date.getFullYear());
         show_events(events, months[date.getMonth()], today);
 
+        
+
         $.ajaxSetup({
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -96,6 +98,15 @@
         // Set date to 1 to find the first day of the month
         date.setDate(1);
         var first_day = date.getDay();
+
+        disableDates: function (date) {
+            var disabled = [13,14,20,21];
+            if (date && disabled.indexOf(date.getDate()) > -1 ) {
+                return true;
+            } else {
+                return false;
+            }
+        }
         // 35+firstDay is the number of date elements to be added to the dates table
         // 35 is from (7 days in a week) * (up to 5 rows of dates in a month)
         for (var i = 0; i < 35 + first_day; i++) {
