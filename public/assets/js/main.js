@@ -307,7 +307,7 @@
 
     // Display all events of the selected date in card views
     function show_events(events, month, day) {
-        alert(month);
+        // alert(month);
         // Clear the dates container
         $(".events-container").empty();
         $(".events-container").show(250);
