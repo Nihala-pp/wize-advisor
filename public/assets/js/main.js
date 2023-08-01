@@ -13,6 +13,7 @@
         $("#add-button").click({ date: date }, new_event);
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
+        getAvailableDates(date.getMonth(), date.getFullYear())
         init_calendar(date);
         var events = check_events(today, date.getMonth(), date.getFullYear());
         show_events(events, months[date.getMonth()], today);
@@ -88,14 +89,14 @@
     // Initialize the calendar by appending the HTML dates
     function init_calendar(date, data = 'Null') {
         // getAvailableDates(month, year);
-        // console.log(data[0]["day"]);
+        console.log(data[0]["day"]);
         $(".tbody").empty();
         $(".events-container").empty();
         var calendar_days = $(".tbody");
         var month = date.getMonth();
         var year = date.getFullYear();
-        var available_days = getAvailableDates(month, year);
-        console.log(available_days[0]["day"]);
+        // var available_days = getAvailableDates(month, year);
+        // console.log(available_days[0]["day"]);
         var day_count = days_in_month(month, year);
         var row = $("<tr class='table-row'></tr>");
         var today = date.getDate();
@@ -152,7 +153,7 @@
         var timezone = $("#timezone").val();
         var date = new Date();
 
-        $.ajax("https://wiseadvizor.com/getDateAvailability", {
+       return $.ajax("https://wiseadvizor.com/getDateAvailability", {
             method: 'GET',
             data: {
                 "_token": $('meta[name="csrf-token"]').attr('content'),
@@ -169,8 +170,8 @@
                         day: response[key],
                     });
                 }
-                // init_calendar(date, available_dates);
-                return available_dates;
+                init_calendar(date, available_dates);
+                // return available_dates;
             },
         });
     }
