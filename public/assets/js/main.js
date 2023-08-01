@@ -174,10 +174,12 @@
             success: function (response) {
                 var times = [];
                 response.forEach(function (value, key) {
+                    value.forEach(function (time, index) {
                     times.push({
-                        start_time: value.start_time,
+                        start_time: time.start_time,
                     });
                 });
+            });
                 show_events(times, event.data.month, event.data.day);
             },
         });
