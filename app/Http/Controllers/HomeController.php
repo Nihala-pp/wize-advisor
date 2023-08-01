@@ -259,11 +259,11 @@ window.location.href = "' + custom_location + " / " + Id + '";
   public function utcToChangeTimezone($availability, $timezone)
   {
     foreach ($availability as $avail) {
-      $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone('US/Pacific'));
+      $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
       //  echo($date->format('Y-m-d H:i:sP'));
       //  echo $date->format('Y-m-d H:i:sP') . "\n";
 
-      $date->setTimezone(new \DateTimeZone('Asia/Kolkata'));
+      $date->setTimezone(new \DateTimeZone($avail->timezone));
       $time[] = $date->format('H:i:s');
     }
        return $time;
