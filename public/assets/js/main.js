@@ -172,7 +172,7 @@
                 //         day: response[key],
                 //     });
                 // }
-                init_calendar(date, response)
+                init_calendar(date, response);
             },
         });
     }
