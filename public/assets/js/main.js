@@ -158,7 +158,7 @@
                 "timezone": timezone,
             },
             success: function (response) {
-             var dates = [];
+                var dates = [];
                 for (var key in response) {
                     // console.log(response[key]);
                     dates.push({
