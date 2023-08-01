@@ -158,7 +158,6 @@
                 "timezone": timezone,
             },
             success: function (response) {
-
              var dates = [];
                 for (var key in response) {
                     // console.log(response[key]);
@@ -166,7 +165,6 @@
                         day: response[key],
                     });
                 }
-
                 return dates;
             },
         });
