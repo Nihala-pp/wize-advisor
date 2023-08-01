@@ -92,7 +92,7 @@
         var calendar_days = $(".tbody");
         var month = date.getMonth();
         var year = date.getFullYear();
-        var available = getAvailableDates(month, year);
+        var available_days = getAvailableDates(month, year);
         var day_count = days_in_month(month, year);
         var row = $("<tr class='table-row'></tr>");
         var today = date.getDate();
@@ -112,6 +112,10 @@
             }
             // if current index isn't a day in this month, make it blank
             if (i < first_day || day > day_count) {
+                var curr_date = $("<td class='table-date nil'>" + "</td>");
+                row.append(curr_date);
+            }
+            if (day !== available_days) {
                 var curr_date = $("<td class='table-date nil'>" + "</td>");
                 row.append(curr_date);
             }
