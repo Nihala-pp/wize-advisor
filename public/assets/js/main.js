@@ -95,7 +95,7 @@
         var month = date.getMonth();
         var year = date.getFullYear();
         var available_days = getAvailableDates(month, year);
-        // console.log(available_days);
+        console.log(available_days[0]["day"]);
         var day_count = days_in_month(month, year);
         var row = $("<tr class='table-row'></tr>");
         var today = date.getDate();
@@ -118,7 +118,7 @@
                 var curr_date = $("<td class='table-date nil'>" + "</td>");
                 row.append(curr_date);
             }
-            
+
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
                 var events = check_events(day, month, year);
@@ -152,14 +152,14 @@
         var timezone = $("#timezone").val();
         var date = new Date();
 
-        return $.ajax("https://wiseadvizor.com/getDateAvailability", {
+        $.ajax("https://wiseadvizor.com/getDateAvailability", {
             method: 'GET',
             data: {
-                "_token"   : $('meta[name="csrf-token"]').attr('content'),
-                "mentor"   : mentor,
-                "month"    : month + 1,
-                "year"     : year,
-                "timezone" : timezone,
+                "_token": $('meta[name="csrf-token"]').attr('content'),
+                "mentor": mentor,
+                "month": month + 1,
+                "year": year,
+                "timezone": timezone,
             },
             success: function (response) {
                 var available_dates = [];
@@ -169,7 +169,8 @@
                         day: response[key],
                     });
                 }
-                init_calendar(date, available_dates);
+                // init_calendar(date, available_dates);
+                return available_dates;
             },
         });
     }
