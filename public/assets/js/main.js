@@ -17,7 +17,7 @@
         var events = check_events(today, date.getMonth(), date.getFullYear());
         show_events(events, months[date.getMonth()], today);
 
-        
+
 
         $.ajaxSetup({
             headers: {
@@ -92,6 +92,7 @@
         var calendar_days = $(".tbody");
         var month = date.getMonth();
         var year = date.getFullYear();
+        getAvailableDates(month, year);
         var day_count = days_in_month(month, year);
         var row = $("<tr class='table-row'></tr>");
         var today = date.getDate();
@@ -142,6 +143,33 @@
         return (monthEnd - monthStart) / (1000 * 60 * 60 * 24);
     }
 
+    function getAvailableDates(month, year) {
+        // console.log(event.data.year);
+        var mentor = $('.mentor').val();
+        var timezone = $("#timezone").val();
+
+        return $.ajax("https://wiseadvizor.com/getDateAvailability", {
+            method: 'GET',
+            data: {
+                "_token": $('meta[name="csrf-token"]').attr('content'),
+                "mentor": mentor,
+                "month": month,
+                "year": year,
+                "timezone": timezone,
+            },
+            success: function (response) {
+
+                return response;
+                // var dates = [];
+                // response.forEach(function (value, key) {
+                //     dates.push({
+                //         start_time: time.start_time,
+                //     });
+                // });
+            },
+        });
+    }
+
     // Event handler for when a date is clicked
     function date_click(event) {
         $(".events-container").show(250);
@@ -160,8 +188,6 @@
         $('body').find('.month').val(month);
 
         var timezone = $("#timezone").val();
-        var csrf = "{{ csrf_token() }}";
-        // let url = "https://wiseadvizor.com/public/getTimeAvailability";
 
         return $.ajax("https://wiseadvizor.com/getTimeAvailability", {
             method: 'POST',
@@ -177,17 +203,10 @@
                 var times = [];
                 for (var key in response) {
                     // console.log(response[key]);
-                        times.push({
-                            start_time: response[key],
-                        });
+                    times.push({
+                        start_time: response[key],
+                    });
                 }
-                // response.forEach(function (value, key) {
-                //     value.forEach(function (time, index) {
-                //         times.push({
-                //             start_time: time.start_time,
-                //         });
-                //     });
-                // });
                 show_events(times, event.data.month, event.data.day);
             },
         });

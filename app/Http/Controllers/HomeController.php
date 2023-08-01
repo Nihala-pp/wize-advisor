@@ -360,10 +360,18 @@ window.location.href = "' + custom_location + " / " + Id + '";
   public function getDateAvailability(Request $request)
   {
     $timezone = $request->timezone;
-    $today = Carbon::now()->format('Y-m-d');
-    $date = AvailableSchedule::where('mentor_id', $request->mentor)->where('date', '>=', $today)->where('time_zone', $timezone)->get();
-    //  dd($date);
+    $month =  $request->month;
+    $year = $request->year;
+    $mentor = $request->mentor;
+    $date = AvailableSchedule::where('mentor_id', $mentor)->whereYear('date', '=', $year)
+    ->whereMonth('date', '=', $month)->get();
 
-    return response()->json($date);
+    $dates = array();
+
+    foreach($date as $dt) {
+      $dates[] = $dt->date->format('d');
+    }
+
+    return response()->json($dates);
   }
 }
