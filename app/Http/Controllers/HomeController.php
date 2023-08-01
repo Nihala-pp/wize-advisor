@@ -365,6 +365,7 @@ win dow.location.href = "' + custom_location + " / " + Id + '";
     $mentor = $request->mentor;
     $date = AvailableSchedule::where('mentor_id', $mentor)->whereYear('date', '=', $year)
       ->whereMonth('date', '=', $month)->get();
+      dd($date);
 
     $dates = array();
 
