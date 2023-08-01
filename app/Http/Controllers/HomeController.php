@@ -253,11 +253,12 @@ window.location.href = "' + custom_location + " / " + Id + '";
     $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
-    return response()->json($timeAvailability);
+    return $timeAvailability;
   }
 
   public function utcToChangeTimezone($availability, $timezone)
   {
+    $time = array();
     foreach ($availability as $avail) {
       $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
       //  echo($date->format('Y-m-d H:i:sP'));
@@ -266,7 +267,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
       $date->setTimezone(new \DateTimeZone($avail->timezone));
       $time[] = $date->format('H:i:s');
     }
-       return $time;
+    return response()->json($time);
   }
 
   public function success($details)
