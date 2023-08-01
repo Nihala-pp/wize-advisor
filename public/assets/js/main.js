@@ -93,7 +93,7 @@
         var calendar_days = $(".tbody");
         var month = date.getMonth();
         var year = date.getFullYear();
-        // var available_days = getAvailableDates(month, year);
+        var available_days = getAvailableDates(month, year);
         // console.log(available_days);
         var day_count = days_in_month(month, year);
         var row = $("<tr class='table-row'></tr>");
