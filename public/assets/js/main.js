@@ -184,7 +184,7 @@
         // console.log(event.data.year);
         var mentor = $('.mentor').val();
         var day = event.data.day;
-        console.log(event.data);
+        // console.log(event.data);
         $('body').find('.day').val(day);
         var year = new Date().getFullYear();
         $('body').find('.year').val(year);
@@ -225,7 +225,7 @@
         $(this).addClass("active-month");
         var new_month = $(".month").index(this);
         date.setMonth(new_month);
-        console.log(date.setMonth(new_month));
+        // console.log(date.setMonth(new_month));
         init_calendar(date);
     }
 
@@ -285,7 +285,7 @@
             }
             else {
                 $("#dialog").hide(250);
-                console.log("new event");
+                // console.log("new event");
                 new_event_json(name, count, date, day);
                 date.setDate(day);
                 init_calendar(date);
@@ -311,7 +311,7 @@
         // Clear the dates container
         $(".events-container").empty();
         $(".events-container").show(250);
-        console.log(event_data["events"]);
+        // console.log(event_data["events"]);
         // If there are no events for this date, notify the user
         if (events.length === 0) {
             var event_card = $("<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' style='background-color:white;border:solid;border-color:#007bff; width:75%' value=''></button>");
