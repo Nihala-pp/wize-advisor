@@ -122,6 +122,7 @@
                 var dis_date = $("<td class='table-date'>" + day + "</td>");
                 dis_date.addClass("disable-date");
             }
+            
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
                 var events = check_events(day, month, year);
