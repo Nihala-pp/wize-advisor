@@ -170,9 +170,9 @@
                         day: response[key],
                     });
                 }
+                return dates;
             },
         });
-        return dates;
     }
 
     // Event handler for when a date is clicked
