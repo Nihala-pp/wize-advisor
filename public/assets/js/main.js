@@ -86,7 +86,7 @@
     });
 
     // Initialize the calendar by appending the HTML dates
-    function init_calendar(date, available_dates = Null) {
+    function init_calendar(date, available_dates = 'Null') {
         $(".tbody").empty();
         $(".events-container").empty();
         var calendar_days = $(".tbody");
