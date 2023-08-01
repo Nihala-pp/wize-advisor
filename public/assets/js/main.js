@@ -114,11 +114,14 @@
             }
             // if current index isn't a day in this month, make it blank
             if (i < first_day || day > day_count) {
+                console.log("dfd");
                 var curr_date = $("<td class='table-date nil'>" + "</td>");
                 row.append(curr_date);
             }
 
             if (!(day == data[0]["day"])) {
+                console.log("Iam here");
+
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
                 curr_date.addClass("disable-date");
                 $('.disable-date').prop("disabled", true)
