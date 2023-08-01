@@ -156,11 +156,11 @@
         $.ajax("https://wiseadvizor.com/getDateAvailability", {
             method: 'GET',
             data: {
-                "_token": $('meta[name="csrf-token"]').attr('content'),
-                "mentor": mentor,
-                "month": month + 1,
-                "year": year,
-                "timezone": timezone,
+                "_token"   : $('meta[name="csrf-token"]').attr('content'),
+                "mentor"   : mentor,
+                "month"    : month + 1,
+                "year"     : year,
+                "timezone" : timezone,
             },
             success: function (response) {
                 var dates = [];
