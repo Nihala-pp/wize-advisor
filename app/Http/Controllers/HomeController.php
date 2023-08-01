@@ -264,7 +264,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
       //  echo($date->format('Y-m-d H:i:sP'));
       //  echo $date->format('Y-m-d H:i:sP') . "\n";
 
-      $date->setTimezone(new \DateTimeZone($avail->timezone));
+      $date->setTimezone(new \DateTimeZone($timezone));
       $time[] = $date->format('H:i:s');
     }
     return response()->json($time);
