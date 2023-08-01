@@ -86,7 +86,7 @@
     });
 
     // Initialize the calendar by appending the HTML dates
-    function init_calendar(date) {
+    function init_calendar(date, available_dates = Null) {
         $(".tbody").empty();
         $(".events-container").empty();
         var calendar_days = $(".tbody");
@@ -152,6 +152,8 @@
         // console.log(event.data.year);
         var mentor = $('.mentor').val();
         var timezone = $("#timezone").val();
+        var date = new Date();
+
 
         $.ajax("https://wiseadvizor.com/getDateAvailability", {
             method: 'GET',
@@ -163,14 +165,14 @@
                 "timezone" : timezone,
             },
             success: function (response) {
-                var dates = [];
+                var available_dates = [];
                 for (var key in response) {
                     // console.log(response[key]);
-                    dates.push({
+                    available_dates.push({
                         day: response[key],
                     });
                 }
-                return dates;
+                init_calendar(date, available_dates)
             },
         });
     }
