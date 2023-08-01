@@ -183,10 +183,10 @@ class HomeController extends Controller
     if (empty($data['time'])) {
       ?>
 <script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+va r custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
 Id = "{{ $data['mentor'] }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id + '";
+al ert("Please choose the time slot");
+wi ndow.location.href = "' + custom_location + " / " + Id + '";
 </script>
 <?php
     }
@@ -196,8 +196,8 @@ window.location.href = "' + custom_location + " / " + Id + '";
 <script type="text/javascript">
 var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
 Id = "{{ $data['mentor'] }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id + '";
+ale rt("Please choose the time slot");
+win dow.location.href = "' + custom_location + " / " + Id + '";
 </script>
 <?php
     } else {
@@ -260,12 +260,12 @@ window.location.href = "' + custom_location + " / " + Id + '";
   {
     $time = array();
     foreach ($availability as $avail) {
-      $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
+        $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
       //  echo($date->format('Y-m-d H:i:sP'));
       //  echo $date->format('Y-m-d H:i:sP') . "\n";
 
-      $date->setTimezone(new \DateTimeZone($timezone));
-      $time[] = $date->format('H:i:s');
+         $date->setTimezone(new \DateTimeZone($timezone));
+         $time[] = $date->format('H:i:s');
     }
     return response()->json($time);
   }
@@ -360,16 +360,16 @@ window.location.href = "' + custom_location + " / " + Id + '";
   public function getDateAvailability(Request $request)
   {
     $timezone = $request->timezone;
-    $month =  $request->month;
+    $month = $request->month;
     $year = $request->year;
     $mentor = $request->mentor;
     $date = AvailableSchedule::where('mentor_id', $mentor)->whereYear('date', '=', $year)
-    ->whereMonth('date', '=', $month)->get();
+      ->whereMonth('date', '=', $month)->get();
 
     $dates = array();
 
-    foreach($date as $dt) {
-      $dates[] = $dt->date->format('d');
+    foreach ($date as $dt) {
+      $dates[] = Carbon::parse($dt->date)->format('d');
     }
 
     return response()->json($dates);
