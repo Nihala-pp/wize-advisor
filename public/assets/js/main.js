@@ -57,31 +57,31 @@
             // Set tooltip text when mouse over date
             var tooltip_text = "Availability on " + newdate;
 
-            return $.ajax("https://wiseadvizor.com/getDateAvailability", {
-                method: 'GET',
-                data: {
-                    "timezone": timezone,
-                    "mentor": mentor
-                },
-                success: function (response) {
-                    var event_data = [];
-                    response.forEach(function (value, key) {
-                        event_data.push({
-                            "date": value.date
-                        });
-                    });
-                    // Check date in Array
-                    if (jQuery.inArray(newdate, event_data[date]) != -1) {
-                        $('.table-date').css({
-                            "background": "white", "border-radius": "50%", "position": "absolute", "top": "0", "left": "0", "top": "0",
-                            "left": "0", "width": "10px", "height": "10px"
-                        })
-                        // Pass class name and tooltip text
-                        return [true, "highlight", tooltip_text];
-                    }
-                    // check_events(today, date.getMonth() + 1, date.getFullYear());
-                },
-            });
+            // return $.ajax("https://wiseadvizor.com/getDateAvailability", {
+            //     method: 'GET',
+            //     data: {
+            //         "timezone": timezone,
+            //         "mentor": mentor
+            //     },
+            //     success: function (response) {
+            //         var event_data = [];
+            //         response.forEach(function (value, key) {
+            //             event_data.push({
+            //                 "date": value.date
+            //             });
+            //         });
+            //         // Check date in Array
+            //         if (jQuery.inArray(newdate, event_data[date]) != -1) {
+            //             $('.table-date').css({
+            //                 "background": "white", "border-radius": "50%", "position": "absolute", "top": "0", "left": "0", "top": "0",
+            //                 "left": "0", "width": "10px", "height": "10px"
+            //             })
+            //             // Pass class name and tooltip text
+            //             return [true, "highlight", tooltip_text];
+            //         }
+            //         // check_events(today, date.getMonth() + 1, date.getFullYear());
+            //     },
+            // });
         });
     });
 
@@ -153,7 +153,7 @@
         var mentor = $('.mentor').val();
         var timezone = $("#timezone").val();
 
-        return $.ajax("https://wiseadvizor.com/getDateAvailability", {
+        $.ajax("https://wiseadvizor.com/getDateAvailability", {
             method: 'GET',
             data: {
                 "_token": $('meta[name="csrf-token"]').attr('content'),
@@ -170,9 +170,9 @@
                         day: response[key],
                     });
                 }
-                return dates;
             },
         });
+        return dates;
     }
 
     // Event handler for when a date is clicked
