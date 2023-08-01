@@ -88,7 +88,7 @@
     // Initialize the calendar by appending the HTML dates
     function init_calendar(date, data = 'Null') {
         // getAvailableDates(month, year);
-        console.log(data[0]["day"]);
+        // console.log(data[0]["day"]);
         $(".tbody").empty();
         $(".events-container").empty();
         var calendar_days = $(".tbody");
@@ -118,10 +118,10 @@
                 var curr_date = $("<td class='table-date nil'>" + "</td>");
                 row.append(curr_date);
             }
-            // if (day !== available_days) {
-            //     var curr_date = $("<td class='table-date nil'>" + "</td>");
-            //     row.append(curr_date);
-            // }
+            if (!(day == data[0]["day"])) {
+                var curr_date = $("<td class='table-date nil'>" + "</td>");
+                row.append(curr_date);
+            }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
                 var events = check_events(day, month, year);
