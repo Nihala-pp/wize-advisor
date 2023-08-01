@@ -150,7 +150,6 @@
     }
 
     function getAvailableDates(month, year) {
-        // console.log(event.data.year);
         var mentor = $('.mentor').val();
         var timezone = $("#timezone").val();
         var date = new Date();
@@ -165,7 +164,6 @@
                 "timezone" : timezone,
             },
             success: function (response) {
-                //  response;
                 var available_dates = [];
                 for (var key in response) {
                     console.log(response[key]);
