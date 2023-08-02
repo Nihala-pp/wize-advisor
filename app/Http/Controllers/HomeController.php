@@ -174,7 +174,6 @@ class HomeController extends Controller
 
   public function addScheduleRequest(Request $request)
   {
-
     $requestData = $request->all();
     $data = array();
     parse_str($requestData['data'], $data);
