@@ -208,6 +208,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
       $finish_time = $end_time->toTimeString();
 
       $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', $date)->first();
+      dd($mentor_timezone);
 
       $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
     
