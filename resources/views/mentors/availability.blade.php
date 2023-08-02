@@ -558,6 +558,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<i class="fa fa-trash DeleteRow5"> </i>' +
                 '</div></div></div>';
             $('.newinput5').append(newRowAdd);
             row_number++;
@@ -593,6 +597,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<i class="fa fa-trash DeleteRow6"> </i>' +
                 '</div></div></div>';
             $('.newinput6').append(newRowAdd);
             row_number++;
@@ -628,6 +636,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<i class="fa fa-trash DeleteRow1"> </i>' +
                 '</div></div></div>';
             $('.newinput1').append(newRowAdd);
             row_number++;
@@ -663,6 +675,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<i class="fa fa-trash DeleteRow2"> </i>' +
                 '</div></div></div>';
             $('.newinput2').append(newRowAdd);
             row_number++;
@@ -698,6 +714,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<i class="fa fa-trash DeleteRow3"> </i>' +
                 '</div></div></div>';
             $('.newinput3').append(newRowAdd);
             row_number++;
@@ -733,6 +753,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<i class="fa fa-trash DeleteRow4"> </i>' +
                 '</div></div></div>';
             $('.newinput4').append(newRowAdd);
             row_number++;
