@@ -212,14 +212,13 @@ window.location.href = "' + custom_location + " / " + Id + '";
     
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-      $data_available = AvailableSchedule::where('mentor_id', $data['mentor'])
-      ->where('date', $date)
+      AvailableSchedule::where('mentor_id', $data['mentor'])
+      ->where('date', Carbon::parse($date)->format('Y-m-d'))
       ->where('start_time', $user_timezone->format('H:i:s'))
-      ->first();
-      dd($data_available);
-      // ->update([
-      //   'is_booked' => 1
-      // ]);
+      ->first()
+      ->update([
+        'is_booked' => 1
+      ]);    
 
       ScheduledCall::create([
         'user_id' => Auth::id(),
@@ -262,7 +261,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
 
     $format = $request->year . '-' . $nmonth . '-' . $request->day;
     $date = Carbon::parse($format)->toDateString();
-    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
+    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('is_booked', 1)->get();
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
     return $timeAvailability;
