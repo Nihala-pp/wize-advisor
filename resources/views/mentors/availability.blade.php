@@ -540,7 +540,6 @@
         $(".rowAdder5").click(function(e) {
             let row_number = 55;
             var date = $('.datevalue5').val();
-            e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
@@ -580,7 +579,6 @@
         $(".rowAdder6").click(function(e) {
             let row_number = 66;
             var date = $('.datevalue6').val();
-            e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
@@ -620,7 +618,6 @@
         $(".rowAdder1").click(function(e) {
             let row_number = 11;
             var date = $('.datevalue1').val();
-            e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
@@ -660,7 +657,6 @@
         $(".rowAdder2").click(function(e) {
             let row_number = 22;
             var date = $('.datevalue2').val();
-            e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
@@ -689,7 +685,6 @@
 
         $(document).on('click', 'i.DeleteRow2', function() {
             let row_number = 22;
-            e.preventDefault();
             if (row_number > 22) {
                 $(this).closest('.row').remove();
                 row_number--;
@@ -701,7 +696,6 @@
         $(".rowAdder3").click(function(e) {
             let row_number = 33;
             var date = $('.datevalue3').val();
-            e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
@@ -741,7 +735,6 @@
         $(".rowAdder4").click(function(e) {
             let row_number = 44;
             var date = $('.datevalue4').val();
-            e.preventDefault();
             let new_row_number = row_number + 1;
             newRowAdd =
                 '<div class="row" id="row">' +
