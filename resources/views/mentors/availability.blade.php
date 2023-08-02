@@ -526,8 +526,9 @@
                 '][end_time]" class="form-control">' +
                 '</div></div>' +
                 '<div class="col-md-2">' +
+                '<div class="input-group input-group-static my-3">' +
                 '<button type="button" class="DeleteRow btn"><i class="fa fa-trash"> </i></button>' +
-                '</div></div>';
+                '</div></div></div>';
             $('.newinput').append(newRowAdd);
             row_number++;
         });
