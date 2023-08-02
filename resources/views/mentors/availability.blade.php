@@ -254,14 +254,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[0][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[0][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2">
@@ -285,14 +285,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[11][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[11][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2 ">
@@ -316,14 +316,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[22][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[22][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2">
@@ -347,14 +347,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[33][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[33][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2 ">
@@ -378,14 +378,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[44][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[44][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2 ">
@@ -409,14 +409,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[55][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[55][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2 ">
@@ -440,14 +440,14 @@
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
                                                 <input type="time" name="schedule[66][start_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
                                                 <input type="time" name="schedule[66][end_time]" class="form-control"
-                                                    required>
+                                                    >
                                             </div>
                                         </div>
                                         <div class="col-md-2 ">
