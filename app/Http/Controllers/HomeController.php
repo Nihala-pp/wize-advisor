@@ -212,13 +212,14 @@ window.location.href = "' + custom_location + " / " + Id + '";
     
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-      AvailableSchedule::where('mentor_id', $data['mentor'])
+      $data_available = AvailableSchedule::where('mentor_id', $data['mentor'])
       ->where('date', $date)
       ->where('start_time', $user_timezone->format('H:i:s'))
-      ->first()
-      ->update([
-        'is_booked' => 1
-      ]);
+      ->first();
+      dd($data_available);
+      // ->update([
+      //   'is_booked' => 1
+      // ]);
 
       ScheduledCall::create([
         'user_id' => Auth::id(),
