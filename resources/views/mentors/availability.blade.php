@@ -509,10 +509,10 @@
         // $('.time').timepicker({
         //     format: 'hh:mm A',
         // });
+        let row_number = 0;
+
 
         $(".rowAdder").click(function(e) {
-            e.preventDefault();
-            let row_number = 0;
             var date = $('.datevalue').val();
             let new_row_number = row_number + 1;
             newRowAdd =
@@ -537,7 +537,6 @@
         });
 
         $(".DeleteRow").click(function(e) {
-            e.preventDefault();
             let row_number = 0;
             if (row_number > 0) {
                 $(this).parents(".row" + (row_number + 1)).remove();
