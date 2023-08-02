@@ -526,7 +526,7 @@
                 '][end_time]" class="form-control">' +
                 '</div></div>' +
                 '<div class="col-md-2">' +
-                '<button type="button" class="DeleteRow btn">x</button>' +
+                '<button type="button" class="DeleteRow btn"><i class="fa fa-trash"> </i></button>' +
                 '</div></div>';
             $('.newinput').append(newRowAdd);
             row_number++;
