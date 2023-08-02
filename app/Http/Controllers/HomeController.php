@@ -179,14 +179,13 @@ class HomeController extends Controller
     $data = array();
     parse_str($requestData['data'], $data);
     //  dd($data['duration']);
-
     if (empty($data['time'])) {
       ?>
 <script type="text/javascript">
-va r custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
 Id = "{{ $data['mentor'] }}";
-al ert("Please choose the time slot");
-wi ndow.location.href = "' + custom_location + " / " + Id + '";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id + '";
 </script>
 <?php
     }
@@ -196,8 +195,8 @@ wi ndow.location.href = "' + custom_location + " / " + Id + '";
 <script type="text/javascript">
 var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
 Id = "{{ $data['mentor'] }}";
-ale rt("Please choose the time slot");
-win dow.location.href = "' + custom_location + " / " + Id + '";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id + '";
 </script>
 <?php
     } else {
@@ -207,6 +206,19 @@ win dow.location.href = "' + custom_location + " / " + Id + '";
       $start_time = Carbon::parse($data['time'])->format('H:i');
       $end_time = Carbon::parse($data['time'])->addMinutes($data['duration']);
       $finish_time = $end_time->toTimeString();
+
+      $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', $date)->first();
+
+      $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
+    
+      $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+
+      AvailableSchedule::where('mentor_id', $data['mentor'])
+      ->where('date', $date)
+      ->where('start_time', $user_timezone->format('H:i:s'))
+      ->update([
+        'is_booked' => 1
+      ]);
 
       ScheduledCall::create([
         'user_id' => Auth::id(),
@@ -238,7 +250,6 @@ win dow.location.href = "' + custom_location + " / " + Id + '";
       ];
 
       return view('success', compact('details', 'mentor'));
-
     }
   }
 
@@ -250,7 +261,7 @@ win dow.location.href = "' + custom_location + " / " + Id + '";
 
     $format = $request->year . '-' . $nmonth . '-' . $request->day;
     $date = Carbon::parse($format)->toDateString();
-    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
+    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('is_booked', 0)->get();
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
     return $timeAvailability;
@@ -260,12 +271,12 @@ win dow.location.href = "' + custom_location + " / " + Id + '";
   {
     $time = array();
     foreach ($availability as $avail) {
-        $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
+      $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
       //  echo($date->format('Y-m-d H:i:sP'));
       //  echo $date->format('Y-m-d H:i:sP') . "\n";
-
-         $date->setTimezone(new \DateTimeZone($timezone));
-         $time[] = $date->format('H:i:s');
+      $date->setTimezone(new \DateTimeZone($timezone));
+      // $scheduled_slot = ScheduledCall::where('mentor_id', $avail->mentor_id)->where('date', $avail->date)->where('');
+      $time[] = $date->format('H:i:s');
     }
     return response()->json($time);
   }
