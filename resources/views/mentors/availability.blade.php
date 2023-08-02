@@ -531,7 +531,7 @@
 
         $(".DeleteRow").click(function(e) {
             if (row_number > 0) {
-                $(this).closest('div').remove();
+                $(this).closest('.row').remove();
                 row_number--;
 
                 return false;
