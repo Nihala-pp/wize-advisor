@@ -211,6 +211,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
       $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
     
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+      dd($user_timezone->format('H:i:s'));
 
       AvailableSchedule::where('mentor_id', $data['mentor'])
       ->where('date', $date)
