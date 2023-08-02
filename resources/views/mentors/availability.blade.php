@@ -537,10 +537,9 @@
         });
 
         $(".DeleteRow").click(function(e) {
-            let row_number = 0;
             if (row_number > 0) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).parents(".row" + (row_number - 1)).remove();
+                row_number--;
             }
         });
 
