@@ -510,8 +510,8 @@
         //     format: 'hh:mm A',
         // });
 
-        let row_number = 0;
         $(".rowAdder").click(function(e) {
+            let row_number = 0;
             var date = $('.datevalue').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -537,14 +537,16 @@
         });
 
         $(".DeleteRow").click(function(e) {
+            let row_number = 0;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 0) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
         });
 
         $(".rowAdder5").click(function(e) {
+            let row_number = 55;
             var date = $('.datevalue5').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -570,14 +572,16 @@
         });
 
         $(".DeleteRow5").click(function(e) {
+            let row_number = 55;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 55) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
         });
 
         $(".rowAdder6").click(function(e) {
+            let row_number = 66;
             var date = $('.datevalue6').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -603,14 +607,16 @@
         });
 
         $(".DeleteRow6").click(function(e) {
+            let row_number = 66;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 66) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
         });
 
         $(".rowAdder1").click(function(e) {
+            let row_number = 11;
             var date = $('.datevalue1').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -636,14 +642,16 @@
         });
 
         $(".DeleteRow1").click(function(e) {
+            let row_number = 11;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 11) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
         });
 
         $(".rowAdder2").click(function(e) {
+            let row_number = 22;
             var date = $('.datevalue2').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -669,14 +677,16 @@
         });
 
         $(".DeleteRow2").click(function(e) {
+            let row_number = 22;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 22) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
         });
 
         $(".rowAdder3").click(function(e) {
+            let row_number = 33;
             var date = $('.datevalue3').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -702,14 +712,16 @@
         });
 
         $(".DeleteRow3").click(function(e) {
+            let row_number = 33;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 33) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
         });
 
         $(".rowAdder4").click(function(e) {
+            let row_number = 44;
             var date = $('.datevalue4').val();
             e.preventDefault();
             let new_row_number = row_number + 1;
@@ -735,8 +747,9 @@
         });
 
         $(".DeleteRow4").click(function(e) {
+            let row_number = 44;
             e.preventDefault();
-            if (row_number > 1) {
+            if (row_number > 44) {
                 $(this).parents(".row" + (row_number + 1)).remove();
                 row_number++;
             }
