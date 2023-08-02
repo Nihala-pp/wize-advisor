@@ -261,7 +261,7 @@ window.location.href = "' + custom_location + " / " + Id + '";
 
     $format = $request->year . '-' . $nmonth . '-' . $request->day;
     $date = Carbon::parse($format)->toDateString();
-    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('is_booked', 0)->get();
+    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->get();
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
     return $timeAvailability;
