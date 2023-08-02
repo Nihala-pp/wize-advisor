@@ -232,7 +232,8 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                     'date' => $schedule['date'],
                     'time_zone' => $request->time_zone,
                     'start_time' => $schedule['start_time'],
-                    'end_time' => $schedule['end_time']
+                    'end_time' => $schedule['end_time'],
+                    'is_booked' => 0
                 ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
