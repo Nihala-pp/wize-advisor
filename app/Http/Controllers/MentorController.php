@@ -124,7 +124,7 @@ class MentorController extends Controller
         //     dd($e->getMessage());
         // }
 
-       return $this->getZoomCallLink($id);
+        return $this->getZoomCallLink($id);
     }
 
     public function reject_call($id)
@@ -220,11 +220,11 @@ class MentorController extends Controller
 
             if ($exists) {
                 ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+                <script type="text/javascript">
+                    alert("Slot already exists...Please try again with different slot");
+                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+                <?php
             } else {
                 //  dd($schedule['start_time']);
                 $data = [
@@ -434,10 +434,10 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         if ($exists) {
             ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
+            <script type="text/javascript">
+                alert("Slot already exists...Please try again with different slot");
+                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+            </script>
 <?php
         }
 
