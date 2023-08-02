@@ -592,7 +592,7 @@
     .has-white-color {
         color: var(--wp--preset--color--white) !important;
     }
-
+    
     .has-pale-pink-color {
         color: var(--wp--preset--color--pale-pink) !important;
     }
