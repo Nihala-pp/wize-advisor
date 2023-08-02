@@ -263,7 +263,7 @@
                                                 <input type="time" name="schedule[0][end_time]" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col-md-2 mt-2">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label></label> -->
                                                 <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
@@ -519,7 +519,7 @@
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
                 '</div></div>' +
-                '<div class="col-md-2">' +
+                '<div class="col-md-2 mt-2">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<i class="fa fa-trash DeleteRow"> </i>' +
                 '</div></div></div>';
