@@ -267,7 +267,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label></label>
                                                 <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i>
+                                                <!-- <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i> -->
                                             </div>
                                         </div>
                                         <div id="newinput" class="newinput"></div>
@@ -524,7 +524,10 @@
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
-                '</div></div></div>';
+                '</div></div>' +
+                '<div class="col-md-2">' +
+                '<button type="button" class="DeleteRow btn">x</button>' +
+                '</div></div>';
             $('.newinput').append(newRowAdd);
             row_number++;
         });
