@@ -533,7 +533,7 @@
             row_number++;
         });
 
-        $(".DeleteRow").click(function(e) {
+        $(document).on('click', 'button.DeleteRow', function() {
             if (row_number > 0) {
                 $(this).closest('.row').remove();
                 row_number--;
