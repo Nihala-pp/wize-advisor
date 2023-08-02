@@ -278,20 +278,20 @@
                                         <div class="col-md-4">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control datevalue1">
+                                                <input type="date" name="schedule[11][date]" class="form-control datevalue1">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control"
+                                                <input type="time" name="schedule[11][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control"
+                                                <input type="time" name="schedule[11][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
@@ -309,20 +309,20 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control datevalue2">
+                                                <input type="date" name="schedule[22][date]" class="form-control datevalue2">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control"
+                                                <input type="time" name="schedule[22][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control"
+                                                <input type="time" name="schedule[22][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
@@ -340,20 +340,20 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control datevalue3">
+                                                <input type="date" name="schedule[33][date]" class="form-control datevalue3">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control"
+                                                <input type="time" name="schedule[33][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control"
+                                                <input type="time" name="schedule[33][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
@@ -371,20 +371,20 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control datevalue4">
+                                                <input type="date" name="schedule[44][date]" class="form-control datevalue4">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control"
+                                                <input type="time" name="schedule[44][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control"
+                                                <input type="time" name="schedule[44][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
@@ -402,20 +402,20 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control datevalue5">
+                                                <input type="date" name="schedule[55][date]" class="form-control datevalue5">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control"
+                                                <input type="time" name="schedule[55][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control"
+                                                <input type="time" name="schedule[55][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
@@ -433,20 +433,20 @@
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]" class="form-control datevalue6">
+                                                <input type="date" name="schedule[66][date]" class="form-control datevalue6">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control"
+                                                <input type="time" name="schedule[66][start_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control"
+                                                <input type="time" name="schedule[66][end_time]" class="form-control"
                                                     required>
                                             </div>
                                         </div>
