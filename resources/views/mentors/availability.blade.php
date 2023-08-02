@@ -571,8 +571,10 @@
             let row_number = 55;
             e.preventDefault();
             if (row_number > 55) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
             }
         });
 
@@ -610,8 +612,10 @@
             let row_number = 66;
             e.preventDefault();
             if (row_number > 66) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
             }
         });
 
@@ -649,8 +653,10 @@
             let row_number = 11;
             e.preventDefault();
             if (row_number > 11) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
             }
         });
 
@@ -688,8 +694,10 @@
             let row_number = 22;
             e.preventDefault();
             if (row_number > 22) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
             }
         });
 
@@ -727,8 +735,10 @@
             let row_number = 33;
             e.preventDefault();
             if (row_number > 33) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
             }
         });
 
@@ -766,8 +776,10 @@
             let row_number = 44;
             e.preventDefault();
             if (row_number > 44) {
-                $(this).parents(".row" + (row_number + 1)).remove();
-                row_number++;
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
             }
         });
 
