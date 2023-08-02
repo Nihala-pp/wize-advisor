@@ -567,9 +567,8 @@
             row_number++;
         });
 
-        $(".DeleteRow5").click(function(e) {
+        $(document).on('click', 'i.DeleteRow5', function() {
             let row_number = 55;
-            e.preventDefault();
             if (row_number > 55) {
                 $(this).closest('.row').remove();
                 row_number--;
@@ -608,9 +607,8 @@
             row_number++;
         });
 
-        $(".DeleteRow6").click(function(e) {
+        $(document).on('click', 'i.DeleteRow6', function() {
             let row_number = 66;
-            e.preventDefault();
             if (row_number > 66) {
                 $(this).closest('.row').remove();
                 row_number--;
@@ -649,9 +647,8 @@
             row_number++;
         });
 
-        $(".DeleteRow1").click(function(e) {
+        $(document).on('click', 'i.DeleteRow1', function() {
             let row_number = 11;
-            e.preventDefault();
             if (row_number > 11) {
                 $(this).closest('.row').remove();
                 row_number--;
@@ -690,7 +687,7 @@
             row_number++;
         });
 
-        $(".DeleteRow2").click(function(e) {
+        $(document).on('click', 'i.DeleteRow2', function() {
             let row_number = 22;
             e.preventDefault();
             if (row_number > 22) {
@@ -731,9 +728,8 @@
             row_number++;
         });
 
-        $(".DeleteRow3").click(function(e) {
+        $(document).on('click', 'i.DeleteRow3', function() {
             let row_number = 33;
-            e.preventDefault();
             if (row_number > 33) {
                 $(this).closest('.row').remove();
                 row_number--;
@@ -772,9 +768,8 @@
             row_number++;
         });
 
-        $(".DeleteRow4").click(function(e) {
+        $(document).on('click', 'i.DeleteRow4', function() {
             let row_number = 44;
-            e.preventDefault();
             if (row_number > 44) {
                 $(this).closest('.row').remove();
                 row_number--;
