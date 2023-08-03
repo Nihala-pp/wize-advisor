@@ -369,15 +369,15 @@
                             <div class="card-body">
                                 <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left">
                                     @csrf
-                                    <div class="input-group">
+                                    <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Title</label>
                                         <input type="text" name="title" class="form-control">
                                     </div>
-                                    <div class="input-group">
+                                    <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Description</label>
-                                        <textarea id="summernote" name="editordata"></textarea>
+                                        <textarea id="summernote" name="editordata" class="form-control"></textarea>
                                     </div>
-                                    <div class="input-group">
+                                    <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Image</label>
                                         <input type="file" name="image" class="form-control">
                                     </div>
@@ -397,6 +397,7 @@
     $(document).ready(function() {
         $('#summernote').summernote();
     });
-  </script>
+    </script>
 </body>
+
 </html>
