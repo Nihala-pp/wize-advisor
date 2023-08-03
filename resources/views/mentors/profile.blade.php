@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet">
 
 <body class="g-sidenav-show bg-gray-200">
     @include('mentors.sidebar')
@@ -715,6 +716,7 @@
     </div>
 </main>
     <!--   Core JS Files   -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $("#inactivate").click(function() {
