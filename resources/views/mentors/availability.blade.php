@@ -464,9 +464,8 @@
                 <div class="modal-content">
                     <div class="modal-header info-color white-text">
                         <h6 class="title"><b>Edit Availability</b></h6>
-                        <button type="button" class="close waves-effect waves-light" data-dismiss="modal"
-                            aria-label="Close">
-                            <span aria-hidden="true">×</span>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <form method="POST" action="{{ route('mentor.schedule.edit') }}" role="form text-left">
