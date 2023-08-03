@@ -168,7 +168,7 @@
                                                 Date & Time</th>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
                                                 style="color:black;">
-                                                Description</th>]
+                                                Description</th>
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
                                                 style="color:black;">
                                                 Documents</th>
