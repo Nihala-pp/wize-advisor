@@ -75,7 +75,9 @@ class MentorController extends Controller
 
     public function expertise()
     {
-        return view('mentors.expertise');
+       $blogs =  Blogs::where('user_id', Auth::id())->get();
+
+        return view('mentors.expertise', compact('blogs'));
     }
 
     public function availability()

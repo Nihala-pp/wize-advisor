@@ -157,12 +157,14 @@
                             Add Blog
                         </button>
                     </div>
+                    @if(!empty($blogs))
                     <div class="row">
+                        @foreach($blogs as $blog)
                         <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
                             <div class="card card-blog card-plain">
                                 <div class="card-header p-0 mt-n4 mx-3">
                                     <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="{{ asset('public/assets/img/home-decor-1.jpg') }}"
+                                        <img src="{{ asset('public/assets/img.'/'}} {{ $blog->image }}"
                                             alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
                                     </a>
                                 </div>
@@ -170,189 +172,36 @@
                                     <p class="mb-0 text-sm">Blog #1</p>
                                     <a href="javascript:;">
                                         <h5>
-                                            Modern
+                                            {{ $blog->title }}
                                         </h5>
                                     </a>
                                     <p class="mb-4 text-sm">
-                                        As Uber works through a huge amount of internal management turmoil.
+                                        {{ $blog->description }}
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View
+                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
                                             Blog</button>
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="Elena Morison">
                                                 <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-1.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-2.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-3.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-4.jpg') }}">
+                                                    src="{{ asset('public/assets/img/').'/' }}{{ $blog->image }}">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                            <div class="card card-blog card-plain">
-                                <div class="card-header p-0 mt-n4 mx-3">
-                                    <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="{{ asset('public/assets/img/home-decor-2.jpg') }}"
-                                            alt="img-blur-shadow" class="img-fluid shadow border-radius-lg">
-                                    </a>
-                                </div>
-                                <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Blog #2</p>
-                                    <a href="javascript:;">
-                                        <h5>
-                                            Scandinavian
-                                        </h5>
-                                    </a>
-                                    <p class="mb-4 text-sm">
-                                        Music is something that every person has his or her own specific opinion about.
-                                    </p>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View
-                                            Blog</button>
-                                        <div class="avatar-group mt-2">
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-2.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-1.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-3.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-4.jpg') }}">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                            <div class="card card-blog card-plain">
-                                <div class="card-header p-0 mt-n4 mx-3">
-                                    <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="{{ asset('public/assets/img/home-decor-3.jpg') }}"
-                                            alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                                    </a>
-                                </div>
-                                <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Blog #3</p>
-                                    <a href="javascript:;">
-                                        <h5>
-                                            Minimalist
-                                        </h5>
-                                    </a>
-                                    <p class="mb-4 text-sm">
-                                        Different people have different taste, and various types of music.
-                                    </p>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View
-                                            Blog</button>
-                                        <div class="avatar-group mt-2">
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-2.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-1.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-3.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-4.jpg') }}">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                            <div class="card card-blog card-plain">
-                                <div class="card-header p-0 mt-n4 mx-3">
-                                    <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="https://images.unsplash.com/photo-1606744824163-985d376605aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                                            alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
-                                    </a>
-                                </div>
-                                <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Blog #4</p>
-                                    <a href="javascript:;">
-                                        <h5>
-                                            Gothic
-                                        </h5>
-                                    </a>
-                                    <p class="mb-4 text-sm">
-                                        Why would anyone pick blue over pink? Pink is obviously a better color.
-                                    </p>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">View
-                                            Blog</button>
-                                        <div class="avatar-group mt-2">
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-2.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-1.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-3.jpg') }}">
-                                            </a>
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/team-4.jpg') }}">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
+                    @endif
                 </div>
-                <!-- <div class="col-12"> -->
-
-                <!-- </div> -->
             </div>
+            <!-- <div class="col-12"> -->
+
+            <!-- </div> -->
+        </div>
         </div>
         <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
@@ -367,7 +216,8 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left" enctype="multipart/form-data">
+                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left"
+                                    enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" class="form-control" value="">
                                     <div class="input-group input-group-static mb-4">
