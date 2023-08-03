@@ -172,11 +172,11 @@
                                     <p class="mb-0 text-sm">Blog #1</p>
                                     <a href="javascript:;">
                                         <h5>
-                                            {{ $blog->title }}
+                                            {{ $blog->title ? $blog->title : '' }}
                                         </h5>
                                     </a>
                                     <p class="mb-4 text-sm">
-                                        {{ $blog->description }}
+                                        {{ $blog->description ? blog->description : '' }}
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
@@ -185,8 +185,7 @@
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="Elena Morison">
-                                                <img alt="Image placeholder"
-                                                    src="{{ asset('public/assets/img/').'/' }}{{ $blog->image }}">
+                                                <img alt="Image placeholder" src="{{ asset('public/assets/img.'/'}} {{ Auth()->user()->metaData ?  Auth()->user()->metaData->image : '' }}">
                                             </a>
                                         </div>
                                     </div>
