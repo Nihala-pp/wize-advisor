@@ -180,24 +180,24 @@ class HomeController extends Controller
     //  dd($data['duration']);
     if (empty($data['time'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $data['mentor'] }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id + '";
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $data['mentor'] }}";
+        alert("Please choose the time slot");
+        window.location.href = "' + custom_location + " / " + Id + '";
+      </script>
+      <?php
     }
 
     if (empty($data['timezone'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $data['mentor'] }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id + '";
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $data['mentor'] }}";
+        alert("Please choose the time slot");
+        window.location.href = "' + custom_location + " / " + Id + '";
+      </script>
+      <?php
     } else {
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
@@ -209,16 +209,16 @@ window.location.href = "' + custom_location + " / " + Id + '";
       $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', Carbon::parse($date)->format('Y-m-d'))->first();
 
       $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
-    
+
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
       AvailableSchedule::where('mentor_id', $data['mentor'])
-      ->where('date', Carbon::parse($date)->format('Y-m-d'))
-      ->where('start_time', $user_timezone->format('H:i:s'))
-      ->first()
-      ->update([
-        'is_booked' => 1
-      ]);    
+        ->where('date', Carbon::parse($date)->format('Y-m-d'))
+        ->where('start_time', $user_timezone->format('H:i:s'))
+        ->first()
+        ->update([
+          'is_booked' => 1
+        ]);
 
       ScheduledCall::create([
         'user_id' => Auth::id(),
@@ -248,6 +248,9 @@ window.location.href = "' + custom_location + " / " + Id + '";
         'UTC' => $data['timezone'],
         'duration' => $data['duration'],
       ];
+
+      Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+      Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
       return view('success', compact('details', 'mentor'));
     }
