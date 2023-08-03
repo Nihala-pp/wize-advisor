@@ -257,7 +257,6 @@
                                     <div class="input-group input-group-static mb-4">
                                         <label>Time Slot</label>
                                         <select class="form-control" id="educationDate" name="start_time" required>
-                                            <option value="">Time</option>
                                             @foreach($times as $time)
                                             <option value="{{ $time->start_time }}"
                                                 {{ $scheduled_call->start_time == $time->start_time ? "selected" : "" }}>
@@ -269,7 +268,6 @@
                                     <div class="input-group input-group-static mb-4">
                                         <label>Timezone</label>
                                         <select class="form-control" id="educationDate" name="utc" required>
-                                            <option value="">UTC</option>
                                             @foreach($utc as $key => $ut)
                                             <option value="{{ $ut }}"
                                                 {{ $key == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
@@ -303,5 +301,12 @@
     </script>
     <!--   Core JS Files   -->
 </body>
-
+<style>
+.navbar-main li a {
+    font-family: "Helvetica", Sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #001e64 !important;
+}
+</style>
 </html>

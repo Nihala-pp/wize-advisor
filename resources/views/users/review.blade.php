@@ -89,4 +89,11 @@ $(function(){
     font-size: 24px;
     color: #d17581;
 }
+
+.navbar-main li a {
+    font-family: "Helvetica", Sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #001e64 !important;
+}
 </style>
