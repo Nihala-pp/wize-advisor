@@ -12,7 +12,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mt-3 mb-3">
@@ -148,16 +147,10 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
-                <!-- <div class="col-12"> -->
                 <section>
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-10 col-xl-8 text-center">
                             <h3 class="mb-4">Testimonials</h3>
-                            <!-- <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-                                Autem, totam debitis suscipit saepe
-                                sapiente magnam officiis quaerat necessitatibus odio assumenda perferendis
-                                labore laboriosam.
-                            </p> -->
                         </div>
                     </div>
                     <div class="row text-center d-flex align-items-stretch">
@@ -188,81 +181,10 @@
                             </div>
                         </div>
                         @endforeach
-                        <!-- <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
-                            <div class="card testimonial-card">
-                                <div class="card-up" style="background-color: #7a81a8;"></div>
-                                <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('public/assets/img/team-3.jpg') }}" class="rounded-circle img-fluid" />
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="mb-4">Lisa Cudrow</h4>
-                                    <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
-                                    <ul class="list-unstyled d-flex justify-content-center">
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p class="dark-grey-text mt-4">
-                                        <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
-                                        consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
-                                        ad velit ab hic tenetur.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-0 d-flex align-items-stretch">
-                            <div class="card testimonial-card">
-                                <div class="card-up" style="background-color: #6d5b98;"></div>
-                                <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('public/assets/img/team-2.jpg') }}" class="rounded-circle img-fluid" />
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="mb-4">John Smith</h4>
-                                    <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
-                                    <ul class="list-unstyled d-flex justify-content-center">
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        <li>
-                                            <i class="far fa-star fa-sm text-info"></i>
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p class="dark-grey-text mt-4">
-                                        <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
-                                        aliquam repellat rem unde ducimus.
-                                    </p>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
+                        </div> 
                 </section>
-                <!-- </div> -->
             </div>
-        </div>
-    </main>
-</body>
-
-</html>
+         </div>
+       </main>
+    </body>
+  </html>
