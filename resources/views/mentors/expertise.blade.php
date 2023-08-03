@@ -149,13 +149,9 @@
         <div class="container-fluid py-4">
             <div class="row">
                 <div class="col-12 mt-4">
-                    <div class="mb-5 ps-3 text-end">
+                    <div class="mb-5 ps-3">
                         <h6 class="mb-1"></h6>
                         <p class="text-sm"></p>
-                        <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Add Blog
-                        </button>
                     </div>
                     <div class="row">
                         <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
@@ -352,31 +348,8 @@
                 <!-- <div class="col-12"> -->
 
                 <!-- </div> -->
-        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header info-color white-text">
-                        <h6 class="title"><b>Edit Availability</b></h6>
-                        <button type="button" class="close waves-effect waves-light" data-dismiss="modal"
-                            aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <form method="POST" action="{{ route('mentor.schedule.edit') }}" role="form text-left">
-                        @csrf
-                        <div class="modal-body editAvailability">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn bg-gradient-secondary"
-                                data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
-                        </div>
-                    </form>
-                </div>
             </div>
         </div>
     </main>
 </body>
-
 </html>
