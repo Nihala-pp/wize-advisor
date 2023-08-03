@@ -479,4 +479,9 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             ->with($notification, 'Availability Deleted Successfully!');
 
     }
+
+    public function saveBlog(Request $request)
+    {
+        
+    }
 }
