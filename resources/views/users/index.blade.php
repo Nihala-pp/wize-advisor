@@ -258,7 +258,7 @@
                                                                 class="avatar avatar-sm me-3" alt="xd">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
-                                                            <h6 class="mb-0 text-sm">{{ $upcoming_session->user->name }}
+                                                            <h6 class="mb-0 text-sm">{{ $upcoming_session->mentor->name }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -347,7 +347,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
-                                                                {{ $requested_session->user->name }}
+                                                            {{ $requested_session->mentor->name }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -436,7 +436,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
-                                                                {{ $completed_session->user->name }}
+                                                                {{ $completed_session->mentor->name }}
                                                             </h6>
                                                         </div>
                                                     </div>

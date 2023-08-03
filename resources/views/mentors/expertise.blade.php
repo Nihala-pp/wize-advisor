@@ -185,7 +185,7 @@
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="Elena Morison">
-                                                <img alt="Image placeholder" src="">
+                                                <img src="" alt="Image placeholder">
                                             </a>
                                         </div>
                                     </div>
@@ -215,7 +215,7 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left"
+                                <form method="POST" action="{{ route('mentor.blog.add') }}"
                                     enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" class="form-control" value="">
