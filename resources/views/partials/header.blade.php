@@ -26,12 +26,12 @@
     <!-- MDB -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 
-    @if(route('mentor.dashboard.profile'))
+    <!-- @if(route('mentor.dashboard.profile'))
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet">
     <link id="pagestyle"
         href="https://demos.creative-tim.com/material-dashboard-pro/assets/css/material-dashboard.min.css?v=3.0.6"
         rel="stylesheet" />
-    @endif
+    @endif -->
 
     <style>
     /*====================================================
@@ -316,7 +316,7 @@
     <script src="{{ asset('public/assets/js/plugins/timepicker-bs4.js') }}"></script>
 
     @if(route('mentor.dashboard.profile'))
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script> -->
     <script src="https://demos.creative-tim.com/material-dashboard-pro/assets/js/material-dashboard.min.js?v=3.0.6"></script>
     @endif
     <script>
