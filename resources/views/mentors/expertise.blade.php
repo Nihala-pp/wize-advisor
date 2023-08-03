@@ -352,8 +352,6 @@
                 <!-- <div class="col-12"> -->
 
                 <!-- </div> -->
-            </div>
-        </div>
         <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
