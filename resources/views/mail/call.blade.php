@@ -12,7 +12,7 @@
     <div class="card text-center mt-5">
         <div class="card-body">
             <p class="card-text">Meeting Details are mentioned below</p>
-            <h5 class="card-title">Join Link : {{ $details['join_url'] }} </h5>
+            <h5 class="card-title">Join Link : <a href="{{ $details['join_url'] }}">{{ $details['join_url'] }} </a></h5>
             <h5 class="card-title">Password : {{ $details['password'] }} </h5>
 
             <i class="fab fa-time"><b>You can Join the meeting from your dashboard also for the better convenience.
