@@ -230,41 +230,44 @@
                                     enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $scheduled_call->id }}">
-                                    <div class="input-group  my-3">
-                                        <!-- <label class="form-label">Mentor</label> -->
+                                    <div class="input-group input-group-static mb-4">
+                                        <label>Mentor</label>
                                         <input type="text" name="mentor" class="form-control"
                                             value="{{ $scheduled_call->mentor->name ??  '' }}" placeholder="Mentor"
                                             disabled>
                                     </div>
-                                    <div class="input-group input-group-static my-3">
-                                        <!-- <label class="form-label">Documents</label> -->
+                                    <div class="input-group input-group-static mb-4">
+                                        <label>Documents</label>
                                         <input type="file" name="documents" class="form-control"
                                             value="{{ $scheduled_call->documents ??  '' }}" placeholder="Documents"
                                             required>
                                     </div>
-                                    <div class="input-group  my-3">
-                                        <!-- <label class="form-label">Description</label> -->
+                                    <div class="input-group input-group-static mb-4">
+                                        <label>Description</label>
                                         <textarea name="description" class="form-control" cols="7"
                                             placeholder="Description"
                                             required> {{ $scheduled_call->description ??  '' }} </textarea>
                                     </div>
-                                    <div class="input-group  my-3">
-                                        <!-- <label class="form-label">Date</label> -->
+                                    <div class="input-group input-group-static mb-4">
+                                        <label>Date</label>
                                         <input type="date" name="date" class="form-control date" placeholder="Date"
                                             value="{{ $scheduled_call->date ??  '' }}" id="date-pick"
                                             placeholder="Date">
                                     </div>
-                                    <div class="input-group  my-3">
+                                    <div class="input-group input-group-static mb-4">
+                                        <label>Time Slot</label>
                                         <select class="form-control" id="educationDate" name="start_time" required>
                                             <option value="">Time</option>
                                             @foreach($times as $time)
-                                            <option value="{{ $time->start_time }}" {{ $scheduled_call->start_time == $time->start_time ? "selected" : "" }}>{{ $time->start_time }}</option>
+                                            <option value="{{ $time->start_time }}"
+                                                {{ $scheduled_call->start_time == $time->start_time ? "selected" : "" }}>
+                                                {{ $time->start_time }}</option>
                                             @endforeach
                                         </select>
                                         <!-- <label class="form-label">Time</label> -->
                                     </div>
-                                    <div class="input-group  my-3">
-                                        <!-- <label class="form-label">UTC</label> -->
+                                    <div class="input-group input-group-static mb-4">
+                                        <label>Timezone</label>
                                         <select class="form-control" id="educationDate" name="utc" required>
                                             <option value="">UTC</option>
                                             @foreach($utc as $key => $ut)
