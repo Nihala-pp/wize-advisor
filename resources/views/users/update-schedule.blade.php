@@ -257,10 +257,10 @@
                                     <div class="input-group input-group-static mb-4">
                                         <label>Time Slot</label>
                                         <select class="form-control" id="educationDate" name="start_time" required>
-                                            @foreach($times as $time)
-                                            <option value="{{ $time->start_time }}"
-                                                {{ $scheduled_call->start_time == $time->start_time ? "selected" : "" }}>
-                                                {{ $time->start_time }}</option>
+                                            @foreach($timeAvailability as $key => $time)
+                                            <option value="{{ $time }}"
+                                                {{ $scheduled_call->start_time == $time ? "selected" : "" }}>
+                                                {{ $time }}</option>
                                             @endforeach
                                         </select>
                                         <!-- <label class="form-label">Time</label> -->
