@@ -215,8 +215,7 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left"
-                                    enctype="multipart/form-data">
+                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left" enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" class="form-control" value="">
                                     <div class="input-group input-group-static mb-4">
