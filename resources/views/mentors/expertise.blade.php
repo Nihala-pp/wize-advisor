@@ -149,9 +149,13 @@
         <div class="container-fluid py-4">
             <div class="row">
                 <div class="col-12 mt-4">
-                    <div class="mb-5 ps-3">
+                    <div class="mb-5 ps-3 text-end">
                         <h6 class="mb-1"></h6>
                         <p class="text-sm"></p>
+                        <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Add Blog
+                        </button>
                     </div>
                     <div class="row">
                         <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
@@ -350,6 +354,49 @@
                 <!-- </div> -->
             </div>
         </div>
+        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header info-color white-text">
+                        <h6 class="title"><b>Write your Blog</b></h6>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card card-plain">
+                            <div class="card-body">
+                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left">
+                                    @csrf
+                                    <div class="input-group">
+                                        <label class="form-label">Title</label>
+                                        <input type="text" name="title" class="form-control">
+                                    </div>
+                                    <div class="input-group">
+                                        <label class="form-label">Description</label>
+                                        <textarea id="summernote" name="editordata"></textarea>
+                                    </div>
+                                    <div class="input-group">
+                                        <label class="form-label">Image</label>
+                                        <input type="file" name="image" class="form-control">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
+    <script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+    });
+  </script>
 </body>
 </html>
