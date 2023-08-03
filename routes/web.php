@@ -145,7 +145,7 @@ Route::controller(MentorController::class)
         Route::get('/meeting/generate_token', 'generateAccessToken')->name('zoom_api.token');
         Route::get('/zoom_api/create_link', 'getZoomCallLink')->name('zoom_api.create_link');
         Route::get('/meeting/success', 'success')->name('meeting.success');
-        Route::get('/blog/add', 'saveBlog')->name('blog.add');
+        Route::post('/blog/add', 'saveBlog')->name('blog.add');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
 
