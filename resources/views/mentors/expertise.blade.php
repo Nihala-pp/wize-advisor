@@ -149,7 +149,7 @@
         <div class="container-fluid py-4">
             <div class="row">
                 <div class="col-12 mt-4">
-                    <div class="mb-5 ps-3">
+                    <div class="mb-5 ps-3 text-end">
                         <h6 class="mb-1"></h6>
                         <p class="text-sm"></p>
                         <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
