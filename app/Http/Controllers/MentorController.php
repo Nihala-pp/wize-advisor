@@ -489,10 +489,12 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         Blogs::updateOrCreate([
             ['id' => $id],
+            [
              'user_id' => Auth::id(),
              'title' => $request->title,
              'description' => $request->description,
              'image' => $pro_pic,
+            ]
         ]);
     }
 }
