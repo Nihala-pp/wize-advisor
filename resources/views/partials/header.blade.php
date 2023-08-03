@@ -317,11 +317,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="{{ asset('public/assets/js/plugins/timepicker-bs4.js') }}"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script> -->
-
+<!-- 
     @if((route('mentor.dashboard.profile')) || (route('mentor.add')))
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script> -->
-    <script src="https://demos.creative-tim.com/material-dashboard-pro/assets/js/material-dashboard.min.js?v=3.0.6"></script>
-    @endif
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script> -->
+    <!-- <script src="https://demos.creative-tim.com/material-dashboard-pro/assets/js/material-dashboard.min.js?v=3.0.6"></script> -->
+    <!-- @endif  -->
     <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
