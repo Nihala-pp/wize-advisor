@@ -7,7 +7,7 @@
                     <select class="form-control" name="time_zone" required>
                         <option value="">Choose your time zones</option>
                         @foreach($timezones as $timezone => $value)
-                        <option value="{{ $value }}" {{ $value == $availability->time_zone ? 'selected' : '' }}>
+                        <option value="{{ $timezone }}" {{ $timezone == $availability->time_zone ? 'selected' : '' }}>
                             {{ $timezone }}</option>
                         @endforeach
                     </select>
