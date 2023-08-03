@@ -254,7 +254,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData ? $upcoming_session->user->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->mentor->metaData ? $upcoming_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="avatar avatar-sm me-3" alt="xd">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
@@ -342,7 +342,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData ? $requested_session->user->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->mentor->metaData ? $requested_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="avatar avatar-sm me-3" alt="xd">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
@@ -431,7 +431,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData ? $completed_session->user->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->mentor->metaData ? $completed_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="avatar avatar-sm me-3" alt="xd">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
@@ -514,7 +514,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $suggested_mentor->user->metaData ? $suggested_mentor->user->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $suggested_mentor->mentor->metaData ? $suggested_mentor->mentor->metaData->profile_pic : '' }}"
                                                                 class="avatar avatar-sm me-3" alt="xd">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
