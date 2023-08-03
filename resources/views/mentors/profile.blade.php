@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-@include('partials.header')
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet">
-
+<link id="pagestyle" href="https://demos.creative-tim.com/material-dashboard-pro/assets/css/material-dashboard.min.css?v=3.0.6" rel="stylesheet" />
+@include('partials.header')
 <body class="g-sidenav-show bg-gray-200">
     @include('mentors.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mb-3 mt-3">       
@@ -717,6 +717,7 @@
 </main>
     <!--   Core JS Files   -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+    <script src="https://demos.creative-tim.com/material-dashboard-pro/assets/js/material-dashboard.min.js?v=3.0.6"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $("#inactivate").click(function() {
