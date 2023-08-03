@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
+
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mt-3 mb-3">
@@ -155,7 +156,7 @@
                     </div>
                     <div class="row text-center d-flex align-items-stretch">
                         @foreach($reviews as $review)
-                        <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                        <div class="col-md-4 mb-5 mt-5 mb-md-0 d-flex align-items-stretch">
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
@@ -181,10 +182,11 @@
                             </div>
                         </div>
                         @endforeach
-                        </div> 
+                    </div>
                 </section>
             </div>
-         </div>
-       </main>
-    </body>
-  </html>
+        </div>
+    </main>
+</body>
+
+</html>
