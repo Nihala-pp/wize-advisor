@@ -258,7 +258,7 @@
                                         <select class="form-control" id="educationDate" name="start_time" required>
                                             <option value="">Time</option>
                                             @foreach($times as $time)
-                                            <option value="{{ $time->start_time }}">{{ $time->start_time }}</option>
+                                            <option value="{{ $time->start_time }}" {{ $time == $time->start_time ? "selected" : "" }}>{{ $time->start_time }}</option>
                                             @endforeach
                                         </select>
                                         <!-- <label class="form-label">Time</label> -->
@@ -269,7 +269,7 @@
                                             <option value="">UTC</option>
                                             @foreach($utc as $key => $ut)
                                             <option value="{{ $ut }}"
-                                                {{ $ut == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
+                                                {{ $key == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
                                             @endforeach
                                         </select>
                                     </div>
