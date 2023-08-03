@@ -185,7 +185,7 @@
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="Elena Morison">
-                                                <img alt="Image placeholder" src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}">
+                                                <img alt="Image placeholder" src="">
                                             </a>
                                         </div>
                                     </div>
