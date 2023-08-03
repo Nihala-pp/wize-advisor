@@ -167,7 +167,7 @@
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
                                     <img src="{{ asset('public/assets/img/').'/' }}{{ $review->user->metaData->profile_pic }}"
-                                        class="rounded-circle img-fluid" />
+                                        class="rounded-circle img-fluid" height="100" width="100">
                                 </div>
                                 <div class="card-body">
                                     <h4 class="mb-4">{{ $review->user->name }}</h4>

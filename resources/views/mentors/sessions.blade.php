@@ -160,17 +160,20 @@
                                 <table class="table align-items-center mb-0">
                                     <thead>
                                         <tr>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" style="color:black;">
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                style="color:black;">
                                                 Name</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2" style="color:black;">
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
+                                                style="color:black;">
                                                 Date & Time</th>
-                                            <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2" style="color:black;">
-                                                Description</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7" style="color:black;">
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
+                                                style="color:black;">
+                                                Description</th>]
+                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2"
+                                                style="color:black;">
+                                                Documents</th>
+                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"
+                                                style="color:black;">
                                                 Action</th>
                                             <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                         </tr>
@@ -199,6 +202,11 @@
                                             <td>
                                                 <div class="avatar-group mt-2">
                                                     {{ $upcoming_session ? $upcoming_session->description : '' }}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar-group mt-2">
+                                                    {{ $upcoming_session ? $upcoming_session->documents : '' }}
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
