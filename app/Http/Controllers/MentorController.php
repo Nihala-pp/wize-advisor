@@ -485,10 +485,9 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
         $pro_pic = time() . '.' . $request->image->getClientOriginalExtension();
         $request->image->move(public_path('public/assets/img'), $pro_pic);
-        $id = $request->row_id ? $request->row_id : '';
 
         Blogs::updateOrCreate([
-            ['id' => $id],
+            ['id' => $request->row_id],
             [
              'user_id' => Auth::id(),
              'title' => $request->title,
