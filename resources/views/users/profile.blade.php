@@ -2,7 +2,7 @@
 <html lang="en">
 @include('partials.header')
 
-<body class="g-sidenav-show bg-gray-200">
+<body class="g-sidenav-show bg-white">
     <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
         <!-- Navbar -->
         <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"

@@ -8,8 +8,9 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-<body class="g-sidenav-show  bg-gray-200">
-</ul>
+
+<body class="g-sidenav-show  bg-white">
+    </ul>
     </div>
     <div class="sidenav-footer position-absolute w-100 bottom-0 ">
         <div class="mx-3">
@@ -18,7 +19,7 @@
     </div>
 
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-    <!-- <div class="col-lg-8">
+        <!-- <div class="col-lg-8">
             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item active">
                     <a href="" class="nav-link text-muted active" target="_blank">Dashboard </a>
@@ -225,67 +226,79 @@
                         </div>
                         <div class="card-body">
                             <div class="row" id="row">
-                                <form method="POST" action="{{ route('user.schedule.save') }}" enctype="multipart/form-data">
+                                <form method="POST" action="{{ route('user.schedule.save') }}"
+                                    enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $scheduled_call->id }}">
                                     <div class="input-group  my-3">
                                         <!-- <label class="form-label">Mentor</label> -->
-                                        <input type="text" name="mentor" class="form-control" value="{{ $scheduled_call->user->name ??  '' }}" placeholder="Mentor" disabled>
+                                        <input type="text" name="mentor" class="form-control"
+                                            value="{{ $scheduled_call->mentor->name ??  '' }}" placeholder="Mentor"
+                                            disabled>
                                     </div>
                                     <div class="input-group input-group-static my-3">
                                         <!-- <label class="form-label">Documents</label> -->
-                                        <input type="file" name="documents" class="form-control" value="{{ $scheduled_call->documents ??  '' }}" placeholder="Documents" required>
+                                        <input type="file" name="documents" class="form-control"
+                                            value="{{ $scheduled_call->documents ??  '' }}" placeholder="Documents"
+                                            required>
                                     </div>
                                     <div class="input-group  my-3">
                                         <!-- <label class="form-label">Description</label> -->
-                                        <textarea name="description" class="form-control" cols="7"  placeholder="Description" required> {{ $scheduled_call->description ??  '' }} </textarea>
+                                        <textarea name="description" class="form-control" cols="7"
+                                            placeholder="Description"
+                                            required> {{ $scheduled_call->description ??  '' }} </textarea>
                                     </div>
                                     <div class="input-group  my-3">
                                         <!-- <label class="form-label">Date</label> -->
-                                        <input type="date" name="date" class="form-control date" placeholder="Date" value="{{ $scheduled_call->date ??  '' }}" id="date-pick" placeholder="Date">
+                                        <input type="date" name="date" class="form-control date" placeholder="Date"
+                                            value="{{ $scheduled_call->date ??  '' }}" id="date-pick"
+                                            placeholder="Date">
                                     </div>
                                     <div class="input-group  my-3">
-                                    <select class="form-control" id="educationDate" name="start_time" required>
-                                                    <option value="">Time</option>
-                                                    @foreach($times as $time)
-                                                      <option value="{{ $time->start_time }}">{{ $time->start_time }}</option>
-                                                   @endforeach
-                                                </select>
+                                        <select class="form-control" id="educationDate" name="start_time" required>
+                                            <option value="">Time</option>
+                                            @foreach($times as $time)
+                                            <option value="{{ $time->start_time }}">{{ $time->start_time }}</option>
+                                            @endforeach
+                                        </select>
                                         <!-- <label class="form-label">Time</label> -->
                                     </div>
                                     <div class="input-group  my-3">
                                         <!-- <label class="form-label">UTC</label> -->
                                         <select class="form-control" id="educationDate" name="utc" required>
                                             <option value="">UTC</option>
-                                                @foreach($utc as $key => $ut)
-                                                   <option value="{{ $ut }}" {{ $ut == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
-                                                @endforeach
+                                            @foreach($utc as $key => $ut)
+                                            <option value="{{ $ut }}"
+                                                {{ $ut == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
+                                            @endforeach
                                         </select>
                                     </div>
-                                </div>
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                                </form>
-                                <!-- </div> -->
                             </div>
+                            <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                    class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                            </form>
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
-                @include('partials.footer')
             </div>
+            @include('partials.footer')
+        </div>
     </main>
     @include('partials.settings')
     </div>
     <script type="text/javascript">
-            $(document).ready(function() {
-                $('.date').datepicker({
-                    multidate: true,
-                    format: 'yyyy-mm-dd'
-                });
-                // $('.time').timepicker({
-                //     format: 'hh:mm A',
-                // });
-          });
-        </script>
+    $(document).ready(function() {
+        $('.date').datepicker({
+            multidate: true,
+            format: 'yyyy-mm-dd'
+        });
+        // $('.time').timepicker({
+        //     format: 'hh:mm A',
+        // });
+    });
+    </script>
     <!--   Core JS Files   -->
 </body>
+
 </html>
