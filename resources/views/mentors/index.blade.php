@@ -85,8 +85,8 @@
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link text-white " href="{{ route('mentor.dashboard.expertise') }}">
-                                    <span class="sidenav-mini-icon"> E </span>
-                                    <span class="sidenav-normal  ms-2  ps-1"> Expertise </span>
+                                    <span class="sidenav-mini-icon"> B </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Blogs </span>
                                 </a>
                             </li>
                         </ul>
