@@ -154,6 +154,12 @@
                         <p class="text-sm"></p>
                     </div>
                     <div class="row">
+                        <div class="col-6 text-end">
+                            <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Add Blog
+                            </button>
+                        </div>
                         <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
                             <div class="card card-blog card-plain">
                                 <div class="card-header p-0 mt-n4 mx-3">
@@ -352,4 +358,5 @@
         </div>
     </main>
 </body>
+
 </html>
