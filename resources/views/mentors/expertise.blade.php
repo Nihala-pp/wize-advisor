@@ -396,11 +396,11 @@
           </div>
         </div>
     </main>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     $(document).ready(function() {
         $('#summernote').summernote();
     });
-    </script>
+    </script> -->
 </body>
 
 </html>
