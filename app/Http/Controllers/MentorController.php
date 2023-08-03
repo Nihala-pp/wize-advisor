@@ -486,7 +486,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
         $pro_pic = time() . '.' . $request->image->getClientOriginalExtension();
         $request->image->move(public_path('public/assets/img'), $pro_pic);
 
-        Blogs::updateOrCreate([
+        Blogs::updateOrCreate(
             ['id' => $request->row_id],
             [
              'user_id' => Auth::id(),
@@ -494,6 +494,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
              'description' => $request->description,
              'image' => $pro_pic,
             ]
-        ]);
+        );
     }
 }
