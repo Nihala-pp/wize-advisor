@@ -155,69 +155,23 @@
                             <h2 class="  text-center">Experience</h2>
                             <div class="mb-5 heading-border"></div>
                         </div>
+
+                        @foreach($experience as $exp)
                         <div class="resume-item col-md-6 col-sm-12 ">
                             <div class="card mx-0 p-4 mb-5"
                                 style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                                 <div class=" resume-content mr-auto">
-                                    <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> Senior Web Developer
+                                    <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> {{ $exp->company_name }}
                                     </h4>
-                                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to
-                                        beta test. Override the digital divide with additional clickthroughs from
-                                        DevOps. Nanotechnology immersion along the information highway will close the
-                                        loop on focusing solely on the bottom line.</p>
+                                    <p>{{ $exp->description }}</p>
                                 </div>
                                 <div class="resume-date text-md-right">
-                                    <span class="text-primary">March 2019 - Present</span>
+                                    <span class="text-primary">{{ $exp->start_date }} -
+                                        {{ $exp->end_date ? $exp->end_date : 'Present' }}</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="resume-item col-md-6 col-sm-12">
-                            <div class="card mx-0 p-4 mb-5"
-                                style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                                <div class="resume-content mr-auto">
-                                    <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i> Web Developer</h4>
-                                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to
-                                        beta test. Override the digital divide with additional clickthroughs from
-                                        DevOps. Nanotechnology immersion along the information highway will close the
-                                        loop on focusing solely on the bottom line.</p>
-                                </div>
-                                <div class="resume-date text-md-right">
-                                    <span class="text-primary">December 2018 - March 2019</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="resume-item col-md-6 col-sm-12">
-                            <div class="card mx-0 p-4 mb-5"
-                                style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                                <div class="resume-content mr-auto">
-                                    <h4 class="mb-3"><i class="fa fa-camera mr-3 text-success"></i> Junior Web Designer
-                                    </h4>
-                                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to
-                                        beta test. Override the digital divide with additional clickthroughs from
-                                        DevOps. Nanotechnology immersion along the information highway will close the
-                                        loop on focusing solely on the bottom line.</p>
-                                </div>
-                                <div class="resume-date text-md-right">
-                                    <span class="text-primary">July 2017 - December 2018</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="resume-item col-md-6 col-sm-12">
-                            <div class="card mx-0 p-4 mb-5"
-                                style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                                <div class="resume-content mr-auto">
-                                    <h4 class="mb-3"><i class="fa fa-area-chart mr-3 text-primary"></i> Web Design
-                                        Intern</h4>
-                                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to
-                                        beta test. Override the digital divide with additional clickthroughs from
-                                        DevOps. Nanotechnology immersion along the information highway will close the
-                                        loop on focusing solely on the bottom line.</p>
-                                </div>
-                                <div class="resume-date text-md-right">
-                                    <span class="text-primary">September 2018 - June 2019</span>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </section>
 
@@ -231,30 +185,18 @@
                             <div class="mb-5 heading-border"></div>
                         </div>
                         <div class="main-award" id="award-box">
+                            @foreach($achievements as $achievement)
                             <div class="award">
                                 <div class="award-icon"></div>
                                 <div class="award-content">
-                                    <span class="date">Apr 2017 - Mar 2018</span>
-                                    <h5 class="title">Google Analytics Certified Developer</h5>
+                                    <!-- <span class="date">Apr 2017 - Mar 2018</span>
+                                    <h5 class="title">Google Analytics Certified Developer</h5> -->
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                        vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo
-                                        sed.
+                                        {{ $achievement->description }}
                                     </p>
                                 </div>
                             </div>
-                            <div class="award">
-                                <div class="award-icon"></div>
-                                <div class="award-content">
-                                    <span class="date">Apr 2018 - Mar 2019</span>
-                                    <h5 class="title">Mobile Web Specialist - Google Certification</h5>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                        vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo
-                                        sed.
-                                    </p>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </section>

@@ -11,6 +11,8 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
+use App\Models\MentorsExperience;
+use App\Models\MentorAchievements;
 use App\Models\ZoomAPI;
 use GuzzleHttp\Client;
 use Illuminate\Http\Response;
@@ -64,7 +66,10 @@ class MentorController extends Controller
 
     public function experience()
     {
-        return view('mentors.experience');
+        $experience = MentorsExperience::where('user_id', Auth::id())->get();
+        $achievements = MentorAchievements::where('mentor_id', Auth::id())->get();
+
+        return view('mentors.experience', compact('experience','achievements'));
     }
 
     public function expertise()
