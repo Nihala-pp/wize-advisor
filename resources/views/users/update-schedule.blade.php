@@ -258,7 +258,7 @@
                                         <select class="form-control" id="educationDate" name="start_time" required>
                                             <option value="">Time</option>
                                             @foreach($times as $time)
-                                            <option value="{{ $time->start_time }}" {{ $time == $time->start_time ? "selected" : "" }}>{{ $time->start_time }}</option>
+                                            <option value="{{ $time->start_time }}" {{ $scheduled_call->start_time == $time->start_time ? "selected" : "" }}>{{ $time->start_time }}</option>
                                             @endforeach
                                         </select>
                                         <!-- <label class="form-label">Time</label> -->
