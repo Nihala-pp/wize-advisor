@@ -184,6 +184,7 @@
                             <h2 class="  text-center">Awards</h2>
                             <div class="mb-5 heading-border"></div>
                         </div>
+                        @if(!empty($achievements))
                         <div class="main-award" id="award-box">
                             @foreach($achievements as $achievement)
                             <div class="award">
@@ -198,6 +199,7 @@
                             </div>
                             @endforeach
                         </div>
+                        @endif
                     </div>
                 </section>
                 <!-- </div> -->
