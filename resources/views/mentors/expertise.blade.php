@@ -354,53 +354,31 @@
                 <!-- </div> -->
             </div>
         </div>
-        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header info-color white-text">
-                        <h5 class="title"><b>Write your Blog</b></h5>
-                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                        <h6 class="title"><b>Edit Availability</b></h6>
+                        <button type="button" class="close waves-effect waves-light" data-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">×</span>
                         </button>
                     </div>
-                    <div class="modal-body addBlog">
-                        <div class="card card-plain">
-                            <div class="card-body">
-                                <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left">
-                                    @csrf
-                                    <div class="input-group">
-                                        <label class="form-label">Title</label>
-                                        <input type="text" name="title" class="form-control">
-                                    </div>
-                                    <div class="input-group">
-                                        <label class="form-label">Description</label>
-                                        <textarea id="summernote" name="description"></textarea>
-                                        <!-- <input type="text" name="description" class="form-control"> -->
-                                    </div>
-                                    <div class="input-group input-group-static my-3">
-                                        <label>Image</label>
-                                        <input type="file" name="blog_image" class="form-control" required>
-                                    </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn bg-gradient-secondary"
-                                    data-bs-dismiss="modal">Close</button>
-                                <button type="submit" class="btn bg-gradient-primary">Save changes</button>
-                            </div>
-                            </form>
+                    <form method="POST" action="{{ route('mentor.schedule.edit') }}" role="form text-left">
+                        @csrf
+                        <div class="modal-body editAvailability">
                         </div>
-                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn bg-gradient-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                        </div>
+                    </form>
                 </div>
             </div>
-          </div>
         </div>
     </main>
-    <!-- <script type="text/javascript">
-    $(document).ready(function() {
-        $('#summernote').summernote();
-    });
-    </script> -->
 </body>
 
 </html>
