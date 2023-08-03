@@ -369,13 +369,14 @@
                             <div class="card-body">
                                 <form method="POST" action="{{ route('mentor.blog.add') }}" role="form text-left">
                                     @csrf
+                                    <input type="hidden" name="row_id" class="form-control" value="">
                                     <div class="input-group input-group-static mb-4">
                                         <label>Title</label>
                                         <input type="text" name="title" class="form-control">
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Description</label>
-                                        <textarea id="summernote" name="editordata" class="form-control"></textarea>
+                                        <textarea id="summernote" name="description" class="form-control"></textarea>
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Image</label>

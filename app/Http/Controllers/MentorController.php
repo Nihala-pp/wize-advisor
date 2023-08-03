@@ -14,6 +14,7 @@ use App\Models\AvailableSchedule;
 use App\Models\MentorsExperience;
 use App\Models\MentorAchievements;
 use App\Models\ZoomAPI;
+use App\Models\Blogs;
 use GuzzleHttp\Client;
 use Illuminate\Http\Response;
 use Log;
@@ -482,6 +483,16 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
     public function saveBlog(Request $request)
     {
-        
+        $pro_pic = time() . '.' . $request->image->getClientOriginalExtension();
+        $request->image->move(public_path('public/assets/img'), $pro_pic);
+        $id = $request->row_id ? $request->row_id : '';
+
+        Blogs::updateOrCreate([
+            ['id' => $id],
+             'user_id' => Auth::id(),
+             'title' => $request->title,
+             'description' => $request->description,
+             'image' => $pro_pic,
+        ]);
     }
 }
