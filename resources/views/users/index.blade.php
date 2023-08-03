@@ -285,7 +285,7 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="" class="" data-bs-toggle="tooltip"
+                                                        <a href="{{ route('user.schedule.update', [$requested_session->id]) }}" class="" data-bs-toggle="tooltip"
                                                             data-bs-placement="bottom" title="update Session">
                                                             Update Session
                                                         </a>
