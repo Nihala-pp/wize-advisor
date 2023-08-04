@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-md-6">
                     <label class="form-label">Date</label>
-                    <input type="text" name="date" class="form-control" value="{{ $availability->date }}" required>
+                    <input type="date" name="date" class="form-control" value="{{ $availability->date }}" required>
                 </div>
                 <div class="col-md-6">
                     <label class="form-label">Start Time</label>
