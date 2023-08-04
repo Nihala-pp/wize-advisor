@@ -339,7 +339,7 @@
             });
         });
 
-        $(".delete").click(function() {
+        $('body').on('click', '.delete', function() {
             var Id = $(this).data('id');
             $.ajax({
                 url: "{{ route('mentor.experience.delete') }}",
