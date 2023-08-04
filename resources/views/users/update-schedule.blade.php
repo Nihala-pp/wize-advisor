@@ -321,7 +321,7 @@
             }
         });
 
-        $('.date').click(function() {
+        $('.date').on("change",function(){
             var date = $(this).val();
             var timezone = $(".timezone").val();
             var mentor = $(".mentor").val();
