@@ -251,8 +251,7 @@
                                     <div class="input-group input-group-static mb-4">
                                         <label>Date</label>
                                         <input type="text" name="date" class="form-control" placeholder="Date"
-                                             id="date-pick"
-                                            placeholder="Date">
+                                            id="date-pick" placeholder="Date">
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Time Slot</label>
@@ -287,6 +286,8 @@
         </div>
     </main>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script type="text/javascript">
     var highlight_dates = <?php echo json_encode($dateAvailability); ?>
 
@@ -323,9 +324,9 @@
     color: #001e64 !important;
 }
 
-.highlight a{
-   background: #29f274 !important;
-   color: #ffffff !important;
+.highlight a {
+    background: #29f274 !important;
+    color: #ffffff !important;
 }
 </style>
 
