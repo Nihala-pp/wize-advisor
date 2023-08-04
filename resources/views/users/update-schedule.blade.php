@@ -230,6 +230,8 @@
                                     enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $scheduled_call->id }}">
+                                    <input type="hidden" class="mentor" name="mentor_id"
+                                        value="{{ $scheduled_call->mentor_id }}">
                                     <div class="input-group input-group-static mb-4">
                                         <label>Mentor</label>
                                         <input type="text" name="mentor" class="form-control"
@@ -250,7 +252,7 @@
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Date</label>
-                                        <input type="text" name="date" class="form-control" placeholder="Date"
+                                        <input type="text" name="date" class="form-control date" placeholder="Date"
                                             id="date-pick" placeholder="Date">
                                     </div>
                                     <div class="input-group input-group-static mb-4">
@@ -290,7 +292,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        var highlight_dates = ['2023-08-06', '2023-08-23', '2023-08-07', '2023-08-14', '2023-08-05', '2023-08-11', '2023-08-08', '2023-08-09', '2023-08-21', '2023-08-31', '2023-08-29'];
+        var highlight_dates = ['2023-08-06', '2023-08-23', '2023-08-07', '2023-08-14', '2023-08-05',
+            '2023-08-11', '2023-08-08', '2023-08-09', '2023-08-21', '2023-08-31', '2023-08-29'
+        ];
 
         console.log(highlight_dates);
 
@@ -313,6 +317,30 @@
                 }
                 return [true];
             }
+        });
+
+        $('.date').onclick(function() {
+            var date = $(this).val();
+            var timezone = $("#educationDate").val();
+            var mentor = $(".mentor").val();
+            return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
+                method: 'GET',
+                data: {
+                    "_token": $('meta[name="csrf-token"]').attr('content'),
+                    "date": date,
+                    "timezone": timezone,
+                    "mentor": mentor,
+                },
+                success: function(response) {
+                    for (var key in response) {
+                        $('#educationDate').append($('<option/>', {
+                            value: response[key],
+                            text: response[key]
+                        }));    
+                    }
+                    // return available_dates;
+                },
+            });
         });
     });
     </script>
