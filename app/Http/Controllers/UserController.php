@@ -65,6 +65,7 @@ class UserController extends Controller
     $utc = AvailableSchedule::timezones();
     $times = AvailableSchedule::where('mentor_id', $scheduled_call->mentor_id)->where('date', $scheduled_call->date)->where('is_booked', 0)->get();
     $timeAvailability = $this->utcToChangeTimezone($times, $scheduled_call->utc);
+    $dateAvailability = $this->getDateAvailability($scheduled_call);
 
     return view('users.update-schedule', compact('scheduled_call', 'utc', 'times', 'timeAvailability'));
   }
@@ -131,5 +132,23 @@ class UserController extends Controller
     $profile = User::find($id);
 
     return view('users.profile', compact('profile'));
+  }
+
+  public function getDateAvailability($scheduled_call)
+  {
+    $timezone = $request->timezone;
+    $month = $request->month;
+    $year = $request->year;
+    $mentor = $request->mentor;
+    $date = AvailableSchedule::where('mentor_id', $mentor)->whereYear('date', '=', $year)
+      ->whereMonth('date', '=', $month)->get();
+
+    $dates = array();
+
+    foreach ($date as $dt) {
+      $dates[] = Carbon::parse($dt->date)->format('d');
+    }
+
+    return response()->json($dates);
   }
 }
