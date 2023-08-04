@@ -44,7 +44,7 @@
                 <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor"
                     width="150;" height="75px;" style="object-fit:contain;" class="d-inline-block align-top">
             </a>
-            <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <div class="ms-md-auto pe-md-3 d-flex">
                     <div class="input-group input-group-outline">
                         <!-- <label class="form-label">Type here...</label> -->
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex align-items-center">
-                    <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                    <ul class="navbar-nav">
                         <!-- <li class="nav-item active">
                                 <a href="{{ route('user.dashboard') }}" class="nav-link text-muted active"
                                     target="_blank">Dashboard
