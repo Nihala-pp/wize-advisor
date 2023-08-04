@@ -862,7 +862,7 @@
 }
 
 .btn-secondary{
-    background-color:#fff;
+    background-color: #fff !important;
 }
 </style>
 
