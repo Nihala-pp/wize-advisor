@@ -322,7 +322,15 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
             Mail::to($schedule->user->email)->send(new CallApprovalUser($details));
 
-            dd("Meeting link successsfully emailed to the user");
+            // dd("Meeting link successsfully emailed to the user");
+
+            $notification = array(
+                'message' => 'Approved Successfully!',
+                'alert-type' => 'success'
+            );
+    
+            return redirect()->route('mentor.dashboard.my_sessions')
+                ->with($notification, 'Approved Successfully!');
 
             // echo "Join URL: " . $data->join_url;
             // echo "<br>";
