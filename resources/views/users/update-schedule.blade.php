@@ -299,10 +299,10 @@
                 var day = date.getDate();
 
                 // Change format of date
-                var newdate = day + "-" + month + '-' + year;
+                var newdate = year + "-" + month + '-' + day;
 
                 // Set tooltip text when mouse over date
-                var tooltip_text = "New event on " + newdate;
+                var tooltip_text = "Availability on " + newdate;
 
                 // Check date in Array
                 if (jQuery.inArray(newdate, highlight_dates) != -1) {
