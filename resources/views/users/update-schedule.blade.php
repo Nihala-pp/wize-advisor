@@ -288,24 +288,30 @@
     </main>
     </div>
     <script type="text/javascript">
-      var enableDays = <?php echo json_encode($dateAvailability); ?>
-
-    function enableAllTheseDays(date) {
-        var sdate = $.datepicker.formatDate('d-m-yy', date)
-        if ($.inArray(sdate, enableDays) != -1) {
-            return [true];
-        }
-        return [false];
-    }
+    var highlight_dates = <?php echo json_encode($dateAvailability); ?>
 
     $(document).ready(function() {
         $('.dateFormat').datepicker({
             dateFormat: 'yyyy-mm-dd',
-            beforeShowDay: enableAllTheseDays
+            beforeShowDay: function(date) {
+                var month = date.getMonth() + 1;
+                var year = date.getFullYear();
+                var day = date.getDate();
+
+                // Change format of date
+                var newdate = day + "-" + month + '-' + year;
+
+                // Set tooltip text when mouse over date
+                var tooltip_text = "New event on " + newdate;
+
+                // Check date in Array
+                if (jQuery.inArray(newdate, highlight_dates) != -1) {
+                    // Pass class name and tooltip text
+                    return [true, "highlight", tooltip_text];
+                }
+                return [true];
+            }
         });
-        // $('.time').timepicker({
-        //     format: 'hh:mm A',
-        // });
     });
     </script>
     <!--   Core JS Files   -->
