@@ -148,6 +148,19 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
+                <div class="card-header pb-0 p-3">
+                    <div class="row">
+                        <div class="col-6 d-flex align-items-center">
+                            <h6 class="mb-0"></h6>
+                        </div>
+                        <div class="col-6 text-end">
+                            <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Add Experience
+                            </button>
+                        </div>
+                    </div>
+                </div>
                 <!-- <div class="col-12"> -->
                 <section class="resume-section p-3 p-lg-5 " id="experience">
                     <div class="row my-auto">
