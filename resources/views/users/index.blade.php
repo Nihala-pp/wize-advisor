@@ -843,7 +843,7 @@
     color: #d17581;
 }
 
-.navbar-main li a {
+.navbar-light li a {
     font-family: "Helvetica", Sans-serif !important;
     font-size: 17px !important;
     font-weight: 700 !important;
