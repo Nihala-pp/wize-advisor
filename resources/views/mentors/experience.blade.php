@@ -177,7 +177,7 @@
                                         <button type="button" class="btn btn-block edit" data-id="{{ $exp->id }}" style="margin-left:90px;">
                                             <i class="fa fa-edit"></button></i>
                                         <button type="button" class="btn btn-block delete"
-                                            data-id="{{ $exp->id }}" style="margin-left:90px;">
+                                            data-id="{{ $exp->id }}" style="padding-left:10px;">
                                             <i class="fa fa-trash"></button></i>
                                         <!-- <i class="fa fa-edit edit" style="margin-left:90px;"></i>
                                         <i class="fa fa-trash delete" style="padding-left:10px;"></i> -->
