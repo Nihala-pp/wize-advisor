@@ -215,13 +215,13 @@
                                         <!-- <label class="">Expertise</label> -->
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
                                             data-color="dark" type="text"
-                                            value="{{ $data->metaData->expertise ?  json_decode($data->metaData->expertise) : '' }}"
+                                            value="{{ $data->metaData->expertise ? : '' }}"
                                             placeholder="Type Expertise and press enter" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Languages</label>
                                         <input name="languages[]" class="form-control" id="languages-tags"
-                                            data-color="dark" type="text" value="{{ $data->metaData->language ? json_decode($data->metaData->language)  : '' }}"
+                                            data-color="dark" type="text" value="{{ $data->metaData->language ?  : '' }}"
                                             placeholder="Type Languages and press enter" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
