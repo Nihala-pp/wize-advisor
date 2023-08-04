@@ -292,7 +292,6 @@
 
     $(document).ready(function() {
         $('.dateFormat').datepicker({
-            dateFormat: 'yyyy-mm-dd',
             beforeShowDay: function(date) {
                 var month = date.getMonth() + 1;
                 var year = date.getFullYear();
