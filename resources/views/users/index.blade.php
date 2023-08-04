@@ -860,6 +860,10 @@
     padding-right: 50px;
     margin-left: 20px;
 }
+
+.btn-secondary{
+    background-color:#fff;
+}
 </style>
 
 </html>
