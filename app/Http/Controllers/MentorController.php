@@ -514,11 +514,13 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
     public function editExperience(Request $request)
     {
+        $experience = MentorsExperience::find($request->Id);
 
+        return view('edit-experience', compact('experience'));
     }
 
     public function deleteExperience(Request $request)
     {
-        
+
     }
 }

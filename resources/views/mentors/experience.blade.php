@@ -174,10 +174,11 @@
                                 style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                                 <div class="resume-content mr-auto">
                                     <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> {{ $exp->company_name }}
-                                        <button type="button" class="btn btn-block edit" data-id="{{ $exp->id }}" style="margin-left:90px;">
+                                        <button type="button" class="btn btn-block edit" data-id="{{ $exp->id }}"
+                                            style="margin-left:90px;">
                                             <i class="fa fa-edit"></button></i>
-                                        <button type="button" class="btn btn-block delete"
-                                            data-id="{{ $exp->id }}" style="padding-left:5px;">
+                                        <button type="button" class="btn btn-block delete" data-id="{{ $exp->id }}"
+                                            style="padding-left:5px;">
                                             <i class="fa fa-trash"></button></i>
                                         <!-- <i class="fa fa-edit edit" style="margin-left:90px;"></i>
                                         <i class="fa fa-trash delete" style="padding-left:10px;"></i> -->
@@ -295,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+                <div class="modal" id="editExperience" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
@@ -306,70 +307,19 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body editExperience">
-                                <div class="card card-plain">
-                                    <div class="card-body">
-                                        <form method="POST" action="{{ route('mentor.experience.save') }}"
-                                            role="form text-left">
-                                            @csrf
-                                            <input type="hidden" name="row_id" value="">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="input-group input-group-static mb-3">
-                                                        <label>Company </label>
-                                                        <input type="text" name="company" class="form-control">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="input-group input-group-static mb-3">
-                                                        <label>Designation</label>
-                                                        <input type="text" name="designation" class="form-control">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="input-group input-group-static mb-3">
-                                                        <label>Job Description</label>
-                                                        <textarea class="form-control" name="description" rows="5"
-                                                            spellcheck="false"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="input-group input-group-static mb-3">
-                                                        <label>Start Date</label>
-                                                        <input type="date" name="start_date"
-                                                            class="form-control datevalue">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="input-group input-group-static mb-3">
-                                                        <label>End Date</label>
-                                                        <input type="date" name="end_date"
-                                                            class="form-control datevalue">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="input-group input-group-static mb-3">
-                                                        <div class="form-check">
-                                                            <input type="checkbox" name="current"
-                                                                class="form-check-input" id="customCheckDisabled">
-                                                            <label class="custom-control-label"
-                                                                for="customCheckDisabled">Are
-                                                                you Currently
-                                                                working here ? (If yes please check)</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn bg-gradient-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn bg-gradient-primary">Save changes</button>
-                                    </div>
-                                    </form>
+                            <form method="POST" action="{{ route('mentor.experience.save') }}" role="form text-left">
+                                @csrf
+                                <div class="modal-body editExperience">
                                 </div>
-                            </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn bg-gradient-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                                </div>
+                            </form>
                         </div>
+                    </div>
+                </div>
     </main>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -399,55 +349,6 @@
                 },
             });
         });
-        // let row_number = 0;
-
-        // $(".rowAdder").click(function(e) {
-        //     var date = $('.datevalue').val();
-        //     let new_row_number = row_number + 1;
-        //     newRowAdd =
-        //         '<div class="row" id="row">' +
-        //         '<div class="col-md-2">' +
-        //         '<div class="input-group input-group-static mb-3">' +
-        //         '<input type="text" name="experience[' + new_row_number +
-        //         '][company]" class="form-control" value="' + date + '">' +
-        //         '</div></div>' +
-        //         '<div class="col-md-3">' +
-        //         '<div class="input-group input-group-static mb-3">' +
-        //         '<input type="text" name="experience[' + new_row_number +
-        //         '][designation]" class="form-control">' +
-        //         '</div></div>' +
-        //         '<div class="col-md-3">' +
-        //         '<div class="input-group input-group-static mb-3">' +
-        //         '<textarea class="form-control" name="experience[0][description]" rows = "5"  spellcheck = "false">' +
-        //         '</textarea>' +
-        //         '</div></div>' +
-        //         '<div class="col-md-2">' +
-        //         '<div class="input-group input-group-static mb-3">' +
-        //         '<input type="date" name="experience[' + new_row_number +
-        //         '][start_date]" class="form-control">' +
-        //         '</div></div>' +
-        //         '<div class="col-md-2">' +
-        //         '<div class="input-group input-group-static mb-3">' +
-        //         '<input type="date" name="experience[' + new_row_number +
-        //         '][end_date]" class="form-control">' +
-        //         '</div></div>' +
-        //         '<div class="col-md-2 mt-3">' +
-        //         '<div class="input-group input-group-static mb-3">' +
-        //         '<i class="fa fa-trash DeleteRow"> </i>' +
-        //         '</div></div></div>';
-        //     $('.newinput').append(newRowAdd);
-        //     row_number++;
-        // });
-
-        // $(document).on('click', 'i.DeleteRow', function() {
-        //     if (row_number > 0) {
-        //         $(this).closest('.row').remove();
-        //         row_number--;
-
-        //         return false;
-        //         // $(this).parents(".row" + (row_number - 1)).remove();
-        //     }
-        // });
     });
     </script>
 </body>
