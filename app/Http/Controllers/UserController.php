@@ -153,4 +153,16 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
     return $date;
   }
+
+  
+  public function getTimeAvailability(Request $request)
+  {
+    $mentor = $request->mentor;
+    $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
+    $date = Carbon::parse($request->date)->toDateString();
+    $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('is_booked', 0)->get();
+    $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
+
+    return response()->json($timeAvailability);
+  }
 }
