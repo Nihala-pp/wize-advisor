@@ -288,7 +288,7 @@
     </main>
     </div>
     <script type="text/javascript">
-    var enableDays = {{ $dateAvailability }};
+    var enableDays = "{{ $dateAvailability }}";
 
     function enableAllTheseDays(date) {
         var sdate = $.datepicker.formatDate('d-m-yy', date)
