@@ -194,40 +194,6 @@
                                         <label class="">Languages</label>
                                         <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ? : '' }}" placeholder="Type Languages and press enter" required>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading"> Experience</div>
-                                        <div class="panel-body">
-                                            <div id="education_fields">
-                                            </div>
-                                            <!-- <div class="col-sm-4"> -->
-                                            <div class="input-group input-group-static mb-3">
-                                                <input type="text" name="company_name" class="form-control" placeholder="Company Name" value="{{ $data->metaData->company_name ? : '' }}" required>
-                                            </div>
-                                            <!-- </div> -->
-                                            <!-- <div class="col-sm-4"> -->
-                                            <div class="input-group input-group-static mb-3">
-                                                <input type="text" class="form-control" id="Major" name="position" value="{{ $data->metaData->position ? : '' }}" placeholder="Position" required>
-                                            </div>
-                                            <!-- <div class="col-sm-3 nopadding">
-                                                <div class="form-group"> -->
-                                            <div class="input-group input-group-static mb-3">
-                                                <select class="form-control" id="educationDate" name="year" required>
-                                                    <option value="">Date</option>
-                                                    <option value="2015">2015</option>
-                                                    <option value="2016">2016</option>
-                                                    <option value="2017">2017</option>
-                                                    <option value="2018">2018</option>
-                                                </select>
-                                                <!-- <div class="input-group-btn">
-                                                    <button class="btn btn-success" type="button" onclick="education_fields();"> <span class="fa fa-plus" aria-hidden="true"></span> </button>
-                                                </div> -->
-                                            </div>
-                                            <!-- </div>
-                                            </div> -->
-                                            <!-- <div class="clear"></div> -->
-                                        </div>
-                                        <!-- <div class="panel-footer"><small> <span class="glyphicon glyphicon-plus gs"></span> </small><small> <span class="glyphicon glyphicon-minus gs"></span> </small></div> -->
-                                    </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label>Profile Pic</label>
                                         <input type="file" name="profile_pic" class="form-control" required>
