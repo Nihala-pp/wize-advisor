@@ -93,7 +93,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
     $details = ScheduledCall::find($request->row_id)->update([
       'user_id' => Auth::id(),
-      'mentor_id' => $scheduled_call->mentor_id,
+      'mentor_id' => $request->mentor,
       'price' => $scheduled_call->price,
       'date' => $request->date,
       'duration' => $scheduled_call->duration,
