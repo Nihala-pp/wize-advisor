@@ -24,8 +24,8 @@
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                        <div class="input-group input-group-outline">
-                            <!-- <label class="form-label">Type here...</label>
+                        <div class="input-group input-group-static">
+                            <!-- <label class="">Type here...</label>
                             <input type="text" class="form-control"> -->
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
-                                            <div class="my-auto">
+                                            <div class="mb-auto">
                                                 <img src="{{ asset('assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
@@ -76,7 +76,7 @@
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
-                                            <div class="my-auto">
+                                            <div class="mb-auto">
                                                 <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
@@ -94,7 +94,7 @@
                                 <li>
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
-                                            <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
+                                            <div class="avatar avatar-sm bg-gradient-secondary  me-3  mb-auto">
                                                 <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -146,52 +146,52 @@
                                         <label>Full Name</label>
                                         <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Email</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Email</label>
                                         <input type="email" name="email" class="form-control" value="{{ $data->email ? : '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Phone</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Phone</label>
                                         <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ? : '' }}">
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Linked-In Profile</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Linked-In Profile</label>
                                         <input type="url" class="form-control" name="linked_in" value="{{ $data->metaData->social_linked_in ? : '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Youtube Link (if any)</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Youtube Link (if any)</label>
                                         <input type="url" class="form-control" name="youtube_link" value="{{ $data->metaData->youtube_link ? : '' }}">
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Website Link (if any)</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Website Link (if any)</label>
                                         <input type="url" class="form-control" name="website_link" value="{{ $data->metaData->website_link ? : '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">BIO</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">BIO</label>
                                         <textarea name="bio" class="form-control" rows="5">{{ $data->metaData->about_me ? : '' }}</textarea>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Company</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Company</label>
                                         <input type="text" name="company" class="form-control" value="{{ $data->metaData->company ? : '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Designation</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Designation</label>
                                         <input type="text" name="designation" class="form-control" value="{{ $data->metaData->designation ? : '' }}" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Price per call</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Price per call</label>
                                         <input type="number" name="price_per_call" class="form-control" value="{{ $data->metaData->price_per_call ? : '' }}" required>
                                     </div>
-                                    <!-- <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">wiseAdvizor Commission</label>
+                                    <!-- <div class="input-group input-group-static mb-3">
+                                        <label class="">wiseAdvizor Commission</label>
                                         <input type="number" name="commission" class="form-control" value="{{ $data->metaData->commission ? : '' }}" required>
                                     </div> -->
-                                    <div class="input-group input-group-outline my-3">
-                                        <!-- <label class="form-label">Expertise</label> -->
+                                    <div class="input-group input-group-static mb-3">
+                                        <!-- <label class="">Expertise</label> -->
                                         <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ? : '' }}" placeholder="Type Expertise and press enter" required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Languages</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label class="">Languages</label>
                                         <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ? : '' }}" placeholder="Type Languages and press enter" required>
                                     </div>
                                     <div class="panel panel-default">
@@ -200,17 +200,17 @@
                                             <div id="education_fields">
                                             </div>
                                             <!-- <div class="col-sm-4"> -->
-                                            <div class="input-group input-group-outline my-3">
+                                            <div class="input-group input-group-static mb-3">
                                                 <input type="text" name="company_name" class="form-control" placeholder="Company Name" value="{{ $data->metaData->company_name ? : '' }}" required>
                                             </div>
                                             <!-- </div> -->
                                             <!-- <div class="col-sm-4"> -->
-                                            <div class="input-group input-group-outline my-3">
+                                            <div class="input-group input-group-static mb-3">
                                                 <input type="text" class="form-control" id="Major" name="position" value="{{ $data->metaData->position ? : '' }}" placeholder="Position" required>
                                             </div>
                                             <!-- <div class="col-sm-3 nopadding">
                                                 <div class="form-group"> -->
-                                            <div class="input-group input-group-outline my-3">
+                                            <div class="input-group input-group-static mb-3">
                                                 <select class="form-control" id="educationDate" name="year" required>
                                                     <option value="">Date</option>
                                                     <option value="2015">2015</option>
@@ -228,7 +228,7 @@
                                         </div>
                                         <!-- <div class="panel-footer"><small> <span class="glyphicon glyphicon-plus gs"></span> </small><small> <span class="glyphicon glyphicon-minus gs"></span> </small></div> -->
                                     </div>
-                                    <div class="input-group input-group-static my-3">
+                                    <div class="input-group input-group-static mb-3">
                                         <label>Profile Pic</label>
                                         <input type="file" name="profile_pic" class="form-control" required>
                                     </div>
