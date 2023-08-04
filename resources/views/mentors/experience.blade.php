@@ -238,7 +238,7 @@
                                     <div class="row">
                                         <div class="col-md-2">
                                             <div class="input-group input-group-static mb-3">
-                                                <label>Company Name</label>
+                                                <label>Company </label>
                                                 <input type="text" name="experience[0][company]" class="form-control">
                                             </div>
                                         </div>
@@ -253,8 +253,7 @@
                                             <div class="input-group input-group-static mb-3">
                                                 <label>Description</label>
                                                 <textarea class="form-control" name="experience[0][description]"
-                                                    rows="5" placeholder="Say a few words about what you're working on."
-                                                    spellcheck="false"></textarea>
+                                                    rows="5" spellcheck="false"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-md-2">
@@ -319,17 +318,17 @@
                 '</div></div>' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static mb-3">' +
-                '<textarea class="form-control" name="experience[0][description]" rows = "5" placeholder = "Say a few words about what you re working on." spellcheck = "false">' +
+                '<textarea class="form-control" name="experience[0][description]" rows = "5"  spellcheck = "false">' +
                 '</textarea>' +
                 '</div></div>' +
                 '<div class="col-md-2">' +
                 '<div class="input-group input-group-static mb-3">' +
-                '<input type="time" name="experience[' + new_row_number +
+                '<input type="date" name="experience[' + new_row_number +
                 '][start_date]" class="form-control">' +
                 '</div></div>' +
                 '<div class="col-md-2">' +
                 '<div class="input-group input-group-static mb-3">' +
-                '<input type="time" name="experience[' + new_row_number +
+                '<input type="date" name="experience[' + new_row_number +
                 '][end_date]" class="form-control">' +
                 '</div></div>' +
                 '<div class="col-md-2 mt-3">' +
