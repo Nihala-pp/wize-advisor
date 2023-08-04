@@ -250,7 +250,7 @@
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Date</label>
-                                        <input type="date" name="date" class="form-control date" placeholder="Date"
+                                        <input type="text" name="date" class="form-control date" placeholder="Date"
                                             value="{{ $scheduled_call->date ??  '' }}" id="date-pick"
                                             placeholder="Date">
                                     </div>
