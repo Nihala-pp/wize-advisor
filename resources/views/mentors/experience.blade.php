@@ -67,7 +67,7 @@
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
-                                            <div class="my-auto">
+                                            <div class="mb-auto">
                                                 <img src="{{ asset('assets/img/team-2.jpg') }}"
                                                     class="avatar avatar-sm  me-3 ">
                                             </div>
@@ -86,7 +86,7 @@
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
-                                            <div class="my-auto">
+                                            <div class="mb-auto">
                                                 <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}"
                                                     class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
@@ -105,7 +105,7 @@
                                 <li>
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
-                                            <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
+                                            <div class="avatar avatar-sm bg-gradient-secondary  me-3  mb-auto">
                                                 <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -163,7 +163,7 @@
                 </div>
                 <!-- <div class="col-12"> -->
                 <section class="resume-section p-3 p-lg-5 " id="experience">
-                    <div class="row my-auto">
+                    <div class="row mb-auto">
                         <div class="col-12">
                             <h2 class="  text-center">Experience</h2>
                             <div class="mb-5 heading-border"></div>
@@ -192,7 +192,7 @@
                            AWARDS
     ======================================================-->
                 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-                    <div class="row my-auto">
+                    <div class="row mb-auto">
                         <div class="col-12">
                             <h2 class="  text-center">Awards</h2>
                             <div class="mb-5 heading-border"></div>
@@ -218,7 +218,139 @@
                 <!-- </div> -->
             </div>
         </div>
+        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header info-color white-text">
+                        <h6 class="title"><b>Add Experience</b></h6>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body editAvailability">
+                        <div class="card card-plain">
+                            <div class="card-body">
+                                <form method="POST" action="{{ route('mentor.experience.save') }}"
+                                    role="form text-left">
+                                    @csrf
+                                    <input type="hidden" name="row_id" value="">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="input-group input-group-static mb-3">
+                                                <label>Company Name</label>
+                                                <input type="text" name="experience[0][company]" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static mb-3">
+                                                <label>Designation</label>
+                                                <input type="text" name="experience[0][designation]"
+                                                    class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static mb-3">
+                                                <label>Description</label>
+                                                <textarea class="form-control" name="experience[0][description]"
+                                                    rows="5" placeholder="Say a few words about what you're working on."
+                                                    spellcheck="false"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="input-group input-group-static mb-3">
+                                                <label>Start Date</label>
+                                                <input type="date" name="experience[0][start_date]"
+                                                    class="form-control datevalue">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="input-group input-group-static mb-3">
+                                                <label>End Date</label>
+                                                <div class="form-check">
+                                                    <input type="checkbox" name="experience[0][end_date]" class="form-check-input"
+                                                        id="customCheckDisabled" disabled>
+                                                    <label class="custom-control-label"
+                                                        for="customCheckDisabled">Present</label>
+                                                </div>
+                                                <!-- <input type="date" name="experience[0][end_date]"
+                                                    class="form-control datevalue"> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-3">
+                                            <div class="input-group input-group-static mb-3">
+                                                <!-- <label></label> -->
+                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
+                                                <!-- <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i> -->
+                                            </div>
+                                        </div>
+                                        <div id="newinput" class="newinput"></div>
+                                    </div>
+                                    <hr>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn bg-gradient-secondary"
+                                    data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
     </main>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        let row_number = 0;
+
+        $(".rowAdder").click(function(e) {
+            var date = $('.datevalue').val();
+            let new_row_number = row_number + 1;
+            newRowAdd =
+                '<div class="row" id="row">' +
+                '<div class="col-md-2">' +
+                '<div class="input-group input-group-static mb-3">' +
+                '<input type="text" name="experience[' + new_row_number +
+                '][company]" class="form-control" value="' + date + '">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static mb-3">' +
+                '<input type="text" name="experience[' + new_row_number +
+                '][designation]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static mb-3">' +
+                '<textarea class="form-control" name="experience[0][description]" rows = "5" placeholder = "Say a few words about what you re working on." spellcheck = "false">' +
+                '</textarea>' +
+                '</div></div>' +
+                '<div class="col-md-2">' +
+                '<div class="input-group input-group-static mb-3">' +
+                '<input type="time" name="experience[' + new_row_number +
+                '][start_date]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2">' +
+                '<div class="input-group input-group-static mb-3">' +
+                '<input type="time" name="experience[' + new_row_number +
+                '][end_date]" class="form-control">' +
+                '</div></div>' +
+                '<div class="col-md-2 mt-3">' +
+                '<div class="input-group input-group-static mb-3">' +
+                '<i class="fa fa-trash DeleteRow"> </i>' +
+                '</div></div></div>';
+            $('.newinput').append(newRowAdd);
+            row_number++;
+        });
+
+        $(document).on('click', 'i.DeleteRow', function() {
+            if (row_number > 0) {
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
+                // $(this).parents(".row" + (row_number - 1)).remove();
+            }
+        });
+    });
+    </script>
 </body>
 
 </html>
