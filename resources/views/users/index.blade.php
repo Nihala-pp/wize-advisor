@@ -65,7 +65,20 @@
                                 <a href="{{ route('contactUs') }}" class="nav-link text-muted" target="_blank">Contact
                                     Us</a>
                             </li>
-                            <li class="nav-item dropup">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Resource
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
+                                    <a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
+                                    <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item dropup">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Resource
@@ -77,7 +90,7 @@
                                     <li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
                                     <li><a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a href="{{ route('browseMentor') }}" class="nav-link text-muted" target="_blank">Browse
                                     Mentor</a>
@@ -1096,8 +1109,6 @@
     padding-right: 50px;
     margin-left: 20px;
 }
-
-
 </style>
 
 </html>
