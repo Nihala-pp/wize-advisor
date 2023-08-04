@@ -179,7 +179,7 @@
                                         <input type="text" name="designation" class="form-control" value="{{ $data->metaData->designation ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
-                                        <label class="">Price per call</label>
+                                        <label class="">Price per call (USD)</label>
                                         <input type="number" name="price_per_call" class="form-control" value="{{ $data->metaData->price_per_call ? : '' }}" required>
                                     </div>
                                     <!-- <div class="input-group input-group-static mb-3">
