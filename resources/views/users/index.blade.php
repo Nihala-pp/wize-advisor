@@ -34,7 +34,7 @@
 
 <body class="g-sidenav-show  bg-white">
     <!-- </aside> -->
-    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg "> -->
         <!-- Navbar -->
         <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
             navbar-scroll="true">
@@ -587,7 +587,7 @@
                 </footer>
             </div>
         </div>
-    </main>
+    <!-- </main> -->
     <!--   Core JS Files   -->
     <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
