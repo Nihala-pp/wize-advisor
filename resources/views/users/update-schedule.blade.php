@@ -286,7 +286,6 @@
             @include('partials.footer')
         </div>
     </main>
-    @include('partials.settings')
     </div>
     <script type="text/javascript">
     $(document).ready(function() {
