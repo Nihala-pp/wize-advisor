@@ -250,7 +250,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="input-group input-group-static mb-3">
-                                                <label>Description</label>
+                                                <label>Job Description</label>
                                                 <textarea class="form-control" name="description" rows="5"
                                                     spellcheck="false"></textarea>
                                             </div>
