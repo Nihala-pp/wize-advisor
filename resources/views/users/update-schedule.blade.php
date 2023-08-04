@@ -290,7 +290,6 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $('.date').datepicker({
-            multidate: true,
             format: 'yyyy-mm-dd'
         });
         // $('.time').timepicker({
