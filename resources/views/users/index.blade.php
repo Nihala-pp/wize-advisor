@@ -258,7 +258,8 @@
                                                                 class="avatar avatar-sm me-3" alt="xd">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
-                                                            <h6 class="mb-0 text-sm">{{ $upcoming_session->mentor->name }}
+                                                            <h6 class="mb-0 text-sm">
+                                                                {{ $upcoming_session->mentor->name }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -285,8 +286,9 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="{{ route('user.schedule.update', [$upcoming_session->id]) }}" class="" data-bs-toggle="tooltip"
-                                                            data-bs-placement="bottom" title="update Session">
+                                                        <a href="{{ route('user.schedule.update', [$upcoming_session->id]) }}"
+                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            title="update Session">
                                                             Update Session
                                                         </a>
                                                     </div>
@@ -347,7 +349,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
-                                                            {{ $requested_session->mentor->name }}
+                                                                {{ $requested_session->mentor->name }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -1099,6 +1101,12 @@
     position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+#navbarDropdownMenuLink
+{
+    position: absolute;
+    z-index: 1;
 }
 </style>
 
