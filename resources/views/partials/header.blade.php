@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/nucleo-svg.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 
     <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"> -->
     <style>
