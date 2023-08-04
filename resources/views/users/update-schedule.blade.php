@@ -232,6 +232,8 @@
                                     <input type="hidden" name="row_id" value="{{ $scheduled_call->id }}">
                                     <input type="hidden" class="mentor" name="mentor_id"
                                         value="{{ $scheduled_call->mentor_id }}">
+                                    <input type="hidden" class="timezone" name="timezone"
+                                        value="{{ $scheduled_call->utc }}">
                                     <div class="input-group input-group-static mb-4">
                                         <label>Mentor</label>
                                         <input type="text" name="mentor" class="form-control"
@@ -321,7 +323,7 @@
 
         $('.date').click(function() {
             var date = $(this).val();
-            var timezone = $("#educationDate").val();
+            var timezone = $(".timezone").val();
             var mentor = $(".mentor").val();
             return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
                 method: 'GET',
@@ -336,7 +338,7 @@
                         $('#educationDate').append($('<option/>', {
                             value: response[key],
                             text: response[key]
-                        }));    
+                        }));
                     }
                     // return available_dates;
                 },

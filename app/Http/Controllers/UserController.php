@@ -159,7 +159,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   {
     $mentor = $request->mentor;
     $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
-    $date = Carbon::parse($request->date)->toDateString();
+    $date = Carbon::parse($request->date)->format('Y-m-d');
     $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('is_booked', 0)->get();
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
