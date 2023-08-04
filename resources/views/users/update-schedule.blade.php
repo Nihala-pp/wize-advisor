@@ -319,7 +319,7 @@
             }
         });
 
-        $('.date').onclick(function() {
+        $('.date').click(function() {
             var date = $(this).val();
             var timezone = $("#educationDate").val();
             var mentor = $(".mentor").val();
