@@ -10,10 +10,11 @@
 @include('partials.header')
 
 <body class="g-sidenav-show  bg-gray-200">
-      @include('mentors.sidebar')
+    @include('mentors.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mb-3 mt-3">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3" id="navbarBlur" navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3"
+            id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -31,8 +32,10 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}" class="nav-link text-body font-weight-bold px-0">
-                            <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}" class="avatar avatar-sm me-3" alt="xd">
+                            <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}"
+                                class="nav-link text-body font-weight-bold px-0">
+                                <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                    class="avatar avatar-sm me-3" alt="xd">
                                 <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
                             </a>
                         </li>
@@ -51,15 +54,18 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa fa-bell cursor-pointer"></i>
                             </a>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"
+                                aria-labelledby="dropdownMenuButton">
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="mb-auto">
-                                                <img src="{{ asset('assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
+                                                <img src="{{ asset('assets/img/team-2.jpg') }}"
+                                                    class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -77,7 +83,8 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="mb-auto">
-                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}"
+                                                    class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -95,14 +102,21 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="avatar avatar-sm bg-gradient-secondary  me-3  mb-auto">
-                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                        <g transform="translate(-2169.000000, -745.000000)"
+                                                            fill="#FFFFFF" fill-rule="nonzero">
                                                             <g transform="translate(1716.000000, 291.000000)">
                                                                 <g transform="translate(453.000000, 454.000000)">
-                                                                    <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                                                                    <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                                                    <path class="color-background"
+                                                                        d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z"
+                                                                        opacity="0.593633743"></path>
+                                                                    <path class="color-background"
+                                                                        d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z">
+                                                                    </path>
                                                                 </g>
                                                             </g>
                                                         </g>
@@ -134,7 +148,8 @@
                     <div class="card">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Edit Mentor @else Add Mentor @endif</h6>
+                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Edit Mentor @else Add
+                                    Mentor @endif</h6>
                             </div>
                         </div>
                         <div class="card-body">
@@ -144,43 +159,53 @@
                                     <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                                     <div class="input-group input-group-static mb-3">
                                         <label>Full Name</label>
-                                        <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}" required>
+                                        <input type="text" name="name" class="form-control"
+                                            value="{{ $data->name ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Email</label>
-                                        <input type="email" name="email" class="form-control" value="{{ $data->email ? : '' }}" required>
+                                        <input type="email" name="email" class="form-control"
+                                            value="{{ $data->email ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Phone</label>
-                                        <input type="tel" name="phone" class="form-control" value="{{ $data->metaData->mobile ? : '' }}">
+                                        <input type="tel" name="phone" class="form-control"
+                                            value="{{ $data->metaData->mobile ? : '' }}">
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Linked-In Profile</label>
-                                        <input type="url" class="form-control" name="linked_in" value="{{ $data->metaData->social_linked_in ? : '' }}" required>
+                                        <input type="url" class="form-control" name="linked_in"
+                                            value="{{ $data->metaData->social_linked_in ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Youtube Link (if any)</label>
-                                        <input type="url" class="form-control" name="youtube_link" value="{{ $data->metaData->youtube_link ? : '' }}">
+                                        <input type="url" class="form-control" name="youtube_link"
+                                            value="{{ $data->metaData->youtube_link ? : '' }}">
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Website Link (if any)</label>
-                                        <input type="url" class="form-control" name="website_link" value="{{ $data->metaData->website_link ? : '' }}" required>
+                                        <input type="url" class="form-control" name="website_link"
+                                            value="{{ $data->metaData->website_link ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">BIO</label>
-                                        <textarea name="bio" class="form-control" rows="5">{{ $data->metaData->about_me ? : '' }}</textarea>
+                                        <textarea name="bio" class="form-control"
+                                            rows="5">{{ $data->metaData->about_me ? : '' }}</textarea>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Company</label>
-                                        <input type="text" name="company" class="form-control" value="{{ $data->metaData->company ? : '' }}" required>
+                                        <input type="text" name="company" class="form-control"
+                                            value="{{ $data->metaData->company ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Designation</label>
-                                        <input type="text" name="designation" class="form-control" value="{{ $data->metaData->designation ? : '' }}" required>
+                                        <input type="text" name="designation" class="form-control"
+                                            value="{{ $data->metaData->designation ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Price per call (USD)</label>
-                                        <input type="number" name="price_per_call" class="form-control" value="{{ $data->metaData->price_per_call ? : '' }}" required>
+                                        <input type="number" name="price_per_call" class="form-control"
+                                            value="{{ $data->metaData->price_per_call ? : '' }}" required>
                                     </div>
                                     <!-- <div class="input-group input-group-static mb-3">
                                         <label class="">wiseAdvizor Commission</label>
@@ -188,17 +213,23 @@
                                     </div> -->
                                     <div class="input-group input-group-static mb-3">
                                         <!-- <label class="">Expertise</label> -->
-                                        <input name="expertise[]" class="form-control" id="expertise-tags" data-color="dark" type="text" value="{{ $data->metaData->expertise ? : '' }}" placeholder="Type Expertise and press enter" required>
+                                        <input name="expertise[]" class="form-control" id="expertise-tags"
+                                            data-color="dark" type="text"
+                                            value="{{ $data->metaData->expertise ?  json_decode($data->metaData->expertise) : '' }}"
+                                            placeholder="Type Expertise and press enter" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Languages</label>
-                                        <input name="languages[]" class="form-control" id="languages-tags" data-color="dark" type="text" value="{{ $data->metaData->language ? : '' }}" placeholder="Type Languages and press enter" required>
+                                        <input name="languages[]" class="form-control" id="languages-tags"
+                                            data-color="dark" type="text" value="{{ $data->metaData->language ? json_decode($data->metaData->language)  : '' }}"
+                                            placeholder="Type Languages and press enter" required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label>Profile Pic</label>
                                         <input type="file" name="profile_pic" class="form-control" required>
                                     </div>
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
                                 <!-- </div> -->
                             </div>
@@ -210,65 +241,66 @@
     </main>
     </div>
     <script type="text/javascript">
-        if (document.getElementById('choices-button')) {
-            var element = document.getElementById('choices-button');
-            const example = new Choices(element, {});
-        }
-        var choicesTags = document.getElementById('expertise-tags');
-        var color = choicesTags.dataset.color;
-        if (choicesTags) {
-            const example = new Choices(choicesTags, {
-                delimiter: ',',
-                editItems: true,
-                maxItemCount: 5,
-                removeItemButton: true,
-                addItems: true,
-                classNames: {
-                    item: 'badge rounded-pill choices-' + color + ' me-2'
-                }
-            });
-        }
+    if (document.getElementById('choices-button')) {
+        var element = document.getElementById('choices-button');
+        const example = new Choices(element, {});
+    }
+    var choicesTags = document.getElementById('expertise-tags');
+    var color = choicesTags.dataset.color;
+    if (choicesTags) {
+        const example = new Choices(choicesTags, {
+            delimiter: ',',
+            editItems: true,
+            maxItemCount: 10,
+            removeItemButton: true,
+            addItems: true,
+            classNames: {
+                item: 'badge rounded-pill choices-' + color + ' me-2'
+            }
+        });
+    }
     </script>
     <script type="text/javascript">
-        if (document.getElementById('choices-button')) {
-            var element = document.getElementById('choices-button');
-            const example = new Choices(element, {});
-        }
-        var choicesTags = document.getElementById('languages-tags');
-        var color = choicesTags.dataset.color;
-        if (choicesTags) {
-            const example = new Choices(choicesTags, {
-                delimiter: ',',
-                editItems: true,
-                maxItemCount: 5,
-                removeItemButton: true,
-                addItems: true,
-                classNames: {
-                    item: 'badge rounded-pill choices-' + color + ' me-2'
-                }
-            });
-        }
+    if (document.getElementById('choices-button')) {
+        var element = document.getElementById('choices-button');
+        const example = new Choices(element, {});
+    }
+    var choicesTags = document.getElementById('languages-tags');
+    var color = choicesTags.dataset.color;
+    if (choicesTags) {
+        const example = new Choices(choicesTags, {
+            delimiter: ',',
+            editItems: true,
+            maxItemCount: 5,
+            removeItemButton: true,
+            addItems: true,
+            classNames: {
+                item: 'badge rounded-pill choices-' + color + ' me-2'
+            }
+        });
+    }
     </script>
     <script type="text/javascript">
-        if (document.getElementById('choices-button')) {
-            var element = document.getElementById('choices-button');
-            const example = new Choices(element, {});
-        }
-        var choicesTags = document.getElementById('language-tags');
-        var color = choicesTags.dataset.color;
-        if (choicesTags) {
-            const example = new Choices(choicesTags, {
-                delimiter: ',',
-                editItems: true,
-                maxItemCount: 5,
-                removeItemButton: true,
-                addItems: true,
-                classNames: {
-                    item: 'badge rounded-pill choices-' + color + ' me-2'
-                }
-            });
-        }
+    if (document.getElementById('choices-button')) {
+        var element = document.getElementById('choices-button');
+        const example = new Choices(element, {});
+    }
+    var choicesTags = document.getElementById('language-tags');
+    var color = choicesTags.dataset.color;
+    if (choicesTags) {
+        const example = new Choices(choicesTags, {
+            delimiter: ',',
+            editItems: true,
+            maxItemCount: 5,
+            removeItemButton: true,
+            addItems: true,
+            classNames: {
+                item: 'badge rounded-pill choices-' + color + ' me-2'
+            }
+        });
+    }
     </script>
     <!--   Core JS Files   -->
 </body>
+
 </html>
