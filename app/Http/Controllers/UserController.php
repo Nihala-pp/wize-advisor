@@ -52,11 +52,11 @@ class UserController extends Controller
     ]);
 
     ?>
-    <script type="text/javascript">
-      alert("Review has been submitted");
-      window.location.href = "https://wiseadvizor.com/user/dashboard";
-    </script>
-  <?php
+<script type="text/javascript">
+alert("Review has been submitted");
+window.location.href = "https://wiseadvizor.com/user/dashboard";
+</script>
+<?php
   }
 
   public function updateSchedule($id)
@@ -67,7 +67,7 @@ class UserController extends Controller
     $timeAvailability = $this->utcToChangeTimezone($times, $scheduled_call->utc);
     $dateAvailability = $this->getDateAvailability($scheduled_call);
 
-    return view('users.update-schedule', compact('scheduled_call', 'utc', 'times', 'timeAvailability'));
+    return view('users.update-schedule', compact('scheduled_call', 'utc', 'times', 'timeAvailability', 'dateAvailability'));
   }
 
   public function utcToChangeTimezone($availability, $timezone)
@@ -150,6 +150,6 @@ class UserController extends Controller
       $dates[] = Carbon::parse($dt->date)->format('d');
     }
 
-    return response()->json($dates);
+    return $dates;
   }
 }

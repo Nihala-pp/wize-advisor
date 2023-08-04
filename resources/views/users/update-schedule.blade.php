@@ -288,9 +288,20 @@
     </main>
     </div>
     <script type="text/javascript">
+    var enableDays = {{ $dateAvailability }};
+
+    function enableAllTheseDays(date) {
+        var sdate = $.datepicker.formatDate('d-m-yy', date)
+        if ($.inArray(sdate, enableDays) != -1) {
+            return [true];
+        }
+        return [false];
+    }
+
     $(document).ready(function() {
-        $('.date').datepicker({
-            format: 'yyyy-mm-dd'
+        $('.dateFormat').datepicker({
+            dateFormat: 'yyyy-mm-dd',
+            beforeShowDay: enableAllTheseDays
         });
         // $('.time').timepicker({
         //     format: 'hh:mm A',
@@ -307,4 +318,5 @@
     color: #001e64 !important;
 }
 </style>
+
 </html>
