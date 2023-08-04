@@ -292,6 +292,8 @@
     $(document).ready(function() {
         var highlight_dates = <?php echo json_encode($dateAvailability); ?>
 
+        console.log(highlight_dates);
+
         $('#date-pick').datepicker({
             beforeShowDay: function(date) {
                 var month = date.getMonth() + 1;
