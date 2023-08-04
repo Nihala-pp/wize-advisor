@@ -174,7 +174,7 @@
                                 style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                                 <div class="resume-content mr-auto">
                                     <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> {{ $exp->company_name }}
-                                        <i class="fa fa-edit edit" style="margin-left:40px;"></i>
+                                        <i class="fa fa-edit edit" style="margin-left:70px;"></i>
                                         <i class="fa fa-trash delete" style="padding-left:10px;"></i>
                                     </h4>
                                     <p>{{ $exp->description }}</p>
