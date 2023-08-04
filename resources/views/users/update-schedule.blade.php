@@ -322,6 +322,11 @@
     font-weight: 700 !important;
     color: #001e64 !important;
 }
+
+.highlight a{
+   background: #29f274 !important;
+   color: #ffffff !important;
+}
 </style>
 
 </html>
