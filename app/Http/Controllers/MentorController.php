@@ -511,4 +511,9 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
 
     }
+
+    public function editExperience(Request $request)
+    {
+
+    }
 }
