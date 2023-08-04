@@ -174,8 +174,13 @@
                                 style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                                 <div class="resume-content mr-auto">
                                     <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> {{ $exp->company_name }}
-                                        <i class="fa fa-edit edit" style="margin-left:90px;"></i>
-                                        <i class="fa fa-trash delete" style="padding-left:10px;"></i>
+                                        <button type="button" class="btn btn-block edit" data-id="{{ $exp->id }}" style="margin-left:90px;">
+                                            <i class="fa fa-edit"></button></i>
+                                        <button type="button" class="btn btn-block delete"
+                                            data-id="{{ $exp->id }}" style="margin-left:90px;">
+                                            <i class="fa fa-trash"></button></i>
+                                        <!-- <i class="fa fa-edit edit" style="margin-left:90px;"></i>
+                                        <i class="fa fa-trash delete" style="padding-left:10px;"></i> -->
                                     </h4>
                                     <p>{{ $exp->description }}</p>
                                 </div>
@@ -368,6 +373,32 @@
     </main>
     <script type="text/javascript">
     $(document).ready(function() {
+
+        $('body').on('click', '.edit', function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('mentor.experience.edit') }}",
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+                success: function(response) {
+                    $("#editExperience .modal-body").html(response);
+                    $("#editExperience").modal('show');
+                }
+            });
+        });
+
+        $(".delete").click(function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('mentor.experience.delete') }}",
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+            });
+        });
         // let row_number = 0;
 
         // $(".rowAdder").click(function(e) {
