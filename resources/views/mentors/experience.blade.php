@@ -296,7 +296,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal" id="editExperience" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+                <div class="modal" id="editExperience" tabindex="-1" role="dialog" aria-labelledby="editExperienceModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
