@@ -143,7 +143,7 @@
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                                     <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Full Name</label>
+                                        <label>Full Name</label>
                                         <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
