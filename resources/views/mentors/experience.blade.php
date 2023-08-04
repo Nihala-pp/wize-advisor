@@ -236,44 +236,43 @@
                                     @csrf
                                     <input type="hidden" name="row_id" value="">
                                     <div class="row">
-                                        <div class="col-md-2">
+                                        <div class="col-md-6">
                                             <div class="input-group input-group-static mb-3">
                                                 <label>Company </label>
-                                                <input type="text" name="experience[0][company]" class="form-control">
+                                                <input type="text" name="company" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-6">
                                             <div class="input-group input-group-static mb-3">
                                                 <label>Designation</label>
-                                                <input type="text" name="experience[0][designation]"
-                                                    class="form-control">
+                                                <input type="text" name="designation" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-6">
                                             <div class="input-group input-group-static mb-3">
                                                 <label>Description</label>
-                                                <textarea class="form-control" name="experience[0][description]"
-                                                    rows="5" spellcheck="false"></textarea>
+                                                <textarea class="form-control" name="description" rows="5"
+                                                    spellcheck="false"></textarea>
                                             </div>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col-md-6">
                                             <div class="input-group input-group-static mb-3">
                                                 <label>Start Date</label>
-                                                <input type="date" name="experience[0][start_date]"
-                                                    class="form-control datevalue">
+                                                <input type="date" name="start_date" class="form-control datevalue">
                                             </div>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col-md-6">
                                             <div class="input-group input-group-static mb-3">
                                                 <label>End Date</label>
-                                                <div class="form-check">
-                                                    <input type="checkbox" name="experience[0][end_date]" class="form-check-input"
-                                                        id="customCheckDisabled" disabled>
-                                                    <label class="custom-control-label"
-                                                        for="customCheckDisabled">Present</label>
-                                                </div>
-                                                <!-- <input type="date" name="experience[0][end_date]"
-                                                    class="form-control datevalue"> -->
+                                                <input type="date" name="end_date" class="form-control datevalue">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-check">
+                                                <input type="checkbox" name="current" class="form-check-input"
+                                                    id="customCheckDisabled" disabled>
+                                                <label class="custom-control-label"
+                                                    for="customCheckDisabled">Currently working here</label>
                                             </div>
                                         </div>
                                         <div class="col-md-2 mt-3">
@@ -299,55 +298,55 @@
     </main>
     <script type="text/javascript">
     $(document).ready(function() {
-        let row_number = 0;
+        // let row_number = 0;
 
-        $(".rowAdder").click(function(e) {
-            var date = $('.datevalue').val();
-            let new_row_number = row_number + 1;
-            newRowAdd =
-                '<div class="row" id="row">' +
-                '<div class="col-md-2">' +
-                '<div class="input-group input-group-static mb-3">' +
-                '<input type="text" name="experience[' + new_row_number +
-                '][company]" class="form-control" value="' + date + '">' +
-                '</div></div>' +
-                '<div class="col-md-3">' +
-                '<div class="input-group input-group-static mb-3">' +
-                '<input type="text" name="experience[' + new_row_number +
-                '][designation]" class="form-control">' +
-                '</div></div>' +
-                '<div class="col-md-3">' +
-                '<div class="input-group input-group-static mb-3">' +
-                '<textarea class="form-control" name="experience[0][description]" rows = "5"  spellcheck = "false">' +
-                '</textarea>' +
-                '</div></div>' +
-                '<div class="col-md-2">' +
-                '<div class="input-group input-group-static mb-3">' +
-                '<input type="date" name="experience[' + new_row_number +
-                '][start_date]" class="form-control">' +
-                '</div></div>' +
-                '<div class="col-md-2">' +
-                '<div class="input-group input-group-static mb-3">' +
-                '<input type="date" name="experience[' + new_row_number +
-                '][end_date]" class="form-control">' +
-                '</div></div>' +
-                '<div class="col-md-2 mt-3">' +
-                '<div class="input-group input-group-static mb-3">' +
-                '<i class="fa fa-trash DeleteRow"> </i>' +
-                '</div></div></div>';
-            $('.newinput').append(newRowAdd);
-            row_number++;
-        });
+        // $(".rowAdder").click(function(e) {
+        //     var date = $('.datevalue').val();
+        //     let new_row_number = row_number + 1;
+        //     newRowAdd =
+        //         '<div class="row" id="row">' +
+        //         '<div class="col-md-2">' +
+        //         '<div class="input-group input-group-static mb-3">' +
+        //         '<input type="text" name="experience[' + new_row_number +
+        //         '][company]" class="form-control" value="' + date + '">' +
+        //         '</div></div>' +
+        //         '<div class="col-md-3">' +
+        //         '<div class="input-group input-group-static mb-3">' +
+        //         '<input type="text" name="experience[' + new_row_number +
+        //         '][designation]" class="form-control">' +
+        //         '</div></div>' +
+        //         '<div class="col-md-3">' +
+        //         '<div class="input-group input-group-static mb-3">' +
+        //         '<textarea class="form-control" name="experience[0][description]" rows = "5"  spellcheck = "false">' +
+        //         '</textarea>' +
+        //         '</div></div>' +
+        //         '<div class="col-md-2">' +
+        //         '<div class="input-group input-group-static mb-3">' +
+        //         '<input type="date" name="experience[' + new_row_number +
+        //         '][start_date]" class="form-control">' +
+        //         '</div></div>' +
+        //         '<div class="col-md-2">' +
+        //         '<div class="input-group input-group-static mb-3">' +
+        //         '<input type="date" name="experience[' + new_row_number +
+        //         '][end_date]" class="form-control">' +
+        //         '</div></div>' +
+        //         '<div class="col-md-2 mt-3">' +
+        //         '<div class="input-group input-group-static mb-3">' +
+        //         '<i class="fa fa-trash DeleteRow"> </i>' +
+        //         '</div></div></div>';
+        //     $('.newinput').append(newRowAdd);
+        //     row_number++;
+        // });
 
-        $(document).on('click', 'i.DeleteRow', function() {
-            if (row_number > 0) {
-                $(this).closest('.row').remove();
-                row_number--;
+        // $(document).on('click', 'i.DeleteRow', function() {
+        //     if (row_number > 0) {
+        //         $(this).closest('.row').remove();
+        //         row_number--;
 
-                return false;
-                // $(this).parents(".row" + (row_number - 1)).remove();
-            }
-        });
+        //         return false;
+        //         // $(this).parents(".row" + (row_number - 1)).remove();
+        //     }
+        // });
     });
     </script>
 </body>
