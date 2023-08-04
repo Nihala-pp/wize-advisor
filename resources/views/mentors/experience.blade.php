@@ -168,13 +168,14 @@
                             <h2 class="  text-center">Experience</h2>
                             <div class="mb-5 heading-border"></div>
                         </div>
-
                         @foreach($experience as $exp)
-                        <div class="resume-item col-md-6 col-sm-12 ">
+                        <div class="resume-item col-md-6 col-sm-12">
                             <div class="card mx-0 p-4 mb-5"
                                 style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                                <div class=" resume-content mr-auto">
+                                <div class="resume-content mr-auto">
                                     <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> {{ $exp->company_name }}
+                                        <i class="fa fa-edit edit"></i>
+                                        <i class="fa fa-trash delete"></i>
                                     </h4>
                                     <p>{{ $exp->description }}</p>
                                 </div>
@@ -289,6 +290,81 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header info-color white-text">
+                                <h6 class="title"><b>Edit Experience</b></h6>
+                                <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                                    aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body editExperience">
+                                <div class="card card-plain">
+                                    <div class="card-body">
+                                        <form method="POST" action="{{ route('mentor.experience.save') }}"
+                                            role="form text-left">
+                                            @csrf
+                                            <input type="hidden" name="row_id" value="">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="input-group input-group-static mb-3">
+                                                        <label>Company </label>
+                                                        <input type="text" name="company" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group input-group-static mb-3">
+                                                        <label>Designation</label>
+                                                        <input type="text" name="designation" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="input-group input-group-static mb-3">
+                                                        <label>Job Description</label>
+                                                        <textarea class="form-control" name="description" rows="5"
+                                                            spellcheck="false"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group input-group-static mb-3">
+                                                        <label>Start Date</label>
+                                                        <input type="date" name="start_date"
+                                                            class="form-control datevalue">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group input-group-static mb-3">
+                                                        <label>End Date</label>
+                                                        <input type="date" name="end_date"
+                                                            class="form-control datevalue">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="input-group input-group-static mb-3">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" name="current"
+                                                                class="form-check-input" id="customCheckDisabled">
+                                                            <label class="custom-control-label"
+                                                                for="customCheckDisabled">Are
+                                                                you Currently
+                                                                working here ? (If yes please check)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn bg-gradient-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
     </main>
     <script type="text/javascript">
     $(document).ready(function() {
