@@ -268,11 +268,14 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12">
-                                            <div class="form-check">
-                                                <input type="checkbox" name="current" class="form-check-input"
-                                                    id="customCheckDisabled" disabled>
-                                                <label class="custom-control-label" for="customCheckDisabled">Are you Currently
-                                                    working here ? (If yes please check)</label>
+                                            <div class="input-group input-group-static mb-3">
+                                                <div class="form-check">
+                                                    <input type="checkbox" name="current" class="form-check-input"
+                                                        id="customCheckDisabled" disabled>
+                                                    <label class="custom-control-label" for="customCheckDisabled">Are
+                                                        you Currently
+                                                        working here ? (If yes please check)</label>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
