@@ -136,10 +136,11 @@ class UserController extends Controller
 
   public function getDateAvailability($scheduled_call)
   {
-    $timezone = $request->timezone;
-    $month = $request->month;
-    $year = $request->year;
-    $mentor = $request->mentor;
+    $timezone = $scheduled_call->time_zone;
+    $date = Carbon::parse($scheduled_call->date);
+    $month = $date->format('m');
+    $year = $date->format('Y');
+    $mentor = $scheduled_call->mentor_id;
     $date = AvailableSchedule::where('mentor_id', $mentor)->whereYear('date', '=', $year)
       ->whereMonth('date', '=', $month)->get();
 
