@@ -255,7 +255,7 @@
                                     <div class="input-group input-group-static mb-4">
                                         <label>Date</label>
                                         <input type="text" name="date" class="form-control date" placeholder="Date"
-                                            id="date-pick" placeholder="Date">
+                                            id="date-pick" placeholder="Date" value="{{ $scheduled_call->date }}">
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Time Slot</label>
@@ -270,7 +270,7 @@
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Timezone</label>
-                                        <select class="form-control" id="educationDate" name="utc" required>
+                                        <select class="form-control" id="timezone" name="utc" required>
                                             @foreach($utc as $key => $ut)
                                             <option value="{{ $ut }}"
                                                 {{ $key == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
@@ -324,6 +324,30 @@
         $('.date').on("change",function(){
             var date = $(this).val();
             var timezone = $(".timezone").val();
+            var mentor = $(".mentor").val();
+            return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
+                method: 'GET',
+                data: {
+                    "_token": $('meta[name="csrf-token"]').attr('content'),
+                    "date": date,
+                    "timezone": timezone,
+                    "mentor": mentor,
+                },
+                success: function(response) {
+                    for (var key in response) {
+                        $('#educationDate').append($('<option/>', {
+                            value: response[key],
+                            text: response[key]
+                        }));
+                    }
+                    // return available_dates;
+                },
+            });
+        });
+
+        $('#timezone').on("change",function(){
+            var timezone = $(this).val();
+            var date = $(".date").val();
             var mentor = $(".mentor").val();
             return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
                 method: 'GET',

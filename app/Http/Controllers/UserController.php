@@ -63,7 +63,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   {
     $scheduled_call = ScheduledCall::find($id);
     $utc = AvailableSchedule::timezones();
-    $times = AvailableSchedule::where('mentor_id', $scheduled_call->mentor_id)->where('date', $scheduled_call->date)->where('is_booked', 0)->get();
+    $times = AvailableSchedule::where('mentor_id', $scheduled_call->mentor_id)->where('date', $scheduled_call->date)->get();
     $timeAvailability = $this->utcToChangeTimezone($times, $scheduled_call->utc);
     $dateAvailability = $this->getDateAvailability($scheduled_call);
     // dd($dateAvailability);
