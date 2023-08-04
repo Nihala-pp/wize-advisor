@@ -290,7 +290,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        var highlight_dates = <?php echo json_encode($dateAvailability); ?>
+        var highlight_dates = ['2023-08-06', '2023-08-23', '2023-08-07', '2023-08-14', '2023-08-05', '2023-08-11', '2023-08-08', '2023-08-09', '2023-08-21', '2023-08-31', '2023-08-29'];
 
         console.log(highlight_dates);
 
