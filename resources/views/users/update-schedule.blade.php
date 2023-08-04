@@ -289,9 +289,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script type="text/javascript">
-    var highlight_dates = <?php echo json_encode($dateAvailability); ?>
-
     $(document).ready(function() {
+        var highlight_dates = <?php echo json_encode($dateAvailability); ?>
+
         $('#date-pick').datepicker({
             beforeShowDay: function(date) {
                 var month = date.getMonth() + 1;

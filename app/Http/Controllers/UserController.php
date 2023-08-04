@@ -143,7 +143,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     $year = $date->format('Y');
     $mentor = $scheduled_call->mentor_id;
     $date = AvailableSchedule::where('mentor_id', $mentor)->whereYear('date', '=', $year)
-      ->whereMonth('date', '=', $month)->get();
+      ->whereMonth('date', '=', $month)->groupBy('date')->get();
 
     $dates = array();
 
