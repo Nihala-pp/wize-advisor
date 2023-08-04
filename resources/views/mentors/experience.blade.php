@@ -248,7 +248,7 @@
                                                 <input type="text" name="designation" class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="input-group input-group-static mb-3">
                                                 <label>Description</label>
                                                 <textarea class="form-control" name="description" rows="5"
@@ -267,24 +267,15 @@
                                                 <input type="date" name="end_date" class="form-control datevalue">
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="form-check">
                                                 <input type="checkbox" name="current" class="form-check-input"
                                                     id="customCheckDisabled" disabled>
-                                                <label class="custom-control-label"
-                                                    for="customCheckDisabled">Currently working here</label>
+                                                <label class="custom-control-label" for="customCheckDisabled">Are you Currently
+                                                    working here ? (If yes please check)</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 mt-3">
-                                            <div class="input-group input-group-static mb-3">
-                                                <!-- <label></label> -->
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <!-- <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i> -->
-                                            </div>
-                                        </div>
-                                        <div id="newinput" class="newinput"></div>
                                     </div>
-                                    <hr>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn bg-gradient-secondary"
