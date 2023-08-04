@@ -250,8 +250,8 @@
                                     </div>
                                     <div class="input-group input-group-static mb-4">
                                         <label>Date</label>
-                                        <input type="text" name="date" class="form-control date" placeholder="Date"
-                                            value="{{ $scheduled_call->date ??  '' }}" id="date-pick"
+                                        <input type="text" name="date" class="form-control" placeholder="Date"
+                                             id="date-pick"
                                             placeholder="Date">
                                     </div>
                                     <div class="input-group input-group-static mb-4">
@@ -291,7 +291,7 @@
     var highlight_dates = <?php echo json_encode($dateAvailability); ?>
 
     $(document).ready(function() {
-        $('.dateFormat').datepicker({
+        $('#date-pick').datepicker({
             beforeShowDay: function(date) {
                 var month = date.getMonth() + 1;
                 var year = date.getFullYear();
