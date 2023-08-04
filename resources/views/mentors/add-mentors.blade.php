@@ -142,7 +142,7 @@
                                 <form method="POST" action="{{ route('mentor.save') }}" enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group input-group-static mb-3">
                                         <label>Full Name</label>
                                         <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}" required>
                                     </div>
