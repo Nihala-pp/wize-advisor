@@ -587,9 +587,9 @@
     </div>
     <!-- </main> -->
     <!--   Core JS Files   -->
-    <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
-    <!-- <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script> -->
+    <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
 
     <script>
