@@ -509,7 +509,25 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
     public function saveExperience(Request $request)
     {
+        MentorsExperience::updateOrCreate(
+            ['id' => $request->row_id],
+            [
+             'user_id' => Auth::id(),
+             'company_name' => $request->company,
+             'position' => $request->designation,
+             'start_date' => $request->start_date,
+             'end_date' => $request->end_date,
+             'description' => $request->description,
+            ]
+        );
 
+        $notification = array(
+            'message' => 'Experience Added Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('mentor.dashboard.experience')
+            ->with($notification, 'Experience Added Successfully!');
     }
 
     public function editExperience(Request $request)
@@ -521,6 +539,14 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
     public function deleteExperience(Request $request)
     {
+       MentorsExperience::find($request->Id)->delete();
 
+        $notification = array(
+            'message' => 'Deleted Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('mentor.dashboard.experience')
+            ->with($notification, 'Deleted Successfully!');
     }
 }

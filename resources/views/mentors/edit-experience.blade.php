@@ -1,6 +1,6 @@
 <div class="card card-plain">
     <div class="card-body">
-        <input type="hidden" name="row_id" value="">
+        <input type="hidden" name="row_id" value="{{ $experience->id }}">
         <div class="row">
             <div class="col-md-6">
                 <div class="input-group input-group-static mb-3">
