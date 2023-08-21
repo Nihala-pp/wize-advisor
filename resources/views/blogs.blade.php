@@ -1826,7 +1826,7 @@
                                                     <div class="elementor-image-box-content">
                                                         <h3 class="elementor-image-box-title"> {{ $blog->title }}</h3>
                                                         <p class="elementor-image-box-description">
-                                                            {{ $blog->intro }}
+                                                            {{ Str::words($blog->intro, '20') }}
                                                     </div>
                                                 </div>
                                             </div>
