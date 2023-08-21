@@ -1790,7 +1790,7 @@
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="text-center">{{ $mentor->name }}</h5>
-                            <p class="text-center">{{ $mentor->metaData ? Str::words($mentor->metaData->bio, '25') : '' }} </p>
+                            <p class="text-center">{{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} </p>
                             <div class="d-grid gap-2 col-6 mx-auto">
                                 @if(Auth::id())
                                 <a href="{{ route('schedule-call', [$mentor->id]) }}" class="btn btn-primary mid-center"
