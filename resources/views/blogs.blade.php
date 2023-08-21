@@ -1738,10 +1738,10 @@
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-ef970f2 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                             data-id="ef970f2" data-element_type="section">
-                            @foreach($blogs as $blog)
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fd27b31"
                                     data-id="fd27b31" data-element_type="column">
+                                    @foreach($blogs as $blog)
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-bff2ac9 elementor-widget elementor-widget-image"
                                             data-id="bff2ac9" data-element_type="widget"
@@ -1832,9 +1832,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @endforeach
                                 </div>
                             </div>
-                            @endforeach
                         </section>
                     </div>
                 </div>
