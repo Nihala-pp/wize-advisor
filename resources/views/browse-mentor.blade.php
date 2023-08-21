@@ -1783,8 +1783,8 @@
             }
             </style>
             <div class="card-deck">
+                @foreach($mentors as $mentor)
                 <div class="card" style="padding: 75px 30px 130px 120px;">
-                    @foreach($mentors as $mentor)
                     <!-- <div class="card" style="width: 22rem;"> -->
                     <img class="card-img-top"
                         src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
@@ -1826,8 +1826,8 @@
                             </div>
                         </small>
                     </div>
-                    @endforeach
                 </div>
+                @endforeach
             </div>
         </section>
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
