@@ -1784,7 +1784,7 @@
             </style>
             <div class="card-deck">
                 @foreach($mentors as $mentor)
-                <div class="card">
+                <div class="card" style="width: 22rem;">
                     <!-- <div class="card" style="width: 22rem;"> -->
                     <img class="card-img-top"
                         src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
