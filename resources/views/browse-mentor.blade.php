@@ -1784,7 +1784,7 @@
             </style>
             <div class="card-deck h-100">
                 @foreach($mentors as $mentor)
-                <div class="col-md-4" style="padding: 50px 30px 10px 120px;">
+                <div class="col-md-4" style="padding: 50px 30px 10px 170px;">
                     <div class="card">
                         <!-- <div class="card" style="width: 22rem;"> -->
                         <img class="card-img-top"
