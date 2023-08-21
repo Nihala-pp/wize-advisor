@@ -1782,7 +1782,7 @@
                 content: "★"
             }
             </style>
-            <div class="card-deck h-100">
+            <div class="card-deck">
                 @foreach($mentors as $mentor)
                 <div class="col-md-4" style="padding: 50px 100px 10px 120px;">
                     <div class="card" style="width: 22rem;">
