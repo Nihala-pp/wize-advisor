@@ -1826,8 +1826,8 @@
                             </div>
                         </small>
                     </div>
+                    @endforeach
                 </div>
-                @endforeach
             </div>
     </div>
     </section>
