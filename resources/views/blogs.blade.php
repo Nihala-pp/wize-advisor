@@ -1750,7 +1750,7 @@
                                                 <img decoding="async" width="370" height="500"
                                                     src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
                                                     class="attachment-full size-full wp-image-2739" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/07/service-1.jpg') }} 370w, {{ asset('public/wp-content/uploads/2023/07/service-1-222x300.jpg') }} 222w"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
                                                     sizes="(max-width: 370px) 100vw, 370px">
                                             </div>
                                         </div>
