@@ -349,9 +349,11 @@ window.location.href = "' + custom_location + " / " + Id + '";
     return view('blogs', compact('blogs'));
   }
 
-  public function blogDetailPage(Request $request)
+  public function blogDetailPage($id)
   {
-     return view('blog-detail');
+     $blog = Blogs::find($id);
+
+     return view('blog-detail', compact('blog'));
   }
 
   public function faq()
