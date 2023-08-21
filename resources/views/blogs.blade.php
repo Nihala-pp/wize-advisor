@@ -1833,66 +1833,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e6971ee"
-                                    data-id="e6971ee" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-1e4bc45 elementor-widget elementor-widget-image"
-                                            data-id="1e4bc45" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img decoding="async" width="370" height="500"
-                                                    src="{{ asset('public/wp-content/uploads/2023/07/service-2.jpg') }}"
-                                                    class="attachment-full size-full wp-image-2740" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/07/service-2.jpg') }} 370w, {{ asset('public/public/wp-content/uploads/2023/07/service-2-222x300.jpg') }} 222w"
-                                                    sizes="(max-width: 370px) 100vw, 370px">
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-f07647b elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                            data-id="f07647b" data-element_type="widget"
-                                            data-widget_type="image-box.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image-box-wrapper">
-                                                    <div class="elementor-image-box-content">
-                                                        <h3 class="elementor-image-box-title">Graphic Design</h3>
-                                                        <p class="elementor-image-box-description">Focus on how you can
-                                                            help and benefit your user. Use simple words so that you
-                                                            don't confuse people.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b809155"
-                                    data-id="b809155" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-6b792a3 elementor-widget elementor-widget-image"
-                                            data-id="6b792a3" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img decoding="async" width="370" height="500"
-                                                    src="{{ asset('public/wp-content/uploads/2023/07/service-3.jpg') }}"
-                                                    class="attachment-full size-full wp-image-2741" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/07/service-3.jpg') }} 370w, {{ asset('public/wp-content/uploads/2023/07/service-3-222x300.jpg') }} 222w"
-                                                    sizes="(max-width: 370px) 100vw, 370px">
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1d1e836 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                            data-id="1d1e836" data-element_type="widget"
-                                            data-widget_type="image-box.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image-box-wrapper">
-                                                    <div class="elementor-image-box-content">
-                                                        <h3 class="elementor-image-box-title">Content Creation</h3>
-                                                        <p class="elementor-image-box-description">Focus on how you can
-                                                            help and benefit your user. Use simple words so that you
-                                                            don't confuse people.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </section>
                     </div>
