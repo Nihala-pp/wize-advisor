@@ -1787,7 +1787,7 @@
                     <div class="card" style="width: 22rem;">
                         <img class="card-img-top"
                             src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
-                            alt="Card image cap" width="200" height="200">
+                            alt="Card image cap" width="277" height="180">
                         <div class="card-body">
                             <h5 class="text-center">{{ $mentor->name }}</h5>
                             <p class="text-center">{{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} </p>
