@@ -1784,50 +1784,52 @@
             </style>
             <div class="card-deck">
                 @foreach($mentors as $mentor)
-                <div class="card" style="width: 22rem;">
-                    <!-- <div class="card" style="width: 22rem;"> -->
-                    <img class="card-img-top"
-                        src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
-                        alt="Card image cap" width="277" height="180">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">{{ $mentor->name }}</h5>
-                        <p class="card-text text-center">
-                            {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }}
-                        </p>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            @if(Auth::id())
-                            <a href="{{ route('schedule-call', [$mentor->id]) }}" class="btn btn-primary mid-center"
-                                style="background-color:#001E64; align:center;">Schedule Call</a></br>
-                            @else
-                            <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
-                                class="btn btn-primary mid-center"
-                                style="background-color:#001E64; align:center;">Schedule Call</a></br>
-                            @endif
-                            <a href="{{ route('profile', [$mentor->id]) }}" class="card-link mid-center"
-                                style="color:#007bff;; font: size 4px;">View Profile</a>
+                <div class="col-md-3">
+                    <div class="card" style="width: 22rem;">
+                        <!-- <div class="card" style="width: 22rem;"> -->
+                        <img class="card-img-top"
+                            src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
+                            alt="Card image cap" width="277" height="180">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">{{ $mentor->name }}</h5>
+                            <p class="card-text text-center">
+                                {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }}
+                            </p>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                @if(Auth::id())
+                                <a href="{{ route('schedule-call', [$mentor->id]) }}" class="btn btn-primary mid-center"
+                                    style="background-color:#001E64; align:center;">Schedule Call</a></br>
+                                @else
+                                <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
+                                    class="btn btn-primary mid-center"
+                                    style="background-color:#001E64; align:center;">Schedule Call</a></br>
+                                @endif
+                                <a href="{{ route('profile', [$mentor->id]) }}" class="card-link mid-center"
+                                    style="color:#007bff;; font: size 4px;">View Profile</a>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <div class="elementor-star-rating__wrapper">
+                                    <div class="elementor-star-rating__wrapper">
+                                        <div class="elementor-star-rating" title="5/5"
+                                            itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
+                                            <i class="elementor-star-full">&#xE934;</i><i
+                                                class="elementor-star-full">&#xE934;</i><i
+                                                class="elementor-star-full">&#xE934;</i><i
+                                                class="elementor-star-full">&#xE934;</i><i
+                                                class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue"
+                                                class="elementor-screen-only">5/5</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-center"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                            $0 / 30 Min</b></span>
+                                </div>
+                            </small>
                         </div>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-muted">
-                            <div class="elementor-star-rating__wrapper">
-                                <div class="elementor-star-rating__wrapper">
-                                    <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating"
-                                        itemscope="" itemprop="reviewRating">
-                                        <i class="elementor-star-full">&#xE934;</i><i
-                                            class="elementor-star-full">&#xE934;</i><i
-                                            class="elementor-star-full">&#xE934;</i><i
-                                            class="elementor-star-full">&#xE934;</i><i
-                                            class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue"
-                                            class="elementor-screen-only">5/5</span>
-                                    </div>
-                                </div>
-                                <span class="text-center"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                        $0 / 30 Min</b></span>
-                            </div>
-                        </small>
-                    </div>
+                    @endforeach
                 </div>
-                @endforeach
             </div>
         </section>
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
