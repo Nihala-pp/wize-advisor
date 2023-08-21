@@ -349,6 +349,11 @@ window.location.href = "' + custom_location + " / " + Id + '";
     return view('blogs', compact('blogs'));
   }
 
+  public function blogDetailPage(Request $request)
+  {
+     return view('blog-detail');
+  }
+
   public function faq()
   {
     return view('faq');

@@ -82,6 +82,7 @@ Route::get('about-us', [HomeController::class, 'aboutUs'])->name('aboutUs');
 Route::get('contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
 Route::get('libraries', [HomeController::class, 'libraries'])->name('libraries');
 Route::post('contact-us/save', [HomeController::class, 'saveContact'])->name('contact.save');
+Route::get('blogs/blog-detail', [HomeController::class, 'blogDetailPage'])->name('blog-detail');
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
