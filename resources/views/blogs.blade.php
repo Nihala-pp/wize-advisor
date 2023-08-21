@@ -1739,6 +1739,7 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-ef970f2 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                             data-id="ef970f2" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
+                                @foreach($blogs as $blog)
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fd27b31"
                                     data-id="fd27b31" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -1823,16 +1824,16 @@
                                                 </style>
                                                 <div class="elementor-image-box-wrapper">
                                                     <div class="elementor-image-box-content">
-                                                        <h3 class="elementor-image-box-title">Web Design</h3>
-                                                        <p class="elementor-image-box-description">Focus on how you can
-                                                            help and benefit your user. Use simple words so that you
-                                                            don't confuse people.</p>
+                                                        <h3 class="elementor-image-box-title"> {{ $blog->title }}</h3>
+                                                        <p class="elementor-image-box-description">
+                                                            {{ $blog->intro }}
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
                             </div>
                         </section>
                     </div>

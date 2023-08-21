@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blogs;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
@@ -180,24 +181,24 @@ class HomeController extends Controller
     //  dd($data['duration']);
     if (empty($data['time'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $data['mentor'] }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id + '";
-      </script>
-      <?php
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $data['mentor'] }}";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id + '";
+</script>
+<?php
     }
 
     if (empty($data['timezone'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $data['mentor'] }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id + '";
-      </script>
-      <?php
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $data['mentor'] }}";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id + '";
+</script>
+<?php
     } else {
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
@@ -343,7 +344,9 @@ class HomeController extends Controller
 
   public function blogs()
   {
-    return view('blogs');
+    $blogs = Blogs::get();
+
+    return view('blogs', compact('blogs'));
   }
 
   public function faq()
