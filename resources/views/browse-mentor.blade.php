@@ -1781,10 +1781,10 @@
                 content: "★"
             }
             </style>
-            <div class="card" style="width: 100%;">
+            <div class="card h-100" style="width: 100%;">
                 <div class="card-columns" style="padding: 75px 30px 130px 120px;">
                     @foreach($mentors as $mentor)
-                    <div class="card h-100" style="width: 22rem;">
+                    <div class="card" style="width: 22rem;">
                         <img class="card-img-top"
                             src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
                             alt="Card image cap" width="200" height="200">
