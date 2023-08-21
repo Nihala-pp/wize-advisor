@@ -1786,7 +1786,7 @@
                     @foreach($mentors as $mentor)
                     <div class="card h-100" style="width: 22rem;">
                         <img class="card-img-top"
-                            src="{{ asset('public/wp-content/uploads/2023/06/istockphoto-1297832726-612x612-1.jpg') }}"
+                            src="{{ asset('public/wp-content/uploads/2023/06/') }} {{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="text-center">{{ $mentor->name }}</h5>
