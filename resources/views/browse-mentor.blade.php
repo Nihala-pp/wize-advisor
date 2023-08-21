@@ -1828,8 +1828,8 @@
                             </small>
                         </div>
                     </div>
-                    @endforeach
                 </div>
+                @endforeach
             </div>
         </section>
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
