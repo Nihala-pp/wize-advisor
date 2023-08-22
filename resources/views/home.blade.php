@@ -2457,7 +2457,7 @@
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Operations and logistics']) }}">
                                                     <h5 class="qodef-e-title">
-                                                        Operations and logistics </h5>
+                                                        Operations </h5>
                                                 </a>
                                             </div>
                                         </div>
