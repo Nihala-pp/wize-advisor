@@ -1454,24 +1454,21 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        @if(Auth::id())
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('user.dashboard') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                @if(Auth::id())
-                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                    href="{{ route('user.dashboard') }}">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">Dashboard</span>
-                                                    </span>
-                                                </a>
-                                                @else
-                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                    href="{{ route('login') }}">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">Sign In</span>
-                                                    </span>
-                                                </a>
-                                                @endif </span>
+                                                <span class="elementor-button-text">Dashboard</span>
+                                            </span>
                                         </a>
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
