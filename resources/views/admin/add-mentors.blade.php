@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('partials.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
