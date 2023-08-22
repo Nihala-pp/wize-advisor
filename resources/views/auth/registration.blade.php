@@ -66,8 +66,8 @@
                                         <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
 
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Name</label>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Name</label>
                                             <input id="name" type="text"
                                                 class="form-control @error('name') is-invalid @enderror" name="name"
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -78,8 +78,8 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Email</label>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Email</label>
                                             <input id="email" type="email"
                                                 class="form-control @error('email') is-invalid @enderror" name="email"
                                                 value="{{ old('email') }}" required autocomplete="email">
@@ -90,8 +90,8 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Password</label>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password" required autocomplete="current-password">
@@ -101,22 +101,22 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Confirm Password</label>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Confirm Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Company Name</label>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Company Name</label>
                                             <input type="text" class="form-control" name="company_name">
                                         </div>
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Designation</label>
+                                        <div class="input-group input-group-static my-3">
+                                            <label class="">Designation</label>
                                             <input type="text" class="form-control" name="designation">
                                         </div>
-                                        <div class="input-group input-group-outline my-3">
-                                            <label class="form-label">Linked-In Url</label>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Linked-In Url</label>
                                             <input type="url" class="form-control" name="linked_in">
                                         </div>
                                         <div class="mb-3">
