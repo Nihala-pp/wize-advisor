@@ -2674,7 +2674,7 @@
                                                                             <div class="elementor-widget-container">
                                                                                 <p
                                                                                     class="elementor-heading-title elementor-size-default">
-                                                                                    {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '16') : '' }}
+                                                                                    {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '17') : '' }}
                                                                                 </p>
                                                                             </div>
                                                                         </div>
