@@ -65,7 +65,6 @@
                                         @csrf
                                         <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
-
                                         <div class="input-group input-group-static mb-3">
                                             <label class="">Name</label>
                                             <input id="name" type="text"
@@ -111,7 +110,7 @@
                                             <label class="">Company Name</label>
                                             <input type="text" class="form-control" name="company_name">
                                         </div>
-                                        <div class="input-group input-group-static my-3">
+                                        <div class="input-group input-group-static mb-3">
                                             <label class="">Designation</label>
                                             <input type="text" class="form-control" name="designation">
                                         </div>
@@ -129,7 +128,7 @@
                                             </select>
                                         </div>
                                         <div class="timezone mb-3">
-                                            <label class="form-label"></label></br>
+                                            <label class=""></label></br>
                                             <select name="timezone"
                                                 class="select form-control @error('timezone') is-invalid @enderror"
                                                 required>
