@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Home &#8211; wiseAdvizor</title>
@@ -11,7 +10,6 @@
     var theplus_nonce = "db17101d24";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Home &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
