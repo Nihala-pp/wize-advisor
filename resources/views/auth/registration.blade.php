@@ -107,7 +107,7 @@
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
-                                        <div class="iinput-group input-group-outline my-3">
+                                        <div class="input-group input-group-outline my-3">
                                             <label class="form-label">Company Name</label>
                                             <input type="text" class="form-control" name="company_name">
                                         </div>
