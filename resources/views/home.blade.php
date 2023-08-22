@@ -2712,8 +2712,7 @@
                                                                                             $expertise =
                                                                                             Expertise::where('user_id',
                                                                                             $mentor->id)->limit(3)->get();
-                                                                                            @endphp
-                                                                                            @foreach($expertise as
+                                                                                            foreach($expertise as
                                                                                             $expert)
                                                                                             <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="4f32c92"
@@ -2736,7 +2735,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                            @endforeach
+                                                                                            @endphp
                                                                                             <!-- <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="27f7170"
                                                                                                 data-element_type="widget"
