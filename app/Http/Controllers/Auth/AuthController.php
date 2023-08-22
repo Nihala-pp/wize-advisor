@@ -115,7 +115,6 @@ class AuthController extends Controller
                     ->mixedCase()
                     ->numbers()
                     ->symbols()
-                    ->uncompromised()
             ],
         ]);
 
