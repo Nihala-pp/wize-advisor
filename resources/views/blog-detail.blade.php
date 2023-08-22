@@ -1513,8 +1513,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h6 class="elementor-heading-title elementor-size-default">The Power of Mentorship: How
-                                    wiseAdvizor Can Transform Your Startup Journey</h6>
+                                <h6 class="elementor-heading-title elementor-size-default"> {{ $blog->title }} </h6>
                             </div>
                         </div>
                     </div>
@@ -1531,11 +1530,7 @@
                         <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
                             data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">Embarking on a startup journey
-                                    can be both exhilarating and challenging. As an entrepreneur, you're faced with
-                                    numerous decisions, uncertainties, and hurdles along the way. That's where
-                                    mentorship becomes invaluable. In this blog, we will explore the power of mentorship
-                                    and how wiseAdvizor can transform your startup journey</p>
+                                <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
                             </div>
                         </div>
                     </div>
@@ -1592,38 +1587,16 @@
                                 }
                                 </style>
                                 <ol>
-                                    <li>Experience and Expertise: Mentors bring years of industry experience and
-                                        expertise to the table. They have faced similar challenges, made mistakes, and
-                                        learned valuable lessons along the way. Through their guidance, you can avoid
-                                        common pitfalls and accelerate your startup&#8217;s growth.</li>
+                                    <li>{{ $blog->description }}</li>
                                 </ol>
                                 <p> </p>
-                                <ol start="2">
-                                    <li>Networking Opportunities: Mentors have extensive networks of professionals,
-                                        mentors, entrepreneurs, investors, and industry contacts. Through their
-                                        connections, you gain access to potential partners, customers, and resources
-                                        that can fuel your startup&#8217;s success.</li>
-                                </ol>
-                                <p> </p>
-                                <ol start="3">
-                                    <li>Accountability and Support: A mentor provides feedback and support, pushing you
-                                        to set and achieve meaningful goals. They offer a sounding board for your ideas,
-                                        challenge your assumptions, and provide honest feedback to help you make better
-                                        decisions.</li>
-                                </ol>
-                                <p> </p>
-                                <ol start="4">
-                                    <li>Professional Development: Mentorship goes beyond business strategies. It also
-                                        focuses on professional development. Mentors can help you enhance your
-                                        leadership skills, improve communication, and cultivate a growth mindset.</li>
-                                </ol>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5661182 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5661182" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
@@ -1667,8 +1640,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section
+        </section> -->
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-2b1a023 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="2b1a023" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
@@ -1704,7 +1677,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
