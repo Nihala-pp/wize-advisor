@@ -28,7 +28,8 @@
             "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.mn.js?ver=6.2.2"
         }
     };
-    /! This file is auto-generated */! function(e, a, t) {
+    /! This file is auto-generated */
+    ! function(e, a, t) {
         var n, r, o, i = a.createElement("canvas"),
             p = i.getContext && i.getContext("2d");
 
