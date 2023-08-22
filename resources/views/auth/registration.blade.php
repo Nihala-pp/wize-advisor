@@ -34,28 +34,21 @@
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
-                            <div class="card mt-3 mb-1">
+                            <div class="card mt-3 mb-0">
                                 <div class="card-header mt-0">
                                     <h4 class="font-weight-bolder">Create Account</h4>
                                     <p class="mb-0">Welcome! Join us and start your journey today.</p>
                                     <div class="row">
-                                        <!-- <div class="col-2 text-center ms-auto"> -->
-                                        <!-- <a class="btn btn-link px-3" href="javascript:;">
-                        <i class="fa fa-facebook text-white text-lg"></i>
-                      </a> -->
-                                        <!-- </div> -->
                                         <div class="col-3 text-center ms-auto">
-                                            <a class="btn btn-link px-3" href="{{ route('auth.linkedin') }}">
+                                            <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
                                                     class="avatar avatar-sm me-1" alt="linkedin">
-                                                <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
                                             </a>
                                         </div>
                                         <div class="col-3 text-center me-auto">
-                                            <a class="btn btn-link px-3" href="{{ route('auth.google') }}">
+                                            <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
                                                 <img src="{{ asset('public/assets/img/google.png') }}"
                                                     class="avatar avatar-sm me-1" alt="google">
-                                                <!-- <i class="fa fa-google text-white text-lg"></i> -->
                                             </a>
                                         </div>
                                     </div>
