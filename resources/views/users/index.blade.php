@@ -527,7 +527,7 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }} {{ $suggested_mentor->mentor ? $suggested_mentor->mentor->metaData->profile_pic : '' }}"
+                                                        <img src="{{ asset('public/assets/img/') }}/{{ $suggested_mentor->mentor ? $suggested_mentor->mentor->metaData->profile_pic : '' }}"
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
