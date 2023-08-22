@@ -2714,6 +2714,7 @@
                                                                                             $mentor->id)->limit(3)->get();
                                                                                             foreach($expertise as
                                                                                             $expert)
+                                                                                            @endphp
                                                                                             <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="4f32c92"
                                                                                                 data-element_type="widget"
@@ -2735,7 +2736,6 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                            @endphp
                                                                                             <!-- <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="27f7170"
                                                                                                 data-element_type="widget"
