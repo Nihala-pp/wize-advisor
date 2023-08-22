@@ -2709,6 +2709,7 @@
                                                                                         <div
                                                                                             class="elementor-widget-wrap elementor-element-populated">
                                                                                             @php
+                                                                                            use App\Models\Expertise;
                                                                                             $expertise =
                                                                                             Expertise::where('user_id',
                                                                                             $mentor->id)->limit(3)->get();
