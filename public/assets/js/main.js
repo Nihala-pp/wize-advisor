@@ -119,13 +119,13 @@
             //     row.append(curr_date);
             // }
 
-            if (!(day == data[0]["day"])) {
-                console.log("Iam here");
+            // if (!(day == data[0]["day"])) {
+            //     // console.log("Iam here");
 
-                var curr_date = $("<td class='table-date'>" + day + "</td>");
-                curr_date.addClass("disable-date");
-                $('.disable-date').prop("disabled", true)
-            }
+            //     var curr_date = $("<td class='table-date'>" + day + "</td>");
+            //     curr_date.addClass("disable-date");
+            //     $('.disable-date').prop("disabled", true)
+            // }
 
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
