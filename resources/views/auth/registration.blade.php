@@ -129,7 +129,7 @@
                                             </select>
                                         </div>
                                         <div class="timezone mb-3">
-                                            <label class="form-label">Timezone</label></br>
+                                            <label class="form-label"></label></br>
                                             <select name="timezone"
                                                 class="select form-control @error('timezone') is-invalid @enderror"
                                                 required>
