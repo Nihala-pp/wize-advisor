@@ -2663,11 +2663,11 @@
                                                                                                             class="qodef-e-main-image">
                                                                                                             <img width="300"
                                                                                                                 height="200"
-                                                                                                                src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }}"
+                                                                                                                src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
                                                                                                                 class="attachment-medium size-medium"
                                                                                                                 alt=""
                                                                                                                 decoding="async"
-                                                                                                                srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-300x200.webp') }}"
+                                                                                                                srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }} 300w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
                                                                                                                 600w
                                                                                                                 sizes="(max-width: 300px) 100vw, 300px">
                                                                                                         </div>
