@@ -2601,7 +2601,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default">Our Mentors</h4>
+                                <h2 class="elementor-heading-title elementor-size-default">Our Mentors</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-d617383 elementor-widget elementor-widget-shortcode"
