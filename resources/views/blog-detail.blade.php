@@ -1587,7 +1587,7 @@
                                 }
                                 </style>
                                 <ol>
-                                    <li>{{ $blog->description }}</li>
+                                    <li> {{ str_ireplace("br/", "\r\n", $blog->description) }} </li>
                                 </ol>
                                 <p> </p>
                             </div>
