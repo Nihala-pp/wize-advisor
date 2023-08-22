@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Blog-detail &#8211; WISE ADVIZOR</title>
@@ -309,8 +310,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1692626605"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1692626605" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -973,8 +973,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1692629980"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1692629980" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
@@ -1001,8 +1000,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
-        id="jquery-migrate-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
+    </script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
         id="she-header-js"></script>
@@ -1324,8 +1323,8 @@
         </defs>
     </svg>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/"
-                title="WISE ADVIZOR" rel="home">WISE ADVIZOR</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
+                rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf19fcc elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"
@@ -1392,16 +1391,18 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/"
-                                                            itemprop="url" class="hfe-menu-item">Resource<span
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
+                                                            class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
@@ -1409,20 +1410,23 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
+                                                                Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a></li>
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1587,7 +1591,12 @@
                                 }
                                 </style>
                                 <ol>
-                                    <li> {{ str_ireplace("br/", "\r\n", $blog->description) }} </li>
+                                    <li>
+                                        @php
+                                        $text = str_ireplace("<br />", "\r\n", $blog->description);
+                                        echo $text;
+                                        @endphp
+                                    </li>
                                 </ol>
                                 <p> </p>
                             </div>
@@ -2559,14 +2568,12 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
         id="jquery.mousewheel.min-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
         id="niso-carousel-lightbox.min-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
     </script>
@@ -2580,26 +2587,21 @@
         }
     };
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
         id="qi-addons-for-elementor-script-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2"
-        id="jquery-ui-mouse-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2"
-        id="jquery-ui-slider-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1692629980"
         id="theplus-front-js-js" defer></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
         id="hfe-frontend-js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
         id="elementor-webpack-runtime-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
         id="elementor-frontend-modules-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -2729,12 +2731,12 @@
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11"
         id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5"
-        id="wp-hooks-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae"
-        id="wp-i18n-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js">
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js">
+    </script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
         'text directionltr': ['ltr']
@@ -2833,8 +2835,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0"
         id="elementor-pro-frontend-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
         id="pro-elements-handlers-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0"
