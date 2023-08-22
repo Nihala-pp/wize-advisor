@@ -2227,7 +2227,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default">Our Expertise</h4>
+                                <h2 class="elementor-heading-title elementor-size-default">Our Expertise</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-a252efb elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
