@@ -1591,12 +1591,12 @@
                                 }
                                 </style>
                                 <ol>
-                                    <li>
+                                    <!-- <li> -->
                                         @php
                                         $text = str_ireplace("<br />", "\r\n", $blog->description);
                                         echo $text;
                                         @endphp
-                                    </li>
+                                    <!-- </li> -->
                                 </ol>
                                 <p> </p>
                             </div>
