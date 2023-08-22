@@ -58,7 +58,7 @@
                                         @csrf
                                         <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
-                                        <div class="input-group input-group-static mb-0">
+                                        <div class="input-group input-group-static mb-3">
                                             <label class="">Name</label>
                                             <input id="name" type="text"
                                                 class="form-control @error('name') is-invalid @enderror" name="name"
