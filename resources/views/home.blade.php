@@ -2710,7 +2710,7 @@
                                                                                             class="elementor-widget-wrap elementor-element-populated">
                                                                                             @php
                                                                                             $expertise =
-                                                                                            App\Models\Expertise::where('user_id',
+                                                                                            App\Models\Expertise::where('mentor_id',
                                                                                             $mentor->id)->limit(3)->get();
                                                                                             foreach($expertise as
                                                                                             $expert)
