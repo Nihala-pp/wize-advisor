@@ -1648,6 +1648,7 @@
                                 }
                                 </style>
                                 <div class="elementor-accordion">
+                                    @foreach($mentors_faq as $mentor)
                                     <div class="elementor-accordion-item">
                                         <h6 id="elementor-tab-title-4011" class="elementor-tab-title" data-tab="1"
                                             role="button" aria-controls="elementor-tab-content-4011"
@@ -1659,21 +1660,16 @@
                                                 <span class="elementor-accordion-icon-opened"><i
                                                         class="fas fa-minus"></i></span>
                                             </span>
-                                            <a class="elementor-accordion-title" tabindex="0">How can I become a mentor
-                                                on WiseAdvizor?</a>
+                                            <a class="elementor-accordion-title" tabindex="0"> {{ $mentor->questions }}</a>
                                         </h6>
                                         <div id="elementor-tab-content-4011"
                                             class="elementor-tab-content elementor-clearfix" data-tab="1" role="region"
                                             aria-labelledby="elementor-tab-title-4011">
-                                            <p>We appreciate your interest in becoming a mentor on WiseAdvizor. Please
-                                                visit our website and navigate to the &#8220;Be a Mentor&#8221; section.
-                                                There, you will find a form to fill out with your details, including
-                                                your expertise, background, and experience. Our team will review your
-                                                application, and if it aligns with our criteria, we will reach out to
-                                                you with further information.</p>
+                                            <p>{{ $mentor->answers }}</p>
                                         </div>
                                     </div>
-                                    <div class="elementor-accordion-item">
+                                    @endforeach
+                                    <!-- <div class="elementor-accordion-item">
                                         <h6 id="elementor-tab-title-4012" class="elementor-tab-title" data-tab="2"
                                             role="button" aria-controls="elementor-tab-content-4012"
                                             aria-expanded="false">
@@ -1897,7 +1893,7 @@
                                                 here to support you and address any concerns you may have. Contact
                                                 information can typically be found on our website or platform.</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
