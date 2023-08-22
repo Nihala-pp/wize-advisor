@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blogs;
+use App\Models\MentorsFaq;
+use App\Models\UserFaq;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
@@ -358,7 +360,10 @@ window.location.href = "' + custom_location + " / " + Id + '";
 
   public function faq()
   {
-    return view('faq');
+     $userFaq = UserFaq::get();
+     $mentors_faq = MentorsFaq::get();
+
+     return view('faq', compact('userFaq','mentors_faq'));
   }
 
   public function communityGuidelines()
