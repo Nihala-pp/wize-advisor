@@ -2278,7 +2278,7 @@
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['product-market-fit']) }}">
                                                     <h5 class="qodef-e-title">
-                                                        Product Market Fit
+                                                        Product Market
                                                     </h5>
                                                 </a>
                                             </div>
