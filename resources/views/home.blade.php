@@ -2708,6 +2708,13 @@
                                                                                         data-element_type="column">
                                                                                         <div
                                                                                             class="elementor-widget-wrap elementor-element-populated">
+                                                                                            @php
+                                                                                            $expertise =
+                                                                                            Expertise::where('user_id',
+                                                                                            $mentor->id)->limit(3)->get();
+                                                                                            @endphp
+                                                                                            @foreach($expertise as
+                                                                                            $expert)
                                                                                             <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="4f32c92"
                                                                                                 data-element_type="widget"
@@ -2721,13 +2728,16 @@
                                                                                                             <span
                                                                                                                 class="elementor-button-content-wrapper">
                                                                                                                 <span
-                                                                                                                    class="elementor-button-text">{{ $mentor->metaData ? $mentor->metaData->designation : '' }}</span>
+                                                                                                                    class="elementor-button-text">
+                                                                                                                    {{ $expert->expertise }}
+                                                                                                                </span>
                                                                                                             </span>
                                                                                                         </a>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                            <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                                                                            @endforeach
+                                                                                            <!-- <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="27f7170"
                                                                                                 data-element_type="widget"
                                                                                                 data-widget_type="button.default">
@@ -2745,7 +2755,7 @@
                                                                                                         </a>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                            </div>
+                                                                                            </div> -->
                                                                                             <div class="elementor-element elementor-element-0e36f0d elementor-widget elementor-widget-heading"
                                                                                                 data-id="0e36f0d"
                                                                                                 data-element_type="widget"
