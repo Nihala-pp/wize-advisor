@@ -37,7 +37,7 @@
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select id="multiple-checkboxes" multiple="multiple" name="expert[]" required>
+                            <select id="multiple-checkboxes" class="form-control" multiple="multiple" name="expert[]" required>
                                 @foreach($expertise as $key => $expert)
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
@@ -51,7 +51,7 @@
                             <label class="form-label" for="form6Example6">Expertise</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select name="timezone" class="select" multiple required>
+                            <select name="timezone" class="form-control select" multiple required>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
