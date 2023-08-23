@@ -1405,7 +1405,7 @@
                     <!-- <div class="card-header py-3">
                         <h5 class="mb-0">Personal Details</h5>
                     </div> -->
-                    <div class="card-body mt-5">
+                    <div class="card-body mt-3">
                         <form method="POST" action="{{ route('update-details.save') }}">
                             @csrf
                             <input type="hidden" name="user_id" value="{{ $id }}">
