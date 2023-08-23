@@ -51,7 +51,7 @@
                             <label class="form-label" for="form6Example6">Expertise</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select name="timezone" class="select form-control select-label" required>
+                            <select name="timezone" class="select" multiple required>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
