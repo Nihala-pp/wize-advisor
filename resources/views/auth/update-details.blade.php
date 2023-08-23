@@ -15,9 +15,9 @@
         <div class="row">
             <!-- <div class="col-md-8"> -->
                 <div class="card col-6 offset-3" style="width: 30%;">
-                    <div class="card-header py-3">
+                    <!-- <div class="card-header py-3">
                         <h5 class="mb-0">Personal Details</h5>
-                    </div>
+                    </div> -->
                     <div class="card-body">
                         <form method="POST" action="{{ route('update-details.save') }}">
                             @csrf
