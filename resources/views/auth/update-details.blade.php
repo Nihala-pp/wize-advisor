@@ -23,11 +23,11 @@
                         @csrf
                         <input type="hidden" name="user_id" value="{{ $id }}">
                         <div class="form-outline mb-4">
-                            <input type="text" id="form6Example3" class="form-control" name="company_name">
+                            <input type="text" id="form6Example3" class="form-control" name="company_name" required>
                             <label class="form-label" for="form6Example3">Company name</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <input type="text" id="form6Example4" class="form-control" name="designation">
+                            <input type="text" id="form6Example4" class="form-control" name="designation" required>
                             <label class="form-label" for="form6Example4">Designation</label>
                         </div>
                         <div class="form-outline mb-4">
@@ -35,7 +35,7 @@
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select class="select form-control" name="expert[]" id="form6Example8" multiple>
+                            <select class="select form-control" name="expert[]" id="form6Example8" multiple required>
                                 @foreach($expertise as $key => $expert)
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
@@ -49,7 +49,7 @@
                             <label class="form-label" for="form6Example6">Expertise</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select name="timezone" class="select form-control select-label">
+                            <select name="timezone" class="select form-control select-label" required>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
@@ -59,7 +59,7 @@
                         <hr class="my-4">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="terms_condition" id="checkoutForm3"
-                                value="1">
+                                value="1" required>
                             <label class="form-check-label" for="checkoutForm3">
                                 Terms and Conditions
                             </label>
