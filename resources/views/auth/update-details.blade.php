@@ -17,7 +17,6 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 </head>
-
 <body>
     <section>
         <div class="row mt-5">
@@ -50,15 +49,16 @@
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
                             </select>
+                            <label class="form-label select-label" for="form6Example6">Linked-In Url</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select name="timezone" class="form-control select" data-live-search="true"
-                                required>
+                            <select name="timezone" class="form-control select" data-live-search="true" required>
                                 <option value="">Select Timezone</option>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
                             </select>
+                            <label class="form-label select-label" for="form6Example7">Linked-In Url</label>
                         </div>
                         <hr class="my-4">
                         <div class="form-check">
