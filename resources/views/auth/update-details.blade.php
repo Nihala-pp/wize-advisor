@@ -35,7 +35,7 @@
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select class="select" name="expert[]" multiple>
+                            <select class="select form-control" name="expert[]" id="form6Example8" multiple>
                                 @foreach($expertise as $key => $expert)
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
