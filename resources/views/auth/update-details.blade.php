@@ -77,9 +77,9 @@
             <!-- </div> -->
         </div>
     </section>
-    <!-- <script type="text/javascript" src="{{ asset('public/assets/js/mdb.min.js') }}"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/assets/js/mdb.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/bootstrap-multiselect.js') }}"></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"7fb2b96089dbb47f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}' crossorigin="anonymous"></script>
     <script type="text/javascript">
