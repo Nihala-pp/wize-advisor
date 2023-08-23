@@ -17,6 +17,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 </head>
+
 <body>
     <section>
         <div class="row mt-5">
@@ -42,22 +43,25 @@
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select class="form-select" multiple data-live-search="true" name="expert[]" title="Select Expertise"
-                                required style="width: 100%;">
-                                @foreach($expertise as $key => $expert)
-                                <option value="{{ $expert }}">{{ $expert }}</option>
-                                @endforeach
-                            </select>
-                            <label class="form-label select-label" for="form6Example6"></label>
-                        </div>
-                        <div class="form-outline mb-4">
-                            <select name="timezone" class="form-select" data-live-search="true" title="Select Timezone" required style="width: 100%;">
+                            <select name="timezone" class="form-select" data-live-search="true" required
+                                style="width: 100%;">
+                                <option selected>Select Timezone</option>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
                             </select>
                             <label class="form-label select-label" for="form6Example7"></label>
                         </div>
+                        <div class="form-outline mb-4">
+                            <select class="select" multiple data-live-search="true" name="expert[]"
+                                title="Select Expertise" required style="width: 100%;">
+                                @foreach($expertise as $key => $expert)
+                                <option value="{{ $expert }}">{{ $expert }}</option>
+                                @endforeach
+                            </select>
+                            <label class="form-label select-label" for="form6Example6"></label>
+                        </div>
+
                         <hr class="my-4">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="terms_condition" id="checkoutForm3"
