@@ -8,9 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <style>
+        body {
+            align:center;
+        }
+    </style>
 </head>
 
-<body style="align:center;">
+<body>
     <section>
         <div class="row">
             <div class="col-md-6 mb-4">
@@ -35,8 +40,8 @@
                                 <label class="form-label" for="form6Example5">Linked-In Url</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <select class="select form-control select-label" multiple
-                                    data-mdb-clear-button="true" name="expert[]">
+                                <select class="select form-control select-label" multiple data-mdb-clear-button="true"
+                                    name="expert[]">
                                     @foreach($expertise as $key => $expert)
                                     <option value="{{ $expert }}">{{ $expert }}</option>
                                     @endforeach
@@ -44,8 +49,7 @@
                                 <label class="form-label" for="form6Example6">Expertise</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <select name="timezone"
-                                    class="select form-control select-label">
+                                <select name="timezone" class="select form-control select-label">
                                     @foreach($timezone as $zone=> $time)
                                     <option value="{{ $time }}">{{ $zone }}</option>
                                     @endforeach
@@ -54,8 +58,8 @@
                             </div>
                             <hr class="my-4">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio"
-                                    name="terms_condition" id="checkoutForm3" value="1">
+                                <input class="form-check-input" type="radio" name="terms_condition" id="checkoutForm3"
+                                    value="1">
                                 <label class="form-check-label" for="checkoutForm3">
                                     Terms and Conditions
                                 </label>
