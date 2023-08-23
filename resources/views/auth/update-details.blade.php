@@ -1431,7 +1431,7 @@
                                 <label class="form-label select-label" for="form6Example7"></label>
                             </div>
                             <div class="form-outline mb-1">
-                                <select class="form-select" data-live-search="true" name="expert[]" required>
+                                <select class="form-select" data-live-search="true" name="expert[]" multiple required>
                                     <option selected>Select Expertise</option>
                                     @foreach($expertise as $key => $expert)
                                     <option value="{{ $expert }}">{{ $expert }}</option>
@@ -1443,7 +1443,7 @@
                             <hr class="my-4">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="terms_condition" id="checkoutForm3"
-                                 required>
+                                    required>
                                 <label class="form-check-label" for="checkoutForm3">
                                     Terms and Conditions
                                 </label>
