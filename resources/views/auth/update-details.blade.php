@@ -60,7 +60,7 @@
                                 </label>
                             </div>
                             <button class="btn btn-primary btn-lg btn-block" type="submit">
-                                Continue to Dashboard
+                                Continue
                             </button>
                         </form>
                     </div>
