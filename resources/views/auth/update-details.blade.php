@@ -53,8 +53,9 @@
                             <label class="form-label select-label" for="form6Example7"></label>
                         </div>
                         <div class="form-outline mb-2">
-                            <select class="select form-select" multiple data-live-search="true" name="expert[]"
+                            <select class="form-select" data-live-search="true" name="expert[]"
                                 title="Select Expertise" required style="width: 100%;">
+                                <option selected>Select Expertise</option>
                                 @foreach($expertise as $key => $expert)
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
