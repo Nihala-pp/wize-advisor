@@ -42,7 +42,7 @@
                             <input type="url" id="form6Example5" class="form-control" name="linked_in">
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
-                        <div class="form-outline mb-2">
+                        <div class="form-outline mb-1">
                             <select name="timezone" class="form-select" data-live-search="true" required>
                                 <option selected>Select Timezone</option>
                                 @foreach($timezone as $zone=> $time)
