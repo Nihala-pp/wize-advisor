@@ -5,6 +5,8 @@
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
@@ -36,19 +38,18 @@
                             <input type="url" id="form6Example5" class="form-control" name="linked_in">
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
-                        <div class="form-outline mb-4">
-                            <select id="multiple-checkboxes" class="form-control" multiple="multiple" name="expert[]" required>
-                                @foreach($expertise as $key => $expert)
-                                <option value="{{ $expert }}">{{ $expert }}</option>
-                                @endforeach
-                            </select>
-                            <!-- <select class="select form-control select-label" multiple data-mdb-clear-button="true"
-                                name="expert[]">
-                                @foreach($expertise as $key => $expert)
-                                <option value="{{ $expert }}">{{ $expert }}</option>
-                                @endforeach
-                            </select> -->
-                            <label class="form-label" for="form6Example6">Expertise</label>
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 col-lg-5 d-flex justify-content-center align-items-center">
+                                <div class="d-flex text-left align-items-center w-100">
+                                    <strong class="sl">Select Expertise:</strong>
+                                    <select id="multiple-checkboxes" class="form-control" multiple="multiple"
+                                        name="expert[]" required>
+                                        @foreach($expertise as $key => $expert)
+                                        <option value="{{ $expert }}">{{ $expert }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-outline mb-4">
                             <select name="timezone" class="form-control select" multiple required>
@@ -76,8 +77,11 @@
             <!-- </div> -->
         </div>
     </section>
-    <script type="text/javascript" src="{{ asset('public/assets/js/mdb.min.js') }}"></script>
+    <!-- <script type="text/javascript" src="{{ asset('public/assets/js/mdb.min.js') }}"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/assets/js/bootstrap-multiselect.js') }}"></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon='{"rayId":"7fb2b96089dbb47f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}' crossorigin="anonymous"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $('#multiple-checkboxes').multiselect({
