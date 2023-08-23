@@ -13,8 +13,8 @@
 <body>
     <section>
         <div class="row">
-            <div class="col-md-8">
-                <div class="card mx-auto" style="width: 50%;">
+            <!-- <div class="col-md-8"> -->
+                <div class="card col-6 offset-3" style="width: 50%;">
                     <div class="card-header py-3">
                         <h5 class="mb-0">Personal Details</h5>
                     </div>
@@ -65,7 +65,7 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
     </section>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
