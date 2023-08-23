@@ -44,15 +44,13 @@
                         <div class="form-outline mb-4">
                             <!-- <div class="col-md-8 col-lg-5 d-flex justify-content-center align-items-center">
                                 <div class="d-flex text-left align-items-center w-100"> -->
-                                    <strong class="sl">Select Expertise:</strong>
-                                    <select class="selectpicker" multiple data-live-search="true">
-                                        name="expert[]" required>
-                                        @foreach($expertise as $key => $expert)
-                                        <option value="{{ $expert }}">{{ $expert }}</option>
-                                        @endforeach
-                                    <!-- </select>
-                                </div>
-                            </div> -->
+                            <select class="selectpicker" multiple data-live-search="true">
+                                name="expert[]" required>
+                                @foreach($expertise as $key => $expert)
+                                <option value="{{ $expert }}">{{ $expert }}</option>
+                                @endforeach
+                            </select>
+                            <label class="form-label select-label">Expertise</label>
                         </div>
                         <div class="form-outline mb-4">
                             <select name="timezone" class="form-control select" multiple required>
