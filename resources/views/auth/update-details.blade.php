@@ -14,7 +14,7 @@
     <section>
         <div class="row">
             <!-- <div class="col-md-8"> -->
-                <div class="card col-6 offset-3 mt-20" style="width: 30%;">
+                <div class="card col-12 offset-6 mt-20" style="width: 30%;">
                     <!-- <div class="card-header py-3">
                         <h5 class="mb-0">Personal Details</h5>
                     </div> -->
