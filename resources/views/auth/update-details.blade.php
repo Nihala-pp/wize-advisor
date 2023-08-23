@@ -22,7 +22,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Success &#8211; wiseAdvizor</title>
+    <title>Personal Info &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
@@ -1386,7 +1386,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-60e4ec3"
+                    <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-60e4ec3"
                         data-id="60e4ec3" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-359f243 hfe-nav-menu__align-center hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
@@ -1455,8 +1455,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
+                    </div> -->
+                    <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
                         data-id="a87489f" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -1494,11 +1494,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+                        </div> -->
+                <!-- </div> -->
         </div>
+    </header>
+    </div>
     </header>
     <style>
     .text-center {
