@@ -8,11 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
-    <style>
-        body {
-            align:center;
-        }
-    </style>
 </head>
 
 <body>
@@ -75,5 +70,12 @@
     </section>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
 </body>
+<style>
+       max-width: 448px;
+       width: 100%;
+       padding: 32px;
+       margin: 48px auto;
+       border-radius: 12px;
+</style>
 
 </html>
