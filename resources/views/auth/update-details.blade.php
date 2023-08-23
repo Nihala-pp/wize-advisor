@@ -12,7 +12,7 @@
 
 <body>
     <section>
-        <div class="row" style="margin: top 20px;">
+        <div class="row" style="margin-top: 20px;">
             <!-- <div class="col-md-8"> -->
                 <div class="card col-12 offset-4" style="width: 30%;">
                     <!-- <div class="card-header py-3">
