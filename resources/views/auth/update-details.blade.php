@@ -18,7 +18,7 @@
 <body>
     <section>
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card mb-4">
                     <div class="card-header py-3">
                         <h5 class="mb-0">Personal Details</h5>
