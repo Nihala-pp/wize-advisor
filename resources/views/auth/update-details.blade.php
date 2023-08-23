@@ -42,9 +42,8 @@
                             <input type="url" id="form6Example5" class="form-control" name="linked_in">
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
-                        <div class="form-outline mb-4">
-                            <select name="timezone" class="form-select" data-live-search="true" required
-                                style="width: 100%;">
+                        <div class="form-outline mb-2">
+                            <select name="timezone" class="form-select" data-live-search="true" required>
                                 <option selected>Select Timezone</option>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
@@ -52,9 +51,8 @@
                             </select>
                             <label class="form-label select-label" for="form6Example7"></label>
                         </div>
-                        <div class="form-outline mb-2">
-                            <select class="form-select" data-live-search="true" name="expert[]"
-                                title="Select Expertise" required style="width: 100%;">
+                        <div class="form-outline mb-4">
+                            <select class="form-select" data-live-search="true" name="expert[]" required>
                                 <option selected>Select Expertise</option>
                                 @foreach($expertise as $key => $expert)
                                 <option value="{{ $expert }}">{{ $expert }}</option>
