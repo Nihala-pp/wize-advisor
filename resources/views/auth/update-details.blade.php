@@ -51,7 +51,7 @@
                             <label class="form-label select-label" for="form6Example6"></label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select name="timezone" class="form-control select" data-live-search="true" title="Select Timezone" required>
+                            <select name="timezone" class="form-select" data-live-search="true" title="Select Timezone" required>
                                 @foreach($timezone as $zone=> $time)
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
