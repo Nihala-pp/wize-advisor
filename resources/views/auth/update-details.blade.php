@@ -52,7 +52,7 @@
                             </select>
                         </div>
                         <div class="form-outline mb-4">
-                            <select name="timezone" class="form-control select" multiple data-live-search="true"
+                            <select name="timezone" class="form-control select" data-live-search="true"
                                 required>
                                 <option value="">Select Timezone</option>
                                 @foreach($timezone as $zone=> $time)
