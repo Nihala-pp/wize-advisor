@@ -49,7 +49,7 @@
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
                             </select>
-                            <label class="form-label select-label" for="form6Example6">Linked-In Url</label>
+                            <label class="form-label select-label" for="form6Example6"></label>
                         </div>
                         <div class="form-outline mb-4">
                             <select name="timezone" class="form-control select" data-live-search="true" required>
@@ -58,7 +58,7 @@
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
                             </select>
-                            <label class="form-label select-label" for="form6Example7">Linked-In Url</label>
+                            <label class="form-label select-label" for="form6Example7"></label>
                         </div>
                         <hr class="my-4">
                         <div class="form-check">
