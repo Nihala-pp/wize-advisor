@@ -51,7 +51,7 @@
                             </select>
                             <label class="form-label select-label" for="form6Example7"></label>
                         </div>
-                        <div class="form-outline mb-4">
+                        <div class="form-outline mb-1">
                             <select class="form-select" data-live-search="true" name="expert[]" required>
                                 <option selected>Select Expertise</option>
                                 @foreach($expertise as $key => $expert)
