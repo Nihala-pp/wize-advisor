@@ -59,7 +59,7 @@
                                     Terms and Conditions
                                 </label>
                             </div>
-                            <button class="btn btn-primary btn-lg btn-block mt-5" type="submit">
+                            <button class="btn btn-primary btn-lg btn-block mt-3" type="submit">
                                 Continue
                             </button>
                         </form>
