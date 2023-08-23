@@ -37,7 +37,7 @@
                             <label class="form-label" for="form6Example5">Linked-In Url</label>
                         </div>
                         <div class="form-outline mb-4">
-                            <select class="select form-control" name="expert[]" id="form6Example8" multiple required>
+                            <select id="multiple-checkboxes" multiple="multiple" name="expert[]" required>
                                 @foreach($expertise as $key => $expert)
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
@@ -77,7 +77,14 @@
         </div>
     </section>
     <script type="text/javascript" src="{{ asset('public/assets/js/mdb.min.js') }}"></script>
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script> -->
+    <script type="text/javascript" src="{{ asset('public/assets/js/bootstrap-multiselect.js') }}"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#multiple-checkboxes').multiselect({
+            includeSelectAllOption: true,
+        });
+    });
+    </script>
 </body>
 <style>
 max-width: 448px;
@@ -86,4 +93,5 @@ padding: 32px;
 margin: 48px auto;
 border-radius: 12px;
 </style>
+
 </html>
