@@ -2,12 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('public/assets/css/bootstrap-multiselect.min.css') }}" />
 </head>
 
 <body>
@@ -54,7 +56,8 @@
                                 <option value="{{ $time }}">{{ $zone }}</option>
                                 @endforeach
                             </select>
-                            <label class="form-label" for="form6Example7">Timezone</label>
+                            <label class="form-label select-label">Timezone</label>
+                            <!-- <label class="form-label" for="form6Example7">Timezone</label> -->
                         </div>
                         <hr class="my-4">
                         <div class="form-check">
@@ -73,7 +76,8 @@
             <!-- </div> -->
         </div>
     </section>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+    <script type="text/javascript" src="{{ asset('public/assets/js/mdb.min.js') }}"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script> -->
 </body>
 <style>
 max-width: 448px;
@@ -82,5 +86,4 @@ padding: 32px;
 margin: 48px auto;
 border-radius: 12px;
 </style>
-
 </html>
