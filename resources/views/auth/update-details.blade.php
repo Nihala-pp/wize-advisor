@@ -1443,7 +1443,7 @@
                             <hr class="my-4">
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="terms_condition" id="checkoutForm3"
-                                    value="1" required>
+                                 required>
                                 <label class="form-check-label" for="checkoutForm3">
                                     Terms and Conditions
                                 </label>
