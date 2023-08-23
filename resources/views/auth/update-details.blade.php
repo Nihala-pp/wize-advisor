@@ -51,7 +51,6 @@
                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                 @endforeach
                             </select>
-                            <label class="form-label select-label">Expertise</label>
                         </div>
                         <div class="form-outline mb-4">
                             <select name="timezone" class="form-control select" multiple required>
