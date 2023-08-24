@@ -2189,13 +2189,6 @@
                         <div class="elementor-element elementor-element-71f202c elementor-widget elementor-widget-text-editor"
                             data-id="71f202c" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-
-                                <!-- @php
-                                $json =
-                                preg_replace('/,/','\n',trim($data->metaData->achievements));
-                                @endphp
-                                @foreach(json_decode($json) as $achievement) -->
-
                                 <ul>
                                     @foreach($achievements as $achievement)
                                     <li>{{ $achievement->description }} <\n>
