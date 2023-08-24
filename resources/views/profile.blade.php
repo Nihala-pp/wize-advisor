@@ -2062,7 +2062,14 @@
                                             data-id="6b6a93e" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }}
+                                                <p>
+                                                    @php
+                                                      $str = $data->metaData->about_me;
+                                                      $pattern="/(<p[^>]*>(.*)<\ /p>){2}/isU";
+                                                      preg_match($pattern,$str,$matches);
+                                                      echo htmlentities($matches[0]);
+                                                    @endphp
+                                                            <!-- {{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }} -->
                                                 </p>
                                             </div>
                                         </div>
