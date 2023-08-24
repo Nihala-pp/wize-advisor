@@ -1575,7 +1575,7 @@
                                 }
 
                                 .title {
-                                    margin-top: 25px !important;
+                                    padding-top: 25px !important;
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
