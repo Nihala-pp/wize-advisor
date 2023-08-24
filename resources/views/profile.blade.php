@@ -2198,7 +2198,7 @@
 
                                 <ul>
                                     @foreach($achievements as $achievement)
-                                    <li>{{ $achievement }} <\n>
+                                    <li>{{ $achievement->description }} <\n>
                                     </li>
                                     @endforeach
                                 </ul>
