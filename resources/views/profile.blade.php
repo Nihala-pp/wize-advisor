@@ -2039,7 +2039,7 @@
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5f8e7d3"
                                     data-id="5f8e7d3" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-28a7a93 elementor-widget elementor-widget-heading"
+                                        <!-- <div class="elementor-element elementor-element-28a7a93 elementor-widget elementor-widget-heading"
                                             data-id="28a7a93" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
@@ -2047,7 +2047,7 @@
                                                     Developing
                                                     With a Passion While Exploring The World.</h5>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="elementor-element elementor-element-b6d042e elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                             data-id="b6d042e" data-element_type="widget"
                                             data-widget_type="divider.default">
