@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Profile &#8211; wiseAdvizor</title>
@@ -1596,7 +1597,7 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                    font-size: 59px
+                                    font-size: 50px;
                                 }
                                 </style>
                                 <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}!
