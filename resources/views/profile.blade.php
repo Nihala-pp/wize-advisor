@@ -1604,7 +1604,8 @@
                                     font-size: 50px;
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default title">HI! I AM {{ $data->name }}!
+                                <h1 class="elementor-heading-title elementor-size-default title">HI! I AM
+                                    {{ $data->name }}!
                                     _____</h1>
                             </div>
                         </div>
@@ -1642,6 +1643,10 @@
 
                                 .elementor-widget-text-editor .elementor-drop-cap-letter {
                                     display: inline-block
+                                }
+
+                                .scheduleButton {
+                                    margin-top: 8px
                                 }
                                 </style>
                                 <!-- <p>I build brands.</p> -->
