@@ -2065,7 +2065,7 @@
                                                 <p>
                                                     @php
                                                       $str = $data->metaData->about_me;
-                                                      $pattern="/(<p[^>]*>(.*)<\ /p>){2}/isU";
+                                                      $pattern="/^(<p[^>]*>(.*)<\ /p>){2}/isU";
                                                       preg_match($pattern,$str,$matches);
                                                       echo htmlentities($matches[0]);
                                                     @endphp
