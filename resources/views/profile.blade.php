@@ -1569,7 +1569,6 @@
                                 <style>
                                 /*! elementor - v3.14.0 - 26-06-2023 */
                                 .elementor-heading-title {
-                                    padding: 0;
                                     margin: 0;
                                     line-height: 1;
                                     padding-top: 25px;
