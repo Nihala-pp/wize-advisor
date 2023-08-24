@@ -2166,7 +2166,7 @@
             data-id="bce5b88" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                @if(!empty($data->metaData->achievements))
+                @if(!empty($achievements))
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f36dc21"
                     data-id="f36dc21" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
