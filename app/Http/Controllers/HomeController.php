@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blogs;
+use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\UserFaq;
 use Illuminate\Http\Request;
@@ -55,8 +56,9 @@ class HomeController extends Controller
     $expertise = Expertise::where('mentor_id', $id)->get();
     $experience = MentorsExperience::where('user_id', $id)->take(2)->get();
     $last_experience = MentorsExperience::where('user_id', $id)->skip(2)->take(10)->get();
+    $achievements = MentorAchievements::where('mentor_id', $id)->get();
 
-    return view('profile', compact('data', 'experience', 'expertise', 'last_experience'));
+    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements'));
   }
 
   public function browseMentor($name = NULL, $filter = NULL)

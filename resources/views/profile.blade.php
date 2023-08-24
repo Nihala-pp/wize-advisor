@@ -2190,17 +2190,18 @@
                             data-id="71f202c" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
 
-                                @php
+                                <!-- @php
                                 $json =
                                 preg_replace('/,/','\n',trim($data->metaData->achievements));
                                 @endphp
-                                @foreach(json_decode($json) as $achievement)
+                                @foreach(json_decode($json) as $achievement) -->
 
                                 <ul>
+                                    @foreach($achievements as $achievement)
                                     <li>{{ $achievement }} <\n>
                                     </li>
+                                    @endforeach
                                 </ul>
-                                @endforeach
                             </div>
                         </div>
                     </div>
