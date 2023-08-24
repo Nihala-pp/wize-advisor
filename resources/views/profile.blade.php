@@ -1571,7 +1571,8 @@
                                 .elementor-heading-title {
                                     padding: 0;
                                     margin: 0;
-                                    line-height: 1
+                                    line-height: 1;
+                                    padding-top: 25px;
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
