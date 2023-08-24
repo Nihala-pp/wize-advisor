@@ -2048,7 +2048,7 @@
                                                     With a Passion While Exploring The World.</h5>
                                             </div>
                                         </div> -->
-                                        <div class="elementor-element elementor-element-b6d042e elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                        <!-- <div class="elementor-element elementor-element-b6d042e elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                             data-id="b6d042e" data-element_type="widget"
                                             data-widget_type="divider.default">
                                             <div class="elementor-widget-container">
@@ -2057,7 +2057,7 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="elementor-element elementor-element-6b6a93e elementor-widget elementor-widget-text-editor"
                                             data-id="6b6a93e" data-element_type="widget"
                                             data-widget_type="text-editor.default">
