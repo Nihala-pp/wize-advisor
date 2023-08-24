@@ -2071,14 +2071,17 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <!-- <div class="elementor-element elementor-element-297c2fe elementor-widget elementor-widget-text-editor"
+                                        <div class="elementor-element elementor-element-297c2fe elementor-widget elementor-widget-text-editor"
                                             data-id="297c2fe" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }}
-                                                </p>
+                                                <p>
+                                                    @php
+                                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me_1);
+                                                    echo $text;
+                                                    @endphp </p>
                                             </div>
-                                        </div> -->
+                                        </div>
                                         <div class="elementor-element elementor-element-ff6b5f5 elementor-mobile-align-center elementor-hidden-mobile elementor-widget elementor-widget-button"
                                             data-id="ff6b5f5" data-element_type="widget"
                                             data-widget_type="button.default">
@@ -2115,20 +2118,24 @@
                                             <div class="elementor-widget-container">
                                                 <p>
                                                     @php
-                                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me_1);
+                                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me_2);
                                                     echo $text;
                                                     @endphp
                                                 </p>
                                             </div>
                                         </div>
-                                        <!-- <div class="elementor-element elementor-element-3c041f0 elementor-widget elementor-widget-text-editor"
+                                        <div class="elementor-element elementor-element-3c041f0 elementor-widget elementor-widget-text-editor"
                                             data-id="3c041f0" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }}
+                                                <p>
+                                                    @php
+                                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me_3);
+                                                    echo $text;
+                                                    @endphp
                                                 </p>
                                             </div>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-21a9478"
