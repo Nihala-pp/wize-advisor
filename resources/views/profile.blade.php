@@ -1585,15 +1585,15 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                    font-size: 19px
+                                    font-size: 17px
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                    font-size: 29px
+                                    font-size: 20px
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                    font-size: 39px
+                                    font-size: 30px
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
