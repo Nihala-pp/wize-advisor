@@ -2191,7 +2191,7 @@
                             <div class="elementor-widget-container">
                                 <ul>
                                     @foreach($achievements as $achievement)
-                                    <li>{{ $achievement->description }} <\n>
+                                    <li>{{ $achievement->description }} 
                                     </li>
                                     @endforeach
                                 </ul>
