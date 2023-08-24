@@ -1857,7 +1857,9 @@
                         <div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
                             data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
+                                <span
+                                    class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
+                                    $ / 30 Min</span>
                             </div>
                         </div>
                     </div>
