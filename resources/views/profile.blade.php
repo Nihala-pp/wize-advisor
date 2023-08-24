@@ -1571,6 +1571,7 @@
                                     /* margin: 0; */
                                     line-height: 1;
                                     margin-top: 25px !important;
+                                    margin-right: 25px !important;
                                 }
 
                                 .title {
