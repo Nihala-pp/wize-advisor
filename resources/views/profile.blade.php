@@ -1600,7 +1600,8 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}!
+                                    _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
@@ -1655,12 +1656,23 @@
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
+                                                    @if(Auth::id())
+                                                    <a href="{{ route('schedule-call', [$data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Schedule Call</span>
+                                                            <span class="elementor-button-text">Schedule
+                                                                Call</span>
                                                         </span>
                                                     </a>
+                                                    @else
+                                                    <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Schedule
+                                                                Call</span>
+                                                        </span>
+                                                    </a>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -3906,7 +3918,8 @@
                                                                                 <a
                                                                                     href="{{ route('termsConditions') }}">Terms
                                                                                     &
-                                                                                    Conditions</a></p>
+                                                                                    Conditions</a>
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -3923,7 +3936,8 @@
                                                                                 class="elementor-heading-title elementor-size-default">
                                                                                 <a
                                                                                     href="{{ route('community-guidelines') }}">Community
-                                                                                    Guidelines</a></p>
+                                                                                    Guidelines</a>
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -3939,7 +3953,8 @@
                                                                             <p
                                                                                 class="elementor-heading-title elementor-size-default">
                                                                                 <a href="{{ route('aboutUs') }}">About
-                                                                                    Us</a></p>
+                                                                                    Us</a>
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -3955,7 +3970,8 @@
                                                                             <p
                                                                                 class="elementor-heading-title elementor-size-default">
                                                                                 <a href="{{ route('contactUs') }}">Contact
-                                                                                    Us</a></p>
+                                                                                    Us</a>
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
