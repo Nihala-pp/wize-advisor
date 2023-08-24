@@ -1871,10 +1871,15 @@
                             data-id="5cf1512" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="500" height="500"
+                                    src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
+                                    class="attachment-large size-large wp-image-3756" alt=""
+                                    srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 500w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 150w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 450w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 700w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 650w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 1300w"
+                                    sizes="(max-width: 500px) 100vw, 500px">
+                                <!-- <img decoding="async" width="500" height="500"
                                     src="https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png"
                                     class="attachment-large size-large wp-image-3756" alt=""
                                     srcset="https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png 500w, https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png 300w, https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-150x150.png 150w, https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-450x450.png 450w, https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-700x700.png 700w, https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-650x650.png 650w, https://web.pransainvestment.ca/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-1300x1300.png 1300w"
-                                    sizes="(max-width: 500px) 100vw, 500px" />
+                                    sizes="(max-width: 500px) 100vw, 500px" /> -->
                             </div>
                         </div>
                     </div>
@@ -2367,6 +2372,11 @@
                                                     data-id="5cf1512" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
+                                                        <img decoding="async" width="500" height="500"
+                                                            src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
+                                                            class="attachment-large size-large wp-image-3756" alt=""
+                                                            srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 150w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 450w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 700w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 650w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 1300w"
+                                                            sizes="(max-width: 500px) 100vw, 500px">
                                                         <img decoding="async" width="500" height="500"
                                                             src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                                             class="attachment-large size-large wp-image-3756" alt=""
