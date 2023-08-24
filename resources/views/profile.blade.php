@@ -1574,6 +1574,10 @@
                                     margin-top: 25px !important;
                                 }
 
+                                .title {
+                                    margin-top: 25px !important;
+                                }
+
                                 .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
                                     color: inherit;
                                     font-size: inherit;
@@ -1600,7 +1604,7 @@
                                     font-size: 50px;
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}!
+                                <h1 class="elementor-heading-title elementor-size-default title">HI! I AM {{ $data->name }}!
                                     _____</h1>
                             </div>
                         </div>
@@ -1650,7 +1654,7 @@
                                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-223593d"
                                         data-id="223593d" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                            <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-widget__width-auto elementor-widget elementor-widget-button scheduleButton"
                                                 data-id="7d4fe70" data-element_type="widget"
                                                 data-widget_type="button.default">
                                                 <div class="elementor-widget-container">
