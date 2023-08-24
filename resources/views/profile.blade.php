@@ -2064,12 +2064,10 @@
                                             <div class="elementor-widget-container">
                                                 <p>
                                                     @php
-                                                      $str = $data->metaData->about_me;
-                                                      $pattern="/^(<p[^>]*>(.*)<\ /p>){2}/isU";
-                                                      preg_match($pattern,$str,$matches);
-                                                      echo htmlentities($matches[0]);
+                                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me);
+                                                    echo $text;
                                                     @endphp
-                                                            <!-- {{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }} -->
+                                                    <!-- {{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }} -->
                                                 </p>
                                             </div>
                                         </div>
@@ -2115,7 +2113,11 @@
                                             data-id="6f4f3fe" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }}
+                                                <p>
+                                                    @php
+                                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me_1);
+                                                    echo $text;
+                                                    @endphp
                                                 </p>
                                             </div>
                                         </div>
