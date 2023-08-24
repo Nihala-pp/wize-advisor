@@ -24,6 +24,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <!-- <script src="https://kit.fontawesome.com/f8735c7699.js" crossorigin="anonymous"></script> -->
     <script>
     window._wpemojiSettings = {
@@ -2951,4 +2952,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
         </script>
     </body>
+
 </html>

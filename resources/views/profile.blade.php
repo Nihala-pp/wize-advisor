@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Profile &#8211; wiseAdvizor</title>
@@ -11,18 +10,16 @@
     var theplus_nonce = "cbe4e9be63";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Profile &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-
     <style>
     /*! elementor - v3.14.0 - 26-06-2023 */
     .elementor-widget-progress {
-        text-align: left
+        text-align: left;
     }
 
     .elementor-progress-wrapper {
@@ -94,7 +91,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\http:\/\/localhost\/wiseAdvizor\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
@@ -2056,7 +2053,8 @@
                                             data-id="6b6a93e" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                </p>{{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }}
+                                                <p>{{ Illuminate\Support\Str::words($data->metaData->about_me, 20) }}
+                                                </p>
                                             </div>
                                         </div>
                                         <!-- <div class="elementor-element elementor-element-297c2fe elementor-widget elementor-widget-text-editor"
