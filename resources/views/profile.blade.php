@@ -1639,13 +1639,8 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>I build brands.</p>
-                                <p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
-                                    in leveraging multiple channels, I have been fortunate to work across a spectrum of
-                                    channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
-                                    creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
-                                    program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
-                                    marketing and launching the Indian cricket team jersey twice.</p>
+                                <!-- <p>I build brands.</p> -->
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                             </div>
                         </div>
                         <section
