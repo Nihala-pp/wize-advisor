@@ -1639,8 +1639,8 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>I build brands.</p>
-                                <p> {{ $data->metaData ? Illuminate\Support\Str::words($data->metaData->bio, 20) : '' }}
+                                <!-- <p>I build brands.</p> -->
+                                <p> {{ $data->metaData ? $data->metaData->bio : '' }}
                             </div>
                             <section
                                 class="elementor-section elementor-inner-section elementor-element elementor-element-8d957dd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
