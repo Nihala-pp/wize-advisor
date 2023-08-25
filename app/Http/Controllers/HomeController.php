@@ -57,7 +57,7 @@ class HomeController extends Controller
     $experience = MentorsExperience::where('user_id', $id)->take(2)->get();
     $last_experience = MentorsExperience::where('user_id', $id)->skip(2)->take(10)->get();
     $achievements = MentorAchievements::where('mentor_id', $id)->get();
-    dd($achievements);
+    // dd($achievements);
 
     return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements'));
   }

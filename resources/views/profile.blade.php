@@ -2166,7 +2166,7 @@
             data-id="bce5b88" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                @if(!empty($achievements))
+                @if($achievements->isNotEmpty())
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f36dc21"
                     data-id="f36dc21" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -2198,8 +2198,8 @@
                             </div>
                         </div>
                     </div>
-                    @endif
                 </div>
+                @endif
                 @if(!empty($data->metaData->awards))
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7856893"
                     data-id="7856893" data-element_type="column">
