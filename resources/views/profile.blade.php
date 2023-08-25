@@ -363,6 +363,12 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
             --wp-admin--admin-bar--position-offset: 0px
