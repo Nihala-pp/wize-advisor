@@ -1562,8 +1562,8 @@
                                                         <p>{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu menu">
-                                                        <li><a href="#">My Profile</a></li>
-                                                        <li><a href="#">My Reviews</a></li>
+                                                        <li><a href="#"> Profile</a></li>
+                                                        <li><a href="#"> Reviews</a></li>
                                                         <li><a href="#">Signout</a></li>
                                                     </ul>
                                                 </li>
