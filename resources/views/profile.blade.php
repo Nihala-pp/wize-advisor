@@ -1522,9 +1522,9 @@
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="dropdown">
-                                                    <img src="{{ asset('public/assets/img/').'/' }} {{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}"
-                                                        class="avatar avatar-sm me-3" alt="profile pic">
-                                                    <p>Welcome, {{ Auth::user()->name }}</p>
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <i class="pe-7s-user"></i>
+                                                        <p>Account</p>
                                                     </a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="#">Action</a></li>
