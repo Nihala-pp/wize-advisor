@@ -1542,7 +1542,7 @@
                                         @if(Auth::id())
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
-                                                <!-- <li class="dropdown"> -->
+                                                <li class="dropdown">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                         <i class="pe-7s-user"></i>
                                                         <p>{{ Auth::user()->name }}</p>
@@ -1552,7 +1552,7 @@
                                                         <a href="#">My Reviews</a>
                                                         <a href="#">Signout</a>
                                                     </ul>
-                                                <!-- </li> -->
+                                                </li>
                                             </ul>
                                         </div>
                                         @else
