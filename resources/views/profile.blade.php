@@ -1641,7 +1641,7 @@
                                 }
 
                                 .price {
-                                    margin-bottom: 18px;
+                                    margin-bottom: 30px;
                                 }
                                 </style>
                                 <!-- <p>I build brands.</p> -->
