@@ -374,8 +374,8 @@
         font-size: 13px;
         text-align: center;
         padding-left: 20px;
-        padding-top: 10px;
-        padding-bottom: 20px;
+        /* padding-top: 10px;
+        padding-bottom: 20px; */
     }
 
     @media screen and (max-width:600px) {
