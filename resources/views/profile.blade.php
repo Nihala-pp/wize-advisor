@@ -371,7 +371,7 @@
     }
 
     .menu {
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
         /* padding-top: 10px; */
         /* padding-bottom: 20px; */
