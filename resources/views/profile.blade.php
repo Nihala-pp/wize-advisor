@@ -17,8 +17,8 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="{{ asset('public/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/css/ct-navbar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
     <style>
     /*! elementor - v3.14.0 - 26-06-2023 */
     .elementor-widget-progress {
