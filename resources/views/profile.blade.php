@@ -1517,12 +1517,19 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id())
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('user.dashboard') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Dashboard</span>
-                                            </span>
-                                        </a>
+                                        <li class="dropdown">
+                                            <img src="{{ asset('public/assets/img/').'/' }} {{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}"
+                                                class="avatar avatar-sm me-3" alt="profile pic">
+                                            <p>Welcome, {{ Auth::user()->name }}</p>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">Separated link</a></li>
+                                            </ul>
+                                        </li>
                                         @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
