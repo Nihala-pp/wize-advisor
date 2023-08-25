@@ -1640,7 +1640,7 @@
                                     display: inline-block
                                 }
 
-                                .price {
+                                .elementor-heading-title .price {
                                     padding-bottom: 30px !important;
                                 }
                                 </style>
