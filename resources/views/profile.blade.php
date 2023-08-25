@@ -17,6 +17,8 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="{{ asset('public/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/css/ct-navbar.css') }}" rel="stylesheet" />
     <style>
     /*! elementor - v3.14.0 - 26-06-2023 */
     .elementor-widget-progress {
@@ -4178,6 +4180,7 @@
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
+    <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
     <script type="text/javascript">
     (function($) {
         "use strict";
