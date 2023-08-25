@@ -2489,7 +2489,7 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-m1olgxq elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
             data-id="m1olgxq" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="display:none;">
             <div class="elementor-container elementor-column-gap-no">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-083fa10"
                     data-id="083fa10" data-element_type="column">
