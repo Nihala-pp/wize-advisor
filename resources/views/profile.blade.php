@@ -1001,6 +1001,26 @@
         src: url('{{ asset('public/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') }}') format('woff2');
         font-stretch: normal;
     }
+
+    @font-face {
+        src: url('{{ asset('public/assets/fonts/Pe-icon-7-stroke.svg') }}') format('svg');
+        font-stretch: normal;
+    }
+
+    @font-face {
+        src: url('{{ asset('public/assets/fonts/Pe-icon7-stroke.eot') }}') format('eot');
+        font-stretch: normal;
+    }
+    
+    @font-face {
+        src: url('{{ asset('public/assets/fonts/Pe-icon-7-stroke.ttf') }}') format('ttf');
+        font-stretch: normal;
+    }
+
+    @font-face {
+        src: url('{{ asset('public/assets/fonts/Pe-icon-7-stroke.woff') }}') format('woff');
+        font-stretch: normal;
+    }
     </style>
     <link rel="stylesheet" id="hfe-style-css"
         href="{{ asset('public/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14') }}"
