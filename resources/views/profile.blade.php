@@ -367,6 +367,8 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+        font-size: 13px;
+
     }
 
     @media screen and (max-width:600px) {
