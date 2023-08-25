@@ -366,9 +366,9 @@
     ul {
         list-style-type: none;
         margin: 0;
-        padding: 0;
         font-size: 13px;
-
+        text-align:center;
+        padding-left:20px;
     }
 
     @media screen and (max-width:600px) {
