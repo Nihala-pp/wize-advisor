@@ -2304,11 +2304,10 @@
                 </div>
             </div>
         </section>
-        @if($data->id == 29)
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-7ysff7o elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="7ysff7o" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="display:none;">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-no">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-828c28c"
@@ -2342,7 +2341,6 @@
                 </div>
             </div>
         </section>
-        @endif
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-8x7dty6 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="8x7dty6" data-element_type="section"
