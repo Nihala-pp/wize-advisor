@@ -370,7 +370,7 @@
 
     }
 
-    ul li {
+    .menu {
         font-size: 13px;
         text-align: center;
         /* padding-top: 10px;
@@ -1561,7 +1561,7 @@
                                                         <i class="pe-7s-user"></i>
                                                         <p>{{ Auth::user()->name }}</p>
                                                     </a>
-                                                    <ul class="dropdown-menu">
+                                                    <ul class="dropdown-menu menu">
                                                         <li><a href="#">My Profile</a></li>
                                                         <li><a href="#">My Reviews</a></li>
                                                         <li><a href="#">Signout</a></li>
