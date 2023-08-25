@@ -1562,9 +1562,9 @@
                                                         <p>{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu menu">
-                                                        <li><a href="#"> Profile</a></li>
-                                                        <li><a href="#"> Reviews</a></li>
-                                                        <li><a href="#"> Signout</a></li>
+                                                        <a href="#"> Profile</a>
+                                                        <a href="#"> Reviews</a>
+                                                        <a href="#"> Signout</a>
                                                     </ul>
                                                 </li>
                                             </ul>
