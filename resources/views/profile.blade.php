@@ -1519,19 +1519,23 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id())
-                                        <li class="dropdown">
-                                            <img src="{{ asset('public/assets/img/').'/' }} {{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}"
-                                                class="avatar avatar-sm me-3" alt="profile pic">
-                                            <p>Welcome, {{ Auth::user()->name }}</p>
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">Action</a></li>
-                                                <li><a href="#">Another action</a></li>
-                                                <li><a href="#">Something else here</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">Separated link</a></li>
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav navbar-right">
+                                                <li class="dropdown">
+                                                    <img src="{{ asset('public/assets/img/').'/' }} {{ Auth::user()->metaData ? Auth::user()->metaData->profile_pic : '' }}"
+                                                        class="avatar avatar-sm me-3" alt="profile pic">
+                                                    <p>Welcome, {{ Auth::user()->name }}</p>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li class="divider"></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                    </ul>
+                                                </li>
                                             </ul>
-                                        </li>
+                                        </div>
                                         @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
