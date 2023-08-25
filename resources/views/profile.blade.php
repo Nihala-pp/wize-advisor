@@ -374,7 +374,7 @@
         font-size: 13px;
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
 
     @media screen and (max-width:600px) {
@@ -1564,7 +1564,7 @@
                                                     <ul class="dropdown-menu menu">
                                                         <li><a href="#"> Profile</a></li>
                                                         <li><a href="#"> Reviews</a></li>
-                                                        <li><a href="#">Signout</a></li>
+                                                        <li><a href="#"> Signout</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
