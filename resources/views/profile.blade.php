@@ -1545,7 +1545,7 @@
                                                 <li class="dropdown">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                         <i class="pe-7s-user"></i>
-                                                        <p>Account</p>
+                                                        <p>{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu">
                                                         <li><a href="#">Action</a></li>
