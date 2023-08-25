@@ -367,8 +367,10 @@
         list-style-type: none;
         margin: 0;
         font-size: 13px;
-        text-align:center;
-        padding-left:20px;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     @media screen and (max-width:600px) {
@@ -1556,7 +1558,7 @@
                                                         <p>{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu">
-                                                        <a href="#">My Profile</a><br/>
+                                                        <a href="#">My Profile</a><br />
                                                         <a href="#">My Reviews</a>
                                                         <a href="#">Signout</a>
                                                     </ul>
