@@ -2304,6 +2304,7 @@
                 </div>
             </div>
         </section>
+        @if($data->id == 29)
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-7ysff7o elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="7ysff7o" data-element_type="section"
@@ -2341,6 +2342,7 @@
                 </div>
             </div>
         </section>
+        @endif
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-8x7dty6 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="8x7dty6" data-element_type="section"
