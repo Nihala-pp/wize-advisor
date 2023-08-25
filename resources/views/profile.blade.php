@@ -1641,7 +1641,7 @@
                                 }
 
                                 .price {
-                                    padding-bottom: 70px;
+                                    padding-bottom: 30px !important;
                                 }
                                 </style>
                                 <!-- <p>I build brands.</p> -->
