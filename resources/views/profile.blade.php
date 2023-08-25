@@ -1548,9 +1548,9 @@
                                                         <p>{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="#">Action</a></li>
-                                                        <li><a href="#">Another action</a></li>
-                                                        <li><a href="#">Something else here</a></li>
+                                                        <a href="#">Action</a>
+                                                        <a href="#">Another action</a>
+                                                        <a href="#">Something else here</a>
                                                     </ul>
                                                 </li>
                                             </ul>
