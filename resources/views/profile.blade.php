@@ -17,6 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
     <style>
@@ -1011,7 +1012,7 @@
         src: url('{{ asset('public/assets/fonts/Pe-icon7-stroke.eot') }}') format('eot');
         font-stretch: normal;
     }
-    
+
     @font-face {
         src: url('{{ asset('public/assets/fonts/Pe-icon-7-stroke.ttf') }}') format('ttf');
         font-stretch: normal;
@@ -4204,6 +4205,8 @@
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
+    <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
     <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
     <script type="text/javascript">
     (function($) {
