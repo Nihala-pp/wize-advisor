@@ -66,7 +66,7 @@
                             height="15" alt="MDB Logo" loading="lazy" />
                     </a>
                     <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
