@@ -370,7 +370,7 @@
     }
 
     .name {
-        font: size 12px;
+        font-size: 12px;
     }
 
     .menu {
@@ -1566,7 +1566,8 @@
                                                         <p class="name">{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu menu">
-                                                        <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
                                                         <a href="{{ route('user.review') }}">Reviews</a>
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
