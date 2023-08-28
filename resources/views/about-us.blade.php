@@ -18,6 +18,9 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -3496,6 +3499,10 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script>
+
+    <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
 
     <!--   Unlimited Elements 1.5.75 Scripts -->
     <script type="text/javascript" id="unlimited-elements-scripts">
