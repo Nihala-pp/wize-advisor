@@ -805,12 +805,11 @@
     background-color: #fff !important;
 }
 
-.navbar {
-    padding: 0;
+.dropdown-menu {
+    position: absolute;
+    top: 59px;
 }
-.navbar .container {
-    align-items: stretch;
-}
+
 
 .menu-list {
     align: center;
