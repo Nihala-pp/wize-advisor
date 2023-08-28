@@ -370,6 +370,10 @@
         
     }
 
+    .pe-7s-user {
+        margin-right: 20px;
+    }
+
     .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
@@ -383,6 +387,8 @@
         line-height: 0em;
         margin-right: 20px;
     }
+
+
 
     .menu {
         font-size: 12px;
