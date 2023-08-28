@@ -75,16 +75,9 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropup" aria-expanded="false">
+                                data-mdb-toggle="dropdown" aria-expanded="false">
                                 Resource
                             </a>
-                            <!-- Dropdown menu -->
-                            <!-- <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item active" href="#">English</a>
-                                <a class="dropdown-item" href="#">Arabic</a>
-                                <a class="dropdown-item" href="#">Himyaritic</a>
-                            </div> -->
-
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
                                     <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
