@@ -805,6 +805,13 @@
     background-color: #fff !important;
 }
 
+.navbar {
+    padding: 0;
+}
+.navbar .container {
+    align-items: stretch;
+}
+
 .menu-list {
     align: center;
 }
