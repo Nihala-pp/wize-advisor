@@ -47,7 +47,7 @@
             navbar-scroll="true"> -->
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <!-- Container wrapper -->
             <div class="container-fluid">
                 <!-- Toggle button -->
@@ -66,7 +66,7 @@
                             height="15" alt="MDB Logo" loading="lazy" />
                     </a>
                     <!-- Left links -->
-                    <ul class="navbar-nav mb-2 mb-lg-0  menu-list">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('aboutUs') }}">About Us</a>
                         </li>
@@ -74,6 +74,16 @@
                             <a class="nav-link" href="{{ route('contactUs') }}">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Dropdown
+                            </a>
+                            <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-mdb-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
                                 Resource
@@ -82,7 +92,7 @@
                                 <a class="dropdown-item" href="#">dropdown item 1</a>
                                 <a class="dropdown-item" href="#">dropdown item 2</a>
                                 <a class="dropdown-item" href="#">dropdown item 3</a>
-                            </div>
+                            </div> -->
                             <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
                                     <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
@@ -97,7 +107,7 @@
                                     <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
                                 </li>
                             </ul> -->
-                        </li>
+                        <!-- </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('browseMentor') }}">Browse Mentor</a>
                         </li>
@@ -802,6 +812,7 @@
 .btn-secondary {
     background-color: #fff !important;
 }
+
 /* 
 .dropdown-menu {
     position: absolute;
