@@ -1562,9 +1562,9 @@
                                                         <p>{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu menu">
-                                                        <a href="{{ route('user.profile') }}"> Profile</a></br>
-                                                        <a href="{{ route('user.review') }}"> Reviews</a>
-                                                        <a href="{{ route('logout') }}"> Signout</a>
+                                                        <a href="{{ route('user.profile') }}">Profile</a></br>
+                                                        <a href="{{ route('user.review') }}">Reviews</a>
+                                                        <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
                                                 </li>
                                             </ul>
