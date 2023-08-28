@@ -1562,14 +1562,18 @@
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                         @if(Auth::user()->metaData &&
                                                         Auth::user()->metaData->profile_pic)
-                                                        <i class="pe-7s-user"></i>
+                                                        <img src="{{ asset('public/assets/img/') }}/{{ Auth::user()->metaData->profile_pic }}"
+                                                            alt="wiseAdvizor" width="150;" height="75px;"
+                                                            style="object-fit:contain;"
+                                                            class="d-inline-block align-top">
+                                                        <p class="name">{{ Auth::user()->name }}</p>
                                                         @else
+                                                        <i class="pe-7s-user"></i>
                                                         <p class="name">{{ Auth::user()->name }}</p>
                                                         @endif
                                                     </a>
                                                     <ul class="dropdown-menu menu">
-                                                        <a
-                                                            href="{{ route('user.dashboard') }}">Dashboard</a></br>
+                                                        <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
                                                         <a
                                                             href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
                                                         <a href="{{ route('user.review') }}">Reviews</a>
