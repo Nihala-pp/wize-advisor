@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -592,7 +593,7 @@
     .has-white-color {
         color: var(--wp--preset--color--white) !important;
     }
-    
+
     .has-pale-pink-color {
         color: var(--wp--preset--color--pale-pink) !important;
     }
@@ -1099,6 +1100,7 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
@@ -1448,12 +1450,32 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id())
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('user.dashboard') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Dashboard</span>
-                                            </span>
-                                        </a>
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav navbar-right">
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle menuITem" data-toggle="dropdown">
+                                                        @if(Auth::user()->metaData &&
+                                                        Auth::user()->metaData->profile_pic)
+                                                        <img src="{{ asset('public/assets/img/') }}/{{ Auth::user()->metaData->profile_pic }}"
+                                                            alt="wiseAdvizor" width="150;" height="75px;"
+                                                            style="object-fit:contain;"
+                                                            class="d-inline-block align-top">
+                                                        <p class="name">{{ Auth::user()->name }}</p>
+                                                        @else
+                                                        <i class="pe-7s-user"></i>
+                                                        <p class="name">{{ Auth::user()->name }}</p>
+                                                        @endif
+                                                    </a>
+                                                    <ul class="dropdown-menu menu">
+                                                        <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
+                                                        <a href="{{ route('logout') }}">Signout</a>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
                                         @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
@@ -1490,6 +1512,7 @@
     }
     </style>
     </head>
+
     <body>
         <div class="card text-center mt-5">
             <div class="card-header mt-5">
@@ -1525,4 +1548,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
     </body>
+
 </html>

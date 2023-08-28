@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Home &#8211; wiseAdvizor</title>
@@ -26,8 +27,7 @@
             "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.mn.js?ver=6.2.2"
         }
     };
-    /! This file is auto-generated */
-    ! function(e, a, t) {
+    /! This file is auto-generated */! function(e, a, t) {
         var n, r, o, i = a.createElement("canvas"),
             p = i.getContext && i.getContext("2d");
 
@@ -1447,12 +1447,32 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id())
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('user.dashboard') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Dashboard</span>
-                                            </span>
-                                        </a>
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav navbar-right">
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle menuITem" data-toggle="dropdown">
+                                                        @if(Auth::user()->metaData &&
+                                                        Auth::user()->metaData->profile_pic)
+                                                        <img src="{{ asset('public/assets/img/') }}/{{ Auth::user()->metaData->profile_pic }}"
+                                                            alt="wiseAdvizor" width="150;" height="75px;"
+                                                            style="object-fit:contain;"
+                                                            class="d-inline-block align-top">
+                                                        <p class="name">{{ Auth::user()->name }}</p>
+                                                        @else
+                                                        <i class="pe-7s-user"></i>
+                                                        <p class="name">{{ Auth::user()->name }}</p>
+                                                        @endif
+                                                    </a>
+                                                    <ul class="dropdown-menu menu">
+                                                        <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
+                                                        <a href="{{ route('logout') }}">Signout</a>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
                                         @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
