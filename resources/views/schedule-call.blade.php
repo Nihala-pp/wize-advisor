@@ -900,6 +900,39 @@
     .has-source-serif-pro-font-family {
         font-family: var(--wp--preset--font-family--source-serif-pro) !important;
     }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .pe-7s-user {
+        margin-right: 20px;
+        align: center;
+    }
+
+    .elementor-button-wrapper .browse {
+        margin-left: 20px;
+    }
+
+    .menuITem {
+        margin-left: 30px;
+    }
+
+    .name {
+        font-size: 13px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+
+
+
+    .menu {
+        font-size: 12px;
+        text-align: center;
+    }
     </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
         href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0') }}"
