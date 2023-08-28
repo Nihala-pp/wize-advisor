@@ -73,6 +73,23 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('contactUs') }}">Contact Us</a>
                         </li>
+                        <div class="dropdown">
+                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                                Resource
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">Some news</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another news</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </div>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-mdb-toggle="dropup" aria-expanded="false">
