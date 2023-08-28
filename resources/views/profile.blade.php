@@ -372,6 +372,7 @@
 
     .pe-7s-user {
         margin-right: 20px;
+        height: 50px;
     }
 
     .elementor-button-wrapper .browse {
