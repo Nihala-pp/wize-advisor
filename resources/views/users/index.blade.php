@@ -68,10 +68,10 @@
                     <!-- Left links -->
                     <ul class="navbar-nav mb-2 mb-lg-0  menu-list">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="{{ route('aboutUs') }}">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="{{ route('contactUs') }}">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
