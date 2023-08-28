@@ -370,6 +370,10 @@
         
     }
 
+    .elementor-button-wrapper .browse {
+        padding-left: 20px;
+    }
+
     .menuITem {
         margin-left:30px;
     }
@@ -1600,7 +1604,7 @@
                             <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                 data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
+                                    <div class="elementor-button-wrapper browse">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
