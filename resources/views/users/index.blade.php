@@ -801,7 +801,7 @@
 }
 
 .menu-list {
-    justify-content: center;
+    align: center;
 }
 </style>
 
