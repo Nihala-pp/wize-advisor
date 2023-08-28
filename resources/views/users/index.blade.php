@@ -73,31 +73,64 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropdown" aria-expanded="false">
-                                Resource
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <strong>Account</strong>
                             </a>
-                            <!-- Dropdown menu -->
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item">
+                                    <strong>Register</strong>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <strong>Profile</strong>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <strong>My Jobs</strong>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <strong>My Searches</strong>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <strong>Employer Dashboard</strong>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <strong>Login</strong>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <div class="dropdown-divider"></div>
+                                    <strong>Logout</strong>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Resource
+                        </a>
+                        <!-- Dropdown menu -->
 
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('browseMentor') }}">Browse Mentor</a>
-                        </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('browseMentor') }}">Browse Mentor</a>
+                    </li>
                     </ul>
                     <!-- Left links -->
                 </div>
