@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
     <script>
@@ -299,7 +299,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        
+
     }
 
     .pe-7s-user {
@@ -312,7 +312,7 @@
     }
 
     .menuITem {
-        margin-left:30px;
+        margin-left: 30px;
     }
 
     .name {
@@ -2858,6 +2858,10 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script>
+    <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
+
     <script type="text/javascript">
     (function($) {
         "use strict";
