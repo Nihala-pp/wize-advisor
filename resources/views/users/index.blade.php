@@ -73,8 +73,26 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Resource</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Resource
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                     <!-- Left links -->
