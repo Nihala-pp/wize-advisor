@@ -79,13 +79,13 @@
                                 Resource
                             </a>
                             <!-- Dropdown menu -->
-                            <div class="dropdown-menu dropdown-menu-right">
+                            <!-- <div class="dropdown-menu dropdown-menu-right">
                                 <a class="dropdown-item active" href="#">English</a>
                                 <a class="dropdown-item" href="#">Arabic</a>
                                 <a class="dropdown-item" href="#">Himyaritic</a>
-                            </div>
+                            </div> -->
 
-                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
                                     <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
                                 </li>
@@ -98,7 +98,7 @@
                                 <li>
                                     <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('browseMentor') }}">Browse Mentor</a>
