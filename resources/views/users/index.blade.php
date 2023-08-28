@@ -78,7 +78,7 @@
                                 data-mdb-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
                                 Resource
                             </a>
-                            <div class="dropdown-menu">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">dropdown item 1</a>
                                 <a class="dropdown-item" href="#">dropdown item 2</a>
                                 <a class="dropdown-item" href="#">dropdown item 3</a>
@@ -811,6 +811,14 @@
 
 .menu-list {
     align: center;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar .container {
+    align-items: stretch;
 }
 </style>
 
