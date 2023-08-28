@@ -66,7 +66,7 @@
                             height="15" alt="MDB Logo" loading="lazy" />
                     </a>
                     <!-- Left links -->
-                    <ul class="navbar-nav mb-2 mb-lg-0 justify-content-center">
+                    <ul class="navbar-nav mb-2 mb-lg-0  menu-list">
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
@@ -798,6 +798,10 @@
 
 .btn-secondary {
     background-color: #fff !important;
+}
+
+.menu-style {
+    justify-content: center;
 }
 </style>
 
