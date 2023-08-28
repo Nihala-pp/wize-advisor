@@ -73,7 +73,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('contactUs') }}">Contact Us</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <div class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                 Resource
@@ -94,7 +94,7 @@
                                     <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
                                 </li>
                             </ul>
-                        </li>
+                        </div>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('browseMentor') }}">Browse Mentor</a>
                         </li>
