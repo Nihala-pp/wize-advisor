@@ -75,10 +75,15 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                data-mdb-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
                                 Resource
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">dropdown item 1</a>
+                                <a class="dropdown-item" href="#">dropdown item 2</a>
+                                <a class="dropdown-item" href="#">dropdown item 3</a>
+                            </div>
+                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
                                     <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
                                 </li>
@@ -91,7 +96,7 @@
                                 <li>
                                     <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('browseMentor') }}">Browse Mentor</a>
