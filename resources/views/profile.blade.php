@@ -380,6 +380,7 @@
 
     .name {
         font-size: 13px;
+        line-height: 0em;
     }
 
     .menu {
