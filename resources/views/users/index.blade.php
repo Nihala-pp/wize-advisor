@@ -813,12 +813,8 @@
     align: center;
 }
 
-.navbar {
-    padding: 0;
-}
-
-.navbar .container {
-    align-items: stretch;
+.dropdown-menu {
+	margin: 8px 0px!important;
 }
 </style>
 
