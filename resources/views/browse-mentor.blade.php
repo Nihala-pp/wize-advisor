@@ -3076,9 +3076,8 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
-        < script src = "{{ asset('public/assets/js/ct-navbar.js') }}" >
         </script>
-
+        <script src="{{ asset('public/assets/js/ct-navbar.js') }}">
         </script>
         <script type="text/javascript">
         (function($) {
