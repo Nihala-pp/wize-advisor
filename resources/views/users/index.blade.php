@@ -47,7 +47,7 @@
             navbar-scroll="true"> -->
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light z-index">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <!-- Container wrapper -->
             <div class="container-fluid">
                 <!-- Toggle button -->
@@ -813,9 +813,9 @@
     align: center;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
 	margin: 8px 0px!important;
-}
+} */
 </style>
 
 </html>
