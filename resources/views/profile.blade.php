@@ -1593,7 +1593,7 @@
                                                     <ul class="dropdown-menu menu">
                                                         <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
                                                         <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
-                                                        <a href="{{ route('user.review') }}">Reviews</a>
+                                                        <a href="{{ route('user.review') }}">Reviews</a><br/>
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
                                                 </li>
