@@ -376,8 +376,6 @@
     .menu {
         font-size: 12px;
         text-align: center;
-        /* padding-top: 10px; */
-        /* padding-bottom: 20px; */
     }
 
     @media screen and (max-width:600px) {
