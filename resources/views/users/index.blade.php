@@ -38,7 +38,8 @@
     <!-- Navbar -->
     <!-- <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
             navbar-scroll="true"> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
+        id="navbarBlur" data-scroll="true">
         <!-- <div class="container-fluid py-1 px-3"> -->
         <a class="navbar-brand" href="{{ route('user.dashboard') }}">
             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png" alt="wiseAdvizor" width="150;"
@@ -861,7 +862,7 @@
     margin-left: 20px;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: #fff !important;
 }
 </style>
