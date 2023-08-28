@@ -5269,6 +5269,10 @@
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
 
+    <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
+
     <!--   Unlimited Elements 1.5.75 Scripts -->
     <script type="text/javascript" id="unlimited-elements-scripts">
     /* Post Carousel Lite scripts: */
