@@ -1519,11 +1519,11 @@
                                             <ul class="navbar-nav">
                                                 <!-- Avatar -->
                                                 <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle d-flex align-items-center"
-                                                        href="#" id="navbarDropdownMenuLink" role="button"
+                                                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                                                        href="#" id="navbarDropdownMenuAvatar" role="button"
                                                         data-mdb-toggle="dropdown" aria-expanded="false">
                                                         <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                            class="rounded-circle" height="25"
+                                                            class="rounded-circle" height="15"
                                                             alt="Black and White Portrait of a Man" loading="lazy" />
                                                     </a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
