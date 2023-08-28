@@ -47,7 +47,7 @@
             navbar-scroll="true"> -->
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light z-index">
             <!-- Container wrapper -->
             <div class="container-fluid">
                 <!-- Toggle button -->
