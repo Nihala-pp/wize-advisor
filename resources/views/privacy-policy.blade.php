@@ -18,6 +18,9 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
 
     <script>
     window._wpemojiSettings = {

@@ -18,6 +18,9 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -297,7 +300,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        
+
     }
 
     .pe-7s-user {
@@ -310,7 +313,7 @@
     }
 
     .menuITem {
-        margin-left:30px;
+        margin-left: 30px;
     }
 
     .name {
@@ -1480,7 +1483,7 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                    @if(Auth::id())
+                                        @if(Auth::id())
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="dropdown">
@@ -1499,8 +1502,9 @@
                                                     </a>
                                                     <ul class="dropdown-menu menu">
                                                         <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
-                                                        <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
-                                                        <a href="{{ route('user.review') }}">Reviews</a><br/>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
                                                 </li>
@@ -1874,7 +1878,9 @@
                                                 </style>
                                                 <div class="elementor-image-box-wrapper">
                                                     <div class="elementor-image-box-content">
-                                                        <h3 class="elementor-image-box-title"> <a href="{{ route('blog-detail', $blog->id) }}"> {{ $blog->title }} </a></h3>
+                                                        <h3 class="elementor-image-box-title"> <a
+                                                                href="{{ route('blog-detail', $blog->id) }}">
+                                                                {{ $blog->title }} </a></h3>
                                                         <p class="elementor-image-box-description">
                                                             {{ Str::words($blog->intro, '20') }}
                                                     </div>
@@ -3056,6 +3062,10 @@
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
+    <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
+
     <script type="text/javascript">
     (function($) {
         "use strict";

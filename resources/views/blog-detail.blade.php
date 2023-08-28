@@ -17,6 +17,9 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
+    <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -896,7 +899,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        
+
     }
 
     .pe-7s-user {
@@ -909,7 +912,7 @@
     }
 
     .menuITem {
-        margin-left:30px;
+        margin-left: 30px;
     }
 
     .name {
@@ -1474,7 +1477,7 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                    @if(Auth::id())
+                                        @if(Auth::id())
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="dropdown">
@@ -1493,15 +1496,17 @@
                                                     </a>
                                                     <ul class="dropdown-menu menu">
                                                         <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
-                                                        <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
-                                                        <a href="{{ route('user.review') }}">Reviews</a><br/>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </div>
                                         @else
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
@@ -1651,10 +1656,10 @@
                                 </style>
                                 <ol>
                                     <!-- <li> -->
-                                        @php
-                                        $text = str_ireplace("<br />", "\r\n", $blog->description);
-                                        echo $text;
-                                        @endphp
+                                    @php
+                                    $text = str_ireplace("<br />", "\r\n", $blog->description);
+                                    echo $text;
+                                    @endphp
                                     <!-- </li> -->
                                 </ol>
                                 <p> </p>
