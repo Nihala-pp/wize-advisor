@@ -371,7 +371,7 @@
     }
 
     .menuITem {
-        padding-left:30px;
+        margin-left:30px;
     }
 
     .name {
