@@ -367,6 +367,11 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+        
+    }
+
+    .menuITem {
+        padding-left:30px;
     }
 
     .name {
@@ -1559,7 +1564,7 @@
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                    <a href="#" class="dropdown-toggle menuITem" data-toggle="dropdown">
                                                         @if(Auth::user()->metaData &&
                                                         Auth::user()->metaData->profile_pic)
                                                         <img src="{{ asset('public/assets/img/') }}/{{ Auth::user()->metaData->profile_pic }}"
@@ -1574,8 +1579,7 @@
                                                     </a>
                                                     <ul class="dropdown-menu menu">
                                                         <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
-                                                        <a
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
                                                         <a href="{{ route('user.review') }}">Reviews</a>
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
