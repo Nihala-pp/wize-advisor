@@ -301,6 +301,37 @@
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .pe-7s-user {
+        margin-right: 20px;
+        align: center;
+    }
+
+    .elementor-button-wrapper .browse {
+        margin-left: 20px;
+    }
+
+    .menuITem {
+        margin-left:30px;
+    }
+
+    .name {
+        font-size: 13px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+
+    .menu {
+        font-size: 12px;
+        text-align: center;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
