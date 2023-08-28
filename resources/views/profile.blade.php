@@ -381,6 +381,7 @@
     .name {
         font-size: 13px;
         line-height: 0em;
+        margin-right: 20px;
     }
 
     .menu {
