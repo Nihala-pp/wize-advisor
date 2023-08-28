@@ -79,20 +79,37 @@
                                 Resource
                             </a>
                             <!-- Dropdown menu -->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
+                                    <a class="dropdown-item" href="#">Action</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
                                 </li>
                             </ul>
+                        </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('libraries') }}">Libraries</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('faq') }}">FAQ</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{{ route('blogs') }}">BLOGS</a>
+                            </li>
+                        </ul>
                         </li>
                     </ul>
                     <!-- Left links -->
