@@ -1560,11 +1560,18 @@
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="dropdown">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        @if(Auth::user()->metaData &&
+                                                        Auth::user()->metaData->profile_pic)
                                                         <i class="pe-7s-user"></i>
+                                                        @else
                                                         <p class="name">{{ Auth::user()->name }}</p>
+                                                        @endif
                                                     </a>
                                                     <ul class="dropdown-menu menu">
-                                                        <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a
+                                                            href="{{ route('user.dashboard') }}">Dashboard</a></br>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
                                                         <a href="{{ route('user.review') }}">Reviews</a>
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
