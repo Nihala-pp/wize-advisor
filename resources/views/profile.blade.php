@@ -367,7 +367,10 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
 
+    .name {
+        font: size 12px;
     }
 
     .menu {
@@ -1560,7 +1563,7 @@
                                                 <li class="dropdown">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                         <i class="pe-7s-user"></i>
-                                                        <p>{{ Auth::user()->name }}</p>
+                                                        <p class="name">{{ Auth::user()->name }}</p>
                                                     </a>
                                                     <ul class="dropdown-menu menu">
                                                         <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
