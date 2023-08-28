@@ -802,11 +802,11 @@
 .btn-secondary {
     background-color: #fff !important;
 }
-
+/* 
 .dropdown-menu {
     position: absolute;
     top: 59px;
-}
+} */
 
 
 .menu-list {
