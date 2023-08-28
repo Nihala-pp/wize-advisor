@@ -123,7 +123,7 @@
                                 <a class="dropdown-item" href="{{ route('user.review') }}">Reviews</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{ route('login') }}">Logout</a>
+                                <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
                             </li>
                         </ul>
                     </div>
