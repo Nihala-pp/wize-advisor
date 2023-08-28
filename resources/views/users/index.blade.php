@@ -74,6 +74,23 @@
                             <a class="nav-link" href="{{ route('contactUs') }}">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--  --><li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Dropdown
                             </a>
@@ -93,7 +110,7 @@
                                 <a class="dropdown-item" href="#">dropdown item 2</a>
                                 <a class="dropdown-item" href="#">dropdown item 3</a>
                             </div> -->
-                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
                                     <a class="dropdown-item" href="{{ route('community-posts') }}">Community Post</a>
                                 </li>
