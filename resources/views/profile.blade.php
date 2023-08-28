@@ -371,7 +371,7 @@
     }
 
     .elementor-button-wrapper .browse {
-        padding-left: 20px;
+        margin-left: 20px;
     }
 
     .menuITem {
