@@ -1587,9 +1587,8 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Navbar brand -->
                         <a class="navbar-brand mt-2 mt-lg-0" href="{{ route('user.dashboard') }}">
-                            <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                alt="wiseAdvizor" width="150;" height="75px;" style="object-fit:contain;"
-                                class="d-inline-block align-top" height="15" alt="MDB Logo" loading="lazy" />
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                    height="25" alt="Black and White Portrait of a Man" loading="lazy" />
                         </a>
                         <!-- Left links -->
                         <ul class="navbar-nav mr-auto">
