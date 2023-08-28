@@ -800,7 +800,7 @@
     background-color: #fff !important;
 }
 
-.menu-style {
+.menu-list {
     justify-content: center;
 }
 </style>
