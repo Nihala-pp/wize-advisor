@@ -75,7 +75,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                data-mdb-toggle="dropup" aria-expanded="false">
                                 Resource
                             </a>
                             <!-- Dropdown menu -->
