@@ -831,6 +831,10 @@
     background-color: #fff !important;
 }
 
+#navbarDropdownMenuLink{
+    z-index: 9999 !important;
+}
+
 /* 
 .dropdown-menu {
     position: absolute;
