@@ -10,6 +10,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -1555,8 +1556,8 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center"
-                                                    href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="5" width="50"
