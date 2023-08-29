@@ -1558,7 +1558,7 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                                                <a class="dropdown-toggle d-flex align-items-center"
                                                     href="#" id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
@@ -1568,20 +1568,23 @@
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuAvatar">
                                                     <li>
-                                                        <a class="dropdown-item" href="#">My profile</a>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            Profile</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Settings</a>
+                                                        <a class="dropdown-item" href="{{ route('user.review') }}">My
+                                                            Reviews</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Logout</a>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- <ul class="navbar-nav"> -->
-                                            <!-- Avatar -->
-                                            <!-- <li class="nav-item me-3 me-lg-0 dropdown">
+                                        <!-- Avatar -->
+                                        <!-- <li class="nav-item me-3 me-lg-0 dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                     role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
