@@ -1544,8 +1544,8 @@
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="5" width="50"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
-                                                        {{ Auth::user()->name }}<br/>
                                                 </a>
+                                                {{ Auth::user()->name }}
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                     <li>
                                                         <a class="dropdown-item"
