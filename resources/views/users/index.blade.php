@@ -325,7 +325,7 @@
     }
 
     a {
-        font-size:15px;
+        font-size: 15px;
     }
 
     /* ul {
@@ -1537,16 +1537,15 @@
                                     <div class="container-fluid">
                                         <ul class="navbar-nav">
                                             <!-- Avatar -->
-                                            <li class="nav-item dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
-                                                    href="#" id="navbarDropdownMenuAvatar" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                            <li class="nav-item me-3 me-lg-0 dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="5" width="50"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                 </a>
                                                 <p>{{ Auth::user()->name }}</p>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                                     <li>
                                                         <a class="dropdown-item"
                                                             href="{{ route('user.profile', [Auth::id()]) }}">My
@@ -2256,7 +2255,7 @@
     top: 59px;
 } */
 
-/* 
+    /* 
     .menu-list {
         align: center;
     } */
@@ -2265,4 +2264,5 @@
 	margin: 8px 0px!important;
 } */
     </style>
+
 </html>
