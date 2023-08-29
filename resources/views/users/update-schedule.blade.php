@@ -7,7 +7,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-@include('partials.header')
+<!-- @include('partials.header') -->
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
