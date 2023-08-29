@@ -57,33 +57,33 @@
         var first_day = date.getDay();
         // 35+firstDay is the number of date elements to be added to the dates table
         // 35 is from (7 days in a week) * (up to 5 rows of dates in a month)
-        for (var i = 0; i < 35 + first_day; i++) {
+        for(var i=0; i<35+first_day; i++) {
             // Since some of the elements will be blank, 
             // need to calculate actual date from index
-            var day = i - first_day + 1;
+            var day = i-first_day+1;
             // If it is a sunday, make a new row
-            if (i % 7 === 0) {
+            if(i%7===0) {
                 calendar_days.append(row);
                 row = $("<tr class='table-row'></tr>");
             }
             // if current index isn't a day in this month, make it blank
-            if (i < first_day || day > day_count) {
-                var curr_date = $("<td class='table-date nil'>" + "</td>");
+            if(i < first_day || day > day_count) {
+                var curr_date = $("<td class='table-date nil'>"+"</td>");
                 row.append(curr_date);
-            }
+            }   
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
-                var events = check_events(day, month + 1, year);
-                if (today === day && $(".active-date").length === 0) {
+                var events = check_events(day, month+1, year);
+                if(today===day && $(".active-date").length===0) {
                     curr_date.addClass("active-date");
                     show_events(events, months[month], day);
                 }
                 // If this date has any events, style it with .event-date
-                if (events.length !== 0) {
+                if(events.length!==0) {
                     curr_date.addClass("event-date");
                 }
                 // Set onClick handler for clicking a date
-                curr_date.click({ events: events, month: months[month], day: day }, date_click);
+                curr_date.click({events: events, month: months[month], day:day}, date_click);
                 row.append(curr_date);
             }
         }
@@ -92,11 +92,10 @@
         $(".year").text(year);
     }
 
-    // Get the number of days in a given month/year
     function days_in_month(month, year) {
         var monthStart = new Date(year, month, 1);
         var monthEnd = new Date(year, month + 1, 1);
-        return (monthEnd - monthStart) / (1000 * 60 * 60 * 24);
+        return (monthEnd - monthStart) / (1000 * 60 * 60 * 24);    
     }
 
     // Event handler for when a date is clicked
@@ -141,33 +140,33 @@
         });
     };
 
-    function getAvailableDates(month, year) {
-        var mentor = $('.mentor').val();
-        var timezone = $("#timezone").val();
-        var date = new Date();
+    // function getAvailableDates(month, year) {
+    //     var mentor = $('.mentor').val();
+    //     var timezone = $("#timezone").val();
+    //     var date = new Date();
 
-        return $.ajax("https://wiseadvizor.com/getDateAvailability", {
-            method: 'GET',
-            data: {
-                "_token": $('meta[name="csrf-token"]').attr('content'),
-                "mentor": mentor,
-                "month": month + 1,
-                "year": year,
-                "timezone": timezone,
-            },
-            success: function (response) {
-                var available_dates = [];
-                for (var key in response) {
-                    // console.log(response[key]);
-                    available_dates.push({
-                        day: response[key],
-                    });
-                }
-                init_calendar(date, available_dates);
-                // return available_dates;
-            },
-        });
-    }
+    //     return $.ajax("https://wiseadvizor.com/getDateAvailability", {
+    //         method: 'GET',
+    //         data: {
+    //             "_token": $('meta[name="csrf-token"]').attr('content'),
+    //             "mentor": mentor,
+    //             "month": month + 1,
+    //             "year": year,
+    //             "timezone": timezone,
+    //         },
+    //         success: function (response) {
+    //             var available_dates = [];
+    //             for (var key in response) {
+    //                 // console.log(response[key]);
+    //                 available_dates.push({
+    //                     day: response[key],
+    //                 });
+    //             }
+    //             init_calendar(date, available_dates);
+    //             // return available_dates;
+    //         },
+    //     });
+    // }
 
     // Event handler for when a month is clicked
     function month_click(event) {
@@ -185,7 +184,7 @@
     function next_year(event) {
         $("#dialog").hide(250);
         var date = event.data.date;
-        var new_year = date.getFullYear() + 1;
+        var new_year = date.getFullYear()+1;
         $("year").html(new_year);
         date.setFullYear(new_year);
         init_calendar(date);
@@ -195,7 +194,7 @@
     function prev_year(event) {
         $("#dialog").hide(250);
         var date = event.data.date;
-        var new_year = date.getFullYear() - 1;
+        var new_year = date.getFullYear()-1;
         $("year").html(new_year);
         date.setFullYear(new_year);
         init_calendar(date);
