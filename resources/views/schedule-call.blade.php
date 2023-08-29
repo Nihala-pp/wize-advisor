@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -15,12 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="applicatio/rss+xml" title="wiseAdvizor &raquo; Feed" href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/) }}">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed" href="{{ asset('public/comments/feed/) }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
@@ -353,9 +348,8 @@
     href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
     media="all"></noscript><ink rel="stylesheet"id="tpgb-gfonts-global-css"
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
-    media="all"><ink rel="stylesheet"id="plus-global-css"
 
-    href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954') }}"media="all"><style id="global-styles-inline-css">bdy {
+    media="all"><ink rel="stylesheet"id="plus-global-css"href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954') }}"media="all"><style id="global-styles-inline-css">bdy {
         --wp--preset--color--black: #000000;
         --wp--preset--color--cyan-bluish-gray: #abb8c3;
         --wp--preset--color--white: #ffffff;
