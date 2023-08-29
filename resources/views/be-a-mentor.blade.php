@@ -17,9 +17,10 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -27,7 +28,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\http:\/\/localhost\/wiseAdvizor\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
@@ -1019,7 +1020,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "\http:\/\/localhost\/wiseAdvizor\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
@@ -1463,53 +1464,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-78f6337"
-                        data-id="78f6337" data-element_type="column">
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
+                        data-id="a87489f" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-02e763c elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="02e763c" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
-                                        @if(Auth::id())
-                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle menuITem" data-toggle="dropdown">
-                                                        @if(Auth::user()->metaData &&
-                                                        Auth::user()->metaData->profile_pic)
-                                                        <img src="{{ asset('public/assets/img/') }}/{{ Auth::user()->metaData->profile_pic }}"
-                                                            alt="wiseAdvizor" width="150;" height="75px;"
-                                                            style="object-fit:contain;"
-                                                            class="d-inline-block align-top">
-                                                        <p class="name">{{ Auth::user()->name }}</p>
-                                                        @else
-                                                        <i class="pe-7s-user"></i>
-                                                        <p class="name">{{ Auth::user()->name }}</p>
-                                                        @endif
-                                                    </a>
-                                                    <ul class="dropdown-menu menu">
-                                                        <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
-                                                        <a
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
-                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
-                                                        <a href="{{ route('logout') }}">Signout</a>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        @else
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
-                                            </span>
-                                        </a>
-                                        @endif
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-ae81400 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="ae81400" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
@@ -1518,14 +1477,80 @@
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
+                                        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+                                        <!-- </nav> -->
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                            data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    @if(Auth::id())
+                                    <div class="d-flex align-items-center">
+                                        <div class="dropdown">
+                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="fas fa-bell"></i>
+                                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-end"
+                                                aria-labelledby="navbarDropdownMenuLink">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Some news</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Another news</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                    class="rounded-circle" height="5" width="50"
+                                                    alt="Black and White Portrait of a Man" loading="lazy" />
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-end"
+                                                aria-labelledby="navbarDropdownMenuAvatar">
+                                                <li>
+                                                    <a class="dropdown-item"
+                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                        Profile</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('user.review') }}">My
+                                                        Reviews</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    @else
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('login') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Sign In</span>
+                                        </span>
+                                    </a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
         </div>
+        </div>
+    </header>
+    </div>
     </header>
     @include('partials.header')
     <!-- <body class="g-sidenav-show  bg-gray-200">
@@ -2700,7 +2725,7 @@
             "e_scroll_snap": true
         },
         "urls": {
-            "assets": "\http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor\/assets\/"
+            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
         "swiperClass": "swiper",
         "settings": {
@@ -2750,11 +2775,11 @@
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
-        "ajaxurl": "\http:\/\/localhost\/wiseAdvizor\/wp-admin\/admin-ajax.php",
+        "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
         "nonce": "b803da9bff",
         "urls": {
-            "assets": "\http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor-pro\/assets\/",
-            "rest": "\http:\/\/localhost\/wiseAdvizor\/wp-json\/"
+            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
+            "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
         },
         "i18n": {
             "toc_no_headings_found": "No headings were found on this page."
@@ -2829,7 +2854,7 @@
             "app_id": ""
         },
         "lottie": {
-            "defaultAnimationUrl": "\http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+            "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
         }
     };
     </script>
