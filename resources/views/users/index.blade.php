@@ -324,7 +324,7 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
-    ul {
+    /* ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -353,7 +353,7 @@
     .menu {
         font-size: 12px;
         text-align: center;
-    }
+    } */
 
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
@@ -2147,7 +2147,7 @@
                 }
             })
         })(window.jQuery, window);
-        
+
         $(function() {
             return $(".starrr").starrr();
         });
