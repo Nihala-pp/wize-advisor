@@ -17,6 +17,8 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
+    
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <script>
@@ -299,7 +301,7 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
-    ul {
+    /* ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -309,13 +311,13 @@
     .pe-7s-user {
         margin-right: 20px;
         align: center;
-    }
+    } */
 
     .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
 
-    .menuITem {
+    /* .menuITem {
         margin-left: 30px;
     }
 
@@ -330,7 +332,7 @@
     .menu {
         font-size: 12px;
         text-align: center;
-    }
+    } */
 
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
@@ -1481,61 +1483,7 @@
                                 data-id="02e763c" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        @if(Auth::id())
-                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                            <ul class="nav navbar-nav navbar-right">
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle menuITem" data-toggle="dropdown">
-                                                        @if(Auth::user()->metaData &&
-                                                        Auth::user()->metaData->profile_pic)
-                                                        <img src="{{ asset('public/assets/img/') }}/{{ Auth::user()->metaData->profile_pic }}"
-                                                            alt="wiseAdvizor" width="150;" height="75px;"
-                                                            style="object-fit:contain;"
-                                                            class="d-inline-block align-top">
-                                                        <p class="name">{{ Auth::user()->name }}</p>
-                                                        @else
-                                                        <i class="pe-7s-user"></i>
-                                                        <p class="name">{{ Auth::user()->name }}</p>
-                                                        @endif
-                                                    </a>
-                                                    <ul class="dropdown-menu menu">
-                                                        <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
-                                                        <a
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
-                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
-                                                        <a href="{{ route('logout') }}">Signout</a>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        @else
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
-                                            </span>
-                                        </a>
-                                        @endif
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-ae81400 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="ae81400" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+                                        resources/views/about-us.blade.php
         </div>
     </header>
 
@@ -5267,9 +5215,11 @@
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
-    <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
-    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script>
+    <!-- <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script> -->
+    <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
 
     <!--   Unlimited Elements 1.5.75 Scripts -->
     <script type="text/javascript" id="unlimited-elements-scripts">
