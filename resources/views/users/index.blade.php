@@ -1514,32 +1514,13 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('browseMentor') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Browse Mentor</span>
+                                            </span>
+                                        </a>
                                         <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-                                        <div class="container-fluid">
-                                            <ul class="navbar-nav">
-                                                <!-- Avatar -->
-                                                <li class="nav-item dropdown">
-                                                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
-                                                        href="#" id="navbarDropdownMenuAvatar" role="button"
-                                                        data-mdb-toggle="dropdown" aria-expanded="false">
-                                                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                            class="rounded-circle" height="5" width="50"
-                                                            alt="Black and White Portrait of a Man" loading="lazy" />
-                                                    </a>
-                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                        <li>
-                                                            <a class="dropdown-item" href="{{ route('user.profile', [Auth::id()]) }}">My profile</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="{{ route('user.review') }}">My Reviews</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
                                         <!-- </nav> -->
                                     </div>
                                 </div>
@@ -1549,12 +1530,34 @@
                             data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('browseMentor') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Browse Mentor</span>
-                                        </span>
-                                    </a>
+                                    <div class="container-fluid">
+                                        <ul class="navbar-nav">
+                                            <!-- Avatar -->
+                                            <li class="nav-item dropdown">
+                                                <a class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                                                    href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                        class="rounded-circle" height="5" width="50"
+                                                        alt="Black and White Portrait of a Man" loading="lazy" />
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.review') }}">My
+                                                            Reviews</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1572,7 +1575,7 @@
             navbar-scroll="true"> -->
 
             <!-- Navbar -->
-           
+
             <!-- Navbar -->
             <!-- End Navbar -->
             <!--====================================================
