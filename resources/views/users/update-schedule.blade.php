@@ -1554,8 +1554,8 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center"
-                                                    href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="5" width="50"
@@ -1613,17 +1613,17 @@
         </div>
     </header>
 
-<body class="g-sidenav-show  bg-white">
-    </ul>
-    </div>
-    <div class="sidenav-footer position-absolute w-100 bottom-0 ">
-        <div class="mx-3">
-            <!-- <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a> -->
+    <body class="g-sidenav-show  bg-white">
+        </ul>
         </div>
-    </div>
+        <div class="sidenav-footer position-absolute w-100 bottom-0 ">
+            <div class="mx-3">
+                <!-- <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree" type="button">Upgrade to pro</a> -->
+            </div>
+        </div>
 
-    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        <!-- <div class="col-lg-8">
+        <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+            <!-- <div class="col-lg-8">
             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item active">
                     <a href="" class="nav-link text-muted active" target="_blank">Dashboard </a>
@@ -1642,178 +1642,179 @@
                 </li>
             </ul>
         </div> -->
-        <!-- Navbar -->
-        <!-- End Navbar -->
-        <div class="container-fluid py-4">
-            <div class="row mt-5">
-                <div class="col-12 col-lg-10 m-auto">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Update Session</h6>
+            <!-- Navbar -->
+            <!-- End Navbar -->
+            <div class="container-fluid py-4">
+                <div class="row mt-5">
+                    <div class="col-12 col-lg-10 m-auto">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">Update Session</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="row" id="row">
-                                <form method="POST" action="{{ route('user.schedule.save') }}"
-                                    enctype="multipart/form-data">
-                                    @csrf
-                                    <input type="hidden" name="row_id" value="{{ $scheduled_call->id }}">
-                                    <input type="hidden" class="mentor" name="mentor_id"
-                                        value="{{ $scheduled_call->mentor_id }}">
-                                    <input type="hidden" class="timezone" name="timezone"
-                                        value="{{ $scheduled_call->utc }}">
-                                    <div class="input-group input-group-static mb-4">
-                                        <label>Mentor</label>
-                                        <input type="text" name="mentor" class="form-control"
-                                            value="{{ $scheduled_call->mentor->name ??  '' }}" placeholder="Mentor"
-                                            disabled>
-                                    </div>
-                                    <div class="input-group input-group-static mb-4">
-                                        <label>Documents</label>
-                                        <input type="file" name="documents" class="form-control"
-                                            value="{{ $scheduled_call->documents ??  '' }}" placeholder="Documents"
-                                            required>
-                                    </div>
-                                    <div class="input-group input-group-static mb-4">
-                                        <label>Description</label>
-                                        <textarea name="description" class="form-control" cols="7"
-                                            placeholder="Description"
-                                            required> {{ $scheduled_call->description ??  '' }} </textarea>
-                                    </div>
-                                    <div class="input-group input-group-static mb-4">
-                                        <label>Date</label>
-                                        <input type="text" name="date" class="form-control date" placeholder="Date"
-                                            id="date-pick" placeholder="Date" value="{{ $scheduled_call->date }}">
-                                    </div>
-                                    <div class="input-group input-group-static mb-4">
-                                        <label>Time Slot</label>
-                                        <select class="form-control" id="educationDate" name="start_time" required>
-                                            @foreach($timeAvailability as $key => $time)
-                                            <option value="{{ $time }}"
-                                                {{ $scheduled_call->start_time == $time ? "selected" : "" }}>
-                                                {{ $time }}</option>
-                                            @endforeach
-                                        </select>
-                                        <!-- <label class="form-label">Time</label> -->
-                                    </div>
-                                    <div class="input-group input-group-static mb-4">
-                                        <label>Timezone</label>
-                                        <select class="form-control" id="timezone" name="utc" required>
-                                            @foreach($utc as $key => $ut)
-                                            <option value="{{ $ut }}"
-                                                {{ $key == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
+                            <div class="card-body">
+                                <div class="row" id="row">
+                                    <form method="POST" action="{{ route('user.schedule.save') }}"
+                                        enctype="multipart/form-data">
+                                        @csrf
+                                        <input type="hidden" name="row_id" value="{{ $scheduled_call->id }}">
+                                        <input type="hidden" class="mentor" name="mentor_id"
+                                            value="{{ $scheduled_call->mentor_id }}">
+                                        <input type="hidden" class="timezone" name="timezone"
+                                            value="{{ $scheduled_call->utc }}">
+                                        <div class="input-group input-group-static mb-4">
+                                            <label>Mentor</label>
+                                            <input type="text" name="mentor" class="form-control"
+                                                value="{{ $scheduled_call->mentor->name ??  '' }}" placeholder="Mentor"
+                                                disabled>
+                                        </div>
+                                        <div class="input-group input-group-static mb-4">
+                                            <label>Documents</label>
+                                            <input type="file" name="documents" class="form-control"
+                                                value="{{ $scheduled_call->documents ??  '' }}" placeholder="Documents"
+                                                required>
+                                        </div>
+                                        <div class="input-group input-group-static mb-4">
+                                            <label>Description</label>
+                                            <textarea name="description" class="form-control" cols="7"
+                                                placeholder="Description"
+                                                required> {{ $scheduled_call->description ??  '' }} </textarea>
+                                        </div>
+                                        <div class="input-group input-group-static mb-4">
+                                            <label>Date</label>
+                                            <input type="text" name="date" class="form-control date" placeholder="Date"
+                                                id="date-pick" placeholder="Date" value="{{ $scheduled_call->date }}">
+                                        </div>
+                                        <div class="input-group input-group-static mb-4">
+                                            <label>Time Slot</label>
+                                            <select class="form-control" id="educationDate" name="start_time" required>
+                                                @foreach($timeAvailability as $key => $time)
+                                                <option value="{{ $time }}"
+                                                    {{ $scheduled_call->start_time == $time ? "selected" : "" }}>
+                                                    {{ $time }}</option>
+                                                @endforeach
+                                            </select>
+                                            <!-- <label class="form-label">Time</label> -->
+                                        </div>
+                                        <div class="input-group input-group-static mb-4">
+                                            <label>Timezone</label>
+                                            <select class="form-control" id="timezone" name="utc" required>
+                                                @foreach($utc as $key => $ut)
+                                                <option value="{{ $ut }}"
+                                                    {{ $key == $scheduled_call->utc ? "selected" : "" }}>{{ $key }}
+                                                </option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                </div>
+                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                </form>
+                                <!-- </div> -->
                             </div>
-                            <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                    class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                            </form>
-                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
+                @include('partials.footer')
             </div>
-            @include('partials.footer')
+        </main>
         </div>
-    </main>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        var highlight_dates = ['2023-08-06', '2023-08-23', '2023-08-07', '2023-08-14', '2023-08-05',
-            '2023-08-11', '2023-08-08', '2023-08-09', '2023-08-21', '2023-08-31', '2023-08-29'
-        ];
-
-        console.log(highlight_dates);
-
-        $('#date-pick').datepicker({
-            beforeShowDay: function(date) {
-                var month = date.getMonth() + 1;
-                var year = date.getFullYear();
-                var day = date.getDate();
-
-                // Change format of date
-                var newdate = year + "-" + month + '-' + day;
-
-                // Set tooltip text when mouse over date
-                var tooltip_text = "Availability on " + newdate;
-
-                // Check date in Array
-                if (jQuery.inArray(newdate, highlight_dates) != -1) {
-                    // Pass class name and tooltip text
-                    return [true, "highlight", tooltip_text];
-                }
-                return [true];
-            }
-        });
-
-        $('.date').on("change",function(){
-            var date = $(this).val();
-            var timezone = $(".timezone").val();
-            var mentor = $(".mentor").val();
-            return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
-                method: 'GET',
-                data: {
-                    "_token": $('meta[name="csrf-token"]').attr('content'),
-                    "date": date,
-                    "timezone": timezone,
-                    "mentor": mentor,
-                },
-                success: function(response) {
-                    for (var key in response) {
-                        $('#educationDate').append($('<option/>', {
-                            value: response[key],
-                            text: response[key]
-                        }));
-                    }
-                    // return available_dates;
-                },
-            });
-        });
-
-        $('#timezone').on("change",function(){
-            var timezone = $(this).val();
-            var date = $(".date").val();
-            var mentor = $(".mentor").val();
-            return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
-                method: 'GET',
-                data: {
-                    "_token": $('meta[name="csrf-token"]').attr('content'),
-                    "date": date,
-                    "timezone": timezone,
-                    "mentor": mentor,
-                },
-                success: function(response) {
-                    for (var key in response) {
-                        $('#educationDate').append($('<option/>', {
-                            value: response[key],
-                            text: response[key]
-                        }));
-                    }
-                    // return available_dates;
-                },
-            });
-        });
-    });
-    </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-//  <!--   Core JS Files   !-->
-</body>
-<style>
-.navbar-main li a {
-    font-family: "Helvetica", Sans-serif !important;
-    font-size: 17px !important;
-    font-weight: 700 !important;
-    color: #001e64 !important;
-}
+        < script type = "text/javascript" >
+            $(document).ready(function() {
+                var highlight_dates = ['2023-08-06', '2023-08-23', '2023-08-07', '2023-08-14', '2023-08-05',
+                    '2023-08-11', '2023-08-08', '2023-08-09', '2023-08-21', '2023-08-31', '2023-08-29'
+                ];
 
-.highlight a {
-    background: #29f274 !important;
-    color: #ffffff !important;
-}
-</style>
+                console.log(highlight_dates);
+
+                $('#date-pick').datepicker({
+                    beforeShowDay: function(date) {
+                        var month = date.getMonth() + 1;
+                        var year = date.getFullYear();
+                        var day = date.getDate();
+
+                        // Change format of date
+                        var newdate = year + "-" + month + '-' + day;
+
+                        // Set tooltip text when mouse over date
+                        var tooltip_text = "Availability on " + newdate;
+
+                        // Check date in Array
+                        if (jQuery.inArray(newdate, highlight_dates) != -1) {
+                            // Pass class name and tooltip text
+                            return [true, "highlight", tooltip_text];
+                        }
+                        return [true];
+                    }
+                });
+
+                $('.date').on("change", function() {
+                    var date = $(this).val();
+                    var timezone = $(".timezone").val();
+                    var mentor = $(".mentor").val();
+                    return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
+                        method: 'GET',
+                        data: {
+                            "_token": $('meta[name="csrf-token"]').attr('content'),
+                            "date": date,
+                            "timezone": timezone,
+                            "mentor": mentor,
+                        },
+                        success: function(response) {
+                            for (var key in response) {
+                                $('#educationDate').append($('<option/>', {
+                                    value: response[key],
+                                    text: response[key]
+                                }));
+                            }
+                            // return available_dates;
+                        },
+                    });
+                });
+
+                $('#timezone').on("change", function() {
+                    var timezone = $(this).val();
+                    var date = $(".date").val();
+                    var mentor = $(".mentor").val();
+                    return $.ajax("https://wiseadvizor.com/user/getTimeAvailability", {
+                        method: 'GET',
+                        data: {
+                            "_token": $('meta[name="csrf-token"]').attr('content'),
+                            "date": date,
+                            "timezone": timezone,
+                            "mentor": mentor,
+                        },
+                        success: function(response) {
+                            for (var key in response) {
+                                $('#educationDate').append($('<option/>', {
+                                    value: response[key],
+                                    text: response[key]
+                                }));
+                            }
+                            // return available_dates;
+                        },
+                    });
+                });
+            });
+        </script>
+    </body>
+    <style>
+    .navbar-main li a {
+        font-family: "Helvetica", Sans-serif !important;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        color: #001e64 !important;
+    }
+
+    .highlight a {
+        background: #29f274 !important;
+        color: #ffffff !important;
+    }
+    </style>
 
 </html>

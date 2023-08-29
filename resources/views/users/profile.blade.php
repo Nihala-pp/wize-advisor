@@ -1547,8 +1547,8 @@
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center"
-                                                    href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="5" width="50"
@@ -1606,35 +1606,37 @@
         </div>
     </header>
 
-<body class="g-sidenav-show bg-white">
-    <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
-        <!-- Navbar -->
-        <!-- End Navbar -->
-        <div class="container-fluid px-2 px-md-4">
-            <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');">
-                <span class="mask  bg-gradient-primary  opacity-6"></span>
-            </div>
-            <div class="card card-body mx-3 mx-md-4 mt-n6">
-                <div class="row gx-4 mb-2">
-                    <div class="col-auto">
-                        <div class="avatar avatar-xl position-relative">
-                            <img src="{{ asset('public/assets/img/').'/' }}{{ $profile->metaData->profile_pic }}" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+    <body class="g-sidenav-show bg-white">
+        <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+            <!-- Navbar -->
+            <!-- End Navbar -->
+            <div class="container-fluid px-2 px-md-4">
+                <div class="page-header min-height-300 border-radius-xl mt-4"
+                    style="background-image: url('https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');">
+                    <span class="mask  bg-gradient-primary  opacity-6"></span>
+                </div>
+                <div class="card card-body mx-3 mx-md-4 mt-n6">
+                    <div class="row gx-4 mb-2">
+                        <div class="col-auto">
+                            <div class="avatar avatar-xl position-relative">
+                                <img src="{{ asset('public/assets/img/').'/' }}{{ $profile->metaData->profile_pic }}"
+                                    alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-auto my-auto">
-                        <div class="h-100">
-                            <h5 class="mb-1">
-                            {{ $profile->name ?: '' }}
-                            </h5>
-                            <p class="mb-0 font-weight-normal text-sm">
-                            {{ $profile->metaData ? $profile->metaData->designation : '' }}
-                            </p>
-                            <p class="mb-0 font-weight-normal text-sm">
-                            {{ $profile->metaData ? $profile->metaData->company : '' }}
-                            </p>
+                        <div class="col-auto my-auto">
+                            <div class="h-100">
+                                <h5 class="mb-1">
+                                    {{ $profile->name ?: '' }}
+                                </h5>
+                                <p class="mb-0 font-weight-normal text-sm">
+                                    {{ $profile->metaData ? $profile->metaData->designation : '' }}
+                                </p>
+                                <p class="mb-0 font-weight-normal text-sm">
+                                    {{ $profile->metaData ? $profile->metaData->company : '' }}
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+                        <!-- <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
             <div class="nav-wrapper position-relative end-0">
               <ul class="nav nav-pills nav-fill p-1" role="tablist">
                 <li class="nav-item">
@@ -1658,24 +1660,28 @@
               </ul>
             </div>
           </div> -->
-                </div>
-                <div class="row">
+                    </div>
                     <div class="row">
-                        <div class="col-12 col-xl-4">
-                            <div class="card card-plain h-100">
-                                <div class="card-header pb-0 p-3">
-                                    <h6 class="mb-0">Platform Settings</h6>
-                                </div>
-                                <div class="card-body p-3">
-                                    <h6 class="text-uppercase text-body text-xs font-weight-bolder">Account</h6>
-                                    <ul class="list-group">
-                                        <li class="list-group-item border-0 px-0">
-                                            <div class="form-check form-switch ps-0">
-                                                <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault" checked>
-                                                <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault">Email me when call Schedules</label>
-                                            </div>
-                                        </li>
-                                        <!-- <li class="list-group-item border-0 px-0">
+                        <div class="row">
+                            <div class="col-12 col-xl-4">
+                                <div class="card card-plain h-100">
+                                    <div class="card-header pb-0 p-3">
+                                        <h6 class="mb-0">Platform Settings</h6>
+                                    </div>
+                                    <div class="card-body p-3">
+                                        <h6 class="text-uppercase text-body text-xs font-weight-bolder">Account</h6>
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 px-0">
+                                                <div class="form-check form-switch ps-0">
+                                                    <input class="form-check-input ms-auto" type="checkbox"
+                                                        id="flexSwitchCheckDefault" checked>
+                                                    <label
+                                                        class="form-check-label text-body ms-3 text-truncate w-80 mb-0"
+                                                        for="flexSwitchCheckDefault">Email me when call
+                                                        Schedules</label>
+                                                </div>
+                                            </li>
+                                            <!-- <li class="list-group-item border-0 px-0">
                       <div class="form-check form-switch ps-0">
                         <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault1">
                         <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault1">Email me when someone answers on my post</label>
@@ -1687,106 +1693,134 @@
                         <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault2">Email me when someone mentions me</label>
                       </div>
                     </li> -->
-                                    </ul>
-                                    <h6 class="text-uppercase text-body text-xs font-weight-bolder mt-4">Account Settings</h6>
-                                    <ul class="list-group">
-                                        <li class="list-group-item border-0 px-0">
-                                            <div class="form-check form-switch ps-0">
-                                                <input class="form-check-input ms-auto" type="checkbox" name="account_status" id="flexSwitchCheckDefault3 inactivate" value="1">
-                                                <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault3">Inactivate Account</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item border-0 px-0">
-                                            <div class="form-check form-switch ps-0">
-                                                <input class="form-check-input ms-auto" type="checkbox" name="delete_account" id="flexSwitchCheckDefault4 delete" value="1">
-                                                <label class="form-check-label text-body ms-3 text-truncate w-80 mb-0" for="flexSwitchCheckDefault4">Delete Account</label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-xl-4">
-                            <div class="card card-plain h-100">
-                                <div class="card-header pb-0 p-3">
-                                    <div class="row">
-                                        <div class="col-md-8 d-flex align-items-center">
-                                            <h6 class="mb-0">Profile Information</h6>
-                                        </div>
-                                        <div class="col-md-4 text-end">
-                                            <a href="{{ route('mentor.add',[$profile->id]) }}">
-                                                <i class="fas fa-user-edit text-secondary text-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Profile"></i>
-                                            </a>
-                                        </div>
+                                        </ul>
+                                        <h6 class="text-uppercase text-body text-xs font-weight-bolder mt-4">Account
+                                            Settings</h6>
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 px-0">
+                                                <div class="form-check form-switch ps-0">
+                                                    <input class="form-check-input ms-auto" type="checkbox"
+                                                        name="account_status" id="flexSwitchCheckDefault3 inactivate"
+                                                        value="1">
+                                                    <label
+                                                        class="form-check-label text-body ms-3 text-truncate w-80 mb-0"
+                                                        for="flexSwitchCheckDefault3">Inactivate Account</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item border-0 px-0">
+                                                <div class="form-check form-switch ps-0">
+                                                    <input class="form-check-input ms-auto" type="checkbox"
+                                                        name="delete_account" id="flexSwitchCheckDefault4 delete"
+                                                        value="1">
+                                                    <label
+                                                        class="form-check-label text-body ms-3 text-truncate w-80 mb-0"
+                                                        for="flexSwitchCheckDefault4">Delete Account</label>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="card-body p-3">
-                                    <p class="text-sm">
-                                        {{ $profile->metaData->about_me }}
-                                    </p>
-                                    <hr class="horizontal gray-light my-4">
-                                    <ul class="list-group">
-                                        <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; {{ $profile->name }}</li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; {{ $profile->metaData->mobile }}</li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; {{ $profile->email }} </li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; {{ $profile->metaData->address }}</li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Expertise:</strong> &nbsp;  
-                                        @php
-                                          $decoded = json_decode($profile->metaData->expertise, true);               
-                                          echo $decoded;
-                                        @endphp
-                                       </li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Industry:</strong> &nbsp; 
-                                        @php
-                                          $decoded = json_decode($profile->metaData->industry, true);               
-                                         echo $decoded;
-                                        @endphp
-                                    </li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Language:</strong> &nbsp; 
-                                        @php
-                                          $decoded = json_decode($profile->metaData->language, true);               
-                                          echo $decoded;
-                                        @endphp
-                                    </li>
-                                    <li class="list-group-item border-0 ps-0 pb-0">
-                                            <strong class="text-dark text-sm">Social:</strong> &nbsp;
-                                            <a class="btn btn-linkedin btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $profile->metaData->social_linked_in }}">
-                                                <i class="fab fa-linkedin fa-lg"></i>
-                                            </a>
-                                            <a class="btn btn-facebook btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $profile->metaData->youtube_link }}">
-                                                <i class="fab fa-youtube fa-lg"></i>
-                                            </a>
-                                            <a class="btn btn-twitter btn-simple mb-0 ps-1 pe-2 py-0" href="{{ $profile->metaData->website_link }}">
-                                                <i class="fa fa-globe fa-lg"></i>
-                                            </a>
-                                            <a class="btn btn-instagram btn-simple mb-0 ps-1 pe-2 py-0" href="">
-                                                <i class="fab fa-instagram fa-lg"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <div class="card card-plain h-100">
+                                    <div class="card-header pb-0 p-3">
+                                        <div class="row">
+                                            <div class="col-md-8 d-flex align-items-center">
+                                                <h6 class="mb-0">Profile Information</h6>
+                                            </div>
+                                            <div class="col-md-4 text-end">
+                                                <a href="{{ route('mentor.add',[$profile->id]) }}">
+                                                    <i class="fas fa-user-edit text-secondary text-sm"
+                                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                                        title="Edit Profile"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-3">
+                                        <p class="text-sm">
+                                            {{ $profile->metaData->about_me }}
+                                        </p>
+                                        <hr class="horizontal gray-light my-4">
+                                        <ul class="list-group">
+                                            <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong
+                                                    class="text-dark">Full Name:</strong> &nbsp; {{ $profile->name }}
+                                            </li>
+                                            <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                                    class="text-dark">Mobile:</strong> &nbsp;
+                                                {{ $profile->metaData->mobile }}</li>
+                                            <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                                    class="text-dark">Email:</strong> &nbsp; {{ $profile->email }} </li>
+                                            <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                                    class="text-dark">Location:</strong> &nbsp;
+                                                {{ $profile->metaData->address }}</li>
+                                            <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                                    class="text-dark">Expertise:</strong> &nbsp;
+                                                @php
+                                                $decoded = json_decode($profile->metaData->expertise, true);
+                                                echo $decoded;
+                                                @endphp
+                                            </li>
+                                            <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                                    class="text-dark">Industry:</strong> &nbsp;
+                                                @php
+                                                $decoded = json_decode($profile->metaData->industry, true);
+                                                echo $decoded;
+                                                @endphp
+                                            </li>
+                                            <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                                    class="text-dark">Language:</strong> &nbsp;
+                                                @php
+                                                $decoded = json_decode($profile->metaData->language, true);
+                                                echo $decoded;
+                                                @endphp
+                                            </li>
+                                            <li class="list-group-item border-0 ps-0 pb-0">
+                                                <strong class="text-dark text-sm">Social:</strong> &nbsp;
+                                                <a class="btn btn-linkedin btn-simple mb-0 ps-1 pe-2 py-0"
+                                                    href="{{ $profile->metaData->social_linked_in }}">
+                                                    <i class="fab fa-linkedin fa-lg"></i>
+                                                </a>
+                                                <a class="btn btn-facebook btn-simple mb-0 ps-1 pe-2 py-0"
+                                                    href="{{ $profile->metaData->youtube_link }}">
+                                                    <i class="fab fa-youtube fa-lg"></i>
+                                                </a>
+                                                <a class="btn btn-twitter btn-simple mb-0 ps-1 pe-2 py-0"
+                                                    href="{{ $profile->metaData->website_link }}">
+                                                    <i class="fa fa-globe fa-lg"></i>
+                                                </a>
+                                                <a class="btn btn-instagram btn-simple mb-0 ps-1 pe-2 py-0" href="">
+                                                    <i class="fab fa-instagram fa-lg"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-xl-4">
-                            <div class="card card-plain h-100">
-                                <div class="card-header pb-0 p-3">
-                                    <h6 class="mb-0">Scheduled calls</h6>
-                                </div>
-                                <div class="card-body p-3">
-                                    <ul class="list-group">
-                                      @foreach($scheduled_calls as $scheduled_call)
-                                        <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2 pt-0">
-                                            <div class="avatar me-3">
-                                                <img src="{{ asset('public/assets/img/').'/' }}{{ $scheduled_call->user->metaData->profile_pic }}" alt="kal" class="border-radius-lg shadow">
-                                            </div>
-                                            <div class="d-flex align-items-start flex-column justify-content-center">
-                                                <h6 class="mb-0 text-sm">{{ $scheduled_call->user->name }}</h6>
-                                                <p class="mb-0 text-xs">{{ $scheduled_call->description }}</p>
-                                            </div>
-                                            <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto w-25 w-md-auto" href="{{ $scheduled_call->call_link }}">Join</a>
-                                        </li>
-                                        @endforeach
-                                        <!-- <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2">
+                            <div class="col-12 col-xl-4">
+                                <div class="card card-plain h-100">
+                                    <div class="card-header pb-0 p-3">
+                                        <h6 class="mb-0">Scheduled calls</h6>
+                                    </div>
+                                    <div class="card-body p-3">
+                                        <ul class="list-group">
+                                            @foreach($scheduled_calls as $scheduled_call)
+                                            <li
+                                                class="list-group-item border-0 d-flex align-items-center px-0 mb-2 pt-0">
+                                                <div class="avatar me-3">
+                                                    <img src="{{ asset('public/assets/img/').'/' }}{{ $scheduled_call->user->metaData->profile_pic }}"
+                                                        alt="kal" class="border-radius-lg shadow">
+                                                </div>
+                                                <div
+                                                    class="d-flex align-items-start flex-column justify-content-center">
+                                                    <h6 class="mb-0 text-sm">{{ $scheduled_call->user->name }}</h6>
+                                                    <p class="mb-0 text-xs">{{ $scheduled_call->description }}</p>
+                                                </div>
+                                                <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto w-25 w-md-auto"
+                                                    href="{{ $scheduled_call->call_link }}">Join</a>
+                                            </li>
+                                            @endforeach
+                                            <!-- <li class="list-group-item border-0 d-flex align-items-center px-0 mb-2">
                                             <div class="avatar me-3">
                                                 <img src="{{ asset('assets/img/marie.jpg') }}" alt="kal" class="border-radius-lg shadow">
                                             </div>
@@ -1826,11 +1860,11 @@
                                             </div>
                                             <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto w-25 w-md-auto" href="javascript:;">Reply</a>
                                         </li> -->
-                                    </ul>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-              <!-- <div class="row">
+                            <!-- <div class="row">
                 <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
                   <div class="card card-blog card-plain">
                     <div class="card-header p-0 mt-n4 mx-3">
@@ -1980,7 +2014,7 @@
                   </div>
                 </div>
               </div> -->
-                        <!-- <div class="col-12 mt-4">
+                            <!-- <div class="col-12 mt-4">
                             <div class="mb-5 ps-3">
                                 <h6 class="mb-1">Expertise</h6>
                                 <p class="text-sm">Architects design houses</p>
@@ -2136,51 +2170,52 @@
                                 </div>
                             </div>
                         </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
+            @include('partials.footer')
         </div>
-        @include('partials.footer')
-    </div>
-    @include('partials.settings')
-    <!--   Core JS Files   -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    <script type="text/javascript">
-        $(document).ready(function() {
-          $("#inactivate").click(function() {
-             var checkBoxes = $("input[name=account_status\\[\\]]");
-             checkBoxes.prop("checked", !checkBoxes.prop("checked"));
-             var status = document.getElementById("inactivate").value;  
-             return $.ajax("{{ route('mentor.account_status') }}", {
-              method: 'POST',
-              data: {
-                "_token": "{{ csrf_token() }}",
-                "status": status,
-             }
-           });
-        });     
-          
-          $("#delete").click(function() {
-             var checkBoxes = $("input[name=delete_account\\[\\]]");
-             checkBoxes.prop("checked", !checkBoxes.prop("checked"));
-             var status = document.getElementById("delete").value;  
-             return $.ajax("{{ route('mentor.delete_account') }}", {
-              method: 'POST',
-              data: {
-                "_token": "{{ csrf_token() }}",
-                "status": status,
-             }
-           });
-          });     
-        });
-    </script>
-</body>
-<style>
-.navbar-main li a {
-    font-family: "Helvetica", Sans-serif !important;
-    font-size: 17px !important;
-    font-weight: 700 !important;
-    color: #001e64 !important;
-}
-</style>
+        @include('partials.settings')
+        <!--   Core JS Files   -->
+        <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+        <script type = "text/javascript">
+            $(document).ready(function() {
+                $("#inactivate").click(function() {
+                    var checkBoxes = $("input[name=account_status\\[\\]]");
+                    checkBoxes.prop("checked", !checkBoxes.prop("checked"));
+                    var status = document.getElementById("inactivate").value;
+                    return $.ajax("{{ route('mentor.account_status') }}", {
+                        method: 'POST',
+                        data: {
+                            "_token": "{{ csrf_token() }}",
+                            "status": status,
+                        }
+                    });
+                });
+
+                $("#delete").click(function() {
+                    var checkBoxes = $("input[name=delete_account\\[\\]]");
+                    checkBoxes.prop("checked", !checkBoxes.prop("checked"));
+                    var status = document.getElementById("delete").value;
+                    return $.ajax("{{ route('mentor.delete_account') }}", {
+                        method: 'POST',
+                        data: {
+                            "_token": "{{ csrf_token() }}",
+                            "status": status,
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+    <style>
+    .navbar-main li a {
+        font-family: "Helvetica", Sans-serif !important;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        color: #001e64 !important;
+    }
+    </style>
 </html>
