@@ -1545,7 +1545,7 @@
                                                     <li>
                                                         <a class="dropdown-item"
                                                             href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                            profile</a>
+                                                            Profile</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="{{ route('user.review') }}">My
