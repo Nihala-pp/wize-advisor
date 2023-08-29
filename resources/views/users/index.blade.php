@@ -1545,7 +1545,7 @@
                                                         class="rounded-circle" height="5" width="50"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                 </a>
-                                                {{ Auth::user()->name }}
+                                                <p>{{ Auth::user()->name }}</p>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                     <li>
                                                         <a class="dropdown-item"
