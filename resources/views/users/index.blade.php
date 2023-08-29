@@ -324,6 +324,10 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
+    a {
+        font-size:15px;
+    }
+
     /* ul {
         list-style-type: none;
         margin: 0;
