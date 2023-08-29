@@ -1487,6 +1487,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
                         data-id="a87489f" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -1494,68 +1495,83 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        @if(Auth::id())
-                                        <div class="d-flex align-items-center">
-                                            <div class="dropdown">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <i class="fas fa-bell"></i>
-                                                    <span
-                                                        class="badge rounded-pill badge-notification bg-danger">1</span>
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuLink">
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                    id="navbarDropdownMenuAvatar" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                        class="rounded-circle" height="5" width="50"
-                                                        alt="Black and White Portrait of a Man" loading="lazy" />
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuAvatar">
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                            Profile</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('user.review') }}">My
-                                                            Reviews</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
-                                        @endif
+                                        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+                                        <!-- </nav> -->
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                            data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    @if(Auth::id())
+                                    <div class="d-flex align-items-center">
+                                        <div class="dropdown">
+                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="fas fa-bell"></i>
+                                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-end"
+                                                aria-labelledby="navbarDropdownMenuLink">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Some news</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Another news</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                    class="rounded-circle" height="5" width="50"
+                                                    alt="Black and White Portrait of a Man" loading="lazy" />
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-end"
+                                                aria-labelledby="navbarDropdownMenuAvatar">
+                                                <li>
+                                                    <a class="dropdown-item"
+                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                        Profile</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('user.review') }}">My
+                                                        Reviews</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    @else
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('login') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Sign In</span>
+                                        </span>
+                                    </a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+        </div>
         </div>
     </header>
     </div>
