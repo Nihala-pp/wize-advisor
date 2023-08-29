@@ -6,14 +6,14 @@
         var date = new Date();
         var today = date.getDate();
         // Set click handlers for DOM elements
-        $(".right-button").click({date: date}, next_year);
-        $(".left-button").click({date: date}, prev_year);
-        $(".month").click({date: date}, month_click);
-        $("#add-button").click({date: date}, new_event);
+        $(".right-button").click({ date: date }, next_year);
+        $(".left-button").click({ date: date }, prev_year);
+        $(".month").click({ date: date }, month_click);
+        $("#add-button").click({ date: date }, new_event);
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(today, date.getMonth()+1, date.getFullYear());
+        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
         show_events(events, months[date.getMonth()], today);
 
         $.ajaxSetup({
@@ -58,33 +58,33 @@
         var first_day = date.getDay();
         // 35+firstDay is the number of date elements to be added to the dates table
         // 35 is from (7 days in a week) * (up to 5 rows of dates in a month)
-        for(var i=0; i<35+first_day; i++) {
+        for (var i = 0; i < 35 + first_day; i++) {
             // Since some of the elements will be blank, 
             // need to calculate actual date from index
-            var day = i-first_day+1;
+            var day = i - first_day + 1;
             // If it is a sunday, make a new row
-            if(i%7===0) {
+            if (i % 7 === 0) {
                 calendar_days.append(row);
                 row = $("<tr class='table-row'></tr>");
             }
             // if current index isn't a day in this month, make it blank
-            if(i < first_day || day > day_count) {
-                var curr_date = $("<td class='table-date nil'>"+"</td>");
+            if (i < first_day || day > day_count) {
+                var curr_date = $("<td class='table-date nil'>" + "</td>");
                 row.append(curr_date);
-            }   
+            }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
-                var events = check_events(day, month+1, year);
-                if(today===day && $(".active-date").length===0) {
+                var events = check_events(day, month + 1, year);
+                if (today === day && $(".active-date").length === 0) {
                     curr_date.addClass("active-date");
                     show_events(events, months[month], day);
                 }
                 // If this date has any events, style it with .event-date
-                if(events.length!==0) {
+                if (events.length !== 0) {
                     curr_date.addClass("event-date");
                 }
                 // Set onClick handler for clicking a date
-                curr_date.click({events: events, month: months[month], day:day}, date_click);
+                curr_date.click({ events: events, month: months[month], day: day }, date_click);
                 row.append(curr_date);
             }
         }
@@ -96,7 +96,7 @@
     function days_in_month(month, year) {
         var monthStart = new Date(year, month, 1);
         var monthEnd = new Date(year, month + 1, 1);
-        return (monthEnd - monthStart) / (1000 * 60 * 60 * 24);    
+        return (monthEnd - monthStart) / (1000 * 60 * 60 * 24);
     }
 
     // Event handler for when a date is clicked
@@ -174,11 +174,15 @@
         $(".events-container").show(250);
         $("#dialog").hide(250);
         var date = event.data.date;
-        console.log(date);
         $(".active-month").removeClass("active-month");
         $(this).addClass("active-month");
         var new_month = $(".month").index(this);
         date.setMonth(new_month);
+
+        let B = date.getMonth();
+
+        // Printing new month
+        console.log(B);
         init_calendar(date);
     }
 
@@ -186,7 +190,7 @@
     function next_year(event) {
         $("#dialog").hide(250);
         var date = event.data.date;
-        var new_year = date.getFullYear()+1;
+        var new_year = date.getFullYear() + 1;
         $("year").html(new_year);
         date.setFullYear(new_year);
         init_calendar(date);
@@ -196,7 +200,7 @@
     function prev_year(event) {
         $("#dialog").hide(250);
         var date = event.data.date;
-        var new_year = date.getFullYear()-1;
+        var new_year = date.getFullYear() - 1;
         $("year").html(new_year);
         date.setFullYear(new_year);
         init_calendar(date);
