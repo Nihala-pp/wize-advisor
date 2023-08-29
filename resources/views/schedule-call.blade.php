@@ -1682,8 +1682,7 @@
                                                 <div class="year-header">
                                                     <span class="left-button fa fa-chevron-left" id="prev"> </span>
                                                     <span class="year" id="label"></span>
-                                                    <span class="right-button fa fa-chevron-right" id="next">
-                                                    </span>
+                                                    <span class="right-button fa fa-chevron-right" id="next"> </span>
                                                 </div>
                                                 <table class="months-table w-100">
                                                     <tbody>
@@ -1733,11 +1732,7 @@
 </select> -->
                                             </div>
                                         </div>
-                                        <div class="events-container" style="background-color:white;">
-                                            <div class='event-card'>
-                                                <div class='event-name'>
-                                                </div>
-                                            </div>
+                                        <div class="events-container">
                                         </div>
                                         <div class="dialog" id="dialog">
                                             <h2 class="dialog-header"> Add New Event </h2>
