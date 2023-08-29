@@ -177,7 +177,7 @@
         $(this).addClass("active-month");
         var new_month = $(".month").index(this);
         console.log(new_month);
-        date.setMonth(new_month);
+        console.log(date.setMonth(new_month));
         init_calendar(date);
     }
 
