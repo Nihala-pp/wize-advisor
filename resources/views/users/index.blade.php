@@ -2148,8 +2148,8 @@
             })
         })(window.jQuery, window);
         $(function() {
-            return $(".starrr").starrr()
-        })
+            return $(".starrr").starrr();
+        });
 
         $(function() {
 
