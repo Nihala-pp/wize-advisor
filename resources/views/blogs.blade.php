@@ -297,7 +297,7 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
-    ul {
+    /* ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -307,14 +307,14 @@
     .pe-7s-user {
         margin-right: 20px;
         align: center;
-    }
+    } */
 
     .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
 
     .menuITem {
-        margin-left: 30px;
+        /* margin-left: 30px;
     }
 
     .name {
@@ -326,7 +326,7 @@
     .menu {
         font-size: 12px;
         text-align: center;
-    }
+    } */
 
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
