@@ -2240,9 +2240,9 @@
         background-color: #fff !important;
     }
 
-    #navbarDropdownMenuLink {
+    /* #navbarDropdownMenuLink {
         z-index: 999999 !important;
-    }
+    } */
 
     /* 
 .dropdown-menu {
@@ -2250,10 +2250,10 @@
     top: 59px;
 } */
 
-
+/* 
     .menu-list {
         align: center;
-    }
+    } */
 
     /* .dropdown-menu {
 	margin: 8px 0px!important;
