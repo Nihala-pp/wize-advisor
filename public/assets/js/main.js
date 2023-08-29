@@ -6,14 +6,14 @@
         var date = new Date();
         var today = date.getDate();
         // Set click handlers for DOM elements
-        $(".right-button").click({ date: date }, next_year);
-        $(".left-button").click({ date: date }, prev_year);
-        $(".month").click({ date: date }, month_click);
-        $("#add-button").click({ date: date }, new_event);
+        $(".right-button").click({date: date}, next_year);
+        $(".left-button").click({date: date}, prev_year);
+        $(".month").click({date: date}, month_click);
+        $("#add-button").click({date: date}, new_event);
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
+        var events = check_events(today, date.getMonth()+1, date.getFullYear());
         show_events(events, months[date.getMonth()], today);
 
         $.ajaxSetup({
