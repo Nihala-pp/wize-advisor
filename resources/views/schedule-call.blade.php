@@ -20,9 +20,6 @@
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
-    <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" />  -->
-    <!-- <script src="https://kit.fontawesome.com/f8735c7699.js" crossorigin="anonymous"></script> -->
     <script>
     window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
