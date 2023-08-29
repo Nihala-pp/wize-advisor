@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -14,8 +15,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="applicatio/rss+xml" title="wiseAdvizor &raquo; Feed" href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed" href="{{ asset('public/comments/feed/') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+        href="{{ asset('public/comments/feed/') }}">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
