@@ -74,7 +74,7 @@
             }
             else {
                 var curr_date = $("<td class='table-date'>" + day + "</td>");
-                var events = check_events(day, month + 1, year);
+                var events = check_events(day, month , year);
                 if (today === day && $(".active-date").length === 0) {
                     curr_date.addClass("active-date");
                     show_events(events, months[month], day);
