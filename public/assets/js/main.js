@@ -13,7 +13,7 @@
         // Set current month as active
         $(".months-row").children().eq(date.getMonth()).addClass("active-month");
         init_calendar(date);
-        var events = check_events(today, date.getMonth() + 1, date.getFullYear());
+        var events = check_events(today, date.getMonth(), date.getFullYear());
         show_events(events, months[date.getMonth()], today);
 
         $.ajaxSetup({
