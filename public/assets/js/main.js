@@ -44,6 +44,7 @@
 
     // Initialize the calendar by appending the HTML dates
     function init_calendar(date) {
+        console.log(date);
         $(".tbody").empty();
         $(".events-container").empty();
         var calendar_days = $(".tbody");
@@ -176,8 +177,7 @@
         $(".active-month").removeClass("active-month");
         $(this).addClass("active-month");
         var new_month = $(".month").index(this);
-        console.log(new_month);
-        console.log(date.setMonth(new_month));
+        date.setMonth(new_month);
         init_calendar(date);
     }
 
