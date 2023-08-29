@@ -1482,6 +1482,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                        data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                    href="{{ route('browseMentor') }}">
+                                    <span class="elementor-button-content-wrapper">
+                                        <span class="elementor-button-text">Browse Mentor</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
                         data-id="a87489f" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -1549,20 +1562,6 @@
                                             </span>
                                         </a>
                                         @endif
-                                        <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                            data-id="78270f3" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('browseMentor') }}">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Browse Mentor</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
