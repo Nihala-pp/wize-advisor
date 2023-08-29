@@ -773,3 +773,7 @@
                 </div>
                 <!-- Container wrapper -->
             </nav>
+
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                                                    href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false"
