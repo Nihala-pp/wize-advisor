@@ -1528,13 +1528,13 @@
                                                     </a>
                                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                         <li>
-                                                            <a class="dropdown-item" href="#">My profile</a>
+                                                            <a class="dropdown-item" href="{{ route('user.profile', [Auth::id()]) }}">My profile</a>
                                                         </li>
                                                         <li>
-                                                            <a class="dropdown-item" href="#">Settings</a>
+                                                            <a class="dropdown-item" href="{{ route('user.review') }}">My Reviews</a>
                                                         </li>
                                                         <li>
-                                                            <a class="dropdown-item" href="#">Logout</a>
+                                                            <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
                                                         </li>
                                                     </ul>
                                                 </li>
