@@ -2685,7 +2685,7 @@
                 const d = new Date();
                 var new_month = getMonthFromString(month);
                 // var month_name = getMonthName(new_month);
-                if (month[d.getMonth()] == month) {
+                if (month[d.getMonth()] === month) {
                     month_name = month;
                 } else {
                     month_name = getMonthName(new_month);
