@@ -139,7 +139,6 @@
                 show_events(times, event.data.month, event.data.day);
             },
         });
-        show_events(times, event.data.month, event.data.day);
     };
 
     // Event handler for when a month is clicked
