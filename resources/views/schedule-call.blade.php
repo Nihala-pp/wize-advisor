@@ -2691,7 +2691,7 @@
                 } else {
                     month_name = getMonthName(new_month);
                 }
-                console.log(month_name);
+                // console.log(month_name);
                 $(".events-container").empty();
                 $(".events-container").show(250);
                 console.log(event_data["events"]);
