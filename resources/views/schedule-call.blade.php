@@ -2836,7 +2836,7 @@
             ];
 
             function getMonthFromString(mon) {
-
+                 console.log(mon);
                 var d = Date.parse(mon + "1, 2023");
                 if (!isNaN(d)) {
                     return new Date(d).getMonth();
