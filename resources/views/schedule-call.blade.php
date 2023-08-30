@@ -901,21 +901,21 @@
         href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3') }}"
         media="all">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script id="jquery-core-js-extra">
+    <!-- <script id="jquery-core-js-extra">
     var tpgb_load = {
         "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
-    </script>
+    </script> -->
     <!-- <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js"></script>
     <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}" id="jquery-migrate-js">
     </script> -->
-    <script
+    <!-- <script
         src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}"
-        id="font-awesome-4-shim-js"></script>
-    <script
+        id="font-awesome-4-shim-js"></script> -->
+    <!-- <script
         src="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5') }}"
-        id="she-header-js"></script>
+        id="she-header-js"></script> -->
     <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
     <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/2772') }}">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
