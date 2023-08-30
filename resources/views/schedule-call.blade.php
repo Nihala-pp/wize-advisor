@@ -2683,7 +2683,8 @@
             function show_events(events, month, day) {
                 // Clear the dates container
                 var new_month = getMonthFromString(month);
-                console.log(new_month);
+                var month_name = getMonthName(new_month);
+                console.log(month_name);
                 $(".events-container").empty();
                 $(".events-container").show(250);
                 console.log(event_data["events"]);
@@ -2836,12 +2837,22 @@
             ];
 
             function getMonthFromString(mon) {
-                 console.log(mon);
+                console.log(mon);
                 var d = Date.parse(mon + "1, 2023");
                 if (!isNaN(d)) {
                     return new Date(d).getMonth();
                 }
                 return -1;
+            }
+
+            function getMonthName(month) {
+                console.log(month);
+                const d = new Date();
+                d.setMonth(month - 1);
+                const monthName = d.toLocaleString("default", {
+                    month: "long"
+                });
+                return monthName;
             }
 
         })(jQuery);
