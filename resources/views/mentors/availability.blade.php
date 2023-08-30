@@ -831,7 +831,8 @@
                     'Id': Id
                 },
                 success: function(response) {
-                  
+                  alert("Deleted Successfully !");
+                  window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 }
             });
         });

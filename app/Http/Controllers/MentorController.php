@@ -485,13 +485,13 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
         AvailableSchedule::find($request->Id)->delete();
 
-        $notification = array(
-            'message' => 'Availability Deleted Successfully!',
-            'alert-type' => 'warning'
-        );
+        // $notification = array(
+        //     'message' => 'Availability Deleted Successfully!',
+        //     'alert-type' => 'warning'
+        // );
 
-        return redirect()->route('mentor.dashboard.availability')
-            ->with($notification, 'Availability Deleted Successfully!');
+        // return redirect()->route('mentor.dashboard.availability')
+        //     ->with($notification, 'Availability Deleted Successfully!');
     }
 
     public function saveBlog(Request $request)
