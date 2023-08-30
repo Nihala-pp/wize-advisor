@@ -63,6 +63,7 @@ Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword
 // Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('test', [HomeController::class, 'test'])->name('test');
 Route::get('profile/{id?}', [HomeController::class, 'profile'])->name('profile');
 Route::get('browseMentor/{expertise?}/{filter?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
 Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-mentor');

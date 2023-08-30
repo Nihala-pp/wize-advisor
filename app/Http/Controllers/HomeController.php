@@ -406,4 +406,9 @@ window.location.href = "' + custom_location + " / " + Id + '";
 
     return response()->json($dates);
   }
+
+  public function test()
+  {
+     return view('call');
+  }
 }
