@@ -2685,14 +2685,12 @@
                 var d = new Date();
                 var new_month = getMonthFromString(month);
                 // var month_name = getMonthName(new_month);
-                if (month[d.getMonth()] === month) {
-                    
+                if (months[d.getMonth()] === month) {                   
                     month_name = month;
                 } else {
-                    console.log(month[d.getMonth()]);                    
                     month_name = getMonthName(new_month);
                 }
-                // console.log(month_name);
+                console.log(month_name);
                 $(".events-container").empty();
                 $(".events-container").show(250);
                 console.log(event_data["events"]);
