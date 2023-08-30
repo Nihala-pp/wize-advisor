@@ -7,8 +7,6 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://wiseadvizor.com/public/assets/css/style.css">
     <meta name="robots" content="max-image-preview:large">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <!-- <link rel="stylesheet"
@@ -900,22 +898,7 @@
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
         href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3') }}"
         media="all">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <!-- <script id="jquery-core-js-extra">
-    var tpgb_load = {
-        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
-    };
-    var smoothAllowedBrowsers = [];
-    </script> -->
-    <!-- <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js"></script>
-    <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}" id="jquery-migrate-js">
-    </script> -->
-    <!-- <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}"
-        id="font-awesome-4-shim-js"></script> -->
-    <!-- <script
-        src="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5') }}"
-        id="she-header-js"></script> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>=
     <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
     <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/2772') }}">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
