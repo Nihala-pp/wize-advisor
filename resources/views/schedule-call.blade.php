@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="utf-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -1006,8 +1005,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
-<body
-    class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772 success">
+<body class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772 success">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
         style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
@@ -2685,7 +2683,7 @@
                 var d = new Date();
                 var new_month = getMonthFromString(month);
                 // var month_name = getMonthName(new_month);
-                if (months[d.getMonth()] === month) {                   
+                if (months[d.getMonth()] === month) {
                     month_name = month;
                 } else {
                     month_name = getMonthName(new_month);
