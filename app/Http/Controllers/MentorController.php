@@ -483,12 +483,11 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         $notification = array(
             'message' => 'Availability Deleted Successfully!',
-            'alert-type' => 'success'
+            'alert-type' => 'warning'
         );
 
         return redirect()->route('mentor.dashboard.availability')
             ->with($notification, 'Availability Deleted Successfully!');
-
     }
 
     public function saveBlog(Request $request)
