@@ -202,8 +202,9 @@
                                                     <button type="button" class="btn btn-block edit"
                                                         data-id="{{ $avail->id }}">Edit
                                                         <i class="fa fa-edit"></button></i>
-                                                    <button type="button" class="btn btn-block delete"
-                                                        data-id="{{ $avail->id }}">Delete
+                                                    <button type="button" class="btn btn-block"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#delete_availability" data-id="{{ $avail->id }}">Delete
                                                         <i class="fa fa-trash"></button></i>
                                                 </div>
                                             </td>
@@ -482,9 +483,9 @@
             </div>
         </div>
         <div class="col-md-4">
-            <button type="button" class="btn btn-block bg-gradient-warning mb-3" data-bs-toggle="modal"
-                data-bs-target="#modal-notification">Notification</button>
-            <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog"
+            <!-- <button type="button" class="btn btn-block bg-gradient-warning mb-3" data-bs-toggle="modal"
+                data-bs-target="#modal-notification">Notification</button> -->
+            <div class="modal fade" id="delete_availability" tabindex="-1" role="dialog"
                 aria-labelledby="modal-notification" aria-hidden="true">
                 <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
                     <div class="modal-content">
@@ -496,18 +497,19 @@
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body delete_availability">
                             <div class="py-3 text-center">
                                 <i class="material-icons h1 text-secondary">
                                     notifications_active
                                 </i>
-                                <h4 class="text-gradient text-danger mt-4">You should read this!</h4>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia.</p>
+                                <h4 class="text-gradient text-danger mt-4">Are you Sure you want to delete this record ?
+                                </h4>
+                                <!-- <p>A small river named Duden flows by their place and supplies it with the necessary
+                                    regelialia.</p> -->
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-white">Ok, Got it</button>
+                            <button type="button" class="btn btn-white delete">Yes, Proceed</button>
                             <button type="button" class="btn btn-link text-white ml-auto"
                                 data-bs-dismiss="modal">Close</button>
                         </div>
