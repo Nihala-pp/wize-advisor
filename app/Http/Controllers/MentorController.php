@@ -225,6 +225,7 @@ class MentorController extends Controller
                 ->where('date', $schedule['date'])
                 ->where('start_time', $schedule['start_time'])
                 ->where('time_zone', $request->time_zone)
+                ->whereNotNull('deleted_at')
                 ->first();
 
             if ($exists) {
@@ -447,6 +448,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             ->where('date', $request->date)
             ->where('start_time', $request->start_time)
             ->where('time_zone', $request->time_zone)
+            ->whereNotNull('deleted_at')
             ->first();
 
         if ($exists) {
