@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
+    <!-- <script>
     var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
     var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
     var theplus_nonce = "db7101d24";
-    </script>
+    </script> -->
     <meta name="robots" content="max-image-preview:large">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
