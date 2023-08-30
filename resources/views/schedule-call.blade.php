@@ -2527,7 +2527,7 @@
                 $(".tbody").empty();
                 $(".events-container").empty();
                 var calendar_days = $(".tbody");
-                var month = getMonthFromString(date.getMonth());
+                var month = date.getMonth();
                 var year = date.getFullYear();
                 var day_count = days_in_month(month, year);
                 var row = $("<tr class='table-row'></tr>");
