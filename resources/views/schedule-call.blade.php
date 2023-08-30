@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -1560,28 +1561,29 @@
                                                 <button class="button" id="add-button" style="display:none;">Add
                                                     Event</button>
                                             </div>
-                                            <div class="events-container">
-                                            </div>
-                                            <div class="dialog" id="dialog">
-                                                <h2 class="dialog-header"> Add New Event </h2>
-                                                <form class="form" id="form">
-                                                    <div class="form-container" align="center">
-                                                        <label class="form-label" id="valueFromMyButton"
-                                                            for="name">Event name</label>
-                                                        <input class="input" type="text" id="name" maxlength="36">
-                                                        <label class="form-label" id="valueFromMyButton"
-                                                            for="count">Number of people to
-                                                            invite</label>
-                                                        <input class="input" type="number" id="count" min="0"
-                                                            max="1000000" maxlength="7">
-                                                        <input type="button" value="Cancel" class="button"
-                                                            id="cancel-button">
-                                                        <input type="button" value="OK" class="button button-white"
-                                                            id="ok-button">
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <!-- <div class="calendar">
+                                        </div>
+                                        <div class="events-container">
+                                        </div>
+                                        <div class="dialog" id="dialog">
+                                            <h2 class="dialog-header"> Add New Event </h2>
+                                            <form class="form" id="form">
+                                                <div class="form-container" align="center">
+                                                    <label class="form-label" id="valueFromMyButton" for="name">Event
+                                                        name</label>
+                                                    <input class="input" type="text" id="name" maxlength="36">
+                                                    <label class="form-label" id="valueFromMyButton" for="count">Number
+                                                        of people to
+                                                        invite</label>
+                                                    <input class="input" type="number" id="count" min="0" max="1000000"
+                                                        maxlength="7">
+                                                    <input type="button" value="Cancel" class="button"
+                                                        id="cancel-button">
+                                                    <input type="button" value="OK" class="button button-white"
+                                                        id="ok-button">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!-- <div class="calendar">
                                                 <div class="year-header">
                                                     <span class="left-button fa fa-chevron-left" id="prev"> </span>
                                                     <span class="year" id="label"></span>
@@ -1629,11 +1631,11 @@
                                                         @endforeach
                                                     </select>
                                                 </div> -->
-                                                <!-- </form> -->
-                                                <!-- <select class="form-control" id="add-button">Add Event
+                                        <!-- </form> -->
+                                        <!-- <select class="form-control" id="add-button">Add Event
 
 </select> -->
-                                            <!-- </div>
+                                        <!-- </div>
                                         </div>
                                         <div class="events-container">
                                         </div>
@@ -1654,7 +1656,7 @@
                                                         id="ok-button">
                                                 </div>
                                             </form>
-                                        </div> --> 
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
