@@ -202,9 +202,9 @@
                                                     <button type="button" class="btn btn-block edit"
                                                         data-id="{{ $avail->id }}">Edit
                                                         <i class="fa fa-edit"></button></i>
-                                                    <button type="button" class="btn btn-block"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#delete_availability" data-id="{{ $avail->id }}">Delete
+                                                    <button type="button" class="btn btn-block" data-bs-toggle="modal"
+                                                        data-bs-target="#delete_availability"
+                                                        data-id="{{ $avail->id }}">Delete
                                                         <i class="fa fa-trash"></button></i>
                                                 </div>
                                             </td>
@@ -499,18 +499,18 @@
                         </div>
                         <div class="modal-body delete_availability">
                             <div class="py-3 text-center">
-                                <i class="material-icons h1 text-secondary">
+                                <!-- <i class="material-icons h1 text-secondary">
                                     notifications_active
-                                </i>
-                                <h4 class="text-gradient text-danger mt-4">Are you Sure you want to delete this record ?
-                                </h4>
+                                </i> -->
+                                <h6 class="text-gradient text-danger mt-4">Are you Sure you want to delete this record ?
+                                </h6>
                                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary
                                     regelialia.</p> -->
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-white delete">Yes, Proceed</button>
-                            <button type="button" class="btn btn-link text-white ml-auto"
+                            <button type="button" class="btn bg-gradient-primary delete">Yes, Proceed</button>
+                            <button type="button" class="btn bg-gradient-secondary ml-auto"
                                 data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
