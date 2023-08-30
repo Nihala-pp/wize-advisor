@@ -2527,7 +2527,7 @@
                 $(".tbody").empty();
                 $(".events-container").empty();
                 var calendar_days = $(".tbody");
-                var month = date.getMonth();
+                var month = getMonthFromString(date.getMonth());
                 var year = date.getFullYear();
                 var day_count = days_in_month(month, year);
                 var row = $("<tr class='table-row'></tr>");
@@ -2552,7 +2552,7 @@
                         row.append(curr_date);
                     } else {
                         var curr_date = $("<td class='table-date'>" + day + "</td>");
-                        var events = check_events(day, month, year);
+                        var events = check_events(day, month + 1, year);
                         if (today === day && $(".active-date").length === 0) {
                             curr_date.addClass("active-date");
                             show_events(events, months[month], day);
@@ -2833,8 +2833,19 @@
                 "December"
             ];
 
+            function getMonthFromString(mon) {
+                console.log(mon);
+
+                var d = Date.parse(mon + "1, 2023");
+                if (!isNaN(d)) {
+                    return new Date(d).getMonth() + 1;
+                }
+                return -1;
+            }
+
         })(jQuery);
         </script>
+
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
         </script> -->
         <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
