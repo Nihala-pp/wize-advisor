@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -822,7 +821,6 @@
     .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
-
     </style>
     <style id="wp-webfonts-inline-css">
     @font-face {
@@ -1030,6 +1028,7 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772 success">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
@@ -1542,6 +1541,7 @@
                                                         </tr>
                                                     </tbody>
                                                 </table>
+
                                                 <table class="days-table w-100">
                                                     <td class="day">Sun</td>
                                                     <td class="day">Mon</td>
@@ -1557,7 +1557,70 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                <!-- <div class="timezone">
+                                                <button class="button" id="add-button" style="display:none;">Add
+                                                    Event</button>
+                                            </div>
+                                            <div class="events-container">
+                                            </div>
+                                            <div class="dialog" id="dialog">
+                                                <h2 class="dialog-header"> Add New Event </h2>
+                                                <form class="form" id="form">
+                                                    <div class="form-container" align="center">
+                                                        <label class="form-label" id="valueFromMyButton"
+                                                            for="name">Event name</label>
+                                                        <input class="input" type="text" id="name" maxlength="36">
+                                                        <label class="form-label" id="valueFromMyButton"
+                                                            for="count">Number of people to
+                                                            invite</label>
+                                                        <input class="input" type="number" id="count" min="0"
+                                                            max="1000000" maxlength="7">
+                                                        <input type="button" value="Cancel" class="button"
+                                                            id="cancel-button">
+                                                        <input type="button" value="OK" class="button button-white"
+                                                            id="ok-button">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <!-- <div class="calendar">
+                                                <div class="year-header">
+                                                    <span class="left-button fa fa-chevron-left" id="prev"> </span>
+                                                    <span class="year" id="label"></span>
+                                                    <span class="right-button fa fa-chevron-right" id="next"> </span>
+                                                </div>
+                                                <table class="months-table w-100">
+                                                    <tbody>
+                                                        <tr class="months-row">
+                                                            <td class="month">Jan</td>
+                                                            <td class="month">Feb</td>
+                                                            <td class="month">Mar</td>
+                                                            <td class="month">Apr</td>
+                                                            <td class="month">May</td>
+                                                            <td class="month">Jun</td>
+                                                            <td class="month">Jul</td>
+                                                            <td class="month">Aug</td>
+                                                            <td class="month">Sep</td>
+                                                            <td class="month">Oct</td>
+                                                            <td class="month">Nov</td>
+                                                            <td class="month">Dec</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table class="days-table w-100">
+                                                    <td class="day">Sun</td>
+                                                    <td class="day">Mon</td>
+                                                    <td class="day">Tue</td>
+                                                    <td class="day">Wed</td>
+                                                    <td class="day">Thu</td>
+                                                    <td class="day">Fri</td>
+                                                    <td class="day">Sat</td>
+                                                </table>
+                                                <div class="frame">
+                                                    <table class="dates-table w-100">
+                                                        <tbody class="tbody">
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                 <div class="timezone">
                                                     <select name="timezone" class="form-control mt-1 timezone"
                                                         id="timezone" style="width:50%" required>
                                                         <option value=""><b>Time zone</b></option>
@@ -1566,11 +1629,11 @@
                                                         @endforeach
                                                     </select>
                                                 </div> -->
-                                                </form>
+                                                <!-- </form> -->
                                                 <!-- <select class="form-control" id="add-button">Add Event
 
 </select> -->
-                                            </div>
+                                            <!-- </div>
                                         </div>
                                         <div class="events-container">
                                         </div>
@@ -1591,7 +1654,7 @@
                                                         id="ok-button">
                                                 </div>
                                             </form>
-                                        </div>
+                                        </div> --> 
                                     </div>
                                 </div>
                             </div>
