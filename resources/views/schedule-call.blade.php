@@ -2839,7 +2839,7 @@
             function getMonthFromString(mon) {
                 var d = Date.parse(mon + "1, 2023");
                 if (!isNaN(d)) {
-                    return new Date(d).getMonth();
+                    return new Date(d).getMonth()+1;
                 }
                 return -1;
             }
@@ -2847,7 +2847,7 @@
             function getMonthName(month) {
                 console.log(month);
                 const d = new Date();
-                d.setMonth(month);
+                d.setMonth(month-1);
                 const monthName = d.toLocaleString("default", {
                     month: "long"
                 });
