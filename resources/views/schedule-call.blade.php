@@ -2682,12 +2682,14 @@
             // Display all events of the selected date in card views
             function show_events(events, month, day) {
                 // Clear the dates container
+                var new_month = getMonthFromString(month);
+                console.log(new_month);
                 $(".events-container").empty();
                 $(".events-container").show(250);
                 console.log(event_data["events"]);
                 // If there are no events for this date, notify the user
                 if (events.length === 0) {
-                    console.log(getMonth(month));
+                    // console.log(getMonth(month));
                     var event_card = $("<div class='event-card'></div>");
                     var event_name = $("<div class='event-name'>There are no events planned for " + month + " " +
                         day +
