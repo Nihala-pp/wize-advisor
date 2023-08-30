@@ -510,7 +510,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn bg-gradient-primary delete">Yes, Proceed</button>
+                            <button type="submit" class="btn bg-gradient-primary delete">Yes, Proceed</button>
                             <button type="button" class="btn bg-gradient-secondary ml-auto"
                                 data-bs-dismiss="modal">Close</button>
                         </div>
@@ -830,6 +830,9 @@
                 data: {
                     'Id': Id
                 },
+                success: function(response) {
+                  
+                }
             });
         });
     });
