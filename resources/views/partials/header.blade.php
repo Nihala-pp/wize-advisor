@@ -298,12 +298,12 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@6.1.5/index.global.min.js"></script>
-    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/42d5adcbca.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/datatables.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
-    <script src="{{ asset('public/assets/js/plugins/multistep-form.js') }}"></script>
+    <!-- <script src="{{ asset('public/assets/js/plugins/multistep-form.js') }}"></script> -->
     <script src="{{ asset('public/assets/js/plugins/choices.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/countup.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
