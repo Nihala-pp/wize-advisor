@@ -2682,8 +2682,13 @@
             // Display all events of the selected date in card views
             function show_events(events, month, day) {
                 // Clear the dates container
+                const d = new Date();
                 var new_month = getMonthFromString(month);
-                var month_name = getMonthName(new_month);
+                if (month[d.getMonth()] == month) {
+                    month_name = month;
+                } else {
+                    month_name = getMonthName(month);
+                }
                 console.log(month_name);
                 $(".events-container").empty();
                 $(".events-container").show(250);
@@ -2692,7 +2697,8 @@
                 if (events.length === 0) {
                     // console.log(getMonth(month));
                     var event_card = $("<div class='event-card'></div>");
-                    var event_name = $("<div class='event-name'>There are no events planned for " + month_name + " " +
+                    var event_name = $("<div class='event-name'>There are no events planned for " + month_name +
+                        " " +
                         day +
                         ".</div>");
                     $(event_card).css({
@@ -2847,7 +2853,7 @@
             function getMonthName(month) {
                 console.log(month);
                 const d = new Date();
-                d.setMonth(month-1);
+                d.setMonth(month - 1);
                 const monthName = d.toLocaleString("default", {
                     month: "long"
                 });
