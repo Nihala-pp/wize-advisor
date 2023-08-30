@@ -2689,6 +2689,7 @@
                     console.log(month[d.getMonth()]);
                     month_name = month;
                 } else {
+                    console.log("in else");
                     month_name = getMonthName(new_month);
                 }
                 // console.log(month_name);
