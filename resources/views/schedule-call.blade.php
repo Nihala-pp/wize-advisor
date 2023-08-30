@@ -2577,8 +2577,8 @@
         </script>
         <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
             id="theplus-front-js-js" defer></script> -->
-        <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
-            id="hfe-frontend-js-js"></script>
+        <!-- <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
+            id="hfe-frontend-js-js"></script> -->
         <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
             id="elementor-webpack-runtime-js"></script>
         <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
