@@ -2692,7 +2692,7 @@
                 if (events.length === 0) {
                     // console.log(getMonth(month));
                     var event_card = $("<div class='event-card'></div>");
-                    var event_name = $("<div class='event-name'>There are no events planned for " + month + " " +
+                    var event_name = $("<div class='event-name'>There are no events planned for " + month_name + " " +
                         day +
                         ".</div>");
                     $(event_card).css({
