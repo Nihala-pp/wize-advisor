@@ -224,6 +224,7 @@ class MentorController extends Controller
             $exists = AvailableSchedule::where('mentor_id', Auth::id())
                 ->where('date', $schedule['date'])
                 ->where('start_time', $schedule['start_time'])
+                ->where('time_zone', $request->time_zone)
                 ->first();
 
             if ($exists) {
@@ -457,24 +458,25 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 <?php
         }
 
-        $schedule = [
-            'mentor_id' => Auth::id(),
-            'start_time' => $request->start_time,
-            'end_time' => $request->end_time,
-            'date' => $request->date,
-            'time_zone' => $request->time_zone
-        ];
-
-        AvailableSchedule::find($request->row_id)->update($schedule);
-
-        $notification = array(
-            'message' => 'Availability Updated Successfully!',
-            'alert-type' => 'success'
-        );
-
-        return redirect()->route('mentor.dashboard.availability')
-            ->with($notification, 'Availability Updated Successfully!');
-
+        else {
+            $schedule = [
+                'mentor_id' => Auth::id(),
+                'start_time' => $request->start_time,
+                'end_time' => $request->end_time,
+                'date' => $request->date,
+                'time_zone' => $request->time_zone
+            ];
+    
+            AvailableSchedule::find($request->row_id)->update($schedule);
+    
+            $notification = array(
+                'message' => 'Availability Updated Successfully!',
+                'alert-type' => 'success'
+            );
+    
+            return redirect()->route('mentor.dashboard.availability')
+                ->with($notification, 'Availability Updated Successfully!');
+        }
     }
 
     public function deleteAvailability(Request $request)
