@@ -2683,8 +2683,8 @@
             function show_events(events, month, day) {
                 // Clear the dates container
                 const d = new Date();
-                // var new_month = getMonthFromString(month);
-                var month_name = getMonthName(new_month);
+                var new_month = getMonthFromString(month);
+                // var month_name = getMonthName(new_month);
                 if (month[d.getMonth()] == month) {
                     month_name = month;
                 } else {
