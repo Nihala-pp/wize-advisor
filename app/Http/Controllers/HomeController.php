@@ -47,7 +47,12 @@ class HomeController extends Controller
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::get()->count();
 
-    return view('home', compact('mentors', 'users', 'calls'));
+    if(Auth::id()) {
+      return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+    }
+    else {
+      return view('home', compact('mentors', 'users', 'calls'));
+    }
   }
 
   public function profile($id)
