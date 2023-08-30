@@ -186,6 +186,7 @@
                                     </thead>
                                     <tbody>
                                         @foreach($availability as $avail)
+                                        <input type="hidden" name="id" class="id" value="{{ $avail->id }}">
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
@@ -822,7 +823,7 @@
         });
 
         $('body').on('click', '.delete', function() {
-            var Id = $(this).data('id');
+            var Id = $('.id').val();
             $.ajax({
                 url: "{{ route('mentor.dashboard.availability.delete') }}",
                 type: "GET",
