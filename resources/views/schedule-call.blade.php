@@ -2,26 +2,19 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <script>
-    var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
-    var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
-    var theplus_nonce = "db7101d24";
-    </script> -->
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://wiseadvizor.com/public/assets/css/style.css">
     <meta name="robots" content="max-image-preview:large">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="applicatio/rss+xml" title="wiseAdvizor &raquo; Feed" href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/') }}">
     <!-- <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" /> -->
     <style id="wp-block-library-inline-css">
     :root {
