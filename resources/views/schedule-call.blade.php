@@ -2687,7 +2687,7 @@
                 console.log(event_data["events"]);
                 // If there are no events for this date, notify the user
                 if (events.length === 0) {
-                    console.log(month.getMonth());
+                    console.log(getMonth(month));
                     var event_card = $("<div class='event-card'></div>");
                     var event_name = $("<div class='event-name'>There are no events planned for " + month + " " +
                         day +
