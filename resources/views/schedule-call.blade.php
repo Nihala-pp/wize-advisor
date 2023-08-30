@@ -2705,7 +2705,7 @@
                 // If there are no events for this date, notify the user
                 if (events.length === 0) {
                     var event_card = $("<div class='event-card'></div>");
-                    var event_name = $("<div class='event-name'>There are no events planned for " + month + " " +
+                    var event_name = $("<div class='event-name'>There are no events planned for " + month-1 + " " +
                         day +
                         ".</div>");
                     $(event_card).css({
