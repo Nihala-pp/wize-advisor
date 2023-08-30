@@ -2856,9 +2856,6 @@
         <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script>
         <script type="text/javascript">
         (function($) {
-
-            "use strict";
-
             // Setup the calendar with the current date
             $(document).ready(function() {
                 var date = new Date();
