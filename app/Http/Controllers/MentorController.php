@@ -540,12 +540,18 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     {
        MentorsExperience::find($request->Id)->delete();
 
-        $notification = array(
-            'message' => 'Deleted Successfully!',
-            'alert-type' => 'success'
-        );
+        // $notification = array(
+        //     'message' => 'Deleted Successfully!',
+        //     'alert-type' => 'success'
+        // );
+?>
+<script type="text/javascript">
+alert("Slot has been deleted!");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php
 
-        return redirect()->route('mentor.dashboard.experience')
-            ->with($notification, 'Deleted Successfully!');
+        // return redirect()->route('mentor.dashboard.experience')
+        //     ->with($notification, 'Deleted Successfully!');
     }
 }
