@@ -374,7 +374,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             $authorization_code = $this->get_authorization_code($api_url);
 
             $code = $request->code;
-            dd($code);
+            // dd($code);
 
             $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
 
@@ -495,7 +495,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         ?>
 <script type="text/javascript">
-alert("Slot has been deleted!");
+alert("Slot has been deleted !");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php
