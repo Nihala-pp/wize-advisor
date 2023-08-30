@@ -2684,10 +2684,11 @@
                 // Clear the dates container
                 const d = new Date();
                 var new_month = getMonthFromString(month);
+                var month_name = getMonthName(new_month);
                 if (month[d.getMonth()] == month) {
                     month_name = month;
                 } else {
-                    month_name = getMonthName(month);
+                    month_name = getMonthName(new_month);
                 }
                 console.log(month_name);
                 $(".events-container").empty();
