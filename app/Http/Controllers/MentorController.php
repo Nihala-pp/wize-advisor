@@ -84,7 +84,7 @@ class MentorController extends Controller
     {
         $timezones = AvailableSchedule::timezones();
         $weekStartDate = Carbon::parse('this monday')->toDateString();
-        $availability = AvailableSchedule::where('mentor_id', Auth::id())->orderby('id', 'desc')->get();
+        $availability = AvailableSchedule::where('mentor_id', Auth::id())->whereNotNull('date')->whereNotNull('start_time')->orderby('id', 'desc')->get();
 
         return view('mentors.availability', compact('timezones', 'weekStartDate', 'availability'));
     }
