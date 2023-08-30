@@ -2686,10 +2686,10 @@
                 var new_month = getMonthFromString(month);
                 // var month_name = getMonthName(new_month);
                 if (month[d.getMonth()] === month) {
-                    console.log(month[d.getMonth()]);
+                    
                     month_name = month;
                 } else {
-                    console.log("in else");
+                    console.log(month[d.getMonth()]);                    
                     month_name = getMonthName(new_month);
                 }
                 // console.log(month_name);
