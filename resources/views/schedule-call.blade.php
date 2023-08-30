@@ -19,81 +19,10 @@
         href="{{ asset('public/comments/feed/') }}">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
-    <script>
-    window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
-            }
-        }
-        /*! This file is auto-generated */
-        ! function(e, a, t) {
-            var n, r, o, i = a.createElement("canvas"),
-                p = i.getContext && i.getContext("2d");
-
-            function s(e, t) {
-                p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
-                e = i.toDataURL();
-                return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
-            }
-
-            function c(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript",
-                    a.getElementsByTagName("head")[0].appendChild(t)
-            }
-            for (o = Array("flag", "emoji"), t.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
-                if (p && p.fillText) switch (p.textBaseline = "top",
-                    p.font = "600 32px Arial", e) {
-                    case "flag":
-                        return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") &&
-                            !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿", "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
-                    case "emoji":
-                        return !s("🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
-                }
-                return !1
-            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t
-                .supports
-                .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
-                .readyCallback = function() {
-                    t.DOMReady = !0
-                }, t.supports.everything || (n = function() {
-                        t.readyCallback()
-                    },
-                    a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
-                        1)) :
-                    (e.attachEvent("onload", n), a.attachEvent("onreadystatechnge", function() {
-                        "complete" === a.readyState &&
-                            t.readyCallback()
-                    })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji &&
-                    (c(e.twemoji), c(e.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
-    <style>
-    img.wp-smiley,
-    img.emoji {
-        display: inline !important;
-        border: none !important;
-        box-shadow: none !important;
-        height: 1em !important;
-        width: 1em !important;
-        margin: 0 0.07em !important;
-        vertical-align: -0.1em !important;
-        background: none !important;
-        padding: 0 !important;
-    }
-    </style>
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -304,53 +233,14 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
-    /* 
-                ul {
-                    list-style-type: none;
-                    margin: 0;
-                    padding: 0;
-
-                }
-
-                .e-7s-user {
-                    margin-right: 20px;
-                    align: center;
-                }
-
-                .elementor-button-wrapper .browse {
-                    margin-left: 20px;
-                }
-
-                .enuITem {
-                    margin-left: 30px;
-                }
-
-                .name {
-                    font-size: 13px;
-                    line-height: 0em;
-                    margin-right: 20px;
-                }
-
-                .menu {
-                    font-size: 12px;
-                    text-align: center;
-                } */
-
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
             --wp-admin--admin-bar--position-offset: 0px;
         }
     }
 
-    <style><link rel="preload"
-    href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
-    as="style"id="tpgb-fontawesome"media="all"onload="this.onload=nul;this.rel='stylesheet'"><noscript><link rel="stylesheet"id="tpgb-fontawesome-css"
-    href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
-    media="all"></noscript><link rel="stylesheet"id="tpgb-gfonts-global-css"
-    href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
-
-    media="all"><link rel="stylesheet"id="plus-global-css"href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954') }}"media="all"><style id="global-styles-inline-css">bdy {
-        --wp--preset--color--black: #000000;
+    <style><style id="global-styles-inline-css">bdy {
+        p --wp--preset--color--black: #000000;
         --wp--preset--color--cyan-bluish-gray: #abb8c3;
         --wp--preset--color--white: #ffffff;
         --wp--preset--color--pale-pink: #f78da7;
@@ -929,60 +819,11 @@
         font-family: var(--wp--preset--font-family--source-serif-pro) !important;
     }
 
-    /* ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .pe-7s-user {
-        margin-right: 20px;
-        align: center;
-    } */
-
     .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
 
-    /* .menuITem {
-        margin-left: 30px;
-    }
-
-    .name {
-        font-size: 13px;
-        line-height: 0em;
-        margin-right: 20px;
-    }
-
-
-
-    .menu {
-        font-size: 12px;
-        text-align: center;
-    } */
     </style>
-    <link rel="stylesheet" id="niso-carousel-fontello-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0') }}"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-owl-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0') }}"
-        media="all">
-    <link rel="stylesheet" id="niso-theme-default-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0') }}"
-        media="all">
-    <link rel="stylesheet" id="niso-animate-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18') }}"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18') }}"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0') }}"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0') }}"
-        media="all">
     <style id="wp-webfonts-inline-css">
     @font-face {
         font-family: "Source Serif Pro";
@@ -1074,9 +915,9 @@
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js"></script>
+    <!-- <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js"></script>
     <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}" id="jquery-migrate-js">
-    </script>
+    </script> -->
     <script
         src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}"
         id="font-awesome-4-shim-js"></script>
@@ -1189,7 +1030,6 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772 success">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
@@ -2612,107 +2452,6 @@
             z-index: 100000;
         }
         </style>
-        <style type="text/css">
-        /* widget: Card Carousel */
-
-        #uc_card_carousel_elementor_4706453-wrapper {
-            min-height: 1px;
-        }
-
-        #uc_card_carousel_elementor_4706453 * {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-        }
-
-        #uc_card_carousel_elementor_4706453 .ue-carousel-item {
-            overflow: hidden;
-            transition: 0.3s;
-        }
-
-        #uc_card_carousel_elementor_4706453 .uc_classic_carousel_container_holder {
-            display: block;
-            position: relative;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .card_carousel_title {
-            font-size: 21px;
-        }
-
-        .uc_classic_carousel .uc_classic_carousel_border {
-            display: block;
-            margin: 0 auto;
-        }
-
-        .uc_classic_carousel .uc_classic_carousel_placeholder img {
-            width: 100%;
-
-            display: inline-flex;
-        }
-
-        .uc_classic_carousel .uc_classic_carousel_content {
-            display: flex;
-            flex-flow: column nowrap;
-        }
-
-        .uc_classic_carousel .ue_button {
-            margin-top: auto;
-
-        }
-
-        .uc_classic_carousel .uc_classic_carousel_content .uc_more_btn {
-            display: inline-block;
-            text-decoration: none;
-            transition: all 0.5s ease;
-        }
-
-
-        #uc_card_carousel_elementor_4706453 .owl-dots {
-            overflow: hidden;
-            text-align: center;
-        }
-
-        #uc_card_carousel_elementor_4706453 .owl-dot {
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        #uc_card_carousel_elementor_4706453 .owl-nav .owl-prev {
-            position: absolute;
-            display: inline-block;
-            text-align: center;
-        }
-
-        #uc_card_carousel_elementor_4706453 .owl-nav .owl-next {
-            position: absolute;
-            display: inline-block;
-            text-align: center;
-        }
-
-        #uc_card_carousel_elementor_4706453 .owl-nav .disabled {
-            display: none;
-        }
-
-
-        #uc_card_carousel_elementor_4706453 .ue-item-icon {
-            line-height: 1em;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        #uc_card_carousel_elementor_4706453 .ue-item-icon svg {
-            height: 1em;
-            width: 1em;
-        }
-
-        #uc_card_carousel_elementor_4706453 .ue-item-icon-wrapper {
-            display: flex;
-        }
-        </style>
         <script>
         (function() {
             var skipLinkTarget = document.querySelector('main'),
@@ -2751,7 +2490,7 @@
             sibling.parentElement.insertBefore(skipLink, sibling);
         }());
         </script>
-        <script
+        <!-- <script
             src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
             id="niso-carousel-owl.min-js"></script>
         <script
@@ -2779,16 +2518,16 @@
         <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
         </script>
         <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
-            id="theplus-front-js-js" defer></script>
+            id="theplus-front-js-js" defer></script> -->
         <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
             id="hfe-frontend-js-js"></script>
-        <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
+        <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
             id="elementor-webpack-runtime-js"></script>
         <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
             id="elementor-frontend-modules-js"></script>
         <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
-            id="elementor-waypoints-js"></script>
-        <script id="elementor-frontend-js-before">
+            id="elementor-waypoints-js"></script> -->
+        <!-- <script id="elementor-frontend-js-before">
         var elementorFrontendConfig = {
             "environmentMode": {
                 "edit": false,
@@ -2909,8 +2648,8 @@
                 "featuredImage": false
             }
         };
-        </script>
-        <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+        </script> -->
+        <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
             id="elementor-frontend-js"></script>
         <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
             id="wp-polyfill-inert-js"></script>
@@ -3043,7 +2782,7 @@
         </script>
         <script
             src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
-            id="wpforms-elementor-js"></script>
+            id="wpforms-elementor-js"></script> -->
         <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                 crossorigin="anonymous">
@@ -3058,8 +2797,8 @@
         <script src="{{ asset('public/assets/js/popper.js') }}"></script>
         <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('public/assets/js/main.js') }}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
-        </script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
+        </script> -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
