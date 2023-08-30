@@ -2552,7 +2552,7 @@
                         row.append(curr_date);
                     } else {
                         var curr_date = $("<td class='table-date'>" + day + "</td>");
-                        var events = check_events(day, month + 1, year);
+                        var events = check_events(day, month, year);
                         if (today === day && $(".active-date").length === 0) {
                             curr_date.addClass("active-date");
                             show_events(events, months[month], day);
@@ -2794,7 +2794,7 @@
                         "day": 10
                     },
                     {
-                        "occasion": " Repeated Test Event ",
+                        "occasion": "Repeated Test Event ",
                         "invited_count": 120,
                         "year": 2020,
                         "month": 5,
