@@ -330,7 +330,7 @@
                                                 <i class="fa fa-plus rowAdder2 ml-2" id="rowAdder2"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput2" class="newinpu2t"></div>
+                                        <div id="newinput2" class="newinput2"></div>
                                     </div>
                                     <hr>
                                     <div class="row">
