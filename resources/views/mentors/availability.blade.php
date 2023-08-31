@@ -603,6 +603,7 @@
         });
 
         $(document).on('click', 'i.DeleteRow5', function() {
+            alert("hiiiii");
             let row_number = 55;
             if (row_number > 55) {
                 $(this).closest('.row').remove();
