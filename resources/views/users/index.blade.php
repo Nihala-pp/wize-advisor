@@ -326,6 +326,11 @@
         font-size: 15px;
     }
 
+    i.fas.fa-bell {
+        height: 5px;
+        width: 75px;
+    }
+
     /* ul {
         list-style-type: none;
         margin: 0;
