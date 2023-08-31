@@ -327,7 +327,7 @@
     }
 
     i.fas.fa-bell {
-        height: 10px;
+        height: 25px;
         width: 100px;
     }
 
