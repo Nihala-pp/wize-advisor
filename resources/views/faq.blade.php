@@ -1535,6 +1535,10 @@
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuAvatar">
                                                 <li>
+                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                        Dashboard</a>
+                                                </li>
+                                                <li>
                                                     <a class="dropdown-item"
                                                         href="{{ route('user.profile', [Auth::id()]) }}">My
                                                         Profile</a>
@@ -3585,55 +3589,55 @@
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
-    <script type = "text/javascript" >
-        (function($) {
-            "use strict";
-            $(document).ready(function() {
-                $('#niso-carousel-952.owl-carousel').owlCarousel({
-                    //Multiple carousel settings
-                    items: 4,
-                    loop: true,
-                    autoplay: true,
-                    autoplaySpeed: 300,
-                    autoplayTimeout: 3000,
-                    autoplayHoverPause: true,
-                    slideBy: 1,
-                    smartSpeed: 250,
-                    nav: false,
-                    dots: true,
-                    dotsSpeed: 250,
-                    mouseDrag: true,
-                    touchDrag: true,
-                    pullDrag: true,
-                    freeDrag: false,
-                    center: false,
-                    stagePadding: 0,
-                    startPosition: 0,
-                    lazyLoad: false,
-                    rtl: false,
-                    video: false,
-                    autoHeight: false,
-                    responsive: {
-                        0: {
-                            items: 1,
-                            nav: false
-                        },
-                        600: {
-                            items: 2,
-                        },
-                        960: {
-                            items: 3,
-                        },
-                        1300: {
-                            items: 4,
-                        }
+    <script type="text/javascript">
+    (function($) {
+        "use strict";
+        $(document).ready(function() {
+            $('#niso-carousel-952.owl-carousel').owlCarousel({
+                //Multiple carousel settings
+                items: 4,
+                loop: true,
+                autoplay: true,
+                autoplaySpeed: 300,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                slideBy: 1,
+                smartSpeed: 250,
+                nav: false,
+                dots: true,
+                dotsSpeed: 250,
+                mouseDrag: true,
+                touchDrag: true,
+                pullDrag: true,
+                freeDrag: false,
+                center: false,
+                stagePadding: 0,
+                startPosition: 0,
+                lazyLoad: false,
+                rtl: false,
+                video: false,
+                autoHeight: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    960: {
+                        items: 3,
+                    },
+                    1300: {
+                        items: 4,
                     }
-                })
+                }
+            })
 
 
 
-            });
-        }(jQuery));
+        });
+    }(jQuery));
     </script>
 </body>
 

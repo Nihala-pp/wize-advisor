@@ -328,11 +328,11 @@
         text-align: center;
     } */
 
-    @media screen and (max-width:600px) {
-        html :where(.is-position-sticky) {
-            --wp-admin--admin-bar--position-offset: 0px
+        @media screen and (max-width:600px) {
+            html :where(.is-position-sticky) {
+                --wp-admin--admin-bar--position-offset: 0px
+            }
         }
-    }
     </style>
     <link rel="preload"
         href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
@@ -1532,6 +1532,10 @@
                                             </a>
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuAvatar">
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                        Dashboard</a>
+                                                </li>
                                                 <li>
                                                     <a class="dropdown-item"
                                                         href="{{ route('user.profile', [Auth::id()]) }}">My

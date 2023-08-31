@@ -1401,6 +1401,10 @@
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuAvatar">
                                                 <li>
+                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                        Dashboard</a>
+                                                </li>
+                                                <li>
                                                     <a class="dropdown-item"
                                                         href="{{ route('user.profile', [Auth::id()]) }}">My
                                                         Profile</a>
@@ -2867,4 +2871,5 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
+
 </html>

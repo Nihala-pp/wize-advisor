@@ -1537,6 +1537,10 @@
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuAvatar">
                                                 <li>
+                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                        Dashboard</a>
+                                                </li>
+                                                <li>
                                                     <a class="dropdown-item"
                                                         href="{{ route('user.profile', [Auth::id()]) }}">My
                                                         Profile</a>
