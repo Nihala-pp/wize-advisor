@@ -224,7 +224,7 @@ class MentorController extends Controller
                 ->where('date', $schedule['date'])
                 ->where('start_time', $schedule['start_time'])
                 ->where('time_zone', $request->time_zone)
-                ->empty('deleted_at')
+                ->whereNull('deleted_at')
                 ->first();
 
             if ($exists) {
