@@ -325,11 +325,11 @@
     a {
         font-size: 15px;
     }
-
+/* 
     i.fas.fa-bell {
         height: 75px;
         width: 1256px;
-    }
+    } */
 
     /* ul {
         list-style-type: none;
