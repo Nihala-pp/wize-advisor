@@ -1560,7 +1560,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="dropdown" style="margin-right:25px">
+                                            <div class="dropdown" style="padding-right:25px">
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
