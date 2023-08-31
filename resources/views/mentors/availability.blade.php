@@ -602,7 +602,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.DeleteRow5', function() {
+        $(document).on('click', 'i.fa fa-trash.DeleteRow5', function() {
             alert("hiiiii");
             let row_number = 55;
             if (row_number > 55) {
@@ -720,7 +720,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.DeleteRow2', function() {
+        $(document).on('click', 'i.fa fa-trash.DeleteRow2', function() {
             let row_number = 22;
             if (row_number > 22) {
                 $(this).closest('.row').remove();
