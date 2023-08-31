@@ -53,22 +53,20 @@
             }, r = 0; < o.length; r++) t.supports[o[r]] = function(e) {
                 if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
                     case "flag":
-                        return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") && !s(
-                            "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                            "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+                        return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") && !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
                     case "emoji":
                         return !s("🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
                 }
                 return !1
-            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !==
-            o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1,
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], 
+            "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+             t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1,
             t.readyCallback = function() {
                 t.DOMReady = !0
             }, t.supports.everything || (n = function() {
                 t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e
-                .addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange",
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), 
+               e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange",
                 function() {
                     "complete" === a.readyState && t.readyCallback()
                 })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji),
