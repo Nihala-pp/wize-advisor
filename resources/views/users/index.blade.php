@@ -327,8 +327,8 @@
     }
 
     i.fas.fa-bell {
-        height: 50px;
-        width: 100px;
+        height: 75px;
+        width: 1256px;
     }
 
     /* ul {
