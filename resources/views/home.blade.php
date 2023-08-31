@@ -46,6 +46,7 @@
             t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0]
                 .appendChild(t)
         }
+
         for (o = Array("flag", "emoji"), t.supports = {
                 everything: !0,
                 everythingExceptFlag: !0
@@ -60,17 +61,14 @@
                 }
                 return !1
             }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !==
-            o[r] && (t.supports
-                .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t
-            .DOMReady = !1, t
-            .readyCallback = function() {
+            o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1,
+            t.readyCallback = function() {
                 t.DOMReady = !0
             }, t.supports.everything || (n = function() {
                 t.readyCallback()
             }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e
-                .addEventListener("load", n, !
-                    1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange",
+                .addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange",
                 function() {
                     "complete" === a.readyState && t.readyCallback()
                 })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji),
