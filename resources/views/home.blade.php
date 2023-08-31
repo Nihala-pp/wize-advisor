@@ -1561,8 +1561,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+        </div>
+    </header>
     </div>
   </header>
 
