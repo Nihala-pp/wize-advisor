@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Home &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-    var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
-    var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
-    var theplus_nonce = "db17101d24";
+      var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
+      var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
+      var theplus_nonce = "db17101d24";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/') }}">
+    <link rel="dns-prefetch" href="fonts.googleapis.com">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed" href="{{ asset('public/feed/') }}">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"  href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet"> -->
 
@@ -28,8 +25,8 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.mn.js?ver=6.2.2"
-        }
+            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.mn.js?ver=6.2.2",
+        },
     };
     ! function(e, a, t) {
         var n, r, o, i = a.createElement("canvas"),
@@ -73,9 +70,7 @@
                     1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange",
                 function() {
                     "complete" === a.readyState && t.readyCallback()
-                })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji),
-                c(e
-                    .wpemoji)))
+                })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji),c(e.wpemoji)))
     }(window, document, window._wpemojiSettings);
     </script>
     <style>
