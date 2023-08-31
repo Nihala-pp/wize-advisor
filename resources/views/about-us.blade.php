@@ -3557,8 +3557,8 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script> -->
 
     <!-- <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
