@@ -48,7 +48,7 @@
         }
         for (o = Array("flag", "emoji"), t.supports = {
                 everything: !0,
-                everythingExceptFlag: !0
+                everythingExceptFlag: !0,
             }, r = 0; < o.length; r++) t.supports[o[r]] = function(e) {
                 if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
                     case "flag":
