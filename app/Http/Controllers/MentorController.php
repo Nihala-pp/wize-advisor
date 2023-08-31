@@ -220,7 +220,6 @@ class MentorController extends Controller
     {
         // dd($request->all());
         foreach ($request->schedule as $key => $schedule) {
-                dd($request->time_zone);
             $exists = AvailableSchedule::where('mentor_id', Auth::id())
                 ->where('date', $schedule['date'])
                 ->where('start_time', $schedule['start_time'])
