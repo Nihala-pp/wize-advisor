@@ -723,6 +723,8 @@
         $(document).on('click', 'i.fa fa-trash.DeleteRow2', function() {
             let row_number = 22;
             if (row_number > 22) {
+                var indexDelAgent = $(this).index('.deleteIcon') + 1;
+
                 $(this).closest('.row').remove();
                 row_number--;
 
