@@ -2725,7 +2725,7 @@
                                                                                     Str::words($mentor->metaData->bio,
                                                                                     '17') : '';
                                                                                     $result =
-                                                                                    preg_replace('~(\R{2})\R+~',
+                                                                                    preg_replace('~(\R{4})\R+~',
                                                                                     '$1',$str);
                                                                                     echo $result;
                                                                                     @endphp
