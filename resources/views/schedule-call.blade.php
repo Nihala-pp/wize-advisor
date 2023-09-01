@@ -1378,7 +1378,7 @@
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id())
                                     <div class="d-flex align-items-center">
-                                        <div class="dropdown">
+                                    <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">

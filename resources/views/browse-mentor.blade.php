@@ -1116,6 +1116,7 @@
     .mid-center {
         font-size: 16px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     .elementor-star-rating__wrapper {
