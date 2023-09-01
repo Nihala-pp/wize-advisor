@@ -2497,8 +2497,9 @@
                                             data-id="3af0bab" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">
-                                                    {{ $exp->start_date }} To {{ $exp->end_date ? $exp->end_date : 'Present' }}
+                                                <span class="elementor-heading-title elementor-size-default date">
+                                                    {{ $exp->start_date }} To
+                                                    {{ $exp->end_date ? $exp->end_date : 'Present' }}
                                                 </span>
                                             </div>
                                         </div>
@@ -2555,7 +2556,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-default">
-                                                    {{ $last_exp->start_date }} -
+                                                    {{ $last_exp->start_date }} To
                                                     {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
                                                 </span>
                                             </div>
@@ -2581,7 +2582,8 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                     aria-valuetext="100% (Paytm)">
                                                     <div class="elementor-progress-bar" data-max="100">
-                                                        <span class="elementor-progress-text">{{ $last_exp->company_name }}</span>
+                                                        <span
+                                                            class="elementor-progress-text">{{ $last_exp->company_name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -4328,10 +4330,7 @@
                         items: 4,
                     }
                 }
-            })
-
-
-
+            });
         });
     }(jQuery));
     </script>
