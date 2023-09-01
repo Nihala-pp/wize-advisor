@@ -2136,7 +2136,7 @@
                                 }
 
                                 span.date {
-                                    margin-bottom : 20px;
+                                    margin-bottom : 20px !important;
                                 }
                                 </style>
                                 <div class="elementor-divider">
