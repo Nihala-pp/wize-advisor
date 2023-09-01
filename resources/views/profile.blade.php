@@ -2139,6 +2139,10 @@
                                     margin-bottom : 20px !important;
                                 }
 
+                                div.elementor-widget-container.date2 {
+                                    margin-bottom : 25px !important;
+                                }
+
                                 </style>
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2559,7 +2563,7 @@
                                         <div class="elementor-element elementor-element-c95ee9d elementor-widget elementor-widget-heading"
                                             data-id="c95ee9d" data-element_type="widget"
                                             data-widget_type="heading.default">
-                                            <div class="elementor-widget-container date">
+                                            <div class="elementor-widget-container date2">
                                                 <span class="elementor-heading-title elementor-size-default">
                                                     {{ $last_exp->start_date }} To
                                                     {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
