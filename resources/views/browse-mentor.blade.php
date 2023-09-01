@@ -2224,6 +2224,10 @@
                                             .elementor-form .elementor-button .e-font-icon-svg {
                                                 height: 1em
                                             }
+
+                                            a.btn.btn-primary.center {
+                                                padding-right: 20px;
+                                            }
                                             </style>
                                             <form class="elementor-form" method="post" name="Subscribe Form">
                                                 <input type="hidden" name="post_id" value="32">
