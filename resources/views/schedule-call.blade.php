@@ -815,7 +815,7 @@
     }
 
     .card_carousel_title {
-        padding-top: 10px;
+        padding-top: 15px;
     }
 
     .card-title {
