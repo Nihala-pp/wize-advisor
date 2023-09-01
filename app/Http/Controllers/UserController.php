@@ -131,8 +131,9 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   {
     $id = Auth::id();
     $profile = User::find($id);
+    $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
 
-    return view('users.profile', compact('profile'));
+    return view('users.profile', compact('profile','scheduled_calls'));
   }
 
   public function getDateAvailability($scheduled_call)
