@@ -817,6 +817,10 @@
     .card_carousel_title {
         padding-top: 10px;
     }
+
+    .card-title {
+        padding-top: 10px;
+    }
     </style>
     <style id="wp-webfonts-inline-css">
     @font-face {
