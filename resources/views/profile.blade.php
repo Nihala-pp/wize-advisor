@@ -2500,8 +2500,8 @@
                                         <div class="elementor-element elementor-element-3af0bab elementor-widget elementor-widget-heading"
                                             data-id="3af0bab" data-element_type="widget"
                                             data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default date">
+                                            <div class="elementor-widget-container date">
+                                                <span class="elementor-heading-title elementor-size-default">
                                                     {{ $exp->start_date }} To
                                                     {{ $exp->end_date ? $exp->end_date : 'Present' }}
                                                 </span>
