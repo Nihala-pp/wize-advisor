@@ -2135,7 +2135,7 @@
                                     --flex-grow: var(--container-widget-flex-grow)
                                 }
 
-                                span.date {
+                                div.elementor-widget-container.date {
                                     margin-bottom : 20px !important;
                                 }
                                 </style>
