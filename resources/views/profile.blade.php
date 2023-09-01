@@ -2508,7 +2508,10 @@
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    {{ $exp->description }}
+                                                    @php
+                                                    $text = str_ireplace("<br />", "\r\n", $exp->description);
+                                                    echo $text;
+                                                    @endphp
                                                 </ul>
                                             </div>
                                         </div>
