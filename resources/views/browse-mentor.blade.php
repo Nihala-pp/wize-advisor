@@ -2227,7 +2227,7 @@
 
                                             a.btn.btn-primary.center {
                                                 margin-right: 30px !important;
-                                                font-size:18px !important;
+                                                font-size: 16px !important;
                                             }
                                             </style>
                                             <form class="elementor-form" method="post" name="Subscribe Form">
