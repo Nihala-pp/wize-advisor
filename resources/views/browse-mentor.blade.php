@@ -1870,7 +1870,7 @@
                     <div class="card" style="width: 22rem;">
                         <!-- <div class="card" style="width: 22rem;"> -->
                         <img class="card-img-top"
-                            src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->profile_pic : '' }}"
+                            src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                             alt="Card image cap" width="277" height="180">
                         <div class="card-body">
                             <h5 class="card-title text-center">{{ $mentor->name }}</h5>
