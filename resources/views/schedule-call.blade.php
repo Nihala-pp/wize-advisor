@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="utf-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -2782,18 +2783,35 @@
                 } else {
                     // Go through and add each event as a card to the events container
                     for (var i = 0; i < events.length; i++) {
-                        var event_card = $("<div class='event-card'></div>");
-                        var event_name = $("<div class='event-name'>" + events[i]["occasion"] + ":</div>");
-                        var event_count = $("<div class='event-count'>" + events[i]["invited_count"] +
-                            " Invited</div>");
+
+                        var event_card = $(
+                            "<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' value=" +
+                            events[i]["start_time"] +
+                            " style='background-color:white;border:solid;border-color:#007bff;  width:75%' required></button>"
+                            );
+                        var event_name = $("<div class='event-name'>" + events[i]["start_time"] + "</div>");
+                        // var event_count = $("<div class='event-count'>"+events[i]["invited_count"]+" Invited</div>");
                         if (events[i]["cancelled"] === true) {
                             $(event_card).css({
                                 "border-left": "10px solid #FF1744"
                             });
-                            event_count = $("<div class='event-cancelled'>Cancelled</div>");
+                            // event_count = $("<div class='event-cancelled'>Cancelled</div>");
                         }
-                        $(event_card).append(event_name).append(event_count);
+                        $(event_card).append(event_name);
                         $(".events-container").append(event_card);
+
+                        // var event_card = $("<div class='event-card'></div>");
+                        // var event_name = $("<div class='event-name'>" + events[i]["occasion"] + ":</div>");
+                        // var event_count = $("<div class='event-count'>" + events[i]["invited_count"] +
+                        //     " Invited</div>");
+                        // if (events[i]["cancelled"] === true) {
+                        //     $(event_card).css({
+                        //         "border-left": "10px solid #FF1744"
+                        //     });
+                        //     event_count = $("<div class='event-cancelled'>Cancelled</div>");
+                        // }
+                        // $(event_card).append(event_name).append(event_count);
+                        // $(".events-container").append(event_card);
                     }
                 }
             }
