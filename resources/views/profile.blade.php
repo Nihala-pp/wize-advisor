@@ -2138,6 +2138,10 @@
                                 div.elementor-widget-container.date {
                                     margin-bottom : 20px !important;
                                 }
+
+                                span.elementor-heading-title.elementor-size-default.date {
+                                    margin-bottom : 20px !important;
+                                }
                                 </style>
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
