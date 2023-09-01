@@ -2144,7 +2144,7 @@
                                 }
 
                                 div.elementor-widget-container.description > ul {
-                                    word-spacing:5px !important;
+                                    word-spacing:1.5px !important;
                                     align-content: left !important;
                                 }
                                 </style>
