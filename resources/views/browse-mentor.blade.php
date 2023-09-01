@@ -1875,7 +1875,9 @@
                         <div class="card-body">
                             <h5 class="card-title text-center">{{ $mentor->name }}</h5>
                             <p class="card-text text-center">
-                                {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }}
+                                {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}
+
+                                <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
                             </p>
                             <div class="d-grid gap-2 col-6 mx-auto">
                                 @if(Auth::id())
