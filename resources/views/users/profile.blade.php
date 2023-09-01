@@ -1557,8 +1557,7 @@
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuAvatar">
                                                     <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.dashboard') }}">My
+                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
                                                             Dashboard</a>
                                                     </li>
                                                     <li>
@@ -1762,23 +1761,37 @@
                                             <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                     class="text-dark">Expertise:</strong> &nbsp;
                                                 @php
-                                                $decoded = json_decode($profile->metaData->expertise, true);
-                                                echo $decoded;
+                                                $expertise = $profile->metaData ? $profile->metaData->expertise : '';
                                                 @endphp
+                                                @if(!empty($expertise))
+                                                @foreach(json_decode($expertise) as $expert)
+                                                {{ $expert }}
+                                                @endforeach
+                                                @endif
                                             </li>
                                             <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                     class="text-dark">Industry:</strong> &nbsp;
                                                 @php
-                                                $decoded = json_decode($profile->metaData->industry, true);
-                                                echo $decoded;
+                                                $industry = $profile->metaData ? $profile->metaData->industry : '';
                                                 @endphp
+
+                                                @if(!empty($industry))
+                                                @foreach(json_decode($industry) as $ind)
+                                                {{ $ind }}
+                                                @endforeach
+                                                @endif
                                             </li>
                                             <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                     class="text-dark">Language:</strong> &nbsp;
                                                 @php
-                                                $decoded = json_decode($profile->metaData->language, true);
-                                                echo $decoded;
+                                                $language = $profile->metaData ? $profile->metaData->language : '';
                                                 @endphp
+
+                                                @if(!empty($language))
+                                                @foreach(json_decode($language) as $lang)
+                                                {{ $lang }}
+                                                @endforeach
+                                                @endif
                                             </li>
                                             <li class="list-group-item border-0 ps-0 pb-0">
                                                 <strong class="text-dark text-sm">Social:</strong> &nbsp;
@@ -2185,7 +2198,7 @@
         <!--   Core JS Files   -->
         <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-        <script type = "text/javascript">
+        < script type = "text/javascript" >
             $(document).ready(function() {
                 $("#inactivate").click(function() {
                     var checkBoxes = $("input[name=account_status\\[\\]]");
@@ -2223,4 +2236,5 @@
         color: #001e64 !important;
     }
     </style>
+
 </html>
