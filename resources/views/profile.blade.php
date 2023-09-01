@@ -2136,13 +2136,16 @@
                                 }
 
                                 div.elementor-widget-container.date {
-                                    margin-bottom : 20px !important;
+                                    margin-bottom: 20px !important;
                                 }
 
                                 div.elementor-widget-container.date2 {
-                                    margin-bottom : 25px !important;
+                                    margin-bottom: 25px !important;
                                 }
 
+                                div.elementor-widget-container.description > ul {
+                                    word-spacing:20px !important;
+                                }
                                 </style>
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2573,7 +2576,7 @@
                                         <div class="elementor-element elementor-element-37316f5 elementor-widget elementor-widget-text-editor"
                                             data-id="37316f5" data-element_type="widget"
                                             data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
+                                            <div class="elementor-widget-container description">
                                                 <ul>
                                                     @php
                                                     $text = str_ireplace("<br />", "\r\n", $last_exp->description);
