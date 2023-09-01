@@ -2226,7 +2226,7 @@
                                             }
 
                                             a.btn.btn-primary.center {
-                                                padding-right: 20px;
+                                                margin-right: 20px;
                                             }
                                             </style>
                                             <form class="elementor-form" method="post" name="Subscribe Form">
