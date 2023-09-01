@@ -1114,9 +1114,9 @@
     }
 
     .mid-center {
-        font-size: 16px;
-        padding-left: 20px;
-        padding-right: 30px;
+        font-size: 16px !important;
+        padding-left: 20px !important;
+        padding-right: 30px !important;
     }
 
     .elementor-star-rating__wrapper {
