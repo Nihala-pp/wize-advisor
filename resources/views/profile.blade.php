@@ -1128,7 +1128,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "\http:\/\/localhost\/wiseAdvizor\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
@@ -1595,7 +1595,7 @@
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id())
                                     <div class="d-flex align-items-center">
-                                    <div class="dropdown">
+                                        <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
@@ -2461,8 +2461,7 @@
                         <div class="elementor-element elementor-element-a7cb679 elementor-widget elementor-widget-heading"
                             data-id="a7cb679" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Work
-                                    Experience</h3>
+                                <h3 class="elementor-heading-title elementor-size-default">Work Experience</h3>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-12b61d0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -4122,7 +4121,7 @@
             "e_scroll_snap": true
         },
         "urls": {
-            "assets": "\http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor\/assets\/"
+            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
         "swiperClass": "swiper",
         "settings": {
@@ -4171,11 +4170,11 @@
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
-        "ajaxurl": "\http:\/\/localhost\/wiseAdvizor\/wp-admin\/admin-ajax.php",
+        "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
         "nonce": "d9fea2930c",
         "urls": {
-            "assets": "\http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor-pro\/assets\/",
-            "rest": "\http:\/\/localhost\/wiseAdvizor\/wp-json\/"
+            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
+            "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
         },
         "i18n": {
             "toc_no_headings_found": "No headings were found on this page."
@@ -4250,7 +4249,7 @@
             "app_id": ""
         },
         "lottie": {
-            "defaultAnimationUrl": "\http:\/\/localhost\/wiseAdvizor\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+            "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
         }
     };
     </script>
