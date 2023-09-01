@@ -1727,7 +1727,8 @@
                 display: inline-block;
                 position: relative;
                 font-style: normal;
-                cursor: default
+                cursor: default;
+                font-size:80%;
             }
 
             .elementor-star-rating i:before {
