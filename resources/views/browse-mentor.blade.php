@@ -2226,7 +2226,7 @@
                                             }
 
                                             a.btn.btn-primary.center {
-                                                margin-right: 20px;
+                                                margin-right: 20px!important;
                                                 font-size:18px !important;
                                             }
                                             </style>
