@@ -2144,7 +2144,7 @@
                                 }
 
                                 div.elementor-widget-container.description > ul {
-                                    word-spacing:20px !important;
+                                    word-spacing:5px !important;
                                 }
                                 </style>
                                 <div class="elementor-divider">
