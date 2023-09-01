@@ -2134,6 +2134,10 @@
                                     width: var(--container-widget-width, 100%);
                                     --flex-grow: var(--container-widget-flex-grow)
                                 }
+
+                                span.date {
+                                    padding-bottom : 20px;
+                                }
                                 </style>
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2555,7 +2559,7 @@
                                             data-id="c95ee9d" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">
+                                                <span class="elementor-heading-title elementor-size-default date">
                                                     {{ $last_exp->start_date }} To
                                                     {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
                                                 </span>
