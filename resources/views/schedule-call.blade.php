@@ -2651,7 +2651,7 @@
                     var d = new Date();
                     var month_taken = event.data.month;
                     var new_month = getMonthFromString(month_taken);
-                    var month_name = getMonthName(new_month);
+                    // var month_name = getMonthName(new_month);
                     var mentor = $('.mentor').val();
                     var day = event.data.day;
 
@@ -2663,7 +2663,7 @@
                     // var new_month = getMonthFromString(month);
                     // var month_name = getMonthName(new_month);
 
-                    if (months[d.getMonth()] === month) {
+                    if (months[d.getMonth()] === month_taken) {
                         month_name = month;
                     } else {
                         month_name = getMonthName(new_month);
