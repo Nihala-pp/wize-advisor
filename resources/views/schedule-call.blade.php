@@ -2531,6 +2531,31 @@
                 init_calendar(date);
                 var events = check_events(today, date.getMonth() + 1, date.getFullYear());
                 show_events(events, months[date.getMonth()], today);
+
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+
+                $("body").on('click', '#payNow', function() {
+                    // var time = $('.event-card').val();
+                    var formdata = $('.scheduleCallForm').serialize();
+                    return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
+                        method: 'POST',
+                        data: {
+                            "data": formdata,
+                        },
+                        success: function(response) {
+                            $('.success').html(response);
+                        }
+                    });
+                });
+
+                $("body").on('click', '.event-card', function() {
+                    var fired_button = $(this).val();
+                    $('body').find('.time').val(fired_button);
+                });
             });
 
             // Initialize the calendar by appending the HTML dates
