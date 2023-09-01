@@ -2664,7 +2664,7 @@
                     // var month_name = getMonthName(new_month);
 
                     if (months[d.getMonth()] === month_taken) {
-                        month_name = month;
+                        month_name = month_taken;
                     } else {
                         month_name = getMonthName(new_month);
                     }
