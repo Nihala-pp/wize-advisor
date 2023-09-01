@@ -1876,7 +1876,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-center">{{ $mentor->name }}</h5>
                             <p class="card-text text-center">
-                                {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}
+                                {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(99) : '' }}
 
                                 <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
                             </p>
