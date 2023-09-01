@@ -969,6 +969,14 @@
         padding-right: 70px;
     }
 
+    .card_carousel_title {
+        padding-top:15px;
+    }
+
+    .card-title {
+        padding-top:10px;
+    }
+
     /* .timezone {
 	margin-left:85px;
   } */
