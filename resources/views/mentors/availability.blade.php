@@ -602,7 +602,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.fa fa-trash.DeleteRow5', function() {
+        $(document).on('click', 'i.fa.fa-trash.DeleteRow5', function() {
             alert("hiiiii");
             let row_number = 55;
             if (row_number > 55) {
@@ -642,7 +642,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.DeleteRow6', function() {
+        $(document).on('click', 'i.fa.fa-trash.DeleteRow6', function() {
             let row_number = 66;
             if (row_number > 66) {
                 $(this).closest('.row').remove();
@@ -681,7 +681,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.DeleteRow1', function() {
+        $(document).on('click', 'i.fa.fa-trash.DeleteRow1', function() {
             let row_number = 11;
             if (row_number > 11) {
                 $(this).closest('.row').remove();
@@ -720,7 +720,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.fa fa-trash.DeleteRow2', function() {
+        $(document).on('click', 'i.fa.fa-trash.DeleteRow2', function() {
             let row_number = 22;
             if (row_number > 22) {
                 var indexDelAgent = $(this).index('.deleteIcon') + 1;
@@ -761,7 +761,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.DeleteRow3', function() {
+        $(document).on('click', 'i.fa.fa-trash.DeleteRow3', function() {
             let row_number = 33;
             if (row_number > 33) {
                 $(this).closest('.row').remove();
@@ -800,7 +800,7 @@
             row_number++;
         });
 
-        $(document).on('click', 'i.DeleteRow4', function() {
+        $(document).on('click', 'i.fa.fa-trash.DeleteRow4', function() {
             let row_number = 44;
             if (row_number > 44) {
                 $(this).closest('.row').remove();
