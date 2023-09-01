@@ -2720,7 +2720,8 @@
                                                                             <div class="elementor-widget-container">
                                                                                 <p
                                                                                     class="elementor-heading-title elementor-size-default">
-                                                                                    @php
+                                                                                    {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}
+                                                                                    <!-- @php
                                                                                     $str = $mentor->metaData ?
                                                                                     Str::words($mentor->metaData->bio,
                                                                                     '17') : '';
@@ -2728,7 +2729,7 @@
                                                                                     preg_replace('~(\R{4})\R+~',
                                                                                     '$1',$str);
                                                                                     echo $result;
-                                                                                    @endphp
+                                                                                    @endphp -->
                                                                                     <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '17') : '' }} -->
                                                                                 </p>
                                                                             </div>
