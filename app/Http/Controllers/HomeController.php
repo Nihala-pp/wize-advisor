@@ -60,7 +60,7 @@ class HomeController extends Controller
     $data = User::find($id);
     $expertise = Expertise::where('mentor_id', $id)->get();
     $experience = MentorsExperience::where('user_id', $id)->take(2)->get();
-    $last_experience = MentorsExperience::where('user_id', $id)->skip(2)->take(10)->get();
+    $last_experience = MentorsExperience::where('user_id', $id)->skip(2)->take(3)->get();
     $achievements = MentorAchievements::where('mentor_id', $id)->get();
     // dd($achievements);
 

@@ -2582,8 +2582,7 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                     aria-valuetext="100% (Paytm)">
                                                     <div class="elementor-progress-bar" data-max="100">
-                                                        <span
-                                                            class="elementor-progress-text">{{ $last_exp->company_name }}</span>
+                                                        <span class="elementor-progress-text">{{ $last_exp->company_name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
