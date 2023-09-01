@@ -2145,7 +2145,7 @@
 
                                 div.elementor-widget-container.description > ul {
                                     word-spacing:0.1px !important;
-                                    align-content: left !important;
+                                    align-items: left !important;
                                 }
                                 </style>
                                 <div class="elementor-divider">
