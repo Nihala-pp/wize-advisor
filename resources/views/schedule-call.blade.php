@@ -2631,7 +2631,7 @@
                 $('body').find('.day').val(day);
                 var year = new Date().getFullYear();
                 $('body').find('.year').val(year);
-                var month = event.data.month;
+                var month = $(".month").index(this);
                 $('body').find('.month').val(month);
 
                 var timezone = $("#timezone").val();
