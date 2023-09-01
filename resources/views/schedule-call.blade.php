@@ -813,6 +813,10 @@
     .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
+
+    .card_carousel_title {
+        padding-top: 10px;
+    }
     </style>
     <style id="wp-webfonts-inline-css">
     @font-face {
@@ -1370,7 +1374,7 @@
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id())
                                     <div class="d-flex align-items-center">
-                                    <div class="dropdown">
+                                        <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
