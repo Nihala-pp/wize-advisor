@@ -1378,7 +1378,7 @@
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id())
                                     <div class="d-flex align-items-center">
-                                    <div class="dropdown">
+                                        <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
@@ -2599,7 +2599,40 @@
                 $("#dialog").hide(250);
                 $(".active-date").removeClass("active-date");
                 $(this).addClass("active-date");
-                show_events(event.data.events, event.data.month, event.data.day);
+
+                var mentor = $('.mentor').val();
+                var day = event.data.day;
+                // console.log(event.data);
+                $('body').find('.day').val(day);
+                var year = new Date().getFullYear();
+                $('body').find('.year').val(year);
+                var month = event.data.month;
+                $('body').find('.month').val(month);
+
+                var timezone = $("#timezone").val();
+
+                return $.ajax("https://wiseadvizor.com/getTimeAvailability", {
+                    method: 'POST',
+                    data: {
+                        "_token": $('meta[name="csrf-token"]').attr('content'),
+                        "mentor": mentor,
+                        "day": day,
+                        "month": month,
+                        "year": year,
+                        "timezone": timezone,
+                    },
+                    success: function(response) {
+                        var times = [];
+                        for (var key in response) {
+                            // console.log(response[key]);
+                            times.push({
+                                start_time: response[key],
+                            });
+                        }
+                        show_events(times, event.data.month, event.data.day);
+                    },
+                });
+                // show_events(event.data.events, event.data.month, event.data.day);
             };
 
             // Event handler for when a month is clicked
