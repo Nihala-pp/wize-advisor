@@ -2139,9 +2139,6 @@
                                     margin-bottom : 20px !important;
                                 }
 
-                                span.elementor-heading-title.elementor-size-default.date {
-                                    margin-bottom : 20px !important;
-                                }
                                 </style>
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2562,8 +2559,8 @@
                                         <div class="elementor-element elementor-element-c95ee9d elementor-widget elementor-widget-heading"
                                             data-id="c95ee9d" data-element_type="widget"
                                             data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default date">
+                                            <div class="elementor-widget-container date">
+                                                <span class="elementor-heading-title elementor-size-default">
                                                     {{ $last_exp->start_date }} To
                                                     {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
                                                 </span>
