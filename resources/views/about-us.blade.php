@@ -1446,11 +1446,12 @@
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                    <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
+                                                    <div class="hfe-has-submenu-container">
+                                                        <a href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div>
+                                                                    class="fa"></i></span></a>
+                                                    </div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -1501,80 +1502,83 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                            data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    @if(Auth::id())
-                                    <div class="d-flex align-items-center">
-                                        <div class="dropdown">
-                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <i class="fas fa-bell fa-lg"></i>
-                                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuLink">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Some news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Another news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </li>
-                                            </ul>
+                            <!-- </div> -->
+                            <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        @if(Auth::id())
+                                        <div class="d-flex align-items-center">
+                                            <div class="dropdown">
+                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-bell fa-lg"></i>
+                                                    <span
+                                                        class="badge rounded-pill badge-notification bg-danger">1</span>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuLink">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown" style="padding-right:30px">
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                        class="rounded-circle" height="8" width="100"
+                                                        alt="Black and White Portrait of a Man" loading="lazy" />
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuAvatar">
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                            Dashboard</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.review') }}">My
+                                                            Reviews</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="dropdown" style="padding-right:30px">
-                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                    class="rounded-circle" height="8" width="100"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" />
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuAvatar">
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                        Dashboard</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                        Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.review') }}">My
-                                                        Reviews</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
                                     </div>
-                                    @else
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('login') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Sign In</span>
-                                        </span>
-                                    </a>
-                                    @endif
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
-        </div>
-    </header>
+              </div>
+           </div>
+         </div>
+     </header>
     </div>
-    </header>
+  </header>
 
     <div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11">
         <section
