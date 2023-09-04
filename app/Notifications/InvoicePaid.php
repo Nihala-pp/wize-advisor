@@ -5,21 +5,18 @@ namespace App\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Support\Facades\Notification;
-use App\Models\User;
+use Illuminate\Notifications\Notification;
 
-class CustomNotification extends Notification
+class InvoicePaid extends Notification
 {
     use Queueable;
 
-    protected $user;
-
-     /**
+    /**
      * Create a new notification instance.
      */
-    public function __construct(User $user)
+    public function __construct()
     {
-        $this->user = $user;
+        //
     }
 
     /**
@@ -29,7 +26,7 @@ class CustomNotification extends Notification
      */
     public function via(object $notifiable): array
     {
-        return ['database'];
+        return ['mail'];
     }
 
     /**
@@ -38,9 +35,9 @@ class CustomNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-            ->line('The introduction to the notification.')
-            ->action('Notification Action', url('/'))
-            ->line('Thank you for using our application!');
+                    ->line('The introduction to the notification.')
+                    ->action('Notification Action', url('/'))
+                    ->line('Thank you for using our application!');
     }
 
     /**
@@ -48,11 +45,10 @@ class CustomNotification extends Notification
      *
      * @return array<string, mixed>
      */
-    public function toArray($notifiable): array
+    public function toArray(object $notifiable): array
     {
         return [
-            'name' => $this->user->name,
-            'email' => $this->user->email,
+            //
         ];
     }
 }

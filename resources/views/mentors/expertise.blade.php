@@ -12,7 +12,6 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
-
 <body class="g-sidenav-show  bg-gray-200">
     @include('mentors.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mb-3 mt-3">
@@ -38,7 +37,7 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}"
                                 class="nav-link text-body font-weight-bold px-0">
-                                <img src="{{ asset('public/assets/img/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
                                     class="avatar avatar-sm me-3" alt="xd">
                                 <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
                             </a>
@@ -152,10 +151,10 @@
                     <div class="mb-5 ps-3 text-end">
                         <h6 class="mb-1"></h6>
                         <p class="text-sm"></p>
-                        <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                        <!-- <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Add Blog
-                        </button>
+                        </button> -->
                     </div>
                     @if(!empty($blogs))
                     <div class="row">
@@ -179,8 +178,8 @@
                                         {{ $blog->description }}
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
-                                            Blog</button>
+                                        <!-- <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
+                                            Blog</button> -->
                                         <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -215,8 +214,7 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('mentor.blog.add') }}"
-                                    enctype="multipart/form-data">
+                                <form method="POST" enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" class="form-control" value="">
                                     <div class="input-group input-group-static mb-4">

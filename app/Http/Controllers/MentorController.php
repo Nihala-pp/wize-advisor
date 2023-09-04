@@ -37,8 +37,9 @@ class MentorController extends Controller
         $total_calls_approved = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->get()->count();
         $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Rejected')->get()->count();
         $total_earning = ScheduledCall::where('mentor_id', Auth::id())->sum('price');
+        $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->where('date', '>=', Carbon::now())->get();
 
-        return view('mentors.index', compact('total_calls_scheduled', 'total_calls_approved', 'total_calls_rejected', 'total_earning'));
+        return view('mentors.index', compact('total_calls_scheduled', 'total_calls_approved', 'total_calls_rejected', 'total_earning', 'scheduled_calls'));
     }
 
     public function my_sessions()

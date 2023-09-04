@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Notifications\NewReview;
 use Illuminate\Support\Facades\Auth;
 use App\Models\ScheduledCall;
 use App\Models\AvailableSchedule;
@@ -50,6 +51,17 @@ class UserController extends Controller
       'review' => $request->comment,
       'rating' => $request->rating,
     ]);
+
+    $user = User::find(Auth::id());
+    $mentor = User::find($request->mentor);
+  
+    $message = "{$user->name} added New Review for you";
+    // $messages["mentor"] = $request->mentor;
+    // $messages["user"] = Auth::id();
+          
+    // $user->notify(new BirthdayWish($messages));
+
+    $mentor->notify(new NewReview($mentor));
 
     ?>
 <script type="text/javascript">

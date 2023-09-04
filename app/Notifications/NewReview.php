@@ -3,18 +3,20 @@
 namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Support\Facades\Notification;
+use Illuminate\Notifications\Notification;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
-class CustomNotification extends Notification
+
+
+class NewReview extends Notification
 {
     use Queueable;
 
     protected $user;
 
-     /**
+    /**
      * Create a new notification instance.
      */
     public function __construct(User $user)
@@ -29,7 +31,7 @@ class CustomNotification extends Notification
      */
     public function via(object $notifiable): array
     {
-        return ['database'];
+        return ['database'];    
     }
 
     /**
@@ -38,9 +40,9 @@ class CustomNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-            ->line('The introduction to the notification.')
-            ->action('Notification Action', url('/'))
-            ->line('Thank you for using our application!');
+                    ->line('The introduction to the notification.')
+                    ->action('Notification Action', url('/'))
+                    ->line('Thank you for using our application!');
     }
 
     /**
@@ -48,11 +50,13 @@ class CustomNotification extends Notification
      *
      * @return array<string, mixed>
      */
-    public function toArray($notifiable): array
+    public function toArray(object $notifiable): array
     {
+        $user = Auth::user()->name;
         return [
-            'name' => $this->user->name,
-            'email' => $this->user->email,
+            'message' => "{$user} Added New Review For You.",
+            'mentor_id' => $this->user->id,
+            'user_id' =>  Auth::id(),
         ];
     }
 }
