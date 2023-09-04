@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="utf-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -1473,10 +1472,8 @@
                             <input type="hidden" class="price" name="price"
                                 value="{{ $mentor->metaData ? $mentor->metaData->price_per_call : '0' }}">
                             <input type="hidden" class="time" name="time" value="">
-                            <label class="form-label" style="color:black;">Description</label>
-                            <textarea class="form-control" rows="5" cols="5"
-                                placeholder="Please have a quick explanation regarding the topic" name="desc"
-                                required></textarea>
+<label class="form-label" style="color:black;">Description</label>
+<textarea id="desc" class="form-control" rows="5" cols="5" placeholder="Please have a quick explanation regarding the topic" name="desc" required></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
                             <input type="file" name="doc" class="form-control">
                     </div>
@@ -2539,6 +2536,8 @@
                 });
 
                 $("body").on('click', '#payNow', function() {
+                    var desc = $('#desc').val();
+                    var mentor = $('.mentor').val();
                     // var time = $('.event-card').val();
                     var formdata = $('.scheduleCallForm').serialize();
                     return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
@@ -2555,6 +2554,9 @@
                 $("body").on('click', '.event-card', function() {
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
+                     $(this).css('background-color', '#007bff');
+                     $(this).css('color', '#fff');
+
                 });
             });
 
@@ -2965,5 +2967,4 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
-
 </html>
