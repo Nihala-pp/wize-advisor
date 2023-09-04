@@ -151,6 +151,7 @@ Route::controller(MentorController::class)
         Route::post('/experience/save', 'saveExperience')->name('experience.save');
         Route::get('/experience/edit', 'editExperience')->name('experience.edit');
         Route::get('/experience/delete', 'deleteExperience')->name('experience.delete');
+        Route::get('/markNotification', 'markNotification')->name('markNotification');
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
 
