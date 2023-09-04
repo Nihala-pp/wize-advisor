@@ -154,10 +154,10 @@
                             <h6 class="mb-0"></h6>
                         </div>
                         <div class="col-6 text-end">
-                            <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                            <!-- <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Add Experience
-                            </button>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -177,9 +177,9 @@
                                         <!-- <button type="button" class="btn btn-block edit" data-id="{{ $exp->id }}"
                                             style="margin-left:90px;">
                                             <i class="fa fa-edit"></button></i> -->
-                                        <button type="button" class="btn btn-block delete" data-id="{{ $exp->id }}"
+                                        <!-- <button type="button" class="btn btn-block delete" data-id="{{ $exp->id }}"
                                             style="padding-left:5px;">
-                                            <i class="fa fa-trash"></button></i>
+                                            <i class="fa fa-trash"></button></i> -->
                                         <!-- <i class="fa fa-edit edit" style="margin-left:90px;"></i>
                                         <i class="fa fa-trash delete" style="padding-left:10px;"></i> -->
                                     </h4>
