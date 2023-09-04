@@ -441,9 +441,9 @@
                                         <tr>
                                             <td>
                                                 <div class="alert alert-info">
-                                                    <button type="button" aria-hidden="true" class="close">
+                                                    <!-- <button type="button" aria-hidden="true" class="close">
                                                         <i class="material-icons">close</i>
-                                                    </button>
+                                                    </button> -->
                                                     <span><b> {{ $notification->data['message'] }} </b>
                                                         <a href="#" class="float-right mark-as-read"
                                                             data-id="{{ $notification->id }}">
@@ -889,6 +889,26 @@
         }
         Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
+    </script>
+    <script type="text/javascript">
+    $(function() {
+        $('.mark-as-read').click(function() {
+            let request = sendMarkRequest($(this).data('id'));
+            request.done(() => {
+                $(this).parents('div.alert').remove();
+            });
+        });
+
+        function sendMarkRequest(id = null) {
+            return $.ajax("{{ route('mentor.markNotification') }}", {
+                method: 'POST',
+                data: {
+                    _token,
+                    id
+                }
+            });
+        }
+    });
     </script>
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
