@@ -56,7 +56,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white " href="{{ route('mentor.dashboard.my_sessions') }}">
+                    <a class="nav-link text-white" href="{{ route('mentor.dashboard.my_sessions') }}">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="fa fa-bell"></i>
                         </div>
