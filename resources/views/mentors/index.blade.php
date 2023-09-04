@@ -688,18 +688,22 @@
                         </div>
                         <div class="card-body p-3">
                             <div class="timeline timeline-one-side">
+                                @if(!empty($scheduled_calls))
                                 @foreach($scheduled_calls as $scheduled_call)
                                 <div class="timeline-block mb-3">
                                     <span class="timeline-step">
                                         <i class="material-icons text-success text-gradient">notifications</i>
                                     </span>
                                     <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0"> New Call Request From {{ $scheduled_call->user->name }} 
-                                            </h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">{{ $scheduled_call->date }} - {{ $scheduled_call->start_time }}</p>
+                                        <h6 class="text-dark text-sm font-weight-bold mb-0"> New Call Request From
+                                            {{ $scheduled_call->user->name }}
+                                        </h6>
+                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                            {{ $scheduled_call->date }} - {{ $scheduled_call->start_time }}</p>
                                     </div>
                                 </div>
                                 @endforeach
+                                @endif
                             </div>
                         </div>
                     </div>
