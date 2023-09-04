@@ -233,12 +233,14 @@ class MentorController extends Controller
             if ($exists) {
                 ?>
 <script type="text/javascript">
+                    alert("dssfdfds");
 alert("Slot already exists...Please try again with different slot");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php
             } 
             else {
+                dd("123");
                 //  dd($schedule['start_time']);
                 $data = [
                     'mentor_id' => Auth::id(),
