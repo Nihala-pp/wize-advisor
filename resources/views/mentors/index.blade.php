@@ -10,7 +10,6 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -274,8 +273,7 @@
                         </div>
                         <hr class="dark horizontal my-0">
                         <div class="card-footer p-3">
-                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+55% </span>than lask
-                                week</p>
+                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder"> </span></p>
                         </div>
                     </div>
                 </div>
@@ -295,8 +293,7 @@
                         </div>
                         <hr class="dark horizontal my-0">
                         <div class="card-footer p-3">
-                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+3% </span>than last
-                                week</p>
+                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder"> </span></p>
                         </div>
                     </div>
                 </div>
@@ -315,8 +312,7 @@
                         </div>
                         <hr class="dark horizontal my-0">
                         <div class="card-footer p-3">
-                            <p class="mb-0"><span class="text-danger text-sm font-weight-bolder">-2%</span> than last
-                                week</p>
+                            <p class="mb-0"><span class="text-danger text-sm font-weight-bolder"></span> </p>
                         </div>
                     </div>
                 </div>
@@ -336,8 +332,7 @@
                         </div>
                         <hr class="dark horizontal my-0">
                         <div class="card-footer p-3">
-                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+5% </span>than last
-                                week</p>
+                            <p class="mb-0"><span class="text-success text-sm font-weight-bolder"> </span></p>
                         </div>
                     </div>
                 </div>
@@ -451,7 +446,7 @@
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">New Profile Updated</h6>
+                                                        <h6 class="mb-0 text-sm"></h6>
                                                     </div>
                                                 </div>
                                             </td>
@@ -687,7 +682,7 @@
                             <h6>Upcoming Call</h6>
                             <p class="text-sm">
                                 <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
-                                <span class="font-weight-bold">24%</span> this month
+                                <span class="font-weight-bold"></span>
                             </p>
                         </div>
                         <div class="card-body p-3">
@@ -700,54 +695,6 @@
                                         <h6 class="text-dark text-sm font-weight-bold mb-0">Rescheduled the call for
                                             monday</h6>
                                         <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="material-icons text-danger text-gradient">code</i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">New call scheduled</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="material-icons text-info text-gradient"></i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">Payment for last call
-                                            proceeded</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="material-icons text-warning text-gradient">credit_card</i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order
-                                            #4395133</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block mb-3">
-                                    <span class="timeline-step">
-                                        <i class="material-icons text-primary text-gradient">key</i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">2 people show interest in
-                                            your profile </h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block">
-                                    <span class="timeline-step">
-                                        <i class="material-icons text-dark text-gradient">payments</i>
-                                    </span>
-                                    <div class="timeline-content">
-                                        <h6 class="text-dark text-sm font-weight-bold mb-0">New Schedule #9583120</h6>
-                                        <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
                                     </div>
                                 </div>
                             </div>
