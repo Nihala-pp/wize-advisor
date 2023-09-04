@@ -54,7 +54,7 @@ class NewCallRequest extends Notification
     {
         $user = Auth::user()->name;
         return [
-            'message' => "New Call is scheduled with {$user}",
+            'message' => "New Call is Requested with {$user}",
             'mentor_id' => $this->user->id,
             'user_id' =>  Auth::id(),
         ];
