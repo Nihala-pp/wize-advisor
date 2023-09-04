@@ -1500,7 +1500,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="elementor-button-wrapper">
                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                    href="#">
+                                                    href="{{ route('login') }}">
                                                     <span class="elementor-button-content-wrapper">
                                                         <span class="elementor-button-text">Sign In</span>
                                                     </span>
@@ -1513,7 +1513,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="elementor-button-wrapper">
                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                    href="https://wiseadvizor.com/browse-mentor/">
+                                                    href="{{ route('browseMentor') }}">
                                                     <span class="elementor-button-content-wrapper">
                                                         <span class="elementor-button-text">Browse Mentor</span>
                                                     </span>
