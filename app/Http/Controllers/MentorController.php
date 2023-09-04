@@ -230,14 +230,8 @@ class MentorController extends Controller
                 ->whereNull('deleted_at')
                 ->first();
 
-            if (!empty($exists)) {
-                ?>
-                <script type="text/javascript">
-                    alert("Slot already exists...Please try again with different slot");
-                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-                </script>
-                <?php
-            } else {
+            if (empty($exists)) {
+
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -248,6 +242,22 @@ class MentorController extends Controller
                 ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
+
+                $notification = array(
+                    'message' => 'Availability Added Successfully!',
+                    'alert-type' => 'success'
+                );
+
+                return redirect()->route('mentor.dashboard.availability')
+                    ->with($notification, 'Availability Added Successfully!');
+
+            } else {
+                ?>
+                <script type="text/javascript">
+                    alert("Slot already exists...Please try again with different slot");
+                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+                <?php
             }
         }
 
