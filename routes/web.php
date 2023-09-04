@@ -131,7 +131,7 @@ Route::controller(MentorController::class)
         Route::get('/dashboard/profile/{id?}', 'profile')->name('dashboard.profile');
         Route::get('/dashboard/reviews', 'reviews')->name('dashboard.reviews');
         Route::get('/dashboard/experience', 'experience')->name('dashboard.experience');
-        Route::get('/dashboard/expertise', 'expertise')->name('dashboard.expertise');
+        Route::get('/dashboard/blogs', 'expertise')->name('dashboard.expertise');
         Route::get('/dashboard/availability', 'availability')->name('dashboard.availability');
         Route::get('/dashboard/availability/edit', 'editAvailability')->name('dashboard.availability.edit');
         Route::get('/dashboard/availability/delete', 'deleteAvailability')->name('dashboard.availability.delete');
