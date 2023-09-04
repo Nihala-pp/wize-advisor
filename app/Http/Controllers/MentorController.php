@@ -73,12 +73,12 @@ class MentorController extends Controller
         $experience = MentorsExperience::where('user_id', Auth::id())->get();
         $achievements = MentorAchievements::where('mentor_id', Auth::id())->get();
 
-        return view('mentors.experience', compact('experience','achievements'));
+        return view('mentors.experience', compact('experience', 'achievements'));
     }
 
     public function expertise()
     {
-       $blogs =  Blogs::where('user_id', Auth::id())->get();
+        $blogs = Blogs::where('user_id', Auth::id())->get();
 
         return view('mentors.expertise', compact('blogs'));
     }
@@ -230,18 +230,14 @@ class MentorController extends Controller
                 ->whereNull('deleted_at')
                 ->first();
 
-            if ($exists) {
+            if (!empty($exists)) {
                 ?>
-<script type="text/javascript">
-                    alert("dssfdfds");
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
-            } 
-            else {
-                dd("123");
-                //  dd($schedule['start_time']);
+                <script type="text/javascript">
+                    alert("Slot already exists...Please try again with different slot");
+                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+                <?php
+            } else {
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -263,15 +259,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
         return redirect()->route('mentor.dashboard.availability')
             ->with($notification, 'Availability Added Successfully!');
 
-        //   $data = [
-        //     'mentor_id' => Auth::id(),
-        //     'date' => $request->date,
-        //     'time_zone' => $request->time_zone,
-        //     'start_time' => $request->start_time,
-        //     'end_time' => $request->end_time
-        // ];
-
-        // AvailableSchedule::update_schedule($request->row_id, $data);
     }
 
     public function getZoomCallLink($id)
@@ -335,7 +322,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'message' => 'Approved Successfully!',
                 'alert-type' => 'success'
             );
-    
+
             return redirect()->route('mentor.dashboard.my_sessions')
                 ->with($notification, 'Approved Successfully!');
 
@@ -458,13 +445,12 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         if ($exists) {
             ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
-        }
-        else {
+            <script type="text/javascript">
+                alert("Slot already exists...Please try again with different slot");
+                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+            </script>
+            <?php
+        } else {
             $schedule = [
                 'mentor_id' => Auth::id(),
                 'start_time' => $request->start_time,
@@ -472,14 +458,14 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'date' => $request->date,
                 'time_zone' => $request->time_zone
             ];
-    
+
             AvailableSchedule::find($request->row_id)->update($schedule);
-    
+
             $notification = array(
                 'message' => 'Availability Updated Successfully!',
                 'alert-type' => 'success'
             );
-    
+
             return redirect()->route('mentor.dashboard.availability')
                 ->with($notification, 'Availability Updated Successfully!');
         }
@@ -506,10 +492,10 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
         Blogs::updateOrCreate(
             ['id' => $request->row_id],
             [
-             'user_id' => Auth::id(),
-             'title' => $request->title,
-             'description' => $request->description,
-             'image' => $pro_pic,
+                'user_id' => Auth::id(),
+                'title' => $request->title,
+                'description' => $request->description,
+                'image' => $pro_pic,
             ]
         );
     }
@@ -519,12 +505,12 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
         MentorsExperience::updateOrCreate(
             ['id' => $request->row_id],
             [
-             'user_id' => Auth::id(),
-             'company_name' => $request->company,
-             'position' => $request->designation,
-             'start_date' => $request->start_date,
-             'end_date' => $request->end_date,
-             'description' => $request->description,
+                'user_id' => Auth::id(),
+                'company_name' => $request->company,
+                'position' => $request->designation,
+                'start_date' => $request->start_date,
+                'end_date' => $request->end_date,
+                'description' => $request->description,
             ]
         );
 
@@ -546,13 +532,13 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
     public function deleteExperience(Request $request)
     {
-       MentorsExperience::find($request->Id)->delete();
+        MentorsExperience::find($request->Id)->delete();
 
         $notification = array(
             'message' => 'Deleted Successfully!',
             'alert-type' => 'success'
         );
-        
+
 
         return redirect()->route('mentor.dashboard.experience')
             ->with($notification, 'Deleted Successfully!');
@@ -561,11 +547,11 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
     public function markNotification(Request $request)
     {
         auth()->user()
-              ->unreadNotifications->when($request->input('id'), function ($query) use ($request) {
+            ->unreadNotifications->when($request->input('id'), function ($query) use ($request) {
                 return $query->where('id', $request->input('id'));
-              })
+            })
             ->markAsRead();
-    
+
         return response()->noContent();
     }
 }
