@@ -163,7 +163,7 @@
                             <div class="card card-blog card-plain">
                                 <div class="card-header p-0 mt-n4 mx-3">
                                     <a class="d-block shadow-xl border-radius-xl">
-                                        <img src="{{ asset('public/assets/img.'/'}} {{ $blog->image }}"
+                                        <img src="{{ asset('public/assets/img') }}/{{ $blog->image }}"
                                             alt="img-blur-shadow" class="img-fluid shadow border-radius-xl">
                                     </a>
                                 </div>
