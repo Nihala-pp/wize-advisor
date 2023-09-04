@@ -6,6 +6,7 @@ use App\Models\Blogs;
 use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\UserFaq;
+use App\Notifications\NewCallRequest;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
@@ -47,10 +48,9 @@ class HomeController extends Controller
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::get()->count();
 
-    if(Auth::id()) {
+    if (Auth::id()) {
       return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
-    }
-    else {
+    } else {
       return view('home', compact('mentors', 'users', 'calls'));
     }
   }
@@ -191,24 +191,24 @@ class HomeController extends Controller
     //  dd($data['duration']);
     if (empty($data['time'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $data['mentor'] }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id + '";
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $data['mentor'] }}";
+        alert("Please choose the time slot");
+        window.location.href = "' + custom_location + " / " + Id + '";
+      </script>
+      <?php
     }
 
     if (empty($data['timezone'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $data['mentor'] }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id + '";
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $data['mentor'] }}";
+        alert("Please choose the time slot");
+        window.location.href = "' + custom_location + " / " + Id + '";
+      </script>
+      <?php
     } else {
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
@@ -228,8 +228,8 @@ window.location.href = "' + custom_location + " / " + Id + '";
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-          'is_booked' => 1
-        ]);
+            'is_booked' => 1
+          ]);
 
       ScheduledCall::create([
         'user_id' => Auth::id(),
@@ -259,6 +259,11 @@ window.location.href = "' + custom_location + " / " + Id + '";
         'UTC' => $data['timezone'],
         'duration' => $data['duration'],
       ];
+
+      $user = User::find(Auth::id());
+      $mentor = User::find($data['mentor']);
+
+      $mentor->notify(new NewCallRequest($mentor));
 
       Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
       Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
@@ -361,17 +366,17 @@ window.location.href = "' + custom_location + " / " + Id + '";
 
   public function blogDetailPage($id)
   {
-     $blog = Blogs::find($id);
+    $blog = Blogs::find($id);
 
-     return view('blog-detail', compact('blog'));
+    return view('blog-detail', compact('blog'));
   }
 
   public function faq()
   {
-     $userFaq = UserFaq::get();
-     $mentors_faq = MentorsFaq::get();
+    $userFaq = UserFaq::get();
+    $mentors_faq = MentorsFaq::get();
 
-     return view('faq', compact('userFaq','mentors_faq'));
+    return view('faq', compact('userFaq', 'mentors_faq'));
   }
 
   public function communityGuidelines()
@@ -414,6 +419,6 @@ window.location.href = "' + custom_location + " / " + Id + '";
 
   public function test()
   {
-     return view('call');
+    return view('call');
   }
 }

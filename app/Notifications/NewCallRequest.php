@@ -3,18 +3,18 @@
 namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
-
-
-class NewReview extends Notification
+class NewCallRequest extends Notification
 {
     use Queueable;
 
     protected $user;
+
 
     /**
      * Create a new notification instance.
@@ -54,7 +54,7 @@ class NewReview extends Notification
     {
         $user = Auth::user()->name;
         return [
-            'message' => "{$user} Added New Review For You.",
+            'message' => "New Call is scheduled with {$user}",
             'mentor_id' => $this->user->id,
             'user_id' =>  Auth::id(),
         ];

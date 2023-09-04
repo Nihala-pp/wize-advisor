@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Listeners\NewCallRequestNotification;
 use App\Notifications\CustomNotification;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -22,6 +23,7 @@ class EventServiceProvider extends ServiceProvider
             SendEmailVerificationNotification::class,
             SendNewUserNotification::class,
             NewReviewNotification::class,
+            NewCallRequestNotification::class
 
         ],
         'Illuminate\Auth\Events\Login' => [
