@@ -188,14 +188,28 @@ class HomeController extends Controller
     $requestData = $request->all();
     $data = array();
     parse_str($requestData['data'], $data);
+    $id = json_encode($data['mentor']);
     //  dd($data['duration']);
     if (empty($data['time'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $data['mentor'] }}";
+        Id = "{{ $id }}";
         alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id + '";
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
+    }
+
+    if (empty($data['desc'])) {
+      ?>
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";        
+        alert("Please fill the description");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
       </script>
       <?php
     }
@@ -204,9 +218,11 @@ class HomeController extends Controller
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $data['mentor'] }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id + '";
+        Id = "{{ $id }}";
+
+        alert("Please choose the timezone");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
       </script>
       <?php
     } else {
@@ -228,8 +244,8 @@ class HomeController extends Controller
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-            'is_booked' => 1
-          ]);
+          'is_booked' => 1
+        ]);
 
       ScheduledCall::create([
         'user_id' => Auth::id(),
