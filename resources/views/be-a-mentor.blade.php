@@ -296,43 +296,25 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .pe-7s-user {
-        margin-right: 20px;
-        align: center;
-    }
-
-    .elementor-button-wrapper .browse {
-        margin-left: 20px;
-    }
-
-    .menuITem {
-        margin-left: 30px;
-    }
-
-    .name {
-        font-size: 13px;
-        line-height: 0em;
-        margin-right: 20px;
-    }
-
-    .menu {
-        font-size: 12px;
-        text-align: center;
-    }
-
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
     </style>
+    <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+        as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" id="tpgb-fontawesome-css"
+            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+            media="all">
+    </noscript>
+    <link rel="stylesheet" id="tpgb-gfonts-global-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
+        media="all">
+    <link rel="stylesheet" id="plus-global-css"
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688994193" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -967,28 +949,22 @@
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
         media="all">
     <link rel="stylesheet" id="elementor-post-5-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1692627564" media="all">
     <link rel="stylesheet" id="elementor-pro-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
-        media="all">
-    <link rel="stylesheet" id="font-awesome-5-all-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
-        media="all">
-    <link rel="stylesheet" id="font-awesome-4-shim-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
         media="all">
     <link rel="stylesheet" id="she-header-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">
-    <link rel="stylesheet" id="elementor-post-30-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1688642151" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1692629951" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
         media="all">
+    <link rel="stylesheet" id="elementor-post-30-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1692629976" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1692627565" media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2"
         media="all">
@@ -999,7 +975,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688994499" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1692629975" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
@@ -1020,7 +996,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
@@ -1351,8 +1327,8 @@
         </defs>
     </svg>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
-                rel="home">wiseAdvizor</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="WISE ADVIZOR"
+                rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-7527857 elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"
@@ -1482,79 +1458,78 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                            data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    @if(Auth::id())
-                                    <div class="d-flex align-items-center">
-                                        <div class="dropdown">
-                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <i class="fas fa-bell fa-lg"></i>
-                                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuLink">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Some news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Another news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </li>
-                                            </ul>
+                            <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        @if(Auth::id())
+                                        <div class="d-flex align-items-center">
+                                            <div class="dropdown">
+                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-bell fa-lg"></i>
+                                                    <span
+                                                        class="badge rounded-pill badge-notification bg-danger">1</span>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuLink">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown" style="padding-right:30px">
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                        class="rounded-circle" height="8" width="50"
+                                                        alt="Black and White Portrait of a Man" loading="lazy" />
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuAvatar">
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                            Dashboard</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.review') }}">My
+                                                            Reviews</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="dropdown" style="padding-right:30px">
-                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                    class="rounded-circle" height="8" width="100"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" />
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuAvatar">
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                        Dashboard</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                        Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.review') }}">My
-                                                        Reviews</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
                                     </div>
-                                    @else
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('login') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Sign In</span>
-                                        </span>
-                                    </a>
-                                    @endif
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </header>
         </div>
-        </div>
-    </header>
-    </div>
     </header>
     @include('partials.header')
     <!-- <body class="g-sidenav-show  bg-gray-200">
