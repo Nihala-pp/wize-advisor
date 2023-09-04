@@ -183,7 +183,12 @@
                                         <!-- <i class="fa fa-edit edit" style="margin-left:90px;"></i>
                                         <i class="fa fa-trash delete" style="padding-left:10px;"></i> -->
                                     </h4>
-                                    <p>{{ $exp->description }}</p>
+                                    <p>
+                                        @php
+                                        $text = str_ireplace("<br />", "\r\n", $exp->description);
+                                        echo $text;
+                                        @endphp
+                                    </p>
                                 </div>
                                 <div class="resume-date text-md-right">
                                     <span class="text-primary">{{ $exp->start_date }} -
@@ -296,8 +301,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal" id="editExperience" tabindex="-1" role="dialog" aria-labelledby="editExperienceModalLabel"
-                    aria-hidden="true">
+                <div class="modal" id="editExperience" tabindex="-1" role="dialog"
+                    aria-labelledby="editExperienceModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header info-color white-text">
@@ -351,7 +356,7 @@
         });
     });
     </script>
-      <script>
+    <script>
     @if(Session::has('message'))
     var type = "{{Session::get('alert-type','info')}}"
 
