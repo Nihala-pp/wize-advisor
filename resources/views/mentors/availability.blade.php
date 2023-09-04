@@ -533,6 +533,12 @@
         //     format: 'hh:mm A',
         // });
         let row_number = 0;
+        let row_number_1 = 11;
+        let row_number_2 = 22;
+        let row_number_3 = 33;
+        let row_number_4 = 44;
+        let row_number_5 = 55;
+        let row_number_6 = 66;
 
 
         $(".rowAdder").click(function(e) {
@@ -574,11 +580,10 @@
         });
 
         $(".rowAdder5").click(function(e) {
-            let row_number = 55;
             var date = $('.datevalue5').val();
-            let new_row_number = row_number + 1;
+            let new_row_number = row_number_5 + 1;
             newRowAdd =
-                '<div class="row" id="row">' +
+                '<div class="row" id="row5">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
@@ -596,29 +601,25 @@
                 '</div></div>' +
                 '<div class="col-md-2 mt-3">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<i class="fa fa-trash DeleteRow5"> </i>' +
+                '<i class="fa fa-trash DeleteRow5" id="DeleteRow5"> </i>' +
                 '</div></div></div>';
             $('.newinput5').append(newRowAdd);
-            row_number++;
+            row_number_5++;
         });
 
-        $(document).on('click', 'i.fa.fa-trash.DeleteRow5', function() {
-            alert("hiiiii");
-            let row_number = 55;
-            if (row_number > 55) {
-                $(this).closest('.row').remove();
-                row_number--;
-
-                return false;
-            }
+        $(document).on('click', 'i#DeleteRow5', function() {
+            var div = document.getElementById('row5');
+	         if(row_number_5 > 55) {
+	               $(this).closest('.row').remove();
+		           row_number_5--;
+	         }
         });
 
         $(".rowAdder6").click(function(e) {
-            let row_number = 66;
             var date = $('.datevalue6').val();
-            let new_row_number = row_number + 1;
+            let new_row_number = row_number_6 + 1;
             newRowAdd =
-                '<div class="row" id="row">' +
+                '<div class="row" id="row6">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
@@ -636,28 +637,25 @@
                 '</div></div>' +
                 '<div class="col-md-2 mt-3">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<i class="fa fa-trash DeleteRow6"> </i>' +
+                '<i class="fa fa-trash DeleteRow6" id="DeleteRow6"> </i>' +
                 '</div></div></div>';
             $('.newinput6').append(newRowAdd);
-            row_number++;
+            row_number_6++;
         });
 
-        $(document).on('click', 'i.fa.fa-trash.DeleteRow6', function() {
-            let row_number = 66;
-            if (row_number > 66) {
-                $(this).closest('.row').remove();
-                row_number--;
-
-                return false;
-            }
+        $(document).on('click', 'i#DeleteRow6', function() {
+            var div = document.getElementById('row6');
+	         if(row_number_6 > 66) {
+	               $(this).closest('.row').remove();
+		           row_number_6--;
+	         }
         });
 
         $(".rowAdder1").click(function(e) {
-            let row_number = 11;
             var date = $('.datevalue1').val();
-            let new_row_number = row_number + 1;
+            let new_row_number = row_number_1 + 1;
             newRowAdd =
-                '<div class="row" id="row">' +
+                '<div class="row" id="row1">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
@@ -673,30 +671,38 @@
                 '<input type="time" name="schedule[' + new_row_number +
                 '][end_time]" class="form-control">' +
                 '</div></div>' +
-                '<div class="col-md-2 mt-3">' +
+                '<div class="col-md-2 mt-3" id="deleteschedule">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<i class="fa fa-trash DeleteRow1"> </i>' +
+                '<i class="fa fa-trash DeleteRow1" id="DeleteRow1"> </i>' +
                 '</div></div></div>';
             $('.newinput1').append(newRowAdd);
-            row_number++;
+            row_number_1++;
         });
 
-        $(document).on('click', 'i.fa.fa-trash.DeleteRow1', function() {
-            let row_number = 11;
-            if (row_number > 11) {
-                $(this).closest('.row').remove();
-                row_number--;
+        $(document).on('click', 'i#DeleteRow1', function() {
+            var div = document.getElementById('row1');
+	         if(row_number_1 > 11) {
+	               $(this).closest('.row').remove();
+		           row_number_1--;
+	         }
+	       //   else {
+		      //  alert('There should be atleast one row');
+	       //  }
+	         
+            // let row_number = 11;
+            // if (row_number > 11) {
+            //     $(this).closest('.row').remove();
+            //     row_number--;
 
-                return false;
-            }
+            //     return false;
+            // }
         });
 
         $(".rowAdder2").click(function(e) {
-            let row_number = 22;
             var date = $('.datevalue2').val();
-            let new_row_number = row_number + 1;
+            let new_row_number = row_number_2 + 1;
             newRowAdd =
-                '<div class="row" id="row">' +
+                '<div class="row" id="row2">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
@@ -714,30 +720,25 @@
                 '</div></div>' +
                 '<div class="col-md-2 mt-3">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<i class="fa fa-trash DeleteRow2"> </i>' +
+                '<i class="fa fa-trash DeleteRow2" id="DeleteRow2"> </i>' +
                 '</div></div></div>';
             $('.newinput2').append(newRowAdd);
-            row_number++;
+            row_number_2++;
         });
 
-        $(document).on('click', 'i.fa.fa-trash.DeleteRow2', function() {
-            let row_number = 22;
-            if (row_number > 22) {
-                var indexDelAgent = $(this).index('.deleteIcon') + 1;
-
-                $(this).closest('.row').remove();
-                row_number--;
-
-                return false;
-            }
+        $(document).on('click', 'i#DeleteRow2', function() {
+            var div = document.getElementById('row2');
+	         if(row_number_2 > 22) {
+	               $(this).closest('.row').remove();
+		           row_number_2--;
+	         }
         });
 
         $(".rowAdder3").click(function(e) {
-            let row_number = 33;
             var date = $('.datevalue3').val();
-            let new_row_number = row_number + 1;
+            let new_row_number = row_number_3 + 1;
             newRowAdd =
-                '<div class="row" id="row">' +
+                '<div class="row" id="row3">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
@@ -755,28 +756,25 @@
                 '</div></div>' +
                 '<div class="col-md-2 mt-3">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<i class="fa fa-trash DeleteRow3"> </i>' +
+                '<i class="fa fa-trash DeleteRow3" id="DeleteRow3"> </i>' +
                 '</div></div></div>';
             $('.newinput3').append(newRowAdd);
-            row_number++;
+            row_number_3++;
         });
 
-        $(document).on('click', 'i.fa.fa-trash.DeleteRow3', function() {
-            let row_number = 33;
-            if (row_number > 33) {
-                $(this).closest('.row').remove();
-                row_number--;
-
-                return false;
-            }
+        $(document).on('click', 'i#DeleteRow3', function() {
+            var div = document.getElementById('row3');
+	         if(row_number_3 > 33) {
+	               $(this).closest('.row').remove();
+		           row_number_3--;
+	         }
         });
 
         $(".rowAdder4").click(function(e) {
-            let row_number = 44;
             var date = $('.datevalue4').val();
-            let new_row_number = row_number + 1;
+            let new_row_number = row_number_4 + 1;
             newRowAdd =
-                '<div class="row" id="row">' +
+                '<div class="row" id="row4">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<input type="hidden" name="schedule[' + new_row_number +
@@ -794,20 +792,18 @@
                 '</div></div>' +
                 '<div class="col-md-2 mt-3">' +
                 '<div class="input-group input-group-static my-3">' +
-                '<i class="fa fa-trash DeleteRow4"> </i>' +
+                '<i class="fa fa-trash DeleteRow4" id="DeleteRow4"> </i>' +
                 '</div></div></div>';
             $('.newinput4').append(newRowAdd);
-            row_number++;
+            row_number_4++;
         });
 
-        $(document).on('click', 'i.fa.fa-trash.DeleteRow4', function() {
-            let row_number = 44;
-            if (row_number > 44) {
-                $(this).closest('.row').remove();
-                row_number--;
-
-                return false;
-            }
+        $(document).on('click', 'i.DeleteRow4', function() {
+            var div = document.getElementById('row4');
+	         if(row_number_4 > 44) {
+	               $(this).closest('.row').remove();
+		           row_number_4--;
+	         }
         });
 
         $('body').on('click', '.edit', function() {
