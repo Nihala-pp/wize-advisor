@@ -145,7 +145,7 @@
                 <div class="row gx-4 mb-2">
                     <div class="col-auto">
                         <div class="avatar avatar-xl position-relative">
-                            <img src="{{ asset('public/assets/img/').'/' }}{{ $profile->metaData ? $profile->metaData->profile_pic : '' }}"
+                            <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $profile->metaData ? $profile->metaData->profile_pic : '' }}"
                                 alt="profile_image" class="w-100 border-radius-lg shadow-sm">
                         </div>
                     </div>
