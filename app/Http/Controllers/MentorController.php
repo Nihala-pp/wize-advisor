@@ -237,7 +237,8 @@ alert("Slot already exists...Please try again with different slot");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php
-            } else {
+            } 
+            else {
                 //  dd($schedule['start_time']);
                 $data = [
                     'mentor_id' => Auth::id(),
@@ -461,7 +462,6 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php
         }
-
         else {
             $schedule = [
                 'mentor_id' => Auth::id(),
