@@ -451,11 +451,11 @@
                                                         </a>
                                                     </span>
                                                 </div>
-                                                @if($loop->last)
+                                                <!-- @if($loop->last)
                                                 <a href="#" id="mark-all">
                                                     Mark all as read
                                                 </a>
-                                                @endif
+                                                @endif -->
                                                 @empty
                                                 <div class="alert alert-info noti">
                                                     <span><b> There are no new notifications </b>
