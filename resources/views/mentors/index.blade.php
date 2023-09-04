@@ -442,7 +442,7 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/1685621887.jpg') }}"
+                                                        <img src=""
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
