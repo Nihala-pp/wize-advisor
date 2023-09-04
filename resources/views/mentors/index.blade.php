@@ -440,7 +440,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <div class="d-flex px-2 py-1">
+                                                <!-- <div class="d-flex px-2 py-1">
                                                     <div>
                                                         <img src=""
                                                             class="avatar avatar-sm me-3" alt="xd">
@@ -448,7 +448,7 @@
                                                     <div class="d-flex flex-column justify-content-center">
                                                         <h6 class="mb-0 text-sm"></h6>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </td>
                                             <!-- <td>
                                                 <div class="avatar-group mt-2">
