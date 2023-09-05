@@ -254,15 +254,14 @@ class MentorController extends Controller
                 ];
     
                 AvailableSchedule::update_schedule($request->row_id, $data);
-    
-                $notification = array(
-                    'message' => $msg,
-                    'alert-type' => $alert_msg
-                );
-                
-                redirect()->route('mentor.dashboard.availability')
-                ->with($notification);
-        }        
+
+                ?>
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php 
+        }  
     }
 
     public function getZoomCallLink($id)
