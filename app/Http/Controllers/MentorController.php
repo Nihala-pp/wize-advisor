@@ -240,10 +240,13 @@ class MentorController extends Controller
                     'alert-type' => $alert_error
                 );
 
-                // return redirect()->route('mentor.dashboard.availability')
-                //     ->with($notification);
+                return redirect()->route('mentor.dashboard.availability')
+                    ->with($notification);
             }
-            else {
+        }
+
+        foreach ($request->schedule as $key => $schedule) {
+      
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -259,7 +262,6 @@ class MentorController extends Controller
                     'message' => $msg,
                     'alert-type' => $alert_msg
                 );
-            }
         }
 
            return redirect()->route('mentor.dashboard.availability')
