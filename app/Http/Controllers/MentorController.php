@@ -231,15 +231,15 @@ class MentorController extends Controller
 
             if ($exists->count()) {
 
-                $notification = array(
+                $notificationError = array(
                     'message' => 'Slot already exists...Please try again with different slot',
                     'alert-type' => 'info'
                 );
 
                  return redirect()->route('mentor.dashboard.availability')
-                    ->with($notification, 'Slot already exists...Please try again with different slot');    
+                    ->with($notificationError);    
             } 
-            else  {
+
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -249,25 +249,16 @@ class MentorController extends Controller
                     'is_booked' => 0
                 ];
 
-                AvailableSchedule::update_schedule($request->row_id, $data);
-
-                $notification = array(
-                    'message' => 'Availability Added Successfully!',
-                    'alert-type' => 'success'
-                );
-
-                redirect()->route('mentor.dashboard.availability')
-                    ->with($notification, 'Availability Added Successfully!');
-            }
+                AvailableSchedule::update_schedule($request->row_id, $data);   
         }
 
-        // $notification = array(
-        //     'message' => 'Availability Added Successfully!',
-        //     'alert-type' => 'success'
-        // );
+        $notification = array(
+            'message' => 'Availability Added Successfully!',
+            'alert-type' => 'success'
+        );
 
-        // return redirect()->route('mentor.dashboard.availability')
-        //     ->with($notification, 'Availability Added Successfully!');
+        return redirect()->route('mentor.dashboard.availability')
+            ->with($notification);
     }
 
     public function getZoomCallLink($id)
