@@ -223,7 +223,7 @@ class MentorController extends Controller
     {
         // dd($request->all());
         foreach ($request->schedule as $key => $schedule) {
-            dd($request->schedule);
+            // dd($request->schedule);
             $exists = AvailableSchedule::where('mentor_id', Auth::id())
                 ->where('date', $schedule['date'])
                 ->where('start_time', $schedule['start_time'])
@@ -243,22 +243,13 @@ class MentorController extends Controller
                 ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
-
-                $notification = array(
-                    'message' => 'Availability Added Successfully!',
-                    'alert-type' => 'success'
-                );
-
-                return redirect()->route('mentor.dashboard.availability')
-                    ->with($notification, 'Availability Added Successfully!');
-
             } else {
                 ?>
-                <script type="text/javascript">
-                    alert("Slot already exists...Please try again with different slot");
-                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-                </script>
-                <?php
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php
             }
         }
 
@@ -269,7 +260,6 @@ class MentorController extends Controller
 
         return redirect()->route('mentor.dashboard.availability')
             ->with($notification, 'Availability Added Successfully!');
-
     }
 
     public function getZoomCallLink($id)
@@ -456,11 +446,11 @@ class MentorController extends Controller
 
         if ($exists) {
             ?>
-            <script type="text/javascript">
-                alert("Slot already exists...Please try again with different slot");
-                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-            </script>
-            <?php
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php
         } else {
             $schedule = [
                 'mentor_id' => Auth::id(),
