@@ -237,7 +237,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
         'name' => $request->name,
         'email' => $request->email,
         'password' => $password,
-        'role_id' => 2,
+        'role_id' => 3,
     ];
 
     $user_record = User::updateOrCreate(
