@@ -24,6 +24,8 @@ use App\Models\Expertise;
 use App\Models\MentorsExperience;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
+use Hash;
+
 
 class HomeController extends Controller
 {
@@ -435,6 +437,9 @@ class HomeController extends Controller
 
   public function test()
   {
+    $password = Hash::make('B@>bKgmU');
+    dd($password);
+
     return view('call');
   }
 }
