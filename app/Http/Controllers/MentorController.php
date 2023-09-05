@@ -233,17 +233,8 @@ class MentorController extends Controller
                 ->where('time_zone', $request->time_zone)
                 ->whereNull('deleted_at');
 
-            if ($exists->count()) {
+            if (!$exists->count()) {
 
-                $notification = array(
-                    'message' => $error,
-                    'alert-type' => $alert_error
-                );
-
-                return redirect()->route('mentor.dashboard.availability')
-                    ->with($notification);
-            }
-       
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -257,11 +248,22 @@ class MentorController extends Controller
 
                 ?>
 <script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
+alert("Availability Added Successfully!");
 window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 </script>
 <?php 
-        }  
+            }
+
+            else {
+                $notification = array(
+                    'message' => $error,
+                    'alert-type' => $alert_error
+                );
+
+                return redirect()->route('mentor.dashboard.availability')
+                    ->with($notification);
+            }
+        }
     }
 
     public function getZoomCallLink($id)
