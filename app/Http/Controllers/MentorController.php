@@ -242,23 +242,32 @@ class MentorController extends Controller
                 ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
-            } else {
+
+                $notification = array(
+                    'message' => 'Availability Added Successfully!',
+                    'alert-type' => 'success'
+                );
+
+            redirect()->route('mentor.dashboard.availability')
+            ->with($notification, 'Availability Added Successfully!');
+            } 
+            else {
                 ?>
-                  <script type="text/javascript">
-                     alert("Slot already exists...Please try again with different slot");
-                     window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-                  </script>
-                <?php
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php
             }
         }
 
-        $notification = array(
-            'message' => 'Availability Added Successfully!',
-            'alert-type' => 'success'
-        );
+        // $notification = array(
+        //     'message' => 'Availability Added Successfully!',
+        //     'alert-type' => 'success'
+        // );
 
-        return redirect()->route('mentor.dashboard.availability')
-            ->with($notification, 'Availability Added Successfully!');
+        // return redirect()->route('mentor.dashboard.availability')
+        //     ->with($notification, 'Availability Added Successfully!');
     }
 
     public function getZoomCallLink($id)
