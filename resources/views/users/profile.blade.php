@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-@include('partials.header')
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -27,13 +26,13 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
@@ -1608,9 +1607,9 @@
                 </div>
         </div>
     </header>
-
-    <body class="g-sidenav-show bg-white">
-        <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+    @include('partials.header')
+    <!-- <body class="g-sidenav-show bg-white">
+        <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100"> -->
             <!-- Navbar -->
             <!-- End Navbar -->
             <div class="container-fluid py-4">
@@ -1713,7 +1712,7 @@
                     <!-- @include('partials.footer') -->
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
         <!--   Core JS Files   -->
         <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
         </script>
