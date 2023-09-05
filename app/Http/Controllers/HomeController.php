@@ -437,7 +437,7 @@ class HomeController extends Controller
 
   public function test()
   {
-    $password = Hash::make('k8%cs<,a');
+    $password = Hash::make('[m4fyuEG');
     dd($password);
 
     return view('call');
