@@ -1639,62 +1639,58 @@
                                                 value="{{ $data->email ? : '' }}" required>
                                         </div>
                                         <div class="input-group input-group-static mb-3">
-                                            <label class="">Phone</label>
-                                            <input type="tel" name="phone" class="form-control"
-                                                value="{{ $data->metaData->mobile ? : '' }}">
+                                            <label class="">Password</label>
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password" required autocomplete="current-password">
+                                            @error('password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-3">
-                                            <label class="">Linked-In Profile</label>
-                                            <input type="url" class="form-control" name="linked_in"
-                                                value="{{ $data->metaData->social_linked_in ? : '' }}" required>
-                                        </div>
+                                            <label class="">Confirm Password</label>
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password_confirmation" required autocomplete="current-password">
+                                        </div>          
                                         <div class="input-group input-group-static mb-3">
-                                            <label class="">Youtube Link (if any)</label>
-                                            <input type="url" class="form-control" name="youtube_link"
-                                                value="{{ $data->metaData->youtube_link ? : '' }}">
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Website Link (if any)</label>
-                                            <input type="url" class="form-control" name="website_link"
-                                                value="{{ $data->metaData->website_link ? : '' }}" required>
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">BIO</label>
-                                            <textarea name="bio" class="form-control"
-                                                rows="5">{{ $data->metaData->about_me ? : '' }}</textarea>
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Company</label>
-                                            <input type="text" name="company" class="form-control"
-                                                value="{{ $data->metaData->company ? : '' }}" required>
+                                            <label class="">Company Name</label>
+                                            <input type="text" class="form-control" name="company_name">
                                         </div>
                                         <div class="input-group input-group-static mb-3">
                                             <label class="">Designation</label>
-                                            <input type="text" name="designation" class="form-control"
-                                                value="{{ $data->metaData->designation ? : '' }}" required>
+                                            <input type="text" class="form-control" name="designation">
                                         </div>
                                         <div class="input-group input-group-static mb-3">
-                                            <label class="">Price per call (USD)</label>
-                                            <input type="number" name="price_per_call" class="form-control"
-                                                value="{{ $data->metaData->price_per_call ? : '' }}" required>
+                                            <label class="">Linked-In Url</label>
+                                            <input type="url" class="form-control" name="linked_in">
                                         </div>
-                                        <!-- <div class="input-group input-group-static mb-3">
-                                        <label class="">wiseAdvizor Commission</label>
-                                        <input type="number" name="commission" class="form-control" value="{{ $data->metaData->commission ? : '' }}" required>
-                                    </div> -->
-                                        <div class="input-group input-group-static mb-3">
-                                            <!-- <label class="">Expertise</label> -->
-                                            <input name="expertise[]" class="form-control" id="expertise-tags"
-                                                data-color="dark" type="text"
-                                                value="{{ $data->metaData->expertise ? : '' }}"
-                                                placeholder="Type Expertise and press enter" required>
+                                        <div class="mb-3">
+                                            <label class="form-label">Expertise you are looking for?</label></br>
+                                            <select class="select form-control @error('expert') is-invalid @enderror"
+                                                multiple data-mdb-clear-button="true" name="expert[]">
+                                                @foreach($expertise as $key => $expert)
+                                                <option value="{{ $expert }}">{{ $expert }}</option>
+                                                @endforeach
+                                            </select>
                                         </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Languages</label>
-                                            <input name="languages[]" class="form-control" id="languages-tags"
-                                                data-color="dark" type="text"
-                                                value="{{ $data->metaData->language ?  : '' }}"
-                                                placeholder="Type Languages and press enter" required>
+                                        <div class="timezone mb-3">
+                                            <label class=""></label></br>
+                                            <select name="timezone"
+                                                class="select form-control @error('timezone') is-invalid @enderror"
+                                                required>
+                                                <option value="">Choose Your Timezone</option>
+                                                @foreach($timezone as $zone => $time)
+                                                <option value="{{ $zone }}">{{ $zone }}</option>
+                                                @endforeach
+                                            </select>
+                                            @error('timezone')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-3">
                                             <label>Profile Pic</label>
