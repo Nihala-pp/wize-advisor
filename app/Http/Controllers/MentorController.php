@@ -229,8 +229,17 @@ class MentorController extends Controller
                 ->where('time_zone', $request->time_zone)
                 ->whereNull('deleted_at');
 
-            if (!$exists->count()) {
+            if ($exists->count()) {
 
+                $notification = array(
+                    'message' => 'Slot already exists...Please try again with different slot',
+                    'alert-type' => 'info'
+                );
+
+                 return redirect()->route('mentor.dashboard.availability')
+                    ->with($notification, 'Slot already exists...Please try again with different slot');    
+            } 
+            else  {
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -249,15 +258,6 @@ class MentorController extends Controller
 
                 redirect()->route('mentor.dashboard.availability')
                     ->with($notification, 'Availability Added Successfully!');
-            } 
-            else if ($exists->count()) {
-                $notification = array(
-                    'message' => 'Slot already exists...Please try again with different slot',
-                    'alert-type' => 'info'
-                );
-
-                return redirect()->route('mentor.dashboard.availability')
-                    ->with($notification, 'Slot already exists...Please try again with different slot');
             }
         }
 
@@ -454,11 +454,11 @@ class MentorController extends Controller
 
         if ($exists) {
             ?>
-            <script type="text/javascript">
-                alert("Slot already exists...Please try again with different slot");
-                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-            </script>
-            <?php
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php
         } else {
             $schedule = [
                 'mentor_id' => Auth::id(),
