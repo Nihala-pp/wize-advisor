@@ -251,10 +251,10 @@ class MentorController extends Controller
             redirect()->route('mentor.dashboard.availability')
             ->with($notification, 'Availability Added Successfully!');
             } 
-            else {
+            else if(!empty($exists)) {
                 $notification = array(
                     'message' => 'Availability Added Successfully!',
-                    'alert-type' => 'warning'
+                    'alert-type' => 'info'
                 );
 
               return redirect()->route('mentor.dashboard.availability')
