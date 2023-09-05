@@ -263,7 +263,6 @@ class MentorController extends Controller
              redirect()->route('mentor.dashboard.availability')
                 ->with($notification);
         }
-
     }
 
     public function getZoomCallLink($id)
