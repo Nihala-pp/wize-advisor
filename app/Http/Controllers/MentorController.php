@@ -233,7 +233,7 @@ class MentorController extends Controller
 
                 $notificationError = array(
                     'message' => 'Slot already exists...Please try again with different slot',
-                    'alert-type' => 'info'
+                    'alert-type' => 'error'
                 );
 
                  return redirect()->route('mentor.dashboard.availability')
