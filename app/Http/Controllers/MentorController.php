@@ -222,6 +222,10 @@ class MentorController extends Controller
     public function save_schedule(Request $request)
     {
         // dd($request->all());
+        $msg =   'Availability Added Successfully!';
+        $alert_msg = 'success';
+        $error = "Slot already exists...Please try again with different slot";
+        $alert_error = 'error';
         foreach ($request->schedule as $key => $schedule) {
             $exists = AvailableSchedule::where('mentor_id', Auth::id())
                 ->where('date', $schedule['date'])
@@ -232,8 +236,8 @@ class MentorController extends Controller
             if ($exists->count()) {
 
                 $notificationError = array(
-                    'message' => 'Slot already exists...Please try again with different slot',
-                    'alert-type' => 'error'
+                    'message' =>  $error,
+                    'alert-type' => $alert_error
                 );
 
                  return redirect()->route('mentor.dashboard.availability')
@@ -253,8 +257,8 @@ class MentorController extends Controller
         }
 
         $notification = array(
-            'message' => 'Availability Added Successfully!',
-            'alert-type' => 'success'
+            'message' => $msg,
+            'alert-type' => $alert_msg
         );
 
         return redirect()->route('mentor.dashboard.availability')
