@@ -54,21 +54,21 @@ class UserController extends Controller
 
     $user = User::find(Auth::id());
     $mentor = User::find($request->mentor);
-  
+
     $message = "{$user->name} added New Review for you";
     // $messages["mentor"] = $request->mentor;
     // $messages["user"] = Auth::id();
-          
+
     // $user->notify(new BirthdayWish($messages));
 
     $mentor->notify(new NewReview($mentor));
 
     ?>
-<script type="text/javascript">
-alert("Review has been submitted");
-window.location.href = "https://wiseadvizor.com/user/dashboard";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Review has been submitted");
+      window.location.href = "https://wiseadvizor.com/user/dashboard";
+    </script>
+    <?php
   }
 
   public function updateSchedule($id)
@@ -141,11 +141,37 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
   public function profile($id)
   {
+    $expertise = [
+      '1' => 'Sales',
+      '2' => 'Marketing',
+      '3' => 'Technology',
+      '4' => 'Idea Validation',
+      '5' => 'Product Market Fit',
+      '6' => 'Team Management',
+      '7' => 'Content creation',
+      '8' => 'Leadership',
+      '9' => 'Fund raising',
+      '10' => 'Networking',
+      '11' => 'Social Media',
+      '12' => 'Pricing Strategy',
+      '13' => 'Startup valuation',
+      '14' => 'Business Strategy',
+      '15' => 'Email Marketing',
+      '16' => 'Brand Building ',
+      '17' => 'SEO',
+      '18' => 'Operations and logistics',
+      '19' => 'Risk Management',
+      '20' => 'Ads Strategy',
+      '21' => 'Go to Market Strategy',
+      '22' => 'Growth Strategy'
+    ];
+
+    $timezone = AvailableSchedule::timezones();
     $id = Auth::id();
     $data = User::find($id);
     $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
 
-    return view('users.profile', compact('data','scheduled_calls'));
+    return view('users.profile', compact('data', 'scheduled_calls','expertise','timezone'));
   }
 
   public function getDateAvailability($scheduled_call)
@@ -167,7 +193,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     return $date;
   }
 
-  
+
   public function getTimeAvailability(Request $request)
   {
     $mentor = $request->mentor;
