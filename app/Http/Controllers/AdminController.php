@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Log;
 use App\Notifications\CustomNotification;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
+use Hash;
 
 // use CustomNotification;
 
@@ -255,7 +256,7 @@ class AdminController extends Controller
         $data = [
             'name' => $request->name,
             'email' => $request->email,
-            'password' => Str::password(10),
+            'password' => Hash::make(Str::password(8)),
             'role_id' => 2,
         ];
 
