@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -1610,146 +1611,155 @@
     @include('partials.header')
     <!-- <body class="g-sidenav-show bg-white">
         <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100"> -->
-            <!-- Navbar -->
-            <!-- End Navbar -->
-            <div class="container-fluid py-4">
-                <div class="row mt-5">
-                    <div class="col-12 col-lg-10 m-auto">
-                        <div class="card">
-                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                    <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Update Profile Details @else Add
-                                    Profile Details @endif</h6>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <form method="POST" action="{{ route('mentor.save') }}"
-                                        enctype="multipart/form-data">
-                                        @csrf
-                                        <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
-                                        <div class="input-group input-group-static mb-3">
-                                            <label>Full Name</label>
-                                            <input type="text" name="name" class="form-control"
-                                                value="{{ $data->name ? : '' }}" required>
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Email</label>
-                                            <input type="email" name="email" class="form-control"
-                                                value="{{ $data->email ? : '' }}" required>
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Password</label>
-                                            <input id="password" type="password"
-                                                class="form-control @error('password') is-invalid @enderror"
-                                                name="password" required autocomplete="current-password">
-                                            @error('password')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Confirm Password</label>
-                                            <input id="password" type="password"
-                                                class="form-control @error('password') is-invalid @enderror"
-                                                name="password_confirmation" required autocomplete="current-password">
-                                        </div>          
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Company Name</label>
-                                            <input type="text" class="form-control" name="company_name" value="{{ $data->metaData ? $data->metaData->company : '' }}">
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Designation</label>
-                                            <input type="text" class="form-control" name="designation" value="{{ $data->metaData ? $data->metaData->designation : '' }}">
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Linked-In Url</label>
-                                            <input type="url" class="form-control" name="linked_in" value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label">Expertise you are looking for?</label></br>
-                                            <select class="select form-control @error('expert') is-invalid @enderror"
-                                                multiple data-mdb-clear-button="true" name="expert[]" required>
-                                                @foreach($expertise as $key => $expert)
-                                                <option value="{{ $expert }}" {{ ($expert == $data->metaData->expertise) ? 'selected' : '' }}>{{ $expert }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
-                                        <div class="timezone mb-3">
-                                            <label class=""></label></br>
-                                            <select name="timezone"
-                                                class="select form-control @error('timezone') is-invalid @enderror"
-                                                required>
-                                                <option value="">Choose Your Timezone</option>
-                                                @foreach($timezone as $zone => $time)
-                                                <option value="{{ $zone }}" {{ ($zone == $data->timezone) ? 'selected' : '' }}>{{ $zone }}</option>
-                                                @endforeach
-                                            </select>
-                                            @error('timezone')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
-                                        </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label>Profile Pic</label>
-                                            <input type="file" name="profile_pic" class="form-control" required>
-                                        </div>
-                                        <button type="submit" name="submitform" id="submitform"
-                                            class="btn btn-primary"><i
-                                                class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                                    </form>
-                                    <!-- </div> -->
-                                </div>
-                            </div>
+    <!-- Navbar -->
+    <!-- End Navbar -->
+    <div class="container-fluid py-4">
+        <div class="row mt-5">
+            <div class="col-12 col-lg-10 m-auto">
+                <div class="card">
+                    <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                        <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                            <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Update Profile Details @else
+                                Add
+                                Profile Details @endif</h6>
                         </div>
                     </div>
-                    <!-- @include('partials.footer') -->
+                    <div class="card-body">
+                        <div class="row">
+                            <form method="POST" action="{{ route('mentor.save') }}" enctype="multipart/form-data">
+                                @csrf
+                                <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
+                                <div class="input-group input-group-static mb-3">
+                                    <label>Full Name</label>
+                                    <input type="text" name="name" class="form-control" value="{{ $data->name ? : '' }}"
+                                        required>
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label class="">Email</label>
+                                    <input type="email" name="email" class="form-control"
+                                        value="{{ $data->email ? : '' }}" required>
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label class="">Password</label>
+                                    <input id="password" type="password"
+                                        class="form-control @error('password') is-invalid @enderror" name="password"
+                                        required autocomplete="current-password">
+                                    @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label class="">Confirm Password</label>
+                                    <input id="password" type="password"
+                                        class="form-control @error('password') is-invalid @enderror"
+                                        name="password_confirmation" required autocomplete="current-password">
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label class="">Company Name</label>
+                                    <input type="text" class="form-control" name="company_name"
+                                        value="{{ $data->metaData ? $data->metaData->company : '' }}">
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label class="">Designation</label>
+                                    <input type="text" class="form-control" name="designation"
+                                        value="{{ $data->metaData ? $data->metaData->designation : '' }}">
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label class="">Linked-In Url</label>
+                                    <input type="url" class="form-control" name="linked_in"
+                                        value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Expertise you are looking for?</label></br>
+                                    <select class="select form-control @error('expert') is-invalid @enderror" multiple
+                                        data-mdb-clear-button="true" name="expert[]" required>
+                                        @foreach($expertise as $key => $expert)
+                                        <option value="{{ $expert }}"
+                                            {{ ($expert == $data->metaData->expertise) ? 'selected' : '' }}>
+                                            {{ $expert }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                                <div class="timezone mb-3">
+                                    <label class=""></label></br>
+                                    <select name="timezone"
+                                        class="select form-control @error('timezone') is-invalid @enderror" required>
+                                        <option value="">Choose Your Timezone</option>
+                                        @foreach($timezone as $zone => $time)
+                                        <option value="{{ $zone }}" {{ ($zone == $data->timezone) ? 'selected' : '' }}>
+                                            {{ $zone }}</option>
+                                        @endforeach
+                                    </select>
+                                    @error('timezone')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
+                                </div>
+                                <div class="input-group input-group-static mb-3">
+                                    <label>Profile Pic</label>
+                                    @if(!empty($data->metaData && $data->metaData->profile_pic))
+                                    <input type="hidden" name="profile" class="form-control"
+                                        value="{{ $data->metaData->profile_pic }}">
+                                    @else
+                                    <input type="file" name="profile_pic" class="form-control" required>
+                                    @endif
+                                </div>
+                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                            </form>
+                            <!-- </div> -->
+                        </div>
+                    </div>
                 </div>
             </div>
-        <!-- </div> -->
-        <!--   Core JS Files   -->
-        <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
-        </script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-        < script type = "text/javascript" >
-            $(document).ready(function() {
-                $("#inactivate").click(function() {
-                    var checkBoxes = $("input[name=account_status\\[\\]]");
-                    checkBoxes.prop("checked", !checkBoxes.prop("checked"));
-                    var status = document.getElementById("inactivate").value;
-                    return $.ajax("{{ route('mentor.account_status') }}", {
-                        method: 'POST',
-                        data: {
-                            "_token": "{{ csrf_token() }}",
-                            "status": status,
-                        }
-                    });
-                });
-
-                $("#delete").click(function() {
-                    var checkBoxes = $("input[name=delete_account\\[\\]]");
-                    checkBoxes.prop("checked", !checkBoxes.prop("checked"));
-                    var status = document.getElementById("delete").value;
-                    return $.ajax("{{ route('mentor.delete_account') }}", {
-                        method: 'POST',
-                        data: {
-                            "_token": "{{ csrf_token() }}",
-                            "status": status,
-                        }
-                    });
+            <!-- @include('partials.footer') -->
+        </div>
+    </div>
+    <!-- </div> -->
+    <!--   Core JS Files   -->
+    <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    < script type = "text/javascript" >
+        $(document).ready(function() {
+            $("#inactivate").click(function() {
+                var checkBoxes = $("input[name=account_status\\[\\]]");
+                checkBoxes.prop("checked", !checkBoxes.prop("checked"));
+                var status = document.getElementById("inactivate").value;
+                return $.ajax("{{ route('mentor.account_status') }}", {
+                    method: 'POST',
+                    data: {
+                        "_token": "{{ csrf_token() }}",
+                        "status": status,
+                    }
                 });
             });
-        </script>
-    </body>
-    <style>
-    .navbar-main li a {
-        font-family: "Helvetica", Sans-serif !important;
-        font-size: 17px !important;
-        font-weight: 700 !important;
-        color: #001e64 !important;
-    }
-    </style>
+
+            $("#delete").click(function() {
+                var checkBoxes = $("input[name=delete_account\\[\\]]");
+                checkBoxes.prop("checked", !checkBoxes.prop("checked"));
+                var status = document.getElementById("delete").value;
+                return $.ajax("{{ route('mentor.delete_account') }}", {
+                    method: 'POST',
+                    data: {
+                        "_token": "{{ csrf_token() }}",
+                        "status": status,
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+<style>
+.navbar-main li a {
+    font-family: "Helvetica", Sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #001e64 !important;
+}
+</style>
 
 </html>
