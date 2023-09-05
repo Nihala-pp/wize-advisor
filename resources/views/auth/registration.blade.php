@@ -114,7 +114,7 @@
                                         <div class="mb-3">
                                             <label class="form-label">Expertise you are looking for?</label></br>
                                             <select class="select form-control @error('expert') is-invalid @enderror"
-                                                multiple data-mdb-clear-button="true" name="expert[]">
+                                                multiple data-mdb-clear-button="true" name="expert[]" required>
                                                 @foreach($expertise as $key => $expert)
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                                 @endforeach

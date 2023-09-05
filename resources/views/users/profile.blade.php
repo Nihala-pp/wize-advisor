@@ -1657,22 +1657,22 @@
                                         </div>          
                                         <div class="input-group input-group-static mb-3">
                                             <label class="">Company Name</label>
-                                            <input type="text" class="form-control" name="company_name">
+                                            <input type="text" class="form-control" name="company_name" value="{{ $data->metaData ? $data->metaData->company : '' }}">
                                         </div>
                                         <div class="input-group input-group-static mb-3">
                                             <label class="">Designation</label>
-                                            <input type="text" class="form-control" name="designation">
+                                            <input type="text" class="form-control" name="designation" value="{{ $data->metaData ? $data->metaData->designation : '' }}">
                                         </div>
                                         <div class="input-group input-group-static mb-3">
                                             <label class="">Linked-In Url</label>
-                                            <input type="url" class="form-control" name="linked_in">
+                                            <input type="url" class="form-control" name="linked_in" value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Expertise you are looking for?</label></br>
                                             <select class="select form-control @error('expert') is-invalid @enderror"
-                                                multiple data-mdb-clear-button="true" name="expert[]">
+                                                multiple data-mdb-clear-button="true" name="expert[]" required>
                                                 @foreach($expertise as $key => $expert)
-                                                <option value="{{ $expert }}">{{ $expert }}</option>
+                                                <option value="{{ $expert }}" {{ ($expert == $data->metaData->expertise) ? 'selected' : '' }}>{{ $expert }}</option>
                                                 @endforeach
                                             </select>
                                         </div>
@@ -1683,7 +1683,7 @@
                                                 required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
-                                                <option value="{{ $zone }}">{{ $zone }}</option>
+                                                <option value="{{ $zone }}" {{ ($zone == $data->timezone) ? 'selected' : '' }}>{{ $zone }}</option>
                                                 @endforeach
                                             </select>
                                             @error('timezone')
