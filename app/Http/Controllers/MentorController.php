@@ -252,12 +252,13 @@ class MentorController extends Controller
             ->with($notification, 'Availability Added Successfully!');
             } 
             else {
-                ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+                $notification = array(
+                    'message' => 'Availability Added Successfully!',
+                    'alert-type' => 'warning'
+                );
+
+              return redirect()->route('mentor.dashboard.availability')
+              ->with($notification, 'Slot already exists...Please try again with different slot');
             }
         }
 
