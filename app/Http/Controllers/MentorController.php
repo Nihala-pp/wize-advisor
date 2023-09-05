@@ -255,13 +255,12 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             }
 
             else {
-                $notification = array(
-                    'message' => $error,
-                    'alert-type' => $alert_error
-                );
-
-                return redirect()->route('mentor.dashboard.availability')
-                    ->with($notification);
+                ?>
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php 
             }
         }
     }
