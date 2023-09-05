@@ -1625,7 +1625,7 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <form method="POST" action="{{ route('mentor.save') }}" enctype="multipart/form-data">
+                            <form method="POST" action="{{ route('user.save') }}" enctype="multipart/form-data">
                                 @csrf
                                 <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                                 <div class="input-group input-group-static mb-3">

@@ -15,6 +15,8 @@ use Illuminate\Http\Request;
 use App\Mail\ScheduleCallRequest;
 use App\Mail\ScheduleCallRequestUser;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Validation\Rules\Password;
+use Hash;
 
 class UserController extends Controller
 {
@@ -64,11 +66,11 @@ class UserController extends Controller
     $mentor->notify(new NewReview($mentor));
 
     ?>
-    <script type="text/javascript">
-      alert("Review has been submitted");
-      window.location.href = "https://wiseadvizor.com/user/dashboard";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Review has been submitted");
+window.location.href = "https://wiseadvizor.com/user/dashboard";
+</script>
+<?php
   }
 
   public function updateSchedule($id)
@@ -203,5 +205,64 @@ class UserController extends Controller
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
 
     return response()->json($timeAvailability);
+  }
+
+  public function save_users(Request $request)
+  {
+    $user = User::find($request->row_id);
+
+    if(empty($user->metaData->profile_pic)) {
+      $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
+      $request->profile_pic->move(public_path('public/assets/img'), $pro_pic);
+    }
+    else {
+      $pro_pic = $request->profile;
+    }
+    
+
+    $credentials = $request->validate([
+      'password' => [
+          'required',
+          'confirmed', Password::min(8)
+              ->letters()
+              ->mixedCase()
+              ->numbers()
+              ->symbols()
+      ],
+  ]);
+
+    $password = $request->password ? Hash::make($request->password) :  $user->password;
+    // dd($request->all());
+    $data = [
+        'name' => $request->name,
+        'email' => $request->email,
+        'password' => $password,
+        'role_id' => 2,
+    ];
+
+    $user_record = User::updateOrCreate(
+        ['id' => $request->row_id],
+        $data
+    );
+
+    $meta_data = [
+        'user_id' => $user_record['id'],
+        'company' => $request->company_name,
+        'designation' => $request->designation,
+        'social_linked_in' => $request->linked_in,
+        'expertise' => json_encode($request->expert),
+        'profile_pic' => $pro_pic,
+        'timezone' => $request->timezone
+    ];
+
+    UserMeta::update_user_details($request->row_id, $meta_data);
+
+    $notification = array(
+        'message' => 'Profile Updated Successfully!',
+        'alert-type' => 'success'
+    );
+
+    return redirect()->route('user.profile')
+        ->with($notification, 'Profile Updated Successfully!');
   }
 }
