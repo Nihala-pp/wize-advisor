@@ -262,7 +262,7 @@ class MentorController extends Controller
             }
         }
 
-             redirect()->route('mentor.dashboard.availability')
+           return redirect()->route('mentor.dashboard.availability')
                 ->with($notification);
         
     }
