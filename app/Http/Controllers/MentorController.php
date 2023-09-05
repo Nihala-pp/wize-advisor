@@ -235,34 +235,36 @@ class MentorController extends Controller
 
             if ($exists->count()) {
 
-                $notificationError = array(
+                $notification = array(
                     'message' => $error,
                     'alert-type' => $alert_error
                 );
 
-                return redirect()->route('mentor.dashboard.availability')
-                    ->with($notificationError);
+                // return redirect()->route('mentor.dashboard.availability')
+                //     ->with($notification);
             }
-
-            $data = [
-                'mentor_id' => Auth::id(),
-                'date' => $schedule['date'],
-                'time_zone' => $request->time_zone,
-                'start_time' => $schedule['start_time'],
-                'end_time' => $schedule['end_time'],
-                'is_booked' => 0
-            ];
-
-            AvailableSchedule::update_schedule($request->row_id, $data);
-
-            $notification = array(
-                'message' => $msg,
-                'alert-type' => $alert_msg
-            );
+            else {
+                $data = [
+                    'mentor_id' => Auth::id(),
+                    'date' => $schedule['date'],
+                    'time_zone' => $request->time_zone,
+                    'start_time' => $schedule['start_time'],
+                    'end_time' => $schedule['end_time'],
+                    'is_booked' => 0
+                ];
+    
+                AvailableSchedule::update_schedule($request->row_id, $data);
+    
+                $notification = array(
+                    'message' => $msg,
+                    'alert-type' => $alert_msg
+                );
+            }
+        }
 
              redirect()->route('mentor.dashboard.availability')
                 ->with($notification);
-        }
+        
     }
 
     public function getZoomCallLink($id)
@@ -449,11 +451,11 @@ class MentorController extends Controller
 
         if ($exists) {
             ?>
-            <script type="text/javascript">
-                alert("Slot already exists...Please try again with different slot");
-                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-            </script>
-            <?php
+<script type="text/javascript">
+alert("Slot already exists...Please try again with different slot");
+window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+</script>
+<?php
         } else {
             $schedule = [
                 'mentor_id' => Auth::id(),
