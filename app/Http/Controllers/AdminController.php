@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Mail\CredentialEmail;
 use App\Models\LoginActivity;
 use App\Models\Setting;
 use App\Models\TodoList;
@@ -14,7 +15,9 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use App\Notifications\CustomNotification;
-use Notification;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Str;
+
 // use CustomNotification;
 
 class AdminController extends Controller
@@ -252,6 +255,7 @@ class AdminController extends Controller
         $data = [
             'name' => $request->name,
             'email' => $request->email,
+            'password' => Str::password(10),
             'role_id' => 2,
         ];
 
@@ -314,6 +318,8 @@ class AdminController extends Controller
             'end_date' => $resigned_date
             ]
         );
+
+        Mail::to($data['email'])->send(new CredentialEmail($data));
     }
 
     public function login_history()
