@@ -1688,7 +1688,7 @@
                                         class="select form-control @error('timezone') is-invalid @enderror" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
-                                        <option value="{{ $zone }}" {{ ($zone == $data->timezone) ? 'selected' : '' }}>
+                                        <option value="{{ $zone }}" {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
                                             {{ $zone }}</option>
                                         @endforeach
                                     </select>
