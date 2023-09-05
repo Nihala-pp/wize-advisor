@@ -243,10 +243,7 @@ class MentorController extends Controller
                 return redirect()->route('mentor.dashboard.availability')
                     ->with($notification);
             }
-        }
-
-        foreach ($request->schedule as $key => $schedule) {
-      
+       
                 $data = [
                     'mentor_id' => Auth::id(),
                     'date' => $schedule['date'],
@@ -262,11 +259,10 @@ class MentorController extends Controller
                     'message' => $msg,
                     'alert-type' => $alert_msg
                 );
-        }
-
-           return redirect()->route('mentor.dashboard.availability')
+                
+                redirect()->route('mentor.dashboard.availability')
                 ->with($notification);
-        
+        }        
     }
 
     public function getZoomCallLink($id)
