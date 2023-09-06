@@ -1674,17 +1674,19 @@
                                     <label class="form-label">Expertise you are looking for?</label><br />
                                     <select class="select form-control" multiple name="expert[]" required>
                                         @php
-                                           $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
+                                          $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                         @endphp
-                                       @foreach($expertise as $key => $expert)
-                                          <option value="{{ $expert }}" {{ $expert == $expt ? selected : '' }}>
-                                            {{ $expert }}
-                                          </option>
-                                       @endforeach
+                                        @foreach($expertise as $key => $expert)
+                                           @foreach($expt as $exp)
+                                             <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
+                                                {{ $expert }}
+                                             </option>
+                                           @endforeach
+                                        @endforeach
                                     </select>
                                 </div>
                                 <div class="timezone mb-3">
-                                    <label class=""></label></br>
+                                    <label class=""></label><br />
                                     <select name="timezone"
                                         class="select form-control @error('timezone') is-invalid @enderror" required>
                                         <option value="">Choose Your Timezone</option>
@@ -1704,8 +1706,8 @@
                                     <p>No image found</p>
                                     @endif
                                     <input type="file" name="profile_pic" class="form-control"
-                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" @php if
-                                        ($data->metaData && $data->metaData->profile_pic)
+                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" @php
+                                        if($data->metaData && $data->metaData->profile_pic)
                                     {
                                     $validation = '';
                                     }
@@ -1713,7 +1715,8 @@
                                     $validation = 'required';
                                     }
                                     echo $validation;
-                                    @endphp>
+                                    @endphp
+                                    >
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
