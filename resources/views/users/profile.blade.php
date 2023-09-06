@@ -1672,11 +1672,11 @@
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Expertise you are looking for?</label></br>
+                                    {{ json_decode($data->metaData->expertise) }}
                                     <select class="select form-control" multiple name="expert[]" required>
                                         @php
-                                        $expt = $data->metaData ? json_encode($data->metaData->expertise) : '';
+                                        $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                         @endphp
-                                        {{ json_encode($data->metaData->expertise) }}
                                         @foreach($expertise as $key => $expert)
                                         <option value="{{ $expert }}" {{ $expert == $expt ? 'selected' : '' }}>
                                             {{ $expert }}</option>
