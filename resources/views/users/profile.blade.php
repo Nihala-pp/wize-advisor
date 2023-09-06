@@ -1619,8 +1619,8 @@
                 <div class="card">
                     <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                         <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                            <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) My Profile  @else
-                            My Profile @endif</h6>
+                            <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) My Profile @else
+                                My Profile @endif</h6>
                         </div>
                     </div>
                     <div class="card-body">
@@ -1672,10 +1672,10 @@
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Expertise you are looking for?</label></br>
-                                    <select class="select form-control @error('expert') is-invalid @enderror" multiple
-                                        data-mdb-clear-button="true" name="expert[]" required>
+                                    <select class="select form-control" multiple name="expert[]" required>
                                         @foreach($expertise as $key => $expert)
-                                        <option value="{{ $expert }}" {{ $expert == $data->metaData->expertise ? 'selected' : '' }}>
+                                        <option value="{{ $expert }}"
+                                            {{ $expert == $data->metaData->expertise ? 'selected' : '' }}>
                                             {{ $expert }}</option>
                                         @endforeach
                                     </select>
@@ -1686,7 +1686,8 @@
                                         class="select form-control @error('timezone') is-invalid @enderror" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
-                                        <option value="{{ $zone }}" {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
+                                        <option value="{{ $zone }}"
+                                            {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
                                             {{ $zone }}</option>
                                         @endforeach
                                     </select>
@@ -1720,7 +1721,7 @@
     <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    <script type="text/javascript">
+    < script type = "text/javascript" >
         $(document).ready(function() {
             $("#inactivate").click(function() {
                 var checkBoxes = $("input[name=account_status\\[\\]]");
@@ -1758,4 +1759,5 @@
     color: #001e64 !important;
 }
 </style>
+
 </html>
