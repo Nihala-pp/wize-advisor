@@ -220,7 +220,6 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
       $pro_pic = $user->metaData->profile_pic;
     }
     
-
   //   $credentials = $request->validate([
   //     'password' => [
   //         'required',
@@ -233,7 +232,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   // ]);
 
     $password = $request->password ? Hash::make($request->password) :  $user->password;
-    // dd($request->all());
+    
     $data = [
         'name' => $request->name,
         'email' => $request->email,
