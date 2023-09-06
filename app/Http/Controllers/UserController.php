@@ -232,7 +232,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   // ]);
 
     $password = $request->password ? Hash::make($request->password) :  $user->password;
-    
+
     $data = [
         'name' => $request->name,
         'email' => $request->email,
@@ -264,5 +264,11 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
     return redirect()->route('user.profile', [$request->row_id])
         ->with($notification, 'Profile Updated Successfully!');
+  }
+
+  public function changePassword()
+  {
+
+    return view('users.change-password');
   }
 }
