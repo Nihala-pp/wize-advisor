@@ -220,16 +220,16 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     }
     
 
-    $credentials = $request->validate([
-      'password' => [
-          'required',
-          'confirmed', Password::min(8)
-              ->letters()
-              ->mixedCase()
-              ->numbers()
-              ->symbols()
-      ],
-  ]);
+  //   $credentials = $request->validate([
+  //     'password' => [
+  //         'required',
+  //         'confirmed', Password::min(8)
+  //             ->letters()
+  //             ->mixedCase()
+  //             ->numbers()
+  //             ->symbols()
+  //     ],
+  // ]);
 
     $password = $request->password ? Hash::make($request->password) :  $user->password;
     // dd($request->all());
