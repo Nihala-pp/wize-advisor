@@ -204,7 +204,7 @@ class HomeController extends Controller
       <?php
     }
 
-    if (empty($data['desc'])) {
+    if ($data['desc']->isEmpty()) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
