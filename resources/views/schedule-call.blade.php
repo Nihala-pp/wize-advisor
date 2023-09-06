@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="utf-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -969,11 +970,11 @@
     }
 
     .card_carousel_title {
-        padding-top:15px;
+        padding-top: 15px;
     }
 
     .card-title {
-        padding-top:10px;
+        padding-top: 10px;
     }
 
     /* .timezone {
@@ -1417,6 +1418,11 @@
                                                         Profile</a>
                                                 </li>
                                                 <li>
+                                                    <a class="dropdown-item"
+                                                        href="{{ route('user.change-password') }}">Change
+                                                        Password</a>
+                                                </li>
+                                                <li>
                                                     <a class="dropdown-item" href="{{ route('user.review') }}">My
                                                         Reviews</a>
                                                 </li>
@@ -1472,8 +1478,10 @@
                             <input type="hidden" class="price" name="price"
                                 value="{{ $mentor->metaData ? $mentor->metaData->price_per_call : '0' }}">
                             <input type="hidden" class="time" name="time" value="">
-<label class="form-label" style="color:black;">Description</label>
-<textarea id="desc" class="form-control" rows="5" cols="5" placeholder="Please have a quick explanation regarding the topic" name="desc" required></textarea>
+                            <label class="form-label" style="color:black;">Description</label>
+                            <textarea id="desc" class="form-control" rows="5" cols="5"
+                                placeholder="Please have a quick explanation regarding the topic" name="desc"
+                                required></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
                             <input type="file" name="doc" class="form-control">
                     </div>
@@ -2554,8 +2562,8 @@
                 $("body").on('click', '.event-card', function() {
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
-                     $(this).css('background-color', '#007bff');
-                     $(this).css('color', '#fff');
+                    $(this).css('background-color', '#007bff');
+                    $(this).css('color', '#fff');
 
                 });
             });
@@ -2798,7 +2806,7 @@
                             "<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' value=" +
                             events[i]["start_time"] +
                             " style='background-color:white;border:solid;border-color:#007bff;  width:75%' required></button>"
-                            );
+                        );
                         var event_name = $("<div class='event-name'>" + events[i]["start_time"] + "</div>");
                         // var event_count = $("<div class='event-count'>"+events[i]["invited_count"]+" Invited</div>");
                         if (events[i]["cancelled"] === true) {
@@ -2967,4 +2975,5 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
+
 </html>
