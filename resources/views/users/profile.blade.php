@@ -1638,7 +1638,7 @@
                                     <input type="email" name="email" class="form-control"
                                         value="{{ $data->email ? : '' }}" required>
                                 </div>
-                                <div class="input-group input-group-static mb-3">
+                                <!-- <div class="input-group input-group-static mb-3">
                                     <label class="">Password</label>
                                     <input id="password" type="password"
                                         class="form-control @error('password') is-invalid @enderror" name="password"
@@ -1654,7 +1654,7 @@
                                     <input id="password" type="password"
                                         class="form-control @error('password') is-invalid @enderror"
                                         name="password_confirmation" autocomplete="current-password">
-                                </div>
+                                </div> -->
                                 <div class="input-group input-group-static mb-3">
                                     <label class="">Company Name</label>
                                     <input type="text" class="form-control" name="company_name"
