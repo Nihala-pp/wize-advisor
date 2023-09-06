@@ -1671,16 +1671,16 @@
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label">Expertise you are looking for?</label></br>
-                                    {{ array_values(json_decode($data->metaData->expertise, true)) }}
+                                    <label class="form-label">Expertise you are looking for?</label><br />
                                     <select class="select form-control" multiple name="expert[]" required>
                                         @php
-                                        $expt = $data->metaData ? array_values(json_decode($data->metaData->expertise, true)) : '';
+                                           $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                         @endphp
-                                        @foreach($expertise as $key => $expert)
-                                        <option value="{{ $expert }}" {{ $expert == $expt ? 'selected' : '' }}>
-                                            {{ $expert }}</option>
-                                        @endforeach
+                                       @foreach($expertise as $key => $expert)
+                                          <option value="{{ $expert }}" {{ $expert == $expt ? selected : '' }}>
+                                            {{ $expert }}
+                                          </option>
+                                       @endforeach
                                     </select>
                                 </div>
                                 <div class="timezone mb-3">
@@ -1704,17 +1704,16 @@
                                     <p>No image found</p>
                                     @endif
                                     <input type="file" name="profile_pic" class="form-control"
-                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" 
-                                      @php
-                                         if ($data->metaData && $data->metaData->profile_pic)
-                                         {
-                                            $validation = '';             
-                                         }
-                                         else {
-                                            $validation = 'required';
-                                         }
-                                         echo $validation;
-                                        @endphp>
+                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" @php if
+                                        ($data->metaData && $data->metaData->profile_pic)
+                                    {
+                                    $validation = '';
+                                    }
+                                    else {
+                                    $validation = 'required';
+                                    }
+                                    echo $validation;
+                                    @endphp>
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
