@@ -204,7 +204,7 @@ class HomeController extends Controller
       <?php
     }
 
-    if (empty($data['desc'])) {
+    elseif (empty($data['desc'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
@@ -216,7 +216,7 @@ class HomeController extends Controller
       <?php
     }
 
-    if (empty($data['timezone'])) {
+    elseif (empty($data['timezone'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
