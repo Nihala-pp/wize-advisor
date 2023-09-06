@@ -1704,7 +1704,6 @@
                                     @endif
                                     <input type="file" name="profile_pic" class="form-control"
                                         value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" required>
-                                    <!-- @endif -->
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
