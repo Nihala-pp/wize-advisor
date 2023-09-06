@@ -292,5 +292,13 @@ class UserController extends Controller
       ['id' => Auth::id()],
       $data
     );
+
+    $notification = array(
+      'message' => 'Password Updated Successfully!',
+      'alert-type' => 'success'
+    );
+
+    return redirect()->route('user.change-password')
+      ->with($notification, 'Password Updated Successfully!');
   }
 }
