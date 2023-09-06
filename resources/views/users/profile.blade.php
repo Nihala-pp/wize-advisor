@@ -1696,14 +1696,21 @@
                                     </select>
                                 </div>
                                 <div class="input-group input-group-static mb-3">
-                                    <label>Profile Pic</label><br/>
+                                    <label>Profile Pic</label><br />
                                     @if (public_path('assets/img/'.$data->metaData->profile_pic))
-                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}" height="50px;" width="50px;">
+                                    @php
+                                      $validation = 'required';
+                                    @endphp
+                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
+                                        height="50px;" width="50px;">
                                     @else
+                                      @php
+                                        $validation = '';
+                                      @endphp
                                     <p>No image found</p>
                                     @endif
                                     <input type="file" name="profile_pic" class="form-control"
-                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" required>
+                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" {{ $validation }}>
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
