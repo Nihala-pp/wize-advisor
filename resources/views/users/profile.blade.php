@@ -1676,8 +1676,8 @@
                                         @php
                                           $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                         @endphp
-                                        @foreach($expertise as $key => $expert)
-                                           @foreach($expt as $exp)
+                                        @foreach($expt as $exp)
+                                          @foreach($expertise as $key => $expert)
                                              <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
                                                 {{ $expert }}
                                              </option>
