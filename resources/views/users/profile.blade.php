@@ -1698,7 +1698,7 @@
                                 <div class="input-group input-group-static mb-3">
                                     <label>Profile Pic</label>
                                     @if (public_path('assets/img/'.$data->metaData->profile_pic))
-                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}">
+                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}" height="100px;" width="100px;">
                                     @else
                                     <p>No image found</p>
                                     @endif
