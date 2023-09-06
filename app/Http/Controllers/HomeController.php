@@ -191,7 +191,7 @@ class HomeController extends Controller
     $data = array();
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
-    //  dd($data['duration']);
+
     if (empty($data['time'])) {
       ?>
       <script type="text/javascript">
@@ -204,7 +204,7 @@ class HomeController extends Controller
       <?php
     }
 
-    if ($data['desc'] == '') {
+    if (empty($data['desc'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
@@ -227,7 +227,9 @@ class HomeController extends Controller
         location.reload();
       </script>
       <?php
-    } else {
+    } 
+
+    else {
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
       $date = $data['year'] . '-' . $nmonth . '-' . $data['day'];
