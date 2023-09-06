@@ -1704,23 +1704,25 @@
                                 </div>
                                 <div class="input-group input-group-static mb-3">
                                     <label style="padding-right:30px;">Profile Pic</label><br />
-                                    @if (public_path('assets/img/'.$data->metaData->profile_pic))
-                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
+                                    @if ($data->metaData && $data->metaData->profile_pic)
+                                      <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
                                         height="50px;" width="50px;">
                                     @else
-                                    <p>No image found</p>
+                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                        height="50px;" width="50px;">
                                     @endif
                                     <input type="file" name="profile_pic" class="form-control"
-                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" @php
-                                        if($data->metaData && $data->metaData->profile_pic)
-                                    {
-                                    $validation = '';
-                                    }
-                                    else {
-                                    $validation = 'required';
-                                    }
-                                    echo $validation;
-                                    @endphp
+                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" 
+                                        @php
+                                          if($data->metaData && $data->metaData->profile_pic)
+                                          {
+                                            $validation = '';
+                                          }
+                                          else {
+                                            $validation = 'required';
+                                          }
+                                            echo $validation;
+                                        @endphp
                                     >
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
