@@ -1560,6 +1560,11 @@
                                                             Profile</a>
                                                     </li>
                                                     <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.change-password') }}">Change
+                                                            Password</a>
+                                                    </li>
+                                                    <li>
                                                         <a class="dropdown-item" href="{{ route('user.review') }}">My
                                                             Reviews</a>
                                                     </li>
