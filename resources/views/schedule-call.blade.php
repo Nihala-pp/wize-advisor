@@ -1479,9 +1479,9 @@
                                 value="{{ $mentor->metaData ? $mentor->metaData->price_per_call : '0' }}">
                             <input type="hidden" class="time" name="time" value="">
                             <label class="form-label" style="color:black;">Description</label>
-                            <textarea id="desc" class="form-control" rows="5" cols="5"
+                            <textarea required="required" id="desc" class="form-control" rows="5" cols="5"
                                 placeholder="Please have a quick explanation regarding the topic" name="desc"
-                                required></textarea>
+                                ></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
                             <input type="file" name="doc" class="form-control">
                     </div>
