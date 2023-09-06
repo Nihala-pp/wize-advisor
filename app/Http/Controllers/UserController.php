@@ -209,6 +209,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
   public function save_users(Request $request)
   {
+    dd($request->all());
     $user = User::find($request->row_id);
 
     if(empty($user->metaData->profile_pic)) {
