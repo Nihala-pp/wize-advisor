@@ -263,7 +263,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
         'alert-type' => 'success'
     );
 
-    return redirect()->route('user.profile')
+    return redirect()->route('user.profile', [$request->row_id])
         ->with($notification, 'Profile Updated Successfully!');
   }
 }
