@@ -1708,10 +1708,10 @@
                                       @php
                                          if ($data->metaData && $data->metaData->profile_pic)
                                          {
-                                            $validation = 'required';
+                                            $validation = '';             
                                          }
                                          else {
-                                            $validation = '';
+                                            $validation = 'required';
                                          }
                                          echo $validation;
                                         @endphp>
