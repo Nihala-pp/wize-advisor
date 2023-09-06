@@ -1502,7 +1502,7 @@
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id())
                                     <div class="d-flex align-items-center">
-                                    <div class="dropdown">
+                                        <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
@@ -1540,6 +1540,11 @@
                                                     <a class="dropdown-item"
                                                         href="{{ route('user.profile', [Auth::id()]) }}">My
                                                         Profile</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item"
+                                                        href="{{ route('user.change-password') }}">Change
+                                                        Password</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('user.review') }}">My
