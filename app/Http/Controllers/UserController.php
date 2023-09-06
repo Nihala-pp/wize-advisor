@@ -217,7 +217,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
       $request->profile_pic->move(public_path('assets/img'), $pro_pic);
     }
     else {
-      $pro_pic = $request->profile;
+      $pro_pic = $user->metaData->profile_pic;
     }
     
 
