@@ -1675,6 +1675,7 @@
                                     <select class="select form-control" multiple name="expert[]" required>
                                         @php
                                           $expt = $data->metaData ? json_encode($data->metaData->expertise) : '';
+                                          dd($expt);
                                         @endphp
                                         @foreach($expertise as $key => $expert)
                                         <option value="{{ $expert }}" {{ $expert == $expt ? 'selected' : '' }}>
