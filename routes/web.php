@@ -167,4 +167,6 @@ Route::controller(MentorController::class)
         Route::get('/getTimeAvailability', 'getTimeAvailability')->name('schedule.getTimeAvailability');
         Route::get('/profile/{id?}', 'profile')->name('profile');
         Route::post('/save_users', 'save_users')->name('save');
+        Route::get('/change-password', 'changePassword')->name('change-password');
+        Route::post('/save-password', 'savePassword')->name('password.save');
     });
