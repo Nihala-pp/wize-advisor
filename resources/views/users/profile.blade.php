@@ -1696,9 +1696,9 @@
                                     </select>
                                 </div>
                                 <div class="input-group input-group-static mb-3">
-                                    <label>Profile Pic</label>
+                                    <label>Profile Pic</label><br/>
                                     @if (public_path('assets/img/'.$data->metaData->profile_pic))
-                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}" height="100px;" width="100px;">
+                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}" height="50px;" width="50px;">
                                     @else
                                     <p>No image found</p>
                                     @endif
