@@ -66,11 +66,11 @@ class UserController extends Controller
     $mentor->notify(new NewReview($mentor));
 
     ?>
-<script type="text/javascript">
-alert("Review has been submitted");
-window.location.href = "https://wiseadvizor.com/user/dashboard";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Review has been submitt  ed");
+      window.location.href = "https://wiseadvizor.com/user/dashboard";
+    </script>
+    <?php
   }
 
   public function updateSchedule($id)
@@ -173,7 +173,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     $data = User::find($id);
     $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
 
-    return view('users.profile', compact('data', 'scheduled_calls','expertise','timezone'));
+    return view('users.profile', compact('data', 'scheduled_calls', 'expertise', 'timezone'));
   }
 
   public function getDateAvailability($scheduled_call)
@@ -212,63 +212,85 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     // dd($request->all());
     $user = User::find($request->row_id);
 
-    if(empty($user->metaData->profile_pic)) {
+    if (empty($user->metaData->profile_pic)) {
       $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
       $request->profile_pic->move(public_path('assets/img'), $pro_pic);
-    }
-    else {
+    } else {
       $pro_pic = $user->metaData->profile_pic;
     }
-    
-  //   $credentials = $request->validate([
-  //     'password' => [
-  //         'required',
-  //         'confirmed', Password::min(8)
-  //             ->letters()
-  //             ->mixedCase()
-  //             ->numbers()
-  //             ->symbols()
-  //     ],
-  // ]);
 
-    $password = $request->password ? Hash::make($request->password) :  $user->password;
+    //   $credentials = $request->validate([
+    //     'password' => [
+    //         'required',
+    //         'confirmed', Password::min(8)
+    //             ->letters()
+    //             ->mixedCase()
+    //             ->numbers()
+    //             ->symbols()
+    //     ],
+    // ]);
+
+    $password = $request->password ? Hash::make($request->password) : $user->password;
 
     $data = [
-        'name' => $request->name,
-        'email' => $request->email,
-        'password' => $password,
-        'role_id' => 3,
+      'name' => $request->name,
+      'email' => $request->email,
+      'password' => $password,
+      'role_id' => 3,
     ];
 
     $user_record = User::updateOrCreate(
-        ['id' => $request->row_id],
-        $data
+      ['id' => $request->row_id],
+      $data
     );
 
     $meta_data = [
-        'user_id' => $user_record['id'],
-        'company' => $request->company_name,
-        'designation' => $request->designation,
-        'social_linked_in' => $request->linked_in,
-        'expertise' => json_encode($request->expert),
-        'profile_pic' => $pro_pic,
-        'timezone' => $request->timezone
+      'user_id' => $user_record['id'],
+      'company' => $request->company_name,
+      'designation' => $request->designation,
+      'social_linked_in' => $request->linked_in,
+      'expertise' => json_encode($request->expert),
+      'profile_pic' => $pro_pic,
+      'timezone' => $request->timezone
     ];
 
     UserMeta::update_user_details($request->row_id, $meta_data);
 
     $notification = array(
-        'message' => 'Profile Updated Successfully!',
-        'alert-type' => 'success'
+      'message' => 'Profile Updated Successfully!',
+      'alert-type' => 'success'
     );
 
     return redirect()->route('user.profile', [$request->row_id])
-        ->with($notification, 'Profile Updated Successfully!');
+      ->with($notification, 'Profile Updated Successfully!');
   }
 
   public function changePassword()
   {
 
     return view('users.change-password');
+  }
+
+  public function savePassword(Request $request)
+  {
+    $request->validate([
+      'password' => [
+        'required',
+        'confirmed', Password::min(8)
+          ->letters()
+          ->mixedCase()
+          ->numbers()
+          ->symbols()
+      ],
+    ]);
+
+    $data = [
+      'password' => Hash::make($request->password),
+    ];
+
+    User::updateOrCreate(
+      ['id' => Auth::id()],
+      $data
+    );
   }
 }
