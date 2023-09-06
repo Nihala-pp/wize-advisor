@@ -1674,8 +1674,8 @@
                                     <label class="form-label">Expertise you are looking for?</label></br>
                                     <select class="select form-control" multiple name="expert[]" required>
                                         @php
-                                          $expt = $data->metaData ? json_encode($data->metaData->expertise) : '';
-                                          dd($expt);
+                                        $expt = $data->metaData ? json_encode($data->metaData->expertise) : '';
+                                        dd($expt);
                                         @endphp
                                         @foreach($expertise as $key => $expert)
                                         <option value="{{ $expert }}" {{ $expert == $expt ? 'selected' : '' }}>
@@ -1694,11 +1694,6 @@
                                             {{ $zone }}</option>
                                         @endforeach
                                     </select>
-                                    @error('timezone')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
                                 </div>
                                 <div class="input-group input-group-static mb-3">
                                     <label>Profile Pic</label>
@@ -1712,7 +1707,6 @@
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                             </form>
-                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
