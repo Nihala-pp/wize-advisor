@@ -1697,12 +1697,12 @@
                                 </div>
                                 <div class="input-group input-group-static mb-3">
                                     <label>Profile Pic</label>
-                                    @if(!empty($data->metaData && $data->metaData->profile_pic))
+                                    <!-- @if(!empty($data->metaData && $data->metaData->profile_pic))
                                     <input type="hidden" name="profile" class="form-control"
                                         value="{{ $data->metaData->profile_pic }}">
-                                    @else
-                                    <input type="file" name="profile_pic" class="form-control" required>
-                                    @endif
+                                    @else -->
+                                    <input type="file" name="profile_pic" class="form-control" value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" required>
+                                    <!-- @endif -->
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
