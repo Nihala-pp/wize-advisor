@@ -1675,8 +1675,7 @@
                                     <select class="select form-control @error('expert') is-invalid @enderror" multiple
                                         data-mdb-clear-button="true" name="expert[]" required>
                                         @foreach($expertise as $key => $expert)
-                                        <option value="{{ $expert }}"
-                                            {{ $expert == $data->metaData->expertise ? 'selected' : '' }}>
+                                        <option value="{{ $expert }}" {{ $expert == $data->metaData->expertise ? 'selected' : '' }}>
                                             {{ $expert }}</option>
                                         @endforeach
                                     </select>
