@@ -446,4 +446,24 @@ class HomeController extends Controller
 
     return view('call');
   }
+
+  public function completedCalls()
+  {
+    
+  }
+
+  public function callFeedBack()
+  {
+    
+  }
+
+  public function callReminder()
+  {
+
+  }
+
+  public function weeklySlotUpdate()
+  {
+
+  }
 }
