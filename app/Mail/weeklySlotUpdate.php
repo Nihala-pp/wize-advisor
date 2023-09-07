@@ -13,12 +13,14 @@ class weeklySlotUpdate extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $details;
+
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($details)
     {
-        //
+        $this->details = $details;
     }
 
     /**
@@ -27,7 +29,7 @@ class weeklySlotUpdate extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Weekly Slot Update',
+            subject: 'Please Update Your Availability for Mentorship Sessions',
         );
     }
 
@@ -37,7 +39,7 @@ class weeklySlotUpdate extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'mail.weekly-slot',
         );
     }
 

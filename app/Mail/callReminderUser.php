@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class feedbackEmailUser extends Mailable
+class callReminderUser extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -30,9 +30,7 @@ class feedbackEmailUser extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Your Valuable Feedback on Mentorship Session on wiseAdvizor',
-            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
-            bcc: ['nihala-pp@wiseadvizor.com']
+            subject: 'Upcoming Mentorship Session on wiseAdvizor!!',
         );
     }
 
@@ -42,7 +40,7 @@ class feedbackEmailUser extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'mail.feedback',
+            view: 'mail.reminder-user',
         );
     }
 
