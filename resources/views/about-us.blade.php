@@ -3788,10 +3788,10 @@
             </script>
 </body>
 <style>
-@media (max-width: 1290px) {
-    img.rounded-circle {
-        height: 8px ;
-        width: 37px ;
+@media only screen and (max-width: 1290px){ 
+  img  .rounded-circle {
+        height: 8px;
+        width: 37px;
     }
 }
 </style>
