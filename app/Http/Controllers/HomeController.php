@@ -271,7 +271,9 @@ class HomeController extends Controller
       $details = [
         'mentor' => $data['mentor'],
         'mentor_name' => $mentor->name,
+        'user_name' => $user->name,
         'user_id' => Auth::id(),
+        'desc' => $data['desc'],
         'user' => $user->name,
         'date' => $date,
         'start_time' => $data['time'],
