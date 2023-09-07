@@ -1550,7 +1550,7 @@
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                        class="rounded-circle" height="8" width="150"
+                                                        class="rounded-circle" height="8" width="75"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
@@ -1770,11 +1770,9 @@
     </script>
 </body>
 <style>
-// .navbar-main li a {
 //     font-family: "Helvetica", Sans-serif !important;
 //     font-size: 17px !important;
 //     font-weight: 700 !important;
 //     color: #001e64 !important;
-// }
 </style>
 </html>
