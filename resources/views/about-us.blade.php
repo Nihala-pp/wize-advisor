@@ -1537,7 +1537,7 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="dropdown" style="padding-right:30px">
+                                                    <div class="dropdown avata" style="padding-right:30px">
                                                         <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                             id="navbarDropdownMenuAvatar" role="button"
                                                             data-mdb-toggle="dropdown" aria-expanded="false">
@@ -3789,15 +3789,15 @@
 </body>
 <style>
 @media only screen and (max-width: 1290px){ 
-    html :where(img[class*=rounded-circle]) {
+    /* html :where(img[class*=rounded-circle]) {
         height:  8px !important;
         width: 30px !important;
-    }
+    } */
 
-    /* #navbarDropdownMenuAvatar  img {
+    .avata  img {
         height: 8px !important;
         width: 30px !important;
-    } */
+    }
 }
 </style>
 </html>
