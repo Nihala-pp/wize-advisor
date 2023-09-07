@@ -316,6 +316,8 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             $details = [
                 'join_url' => $data->join_url,
                 'user_name' => $schedule->user->name,
+                'time' => $schedule->start_time - $schedule->end_time,
+                'date' => $schedule->date,
                 'mentor_name' => $schedule->mentor->name,
                 'password' => $data->password
             ];
