@@ -3789,7 +3789,7 @@
 </body>
 <style>
 @media only screen and (max-width: 1290px){ 
-  img  .rounded-circle {
+    #navbarDropdownMenuAvatar  img {
         height: 8px !important;
         width: 30px !important;
     }
