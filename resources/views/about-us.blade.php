@@ -3791,7 +3791,7 @@
 @media only screen and (max-width: 1290px){ 
     html :where(img[class*=rounded-circle]) {
         height:  8px !important;
-        max-width: 30px !important;
+        width: 30px !important;
     }
 
     /* #navbarDropdownMenuAvatar  img {
