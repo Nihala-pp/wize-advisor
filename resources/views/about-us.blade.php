@@ -1936,7 +1936,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-image-box-wrapper">
                                             <div class="elementor-image-box-content">
-                                                <h2 class="elementor-image-box-title">Our Team</h2>
+                                                <h2 class="elementor-image-box-title title">Our Team</h2>
                                                 <p class="elementor-image-box-description">"Meet our dynamic team of
                                                     professionals, passionate about delivering exceptional results and
                                                     empowering businesses to thrive in today's dynamic market.</p>
@@ -1963,6 +1963,8 @@
                                                             type="text/css" rel="stylesheet">
 
                                                         <style type="text/css">
+
+
                                                         /* widget: Card Carousel */
 
                                                         #uc_card_carousel_elementor_4706453-wrapper {
@@ -3136,6 +3138,9 @@
                 top: 5px;
                 width: auto;
                 z-index: 100000;
+            }
+            .title {
+                margin-top: 20px !important;
             }
             </style>
             <script>
