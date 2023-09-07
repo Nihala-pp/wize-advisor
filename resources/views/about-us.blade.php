@@ -1511,7 +1511,7 @@
                                     </div>
                                     <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                         data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
+                                        <div class="elementor-widget-container responsive-breakpoints">
                                             <div class="elementor-button-wrapper">
                                                 @if(Auth::id())
                                                 <div class="d-flex align-items-center">
