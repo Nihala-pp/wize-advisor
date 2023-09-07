@@ -1963,8 +1963,6 @@
                                                             type="text/css" rel="stylesheet">
 
                                                         <style type="text/css">
-
-
                                                         /* widget: Card Carousel */
 
                                                         #uc_card_carousel_elementor_4706453-wrapper {
@@ -3139,6 +3137,7 @@
                 width: auto;
                 z-index: 100000;
             }
+
             .title {
                 margin-top: 20px !important;
             }
@@ -3788,5 +3787,12 @@
             }(jQuery));
             </script>
 </body>
-
+<style>
+@media (max-width: 1290px) {
+    img.rounded-circle {
+        height: 10px !important;
+        width: 37px !important;
+    }
+}
+</style>
 </html>
