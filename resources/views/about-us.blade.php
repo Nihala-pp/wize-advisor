@@ -3788,7 +3788,7 @@
             </script>
 </body>
 <style>
-@media only screen and (max-width: 1290px){ 
+@media only screen and (max-width: 1240px){ 
   img  .rounded-circle {
         height: 8px;
         width: 30px;
