@@ -3789,10 +3789,15 @@
 </body>
 <style>
 @media only screen and (max-width: 1290px){ 
-    #navbarDropdownMenuAvatar  img {
+    html :where(img[class*=rounded-circle]) {
+        height:  8px;
+        max-width: 37px;
+    }
+
+    /* #navbarDropdownMenuAvatar  img {
         height: 8px !important;
         width: 30px !important;
-    }
+    } */
 }
 </style>
 </html>
