@@ -29,7 +29,7 @@ class ScheduleCallRequestUser extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Call Schedule Request',
+            subject: 'Requested Call with wiseAdvisor',
             cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
             bcc: ['nihala-pp@wiseadvizor.com']
         );
