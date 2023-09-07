@@ -13,12 +13,14 @@ class completedCallMentor extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $details;
+
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($details)
     {
-        //
+        $this->details = $details;
     }
 
     /**
@@ -27,7 +29,9 @@ class completedCallMentor extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Completed Call Mentor',
+            subject: 'Confirmation of Successful Mentorship Session',
+            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
+            bcc: ['nihala-pp@wiseadvizor.com']
         );
     }
 
@@ -36,8 +40,10 @@ class completedCallMentor extends Mailable
      */
     public function content(): Content
     {
+        
+
         return new Content(
-            view: 'view.name',
+            view: 'mail.completed-call-mentor',
         );
     }
 
