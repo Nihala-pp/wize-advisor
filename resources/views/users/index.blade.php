@@ -2280,12 +2280,12 @@
         color: #d17581;
     }
 
-    .navbar-light li a {
+    /* .navbar-light li a {
         font-family: "Helvetica", Sans-serif !important;
         font-size: 17px !important;
         font-weight: 700 !important;
         color: #001e64 !important;
-    }
+    } */
 
     .card-header {
         background-color: #001e64 !important;

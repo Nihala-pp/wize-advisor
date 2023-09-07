@@ -1739,7 +1739,7 @@
     <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    < script type = "text/javascript" >
+    <script type = "text/javascript">
         $(document).ready(function() {
             $("#inactivate").click(function() {
                 var checkBoxes = $("input[name=account_status\\[\\]]");
@@ -1770,12 +1770,11 @@
     </script>
 </body>
 <style>
-.navbar-main li a {
-    font-family: "Helvetica", Sans-serif !important;
-    font-size: 17px !important;
-    font-weight: 700 !important;
-    color: #001e64 !important;
-}
+// .navbar-main li a {
+//     font-family: "Helvetica", Sans-serif !important;
+//     font-size: 17px !important;
+//     font-weight: 700 !important;
+//     color: #001e64 !important;
+// }
 </style>
-
 </html>
