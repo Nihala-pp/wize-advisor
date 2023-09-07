@@ -303,7 +303,7 @@
         }
     }
 
-    ul {
+    /* ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -313,15 +313,15 @@
     .pe-7s-user {
         margin-right: 20px;
         align: center;
-    }
-
+    } */
+/* 
     .elementor-button-wrapper .browse {
         margin-left: 20px;
-    }
+    } */
 
-    .menuITem {
+    /* .menuITem {
         margin-left: 30px;
-    }
+    } */
 
     .name {
         font-size: 13px;
@@ -329,10 +329,10 @@
         margin-right: 20px;
     }
 
-    .menu {
+    /* .menu {
         font-size: 12px;
         text-align: center;
-    }
+    } */
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
@@ -1537,7 +1537,7 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="dropdown avata" style="padding-right:30px">
+                                                    <div class="dropdown avata">
                                                         <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                             id="navbarDropdownMenuAvatar" role="button"
                                                             data-mdb-toggle="dropdown" aria-expanded="false">
