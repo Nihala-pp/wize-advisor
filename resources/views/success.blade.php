@@ -1594,13 +1594,13 @@
                     </a>
                 </div>
                 <h5 class="card-title mt-3">Confirmed</h5>
-                <p class="card-text">You are scheduled with {{ $mentor->name }}</p>
+                <p class="card-text">Your call is scheduled with {{ $mentor->name }}</p>
                 <h5 class="card-title">{{ $details['duration'] }} Min Meeting</h5>
                 <i class="fab fa-time"><b> {{ $details['start_time'] }} - {{ $details['finish_time'] }}
                         {{ $details['date'] }} </b></i>
                 <i class="fab fa-time"> {{ $details['UTC'] }} </i>
-                <p class="card-text mt-2">An email for the meeting link will be sent to your Email Address Once the
-                    mentor is approved</p>
+                <p class="card-text mt-2">An email for the meeting link will be sent to your Email Address Once 
+                    mentor approves the call.</p>
             </div>
         </div>
         <!-- Optional JavaScript; choose one of the two! -->
