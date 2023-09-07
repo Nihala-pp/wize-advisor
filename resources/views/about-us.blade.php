@@ -3790,8 +3790,8 @@
 <style>
 @media only screen and (max-width: 1240px){ 
   img  .rounded-circle {
-        height: 8px;
-        width: 30px;
+        height: 8px !important;
+        width: 30px !important;
     }
 }
 </style>
