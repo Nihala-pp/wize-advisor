@@ -1490,7 +1490,7 @@
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                        class="rounded-circle" height="8" width="50"
+                                                        class="rounded-circle" height="8" width="37"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"

@@ -396,9 +396,10 @@
         font-size: 12px;
         text-align: center;
     } */
-    */ .elementor-button-wrapper .browse {
+    *
+    /* / .elementor-button-wrapper .browse {
         margin-left: 20px;
-    }
+    } */
 
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
@@ -1615,12 +1616,12 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="dropdown" style="padding-right:30px">
+                                            <div class="dropdown">
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                        class="rounded-circle" height="8" width="50"
+                                                        class="rounded-circle" height="8" width="37"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"

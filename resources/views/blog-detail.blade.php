@@ -896,7 +896,7 @@
         font-family: var(--wp--preset--font-family--source-serif-pro) !important;
     }
 
-    ul {
+    /* ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -925,7 +925,7 @@
     .menu {
         font-size: 12px;
         text-align: center;
-    }
+    } */
     </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
@@ -1516,12 +1516,12 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="dropdown" style="padding-right:30px">
+                                            <div class="dropdown">
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                                                        class="rounded-circle" height="8" width="50"
+                                                        class="rounded-circle" height="8" width="37"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
