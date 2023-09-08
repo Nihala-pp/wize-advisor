@@ -1571,7 +1571,7 @@
                                                         alt="Black and White Portrait of a Man" loading="lazy">
                                                     @else
                                                     <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        height="125px;" width="125px;" class="rounded-circle">
+                                                        height="100px;" width="100px;" class="rounded-circle">
                                                     @endif
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
