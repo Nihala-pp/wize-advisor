@@ -1893,14 +1893,14 @@
                                 <img class="card-img-top"
                                     src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                     alt="Card image cap" width="277" height="180">
-                                <div class="card-body">
+                                <div class="card-body text-center">
                                     <h5 class="card-title">{{ $mentor->name }}</h5>
                                     <p class="card-text">
                                         {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}
 
                                         <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
                                     </p>
-                                    <div class="d-grid gap-2 col-6 mx-auto text-center">
+                                    <div class="d-grid gap-2 col-6 mx-auto">
                                         @if(Auth::id())
                                         <a href="{{ route('schedule-call', [$mentor->id]) }}"
                                             class="btn btn-primary mid-center"
@@ -1911,7 +1911,7 @@
                                             style="background-color:#001E64;">Schedule Call</a>
                                         @endif
                                         <a href="{{ route('profile', [$mentor->id]) }}" class="card-link viewProfile"
-                                            style="color:#007bff; font: size 4px;">View Profile</a>
+                                            style="color:#007bff;">View Profile</a>
                                     </div>
                                 </div>
                                 <div class="card-footer">
