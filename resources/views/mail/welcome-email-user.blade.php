@@ -30,7 +30,7 @@
             <h5 class="card-title"><b> How It Works?</b>
             </h5>
             <p class="card-title">Not sure how to begin? No worries! We've prepared a detailed guide on how WiseAdvizor
-                works. Just click here to learn more.
+                works. Just <a href="https://www.youtube.com/watch?v=b0bbWANuJ2A"> click here </a> to learn more.
             </p><br />
             <h5 class="card-title"><b>Why Choose wiseAdvizor?</b>
             </h5>
