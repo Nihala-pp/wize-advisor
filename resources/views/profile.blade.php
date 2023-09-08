@@ -2393,7 +2393,7 @@
                             data-id="a9a790e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
                                 @foreach($expertise as $expert)
-                                <div class="col-md-4" style="padding-top: 50px">
+                                <div class="col-md-4">
                                     <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1d348a4"
                                         data-id="1d348a4" data-element_type="column"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
