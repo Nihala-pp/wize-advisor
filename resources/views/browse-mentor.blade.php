@@ -1119,6 +1119,11 @@
         padding-right: 30px !important;
     }
 
+    a.card-link.viewProfile
+    {
+        font-size:13px !important;
+    }
+
     .elementor-star-rating__wrapper {
         padding-right: 70px;
     }
@@ -1902,7 +1907,7 @@
                                             class="btn btn-primary"
                                             style="background-color:#001E64; align:center;">Schedule Call</a>
                                         @endif
-                                        <a href="{{ route('profile', [$mentor->id]) }}" class="card-link"
+                                        <a href="{{ route('profile', [$mentor->id]) }}" class="card-link viewProfile"
                                             style="color:#007bff;; font: size 4px;">View Profile</a>
                                     </div>
                                 </div>
