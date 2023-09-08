@@ -1549,9 +1549,14 @@
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    @if ($data->metaData && $data->metaData->profile_pic)
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="8" width="150"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
+                                                    @else
+                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        height="50px;" width="50px;">
+                                                    @endif
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuAvatar">
@@ -1679,14 +1684,14 @@
                                     <label class="form-label">Expertise you are looking for?</label><br />
                                     <select class="select form-control" multiple name="expert[]" required>
                                         @php
-                                          $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
+                                        $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                         @endphp
                                         @foreach($expt as $exp)
-                                          @foreach($expertise as $key => $expert)
-                                             <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
-                                                {{ $expert }}
-                                             </option>
-                                           @endforeach
+                                        @foreach($expertise as $key => $expert)
+                                        <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
+                                            {{ $expert }}
+                                        </option>
+                                        @endforeach
                                         @endforeach
                                     </select>
                                 </div>
@@ -1705,24 +1710,23 @@
                                 <div class="input-group input-group-static mb-3">
                                     <label style="padding-right:30px;">Profile Pic</label><br />
                                     @if ($data->metaData && $data->metaData->profile_pic)
-                                      <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
+                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
                                         height="50px;" width="50px;">
                                     @else
-                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                        height="50px;" width="50px;">
+                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}" height="50px;"
+                                        width="50px;">
                                     @endif
                                     <input type="file" name="profile_pic" class="form-control"
-                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" 
-                                        @php
-                                          if($data->metaData && $data->metaData->profile_pic)
-                                          {
-                                            $validation = '';
-                                          }
-                                          else {
-                                            $validation = 'required';
-                                          }
-                                            echo $validation;
-                                        @endphp
+                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" @php
+                                        if($data->metaData && $data->metaData->profile_pic)
+                                    {
+                                    $validation = '';
+                                    }
+                                    else {
+                                    $validation = 'required';
+                                    }
+                                    echo $validation;
+                                    @endphp
                                     >
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
@@ -1739,7 +1743,7 @@
     <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    <script type = "text/javascript">
+    < script type = "text/javascript" >
         $(document).ready(function() {
             $("#inactivate").click(function() {
                 var checkBoxes = $("input[name=account_status\\[\\]]");
@@ -1775,4 +1779,5 @@
 //     font-weight: 700 !important;
 //     color: #001e64 !important;
 </style>
+
 </html>
