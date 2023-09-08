@@ -39,9 +39,9 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}"
                                 class="nav-link text-body font-weight-bold px-0">
-                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                     class="avatar avatar-sm me-3" alt="xd">
-                                <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
+                                <span class="d-sm-inline d-none">{{  Auth::user() ? Auth::user()->name : '' }}</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
