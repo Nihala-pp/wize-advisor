@@ -2399,13 +2399,10 @@
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> -->
                                 @foreach($expertise as $expert)
                                 <div class="media">
-                                    <img class="mr-3" src=".../64x64" alt="Generic placeholder image">
+                                    <img class="mr-3" src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}" alt="Generic placeholder image" height="64" width="64">
                                     <div class="media-body">
-                                        <h5 class="mt-0">Media heading</h5>
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                        sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                                        turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                                        felis in faucibus.
+                                        <h5 class="mt-0"> {{ $expert->expertise }}</h5>
+                                        {{ $expert->description }}
                                     </div>
                                 </div>
                                 @endforeach
