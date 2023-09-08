@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\ScheduledCall;
 use App\Models\Review;
+use App\Notifications\CallRejectedUser;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
@@ -140,7 +141,10 @@ class MentorController extends Controller
 
     public function reject_call($id)
     {
-        ScheduledCall::find($id)->update(['status' => 'Rejected']);
+        $schedule = ScheduledCall::find($id);
+        $schedule->update(['status' => 'Rejected']);
+
+        $schedule->user->notify(new CallRejectedUser($schedule->mentor));
 
         $notification = array(
             'message' => 'Rejected Successfully!',
@@ -324,7 +328,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
             Mail::to($schedule->user->email)->send(new CallApprovalUser($details));
 
-            // dd("Meeting link successsfully emailed to the user");
+            $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
 
             $notification = array(
                 'message' => 'Approved Successfully!',
