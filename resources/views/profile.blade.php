@@ -2388,9 +2388,10 @@
                                 </div>
                             </div>
                         </div>
-                        <section
+                         <section data-element_type="section">
+                        <!-- <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-a9a790e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="a9a790e" data-element_type="section">
+                            data-id="a9a790e" data-element_type="section"> -->
                             <!-- <div class="elementor-container elementor-column-gap-default"> -->
                                 <!-- <div class="col-md-4"> -->
                                 <!-- <div class="elementor-column elementor-col-75 elementor-inner-column elementor-element elementor-element-1d348a4"
