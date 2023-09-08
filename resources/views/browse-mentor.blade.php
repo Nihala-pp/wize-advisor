@@ -1122,7 +1122,7 @@
     a.card-link.viewProfile
     {
         font-size:15px !important;
-        padding-left: 30px !important;
+        padding-left: 20px !important;
     }
 
     .elementor-star-rating__wrapper {
