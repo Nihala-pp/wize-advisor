@@ -1550,7 +1550,7 @@
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                         class="rounded-circle" height="8" width="75"
                                                         alt="Black and White Portrait of a Man" loading="lazy">
                                                     @else
