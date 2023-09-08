@@ -15,7 +15,7 @@
 
     <div class="card text-center mt-5">
         <div class="card-body">
-            <h5 class="card-text"><b>What is wiseAdvizor?</b></h5>
+            <h3 class="card-text"><b>What is wiseAdvizor?</b></h3>
             <p class="card-title">wiseAdvizor is a platform designed to connect you with experienced mentors who are
                 eager to share their expertise and insights. It's your gateway to:
             </p><br />
@@ -27,13 +27,13 @@
             </p><br />
             <p class="card-title">🌟 Accelerated Growth: Fast-track your journey with the wisdom of industry experts.
             </p><br />
-            <h5 class="card-title"><b> How It Works?</b>
-            </h5>
+            <h3 class="card-title"><b> How It Works?</b>
+            </h3>
             <p class="card-title">Not sure how to begin? No worries! We've prepared a detailed guide on how WiseAdvizor
                 works. Just <a href="https://www.youtube.com/watch?v=b0bbWANuJ2A"> click here </a> to learn more.
             </p><br />
-            <h5 class="card-title"><b>Why Choose wiseAdvizor?</b>
-            </h5>
+            <h3 class="card-title"><b>Why Choose wiseAdvizor?</b>
+            </h3>
             <p>Our mission is to empower you to achieve your dreams. Whether you're an aspiring entrepreneur, a seasoned
                 professional, or someone on a personal growth journey, we believe that mentorship is the key to
                 unlocking your full potential.
