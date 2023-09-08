@@ -1116,7 +1116,7 @@
     .mid-center {
         font-size: 16px !important;
         /* margin-left: 20px !important; */
-        padding-right: 40px !important;
+        margin-right: 40px !important;
     }
 
     a.card-link.viewProfile
