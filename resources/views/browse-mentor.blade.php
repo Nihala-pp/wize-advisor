@@ -1898,18 +1898,18 @@
 
                                         <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
                                     </p>
-                                    <div class="d-grid gap-2 col-6 mx-auto">
+                                    <div class="d-grid gap-2 col-6 mx-auto text-center">
                                         @if(Auth::id())
                                         <a href="{{ route('schedule-call', [$mentor->id]) }}"
-                                            class="btn btn-primary mid-center"
-                                            style="background-color:#001E64; align:center;">Schedule Call</a>
+                                            class="btn btn-primary"
+                                            style="background-color:#001E64;">Schedule Call</a>
                                         @else
                                         <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
-                                            class="btn btn-primary mid-center"
-                                            style="background-color:#001E64; align:center;">Schedule Call</a>
+                                            class="btn btn-primary"
+                                            style="background-color:#001E64;">Schedule Call</a>
                                         @endif
                                         <a href="{{ route('profile', [$mentor->id]) }}" class="card-link viewProfile"
-                                            style="color:#007bff;; font: size 4px;">View Profile</a>
+                                            style="color:#007bff; font: size 4px;">View Profile</a>
                                     </div>
                                 </div>
                                 <div class="card-footer">
