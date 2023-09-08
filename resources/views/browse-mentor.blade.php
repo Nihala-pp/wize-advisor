@@ -1899,7 +1899,7 @@
                                             style="background-color:#001E64; align:center;">Schedule Call</a>
                                         @else
                                         <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
-                                            class="btn btn-primary mid-center"
+                                            class="btn btn-primary"
                                             style="background-color:#001E64; align:center;">Schedule Call</a>
                                         @endif
                                         <a href="{{ route('profile', [$mentor->id]) }}" class="card-link mid-center"
