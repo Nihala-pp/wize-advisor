@@ -2399,7 +2399,7 @@
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> -->
                             <ul class="list-unstyled">
                                 @foreach($expertise as $expert)
-                                <li class="media">
+                                <li class="media my-4">
                                     <img class="mr-3"
                                         src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
                                         alt="Generic placeholder image" height="64" width="64">
