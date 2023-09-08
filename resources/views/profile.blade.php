@@ -2388,25 +2388,29 @@
                                 </div>
                             </div>
                         </div>
-                         <section data-element_type="section">
-                        <!-- <section
+                        <section data-element_type="section">
+                            <!-- <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-a9a790e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="a9a790e" data-element_type="section"> -->
                             <!-- <div class="elementor-container elementor-column-gap-default"> -->
-                                <!-- <div class="col-md-4"> -->
-                                <!-- <div class="elementor-column elementor-col-75 elementor-inner-column elementor-element elementor-element-1d348a4"
+                            <!-- <div class="col-md-4"> -->
+                            <!-- <div class="elementor-column elementor-col-75 elementor-inner-column elementor-element elementor-element-1d348a4"
                                     data-id="1d348a4" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> -->
+                            <ul class="list-unstyled">
                                 @foreach($expertise as $expert)
-                                <div class="media">
-                                    <img class="mr-3" src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}" alt="Generic placeholder image" height="64" width="64">
+                                <li class="media">
+                                    <img class="mr-3"
+                                        src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
+                                        alt="Generic placeholder image" height="64" width="64">
                                     <div class="media-body">
-                                        <h5 class="mt-0"> {{ $expert->expertise }}</h5>
+                                        <h5 class="mt-0  mb-1"> {{ $expert->expertise }}</h5>
                                         {{ $expert->description }}
                                     </div>
-                                </div>
+                                </li>
                                 @endforeach
-                                <!-- <div class="col-md-4">
+                            </ul>
+                            <!-- <div class="col-md-4">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-527ecfa elementor-widget elementor-widget-image"
                                                 data-id="527ecfa" data-element_type="widget"
@@ -2436,7 +2440,7 @@
                                             </div>
                                         </div>
                                     </div> -->
-                                <!--  </div> -->
+                            <!--  </div> -->
                             <!-- </div> -->
                             <!-- </div> -->
                         </section>
