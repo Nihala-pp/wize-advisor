@@ -1116,14 +1116,13 @@
     a.btn.btn-primary.mid-center {
         font-size: 16px !important;
         /* margin-left: 20px !important; */
-        margin-right: 40px !important;
+        margin-right: 20px !important;
         /* padding-left: 20px !important; */
 
     }
 
     a.card-link.viewProfile
     {
-        font-size: 16px !important;
         font-size:15px !important;
         padding-left: 20px !important;
     }
