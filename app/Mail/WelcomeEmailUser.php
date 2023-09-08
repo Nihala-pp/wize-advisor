@@ -30,6 +30,7 @@ class WelcomeEmailUser extends Mailable
     {
         return new Envelope(
             subject: 'Welcome to wiseAdvizor: Your Journey to Success Begins Here!',
+            bcc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com','nihala-pp@wiseadvizor.com']
         );
     }
 
