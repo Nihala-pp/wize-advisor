@@ -2407,6 +2407,15 @@
                                     <p>{{ $expert->description }}</p>
                                 </div>
                             </li>
+                            <div class="elementor-element elementor-element-cdd8d8d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                data-id="cdd8d8d" data-element_type="widget" data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                             @endforeach
                         </ul>
                         <!-- <div class="col-md-4">
