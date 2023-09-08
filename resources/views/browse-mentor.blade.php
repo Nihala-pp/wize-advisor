@@ -1113,14 +1113,17 @@
         margin-top: 2rem;
     }
 
-    .mid-center {
+    a.btn.btn-primary .mid-center {
         font-size: 16px !important;
         /* margin-left: 20px !important; */
         margin-right: 40px !important;
+        /* padding-left: 20px !important; */
+
     }
 
     a.card-link.viewProfile
     {
+        font-size: 16px !important;
         font-size:15px !important;
         padding-left: 20px !important;
     }
@@ -1892,8 +1895,8 @@
                                     src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                     alt="Card image cap" width="277" height="180">
                                 <div class="card-body">
-                                    <h5 class="card-title text-center">{{ $mentor->name }}</h5>
-                                    <p class="card-text text-center">
+                                    <h5 class="card-title">{{ $mentor->name }}</h5>
+                                    <p class="card-text">
                                         {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}
 
                                         <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
@@ -1901,11 +1904,11 @@
                                     <div class="d-grid gap-2 col-6 mx-auto text-center">
                                         @if(Auth::id())
                                         <a href="{{ route('schedule-call', [$mentor->id]) }}"
-                                            class="btn btn-primary"
+                                            class="btn btn-primary mid-center"
                                             style="background-color:#001E64;">Schedule Call</a>
                                         @else
                                         <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
-                                            class="btn btn-primary"
+                                            class="btn btn-primary mid-center"
                                             style="background-color:#001E64;">Schedule Call</a>
                                         @endif
                                         <a href="{{ route('profile', [$mentor->id]) }}" class="card-link viewProfile"
