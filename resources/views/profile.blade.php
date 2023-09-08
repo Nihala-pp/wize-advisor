@@ -1664,10 +1664,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+        </div>
+    </header>
     </div>
- </header>
+    </header>
 
     <div data-elementor-type="wp-page" data-elementor-id="2372" class="elementor elementor-2372">
         <section
@@ -2393,34 +2393,36 @@
                             data-id="a9a790e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
                                 @foreach($expertise as $expert)
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1d348a4"
-                                    data-id="1d348a4" data-element_type="column"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-527ecfa elementor-widget elementor-widget-image"
-                                            data-id="527ecfa" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img decoding="async" width="256" height="256"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
-                                                    class="attachment-large size-large wp-image-2422" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/computer.png') }} 256w, {{ asset('public/wp-content/uploads/2023/06/computer-150x150.png') }} 150w, {{ asset('public/wp-content/uploads/2023/06/computer-450x450.png') }} 450w, {{ asset('public/wp-content/uploads/2023/06/computer-700x700.png') }} 700w, {{ asset('public/wp-content/uploads/2023/06/computer-650x650.png') }} 650w, {{ asset('public/wp-content/uploads/2023/06/computer-1300x1300.png') }} 1300w"
-                                                    sizes="(max-width: 256px) 100vw, 256px">
+                                <div class="col-md-4" style="padding-top: 50px">
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1d348a4"
+                                        data-id="1d348a4" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-527ecfa elementor-widget elementor-widget-image"
+                                                data-id="527ecfa" data-element_type="widget"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img decoding="async" width="256" height="256"
+                                                        src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
+                                                        class="attachment-large size-large wp-image-2422" alt=""
+                                                        srcset="{{ asset('public/wp-content/uploads/2023/06/computer.png') }} 256w, {{ asset('public/wp-content/uploads/2023/06/computer-150x150.png') }} 150w, {{ asset('public/wp-content/uploads/2023/06/computer-450x450.png') }} 450w, {{ asset('public/wp-content/uploads/2023/06/computer-700x700.png') }} 700w, {{ asset('public/wp-content/uploads/2023/06/computer-650x650.png') }} 650w, {{ asset('public/wp-content/uploads/2023/06/computer-1300x1300.png') }} 1300w"
+                                                        sizes="(max-width: 256px) 100vw, 256px">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-632bd01 elementor-widget elementor-widget-heading"
-                                            data-id="632bd01" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $expert->expertise }} </h6>
+                                            <div class="elementor-element elementor-element-632bd01 elementor-widget elementor-widget-heading"
+                                                data-id="632bd01" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {{ $expert->expertise }} </h6>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-c6fb8b5 elementor-widget elementor-widget-text-editor"
-                                            data-id="c6fb8b5" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>{{ Str::limit($expert->description, 75) }}</p>
+                                            <div class="elementor-element elementor-element-c6fb8b5 elementor-widget elementor-widget-text-editor"
+                                                data-id="c6fb8b5" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>{{ Str::limit($expert->description, 75) }}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
