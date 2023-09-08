@@ -1121,11 +1121,11 @@
 
     /* } */
 
-    /* a.card-link.viewProfile
+    a.card-link.viewProfile
     {
         font-size:15px !important;
-        padding-left: 20px !important;
-    } */ 
+        /* padding-left: 20px !important; */
+    }  
 
     .elementor-star-rating__wrapper {
         padding-right: 70px;
