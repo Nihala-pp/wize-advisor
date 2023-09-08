@@ -1402,9 +1402,14 @@
                                             <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                 id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
-                                                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                                <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                     class="rounded-circle" height="8" width="37"
                                                     alt="Black and White Portrait of a Man" loading="lazy" />
+                                                @else
+                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="rounded-circle" height="50px;" width="50px;">
+                                                @endif
                                             </a>
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuAvatar">
@@ -1480,8 +1485,8 @@
                             <input type="hidden" class="time" name="time" value="">
                             <label class="form-label" style="color:black;">Description</label>
                             <textarea required="required" id="desc" class="form-control" rows="5" cols="5"
-                                placeholder="Please have a quick explanation regarding the topic" name="desc"
-                                ></textarea>
+                                placeholder="Please have a quick explanation regarding the topic"
+                                name="desc"></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
                             <input type="file" name="doc" class="form-control">
                     </div>

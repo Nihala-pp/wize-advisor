@@ -1496,9 +1496,14 @@
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                         class="rounded-circle" height="5" width="37"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
+                                                    @else
+                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        class="rounded-circle" height="50px;" width="50px;">
+                                                    @endif
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuAvatar">
