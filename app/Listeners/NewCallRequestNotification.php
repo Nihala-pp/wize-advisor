@@ -2,8 +2,11 @@
 
 namespace App\Listeners;
 
+use App\Models\User;
+use App\Notifications\NewCallRequest;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
+use Notification;
 
 class NewCallRequestNotification
 {
@@ -22,6 +25,6 @@ class NewCallRequestNotification
     {
         $mentors = User::where('role_id', 2)->get();
            
-        Notification::send($mentors, new NewReview($event->user))
+        Notification::send($mentors, new NewCallRequest($event->user));
     }
 }
