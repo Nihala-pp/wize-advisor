@@ -1549,7 +1549,7 @@
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    @if ($data->metaData && $data->metaData->profile_pic)
+                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
                                                     <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="8" width="75"
                                                         alt="Black and White Portrait of a Man" loading="lazy">
