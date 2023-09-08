@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Mail\WelcomeEmailUser;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Mail;
 use Session;
 use App\Models\User;
 use App\Models\UserMeta;
@@ -120,6 +122,8 @@ class AuthController extends Controller
 
         $data = $request->all();
         $check = $this->create($data);
+
+        Mail::to($request->email)->send(new WelcomeEmailUser($data));
 
         if (!($request->token == "Null")) {
             return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');

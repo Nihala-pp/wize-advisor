@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>wizeAdvisor</title>
+    <title>wiseAdvizor</title>
 </head>
 <body>
     <h1>Dear {{ $details['user_name'] }},</h1>

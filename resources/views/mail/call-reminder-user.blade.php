@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>wizeAdvisor</title>
+    <title>wiseAdvizor</title>
 </head>
 
 <body>
