@@ -1902,7 +1902,7 @@
                                             class="btn btn-primary"
                                             style="background-color:#001E64; align:center;">Schedule Call</a>
                                         @endif
-                                        <a href="{{ route('profile', [$mentor->id]) }}" class="card-link mid-center"
+                                        <a href="{{ route('profile', [$mentor->id]) }}" class="card-link"
                                             style="color:#007bff;; font: size 4px;">View Profile</a>
                                     </div>
                                 </div>
