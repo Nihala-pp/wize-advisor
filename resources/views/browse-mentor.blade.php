@@ -1113,7 +1113,7 @@
         margin-top: 2rem;
     }
 
-    a.btn.btn-primary .mid-center {
+    a.btn.btn-primary.mid-center {
         font-size: 16px !important;
         /* margin-left: 20px !important; */
         margin-right: 40px !important;
