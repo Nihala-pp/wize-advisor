@@ -1555,7 +1555,7 @@
                                                         alt="Black and White Portrait of a Man" loading="lazy">
                                                     @else
                                                     <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        height="50px;" width="50px;" class="rounded-circle">
+                                                        height="150px;" width="150px;" class="rounded-circle">
                                                     @endif
                                                     <!-- <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
                                                         class="rounded-circle" height="8" width="120"
