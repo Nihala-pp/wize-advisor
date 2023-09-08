@@ -2400,8 +2400,8 @@
                         <ul class="list-unstyled">
                             @foreach($expertise as $expert)
                             <li class="media my-4">
-                                <img class="mr-3" src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
-                                    alt="Generic placeholder image" height="64" width="64">
+                                <!-- <img class="mr-3" src="{{ asset('public/wp-content/uploads/2023/06/computer.png') }}"
+                                    alt="Generic placeholder image" height="64" width="64"> -->
                                 <div class="media-body">
                                     <h5 class="mt-0  mb-1"> {{ $expert->expertise }}</h5>
                                     <p>{{ $expert->description }}</p>
