@@ -1551,7 +1551,7 @@
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
                                                     <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                        class="rounded-circle" height="8" width="150"
+                                                        class="avatar avatar-sm me-3" height="8" width="150"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                     @else
                                                     <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
