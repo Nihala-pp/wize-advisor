@@ -2393,10 +2393,11 @@
                             data-id="a9a790e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
                                 <!-- <div class="col-md-4"> -->
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1d348a4"
-                                        data-id="1d348a4" data-element_type="column"
-                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                        @foreach($expertise as $expert)
+                                <div class="elementor-column elementor-col-75 elementor-inner-column elementor-element elementor-element-1d348a4"
+                                    data-id="1d348a4" data-element_type="column"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    @foreach($expertise as $expert)
+                                    <div class="col-md-4">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-527ecfa elementor-widget elementor-widget-image"
                                                 data-id="527ecfa" data-element_type="widget"
@@ -2425,8 +2426,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        @endforeach
                                     </div>
+                                    @endforeach
+                                </div>
                                 <!-- </div> -->
                             </div>
                         </section>
