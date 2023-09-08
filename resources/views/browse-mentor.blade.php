@@ -1116,16 +1116,16 @@
     /* a.btn.btn-primary.mid-center {
         font-size: 16px !important;
         /* margin-left: 20px !important; */
-        margin-right: 20px !important;
+        /* margin-right: 20px !important; */
         /* padding-left: 20px !important; */
 
-    }
+    /* } */
 
-    a.card-link.viewProfile
+    /* a.card-link.viewProfile
     {
         font-size:15px !important;
         padding-left: 20px !important;
-    } */
+    } */ 
 
     .elementor-star-rating__wrapper {
         padding-right: 70px;
