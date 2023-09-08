@@ -1547,7 +1547,7 @@
                                                                 alt="Black and White Portrait of a Man"
                                                                 loading="lazy" />
                                                             @else
-                                                            <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                            <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}" class="rounded-circle"
                                                                 height="50px;" width="50px;">
                                                             @endif
                                                         </a>
