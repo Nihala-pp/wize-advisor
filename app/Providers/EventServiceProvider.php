@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Listeners\CallApprovalUserNotification;
 use App\Listeners\CallRejectedUserNotification;
 use App\Listeners\NewCallRequestNotification;
+use App\Listeners\SlotUpdateNotification;
 use App\Notifications\CustomNotification;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -27,7 +28,8 @@ class EventServiceProvider extends ServiceProvider
             NewReviewNotification::class,
             NewCallRequestNotification::class,
             CallApprovalUserNotification::class,
-            CallRejectedUserNotification::class
+            CallRejectedUserNotification::class,
+            SlotUpdateNotification::class
 
         ],
         'Illuminate\Auth\Events\Login' => [

@@ -103,7 +103,7 @@ class UserController extends Controller
   public function saveSchedule(Request $request)
   {
     $scheduled_call = ScheduledCall::find($request->row_id);
-    $mentor = ScheduledCall::find($request->mentor);
+    $mentor = User::find($request->mentor);
     $user = User::find(Auth::id());
     $end_time = Carbon::parse($request->start_time)->addMinutes($scheduled_call->duration);
     $finish_time = $end_time->toTimeString();

@@ -2,8 +2,11 @@
 
 namespace App\Listeners;
 
+use App\Models\User;
+use App\Notifications\SloteUpdate;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
+use Notification;
 
 class SlotUpdateNotification
 {
@@ -20,6 +23,8 @@ class SlotUpdateNotification
      */
     public function handle(object $event): void
     {
-        //
+        $user = User::where('role_id', 3)->get();
+           
+        Notification::send($user, new SloteUpdate($event->user));
     }
 }

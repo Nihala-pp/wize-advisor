@@ -3,20 +3,23 @@
 namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class SloteUpdate extends Notification
 {
     use Queueable;
 
+    protected $user;
+
     /**
      * Create a new notification instance.
      */
-    public function __construct()
+    public function __construct(User $user)
     {
-        //
+        $this->user = $user;
     }
 
     /**
@@ -47,8 +50,10 @@ class SloteUpdate extends Notification
      */
     public function toArray(object $notifiable): array
     {
-        return [
-            //
-        ];
+         return [
+             'message' => "You have updated the session with {$this->user->name}",
+             'mentor_id' => $this->user->id,
+             'user_id' =>  Auth::id(),
+         ];
     }
 }
