@@ -186,10 +186,6 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <!-- @php -->
-                                                        <!-- $profile = $activity->user->metaData ?
-                                                        $activity->user->metaData->profile_pic : ''; -->
-                                                        <!-- @endphp -->
                                                         <img src="{{ asset('assets/img/').'/'. $activity->user->metaData ? $activity->user->metaData->profile_pic : '' }}"
                                                             class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                                                     </div>
