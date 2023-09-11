@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Notifications\NewReview;
+use App\Notifications\SloteUpdate;
 use Illuminate\Support\Facades\Auth;
 use App\Models\ScheduledCall;
 use App\Models\AvailableSchedule;
@@ -67,7 +68,7 @@ class UserController extends Controller
 
     ?>
     <script type="text/javascript">
-      alert("Review has been submitt  ed");
+      alert("Review has been submitted");
       window.location.href = "https://wiseadvizor.com/user/dashboard";
     </script>
     <?php
@@ -102,6 +103,8 @@ class UserController extends Controller
   public function saveSchedule(Request $request)
   {
     $scheduled_call = ScheduledCall::find($request->row_id);
+    $mentor = ScheduledCall::find($request->mentor);
+    $user = User::find(Auth::id());
     $end_time = Carbon::parse($request->start_time)->addMinutes($scheduled_call->duration);
     $finish_time = $end_time->toTimeString();
 
@@ -118,6 +121,8 @@ class UserController extends Controller
       'description' => $request->description,
       'documents' => $request->documents
     ]);
+
+    $user->notify(new SloteUpdate($mentor));
 
     $this->sendScheduleRequestMail($details);
     $this->sendScheduleRequestUserMail($details);
