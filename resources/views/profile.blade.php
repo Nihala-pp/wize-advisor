@@ -140,6 +140,18 @@
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1HZW2R3J0M');
+    </script>
     <style>
     img.wp-smiley,
     img.emoji {

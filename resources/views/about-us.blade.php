@@ -73,6 +73,18 @@
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1HZW2R3J0M');
+    </script>
     <style>
     img.wp-smiley,
     img.emoji {
@@ -1541,14 +1553,15 @@
                                                         <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                             id="navbarDropdownMenuAvatar" role="button"
                                                             data-mdb-toggle="dropdown" aria-expanded="false">
-                                                            @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                                            @if (Auth::user()->metaData &&
+                                                            Auth::user()->metaData->profile_pic)
                                                             <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="8" width="37"
                                                                 alt="Black and White Portrait of a Man"
                                                                 loading="lazy" />
                                                             @else
-                                                            <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}" class="rounded-circle"
-                                                                height="50px;" width="50px;">
+                                                            <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                                class="rounded-circle" height="50px;" width="50px;">
                                                             @endif
                                                         </a>
                                                         <ul class="dropdown-menu dropdown-menu-end"

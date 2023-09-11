@@ -68,6 +68,18 @@
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1HZW2R3J0M');
+    </script>
     <style>
     img.wp-smiley,
     img.emoji {
@@ -1397,11 +1409,13 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
@@ -1414,7 +1428,8 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
+                                                                Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/libraries/" itemprop="url"
@@ -1423,11 +1438,13 @@
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1444,7 +1461,7 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-									@if(Auth::id())
+                                        @if(Auth::id())
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li class="dropdown">
@@ -1463,20 +1480,22 @@
                                                     </a>
                                                     <ul class="dropdown-menu menu">
                                                         <a href="{{ route('user.dashboard') }}">Dashboard</a></br>
-                                                        <a href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
-                                                        <a href="{{ route('user.review') }}">Reviews</a><br/>
+                                                        <a
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">Profile</a></br>
+                                                        <a href="{{ route('user.review') }}">Reviews</a><br />
                                                         <a href="{{ route('logout') }}">Signout</a>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </div>
-										@else
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login') }}">
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
-										@endif
+                                        @endif
                                     </div>
                                 </div>
                             </div>
