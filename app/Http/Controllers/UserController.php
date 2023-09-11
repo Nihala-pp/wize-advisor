@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Notifications\NewReview;
+use App\Notifications\passwordChange;
+use App\Notifications\profileUpdate;
 use App\Notifications\SloteUpdate;
 use Illuminate\Support\Facades\Auth;
 use App\Models\ScheduledCall;
@@ -261,6 +263,8 @@ class UserController extends Controller
 
     UserMeta::update_user_details($request->row_id, $meta_data);
 
+    $user->notify(new profileUpdate($user));
+
     $notification = array(
       'message' => 'Profile Updated Successfully!',
       'alert-type' => 'success'
@@ -272,12 +276,12 @@ class UserController extends Controller
 
   public function changePassword()
   {
-
     return view('users.change-password');
   }
 
   public function savePassword(Request $request)
   {
+    $user = User::find(Auth::id());
     $request->validate([
       'password' => [
         'required',
@@ -297,6 +301,8 @@ class UserController extends Controller
       ['id' => Auth::id()],
       $data
     );
+
+    $user->notify(new passwordChange($user));
 
     $notification = array(
       'message' => 'Password Updated Successfully!',
