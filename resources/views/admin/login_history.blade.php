@@ -193,26 +193,26 @@
                                             </td>
                                             <td>
                                                 <div class="d-flex flex-column justify-content-center">
-                                                    <h6 class="mb-0 text-sm">{{ 'USR000'.$activity->user_id }}</h6>
-                                                    <p class="text-xs text-secondary mb-0">{{ $activity->user->name }}
+                                                    <h6 class="mb-0 text-sm">{{ 'USR000'.$activity->user_id ?? '' }}</h6>
+                                                    <p class="text-xs text-secondary mb-0">{{ $activity->user->name ?? '' }}
                                                     </p>
-                                                    <p class="text-xs text-secondary mb-0">{{ $activity->user->email }}
+                                                    <p class="text-xs text-secondary mb-0">{{ $activity->user->email ?? ''}}
                                                     </p>
                                                 </div>
                                             </td>
                                             <td>
-                                                <p class="text-xs font-weight-bold mb-0">{{ $activity->ip_address }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $activity->ip_address ?? ''}}</p>
                                                 <!-- <p class="text-xs text-secondary mb-0">Organization</p> -->
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <p class="text-xs font-weight-bold mb-0">{{ $activity->user_agent }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $activity->user_agent ?? ''}}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <span class="badge badge-sm bg-gradient-success">Success</span>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span
-                                                    class="text-secondary text-xs font-weight-bold">{{ $activity->created_at }}</span>
+                                                    class="text-secondary text-xs font-weight-bold">{{ $activity->created_at ?? ''}}</span>
                                             </td>
                                             <!-- <td class="align-middle">
                                                 <a href="{{ route('admin.user_profiles.view_profile',[$activity->user_id]) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="View user">
