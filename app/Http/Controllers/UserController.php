@@ -39,7 +39,11 @@ class UserController extends Controller
         $q->where('expertise', 'LIKE', '%' . $expertise . '%');
       })->get();
 
-    return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors'));
+      if (auth()->user()->metaData) {
+        return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors'));
+      } else {
+        return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
+      }
   }
 
   public function review($id)
