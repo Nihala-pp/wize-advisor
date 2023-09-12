@@ -46,7 +46,7 @@ class HomeController extends Controller
    */
   public function index()
   {
-    $mentors = User::where('role_id', 2)->get();
+    $mentors = User::where('role_id', 2)->whereNull('status')->get();
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::get()->count();
 
@@ -76,16 +76,18 @@ class HomeController extends Controller
     if (!empty($variable)) {
       switch ($filter) {
         case 'name':
-          $mentors = User::where('name', 'LIKE', '%' . $variable . '%')->get();
+          $mentors = User::where('name', 'LIKE', '%' . $variable . '%')->whereNull('status')->get();
           break;
         case 'price':
           $mentors = User::where('role_id', 2)
+            ->whereNull('status')
             ->whereHas('metaData', function (Builder $query) use ($variable) {
               $query->where('price_per_call', 'LIKE', '%' . $variable . '%');
             })->get();
           break;
         case 'expertise':
           $mentors = User::where('role_id', 2)
+            ->whereNull('status')
             ->whereHas('metaData', function (Builder $query) use ($variable) {
               $query->where('expertise', 'LIKE', '%' . $variable . '%');
             })->get();
@@ -97,13 +99,13 @@ class HomeController extends Controller
           $mentors = AvailableSchedule::where('price', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'sortBy':
-          $mentors = User::where('role_id', 2)->orderBy('name', $variable)->get();
+          $mentors = User::where('role_id', 2)->whereNull('status')->orderBy('name', $variable)->get();
           break;
         default:
-          $mentors = User::where('role_id', 2)->get();
+          $mentors = User::where('role_id', 2)->whereNull('status')->get();
       }
     } else {
-      $mentors = User::where('role_id', 2)->get();
+      $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
 
     // dd($mentors);
@@ -202,21 +204,17 @@ class HomeController extends Controller
         location.reload();
       </script>
       <?php
-    }
-
-    elseif (empty($data['desc'])) {
+    } elseif (empty($data['desc'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $id }}";        
+        Id = "{{ $id }}";
         alert("Please fill the description");
         window.location.href = "' + custom_location + " / " + Id'";
         location.reload();
       </script>
       <?php
-    }
-
-    elseif (empty($data['timezone'])) {
+    } elseif (empty($data['timezone'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
@@ -227,9 +225,7 @@ class HomeController extends Controller
         location.reload();
       </script>
       <?php
-    } 
-
-    else {
+    } else {
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
       $date = $data['year'] . '-' . $nmonth . '-' . $data['day'];
@@ -454,12 +450,12 @@ class HomeController extends Controller
 
   public function completedCalls()
   {
-    
+
   }
 
   public function callFeedBack()
   {
-    
+
   }
 
   public function callReminder()
