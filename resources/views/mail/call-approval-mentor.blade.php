@@ -20,6 +20,7 @@
             <h5 class="card-title">Timezone : {{ $details['utc'] }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
             <h5 class="card-title">Joining Link : {{ $details['join_url'] }} </h5><br />
+            <h5 class="card-title">Password : {{ $details['password'] }} </h5><br />
 
             <p>We greatly appreciate your willingness to share your knowledge and support. Your guidance will be invaluable to them as they navigate their entrepreneurial journey and seek insights in your area of expertise. </p><br />
             <p>As a mentor on our platform, you play a crucial role in empowering entrepreneurs and fostering their growth. Your expertise and guidance will have a significant impact on their development and success. </p><br />

@@ -318,6 +318,15 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'call_link' => $data->join_url
             ]);
 
+      $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
+
+      $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
+
+      $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+
+      $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
+
+
             $details = [
                 'join_url' => $data->join_url,
                 'user_name' => $schedule->user->name,
@@ -325,7 +334,10 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'utc' => $schedule->utc,
                 'date' => $schedule->date,
                 'mentor_name' => $schedule->mentor->name,
-                'password' => $data->password
+                'password' => $data->password,
+                'mentor_timezone' => $mentor_timezone->time_zone,
+                'mentor_start_time' => $user_timezone->format('h:i A'),
+                'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
             ];
 
             Mail::to($schedule->user->email)->send(new CallApprovalUser($details));
