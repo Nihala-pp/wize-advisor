@@ -51,7 +51,11 @@ class HomeController extends Controller
     $calls = ScheduledCall::get()->count();
 
     if (Auth::id()) {
-      return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+      if (Auth::user()->metaData) {
+        return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+      } else {
+        return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
+      }
     } else {
       return view('home', compact('mentors', 'users', 'calls'));
     }
