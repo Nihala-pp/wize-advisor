@@ -407,7 +407,26 @@
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    {{ $completed_session ? $completed_session->date.' '.$completed_session->start_time. ' - ' .$completed_session->end_time : '' }}
+                                                    {{ $completed_session ? $completed_session->date : '' }}
+                                                    @php
+                                                    $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
+                                                    $completed_session->mentor_id)->where('date',
+                                                    $completed_session->date)->first();
+
+                                                    $user_timezone = new \DateTime($completed_session->date . ' ' .
+                                                    $completed_session->start_time, new
+                                                    \DateTimeZone($completed_session->utc));
+
+                                                    $user_timezone->setTimezone(new
+                                                    \DateTimeZone($mentor_timezone->time_zone));
+
+                                                    $mentor_finish_time =
+                                                    Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
+                                                    Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
+
+                                                    echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
+
+                                                    @endphp
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
