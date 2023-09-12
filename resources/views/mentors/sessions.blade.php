@@ -224,7 +224,7 @@
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
 
-                                                    echo $user_timezone->format('h:i A').'-'.$mentor_finish_time->format('h:i A');
+                                                    echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
 
                                                     @endphp
                                                 </div>
