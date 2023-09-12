@@ -18,6 +18,7 @@
             <h5 class="card-title">Mentor : {{ $details['mentor_name'] }} </a></h5>
             <h5 class="card-title">Date : {{ $details['date'] }} </h5>
             <h5 class="card-title">Time : {{ $details['time'] }} </h5>
+            <h5 class="card-title">Timezone : {{ $details['utc'] }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
             <h5 class="card-title">Joining Link : {{ $details['join_url'] }} </h5><br />
 
