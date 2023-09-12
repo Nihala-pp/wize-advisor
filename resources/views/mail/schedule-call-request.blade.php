@@ -17,7 +17,7 @@
                 the call request:
             </p>
             <h5 class="card-title"><b>Date: {{ $details['date'] }} </b></h5>
-            <i class="fab fa-time"><b>Time: {{ $details['start_time'] }} - {{ $details['finish_time'] }} </b></i>
+            <i class="fab fa-time"><b>Time: {{ $details['mentor_start_time'] }} - {{ $details['mentor_finish_time'] }} {{ $details['mentor_timezone'] }} </b></i>
             <i class="fab fa-time"><b>Duration: {{ $details['duration'] }} Min Meeting </b></i>
             <i class="fab fa-time"><b>User's Description: {{ $details['desc'] }}</b> </i>
             <p class="card-text mt-2">You can accept or reject the call by login into your portal. Please do the needful

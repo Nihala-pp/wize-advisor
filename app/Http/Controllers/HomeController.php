@@ -243,6 +243,8 @@ class HomeController extends Controller
 
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
+      $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
+
       AvailableSchedule::where('mentor_id', $data['mentor'])
         ->where('date', Carbon::parse($date)->format('Y-m-d'))
         ->where('start_time', $user_timezone->format('H:i:s'))
@@ -280,6 +282,9 @@ class HomeController extends Controller
         'finish_time' => $finish_time,
         'UTC' => $data['timezone'],
         'duration' => $data['duration'],
+        'mentor_timezone' => $mentor_timezone->time_zone,
+        'mentor_start_time' => $user_timezone->format('h:i A'),
+        'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
       ];
 
       $user = User::find(Auth::id());
