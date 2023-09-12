@@ -379,7 +379,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
                 $this->getZoomCallLink($id);
             } else {
-                dd($e->getMessage());
+                $e->getMessage();
             }
         }
     }
