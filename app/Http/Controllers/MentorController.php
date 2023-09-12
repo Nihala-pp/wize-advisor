@@ -343,7 +343,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
             ];
 
-            Mail::to($user_email)->send(new CallApprovalUser($details));
+            dd(Mail::to($user_email)->send(new CallApprovalUser($details)));
             Mail::to($mentor_email)->send(new callApprovalMentor($details));
 
             $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
