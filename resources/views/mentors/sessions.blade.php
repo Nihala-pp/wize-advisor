@@ -196,7 +196,8 @@
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    {{ $upcoming_session ? $upcoming_session->date.' '.$upcoming_session->start_time. ' - ' .$upcoming_session->end_time : '' }}
+
+                                                    {{ $upcoming_session ? $upcoming_session->date : '' }}
                                                 </div>
                                             </td>
                                             <td>
@@ -207,6 +208,25 @@
                                             <td>
                                                 <div class="avatar-group mt-2">
                                                     {{ $upcoming_session ? $upcoming_session->documents : '' }}
+                                                    @php
+                                                    $mentor_timezone = AvailableSchedule::where('mentor_id',
+                                                    $upcoming_session->mentor_id)->where('date',
+                                                    $upcoming_session->date)->first();
+
+                                                    $user_timezone = new \DateTime($upcoming_session->date . ' ' .
+                                                    $upcoming_session->start_time, new
+                                                    \DateTimeZone($upcoming_session->utc));
+
+                                                    $user_timezone->setTimezone(new
+                                                    \DateTimeZone($mentor_timezone->time_zone));
+
+                                                    $mentor_finish_time =
+                                                    Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
+                                                    Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
+
+                                                    echo $user_timezone->format('h:i A').'-'.$mentor_finish_time->format('h:i A');
+
+                                                    @endphp
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
