@@ -301,7 +301,26 @@
                                             </td>
                                             <td>
                                                 <div class="avatar-group mt-2">
-                                                    {{ $requested_session ? $requested_session->date.' '.$requested_session->start_time. ' - ' .$requested_session->end_time : '' }}
+                                                    {{ $requested_session ? $requested_session->date : '' }}
+                                                    @php
+                                                    $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
+                                                    $requested_session->mentor_id)->where('date',
+                                                    $requested_session->date)->first();
+
+                                                    $user_timezone = new \DateTime($requested_session->date . ' ' .
+                                                    $requested_session->start_time, new
+                                                    \DateTimeZone($requested_session->utc));
+
+                                                    $user_timezone->setTimezone(new
+                                                    \DateTimeZone($mentor_timezone->time_zone));
+
+                                                    $mentor_finish_time =
+                                                    Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($requested_session->duration);
+                                                    Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($requested_session->duration);
+
+                                                    echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
+
+                                                    @endphp
                                                 </div>
                                             </td>
                                             <td>
