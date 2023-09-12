@@ -209,7 +209,7 @@
                                                 <div class="avatar-group mt-2">
                                                     {{ $upcoming_session ? $upcoming_session->documents : '' }}
                                                     @php
-                                                    $mentor_timezone = AvailableSchedule::where('mentor_id',
+                                                    $mentor_timezone = \app\models\AvailableSchedule::where('mentor_id',
                                                     $upcoming_session->mentor_id)->where('date',
                                                     $upcoming_session->date)->first();
 
