@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Mail\callApprovalMentor;
 use App\Models\ScheduledCall;
 use App\Models\Review;
 use App\Notifications\CallRejectedUser;
@@ -328,6 +329,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             ];
 
             Mail::to($schedule->user->email)->send(new CallApprovalUser($details));
+            Mail::to($schedule->mentor->email)->send(new callApprovalMentor($details));
 
             $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
 
