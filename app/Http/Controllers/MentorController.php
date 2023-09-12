@@ -301,7 +301,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                     "timezone" => $schedule->utc,
                     "agenda" => "30 Min Meeting",
                     "allow_multiple_devices" => true,
-                    "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala.pp@wiseadvizor.com",
+                    "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala-pp@wiseadvizor.com",
                     "alternative_hosts_email_notification" => true,
                     "approval_type" => self::MEETING_TYPE_SCHEDULE,
                     "settings" => [
@@ -326,6 +326,9 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
       $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
 
+      $user_email = $schedule->user->email;
+      $mentor_email = $schedule->mentor->email;
+
 
             $details = [
                 'join_url' => $data->join_url,
@@ -340,8 +343,8 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
             ];
 
-            Mail::to($schedule->user->email)->send(new CallApprovalUser($details));
-            Mail::to($schedule->mentor->email)->send(new callApprovalMentor($details));
+            Mail::to($user_email)->send(new CallApprovalUser($details));
+            Mail::to($mentor_email)->send(new callApprovalMentor($details));
 
             $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
 
