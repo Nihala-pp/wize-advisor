@@ -198,9 +198,9 @@
 
                                         $current_time = Illuminate\Support\Carbon::now();
 
-                                        if($mentor_finish_time->format('h:i:s') >= $current_time) 
-                                        { 
-                                            @endphp
+                                        if($mentor_finish_time->format('h:i:s') >= $current_time)
+                                        {
+                                        @endphp
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
@@ -262,7 +262,7 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        @php 
+                                        @php
                                         }
                                         @endphp
                                         @endforeach
