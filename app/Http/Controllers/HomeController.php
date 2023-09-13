@@ -249,15 +249,7 @@ location.reload();
 
       $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
-      AvailableSchedule::where('mentor_id', $data['mentor'])
-        ->where('date', Carbon::parse($date)->format('Y-m-d'))
-        ->where('start_time', $user_timezone->format('H:i:s'))
-        ->first()
-        ->update([
-          'is_booked' => 1
-        ]);
-
-      ScheduledCall::create([
+     $call =  ScheduledCall::create([
         'user_id' => Auth::id(),
         'mentor_id' => $data['mentor'],
         'price' => $data['price'],
@@ -270,6 +262,15 @@ location.reload();
         'description' => $data['desc'],
         'documents' => ''
       ]);
+
+      AvailableSchedule::where('mentor_id', $data['mentor'])
+        ->where('date', Carbon::parse($date)->format('Y-m-d'))
+        ->where('start_time', $user_timezone->format('H:i:s'))
+        ->first()
+        ->update([
+          'is_booked' => 1,
+          'call_id' => $call['id']
+        ]);
 
       $mentor = User::find($data['mentor']);
       $user = User::find(Auth::id());

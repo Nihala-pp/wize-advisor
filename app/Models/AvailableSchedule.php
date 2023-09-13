@@ -160,4 +160,9 @@ class AvailableSchedule extends Model
     {
         return $this->belongsTo(User::class, 'mentor_id');
     }
+
+    public function callSchedule(): BelongsTo
+    {
+        return $this->belongsTo(ScheduledCall::class, 'call_id');
+    }
 }
