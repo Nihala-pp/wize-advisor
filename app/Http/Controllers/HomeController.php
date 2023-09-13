@@ -50,7 +50,7 @@ class HomeController extends Controller
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::get()->count();
 
-    if (Auth::id()) {
+    if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
         return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
       } else {
@@ -188,7 +188,7 @@ class HomeController extends Controller
     $mentor = User::find($id);
     $timezone = AvailableSchedule::timezones();
 
-    if (auth()->user()->metaData) {
+    if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
       return view('schedule-call', compact('mentor', 'timezone'));
     } else {
       return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
