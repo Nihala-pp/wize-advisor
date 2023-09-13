@@ -421,6 +421,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             dd("Access token inserted successfully.");
         } catch (Exception $e) {
             dd($e->getMessage());
+            return redirect()->route('mentor.dashboard.my_sessions');
         }
     }
 
