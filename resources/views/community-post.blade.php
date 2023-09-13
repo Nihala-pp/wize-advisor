@@ -1466,7 +1466,7 @@
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                             <span class="elementor-button-content-wrapper">
-                                                @if(Auth::id())
+                                                @if(Auth::id() && auth()->user()->role_id == 3)
                                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                                     <ul class="nav navbar-nav navbar-right">
                                                         <li class="dropdown">
