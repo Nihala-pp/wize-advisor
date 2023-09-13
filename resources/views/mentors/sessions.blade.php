@@ -410,7 +410,6 @@
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
 
-                                        echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
                                         $current_time = Illuminate\Support\Carbon::now();
 
                                         if($mentor_finish_time->format('h:i:s') < $current_time) { @endphp <tr>
