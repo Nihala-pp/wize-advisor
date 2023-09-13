@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Mail\WelcomeEmailUser;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Socialite;
 use Auth;
 use Exception;
@@ -63,6 +65,8 @@ class LinkedinSocialiteController extends Controller
                 if ($newUser['role_id'] == 2) {
                     return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin'); 
                 } elseif ($newUser['role_id'] == 3) {
+                    Mail::to($newUser['email'])->send(new WelcomeEmailUser($newUser));
+
                     return redirect()->route('user.personalInfo', [$newUser['id']])->withSuccess('You have Successfully loggedin');
                 }     
                 // return redirect('/home');
