@@ -28,7 +28,7 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}"
                                 class="nav-link text-body font-weight-bold px-0">
-                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user()->metaData->pro_pic_1 }}"
                                     class="avatar avatar-sm me-3" alt="xd">
                                 <span class="d-sm-inline d-none">{{ $profile->name ?: '' }}</span>
                             </a>
@@ -145,7 +145,7 @@
                 <div class="row gx-4 mb-2">
                     <div class="col-auto">
                         <div class="avatar avatar-xl position-relative">
-                            <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $profile->metaData ? $profile->metaData->profile_pic : '' }}"
+                            <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $profile->metaData ? $profile->metaData->pro_pic_1 : '' }}"
                                 alt="profile_image" class="w-100 border-radius-lg shadow-sm">
                         </div>
                     </div>

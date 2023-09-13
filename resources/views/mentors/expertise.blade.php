@@ -37,7 +37,7 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="{{ route('mentor.dashboard.profile',[Auth::id()]) }}"
                                 class="nav-link text-body font-weight-bold px-0">
-                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user()->metaData->profile_pic }}"
+                                <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ Auth::user()->metaData->pro_pic_1 }}"
                                     class="avatar avatar-sm me-3" alt="xd">
                                 <span class="d-sm-inline d-none">{{ Auth::user()->name }}</span>
                             </a>
