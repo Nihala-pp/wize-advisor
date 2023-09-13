@@ -13,12 +13,15 @@ class callReminder extends Mailable
 {
     use Queueable, SerializesModels;
 
-    /**
+    public $details;
+
+
+     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($details)
     {
-        //
+        $this->details = $details;
     }
 
     /**
@@ -27,7 +30,7 @@ class callReminder extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Call Reminder',
+            subject: 'Call Reminder - wiseAdvizor!',
         );
     }
 
@@ -37,7 +40,7 @@ class callReminder extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'mail.call-reminder',
         );
     }
 

@@ -13,6 +13,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         $schedule->command('app:auto-call-reminderhourly-user')->hourly();
+        $schedule->command('app:auto-call-reminderhourly-mentor')->hourly();
     }
 
     /**
