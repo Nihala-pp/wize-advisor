@@ -198,16 +198,6 @@
                                                 <div class="avatar-group mt-2">
 
                                                     {{ $upcoming_session ? $upcoming_session->date : '' }}
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $upcoming_session ? $upcoming_session->description : '' }}
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="avatar-group mt-2">
-                                                    {{ $upcoming_session ? $upcoming_session->documents : '' }}
                                                     @php
                                                     $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                                     $upcoming_session->mentor_id)->where('date',
@@ -224,9 +214,21 @@
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
 
-                                                    echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
+                                                    echo $user_timezone->format('h:i A').' -
+                                                    '.$mentor_finish_time->format('h:i A');
 
                                                     @endphp
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar-group mt-2">
+                                                    {{ $upcoming_session ? $upcoming_session->description : '' }}
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="avatar-group mt-2">
+                                                    {{ $upcoming_session ? $upcoming_session->documents : '' }}
+
                                                 </div>
                                             </td>
                                             <td class="align-middle text-center text-sm">
@@ -318,7 +320,8 @@
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($requested_session->duration);
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($requested_session->duration);
 
-                                                    echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
+                                                    echo $user_timezone->format('h:i A').' -
+                                                    '.$mentor_finish_time->format('h:i A');
 
                                                     @endphp
                                                 </div>
@@ -391,6 +394,25 @@
                                     </thead>
                                     <tbody>
                                         @foreach($completed_sessions as $completed_session)
+                                        @php
+                                        $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
+                                        $completed_session->mentor_id)->where('date',
+                                        $completed_session->date)->first();
+
+                                        $user_timezone = new \DateTime($completed_session->date . ' ' .
+                                        $completed_session->start_time, new
+                                        \DateTimeZone($completed_session->utc));
+
+                                        $user_timezone->setTimezone(new
+                                        \DateTimeZone($mentor_timezone->time_zone));
+
+                                        $mentor_finish_time =
+                                        Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
+                                        Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
+
+                                        echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
+
+                                        if($mentor_finish_time->format('h:i:s') < Illuminate\Support\Carbon::now()) {
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
@@ -424,7 +446,8 @@
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
 
-                                                    echo $user_timezone->format('h:i A').' - '.$mentor_finish_time->format('h:i A');
+                                                    echo $user_timezone->format('h:i A').' -
+                                                    '.$mentor_finish_time->format('h:i A');
 
                                                     @endphp
                                                 </div>
@@ -439,6 +462,8 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        }
+                                        @endphp
                                         @endforeach
                                     </tbody>
                                 </table>
