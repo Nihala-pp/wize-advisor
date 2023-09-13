@@ -48,8 +48,8 @@ class MentorController extends Controller
 
     public function my_sessions()
     {
-        $upcoming_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
-        $completed_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('date', '<', Carbon::now())->get();
+        $upcoming_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('end_time', '>=', Carbon::now())->get();
+        $completed_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('end_time', '<', Carbon::now())->get();
         $requested_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->get();
 
         return view('mentors.sessions', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions'));
