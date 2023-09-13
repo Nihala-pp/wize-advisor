@@ -30,7 +30,7 @@ class callReminderUser extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Upcoming Mentorship Session on wiseAdvizor!!',
+            subject: 'Call Reminder - wiseAdvizor!',
         );
     }
 
