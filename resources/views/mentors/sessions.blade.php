@@ -180,6 +180,27 @@
                                     </thead>
                                     <tbody>
                                         @foreach($upcoming_sessions as $upcoming_session)
+                                        @php
+                                        $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
+                                        $upcoming_session->mentor_id)->where('date',
+                                        $upcoming_session->date)->first();
+
+                                        $user_timezone = new \DateTime($upcoming_session->date . ' ' .
+                                        $upcoming_session->start_time, new
+                                        \DateTimeZone($upcoming_session->utc));
+
+                                        $user_timezone->setTimezone(new
+                                        \DateTimeZone($mentor_timezone->time_zone));
+
+                                        $mentor_finish_time =
+                                        Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
+                                        Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
+
+                                        $current_time = Illuminate\Support\Carbon::now();
+
+                                        if($mentor_finish_time->format('h:i:s') >= $current_time) 
+                                        { 
+                                            @endphp
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
@@ -241,6 +262,9 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        @php 
+                                        }
+                                        @endphp
                                         @endforeach
                                     </tbody>
                                 </table>
