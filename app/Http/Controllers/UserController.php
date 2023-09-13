@@ -34,13 +34,15 @@ class UserController extends Controller
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->get();
     $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
+    $notifications = auth()->user()->unreadNotifications;
+
     $suggested_mentors = User::where('role_id', 2)
       ->whereHas('metaData', function ($q) use ($expertise) {
         $q->where('expertise', 'LIKE', '%' . $expertise . '%');
       })->get();
 
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
-      return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors'));
+      return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors', 'notifications'));
     } else {
       return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
     }

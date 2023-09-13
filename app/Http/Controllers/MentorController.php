@@ -301,13 +301,15 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                     "timezone" => $schedule->utc,
                     "agenda" => "30 Min Meeting",
                     "allow_multiple_devices" => true,
-                    "alternative_hosts" => "ankur.sharma@wiseadvizor.com;nihala-pp@wiseadvizor.com",
+                    "alternative_hosts" => $schedule->mentor->email,
                     "alternative_hosts_email_notification" => true,
-                    "approval_type" => self::MEETING_TYPE_SCHEDULE,
                     "settings" => [
+                        'join_before_host' => true,
                         'host_video' => true,
                         'participant_video' => true,
-                        'waiting_room' => true,
+                        'waiting_room' => false,
+                        'audio' => true,
+                        'approval_type' => self::MEETING_TYPE_SCHEDULE,
                     ],
                 ],
             ]);
