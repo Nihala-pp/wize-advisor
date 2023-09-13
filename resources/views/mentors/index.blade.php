@@ -457,7 +457,7 @@
                                                 </a>
                                                 @endif  -->
                                                 @empty
-                                                <div class="alert alert-info noti">
+                                                <div class="alert alert-info notification">
                                                     <span><b> There are no new notifications </b>
                                                     </span>
                                                 </div>
