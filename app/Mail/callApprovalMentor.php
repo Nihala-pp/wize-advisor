@@ -29,7 +29,7 @@ class callApprovalMentor extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Call with the User is Approved !',
+            subject: 'wiseAdvizor_Call with the User is Approved !',
             cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
             bcc: ['nihala-pp@wiseadvizor.com']
         );
