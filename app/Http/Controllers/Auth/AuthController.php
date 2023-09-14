@@ -221,10 +221,11 @@ class AuthController extends Controller
 
     public function savePersonalInfo(Request $request)
     {
-        dd($request->all());
+        // dd($request->all());
         $newuser = User::find($request->user_id);
 
-        UserMeta::where('user_id', $request->user_id)->update([
+        UserMeta::create([
+            'user_id' =>  $newuser->id,
             'company' => $request->company_name,
             'designation' => $request->designation,
             'expertise' => json_encode($request->expert),
