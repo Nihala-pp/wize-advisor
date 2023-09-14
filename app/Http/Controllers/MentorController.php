@@ -332,8 +332,6 @@ class MentorController extends Controller
 
             $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
 
-            dd($user_timezone);
-
             $details = [
                 'join_url' => $data->join_url,
                 'user_name' => $schedule->user->name,
@@ -345,6 +343,8 @@ class MentorController extends Controller
                 'mentor_start_time' => $user_timezone->format('h:i A'),
                 'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
             ];
+
+            dd($details);
 
             Mail::to($mentor_email)->send(new callApprovalMentor($details));
 
