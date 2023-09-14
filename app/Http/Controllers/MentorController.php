@@ -248,24 +248,22 @@ class MentorController extends Controller
                     'end_time' => $schedule['end_time'],
                     'is_booked' => 0
                 ];
-    
+
                 AvailableSchedule::update_schedule($request->row_id, $data);
 
                 ?>
-<script type="text/javascript">
-alert("Availability Added Successfully!");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php 
-            }
-
-            else {
+                <script type="text/javascript">
+                    alert("Availability Added Successfully!");
+                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+            <?php
+            } else {
                 ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php 
+                <script type="text/javascript">
+                    alert("Slot already exists...Please try again with different slot");
+                    window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+                </script>
+            <?php
             }
         }
     }
@@ -320,33 +318,34 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 'call_link' => $data->join_url
             ]);
 
-      $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
+            $user_email = $schedule->user->email;
+            $mentor_email = $schedule->mentor->email;
 
-      $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
-      dd($user_timezone);
+            Mail::to($user_email)->send(new CallApprovalUser($schedule));
 
-      $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-      $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
+            $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
 
-      $user_email = $schedule->user->email;
-      $mentor_email = $schedule->mentor->email;
+            $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
 
+            $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+
+            dd($user_timezone);
+
+            $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
 
             $details = [
                 'join_url' => $data->join_url,
                 'user_name' => $schedule->user->name,
-                'time' => $schedule->start_time - $schedule->end_time,
+                'time' => $schedule->start_time.' - '.$schedule->end_time,
                 'utc' => $schedule->utc,
                 'date' => $schedule->date,
                 'mentor_name' => $schedule->mentor->name,
-                'password' => $data->password,
                 'mentor_timezone' => $mentor_timezone->time_zone,
                 'mentor_start_time' => $user_timezone->format('h:i A'),
                 'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
             ];
 
-            Mail::to($user_email)->send(new CallApprovalUser($details));
             Mail::to($mentor_email)->send(new callApprovalMentor($details));
 
             // $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
@@ -382,7 +381,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
                 $this->getZoomCallLink($id);
             } else {
-                \Session::flash('error', 'Unable to process request.Error:'.json_encode($e->getMessage(), true));
+                \Session::flash('error', 'Unable to process request.Error:' . json_encode($e->getMessage(), true));
                 // $e->getMessage();
             }
         }
@@ -480,11 +479,11 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
         if ($exists) {
             ?>
-<script type="text/javascript">
-alert("Slot already exists...Please try again with different slot");
-window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
-</script>
-<?php
+            <script type="text/javascript">
+                alert("Slot already exists...Please try again with different slot");
+                window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
+            </script>
+            <?php
         } else {
             $schedule = [
                 'mentor_id' => Auth::id(),
