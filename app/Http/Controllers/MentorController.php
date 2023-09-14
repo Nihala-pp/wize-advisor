@@ -385,7 +385,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
                 // $e->getMessage();
             }
         }
-        return redirect()->route('mentor.dashboard.my_sessions');
+        // return redirect()->route('mentor.dashboard.my_sessions');
     }
 
     public function generateAccessToken(Request $request)
