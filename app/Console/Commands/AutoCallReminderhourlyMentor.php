@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Mail\callReminder;
 use App\Models\AvailableSchedule;
+use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Mail;
 
@@ -35,7 +36,9 @@ class AutoCallReminderhourlyMentor extends Command
 
         if ($calls->count() > 0) {
             foreach ($calls as $call) {
-                Mail::to($call->user->email)->send(new callReminder($call));
+                if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
+                    Mail::to($call->user->email)->send(new callReminder($call));
+                }
             }
         }
 
