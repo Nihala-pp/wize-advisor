@@ -381,10 +381,11 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
 
                 $this->getZoomCallLink($id);
             } else {
-                return redirect()->route('mentor.dashboard.my_sessions');
+                \Session::flash('error', 'Unable to process request.Error:'.json_encode($e->getMessage(), true));
                 // $e->getMessage();
             }
         }
+        return redirect()->route('mentor.dashboard.my_sessions');
     }
 
     public function generateAccessToken(Request $request)
