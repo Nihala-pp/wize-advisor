@@ -12,8 +12,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->command('app:auto-call-reminderhourly-user')->cron('15 * * * *');;
-        $schedule->command('app:auto-call-reminderhourly-mentor')->cron('15 * * * *');;
+        $schedule->command('app:auto-call-reminderhourly-user')->cron('5 * * * *');
+        $schedule->command('app:auto-call-reminderhourly-mentor')->cron('5 * * * *');
     }
 
     /**
