@@ -221,6 +221,7 @@ class AuthController extends Controller
 
     public function savePersonalInfo(Request $request)
     {
+        dd($request->all());
         $newuser = User::find($request->user_id);
 
         UserMeta::where('user_id', $request->user_id)->update([
