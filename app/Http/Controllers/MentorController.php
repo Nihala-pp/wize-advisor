@@ -323,7 +323,6 @@ class MentorController extends Controller
 
             Mail::to($user_email)->send(new CallApprovalUser($schedule));
 
-
             $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
 
             $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
