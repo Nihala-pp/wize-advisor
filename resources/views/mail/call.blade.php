@@ -17,7 +17,7 @@
             <p class="card-text">Meeting Details are mentioned below</p>
             <h5 class="card-title">Mentor : {{ $details->mentor->name }} </a></h5>
             <h5 class="card-title">Date : {{ $details->date }} </h5>
-            <h5 class="card-title">Time : {{ $details->time }} </h5>
+            <h5 class="card-title">Time : {{ $details->start_time }} - {{ $details->end_time }} </h5>
             <h5 class="card-title">Timezone : {{ $details->utc }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
             <h5 class="card-title">Joining Link : {{ $details->join_url }} </h5><br />
