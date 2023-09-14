@@ -196,7 +196,7 @@
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
 
-                                        $current_time = Illuminate\Support\Carbon::now();
+                                        $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
                                         if($mentor_finish_time->format('h:i:s') >= $current_time)
                                         {
