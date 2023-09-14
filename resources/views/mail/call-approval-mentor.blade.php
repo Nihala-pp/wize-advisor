@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <h1>Dear {{ $details['mentor_name'] }},</h1>
+    <h1>Dear {{ $details->user->name }},</h1>
     <p>We hope this email finds you well. We are delighted to inform you that your approval for the call request with [User's Name] has been received. Thank you for generously offering your time and expertise to guide and mentor them.
     </p><br />
     <p>Here are the details for the scheduled call:</p><br />
@@ -14,13 +14,12 @@
     <div class="card text-center mt-5">
         <div class="card-body">
             <p class="card-text">Meeting Details are mentioned below</p>
-            <h5 class="card-title">User : {{ $details['mentor_name'] }} </a></h5>
-            <h5 class="card-title">Date : {{ $details['date'] }} </h5>
-            <h5 class="card-title">Time : {{ $details['time'] }} </h5>
-            <h5 class="card-title">Timezone : {{ $details['utc'] }} </h5>
+            <h5 class="card-title">User : {{ $details->callSchedule->user->name }} </a></h5>
+            <h5 class="card-title">Date : {{ $details->date }} </h5>
+            <h5 class="card-title">Time : {{ $details->start_time }} - {{ $details->end_time }}</h5>
+            <h5 class="card-title">Timezone : {{ $details->time_zone }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
-            <h5 class="card-title">Joining Link : {{ $details['join_url'] }} </h5><br />
-            <h5 class="card-title">Password : {{ $details['password'] }} </h5><br />
+            <h5 class="card-title">Joining Link : {{ $details->callSchedule->call_link }} </h5><br />
 
             <p>We greatly appreciate your willingness to share your knowledge and support. Your guidance will be invaluable to them as they navigate their entrepreneurial journey and seek insights in your area of expertise. </p><br />
             <p>As a mentor on our platform, you play a crucial role in empowering entrepreneurs and fostering their growth. Your expertise and guidance will have a significant impact on their development and success. </p><br />

@@ -323,29 +323,33 @@ class MentorController extends Controller
 
             Mail::to($user_email)->send(new CallApprovalUser($schedule));
 
-            $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
+            $mentor_availability = AvailableSchedule::where('call_id', $schedule->id)->first();
 
-            $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
+            Mail::to($mentor_email)->send(new callApprovalMentor($mentor_availability));
 
-            $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-            $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
+            // $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
 
-            $details = [
-                'join_url' => $data->join_url,
-                'user_name' => $schedule->user->name,
-                'time' => $schedule->start_time.' - '.$schedule->end_time,
-                'utc' => $schedule->utc,
-                'date' => $schedule->date,
-                'mentor_name' => $schedule->mentor->name,
-                'mentor_timezone' => $mentor_timezone->time_zone,
-                'mentor_start_time' => $user_timezone->format('h:i A'),
-                'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
-            ];
+            // $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
 
-            dd($details);
+            // $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-            Mail::to($mentor_email)->send(new callApprovalMentor($details));
+            // $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
+
+            // $details = [
+            //     'join_url' => $data->join_url,
+            //     'user_name' => $schedule->user->name,
+            //     'time' => $schedule->start_time.' - '.$schedule->end_time,
+            //     'utc' => $schedule->utc,
+            //     'date' => $schedule->date,
+            //     'mentor_name' => $schedule->mentor->name,
+            //     'mentor_timezone' => $mentor_timezone->time_zone,
+            //     'mentor_start_time' => $user_timezone->format('h:i A'),
+            //     'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
+            // ];
+
+            // dd($details);
+
 
             // $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
 
@@ -384,7 +388,7 @@ class MentorController extends Controller
                 // $e->getMessage();
             }
         }
-        // return redirect()->route('mentor.dashboard.my_sessions');
+        return redirect()->route('mentor.dashboard.my_sessions');
     }
 
     public function generateAccessToken(Request $request)
