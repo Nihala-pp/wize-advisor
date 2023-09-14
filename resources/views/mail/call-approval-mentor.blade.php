@@ -16,7 +16,7 @@
             <p class="card-text">Meeting Details are mentioned below</p>
             <h5 class="card-title">User : {{ $details->callSchedule->user->name }} </a></h5>
             <h5 class="card-title">Date : {{ $details->date }} </h5>
-            <h5 class="card-title">Time : {{ $details->start_time->format('h:i A') }} - {{ $details->end_time->format('h:i A') }}</h5>
+            <h5 class="card-title">Time : {{  Illuminate\Support\Carbon::parse($details->start_time)->format('h:i A') }} - {{ Illuminate\Support\Carbon::parse($details->end_time)->format('h:i A') }}</h5>
             <h5 class="card-title">Timezone : {{ $details->time_zone }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
             <h5 class="card-title">Joining Link : <a href="{{ $details->callSchedule->call_link }}"> {{ $details->callSchedule->call_link }} </a> </h5><br />
