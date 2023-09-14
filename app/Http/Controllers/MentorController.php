@@ -323,6 +323,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
       $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
 
       $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
+      dd($user_timezone);
 
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
@@ -348,7 +349,7 @@ window.location.href = "https://wiseadvizor.com/mentor/dashboard/availability";
             Mail::to($user_email)->send(new CallApprovalUser($details));
             Mail::to($mentor_email)->send(new callApprovalMentor($details));
 
-            $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
+            // $schedule->user->notify(new \App\Notifications\CallApprovalUser($schedule->mentor));
 
             $notification = array(
                 'message' => 'Approved Successfully!',
