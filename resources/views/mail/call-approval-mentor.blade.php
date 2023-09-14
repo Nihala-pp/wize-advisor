@@ -7,7 +7,7 @@
 
 <body>
     <h1>Dear {{ $details->user->name }},</h1>
-    <p>We hope this email finds you well. We are delighted to inform you that your approval for the call request with [User's Name] has been received. Thank you for generously offering your time and expertise to guide and mentor them.
+    <p>We hope this email finds you well. We are delighted to inform you that your approval for the call request with {{ $details->callSchedule->user->name }} has been received. Thank you for generously offering your time and expertise to guide and mentor them.
     </p><br />
     <p>Here are the details for the scheduled call:</p><br />
 
