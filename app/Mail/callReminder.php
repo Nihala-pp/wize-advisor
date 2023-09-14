@@ -31,6 +31,8 @@ class callReminder extends Mailable
     {
         return new Envelope(
             subject: 'Call Reminder - wiseAdvizor!',
+            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
+            bcc: ['nihala-pp@wiseadvizor.com']
         );
     }
 
