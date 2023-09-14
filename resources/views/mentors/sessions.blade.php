@@ -432,10 +432,10 @@
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
-                                        if($completed_session->date && $mentor_finish_time->format('h:i:s') <
-                                        $current_time)
-                                        {
-                                        @endphp
+                                        if(date($completed_session->date.' '.$mentor_finish_time->format('H:i:s'))  <
+                                            $current_time) 
+                                            { 
+                                            @endphp 
                                         <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
@@ -483,11 +483,11 @@
                                                     </a>
                                                 </div>
                                             </td>
-                                        </tr>
-                                        @php
-                                        }
-                                        @endphp
-                                        @endforeach
+                                            </tr>
+                                            @php
+                                            }
+                                            @endphp
+                                            @endforeach
                                     </tbody>
                                 </table>
                             </div>
