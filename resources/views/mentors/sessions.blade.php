@@ -197,7 +197,8 @@
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
-                                        if($upcoming_session->date && $mentor_finish_time->format('h:i:s') >= $current_time)
+                                        if($upcoming_session->date && $mentor_finish_time->format('h:i:s') >=
+                                        $current_time)
                                         {
                                         @endphp
                                         <tr>
@@ -429,11 +430,14 @@
 
                                         $mentor_finish_time =
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
-                                        Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
 
-                                        $current_time = Illuminate\Support\Carbon::now();
+                                        $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
-                                        if($mentor_finish_time->format('h:i:s') < $current_time) { @endphp <tr>
+                                        if($completed_session->date && $mentor_finish_time->format('h:i:s') <
+                                        $current_time)
+                                        {
+                                        @endphp
+                                        <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
@@ -464,7 +468,6 @@
 
                                                     $mentor_finish_time =
                                                     Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
-                                                    Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
 
                                                     echo $user_timezone->format('h:i A').' -
                                                     '.$mentor_finish_time->format('h:i A');
@@ -481,11 +484,11 @@
                                                     </a>
                                                 </div>
                                             </td>
-                                            </tr>
-                                            @php
-                                            }
-                                            @endphp
-                                            @endforeach
+                                        </tr>
+                                        @php
+                                        }
+                                        @endphp
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>
