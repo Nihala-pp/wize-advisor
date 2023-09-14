@@ -330,9 +330,9 @@ class MentorController extends Controller
 
             $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-            dd($user_timezone);
-
             $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($schedule->duration);
+
+            dd($user_timezone);
 
             $details = [
                 'join_url' => $data->join_url,
