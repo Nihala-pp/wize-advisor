@@ -3476,9 +3476,8 @@
                             <div class="elementor-widget-container">
                                 <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}
                                 </p><br />
-                                <p class="elementor-heading-title elementor-size-default"><span
-                                        class="elementor-divider-separator">
-                                    </span>{{ $reviews->user->name }}
+                                <p class="elementor-heading-title elementor-size-default"> <cite
+                                        class="elementor-blockquote__author" {{ $reviews->user->name }} </cite>
                                 </p>
                             </div>
                         </div>
