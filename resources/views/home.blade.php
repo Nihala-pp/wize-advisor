@@ -3477,7 +3477,7 @@
                                 <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}
                                 </p><br />
                                 <footer>
-                                    <cite class="elementor-blockquote__author">{{ $reviews->user->name }}</cite>
+                                    <cite class="elementor-blockquote__author">___{{ $reviews->user->name }}</cite>
                                 </footer>
                             </div>
                         </div>
