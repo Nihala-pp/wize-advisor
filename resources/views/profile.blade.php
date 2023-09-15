@@ -2802,7 +2802,7 @@
                                             data-id="b5670d9" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                            @if ($reviews->user->metaData->profile_pic)
+                                            @if ($review->user->metaData->profile_pic)
                                                 <img decoding="async" width="336" height="336"
                                                     src="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }}"
                                                     class="attachment-large size-large wp-image-2460" alt=""
