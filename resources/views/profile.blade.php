@@ -2781,6 +2781,7 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="6f5a20e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
+                                @foreach($reviews as $review)
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-035a934"
                                     data-id="035a934" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2801,12 +2802,20 @@
                                             data-id="b5670d9" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                            @if ($reviews->user->metaData->profile_pic)
                                                 <img decoding="async" width="336" height="336"
                                                     src="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }}"
                                                     class="attachment-large size-large wp-image-2460" alt=""
                                                     srcset="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }} 336w, {{ asset('public/wp-content/uploads/2023/06/male-3-300x300.jpg') }} 300w, {{ asset('public/wp-content/uploads/2023/06/male-3-150x150.jpg') }} 150w, {{ asset('public/wp-content/uploads/2023/06/male-3-450x450.jpg') }} 450w, {{ asset('public/wp-content/uploads/2023/06/male-3-700x700.jpg') }} 700w, {{ asset('public/wp-content/uploads/2023/06/male-3-650x650.jpg') }} 650w, {{ asset('public/wp-content/uploads/2023/06/male-3-1300x1300.jpg') }} 1300w"
                                                     sizes="(max-width: 336px) 100vw, 336px">
+                                            @else
+                                            <img decoding="async" width="336" height="336"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-large size-large wp-image-2460" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w, {{ asset('public/assets/img/blank-profile-picture.png') }} 450w, {{ asset('public/assets/img/blank-profile-picture.png') }} 700w, {{ asset('public/assets/img/blank-profile-picture.png') }} 650w, {{ asset('public/assets/img/blank-profile-picture.png') }} 1300w"
+                                                    sizes="(max-width: 336px) 100vw, 336px">
                                             </div>
+                                            @endif
                                         </div>
                                         <div class="elementor-element elementor-element-91d36c6 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
                                             data-id="91d36c6" data-element_type="widget"
@@ -2832,10 +2841,7 @@
                                             data-id="e1a5c8d" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar
-                                                    dapibus leo.</p>
+                                                <p>{{ $review->review }} </p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -2852,13 +2858,13 @@
                                             data-id="75927c9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">John
-                                                    Doe</span>
+                                                <span class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c6408f"
+                                @endforeach
+                                <!-- <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c6408f"
                                     data-id="1c6408f" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -2934,8 +2940,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c4fd0e9"
+                                </div> -->
+                                <!-- <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c4fd0e9"
                                     data-id="c4fd0e9" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -3011,7 +3017,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </section>
                     </div>
