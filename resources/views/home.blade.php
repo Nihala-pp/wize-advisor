@@ -3947,8 +3947,8 @@
                                                     class="rounded-circle" height="8" width="37"
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="10px;" width="10px;">
+                                                <img decoding="async" src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" height="150" width="150">
                                                 @endif
                                             </div>
                                         </div>
