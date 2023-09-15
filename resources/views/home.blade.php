@@ -3475,6 +3475,8 @@
                             data-id="0deeba2" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}
+                                </p><br />
+                                <p class="elementor-heading-title elementor-size-default">_____________{{ $reviews->user->name }}
                                 </p>
                             </div>
                         </div>
