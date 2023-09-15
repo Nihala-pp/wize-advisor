@@ -3589,7 +3589,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section
+                        <!-- <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-f8de82a elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="f8de82a" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
@@ -3635,7 +3635,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> -->
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-dd8dac8 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="dd8dac8" data-element_type="section">
