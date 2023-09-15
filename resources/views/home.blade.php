@@ -3746,19 +3746,11 @@
                                             data-id="d5fadc5" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                @if ($reviews->user->metaData)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
+                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
+                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
-                                                <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" /> -->
-                                                @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="50px;" width="50px;">
-                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-cf2c223 elementor-widget elementor-widget-heading"
@@ -3766,7 +3758,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->user->name }}</h4>
+                                                    Alen</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-b5effb5 elementor-widget elementor-widget-heading"
@@ -3774,7 +3766,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->user->metaData->designation }}
+                                                    Marketing Pro
                                                 </h6>
                                             </div>
                                         </div>
@@ -3783,7 +3775,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->review }}</p>
+                                                    Lorem ipsum dolor sit amet dsdfsf sdfdf sdfsfd</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3956,7 +3948,7 @@
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
                                                 <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="25px;" width="25px;">
+                                                    class="rounded-circle" height="10px;" width="10px;">
                                                 @endif
                                             </div>
                                         </div>
@@ -3964,14 +3956,16 @@
                                             data-id="379903e" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">{{ $reviews->user->name }}</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">
+                                                    {{ $reviews->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-e6de0f0 elementor-widget elementor-widget-heading"
                                             data-id="e6de0f0" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">{{ $reviews->user->metaData->designation }}
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                    {{ $reviews->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -3979,7 +3973,8 @@
                                             data-id="ca1a343" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    {{ $reviews->review }}</p>
                                             </div>
                                         </div>
                                     </div>
