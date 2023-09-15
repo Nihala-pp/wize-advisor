@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Blogs;
 use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
+use App\Models\Review;
 use App\Models\UserFaq;
 use App\Notifications\NewCallRequest;
 use Illuminate\Http\Request;
@@ -49,6 +50,7 @@ class HomeController extends Controller
     $mentors = User::where('role_id', 2)->whereNull('status')->get();
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::get()->count();
+    $reviews = Review::where('id', 7)->first();
 
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
@@ -57,7 +59,7 @@ class HomeController extends Controller
         return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
       }
     } else {
-      return view('home', compact('mentors', 'users', 'calls'));
+      return view('home', compact('mentors', 'users', 'calls', 'reviews'));
     }
   }
 

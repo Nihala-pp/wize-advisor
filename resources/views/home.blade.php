@@ -3502,15 +3502,14 @@
                                             data-id="7b394ae" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Alen</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $reviews->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-2007f34 elementor-widget elementor-widget-heading"
                                             data-id="2007f34" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Marketing
-                                                    pro
+                                                <h6 class="elementor-heading-title elementor-size-default">{{ $reviews->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -3518,9 +3517,7 @@
                                             data-id="be768bc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Lorem
-                                                    ipsum
-                                                    dolor sit amet dsdfsf sdfdf sdfsfd</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}</p>
                                             </div>
                                         </div>
                                     </div>
