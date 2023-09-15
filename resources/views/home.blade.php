@@ -3474,9 +3474,7 @@
                         <div class="elementor-element elementor-element-0deeba2 elementor-widget elementor-widget-heading"
                             data-id="0deeba2" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">Lorem ipsum dolor sit
-                                    amet,
-                                    consectetur adipiscing elit. Mauris tempus nisl vitae magna pulvinar laoreet.
+                                <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}
                                 </p>
                             </div>
                         </div>
