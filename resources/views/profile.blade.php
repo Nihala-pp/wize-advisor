@@ -2802,14 +2802,14 @@
                                             data-id="b5670d9" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                            @if ($review->user->metaData->profile_pic)
+                                                @if ($review->user->metaData->profile_pic)
                                                 <img decoding="async" width="336" height="336"
                                                     src="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }}"
                                                     class="attachment-large size-large wp-image-2460" alt=""
                                                     srcset="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }} 336w, {{ asset('public/wp-content/uploads/2023/06/male-3-300x300.jpg') }} 300w, {{ asset('public/wp-content/uploads/2023/06/male-3-150x150.jpg') }} 150w, {{ asset('public/wp-content/uploads/2023/06/male-3-450x450.jpg') }} 450w, {{ asset('public/wp-content/uploads/2023/06/male-3-700x700.jpg') }} 700w, {{ asset('public/wp-content/uploads/2023/06/male-3-650x650.jpg') }} 650w, {{ asset('public/wp-content/uploads/2023/06/male-3-1300x1300.jpg') }} 1300w"
                                                     sizes="(max-width: 336px) 100vw, 336px">
-                                            @else
-                                            <img decoding="async" width="336" height="336"
+                                                @else
+                                                <img decoding="async" width="336" height="336"
                                                     src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                     class="attachment-large size-large wp-image-2460" alt=""
                                                     srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w, {{ asset('public/assets/img/blank-profile-picture.png') }} 450w, {{ asset('public/assets/img/blank-profile-picture.png') }} 700w, {{ asset('public/assets/img/blank-profile-picture.png') }} 650w, {{ asset('public/assets/img/blank-profile-picture.png') }} 1300w"
@@ -2858,7 +2858,8 @@
                                             data-id="75927c9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
+                                                <span
+                                                    class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                             </div>
                                         </div>
                                     </div>
@@ -4401,6 +4402,21 @@
         });
     }(jQuery));
     </script>
-</body>
 
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/65046147b1aaa13b7a770b04/1hacho0lm';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
 </html>
