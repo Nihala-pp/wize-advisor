@@ -3945,7 +3945,7 @@
                                             data-id="532fd2e" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                @if ($reviews->user->metaData)
+                                                @if ($reviews->user->metaData->profile_pic)
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
