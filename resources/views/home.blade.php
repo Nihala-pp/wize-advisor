@@ -3477,7 +3477,7 @@
                                 <p class="elementor-heading-title elementor-size-default">{{ $reviews->review }}
                                 </p><br />
                                 <footer>
-                                    <cite class="elementor-blockquote__author">___  {{ $reviews->user->name }}</cite>
+                                    <cite class="elementor-blockquote__author">___ {{ $reviews->user->name }}</cite>
                                 </footer>
                             </div>
                         </div>
@@ -3502,8 +3502,11 @@
                                                     class="rounded-circle" height="8" width="37"
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="50px;" width="50px;">
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
                                         </div>
@@ -3556,8 +3559,11 @@
                                                     class="rounded-circle" height="8" width="37"
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="50px;" width="50px;">
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
                                         </div>
