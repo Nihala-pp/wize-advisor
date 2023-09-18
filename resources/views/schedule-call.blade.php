@@ -2566,7 +2566,7 @@
                     var mentor = $('.mentor').val();
                     // var time = $('.event-card').val();
                     var formdata = $('.scheduleCallForm').serialize();
-                    formdata.append("customFile", $('#customFile').files[0]);
+                    formdata.append("doc", $('#customFile').files[0]);
 
                     return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                         method: 'POST',
