@@ -2574,7 +2574,7 @@
                         // Append data 
                         formdata.append('doc', files[0]);
                     }
-                    console.log(file);
+                    // console.log(file);
                     // formdata.append("doc", $('#customFile').files[0]);
 
                     return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
