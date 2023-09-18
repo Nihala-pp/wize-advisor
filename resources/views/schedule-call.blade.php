@@ -2566,7 +2566,7 @@
                     var mentor = $('.mentor').val();
                     // var time = $('.event-card').val();
                     var formdata = $('.scheduleCallForm').serialize();
-                    var file = $('#file')[0].files;
+                    var file = $('#customFile')[0].files;
                     console.log(file);
                     formdata.append("doc", $('#customFile').files[0]);
 
