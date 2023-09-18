@@ -2581,7 +2581,7 @@
                         method: 'POST',
                         data: {
                             "data": formdata,
-                            "files":files
+                            "files":files[0]
                         },
                         success: function(response) {
                             $('.success').html(response);
