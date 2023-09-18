@@ -1500,7 +1500,8 @@
                                 placeholder="Please have a quick explanation regarding the topic"
                                 name="desc"></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
-                            <input type="file" name="doc" class="form-control">
+                            <input type="file" name="doc" class="form-control custom-file-input"
+                                onchange="id_proof(event, this.id)" id="customFile">
                     </div>
                 </div>
             </div>
@@ -2565,6 +2566,8 @@
                     var mentor = $('.mentor').val();
                     // var time = $('.event-card').val();
                     var formdata = $('.scheduleCallForm').serialize();
+                    form_data.append("customFile", $('#customFile').files[0]);
+
                     return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                         method: 'POST',
                         data: {
@@ -2584,6 +2587,15 @@
 
                 });
             });
+
+            function readURL(event, input) {
+                var output = document.getElementById(input);
+                output.innerHTML = event.target.files[0].name;
+            }
+
+            function id_proof(event, id) {
+                readURL(event, id + 's');
+            }
 
             // Initialize the calendar by appending the HTML dates
             function init_calendar(date) {

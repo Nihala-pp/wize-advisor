@@ -26,6 +26,7 @@ use App\Models\MentorsExperience;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
 use Hash;
+use Illuminate\Support\Facades\File;
 
 
 class HomeController extends Controller
@@ -207,36 +208,66 @@ class HomeController extends Controller
 
     if (empty($data['time'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $id }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id'";
-location.reload();
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";
+        alert("Please choose the time slot");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
     } elseif (empty($data['desc'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $id }}";
-alert("Please fill the description");
-window.location.href = "' + custom_location + " / " + Id'";
-location.reload();
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";
+        alert("Please fill the description");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
     } elseif (empty($data['timezone'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $id }}";
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";
 
-alert("Please choose the timezone");
-window.location.href = "' + custom_location + " / " + Id'";
-location.reload();
-</script>
-<?php
+        alert("Please choose the timezone");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
     } else {
+
+      // add secure_token_no for secure save (optional)
+      $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
+
+      $type = 'document_' . $request->secure_no_proof;
+      $form_file = 'doc';
+
+      // Validation of file type
+      $validation = \Validator::make($request->all(), [
+        $form_file => 'required|mimes:pdf,docx|max:2048' // maxsize = 2MB
+      ]);
+
+      $file = $request->file($form_file);
+      $new_name = $type . '.' . $file->getClientOriginalExtension();
+
+      $path = public_path() . '/assets/docs';
+
+      // If path is not exist
+      if (!File::exists($path)) {
+        File::makeDirectory($path, $mode = 0777, true, true);
+      }
+
+      $file->move(public_path('assets/docs'), $new_name);
+
+      // $file->move(public_path('uploads/Registration'), $new_name);
+
+      // $document = time() . '.' . $request->doc->getClientOriginalExtension();
+      // $request->doc->move(public_path('assets/docs'), $document);
+
+
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
       $date = $data['year'] . '-' . $nmonth . '-' . $data['day'];
@@ -252,7 +283,7 @@ location.reload();
 
       $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
-     $call =  ScheduledCall::create([
+      $call = ScheduledCall::create([
         'user_id' => Auth::id(),
         'mentor_id' => $data['mentor'],
         'price' => $data['price'],
@@ -263,7 +294,7 @@ location.reload();
         'utc' => $data['timezone'],
         'status' => 'Pending',
         'description' => $data['desc'],
-        'documents' => ''
+        'documents' => $new_name
       ]);
 
       AvailableSchedule::where('mentor_id', $data['mentor'])
