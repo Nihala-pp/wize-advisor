@@ -2565,15 +2565,15 @@
                     var mentor = $('.mentor').val();
                     // var time = $('.event-card').val();
                     // var formdata = $('.scheduleCallForm').serialize();
-                    var formdata = new FormData();
+                    var formdata = $('.scheduleCallForm').serialize();
 
                     var files = $('#customFile')[0].files;
-                    if (files.length > 0) {
-                        // var fd = new FormData();
+                    // if (files.length > 0) {
+                    //     // var fd = new FormData();
 
-                        // Append data 
-                        formdata.append('doc', files[0]);
-                    }
+                    //     // Append data 
+                    //     formdata.append('doc', files[0]);
+                    // }
                     // console.log(file);
                     // formdata.append("doc", $('#customFile').files[0]);
 
