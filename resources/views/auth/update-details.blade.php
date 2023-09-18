@@ -1409,11 +1409,11 @@
                             @csrf
                             <input type="hidden" name="user_id" value="{{ $id }}">
                             <div class="form-outline mb-4">
-                                <input type="text" id="form6Example3" class="form-control" name="company_name" required>
+                                <input type="text" id="form6Example3" class="form-control" name="company_name">
                                 <label class="form-label" for="form6Example3">Company name</label>
                             </div>
                             <div class="form-outline mb-4">
-                                <input type="text" id="form6Example4" class="form-control" name="designation" required>
+                                <input type="text" id="form6Example4" class="form-control" name="designation">
                                 <label class="form-label" for="form6Example4">Designation</label>
                             </div>
                             <div class="form-outline mb-4">
