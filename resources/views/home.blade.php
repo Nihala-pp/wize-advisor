@@ -3496,8 +3496,8 @@
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
+                                                    srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                     class="rounded-circle" height="8" width="37"
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
@@ -3505,8 +3505,8 @@
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
                                         </div>
@@ -3562,8 +3562,8 @@
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
                                         </div>
@@ -5605,4 +5605,5 @@
     </script>
     <!--End of Tawk.to Script-->
 </body>
+
 </html>

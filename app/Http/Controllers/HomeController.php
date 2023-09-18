@@ -454,7 +454,7 @@ location.reload();
 
   public function test()
   {
-    $password = Hash::make('>jy<S]Kt');
+    $password = Hash::make('x9nNR[n1');
     dd($password);
 
     return view('call');
