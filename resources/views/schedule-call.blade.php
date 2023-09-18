@@ -1500,7 +1500,7 @@
                                 placeholder="Please have a quick explanation regarding the topic"
                                 name="desc"></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
-                            <input type="file" name="doc" class="form-control" onchange="document(event, this.id)"
+                            <input type="file" name="doc" class="form-control" onchange="doc(event, this.id)"
                                 id="customFile">
                     </div>
                 </div>
@@ -2593,7 +2593,7 @@
                     output.innerHTML = event.target.files[0].name;
                 }
 
-                function document(event, id) {
+                function doc(event, id) {
                     readURL(event, id + 's');
                 }
             });
