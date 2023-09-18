@@ -2580,8 +2580,8 @@
                     return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                         method: 'POST',
                         data: {
-                            "data": formdata,
-                            "files":files[0]
+                            "data" : formdata,
+                            "files" : files[0]
                         },
                         success: function(response) {
                             $('.success').html(response);
