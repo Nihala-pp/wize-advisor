@@ -1500,7 +1500,7 @@
                                 placeholder="Please have a quick explanation regarding the topic"
                                 name="desc"></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
-                            <input type="file" name="doc" class="form-control" id="customFile">
+                            <input type="file" name="doc" class="form-control" id="customFile" accept="image/*">
                     </div>
                 </div>
             </div>
@@ -2533,6 +2533,22 @@
         (function($) {
             // Setup the calendar with the current date
             $(document).ready(function() {
+
+                // function doAfterSelectImage(input) {
+                //     readURL(input);
+                //     paynow();
+                // }
+
+                // function readURL(input) {
+                //     if (input.files && input.files[0]) {
+                //         var reader = new FileReader();
+                //         reader.onload = function(e) {
+                //             $('#image_user').css('background-image', 'url(' + e.target.result + ')');
+                //         };
+                //         reader.readAsDataURL(input.files[0]);
+                //     }
+                // }
+
                 var date = new Date();
                 var today = date.getDate();
                 // Set click handlers for DOM elements
@@ -2560,34 +2576,37 @@
                     }
                 });
 
-                $("body").on('click', '#payNow', function() {
-                    var desc = $('#desc').val();
-                    var mentor = $('.mentor').val();
-                    // var time = $('.event-card').val();
-                    // var formdata = $('.scheduleCallForm').serialize();
-                    var formdata = $('.scheduleCallForm').serialize();
+                // function paynow() {
+                    $("body").on('click', '#payNow', function() {
+                        var desc = $('#desc').val();
+                        var mentor = $('.mentor').val();
+                        // var time = $('.event-card').val();
+                        // var formdata = $('.scheduleCallForm').serialize();
 
-                    var files = $('#customFile')[0].files;
-                    // if (files.length > 0) {
-                    //     // var fd = new FormData();
+                        var formdata = $('.scheduleCallForm').serialize();
 
-                    //     // Append data 
-                    //     formdata.append('doc', files[0]);
-                    // }
-                    // console.log(file);
-                    // formdata.append("doc", $('#customFile').files[0]);
+                        // var files = $('#customFile')[0].files;
+                        // if (files.length > 0) {
+                        //     // var fd = new FormData();
 
-                    return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
-                        method: 'POST',
-                        data: {
-                            "data" : formdata,
-                            "files" : files[0]
-                        },
-                        success: function(response) {
-                            $('.success').html(response);
-                        }
+                        //     // Append data 
+                        //     formdata.append('doc', files[0]);
+                        // }
+                        // console.log(file);
+                        // formdata.append("doc", $('#customFile').files[0]);
+
+                        return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
+                            method: 'POST',
+                            data: {
+                                "data": formdata,
+                                // "files": files[0]
+                            },
+                            success: function(response) {
+                                $('.success').html(response);
+                            }
+                        });
                     });
-                });
+                // }
 
                 $("body").on('click', '.event-card', function() {
                     var fired_button = $(this).val();
@@ -2596,15 +2615,6 @@
                     $(this).css('color', '#fff');
 
                 });
-
-                function readURL(event, input) {
-                    var output = document.getElementById(input);
-                    output.innerHTML = event.target.files[0].name;
-                }
-
-                function doc(event, id) {
-                    readURL(event, id + 's');
-                }
             });
 
             // Initialize the calendar by appending the HTML dates
