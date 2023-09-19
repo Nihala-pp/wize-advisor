@@ -2582,8 +2582,8 @@
                 });
 
                 // function paynow() {
-                    // $("body").on('click', '#payNow', function() {
-                    $("form[name='scheduleCallForm']").submit(function(e) {
+                    $("body").on('submit', '#payNow', function(e) {
+                    // $("form[name='scheduleCallForm']").submit(function(e) {
                         var formdata = new FormData($(this)[0]);
                         var desc = $('#desc').val();
                         var mentor = $('.mentor').val();
