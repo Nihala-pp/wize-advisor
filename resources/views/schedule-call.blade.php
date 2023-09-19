@@ -2585,12 +2585,12 @@
                 $("body").on('click', '#payNow', function(e) {
                     // $("form[name='scheduleCallForm']").submit(function(e) {
 
-                    var $form = document.getElementById('scheduleCallForm');
+                    // var $form = document.getElementById('scheduleCallForm');
 
                     var formdata = new FormData(document.getElementById("scheduleCallForm"));
                     var desc = $('#desc').val();
                     var mentor = $('.mentor').val();
-                    e.preventDefault();
+                    // e.preventDefault();
 
 
                     // var formdata = $('.scheduleCallForm').serialize();
