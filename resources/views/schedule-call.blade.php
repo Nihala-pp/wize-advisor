@@ -1501,8 +1501,7 @@
                                 placeholder="Please have a quick explanation regarding the topic"
                                 name="desc"></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
-                            <input type="file" name="doc" class="form-control"
-                                id="customFile" accept="image/*">
+                            <input type="file" name="doc" class="form-control" id="customFile" accept="image/*">
                     </div>
                 </div>
             </div>
@@ -2584,29 +2583,16 @@
                     $("body").on('click', '#payNow', function() {
                         var desc = $('#desc').val();
                         var mentor = $('.mentor').val();
-                        // var time = $('.event-card').val();
-                        // var formdata = $('.scheduleCallForm').serialize();
 
                         // var formdata = $('.scheduleCallForm').serialize();
 
                         let myForm = document.getElementById('scheduleCallForm');
                         let formdata = new FormData(myForm);
 
-                        // var files = $('#customFile')[0].files;
-                        // if (files.length > 0) {
-                        //     // var fd = new FormData();
-
-                        //     // Append data 
-                        //     formdata.append('doc', files[0]);
-                        // }
-                        // console.log(file);
-                        // formdata.append("doc", $('#customFile').files[0]);
-
                         return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                             method: 'POST',
                             data: {
-                                "data": formdata,
-                                // "files": files[0]
+                                "data": formdata
                             },
                             success: function(response) {
                                 $('.success').html(response);
