@@ -2587,7 +2587,7 @@
 
                     var $form = document.getElementById('scheduleCallForm');
 
-                    var formdata = new FormData($form[0]);
+                    var formdata = new FormData(document.getElementById("scheduleCallForm"));
                     var desc = $('#desc').val();
                     var mentor = $('.mentor').val();
                     e.preventDefault();
