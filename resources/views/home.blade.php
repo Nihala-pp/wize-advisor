@@ -3474,7 +3474,8 @@
                         <div class="elementor-element elementor-element-0deeba2 elementor-widget elementor-widget-heading"
                             data-id="0deeba2" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($reviews->review)->limit(50) }}
+                                <p class="elementor-heading-title elementor-size-default">
+                                    {{ Str::of($reviews->review)->limit(50) }}
                                 </p><br />
                                 <footer>
                                     <cite class="elementor-blockquote__author">___ {{ $reviews->user->name }}</cite>
@@ -3532,7 +3533,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->review }}</p>
+                                                {{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3589,7 +3590,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->review }}</p>
+                                                {{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3984,7 +3985,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->review }}</p>
+                                                {{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
