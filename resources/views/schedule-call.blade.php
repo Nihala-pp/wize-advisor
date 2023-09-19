@@ -2542,6 +2542,7 @@
 
                 function readURL(input) {
                     if (input.files && input.files[0]) {
+                        console.log(input.files);
                         var reader = new FileReader();
                         // reader.onload = function(e) {
                         //     $('#image_user').css('background-image', 'url(' + e.target.result + ')');
