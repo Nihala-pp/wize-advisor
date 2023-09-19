@@ -2582,32 +2582,35 @@
                 });
 
                 // function paynow() {
-                    $("body").on('submit', '#payNow', function(e) {
+                $("body").on('click', '#payNow', function(e) {
                     // $("form[name='scheduleCallForm']").submit(function(e) {
-                        var formdata = new FormData($(this)[0]);
-                        var desc = $('#desc').val();
-                        var mentor = $('.mentor').val();
-                        e.preventDefault();
+
+                    var $form = document.getElementById('scheduleCallForm');
+
+                    var formdata = new FormData($form[0]);
+                    var desc = $('#desc').val();
+                    var mentor = $('.mentor').val();
+                    e.preventDefault();
 
 
-                        // var formdata = $('.scheduleCallForm').serialize();
-                        // let myForm = document.getElementById('scheduleCallForm');
-                        // let formdata = new FormData(myForm);
+                    // var formdata = $('.scheduleCallForm').serialize();
+                    // let myForm = document.getElementById('scheduleCallForm');
+                    // let formdata = new FormData(myForm);
 
-                        // var $form = $(this);
-                        // var formData = new FormData($form[0]); // note [0] here
-                        // url = $form.prop("action");
+                    // var $form = $(this);
+                    // var formData = new FormData($form[0]); // note [0] here
+                    // url = $form.prop("action");
 
-                        $.ajax("https://wiseadvizor.com/addScheduleRequest", {
-                            method: 'POST',
-                            data: {
-                                "data": formdata
-                            },
-                            success: function(response) {
-                                $('.success').html(response);
-                            }
-                        });
+                    $.ajax("https://wiseadvizor.com/addScheduleRequest", {
+                        method: 'POST',
+                        data: {
+                            "data": formdata
+                        },
+                        success: function(response) {
+                            $('.success').html(response);
+                        }
                     });
+                });
                 // }
 
                 $("body").on('click', '.event-card', function() {
