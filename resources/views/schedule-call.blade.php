@@ -2587,13 +2587,13 @@
 
                     // var $form = document.getElementById('scheduleCallForm');
 
-                    var formdata = new FormData(document.getElementById("scheduleCallForm"));
+                    // var formdata = new FormData(document.getElementById("scheduleCallForm"));
                     var desc = $('#desc').val();
                     var mentor = $('.mentor').val();
                     // e.preventDefault();
 
 
-                    // var formdata = $('.scheduleCallForm').serialize();
+                    var formdata = $('.scheduleCallForm').serialize();
                     // let myForm = document.getElementById('scheduleCallForm');
                     // let formdata = new FormData(myForm);
 
