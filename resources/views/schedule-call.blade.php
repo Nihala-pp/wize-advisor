@@ -2536,6 +2536,7 @@
             $(document).ready(function() {
 
                 function doAfterSelectImage(input) {
+                    console.log(input);
                     readURL(input);
                     paynow();
                 }
