@@ -29,7 +29,9 @@ class weeklySlotUpdate extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Please Update Your Availability for Mentorship Sessions',
+            subject: 'Action Required: Please Update Your Availability for Mentorship Sessions',
+            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
+            bcc: ['nihala-pp@wiseadvizor.com']
         );
     }
 

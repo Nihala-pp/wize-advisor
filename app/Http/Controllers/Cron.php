@@ -1,0 +1,90 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Mail\completedCallMentor;
+use App\Mail\feedbackEmailUser;
+use App\Mail\weeklySlotUpdate;
+use App\Models\AvailableSchedule;
+use App\Models\ScheduledCall;
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Mail;
+
+class Cron extends Controller
+{
+    public function index()
+    {
+        $this->completedCalls();
+        $this->callFeedBack();
+        // $this->callReminder();
+        // $this->weeklySlotUpdate();
+    }
+
+    public function completedCalls()
+    {
+        $completed_sessions = ScheduledCall::where('status', 'Approved')->whereMonth('date', date('m'))
+            ->whereDay('date', date('d'))->get();
+
+        foreach ($completed_sessions as $completed_session) {
+            $mentor_timezone = AvailableSchedule::where('mentor_id', $completed_session->mentor_id)->where('date', $completed_session->date)->first();
+
+            $user_timezone = new \DateTime($completed_session->date . ' ' . $completed_session->start_time, new \DateTimeZone($completed_session->utc));
+
+            $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+
+            $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
+
+            $current_time = Carbon::now()->timezone($mentor_timezone->time_zone);
+
+            if (date($completed_session->date . ' ' . $mentor_finish_time->format('H:i:s')) < $current_time) {
+                
+                $details = [
+                    'mentor_name' => $completed_session->mentor->name,
+                    'user_name' => $completed_session->user->name,
+                  ];
+                                    
+                  Mail::to($completed_session->mentor->email)->send(new completedCallMentor($details));
+            }
+        }
+    }
+
+    public function callFeedBack()
+    {
+        $completed_sessions = ScheduledCall::where('status', 'Approved')->whereMonth('date', date('m'))
+            ->whereDay('date', date('d'))->get();
+
+        foreach ($completed_sessions as $completed_session) {
+
+            $user_finish_time = Carbon::parse($completed_session->end_time)->addHour();
+
+            $current_time = Carbon::now()->timezone($completed_session->utc);
+
+            if (date($completed_session->date . ' ' . $user_finish_time->format('H:i:s')) < $current_time) {
+                
+                $details = [
+                    'mentor_name' => $completed_session->mentor->name,
+                    'user_name' => $completed_session->user->name,
+                  ];
+                                    
+                  Mail::to($completed_session->user->email)->send(new feedbackEmailUser($details));
+            }
+        }
+    }
+
+    public function callReminder()
+    {
+
+    }
+
+    public function weeklySlotUpdate()
+    {
+         $mentors = User::where('role_id', 2)->get();
+
+         foreach($mentors as $mentor)
+         {
+            Mail::to($mentor->email)->send(new weeklySlotUpdate($mentor));
+         }
+    }
+}
