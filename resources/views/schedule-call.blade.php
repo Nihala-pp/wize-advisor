@@ -2552,7 +2552,7 @@
                 //     }
                 // }
 
-                $("#customFile").on("change", doAfterSelectImage(this));
+                // $("#customFile").on("change", doAfterSelectImage(this));
 
                 var date = new Date();
                 var today = date.getDate();
