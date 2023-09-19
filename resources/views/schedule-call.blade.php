@@ -1501,7 +1501,7 @@
                                 placeholder="Please have a quick explanation regarding the topic"
                                 name="desc"></textarea>
                             <label class="form-label" style="color:black;">Upload Document (if any)</label>
-                            <input onchange="doAfterSelectImage(this)" type="file" name="doc" class="form-control"
+                            <input type="file" name="doc" class="form-control"
                                 id="customFile" accept="image/*">
                     </div>
                 </div>
@@ -2550,6 +2550,8 @@
                         reader.readAsDataURL(input.files[0]);
                     }
                 }
+
+                $("#customFile").on("change", doAfterSelectImage(this));
 
                 var date = new Date();
                 var today = date.getDate();
