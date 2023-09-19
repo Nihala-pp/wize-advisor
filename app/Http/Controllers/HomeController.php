@@ -240,33 +240,41 @@ class HomeController extends Controller
     } else {
 
       // add secure_token_no for secure save (optional)
-      $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
+      // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
 
-      $type = 'document_' . $request->secure_no_proof;
-      $form_file = 'doc';
+      // $type = 'document_' . $request->secure_no_proof;
+      // $form_file = 'doc';
 
       // Validation of file type
-      $validation = \Validator::make($request->all(), [
-        $form_file => 'required|mimes:pdf,docx|max:2048' // maxsize = 2MB
-      ]);
+      // $validation = \Validator::make($request->all(), [
+      //   $form_file => 'required|mimes:pdf,docx|max:2048' // maxsize = 2MB
+      // ]);
 
-      $file = $request->file($form_file);
-      $new_name = $type . '.' . $file->getClientOriginalExtension();
+      // $file = $request->file($form_file);
+      // $new_name = $type . '.' . $file->getClientOriginalExtension();
 
-      $path = public_path() . '/assets/docs';
+      // $path = public_path() . '/assets/docs';
 
       // If path is not exist
-      if (!File::exists($path)) {
-        File::makeDirectory($path, $mode = 0777, true, true);
-      }
+      // if (!File::exists($path)) {
+      //   File::makeDirectory($path, $mode = 0777, true, true);
+      // }
 
-      $file->move(public_path('assets/docs'), $new_name);
+      // $file->move(public_path('assets/img/docs'), $new_name);
+
+      if ($request->hasFile('doc')) {
+        $completeFileName = $request->file('doc')->getClientOriginalName();
+        $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
+        $extension = $request->file('doc')->getClientOriginalExtension();
+        $compPic = str_replace(' ', '_', $fileNameOnly).'-'. rand() .'_'.time().'.'.$extension;
+        $path = $request->file('doc')->storeAs('public/assets/img/docs', $compPic);
+        $request->doc = 'docs/'.$compPic;
+    }
 
       // $file->move(public_path('uploads/Registration'), $new_name);
 
       // $document = time() . '.' . $request->doc->getClientOriginalExtension();
       // $request->doc->move(public_path('assets/docs'), $document);
-
 
       $month = $data['month'];
       $nmonth = date("m", strtotime($data['month']));
@@ -294,7 +302,7 @@ class HomeController extends Controller
         'utc' => $data['timezone'],
         'status' => 'Pending',
         'description' => $data['desc'],
-        'documents' => $new_name
+        'documents' => $request->doc
       ]);
 
       AvailableSchedule::where('mentor_id', $data['mentor'])
