@@ -2601,7 +2601,7 @@
                     // var formData = new FormData($form[0]); // note [0] here
                     // url = $form.prop("action");
 
-                    $.ajax("https://wiseadvizor.com/addScheduleRequest", {
+                   return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                         method: 'POST',
                         data: {
                             "data": formdata
