@@ -2585,7 +2585,6 @@
                         var mentor = $('.mentor').val();
 
                         // var formdata = $('.scheduleCallForm').serialize();
-
                         let myForm = document.getElementById('scheduleCallForm');
                         let formdata = new FormData(myForm);
 
