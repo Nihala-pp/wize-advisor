@@ -208,35 +208,35 @@ class HomeController extends Controller
 
     if (empty($data['time'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $id }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id'";
-        location.reload();
-      </script>
-      <?php
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $id }}";
+alert("Please choose the time slot");
+window.location.href = "' + custom_location + " / " + Id'";
+location.reload();
+</script>
+<?php
     } elseif (empty($data['desc'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $id }}";
-        alert("Please fill the description");
-        window.location.href = "' + custom_location + " / " + Id'";
-        location.reload();
-      </script>
-      <?php
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $id }}";
+alert("Please fill the description");
+window.location.href = "' + custom_location + " / " + Id'";
+location.reload();
+</script>
+<?php
     } elseif (empty($data['timezone'])) {
       ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-        Id = "{{ $id }}";
+<script type="text/javascript">
+var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+Id = "{{ $id }}";
 
-        alert("Please choose the timezone");
-        window.location.href = "' + custom_location + " / " + Id'";
-        location.reload();
-      </script>
-      <?php
+alert("Please choose the timezone");
+window.location.href = "' + custom_location + " / " + Id'";
+location.reload();
+</script>
+<?php
     } else {
 
       // add secure_token_no for secure save (optional)
@@ -269,6 +269,9 @@ class HomeController extends Controller
         $compPic = str_replace(' ', '_', $fileNameOnly).'-'. rand() .'_'.time().'.'.$extension;
         $path = $request->file('doc')->storeAs('public/assets/img/docs', $compPic);
         $request->doc = 'docs/'.$compPic;
+    }
+    else {
+      $request->doc = '';
     }
 
       // $file->move(public_path('uploads/Registration'), $new_name);
