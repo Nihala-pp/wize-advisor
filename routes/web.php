@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Cron;
 use App\Http\Controllers\MentorController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\Auth\AuthController;
@@ -87,6 +88,8 @@ Route::get('blogs/blog-detail/{id?}', [HomeController::class, 'blogDetailPage'])
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
+
+Route::get('cron', [Cron::class, 'index'])->name('index');
 
 Route::controller(AdminController::class)
     ->as('admin.')
