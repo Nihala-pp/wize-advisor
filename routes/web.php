@@ -90,6 +90,7 @@ Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRe
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
 
 Route::get('cron', [Cron::class, 'index'])->name('index');
+Route::get('weekly-email', [Cron::class, 'weeklySlotUpdate'])->name('weeklySlotUpdate');
 
 Route::controller(AdminController::class)
     ->as('admin.')
