@@ -1485,8 +1485,8 @@
                         <div class="card_carousel_title"> {{ $mentor ?  $mentor->name : '' }}</div>
                         <h5 class="card-title">30 Min Meeting</h5>
                         <!-- <i class="fab fa-time"> 30 Min</i> -->
-                        <form method="POST" enctype="multipart/form-data" class="scheduleCallForm"
-                            id="scheduleCallForm">
+                        <form name="scheduleCallForm" method="POST" enctype="multipart/form-data"
+                            class="scheduleCallForm" id="scheduleCallForm">
                             @csrf
                             <input type="hidden" name="duration" value="30">
                             <input class="day" type="hidden" name="day" value="">
@@ -1672,7 +1672,7 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="button" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
+                            <button type="submit" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
                                 style="align:center;background-color:#001E64;">Continue</button>
                         </div>
                     </div>
@@ -2535,22 +2535,22 @@
             // Setup the calendar with the current date
             $(document).ready(function() {
 
-                function doAfterSelectImage(input) {
-                    console.log(input);
-                    readURL(input);
-                    paynow();
-                }
+                // function doAfterSelectImage(input) {
+                //     console.log(input);
+                //     readURL(input);
+                //     paynow();
+                // }
 
-                function readURL(input) {
-                    if (input.files && input.files[0]) {
-                        console.log(input.files);
-                        var reader = new FileReader();
-                        // reader.onload = function(e) {
-                        //     $('#image_user').css('background-image', 'url(' + e.target.result + ')');
-                        // };
-                        reader.readAsDataURL(input.files[0]);
-                    }
-                }
+                // function readURL(input) {
+                //     if (input.files && input.files[0]) {
+                //         console.log(input.files);
+                //         var reader = new FileReader();
+                //         // reader.onload = function(e) {
+                //         //     $('#image_user').css('background-image', 'url(' + e.target.result + ')');
+                //         // };
+                //         reader.readAsDataURL(input.files[0]);
+                //     }
+                // }
 
                 $("#customFile").on("change", doAfterSelectImage(this));
 
@@ -2581,16 +2581,24 @@
                     }
                 });
 
-                function paynow() {
-                    $("body").on('click', '#payNow', function() {
+                // function paynow() {
+                    // $("body").on('click', '#payNow', function() {
+                    $("form[name='scheduleCallForm']").submit(function(e) {
+                        var formdata = new FormData($(this)[0]);
                         var desc = $('#desc').val();
                         var mentor = $('.mentor').val();
+                        e.preventDefault();
+
 
                         // var formdata = $('.scheduleCallForm').serialize();
-                        let myForm = document.getElementById('scheduleCallForm');
-                        let formdata = new FormData(myForm);
+                        // let myForm = document.getElementById('scheduleCallForm');
+                        // let formdata = new FormData(myForm);
 
-                        return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
+                        // var $form = $(this);
+                        // var formData = new FormData($form[0]); // note [0] here
+                        // url = $form.prop("action");
+
+                        $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                             method: 'POST',
                             data: {
                                 "data": formdata
@@ -2600,7 +2608,7 @@
                             }
                         });
                     });
-                }
+                // }
 
                 $("body").on('click', '.event-card', function() {
                     var fired_button = $(this).val();
