@@ -3533,7 +3533,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                {{ Str::of($reviews->review)->limit(50) }}</p>
+                                                    {{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3590,7 +3590,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                {{ Str::of($reviews->review)->limit(50) }}</p>
+                                                    {{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3985,7 +3985,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                {{ Str::of($reviews->review)->limit(50) }}</p>
+                                                    {{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -4013,26 +4013,34 @@
                                             data-id="e10f42e" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                                @if ($reviews->user->metaData->profile_pic)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 600w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 500w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                    450w sizes="(max-width: 150px) 100vw, 150px">
+                                                @else
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
                                                     srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-d949cfa elementor-widget elementor-widget-heading"
                                             data-id="d949cfa" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Alen</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $reviews->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-de21adc elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                             data-id="de21adc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Marketing
-                                                    pro
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                {{ $reviews->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -4040,9 +4048,7 @@
                                             data-id="1e9a843" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Lorem
-                                                    ipsum
-                                                    dolor sit amet dsdfsf sdfdf sdfsfd</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($reviews->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
