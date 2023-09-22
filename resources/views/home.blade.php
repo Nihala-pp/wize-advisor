@@ -4032,7 +4032,7 @@
                                             data-id="d949cfa" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">{{ $reviews->user->name }}</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review1->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-de21adc elementor-hidden-mobile elementor-widget elementor-widget-heading"
@@ -4040,7 +4040,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                {{ $reviews->user->metaData->designation }}
+                                                {{ $review1->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -4048,7 +4048,7 @@
                                             data-id="1e9a843" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($reviews->review)->limit(50) }}</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($review1->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
