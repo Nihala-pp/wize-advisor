@@ -4021,7 +4021,7 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
                                                     srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
