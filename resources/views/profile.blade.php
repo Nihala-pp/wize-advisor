@@ -2804,9 +2804,9 @@
                                             <div class="elementor-widget-container">
                                                 @if ($review->user->metaData->profile_pic)
                                                 <img decoding="async" width="336" height="336"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }}"
+                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                     class="attachment-large size-large wp-image-2460" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/male-3.jpg') }} 336w, {{ asset('public/wp-content/uploads/2023/06/male-3-300x300.jpg') }} 300w, {{ asset('public/wp-content/uploads/2023/06/male-3-150x150.jpg') }} 150w, {{ asset('public/wp-content/uploads/2023/06/male-3-450x450.jpg') }} 450w, {{ asset('public/wp-content/uploads/2023/06/male-3-700x700.jpg') }} 700w, {{ asset('public/wp-content/uploads/2023/06/male-3-650x650.jpg') }} 650w, {{ asset('public/wp-content/uploads/2023/06/male-3-1300x1300.jpg') }} 1300w"
+                                                    srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 450w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 700w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 650w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 1300w"
                                                     sizes="(max-width: 336px) 100vw, 336px">
                                                 @else
                                                 <img decoding="async" width="336" height="336"
