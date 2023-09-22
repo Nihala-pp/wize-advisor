@@ -4015,9 +4015,9 @@
                                             <div class="elementor-widget-container">
                                                 @if ($reviews->user->metaData->profile_pic)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                    src="{{ asset('public/assets/img') }}/{{ $reviews->user->metaData->profile_pic }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 600w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 500w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                    srcset="{{ asset('public/assets/img') }}/{{ $reviews->user->metaData->profile_pic }}, {{ asset('public/assets/img') }}/{{ $reviews->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $reviews->user->metaData->profile_pic }} 600w, {{ asset('public/assets/img') }}/{{ $reviews->user->metaData->profile_pic }} 500w, {{ asset('public/assets/img') }}/{{ $reviews->user->metaData->profile_pic }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
