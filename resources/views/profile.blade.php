@@ -2801,7 +2801,7 @@
                                         <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
                                             data-id="b5670d9" data-element_type="widget"
                                             data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
+                                            <div class="elementor-widget-container" style="margin-bottom:20px;">
                                                 @if ($review->user->metaData->profile_pic)
                                                 <img decoding="async" width="336" height="336"
                                                     src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
