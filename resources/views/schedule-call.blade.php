@@ -1590,7 +1590,7 @@
                                             </div>
                                         </div>
                                         <div style="padding-left:20px;">
-                                            <h4> style="color:green"><b>Next Availability on {{ $nextAvailability->date }}</b></h4>
+                                            <h4 style="color:green"><b>Next Availability on {{ $nextAvailability->date }}</b></h4>
                                         </div>
                                         <div class="events-container">
                                         </div>
