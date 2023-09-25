@@ -21,6 +21,23 @@
 
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
+    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
+    <script>
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 3668045,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -4032,7 +4049,8 @@
                                             data-id="d949cfa" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review1->user->name }}</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">
+                                                    {{ $review1->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-de21adc elementor-hidden-mobile elementor-widget elementor-widget-heading"
@@ -4040,7 +4058,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                {{ $review1->user->metaData->designation }}
+                                                    {{ $review1->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -4048,7 +4066,8 @@
                                             data-id="1e9a843" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($review1->review)->limit(50) }}</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    {{ Str::of($review1->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>

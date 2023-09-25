@@ -22,6 +22,23 @@
     <!-- <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
+    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
+    <script>
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 3668045,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -2158,17 +2175,18 @@
                                                                 placeholder="Message" required="required"
                                                                 aria-required="true"></textarea>
                                                         </div>
-                                                        <div class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
+                                                        <div
+                                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
                                                             <div class="elementor-field" id="form-field-field_6ff1b74">
                                                                 <!-- <div class="elementor-g-recaptcha"> -->
-                                                                    <!-- <strong>ReCaptcha:</strong> -->
-                                                                    <div class="g-recaptcha"
-                                                                        data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
-                                                                    </div>
-                                                                    @if ($errors->has('g-recaptcha-response'))
-                                                                    <span
-                                                                        class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-                                                                    @endif
+                                                                <!-- <strong>ReCaptcha:</strong> -->
+                                                                <div class="g-recaptcha"
+                                                                    data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
+                                                                </div>
+                                                                @if ($errors->has('g-recaptcha-response'))
+                                                                <span
+                                                                    class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                                                @endif
                                                                 <!-- </div> -->
                                                             </div>
                                                         </div>

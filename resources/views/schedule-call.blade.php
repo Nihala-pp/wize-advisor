@@ -16,6 +16,23 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
+    <script>
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 3668045,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -2601,7 +2618,7 @@
                     // var formData = new FormData($form[0]); // note [0] here
                     // url = $form.prop("action");
 
-                   return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
+                    return $.ajax("https://wiseadvizor.com/addScheduleRequest", {
                         method: 'POST',
                         data: {
                             "data": formdata
