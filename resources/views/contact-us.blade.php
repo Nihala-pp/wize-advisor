@@ -2161,7 +2161,7 @@
                                                         <div class="row">
                                                             <div class="col-md-12">
                                                                 <div class="form-group">
-                                                                    <strong>ReCaptcha:</strong>
+                                                                    <!-- <strong>ReCaptcha:</strong> -->
                                                                     <div class="g-recaptcha"
                                                                         data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
                                                                     </div>
