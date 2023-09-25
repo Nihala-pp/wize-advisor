@@ -1589,9 +1589,12 @@
                                                     Event</button>
                                             </div>
                                         </div>
+                                        @if(!empty($nextAvailability))
                                         <div style="margin-left:20px;">
-                                            <h4 style="color:green"><b>Next Availability on {{ $nextAvailability->date }}</b></h4>
+                                            <h4 style="color:green"><b>Next Availability on
+                                                    {{ $nextAvailability->date }}</b></h4>
                                         </div>
+                                        @endif
                                         <div class="events-container">
                                         </div>
                                         <div class="dialog" id="dialog">
