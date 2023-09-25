@@ -194,9 +194,13 @@ class HomeController extends Controller
     //  dd(Auth::user()->id);
     $mentor = User::find($id);
     $timezone = AvailableSchedule::timezones();
+    $nextAvailability = AvailableSchedule::where('mentor_id', $id)
+                        ->whereDate('date', '>', now())
+                        ->where('is_booked', 0)
+                        ->first();
 
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
-      return view('schedule-call', compact('mentor', 'timezone'));
+      return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
     } else {
       return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
     }
@@ -416,7 +420,6 @@ class HomeController extends Controller
 
   public function saveContact(Request $request)
   {
-
     $request->validate([
       'firstname' => 'required',
       'lastname' => 'required',

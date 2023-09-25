@@ -1589,6 +1589,7 @@
                                                     Event</button>
                                             </div>
                                         </div>
+                                        <h3>Next Availability on {{ $nextAvailability->date }}</h3>
                                         <div class="events-container">
                                         </div>
                                         <div class="dialog" id="dialog">
