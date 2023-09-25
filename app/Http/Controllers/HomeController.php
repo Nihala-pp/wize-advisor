@@ -417,17 +417,16 @@ class HomeController extends Controller
   public function saveContact(Request $request)
   {
 
-    dd($request->all());
     $request->validate([
       'firstname' => 'required',
       'lastname' => 'required',
       'email' => 'required|email',
-      'mob' => 'required|digits:10|numeric',
+      'mobilenumber' => 'required|digits:10|numeric',
       'message' => 'required',
       'g-recaptcha-response' => ['required', new ReCaptcha]
     ]);
 
-    $email = 'ankur.sharma@wiseadvizor.com';
+    $email = 'info@wiseadvizor.com';
 
     $details = Contact::create([
       'firstname' => $request->firstname,
