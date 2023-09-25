@@ -426,7 +426,7 @@ class HomeController extends Controller
       'g-recaptcha-response' => ['required', new ReCaptcha]
     ]);
 
-    $email = 'info@wiseadvizor.com';
+    $email = 'ankur.sharma@wiseadvizor.com';
 
     $details = Contact::create([
       'firstname' => $request->firstname,
