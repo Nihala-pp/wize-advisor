@@ -2158,7 +2158,21 @@
                                                                 placeholder="Message" required="required"
                                                                 aria-required="true"></textarea>
                                                         </div>
-                                                        <div
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group">
+                                                                    <strong>ReCaptcha:</strong>
+                                                                    <div class="g-recaptcha"
+                                                                        data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
+                                                                    </div>
+                                                                    @if ($errors->has('g-recaptcha-response'))
+                                                                    <span
+                                                                        class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                                                    @endif
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div
                                                             class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
                                                             <div class="elementor-field" id="form-field-field_6ff1b74">
                                                                 <div class="elementor-g-recaptcha"
@@ -2166,6 +2180,19 @@
                                                                     data-type="v2_checkbox" data-theme="light"
                                                                     data-size="normal"></div>
                                                             </div>
+                                                        </div> -->
+                                                        <div class="form-group mt-4 mb-4">
+                                                            <div class="captcha">
+                                                                <span>{!! captcha_img() !!}</span>
+                                                                <button type="button" class="btn btn-danger"
+                                                                    class="reload" id="reload">
+                                                                    &#x21bb;
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group mb-4">
+                                                            <input id="captcha" type="text" class="form-control"
+                                                                placeholder="Enter Captcha" name="captcha">
                                                         </div>
                                                         <div
                                                             class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
@@ -3172,6 +3199,7 @@
         id="wpforms-elementor-js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
     <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
@@ -3242,4 +3270,5 @@
     </script>
     <!--End of Tawk.to Script-->
 </body>
+
 </html>

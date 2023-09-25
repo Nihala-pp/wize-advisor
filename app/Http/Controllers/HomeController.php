@@ -27,6 +27,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
 use Hash;
 use Illuminate\Support\Facades\File;
+use App\Rules\ReCaptcha;
 
 
 class HomeController extends Controller
@@ -210,35 +211,35 @@ class HomeController extends Controller
 
     if (empty($data['time'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $id }}";
-alert("Please choose the time slot");
-window.location.href = "' + custom_location + " / " + Id'";
-location.reload();
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";
+        alert("Please choose the time slot");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
     } elseif (empty($data['desc'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $id }}";
-alert("Please fill the description");
-window.location.href = "' + custom_location + " / " + Id'";
-location.reload();
-</script>
-<?php
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";
+        alert("Please fill the description");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
     } elseif (empty($data['timezone'])) {
       ?>
-<script type="text/javascript">
-var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
-Id = "{{ $id }}";
+      <script type="text/javascript">
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        Id = "{{ $id }}";
 
-alert("Please choose the timezone");
-window.location.href = "' + custom_location + " / " + Id'";
-location.reload();
-</script>
-<?php
+        alert("Please choose the timezone");
+        window.location.href = "' + custom_location + " / " + Id'";
+        location.reload();
+      </script>
+      <?php
     } else {
 
       // add secure_token_no for secure save (optional)
@@ -268,13 +269,12 @@ location.reload();
         $completeFileName = $request->file('doc')->getClientOriginalName();
         $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
         $extension = $request->file('doc')->getClientOriginalExtension();
-        $compPic = str_replace(' ', '_', $fileNameOnly).'-'. rand() .'_'.time().'.'.$extension;
+        $compPic = str_replace(' ', '_', $fileNameOnly) . '-' . rand() . '_' . time() . '.' . $extension;
         $path = $request->file('doc')->storeAs('public/assets/img/docs', $compPic);
-        $request->doc = 'docs/'.$compPic;
-    }
-    else {
-      $request->doc = '';
-    }
+        $request->doc = 'docs/' . $compPic;
+      } else {
+        $request->doc = '';
+      }
 
       // $file->move(public_path('uploads/Registration'), $new_name);
 
@@ -315,9 +315,9 @@ location.reload();
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-          'is_booked' => 1,
-          'call_id' => $call['id']
-        ]);
+            'is_booked' => 1,
+            'call_id' => $call['id']
+          ]);
 
       $mentor = User::find($data['mentor']);
       $user = User::find(Auth::id());
@@ -416,7 +416,17 @@ location.reload();
 
   public function saveContact(Request $request)
   {
-    $email = 'ankur.sharma@wiseadvizor.com';
+
+    $request->validate([
+      'firstname' => 'required',
+      'lastname' => 'required',
+      'email' => 'required|email',
+      'mob' => 'required|digits:10|numeric',
+      'message' => 'required',
+      'g-recaptcha-response' => ['required', new ReCaptcha]
+    ]);
+
+    $email = 'info@wiseadvizor.com';
 
     $details = Contact::create([
       'firstname' => $request->firstname,

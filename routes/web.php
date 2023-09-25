@@ -55,6 +55,8 @@ Route::get('/forget-password', [ForgotPasswordController::class, 'showForgetPass
 Route::post('/forgot-password-email', [ForgotPasswordController::class, 'forgotPasswordEmail'])->name('password.email');
 Route::get('/reset-password/{token}', [ForgotPasswordController::class, 'passwordReset'])->name('password.reset');
 Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword'])->name('password.update');
+Route::get('/reload-captcha', [CaptchaServiceController::class, 'reloadCaptcha']);
+
 
 // Route::get('/sign-up', 'signup')->name('sign-up');
 
