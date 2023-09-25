@@ -417,6 +417,7 @@ class HomeController extends Controller
   public function saveContact(Request $request)
   {
 
+    dd($request->all());
     $request->validate([
       'firstname' => 'required',
       'lastname' => 'required',
