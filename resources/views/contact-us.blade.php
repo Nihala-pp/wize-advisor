@@ -2158,9 +2158,9 @@
                                                                 placeholder="Message" required="required"
                                                                 aria-required="true"></textarea>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
+                                                        <div class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
+                                                            <div class="elementor-field" id="form-field-field_6ff1b74">
+                                                                <!-- <div class="elementor-g-recaptcha"> -->
                                                                     <!-- <strong>ReCaptcha:</strong> -->
                                                                     <div class="g-recaptcha"
                                                                         data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
@@ -2169,7 +2169,7 @@
                                                                     <span
                                                                         class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
                                                                     @endif
-                                                                </div>
+                                                                <!-- </div> -->
                                                             </div>
                                                         </div>
                                                         <!-- <div
