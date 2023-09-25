@@ -2181,19 +2181,6 @@
                                                                     data-size="normal"></div>
                                                             </div>
                                                         </div> -->
-                                                        <!-- <div class="form-group mt-4 mb-4">
-                                                            <div class="captcha">
-                                                                <span>{!! captcha_img() !!}</span>
-                                                                <button type="button" class="btn btn-danger"
-                                                                    class="reload" id="reload">
-                                                                    &#x21bb;
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group mb-4">
-                                                            <input id="captcha" type="text" class="form-control"
-                                                                placeholder="Enter Captcha" name="captcha">
-                                                        </div> -->
                                                         <div
                                                             class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                                             <button type="submit"
