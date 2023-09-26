@@ -43,13 +43,17 @@
 
     gtag('config', 'G-1HZW2R3J0M');
     </script>
-    <!-- <style>
-    .selected {
+    <style type="text/css">
+    .timeslot{
+        background-color: #fff;
+        color: #007bff;
+    }
+
+    .active-element {
         background-color: #007bff;
         color: #fff;
     }
-    </style> -->
-    <style type="text/css">
+
     .button:active {
         background-color: #007bff;
         color: #fff;
@@ -2571,6 +2575,14 @@
             // Setup the calendar with the current date
             $(document).ready(function() {
 
+                document
+                    .querySelectorAll('.timeslot')
+                    .forEach((btClickEv, _, buttons) => {
+                        btClickEv.onclick = () =>
+                            buttons.forEach(bt => bt.classList.toggle('active-element', bt ===
+                                btClickEv))
+                    })
+
                 // function doAfterSelectImage(input) {
                 //     console.log(input);
                 //     readURL(input);
@@ -2650,15 +2662,8 @@
                 // }
 
                 $("body").on('click', '.event-card', function(e) {
-
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
-
-                    var elems = document.querySelectorAll(".active");
-                    [].forEach.call(elems, function(el) {
-                        el.classList.remove("active");
-                    });
-                    e.target.className = "active";
                 });
             });
 
@@ -2898,7 +2903,7 @@
                     for (var i = 0; i < events.length; i++) {
 
                         var event_card = $(
-                            "<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card' value=" +
+                            "<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card timeslot' value=" +
                             events[i]["start_time"] +
                             " style='background-color:white;border:solid;border-color:#007bff;  width:75%' required></button>"
                         );
