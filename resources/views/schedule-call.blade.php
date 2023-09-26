@@ -43,6 +43,12 @@
 
     gtag('config', 'G-1HZW2R3J0M');
     </script>
+    <style>
+    .selected {
+        background-color: #007bff;
+        color: #fff;
+    }
+    </style>
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -2643,9 +2649,6 @@
 
                     var btnEl = document.querySelectorAll('.event-card');
 
-                    $(this).css('background-color', '#007bff');
-                    $(this).css('color', '#fff');
-
                     for (var i = 0; i < btnEl.length; i++) {
                         btnEl[i].classList.remove('selected');
                     }
@@ -3079,5 +3082,6 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
+
 
 </html>
