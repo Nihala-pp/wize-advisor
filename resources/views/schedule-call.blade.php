@@ -2649,7 +2649,7 @@
                 });
                 // }
 
-                $("body").on('click', '.event-card', function() {
+                $("body").on('click', '.event-card', function(e) {
 
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
