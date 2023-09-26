@@ -2661,7 +2661,7 @@
                 });
                 // }
 
-                $("body").on('click', '.event-card', function(e) {
+                $("body").on('click', '.event-card', function() {
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
                 });
