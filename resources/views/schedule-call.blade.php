@@ -44,16 +44,10 @@
     gtag('config', 'G-1HZW2R3J0M');
     </script>
     <style type="text/css">
-    .timeslot:active {
+    .current {
         background-color: #007bff !important;
         color: #fff !important;
     }
-
-    /* .active-element {
-        background-color: #007bff;
-        color: #fff;
-    } */
-
     </style>
 
     <style id="wp-block-library-inline-css">
@@ -2571,13 +2565,13 @@
             // Setup the calendar with the current date
             $(document).ready(function() {
 
-                document
-                    .querySelectorAll('.timeslot')
-                    .forEach((btClickEv, _, buttons) => {
-                        btClickEv.onclick = () =>
-                            buttons.forEach(bt => bt.classList.toggle('active-element', bt ===
-                                btClickEv))
-                    })
+                // document
+                //     .querySelectorAll('.timeslot')
+                //     .forEach((btClickEv, _, buttons) => {
+                //         btClickEv.onclick = () =>
+                //             buttons.forEach(bt => bt.classList.toggle('active-element', bt ===
+                //                 btClickEv))
+                //     })
 
                 // function doAfterSelectImage(input) {
                 //     console.log(input);
@@ -2657,9 +2651,28 @@
                 });
                 // }
 
-                $("body").on('click', '.event-card', function() {
+                $("body").on('click', '.event-card', function(e) {
+                    e.preventDefault();
+
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
+
+                    $('.event-card').removeClass("current");
+                    $(this).addClass("current");
+
+                    // var toggle = $(this).data('toggle');
+                    // var value = $(this).val();
+                    // if (toggle && toggle == "1") {
+                    //     $(this).css('background-color', '#007bff');
+                    //     $(this).css('background-color', '#007bff');
+                    //     $('[id$=ListBox2] option[value="' + fired_button + '"]').remove()
+                    //     $(this).data('toggle', '0');
+                    // } else {
+                    //     $(this).css('background-color', '#6FA478');
+                    //     $("[id$=ListBox2]").append('<option value="' + fired_button + '">' + fired_button +
+                    //         '</option>');
+                    //     $(this).data('toggle', '1');
+                    // }
                 });
             });
 
