@@ -43,12 +43,12 @@
 
     gtag('config', 'G-1HZW2R3J0M');
     </script>
-    <style>
+    <!-- <style>
     .selected {
         background-color: #007bff;
         color: #fff;
     }
-    </style>
+    </style> -->
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -2651,8 +2651,12 @@
 
                     for (var i = 0; i < btnEl.length; i++) {
                         btnEl[i].classList.remove('selected');
+                        btnEl[i].css('background-color', '#fff');
+                        btnEl[i].css('color', '#007bff');
                     }
                     elem.classList.add('selected');
+                    elem.classList.css('background-color', '#007bff');
+                    elem.classList.css('color', '#fff');
                     return;
 
                 });
