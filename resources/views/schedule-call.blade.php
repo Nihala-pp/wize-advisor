@@ -45,8 +45,8 @@
     </script>
     <style type="text/css">
     .timeslot:active {
-        background-color: #007bff;
-        color: #fff;
+        background-color: #007bff !important;
+        color: #fff !important;
     }
 
     /* .active-element {
