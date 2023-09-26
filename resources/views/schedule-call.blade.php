@@ -49,6 +49,13 @@
         color: #fff;
     }
     </style> -->
+    <style type="text/css">
+    .button:active {
+        background-color: #007bff;
+        color: #fff;
+    }
+    </style>
+
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -2647,18 +2654,11 @@
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
 
-                    var btnEl = document.querySelectorAll('.event-card');
-
-                    for (var i = 0; i < btnEl.length; i++) {
-                        btnEl[i].classList.remove('active');
-                        // btnEl[i].css('background-color', '#fff');
-                        // btnEl[i].css('color', '#007bff');
-                    }
-                    elem.classList.add('active');
-                    // elem.classList.css('background-color', '#007bff');
-                    // elem.classList.css('color', '#fff');
-                    return;
-
+                    var elems = document.querySelectorAll(".active");
+                    [].forEach.call(elems, function(el) {
+                        el.classList.remove("active");
+                    });
+                    e.target.className = "active";
                 });
             });
 
