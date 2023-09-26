@@ -44,20 +44,16 @@
     gtag('config', 'G-1HZW2R3J0M');
     </script>
     <style type="text/css">
-    .timeslot{
-        background-color: #fff;
-        color: #007bff;
-    }
-
-    .active-element {
+    .timeslot:active {
         background-color: #007bff;
         color: #fff;
     }
 
-    .button:active {
+    /* .active-element {
         background-color: #007bff;
         color: #fff;
-    }
+    } */
+
     </style>
 
     <style id="wp-block-library-inline-css">
