@@ -2565,33 +2565,6 @@
             // Setup the calendar with the current date
             $(document).ready(function() {
 
-                // document
-                //     .querySelectorAll('.timeslot')
-                //     .forEach((btClickEv, _, buttons) => {
-                //         btClickEv.onclick = () =>
-                //             buttons.forEach(bt => bt.classList.toggle('active-element', bt ===
-                //                 btClickEv))
-                //     })
-
-                // function doAfterSelectImage(input) {
-                //     console.log(input);
-                //     readURL(input);
-                //     paynow();
-                // }
-
-                // function readURL(input) {
-                //     if (input.files && input.files[0]) {
-                //         console.log(input.files);
-                //         var reader = new FileReader();
-                //         // reader.onload = function(e) {
-                //         //     $('#image_user').css('background-image', 'url(' + e.target.result + ')');
-                //         // };
-                //         reader.readAsDataURL(input.files[0]);
-                //     }
-                // }
-
-                // $("#customFile").on("change", doAfterSelectImage(this));
-
                 var date = new Date();
                 var today = date.getDate();
                 // Set click handlers for DOM elements
@@ -2659,20 +2632,6 @@
 
                     $('.event-card').removeClass("current");
                     $(this).addClass("current");
-
-                    // var toggle = $(this).data('toggle');
-                    // var value = $(this).val();
-                    // if (toggle && toggle == "1") {
-                    //     $(this).css('background-color', '#007bff');
-                    //     $(this).css('background-color', '#007bff');
-                    //     $('[id$=ListBox2] option[value="' + fired_button + '"]').remove()
-                    //     $(this).data('toggle', '0');
-                    // } else {
-                    //     $(this).css('background-color', '#6FA478');
-                    //     $("[id$=ListBox2]").append('<option value="' + fired_button + '">' + fired_button +
-                    //         '</option>');
-                    //     $(this).data('toggle', '1');
-                    // }
                 });
             });
 
