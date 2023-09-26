@@ -2637,10 +2637,20 @@
                 // }
 
                 $("body").on('click', '.event-card', function() {
+
                     var fired_button = $(this).val();
                     $('body').find('.time').val(fired_button);
+
+                    var btnEl = document.querySelectorAll('.event-card');
+
                     $(this).css('background-color', '#007bff');
                     $(this).css('color', '#fff');
+
+                    for (var i = 0; i < btnEl.length; i++) {
+                        btnEl[i].classList.remove('selected');
+                    }
+                    elem.classList.add('selected');
+                    return;
 
                 });
             });
