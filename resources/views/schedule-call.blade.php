@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
@@ -1543,8 +1545,8 @@
                                     <div class="content w-100">
                                         <div class="calendar-container mb-3">
                                             <div class="timezone">
-                                                <select name="timezone" class="form-control mt-1 timezone" id="timezone"
-                                                    style="width:50%" data-mdb-filter="true" required>
+                                                <select name="timezone" class="form-control mt-1 timezone select2" id="timezone"
+                                                    style="width:50%" required>
                                                     <option value=""><b>Time zone</b></option>
                                                     @foreach($timezone as $zone => $time)
                                                     <option value="{{ $time }}"
@@ -2564,6 +2566,8 @@
         (function($) {
             // Setup the calendar with the current date
             $(document).ready(function() {
+
+                $('.select2').select2();
 
                 var date = new Date();
                 var today = date.getDate();
