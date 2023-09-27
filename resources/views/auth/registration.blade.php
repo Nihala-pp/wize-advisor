@@ -123,7 +123,7 @@
                                         <div class="timezone mb-3">
                                             <label class=""></label></br>
                                             <select name="timezone"
-                                                class="select form-control @error('timezone') is-invalid @enderror"
+                                                class="select2 form-control @error('timezone') is-invalid @enderror"
                                                 required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
@@ -188,6 +188,9 @@
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <script>
+    $('.select2').select2();
     </script>
 </body>
 
