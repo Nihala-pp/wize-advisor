@@ -33,28 +33,28 @@
                                 <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
                                     <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">{{ __('Login') }}
                                     </h4>
-                                    <div class="row mt-3">
-                                        <!-- <div class="col-2 text-center ms-auto"> -->
-                                        <!-- <a class="btn btn-link px-3" href="javascript:;">
+                                    <!-- <div class="row mt-3"> -->
+                                    <!-- <div class="col-2 text-center ms-auto"> -->
+                                    <!-- <a class="btn btn-link px-3" href="javascript:;">
                                             <i class="fa fa-facebook text-white text-lg"></i>
                                              </a> -->
-                                        <!-- </div> -->
-                                        <div class="col-3 text-center ms-auto linkedin">
+                                    <!-- </div> -->
+                                    <!-- <div class="col-3 text-center ms-auto linkedin">
                                             <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
-                                                    class="avatar avatar-sm me-3" alt="linkedin">
+                                                    class="avatar avatar-sm me-3" alt="linkedin"> -->
 
-                                                <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
-                                            </a>
+                                    <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
+                                    <!-- </a>
                                         </div>
                                         <div class="col-3 text-center me-auto google">
                                             <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
                                                 <img src="{{ asset('public/assets/img/google.png') }}"
-                                                    class="avatar avatar-sm me-3" alt="google">
-                                                <!-- <i class="fa fa-google text-white text-lg"></i> -->
-                                            </a>
-                                        </div>
-                                    </div>
+                                                    class="avatar avatar-sm me-3" alt="google"> -->
+                                    <!-- <i class="fa fa-google text-white text-lg"></i> -->
+                                    <!-- </a>
+                                        </div> -->
+                                    <!-- </div> -->
                                 </div>
                             </div>
                             <div class="card-body">
@@ -150,6 +150,7 @@
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 </body>
+
 </html>
 <style>
 .loginForm {

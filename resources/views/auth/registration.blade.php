@@ -38,7 +38,7 @@
                                 <div class="card-header mt-0">
                                     <h4 class="font-weight-bolder">Create Account</h4>
                                     <p class="mb-0">Welcome! Join us and start your journey today.</p>
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col-3 text-center ms-auto">
                                             <a class="btn btn-link px-0" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
@@ -51,7 +51,7 @@
                                                     class="avatar avatar-sm me-1" alt="google">
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="card-body">
                                     <form method="POST" action="{{ route('register.post') }}">
