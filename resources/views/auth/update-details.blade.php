@@ -1440,7 +1440,7 @@
                                 <select name="timezone" class="form-select" data-live-search="true" required>
                                     <option selected>Select Timezone</option>
                                     @foreach($timezone as $zone => $time)
-                                    <option value="{{ $zone }}">{{ $zone }}</option>
+                                    <option value="{{ $time }}">{{ $time }}</option>
                                     @endforeach
                                 </select>
                                 <label class="form-label select-label" for="form6Example7"></label>
