@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      protected $commands = [
         \Commands\AutoCallReminderhourlyMentor::class
      ];
+     
     protected function schedule(Schedule $schedule): void
     {
         $schedule->command('app:auto-call-reminderhourly-user')->cron('5 * * * *');
