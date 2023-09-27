@@ -193,7 +193,7 @@ class HomeController extends Controller
   {
     //  dd(Auth::user()->id);
     $mentor = User::find($id);
-    $timezone = AvailableSchedule::timezones();
+    $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     $nextAvailability = AvailableSchedule::where('mentor_id', $id)
                         ->whereDate('date', '>', now())
                         ->where('is_booked', 0)

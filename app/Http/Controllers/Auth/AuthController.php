@@ -59,7 +59,7 @@ class AuthController extends Controller
             '22' => 'Growth Strategy'
         ];
 
-        $timezone = AvailableSchedule::timezones();
+        $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
 
         return view('auth.registration', compact('expertise', 'token', 'id', 'timezone'));
     }
@@ -214,7 +214,7 @@ class AuthController extends Controller
             '22' => 'Growth Strategy'
         ];
 
-        $timezone = AvailableSchedule::timezones();
+        $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
 
         return view('auth.update-details', compact('id', 'expertise', 'timezone'));
     }
