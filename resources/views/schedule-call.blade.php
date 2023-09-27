@@ -1544,8 +1544,8 @@
                                     <div class="content w-100">
                                         <div class="calendar-container mb-3">
                                             <div class="timezone">
-                                                <select name="timezone" class="form-control mt-1 timezone select2" id="timezone"
-                                                    style="width:50%" required>
+                                                <select name="timezone" class="form-control mt-1 timezone select2"
+                                                    id="timezone" style="width:50%" required>
                                                     <option value=""><b>Time zone</b></option>
                                                     @foreach($timezone as $zone => $time)
                                                     <option value="{{ $time }}"
@@ -2566,9 +2566,6 @@
         (function($) {
             // Setup the calendar with the current date
             $(document).ready(function() {
-
-                $('.select2').select2();
-
                 var date = new Date();
                 var today = date.getDate();
                 // Set click handlers for DOM elements
@@ -3057,6 +3054,11 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
         </script>
+
+        <script>
+        $('.select2').select2();
+        </script>
+        
         <!--End of Tawk.to Script-->
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
         </script> -->
