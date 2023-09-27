@@ -1544,7 +1544,7 @@
                                         <div class="calendar-container mb-3">
                                             <div class="timezone">
                                                 <select name="timezone" class="form-control mt-1 timezone" id="timezone"
-                                                    style="width:50%" required>
+                                                    style="width:50%" data-mdb-filter="true" required>
                                                     <option value=""><b>Time zone</b></option>
                                                     @foreach($timezone as $zone => $time)
                                                     <option value="{{ $time }}"
