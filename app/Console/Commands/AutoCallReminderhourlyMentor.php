@@ -7,6 +7,7 @@ use App\Models\AvailableSchedule;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Mail;
+use Log;
 
 class AutoCallReminderhourlyMentor extends Command
 {
@@ -29,20 +30,22 @@ class AutoCallReminderhourlyMentor extends Command
      */
     public function handle()
     {
-        $calls = AvailableSchedule::where('is_booked', 1)
-            ->whereMonth('date', date('m'))
-            ->whereDay('date', date('d'))
-            ->get();
 
-        if ($calls->count() > 0) {
-            foreach ($calls as $call) {
-                if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
+        Log::info("Every minute cron job testing");
+        // $calls = AvailableSchedule::where('is_booked', 1)
+        //     ->whereMonth('date', date('m'))
+        //     ->whereDay('date', date('d'))
+        //     ->get();
+
+        // if ($calls->count() > 0) {
+        //     foreach ($calls as $call) {
+        //         if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
                     
-                    Mail::to($call->user->email)->send(new callReminder($call));                  
-                }
-            }
-        }
+        //             Mail::to($call->user->email)->send(new callReminder($call));                  
+        //         }
+        //     }
+        // }
 
-        return 0;
+        // return 0;
     }
 }

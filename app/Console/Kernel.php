@@ -10,10 +10,14 @@ class Kernel extends ConsoleKernel
     /**
      * Define the application's command schedule.
      */
+
+     protected $commands = [
+        \Commands\AutoCallReminderhourlyMentor::class
+     ];
     protected function schedule(Schedule $schedule): void
     {
         $schedule->command('app:auto-call-reminderhourly-user')->cron('5 * * * *');
-        $schedule->command('app:auto-call-reminderhourly-mentor')->cron('5 * * * *');
+        $schedule->command('app:auto-call-reminderhourly-mentor')->everyMinute();
     }
 
     /**
