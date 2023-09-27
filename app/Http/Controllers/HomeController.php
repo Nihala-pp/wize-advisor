@@ -511,7 +511,7 @@ class HomeController extends Controller
 
   public function test()
   {
-    $tzlist = \DateTimeZone::listIdentifiers(DateTimeZone::ALL);
+    $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     dd($tzlist);
     $password = Hash::make('Yousuf@123!');
     // dd($password);
