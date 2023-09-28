@@ -13,6 +13,7 @@ class Kernel extends ConsoleKernel
 
      protected $commands = [
         Commands\AutoCallReminderhourlyMentor::class,
+        Commands\AutoCallReminderhourlyUser::class,
      ];
      
     protected function schedule(Schedule $schedule): void
