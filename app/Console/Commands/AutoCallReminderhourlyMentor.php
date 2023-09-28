@@ -31,9 +31,6 @@ class AutoCallReminderhourlyMentor extends Command
      */
     public function handle()
     {
-        $user = User::find(142);
-        $call = AvailableSchedule::find(238);
-        Mail::to($user->email)->send(new callReminder($call));
         $calls = AvailableSchedule::where('is_booked', 1)
             ->whereMonth('date', date('m'))
             ->whereDay('date', date('d'))
