@@ -2798,29 +2798,35 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-9905fba elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="9905fba" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="testimonial-box m-0 h-100">
-                                    <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
-                                        alt="" class="quote-icon" />
-                                    <p>
-                                        "I have to hand it to a company that goes above and beyond with their customer
-                                        service... your team is a notch above anything I've experienced. Great software,
-                                        great support - what else can you ask for?"
-                                    </p>
-                                    <div class="user-box">
-                                        <img class="lazy-loading"
-                                            src="https://www.sociablekit.com/sociablekit-template/images/loading.gif"
-                                            data-src="https://www.sociablekit.com/tutorials/resources/images/reviewers/yannick_picard.jpg"
-                                            alt="" />
-                                        <div>
-                                            <h4>Yannick Picard</h4>
-                                            <span>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </span>
+                            <div class="testimonial-block">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="testimonial-box m-0 h-100">
+                                            <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
+                                                alt="" class="quote-icon" />
+                                            <p>
+                                                "I have to hand it to a company that goes above and beyond with their
+                                                customer
+                                                service... your team is a notch above anything I've experienced. Great
+                                                software,
+                                                great support - what else can you ask for?"
+                                            </p>
+                                            <div class="user-box">
+                                                <img class="lazy-loading"
+                                                    src="https://www.sociablekit.com/sociablekit-template/images/loading.gif"
+                                                    data-src="https://www.sociablekit.com/tutorials/resources/images/reviewers/yannick_picard.jpg"
+                                                    alt="" />
+                                                <div>
+                                                    <h4>Yannick Picard</h4>
+                                                    <span>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
