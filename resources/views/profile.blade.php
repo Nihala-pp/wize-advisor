@@ -2880,8 +2880,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    @endforeach
                                 </div>
+                                @endforeach
                             </div>
                         </section>
                     </div>
