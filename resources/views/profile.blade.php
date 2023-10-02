@@ -2797,27 +2797,29 @@
                         <section class="main-data-wrp">
                             <div class="testimonial-block">
                                 <div class="row">
+                                    @foreach($reviews as $review)
                                     <div class="col-lg-4 col-md-6 mb-4">
                                         <div class="card">
                                             <div class="testimonial-box m-0 h-100">
                                                 <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
                                                     alt="" class="quote-icon" />
                                                 <p>
-                                                    "I have to hand it to a company that goes above and beyond with
-                                                    their
-                                                    customer
-                                                    service... your team is a notch above anything I've experienced.
-                                                    Great
-                                                    software,
-                                                    great support - what else can you ask for?"
+                                                    {{ $review->review }}
                                                 </p>
                                                 <div class="user-box">
+                                                    @if ($review->user->metaData->profile_pic)
                                                     <img class="lazy-loading"
-                                                        src="https://www.sociablekit.com/sociablekit-template/images/loading.gif"
-                                                        data-src="https://www.sociablekit.com/tutorials/resources/images/reviewers/yannick_picard.jpg"
+                                                        src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                        data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                         alt="" />
+                                                    @else
+                                                    <img class="lazy-loading"
+                                                        src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        data-src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        alt="" />
+                                                    @endif
                                                     <div>
-                                                        <h4>Yannick Picard</h4>
+                                                        <h4>{{ $review->user->name }}</h4>
                                                         <span>
                                                             <i class="fas fa-star"></i>
                                                             <i class="fas fa-star"></i>
@@ -2830,6 +2832,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @endforeach
                                 </div>
                             </div>
                             <!-- <div class="elementor-background-overlay"></div>
