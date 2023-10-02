@@ -2803,7 +2803,6 @@
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     @foreach($reviews as $review)
                                     <div class="elementor-background-overlay"></div>
-                                    <div class="row">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
                                                 data-id="642ada1" data-element_type="widget"
