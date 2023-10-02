@@ -2758,8 +2758,8 @@
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
                 var new_month = $(".month").index(this);
-                date.setMonth(new_month);
-                console.log(date);
+                var da = date.setMonth(new_month);
+                console.log(da);
                 init_calendar(date);
             }
 
