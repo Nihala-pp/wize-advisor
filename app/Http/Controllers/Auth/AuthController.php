@@ -126,7 +126,7 @@ class AuthController extends Controller
         Mail::to($request->email)->send(new WelcomeEmailUser($data));
 
         if (!($request->token == "Null")) {
-            return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
+            return redirect()->route('schedule-call', [$request->mentor_id, $request->email])->withSuccess('You have Successfully loggedin');
         } else {
             if (Auth::attempt($credentials)) {
 

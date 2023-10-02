@@ -189,7 +189,7 @@ class HomeController extends Controller
     echo ("Request Submitted Succcessfully");
   }
 
-  public function scheduleCall($id)
+  public function scheduleCall($id, $email = null)
   {
     //  dd(Auth::user()->id);
     $mentor = User::find($id);
@@ -199,8 +199,9 @@ class HomeController extends Controller
                         ->where('is_booked', 0)
                         ->first();
 
-    dd(Auth::user());               
-    if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
+    $user = User::find($email);
+
+    if ($user->role_id == 3 && $user->metaData) {
       return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
     } else {
       return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
