@@ -2798,10 +2798,10 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="6f5a20e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                @foreach($reviews as $review)
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-035a934"
                                     data-id="035a934" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    @foreach($reviews as $review)
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
                                         <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
@@ -2880,8 +2880,8 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @endforeach
                                 </div>
-                                @endforeach
                                 <!-- <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c6408f"
                                     data-id="1c6408f" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
