@@ -2760,7 +2760,7 @@
                 var new_month = $(".month").index(this);
                 var da = date.setMonth(new_month);
                 console.log(da);
-                init_calendar(da);
+                init_calendar(date);
             }
 
             // Event handler for when the year right-button is clicked
