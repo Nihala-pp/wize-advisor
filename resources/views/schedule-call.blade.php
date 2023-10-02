@@ -2638,7 +2638,7 @@
 
             // Initialize the calendar by appending the HTML dates
             function init_calendar(date) {
-                CONSOLE.LOG(date);
+                console.log(date);
                 $(".tbody").empty();
                 $(".events-container").empty();
                 var calendar_days = $(".tbody");
