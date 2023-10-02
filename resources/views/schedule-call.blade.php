@@ -2758,7 +2758,7 @@
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
                 var new_month = $(".month").index(this);
-                  date.setMonth(new_month);
+                date.setMonth(new_month);
                 console.log(date.setMonth(new_month));
                 init_calendar(date);
             }
@@ -3065,4 +3065,5 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
+
 </html>
