@@ -2803,83 +2803,85 @@
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-background-overlay"></div>
                                     @foreach($reviews as $review)
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
-                                            data-id="642ada1" data-element_type="widget"
-                                            data-widget_type="icon.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-icon-wrapper">
-                                                    <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="fas fa-quote-left"></i>
+                                    <div class="row">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
+                                                data-id="642ada1" data-element_type="widget"
+                                                data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <i aria-hidden="true" class="fas fa-quote-left"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
-                                            data-id="b5670d9" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container" style="margin-bottom:10px;">
-                                                @if ($review->user->metaData->profile_pic)
-                                                <img decoding="async" width="336" height="336"
-                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
-                                                    class="attachment-large size-large wp-image-2460" alt=""
-                                                    srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 450w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 700w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 650w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 1300w"
-                                                    sizes="(max-width: 336px) 100vw, 336px">
-                                                @else
-                                                <img decoding="async" width="336" height="336"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="attachment-large size-large wp-image-2460" alt=""
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w, {{ asset('public/assets/img/blank-profile-picture.png') }} 450w, {{ asset('public/assets/img/blank-profile-picture.png') }} 700w, {{ asset('public/assets/img/blank-profile-picture.png') }} 650w, {{ asset('public/assets/img/blank-profile-picture.png') }} 1300w"
-                                                    sizes="(max-width: 336px) 100vw, 336px">
+                                            <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
+                                                data-id="b5670d9" data-element_type="widget"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container" style="margin-bottom:10px;">
+                                                    @if ($review->user->metaData->profile_pic)
+                                                    <img decoding="async" width="336" height="336"
+                                                        src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                        class="attachment-large size-large wp-image-2460" alt=""
+                                                        srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 450w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 700w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 650w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 1300w"
+                                                        sizes="(max-width: 336px) 100vw, 336px">
+                                                    @else
+                                                    <img decoding="async" width="336" height="336"
+                                                        src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        class="attachment-large size-large wp-image-2460" alt=""
+                                                        srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w, {{ asset('public/assets/img/blank-profile-picture.png') }} 450w, {{ asset('public/assets/img/blank-profile-picture.png') }} 700w, {{ asset('public/assets/img/blank-profile-picture.png') }} 650w, {{ asset('public/assets/img/blank-profile-picture.png') }} 1300w"
+                                                        sizes="(max-width: 336px) 100vw, 336px">
+                                                </div>
+                                                @endif
                                             </div>
-                                            @endif
-                                        </div>
-                                        <div class="elementor-element elementor-element-91d36c6 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
-                                            data-id="91d36c6" data-element_type="widget"
-                                            data-widget_type="star-rating.default">
-                                            <div class="elementor-widget-container">
+                                            <div class="elementor-element elementor-element-91d36c6 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
+                                                data-id="91d36c6" data-element_type="widget"
+                                                data-widget_type="star-rating.default">
+                                                <div class="elementor-widget-container">
 
-                                                <div class="elementor-star-rating__wrapper">
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i>
-                                                        <span itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
+                                                    <div class="elementor-star-rating__wrapper">
+                                                        <div class="elementor-star-rating" title="5/5"
+                                                            itemtype="http://schema.org/Rating" itemscope=""
+                                                            itemprop="reviewRating">
+                                                            <i class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i>
+                                                            <span itemprop="ratingValue"
+                                                                class="elementor-screen-only">5/5</span>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
-                                            data-id="e1a5c8d" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>{{ $review->review }} </p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="80f799d" data-element_type="widget"
-                                            data-widget_type="divider.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-divider">
-                                                    <span class="elementor-divider-separator">
-                                                    </span>
+                                            <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
+                                                data-id="e1a5c8d" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>{{ $review->review }} </p>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-75927c9 elementor-widget elementor-widget-heading"
-                                            data-id="75927c9" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <span
-                                                    class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
+                                            <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                data-id="80f799d" data-element_type="widget"
+                                                data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <div class="elementor-element elementor-element-75927c9 elementor-widget elementor-widget-heading"
+                                                data-id="75927c9" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <span
+                                                        class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
+                                                </div>
+                                            </div>
+                                            @endforeach
                                         </div>
-                                        @endforeach
                                     </div>
                                 </div>
                             </div>
