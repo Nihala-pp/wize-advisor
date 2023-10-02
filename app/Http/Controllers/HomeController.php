@@ -204,7 +204,7 @@ class HomeController extends Controller
     if ($user->role_id == 3 && $user->metaData) {
       return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
     } else {
-      return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
+      return redirect()->route('user.personalInfo', [$user->id])->withSuccess('You have Successfully loggedin');
     }
   }
 
