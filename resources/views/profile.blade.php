@@ -2811,7 +2811,7 @@
                                                     <img class="lazy-loading"
                                                         src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                         data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
-                                                        alt="" />
+                                                        alt="" height="40px;" width="40px;">
                                                     @else
                                                     <img class="lazy-loading"
                                                         src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
