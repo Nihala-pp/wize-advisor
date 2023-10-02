@@ -2666,7 +2666,7 @@
                         row.append(curr_date);
                     } else {
                         var curr_date = $("<td class='table-date'>" + day + "</td>");
-                        var events = check_events(day, month, year);
+                        var events = check_events(day, month + 1, year);
                         if (today === day && $(".active-date").length === 0) {
                             curr_date.addClass("active-date");
                             show_events(events, months[month], day);
@@ -2758,6 +2758,7 @@
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
                 var new_month = $(".month").index(this);
+                console.log(new_month);
                 date.setMonth(new_month);
                 init_calendar(date);
             }
