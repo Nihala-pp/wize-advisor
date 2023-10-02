@@ -4491,11 +4491,6 @@
     overflow: hidden; 
 }
 
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
 .fee {
     padding-top:20px;
     padding-bottom:20px;
