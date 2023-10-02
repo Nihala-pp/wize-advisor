@@ -189,23 +189,21 @@ class HomeController extends Controller
     echo ("Request Submitted Succcessfully");
   }
 
-  public function scheduleCall($id, $email)
+  public function scheduleCall($id)
   {
     //  dd(Auth::user()->id);
     $mentor = User::find($id);
     $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     $nextAvailability = AvailableSchedule::where('mentor_id', $id)
-                        ->whereDate('date', '>', now())
-                        ->where('is_booked', 0)
-                        ->first();
+      ->whereDate('date', '>', now())
+      ->where('is_booked', 0)
+      ->first();
 
-    $user = User::find($email);
+    // $user = User::find($email);
 
-    if ($user->role_id == 3 && $user->metaData) {
-      return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
-    } else {
-      return redirect()->route('user.personalInfo', [$user->id])->withSuccess('You have Successfully loggedin');
-    }
+    // if ($user->role_id == 3 && $user->metaData) {
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
+    // } 
   }
 
   public function addScheduleRequest(Request $request)
@@ -321,9 +319,9 @@ class HomeController extends Controller
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-            'is_booked' => 1,
-            'call_id' => $call['id']
-          ]);
+          'is_booked' => 1,
+          'call_id' => $call['id']
+        ]);
 
       $mentor = User::find($data['mentor']);
       $user = User::find(Auth::id());

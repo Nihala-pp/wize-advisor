@@ -73,7 +73,7 @@ Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-ment
 Route::get('blogs', [HomeController::class, 'blogs'])->name('blogs');
 Route::get('faq', [HomeController::class, 'faq'])->name('faq');
 Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
-Route::get('schedule-call/{id?}/{email?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
+Route::get('schedule-call/{id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
 Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
 Route::get('getDateAvailability', [HomeController::class, 'getDateAvailability'])->name('getDateAvailability');
