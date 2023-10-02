@@ -112,7 +112,8 @@ class AuthController extends Controller
             'email' => 'required|email|unique:users',
             'password' => [
                 'required',
-                'confirmed', Password::min(8)
+                'confirmed',
+                Password::min(8)
                     ->letters()
                     ->mixedCase()
                     ->numbers()
@@ -125,13 +126,13 @@ class AuthController extends Controller
 
         Mail::to($request->email)->send(new WelcomeEmailUser($data));
 
-        if (!($request->token == "Null")) {
-            return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
-        } else {
-            if (Auth::attempt($credentials)) {
+        if (Auth::attempt($credentials)) {
 
-                $request->session()->regenerate();
+            $request->session()->regenerate();
 
+            if (!($request->token == "Null")) {
+                return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
+            } else {
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
             }
         }
@@ -225,7 +226,7 @@ class AuthController extends Controller
         $newuser = User::find($request->user_id);
 
         UserMeta::create([
-            'user_id' =>  $newuser->id,
+            'user_id' => $newuser->id,
             'company' => $request->company_name,
             'designation' => $request->designation,
             'expertise' => json_encode($request->expert),
