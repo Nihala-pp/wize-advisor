@@ -2879,9 +2879,9 @@
                                                     class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                             </div>
                                         </div>
+                                        @endforeach
                                     </div>
                                 </div>
-                                @endforeach
                             </div>
                         </section>
                     </div>
