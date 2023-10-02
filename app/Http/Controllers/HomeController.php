@@ -189,7 +189,7 @@ class HomeController extends Controller
     echo ("Request Submitted Succcessfully");
   }
 
-  public function scheduleCall($id, $email = null)
+  public function scheduleCall($id, $email)
   {
     //  dd(Auth::user()->id);
     $mentor = User::find($id);
