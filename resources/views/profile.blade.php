@@ -2795,9 +2795,8 @@
                             </div>
                         </div>
                         <section class="main-data-wrp">
-                            <div class="container h-100">
                                 <div class="testimonial-block">
-                                    <div class="row">
+                                    <div class="row feedback">
                                         @foreach($reviews as $review)
                                         <div class="col-lg-4 col-md-6 mb-4">
                                             <div class="card">
@@ -2836,7 +2835,6 @@
                                         @endforeach
                                     </div>
                                 </div>
-                            </div>
                             <!-- <div class="elementor-background-overlay"></div>
                             <div class="elementor-container elementor-column-gap-no">
                                 @foreach($reviews as $review)
@@ -4487,5 +4485,14 @@
     color: #ff7020;
     display: flex;
     align-items: center;
+}
+
+.feedback{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 </style>
