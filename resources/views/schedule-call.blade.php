@@ -2760,7 +2760,6 @@
                 $(this).addClass("active-month");
                 var new_month = $(".month").index(this);
                 date.setMonth(new_month);
-                console.log(event);
                 init_calendar(date);
             }
 
