@@ -2798,242 +2798,240 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="6f5a20e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                    @foreach($reviews as $review)
-                                    <div class="col-md-4">
-                                    <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-035a934"
+                                <div class="row align-self-center mx-auto">
+                                    <div class="card-deck">
+                                        @foreach($reviews as $review)
+                                        <div class="col-md-4">
+                                            <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-035a934"
                                         data-id="035a934" data-element_type="column"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> -->
-                                        <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
-                                                data-id="642ada1" data-element_type="widget"
-                                                data-widget_type="icon.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-icon-wrapper">
-                                                        <div class="elementor-icon">
-                                                            <i aria-hidden="true" class="fas fa-quote-left"></i>
+                                            <div class="elementor-background-overlay"></div>
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
+                                                    data-id="642ada1" data-element_type="widget"
+                                                    data-widget_type="icon.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-icon-wrapper">
+                                                            <div class="elementor-icon">
+                                                                <i aria-hidden="true" class="fas fa-quote-left"></i>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
-                                                data-id="b5670d9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container" style="margin-bottom:10px;">
-                                                    @if ($review->user->metaData->profile_pic)
-                                                    <img decoding="async" width="336" height="336"
-                                                        src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
-                                                        class="attachment-large size-large wp-image-2460" alt=""
-                                                        srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 450w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 700w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 650w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 1300w"
-                                                        sizes="(max-width: 336px) 100vw, 336px">
-                                                    @else
-                                                    <img decoding="async" width="336" height="336"
-                                                        src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        class="attachment-large size-large wp-image-2460" alt=""
-                                                        srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w, {{ asset('public/assets/img/blank-profile-picture.png') }} 450w, {{ asset('public/assets/img/blank-profile-picture.png') }} 700w, {{ asset('public/assets/img/blank-profile-picture.png') }} 650w, {{ asset('public/assets/img/blank-profile-picture.png') }} 1300w"
-                                                        sizes="(max-width: 336px) 100vw, 336px">
+                                                <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
+                                                    data-id="b5670d9" data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div class="elementor-widget-container" style="margin-bottom:10px;">
+                                                        @if ($review->user->metaData->profile_pic)
+                                                        <img decoding="async" width="336" height="336"
+                                                            src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                            class="attachment-large size-large wp-image-2460" alt=""
+                                                            srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 450w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 700w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 650w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 1300w"
+                                                            sizes="(max-width: 336px) 100vw, 336px">
+                                                        @else
+                                                        <img decoding="async" width="336" height="336"
+                                                            src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                            class="attachment-large size-large wp-image-2460" alt=""
+                                                            srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w, {{ asset('public/assets/img/blank-profile-picture.png') }} 450w, {{ asset('public/assets/img/blank-profile-picture.png') }} 700w, {{ asset('public/assets/img/blank-profile-picture.png') }} 650w, {{ asset('public/assets/img/blank-profile-picture.png') }} 1300w"
+                                                            sizes="(max-width: 336px) 100vw, 336px">
+                                                    </div>
+                                                    @endif
                                                 </div>
-                                                @endif
-                                            </div>
-                                            <div class="elementor-element elementor-element-91d36c6 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
-                                                data-id="91d36c6" data-element_type="widget"
-                                                data-widget_type="star-rating.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-star-rating__wrapper">
-                                                        <div class="elementor-star-rating" title="5/5"
-                                                            itemtype="http://schema.org/Rating" itemscope=""
-                                                            itemprop="reviewRating">
-                                                            <i class="elementor-star-full">&#xE934;</i><i
-                                                                class="elementor-star-full">&#xE934;</i><i
-                                                                class="elementor-star-full">&#xE934;</i><i
-                                                                class="elementor-star-full">&#xE934;</i><i
-                                                                class="elementor-star-full">&#xE934;</i>
-                                                            <span itemprop="ratingValue"
-                                                                class="elementor-screen-only">5/5</span>
+                                                <div class="elementor-element elementor-element-91d36c6 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
+                                                    data-id="91d36c6" data-element_type="widget"
+                                                    data-widget_type="star-rating.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-star-rating__wrapper">
+                                                            <div class="elementor-star-rating" title="5/5"
+                                                                itemtype="http://schema.org/Rating" itemscope=""
+                                                                itemprop="reviewRating">
+                                                                <i class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i>
+                                                                <span itemprop="ratingValue"
+                                                                    class="elementor-screen-only">5/5</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
-                                                data-id="e1a5c8d" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p>{{ $review->review }} </p>
+                                                <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
+                                                    data-id="e1a5c8d" data-element_type="widget"
+                                                    data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p>{{ $review->review }} </p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                                data-id="80f799d" data-element_type="widget"
-                                                data-widget_type="divider.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-divider">
-                                                        <span class="elementor-divider-separator">
-                                                        </span>
+                                                <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                    data-id="80f799d" data-element_type="widget"
+                                                    data-widget_type="divider.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-divider">
+                                                            <span class="elementor-divider-separator">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-75927c9 elementor-widget elementor-widget-heading"
+                                                    data-id="75927c9" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <span
+                                                            class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-75927c9 elementor-widget elementor-widget-heading"
-                                                data-id="75927c9" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <span
-                                                        class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
-                                                </div>
-                                            </div>
                                         </div>
-                                    </div>
-                                    @endforeach
+                                        @endforeach
                                     </div>
                                 </div>
-                        </section>
+                            </div>
                     </div>
-                </div>
-            </div>
         </section>
-        @if(!empty($data->metaData->achievements))
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-de2b30f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="de2b30f" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e2918a"
-                    data-id="5e2918a" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-da8e50b elementor-widget elementor-widget-heading"
-                            data-id="da8e50b" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Featured
-                                    In</h3>
+    </div>
+    </div>
+    </div>
+    </section>
+    @if(!empty($data->metaData->achievements))
+    <section
+        class="elementor-section elementor-top-section elementor-element elementor-element-de2b30f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+        data-id="de2b30f" data-element_type="section"
+        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-no">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e2918a"
+                data-id="5e2918a" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-da8e50b elementor-widget elementor-widget-heading"
+                        data-id="da8e50b" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h3 class="elementor-heading-title elementor-size-default">Featured
+                                In</h3>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-a5f40c4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                        data-id="a5f40c4" data-element_type="widget" data-widget_type="divider.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-divider">
+                                <span class="elementor-divider-separator">
+                                </span>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-a5f40c4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                            data-id="a5f40c4" data-element_type="widget" data-widget_type="divider.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-divider">
-                                    <span class="elementor-divider-separator">
-                                    </span>
+                    </div>
+                    <section
+                        class="elementor-section elementor-inner-section elementor-element elementor-element-148904d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="148904d" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f773da8"
+                                data-id="f773da8" data-element_type="column"
+                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-background-overlay"></div>
+                                    <div class="elementor-element elementor-element-2301d67 elementor-widget elementor-widget-heading"
+                                        data-id="2301d67" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <p class="elementor-heading-title elementor-size-default">
+                                                <a
+                                                    href="https://baladnaelyoum.com/news/603318">https://baladnaelyoum.com/news/603318</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-42fc597 elementor-widget elementor-widget-heading"
+                                        data-id="42fc597" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <p class="elementor-heading-title elementor-size-default">
+                                                <a
+                                                    href="https://ahlmasrnews.com/904242">https://ahlmasrnews.com/904242</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-762b12c elementor-widget elementor-widget-heading"
+                                        data-id="762b12c" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <p class="elementor-heading-title elementor-size-default">
+                                                <a
+                                                    href="https://alnaasher.com/archives/83532">https://alnaasher.com/archives/83532</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-aad76ca elementor-widget elementor-widget-heading"
+                                        data-id="aad76ca" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <p class="elementor-heading-title elementor-size-default">
+                                                <a
+                                                    href="https://www.sada-elarab.com/166309">https://www.sada-elarab.com/166309</a>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-148904d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="148904d" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f773da8"
-                                    data-id="f773da8" data-element_type="column"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-2301d67 elementor-widget elementor-widget-heading"
-                                            data-id="2301d67" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    <a
-                                                        href="https://baladnaelyoum.com/news/603318">https://baladnaelyoum.com/news/603318</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-42fc597 elementor-widget elementor-widget-heading"
-                                            data-id="42fc597" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    <a
-                                                        href="https://ahlmasrnews.com/904242">https://ahlmasrnews.com/904242</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-762b12c elementor-widget elementor-widget-heading"
-                                            data-id="762b12c" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    <a
-                                                        href="https://alnaasher.com/archives/83532">https://alnaasher.com/archives/83532</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-aad76ca elementor-widget elementor-widget-heading"
-                                            data-id="aad76ca" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    <a
-                                                        href="https://www.sada-elarab.com/166309">https://www.sada-elarab.com/166309</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </section>
-        @endif
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-o8fq3al elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="o8fq3al" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c1cfa93"
-                    data-id="c1cfa93" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-20527eb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="20527eb" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-no">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-be4a5eb"
-                                    data-id="be4a5eb" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-1d73ff0 elementor-widget elementor-widget-heading"
-                                            data-id="1d73ff0" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h3 class="elementor-heading-title elementor-size-default">
-                                                    Stay In Touch
-                                                </h3>
-                                            </div>
+        </div>
+    </section>
+    @endif
+    <section
+        class="elementor-section elementor-top-section elementor-element elementor-element-o8fq3al elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+        data-id="o8fq3al" data-element_type="section"
+        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-no">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c1cfa93"
+                data-id="c1cfa93" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <section
+                        class="elementor-section elementor-inner-section elementor-element elementor-element-20527eb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="20527eb" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-be4a5eb"
+                                data-id="be4a5eb" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div class="elementor-element elementor-element-1d73ff0 elementor-widget elementor-widget-heading"
+                                        data-id="1d73ff0" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h3 class="elementor-heading-title elementor-size-default">
+                                                Stay In Touch
+                                            </h3>
                                         </div>
-                                        <div class="elementor-element elementor-element-f18deea elementor-widget elementor-widget-text-editor"
-                                            data-id="f18deea" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit. Ut elit tellus,
-                                                luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-f18deea elementor-widget elementor-widget-text-editor"
+                                        data-id="f18deea" data-element_type="widget"
+                                        data-widget_type="text-editor.default">
+                                        <div class="elementor-widget-container">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Ut elit tellus,
+                                            luctus nec ullamcorper mattis, pulvinar dapibus leo.
                                         </div>
-                                        <div class="elementor-element elementor-element-b43ec61 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="b43ec61" data-element_type="widget"
-                                            data-widget_type="divider.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-divider">
-                                                    <span class="elementor-divider-separator">
-                                                    </span>
-                                                </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-b43ec61 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                        data-id="b43ec61" data-element_type="widget" data-widget_type="divider.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-divider">
+                                                <span class="elementor-divider-separator">
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-e0b13ad elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="e0b13ad" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e79cd86"
-                                    data-id="e79cd86" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
+                        </div>
+                    </section>
+                    <section
+                        class="elementor-section elementor-inner-section elementor-element elementor-element-e0b13ad elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="e0b13ad" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e79cd86"
+                                data-id="e79cd86" data-element_type="column">
+                                <div class="elementor-widget-wrap">
                                 </div>
                             </div>
-                        </section>
-                    </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
