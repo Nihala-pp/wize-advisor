@@ -2795,44 +2795,46 @@
                             </div>
                         </div>
                         <section class="main-data-wrp">
-                            <div class="testimonial-block">
-                                <div class="row">
-                                    @foreach($reviews as $review)
-                                    <div class="col-lg-4 col-md-6 mb-4">
-                                        <div class="card">
-                                            <div class="testimonial-box m-0 h-100">
-                                                <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
-                                                    alt="" class="quote-icon" />
-                                                <p>
-                                                    {{ $review->review }}
-                                                </p>
-                                                <div class="user-box">
-                                                    @if ($review->user->metaData->profile_pic)
-                                                    <img class="lazy-loading"
-                                                        src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
-                                                        data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
-                                                        alt="" height="40px;" width="40px;">
-                                                    @else
-                                                    <img class="lazy-loading"
-                                                        src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        data-src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        alt="" />
-                                                    @endif
-                                                    <div>
-                                                        <h4>{{ $review->user->name }}</h4>
-                                                        <span>
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i>
-                                                            <i class="fas fa-star"></i>
-                                                        </span>
+                            <div class="container h-100">
+                                <div class="testimonial-block">
+                                    <div class="row">
+                                        @foreach($reviews as $review)
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card">
+                                                <div class="testimonial-box m-0 h-100">
+                                                    <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
+                                                        alt="" class="quote-icon" />
+                                                    <p>
+                                                        {{ $review->review }}
+                                                    </p>
+                                                    <div class="user-box">
+                                                        @if ($review->user->metaData->profile_pic)
+                                                        <img class="lazy-loading"
+                                                            src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                            data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                            alt="" height="40px;" width="40px;">
+                                                        @else
+                                                        <img class="lazy-loading"
+                                                            src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                            data-src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                            alt="" />
+                                                        @endif
+                                                        <div>
+                                                            <h4>{{ $review->user->name }}</h4>
+                                                            <span>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        @endforeach
                                     </div>
-                                    @endforeach
                                 </div>
                             </div>
                             <!-- <div class="elementor-background-overlay"></div>
