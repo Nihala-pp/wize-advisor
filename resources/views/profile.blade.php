@@ -2798,11 +2798,11 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="6f5a20e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
+                                @foreach($reviews as $review)
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-035a934"
                                     data-id="035a934" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-background-overlay"></div>
-                                    @foreach($reviews as $review)
                                     <div class="row">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
@@ -2880,10 +2880,10 @@
                                                         class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                                 </div>
                                             </div>
-                                            @endforeach
                                         </div>
                                     </div>
                                 </div>
+                                @endforeach
                             </div>
                         </section>
                     </div>
