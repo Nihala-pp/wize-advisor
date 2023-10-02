@@ -2798,7 +2798,7 @@
                                 <div class="testimonial-block">
                                     <div class="row feedback">
                                         @foreach($reviews as $review)
-                                        <div class="card">
+                                        <div class="card fee">
                                         <div class="col-lg-4 col-md-6 mb-4">
                                                 <div class="testimonial-box m-0 h-100">
                                                     <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
@@ -4494,5 +4494,12 @@
 [class*="col-"]{
     margin-bottom: -99999px;
     padding-bottom: 99999px;
+}
+
+.fee {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
 }
 </style>
