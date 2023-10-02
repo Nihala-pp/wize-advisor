@@ -199,7 +199,7 @@ class HomeController extends Controller
                         ->where('is_booked', 0)
                         ->first();
 
-    dd(auth()->user()               
+    dd(auth()->user());               
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
       return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
     } else {
