@@ -2666,7 +2666,7 @@
                         row.append(curr_date);
                     } else {
                         var curr_date = $("<td class='table-date'>" + day + "</td>");
-                        var events = check_events(day, month + 1, year);
+                        var events = check_events(day, month, year);
                         if (today === day && $(".active-date").length === 0) {
                             curr_date.addClass("active-date");
                             show_events(events, months[month], day);
@@ -3054,7 +3054,6 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
         </script>
-
         <script>
         $('.select2').select2();
         </script>
@@ -3065,5 +3064,4 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
-
 </html>
