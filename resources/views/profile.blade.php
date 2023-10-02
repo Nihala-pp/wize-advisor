@@ -2801,9 +2801,9 @@
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-035a934"
                                     data-id="035a934" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-background-overlay"></div>
+                                    @foreach($reviews as $review)
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        @foreach($reviews as $review)
-                                        <div class="elementor-background-overlay"></div>
                                         <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
                                             data-id="642ada1" data-element_type="widget"
                                             data-widget_type="icon.default">
@@ -2879,8 +2879,8 @@
                                                     class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                             </div>
                                         </div>
-                                        @endforeach
                                     </div>
+                                    @endforeach
                                 </div>
                             </div>
                         </section>
