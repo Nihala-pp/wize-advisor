@@ -4315,3 +4315,22 @@
 </body>
 
 </html>
+<style>
+.main-data-wrp p a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.main-data-wrp a:hover {
+    color: #3153C6;
+}
+
+.main-data-wrp ul li,
+.main-data-wrp ol li {
+	margin: 0 0 16px 0;
+}
+
+.main-data-wrp{
+	padding: 80px 0;
+}
+</style>
