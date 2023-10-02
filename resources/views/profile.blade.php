@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<htm llang="en-US">
+<html lang="en-US">
 
 <head>
-     <eta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Profile &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <cript>
+    <script>
     var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
     var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
-     vr theplus_nonce = "cbe4e9be63"
+    var theplus_nonce = "cbe4e9be63";
     </script>
     <meta name="robots" content="max-image-preview:large">
-     <ink rel="dns-prefetch" href="//fonts.gogleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
-     <ink rel="alternate" type="application/rss+xml" itle="wiseAdvizor &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-     <ink href="https://cdnjs.cloudflare.com/aax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-     <ink href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <style>
     /*! elementor - v3.14.0 - 26-06-2023 */
-     .lementor-widget-progress {
+    .elementor-widget-progress {
         text-align: left;
     }
- 
+
     .elementor-progress-wrapper {
         position: relative;
         background-color: #eee;
@@ -35,7 +35,7 @@
         border-radius: 2px
     }
 
-     .lementor-progress-bar {
+    .elementor-progress-bar {
         display: flex;
         background-color: #69727d;
         width: 0;
@@ -44,7 +44,7 @@
         line-height: 30px;
         border-radius: 2px;
         transition: width 1s ease-in-out
-     }
+    }
 
     .elementor-progress-text {
         flex-grow: 1;
@@ -53,43 +53,43 @@
         overflow: hidden;
         padding-left: 15px
     }
- 
+
     .elementor-progress-percentage {
         padding-right: 15px
-     }
+    }
 
     .elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
         background-color: #5bc0de
     }
 
-     .lementor-widget-progress .elementor-progress-wraper.progress-success .elementor-progress-bar {
+    .elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
         background-color: #5cb85c
     }
- 
+
     .elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
         background-color: #f0ad4e
-     }
+    }
 
     .elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
         background-color: #d9534f
     }
 
-     .lementor-progress .elementor-title {
+    .elementor-progress .elementor-title {
         display: block
     }
- 
+
     @media (max-width:767px) {
         .elementor-progress-text {
             padding-left: 10px
         }
     }
- 
+
     .e-con-inner .elementor-progress-wrapper,
     .e-con .elementor-progress-wrapper {
         height: auto
     }
     </style>
-     <-- Hotjar Tracking Code for https://wiseadvizor.com -->
+    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
@@ -104,10 +104,10 @@
         r.async = 1;
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
-     }(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
     <script>
-     wndow._wpemojiSettings = {
+    window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
         "ext": ".png",
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
@@ -116,7 +116,7 @@
             "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
-     /! This file is auto-generated */
+    /*! This file is auto-generated */
     ! function(e, a, t) {
         var n, r, o, i = a.createElement("canvas"),
             p = i.getContext && i.getContext("2d");
@@ -137,52 +137,52 @@
             }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
             if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
                 case "flag":
-                    return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", 🇺​🇳") && !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                    return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") && !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                         "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
                 case "emoji":
                     return !s("🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
             }
             return !1
-        }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (.supports
+        }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
             .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
         t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
             .readyCallback = function() {
                 t.DOMReady = !0
             }, t.supports.everything || (n = function() {
-                t.readyCallbac()
+                t.readyCallback()
             }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
                 1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                "complete" === a.readyState &&t.readyCallback()
+                "complete" === a.readyState && t.readyCallback()
             })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
                 .wpemoji)))
-     }window, document, window._wpemjiSettings);
+    }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-     <cript async src="https://www.googletagmanagr.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
- 
+
     function gtag() {
         dataLayer.push(arguments);
-     }
+    }
     gtag('js', new Date());
 
-     gag('config', 'G-1HZW2R3J0M');
+    gtag('config', 'G-1HZW2R3J0M');
     </script>
     <style>
-     ig.wp-smiley,
+    img.wp-smiley,
     img.emoji {
         display: inline !important;
-        border: non !important;
+        border: none !important;
         box-shadow: none !important;
         height: 1em !important;
-        width: 1em important;
+        width: 1em !important;
         margin: 0 0.07em !important;
         vertical-align: -0.1em !important;
         background: none !important;
         padding: 0 !important;
     }
-     <style>
+    </style>
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -191,124 +191,124 @@
         --wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
         --wp-admin-theme-color-darker-20: #005a87;
         --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
-        --wp-admin-borer-width-focus: 2px;
+        --wp-admin-border-width-focus: 2px;
         --wp-block-synced-color: #7a00df;
         --wp-block-synced-color--rgb: 122, 0, 223
-     }
+    }
 
     @media (-webkit-min-device-pixel-ratio:2),
-     (in-resolution:192dpi) {
+    (min-resolution:192dpi) {
         :root {
             --wp-admin-border-width-focus: 1.5px
         }
     }
 
-     .p-element-buton {
+    .wp-element-button {
         cursor: pointer
     }
- 
+
     :root {
         --wp--preset--font-size--normal: 16px;
-        --wp--preset--font-ize--huge: 42px
+        --wp--preset--font-size--huge: 42px
     }
 
-     :oot .has-very-light-gray-bakground-color {
+    :root .has-very-light-gray-background-color {
         background-color: #eee
     }
- 
+
     :root .has-very-dark-gray-background-color {
         background-color: #313131
-     }
+    }
 
     :root .has-very-light-gray-color {
         color: #eee
     }
 
-     :oot .has-very-dark-gray-color {
+    :root .has-very-dark-gray-color {
         color: #313131
     }
- 
+
     :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
         background: linear-gradient(135deg, #00d084, #0693e3)
-     }
+    }
 
     :root .has-purple-crush-gradient-background {
-        background: lnear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
+        background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
     }
 
-     :oot .has-hazy-awn-gradient-background {
+    :root .has-hazy-dawn-gradient-background {
         background: linear-gradient(135deg, #faaca8, #dad0ec)
     }
- 
+
     :root .has-subdued-olive-gradient-background {
         background: linear-gradient(135deg, #fafae1, #67a671)
-     }
+    }
 
     :root .has-atomic-cream-gradient-background {
-        background: linear-gradient(135de, #fdd79a, #004a59)
+        background: linear-gradient(135deg, #fdd79a, #004a59)
     }
 
-     :oot .has-nightshade-gradient-background {
+    :root .has-nightshade-gradient-background {
         background: linear-gradient(135deg, #330968, #31cdcf)
     }
- 
+
     :root .has-midnight-gradient-background {
         background: linear-gradient(135deg, #020381, #2874fc)
-     }  
+    }
 
     .has-regular-font-size {
         font-size: 1em
     }
 
-     .as-larger-font-size {  
+    .has-larger-font-size {
         font-size: 2.625em
     }
- 
+
     .has-normal-font-size {
         font-size: var(--wp--preset--font-size--normal)
-     }  
+    }
 
     .has-huge-font-size {
         font-size: var(--wp--preset--font-size--huge)
     }
 
-     .as-text-align-center {  
+    .has-text-align-center {
         text-align: center
     }
- 
+
     .has-text-align-left {
         text-align: left
-     }  
+    }
 
     .has-text-align-right {
         text-align: right
     }
 
-     #nd-resizable-editor-section {  
+    #end-resizable-editor-section {
         display: none
     }
- 
+
     .aligncenter {
         clear: both
-     }  
+    }
 
     .items-justified-left {
         justify-content: flex-start
     }
 
-     .tems-justified-center {  
+    .items-justified-center {
         justify-content: center
     }
- 
+
     .items-justified-right {
         justify-content: flex-end
-     }
+    }
 
     .items-justified-space-between {
         justify-content: space-between
     }
 
-     .creen-reader-text {
+    .screen-reader-text {
         clip: rect(1px, 1px, 1px, 1px);
         word-wrap: normal !important;
         border: 0;
@@ -320,10 +320,10 @@
         padding: 0;
         position: absolute;
         width: 1px
-     }
+    }
 
     .screen-reader-text:focus {
-        clip:auto !important;
+        clip: auto !important;
         background-color: #ddd;
         -webkit-clip-path: none;
         clip-path: none;
@@ -332,124 +332,124 @@
         font-size: 1em;
         height: auto;
         left: 5px;
-        line-height: norma;
+        line-height: normal;
         padding: 15px 23px 14px;
         text-decoration: none;
         top: 5px;
         width: auto;
         z-index: 100000
-     }
+    }
 
     html :where(.has-border-color) {
         border-style: solid
     }
 
-     hml :where([style*=border-top-color]) {
+    html :where([style*=border-top-color]) {
         border-top-style: solid
     }
- 
+
     html :where([style*=border-right-color]) {
         border-right-style: solid
-     }
+    }
 
     html :where([style*=border-bottom-color]) {
         border-bottom-style: solid
     }
 
-     hml :where([style*=order-left-color]) {
+    html :where([style*=border-left-color]) {
         border-left-style: solid
     }
- 
+
     html :where([style*=border-width]) {
         border-style: solid
-     }
+    }
 
     html :where([style*=border-top-width]) {
-        border-top-stye: solid
+        border-top-style: solid
     }
 
-     hml :where([style*=border-right-width]) {
+    html :where([style*=border-right-width]) {
         border-right-style: solid
     }
- 
+
     html :where([style*=border-bottom-width]) {
         border-bottom-style: solid
-     }
-
-    html :where([style*=border-left-width]) {
-        border-left-style: olid
     }
 
-     hml :where(img[class*=wp-image-]) {
+    html :where([style*=border-left-width]) {
+        border-left-style: solid
+    }
+
+    html :where(img[class*=wp-image-]) {
         height: auto;
         max-width: 100%
-     }
+    }
 
     figure {
         margin: 0 0 1em
     }
 
-     hml :where(.is-position-sticky) {
+    html :where(.is-position-sticky) {
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
- 
+
     /* ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
 
-     }
+    }
 
     .pe-7s-user {
         margin-right: 20px;
         align: center;
     }
- 
+
 .elementor-button-wrapper .browse {
         margin-left: 20px;
-     *
+    */
 
     /* .menuITem {
         margin-left: 30px;
     }
 
-     .ame {
+    .name {
         font-size: 13px;
         line-height: 0em;
         margin-right: 20px;
     }
 
- 
+
 
     .menu {
         font-size: 12px;
         text-align: center;
     } */
-     *
+    *
     /* / .elementor-button-wrapper .browse {
         margin-left: 20px;
-     }*/
+    } */
 
     @media screen and (max-width:600px) {
-        html :where(.is-positionsticky) {
+        html :where(.is-position-sticky) {
             --wp-admin--admin-bar--position-offset: 0px
         }
-     }
+    }
     </style>
     <link rel="preload"
-        href="{{ asset('public/w-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
+        href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" id="tpgb-fotawesome-css"
+        <link rel="stylesheet" id="tpgb-fontawesome-css"
             href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
             media="all">
-     <noscript>
+    </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
         href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205') }}" media="all">
-     <tyle id="global-styles-inline-css">
+    <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
         --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -470,34 +470,34 @@
         --wp--preset--color--tertiary: #F6F6F6;
         --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
         --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-        --wp--preset--gradient--luminous-vivid-amber-to-luinous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
         --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
         --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-        --wp--preset-gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
         --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
         --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-        --wp--preset--graient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
         --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
         --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-        --wp--preset--gradiet--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
         --wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%);
         --wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--background) 100%);
-        --wp--preset--gradient-vertical-tertiary-to-background: linear-gradient(to bottom, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--background) 100%);
+        --wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--background) 100%);
         --wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--foreground) 100%);
         --wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--background) 50%);
-        --wp--preset--gradient--diaonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
+        --wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
         --wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
         --wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
-        --wp--preset--uotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+        --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
         --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
         --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
-        --wp--preset--dutone--blue-red: url('#wp-duotone-blue-red');
+        --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
         --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
         --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
-        --wp--prest--duotone--purple-green: url('#wp-duotone-purple-green');
+        --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
         --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
         --wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');
-        --wp--preset--duotoe--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');
+        --wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');
         --wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');
         --wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');
         --wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');
@@ -506,7 +506,7 @@
         --wp--preset--font-size--medium: 1.125rem;
         --wp--preset--font-size--large: 1.75rem;
         --wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);
-        --wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Robot, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        --wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
         --wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;
         --wp--preset--spacing--20: 0.44rem;
         --wp--preset--spacing--30: 0.67rem;
@@ -518,10 +518,10 @@
         --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
         --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
         --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255,255, 1), 6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
         --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         --wp--custom--spacing--small: max(1.25rem, 5vw);
-        --wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--blok-gap)));
+        --wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));
         --wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);
         --wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);
         --wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
@@ -533,118 +533,100 @@
         --wp--custom--typography--line-height--normal: 1.6;
     }
 
-     bdy {
+    body {
         margin: 0;
         --wp--style--global--content-size: 650px;
         --wp--style--global--wide-size: 1000px;
     }
 
-     .p-site-blocks>.alignleft {
+    .wp-site-blocks>.alignleft {
         float: left;
         margin-right: 2em;
-     }
+    }
 
     .wp-site-blocks>.alignright {
         float: right;
         margin-left: 2em;
     }
- 
+
     .wp-site-blocks>.aligncenter {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
     }
- 
+
     .wp-site-blocks>* {
         margin-block-start: 0;
         margin-block-end: 0;
     }
 
-     .p-site-blocks>*+* {
+    .wp-site-blocks>*+* {
         margin-block-start: 1.5rem;
     }
- 
+
     body {
         --wp--style--block-gap: 1.5rem;
-     }
+    }
 
     body .is-layout-flow>* {
         margin-block-start: 0;
         margin-block-end: 0;
     }
- 
+
     body .is-layout-flow>*+* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-     bdy .is-layout-constrained>* {
+    body .is-layout-constrained>* {
         margin-block-start: 0;
         margin-block-end: 0;
-     }
+    }
 
     body .is-layout-constrained>*+* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
- 
-    
 
     body .is-layout-flex {
         gap: 1.5rem;
-     }
-    
-
+    }
 
     body .is-layout-flow>.alignleft {
-         float:
-     
-left;
+        float: left;
         margin-inline-start: 0;
         margin-inline-end: 2em;
-     }
-    
-
+    }
 
     body .is-layout-flow>.alignright {
-         float: right;
-    
-
+        float: right;
         margin-inline-start: 2em;
         margin-inline-end: 0;
-    } 
-    
-
+    }
 
     body .is-layout-flow>.aligncenter {
-         margin-left: auto !importan
-    t
-;         margin-right: auto !important;
-    }  
-    
-     body .is-layout-constrained>.alignleft {
-               margin-inline-start: 0
-    
-         margin-inline-end: 2em;
-    }  
-    
-     body .is-layout-constrained>.alignright {
-               margin-inline-start: 2em;
-    
-         margin-inline-end: 0;
-    }  
-    
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    body .is-layout-constrained>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+    }
+
+    body .is-layout-constrained>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+    }
 
     body .is-layout-constrained>.aligncenter {
         margin-left: auto !important;
-         margin-right: auto !important;
-    
-
+        margin-right: auto !important;
     }
 
-     body .is-layout-constrained> :where(:
-    n
-ot(.alignleft):not(.alignright):not(.alignfull)) {
+    body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
         max-width: var(--wp--style--global--content-size);
         margin-left: auto !important;
         margin-right: auto !important;
