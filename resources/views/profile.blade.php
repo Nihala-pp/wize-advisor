@@ -2838,7 +2838,6 @@
                                                 data-id="91d36c6" data-element_type="widget"
                                                 data-widget_type="star-rating.default">
                                                 <div class="elementor-widget-container">
-
                                                     <div class="elementor-star-rating__wrapper">
                                                         <div class="elementor-star-rating" title="5/5"
                                                             itemtype="http://schema.org/Rating" itemscope=""
