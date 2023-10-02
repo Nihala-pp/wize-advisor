@@ -2794,10 +2794,7 @@
                                 </div>
                             </div>
                         </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-9905fba elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="9905fba" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <section class="main-data-wrp">
                             <div class="testimonial-block">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6 mb-4">
