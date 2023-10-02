@@ -2797,31 +2797,35 @@
                         <section class="main-data-wrp">
                             <div class="testimonial-block">
                                 <div class="row">
-                                    <div class="col-lg-4 col-md-6 mb-4">
-                                        <div class="testimonial-box m-0 h-100">
-                                            <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
-                                                alt="" class="quote-icon" />
-                                            <p>
-                                                "I have to hand it to a company that goes above and beyond with their
-                                                customer
-                                                service... your team is a notch above anything I've experienced. Great
-                                                software,
-                                                great support - what else can you ask for?"
-                                            </p>
-                                            <div class="user-box">
-                                                <img class="lazy-loading"
-                                                    src="https://www.sociablekit.com/sociablekit-template/images/loading.gif"
-                                                    data-src="https://www.sociablekit.com/tutorials/resources/images/reviewers/yannick_picard.jpg"
-                                                    alt="" />
-                                                <div>
-                                                    <h4>Yannick Picard</h4>
-                                                    <span>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </span>
+                                    <div class="card">
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="testimonial-box m-0 h-100">
+                                                <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
+                                                    alt="" class="quote-icon" />
+                                                <p>
+                                                    "I have to hand it to a company that goes above and beyond with
+                                                    their
+                                                    customer
+                                                    service... your team is a notch above anything I've experienced.
+                                                    Great
+                                                    software,
+                                                    great support - what else can you ask for?"
+                                                </p>
+                                                <div class="user-box">
+                                                    <img class="lazy-loading"
+                                                        src="https://www.sociablekit.com/sociablekit-template/images/loading.gif"
+                                                        data-src="https://www.sociablekit.com/tutorials/resources/images/reviewers/yannick_picard.jpg"
+                                                        alt="" />
+                                                    <div>
+                                                        <h4>Yannick Picard</h4>
+                                                        <span>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -4327,109 +4331,121 @@
 
 .main-data-wrp ul li,
 .main-data-wrp ol li {
-	margin: 0 0 16px 0;
+    margin: 0 0 16px 0;
 }
 
-.main-data-wrp{
-	padding: 80px 0;
+.main-data-wrp {
+    padding: 80px 0;
 }
 
-.testimonial-block{
-	display: table;
-	margin: 0 auto;
-	position: relative;
-	z-index: 9;
-}
-.testimonial-block h2{
-	font-family: 'Work Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 48px;
-	line-height: 60px;
-	text-align: center;
-	text-transform: capitalize;
-	color: #FFFFFF;
-	margin: 0 0 80px;
-}
-.testimonial-block h2 img{
-	max-width: 100%;
-	margin: 0 auto;
-	display: table;
-}
-.testimonial-block ul{
-	display: block;
-	margin: 0;
-	padding: 0;
-}
-.testimonial-block ul li{
-	list-style: none;
-	margin: 0 0 43px;
-	padding: 0;
-}
-.testimonial-block ul li:last-child{
-	margin: 0;
+.testimonial-block {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
 }
 
-.testimonial-box .user-box{
-	display: flex;
-	align-items: flex-end;
-	margin: 0 0 8px;
+.testimonial-block h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0 0 80px;
 }
-.testimonial-box .user-box img{
-	height: 40px;
-	width: 40px;
-	border-radius: 100%;
-	object-fit: cover;
-	object-position: center;
-	margin-right: 8px;
+
+.testimonial-block h2 img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: table;
 }
-.testimonial-box .user-box .discerption{
-	max-width: 580px;
-	padding: 12px;
-	background: #18489B;
-	border-radius: 18px;
-	position: relative;
+
+.testimonial-block ul {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
-.testimonial-box .user-box .discerption:before{
-	position: absolute;
-	content: "";
-	left: -3px;
-	bottom: -2px;
-	background-image: url("../images/msg-arrow.svg");
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 11px;
-	height: 20px;
+
+.testimonial-block ul li {
+    list-style: none;
+    margin: 0 0 43px;
+    padding: 0;
 }
-.testimonial-box .user-box .discerption p{
-	font-family: 'Work Sans';
-	font-style: italic;
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 24px;
-	color: #FFFFFF;
-	margin: 0;
+
+.testimonial-block ul li:last-child {
+    margin: 0;
 }
-.testimonial-box h5{
-	font-family: 'ArticulatCFDemiBold';
-	font-size: 16px;
-	line-height: 24px;
-	color: #FFFFFF;
-	margin: 0;
+
+.testimonial-box .user-box {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 8px;
 }
-.testimonial-box h6{
-	font-size: 14px;
-	line-height: 24px;
-	color: #FFFFFF;
-	opacity: 0.7;
-	margin: 0 0 2px;
+
+.testimonial-box .user-box img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 8px;
 }
-.testimonial-box .rating{
-	display: flex;
-	align-items: center;
-	color: #FFDB20;
-	font-size: 15px;
+
+.testimonial-box .user-box .discerption {
+    max-width: 580px;
+    padding: 12px;
+    background: #18489B;
+    border-radius: 18px;
+    position: relative;
+}
+
+.testimonial-box .user-box .discerption:before {
+    position: absolute;
+    content: "";
+    left: -3px;
+    bottom: -2px;
+    background-image: url("../images/msg-arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 20px;
+}
+
+.testimonial-box .user-box .discerption p {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.testimonial-box h5 {
+    font-family: 'ArticulatCFDemiBold';
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.testimonial-box h6 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 0 0 2px;
+}
+
+.testimonial-box .rating {
+    display: flex;
+    align-items: center;
+    color: #FFDB20;
+    font-size: 15px;
 }
 
 .testimonial-box img.quote-icon {
@@ -4441,6 +4457,7 @@
     display: flex;
     align-items: center;
 }
+
 .testimonial-box .user-box img {
     width: 60px;
     height: 60px;
@@ -4449,6 +4466,7 @@
     object-position: center;
     margin-right: 24px;
 }
+
 .testimonial-box .user-box h4 {
     font-family: "Work Sans";
     font-style: normal;
@@ -4458,6 +4476,7 @@
     color: #12141d;
     margin: 0 0 2px;
 }
+
 .testimonial-box .user-box span {
     font-size: 14px;
     color: #ff7020;
