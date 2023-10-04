@@ -25,7 +25,7 @@
             <p>As a mentor on our platform, you play a crucial role in empowering entrepreneurs and fostering their growth. Your expertise and guidance will have a significant impact on their development and success. </p><br />
             <p>We kindly request that you adhere to the scheduled call time to ensure a smooth experience for both you and the mentee.</p><br />
             <p>We deeply appreciate your dedication to mentorship and your commitment to making a difference in the lives of entrepreneurs. Thank you for being an integral part of our platform.</p><br />
-            <p>AShould you have any questions or require further information, please don't hesitate to reach out to us. We are here to provide any assistance or support you may need throughout the mentoring process.</p><br />
+            <p>Should you have any questions or require further information, please don't hesitate to reach out to us. We are here to provide any assistance or support you may need throughout the mentoring process.</p><br />
             <p><b>Please follow all guidelines on the call. </b></p><br />
             <p>Once again, thank you for your time and expertise. We greatly appreciate your contribution to the growth and development of entrepreneurs through your mentorship.</p><br />
         </div>
