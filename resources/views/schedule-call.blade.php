@@ -2842,16 +2842,17 @@
 
             // Display all events of the selected date in card views
             function show_events(events, month, day) {
+                console.log(month);
                 // Clear the dates container
-                var d = new Date();
-                var new_month = getMonthFromString(month);
+                // var d = new Date();
+                // var new_month = getMonthFromString(month);
                 // var month_name = getMonthName(new_month);
-                if (months[d.getMonth()] === month) {
-                    month_name = month;
-                } else {
-                    month_name = getMonthName(new_month);
-                }
-                console.log(month_name);
+                // if (months[d.getMonth()] === month) {
+                //     month_name = month;
+                // } else {
+                //     month_name = getMonthName(new_month);
+                // }
+                // console.log(month_name);
                 $(".events-container").empty();
                 $(".events-container").show(250);
                 console.log(event_data["events"]);
@@ -2876,7 +2877,7 @@
                         var event_card = $(
                             "<button type='button' class='btn btn-outline-primary btn-lg btn-block event-card timeslot' value=" +
                             events[i]["start_time"] +
-                            " style='background-color:white;border:solid;border-color:#007bff;  width:75%' required></button>"
+                            " style='background-color:white;border:solid;border-color:#007bff;width:75%' required></button>"
                         );
                         var event_name = $("<div class='event-name'>" + events[i]["start_time"] + "</div>");
                         // var event_count = $("<div class='event-count'>"+events[i]["invited_count"]+" Invited</div>");
@@ -3038,10 +3039,8 @@
                 });
                 return monthName;
             }
-
         })(jQuery);
         </script>
-
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
@@ -3059,7 +3058,6 @@
         <script>
         $('.select2').select2();
         </script>
-
         <!--End of Tawk.to Script-->
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
         </script> -->
