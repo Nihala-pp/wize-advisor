@@ -30,8 +30,8 @@ class weeklySlotUpdate extends Mailable
     {
         return new Envelope(
             subject: 'Action Required: Please Update Your Availability for Mentorship Sessions',
-            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
-            bcc: ['nihala-pp@wiseadvizor.com']
+            cc: ['info@wiseadvizor.com'],
+            bcc: ['nihala-pp@wiseadvizor.com', 'ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com']
         );
     }
 

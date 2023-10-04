@@ -29,8 +29,8 @@ class WelcomeEmailUser extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Welcome to wiseAdvizor: Your Journey to Success Begins Here!',
-            bcc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com','nihala-pp@wiseadvizor.com']
+            cc: ['info@wiseadvizor.com'],
+            bcc: ['nihala-pp@wiseadvizor.com', 'ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com']
         );
     }
 

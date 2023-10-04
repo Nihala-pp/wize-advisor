@@ -30,8 +30,8 @@ class CredentialEmail extends Mailable
     {
         return new Envelope(
             subject: 'Welcome Aboard as a Mentor at wiseAdvizor!',
-            cc: ['ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com'],
-            bcc: ['nihala-pp@wiseadvizor.com']
+            cc: ['info@wiseadvizor.com'],
+            bcc: ['nihala-pp@wiseadvizor.com', 'ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com']
         );
     }
 
