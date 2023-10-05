@@ -395,6 +395,8 @@
             </div>
     </main>
     </div>
+    <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
+
     <!-- </main> -->
     <!--   Core JS Files   -->
     <!-- <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
