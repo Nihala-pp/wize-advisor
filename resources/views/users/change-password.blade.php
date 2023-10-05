@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        @include('partials.web-footer')
+        <!-- @include('partials.web-footer') -->
     </main>
     </div>
     <!--   Core JS Files   -->
