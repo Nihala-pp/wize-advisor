@@ -423,7 +423,7 @@
       color:black !important;
     }
 
-    #text {
+    a.dropdown-item {
         color:black !important;
     }
     /* 
