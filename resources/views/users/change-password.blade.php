@@ -15,7 +15,6 @@
     <!-- Navbar -->
     <!-- End Navbar -->
 
-    <!-- @include('partials.header') -->
 
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <div class="row" style="background-image: url('{{ asset('public/assets/img/cover.jpg') }}')">
