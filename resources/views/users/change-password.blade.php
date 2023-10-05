@@ -61,7 +61,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <!-- @include('partials.web-footer') -->
     </main>
     </div>
