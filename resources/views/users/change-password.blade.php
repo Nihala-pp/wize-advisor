@@ -32,8 +32,8 @@
                                     <form method="POST" action="{{ route('user.password.save') }}"
                                         enctype="multipart/form-data">
                                         @csrf
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Password</label>
+                                        <div class="input-group input-group-dynamic mb-4">
+                                            <label class="form-label">Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password" autocomplete="current-password">
@@ -43,8 +43,8 @@
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="input-group input-group-static mb-3">
-                                            <label class="">Confirm Password</label>
+                                        <div class="input-group input-group-dynamic mb-4">
+                                            <label class="form-label">Confirm Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" autocomplete="current-password">
