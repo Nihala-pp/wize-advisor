@@ -376,7 +376,7 @@
                                                             data-mdb-toggle="dropdown" aria-expanded="false">
                                                             <i class="fas fa-bell fa-lg"></i>
                                                             <span
-                                                                class="">1</span>
+                                                                class=""></span>
                                                         </a>
                                                         <ul class="dropdown-menu dropdown-menu-end"
                                                             aria-labelledby="navbarDropdownMenuLink">
