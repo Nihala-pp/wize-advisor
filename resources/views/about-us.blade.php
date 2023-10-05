@@ -1172,8 +1172,6 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
      
-    @include('partials.menu')
-    
             <div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11">
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-a811565 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
