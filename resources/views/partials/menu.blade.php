@@ -376,7 +376,7 @@
                                                             data-mdb-toggle="dropdown" aria-expanded="false">
                                                             <i class="fas fa-bell fa-lg"></i>
                                                             <span
-                                                                class="badge rounded-pill badge-notification bg-danger">1</span>
+                                                                class="badge badge-notification bg-danger">1</span>
                                                         </a>
                                                         <ul class="dropdown-menu dropdown-menu-end"
                                                             aria-labelledby="navbarDropdownMenuLink">
