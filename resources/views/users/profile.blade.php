@@ -1618,7 +1618,7 @@
                 </div>
         </div>
     </header>
-    @include('partials.header')
+    ('partials.header')
     <!-- <body class="g-sidenav-show bg-white">
         <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100"> -->
     <!-- Navbar -->
