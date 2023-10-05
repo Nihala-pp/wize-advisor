@@ -10,6 +10,8 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+@php header('Access-Control-Allow-Origin: *'); @endphp
+
 
 @include('partials.web-header')
 
