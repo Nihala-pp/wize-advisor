@@ -397,7 +397,7 @@
     </div>
     <!-- </main> -->
     <!--   Core JS Files   -->
-    <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
+    <!-- <script src="{{ asset('public/assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
@@ -409,13 +409,13 @@
         }
         Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
-    </script>
+    </script> -->
     <!-- Github buttons -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-    <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
+    <!-- <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
+    </script> -->
 </body>
 <style>
 .animated {
