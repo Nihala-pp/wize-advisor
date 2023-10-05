@@ -14,6 +14,9 @@
         <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100"> -->
     <!-- Navbar -->
     <!-- End Navbar -->
+
+    @include('partials.header')
+
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <div class="container-fluid py-4">
             <div class="row mt-5">
