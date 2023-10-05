@@ -10,7 +10,8 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-
+     
+@include('partials.web-header')
 
     <body class="g-sidenav-show  bg-white">
         <!-- </aside> -->
