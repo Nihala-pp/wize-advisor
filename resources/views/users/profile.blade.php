@@ -132,44 +132,5 @@
     </div>
     <!-- </div> -->
     <!--   Core JS Files   -->
-    <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
-    </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    < script type = "text/javascript" >
-        $(document).ready(function() {
-            $("#inactivate").click(function() {
-                var checkBoxes = $("input[name=account_status\\[\\]]");
-                checkBoxes.prop("checked", !checkBoxes.prop("checked"));
-                var status = document.getElementById("inactivate").value;
-                return $.ajax("{{ route('mentor.account_status') }}", {
-                    method: 'POST',
-                    data: {
-                        "_token": "{{ csrf_token() }}",
-                        "status": status,
-                    }
-                });
-            });
-
-            $("#delete").click(function() {
-                var checkBoxes = $("input[name=delete_account\\[\\]]");
-                checkBoxes.prop("checked", !checkBoxes.prop("checked"));
-                var status = document.getElementById("delete").value;
-                return $.ajax("{{ route('mentor.delete_account') }}", {
-                    method: 'POST',
-                    data: {
-                        "_token": "{{ csrf_token() }}",
-                        "status": status,
-                    }
-                });
-            });
-        });
-    </script>
 </body>
-<style>
-//     font-family: "Helvetica", Sans-serif !important;
-//     font-size: 17px !important;
-//     font-weight: 700 !important;
-//     color: #001e64 !important;
-</style>
-
 </html>

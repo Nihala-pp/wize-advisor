@@ -63,9 +63,7 @@
     </main>
     </div>
     <!--   Core JS Files   -->
-    <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
-    </script>
+    
 </body>
 </style>
-
 </html>
