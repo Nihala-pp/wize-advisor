@@ -422,6 +422,10 @@
     i.fas.fa-bell.fa-2xl {
       color:black !important;
     }
+
+    #text {
+        color:black !important;
+    }
     /* 
     i.fas.fa-bell {
         height: 75px;
