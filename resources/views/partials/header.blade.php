@@ -326,7 +326,7 @@
     </script>
     <script>
     @if(Session::has('message'))
-    var type = "{{Session::get('alert-type','info')}}"
+    var type = "{{ Session::get('alert-type','info') }}"
 
     switch (type) {
         case 'info':
