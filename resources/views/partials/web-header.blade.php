@@ -425,6 +425,7 @@
 
     a.dropdown-item {
         color:black !important;
+        padding-right : 20px;
     }
 
     .browseMentor {
