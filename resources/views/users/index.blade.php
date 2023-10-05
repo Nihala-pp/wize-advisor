@@ -375,24 +375,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid py-4">
-                <footer class="footer py-4  ">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-content-lg-between">
-                            <div class="col-lg-4 mb-lg-0 mb-4">
-                                <div class="copyright text-center text-sm text-muted text-lg-start">
-                                    © <script>
-                                    document.write(new Date().getFullYear())
-                                    </script>,
-                                    made with <i class="fa fa-heart"></i> by
-                                    <a href="" class="font-weight-bold" target="_blank">IVY Investment
-                                        LLC.</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
+            @include('partials.web-footer')
     </main>
     </div>
     <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
