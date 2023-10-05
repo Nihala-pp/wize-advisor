@@ -426,6 +426,10 @@
     a.dropdown-item {
         color:black !important;
     }
+
+    .browseMentor {
+        padding-right : 20px;
+    }
     /* 
     i.fas.fa-bell {
         height: 75px;
