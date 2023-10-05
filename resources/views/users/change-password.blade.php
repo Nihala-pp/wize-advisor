@@ -18,41 +18,44 @@
     @include('partials.header')
 
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
-        <div class="container-fluid py-4">
-            <div class="row mt-5">
-                <div class="col-4 col-lg-10 m-auto">
-                    <div class="card">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Change Password @else
-                                    Change Password @endif</h6>
+        <div class="row" style="background-image: url('{{ asset('public/assets/img/cover.jpg') }}')">
+            <div class="container-fluid py-4">
+                <div class="row mt-5">
+                    <div class="col-4 col-lg-10 m-auto">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Change Password @else
+                                        Change Password @endif</h6>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <form method="POST" action="{{ route('user.password.save') }}"
-                                    enctype="multipart/form-data">
-                                    @csrf
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Password</label>
-                                        <input id="password" type="password"
-                                            class="form-control @error('password') is-invalid @enderror" name="password"
-                                            autocomplete="current-password">
-                                        @error('password')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Confirm Password</label>
-                                        <input id="password" type="password"
-                                            class="form-control @error('password') is-invalid @enderror"
-                                            name="password_confirmation" autocomplete="current-password">
-                                    </div>
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                                </form>
+                            <div class="card-body">
+                                <div class="row">
+                                    <form method="POST" action="{{ route('user.password.save') }}"
+                                        enctype="multipart/form-data">
+                                        @csrf
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Password</label>
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password" autocomplete="current-password">
+                                            @error('password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Confirm Password</label>
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password_confirmation" autocomplete="current-password">
+                                        </div>
+                                        <button type="submit" name="submitform" id="submitform"
+                                            class="btn btn-primary"><i
+                                                class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,4 +70,5 @@
     </script>
 </body>
 </style>
+
 </html>
