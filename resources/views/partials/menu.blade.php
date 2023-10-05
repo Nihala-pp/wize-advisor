@@ -374,7 +374,7 @@
                                                         <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                             id="navbarDropdownMenuLink" role="button"
                                                             data-mdb-toggle="dropdown" aria-expanded="false">
-                                                            <i class="fas fa-bell fa-lg"></i>
+                                                            <i class="fas fa-bell fa-xl"></i>
                                                             <span
                                                                 class=""></span>
                                                         </a>
