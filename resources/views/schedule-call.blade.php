@@ -2319,7 +2319,7 @@
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
                 var new_month = $(".month").index(this);
-                date.setMonth(date.getMonth() + 1);
+                date.setMonth(date.new_month);
                 // date.setMonth(new_month);
                 init_calendar(date);
             }
