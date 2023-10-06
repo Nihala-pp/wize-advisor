@@ -1511,7 +1511,7 @@
                                                 <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                     id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                     aria-expanded="false">
-                                                    <i class="fas fa-bell fa-lg"></i>
+                                                    <i class="fas fa-bell fa-2xl"></i>
                                                     <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span>
                                                 </a>
@@ -3042,4 +3042,13 @@
     </script>
     <!--End of Tawk.to Script-->
 </body>
+<style>
+.browseMentor {
+    padding-right: 20px;
+}
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+}
+</style>
 </html>
