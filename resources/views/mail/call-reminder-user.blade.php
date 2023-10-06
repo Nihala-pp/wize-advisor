@@ -13,7 +13,7 @@
     <div class="card text-center mt-5">
         <div class="card-body">
             <p>This is a gentle reminder about your scheduled session, where you'll have the opportunity to gain valuable insights and guidance for your startup journey. We're excited to see you connect with a mentor who can provide you with expert advice and support.</p><br />
-            <p>To access your mentorship session, simply click on the following link at the scheduled time: {{ $details->call_link }} or login into your account. Please ensure that you are in a quiet and conducive environment for your session.</p><br />
+            <p>To access your mentorship session, simply click on the following link at the scheduled time: <a href="{{ $details->call_link }}"> {{ $details->call_link }} </a> or login into your account. Please ensure that you are in a quiet and conducive environment for your session.</p><br />
             <p>If you have any questions or need any assistance before the session, please don't hesitate to reach out to our support team at info@wiseadvizor.com. We are here to assist you.</p><br />
             <p>Thank you for choosing 'wiseAdvizor' for your mentorship needs. We look forward to seeing you at your session and wish you a productive and insightful experience.
 </p><br />
