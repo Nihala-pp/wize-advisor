@@ -2321,6 +2321,7 @@
                 var month = $(".month").index(this);
                 var new_month = getMonthFromString(month);
                 var month_name = getMonthName(new_month);
+                console.log(month_name);
                 date.setMonth(month_name);
                 // date.setMonth(new_month);
                 init_calendar(date);
