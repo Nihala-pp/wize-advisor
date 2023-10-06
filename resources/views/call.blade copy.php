@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -17,7 +17,7 @@
                 <div class="col-md-6 text-center mb-5">
                     <h2 class="heading-section">Calendar #04</h2>
                 </div>
-            </div> -->
+            </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="content w-100">
@@ -84,8 +84,8 @@
                     </div>
                 </div>
             </div>
-        <!-- </div>
-    </section> -->
+        </div>
+    </section>
     <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/popper.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script>
@@ -429,5 +429,5 @@
 
     })(jQuery);
     </script>
-<!-- </body> -->
-<!-- </html> -->
+</body>
+</html>
