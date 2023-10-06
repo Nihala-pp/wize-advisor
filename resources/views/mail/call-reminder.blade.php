@@ -13,12 +13,12 @@
     <div class="card text-center mt-5">
         <div class="card-body">
             <p class="card-text">Here are the details for the scheduled call:</p>
-            <h5 class="card-title">User : {{ $details->call->user->name }} </a></h5>
+            <h5 class="card-title">User : {{ $details->callSchedule->user->name }} </a></h5>
             <h5 class="card-title">Date : {{ $details->date }} </h5>
             <h5 class="card-title">Time : {{ Illuminate\Support\Carbon::parse($details->start_time)->format('h:i A') }} - {{ Illuminate\Support\Carbon::parse($details->end_time)->format('h:i A') }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
             <h5 class="card-title">UTC : {{ $details->time_zone }} </h5>
-            <h5 class="card-title">Joining Link : {{ $details->call->join_link }} </h5><br />
+            <h5 class="card-title">Joining Link : {{ $details->callSchedule->join_link }} </h5><br />
 
             <p>As a mentor, your insights and support are immensely valuable. We encourage you to prepare for the session and ensure that you are in a conducive environment for a productive discussion. Please be punctual and join the call a few minutes before the scheduled time. </p><br />
             <p>If you have any questions or need assistance with the session, please don't hesitate to reach out to our support team. We are here to ensure that your mentorship experience is smooth and rewarding.</p><br />
