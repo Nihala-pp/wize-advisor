@@ -2312,7 +2312,6 @@
 
             // Event handler for when a month is clicked
             function month_click(event) {
-                console.log(event);
                 $(".events-container").show(250);
                 $("#dialog").hide(250);
                 var date = event.data.date;
