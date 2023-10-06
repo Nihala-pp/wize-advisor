@@ -3804,6 +3804,9 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+    .browseMentor {
+        padding-right : 20px;
+    }
 @media only screen and (max-width: 1290px) {
     /* html :where(img[class*=rounded-circle]) {
         height:  8px !important;
