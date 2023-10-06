@@ -18,7 +18,7 @@
             <h5 class="card-title">Time : {{ Illuminate\Support\Carbon::parse($details->start_time)->format('h:i A') }} - {{ Illuminate\Support\Carbon::parse($details->end_time)->format('h:i A') }} </h5>
             <h5 class="card-title">Duration : 30 Min Meeting </h5>
             <h5 class="card-title">UTC : {{ $details->time_zone }} </h5>
-            <h5 class="card-title">Joining Link : <a href="{{ $details->callSchedule->call_link }}">{{ $details->callSchedule->call_link }} </a> </h5><br />
+            <h5 class="card-title">Joining Link : <a href="{{ $details->callSchedule->call_link }}"> {{ $details->callSchedule->call_link }} </a> </h5> <br />
 
             <p>As a mentor, your insights and support are immensely valuable. We encourage you to prepare for the session and ensure that you are in a conducive environment for a productive discussion. Please be punctual and join the call a few minutes before the scheduled time. </p><br />
             <p>If you have any questions or need assistance with the session, please don't hesitate to reach out to our support team. We are here to ensure that your mentorship experience is smooth and rewarding.</p><br />
