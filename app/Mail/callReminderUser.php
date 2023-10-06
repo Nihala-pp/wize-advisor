@@ -42,7 +42,7 @@ class callReminderUser extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'mail.reminder-user',
+            view: 'mail.callReminderUser',
         );
     }
 
