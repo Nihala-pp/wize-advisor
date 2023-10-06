@@ -18,7 +18,7 @@ class Cron extends Controller
     {
         $this->completedCalls();
         $this->callFeedBack();
-        // $this->callReminder();
+        $this->callReminder();
         // $this->weeklySlotUpdate();
     }
 
@@ -75,6 +75,22 @@ class Cron extends Controller
 
     public function callReminder()
     {
+        $calls = AvailableSchedule::where('is_booked', 1)
+            ->whereMonth('date', date('m'))
+            ->whereDay('date', date('d'))
+            ->get();
+
+        if ($calls->count() > 0) {
+            foreach ($calls as $call) {
+                dd($call);
+                if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
+
+                    Mail::to($call->user->email)->send(new callReminder($call));                  
+                }
+            }
+        }
+
+        return 0;
 
     }
 
