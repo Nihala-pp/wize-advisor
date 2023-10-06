@@ -1493,8 +1493,8 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container browseMentor">
-                                    <div class="elementor-button-wrapper">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper browseMentor">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
