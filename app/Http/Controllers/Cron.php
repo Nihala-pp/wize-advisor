@@ -21,6 +21,8 @@ class Cron extends Controller
         $this->completedCalls();
         $this->callFeedBack();
         $this->callReminder();
+        $this->callReminderUser();
+
         // $this->weeklySlotUpdate();
     }
 
