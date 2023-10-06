@@ -2319,10 +2319,9 @@
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
                 var month = $(".month").index(this);
-                console.log(month);
                 var new_month = getMonthFromString(month);
                 var month_name = getMonthName(new_month);
-                console.log(date);
+                console.log(month_name);
                 d.setMonth(month_name);
                 // date.setMonth(new_month);
                 init_calendar(date);
