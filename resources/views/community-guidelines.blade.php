@@ -1465,7 +1465,7 @@
                             <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
+                                    <div class="elementor-button-wrapper browseMentor">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
@@ -1488,8 +1488,8 @@
                                                     id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                     aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
-                                                    <span
-                                                        class="badge rounded-pill badge-notification bg-danger">1</span>
+                                                    <!-- <span
+                                                        class="badge rounded-pill badge-notification bg-danger">1</span> -->
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
