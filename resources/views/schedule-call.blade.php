@@ -2318,8 +2318,10 @@
                 var date = event.data.date;
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
-                var new_month = $(".month").index(this);
-                date.setMonth(date.getMonth());
+                var month = $(".month").index(this);
+                var new_month = getMonthFromString(month);
+                var month_name = getMonthName(new_month);
+                date.setMonth(month_name);
                 // date.setMonth(new_month);
                 init_calendar(date);
             }
