@@ -1535,7 +1535,7 @@
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
-                                                <i class="fas fa-bell fa-lg"></i>
+                                                <i class="fas fa-bell fa-2xl"></i>
                                                 <span class="badge rounded-pill badge-notification bg-danger">1</span>
                                             </a>
                                             <ul class="dropdown-menu dropdown-menu-end"
@@ -1667,5 +1667,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
     </body>
+    <style>
+    .browseMentor {
+        padding-right: 20px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 32px !important;
+    }
+    </style>
 
 </html>

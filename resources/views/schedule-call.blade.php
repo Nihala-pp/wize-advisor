@@ -1419,7 +1419,7 @@
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                 id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                 aria-expanded="false">
-                                                <i class="fas fa-bell fa-lg"></i>
+                                                <i class="fas fa-bell fa-2xl"></i>
                                                 <span class="badge rounded-pill badge-notification bg-danger">1</span>
                                             </a>
                                             <ul class="dropdown-menu dropdown-menu-end"
@@ -2759,7 +2759,7 @@
                 $(".active-month").removeClass("active-month");
                 $(this).addClass("active-month");
                 var new_month = $(".month").index(this);
-                date.setMonth(date .getMonth() + 1);
+                date.setMonth(date.getMonth() + 1);
                 // date.setMonth(new_month);
                 init_calendar(date);
             }
@@ -2861,7 +2861,7 @@
                     // console.log(getMonth(month));
                     var event_card = $("<div class='event-card'></div>");
                     var event_name = $("<div class='event-name'>There are no slots available on " +
-                    month +
+                        month +
                         " " +
                         day +
                         ".</div>");
@@ -3064,4 +3064,13 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
         </script>
     </body>
+    <style>
+    .browseMentor {
+        padding-right: 20px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 32px !important;
+    }
+    </style>
 </html>
