@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\callReminder;
+use App\Mail\callReminderUser;
 use App\Mail\completedCallMentor;
 use App\Mail\feedbackEmailUser;
 use App\Mail\weeklySlotUpdate;
@@ -91,6 +93,25 @@ dd(Carbon::now()->timezone($call->time_zone)->format('H:i:s'));
 
         return 0;
 
+    }
+
+    public function  callReminderUser() 
+    {
+        $calls = ScheduledCall::where('status', 'Approved')
+            ->whereMonth('date', date('m'))
+            ->whereDay('date', date('d'))
+            ->get();
+
+        if ($calls->count() > 0) {
+            foreach ($calls as $call) {
+                if ((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->utc)->format('H:i:s'))) {
+
+                    Mail::to($call->user->email)->send(new callReminderUser($call));
+                }
+            }
+        }
+
+        return 0;
     }
 
     public function weeklySlotUpdate()
