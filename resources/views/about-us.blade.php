@@ -3842,6 +3842,10 @@
     padding-right: 20px;
 }
 
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+}
+
 @media only screen and (max-width: 1290px) {
     /* html :where(img[class*=rounded-circle]) {
         height:  8px !important;
