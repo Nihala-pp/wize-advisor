@@ -83,7 +83,7 @@ class Cron extends Controller
         if ($calls->count() > 0) {
             foreach ($calls as $call) {
                 if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) >= (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
-dd(Carbon::parse($call->start_time)->subHour()->format('H:i:s'));
+dd(Carbon::now()->timezone($call->time_zone)->format('H:i:s'));
                     Mail::to($call->user->email)->send(new callReminder($call));                  
                 }
             }
