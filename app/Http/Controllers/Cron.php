@@ -65,7 +65,7 @@ class Cron extends Controller
 
             $current_time = Carbon::now()->timezone($completed_session->utc);
 
-            if (date($completed_session->date . ' ' . $user_finish_time->format('H:i:s')) < $current_time) {
+            if (date($completed_session->date . ' ' . $user_finish_time->format('H:i')) < $current_time) {
                 
                 $details = [
                     'mentor_name' => $completed_session->mentor->name,
@@ -86,7 +86,7 @@ class Cron extends Controller
 
         if ($calls->count() > 0) {
             foreach ($calls as $call) {
-                if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) <= (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
+                if((Carbon::parse($call->start_time)->subHour()->format('H:i')) == (Carbon::now()->timezone($call->time_zone)->format('H:i'))) {
                     Mail::to($call->user->email)->send(new callReminder($call));                  
                 }
             }
@@ -104,7 +104,7 @@ class Cron extends Controller
 
         if ($calls->count() > 0) {
             foreach ($calls as $call) {
-                if ((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) <= (Carbon::now()->timezone($call->utc)->format('H:i:s'))) {
+                if ((Carbon::parse($call->start_time)->subHour()->format('H:i')) == (Carbon::now()->timezone($call->utc)->format('H:i'))) {
 
                     Mail::to($call->user->email)->send(new callReminderUser($call));
                 }
