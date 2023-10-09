@@ -3843,7 +3843,6 @@
 } */
 
 i.fas.fa-bell.fa-2xl {
-    margin-top: 3px !important;
     font-size: 32px !important;
 }
 
