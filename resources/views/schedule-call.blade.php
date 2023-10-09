@@ -2622,9 +2622,9 @@
         </script>
     </body>
     <style>
-    .browseMentor {
+    /* .browseMentor {
         padding-right: 20px;
-    }
+    } */
 
     i.fas.fa-bell.fa-2xl {
         font-size: 32px !important;
