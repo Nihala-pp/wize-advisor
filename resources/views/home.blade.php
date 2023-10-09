@@ -3283,11 +3283,11 @@
                                             var win_width = jQuery(window).width();
                                             var slider_width = jQuery('#slider_1094').width();
                                             if (win_width < 480) {
-                                                var slide_width = slider_width / 3;
+                                                var slide_width = slider_width / 1;
                                             } else if (win_width < 768) {
-                                                var slide_width = slider_width / 3;
+                                                var slide_width = slider_width / 1;
                                             } else if (win_width < 980) {
-                                                var slide_width = slider_width / 3;
+                                                var slide_width = slider_width / 2
                                             } else if (win_width < 1200) {
                                                 var slide_width = slider_width / 3;
                                             } else if (win_width < 1500) {
