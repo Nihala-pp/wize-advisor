@@ -3843,6 +3843,7 @@
 } */
 
 i.fas.fa-bell.fa-2xl {
+    padding-bottom: 2px !important;
     font-size: 32px !important;
 }
 
