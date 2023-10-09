@@ -425,7 +425,6 @@
     }
 
     i.fas.fa-bell.fa-2xl {
-        margin-top: 0;
         color: black !important;
         font-size: 32px !important;
     }
