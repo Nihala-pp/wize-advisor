@@ -420,12 +420,16 @@
     }
 
     i.fas.fa-bell.fa-2xl {
-      color:black !important;
+        color: black !important;
     }
 
     a.dropdown-item {
-        color:black !important;
-        padding-right : 20px;
+        color: black !important;
+        padding-right: 20px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 32px !important;
     }
 
     /* .browseMentor {
