@@ -16,7 +16,6 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 
-
     <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>wiseAdvizor</title> -->
