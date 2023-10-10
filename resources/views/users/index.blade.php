@@ -420,7 +420,7 @@
 
 th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     color: #363636 !important;
-    font-size: 13px !important;
+    font-size: 10px !important;
 }
 
 /* .navbar-light li a {
