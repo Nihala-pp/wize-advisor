@@ -448,7 +448,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .mentor_name {
-    font-size: 10px !important;
+    font-size: 12px !important;
 }
 
 /* #navbarDropdownMenuLink {
