@@ -418,6 +418,11 @@
     color: #d17581;
 }
 
+th {
+    color:black !important;
+    font-size:16px !important;
+}
+
 /* .navbar-light li a {
         font-family: "Helvetica", Sans-serif !important;
         font-size: 17px !important;
