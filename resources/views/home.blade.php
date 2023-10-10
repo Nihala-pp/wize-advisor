@@ -3237,16 +3237,16 @@
                                         jQuery('#slider_1094').owlCarousel({
                                             responsive: {
                                                 0: {
-                                                    items: 3
+                                                    items: 1
                                                 },
                                                 480: {
-                                                    items: 3
+                                                    items: 1
                                                 },
                                                 768: {
-                                                    items: 3
+                                                    items:1
                                                 },
                                                 980: {
-                                                    items: 3
+                                                    items: 2
                                                 },
                                                 1200: {
                                                     items: 3
