@@ -16,9 +16,9 @@
 @include('partials.web-header')
 
 <style>
-<link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/>
-<link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
+<link id="pagestyle"href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/><link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 </style>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     @include('partials.menu')
@@ -77,7 +77,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->mentor->metaData ? $upcoming_session->mentor->metaData->profile_pic : '' }}"
-                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                                class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
@@ -167,7 +167,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->mentor->metaData ? $requested_session->mentor->metaData->profile_pic : '' }}"
-                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                            class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
@@ -256,7 +256,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->mentor->metaData ? $completed_session->mentor->metaData->profile_pic : '' }}"
-                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                            class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
@@ -339,7 +339,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/') }}/{{ $suggested_mentor->metaData ? $suggested_mentor->metaData->profile_pic : '' }}"
-                                                                class="avatar avatar-sm me-3" alt="xd">
+                                                            class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm">
