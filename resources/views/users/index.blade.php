@@ -80,7 +80,7 @@
                                                                 class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
-                                                            <h6 class="mb-0 text-sm">
+                                                            <h6 class="mb-0 text-sm mentor_name">
                                                                 {{ $upcoming_session->mentor->name }}
                                                             </h6>
                                                         </div>
@@ -170,7 +170,7 @@
                                                             class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
-                                                            <h6 class="mb-0 text-sm">
+                                                            <h6 class="mb-0 text-sm mentor_name">
                                                                 {{ $requested_session->mentor->name }}
                                                             </h6>
                                                         </div>
@@ -259,7 +259,7 @@
                                                             class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
-                                                            <h6 class="mb-0 text-sm">
+                                                            <h6 class="mb-0 text-sm mentor_name">
                                                                 {{ $completed_session->mentor->name }}
                                                             </h6>
                                                         </div>
@@ -342,7 +342,7 @@
                                                             class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
-                                                            <h6 class="mb-0 text-sm">
+                                                            <h6 class="mb-0 text-sm mentor_name">
                                                                 {{ $suggested_mentor->name }}</h6>
                                                         </div>
                                                     </div>
@@ -445,6 +445,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .btn-secondary {
     background-color: #fff !important;
+}
+
+.mentor_name {
+    font-size: 10px !important;
 }
 
 /* #navbarDropdownMenuLink {
