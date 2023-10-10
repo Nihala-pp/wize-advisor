@@ -418,7 +418,7 @@
     color: #d17581;
 }
 
-th {
+th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     color:black !important;
     font-size:16px !important;
 }
