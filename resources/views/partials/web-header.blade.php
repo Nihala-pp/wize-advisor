@@ -14,8 +14,6 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <!-- <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 
 
@@ -468,6 +466,8 @@
         }
     }
     </style>
+     <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
