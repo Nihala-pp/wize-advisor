@@ -1578,7 +1578,7 @@
                                                                 loading="lazy" />
                                                             @else
                                                             <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                                class="rounded-circle" height="50px;" width="50px;">
+                                                                class="rounded-circle" height="8" width="37">
                                                             @endif
                                                         </a>
                                                         <ul class="dropdown-menu dropdown-menu-end"
