@@ -465,8 +465,6 @@
         }
     }
     </style>
-     <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
