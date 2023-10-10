@@ -6,7 +6,7 @@
 
 <style>
 <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/>
-<link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
+<link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 </style>
 
 <body
