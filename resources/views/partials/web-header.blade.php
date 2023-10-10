@@ -1,5 +1,5 @@
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dashboard &#8211; wiseAdvizor</title>
     <script>
@@ -9,11 +9,6 @@
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <!-- <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" /> -->
-    <!-- <link href="{{ asset('public/assets/vendor/@fontawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet"> -->
-    <!-- Font Awesome -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" /> -->
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
