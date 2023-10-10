@@ -11,17 +11,17 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <!-- <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" /> -->
-    <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
     <!-- <link href="{{ asset('public/assets/vendor/@fontawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet"> -->
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" /> -->
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <link id="pagestyle" href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 
     <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
