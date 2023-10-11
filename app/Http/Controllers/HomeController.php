@@ -54,7 +54,10 @@ class HomeController extends Controller
     $calls = ScheduledCall::get()->count();
     $reviews = Review::where('id', 7)->first();
     $review1 = Review::where('id', 8)->first();
-
+    $review2 = Review::where('id', 15)->first();
+    $review3 = Review::where('id', 14)->first();
+    $review4 = Review::where('id', 16)->first();
+    $review5= Review::where('id', 9)->first();
 
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
@@ -63,7 +66,7 @@ class HomeController extends Controller
         return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
       }
     } else {
-      return view('home', compact('mentors', 'users', 'calls', 'reviews', 'review1'));
+      return view('home', compact('mentors', 'users', 'calls', 'reviews', 'review1', 'review2', 'review3', 'review4', 'review5'));
     }
   }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Home &#8211; wiseAdvizor</title>
@@ -3242,7 +3243,7 @@
                                                     items: 1
                                                 },
                                                 768: {
-                                                    items:1
+                                                    items: 1
                                                 },
                                                 980: {
                                                     items: 2
@@ -3567,7 +3568,7 @@
                                             data-id="6bc782c" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                @if ($reviews->user->metaData)
+                                                @if($reviews->user->metaData)
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
@@ -3672,26 +3673,34 @@
                                             data-id="c86512d" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                                @if ($review2->user->metaData)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
+                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}">
+                                                @else
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-a8c414f elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
                                             data-id="a8c414f" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Alen</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">
+                                                    {{ $review2->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-64263e0 elementor-widget elementor-widget-heading"
                                             data-id="64263e0" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Marketing
-                                                    pro
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                    {{ $review2->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -3699,9 +3708,8 @@
                                             data-id="f9164c6" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Lorem
-                                                    ipsum
-                                                    dolor sit amet dsdfsf sdfdf sdfsfd</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    {{  Str::of($review2->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3718,26 +3726,35 @@
                                             data-id="9e2f95c" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                                @if ($review3->user->metaData)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
+                                                @else
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-cd8caff elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
                                             data-id="cd8caff" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Alen</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">
+                                                    {{ $review3->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-3be270d elementor-widget elementor-widget-heading"
                                             data-id="3be270d" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Marketing
-                                                    pro
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                    {{ $review3->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -3745,9 +3762,8 @@
                                             data-id="c6c5de6" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Lorem
-                                                    ipsum
-                                                    dolor sit amet dsdfsf sdfdf sdfsfd</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    {{ Str::of($review3->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3771,11 +3787,19 @@
                                             data-id="d5fadc5" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                                @if ($review4->user->metaData)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    src="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
+                                                @else
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-cf2c223 elementor-widget elementor-widget-heading"
@@ -3783,7 +3807,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">
-                                                    Alen</h4>
+                                                    {{ $review4->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-b5effb5 elementor-widget elementor-widget-heading"
@@ -3791,8 +3815,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                    Marketing Pro
-                                                </h6>
+                                                    {{ $review4->user->metaData->designation }} </h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-62e39a3 elementor-widget elementor-widget-heading"
@@ -3800,7 +3823,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    Lorem ipsum dolor sit amet dsdfsf sdfdf sdfsfd</p>
+                                                    {{ Str::of($review4->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3817,26 +3840,33 @@
                                             data-id="1e158b0" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                                @if ($review5->user->metaData)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    src="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
+                                                @else
+                                                <img decoding="async" width="150" height="150"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-441c424 elementor-widget elementor-widget-heading"
                                             data-id="441c424" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Alen</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review5->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-a185d6f elementor-widget elementor-widget-heading"
                                             data-id="a185d6f" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Marketing
-                                                    pro
+                                                <h6 class="elementor-heading-title elementor-size-default">{{ $review5->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -3844,9 +3874,7 @@
                                             data-id="79dba7e" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Lorem
-                                                    ipsum
-                                                    dolor sit amet dsdfsf sdfdf sdfsfd</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($review5->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
