@@ -3840,7 +3840,7 @@
                                             data-id="1e158b0" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                @if ($review5->user->metaData)
+                                                @if ($review5->user->metaData->profile_pic)
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
@@ -3859,7 +3859,7 @@
                                             data-id="441c424" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review5->name }}</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review5->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-a185d6f elementor-widget elementor-widget-heading"
