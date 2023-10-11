@@ -935,7 +935,7 @@
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
         href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3') }}"
         media="all">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>=
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
     <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/2772') }}">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
@@ -1048,11 +1048,9 @@
         --wpforms-button-size-margin-top: 10px;
     }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
-<body
-    class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
+<body class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
 
     @include('partials.menu')
     <div class="row">
