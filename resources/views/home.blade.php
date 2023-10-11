@@ -3949,11 +3949,11 @@
                                             data-id="b4be166" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                            @if ($review1->user->metaData->profile_pic)
+                                            @if ($review3->user->metaData->profile_pic)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review1->user->metaData ? $review1->user->metaData->profile_pic : '' }}"
+                                                    src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review1->user->metaData ? $review1->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review1->user->metaData ? $review1->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review1->user->metaData ? $review1->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review1->user->metaData ? $review1->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review1->user->metaData ? $review1->user->metaData->profile_pic : '' }}"
+                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
@@ -3968,14 +3968,14 @@
                                             data-id="4c4fadf" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review1->user->name }}</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $review3->user->name }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-8317b5a elementor-widget elementor-widget-heading"
                                             data-id="8317b5a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">  {{ $review1->user->metaData->designation }}
+                                                <h6 class="elementor-heading-title elementor-size-default">  {{ $review3->user->metaData->designation }}
                                                 </h6>
                                             </div>
                                         </div>
@@ -3983,7 +3983,7 @@
                                             data-id="bc8b441" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($review1->review)->limit(50) }}</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ Str::of($review3->review)->limit(50) }}</p>
                                             </div>
                                         </div>
                                     </div>
