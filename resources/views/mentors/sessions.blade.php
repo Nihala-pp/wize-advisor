@@ -179,6 +179,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        @if(count($upcoming_sessions))
                                         @foreach($upcoming_sessions as $upcoming_session)
                                         @php
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
@@ -265,6 +266,7 @@
                                         }
                                         @endphp
                                         @endforeach
+                                        @endif
                                     </tbody>
                                 </table>
                             </div>
@@ -309,6 +311,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        @if(count($requested_sessions))
                                         @foreach($requested_sessions as $requested_session)
                                         <tr>
                                             <td>
@@ -376,6 +379,7 @@
                                             </td>
                                         </tr>
                                         @endforeach
+                                        @endif
                                     </tbody>
                                 </table>
                             </div>
