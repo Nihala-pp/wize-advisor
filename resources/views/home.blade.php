@@ -1479,9 +1479,9 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
+                                                <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1492,9 +1492,9 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1506,7 +1506,7 @@
             </header>
         </div>
     </header>
-    
+
     <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
