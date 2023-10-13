@@ -311,7 +311,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @if(count($requested_sessions))
+                                        @if(count($requested_sessions))
                                         @foreach($requested_sessions as $requested_session)
                                         <tr>
                                             <td>
@@ -331,6 +331,7 @@
                                                 <div class="avatar-group mt-2">
                                                     {{ $requested_session ? $requested_session->date : '' }}
                                                     @php
+                                                    if(!empty($requested_session)) {
                                                     $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                                     $requested_session->mentor_id)->where('date',
                                                     $requested_session->date)->first();
@@ -347,7 +348,7 @@
 
                                                     echo $user_timezone->format('h:i A').' -
                                                     '.$mentor_finish_time->format('h:i A');
-
+                                                    }
                                                     @endphp
                                                 </div>
                                             </td>
@@ -379,7 +380,7 @@
                                             </td>
                                         </tr>
                                         @endforeach
-                                    @endif
+                                        @endif
                                     </tbody>
                                 </table>
                             </div>
