@@ -197,7 +197,8 @@
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
-                                        if(date($upcoming_session->date.' '.$mentor_finish_time->format('H:i:s')) >= $current_time)
+                                        if(date($upcoming_session->date.' '.$mentor_finish_time->format('H:i:s')) >=
+                                        $current_time)
                                         {
                                         @endphp
                                         <tr>
@@ -414,7 +415,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                    @if(!empty($completed_sessions))
+                                        @if(count($completed_sessions))
                                         @foreach($completed_sessions as $completed_session)
                                         @php
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
@@ -433,11 +434,8 @@
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
-                                        if(date($completed_session->date.' '.$mentor_finish_time->format('H:i:s'))  <
-                                            $current_time) 
-                                            { 
-                                            @endphp 
-                                        <tr>
+                                        if(date($completed_session->date.' '.$mentor_finish_time->format('H:i:s')) <
+                                            $current_time) { @endphp <tr>
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
@@ -489,12 +487,12 @@
                                             }
                                             @endphp
                                             @endforeach
+                                            @endif
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                    @endif
                 </div>
             </div>
         </div>
