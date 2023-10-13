@@ -200,6 +200,7 @@ class HomeController extends Controller
     $nextAvailability = AvailableSchedule::where('mentor_id', $id)
       ->whereDate('date', '>', now())
       ->where('is_booked', 0)
+      ->orderBy('date', 'asc')
       ->first();
 
     // $user = User::find($email);
