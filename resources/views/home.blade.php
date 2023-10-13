@@ -1478,7 +1478,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper browseMentor">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
@@ -1491,7 +1491,7 @@
                                 <div class="elementor-widget-container responsive-breakpoints">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
