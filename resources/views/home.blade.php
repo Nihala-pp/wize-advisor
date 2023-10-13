@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
@@ -5334,11 +5334,11 @@
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <!-- <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
 
     <!--   Unlimited Elements 1.5.75 Scripts -->
     <script type="text/javascript" id="unlimited-elements-scripts">
