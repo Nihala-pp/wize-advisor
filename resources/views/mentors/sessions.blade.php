@@ -414,6 +414,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        @if(!empty($completed_sessions))
                                         @foreach($completed_sessions as $completed_session)
                                         @php
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
@@ -488,6 +489,7 @@
                                             }
                                             @endphp
                                             @endforeach
+                                            @endif
                                     </tbody>
                                 </table>
                             </div>
