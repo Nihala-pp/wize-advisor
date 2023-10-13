@@ -90,8 +90,7 @@
     }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanage
-    r.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -1494,7 +1493,7 @@
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentors</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
                                     </div>
