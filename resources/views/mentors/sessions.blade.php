@@ -391,7 +391,6 @@
             <div class="row">
                 <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
                     <div class="card">
-                    @if(!empty($completed_sessions))
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
                                 <h6 class="text-white text-capitalize ps-3">Completed Sessions</h6>
@@ -415,6 +414,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @if(!empty($completed_sessions))
                                         @foreach($completed_sessions as $completed_session)
                                         @php
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
