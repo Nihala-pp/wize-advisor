@@ -1471,24 +1471,11 @@
                         </div>
                     </div>
 
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
-                        data-id="a87489f" data-element_type="column">
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-78f6337"
+                        data-id="78f6337" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper browseMentor">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentors</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-element elementor-element-02e763c elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="02e763c" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
@@ -1500,14 +1487,26 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="elementor-element elementor-element-ae81400 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                data-id="ae81400" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('browseMentor') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Browse Mentor</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-    </div>
-</header>
-
+            </header>
+        </div>
+    </header>
+    
     <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
