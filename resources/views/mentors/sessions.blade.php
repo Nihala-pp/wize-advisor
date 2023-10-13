@@ -311,7 +311,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @if(count($requested_sessions))
+                                    @if(count($requested_sessions))
                                         @foreach($requested_sessions as $requested_session)
                                         <tr>
                                             <td>
@@ -379,7 +379,7 @@
                                             </td>
                                         </tr>
                                         @endforeach
-                                        @endif
+                                    @endif
                                     </tbody>
                                 </table>
                             </div>
