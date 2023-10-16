@@ -219,27 +219,14 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-    $rule  =  array(
+    $validator = Validator::make($request->all(), [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
-    );
-
-    $request->validate([
-      'password' => [
-        'required',
-        'confirmed', Password::min(8)
-          ->letters()
-          ->mixedCase()
-          ->numbers()
-          ->symbols()
-      ],
-    ]);
-
-     $validator = Validator::make($data,$rule);
+  ]);
 
      if($validator->fails()) {
-       return Redirect::back()->withErrors($validator);
+       return view('schedule-call');
      }
      else {
 
