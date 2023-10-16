@@ -225,7 +225,7 @@ class HomeController extends Controller
       'timezone' => 'required',
     );
 
-     $validator = Validator::make($requestData,$rule);
+     $validator = Validator::make($data,$rule);
 
      if($validator->fails()) {
        return Redirect::back()->withErrors($validator);
