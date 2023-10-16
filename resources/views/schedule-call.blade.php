@@ -1092,7 +1092,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="container">
-                        <h5>sdsfsdfdg</h5>
+                        <h6 class="justify-content-center">sdsfsdfdg</h6>
                         <div class="row justify-content-center">
                             <div class="col-md-6 text-left mb-0 mt-3">
                                 <h2 class="heading-section"><b>Select a Date & Time</b></h2>
