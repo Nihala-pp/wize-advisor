@@ -219,19 +219,19 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-    $validator = Validator::make($data, [
+   Validator::make($data, [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
-    ]);
+    ])->validate();;
 
-    if ($validator->fails()) {
-      return response()->json([
-        'status' => false,
-        'message' => 'validation error',
-        'errors' => $validator->errors()
-      ], 401);
-    } else {
+    // if ($validator->fails()) {
+    //   return response()->json([
+    //     'status' => false,
+    //     'message' => 'validation error',
+    //     'errors' => $validator->errors()
+    //   ], 401);
+    // } else {
 
       // add secure_token_no for secure save (optional)
       // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
@@ -339,7 +339,7 @@ class HomeController extends Controller
       // Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
       return view('success', compact('details', 'mentor'));
-    }
+    // }
   }
 
   public function getTimeAvailability(Request $request)
