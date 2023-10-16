@@ -219,7 +219,7 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-    $validator = Validator::make($request->all(), [
+    $validator = Validator::make($requestData['data'], [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
