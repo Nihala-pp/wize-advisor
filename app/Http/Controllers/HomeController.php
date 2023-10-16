@@ -217,7 +217,7 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-    if (empty($data['time'])) {
+    if (empty($data['desc'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
@@ -227,7 +227,7 @@ class HomeController extends Controller
         location.reload();
       </script>
       <?php
-    } elseif (empty($data['desc'])) {
+    } elseif (empty($data['time'])) {
       ?>
       <script type="text/javascript">
         var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
