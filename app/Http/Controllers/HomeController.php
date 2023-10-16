@@ -220,7 +220,7 @@ class HomeController extends Controller
     if (empty($data['desc'])) {
       ?>
       <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call") }}';
         Id = "{{ $id }}";
         alert("Please choose the time slot");
         window.location.href = "' + custom_location + " / " + Id'";
@@ -230,7 +230,7 @@ class HomeController extends Controller
     } elseif (empty($data['time'])) {
       ?>
       <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call") }}';
         Id = "{{ $id }}";
         alert("Please fill the description");
         window.location.href = "' + custom_location + " / " + Id'";
@@ -240,7 +240,7 @@ class HomeController extends Controller
     } elseif (empty($data['timezone'])) {
       ?>
       <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call" }}';
+        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call") }}';
         Id = "{{ $id }}";
 
         alert("Please choose the timezone");
