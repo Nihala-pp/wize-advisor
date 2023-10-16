@@ -59,7 +59,7 @@ class HomeController extends Controller
     $review2 = Review::where('id', 15)->first();
     $review3 = Review::where('id', 14)->first();
     $review4 = Review::where('id', 16)->first();
-    $review5= Review::where('id', 9)->first();
+    $review5 = Review::where('id', 9)->first();
 
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
@@ -223,16 +223,15 @@ class HomeController extends Controller
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
-  ]);
+    ]);
 
-     if($validator->fails()) {
+    if ($validator->fails()) {
       return response()->json([
         'status' => false,
         'message' => 'validation error',
         'errors' => $validator->errors()
-    ], 401);
-     }
-     else {
+      ], 401);
+    } else {
 
       // add secure_token_no for secure save (optional)
       // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
@@ -307,9 +306,9 @@ class HomeController extends Controller
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-          'is_booked' => 1,
-          'call_id' => $call['id']
-        ]);
+            'is_booked' => 1,
+            'call_id' => $call['id']
+          ]);
 
       $mentor = User::find($data['mentor']);
       $user = User::find(Auth::id());
