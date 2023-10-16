@@ -28,6 +28,8 @@ use Illuminate\Support\Facades\Auth;
 use Hash;
 use Illuminate\Support\Facades\File;
 use App\Rules\ReCaptcha;
+use Illuminate\Support\Facades\Validator;
+use Redirect;
 
 
 class HomeController extends Controller
@@ -217,38 +219,18 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-    if (empty($data['desc'])) {
-      ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call") }}';
-        Id = "{{ $id }}";
-        alert("Please choose the time slot");
-        window.location.href = "' + custom_location + " / " + Id'";
-        location.reload();
-      </script>
-      <?php
-    } elseif (empty($data['time'])) {
-      ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call") }}';
-        Id = "{{ $id }}";
-        alert("Please fill the description");
-        window.location.href = "' + custom_location + " / " + Id'";
-        location.reload();
-      </script>
-      <?php
-    } elseif (empty($data['timezone'])) {
-      ?>
-      <script type="text/javascript">
-        var custom_location = '{{ url("https://wiseadvizor.com/schedule-call") }}';
-        Id = "{{ $id }}";
+    $rule  =  array(
+      'desc' => 'required',
+      'time' => 'required',
+      'timezone' => 'required',
+    );
 
-        alert("Please choose the timezone");
-        window.location.href = "' + custom_location + " / " + Id'";
-        location.reload();
-      </script>
-      <?php
-    } else {
+     $validator = Validator::make($requestData,$rule);
+
+     if($validator->fails()) {
+       return Redirect::back()->withErrors($validator);
+     }
+     else {
 
       // add secure_token_no for secure save (optional)
       // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
