@@ -223,7 +223,7 @@ class HomeController extends Controller
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
-    ])->validate();;
+    ])->validate();
 
     // if ($validator->fails()) {
     //   return response()->json([
