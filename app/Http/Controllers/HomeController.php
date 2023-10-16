@@ -225,6 +225,17 @@ class HomeController extends Controller
       'timezone' => 'required',
     );
 
+    $request->validate([
+      'password' => [
+        'required',
+        'confirmed', Password::min(8)
+          ->letters()
+          ->mixedCase()
+          ->numbers()
+          ->symbols()
+      ],
+    ]);
+
      $validator = Validator::make($data,$rule);
 
      if($validator->fails()) {
