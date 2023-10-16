@@ -1100,6 +1100,15 @@
                 <div class="card-body">
                     <div class="container">
                         <div class="row justify-content-center">
+                            @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            @endif
                             <div class="col-md-6 text-left mb-0 mt-3">
                                 <h2 class="heading-section"><b>Select a Date & Time</b></h2>
                             </div>
