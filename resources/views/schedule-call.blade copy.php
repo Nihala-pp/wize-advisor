@@ -935,7 +935,7 @@
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
         href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3') }}"
         media="all">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>=
+    <link rel="preconnect" href="https:///" crossorigin>=
     <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
     <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/2772') }}">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
