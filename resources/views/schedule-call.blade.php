@@ -1083,6 +1083,9 @@
                         <label class="form-label" style="color:black;">Description</label>
                         <textarea required="required" id="desc" class="form-control" rows="5" cols="5"
                             placeholder="Please have a quick explanation regarding the topic" name="desc"></textarea>
+                        @error('desc')
+                        <div class="error">{{ $message }}</div>
+                        @enderror
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
                 </div>
@@ -1092,11 +1095,11 @@
             <div class="card">
                 <div class="card-body">
                     <div class="container">
-                        <h6 class="justify-content-center">
+                        <!-- <h6 class="justify-content-center">
                             @if($errors->any())
                             {{ implode('', $errors->all('<div>:message</div>')) }}
                             @endif
-                        </h6>
+                        </h6> -->
                         <div class="row justify-content-center">
                             <div class="col-md-6 text-left mb-0 mt-3">
                                 <h2 class="heading-section"><b>Select a Date & Time</b></h2>
@@ -1116,6 +1119,9 @@
                                                     {{ $time }}</option>
                                                 @endforeach
                                             </select>
+                                            @error('timezone')
+                                            <div class="error">{{ $message }}</div>
+                                            @enderror
                                         </div>
                                         <div class="calendar">
                                             <div class="year-header">
