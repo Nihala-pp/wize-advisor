@@ -229,7 +229,7 @@ class HomeController extends Controller
       return response()->json([
         'status' => false,
         'message' => 'validation error',
-        'errors' => $validateData->errors()
+        'errors' => $validator->errors()
     ], 401);
      }
      else {
