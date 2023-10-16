@@ -1084,7 +1084,7 @@
                         <textarea required="required" id="desc" class="form-control @error('desc') is-invalid @enderror"
                             rows="5" cols="5" placeholder="Please have a quick explanation regarding the topic"
                             name="desc"></textarea>
-                        @errors('desc')
+                        @error('desc')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
                         </span>
