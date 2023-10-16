@@ -226,7 +226,11 @@ class HomeController extends Controller
   ]);
 
      if($validator->fails()) {
-       return view('schedule-call');
+      return response()->json([
+        'status' => false,
+        'message' => 'validation error',
+        'errors' => $validateData->errors()
+    ], 401);
      }
      else {
 
