@@ -2192,7 +2192,7 @@
                     success: function(response) {
                         $('.success').html(response);
                     },
-                    error: function(err) {
+                    error: function(error) {
                         let errors = error.responseJSON.errors
                         for (let key in errors) {
                             let errorDiv = $(`.error[data-error="${key}"]`);
