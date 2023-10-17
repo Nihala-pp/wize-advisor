@@ -1101,7 +1101,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             @if ($errors->any())
-                            {{ dd($errors); }}
+                            {{ dd($errors) }}
                             <div class="alert alert-danger">
                                 <ul>
                                     @foreach ($message as $message)
