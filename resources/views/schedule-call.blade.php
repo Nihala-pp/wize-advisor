@@ -1087,9 +1087,6 @@
                         <textarea required="required" id="desc" class="form-control @error('desc') is-invalid @enderror"
                             rows="5" cols="5" placeholder="Please have a quick explanation regarding the topic"
                             name="desc"></textarea>
-                        <!-- @if($errors->has('desc'))
-                        <div class="text-danger">{{ $errors->first('desc') }}</div>
-                        @endif -->
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
                 </div>
@@ -1120,9 +1117,6 @@
                                                     {{ $time }}</option>
                                                 @endforeach
                                             </select>
-                                            <!-- @if($errors->has('timezone'))
-                                            <div class="text-danger">{{ $errors->first('timezone') }}</div>
-                                            @endif -->
                                         </div>
                                         <div class="calendar">
                                             <div class="year-header">
