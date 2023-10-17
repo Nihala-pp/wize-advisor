@@ -2198,7 +2198,7 @@
                     },
                     error: function(response) {
                         console.log(response);
-                        $.each(response.responseJSON.errors, function(field_name,
+                        $.each(response.errors, function(field_name,
                         error) {
                             $(document).find('[name=' + field_name + ']').after(
                                 '<span class="text-strong textdanger">' +
