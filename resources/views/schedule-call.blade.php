@@ -1098,15 +1098,7 @@
                 <div class="card-body">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <!-- @if ($errors->any())
-                            <div class="alert alert-danger">
-                                <ul>
-                                    @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                            @endif -->
+                            <div class="errorMsgntainer"></div>
                             <div class="col-md-6 text-left mb-0 mt-3">
                                 <h2 class="heading-section"><b>Select a Date & Time</b></h2>
                             </div>
@@ -2196,15 +2188,14 @@
                     success: function(response) {
                         $('.success').html(response);
                     },
-                    error: function(xhr) {
-                        console.log(xhr);
-                        // $.each(xhr.responseJSON.errors, function(key, value) {
-                        //     $(document).find('[name=' + key + ']').after(
-                        //         '<span class="text-strong textdanger">' +
-                        //         value + '</span>')
-                            
-                        // });
-                    },
+                    error: function(err) {
+                        let error = err.responseJSON;
+                        $.each(error.errors, function(index, value) {
+                            $('.errorMsgntainer').append(
+                                '<span class="text-danger">' + value +
+                                '<span>' + '<br>');
+                        });
+                    }
                 });
             });
             // }
