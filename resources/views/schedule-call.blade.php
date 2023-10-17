@@ -2197,8 +2197,8 @@
                         let error = err.responseJSON;
                         $.each(error.errors, function(index, value) {
                             $(document).find('[name=' + index + ']').after(
-                                '<span class="text-strong textdanger">' +
-                                value + '</span>')
+                                '<span class="text-danger">' +
+                                value + '</span>' + '<br>');
 
                             // $('.errorMsgntainer').append(
                             //     '<span class="text-danger">' + value +
