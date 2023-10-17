@@ -219,15 +219,15 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-    $validator = Validator::make($data, [
+    Validator::make($data, [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
-    ]);
+    ])->validate();
 
-    if ($validator->fails()) {
-      return response()->json(['errors' => $validator->errors()->all()]);
-    }
+    // if ($validator->fails()) {
+    //   return response()->json(['errors' => $validator->errors()->all()]);
+    // }
 
     // if ($validator->fails()) {
     //   return response()->json([
@@ -259,7 +259,7 @@ class HomeController extends Controller
     // }
 
     // $file->move(public_path('assets/img/docs'), $new_name);
-    else {
+    // else {
       if ($request->hasFile('doc')) {
         $completeFileName = $request->file('doc')->getClientOriginalName();
         $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
@@ -343,7 +343,7 @@ class HomeController extends Controller
       Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
       return view('success', compact('details', 'mentor'));
-    }
+    // }
   }
 
   public function getTimeAvailability(Request $request)
