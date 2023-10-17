@@ -2198,12 +2198,12 @@
                     },
                     error: function(xhr) {
                         console.log(xhr);
-                        $.each(xhr.responseJSON.errors, function(key, value) {
-                            $(document).find('[name=' + key + ']').after(
-                                '<span class="text-strong textdanger">' +
-                                value + '</span>')
+                        // $.each(xhr.responseJSON.errors, function(key, value) {
+                        //     $(document).find('[name=' + key + ']').after(
+                        //         '<span class="text-strong textdanger">' +
+                        //         value + '</span>')
                             
-                        });
+                        // });
                     },
                 });
             });
