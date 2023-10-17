@@ -1085,9 +1085,9 @@
                         <textarea required="required" id="desc" class="form-control @error('desc') is-invalid @enderror"
                             rows="5" cols="5" placeholder="Please have a quick explanation regarding the topic"
                             name="desc"></textarea>
-                        @if($errors->has('desc'))
+                        <!-- @if($errors->has('desc'))
                         <div class="text-danger">{{ $errors->first('desc') }}</div>
-                        @endif
+                        @endif -->
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
                 </div>
@@ -1098,7 +1098,7 @@
                 <div class="card-body">
                     <div class="container">
                         <div class="row justify-content-center">
-                            @if ($errors->any())
+                            <!-- @if ($errors->any())
                             <div class="alert alert-danger">
                                 <ul>
                                     @foreach ($errors->all() as $error)
@@ -1106,7 +1106,7 @@
                                     @endforeach
                                 </ul>
                             </div>
-                            @endif
+                            @endif -->
                             <div class="col-md-6 text-left mb-0 mt-3">
                                 <h2 class="heading-section"><b>Select a Date & Time</b></h2>
                             </div>
@@ -1126,9 +1126,9 @@
                                                     {{ $time }}</option>
                                                 @endforeach
                                             </select>
-                                            @if($errors->has('timezone'))
+                                            <!-- @if($errors->has('timezone'))
                                             <div class="text-danger">{{ $errors->first('timezone') }}</div>
-                                            @endif
+                                            @endif -->
                                         </div>
                                         <div class="calendar">
                                             <div class="year-header">
@@ -2195,6 +2195,14 @@
                     },
                     success: function(response) {
                         $('.success').html(response);
+                    },
+                    error: function(response) {
+                        $.each(response.responseJSON.errors, function(field_name,
+                        error) {
+                            $(document).find('[name=' + field_name + ']').after(
+                                '<span class="text-strong textdanger">' +
+                                error + '</span>')
+                        })
                     }
                 });
             });
