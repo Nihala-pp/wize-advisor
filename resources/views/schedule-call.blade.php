@@ -2196,9 +2196,13 @@
                     error: function(err) {
                         let error = err.responseJSON;
                         $.each(error.errors, function(index, value) {
-                            $('.errorMsgntainer').append(
-                                '<span class="text-danger">' + value +
-                                '<span>' + '<br>');
+                            $(document).find('[name=' + index + ']').after(
+                                '<span class="text-strong textdanger">' +
+                                value + '</span>')
+
+                            // $('.errorMsgntainer').append(
+                            //     '<span class="text-danger">' + value +
+                            //     '<span>' + '<br>');
                         });
                     }
                 });
