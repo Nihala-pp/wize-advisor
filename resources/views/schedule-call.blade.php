@@ -1086,7 +1086,7 @@
                         <label class="form-label" style="color:black;">Description (Regarding the topic)</label>
                         <textarea required="required" id="desc" class="form-control" rows="5" cols="5"
                             name="desc"></textarea>
-                        <div class="text-danger error" data-error="desc"></div>
+                        <!-- <div class="text-danger error" data-error="desc"></div> -->
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
                 </div>
@@ -1116,7 +1116,7 @@
                                                     {{ $time }}</option>
                                                 @endforeach
                                             </select>
-                                            <div class="text-danger error" data-error="timezone"></div>
+                                            <!-- <div class="text-danger error" data-error="timezone"></div> -->
                                         </div>
                                         <div class="calendar">
                                             <div class="year-header">
@@ -2162,7 +2162,7 @@
 
             // function paynow() {
             $("body").on('click', '#payNow', function(e) {
-                // e.preventDefault();
+                e.preventDefault();
                 // $("form[name='scheduleCallForm']").submit(function(e) {
 
                 // var $form = document.getElementById('scheduleCallForm');
@@ -2192,14 +2192,26 @@
                     success: function(response) {
                         $('.success').html(response);
                     },
-                    error: function(error) {
-                        let errors = error.responseJSON.errors
-                        for (let key in errors) {
-                            let errorDiv = $(`.error[data-error="${key}"]`);
-                            if (errorDiv.length) {
-                                errorDiv.text(errors[key][0]);
-                            }
-                        }
+                    // error: function(error) {
+                    //     let errors = error.responseJSON.errors
+                    //     for (let key in errors) {
+                    //         let errorDiv = $(`.error[data-error="${key}"]`);
+                    //         if (errorDiv.length) {
+                    //             errorDiv.text(errors[key][0]);
+                    //         }
+                    //     }
+                    // }
+                    error: function(err) {
+                        let error = err.responseJSON;
+                        $.each(error.errors, function(index, value) {
+                            $(document).find('[name=' + index + ']').after(
+                                '<span class="text-danger error">' +
+                                value + '</span>' + '<br>');
+
+                            // $('.errorMsgntainer').append(
+                            //     '<span class="text-danger">' + value +
+                            //     '<span>' + '<br>');
+                        });
                     }
                 });
             });
