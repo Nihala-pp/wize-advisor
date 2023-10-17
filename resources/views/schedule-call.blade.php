@@ -2197,6 +2197,7 @@
                         $('.success').html(response);
                     },
                     error: function(response) {
+                        alert(response);
                         $.each(response.responseJSON.errors, function(field_name,
                         error) {
                             $(document).find('[name=' + field_name + ']').after(
