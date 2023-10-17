@@ -2196,15 +2196,14 @@
                     success: function(response) {
                         $('.success').html(response);
                     },
-                    error: function(response) {
-                        console.log(response);
-                        $.each(response.errors, function(field_name,
-                        error) {
-                            $(document).find('[name=' + field_name + ']').after(
+                    error: function(xhr) {
+                        $.each(xhr.responseJSON.errors, function(key, value) {
+                            $(document).find('[name=' + key + ']').after(
                                 '<span class="text-strong textdanger">' +
-                                error + '</span>')
-                        })
-                    }
+                                value + '</span>')
+                            
+                        });
+                    },
                 });
             });
             // }
