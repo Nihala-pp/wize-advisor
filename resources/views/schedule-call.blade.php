@@ -2162,7 +2162,7 @@
 
             // function paynow() {
             $("body").on('click', '#payNow', function(e) {
-                e.preventDefault();
+                // e.preventDefault();
                 // $("form[name='scheduleCallForm']").submit(function(e) {
 
                 // var $form = document.getElementById('scheduleCallForm');
