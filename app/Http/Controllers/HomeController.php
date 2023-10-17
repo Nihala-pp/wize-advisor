@@ -219,15 +219,15 @@ class HomeController extends Controller
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
-     Validator::make($data, [
+    $validator = Validator::make($data, [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
     ]);
 
-  //   if ($validator->fails()) {
-  //     return response()->json(['errors' => $validator->errors()->all()]);
-  // }
+    if ($validator->fails()) {
+      return response()->json(['errors' => $validator->errors()->all()]);
+    }
 
     // if ($validator->fails()) {
     //   return response()->json([
@@ -237,29 +237,29 @@ class HomeController extends Controller
     //   ], 401);
     // } else {
 
-      // add secure_token_no for secure save (optional)
-      // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
+    // add secure_token_no for secure save (optional)
+    // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
 
-      // $type = 'document_' . $request->secure_no_proof;
-      // $form_file = 'doc';
+    // $type = 'document_' . $request->secure_no_proof;
+    // $form_file = 'doc';
 
-      // Validation of file type
-      // $validation = \Validator::make($request->all(), [
-      //   $form_file => 'required|mimes:pdf,docx|max:2048' // maxsize = 2MB
-      // ]);
+    // Validation of file type
+    // $validation = \Validator::make($request->all(), [
+    //   $form_file => 'required|mimes:pdf,docx|max:2048' // maxsize = 2MB
+    // ]);
 
-      // $file = $request->file($form_file);
-      // $new_name = $type . '.' . $file->getClientOriginalExtension();
+    // $file = $request->file($form_file);
+    // $new_name = $type . '.' . $file->getClientOriginalExtension();
 
-      // $path = public_path() . '/assets/docs';
+    // $path = public_path() . '/assets/docs';
 
-      // If path is not exist
-      // if (!File::exists($path)) {
-      //   File::makeDirectory($path, $mode = 0777, true, true);
-      // }
+    // If path is not exist
+    // if (!File::exists($path)) {
+    //   File::makeDirectory($path, $mode = 0777, true, true);
+    // }
 
-      // $file->move(public_path('assets/img/docs'), $new_name);
-
+    // $file->move(public_path('assets/img/docs'), $new_name);
+    else {
       if ($request->hasFile('doc')) {
         $completeFileName = $request->file('doc')->getClientOriginalName();
         $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
@@ -343,7 +343,7 @@ class HomeController extends Controller
       Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
       return view('success', compact('details', 'mentor'));
-    // }
+    }
   }
 
   public function getTimeAvailability(Request $request)
