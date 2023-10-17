@@ -28,8 +28,8 @@ use Illuminate\Support\Facades\Auth;
 use Hash;
 use Illuminate\Support\Facades\File;
 use App\Rules\ReCaptcha;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Validator;
-use Redirect;
 
 
 class HomeController extends Controller
