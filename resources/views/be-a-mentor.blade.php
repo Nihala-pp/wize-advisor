@@ -1370,7 +1370,7 @@
         "use strict";
         $(document).ready(function() {
 
-            $('#charge').on('click', function() {
+            $('#charge').on('change', function() {
                  $('.price').show();
             });
 
