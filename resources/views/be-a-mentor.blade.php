@@ -28,15 +28,18 @@
                                     @csrf
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">First Name</label>
-                                        <input type="text" name="firstname" class="form-control" autocomplete="off" required>
+                                        <input type="text" name="firstname" class="form-control" autocomplete="off"
+                                            required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Last Name</label>
-                                        <input type="text" name="lastname" class="form-control" autocomplete="off" required>
+                                        <input type="text" name="lastname" class="form-control" autocomplete="off"
+                                            required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Email</label>
-                                        <input type="email" name="email" class="form-control" autocomplete="off" required>
+                                        <input type="email" name="email" class="form-control" autocomplete="off"
+                                            required>
                                     </div>
                                     <!-- <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
@@ -44,7 +47,8 @@
                                     </div> -->
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Linked-In Profile</label>
-                                        <input type="url" class="form-control" name="linked_in" autocomplete="off" required>
+                                        <input type="url" class="form-control" name="linked_in" autocomplete="off"
+                                            required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">What is your education background ?</label>
@@ -67,6 +71,16 @@
                                         <label class="form-label">Have you any experience in working as a mentor/advisor
                                             to
                                             a start-up ?</label>
+                                        <div class="form-check form-check-radio">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios1" value="option1">
+                                                Radio is off
+                                                <span class="circle">
+                                                    <span class="check"></span>
+                                                </span>
+                                            </label>
+                                        </div>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="customRadio1" value="yes">
