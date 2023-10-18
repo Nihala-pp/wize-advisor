@@ -100,6 +100,15 @@
                                         <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
                                             for
                                             your sessions ?</label>
+                                        <div class="form-check form-check-info text-start ps-0 mt-3">
+                                            <input
+                                                class="form-check-input"
+                                                type="checkbox" name="is_charged" value="yes" id="flexCheckDefault"
+                                                required>
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Yes
+                                            </label>
+                                        </div>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="is_charged"
                                                 id="customRadio1" value="yes">
