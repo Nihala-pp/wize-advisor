@@ -28,15 +28,15 @@
                                     @csrf
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">First Name</label>
-                                        <input type="text" name="firstname" class="form-control" required>
+                                        <input type="text" name="firstname" class="form-control" autocomplete="off" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Last Name</label>
-                                        <input type="text" name="lastname" class="form-control" required>
+                                        <input type="text" name="lastname" class="form-control" autocomplete="off" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Email</label>
-                                        <input type="email" name="email" class="form-control" required>
+                                        <input type="email" name="email" class="form-control" autocomplete="off" required>
                                     </div>
                                     <!-- <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
@@ -44,7 +44,7 @@
                                     </div> -->
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Linked-In Profile</label>
-                                        <input type="url" class="form-control" name="linked_in" required>
+                                        <input type="url" class="form-control" name="linked_in" autocomplete="off" required>
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">What is your education background ?</label>
