@@ -2968,8 +2968,9 @@
                                                 <p class="elementor-heading-title elementor-size-default">
                                                     @php
                                                     $text = str_ireplace(",", "\r\n", $data->metaData->articles);
+                                                    $articles = json_decode($text);
                                                     @endphp
-                                                    <a href="{{ json_decode($text) }}">{{ json_decode($text) }}</a>
+                                                    <a href="{{ $articles }}">{{ $articles }}</a>
                                                 </p>
                                             </div>
                                         </div>
