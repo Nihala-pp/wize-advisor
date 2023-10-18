@@ -359,8 +359,6 @@
                                                         <span class="elementor-button-text">Browse Mentors</span>
                                                     </span>
                                                 </a>
-                                                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-                                                <!-- </nav> -->
                                             </div>
                                         </div>
                                     </div>
