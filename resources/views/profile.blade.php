@@ -2971,7 +2971,7 @@
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
                                                     <a
-                                                        href="https://baladnaelyoum.com/news/603318">{{ $article }}</a>
+                                                        href="{{ $article }}">{{ $article }}</a>
                                                 </p>
                                             </div>
                                         </div>
