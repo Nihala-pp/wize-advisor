@@ -2969,7 +2969,7 @@
                                                     @php
                                                     $text = str_ireplace(",", "\r\n", $data->metaData->articles);
                                                     @endphp
-                                                    <a href="{{ $text }}">{{ $text }}</a>
+                                                    <a href="{{ json_decode($text) }}">{{ json_decode($text) }}</a>
                                                 </p>
                                             </div>
                                         </div>
