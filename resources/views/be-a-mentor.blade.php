@@ -24,7 +24,7 @@
                         </div>
                         <div class="card-body">
                             <div class="row" id="row">
-                                <form method="POST" action="{{ route('addMentorRequest') }}">
+                                <form method="POST" action="{{ route('addMentorRequest') }}" autocomplete="off">
                                     @csrf
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">First Name</label>
