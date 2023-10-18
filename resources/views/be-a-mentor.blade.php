@@ -1371,6 +1371,7 @@
         $(document).ready(function() {
 
             $('#charge').on('change', function() {
+                alert("sdfsfds");
                  $('.price').show();
             });
 
