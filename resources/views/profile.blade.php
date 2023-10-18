@@ -2967,8 +2967,7 @@
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
                                                     @php
-                                                    $text = str_ireplace(",", "\r\n", $data->metaData->articles);
-                                                    $articles = json_decode($text);
+                                                    $articles = json_decode($data->metaData->articles);
                                                     @endphp
                                                     <a href="{{ $articles }}">{{ $articles }}</a>
                                                 </p>
