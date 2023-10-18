@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-@php header('Access-Control-Allow-Origin: *'); @endphp
-
 @include('partials.web-header')
 
 <body
