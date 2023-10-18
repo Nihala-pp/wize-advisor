@@ -2926,7 +2926,7 @@
                 </div>
             </div>
         </section>
-        @if(!empty($data->metaData->achievements))
+        @if(!empty($data->metaData->articles))
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-de2b30f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="de2b30f" data-element_type="section"
