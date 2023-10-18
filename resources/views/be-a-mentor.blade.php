@@ -93,12 +93,13 @@
                                         <input type="number" class="form-control" name="weekly_session">
                                     </div>
                                     <div>
-                                        <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
+                                        <label for="exampleFormControlSelect1" class="ms-0">Are you looking to
+                                            charge
                                             for
                                             your sessions ?</label>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="is_charged"
-                                                id="customRadio1" value="yes">
+                                                id="customRadio1 charge" value="yes">
                                             <label class="custom-control-label" for="customRadio1">Yes</label>
                                         </div>
                                         <div class="form-check">
@@ -107,7 +108,7 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group input-group-outline my-3 price" style="display:none;">
                                         <label class="form-label">How much are you looking to charge per session ? (In
                                             USD)</label>
                                         <input type="number" class="form-control" name="price_per_session">
@@ -1368,6 +1369,11 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
+
+            $('#charge').on('click', function() {
+                 $('.price').show();
+            });
+
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
                 items: 4,
