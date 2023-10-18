@@ -71,17 +71,16 @@
                                         <label class="form-label">Have you any experience in working as a mentor/advisor
                                             to
                                             a start-up ?</label>
-                                        <div class="form-check form-check-radio">
+                                        <div class="form-check">
                                             <label class="form-check-label">
-                                                <input class="form-check-input" type="radio" name="exampleRadios"
-                                                    id="exampleRadios1" value="option1">
-                                                Radio is off
-                                                <span class="circle">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Option one is this and that&mdash;be sure to include why it's great
+                                                <span class="form-check-sign">
                                                     <span class="check"></span>
                                                 </span>
                                             </label>
                                         </div>
-                                        <div class="form-check mb-3">
+                                        <!-- <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="customRadio1" value="yes">
                                             <label class="custom-control-label" for="customRadio1">Yes</label>
@@ -90,7 +89,7 @@
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="customRadio2" value="no">
                                             <label class="custom-control-label" for="customRadio2">No</label>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">How many 30 minutes session you can conduct weekly
