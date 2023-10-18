@@ -2961,18 +2961,17 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
 
+                                        @foreach($articles as $article)
                                         <div class="elementor-element elementor-element-2301d67 elementor-widget elementor-widget-heading"
                                             data-id="2301d67" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    @php
-                                                    $articles = json_decode($data->metaData->articles);
-                                                    @endphp
-                                                    <a href="{{ $articles }}">{{ $articles }}</a>
+                                                    <a href="{{ $article->name }}">{{ $article->name }}</a>
                                                 </p>
                                             </div>
                                         </div>
+                                        @endforeach
                                         <!-- <div class="elementor-element elementor-element-42fc597 elementor-widget elementor-widget-heading"
                                             data-id="42fc597" data-element_type="widget"
                                             data-widget_type="heading.default">
