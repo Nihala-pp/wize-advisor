@@ -2961,7 +2961,6 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
 
-                                        <!-- @foreach(json_decode($articles) as $article) -->
                                         <div class="elementor-element elementor-element-2301d67 elementor-widget elementor-widget-heading"
                                             data-id="2301d67" data-element_type="widget"
                                             data-widget_type="heading.default">
@@ -2974,7 +2973,6 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <!-- @endforeach -->
                                         <!-- <div class="elementor-element elementor-element-42fc597 elementor-widget elementor-widget-heading"
                                             data-id="42fc597" data-element_type="widget"
                                             data-widget_type="heading.default">
