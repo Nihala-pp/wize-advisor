@@ -2960,22 +2960,21 @@
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
-                                        @php
-                                        $articles = $data->metaData ? $data->metaData->articles : '';
-                                        @endphp
 
-                                        @foreach(json_decode($articles) as $article)
+                                        <!-- @foreach(json_decode($articles) as $article) -->
                                         <div class="elementor-element elementor-element-2301d67 elementor-widget elementor-widget-heading"
                                             data-id="2301d67" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    <a
-                                                        href="{{ $article }}">{{ $article }}</a>
+                                                    @php
+                                                    $text = str_ireplace(",", "\r\n", $data->metaData->articles);
+                                                    @endphp
+                                                    <a href="{{ $text }}">{{ $text }}</a>
                                                 </p>
                                             </div>
                                         </div>
-                                        @endforeach
+                                        <!-- @endforeach -->
                                         <!-- <div class="elementor-element elementor-element-42fc597 elementor-widget elementor-widget-heading"
                                             data-id="42fc597" data-element_type="widget"
                                             data-widget_type="heading.default">
