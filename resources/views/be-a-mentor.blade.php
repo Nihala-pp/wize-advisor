@@ -99,10 +99,8 @@
                                             for
                                             your sessions ?</label>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
-                                            <input
-                                                class="form-check-input"
-                                                type="checkbox" name="is_charged" value="yes" id="flexCheckDefault"
-                                                required>
+                                            <input class="form-check-input" type="checkbox" name="is_charged"
+                                                value="yes" id="flexCheckDefault" required>
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 Yes
                                             </label>
