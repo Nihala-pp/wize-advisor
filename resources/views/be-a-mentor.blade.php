@@ -1443,6 +1443,7 @@
 
         $('input[type="radio"]').click(function() {
             if ($('#charge').is(':checked')) {
+                alert("wdsdsfds");
                 $('.price').show();
             } else {
                 $('.price').hide();
