@@ -2,7 +2,7 @@
 <html lang="en-US">
 @include('partials.web-header')
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
+<!-- <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}"> -->
     <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 <body
