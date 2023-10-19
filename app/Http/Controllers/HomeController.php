@@ -193,7 +193,14 @@ class HomeController extends Controller
     ];
 
     MentorJoinRequest::create($data);
-    echo ("Request Submitted Succcessfully");
+
+    $notification = array(
+      'message' => 'Be a Mentor Requested Successfully!',
+      'alert-type' => 'success'
+  );
+
+  return redirect()->route('be-a-mentor')
+      ->with($notification, 'Availability Updated Successfully!');
   }
 
   public function scheduleCall($id)
