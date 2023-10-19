@@ -1442,6 +1442,7 @@
         $('#price').hide();
 
         $('input[type="radio"]').click(function() {
+            alert($(this).attr('id'));
             if ($(this).attr('id') == 'yes') {
                 $('#price').show();
             } else {
