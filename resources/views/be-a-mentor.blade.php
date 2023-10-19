@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <!-- @include('partials.web-header') -->
 @include('partials.header')
-
 
 <body
     class="page-template page-template-elementor_canvas page page-id-4301 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4301">
@@ -65,8 +63,7 @@
                                     </div>
                                     <div>
                                         <label class="form-label">Have you any experience in working as a mentor/advisor
-                                            to
-                                            a start-up ?</label>
+                                            to a start-up ?</label>
                                         <!-- <div class="form-check">
                                             <label class="form-check-label">
                                                 <input class="form-check-input" type="checkbox" value="">
@@ -93,10 +90,8 @@
                                         <input type="number" class="form-control" name="weekly_session">
                                     </div>
                                     <div>
-                                        <label for="exampleFormControlSelect1" class="ms-0">Are you looking to
-                                            charge
-                                            for
-                                            your sessions ?</label>
+                                        <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
+                                            for your sessions ?</label>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="is_charged"
                                                 id="customRadio1 charge" value="yes">
@@ -1375,7 +1370,7 @@
         "use strict";
         $(document).ready(function() {
 
-            $('#charge').on('change', function() {
+            $("body").on('change', '#charge', function(e) {
                 alert("sdfsfds");
                 $('.price').show();
             });
