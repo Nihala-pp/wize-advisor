@@ -84,12 +84,12 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group input-group-outline my-3 professional">
                                         <label class="form-label">How many 30 minutes session you can conduct weekly
                                             ?</label>
                                         <input type="number" class="form-control" name="weekly_session">
                                     </div>
-                                    <div>
+                                    <div class="professional">
                                         <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
                                             for your sessions ?</label>
                                         <div class="form-check mb-3">
