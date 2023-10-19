@@ -200,7 +200,7 @@ class HomeController extends Controller
   );
 
   return redirect()->route('be-a-mentor')
-      ->with($notification, 'Availability Updated Successfully!');
+      ->with($notification, 'Be a Mentor Requested Successfully!');
   }
 
   public function scheduleCall($id)
