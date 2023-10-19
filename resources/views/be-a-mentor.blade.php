@@ -108,7 +108,7 @@
                                             USD)</label>
                                         <input type="number" class="form-control" name="price_per_session">
                                     </div>
-                                    <div>
+                                    <div class="professional">
                                         <label class="form-label">What are your areas of expertise ? (Type and Press
                                             Enter)</label>
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
