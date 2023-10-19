@@ -48,11 +48,11 @@
                                         <label class="form-label">What is your education background ?</label>
                                         <input type="text" name="qualification" class="form-control" required>
                                     </div>
-                                    <div class="input-group input-group-static mb-4">
-                                        <label for="exampleFormControlSelect1" class="ms-0 professional">What is your professional
+                                    <div class="input-group input-group-static mb-4 professional">
+                                        <label for="exampleFormControlSelect1" class="ms-0">What is your professional
                                             status
                                             ?</label>
-                                        <select class="form-control professional" id="exampleFormControlSelect1" name="designation">
+                                        <select class="form-control" id="exampleFormControlSelect1" name="designation">
                                             <option value="business_owner">Business Owner</option>
                                             <option value="startup_owner">Startup Owner</option>
                                             <option value="freelancer">Freelancer</option>
