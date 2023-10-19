@@ -75,15 +75,6 @@
                                                 </span>
                                             </label>
                                         </div> -->
-                                        <div class="form-check form-check-radio">
-    <label class="form-check-label">
-        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
-        Radio is off
-        <span class="circle">
-            <span class="check"></span>
-        </span>
-    </label>
-</div>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="customRadio1" value="yes">
