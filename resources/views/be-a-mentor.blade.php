@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 @include('partials.web-header')
+
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
     <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-4301 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4301">
     @include('partials.menu')
@@ -96,8 +98,8 @@
                                         <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
                                             for your sessions ?</label>
                                         <div class="form-check mb-3">
-                                            <input class="form-check-input" type="radio" name="is_charged"
-                                                id="charge" value="yes">
+                                            <input class="form-check-input" type="radio" name="is_charged" id="charge"
+                                                value="yes">
                                             <label class="custom-control-label" for="customRadio1">Yes</label>
                                         </div>
                                         <div class="form-check">
@@ -117,7 +119,8 @@
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
                                             data-color="dark" type="text" required>
                                     </div>
-                                    <button class="btn btn-primary" type="submit" name="submitform" id="submitform">Submit</button>
+                                    <button class="btn btn-primary" type="submit" name="submitform"
+                                        id="submitform">Submit</button>
 
                                     <!-- <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button> -->
@@ -1069,8 +1072,8 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"> 
-    </script> 
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    </script>
     <!-- <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
@@ -1359,12 +1362,12 @@
     <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script> -->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> 
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script src="{{ asset('public/assets/js/plugins/choices.min.js') }}"></script>
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script> -->
@@ -1400,7 +1403,7 @@
         });
     });
     </script>
-     <script>
+    <script>
     @if(Session::has('message'))
     var type = "{{ Session::get('alert-type','info') }}"
 
@@ -1439,4 +1442,5 @@ i.fas.fa-bell.fa-2xl {
     padding-left: 5px;
 }
 </style>
+
 </html>
