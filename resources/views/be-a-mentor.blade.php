@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<!-- @include('partials.web-header') -->
-@include('partials.header')
+@include('partials.web-header')
 
 <body
     class="page-template page-template-elementor_canvas page page-id-4301 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4301">
