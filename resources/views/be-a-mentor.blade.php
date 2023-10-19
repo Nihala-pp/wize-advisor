@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
 @include('partials.web-header')
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 <body
     class="page-template page-template-elementor_canvas page page-id-4301 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4301">
     @include('partials.menu')
@@ -1362,6 +1365,7 @@
     </script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <!-- <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
     <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
@@ -1450,6 +1454,26 @@
             }
         });
     });
+    </script>
+     <script>
+    @if(Session::has('message'))
+    var type = "{{ Session::get('alert-type','info') }}"
+
+    switch (type) {
+        case 'info':
+            toastr.info("{{ Session::get('message') }}");
+            break;
+        case 'success':
+            toastr.success("{{ Session::get('message') }}");
+            break;
+        case 'warning':
+            toastr.warning("{{ Session::get('message') }}");
+            break;
+        case 'error':
+            toastr.error("{{ Session::get('message') }}");
+            break;
+    }
+    @endif
     </script>
     <!--End of Tawk.to Script-->
 </body>
