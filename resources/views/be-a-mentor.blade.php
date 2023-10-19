@@ -1066,14 +1066,14 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
         id="jquery.mousewheel.min-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
         id="niso-carousel-lightbox.min-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"> -->
     </script>
     <script id="qi-addons-for-elementor-script-js-extra">
     var qodefQiAddonsGlobal = {
@@ -1085,22 +1085,22 @@
         }
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
+    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
         id="qi-addons-for-elementor-script-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
     </script>
     <script src="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688994499"
-        id="theplus-front-js-js" defer></script>
+        id="theplus-front-js-js" defer></script> -->
     <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
         id="hfe-frontend-js-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
+    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
         id="elementor-frontend-modules-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-        id="elementor-waypoints-js"></script>
+        id="elementor-waypoints-js"></script> -->
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
@@ -1240,12 +1240,12 @@
         'text directionltr': ['ltr']
     });
     </script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2"
-        id="qi-addons-for-elementor-elementor-js"></script>
-    <script
+        id="qi-addons-for-elementor-elementor-js"></script> -->
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0"
-        id="elementor-pro-webpack-runtime-js"></script>
+        id="elementor-pro-webpack-runtime-js"></script> -->
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -1353,16 +1353,16 @@
         "recaptcha_type": "v2"
     };
     </script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
-        id="wpforms-elementor-js"></script>
+        id="wpforms-elementor-js"></script> -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script> -->
     <!-- <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
     <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
