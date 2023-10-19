@@ -1373,63 +1373,6 @@
     <!-- <script src="{{ asset('public/assets/js/jquery-1.10.2.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>
     <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
-
-    <script type="text/javascript">
-    (function($) {
-        "use strict";
-        $(document).ready(function() {
-
-            // $("body").on('change', '#charge', function(e) {
-            //     alert("sdfsfds");
-            //     $('.price').show();
-            // });
-
-            $('#niso-carousel-952.owl-carousel').owlCarousel({
-                //Multiple carousel settings
-                items: 4,
-                loop: true,
-                autoplay: true,
-                autoplaySpeed: 300,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                slideBy: 1,
-                smartSpeed: 250,
-                nav: false,
-                dots: true,
-                dotsSpeed: 250,
-                mouseDrag: true,
-                touchDrag: true,
-                pullDrag: true,
-                freeDrag: false,
-                center: false,
-                stagePadding: 0,
-                startPosition: 0,
-                lazyLoad: false,
-                rtl: false,
-                video: false,
-                autoHeight: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    600: {
-                        items: 2,
-                    },
-                    960: {
-                        items: 3,
-                    },
-                    1300: {
-                        items: 4,
-                    }
-                }
-            })
-
-
-
-        });
-    }(jQuery));
-    </script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
