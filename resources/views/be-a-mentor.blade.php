@@ -1439,11 +1439,10 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $('input[type="radio"]').click(function() {
-
             if ($('#charge').is(':checked')) {
-                alert("Radio Button Is checked!");
+                $('.price').show();
             } else {
-                alert("Radio Button Is not checked :( ");
+                $('.price').hide();
             }
         });
     });
