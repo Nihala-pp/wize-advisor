@@ -114,8 +114,10 @@
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
                                             data-color="dark" type="text" required>
                                     </div>
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                    <button class="btn btn-primary" type="submit">Submit</button>
+
+                                    <!-- <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button> -->
                                 </form>
                                 <!-- </div> -->
                             </div>
