@@ -4,6 +4,7 @@
 
 @include('partials.web-header-new')
 @include('partials.header')
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     @include('partials.menu')
@@ -62,6 +63,20 @@
                                             <option value="other">Other</option>
                                         </select>
                                     </div>
+                                    <div class="form-check form-check-info text-start ps-0 mt-3">
+                                        <input class="form-check-input @error('terms_condition') is-invalid @enderror"
+                                            type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
+                                            required>
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            I agree the <a href="{{ route('termsConditions') }}"
+                                                class="text-dark font-weight-bolder">Terms and Conditions</a>
+                                        </label>
+                                        @error('terms_condition')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
+                                    </div>
                                     <div class="">
                                         <label>Have you any experience in working as a mentor/advisor
                                             to a start-up ?</label>
@@ -74,13 +89,6 @@
                                                 </span>
                                             </label>
                                         </div> -->
-                                        <div class="form-check form-switch d-flex align-items-center mb-3">
-                                        <input class="form-check-input" type="checkbox" name="remember" id="remember"
-                                            {{ old('remember') ? 'checked' : '' }}>
-                                        <label class="form-check-label mb-0 ms-2" for="rememberMe">
-                                            {{ __('Remember Me') }}
-                                        </label>
-                                    </div>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="customRadio1" value="yes">
