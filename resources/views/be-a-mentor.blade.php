@@ -49,7 +49,7 @@
                                         <label class="">What is your education background ?</label>
                                         <input type="text" name="qualification" class="form-control" required>
                                     </div>
-                                    <div class="input-group input-group-static mb-4 professional">
+                                    <div class="input-group input-group-static mb-4">
                                         <label class="">What is your professional
                                             status
                                             ?</label>
@@ -62,7 +62,7 @@
                                             <option value="other">Other</option>
                                         </select>
                                     </div>
-                                    <div class="professional">
+                                    <div class="">
                                         <label>Have you any experience in working as a mentor/advisor
                                             to a start-up ?</label>
                                         <!-- <div class="form-check">
@@ -85,12 +85,12 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-static mb-3 session">
+                                    <div class="input-group input-group-static mb-3">
                                         <label class="">How many 30 minutes session you can conduct weekly
                                             ?</label>
                                         <input type="number" class="form-control" name="weekly_session">
                                     </div>
-                                    <div class="professional">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
                                             for your sessions ?</label>
                                         <div class="form-check mb-3">
@@ -109,7 +109,7 @@
                                             USD)</label>
                                         <input type="number" class="form-control" name="price_per_session">
                                     </div>
-                                    <div class="professional">
+                                    <div class="">
                                         <label class="">What are your areas of expertise ? (Type and Press
                                             Enter)</label>
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
