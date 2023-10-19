@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-@include('partials.web-header')
+<!-- @include('partials.web-header') -->
 @include('partials.header')
 
 <body
