@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 @include('partials.web-header')
+
 <body
     class="page-template page-template-elementor_canvas page page-id-4301 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4301">
     @include('partials.menu')
@@ -19,17 +20,17 @@
                                 <form method="POST" action="{{ route('addMentorRequest') }}" autocomplete="off">
                                     @csrf
                                     <div class="input-group input-group-static mb-3">
-                                        <label >First Name</label>
+                                        <label class="">First Name</label>
                                         <input type="text" name="firstname" class="form-control" autocomplete="off"
                                             required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
-                                        <label class="form-label">Last Name</label>
+                                        <label class="">Last Name</label>
                                         <input type="text" name="lastname" class="form-control" autocomplete="off"
                                             required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
-                                        <label class="form-label">Email</label>
+                                        <label class="">Email</label>
                                         <input type="email" name="email" class="form-control" autocomplete="off"
                                             required>
                                     </div>
@@ -38,16 +39,16 @@
                                         <input type="tel" name="phone" class="form-control" >
                                     </div> -->
                                     <div class="input-group input-group-static mb-3">
-                                        <label >Linked-In Profile</label>
+                                        <label class="">Linked-In Profile</label>
                                         <input type="url" class="form-control" name="linked_in" autocomplete="off"
                                             required>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
-                                        <label>What is your education background ?</label>
+                                        <label class="">What is your education background ?</label>
                                         <input type="text" name="qualification" class="form-control" required>
                                     </div>
                                     <div class="input-group input-group-static mb-4 professional">
-                                        <label >What is your professional
+                                        <label class="">What is your professional
                                             status
                                             ?</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="designation">
@@ -83,7 +84,7 @@
                                         </div>
                                     </div>
                                     <div class="input-group input-group-static mb-3 session">
-                                        <label>How many 30 minutes session you can conduct weekly
+                                        <label class="">How many 30 minutes session you can conduct weekly
                                             ?</label>
                                         <input type="number" class="form-control" name="weekly_session">
                                     </div>
@@ -102,12 +103,12 @@
                                         </div>
                                     </div>
                                     <div class="input-group input-group-static mb-3 price" id="price">
-                                        <label >How much are you looking to charge per session ? (In
+                                        <label class="">How much are you looking to charge per session ? (In
                                             USD)</label>
                                         <input type="number" class="form-control" name="price_per_session">
                                     </div>
                                     <div class="professional">
-                                        <label >What are your areas of expertise ? (Type and Press
+                                        <label class="">What are your areas of expertise ? (Type and Press
                                             Enter)</label>
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
                                             data-color="dark" type="text" required>
