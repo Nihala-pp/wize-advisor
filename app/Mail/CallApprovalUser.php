@@ -31,7 +31,7 @@ class CallApprovalUser extends Mailable
     {
         return new Envelope(
             subject: 'wiseAdvizor_Call with the Mentor is Approved !',
-            bcc: ['nihala-pp@wiseadvizor.com', 'ankur.sharma@wiseadvizor.com', 'deep.shikha@wiseadvizor.com']
+            bcc: ['nihala-pp@wiseadvizor.com', 'info@wiseadvizor.com']
         );
     }
 
