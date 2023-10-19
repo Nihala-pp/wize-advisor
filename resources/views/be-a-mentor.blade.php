@@ -18,17 +18,17 @@
                             <div class="row" id="row">
                                 <form method="POST" action="{{ route('addMentorRequest') }}" autocomplete="off">
                                     @csrf
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">First Name</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label >First Name</label>
                                         <input type="text" name="firstname" class="form-control" autocomplete="off"
                                             required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group input-group-static mb-3">
                                         <label class="form-label">Last Name</label>
                                         <input type="text" name="lastname" class="form-control" autocomplete="off"
                                             required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group input-group-static mb-3">
                                         <label class="form-label">Email</label>
                                         <input type="email" name="email" class="form-control" autocomplete="off"
                                             required>
@@ -37,17 +37,17 @@
                                         <label class="form-label">Phone</label>
                                         <input type="tel" name="phone" class="form-control" >
                                     </div> -->
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">Linked-In Profile</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label >Linked-In Profile</label>
                                         <input type="url" class="form-control" name="linked_in" autocomplete="off"
                                             required>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
-                                        <label class="form-label">What is your education background ?</label>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label>What is your education background ?</label>
                                         <input type="text" name="qualification" class="form-control" required>
                                     </div>
                                     <div class="input-group input-group-static mb-4 professional">
-                                        <label for="exampleFormControlSelect1" class="ms-0">What is your professional
+                                        <label >What is your professional
                                             status
                                             ?</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="designation">
@@ -60,7 +60,7 @@
                                         </select>
                                     </div>
                                     <div class="professional">
-                                        <label class="form-label">Have you any experience in working as a mentor/advisor
+                                        <label>Have you any experience in working as a mentor/advisor
                                             to a start-up ?</label>
                                         <!-- <div class="form-check">
                                             <label class="form-check-label">
@@ -82,8 +82,8 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-outline my-3 session">
-                                        <label class="form-label">How many 30 minutes session you can conduct weekly
+                                    <div class="input-group input-group-static mb-3 session">
+                                        <label>How many 30 minutes session you can conduct weekly
                                             ?</label>
                                         <input type="number" class="form-control" name="weekly_session">
                                     </div>
@@ -101,13 +101,13 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-outline my-3 price" id="price">
-                                        <label class="form-label">How much are you looking to charge per session ? (In
+                                    <div class="input-group input-group-static mb-3 price" id="price">
+                                        <label >How much are you looking to charge per session ? (In
                                             USD)</label>
                                         <input type="number" class="form-control" name="price_per_session">
                                     </div>
                                     <div class="professional">
-                                        <label class="form-label">What are your areas of expertise ? (Type and Press
+                                        <label >What are your areas of expertise ? (Type and Press
                                             Enter)</label>
                                         <input name="expertise[]" class="form-control" id="expertise-tags"
                                             data-color="dark" type="text" required>
