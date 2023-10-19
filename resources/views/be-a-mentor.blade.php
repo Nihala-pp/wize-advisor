@@ -1442,8 +1442,8 @@
         $('#price').hide();
 
         $('input[type="radio"]').click(function() {
-            alert($(this).attr('id'));
             if ($(this).attr('id') == 'yes') {
+                alert(3455);
                 $('#price').show();
             } else {
                 $('#price').hide();
