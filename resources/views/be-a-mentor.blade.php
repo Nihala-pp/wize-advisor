@@ -84,7 +84,7 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-outline my-3">
+                                    <div class="input-group input-group-outline my-3 session">
                                         <label class="form-label">How many 30 minutes session you can conduct weekly
                                             ?</label>
                                         <input type="number" class="form-control" name="weekly_session">
@@ -1463,6 +1463,10 @@ i.fas.fa-bell.fa-2xl {
 
 .professional {
     padding-left: 15px;
+}
+
+.session {
+    padding-left: 5px;
 }
 </style>
 
