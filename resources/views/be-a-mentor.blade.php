@@ -63,6 +63,15 @@
                                             <option value="other">Other</option>
                                         </select>
                                     </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            Option one is this and that&mdash;be sure to include why it's great
+                                            <span class="form-check-sign">
+                                                <span class="check"></span>
+                                            </span>
+                                        </label>
+                                    </div>
                                     <div class="">
                                         <label>Have you any experience in working as a mentor/advisor
                                             to a start-up ?</label>
