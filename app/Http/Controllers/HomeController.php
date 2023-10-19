@@ -194,13 +194,12 @@ class HomeController extends Controller
 
     MentorJoinRequest::create($data);
 
-    $notification = array(
-      'message' => 'Be a Mentor Requested Successfully!',
-      'alert-type' => 'success'
-  );
-
-  return redirect()->route('be-a-mentor')
-      ->with($notification, 'Be a Mentor Requested Successfully!');
+    ?>
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall($id)
@@ -269,89 +268,89 @@ class HomeController extends Controller
 
     // $file->move(public_path('assets/img/docs'), $new_name);
     // else {
-      if ($request->hasFile('doc')) {
-        $completeFileName = $request->file('doc')->getClientOriginalName();
-        $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
-        $extension = $request->file('doc')->getClientOriginalExtension();
-        $compPic = str_replace(' ', '_', $fileNameOnly) . '-' . rand() . '_' . time() . '.' . $extension;
-        $path = $request->file('doc')->storeAs('public/assets/img/docs', $compPic);
-        $request->doc = 'docs/' . $compPic;
-      } else {
-        $request->doc = '';
-      }
+    if ($request->hasFile('doc')) {
+      $completeFileName = $request->file('doc')->getClientOriginalName();
+      $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
+      $extension = $request->file('doc')->getClientOriginalExtension();
+      $compPic = str_replace(' ', '_', $fileNameOnly) . '-' . rand() . '_' . time() . '.' . $extension;
+      $path = $request->file('doc')->storeAs('public/assets/img/docs', $compPic);
+      $request->doc = 'docs/' . $compPic;
+    } else {
+      $request->doc = '';
+    }
 
-      // $file->move(public_path('uploads/Registration'), $new_name);
+    // $file->move(public_path('uploads/Registration'), $new_name);
 
-      // $document = time() . '.' . $request->doc->getClientOriginalExtension();
-      // $request->doc->move(public_path('assets/docs'), $document);
+    // $document = time() . '.' . $request->doc->getClientOriginalExtension();
+    // $request->doc->move(public_path('assets/docs'), $document);
 
-      $month = $data['month'];
-      $nmonth = date("m", strtotime($data['month']));
-      $date = $data['year'] . '-' . $nmonth . '-' . $data['day'];
-      $start_time = Carbon::parse($data['time'])->format('H:i');
-      $end_time = Carbon::parse($data['time'])->addMinutes($data['duration']);
-      $finish_time = $end_time->toTimeString();
+    $month = $data['month'];
+    $nmonth = date("m", strtotime($data['month']));
+    $date = $data['year'] . '-' . $nmonth . '-' . $data['day'];
+    $start_time = Carbon::parse($data['time'])->format('H:i');
+    $end_time = Carbon::parse($data['time'])->addMinutes($data['duration']);
+    $finish_time = $end_time->toTimeString();
 
-      $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', Carbon::parse($date)->format('Y-m-d'))->first();
+    $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', Carbon::parse($date)->format('Y-m-d'))->first();
 
-      $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
+    $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
 
-      $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+    $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-      $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
+    $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
-      $call = ScheduledCall::create([
-        'user_id' => Auth::id(),
-        'mentor_id' => $data['mentor'],
-        'price' => $data['price'],
-        'date' => $date,
-        'duration' => $data['duration'],
-        'start_time' => $data['time'],
-        'end_time' => $finish_time,
-        'utc' => $data['timezone'],
-        'status' => 'Pending',
-        'description' => $data['desc'],
-        'documents' => $request->doc
+    $call = ScheduledCall::create([
+      'user_id' => Auth::id(),
+      'mentor_id' => $data['mentor'],
+      'price' => $data['price'],
+      'date' => $date,
+      'duration' => $data['duration'],
+      'start_time' => $data['time'],
+      'end_time' => $finish_time,
+      'utc' => $data['timezone'],
+      'status' => 'Pending',
+      'description' => $data['desc'],
+      'documents' => $request->doc
+    ]);
+
+    AvailableSchedule::where('mentor_id', $data['mentor'])
+      ->where('date', Carbon::parse($date)->format('Y-m-d'))
+      ->where('start_time', $user_timezone->format('H:i:s'))
+      ->first()
+      ->update([
+        'is_booked' => 1,
+        'call_id' => $call['id']
       ]);
 
-      AvailableSchedule::where('mentor_id', $data['mentor'])
-        ->where('date', Carbon::parse($date)->format('Y-m-d'))
-        ->where('start_time', $user_timezone->format('H:i:s'))
-        ->first()
-        ->update([
-            'is_booked' => 1,
-            'call_id' => $call['id']
-          ]);
+    $mentor = User::find($data['mentor']);
+    $user = User::find(Auth::id());
 
-      $mentor = User::find($data['mentor']);
-      $user = User::find(Auth::id());
+    $details = [
+      'mentor' => $data['mentor'],
+      'mentor_name' => $mentor->name,
+      'user_name' => $user->name,
+      'user_id' => Auth::id(),
+      'desc' => $data['desc'],
+      'user' => $user->name,
+      'date' => $date,
+      'start_time' => $data['time'],
+      'finish_time' => $finish_time,
+      'UTC' => $data['timezone'],
+      'duration' => $data['duration'],
+      'mentor_timezone' => $mentor_timezone->time_zone,
+      'mentor_start_time' => $user_timezone->format('h:i A'),
+      'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
+    ];
 
-      $details = [
-        'mentor' => $data['mentor'],
-        'mentor_name' => $mentor->name,
-        'user_name' => $user->name,
-        'user_id' => Auth::id(),
-        'desc' => $data['desc'],
-        'user' => $user->name,
-        'date' => $date,
-        'start_time' => $data['time'],
-        'finish_time' => $finish_time,
-        'UTC' => $data['timezone'],
-        'duration' => $data['duration'],
-        'mentor_timezone' => $mentor_timezone->time_zone,
-        'mentor_start_time' => $user_timezone->format('h:i A'),
-        'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
-      ];
+    $user = User::find(Auth::id());
+    $mentor = User::find($data['mentor']);
 
-      $user = User::find(Auth::id());
-      $mentor = User::find($data['mentor']);
+    $mentor->notify(new NewCallRequest($mentor));
 
-      $mentor->notify(new NewCallRequest($mentor));
+    Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+    Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
-      Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
-      Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
-
-      return view('success', compact('details', 'mentor'));
+    return view('success', compact('details', 'mentor'));
     // }
   }
 
