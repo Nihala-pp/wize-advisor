@@ -1438,16 +1438,14 @@
 
     <script type="text/javascript">
     $(document).ready(function() {
-        // $("body").on('change', '#charge', function(e) {
-        //     alert("sdfsfds");
-        //     $('.price').show();
-        // });
+        $('input[type="radio"]').click(function() {
 
-        if ($('#charge').is(':checked')) {
-            alert("Radio Button Is checked!");
-        } else {
-            alert("Radio Button Is not checked :( ");
-        }
+            if ($('#charge').is(':checked')) {
+                alert("Radio Button Is checked!");
+            } else {
+                alert("Radio Button Is not checked :( ");
+            }
+        });
     });
     </script>
     <!--End of Tawk.to Script-->
