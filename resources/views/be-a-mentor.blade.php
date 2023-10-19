@@ -74,6 +74,13 @@
                                                 </span>
                                             </label>
                                         </div> -->
+                                        <div class="form-check form-switch d-flex align-items-center mb-3">
+                                        <input class="form-check-input" type="checkbox" name="remember" id="remember"
+                                            {{ old('remember') ? 'checked' : '' }}>
+                                        <label class="form-check-label mb-0 ms-2" for="rememberMe">
+                                            {{ __('Remember Me') }}
+                                        </label>
+                                    </div>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="customRadio1" value="yes">
