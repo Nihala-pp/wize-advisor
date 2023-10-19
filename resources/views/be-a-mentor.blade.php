@@ -1370,10 +1370,10 @@
         "use strict";
         $(document).ready(function() {
 
-            $("body").on('change', '#charge', function(e) {
-                alert("sdfsfds");
-                $('.price').show();
-            });
+            // $("body").on('change', '#charge', function(e) {
+            //     alert("sdfsfds");
+            //     $('.price').show();
+            // });
 
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
@@ -1434,6 +1434,21 @@
         s1.setAttribute('crossorigin', '*');
         s0.parentNode.insertBefore(s1, s0);
     })();
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // $("body").on('change', '#charge', function(e) {
+        //     alert("sdfsfds");
+        //     $('.price').show();
+        // });
+
+        if ($('#charge').is(':checked')) {
+            alert("Radio Button Is checked!");
+        } else {
+            alert("Radio Button Is not checked :( ");
+        }
+    });
     </script>
     <!--End of Tawk.to Script-->
 </body>
