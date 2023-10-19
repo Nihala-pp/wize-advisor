@@ -103,7 +103,7 @@
                                             <label class="custom-control-label" for="customRadio2">No</label>
                                         </div>
                                     </div>
-                                    <div class="input-group input-group-outline my-3 price" style="display:none;">
+                                    <div class="input-group input-group-outline my-3 price">
                                         <label class="form-label">How much are you looking to charge per session ? (In
                                             USD)</label>
                                         <input type="number" class="form-control" name="price_per_session">
@@ -1438,6 +1438,9 @@
 
     <script type="text/javascript">
     $(document).ready(function() {
+
+        $('.price').hide();
+
         $('input[type="radio"]').click(function() {
             if ($('#charge').is(':checked')) {
                 $('.price').show();
