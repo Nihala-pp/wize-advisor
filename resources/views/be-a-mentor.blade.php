@@ -1462,7 +1462,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .professional {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 </style>
 
