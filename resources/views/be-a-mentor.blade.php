@@ -63,20 +63,6 @@
                                             <option value="other">Other</option>
                                         </select>
                                     </div>
-                                    <div class="form-check form-check-info text-start ps-0 mt-3">
-                                        <input class="form-check-input @error('terms_condition') is-invalid @enderror"
-                                            type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
-                                            required>
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            I agree the <a href="{{ route('termsConditions') }}"
-                                                class="text-dark font-weight-bolder">Terms and Conditions</a>
-                                        </label>
-                                        @error('terms_condition')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
                                     <div class="">
                                         <label>Have you any experience in working as a mentor/advisor
                                             to a start-up ?</label>
