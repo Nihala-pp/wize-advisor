@@ -61,7 +61,7 @@
                                             <option value="other">Other</option>
                                         </select>
                                     </div>
-                                    <div>
+                                    <div class="professional">
                                         <label class="form-label">Have you any experience in working as a mentor/advisor
                                             to a start-up ?</label>
                                         <!-- <div class="form-check">
