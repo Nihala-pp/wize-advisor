@@ -49,7 +49,7 @@
                                         <input type="text" name="qualification" class="form-control" required>
                                     </div>
                                     <div class="input-group input-group-static mb-4">
-                                        <label for="exampleFormControlSelect1" class="ms-0">What is your professional
+                                        <label for="exampleFormControlSelect1" class="ms-0 professional">What is your professional
                                             status
                                             ?</label>
                                         <select class="form-control" id="exampleFormControlSelect1" name="designation">
@@ -1459,6 +1459,10 @@
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
+}
+
+.professional {
+    padding-left: 20px;
 }
 </style>
 
