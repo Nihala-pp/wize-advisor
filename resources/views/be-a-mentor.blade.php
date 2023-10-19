@@ -94,7 +94,7 @@
                                             for your sessions ?</label>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="is_charged"
-                                                id="customRadio1 charge" value="yes">
+                                                id="charge" value="yes">
                                             <label class="custom-control-label" for="customRadio1">Yes</label>
                                         </div>
                                         <div class="form-check">
