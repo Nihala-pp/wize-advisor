@@ -1442,7 +1442,7 @@
         $('#price').hide();
 
         $('input[type="radio"]').click(function() {
-            if ($(this).attr('id') == 'yes') {
+            if ($(this).attr('id') == 'charge') {
                 alert(3455);
                 $('#price').show();
             } else {
