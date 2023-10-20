@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\RejectedCallMail;
+use App\Mail\RejectedCallUserMail;
+use App\Mail\updateSessionMail;
 use App\Models\Article;
 use App\Models\Blogs;
 use App\Models\MentorAchievements;
@@ -31,6 +34,8 @@ use Illuminate\Support\Facades\File;
 use App\Rules\ReCaptcha;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Validator;
+use App\Notifications\CallRejectedUser;
+
 
 
 class HomeController extends Controller
@@ -237,42 +242,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'time' => 'required',
       'timezone' => 'required',
     ])->validate();
-
-    // if ($validator->fails()) {
-    //   return response()->json(['errors' => $validator->errors()->all()]);
-    // }
-
-    // if ($validator->fails()) {
-    //   return response()->json([
-    //     'status' => false,
-    //     'message' => 'validation error',
-    //     'errors' => $validator->errors()
-    //   ], 401);
-    // } else {
-
-    // add secure_token_no for secure save (optional)
-    // $secure_no = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 8);
-
-    // $type = 'document_' . $request->secure_no_proof;
-    // $form_file = 'doc';
-
-    // Validation of file type
-    // $validation = \Validator::make($request->all(), [
-    //   $form_file => 'required|mimes:pdf,docx|max:2048' // maxsize = 2MB
-    // ]);
-
-    // $file = $request->file($form_file);
-    // $new_name = $type . '.' . $file->getClientOriginalExtension();
-
-    // $path = public_path() . '/assets/docs';
-
-    // If path is not exist
-    // if (!File::exists($path)) {
-    //   File::makeDirectory($path, $mode = 0777, true, true);
-    // }
-
-    // $file->move(public_path('assets/img/docs'), $new_name);
-    // else {
+    
     if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
       $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
@@ -283,11 +253,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     } else {
       $request->doc = '';
     }
-
-    // $file->move(public_path('uploads/Registration'), $new_name);
-
-    // $document = time() . '.' . $request->doc->getClientOriginalExtension();
-    // $request->doc->move(public_path('assets/docs'), $document);
 
     $month = $data['month'];
     $nmonth = date("m", strtotime($data['month']));
@@ -323,9 +288,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       ->where('start_time', $user_timezone->format('H:i:s'))
       ->first()
       ->update([
-          'is_booked' => 1,
-          'call_id' => $call['id']
-        ]);
+        'is_booked' => 1,
+        'call_id' => $call['id']
+      ]);
 
     $mentor = User::find($data['mentor']);
     $user = User::find(Auth::id());
@@ -349,6 +314,16 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $user = User::find(Auth::id());
     $mentor = User::find($data['mentor']);
+
+    if (!empty($data['call_id'])) {
+      ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
+
+      $mentor->notify(new CallRejectedUser($user));
+
+      Mail::to($mentor->email)->send(new updateSessionMail($details));
+      Mail::to($mentor->email)->send(new RejectedCallMail($details));
+      Mail::to($mentor->email)->send(new RejectedCallUserMail($details));
+    }
 
     $mentor->notify(new NewCallRequest($mentor));
 
