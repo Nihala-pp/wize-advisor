@@ -200,11 +200,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -242,7 +242,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'time' => 'required',
       'timezone' => 'required',
     ])->validate();
-    
+
     if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
       $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
@@ -310,6 +310,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'mentor_timezone' => $mentor_timezone->time_zone,
       'mentor_start_time' => $user_timezone->format('h:i A'),
       'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
+      'call' => $data['call_id'] ? ScheduledCall::find($data['call_id']) : null
     ];
 
     $user = User::find(Auth::id());
@@ -320,9 +321,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
       $mentor->notify(new CallRejectedUser($user));
 
-      Mail::to($mentor->email)->send(new updateSessionMail($details));
+      Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
       Mail::to($mentor->email)->send(new RejectedCallMail($details));
-      Mail::to($mentor->email)->send(new RejectedCallUserMail($details));
+      Mail::to($user->email)->send(new RejectedCallUserMail($details));
     }
 
     $mentor->notify(new NewCallRequest($mentor));
@@ -331,7 +332,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
     return view('success', compact('details', 'mentor'));
-    // }
   }
 
   public function getTimeAvailability(Request $request)

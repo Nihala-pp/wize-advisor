@@ -29,7 +29,7 @@ class RejectedCallUserMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'wiseAdvizor_Call with the Mentor is Rejected !',
+            subject: 'wiseAdvizor_Call - Lets Reschedule!',
             bcc: ['nihala-pp@wiseadvizor.com', 'info@wiseadvizor.com']
         );
     }
