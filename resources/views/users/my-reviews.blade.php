@@ -42,9 +42,9 @@
                                             <li>
                                                 <i class="fas fa-star fa-sm text-info"></i>
                                             </li>
-                                            @endfor
+                                        @endfor
                                     </ul>
-                                    <hr />
+                                    <hr/>
                                     <p class="dark-grey-text mt-4">
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
@@ -81,4 +81,5 @@
     border-radius: 50%;
 }
 </style>
+
 </html>
