@@ -22,14 +22,14 @@
                         <div class="col-md-4 mb-5 mt-5 mb-md-0 d-flex align-items-stretch">
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
-                                <img class="lazy-loading"
-                                    src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
-                                    data-src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
-                                    alt="" height="40px;" width="40px;">
-                                <!-- <div class="avatar mx-auto bg-white">
-                                    <img src="{{ asset('public/assets/img/').'/' }}{{ $review->mentor->metaData->profile_pic }}"
-                                        class="rounded-circle img-fluid" height="100" width="100">
-                                </div> -->
+                                <div class="avatar mx-auto bg-white">
+                                    <img class="lazy-loading"
+                                        src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
+                                        data-src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
+                                        alt="" height="40px;" width="40px;">
+                                    <!-- <img src="{{ asset('public/assets/img/').'/' }}{{ $review->mentor->metaData->profile_pic }}"
+                                        class="rounded-circle img-fluid" height="100" width="100"> -->
+                                </div>
                                 <div class="card-body">
                                     <h4 class="mb-4">{{ $review->mentor->name }}</h4>
                                     <h6 class="font-weight-bold my-3">{{ $review->mentor->metaData->designation }} at
