@@ -202,17 +202,17 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 <?php
   }
 
-  public function scheduleCall($id, $call_id = null)
+  public function scheduleCall(Request $request)
   {
-    if ($call_id) {
-      $call = ScheduledCall::find($call_id);
+    if (!empty($request->call_id)) {
+      $call = ScheduledCall::find($request->call_id);
     } else {
       $call = '';
     }
 
-    $mentor = User::find($id);
+    $mentor = User::find($request->id);
     $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
-    $nextAvailability = AvailableSchedule::where('mentor_id', $id)
+    $nextAvailability = AvailableSchedule::where('mentor_id', $request->id)
       ->whereDate('date', '>', now())
       ->where('is_booked', 0)
       ->orderBy('date', 'asc')
