@@ -492,7 +492,7 @@ class HomeController extends Controller
   {
     $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     // dd($tzlist);
-    $password = Hash::make('Lucile@123!');
+    $password = Hash::make('soha@123!');
     dd($password);
 
     return view('call');
