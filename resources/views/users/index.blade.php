@@ -108,7 +108,7 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="{{ route('user.schedule.update', [$upcoming_session->id]) }}"
+                                                        <a href="{{ route('schedule-call', [$upcoming_session->mentor->id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="update Session">
                                                             Update Session
