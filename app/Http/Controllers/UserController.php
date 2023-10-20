@@ -74,11 +74,11 @@ class UserController extends Controller
     $mentor->notify(new NewReview($mentor));
 
     ?>
-    <script type="text/javascript">
-      alert("Review has been submitted");
-      window.location.href = "https://wiseadvizor.com/user/dashboard";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Review has been submitted");
+window.location.href = "https://wiseadvizor.com/user/dashboard";
+</script>
+<?php
   }
 
   public function updateSchedule($id)
@@ -316,5 +316,12 @@ class UserController extends Controller
 
     return redirect()->route('user.change-password')
       ->with($notification, 'Password Updated Successfully!');
+  }
+
+  public function listReviews()
+  {
+      $reviews = Review::where('user_id', Auth::id())->get();
+
+      return view('mentors.my-reviews', compact('reviews'));
   }
 }
