@@ -27,7 +27,7 @@
                                         src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
                                         data-src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
                                         alt="" height="40px;" width="40px;"> -->
-                                    <img src="{{ asset('public/assets/img/').'/' }}{{ $review->mentor->metaData->profile_pic }}"
+                                    <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         class="rounded-circle img-fluid" height="40px;" width="40px;">
                                 </div>
                                 <div class="card-body">
