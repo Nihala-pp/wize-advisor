@@ -424,7 +424,7 @@
                                                             </li>
                                                             <li>
                                                                 <a class="dropdown-item"
-                                                                    href="{{ route('user.review') }}">My
+                                                                    href="{{ route('reviews.list') }}">My
                                                                     Reviews</a>
                                                             </li>
                                                             <li>
