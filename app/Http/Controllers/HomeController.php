@@ -195,16 +195,21 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-      alert("Be a Mentor Requested Successfully!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfully!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
-  public function scheduleCall($id)
+  public function scheduleCall($id, $call_id)
   {
-    //  dd(Auth::user()->id);
+    if ($call_id) {
+      $call = ScheduledCall::find($call_id);
+    } else {
+      $call = '';
+    }
+
     $mentor = User::find($id);
     $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     $nextAvailability = AvailableSchedule::where('mentor_id', $id)
@@ -216,7 +221,7 @@ class HomeController extends Controller
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
-    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability'));
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call'));
     // } 
   }
 
@@ -318,9 +323,9 @@ class HomeController extends Controller
       ->where('start_time', $user_timezone->format('H:i:s'))
       ->first()
       ->update([
-        'is_booked' => 1,
-        'call_id' => $call['id']
-      ]);
+          'is_booked' => 1,
+          'call_id' => $call['id']
+        ]);
 
     $mentor = User::find($data['mentor']);
     $user = User::find(Auth::id());
