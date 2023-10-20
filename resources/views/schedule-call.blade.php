@@ -1112,8 +1112,11 @@
                                                 id="timezone" style="width:50%" required>
                                                 <option value=""><b>Time zone</b></option>
                                                 @foreach($timezone as $zone => $time)
+                                                @php
+                                                $choosen_zone = $call->utc ?? auth()->user()->metaData->timezone;
+                                                @endphp
                                                 <option value="{{ $time }}"
-                                                    {{ $time == auth()->user()->metaData->timezone  ? 'selected' : '' }}>
+                                                    {{ $time == $choosen_zone  ? 'selected' : '' }}>
                                                     {{ $time }}</option>
                                                 @endforeach
                                             </select>
