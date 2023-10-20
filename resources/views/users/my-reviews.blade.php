@@ -23,7 +23,7 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <img class="lazy-loading"
+                                    <img class="rounded-circle img-fluid"
                                         src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         data-src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         alt="" height="140px;" width="140px;">
