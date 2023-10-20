@@ -74,7 +74,7 @@
 }
 
 .testimonial-card .avatar {
-    width: 110px;
+    width: 150px;
     /* margin-top: -60px; */
     overflow: hidden;
     border: 3px solid #fff;
