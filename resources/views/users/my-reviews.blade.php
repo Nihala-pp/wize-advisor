@@ -32,29 +32,29 @@
                                     alt="" height="200" width="200"> -->
                                 <!-- <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         class="rounded-circle img-fluid" height="40px;" width="40px;"> -->
-                            <!-- </div> -->
-                            <div class="card-body">
-                                <h4 class="mb-4">{{ $review->mentor->name }}</h4>
-                                <h6 class="font-weight-bold my-3">{{ $review->mentor->metaData->designation }} at
-                                    {{ $review->mentor->metaData->company }}</h6>
-                                <ul class="list-unstyled d-flex justify-content-center">
-                                    @for($i=0; $i<$review->rating; $i++)
-                                        <li>
-                                            <i class="fas fa-star fa-sm text-info"></i>
-                                        </li>
-                                        @endfor
-                                </ul>
-                                <hr />
-                                <p class="dark-grey-text mt-4">
-                                    <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
-                                </p>
+                                <!-- </div> -->
+                                <div class="card-body">
+                                    <h4 class="mb-4">{{ $review->mentor->name }}</h4>
+                                    <h6 class="font-weight-bold my-3">{{ $review->mentor->metaData->designation }} at
+                                        {{ $review->mentor->metaData->company }}</h6>
+                                    <ul class="list-unstyled d-flex justify-content-center">
+                                        @for($i=0; $i<$review->rating; $i++)
+                                            <li>
+                                                <i class="fas fa-star fa-sm text-info"></i>
+                                            </li>
+                                            @endfor
+                                    </ul>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
+                                    </p>
+                                </div>
                             </div>
                         </div>
+                        @endforeach
                     </div>
-                    @endforeach
+                </section>
             </div>
-            </section>
-        </div>
         </div>
     </main>
     </div>
@@ -65,6 +65,20 @@
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
 </body>
-</style>
+<style>
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
 
+.testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+</style>
 </html>
