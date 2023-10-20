@@ -1694,7 +1694,7 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4 col-md-4 mb-3 mt-3">
+                        <div class="col-3 col-md-3 mb-3 mt-3">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
@@ -1705,7 +1705,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-4 col-md-4 mt-3">
+                        <div class="col-3 col-md-3 mt-3">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="date" class="selectpicker" data-style="btn-info">
                                 <option value="">Days Available</option>
@@ -1732,7 +1732,7 @@
                                 @endforeach
                             </select> -->
                         <!-- </div> -->
-                        <div class="col-4 col-md-4">
+                        <div class="col-3 col-md-3">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
@@ -1741,7 +1741,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-4 col-md-4">
+                        <div class="col-3 col-md-3">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="sort" class="selectpicker" data-style="btn-info">
                                 <option value="">Sort by</option>
