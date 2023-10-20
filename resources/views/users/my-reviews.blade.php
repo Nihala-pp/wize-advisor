@@ -23,7 +23,7 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         class="rounded-circle img-fluid" />
                                 </div>
                                 <!-- <img class="rounded-circle img-fluid"
@@ -78,7 +78,7 @@
     margin-top: -60px;
     overflow: hidden;
     border: 3px solid #fff;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 </style>
 
