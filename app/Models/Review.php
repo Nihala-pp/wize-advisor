@@ -20,4 +20,9 @@ class Review extends Model
     {
         return $this->belongsTo(User::class, 'user_id');
     }  
+
+    public function mentor(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'mentor_id');
+    }  
 }
