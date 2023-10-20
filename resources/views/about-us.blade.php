@@ -1601,7 +1601,7 @@
                                                             </li>
                                                             <li>
                                                                 <a class="dropdown-item"
-                                                                    href="{{ route('reviews.list') }}">My
+                                                                    href="{{ route('user.reviews.list') }}">My
                                                                     Reviews</a>
                                                             </li>
                                                             <li>
