@@ -202,7 +202,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 <?php
   }
 
-  public function scheduleCall($id, $call_id)
+  public function scheduleCall($id, $call_id = null)
   {
     if ($call_id) {
       $call = ScheduledCall::find($call_id);
