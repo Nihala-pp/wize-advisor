@@ -322,6 +322,6 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   {
       $reviews = Review::where('user_id', Auth::id())->get();
 
-      return view('mentors.my-reviews', compact('reviews'));
+      return view('user.my-reviews', compact('reviews'));
   }
 }
