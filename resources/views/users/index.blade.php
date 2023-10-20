@@ -108,7 +108,7 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="{{ route('schedule-call', [$upcoming_session->mentor->id]) }}"
+                                                        <a href="{{ route('schedule-call', [$upcoming_session->mentor_id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="update Session">
                                                             Update Session
@@ -194,7 +194,7 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="{{ route('user.schedule.update', [$requested_session->id]) }}"
+                                                        <a href="{{ route('schedule-call', [$requested_session->mentor_id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Update Session">
                                                             Update Session
