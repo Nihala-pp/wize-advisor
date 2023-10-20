@@ -11,7 +11,6 @@
     var theplus_nonce = "db17101d24";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Browse Mentor &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
@@ -1606,7 +1605,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -1714,8 +1714,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-4 col-md-4 mt-3">
-                            <!-- <label>Select with Button Class</label> -->
+                        <!-- <div class="col-4 col-md-4 mt-3">
                             <select id="time" class="selectpicker" data-style="btn-info">
                                 <option value="">Time Slot</option>
                                 @foreach($slot as $tt)
@@ -1723,17 +1722,16 @@
                                     {{ $tt->end_time }}</option>
                                 @endforeach
                             </select>
-                        </div>
-                        <div class="col-4 col-md-4">
-                            <!-- <label>Select with Button Class</label> -->
+                        </div> -->
+                        <!-- <div class="col-4 col-md-4">
                             <select id="price" class="selectpicker" data-style="btn-info">
                                 <option value="">Price</option>
                                 @foreach($price as $pr)
                                 <option value="{{ $pr->metaData ?  $pr->metaData->price_per_call : '' }}">
                                     {{ $pr->metaData ?  $pr->metaData->price_per_call : '' }}$</option>
                                 @endforeach
-                            </select>
-                        </div>
+                            </select> -->
+                        <!-- </div> -->
                         <div class="col-4 col-md-4">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="name" class="selectpicker" data-style="btn-info">
