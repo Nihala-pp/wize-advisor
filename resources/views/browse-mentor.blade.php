@@ -1732,7 +1732,7 @@
                                 @endforeach
                             </select> -->
                         <!-- </div> -->
-                        <div class="col-3 col-md-3">
+                        <div class="col-3 col-md-3 mt-3">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
@@ -1741,7 +1741,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-3 col-md-3">
+                        <div class="col-3 col-md-3 mt-3">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="sort" class="selectpicker" data-style="btn-info">
                                 <option value="">Sort by</option>
