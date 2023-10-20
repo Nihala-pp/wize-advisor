@@ -1085,7 +1085,7 @@
                         <input type="hidden" class="time" name="time" value="">
                         <label class="form-label" style="color:black;">Description (Regarding the topic)</label>
                         <textarea required="required" id="desc" class="form-control" rows="5" cols="5"
-                            name="desc"></textarea>
+                            name="desc">{{ $call->description ?? '' }}</textarea>
                         <!-- <div class="text-danger error" data-error="desc"></div> -->
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
