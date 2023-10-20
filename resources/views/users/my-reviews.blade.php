@@ -23,12 +23,12 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    <!-- <img class="lazy-loading"
+                                    <img class="lazy-loading"
                                         src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
                                         data-src="{{ asset('public/assets/img') }}/{{ $review->mentor->metaData->profile_pic }}"
-                                        alt="" height="40px;" width="40px;"> -->
-                                    <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
-                                        class="rounded-circle img-fluid" height="40px;" width="40px;">
+                                        alt="" height="40px;" width="40px;">
+                                    <!-- <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
+                                        class="rounded-circle img-fluid" height="40px;" width="40px;"> -->
                                 </div>
                                 <div class="card-body">
                                     <h4 class="mb-4">{{ $review->mentor->name }}</h4>
