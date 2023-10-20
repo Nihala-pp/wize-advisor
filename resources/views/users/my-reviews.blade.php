@@ -26,7 +26,7 @@
                                     <img class="lazy-loading"
                                         src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         data-src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
-                                        alt="" height="40px;" width="40px;">
+                                        alt="" height="140px;" width="140px;">
                                     <!-- <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         class="rounded-circle img-fluid" height="40px;" width="40px;"> -->
                                 </div>
