@@ -1075,6 +1075,7 @@
                     <form name="scheduleCallForm" method="POST" enctype="multipart/form-data" class="scheduleCallForm"
                         id="scheduleCallForm">
                         @csrf
+                        <input type="hidden" name="call_id" value="{{ $call->id ?? '' }}">
                         <input type="hidden" name="duration" value="30">
                         <input class="day" type="hidden" name="day" value="">
                         <input class="month" type="hidden" name="month" value="">
