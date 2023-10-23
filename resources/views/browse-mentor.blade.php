@@ -1707,7 +1707,8 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <input class="form-control" id="date" name="date" placeholder="FILTER BY DATE" type="text" data-style="btn-info">
+                            <input class="form-control" id="date" name="date" placeholder="FILTER BY DATE" type="text"
+                                data-style="btn-info">
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
@@ -3187,7 +3188,7 @@
             $(document).ready(function() {
                 // $('#date').hide();
 
-                $('#date').datepicker();
+                // $('#date').datepicker();
                 // $('#date_available').click(function() {
                 //     $('#date').datepicker('show');
                 // });
@@ -3257,8 +3258,9 @@
                     });
                 });
 
-                $('#date').on('change', function() {
+                $('#date').datepicker().on('change', function(ev) {
                     var date = $(this).val();
+                    alert(date);
                     var filter = "date";
                     return $.ajax({
                         type: 'GET',
