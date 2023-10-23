@@ -1706,7 +1706,8 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <button type="button" data-style="btn-info" class="selectpicker"></button>
+                            <button type="button" data-style="btn-info" class="selectpicker"
+                                id="date_available"></button>
                             <!-- <select id="date_available" class="selectpicker" data-style="btn-info"> -->
                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text">
 
@@ -3173,16 +3174,16 @@
         (function($) {
             $(document).ready(function() {
 
-                $('#datepick').datepicker();
-                $('#dateButton').click(function() {
-                    $('#datepick').datepicker('show');
+                $('#date').datepicker();
+                $('#date_available').click(function() {
+                    $('#date').datepicker('show');
                 });
 
-                $("#days").click(function(e) {
-                    e.preventDefault();
-                    $('#date').show();
-                    $("#date").datepicker().focus();
-                });
+                // $("#days").click(function(e) {
+                //     e.preventDefault();
+                //     $('#date').show();
+                //     $("#date").datepicker().focus();
+                // });
 
                 $('#name').on('change', function() {
                     var name = $(this).val();
