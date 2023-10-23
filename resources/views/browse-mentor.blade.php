@@ -3205,8 +3205,7 @@
                     return $.ajax({
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + name + "/" +
-                            filter +
-                            "",
+                            filter + "",
                         contentType: false,
                         processData: false,
                         data: {
@@ -3244,8 +3243,7 @@
                     return $.ajax({
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + time + "/" +
-                            filter +
-                            "",
+                            filter + "",
                         contentType: false,
                         processData: false,
                         data: {
@@ -3265,8 +3263,7 @@
                     return $.ajax({
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + date + "/" +
-                            filter +
-                            "",
+                            filter + "",
                         contentType: false,
                         processData: false,
                         data: {
@@ -3304,8 +3301,7 @@
                     return $.ajax({
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + sort + "/" +
-                            filter +
-                            "",
+                            filter + "",
                         contentType: false,
                         processData: false,
                         data: {
