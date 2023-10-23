@@ -2823,7 +2823,11 @@
         }
 
         ::placeholder {
-            color: #fff;
+            color: #fff !important;
+        }
+
+        ::-ms-input-placeholder {
+            color: #fff !important;
         }
         </style>
         <script>
