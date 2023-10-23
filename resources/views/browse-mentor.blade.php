@@ -1707,7 +1707,7 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <input  type="text" placeholder="FILTER BY DATE" class="form-control" id="date" name="date" 
+                            <input type="text" placeholder="FILTER BY DATE" class="form-control" id="date" name="date"
                                 data-style="btn-info" onfocus="(this.type='date')" onblur="(this.type='text')">
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
@@ -2821,8 +2821,10 @@
         #date {
             background-color: #54b4d3;
             color: #fff;
-            font-weight:400px;
+            font-weight: 400px;
             line-height: 1.15;
+            height: 100%;
+            width: 100%;
         }
 
         ::placeholder {
@@ -2838,7 +2840,6 @@
         ::-webkit-calendar-picker-indicator {
             filter: invert(1);
         }
-
         </style>
         <script>
         (function() {
