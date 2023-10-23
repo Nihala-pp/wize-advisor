@@ -2821,6 +2821,8 @@
         #date {
             background-color: #54b4d3;
             color: #fff;
+            font-weight:400px;
+            line-height: 1.15;
         }
 
         ::placeholder {
@@ -2836,6 +2838,7 @@
         ::-webkit-calendar-picker-indicator {
             filter: invert(1);
         }
+
         </style>
         <script>
         (function() {
