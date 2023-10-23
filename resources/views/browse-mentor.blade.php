@@ -1707,11 +1707,7 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <!-- <button type="button" data-style="btn-info" class="selectpicker"
-                                id="date_available"></button> -->
-                            <!-- <select id="date_available" class="selectpicker" data-style="btn-info"> -->
-                            <input class="form-control" id="date" name="date" placeholder="FILTER BY DATE" type="text">
-
+                            <input class="form-control" id="date" name="date" placeholder="FILTER BY DATE" type="text" style="background-color:#54b4d3;">
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
@@ -1737,7 +1733,6 @@
                             </select> -->
                         <!-- </div> -->
                         <div class="col-3 col-md-3 mt-3">
-                            <!-- <label>Select with Button Class</label> -->
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
                                 @foreach($price as $pr)
@@ -1746,7 +1741,6 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <!-- <label>Select with Button Class</label> -->
                             <select id="sort" class="selectpicker" data-style="btn-info">
                                 <option value="">Sort by</option>
                                 <option value="asc">ASC</option>
@@ -3335,4 +3329,5 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
+
 </html>
