@@ -1705,18 +1705,18 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-3 col-md-3 mt-3">
+                        <!-- <div class="col-3 col-md-3 mt-3">
                             <button type="button" data-style="btn-info" class="selectpicker"
-                                id="date_available"></button>
+                                id="date_available"></button> -->
                             <!-- <select id="date_available" class="selectpicker" data-style="btn-info"> -->
-                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text">
+                            <!-- <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"> -->
 
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
                                 @endforeach -->
-                            </select>
-                        </div>
+                            <!-- </select>
+                        </div> -->
                         <!-- <div class="col-4 col-md-4 mt-3">
                             <select id="time" class="selectpicker" data-style="btn-info">
                                 <option value="">Time Slot</option>
