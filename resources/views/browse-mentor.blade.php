@@ -3176,6 +3176,7 @@
         <script type="text/javascript">
         (function($) {
             $(document).ready(function() {
+                $('#date').hide();
 
                 $('#date').datepicker();
                 $('#date_available').click(function() {
