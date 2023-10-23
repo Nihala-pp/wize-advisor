@@ -96,6 +96,7 @@ class HomeController extends Controller
   {
     // dd($name);
     $variable = $name;
+    dd($variable);
     if (!empty($variable)) {
       switch ($filter) {
         case 'name':
@@ -123,10 +124,10 @@ class HomeController extends Controller
           break;
         case 'sortBy':
           $mentors = User::where('role_id', 2)
-          ->whereNull('status')
-          ->whereHas('metaData', function (Builder $query) use ($variable) {
-            $query->orderBy('price_per_call', $variable);
-          })->get(); 
+            ->whereNull('status')
+            ->whereHas('metaData', function (Builder $query) use ($variable) {
+              $query->orderBy('price_per_call', $variable);
+            })->get();
           break;
         default:
           $mentors = User::where('role_id', 2)->whereNull('status')->get();
@@ -204,11 +205,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
