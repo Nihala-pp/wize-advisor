@@ -2833,8 +2833,8 @@
             opacity: 1 !important;
         }
 
-        input {
-            color-scheme: #fff;
+        ::-webkit-calendar-picker-indicator {
+            filter: invert(1);
         }
         </style>
         <script>
