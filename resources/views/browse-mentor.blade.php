@@ -2824,12 +2824,12 @@
 
         ::placeholder {
             color: #fff !important;
-            opacity: 1;
+            opacity: 1 !important;
         }
 
         ::-ms-input-placeholder {
             color: #fff !important;
-            opacity: 1;
+            opacity: 1 !important;
         }
         </style>
         <script>
