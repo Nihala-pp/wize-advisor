@@ -332,8 +332,8 @@ class HomeController extends Controller
 
     $mentor->notify(new NewCallRequest($mentor));
 
-    Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
-    Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
+    // Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+    // Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
     return redirect()->action(
       [HomeController::class, 'success'],
