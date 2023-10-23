@@ -116,7 +116,7 @@ class HomeController extends Controller
             })->get();
           break;
         case 'date':
-          $schedule = AvailableSchedule::with('user')->where('date', 'LIKE', '%' . $variable . '%')->get();
+          $schedule = AvailableSchedule::with('user')->where('date', 'LIKE', '%' .  Carbon::parse($variable)->format('Y-m-d') . '%')->get();
           break;
         case 'time':
           $mentors = AvailableSchedule::where('price', 'LIKE', '%' . $variable . '%')->get();
