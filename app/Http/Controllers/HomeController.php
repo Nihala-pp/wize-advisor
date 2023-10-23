@@ -322,7 +322,6 @@ class HomeController extends Controller
 
     $user = User::find(Auth::id());
     $mentor = User::find($data['mentor']);
-
     
     if (!empty($data['call_id'])) {
       ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
