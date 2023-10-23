@@ -317,12 +317,13 @@ class HomeController extends Controller
       'call' => $data['call_id'] ? ScheduledCall::find($data['call_id']) : null
     ];
 
-    $user = User::find(Auth::id());
-    $mentor = User::find($data['mentor']);
-
     Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
     Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
+    $user = User::find(Auth::id());
+    $mentor = User::find($data['mentor']);
+
+    
     if (!empty($data['call_id'])) {
       ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
 
@@ -333,7 +334,7 @@ class HomeController extends Controller
       Mail::to($user->email)->send(new RejectedCallUserMail($details));
     }
 
-    $mentor->notify(new NewCallRequest($mentor));
+    $mentor->notify(new NewCallRequest($user));
 
     
 
