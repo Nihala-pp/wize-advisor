@@ -2829,6 +2829,7 @@
 
         ::-ms-input-placeholder {
             color: #fff !important;
+            opacity: 1;
         }
         </style>
         <script>
