@@ -2194,7 +2194,7 @@
                     },
                     dataType: 'json',
                     success: function(response) {
-                        // $('.success').html(response);
+                        $('.success').html(response);
                     },
                     // error: function(error) {
                     //     let errors = error.responseJSON.errors
