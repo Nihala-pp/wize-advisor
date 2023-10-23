@@ -133,7 +133,7 @@ class HomeController extends Controller
 
     // dd($mentors);
 
-    $price = User::where('role_id', 2)->get();
+    $price = User::where('role_id', 2)->where('status', 0)->get();
     $slot = AvailableSchedule::where('date', '>=', now())
       // ->disctint()
       ->get();
