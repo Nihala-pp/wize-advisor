@@ -265,7 +265,7 @@ class HomeController extends Controller
     $finish_time = $end_time->toTimeString();
 
     $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', Carbon::parse($date)->format('Y-m-d'))->first();
-    dd($date);
+    // dd($date);
 
     $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
 
