@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Browse Mentor &#8211; wiseAdvizor</title>
@@ -1699,7 +1698,7 @@
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
                                 @foreach($expertise as $key => $expert)
-                                <option value="{{ $expert }}" {{$expert == $variable  ? 'selected' : ''}}>
+                                <option value="{{ $expert }}" {{ $expert == $variable  ? 'selected' : '' }}>
                                     {{ $expert }}
                                 </option>
                                 @endforeach
@@ -1707,11 +1706,13 @@
                         </div>
                         <div class="col-3 col-md-3 mt-3">
                             <!-- <label>Select with Button Class</label> -->
-                            <select id="date" class="selectpicker" data-style="btn-info">
-                                <option value="">Days Available</option>
+                            <select id="date_available" class="selectpicker" data-style="btn-info">
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text">
+
+                                <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
-                                @endforeach
+                                @endforeach -->
                             </select>
                         </div>
                         <!-- <div class="col-4 col-md-4 mt-3">
@@ -3170,6 +3171,15 @@
         <script type="text/javascript">
         (function($) {
             $(document).ready(function() {
+
+                $('#date').hide();
+
+                $("#days").click(function(e) {
+                    e.preventDefault();
+                    $('#date').show();
+                    $("#date").datepicker().focus();
+                });
+
                 $('#name').on('change', function() {
                     var name = $(this).val();
                     var filter = "name";
