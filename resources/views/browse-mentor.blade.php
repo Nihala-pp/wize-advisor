@@ -3257,7 +3257,7 @@
                     });
                 });
 
-                $('#days').on('change', function() {
+                $('#date').on('change', function() {
                     var date = $(this).val();
                     var filter = "date";
                     return $.ajax({
