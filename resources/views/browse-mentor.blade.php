@@ -3259,9 +3259,9 @@
                 });
 
                 $('#date').datepicker().on('change', function(ev) {
-                    var date = $(this).val();
-                    var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
-                    alert(DateCreated);
+                    var date = $(this).val().format("yyyy/MM/dd");
+                    // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
+                    alert(date);
                     var filter = "date";
                     return $.ajax({
                         type: 'GET',
