@@ -335,8 +335,6 @@ class HomeController extends Controller
 
     $mentor->notify(new NewCallRequest($user));
 
-    
-
     // return redirect()->action(
     //   [HomeController::class, 'success'],
     //   ['details' => $details]
