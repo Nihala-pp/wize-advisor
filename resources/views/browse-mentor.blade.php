@@ -2818,8 +2818,12 @@
         }
 
         #date {
-            background-color:#54b4d3; 
-            color:#fff;
+            background-color: #54b4d3;
+            color: #fff;
+        }
+
+        ::placeholder {
+            color: #fff;
         }
         </style>
         <script>
