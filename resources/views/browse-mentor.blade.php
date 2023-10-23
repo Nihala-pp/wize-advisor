@@ -1710,7 +1710,7 @@
                             <!-- <button type="button" data-style="btn-info" class="selectpicker"
                                 id="date_available"></button> -->
                             <!-- <select id="date_available" class="selectpicker" data-style="btn-info"> -->
-                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text">
+                            <input class="form-control" id="date" name="date" placeholder="DATE" type="text">
 
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
