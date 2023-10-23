@@ -1743,7 +1743,7 @@
                         </div>
                         <div class="col-3 col-md-3 mt-3">
                             <select id="sort" class="selectpicker" data-style="btn-info">
-                                <option value="">Sort by</option>
+                                <option value="">Sort by Price</option>
                                 <option value="asc">ASC</option>
                                 <option value="desc">DESC </option>
                             </select>
@@ -3260,7 +3260,7 @@
                     });
                 });
 
-                $('#date').datepicker().on('change', function(ev) {
+                $('#date').on('change', function(ev) {
                     var date = $(this).val();
                     // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
                     var filter = "date";
