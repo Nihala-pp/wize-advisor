@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Browse Mentor &#8211; wiseAdvizor</title>
@@ -1705,11 +1706,11 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <!-- <label>Select with Button Class</label> -->
-                            <select id="date_available" class="selectpicker" data-style="btn-info">
-                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text">
+                            <button type="button" data-style="btn-info" class="selectpicker"></button>
+                            <!-- <select id="date_available" class="selectpicker" data-style="btn-info"> -->
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text">
 
-                                <!-- <option value="">Days Available</option>
+                            <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
                                 @endforeach -->
@@ -3172,7 +3173,10 @@
         (function($) {
             $(document).ready(function() {
 
-                $('#date').hide();
+                $('#datepick').datepicker();
+                $('#dateButton').click(function() {
+                    $('#datepick').datepicker('show');
+                });
 
                 $("#days").click(function(e) {
                     e.preventDefault();
