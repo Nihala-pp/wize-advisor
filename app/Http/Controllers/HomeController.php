@@ -320,6 +320,9 @@ class HomeController extends Controller
     $user = User::find(Auth::id());
     $mentor = User::find($data['mentor']);
 
+    Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+    Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
+
     if (!empty($data['call_id'])) {
       ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
 
@@ -332,17 +335,16 @@ class HomeController extends Controller
 
     $mentor->notify(new NewCallRequest($mentor));
 
-    // Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
-    // Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
+    
 
-    return redirect()->action(
-      [HomeController::class, 'success'],
-      ['details' => $details]
-    );
+    // return redirect()->action(
+    //   [HomeController::class, 'success'],
+    //   ['details' => $details]
+    // );
 
     // Redirect::to('success?details='. $details);
 
-    // return view('success', compact('details', 'mentor'));
+    return view('success', compact('details', 'mentor'));
   }
 
   public function getTimeAvailability(Request $request)
