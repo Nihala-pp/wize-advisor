@@ -2832,6 +2832,10 @@
             color: #fff !important;
             opacity: 1 !important;
         }
+
+        input {
+            color-scheme: #fff;
+        }
         </style>
         <script>
         (function() {
