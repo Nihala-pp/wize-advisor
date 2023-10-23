@@ -2823,8 +2823,8 @@
             color: #fff;
             font-weight: 400px;
             line-height: 1.15;
-            height: 100%;
-            width: 100%;
+            height: 75%;
+            width: 75%;
         }
 
         ::placeholder {
