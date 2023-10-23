@@ -35,8 +35,7 @@ use App\Rules\ReCaptcha;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Validator;
 use App\Notifications\CallRejectedUser;
-
-
+use Redirect;
 
 class HomeController extends Controller
 {
@@ -205,8 +204,8 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-    a  lert("Be a Mentor Requested Successfully!");
-    w  indow.location.href = "https://wiseadvizor.com/be-a-mentor";
+    a   lert("Be a Mentor Requested Successfully!");
+    w   indow.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
   }
@@ -335,7 +334,14 @@ class HomeController extends Controller
     Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
     Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
-    return view('success', compact('details', 'mentor'));
+    return redirect()->action(
+      [HomeController::class, 'success'],
+      ['details' => $details]
+    );
+
+    // Redirect::to('success?details='. $details);
+
+    // return view('success', compact('details', 'mentor'));
   }
 
   public function getTimeAvailability(Request $request)
