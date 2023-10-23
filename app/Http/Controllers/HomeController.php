@@ -96,7 +96,6 @@ class HomeController extends Controller
   {
     // dd($name);
     $variable = $name;
-    dd($variable);
     if (!empty($variable)) {
       switch ($filter) {
         case 'name':
@@ -206,8 +205,8 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-      alert("Be a Mentor Requested Successfully!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    a  lert("Be a Mentor Requested Successfully!");
+    w  indow.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
   }
