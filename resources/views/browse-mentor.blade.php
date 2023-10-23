@@ -1707,8 +1707,8 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
-                            <input class="form-control" id="date" name="date" placeholder="FILTER BY DATE" type="date"
-                                data-style="btn-info">
+                            <input class="form-control" id="date" name="date" placeholder="FILTER BY DATE" type="text"
+                                data-style="btn-info" onfocus="(this.type='date')">
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
