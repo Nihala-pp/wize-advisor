@@ -2822,9 +2822,10 @@
             background-color: #54b4d3;
             color: #fff;
             font-weight: 400px;
-            line-height: 1.15;
+            line-height: 1.5;
             height: 75%;
             width: 75%;
+            font-size: 1rem;
         }
 
         ::placeholder {
