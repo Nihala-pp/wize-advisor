@@ -3260,7 +3260,8 @@
 
                 $('#date').datepicker().on('change', function(ev) {
                     var date = $(this).val();
-                    alert(date);
+                    var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
+                    alert(DateCreated);
                     var filter = "date";
                     return $.ajax({
                         type: 'GET',
