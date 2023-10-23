@@ -2825,7 +2825,7 @@
             line-height: 1;
             height: 75%;
             width: 75%;
-            font-size: 1rem;
+            font-size: 0.75rem !important;
         }
 
         ::placeholder {
