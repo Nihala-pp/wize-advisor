@@ -2824,6 +2824,7 @@
 
         ::placeholder {
             color: #fff !important;
+            opacity: 1;
         }
 
         ::-ms-input-placeholder {
