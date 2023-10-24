@@ -26,6 +26,11 @@ class AutoCallReminderhourlyMentor extends Command
      */
     protected $description = 'Command description';
 
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
     /**
      * Execute the console command.
      */
@@ -40,7 +45,8 @@ class AutoCallReminderhourlyMentor extends Command
             foreach ($calls as $call) {
                 if((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->time_zone)->format('H:i:s'))) {
 
-                    Mail::to($call->user->email)->send(new callReminder($call));                  
+                    Mail::to($call->user->email)->send(new callReminder($call));    
+                    Log::info('AutoCallReminderhourlyMentor Successfully completed');              
                 }
             }
         }

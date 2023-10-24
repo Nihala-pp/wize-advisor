@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CallReminderMentorController;
 use App\Http\Controllers\Cron;
 use App\Http\Controllers\MentorController;
 use App\Http\Controllers\UserController;
@@ -93,6 +94,9 @@ Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendSched
 
 Route::get('cron', [Cron::class, 'index'])->name('index');
 Route::get('weekly-email', [Cron::class, 'weeklySlotUpdate'])->name('weeklySlotUpdate');
+
+Route::get('/delayedtask',[CallReminderMentorController::class, 'delayedtask']);
+
 
 Route::controller(AdminController::class)
     ->as('admin.')
