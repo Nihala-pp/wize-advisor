@@ -1558,7 +1558,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -1632,7 +1633,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h6 class="elementor-heading-title elementor-size-default"> {{ $blog->title }} </h6>
+                                <!-- <h6 class="elementor-heading-title elementor-size-default"> {{ $blog->title }} </h6> -->
                             </div>
                         </div>
                     </div>
@@ -1642,19 +1643,20 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-oxz7tx7 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="oxz7tx7" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ddff12f"
-                    data-id="ddff12f" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
-                            data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
+            <h2 class="elementor-heading-title elementor-size-default"> {{ $blog->title }} </h6>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ddff12f"
+                        data-id="ddff12f" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
+                                data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-gbthqh4 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
