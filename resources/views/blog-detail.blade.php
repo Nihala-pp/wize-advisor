@@ -1650,7 +1650,7 @@
                         <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
                             data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h1><br />
                                 <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
                             </div>
                         </div>
