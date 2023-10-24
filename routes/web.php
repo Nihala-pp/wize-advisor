@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CallFeedbacksMailController;
 use App\Http\Controllers\CallReminderMentorController;
+use App\Http\Controllers\CallReminderUserController;
 use App\Http\Controllers\Cron;
 use App\Http\Controllers\MentorController;
 use App\Http\Controllers\UserController;
@@ -10,6 +12,8 @@ use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Auth\LinkedinSocialiteController;
 use App\Http\Controllers\Auth\GoogleSocialiteController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\weeklySlotUpdateController;
+use App\Http\Controllers\CompletedCallsMailController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\Events\PasswordReset;
 
@@ -96,6 +100,10 @@ Route::get('cron', [Cron::class, 'index'])->name('index');
 Route::get('weekly-email', [Cron::class, 'weeklySlotUpdate'])->name('weeklySlotUpdate');
 
 Route::get('/delayedtask',[CallReminderMentorController::class, 'delayedtask']);
+Route::get('/userReminderMail',[CallReminderUserController::class, 'userReminderMail']);
+Route::get('/completedcalls',[CompletedCallsMailController::class, 'index']);
+Route::get('/feedbackmail',[CallFeedbacksMailController::class, 'index']);
+Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
 
 
 Route::controller(AdminController::class)
