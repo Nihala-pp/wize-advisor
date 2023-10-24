@@ -1647,10 +1647,15 @@
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ddff12f"
                     data-id="ddff12f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
+                            data-id="34a10af" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h1>
+                            </div>
+                        </div>
                         <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
                             data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h1><br />
                                 <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
                             </div>
                         </div>
