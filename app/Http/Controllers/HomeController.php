@@ -340,7 +340,9 @@ class HomeController extends Controller
 
       $array = serialize($details);
     } catch (Exception $e) {
-      dd($e->getCode());
+      if (451 == $e->getCode()) {
+        return view('success', compact('details', 'mentor'));
+      }
     }
 
     return redirect()->route('success', [$array]);
