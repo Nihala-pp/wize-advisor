@@ -3364,12 +3364,12 @@ input[type="date"]::before {
 }
 
 input[type="date"] {
-    color: #54b4d3;
+    color: #54b4d3 !important;
 }
 
 input[type="date"]:focus,
 input[type="date"]:valid {
-    color: #54b4d3;
+    color: #54b4d3 !important;
 }
 
 input[type="date"]:focus::before,
