@@ -342,7 +342,9 @@ class HomeController extends Controller
 
     // Redirect::to('success?details='. $details);
 
-    return view('success', compact('details', 'mentor'));
+    return $this->success($details);
+
+    // return view('success', compact('details', 'mentor'));
   }
 
   public function getTimeAvailability(Request $request)
