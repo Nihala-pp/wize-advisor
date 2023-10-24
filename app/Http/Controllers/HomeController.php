@@ -205,8 +205,8 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-    a lert("Be a Mentor Requested Successfully!");
-    w indow.location.href = "https://wiseadvizor.com/be-a-mentor";
+        a lert("Be a Mentor Requested Successfully!");
+        w indow.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
   }
@@ -275,7 +275,7 @@ class HomeController extends Controller
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
     try {
-
+      
       $call = ScheduledCall::create([
         'user_id' => Auth::id(),
         'mentor_id' => $data['mentor'],
@@ -336,9 +336,12 @@ class HomeController extends Controller
         Mail::to($user->email)->send(new RejectedCallUserMail($details));
       }
 
-      // $mentor->notify(new NewCallRequest($user));
+      $mentor->notify(new NewCallRequest($user));
 
-      $array = serialize($details);
+      // $array = serialize($details);
+
+      return view('success', compact('details', 'mentor'));
+
     } catch (Exception $e) {
       if (451 == $e->getCode()) {
         return view('success', compact('details', 'mentor'));
