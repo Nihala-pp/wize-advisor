@@ -36,6 +36,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Validator;
 use App\Notifications\CallRejectedUser;
 use Redirect;
+use Exception;
 
 class HomeController extends Controller
 {
@@ -203,11 +204,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-    a   lert("Be a Mentor Requested Successfully!");
-    w   indow.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+a lert("Be a Mentor Requested Successfully!");
+w indow.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
@@ -273,6 +274,8 @@ class HomeController extends Controller
 
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
+    try {
+
     $call = ScheduledCall::create([
       'user_id' => Auth::id(),
       'mentor_id' => $data['mentor'],
@@ -336,7 +339,12 @@ class HomeController extends Controller
     // $mentor->notify(new NewCallRequest($user));
 
     $array = serialize($details);
-
+  }
+    catch (Exception $e) {
+    {
+      dd($e->getCode());
+    } 
+    
     return redirect()->route('success', [$array]);
 
     // return redirect()->action(
