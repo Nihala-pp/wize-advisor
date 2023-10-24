@@ -3369,7 +3369,7 @@ input[type="date"] {
 
 input[type="date"]:focus,
 input[type="date"]:valid {
-    color: #666666;
+    color: #54b4d3;
 }
 
 input[type="date"]:focus::before,
