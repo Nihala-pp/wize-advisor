@@ -1567,7 +1567,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -1920,8 +1921,14 @@
                                         or unenforceable, the remaining provisions shall remain in full force and effect
                                         to the extent permitted by applicable law.</li>
                                 </ol>
-                                <p>Contact Information:</p>
+                                <p>Refund Policy for Mentees:</p>
                                 <ol start="10">
+                                    <li>If the mentor does not join the scheduled call, amount without any deduction
+                                        will be refunded within 3 to 5 business days. If the mentee cancels the call
+                                        before 48 hours, full amount will be refunded.</li>
+                                </ol>
+                                <p>Contact Information:</p>
+                                <ol start="11">
                                     <li>Contact: If you have any questions, concerns, or complaints regarding this
                                         Agreement, please contact us at info@wiseAdvizor.com.</li>
                                 </ol>
@@ -3179,4 +3186,5 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
+
 </html>
