@@ -2192,7 +2192,6 @@
                     data: {
                         "data": formdata
                     },
-                    dataType: 'json',
                     success: function(response) {
                         $('.success').html(response);
                     },
