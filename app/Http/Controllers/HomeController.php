@@ -345,7 +345,7 @@ class HomeController extends Controller
       }
     }
 
-    return redirect()->route('success', [$array]);
+    return view('success', compact('details', 'mentor'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
