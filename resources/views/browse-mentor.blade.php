@@ -3203,7 +3203,15 @@
             $(document).ready(function() {
                 // $('#date').hide();
 
-                // $('#date').datepicker();
+                $('#date').datepicker()({
+                    showOn: 'button'
+                }).next('button').button({
+                    icons: {
+                        primary: 'ui-icon-calendar'
+                    },
+                    text: false
+                });
+
                 // $('#date_available').click(function() {
                 //     $('#date').datepicker('show');
                 // });
@@ -3271,7 +3279,7 @@
                     });
                 });
 
-                $('#date').datepicker().on('change', function(ev) {
+                $('#date').on('change', function(ev) {
                     var date = $(this).val();
                     // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
                     var filter = "date";
