@@ -333,7 +333,7 @@ class HomeController extends Controller
       Mail::to($user->email)->send(new RejectedCallUserMail($details));
     }
 
-    $mentor->notify(new NewCallRequest($user));
+    // $mentor->notify(new NewCallRequest($user));
 
     $array = serialize($details);
 
