@@ -2354,8 +2354,8 @@
             $(".active-month").removeClass("active-month");
             $(this).addClass("active-month");
             var new_month = $(".month").index(this);
-            date.setMonth(date.getMonth() + 1);
-            // date.setMonth(new_month);
+            // date.setMonth(date.getMonth() + 1);
+            date.setMonth(new_month);
             init_calendar(date);
         }
 
@@ -2437,16 +2437,16 @@
 
         // Display all events of the selected date in card views
         function show_events(events, month, day) {
-            console.log(month);
+            // console.log(month);
             // Clear the dates container
-            // var d = new Date();
-            // var new_month = getMonthFromString(month);
+            var d = new Date();
+            var new_month = getMonthFromString(month);
             // var month_name = getMonthName(new_month);
-            // if (months[d.getMonth()] === month) {
-            //     month_name = month;
-            // } else {
-            //     month_name = getMonthName(new_month);
-            // }
+            if (months[d.getMonth()] === month) {
+                month_name = month;
+            } else {
+                month_name = getMonthName(new_month);
+            }
             // console.log(month_name);
             $(".events-container").empty();
             $(".events-container").show(250);
@@ -2456,7 +2456,7 @@
                 // console.log(getMonth(month));
                 var event_card = $("<div class='event-card'></div>");
                 var event_name = $("<div class='event-name'>There are no slots available on " +
-                    month +
+                month_name +
                     " " +
                     day +
                     ".</div>");
