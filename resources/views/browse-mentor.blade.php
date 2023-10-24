@@ -20,6 +20,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+        rel='stylesheet'>
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
@@ -1707,8 +1709,10 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3">
+                            <!-- <input type="text" placeholder="FILTER BY DATE" class="form-control" id="date" name="date"
+                                data-style="btn-info" onfocus="(this.type='date')" onblur="(this.type='text')"> -->
                             <input type="text" placeholder="FILTER BY DATE" class="form-control" id="date" name="date"
-                                data-style="btn-info" onfocus="(this.type='date')" onblur="(this.type='text')">
+                                data-style="btn-info">
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
                                 <option value="{{ $st->date }}">{{ $st->date }}</option>
@@ -3183,6 +3187,8 @@
         </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
         </script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js">
         </script> -->
