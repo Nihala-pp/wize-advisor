@@ -2328,7 +2328,7 @@
                     "_token": $('meta[name="csrf-token"]').attr('content'),
                     "mentor": mentor,
                     "day": day,
-                    "month": event.data.month,
+                    "month": month_name,
                     "year": year,
                     "timezone": timezone,
                 },
