@@ -335,14 +335,14 @@ class HomeController extends Controller
 
     $mentor->notify(new NewCallRequest($user));
 
-    // return redirect()->action(
-    //   [HomeController::class, 'success'],
-    //   ['details' => $details]
-    // );
+    return redirect()->action(
+      [HomeController::class, 'success'],
+      ['details' => serialize($details)]
+    );
 
     // Redirect::to('success?details='. $details);
 
-    return $this->success($details);
+    // return $this->success($details);
 
     // return view('success', compact('details', 'mentor'));
   }
