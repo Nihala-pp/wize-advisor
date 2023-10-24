@@ -1651,8 +1651,7 @@
                                 data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-widget-container">
-                                        <h3 class="elementor-heading-title elementor-size-default">The Impact of
-                                            Mentorship</h3>
+                                        <h3 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h3>
                                     </div>
                                     <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
                                 </div>
