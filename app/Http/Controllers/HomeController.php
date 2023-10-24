@@ -375,9 +375,9 @@ class HomeController extends Controller
     return response()->json($time);
   }
 
-  public function success($details)
+  public function success(Request $request, $array)
   {
-    $mentor = User::find($details['mentor']);
+    $mentor = User::find($array['mentor']);
 
     return view('success', compact('details', 'mentor'));
   }
