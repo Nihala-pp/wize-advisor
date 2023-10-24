@@ -3271,7 +3271,7 @@
                     });
                 });
 
-                $('#date').on('change', function(ev) {
+                $('#date').datepicker().on('change', function(ev) {
                     var date = $(this).val();
                     // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
                     var filter = "date";
