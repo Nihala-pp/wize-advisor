@@ -1711,7 +1711,7 @@
                         <div class="col-3 col-md-3 mt-3">
                             <!-- <input type="text" placeholder="FILTER BY DATE" class="form-control" id="date" name="date"
                                 data-style="btn-info" onfocus="(this.type='date')" onblur="(this.type='text')"> -->
-                            <input type="text" placeholder="FILTER BY DATE" class="form-control" id="date" name="date"
+                            <input type="date" placeholder="FILTER BY DATE" class="form-control" id="date" name="date"
                                 data-style="btn-info">
                             <!-- <option value="">Days Available</option>
                                 @foreach($slot as $st)
@@ -3203,14 +3203,14 @@
             $(document).ready(function() {
                 // $('#date').hide();
 
-                $('#date').datepicker()({
-                    showOn: 'button'
-                }).next('button').button({
-                    icons: {
-                        primary: 'ui-icon-calendar'
-                    },
-                    text: false
-                });
+                // $('#date').datepicker()({
+                //     showOn: 'button'
+                // }).next('button').button({
+                //     icons: {
+                //         primary: 'ui-icon-calendar'
+                //     },
+                //     text: false
+                // });
 
                 // $('#date_available').click(function() {
                 //     $('#date').datepicker('show');
@@ -3357,6 +3357,26 @@
         <!--End of Tawk.to Script-->
 </body>
 <style>
+    
+input[type="date"]::before {
+    color: #999999;
+    content: attr(placeholder);
+}
+
+input[type="date"] {
+    color: #ffffff;
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+    color: #666666;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+    content: "" !important;
+}
+
 /* .browseMentor {
     padding-right: 20px;
 } */
