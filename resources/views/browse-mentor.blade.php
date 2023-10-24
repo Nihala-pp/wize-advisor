@@ -3359,12 +3359,12 @@
 <style>
     
 input[type="date"]::before {
-    color: #999999;
+    color: #ffff;
     content: attr(placeholder);
 }
 
 input[type="date"] {
-    color: #ffffff;
+    color: #54b4d3;
 }
 
 input[type="date"]:focus,
