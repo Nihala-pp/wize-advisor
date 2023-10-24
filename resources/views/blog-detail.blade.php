@@ -1668,7 +1668,8 @@
                                                     font-size: 59px
                                                 }
                                                 </style>
-                                                // <h6 class="elementor-heading-title elementor-size-default"> {{ $blog->title }} </h6> 
+                                                // <h6 class="elementor-heading-title elementor-size-default">
+                                                //     {{ $blog->title }} </h6>
                                             </div>
                                         </div>
                                     </div>
