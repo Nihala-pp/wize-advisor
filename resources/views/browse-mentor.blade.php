@@ -1757,7 +1757,7 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default mentorsList"
             data-id="lqdwygc" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <style>
@@ -1912,7 +1912,7 @@
                 content: "★"
             }
             </style>
-            <div class="container h-100 mentorsList">
+            <div class="container h-100">
                 <div class="row align-self-center mx-auto">
                     <div class="card-deck">
                         @foreach($mentors as $mentor)
