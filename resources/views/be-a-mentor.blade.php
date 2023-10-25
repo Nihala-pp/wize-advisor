@@ -108,7 +108,7 @@
                                     <div class="input-group input-group-static mb-3 price" id="price">
                                         <label class="">How much are you looking to charge per session ? (In
                                             USD)</label>
-                                        <input type="number" class="form-control" name="price_per_session" required>
+                                        <input type="number" class="form-control" name="price_per_session">
                                     </div>
                                     <div class="">
                                         <label class="">What are your areas of expertise ? (Type and Press
@@ -1396,6 +1396,14 @@
                 $('#price').show();
             } else {
                 $('#price').hide();
+            }
+        });
+
+        $('input[name="is_charged"]').change(function() {
+            if ($(this).val() == 'yes') {
+                $('#charge').prop('required', true);
+            } else {
+                $('#customRadio2').prop('required', false);
             }
         });
     });
