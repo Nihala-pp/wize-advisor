@@ -77,7 +77,7 @@
                                         </div> -->
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
-                                                id="customRadio1" value="yes">
+                                                id="customRadio1" value="yes" required>
                                             <label class="custom-control-label" for="customRadio1">Yes</label>
                                         </div>
                                         <div class="form-check">
@@ -89,14 +89,14 @@
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">How many 30 minutes session you can conduct weekly
                                             ?</label>
-                                        <input type="number" class="form-control" name="weekly_session">
+                                        <input type="number" class="form-control" name="weekly_session" required>
                                     </div>
                                     <div class="">
                                         <label for="exampleFormControlSelect1" class="ms-0">Are you looking to charge
                                             for your sessions ?</label>
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="is_charged" id="charge"
-                                                value="yes">
+                                                value="yes" required>
                                             <label class="custom-control-label" for="customRadio1">Yes</label>
                                         </div>
                                         <div class="form-check">
@@ -108,7 +108,7 @@
                                     <div class="input-group input-group-static mb-3 price" id="price">
                                         <label class="">How much are you looking to charge per session ? (In
                                             USD)</label>
-                                        <input type="number" class="form-control" name="price_per_session">
+                                        <input type="number" class="form-control" name="price_per_session" required>
                                     </div>
                                     <div class="">
                                         <label class="">What are your areas of expertise ? (Type and Press
