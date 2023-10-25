@@ -25,7 +25,7 @@ class CompletedCallsMailController extends Controller
 
                 $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
-                $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
+                $mentor_finish_time = Carbon::parse($user_timezone->format('H:i'))->addMinutes($completed_session->duration);
 
                 $current_time = Carbon::now()->timezone($mentor_timezone->time_zone)->format('H:i');
 
