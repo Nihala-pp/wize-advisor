@@ -1637,7 +1637,7 @@
     </header>
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-82fl1zs elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano"
+            class="elementor-section elementor-top-section elementor-element elementor-element-82fl1zs elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="82fl1zs" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-background-overlay"></div>
@@ -3236,8 +3236,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').hide();
-                            $('.mentorsList').html(response);
+                            $('.section-ano').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3256,8 +3256,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').hide();
-                            $('.mentorsList').html(response);
+                            $('.section-ano').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3276,8 +3276,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').hide();
-                            $('.mentorsList').html(response);
+                            $('.section-ano').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3297,8 +3297,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').hide();
-                            $('.mentorsList').html(response);
+                            $('.section-ano').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3317,8 +3317,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').hide();
-                            $('.mentorsList').html(response);
+                            $('.section-ano').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3337,8 +3337,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').hide();
-                            $('.mentorsList').html(response);
+                            $('.section-ano').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
