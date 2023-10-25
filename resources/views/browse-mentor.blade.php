@@ -3228,7 +3228,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.section-ano').show();
+                            $('.selectpicker').show();
                         }
                     });
                 });
@@ -3246,7 +3246,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.section-ano').show();
+                            $('.selectpicker').show();
                         }
                     });
                 });
@@ -3264,7 +3264,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.section-ano').show();
+                            $('.selectpicker').show();
                         }
                     });
                 });
@@ -3283,7 +3283,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.section-ano').show();
+                            $('.selectpicker').show();
                         }
                     });
                 });
@@ -3301,7 +3301,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.section-ano').show();
+                            $('.selectpicker').show();
                         }
                     });
                 });
@@ -3319,7 +3319,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.section-ano').show();
+                            $('.selectpicker').show();
                         }
                     });
                 });
