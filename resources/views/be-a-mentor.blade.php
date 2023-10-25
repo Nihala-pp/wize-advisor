@@ -24,37 +24,67 @@
                                     @csrf
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">First Name</label>
-                                        <input type="text" name="firstname" class="form-control" autocomplete="off"
+                                        <input type="text" name="firstname"
+                                            class="form-control @error('firstname') is-invalid @enderror" autocomplete="off"
                                             required>
                                     </div>
+                                    @error('firstname')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Last Name</label>
-                                        <input type="text" name="lastname" class="form-control" autocomplete="off"
+                                        <input type="text" name="lastname"
+                                            class="form-control @error('lastname') is-invalid @enderror" autocomplete="off"
                                             required>
                                     </div>
+                                    @error('lastname')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Email</label>
-                                        <input type="email" name="email" class="form-control" autocomplete="off"
+                                        <input type="email" name="email"
+                                            class="form-control @error('email') is-invalid @enderror" autocomplete="off"
                                             required>
                                     </div>
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                     <!-- <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
                                         <input type="tel" name="phone" class="form-control" >
                                     </div> -->
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Linked-In Profile</label>
-                                        <input type="url" class="form-control" name="linked_in" autocomplete="off"
-                                            required>
+                                        <input type="url" class="form-control @error('linked_in') is-invalid @enderror"
+                                            name="linked_in" autocomplete="off" required>
                                     </div>
+                                    @error('linked_in')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">What is your education background ?</label>
-                                        <input type="text" name="qualification" class="form-control" required>
+                                        <input type="text" name="qualification"
+                                            class="form-control @error('qualification') is-invalid @enderror" required>
                                     </div>
+                                    @error('qualification')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                     <div class="input-group input-group-static mb-4">
                                         <label class="">What is your professional
                                             status
                                             ?</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" name="designation">
+                                        <select class="form-control @error('name') is-invalid @enderror"
+                                            id="exampleFormControlSelect1" name="designation">
                                             <option value="business_owner">Business Owner</option>
                                             <option value="startup_owner">Startup Owner</option>
                                             <option value="freelancer">Freelancer</option>
