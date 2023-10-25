@@ -21,13 +21,13 @@
             <h5 class="card-title mt-3">Confirmed</h5>
             <p class="card-text">Your call is scheduled with {{ $mentor->name }}</p>
             <h5 class="card-title">{{ $details['duration'] }} Min Meeting</h5>
-            <h6 class="card-title"> {{ $details['start_time'] }} - {{ $details['finish_time'] }} on {{ $details['date'] }}  {{ $details['UTC'] }} </h6>
+            <h6 class="card-title"> {{ $details['start_time'] }} - {{ $details['finish_time'] }} {{ strtolower('on') }} {{ $details['date'] }}  {{ $details['UTC'] }} </h6>
             <p class="card-text mt-2">An email for the meeting link will be sent to your Email Address Once
                 mentor approves the call.</p>
         </div>
     </div>
       <!--   Core JS Files   -->
-      <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+      <!-- <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
             <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
                 <footer
@@ -840,7 +840,7 @@
                 </footer>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <style id="skip-link-styles">
     .skip-link.screen-reader-text {
