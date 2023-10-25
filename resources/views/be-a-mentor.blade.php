@@ -83,7 +83,7 @@
                                         <label class="">What is your professional
                                             status
                                             ?</label>
-                                        <select class="form-control @error('name') is-invalid @enderror"
+                                        <select class="form-control @error('designation') is-invalid @enderror"
                                             id="exampleFormControlSelect1" name="designation">
                                             <option value="business_owner">Business Owner</option>
                                             <option value="startup_owner">Startup Owner</option>

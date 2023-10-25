@@ -187,6 +187,14 @@ class HomeController extends Controller
 
   public function addMentorRequest(Request $request)
   {
+    $request->validate([
+      'email' => 'required|email|unique:mentors_join_request',
+      'firstname' => 'required',
+      'lastname' => 'required',
+      'linked_in' => 'required',
+      'qualification' => 'required'
+  ]);
+  
     $data = [
       'firstname' => $request->firstname,
       'lastname' => $request->lastname,
@@ -204,11 +212,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-        alert("Be a Mentor Requested Successfully!");
-        window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfully!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
