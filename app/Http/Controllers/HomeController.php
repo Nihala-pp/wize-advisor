@@ -177,7 +177,9 @@ class HomeController extends Controller
 
   public function addMentor()
   {
-    return view('be-a-mentor');
+    if (!(Auth::id() && auth()->user()->role_id == 3)) {
+      return view('be-a-mentor');
+    }
   }
 
   public function contactUs()
@@ -193,8 +195,8 @@ class HomeController extends Controller
       'lastname' => 'required',
       'linked_in' => 'required',
       'qualification' => 'required'
-  ]);
-  
+    ]);
+
     $data = [
       'firstname' => $request->firstname,
       'lastname' => $request->lastname,
@@ -212,11 +214,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -283,7 +285,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
     try {
-      
+
       $call = ScheduledCall::create([
         'user_id' => Auth::id(),
         'mentor_id' => $data['mentor'],
