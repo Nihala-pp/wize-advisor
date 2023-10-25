@@ -3,7 +3,7 @@
 @php header('Access-Control-Allow-Origin: *'); @endphp
 
 @include('partials.web-header-new')
-@include('partials.header')
+<!-- @include('partials.header') -->
 
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
