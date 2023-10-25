@@ -23,8 +23,8 @@
     <!-- CSS Files -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- MDB -->
-    <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
