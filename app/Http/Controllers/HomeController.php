@@ -205,8 +205,8 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-        a lert("Be a Mentor Requested Successfully!");
-        w indow.location.href = "https://wiseadvizor.com/be-a-mentor";
+        alert("Be a Mentor Requested Successfully!");
+        window.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
   }
