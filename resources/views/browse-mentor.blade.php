@@ -3236,8 +3236,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').show();
                             $('.page-template').html(response);
+                            $('.section-ano').show();
                         }
                     });
                 });
@@ -3256,8 +3256,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').show();
                             $('.page-template').html(response);
+                            $('.section-ano').show();
                         }
                     });
                 });
@@ -3276,8 +3276,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').show();
                             $('.page-template').html(response);
+                            $('.section-ano').show();
                         }
                     });
                 });
@@ -3297,8 +3297,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').show();
                             $('.page-template').html(response);
+                            $('.section-ano').show();
                         }
                     });
                 });
@@ -3317,8 +3317,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').show();
                             $('.page-template').html(response);
+                            $('.section-ano').show();
                         }
                     });
                 });
@@ -3337,8 +3337,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.section-ano').show();
                             $('.page-template').html(response);
+                            $('.section-ano').show();
                         }
                     });
                 });
