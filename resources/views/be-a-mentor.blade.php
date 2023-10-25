@@ -25,36 +25,42 @@
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">First Name</label>
                                         <input type="text" name="firstname"
-                                            class="form-control @error('firstname') is-invalid @enderror" autocomplete="off"
-                                            required>
+                                            class="form-control @error('firstname') is-invalid @enderror"
+                                            autocomplete="off" required>
+
+                                        @error('firstname')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
                                     </div>
-                                    @error('firstname')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
+
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Last Name</label>
                                         <input type="text" name="lastname"
-                                            class="form-control @error('lastname') is-invalid @enderror" autocomplete="off"
-                                            required>
+                                            class="form-control @error('lastname') is-invalid @enderror"
+                                            autocomplete="off" required>
+
+                                        @error('lastname')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
                                     </div>
-                                    @error('lastname')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
+
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Email</label>
                                         <input type="email" name="email"
                                             class="form-control @error('email') is-invalid @enderror" autocomplete="off"
                                             required>
+
+                                        @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
                                     </div>
-                                    @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
+
                                     <!-- <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Phone</label>
                                         <input type="tel" name="phone" class="form-control" >
@@ -63,22 +69,25 @@
                                         <label class="">Linked-In Profile</label>
                                         <input type="url" class="form-control @error('linked_in') is-invalid @enderror"
                                             name="linked_in" autocomplete="off" required>
+
+                                        @error('linked_in')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
                                     </div>
-                                    @error('linked_in')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
+
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">What is your education background ?</label>
                                         <input type="text" name="qualification"
                                             class="form-control @error('qualification') is-invalid @enderror" required>
+                                        @error('qualification')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                        @enderror
                                     </div>
-                                    @error('qualification')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
+
                                     <div class="input-group input-group-static mb-4">
                                         <label class="">What is your professional
                                             status
