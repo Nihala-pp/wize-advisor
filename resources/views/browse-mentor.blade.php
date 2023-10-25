@@ -3236,7 +3236,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').hide();
+                            $('.section-ano').hide();
                             $('.mentorsList').html(response);
                         }
                     });
@@ -3256,7 +3256,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').hide();
+                            $('.section-ano').hide();
                             $('.mentorsList').html(response);
                         }
                     });
@@ -3276,7 +3276,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').hide();
+                            $('.section-ano').hide();
                             $('.mentorsList').html(response);
                         }
                     });
@@ -3297,7 +3297,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').hide();
+                            $('.section-ano').hide();
                             $('.mentorsList').html(response);
                         }
                     });
@@ -3317,7 +3317,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').hide();
+                            $('.section-ano').hide();
                             $('.mentorsList').html(response);
                         }
                     });
@@ -3337,7 +3337,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').hide();
+                            $('.section-ano').hide();
                             $('.mentorsList').html(response);
                         }
                     });
