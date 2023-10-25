@@ -22,7 +22,7 @@ class CallReminderUserController extends Controller
 
             if ($calls->count() > 0) {
                 foreach ($calls as $call) {
-                    if ((Carbon::parse($call->start_time)->subHour()->format('H:i:s')) == (Carbon::now()->timezone($call->utc)->format('H:i:s'))) {
+                    if ((Carbon::parse($call->start_time)->subHour()->format('H:i')) == (Carbon::now()->timezone($call->utc)->format('H:i'))) {
 
                         Mail::to($call->user->email)->send(new callReminderUser($call));
                         Log::info('AutoCallReminderhourlyUser Successfully completed');
