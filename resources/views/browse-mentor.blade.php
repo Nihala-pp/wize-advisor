@@ -3229,8 +3229,6 @@
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + name + "/" +
                             filter + "",
-                        contentType: false,
-                        processData: false,
                         data: {
                             "slug": "name",
                             "_token": "{{ csrf_token() }}",
@@ -3249,8 +3247,6 @@
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + price + "/" +
                             filter + "",
-                        contentType: false,
-                        processData: false,
                         data: {
                             "slug": "name",
                             "_token": "{{ csrf_token() }}",
@@ -3269,8 +3265,6 @@
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + time + "/" +
                             filter + "",
-                        contentType: false,
-                        processData: false,
                         data: {
                             "slug": "name",
                             "_token": "{{ csrf_token() }}",
@@ -3290,8 +3284,6 @@
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + date + "/" +
                             filter + "",
-                        contentType: false,
-                        processData: false,
                         data: {
                             "slug": "name",
                             "_token": "{{ csrf_token() }}",
@@ -3310,8 +3302,6 @@
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + expertise + "/" +
                             filter + "",
-                        contentType: false,
-                        processData: false,
                         data: {
                             "slug": "name",
                             "_token": "{{ csrf_token() }}",
@@ -3330,8 +3320,6 @@
                         type: 'GET',
                         url: "{{ route('browseMentor', '') }}" + "/" + sort + "/" +
                             filter + "",
-                        contentType: false,
-                        processData: false,
                         data: {
                             "slug": "name",
                             "_token": "{{ csrf_token() }}",
