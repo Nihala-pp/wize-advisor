@@ -116,10 +116,14 @@ class HomeController extends Controller
             })->get();
           break;
         case 'date':
-          $schedule = AvailableSchedule::with('user')->where('date', 'LIKE', '%' . $variable . '%')->get();
+          $mentors = User::where('role_id', 2)
+          ->whereNull('status')
+          ->whereHas('availability', function (Builder $query) use ($variable) {
+            $query->whereDate('date', '=', $variable);
+          })->get();
           break;
         case 'time':
-          $mentors = AvailableSchedule::where('price', 'LIKE', '%' . $variable . '%')->get();
+          $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'sortBy':
           $mentors = User::where('role_id', 2)

@@ -66,4 +66,12 @@ class User extends Authenticatable
     {
         return $this->hasOne(UserMeta::class, 'user_id', 'id');
     }
+
+    /**
+     * Get the phone record associated with the user.
+     */
+    public function availability(): HasOne
+    {
+        return $this->hasOne(AvailableSchedule::class, 'mentor_id', 'id');
+    }
 }
