@@ -1912,7 +1912,7 @@
                 content: "★"
             }
             </style>
-            <div class="container h-100">
+            <div class="container h-100 mentorsList">
                 <div class="row align-self-center mx-auto">
                     <div class="card-deck">
                         @foreach($mentors as $mentor)
@@ -3255,7 +3255,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
+                            $('.mentorsList').html(response);
                         }
                     });
                 });
@@ -3274,7 +3274,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
+                            $('.mentorsList').html(response);
                         }
                     });
                 });
@@ -3294,7 +3294,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
+                            $('.mentorsList').html(response);
                         }
                     });
                 });
@@ -3313,7 +3313,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
+                            $('.mentorsList').html(response);
                         }
                     });
                 });
@@ -3332,7 +3332,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
+                            $('.mentorsList').html(response);
                         }
                     });
                 });
