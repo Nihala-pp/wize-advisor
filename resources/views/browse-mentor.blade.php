@@ -3236,7 +3236,7 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
+                            $('.mentorsList').html(response);
                         }
                     });
                 });
