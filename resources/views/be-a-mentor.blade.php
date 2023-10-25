@@ -81,7 +81,7 @@
                                             <!-- <label class="custom-control-label" for="customRadio1">Yes</label> -->
                                             <label class="form-check-label" for="flexRadioDefault1">Yes</label>
                                         </div>
-                                        <div class="form-check">
+                                        <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
                                                 id="flexRadioDefault2" value="no">
                                             <label class="form-check-label" for="flexRadioDefault2">No</label>
