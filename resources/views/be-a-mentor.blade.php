@@ -77,13 +77,15 @@
                                         </div> -->
                                         <div class="form-check mb-3">
                                             <input class="form-check-input" type="radio" name="experience"
-                                                id="customRadio1" value="yes" required>
-                                            <label class="custom-control-label" for="customRadio1">Yes</label>
+                                                id="flexRadioDefault1" value="yes" required>
+                                            <!-- <label class="custom-control-label" for="customRadio1">Yes</label> -->
+                                            <label class="form-check-label" for="flexRadioDefault1">Yes</label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="experience"
-                                                id="customRadio2" value="no">
-                                            <label class="custom-control-label" for="customRadio2">No</label>
+                                                id="flexRadioDefault2" value="no">
+                                            <label class="form-check-label" for="flexRadioDefault2">No</label>
+                                            <!-- <label class="custom-control-label" for="customRadio2">No</label> -->
                                         </div>
                                     </div>
                                     <div class="input-group input-group-static mb-3">
@@ -108,7 +110,8 @@
                                     <div class="input-group input-group-static mb-3 price" id="price">
                                         <label class="">How much are you looking to charge per session ? (In
                                             USD)</label>
-                                        <input type="number" class="form-control" name="price_per_session" id="price_per_session">
+                                        <input type="number" class="form-control" name="price_per_session"
+                                            id="price_per_session">
                                     </div>
                                     <div class="">
                                         <label class="">What are your areas of expertise ? (Type and Press
