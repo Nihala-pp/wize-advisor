@@ -22,8 +22,13 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
+                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
                                     <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         class="rounded-circle img-fluid" />
+                                    @else
+                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                        class="rounded-circle img-fluid" />
+                                    @endif
                                 </div>
                                 <!-- <img class="rounded-circle img-fluid"
                                     src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
@@ -41,9 +46,9 @@
                                             <li>
                                                 <i class="fas fa-star fa-sm text-info"></i>
                                             </li>
-                                        @endfor
+                                            @endfor
                                     </ul>
-                                    <hr/>
+                                    <hr />
                                     <p class="dark-grey-text mt-4">
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
@@ -80,4 +85,5 @@
     border-radius: 50%;
 }
 </style>
+
 </html>
