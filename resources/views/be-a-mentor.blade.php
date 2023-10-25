@@ -1433,15 +1433,21 @@
 
         $('#price').hide();
 
-        $('input[type="radio"]').click(function() {
+        // $('input[name="is_charged"]').change(function() {
+        //     if ($(this).attr('id') == 'charge') {
+        //         $('#price').show();
+        //     } else {
+        //         $('#price').hide();
+        //     }
+        // });
+
+        $('input[name="is_charged"]').change(function() {
             if ($(this).attr('id') == 'charge') {
                 $('#price').show();
             } else {
                 $('#price').hide();
             }
-        });
 
-        $('input[name="is_charged"]').change(function() {
             if ($(this).val() == 'yes') {
                 $('#price_per_session').prop('required', true);
             } else {
