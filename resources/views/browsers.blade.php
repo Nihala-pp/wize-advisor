@@ -1,0 +1,52 @@
+<div class="row align-self-center mx-auto">
+    <div class="card-deck">
+        @foreach($mentors as $mentor)
+        <div class="col-md-4" style="padding-top: 50px">
+            <div class="card" style="width: 22rem;">
+                <!-- <div class="card" style="width: 22rem;"> -->
+                <img class="card-img-top"
+                    src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                    alt="Card image cap" width="277" height="180">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ $mentor->name }}</h5>
+                    <p class="card-text">
+                        {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}
+
+                        <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
+                    </p>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        @if(Auth::id())
+                        <a href="{{ route('schedule-call', [$mentor->id]) }}" class="btn btn-primary mid-center"
+                            style="background-color:#001E64;">Schedule Call</a>
+                        @else
+                        <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
+                            class="btn btn-primary mid-center" style="background-color:#001E64;">Schedule Call</a>
+                        @endif
+                        <a href="{{ route('profile', [$mentor->id]) }}" class="card-link viewProfile"
+                            style="color:#007bff;">View Profile</a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        <div class="elementor-star-rating__wrapper">
+                            <div class="elementor-star-rating__wrapper">
+                                <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating"
+                                    itemscope="" itemprop="reviewRating">
+                                    <i class="elementor-star-full">&#xE934;</i><i
+                                        class="elementor-star-full">&#xE934;</i><i
+                                        class="elementor-star-full">&#xE934;</i><i
+                                        class="elementor-star-full">&#xE934;</i><i
+                                        class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue"
+                                        class="elementor-screen-only">5/5</span>
+                                </div>
+                            </div>
+                            <span class="text-center"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                    $ / 30 Min</b></span>
+                        </div>
+                    </small>
+                </div>
+            </div>
+        </div>
+        @endforeach
+    </div>
+</div>
