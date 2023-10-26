@@ -2822,8 +2822,8 @@
             color: #fff;
             font-weight: 400px;
             line-height: 1;
-            height: 75%;
-            width: 75%;
+            height: 70%;
+            width: 85%;
             font-size: 0.75rem !important;
         }
 
