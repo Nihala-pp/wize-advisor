@@ -182,6 +182,7 @@
                                         @if(count($upcoming_sessions))
                                         @foreach($upcoming_sessions as $upcoming_session)
                                         @php
+                                        if(!empty($upcoming_session)) {
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $upcoming_session->mentor_id)->where('date',
                                         $upcoming_session->date)->first();
@@ -200,7 +201,7 @@
                                         dd($mentor_finish_time);
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
-
+                                        }
                                         if(date($upcoming_session->date.' '.$mentor_finish_time->format('H:i:s')) >=
                                         $current_time)
                                         {
@@ -224,6 +225,7 @@
 
                                                     {{ $upcoming_session ? $upcoming_session->date : '' }}
                                                     @php
+                                                    if(!empty($upcoming_session)) {
                                                     $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                                     $upcoming_session->mentor_id)->where('date',
                                                     $upcoming_session->date)->first();
@@ -240,7 +242,7 @@
 
                                                     echo $user_timezone->format('h:i A').' -
                                                     '.$mentor_finish_time->format('h:i A');
-
+                                                    }
                                                     @endphp
                                                 </div>
                                             </td>
@@ -426,6 +428,7 @@
                                         @if(count($completed_sessions))
                                         @foreach($completed_sessions as $completed_session)
                                         @php
+                                        if(!empty($completed_session)) {
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $completed_session->mentor_id)->where('date',
                                         $completed_session->date)->first();
@@ -441,6 +444,7 @@
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($completed_session->duration);
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
+                                        }
 
                                         if(date($completed_session->date.' '.$mentor_finish_time->format('H:i:s')) <
                                             $current_time) { @endphp <tr>
@@ -461,6 +465,7 @@
                                                 <div class="avatar-group mt-2">
                                                     {{ $completed_session ? $completed_session->date : '' }}
                                                     @php
+                                                    if(!empty($completed_session)) {
                                                     $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                                     $completed_session->mentor_id)->where('date',
                                                     $completed_session->date)->first();
@@ -477,7 +482,7 @@
 
                                                     echo $user_timezone->format('h:i A').' -
                                                     '.$mentor_finish_time->format('h:i A');
-
+                                                    }
                                                     @endphp
                                                 </div>
                                             </td>
