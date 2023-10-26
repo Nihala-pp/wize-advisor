@@ -117,10 +117,10 @@ class HomeController extends Controller
           break;
         case 'date':
           $mentors = User::where('role_id', 2)
-          ->whereNull('status')
-          ->whereHas('availability', function (Builder $query) use ($variable) {
-            $query->whereDate('date', '=', $variable);
-          })->get();
+            ->whereNull('status')
+            ->whereHas('availability', function (Builder $query) use ($variable) {
+              $query->whereDate('date', '=', $variable);
+            })->get();
           break;
         case 'time':
           $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%' . $variable . '%')->get();
@@ -176,7 +176,12 @@ class HomeController extends Controller
     ];
 
     // dd($expertise);
-    return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
+
+    if (!empty($variable)) {
+      return view('browsers', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
+    } else {
+      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
+    }
   }
 
   public function addMentor()
@@ -218,11 +223,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-      alert("Be a Mentor Requested Successfully!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfully!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
@@ -309,9 +314,9 @@ class HomeController extends Controller
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-          'is_booked' => 1,
-          'call_id' => $call['id']
-        ]);
+            'is_booked' => 1,
+            'call_id' => $call['id']
+          ]);
 
       $mentor = User::find($data['mentor']);
       $user = User::find(Auth::id());
