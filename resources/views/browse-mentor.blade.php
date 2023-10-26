@@ -1750,7 +1750,7 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default mentorsList"
+            class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="lqdwygc" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <style>
