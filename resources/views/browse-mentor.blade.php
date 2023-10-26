@@ -1907,7 +1907,7 @@
             </style>
             <div class="container h-100 mentors">
             </div>
-            <div class="container h-100">
+            <div class="container h-100 mentorsList">
                 <div class="row align-self-center mx-auto">
                     <div class="card-deck">
                         @foreach($mentors as $mentor)
@@ -3209,8 +3209,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                             $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
@@ -3227,8 +3227,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                             $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
@@ -3245,8 +3245,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                             $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
@@ -3264,8 +3264,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                             $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
@@ -3282,8 +3282,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                             $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
@@ -3300,8 +3300,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                             $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
