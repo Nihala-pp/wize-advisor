@@ -21,7 +21,6 @@ class CompletedCallsMailController extends Controller
             foreach ($completed_sessions as $completed_session) {
                 $mentor_timezone = AvailableSchedule::where('mentor_id', $completed_session->mentor_id)->where('date', $completed_session->date)->first();
 
-                dd($mentor_timezone);
                 $user_timezone = new \DateTime($completed_session->date . ' ' . $completed_session->start_time, new \DateTimeZone($completed_session->utc));
 
                 $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
@@ -29,6 +28,9 @@ class CompletedCallsMailController extends Controller
                 $mentor_finish_time = Carbon::parse($user_timezone->format('H:i'))->addMinutes($completed_session->duration);
 
                 $current_time = Carbon::now()->timezone($mentor_timezone->time_zone)->format('H:i');
+
+                dd($current_time);
+
 
                 if (date($completed_session->date . ' ' . $mentor_finish_time->format('H:i')) == $current_time) {
 
