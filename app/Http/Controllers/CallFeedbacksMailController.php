@@ -22,9 +22,8 @@ class CallFeedbacksMailController extends Controller
                 $user_finish_time = Carbon::parse($completed_session->end_time)->addHour()->format('Y-m-d H:i');
 
                 $current_time = Carbon::now()->timezone($completed_session->utc)->format('Y-m-d H:i');
-                dd($current_time);
 
-                if (date($completed_session->date . ' ' . $user_finish_time->format('H:i')) == $current_time) {
+                if ($user_finish_time == $current_time) {
 
                     $details = [
                         'mentor_name' => $completed_session->mentor->name,
