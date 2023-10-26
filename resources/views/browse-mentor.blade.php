@@ -3227,8 +3227,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3245,8 +3245,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3263,8 +3263,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3282,8 +3282,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3300,8 +3300,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
@@ -3318,8 +3318,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            $('.page-template').html(response);
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
+                            $('.page-template').html(response);
                         }
                     });
                 });
