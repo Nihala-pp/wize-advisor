@@ -3228,7 +3228,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.filters').show();
+                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                         }
                     });
                 });
@@ -3246,7 +3246,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.filters').show();
+                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                         }
                     });
                 });
@@ -3264,7 +3264,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.filters').show();
+                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                         }
                     });
                 });
@@ -3283,7 +3283,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.filters').show();
+                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                         }
                     });
                 });
@@ -3301,7 +3301,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.filters').show();
+                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                         }
                     });
                 });
@@ -3319,7 +3319,7 @@
                         },
                         success: function(response) {
                             $('.page-template').html(response);
-                            $('.filters').show();
+                            $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
                         }
                     });
                 });
