@@ -1905,6 +1905,8 @@
                 content: "★"
             }
             </style>
+            <div class="container h-100 mentors">
+            </div>
             <div class="container h-100">
                 <div class="row align-self-center mx-auto">
                     <div class="card-deck">
@@ -3208,7 +3210,7 @@
                         },
                         success: function(response) {
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
-                            $('.page-template').html(response);
+                            $('.mentors').html(response);
                         }
                     });
                 });
@@ -3226,7 +3228,7 @@
                         },
                         success: function(response) {
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
-                            $('.page-template').html(response);
+                            $('.mentors').html(response);
                         }
                     });
                 });
@@ -3244,7 +3246,7 @@
                         },
                         success: function(response) {
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
-                            $('.page-template').html(response);
+                            $('.mentors').html(response);
                         }
                     });
                 });
@@ -3263,7 +3265,7 @@
                         },
                         success: function(response) {
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
-                            $('.page-template').html(response);
+                            $('.mentors').html(response);
                         }
                     });
                 });
@@ -3281,7 +3283,7 @@
                         },
                         success: function(response) {
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
-                            $('.page-template').html(response);
+                            $('.mentors').html(response);
                         }
                     });
                 });
@@ -3299,7 +3301,7 @@
                         },
                         success: function(response) {
                             $('.div.col-3.col-md-3.mb-3.mt-3.filters').show();
-                            $('.page-template').html(response);
+                            $('.mentors').html(response);
                         }
                     });
                 });
