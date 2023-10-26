@@ -29,8 +29,6 @@ class CompletedCallsMailController extends Controller
 
                 $current_time = Carbon::now()->timezone($mentor_timezone->time_zone)->format('Y-m-d H:i');
 
-                dd($mentor_finish_time);
-
                 if ($mentor_finish_time == $current_time) {
 
                     $details = [
