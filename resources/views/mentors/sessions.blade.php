@@ -182,11 +182,10 @@
                                         @if(count($upcoming_sessions))
                                         @foreach($upcoming_sessions as $upcoming_session)
                                         @php
-                                        if(!empty($upcoming_session)) {
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $upcoming_session->mentor_id)->where('date',
                                         $upcoming_session->date)->first();
-
+                                        if(!empty($mentor_timezone->time_zone)) {
                                         $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                         $upcoming_session->start_time, new
                                         \DateTimeZone($upcoming_session->utc));
@@ -222,10 +221,10 @@
 
                                                     {{ $upcoming_session ? $upcoming_session->date : '' }}
                                                     @php
-                                                    if(!empty($upcoming_session)) {
                                                     $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                                     $upcoming_session->mentor_id)->where('date',
                                                     $upcoming_session->date)->first();
+                                                    if(!empty($mentor_timezone->time_zone)) {
 
                                                     $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                                     $upcoming_session->start_time, new
