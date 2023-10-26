@@ -186,19 +186,16 @@
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $upcoming_session->mentor_id)->where('date',
                                         $upcoming_session->date)->first();
-                                        <!-- dd($mentor_timezone); -->
 
                                         $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                         $upcoming_session->start_time, new
                                         \DateTimeZone($upcoming_session->utc));
-                                        <!-- dd($user_timezone); -->
 
                                         $user_timezone->setTimezone(new
                                         \DateTimeZone($mentor_timezone->time_zone));
 
                                         $mentor_finish_time =
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
-                                        <!-- dd($mentor_finish_time); -->
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
                                         }
