@@ -190,6 +190,7 @@
                                         $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                         $upcoming_session->start_time, new
                                         \DateTimeZone($upcoming_session->utc));
+                                        dd($user_timezone);
 
                                         $user_timezone->setTimezone(new
                                         \DateTimeZone($mentor_timezone->time_zone));
