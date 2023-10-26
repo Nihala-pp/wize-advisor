@@ -197,6 +197,7 @@
 
                                         $mentor_finish_time =
                                         Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
+                                        dd($mentor_finish_time);
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
 
