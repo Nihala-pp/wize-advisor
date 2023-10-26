@@ -185,6 +185,7 @@
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $upcoming_session->mentor_id)->where('date',
                                         $upcoming_session->date)->first();
+                                        {{ dd($mentor_timezone) }}
 
                                         $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                         $upcoming_session->start_time, new
