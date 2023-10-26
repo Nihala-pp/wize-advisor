@@ -2825,7 +2825,7 @@
             height: 70%;
             width: 85%;
             font-size: 0.75rem !important;
-            margin-left:20px !important;
+            padding-left: 20px !important;
         }
 
         ::placeholder {
