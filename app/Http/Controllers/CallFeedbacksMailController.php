@@ -20,9 +20,9 @@ class CallFeedbacksMailController extends Controller
             foreach ($completed_sessions as $completed_session) {
 
                 $user_finish_time = Carbon::parse($completed_session->end_time)->addHour()->format('Y-m-d H:i');
-                dd($user_finish_time);
 
                 $current_time = Carbon::now()->timezone($completed_session->utc)->format('H:i');
+                dd($current_time);
 
                 if (date($completed_session->date . ' ' . $user_finish_time->format('H:i')) == $current_time) {
 
