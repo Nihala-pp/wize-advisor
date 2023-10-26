@@ -1709,8 +1709,8 @@
                             </select>
                         </div>
                         <div class="col-3 col-md-3 mt-3 filters">
-                            <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date" name="date"
-                                data-style="btn-info" required>
+                            <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
+                                name="date" data-style="btn-info" required>
                         </div>
                         <!-- <div class="col-4 col-md-4 mt-3">
                             <select id="time" class="selectpicker" data-style="btn-info">
@@ -3194,26 +3194,6 @@
         <script type="text/javascript">
         (function($) {
             $(document).ready(function() {
-                // $('#date').hide();
-
-                // $('#date').datepicker()({
-                //     showOn: 'button'
-                // }).next('button').button({
-                //     icons: {
-                //         primary: 'ui-icon-calendar'
-                //     },
-                //     text: false
-                // });
-
-                // $('#date_available').click(function() {
-                //     $('#date').datepicker('show');
-                // });
-
-                // $("#days").click(function(e) {
-                //     e.preventDefault();
-                //     $('#date').show();
-                //     $("#date").datepicker().focus();
-                // });
 
                 $('#name').on('change', function() {
                     var name = $(this).val();
@@ -3344,7 +3324,6 @@
         <!--End of Tawk.to Script-->
 </body>
 <style>
-    
 input[type="date"]::before {
     color: #ffff;
     content: attr(placeholder);
@@ -3369,8 +3348,9 @@ input[type="date"]:valid::before {
 } */
 
 i.fas.fa-bell.fa-2xl {
-    
+
     font-size: 32px !important;
 }
 </style>
+
 </html>
