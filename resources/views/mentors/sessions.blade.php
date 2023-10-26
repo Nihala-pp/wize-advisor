@@ -424,10 +424,11 @@
                                         @if(count($completed_sessions))
                                         @foreach($completed_sessions as $completed_session)
                                         @php
-                                        if(!empty($completed_session)) {
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $completed_session->mentor_id)->where('date',
                                         $completed_session->date)->first();
+
+                                        if(!empty($mentor_timezone->time_zone)) {
 
                                         $user_timezone = new \DateTime($completed_session->date . ' ' .
                                         $completed_session->start_time, new
@@ -461,10 +462,11 @@
                                                 <div class="avatar-group mt-2">
                                                     {{ $completed_session ? $completed_session->date : '' }}
                                                     @php
-                                                    if(!empty($completed_session)) {
                                                     $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                                     $completed_session->mentor_id)->where('date',
                                                     $completed_session->date)->first();
+
+                                                    if(!empty($mentor_timezone->time_zone)) {
 
                                                     $user_timezone = new \DateTime($completed_session->date . ' ' .
                                                     $completed_session->start_time, new
