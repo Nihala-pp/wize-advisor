@@ -5404,7 +5404,7 @@
     </script>
     <style>
     .unlimited-elements-background-overlay {
-        position: absolute;
+        img position: absolute;
         top: 0px;
         left: 0px;
         width: 100%;
@@ -5418,6 +5418,12 @@
 
     img {
         max-width: 100%;
+    }
+
+    @media screen and (max-width:480px) {
+        .elementor-element-92ef909 {
+            display: none !important;
+        }
     }
     </style>
 
