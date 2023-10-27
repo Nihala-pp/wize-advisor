@@ -5427,6 +5427,9 @@
         .elementor-element-e84c9ef {
             display:none !important;
         }
+        .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
+            color:#330252;
+        }
     }
 
     @media screen and (max-width:767px) {
@@ -5435,6 +5438,9 @@
         }
         .elementor-element-e84c9ef {
             display:none !important;
+        }
+        .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
+            color:#330252;
         }
     }
     </style>
