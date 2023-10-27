@@ -5424,6 +5424,9 @@
         .elementor-element-92ef909 {
             display:none !important;
         }
+        .elementor-element-e84c9ef {
+            display:none !important;
+        }
     }
     </style>
 
