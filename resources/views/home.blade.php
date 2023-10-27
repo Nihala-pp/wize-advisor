@@ -5415,6 +5415,10 @@
     .unlimited-elements-background-overlay.uc-bg-front {
         z-index: 999;
     }
+
+    img {
+        max-width: 100%;
+    }
     </style>
 
     <div class="unlimited-elements-background-overlay" data-forid="b513049" data-location="back" style="display:none">
@@ -5613,4 +5617,5 @@
     </script>
     <!--End of Tawk.to Script-->
 </body>
+
 </html>
