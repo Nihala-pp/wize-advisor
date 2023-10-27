@@ -5422,7 +5422,7 @@
 
     @media screen and (max-width:480px) {
         .elementor-element-92ef909 {
-            display: none !important;
+            display:none !important;
         }
     }
     </style>
