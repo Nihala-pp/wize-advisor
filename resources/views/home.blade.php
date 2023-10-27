@@ -5428,6 +5428,15 @@
             display:none !important;
         }
     }
+
+    @media screen and (max-width:767px) {
+        .elementor-element-92ef909 {
+            display:none !important;
+        }
+        .elementor-element-e84c9ef {
+            display:none !important;
+        }
+    }
     </style>
 
     <div class="unlimited-elements-background-overlay" data-forid="b513049" data-location="back" style="display:none">
