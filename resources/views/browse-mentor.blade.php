@@ -1697,7 +1697,7 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-3 mt-3 filters">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-3 mt-3 filters">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
@@ -1708,11 +1708,11 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-3 col-md-3 mt-3 filters">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
                                 name="date" data-style="btn-info" required>
                         </div>
-                        <div class="col-3 col-md-3 mt-3 filters">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
                                 @foreach($price as $pr)
@@ -1720,7 +1720,7 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-3 col-md-3 mt-3 filters">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <select id="sort" class="selectpicker" data-style="btn-info">
                                 <option value="">Sort by Price</option>
                                 <option value="asc">ASC</option>
