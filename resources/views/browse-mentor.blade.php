@@ -1911,7 +1911,7 @@
                 <div class="row align-self-center mx-auto">
                     <div class="card-deck">
                         @foreach($mentors as $mentor)
-                        <div class="col-md-4 col-sm-8 col-xs-12" style="padding-top: 50px">
+                        <div class="col-md-4 col-sm-8 col-xs-12" style="padding-top:50px;">
                             <div class="card" style="">
                                 <!-- <div class="card" style="width: 22rem;"> -->
                                 <img class="card-img-top"
