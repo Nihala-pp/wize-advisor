@@ -1697,7 +1697,7 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3 col-md-3 mb-3 mt-3 filters">
+                        <div class="col-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-3 mt-3 filters">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
@@ -1712,24 +1712,6 @@
                             <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
                                 name="date" data-style="btn-info" required>
                         </div>
-                        <!-- <div class="col-4 col-md-4 mt-3">
-                            <select id="time" class="selectpicker" data-style="btn-info">
-                                <option value="">Time Slot</option>
-                                @foreach($slot as $tt)
-                                <option value="{{ $tt->start_time.'-'.$tt->end_time }}">{{ $tt->start_time }} -
-                                    {{ $tt->end_time }}</option>
-                                @endforeach
-                            </select>
-                        </div> -->
-                        <!-- <div class="col-4 col-md-4">
-                            <select id="price" class="selectpicker" data-style="btn-info">
-                                <option value="">Price</option>
-                                @foreach($price as $pr)
-                                <option value="{{ $pr->metaData ?  $pr->metaData->price_per_call : '' }}">
-                                    {{ $pr->metaData ?  $pr->metaData->price_per_call : '' }}$</option>
-                                @endforeach
-                            </select> -->
-                        <!-- </div> -->
                         <div class="col-3 col-md-3 mt-3 filters">
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
