@@ -3338,9 +3338,13 @@
     }
 
     .col-md-4 {
-        width: 15rem;
+        width: 100%;
         /* float: left; */
         margin: 0;
+    }
+
+    .card {
+        width:15rem;
     }
 }
 
