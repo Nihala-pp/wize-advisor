@@ -13,7 +13,7 @@ class weeklySlotUpdateController extends Controller
     public function index()
     {
         try {
-            $mentors = User::where('role_id', 2)->get();
+            $mentors = User::where('role_id', 2)->whereNull('status')->get();
 
             foreach ($mentors as $mentor) {
                 Mail::to($mentor->email)->send(new weeklySlotUpdate($mentor));
