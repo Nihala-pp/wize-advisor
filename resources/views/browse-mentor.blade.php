@@ -3349,6 +3349,7 @@
 
     .elementor-star-rating__wrapper {
         padding-right: 25px;
+        padding-left: 25px;
     }
 }
 
