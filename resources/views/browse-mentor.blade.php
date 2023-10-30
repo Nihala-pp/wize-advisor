@@ -3348,7 +3348,7 @@
     }
 
     .elementor-star-rating__wrapper {
-        padding-right: 15px;
+        padding-right: 26px;
     }
 }
 
