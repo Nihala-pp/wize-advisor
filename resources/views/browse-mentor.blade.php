@@ -3346,6 +3346,10 @@
     .card {
         width: 15rem;
     }
+
+    .elementor-star-rating__wrapper {
+        padding-right: 15px;
+    }
 }
 
 .card-deck .card {
