@@ -3344,9 +3344,13 @@
     }
 
     .card {
-        padding-bottom:50px;
-        width:15rem;
+        padding-bottom: 50px;
+        width: 15rem;
     }
+}
+
+.card-deck .card {
+    margin-bottom: 50px;
 }
 
 input[type="date"]::before {
