@@ -3339,7 +3339,7 @@
 
     .col-md-4 {
         width: 100%;
-        float: left;
+        /* float: left; */
         margin: 0;
     }
 }
