@@ -3344,7 +3344,6 @@
     }
 
     .card {
-        padding-bottom: 50px;
         width: 15rem;
     }
 }
