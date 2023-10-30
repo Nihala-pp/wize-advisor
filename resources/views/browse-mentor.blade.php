@@ -3327,6 +3327,23 @@
         <!--End of Tawk.to Script-->
 </body>
 <style>
+@media screen and (max-width:480px) {
+    img {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+}
+
 input[type="date"]::before {
     color: #ffff;
     content: attr(placeholder);
@@ -3354,4 +3371,5 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
+
 </html>
