@@ -1908,7 +1908,7 @@
             <div class="container h-100 mentors">
             </div>
             <div class="container h-100 mentorsList">
-                <div class="row align-self-center mx-auto">
+                <div class="row align-self-center">
                     <div class="card-deck">
                         @foreach($mentors as $mentor)
                         <div class="col-md-4 col-sm-8 col-xs-12" style="padding-top:50px;">
@@ -3338,7 +3338,7 @@
     }
 
     .col-md-4 {
-        width: 100%;
+        width: 15rem;
         /* float: left; */
         margin: 0;
     }
