@@ -3341,7 +3341,7 @@
         color: #fff;
         font-weight: 400px;
         line-height: 1;
-        height: 120%;
+        height: 140%;
         width: 75%;
         FONT-VARIANT: JIS78;
         padding-left: 20px !important;
