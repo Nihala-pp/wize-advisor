@@ -3360,7 +3360,7 @@
     }
 
     .butto {
-        margin-right:50px;
+        margin-left:50px;
     }
 }
 
