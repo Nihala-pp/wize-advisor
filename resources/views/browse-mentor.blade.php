@@ -1697,7 +1697,7 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-3 mt-3 filters">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
@@ -3352,7 +3352,7 @@
     }
 
     .datefilter {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
