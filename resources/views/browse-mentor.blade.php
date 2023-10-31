@@ -3356,7 +3356,7 @@
     }
 
     .filters {
-        padding-left:30px;
+        padding-left:45px;
     }
 }
 
