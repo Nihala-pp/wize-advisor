@@ -3393,11 +3393,11 @@
 
 @media screen and (max-width: 1290px) and (min-width: 720px) {
     div.d-grid.gap-2.col-6.butto {
-        text-align: center;
+        text-align: center !important;
     }
 
     .card {
-        width:22rem;
+        width:22rem !important;
     }
 }
 

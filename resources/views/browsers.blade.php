@@ -52,20 +52,20 @@
 </div>
 <style>
 @media screen and (max-width:480px) {
-    img {
+    /* img {
         width: 100%;
     }
 
     .container {
         max-width: 100%;
         width: 100%;
-    }
+    } */
 
-    .col-md-4 {
+    /* .col-md-4 {
         width: 100%;
         /* float: left; */
-        margin: 0;
-    }
+        /* margin: 0; */
+    /* } */ 
 
     .card {
         width: 15rem;
@@ -106,5 +106,4 @@
         padding-left: 25px;
     }
 }
-
 </style>
