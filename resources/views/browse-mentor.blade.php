@@ -3395,6 +3395,10 @@
     div.d-grid.gap-2.col-6.butto {
         text-align: center;
     }
+
+    .card {
+        width:22rem;
+    }
 }
 
 .card-deck .card {
