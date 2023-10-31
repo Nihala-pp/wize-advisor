@@ -1906,7 +1906,7 @@
 
                                         <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
                                     </p>
-                                    <div class="d-grid gap-2 col-6 mx-auto butto">
+                                    <div class="d-grid gap-2 col-6 butto">
                                         @if(Auth::id())
                                         <a href="{{ route('schedule-call', [$mentor->id]) }}"
                                             class="btn btn-primary mid-center"
@@ -3288,6 +3288,13 @@
                         }
                     });
                 });
+
+                var $homeIcon = $('.div.d-grid.gap-2.col-6.butto');
+
+                $(window).resize(function() {
+                    if (window.innerWidth = 720) $homeIcon.addClass('mx-auto');
+                    else $homeIcon.removeClass('mx-auto');
+                });
             });
         }(jQuery));
         </script>
@@ -3348,7 +3355,7 @@
     }
 
     .selectpicker {
-        font-size:10px;
+        font-size: 10px;
     }
 
     .datefilter {
@@ -3356,12 +3363,18 @@
     }
 
     .filters {
-        padding-left:50px;
+        padding-left: 50px;
     }
 
     .butto {
         /* margin-left:50px;
         margin-right:50px; */
+    }
+}
+
+@media screen and (max-width: 1290px) and (min-width: 720px) {
+    div.d-grid.gap-2.col-6.butto {
+        mx-auto;
     }
 }
 
