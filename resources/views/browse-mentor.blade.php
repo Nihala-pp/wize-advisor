@@ -3354,6 +3354,10 @@
     .datefilter {
         margin-bottom: 10px;
     }
+
+    .filters {
+        padding-left:30px;
+    }
 }
 
 .card-deck .card {
