@@ -3350,6 +3350,10 @@
         font-size: 0.75rem !important;
         padding-left: 20px !important;
     }
+
+    .datefilter {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:400px) {
