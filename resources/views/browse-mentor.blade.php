@@ -3292,7 +3292,7 @@
                 var $homeIcon = $('.div.d-grid.gap-2.col-6.butto');
 
                 $(window).resize(function() {
-                    if (window.innerWidth = 720) $homeIcon.addClass('mx-auto');
+                    if (window.innerWidth >= 720) $homeIcon.addClass('mx-auto');
                     else $homeIcon.removeClass('mx-auto');
                 });
             });
