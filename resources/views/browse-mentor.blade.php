@@ -3342,7 +3342,7 @@
         font-weight: 400px;
         line-height: 1;
         height: 140%;
-        width: 75%;
+        width: 85%;
         FONT-VARIANT: JIS78;
         padding-left: 20px !important;
     }
