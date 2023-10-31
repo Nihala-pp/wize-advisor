@@ -50,3 +50,61 @@
         @endforeach
     </div>
 </div>
+<style>
+@media screen and (max-width:480px) {
+    img {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        /* float: left; */
+        margin: 0;
+    }
+
+    .card {
+        width: 15rem;
+    }
+
+    .elementor-star-rating__wrapper {
+        padding-right: 26px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    #date {
+        background-color: #54b4d3;
+        color: #fff;
+        font-weight: 400px;
+        line-height: 1;
+        height: 140%;
+        width: 85%;
+        FONT-VARIANT: JIS78;
+        padding-left: 20px !important;
+    }
+
+    .selectpicker {
+        font-size: 10px;
+    }
+
+    .datefilter {
+        margin-bottom: 10px;
+    }
+
+    .filters {
+        padding-left: 50px;
+    }
+
+    .butto {
+        /* /* margin-left:50px; */
+        padding-left: 25px;
+    }
+}
+
+</style>
