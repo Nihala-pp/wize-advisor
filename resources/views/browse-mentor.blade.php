@@ -3352,7 +3352,7 @@
     }
 
     .datefilter {
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 }
 
