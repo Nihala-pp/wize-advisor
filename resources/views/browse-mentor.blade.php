@@ -3317,9 +3317,9 @@
 </body>
 <style>
 @media screen and (max-width:480px) {
-    img {
+    /* img {
         width: 100%;
-    }
+    } */
 
     /* .container {
         max-width: 100%;
