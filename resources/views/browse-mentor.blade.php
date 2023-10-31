@@ -3387,11 +3387,11 @@
     }
 }
 
-@media screen and (max-width: 1290px) and (min-width: 720px) {
+/* @media screen and (max-width: 1290px) and (min-width: 720px) {
     div.d-grid.gap-2.col-6.butto {
         mx-auto;
     }
-}
+} */
 
 .card-deck .card {
     margin-bottom: 50px;
