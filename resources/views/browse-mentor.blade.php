@@ -3329,8 +3329,8 @@
     /* .col-md-4 {
         width: 100%;
         /* float: left; */
-        margin: 0;
-    } */
+        /* margin: 0; */
+    /* } */ 
 
     div.d-grid.gap-2.col-6.butto {
         text-align: center;
@@ -3391,11 +3391,11 @@
     }
 }
 
-/* @media screen and (max-width: 1290px) and (min-width: 720px) {
+@media screen and (max-width: 1290px) and (min-width: 720px) {
     div.d-grid.gap-2.col-6.butto {
-        mx-auto;
+        text-align: center;
     }
-} */
+}
 
 .card-deck .card {
     margin-bottom: 50px;
