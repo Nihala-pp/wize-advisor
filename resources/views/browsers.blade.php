@@ -1,8 +1,8 @@
-<div class="row align-self-center mx-auto">
+<div class="row align-self-center">
     <div class="card-deck">
         @foreach($mentors as $mentor)
-        <div class="col-md-4" style="padding-top: 50px">
-            <div class="card" style="width: 22rem;">
+        <div class="col-md-4 col-sm-8 col-xs-12">
+            <div class="card">
                 <!-- <div class="card" style="width: 22rem;"> -->
                 <img class="card-img-top"
                     src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
@@ -14,7 +14,7 @@
 
                         <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '20') : '' }} -->
                     </p>
-                    <div class="d-grid gap-2 col-6 mx-auto">
+                    <div class="d-grid gap-2 col-6 butto">
                         @if(Auth::id())
                         <a href="{{ route('schedule-call', [$mentor->id]) }}" class="btn btn-primary mid-center"
                             style="background-color:#001E64;">Schedule Call</a>
