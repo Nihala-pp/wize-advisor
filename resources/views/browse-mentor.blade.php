@@ -3321,10 +3321,10 @@
         width: 100%;
     }
 
-    .container {
+    /* .container {
         max-width: 100%;
         width: 100%;
-    }
+    } */
 
     /* .col-md-4 {
         width: 100%;
