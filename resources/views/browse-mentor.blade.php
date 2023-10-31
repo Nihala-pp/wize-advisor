@@ -3329,8 +3329,8 @@
     /* .col-md-4 {
         width: 100%;
         /* float: left; */
-        /* margin: 0; */
-    /* } */ 
+    /* margin: 0; */
+    /* } */
 
     div.d-grid.gap-2.col-6.butto {
         text-align: center;
@@ -3397,7 +3397,7 @@
     }
 
     .card {
-        width:22rem !important;
+        width: 22rem !important;
     }
 }
 
@@ -3432,4 +3432,5 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
+
 </html>
