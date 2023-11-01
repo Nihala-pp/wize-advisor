@@ -3316,7 +3316,7 @@
         <!--End of Tawk.to Script-->
 </body>
 <style>
-@media screen and (max-width:480px) {
+@media screen and (max-device-width: 480px) and (min-width: 410px) {
     /* img {
         width: 100%;
     } */
