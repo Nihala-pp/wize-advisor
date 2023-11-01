@@ -3365,7 +3365,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) and (min-width: 320px) {
 
     #date {
         background-color: #54b4d3;
