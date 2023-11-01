@@ -3325,13 +3325,13 @@
     }
 
     input#date.form-control.selectpicker {
-        background-color: #54b4d3;
+        /* background-color: #54b4d3;
         color: #fff;
         font-weight: 400px;
         line-height: 1;
         height: 100% !important;
         width: 200% !important;
-        font-size: 0.75rem !important;
+        font-size: 0.75rem !important; */
     }
 
     .datefilter {
