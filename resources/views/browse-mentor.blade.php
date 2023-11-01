@@ -2804,10 +2804,10 @@
             color: #fff;
             font-weight: 400px;
             line-height: 1;
-            height: 70%;
-            width: 140%;
+            /* height: 70%;
+            width: 140%; */
             font-size: 0.75rem !important;
-            padding-left: 20px !important;
+            /* padding-left: 20px !important; */
         }
 
         ::placeholder {
