@@ -3325,6 +3325,10 @@
     }
 
     input#date.form-control.selectpicker {
+        padding-left:20px;
+        padding-top:10px;
+
+
         /* background-color: #54b4d3;
         color: #fff;
         font-weight: 400px;
