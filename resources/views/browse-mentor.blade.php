@@ -3333,6 +3333,7 @@
     /* } */
 
     div.d-grid.gap-2.col-6.butto {
+        padding-left: 75px;       
         text-align: center !important;
     }
 
