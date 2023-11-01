@@ -3350,8 +3350,8 @@
         color: #fff;
         font-weight: 400px;
         line-height: 1;
-        height: 80%;
-        width: 100%;
+        height: 80% !important;
+        width: 100% !important;
         font-size: 0.75rem !important;
         /* padding-left: 20px !important; */
     }
