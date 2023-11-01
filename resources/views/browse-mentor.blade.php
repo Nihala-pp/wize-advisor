@@ -3324,7 +3324,7 @@
         padding-right: 70px;
     }
 
-    #date {
+    input#date.form-control.selectpicker {
         background-color: #54b4d3;
         color: #fff;
         font-weight: 400px;
