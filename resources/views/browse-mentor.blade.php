@@ -3396,7 +3396,7 @@
 }
 
 @media screen and (max-width: 1280px),
-screen and (max-height: 800px) {
+screen and (min-width: 720px) {
 
     div.d-grid.gap-2.col-6.butto {
         text-align: center !important;
@@ -3411,7 +3411,7 @@ screen and (max-height: 800px) {
     margin-bottom: 50px;
 }
 
-/* input[type="date"]::before {
+input[type="date"]::before {
     color: #ffff;
     content: attr(placeholder);
 }
@@ -3428,7 +3428,7 @@ input[type="date"]:valid {
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
     content: "" !important;
-} */
+}
 
 /* .browseMentor {
     padding-right: 20px;
