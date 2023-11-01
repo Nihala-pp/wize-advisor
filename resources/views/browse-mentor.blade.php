@@ -3356,13 +3356,13 @@
         /* padding-left: 20px !important; */
     }
 
-    /* .datefilter {
+    .datefilter {
         margin-bottom: 10px;
-    } */
-
-    .filters {
-        margin-left: 75px;
     }
+
+    /* .filters {
+        margin-left: 75px;
+    } */
 }
 
 @media screen and (max-width:400px) {
