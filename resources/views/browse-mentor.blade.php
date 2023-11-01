@@ -3395,7 +3395,7 @@
     }
 }
 
-@media screen and (max-width: 1290px) and (min-width: 720px) {
+@media screen and (max-width: 1240px) and (min-width: 720px) {
     div.d-grid.gap-2.col-6.butto {
         text-align: center !important;
     }
