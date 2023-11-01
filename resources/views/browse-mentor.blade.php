@@ -3360,9 +3360,9 @@
         margin-bottom: 10px;
     }
 
-    /* .filters {
+    .filters {
         margin-left: 75px;
-    } */
+    }
 }
 
 @media screen and (max-width:400px) {
