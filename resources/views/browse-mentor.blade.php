@@ -3373,9 +3373,9 @@
         font-weight: 400px;
         line-height: 1;
         height: 140% !important;
-        width: 85% !important;
+        width: 75% !important;
         FONT-VARIANT: JIS78;
-        padding-left: 20px !important;
+        /* padding-left: 20px !important; */
     }
 
     .selectpicker {
