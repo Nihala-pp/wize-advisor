@@ -3317,21 +3317,7 @@
 </body>
 <style>
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
-    /* img {
-        width: 100%;
-    } */
-
-    /* .container {
-        max-width: 100%;
-        width: 100%;
-    } */
-
-    /* .col-md-4 {
-        width: 100%;
-        /* float: left; */
-    /* margin: 0; */
-    /* } */
-
+   
     div.d-grid.gap-2.col-6.butto {
         padding-left: 75px;       
         text-align: center !important;
