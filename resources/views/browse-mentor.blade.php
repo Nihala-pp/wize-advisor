@@ -3345,7 +3345,7 @@
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
 
-    #date {
+    /* #date {
         background-color: #54b4d3;
         color: #fff;
         font-weight: 400px;
@@ -3354,7 +3354,7 @@
         width: 75% !important;
         FONT-VARIANT: JIS78;
         /* padding-left: 20px !important; */
-    }
+    /* } */ 
 
     .selectpicker {
         font-size: 10px;
