@@ -3417,7 +3417,7 @@ input[type="date"]:valid {
 
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
-    padding:  16px 16px;
+    padding:  25px 16px;
     content: "" !important;
 }
 
