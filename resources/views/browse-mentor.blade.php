@@ -2824,9 +2824,9 @@
             filter: invert(1);
         }
 
-        [type=date] {
+        /* [type=date] {
             padding: 1em 16px 1em 1em;
-        }
+        } */
         </style>
         <script>
         (function() {
@@ -3328,9 +3328,9 @@
         padding-right: 70px;
     }
 
-    input#date.form-control.selectpicker {
+    /* input#date.form-control.selectpicker {
         padding-left: 20px;
-        padding-top: 10px;
+        padding-top: 10px; */
 
 
         /* background-color: #54b4d3;
@@ -3340,7 +3340,7 @@
         height: 100% !important;
         width: 200% !important;
         font-size: 0.75rem !important; */
-    }
+    /* } */
 
     .datefilter {
         margin-bottom: 10px;
@@ -3404,6 +3404,7 @@ input[type="date"]::before {
 }
 
 input[type="date"] {
+    padding: 1em 16px 1em 1em;
     color: #54b4d3 !important;
 }
 
