@@ -3356,9 +3356,9 @@
         /* padding-left: 20px !important; */
     }
 
-    .datefilter {
+    /* .datefilter {
         margin-bottom: 10px;
-    }
+    } */
 
     .filters {
         margin-left: 75px;
