@@ -3387,7 +3387,7 @@
     }
 
     .filters {
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
     .butto {
