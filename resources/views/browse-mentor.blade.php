@@ -3353,7 +3353,7 @@
         height: 140%;
         width: 100%;
         font-size: 0.75rem !important;
-        padding-left: 20px !important;
+        /* padding-left: 20px !important; */
     }
 
     .datefilter {
