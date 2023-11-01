@@ -3399,6 +3399,7 @@ screen and (min-width: 720px) {
 }
 
 input[type="date"]::before {
+    padding: 1em 16px 1em 1em;
     color: #ffff;
     content: attr(placeholder);
 }
@@ -3410,11 +3411,13 @@ input[type="date"] {
 
 input[type="date"]:focus,
 input[type="date"]:valid {
+    padding: 1em 16px 1em 1em;
     color: #ffff !important;
 }
 
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
+    padding: 1em 16px 1em 1em;
     content: "" !important;
 }
 
