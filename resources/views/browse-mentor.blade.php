@@ -3399,19 +3399,19 @@ screen and (min-width: 720px) {
 }
 
 input[type="date"]::before {
-    padding:  16px 16px;
+    padding:  25px 16px;
     color: #ffff;
     content: attr(placeholder);
 }
 
 input[type="date"] {
-    padding:  16px 16px;
+    padding:  25px 16px;
     color: #54b4d3 !important;
 }
 
 input[type="date"]:focus,
 input[type="date"]:valid {
-    padding:  16px 16px;
+    padding:  25px 16px;
     color: #ffff !important;
 }
 
