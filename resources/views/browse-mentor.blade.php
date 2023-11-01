@@ -2823,6 +2823,10 @@
         ::-webkit-calendar-picker-indicator {
             filter: invert(1);
         }
+
+        [type=date] {
+            padding: 1em 16px 1em 1em;
+        }
         </style>
         <script>
         (function() {
@@ -3310,9 +3314,9 @@
 </body>
 <style>
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
-   
+
     div.d-grid.gap-2.col-6.butto {
-        padding-left: 75px;       
+        padding-left: 75px;
         text-align: center !important;
     }
 
@@ -3325,8 +3329,8 @@
     }
 
     input#date.form-control.selectpicker {
-        padding-left:20px;
-        padding-top:10px;
+        padding-left: 20px;
+        padding-top: 10px;
 
 
         /* background-color: #54b4d3;
@@ -3358,7 +3362,7 @@
         width: 75% !important;
         FONT-VARIANT: JIS78;
         /* padding-left: 20px !important; */
-    /* } */ 
+    /* } */
 
     .selectpicker {
         font-size: 10px;
@@ -3421,4 +3425,5 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
+
 </html>
