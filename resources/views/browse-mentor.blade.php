@@ -3361,7 +3361,7 @@
     }
 
     .filters {
-        margin-left: 20px;
+        padding-left: 75px;
     }
 }
 
