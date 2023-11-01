@@ -3350,7 +3350,7 @@
         font-weight: 400px;
         line-height: 1;
         height: 140%;
-        width: 48%;
+        width: 78%;
         font-size: 0.75rem !important;
         padding-left: 20px !important;
     }
