@@ -3358,6 +3358,10 @@
     .datefilter {
         margin-bottom: 10px;
     }
+
+    .filters {
+        margin-left :20px;
+    }
 }
 
 @media screen and (max-width:400px) {
