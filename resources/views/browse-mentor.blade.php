@@ -3342,7 +3342,7 @@
     }
 
     .elementor-star-rating__wrapper {
-        padding-right: 80px;
+        padding-right: 70px;
     }
 
     #date {
