@@ -2802,7 +2802,7 @@
             padding-top: 20px !important;
             background-color: #54b4d3;
             color: #fff;
-            font-weight: 400px;
+            font-weight: 200px;
             line-height: normal;
             /* height: 70%;
             width: 140%; */
