@@ -3346,6 +3346,7 @@
     /* } */
 
     .datefilter {
+        padding-top: 20px;
         margin-bottom: 10px;
     }
 
