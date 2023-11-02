@@ -3399,25 +3399,29 @@ screen and (min-width: 720px) {
 }
 
 input[type="date"]::before {
-    padding:  25px 16px;
+    padding-right: 16px;
+    padding-top: 25px !important;    
     color: #ffff;
     content: attr(placeholder);
 }
 
 input[type="date"] {
-    padding:  25px 16px;
+    padding-right: 16px;
+    padding-top: 25px !important;
     color: #54b4d3 !important;
 }
 
 input[type="date"]:focus,
 input[type="date"]:valid {
-    padding:  25px 16px;
+    padding-right: 16px;
+    padding-top: 25px !important;    
     color: #ffff !important;
 }
 
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
-    padding:  25px 16px;
+    padding-right: 16px;
+    padding-top: 25px !important;
     content: "" !important;
 }
 
@@ -3429,5 +3433,4 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
-
 </html>
