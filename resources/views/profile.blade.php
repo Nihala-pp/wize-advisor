@@ -1750,7 +1750,8 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}!
+                                    _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
@@ -1789,13 +1790,15 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}.</p>
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
                             data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">0 $ / 30 Min</span>
+                                <span
+                                    class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
+                                    $ / 30 Min</span>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-a5bb60c elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
@@ -1984,11 +1987,28 @@
                             data-id="15eb00e" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                    @if(Auth::id())
+                                    <a href="{{ route('schedule-call', [$data->id]) }}"
+                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Schedule
+                                                Call</span>
+                                        </span>
+                                    </a>
+                                    @else
+                                    <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Schedule
+                                                Call</span>
+                                        </span>
+                                    </a>
+                                    @endif
+                                    <!-- <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Schedule Call</span>
                                         </span>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -2007,14 +2027,15 @@
                         <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
                             data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}!
+                                    _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                             data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <!-- <p>I build brands.</p> -->
-                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}.</p>
                             </div>
                         </div>
                         <section
@@ -2029,12 +2050,23 @@
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
+                                                    @if(Auth::id())
+                                                    <a href="{{ route('schedule-call', [$data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Schedule Call</span>
+                                                            <span class="elementor-button-text">Schedule
+                                                                Call</span>
                                                         </span>
                                                     </a>
+                                                    @else
+                                                    <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Schedule
+                                                                Call</span>
+                                                        </span>
+                                                    </a>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -2070,20 +2102,26 @@
                         <div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
                             data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">0 $ / 30 Min</span>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-d6e7c3a elementor-widget elementor-widget-heading"
-                            data-id="d6e7c3a" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                                <span
+                                    class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
+                                    $ / 30 Min</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-457d214"
                     data-id="457d214" data-element_type="column">
-                    <div class="elementor-widget-wrap">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-a50237c elementor-widget elementor-widget-image"
+                            data-id="a50237c" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" width="300" height="300"
+                                    src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
+                                    class="attachment-medium size-medium wp-image-3756" alt=""
+                                    srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 150w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 450w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 700w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 650w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 1300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 500w"
+                                    sizes="(max-width: 300px) 100vw, 300px">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
