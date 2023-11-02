@@ -2811,11 +2811,13 @@
         }
 
         ::placeholder {
+            padding-top: 10px !important;
             color: #fff !important;
             opacity: 1 !important;
         }
 
         ::-ms-input-placeholder {
+            padding-top: 10px !important;
             color: #fff !important;
             opacity: 1 !important;
         }
@@ -3401,7 +3403,7 @@ screen and (min-width: 720px) {
 input[type="date"]::before {
     line-height: 0px;
     padding-right: 16px !important;
-    padding-top: 25px !important;
+    /* padding-top: 10px !important; */
     padding-left: 16px !important;    
     color: #ffff;
     content: attr(placeholder);
@@ -3411,7 +3413,7 @@ input[type="date"] {
     line-height:  0px; 
     padding-right: 16px !important;
     padding-left: 16px !important;
-    padding-top: 25px !important;
+    /* padding-top: 25px !important; */
     color: #54b4d3 !important;
 }
 
@@ -3420,7 +3422,7 @@ input[type="date"]:valid {
     line-height:  0px;
     padding-right: 16px !important;
     padding-left: 16px !important;
-    padding-top: 25px !important;    
+    /* padding-top: 25px !important;     */
     color: #ffff !important;
 }
 
@@ -3429,7 +3431,7 @@ input[type="date"]:valid::before {
     line-height: 0px; 
     padding-right: 16px !important;
     padding-left: 16px !important;
-    padding-top: 25px !important;
+    /* padding-top: 25px !important; */
     content: "" !important;
 }
 
