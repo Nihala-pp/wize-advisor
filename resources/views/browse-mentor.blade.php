@@ -2800,6 +2800,7 @@
         }
 
         #date {
+            padding-top: 10px !important;
             background-color: #54b4d3;
             color: #fff;
             font-weight: 400px;
