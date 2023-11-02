@@ -1675,7 +1675,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -1705,6 +1706,391 @@
 
     <div data-elementor-type="wp-page" data-elementor-id="2372" class="elementor elementor-2372">
         <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-bbdf32b elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="bbdf32b" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b940c5e elementor-hidden-desktop elementor-hidden-tablet"
+                    data-id="b940c5e" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-9e80a97 elementor-widget elementor-widget-heading"
+                            data-id="9e80a97" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
+                                </style>
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
+                            data-id="72aecbd" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                    background-color: #69727d;
+                                    color: #fff
+                                }
+
+                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                    color: #69727d;
+                                    border: 3px solid;
+                                    background-color: transparent
+                                }
+
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                    margin-top: 8px
+                                }
+
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                    width: 1em;
+                                    height: 1em
+                                }
+
+                                .elementor-widget-text-editor .elementor-drop-cap {
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 1;
+                                    font-size: 50px
+                                }
+
+                                .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                    display: inline-block
+                                }
+                                </style>
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}.</p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
+                            data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-a5bb60c elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
+                            data-id="a5bb60c" data-element_type="widget" data-widget_type="star-rating.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                @charset "UTF-8";
+
+                                .elementor-star-rating {
+                                    color: #ccd6df;
+                                    font-family: eicons;
+                                    display: inline-block
+                                }
+
+                                .elementor-star-rating i {
+                                    display: inline-block;
+                                    position: relative;
+                                    font-style: normal;
+                                    cursor: default
+                                }
+
+                                .elementor-star-rating i:before {
+                                    content: "\e934";
+                                    display: block;
+                                    font-size: inherit;
+                                    font-family: inherit;
+                                    position: absolute;
+                                    overflow: hidden;
+                                    color: #f0ad4e;
+                                    top: 0;
+                                    left: 0
+                                }
+
+                                .elementor-star-rating .elementor-star-empty:before {
+                                    content: none
+                                }
+
+                                .elementor-star-rating .elementor-star-1:before {
+                                    width: 10%
+                                }
+
+                                .elementor-star-rating .elementor-star-2:before {
+                                    width: 20%
+                                }
+
+                                .elementor-star-rating .elementor-star-3:before {
+                                    width: 30%
+                                }
+
+                                .elementor-star-rating .elementor-star-4:before {
+                                    width: 40%
+                                }
+
+                                .elementor-star-rating .elementor-star-5:before {
+                                    width: 50%
+                                }
+
+                                .elementor-star-rating .elementor-star-6:before {
+                                    width: 60%
+                                }
+
+                                .elementor-star-rating .elementor-star-7:before {
+                                    width: 70%
+                                }
+
+                                .elementor-star-rating .elementor-star-8:before {
+                                    width: 80%
+                                }
+
+                                .elementor-star-rating .elementor-star-9:before {
+                                    width: 90%
+                                }
+
+                                .elementor-star-rating__wrapper {
+                                    display: flex;
+                                    align-items: center
+                                }
+
+                                .elementor-star-rating__title {
+                                    margin-right: 10px
+                                }
+
+                                .elementor-star-rating--align-right .elementor-star-rating__wrapper {
+                                    text-align: right;
+                                    justify-content: flex-end
+                                }
+
+                                .elementor-star-rating--align-left .elementor-star-rating__wrapper {
+                                    text-align: left;
+                                    justify-content: flex-start
+                                }
+
+                                .elementor-star-rating--align-center .elementor-star-rating__wrapper {
+                                    text-align: center;
+                                    justify-content: center
+                                }
+
+                                .elementor-star-rating--align-justify .elementor-star-rating__title {
+                                    margin-right: auto
+                                }
+
+                                @media (max-width:1024px) {
+                                    .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
+                                        text-align: right;
+                                        justify-content: flex-end
+                                    }
+
+                                    .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
+                                        text-align: left;
+                                        justify-content: flex-start
+                                    }
+
+                                    .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
+                                        text-align: center;
+                                        justify-content: center
+                                    }
+
+                                    .elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
+                                        margin-right: auto
+                                    }
+                                }
+
+                                @media (max-width:767px) {
+                                    .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
+                                        text-align: right;
+                                        justify-content: flex-end
+                                    }
+
+                                    .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
+                                        text-align: left;
+                                        justify-content: flex-start
+                                    }
+
+                                    .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
+                                        text-align: center;
+                                        justify-content: center
+                                    }
+
+                                    .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
+                                        margin-right: auto
+                                    }
+                                }
+
+                                .last-star {
+                                    letter-spacing: 0
+                                }
+
+                                .elementor--star-style-star_unicode .elementor-star-rating {
+                                    font-family: Arial, Helvetica, sans-serif
+                                }
+
+                                .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
+                                    content: "★"
+                                }
+                                </style>
+                                <div class="elementor-star-rating__wrapper">
+                                    <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating"
+                                        itemscope="" itemprop="reviewRating">
+                                        <i class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue"
+                                            class="elementor-screen-only">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9ad8511 elementor-hidden-desktop elementor-hidden-tablet"
+                    data-id="9ad8511" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-fb2c38b elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
+                            data-id="fb2c38b" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" width="300" height="300"
+                                    src="/http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png"
+                                    class="attachment-medium size-medium wp-image-3756" alt=""
+                                    srcset="/http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png 300w, /http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-150x150.png 150w, /http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-450x450.png 450w, /http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-700x700.png 700w, /http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-650x650.png 650w, /http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-1300x1300.png 1300w, /http://localhost/wize-advisor/wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png 500w"
+                                    sizes="(max-width: 300px) 100vw, 300px">
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-15eb00e elementor-mobile-align-center elementor-widget__width-auto elementor-widget elementor-widget-button"
+                            data-id="15eb00e" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Schedule Call</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-wza5aou elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="wza5aou" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
+                    data-id="b1f32fb" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
+                            data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                            data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <!-- <p>I build brands.</p> -->
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
+                            </div>
+                        </div>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-8d957dd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="8d957dd" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-223593d"
+                                    data-id="223593d" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                            data-id="7d4fe70" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Schedule Call</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4690d57"
+                                    data-id="4690d57" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-48429f9 elementor-widget__width-auto elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
+                                            data-id="48429f9" data-element_type="widget"
+                                            data-widget_type="star-rating.default">
+                                            <div class="elementor-widget-container">
+
+                                                <div class="elementor-star-rating__wrapper">
+                                                    <div class="elementor-star-rating" title="5/5"
+                                                        itemtype="http://schema.org/Rating" itemscope=""
+                                                        itemprop="reviewRating">
+                                                        <i class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i> <span
+                                                            itemprop="ratingValue"
+                                                            class="elementor-screen-only">5/5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
+                            data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-d6e7c3a elementor-widget elementor-widget-heading"
+                            data-id="d6e7c3a" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-457d214"
+                    data-id="457d214" data-element_type="column">
+                    <div class="elementor-widget-wrap">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div data-elementor-type="wp-page" data-elementor-id="2372" class="elementor elementor-2372"> -->
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-wza5aou elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="wza5aou" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1793,8 +2179,8 @@
                                     padding-bottom: 30px !important;
                                 }
                                 </style>
-                                <!-- <p>I build brands.</p> -->
-                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
+                                 <p>I build brands.</p> -->
+        <!-- <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                             </div>
                         </div>
                         <section
@@ -2033,7 +2419,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-pz2wra7 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="pz2wra7" data-element_type="section"
