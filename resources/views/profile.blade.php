@@ -1795,7 +1795,7 @@
                         <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
                             data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
+                                <span class="elementor-heading-title elementor-size-default">0 $ / 30 Min</span>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-a5bb60c elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
@@ -2070,7 +2070,7 @@
                         <div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
                             data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
+                                <span class="elementor-heading-title elementor-size-default">0 $ / 30 Min</span>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-d6e7c3a elementor-widget elementor-widget-heading"
