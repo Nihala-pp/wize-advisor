@@ -3400,13 +3400,15 @@ screen and (min-width: 720px) {
 
 input[type="date"]::before {
     padding-right: 16px !important;
-    padding-top: 25px !important;    
+    padding-top: 25px !important;
+    padding-left: 16px !important;    
     color: #ffff;
     content: attr(placeholder);
 }
 
 input[type="date"] {
     padding-right: 16px !important;
+    padding-left: 16px !important;
     padding-top: 25px !important;
     color: #54b4d3 !important;
 }
@@ -3414,6 +3416,7 @@ input[type="date"] {
 input[type="date"]:focus,
 input[type="date"]:valid {
     padding-right: 16px !important;
+    padding-left: 16px !important;
     padding-top: 25px !important;    
     color: #ffff !important;
 }
@@ -3421,6 +3424,7 @@ input[type="date"]:valid {
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
     padding-right: 16px !important;
+    padding-left: 16px !important;
     padding-top: 25px !important;
     content: "" !important;
 }
