@@ -2803,7 +2803,7 @@
             background-color: #54b4d3;
             color: #fff;
             font-weight: 200px;
-            line-height: -10px;
+            line-height: normal;
             /* height: 70%;
             width: 140%; */
             font-size: 0.75rem !important;
