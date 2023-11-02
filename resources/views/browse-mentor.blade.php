@@ -2791,7 +2791,6 @@
             font-size: 1em;
             height: auto;
             left: 5px;
-            line-height: normal;
             padding: 15px 23px 14px;
             text-decoration: none;
             top: 5px;
@@ -2804,7 +2803,7 @@
             background-color: #54b4d3;
             color: #fff;
             font-weight: 400px;
-            line-height: 1;
+            line-height: 0px;
             /* height: 70%;
             width: 140%; */
             font-size: 0.75rem !important;
@@ -3403,7 +3402,6 @@ screen and (min-width: 720px) {
 }
 
 input[type="date"]::before {
-    line-height: 0px;
     padding-right: 16px !important;
     /* padding-top: 10px !important; */
     padding-left: 16px !important;
@@ -3412,7 +3410,6 @@ input[type="date"]::before {
 }
 
 input[type="date"] {
-    line-height: 0px;
     padding-right: 16px !important;
     padding-left: 16px !important;
     /* padding-top: 25px !important; */
@@ -3421,7 +3418,6 @@ input[type="date"] {
 
 input[type="date"]:focus,
 input[type="date"]:valid {
-    line-height: 0px;
     padding-right: 16px !important;
     padding-left: 16px !important;
     /* padding-top: 25px !important;     */
@@ -3430,7 +3426,6 @@ input[type="date"]:valid {
 
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
-    line-height: 0px;
     padding-right: 16px !important;
     padding-left: 16px !important;
     /* padding-top: 25px !important; */
