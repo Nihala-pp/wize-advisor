@@ -2799,7 +2799,7 @@
         }
 
         #date {
-            padding-top: 20px!important;
+            /* padding-top: 20px!important; */
             background-color: #54b4d3;
             color: #fff;
             font-weight: 200px;
