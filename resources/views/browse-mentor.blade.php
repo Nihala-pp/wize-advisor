@@ -2811,13 +2811,13 @@
         }
 
         ::placeholder {
-            padding-top: 10px !important;
+            /* padding-top: 10px !important; */
             color: #fff !important;
             opacity: 1 !important;
         }
 
         ::-ms-input-placeholder {
-            padding-top: 10px !important;
+            /* padding-top: 10px !important; */
             color: #fff !important;
             opacity: 1 !important;
         }
