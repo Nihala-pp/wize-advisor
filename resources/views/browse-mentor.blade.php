@@ -3399,7 +3399,7 @@ screen and (min-width: 720px) {
 }
 
 input[type="date"]::before {
-    line-height: normal; 
+    line-height: 0px;
     padding-right: 16px !important;
     padding-top: 25px !important;
     padding-left: 16px !important;    
@@ -3408,7 +3408,7 @@ input[type="date"]::before {
 }
 
 input[type="date"] {
-    line-height: normal; 
+    line-height:  0px; 
     padding-right: 16px !important;
     padding-left: 16px !important;
     padding-top: 25px !important;
@@ -3417,7 +3417,7 @@ input[type="date"] {
 
 input[type="date"]:focus,
 input[type="date"]:valid {
-    line-height: normal; 
+    line-height:  0px;
     padding-right: 16px !important;
     padding-left: 16px !important;
     padding-top: 25px !important;    
@@ -3426,7 +3426,7 @@ input[type="date"]:valid {
 
 input[type="date"]:focus::before,
 input[type="date"]:valid::before {
-    line-height: normal; 
+    line-height: 0px; 
     padding-right: 16px !important;
     padding-left: 16px !important;
     padding-top: 25px !important;
