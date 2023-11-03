@@ -1549,7 +1549,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default heading">HI ! I AM {{ $data->name }}! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default heading">HI !  I AM {{ $data->name }}! _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
