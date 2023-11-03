@@ -4826,6 +4826,6 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     color:#000 !important;
     margin-left: 0px !important;
     margin-top: -10px !important;
-    width:auto;
+    width:auto !important;
 }
 </style>
