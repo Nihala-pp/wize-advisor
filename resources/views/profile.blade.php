@@ -4791,7 +4791,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 h2.elementor-heading-title.elementor-size-default.heading {
-    font-size:15px !important;
+    font-size:18px !important;
     color:#330252 !important;
 }
 </style>
