@@ -4815,5 +4815,6 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     text-justify: inter-word !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
+    color: #000 !important;
 }
 </style>
