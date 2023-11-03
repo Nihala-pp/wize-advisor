@@ -1728,10 +1728,10 @@
                                         justify-content: flex-start
                                     }
 
-                                    .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
+                                    /* .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
                                         text-align: center;
                                         justify-content: center
-                                    }
+                                    } */
 
                                     .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
                                         margin-right: auto
@@ -1765,7 +1765,7 @@
                         </div>
                         <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
                             data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container price">
                                 <span
                                     class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
                                     $ / 30 Min</span>
