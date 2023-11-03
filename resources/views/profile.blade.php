@@ -1687,10 +1687,10 @@
                                     justify-content: flex-start
                                 }
 
-                                .elementor-star-rating--align-center .elementor-star-rating__wrapper {
+                                /* .elementor-star-rating--align-center .elementor-star-rating__wrapper {
                                     text-align: center;
                                     justify-content: center
-                                }
+                                } */
 
                                 .elementor-star-rating--align-justify .elementor-star-rating__title {
                                     margin-right: auto
