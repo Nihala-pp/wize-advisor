@@ -1579,7 +1579,8 @@
 
                                 .elementor-widget-text-editor .elementor-drop-cap {
                                     float: left;
-                                    text-align: center;
+                                    /* text-align: center; */
+                                    text-justify: inter-word;
                                     line-height: 1;
                                     font-size: 50px
                                 }
