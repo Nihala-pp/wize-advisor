@@ -1583,8 +1583,8 @@
                                     text-justify: inter-word;
                                     line-height: 1;
                                     font-size: 50px;
-                                    padding-left: 20px;
-                                    padding-right: 20px;
+                                    margin-left: 20px;
+                                    margin-right: 20px;
                                 }
 
                                 .elementor-widget-text-editor .elementor-drop-cap-letter {
