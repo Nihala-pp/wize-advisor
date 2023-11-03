@@ -1529,7 +1529,8 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                    font-size: 15px
+                                    font-size: 13px;
+                                    color: #330252;
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
