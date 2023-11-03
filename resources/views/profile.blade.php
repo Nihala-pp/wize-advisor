@@ -1718,10 +1718,10 @@
                                 }
 
                                 @media (max-width:767px) {
-                                    .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
+                                    /* .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
                                         text-align: right;
                                         justify-content: flex-end
-                                    }
+                                    } */
 
                                     .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
                                         text-align: left;
@@ -1733,9 +1733,9 @@
                                         justify-content: center
                                     } */
 
-                                    .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
+                                    /* .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
                                         margin-right: auto
-                                    }
+                                    } */
                                 }
 
                                 .last-star {
