@@ -1677,10 +1677,10 @@
                                     margin-right: 10px
                                 } */
 
-                                .elementor-star-rating--align-right .elementor-star-rating__wrapper {
+                                /* .elementor-star-rating--align-right .elementor-star-rating__wrapper {
                                     text-align: right;
                                     justify-content: flex-end
-                                }
+                                } */
 
                                 .elementor-star-rating--align-left .elementor-star-rating__wrapper {
                                     text-align: left;
