@@ -1529,7 +1529,7 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                    font-size: 18px;
+                                    font-size: 19px;
                                     color: #330252;
                                 }
 
