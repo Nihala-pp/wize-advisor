@@ -1549,7 +1549,8 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default heading">HI !  I AM {{ $data->name }} ! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default heading">HI ! I AM
+                                    {{ $data->name }} ! _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
@@ -1765,7 +1766,9 @@
                         <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
                             data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }} $ / 30 Min</span>
+                                <span
+                                    class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
+                                    $ / 30 Min</span>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-15eb00e elementor-mobile-align-center elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-button"
@@ -1817,7 +1820,8 @@
                         <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
                             data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default heading">HI! I AM {{ $data->name }}! _____</h2>
+                                <h2 class="elementor-heading-title elementor-size-default heading">HI! I AM
+                                    {{ $data->name }}! _____</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
@@ -1897,7 +1901,9 @@
                         <div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
                             data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <span class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }} $ / 30 Min</span>
+                                <span
+                                    class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
+                                    $ / 30 Min</span>
                             </div>
                         </div>
                     </div>
@@ -1908,7 +1914,7 @@
                         <div class="elementor-element elementor-element-a50237c elementor-widget elementor-widget-image"
                             data-id="a50237c" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                            <img decoding="async" fetchpriority="high" width="300" height="300"
+                                <img decoding="async" fetchpriority="high" width="300" height="300"
                                     src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                     class="attachment-medium size-medium wp-image-3756" alt=""
                                     srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 150w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 450w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 700w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 650w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 1300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 500w"
@@ -4795,12 +4801,21 @@ i.fas.fa-bell.fa-2xl {
 }
 
 h1.elementor-heading-title.elementor-size-default.heading {
-    font-size:19px !important;
-    color:#330252 !important;
+    font-size: 19px !important;
+    color: #330252 !important;
     padding-left: 55px !important;
 }
 
 div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widget-text-editor {
     text-justify: inter-word;
+}
+
+#text {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 </style>
