@@ -1549,7 +1549,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h3 class="elementor-heading-title elementor-size-default heading">HI! I AM {{ $data->name }}! _____</h3>
+                                <h2 class="elementor-heading-title elementor-size-default heading">HI! I AM {{ $data->name }}! _____</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
@@ -4790,8 +4790,8 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
-h3.elementor-heading-title.elementor-size-default.heading {
-    font-size:12px !important;
+h2.elementor-heading-title.elementor-size-default.heading {
+    font-size:15px !important;
     color:#330252 !important;
 }
 </style>
