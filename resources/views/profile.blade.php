@@ -1529,7 +1529,7 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                    font-size: 15px
+                                    font-size: 12px
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
@@ -1548,7 +1548,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default headi">HI! I AM {{ $data->name }}! _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
