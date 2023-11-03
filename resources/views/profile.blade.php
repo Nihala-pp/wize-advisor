@@ -1673,9 +1673,9 @@
                                     align-items: center
                                 }
 
-                                /* .elementor-star-rating__title {
-                                    margin-right: 10px
-                                } */
+                                .elementor-star-rating__title {
+                                    padding-left: 50px;
+                                }
 
                                 /* .elementor-star-rating--align-right .elementor-star-rating__wrapper {
                                     text-align: right;
