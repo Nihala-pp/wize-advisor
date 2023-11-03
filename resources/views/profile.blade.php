@@ -1555,7 +1555,7 @@
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
                             data-id="72aecbd" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container bio">
                                 <style>
                                 /*! elementor - v3.14.0 - 26-06-2023 */
                                 .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
@@ -1598,7 +1598,7 @@
                         </div>
                         <div class="elementor-element elementor-element-65db16f elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
                             data-id="65db16f" data-element_type="widget" data-widget_type="star-rating.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container bio">
                                 <style>
                                 /*! elementor - v3.14.0 - 26-06-2023 */
                                 @charset "UTF-8";
@@ -4810,12 +4810,10 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     text-justify: inter-word;
 }
 
-#text {
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 1;
-    font-size: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+.elementor-widget-text-editor   p {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 </style>
