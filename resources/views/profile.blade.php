@@ -22,1029 +22,1030 @@
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <style>
-		img.wp-smiley,
-		img.emoji {
-			display: inline !important;
-			border: none !important;
-			box-shadow: none !important;
-			height: 1em !important;
-			width: 1em !important;
-			margin: 0 0.07em !important;
-			vertical-align: -0.1em !important;
-			background: none !important;
-			padding: 0 !important;
-		}
-	</style>
-	<style id="wp-block-library-inline-css">
-		:root {
-			--wp-admin-theme-color: #007cba;
-			--wp-admin-theme-color--rgb: 0, 124, 186;
-			--wp-admin-theme-color-darker-10: #006ba1;
-			--wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
-			--wp-admin-theme-color-darker-20: #005a87;
-			--wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
-			--wp-admin-border-width-focus: 2px;
-			--wp-block-synced-color: #7a00df;
-			--wp-block-synced-color--rgb: 122, 0, 223
-		}
-
-		@media (min-resolution:192dpi) {
-			:root {
-				--wp-admin-border-width-focus: 1.5px
-			}
-		}
-
-		.wp-element-button {
-			cursor: pointer
-		}
-
-		:root {
-			--wp--preset--font-size--normal: 16px;
-			--wp--preset--font-size--huge: 42px
-		}
-
-		:root .has-very-light-gray-background-color {
-			background-color: #eee
-		}
-
-		:root .has-very-dark-gray-background-color {
-			background-color: #313131
-		}
-
-		:root .has-very-light-gray-color {
-			color: #eee
-		}
-
-		:root .has-very-dark-gray-color {
-			color: #313131
-		}
-
-		:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
-			background: linear-gradient(135deg, #00d084, #0693e3)
-		}
-
-		:root .has-purple-crush-gradient-background {
-			background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
-		}
-
-		:root .has-hazy-dawn-gradient-background {
-			background: linear-gradient(135deg, #faaca8, #dad0ec)
-		}
-
-		:root .has-subdued-olive-gradient-background {
-			background: linear-gradient(135deg, #fafae1, #67a671)
-		}
-
-		:root .has-atomic-cream-gradient-background {
-			background: linear-gradient(135deg, #fdd79a, #004a59)
-		}
-
-		:root .has-nightshade-gradient-background {
-			background: linear-gradient(135deg, #330968, #31cdcf)
-		}
-
-		:root .has-midnight-gradient-background {
-			background: linear-gradient(135deg, #020381, #2874fc)
-		}
-
-		.has-regular-font-size {
-			font-size: 1em
-		}
-
-		.has-larger-font-size {
-			font-size: 2.625em
-		}
-
-		.has-normal-font-size {
-			font-size: var(--wp--preset--font-size--normal)
-		}
-
-		.has-huge-font-size {
-			font-size: var(--wp--preset--font-size--huge)
-		}
-
-		.has-text-align-center {
-			text-align: center
-		}
-
-		.has-text-align-left {
-			text-align: left
-		}
-
-		.has-text-align-right {
-			text-align: right
-		}
-
-		#end-resizable-editor-section {
-			display: none
-		}
-
-		.aligncenter {
-			clear: both
-		}
-
-		.items-justified-left {
-			justify-content: flex-start
-		}
-
-		.items-justified-center {
-			justify-content: center
-		}
-
-		.items-justified-right {
-			justify-content: flex-end
-		}
-
-		.items-justified-space-between {
-			justify-content: space-between
-		}
-
-		.screen-reader-text {
-			clip: rect(1px, 1px, 1px, 1px);
-			word-wrap: normal !important;
-			border: 0;
-			-webkit-clip-path: inset(50%);
-			clip-path: inset(50%);
-			height: 1px;
-			margin: -1px;
-			overflow: hidden;
-			padding: 0;
-			position: absolute;
-			width: 1px
-		}
-
-		.screen-reader-text:focus {
-			clip: auto !important;
-			background-color: #ddd;
-			-webkit-clip-path: none;
-			clip-path: none;
-			color: #444;
-			display: block;
-			font-size: 1em;
-			height: auto;
-			left: 5px;
-			line-height: normal;
-			padding: 15px 23px 14px;
-			text-decoration: none;
-			top: 5px;
-			width: auto;
-			z-index: 100000
-		}
-
-		html :where(.has-border-color) {
-			border-style: solid
-		}
-
-		html :where([style*=border-top-color]) {
-			border-top-style: solid
-		}
-
-		html :where([style*=border-right-color]) {
-			border-right-style: solid
-		}
-
-		html :where([style*=border-bottom-color]) {
-			border-bottom-style: solid
-		}
-
-		html :where([style*=border-left-color]) {
-			border-left-style: solid
-		}
-
-		html :where([style*=border-width]) {
-			border-style: solid
-		}
-
-		html :where([style*=border-top-width]) {
-			border-top-style: solid
-		}
-
-		html :where([style*=border-right-width]) {
-			border-right-style: solid
-		}
-
-		html :where([style*=border-bottom-width]) {
-			border-bottom-style: solid
-		}
-
-		html :where([style*=border-left-width]) {
-			border-left-style: solid
-		}
-
-		html :where(img[class*=wp-image-]) {
-			height: auto;
-			max-width: 100%
-		}
-
-		:where(figure) {
-			margin: 0 0 1em
-		}
-
-		html :where(.is-position-sticky) {
-			--wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
-		}
-
-		@media screen and (max-width:600px) {
-			html :where(.is-position-sticky) {
-				--wp-admin--admin-bar--position-offset: 0px
-			}
-		}
-	</style>`   
-	<link rel="preload"
-		href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
-		as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>
-		<link rel="stylesheet" id="tpgb-fontawesome-css"
-			href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
-			media="all">
-	</noscript>
-	<link rel="stylesheet" id="tpgb-gfonts-global-css"
-		href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
-		media="all">
-	<link rel="stylesheet" id="plus-global-css"
-		href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205"
-		media="all">
-	<style id="global-styles-inline-css">
-		body {
-			--wp--preset--color--black: #000000;
-			--wp--preset--color--cyan-bluish-gray: #abb8c3;
-			--wp--preset--color--white: #ffffff;
-			--wp--preset--color--pale-pink: #f78da7;
-			--wp--preset--color--vivid-red: #cf2e2e;
-			--wp--preset--color--luminous-vivid-orange: #ff6900;
-			--wp--preset--color--luminous-vivid-amber: #fcb900;
-			--wp--preset--color--light-green-cyan: #7bdcb5;
-			--wp--preset--color--vivid-green-cyan: #00d084;
-			--wp--preset--color--pale-cyan-blue: #8ed1fc;
-			--wp--preset--color--vivid-cyan-blue: #0693e3;
-			--wp--preset--color--vivid-purple: #9b51e0;
-			--wp--preset--color--foreground: #000000;
-			--wp--preset--color--background: #ffffff;
-			--wp--preset--color--primary: #1a4548;
-			--wp--preset--color--secondary: #ffe2c7;
-			--wp--preset--color--tertiary: #F6F6F6;
-			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-			--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%);
-			--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--background) 100%);
-			--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--background) 100%);
-			--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--foreground) 100%);
-			--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--background) 50%);
-			--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
-			--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
-			--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
-			--wp--preset--font-size--small: 1rem;
-			--wp--preset--font-size--medium: 1.125rem;
-			--wp--preset--font-size--large: 1.75rem;
-			--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);
-			--wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-			--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;
-			--wp--preset--spacing--20: 0.44rem;
-			--wp--preset--spacing--30: 0.67rem;
-			--wp--preset--spacing--40: 1rem;
-			--wp--preset--spacing--50: 1.5rem;
-			--wp--preset--spacing--60: 2.25rem;
-			--wp--preset--spacing--70: 3.38rem;
-			--wp--preset--spacing--80: 5.06rem;
-			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-			--wp--custom--spacing--small: max(1.25rem, 5vw);
-			--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));
-			--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);
-			--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);
-			--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
-			--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);
-			--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);
-			--wp--custom--typography--line-height--tiny: 1.15;
-			--wp--custom--typography--line-height--small: 1.2;
-			--wp--custom--typography--line-height--medium: 1.4;
-			--wp--custom--typography--line-height--normal: 1.6;
-		}
-
-		body {
-			margin: 0;
-			--wp--style--global--content-size: 650px;
-			--wp--style--global--wide-size: 1000px;
-		}
-
-		.wp-site-blocks>.alignleft {
-			float: left;
-			margin-right: 2em;
-		}
-
-		.wp-site-blocks>.alignright {
-			float: right;
-			margin-left: 2em;
-		}
-
-		.wp-site-blocks>.aligncenter {
-			justify-content: center;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		:where(.wp-site-blocks)>* {
-			margin-block-start: 1.5rem;
-			margin-block-end: 0;
-		}
-
-		:where(.wp-site-blocks)> :first-child:first-child {
-			margin-block-start: 0;
-		}
-
-		:where(.wp-site-blocks)> :last-child:last-child {
-			margin-block-end: 0;
-		}
-
-		body {
-			--wp--style--block-gap: 1.5rem;
-		}
-
-		:where(body .is-layout-flow)> :first-child:first-child {
-			margin-block-start: 0;
-		}
-
-		:where(body .is-layout-flow)> :last-child:last-child {
-			margin-block-end: 0;
-		}
-
-		:where(body .is-layout-flow)>* {
-			margin-block-start: 1.5rem;
-			margin-block-end: 0;
-		}
-
-		:where(body .is-layout-constrained)> :first-child:first-child {
-			margin-block-start: 0;
-		}
-
-		:where(body .is-layout-constrained)> :last-child:last-child {
-			margin-block-end: 0;
-		}
-
-		:where(body .is-layout-constrained)>* {
-			margin-block-start: 1.5rem;
-			margin-block-end: 0;
-		}
-
-		:where(body .is-layout-flex) {
-			gap: 1.5rem;
-		}
-
-		:where(body .is-layout-grid) {
-			gap: 1.5rem;
-		}
-
-		body .is-layout-flow>.alignleft {
-			float: left;
-			margin-inline-start: 0;
-			margin-inline-end: 2em;
-		}
-
-		body .is-layout-flow>.alignright {
-			float: right;
-			margin-inline-start: 2em;
-			margin-inline-end: 0;
-		}
-
-		body .is-layout-flow>.aligncenter {
-			margin-left: auto !important;
-			margin-right: auto !important;
-		}
-
-		body .is-layout-constrained>.alignleft {
-			float: left;
-			margin-inline-start: 0;
-			margin-inline-end: 2em;
-		}
-
-		body .is-layout-constrained>.alignright {
-			float: right;
-			margin-inline-start: 2em;
-			margin-inline-end: 0;
-		}
-
-		body .is-layout-constrained>.aligncenter {
-			margin-left: auto !important;
-			margin-right: auto !important;
-		}
-
-		body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-			max-width: var(--wp--style--global--content-size);
-			margin-left: auto !important;
-			margin-right: auto !important;
-		}
-
-		body .is-layout-constrained>.alignwide {
-			max-width: var(--wp--style--global--wide-size);
-		}
-
-		body .is-layout-flex {
-			display: flex;
-		}
-
-		body .is-layout-flex {
-			flex-wrap: wrap;
-			align-items: center;
-		}
-
-		body .is-layout-flex>* {
-			margin: 0;
-		}
-
-		body .is-layout-grid {
-			display: grid;
-		}
-
-		body .is-layout-grid>* {
-			margin: 0;
-		}
-
-		body {
-			background-color: var(--wp--preset--color--background);
-			color: var(--wp--preset--color--foreground);
-			font-family: var(--wp--preset--font-family--system-font);
-			font-size: var(--wp--preset--font-size--medium);
-			line-height: var(--wp--custom--typography--line-height--normal);
-			padding-top: 0px;
-			padding-right: 0px;
-			padding-bottom: 0px;
-			padding-left: 0px;
-		}
-
-		a:where(:not(.wp-element-button)) {
-			color: var(--wp--preset--color--foreground);
-			text-decoration: underline;
-		}
-
-		h1 {
-			font-family: var(--wp--preset--font-family--source-serif-pro);
-			font-size: var(--wp--custom--typography--font-size--colossal);
-			font-weight: 300;
-			line-height: var(--wp--custom--typography--line-height--tiny);
-		}
-
-		h2 {
-			font-family: var(--wp--preset--font-family--source-serif-pro);
-			font-size: var(--wp--custom--typography--font-size--gigantic);
-			font-weight: 300;
-			line-height: var(--wp--custom--typography--line-height--small);
-		}
-
-		h3 {
-			font-family: var(--wp--preset--font-family--source-serif-pro);
-			font-size: var(--wp--custom--typography--font-size--huge);
-			font-weight: 300;
-			line-height: var(--wp--custom--typography--line-height--tiny);
-		}
-
-		h4 {
-			font-family: var(--wp--preset--font-family--source-serif-pro);
-			font-size: var(--wp--preset--font-size--x-large);
-			font-weight: 300;
-			line-height: var(--wp--custom--typography--line-height--tiny);
-		}
-
-		h5 {
-			font-family: var(--wp--preset--font-family--system-font);
-			font-size: var(--wp--preset--font-size--medium);
-			font-weight: 700;
-			line-height: var(--wp--custom--typography--line-height--normal);
-			text-transform: uppercase;
-		}
-
-		h6 {
-			font-family: var(--wp--preset--font-family--system-font);
-			font-size: var(--wp--preset--font-size--medium);
-			font-weight: 400;
-			line-height: var(--wp--custom--typography--line-height--normal);
-			text-transform: uppercase;
-		}
-
-		.wp-element-button,
-		.wp-block-button__link {
-			background-color: #32373c;
-			border-width: 0;
-			color: #fff;
-			font-family: inherit;
-			font-size: inherit;
-			line-height: inherit;
-			padding: calc(0.667em + 2px) calc(1.333em + 2px);
-			text-decoration: none;
-		}
-
-		.has-black-color {
-			color: var(--wp--preset--color--black) !important;
-		}
-
-		.has-cyan-bluish-gray-color {
-			color: var(--wp--preset--color--cyan-bluish-gray) !important;
-		}
-
-		.has-white-color {
-			color: var(--wp--preset--color--white) !important;
-		}
-
-		.has-pale-pink-color {
-			color: var(--wp--preset--color--pale-pink) !important;
-		}
-
-		.has-vivid-red-color {
-			color: var(--wp--preset--color--vivid-red) !important;
-		}
-
-		.has-luminous-vivid-orange-color {
-			color: var(--wp--preset--color--luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-amber-color {
-			color: var(--wp--preset--color--luminous-vivid-amber) !important;
-		}
-
-		.has-light-green-cyan-color {
-			color: var(--wp--preset--color--light-green-cyan) !important;
-		}
-
-		.has-vivid-green-cyan-color {
-			color: var(--wp--preset--color--vivid-green-cyan) !important;
-		}
-
-		.has-pale-cyan-blue-color {
-			color: var(--wp--preset--color--pale-cyan-blue) !important;
-		}
-
-		.has-vivid-cyan-blue-color {
-			color: var(--wp--preset--color--vivid-cyan-blue) !important;
-		}
-
-		.has-vivid-purple-color {
-			color: var(--wp--preset--color--vivid-purple) !important;
-		}
-
-		.has-foreground-color {
-			color: var(--wp--preset--color--foreground) !important;
-		}
-
-		.has-background-color {
-			color: var(--wp--preset--color--background) !important;
-		}
-
-		.has-primary-color {
-			color: var(--wp--preset--color--primary) !important;
-		}
-
-		.has-secondary-color {
-			color: var(--wp--preset--color--secondary) !important;
-		}
-
-		.has-tertiary-color {
-			color: var(--wp--preset--color--tertiary) !important;
-		}
-
-		.has-black-background-color {
-			background-color: var(--wp--preset--color--black) !important;
-		}
-
-		.has-cyan-bluish-gray-background-color {
-			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-		}
-
-		.has-white-background-color {
-			background-color: var(--wp--preset--color--white) !important;
-		}
-
-		.has-pale-pink-background-color {
-			background-color: var(--wp--preset--color--pale-pink) !important;
-		}
-
-		.has-vivid-red-background-color {
-			background-color: var(--wp--preset--color--vivid-red) !important;
-		}
-
-		.has-luminous-vivid-orange-background-color {
-			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-amber-background-color {
-			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-		}
-
-		.has-light-green-cyan-background-color {
-			background-color: var(--wp--preset--color--light-green-cyan) !important;
-		}
-
-		.has-vivid-green-cyan-background-color {
-			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-		}
-
-		.has-pale-cyan-blue-background-color {
-			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-		}
-
-		.has-vivid-cyan-blue-background-color {
-			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-		}
-
-		.has-vivid-purple-background-color {
-			background-color: var(--wp--preset--color--vivid-purple) !important;
-		}
-
-		.has-foreground-background-color {
-			background-color: var(--wp--preset--color--foreground) !important;
-		}
-
-		.has-background-background-color {
-			background-color: var(--wp--preset--color--background) !important;
-		}
-
-		.has-primary-background-color {
-			background-color: var(--wp--preset--color--primary) !important;
-		}
-
-		.has-secondary-background-color {
-			background-color: var(--wp--preset--color--secondary) !important;
-		}
-
-		.has-tertiary-background-color {
-			background-color: var(--wp--preset--color--tertiary) !important;
-		}
-
-		.has-black-border-color {
-			border-color: var(--wp--preset--color--black) !important;
-		}
-
-		.has-cyan-bluish-gray-border-color {
-			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-		}
-
-		.has-white-border-color {
-			border-color: var(--wp--preset--color--white) !important;
-		}
-
-		.has-pale-pink-border-color {
-			border-color: var(--wp--preset--color--pale-pink) !important;
-		}
-
-		.has-vivid-red-border-color {
-			border-color: var(--wp--preset--color--vivid-red) !important;
-		}
-
-		.has-luminous-vivid-orange-border-color {
-			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-amber-border-color {
-			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-		}
-
-		.has-light-green-cyan-border-color {
-			border-color: var(--wp--preset--color--light-green-cyan) !important;
-		}
-
-		.has-vivid-green-cyan-border-color {
-			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-		}
-
-		.has-pale-cyan-blue-border-color {
-			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-		}
-
-		.has-vivid-cyan-blue-border-color {
-			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-		}
-
-		.has-vivid-purple-border-color {
-			border-color: var(--wp--preset--color--vivid-purple) !important;
-		}
-
-		.has-foreground-border-color {
-			border-color: var(--wp--preset--color--foreground) !important;
-		}
-
-		.has-background-border-color {
-			border-color: var(--wp--preset--color--background) !important;
-		}
-
-		.has-primary-border-color {
-			border-color: var(--wp--preset--color--primary) !important;
-		}
-
-		.has-secondary-border-color {
-			border-color: var(--wp--preset--color--secondary) !important;
-		}
-
-		.has-tertiary-border-color {
-			border-color: var(--wp--preset--color--tertiary) !important;
-		}
-
-		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-		}
-
-		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-		}
-
-		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-		}
-
-		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
-			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-		}
-
-		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-		}
-
-		.has-cool-to-warm-spectrum-gradient-background {
-			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-		}
-
-		.has-blush-light-purple-gradient-background {
-			background: var(--wp--preset--gradient--blush-light-purple) !important;
-		}
-
-		.has-blush-bordeaux-gradient-background {
-			background: var(--wp--preset--gradient--blush-bordeaux) !important;
-		}
-
-		.has-luminous-dusk-gradient-background {
-			background: var(--wp--preset--gradient--luminous-dusk) !important;
-		}
-
-		.has-pale-ocean-gradient-background {
-			background: var(--wp--preset--gradient--pale-ocean) !important;
-		}
-
-		.has-electric-grass-gradient-background {
-			background: var(--wp--preset--gradient--electric-grass) !important;
-		}
-
-		.has-midnight-gradient-background {
-			background: var(--wp--preset--gradient--midnight) !important;
-		}
-
-		.has-vertical-secondary-to-tertiary-gradient-background {
-			background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;
-		}
-
-		.has-vertical-secondary-to-background-gradient-background {
-			background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;
-		}
-
-		.has-vertical-tertiary-to-background-gradient-background {
-			background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;
-		}
-
-		.has-diagonal-primary-to-foreground-gradient-background {
-			background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;
-		}
-
-		.has-diagonal-secondary-to-background-gradient-background {
-			background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;
-		}
-
-		.has-diagonal-background-to-secondary-gradient-background {
-			background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;
-		}
-
-		.has-diagonal-tertiary-to-background-gradient-background {
-			background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;
-		}
-
-		.has-diagonal-background-to-tertiary-gradient-background {
-			background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;
-		}
-
-		.has-small-font-size {
-			font-size: var(--wp--preset--font-size--small) !important;
-		}
-
-		.has-medium-font-size {
-			font-size: var(--wp--preset--font-size--medium) !important;
-		}
-
-		.has-large-font-size {
-			font-size: var(--wp--preset--font-size--large) !important;
-		}
-
-		.has-x-large-font-size {
-			font-size: var(--wp--preset--font-size--x-large) !important;
-		}
-
-		.has-system-font-font-family {
-			font-family: var(--wp--preset--font-family--system-font) !important;
-		}
-
-		.has-source-serif-pro-font-family {
-			font-family: var(--wp--preset--font-family--source-serif-pro) !important;
-		}
-	</style>
-	<link rel="stylesheet" id="niso-carousel-fontello-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
-		media="all">
-	<link rel="stylesheet" id="niso-carousel-owl-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
-		media="all">
-	<link rel="stylesheet" id="niso-theme-default-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
-		media="all">
-	<link rel="stylesheet" id="niso-animate-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
-		media="all">
-	<link rel="stylesheet" id="niso-carousel-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
-		media="all">
-	<link rel="stylesheet" id="niso-carousel-lightbox-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
-		media="all">
-	<link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-		href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
-		media="all">
-	<style id="wp-webfonts-inline-css">
-		@font-face {
-			font-family: "Source Serif Pro";
-			font-style: normal;
-			font-weight: 200 900;
-			font-display: fallback;
-			src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
-			font-stretch: normal;
-		}
-
-		@font-face {
-			font-family: "Source Serif Pro";
-			font-style: italic;
-			font-weight: 200 900;
-			font-display: fallback;
-			src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
-			font-stretch: normal;
-		}
-	</style>
-	<link rel="stylesheet" id="hfe-style-css"
-		href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
-		media="all">
-	<link rel="stylesheet" id="elementor-icons-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
-		media="all">
-	<link rel="stylesheet" id="elementor-frontend-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-		media="all">
-	<link rel="stylesheet" id="swiper-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
-		media="all">
-	<link rel="stylesheet" id="elementor-post-5-css"
-		href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1692627564" media="all">
-	<link rel="stylesheet" id="she-header-style-css"
-		href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
-		media="all">
-	<link rel="stylesheet" id="elementor-global-css"
-		href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1692629951" media="all">
-	<link rel="stylesheet" id="hfe-widgets-style-css"
-		href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
-		media="all">
-	<link rel="stylesheet" id="elementor-post-2372-css"
-		href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2372.css?ver=1699004376" media="all">
-	<link rel="stylesheet" id="elementor-post-3007-css"
-		href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1693322835" media="all">
-	<link rel="stylesheet" id="elementor-post-32-css"
-		href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1692627565" media="all">
-	<link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-		href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.3.2"
-		media="all">
-	<link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-		href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.3.2"
-		media="all">
-	<link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-		href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.3.2"
-		media="all">
-	<link rel="stylesheet" id="theplus-front-css-css"
-		href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699004376"
-		media="all">
-	<link rel="stylesheet" id="twentytwentytwo-style-css"
-		href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
-	<link rel="stylesheet" id="google-fonts-1-css"
-		href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.3.2"
-		media="all">
-	<link rel="stylesheet" id="elementor-icons-shared-0-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-		media="all">
-	<link rel="stylesheet" id="elementor-icons-fa-regular-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
-		media="all">
-	<link rel="stylesheet" id="elementor-icons-fa-solid-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
-		media="all">
-	<link rel="stylesheet" id="elementor-icons-fa-brands-css"
-		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
-		media="all">
-	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<script id="jquery-core-js-extra">var tpgb_load = { "ajaxUrl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php" };
-		var smoothAllowedBrowsers = [];</script>
-	<script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0"
-		id="jquery-core-js"></script>
-	<script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-		id="jquery-migrate-js"></script>
-	<script
-		src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
-		id="she-header-js"></script>
-	<link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
-	<link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2372">
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
-	<meta name="generator" content="WordPress 6.3.2">
-	<link rel="canonical" href="https://wiseadvizor.com/profile/">
-	<link rel="shortlink" href="https://wiseadvizor.com/?p=2372">
-	<link rel="alternate" type="application/json+oembed"
-		href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
-	<link rel="alternate" type="text/xml+oembed"
-		href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml">
-	<meta name="generator"
-		content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-	<style type="text/css">
-		#niso-carousel-952.niso-carousel .niso-post-item .post-img img {
-			height: 350px;
-		}
-
-		#niso-carousel-952.niso-carousel {
-			margin: 10px 0px;
-		}
-
-		#niso-carousel-952.niso-theme .owl-nav {
-			margin: 0px 0px 0px 0px;
-		}
-
-		#niso-carousel-952.owl-theme .owl-dots {
-			text-align: center;
-		}
-
-		#niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i {
-			color: #ffffff;
-		}
-
-		#niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover {
-			color: #cccccc;
-		}
-
-		#niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:after {
-			background-color: #111111;
-			opacity: 0.80;
-			filter: alpha(opacity=80);
-		}
-
-		#niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover:after {
-			background-color: #555555;
-		}
-
-		html body .animated {
-			-webkit-animation-duration: 500000 ms;
-			animation-duration: 500000 ms;
-			-webkit-animation-fill-mode: both;
-			animation-fill-mode: both;
-		}
-	</style>
-	<style id="wpforms-css-vars-root">
-		:root {
-			--wpforms-field-border-radius: 3px;
-			--wpforms-field-background-color: #ffffff;
-			--wpforms-field-border-color: rgba(0, 0, 0, 0.25);
-			--wpforms-field-text-color: rgba(0, 0, 0, 0.7);
-			--wpforms-label-color: rgba(0, 0, 0, 0.85);
-			--wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
-			--wpforms-label-error-color: #d63637;
-			--wpforms-button-border-radius: 3px;
-			--wpforms-button-background-color: #066aab;
-			--wpforms-button-text-color: #ffffff;
-			--wpforms-field-size-input-height: 43px;
-			--wpforms-field-size-input-spacing: 15px;
-			--wpforms-field-size-font-size: 16px;
-			--wpforms-field-size-line-height: 19px;
-			--wpforms-field-size-padding-h: 14px;
-			--wpforms-field-size-checkbox-size: 16px;
-			--wpforms-field-size-sublabel-spacing: 5px;
-			--wpforms-field-size-icon-size: 1;
-			--wpforms-label-size-font-size: 16px;
-			--wpforms-label-size-line-height: 19px;
-			--wpforms-label-size-sublabel-font-size: 14px;
-			--wpforms-label-size-sublabel-line-height: 17px;
-			--wpforms-button-size-font-size: 17px;
-			--wpforms-button-size-height: 41px;
-			--wpforms-button-size-padding-h: 15px;
-			--wpforms-button-size-margin-top: 10px;
-
-		}
-	</style>
+    img.wp-smiley,
+    img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+    </style>
+    <style id="wp-block-library-inline-css">
+    :root {
+        --wp-admin-theme-color: #007cba;
+        --wp-admin-theme-color--rgb: 0, 124, 186;
+        --wp-admin-theme-color-darker-10: #006ba1;
+        --wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
+        --wp-admin-theme-color-darker-20: #005a87;
+        --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+        --wp-admin-border-width-focus: 2px;
+        --wp-block-synced-color: #7a00df;
+        --wp-block-synced-color--rgb: 122, 0, 223
+    }
+
+    @media (min-resolution:192dpi) {
+        :root {
+            --wp-admin-border-width-focus: 1.5px
+        }
+    }
+
+    .wp-element-button {
+        cursor: pointer
+    }
+
+    :root {
+        --wp--preset--font-size--normal: 16px;
+        --wp--preset--font-size--huge: 42px
+    }
+
+    :root .has-very-light-gray-background-color {
+        background-color: #eee
+    }
+
+    :root .has-very-dark-gray-background-color {
+        background-color: #313131
+    }
+
+    :root .has-very-light-gray-color {
+        color: #eee
+    }
+
+    :root .has-very-dark-gray-color {
+        color: #313131
+    }
+
+    :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+        background: linear-gradient(135deg, #00d084, #0693e3)
+    }
+
+    :root .has-purple-crush-gradient-background {
+        background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
+    }
+
+    :root .has-hazy-dawn-gradient-background {
+        background: linear-gradient(135deg, #faaca8, #dad0ec)
+    }
+
+    :root .has-subdued-olive-gradient-background {
+        background: linear-gradient(135deg, #fafae1, #67a671)
+    }
+
+    :root .has-atomic-cream-gradient-background {
+        background: linear-gradient(135deg, #fdd79a, #004a59)
+    }
+
+    :root .has-nightshade-gradient-background {
+        background: linear-gradient(135deg, #330968, #31cdcf)
+    }
+
+    :root .has-midnight-gradient-background {
+        background: linear-gradient(135deg, #020381, #2874fc)
+    }
+
+    .has-regular-font-size {
+        font-size: 1em
+    }
+
+    .has-larger-font-size {
+        font-size: 2.625em
+    }
+
+    .has-normal-font-size {
+        font-size: var(--wp--preset--font-size--normal)
+    }
+
+    .has-huge-font-size {
+        font-size: var(--wp--preset--font-size--huge)
+    }
+
+    .has-text-align-center {
+        text-align: center
+    }
+
+    .has-text-align-left {
+        text-align: left
+    }
+
+    .has-text-align-right {
+        text-align: right
+    }
+
+    #end-resizable-editor-section {
+        display: none
+    }
+
+    .aligncenter {
+        clear: both
+    }
+
+    .items-justified-left {
+        justify-content: flex-start
+    }
+
+    .items-justified-center {
+        justify-content: center
+    }
+
+    .items-justified-right {
+        justify-content: flex-end
+    }
+
+    .items-justified-space-between {
+        justify-content: space-between
+    }
+
+    .screen-reader-text {
+        clip: rect(1px, 1px, 1px, 1px);
+        word-wrap: normal !important;
+        border: 0;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px
+    }
+
+    .screen-reader-text:focus {
+        clip: auto !important;
+        background-color: #ddd;
+        -webkit-clip-path: none;
+        clip-path: none;
+        color: #444;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000
+    }
+
+    html :where(.has-border-color) {
+        border-style: solid
+    }
+
+    html :where([style*=border-top-color]) {
+        border-top-style: solid
+    }
+
+    html :where([style*=border-right-color]) {
+        border-right-style: solid
+    }
+
+    html :where([style*=border-bottom-color]) {
+        border-bottom-style: solid
+    }
+
+    html :where([style*=border-left-color]) {
+        border-left-style: solid
+    }
+
+    html :where([style*=border-width]) {
+        border-style: solid
+    }
+
+    html :where([style*=border-top-width]) {
+        border-top-style: solid
+    }
+
+    html :where([style*=border-right-width]) {
+        border-right-style: solid
+    }
+
+    html :where([style*=border-bottom-width]) {
+        border-bottom-style: solid
+    }
+
+    html :where([style*=border-left-width]) {
+        border-left-style: solid
+    }
+
+    html :where(img[class*=wp-image-]) {
+        height: auto;
+        max-width: 100%
+    }
+
+    :where(figure) {
+        margin: 0 0 1em
+    }
+
+    html :where(.is-position-sticky) {
+        --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
+    }
+
+    @media screen and (max-width:600px) {
+        html :where(.is-position-sticky) {
+            --wp-admin--admin-bar--position-offset: 0px
+        }
+    }
+    </style>`
+    <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
+        as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" id="tpgb-fontawesome-css"
+            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
+            media="all">
+    </noscript>
+    <link rel="stylesheet" id="tpgb-gfonts-global-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
+        media="all">
+    <link rel="stylesheet" id="plus-global-css"
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687510205" media="all">
+    <style id="global-styles-inline-css">
+    body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--color--foreground: #000000;
+        --wp--preset--color--background: #ffffff;
+        --wp--preset--color--primary: #1a4548;
+        --wp--preset--color--secondary: #ffe2c7;
+        --wp--preset--color--tertiary: #F6F6F6;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+        --wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%);
+        --wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--background) 100%);
+        --wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--background) 100%);
+        --wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--foreground) 100%);
+        --wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--background) 50%);
+        --wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
+        --wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
+        --wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
+        --wp--preset--font-size--small: 1rem;
+        --wp--preset--font-size--medium: 1.125rem;
+        --wp--preset--font-size--large: 1.75rem;
+        --wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);
+        --wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        --wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        --wp--custom--spacing--small: max(1.25rem, 5vw);
+        --wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));
+        --wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);
+        --wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);
+        --wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
+        --wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);
+        --wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);
+        --wp--custom--typography--line-height--tiny: 1.15;
+        --wp--custom--typography--line-height--small: 1.2;
+        --wp--custom--typography--line-height--medium: 1.4;
+        --wp--custom--typography--line-height--normal: 1.6;
+    }
+
+    body {
+        margin: 0;
+        --wp--style--global--content-size: 650px;
+        --wp--style--global--wide-size: 1000px;
+    }
+
+    .wp-site-blocks>.alignleft {
+        float: left;
+        margin-right: 2em;
+    }
+
+    .wp-site-blocks>.alignright {
+        float: right;
+        margin-left: 2em;
+    }
+
+    .wp-site-blocks>.aligncenter {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    :where(.wp-site-blocks)>* {
+        margin-block-start: 1.5rem;
+        margin-block-end: 0;
+    }
+
+    :where(.wp-site-blocks)> :first-child:first-child {
+        margin-block-start: 0;
+    }
+
+    :where(.wp-site-blocks)> :last-child:last-child {
+        margin-block-end: 0;
+    }
+
+    body {
+        --wp--style--block-gap: 1.5rem;
+    }
+
+    :where(body .is-layout-flow)> :first-child:first-child {
+        margin-block-start: 0;
+    }
+
+    :where(body .is-layout-flow)> :last-child:last-child {
+        margin-block-end: 0;
+    }
+
+    :where(body .is-layout-flow)>* {
+        margin-block-start: 1.5rem;
+        margin-block-end: 0;
+    }
+
+    :where(body .is-layout-constrained)> :first-child:first-child {
+        margin-block-start: 0;
+    }
+
+    :where(body .is-layout-constrained)> :last-child:last-child {
+        margin-block-end: 0;
+    }
+
+    :where(body .is-layout-constrained)>* {
+        margin-block-start: 1.5rem;
+        margin-block-end: 0;
+    }
+
+    :where(body .is-layout-flex) {
+        gap: 1.5rem;
+    }
+
+    :where(body .is-layout-grid) {
+        gap: 1.5rem;
+    }
+
+    body .is-layout-flow>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+    }
+
+    body .is-layout-flow>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+    }
+
+    body .is-layout-flow>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    body .is-layout-constrained>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+    }
+
+    body .is-layout-constrained>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+    }
+
+    body .is-layout-constrained>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    body .is-layout-constrained>.alignwide {
+        max-width: var(--wp--style--global--wide-size);
+    }
+
+    body .is-layout-flex {
+        display: flex;
+    }
+
+    body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    body .is-layout-flex>* {
+        margin: 0;
+    }
+
+    body .is-layout-grid {
+        display: grid;
+    }
+
+    body .is-layout-grid>* {
+        margin: 0;
+    }
+
+    body {
+        background-color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--foreground);
+        font-family: var(--wp--preset--font-family--system-font);
+        font-size: var(--wp--preset--font-size--medium);
+        line-height: var(--wp--custom--typography--line-height--normal);
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foreground);
+        text-decoration: underline;
+    }
+
+    h1 {
+        font-family: var(--wp--preset--font-family--source-serif-pro);
+        font-size: var(--wp--custom--typography--font-size--colossal);
+        font-weight: 300;
+        line-height: var(--wp--custom--typography--line-height--tiny);
+    }
+
+    h2 {
+        font-family: var(--wp--preset--font-family--source-serif-pro);
+        font-size: var(--wp--custom--typography--font-size--gigantic);
+        font-weight: 300;
+        line-height: var(--wp--custom--typography--line-height--small);
+    }
+
+    h3 {
+        font-family: var(--wp--preset--font-family--source-serif-pro);
+        font-size: var(--wp--custom--typography--font-size--huge);
+        font-weight: 300;
+        line-height: var(--wp--custom--typography--line-height--tiny);
+    }
+
+    h4 {
+        font-family: var(--wp--preset--font-family--source-serif-pro);
+        font-size: var(--wp--preset--font-size--x-large);
+        font-weight: 300;
+        line-height: var(--wp--custom--typography--line-height--tiny);
+    }
+
+    h5 {
+        font-family: var(--wp--preset--font-family--system-font);
+        font-size: var(--wp--preset--font-size--medium);
+        font-weight: 700;
+        line-height: var(--wp--custom--typography--line-height--normal);
+        text-transform: uppercase;
+    }
+
+    h6 {
+        font-family: var(--wp--preset--font-family--system-font);
+        font-size: var(--wp--preset--font-size--medium);
+        font-weight: 400;
+        line-height: var(--wp--custom--typography--line-height--normal);
+        text-transform: uppercase;
+    }
+
+    .wp-element-button,
+    .wp-block-button__link {
+        background-color: #32373c;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        text-decoration: none;
+    }
+
+    .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-foreground-color {
+        color: var(--wp--preset--color--foreground) !important;
+    }
+
+    .has-background-color {
+        color: var(--wp--preset--color--background) !important;
+    }
+
+    .has-primary-color {
+        color: var(--wp--preset--color--primary) !important;
+    }
+
+    .has-secondary-color {
+        color: var(--wp--preset--color--secondary) !important;
+    }
+
+    .has-tertiary-color {
+        color: var(--wp--preset--color--tertiary) !important;
+    }
+
+    .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-foreground-background-color {
+        background-color: var(--wp--preset--color--foreground) !important;
+    }
+
+    .has-background-background-color {
+        background-color: var(--wp--preset--color--background) !important;
+    }
+
+    .has-primary-background-color {
+        background-color: var(--wp--preset--color--primary) !important;
+    }
+
+    .has-secondary-background-color {
+        background-color: var(--wp--preset--color--secondary) !important;
+    }
+
+    .has-tertiary-background-color {
+        background-color: var(--wp--preset--color--tertiary) !important;
+    }
+
+    .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-foreground-border-color {
+        border-color: var(--wp--preset--color--foreground) !important;
+    }
+
+    .has-background-border-color {
+        border-color: var(--wp--preset--color--background) !important;
+    }
+
+    .has-primary-border-color {
+        border-color: var(--wp--preset--color--primary) !important;
+    }
+
+    .has-secondary-border-color {
+        border-color: var(--wp--preset--color--secondary) !important;
+    }
+
+    .has-tertiary-border-color {
+        border-color: var(--wp--preset--color--tertiary) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-vertical-secondary-to-tertiary-gradient-background {
+        background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;
+    }
+
+    .has-vertical-secondary-to-background-gradient-background {
+        background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;
+    }
+
+    .has-vertical-tertiary-to-background-gradient-background {
+        background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;
+    }
+
+    .has-diagonal-primary-to-foreground-gradient-background {
+        background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;
+    }
+
+    .has-diagonal-secondary-to-background-gradient-background {
+        background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;
+    }
+
+    .has-diagonal-background-to-secondary-gradient-background {
+        background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;
+    }
+
+    .has-diagonal-tertiary-to-background-gradient-background {
+        background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;
+    }
+
+    .has-diagonal-background-to-tertiary-gradient-background {
+        background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;
+    }
+
+    .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+
+    .has-system-font-font-family {
+        font-family: var(--wp--preset--font-family--system-font) !important;
+    }
+
+    .has-source-serif-pro-font-family {
+        font-family: var(--wp--preset--font-family--source-serif-pro) !important;
+    }
+    </style>
+    <link rel="stylesheet" id="niso-carousel-fontello-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
+        media="all">
+    <link rel="stylesheet" id="niso-carousel-owl-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
+        media="all">
+    <link rel="stylesheet" id="niso-theme-default-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
+        media="all">
+    <link rel="stylesheet" id="niso-animate-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
+        media="all">
+    <link rel="stylesheet" id="niso-carousel-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
+        media="all">
+    <link rel="stylesheet" id="niso-carousel-lightbox-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
+        media="all">
+    <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
+        media="all">
+    <style id="wp-webfonts-inline-css">
+    @font-face {
+        font-family: "Source Serif Pro";
+        font-style: normal;
+        font-weight: 200 900;
+        font-display: fallback;
+        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
+        font-stretch: normal;
+    }
+
+    @font-face {
+        font-family: "Source Serif Pro";
+        font-style: italic;
+        font-weight: 200 900;
+        font-display: fallback;
+        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
+        font-stretch: normal;
+    }
+    </style>
+    <link rel="stylesheet" id="hfe-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
+        media="all">
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+        media="all">
+    <link rel="stylesheet" id="swiper-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-5-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1692627564" media="all">
+    <link rel="stylesheet" id="she-header-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        media="all">
+    <link rel="stylesheet" id="elementor-global-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1692629951" media="all">
+    <link rel="stylesheet" id="hfe-widgets-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-2372-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2372.css?ver=1699004376" media="all">
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1693322835" media="all">
+    <link rel="stylesheet" id="elementor-post-32-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1692627565" media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.3.2"
+        media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.3.2"
+        media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.3.2"
+        media="all">
+    <link rel="stylesheet" id="theplus-front-css-css"
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699004376" media="all">
+    <link rel="stylesheet" id="twentytwentytwo-style-css"
+        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.3.2"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script id="jquery-core-js-extra">
+    var tpgb_load = {
+        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+    };
+    var smoothAllowedBrowsers = [];
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
+        id="she-header-js"></script>
+    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2372">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
+    <meta name="generator" content="WordPress 6.3.2">
+    <link rel="canonical" href="https://wiseadvizor.com/profile/">
+    <link rel="shortlink" href="https://wiseadvizor.com/?p=2372">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml">
+    <meta name="generator"
+        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <style type="text/css">
+    #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
+        height: 350px;
+    }
+
+    #niso-carousel-952.niso-carousel {
+        margin: 10px 0px;
+    }
+
+    #niso-carousel-952.niso-theme .owl-nav {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #niso-carousel-952.owl-theme .owl-dots {
+        text-align: center;
+    }
+
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i {
+        color: #ffffff;
+    }
+
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover {
+        color: #cccccc;
+    }
+
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:after {
+        background-color: #111111;
+        opacity: 0.80;
+        filter: alpha(opacity=80);
+    }
+
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover:after {
+        background-color: #555555;
+    }
+
+    html body .animated {
+        -webkit-animation-duration: 500000 ms;
+        animation-duration: 500000 ms;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    </style>
+    <style id="wpforms-css-vars-root">
+    :root {
+        --wpforms-field-border-radius: 3px;
+        --wpforms-field-background-color: #ffffff;
+        --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
+        --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
+        --wpforms-label-color: rgba(0, 0, 0, 0.85);
+        --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
+        --wpforms-label-error-color: #d63637;
+        --wpforms-button-border-radius: 3px;
+        --wpforms-button-background-color: #066aab;
+        --wpforms-button-text-color: #ffffff;
+        --wpforms-field-size-input-height: 43px;
+        --wpforms-field-size-input-spacing: 15px;
+        --wpforms-field-size-font-size: 16px;
+        --wpforms-field-size-line-height: 19px;
+        --wpforms-field-size-padding-h: 14px;
+        --wpforms-field-size-checkbox-size: 16px;
+        --wpforms-field-size-sublabel-spacing: 5px;
+        --wpforms-field-size-icon-size: 1;
+        --wpforms-label-size-font-size: 16px;
+        --wpforms-label-size-line-height: 19px;
+        --wpforms-label-size-sublabel-font-size: 14px;
+        --wpforms-label-size-sublabel-line-height: 17px;
+        --wpforms-button-size-font-size: 17px;
+        --wpforms-button-size-height: 41px;
+        --wpforms-button-size-padding-h: 15px;
+        --wpforms-button-size-margin-top: 10px;
+
+    }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
@@ -1492,403 +1493,437 @@
     </header>
 
     <div data-elementor-type="wp-page" data-elementor-id="2372" class="elementor elementor-2372">
-		<section
-			class="elementor-section elementor-top-section elementor-element elementor-element-bbdf32b elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-			data-id="bbdf32b" data-element_type="section"
-			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b940c5e elementor-hidden-desktop elementor-hidden-tablet"
-					data-id="b940c5e" data-element_type="column">
-					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-fb2c38b elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
-							data-id="fb2c38b" data-element_type="widget" data-widget_type="image.default">
-							<div class="elementor-widget-container">
-								<img decoding="async" fetchpriority="high" width="300" height="300"
-									src="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png"
-									class="attachment-medium size-medium wp-image-3756" alt=""
-									srcset="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png 300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-150x150.png 150w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-450x450.png 450w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-700x700.png 700w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-650x650.png 650w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-1300x1300.png 1300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png 500w"
-									sizes="(max-width: 300px) 100vw, 300px">
-							</div>
-						</div>
-						<div class="elementor-element elementor-element-9e80a97 elementor-widget elementor-widget-heading"
-							data-id="9e80a97" data-element_type="widget" data-widget_type="heading.default">
-							<div class="elementor-widget-container">
-								<style>
-									/*! elementor - v3.14.0 - 26-06-2023 */
-									.elementor-heading-title {
-										padding: 0;
-										margin: 0;
-										line-height: 1
-									}
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-bbdf32b elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="bbdf32b" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b940c5e elementor-hidden-desktop elementor-hidden-tablet"
+                    data-id="b940c5e" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-fb2c38b elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
+                            data-id="fb2c38b" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" fetchpriority="high" width="300" height="300"
+                                    src="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png"
+                                    class="attachment-medium size-medium wp-image-3756" alt=""
+                                    srcset="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png 300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-150x150.png 150w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-450x450.png 450w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-700x700.png 700w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-650x650.png 650w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-1300x1300.png 1300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png 500w"
+                                    sizes="(max-width: 300px) 100vw, 300px">
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9e80a97 elementor-widget elementor-widget-heading"
+                            data-id="9e80a97" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
 
-									.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-										color: inherit;
-										font-size: inherit;
-										line-height: inherit
-									}
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
 
-									.elementor-widget-heading .elementor-heading-title.elementor-size-small {
-										font-size: 15px
-									}
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
 
-									.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-										font-size: 19px
-									}
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
 
-									.elementor-widget-heading .elementor-heading-title.elementor-size-large {
-										font-size: 29px
-									}
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
 
-									.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-										font-size: 39px
-									}
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
 
-									.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-										font-size: 59px
-									}
-								</style>
-								<h1 class="elementor-heading-title elementor-size-default">HI! I AM SUMEDHA! _____</h1>
-							</div>
-						</div>
-						<div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
-							data-id="72aecbd" data-element_type="widget" data-widget_type="text-editor.default">
-							<div class="elementor-widget-container">
-								<style>
-									/*! elementor - v3.14.0 - 26-06-2023 */
-									.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-										background-color: #69727d;
-										color: #fff
-									}
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
+                                </style>
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
+                            data-id="72aecbd" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                    background-color: #69727d;
+                                    color: #fff
+                                }
 
-									.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-										color: #69727d;
-										border: 3px solid;
-										background-color: transparent
-									}
+                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                    color: #69727d;
+                                    border: 3px solid;
+                                    background-color: transparent
+                                }
 
-									.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-										margin-top: 8px
-									}
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                    margin-top: 8px
+                                }
 
-									.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-										width: 1em;
-										height: 1em
-									}
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                    width: 1em;
+                                    height: 1em
+                                }
 
-									.elementor-widget-text-editor .elementor-drop-cap {
-										float: left;
-										text-align: center;
-										line-height: 1;
-										font-size: 50px
-									}
+                                .elementor-widget-text-editor .elementor-drop-cap {
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 1;
+                                    font-size: 50px
+                                }
 
-									.elementor-widget-text-editor .elementor-drop-cap-letter {
-										display: inline-block
-									}
-								</style>
-								<p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
-									in leveraging multiple channels, I have been fortunate to work across a spectrum of
-									channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
-									creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
-									program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
-									marketing and launching the Indian cricket team jersey twice.</p>
-							</div>
-						</div>
-						<div class="elementor-element elementor-element-65db16f elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
-							data-id="65db16f" data-element_type="widget" data-widget_type="star-rating.default">
-							<div class="elementor-widget-container">
-								<style>
-									/*! elementor - v3.14.0 - 26-06-2023 */
-									@charset "UTF-8";
+                                .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                    display: inline-block
+                                }
+                                </style>
+                                <p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
+                                    in leveraging multiple channels, I have been fortunate to work across a spectrum of
+                                    channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
+                                    creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
+                                    program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
+                                    marketing and launching the Indian cricket team jersey twice.</p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-65db16f elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
+                            data-id="65db16f" data-element_type="widget" data-widget_type="star-rating.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                @charset "UTF-8";
 
-									.elementor-star-rating {
-										color: #ccd6df;
-										font-family: eicons;
-										display: inline-block
-									}
+                                .elementor-star-rating {
+                                    color: #ccd6df;
+                                    font-family: eicons;
+                                    display: inline-block
+                                }
 
-									.elementor-star-rating i {
-										display: inline-block;
-										position: relative;
-										font-style: normal;
-										cursor: default
-									}
+                                .elementor-star-rating i {
+                                    display: inline-block;
+                                    position: relative;
+                                    font-style: normal;
+                                    cursor: default
+                                }
 
-									.elementor-star-rating i:before {
-										content: "\e934";
-										display: block;
-										font-size: inherit;
-										font-family: inherit;
-										position: absolute;
-										overflow: hidden;
-										color: #f0ad4e;
-										top: 0;
-										left: 0
-									}
+                                .elementor-star-rating i:before {
+                                    content: "\e934";
+                                    display: block;
+                                    font-size: inherit;
+                                    font-family: inherit;
+                                    position: absolute;
+                                    overflow: hidden;
+                                    color: #f0ad4e;
+                                    top: 0;
+                                    left: 0
+                                }
 
-									.elementor-star-rating .elementor-star-empty:before {
-										content: none
-									}
+                                .elementor-star-rating .elementor-star-empty:before {
+                                    content: none
+                                }
 
-									.elementor-star-rating .elementor-star-1:before {
-										width: 10%
-									}
+                                .elementor-star-rating .elementor-star-1:before {
+                                    width: 10%
+                                }
 
-									.elementor-star-rating .elementor-star-2:before {
-										width: 20%
-									}
+                                .elementor-star-rating .elementor-star-2:before {
+                                    width: 20%
+                                }
 
-									.elementor-star-rating .elementor-star-3:before {
-										width: 30%
-									}
+                                .elementor-star-rating .elementor-star-3:before {
+                                    width: 30%
+                                }
 
-									.elementor-star-rating .elementor-star-4:before {
-										width: 40%
-									}
+                                .elementor-star-rating .elementor-star-4:before {
+                                    width: 40%
+                                }
 
-									.elementor-star-rating .elementor-star-5:before {
-										width: 50%
-									}
+                                .elementor-star-rating .elementor-star-5:before {
+                                    width: 50%
+                                }
 
-									.elementor-star-rating .elementor-star-6:before {
-										width: 60%
-									}
+                                .elementor-star-rating .elementor-star-6:before {
+                                    width: 60%
+                                }
 
-									.elementor-star-rating .elementor-star-7:before {
-										width: 70%
-									}
+                                .elementor-star-rating .elementor-star-7:before {
+                                    width: 70%
+                                }
 
-									.elementor-star-rating .elementor-star-8:before {
-										width: 80%
-									}
+                                .elementor-star-rating .elementor-star-8:before {
+                                    width: 80%
+                                }
 
-									.elementor-star-rating .elementor-star-9:before {
-										width: 90%
-									}
+                                .elementor-star-rating .elementor-star-9:before {
+                                    width: 90%
+                                }
 
-									.elementor-star-rating__wrapper {
-										display: flex;
-										align-items: center
-									}
+                                .elementor-star-rating__wrapper {
+                                    display: flex;
+                                    align-items: center
+                                }
 
-									.elementor-star-rating__title {
-										margin-right: 10px
-									}
+                                .elementor-star-rating__title {
+                                    margin-right: 10px
+                                }
 
-									.elementor-star-rating--align-right .elementor-star-rating__wrapper {
-										text-align: right;
-										justify-content: flex-end
-									}
+                                .elementor-star-rating--align-right .elementor-star-rating__wrapper {
+                                    text-align: right;
+                                    justify-content: flex-end
+                                }
 
-									.elementor-star-rating--align-left .elementor-star-rating__wrapper {
-										text-align: left;
-										justify-content: flex-start
-									}
+                                .elementor-star-rating--align-left .elementor-star-rating__wrapper {
+                                    text-align: left;
+                                    justify-content: flex-start
+                                }
 
-									.elementor-star-rating--align-center .elementor-star-rating__wrapper {
-										text-align: center;
-										justify-content: center
-									}
+                                .elementor-star-rating--align-center .elementor-star-rating__wrapper {
+                                    text-align: center;
+                                    justify-content: center
+                                }
 
-									.elementor-star-rating--align-justify .elementor-star-rating__title {
-										margin-right: auto
-									}
+                                .elementor-star-rating--align-justify .elementor-star-rating__title {
+                                    margin-right: auto
+                                }
 
-									@media (max-width:1024px) {
-										.elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
-											text-align: right;
-											justify-content: flex-end
-										}
+                                @media (max-width:1024px) {
+                                    .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
+                                        text-align: right;
+                                        justify-content: flex-end
+                                    }
 
-										.elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
-											text-align: left;
-											justify-content: flex-start
-										}
+                                    .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
+                                        text-align: left;
+                                        justify-content: flex-start
+                                    }
 
-										.elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
-											text-align: center;
-											justify-content: center
-										}
+                                    .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
+                                        text-align: center;
+                                        justify-content: center
+                                    }
 
-										.elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
-											margin-right: auto
-										}
-									}
+                                    .elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
+                                        margin-right: auto
+                                    }
+                                }
 
-									@media (max-width:767px) {
-										.elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
-											text-align: right;
-											justify-content: flex-end
-										}
+                                @media (max-width:767px) {
+                                    .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
+                                        text-align: right;
+                                        justify-content: flex-end
+                                    }
 
-										.elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
-											text-align: left;
-											justify-content: flex-start
-										}
+                                    .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
+                                        text-align: left;
+                                        justify-content: flex-start
+                                    }
 
-										.elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
-											text-align: center;
-											justify-content: center
-										}
+                                    .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
+                                        text-align: center;
+                                        justify-content: center
+                                    }
 
-										.elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
-											margin-right: auto
-										}
-									}
+                                    .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
+                                        margin-right: auto
+                                    }
+                                }
 
-									.last-star {
-										letter-spacing: 0
-									}
+                                .last-star {
+                                    letter-spacing: 0
+                                }
 
-									.elementor--star-style-star_unicode .elementor-star-rating {
-										font-family: Arial, Helvetica, sans-serif
-									}
+                                .elementor--star-style-star_unicode .elementor-star-rating {
+                                    font-family: Arial, Helvetica, sans-serif
+                                }
 
-									.elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
-										content: "★"
-									}
-								</style>
-								<div class="elementor-star-rating__wrapper">
-									<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating"
-										itemscope="" itemprop="reviewRating">
-										<i class="elementor-star-full">&#xE934;</i><i
-											class="elementor-star-full">&#xE934;</i><i
-											class="elementor-star-full">&#xE934;</i><i
-											class="elementor-star-full">&#xE934;</i><i
-											class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue"
-											class="elementor-screen-only">5/5</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
-							data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
-							<div class="elementor-widget-container">
-								<span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
-							</div>
-						</div>
-						<div class="elementor-element elementor-element-15eb00e elementor-mobile-align-center elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-button"
-							data-id="15eb00e" data-element_type="widget" data-widget_type="button.default">
-							<div class="elementor-widget-container">
-								<div class="elementor-button-wrapper">
-									<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-										<span class="elementor-button-content-wrapper">
-											<span class="elementor-button-text">Schedule Call</span>
-										</span>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9ad8511 elementor-hidden-desktop elementor-hidden-tablet"
-					data-id="9ad8511" data-element_type="column">
-					<div class="elementor-widget-wrap">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section
-			class="elementor-section elementor-top-section elementor-element elementor-element-wza5aou elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-			data-id="wza5aou" data-element_type="section"
-			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
-					data-id="b1f32fb" data-element_type="column">
-					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
-							data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
-							<div class="elementor-widget-container">
-								<h1 class="elementor-heading-title elementor-size-default">HI! I AM SUMEDHA! _____</h1>
-							</div>
-						</div>
-						<div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-							data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
-							<div class="elementor-widget-container">
-								<p>I build brands.</p>
-								<p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
-									in leveraging multiple channels, I have been fortunate to work across a spectrum of
-									channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
-									creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
-									program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
-									marketing and launching the Indian cricket team jersey twice.</p>
-							</div>
-						</div>
-						<section
-							class="elementor-section elementor-inner-section elementor-element elementor-element-8d957dd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-							data-id="8d957dd" data-element_type="section">
-							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-223593d"
-									data-id="223593d" data-element_type="column">
-									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-widget__width-auto elementor-widget elementor-widget-button"
-											data-id="7d4fe70" data-element_type="widget"
-											data-widget_type="button.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-button-wrapper">
-													<a class="elementor-button elementor-button-link elementor-size-sm"
+                                .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
+                                    content: "★"
+                                }
+                                </style>
+                                <div class="elementor-star-rating__wrapper">
+                                    <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating"
+                                        itemscope="" itemprop="reviewRating">
+                                        <i class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i><i
+                                            class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue"
+                                            class="elementor-screen-only">5/5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
+                            data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <span class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }} $ / 30 Min</span>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-15eb00e elementor-mobile-align-center elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-button"
+                            data-id="15eb00e" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    @if(Auth::id())
+                                    <a href="{{ route('schedule-call', [$data->id]) }}"
+                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Schedule
+                                                Call</span>
+                                        </span>
+                                    </a>
+                                    @else
+                                    <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Schedule
+                                                Call</span>
+                                        </span>
+                                    </a>
+                                    @endif
+                                    <!-- <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Schedule Call</span>
+                                        </span>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9ad8511 elementor-hidden-desktop elementor-hidden-tablet"
+                    data-id="9ad8511" data-element_type="column">
+                    <div class="elementor-widget-wrap">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-wza5aou elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="wza5aou" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
+                    data-id="b1f32fb" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
+                            data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                            data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>I build brands.</p>
+                                <p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
+                                    in leveraging multiple channels, I have been fortunate to work across a spectrum of
+                                    channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
+                                    creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
+                                    program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
+                                    marketing and launching the Indian cricket team jersey twice.</p>
+                            </div>
+                        </div>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-8d957dd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="8d957dd" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-223593d"
+                                    data-id="223593d" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                            data-id="7d4fe70" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    @if(Auth::id())
+                                                    <a href="{{ route('schedule-call', [$data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Schedule
+                                                                Call</span>
+                                                        </span>
+                                                    </a>
+                                                    @else
+                                                    <a href="{{ route('login', ['schedule-call', $data->id]) }}"
+                                                        class="elementor-button elementor-button-link elementor-size-sm">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Schedule
+                                                                Call</span>
+                                                        </span>
+                                                    </a>
+                                                    @endif
+                                                    <!-- <a class="elementor-button elementor-button-link elementor-size-sm"
 														href="#">
 														<span class="elementor-button-content-wrapper">
 															<span class="elementor-button-text">Schedule Call</span>
 														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4690d57"
-									data-id="4690d57" data-element_type="column">
-									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-48429f9 elementor-widget__width-auto elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
-											data-id="48429f9" data-element_type="widget"
-											data-widget_type="star-rating.default">
-											<div class="elementor-widget-container">
+													</a> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4690d57"
+                                    data-id="4690d57" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-48429f9 elementor-widget__width-auto elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
+                                            data-id="48429f9" data-element_type="widget"
+                                            data-widget_type="star-rating.default">
+                                            <div class="elementor-widget-container">
 
-												<div class="elementor-star-rating__wrapper">
-													<div class="elementor-star-rating" title="5/5"
-														itemtype="http://schema.org/Rating" itemscope=""
-														itemprop="reviewRating">
-														<i class="elementor-star-full">&#xE934;</i><i
-															class="elementor-star-full">&#xE934;</i><i
-															class="elementor-star-full">&#xE934;</i><i
-															class="elementor-star-full">&#xE934;</i><i
-															class="elementor-star-full">&#xE934;</i> <span
-															itemprop="ratingValue"
-															class="elementor-screen-only">5/5</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
-							data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
-							<div class="elementor-widget-container">
-								<span class="elementor-heading-title elementor-size-default">100 $ / 30 Min</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-457d214"
-					data-id="457d214" data-element_type="column">
-					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-a50237c elementor-widget elementor-widget-image"
-							data-id="a50237c" data-element_type="widget" data-widget_type="image.default">
-							<div class="elementor-widget-container">
-								<img decoding="async" fetchpriority="high" width="300" height="300"
-									src="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png"
-									class="attachment-medium size-medium wp-image-3756" alt=""
-									srcset="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png 300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-150x150.png 150w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-450x450.png 450w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-700x700.png 700w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-650x650.png 650w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-1300x1300.png 1300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png 500w"
-									sizes="(max-width: 300px) 100vw, 300px">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+                                                <div class="elementor-star-rating__wrapper">
+                                                    <div class="elementor-star-rating" title="5/5"
+                                                        itemtype="http://schema.org/Rating" itemscope=""
+                                                        itemprop="reviewRating">
+                                                        <i class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i> <span
+                                                            itemprop="ratingValue"
+                                                            class="elementor-screen-only">5/5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="elementor-element elementor-element-9d326af elementor-widget elementor-widget-heading"
+                            data-id="9d326af" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <span class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }} $ / 30 Min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-457d214"
+                    data-id="457d214" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-a50237c elementor-widget elementor-widget-image"
+                            data-id="a50237c" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" fetchpriority="high" width="300" height="300"
+                                    src="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png"
+                                    class="attachment-medium size-medium wp-image-3756" alt=""
+                                    srcset="https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-300x300.png 300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-150x150.png 150w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-450x450.png 450w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-700x700.png 700w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-650x650.png 650w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview-1300x1300.png 1300w, https://wiseadvizor.com//wp-content/uploads/2023/07/Inna_Haidamaka_canva-removebg-preview.png 500w"
+                                    sizes="(max-width: 300px) 100vw, 300px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- <div data-elementor-type="wp-page" data-elementor-id="2372" class="elementor elementor-2372"> -->
         <!-- <section
@@ -2784,74 +2819,74 @@
                                             data-id="7c40f05" data-element_type="widget"
                                             data-widget_type="progress.default">
                                             <div class="elementor-widget-container">
-                                            <style>
-													/*! elementor - v3.14.0 - 26-06-2023 */
-													.elementor-widget-progress {
-														text-align: left
-													}
+                                                <style>
+                                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                                .elementor-widget-progress {
+                                                    text-align: left
+                                                }
 
-													.elementor-progress-wrapper {
-														position: relative;
-														background-color: #eee;
-														color: #fff;
-														height: 100%;
-														border-radius: 2px
-													}
+                                                .elementor-progress-wrapper {
+                                                    position: relative;
+                                                    background-color: #eee;
+                                                    color: #fff;
+                                                    height: 100%;
+                                                    border-radius: 2px
+                                                }
 
-													.elementor-progress-bar {
-														display: flex;
-														background-color: #69727d;
-														width: 0;
-														font-size: 11px;
-														height: 30px;
-														line-height: 30px;
-														border-radius: 2px;
-														transition: width 1s ease-in-out
-													}
+                                                .elementor-progress-bar {
+                                                    display: flex;
+                                                    background-color: #69727d;
+                                                    width: 0;
+                                                    font-size: 11px;
+                                                    height: 30px;
+                                                    line-height: 30px;
+                                                    border-radius: 2px;
+                                                    transition: width 1s ease-in-out
+                                                }
 
-													.elementor-progress-text {
-														flex-grow: 1;
-														white-space: nowrap;
-														text-overflow: ellipsis;
-														overflow: hidden;
-														padding-left: 15px
-													}
+                                                .elementor-progress-text {
+                                                    flex-grow: 1;
+                                                    white-space: nowrap;
+                                                    text-overflow: ellipsis;
+                                                    overflow: hidden;
+                                                    padding-left: 15px
+                                                }
 
-													.elementor-progress-percentage {
-														padding-right: 15px
-													}
+                                                .elementor-progress-percentage {
+                                                    padding-right: 15px
+                                                }
 
-													.elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
-														background-color: #5bc0de
-													}
+                                                .elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
+                                                    background-color: #5bc0de
+                                                }
 
-													.elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
-														background-color: #5cb85c
-													}
+                                                .elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
+                                                    background-color: #5cb85c
+                                                }
 
-													.elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
-														background-color: #f0ad4e
-													}
+                                                .elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
+                                                    background-color: #f0ad4e
+                                                }
 
-													.elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
-														background-color: #d9534f
-													}
+                                                .elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
+                                                    background-color: #d9534f
+                                                }
 
-													.elementor-progress .elementor-title {
-														display: block
-													}
+                                                .elementor-progress .elementor-title {
+                                                    display: block
+                                                }
 
-													@media (max-width:767px) {
-														.elementor-progress-text {
-															padding-left: 10px
-														}
-													}
+                                                @media (max-width:767px) {
+                                                    .elementor-progress-text {
+                                                        padding-left: 10px
+                                                    }
+                                                }
 
-													.e-con-inner .elementor-progress-wrapper,
-													.e-con .elementor-progress-wrapper {
-														height: auto
-													}
-												</style>
+                                                .e-con-inner .elementor-progress-wrapper,
+                                                .e-con .elementor-progress-wrapper {
+                                                    height: auto
+                                                }
+                                                </style>
                                                 <div class="elementor-progress-wrapper" role="progressbar"
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                     aria-valuetext="100% (Mobile Premier League )">
