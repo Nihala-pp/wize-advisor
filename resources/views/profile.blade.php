@@ -4818,4 +4818,7 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     margin-right: 20px !important;
     color: #000 !important;
 }
+.elementor-widget-button .elementor-button {
+    background-color:#001E64 !important;
+}
 </style>
