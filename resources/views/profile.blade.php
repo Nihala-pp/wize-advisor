@@ -1523,7 +1523,7 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                    color: inherit;
+                                    color: #330252;
                                     font-size: inherit;
                                     line-height: inherit
                                 }
