@@ -1670,7 +1670,8 @@
 
                                 .elementor-star-rating__wrapper {
                                     display: flex;
-                                    align-items: center
+                                    align-items: center;
+                                    padding-left:25px;
                                 }
 
                                 .elementor-star-rating__title {
