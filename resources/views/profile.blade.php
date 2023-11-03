@@ -1812,7 +1812,7 @@
                         <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
                             data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default heading">HI! I AM {{ $data->name }}! _____</h1>
+                                <h3 class="elementor-heading-title elementor-size-default heading">HI! I AM {{ $data->name }}! _____</h3>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
