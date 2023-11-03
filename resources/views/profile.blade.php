@@ -4824,5 +4824,7 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
 
 .elementor-widget-container.price span {
     color:#000 !important;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
 }
 </style>
