@@ -927,7 +927,7 @@
 		href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
 		media="all">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<script id="jquery-core-js-extra">var tpgb_load = { "ajaxUrl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php" };
+	<script id="jquery-core-js-extra">var tpgb_load = { "ajaxUrl": "\/https:\/\/wiseadvior.com\/wp-admin\/admin-ajax.php" };
 		var smoothAllowedBrowsers = [];</script>
 	<script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4"
 		id="jquery-core-js"></script>
@@ -1027,7 +1027,7 @@
 
 
 
-    
+<!--     
     
     <style>
     /*! elementor - v3.14.0 - 26-06-2023 */
@@ -1096,7 +1096,7 @@
     .e-con .elementor-progress-wrapper {
         height: auto
     }
-    </style>
+    </style> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <script>
     (function(h, o, t, j, a, r) {
@@ -4063,6 +4063,74 @@
                                             data-id="7c40f05" data-element_type="widget"
                                             data-widget_type="progress.default">
                                             <div class="elementor-widget-container">
+                                            <style>
+													/*! elementor - v3.14.0 - 26-06-2023 */
+													.elementor-widget-progress {
+														text-align: left
+													}
+
+													.elementor-progress-wrapper {
+														position: relative;
+														background-color: #eee;
+														color: #fff;
+														height: 100%;
+														border-radius: 2px
+													}
+
+													.elementor-progress-bar {
+														display: flex;
+														background-color: #69727d;
+														width: 0;
+														font-size: 11px;
+														height: 30px;
+														line-height: 30px;
+														border-radius: 2px;
+														transition: width 1s ease-in-out
+													}
+
+													.elementor-progress-text {
+														flex-grow: 1;
+														white-space: nowrap;
+														text-overflow: ellipsis;
+														overflow: hidden;
+														padding-left: 15px
+													}
+
+													.elementor-progress-percentage {
+														padding-right: 15px
+													}
+
+													.elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
+														background-color: #5bc0de
+													}
+
+													.elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
+														background-color: #5cb85c
+													}
+
+													.elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
+														background-color: #f0ad4e
+													}
+
+													.elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
+														background-color: #d9534f
+													}
+
+													.elementor-progress .elementor-title {
+														display: block
+													}
+
+													@media (max-width:767px) {
+														.elementor-progress-text {
+															padding-left: 10px
+														}
+													}
+
+													.e-con-inner .elementor-progress-wrapper,
+													.e-con .elementor-progress-wrapper {
+														height: auto
+													}
+												</style>
                                                 <div class="elementor-progress-wrapper" role="progressbar"
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                     aria-valuetext="100% (Mobile Premier League )">
