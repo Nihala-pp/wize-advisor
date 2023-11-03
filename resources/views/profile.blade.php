@@ -4795,4 +4795,8 @@ h1.elementor-heading-title.elementor-size-default.heading {
     color:#330252 !important;
     padding-left: 55px !important;
 }
+
+div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widget-text-editor {
+    text-justify: inter-word;
+}
 </style>
