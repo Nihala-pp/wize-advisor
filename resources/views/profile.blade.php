@@ -1523,13 +1523,13 @@
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                    color: #330252;
+                                    color: inherit;
                                     font-size: inherit;
                                     line-height: inherit
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                    font-size: 12px
+                                    font-size: 15px
                                 }
 
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
@@ -1548,7 +1548,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default headi">HI! I AM {{ $data->name }}! _____</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">HI! I AM {{ $data->name }}! _____</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-72aecbd elementor-widget elementor-widget-text-editor"
@@ -1587,12 +1587,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
-                                    in leveraging multiple channels, I have been fortunate to work across a spectrum of
-                                    channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
-                                    creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
-                                    program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
-                                    marketing and launching the Indian cricket team jersey twice.</p>
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-65db16f elementor-widget__width-auto elementor-star-rating--align-center elementor-widget-mobile__width-auto elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating"
@@ -1823,13 +1818,8 @@
                         <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                             data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>I build brands.</p>
-                                <p>I enjoy the 0-1, 1-10 journey and have setup processes from scratch. A true believer
-                                    in leveraging multiple channels, I have been fortunate to work across a spectrum of
-                                    channels and scales. From doing co-branded campaigns with the likes of Coca Cola, to
-                                    creating a GTM strategy focused only on user experience for Paytm&#8217;s loyalty
-                                    program. From driving promoter-led BTL campaigns in Rajasthan&#8217;s by lanes to
-                                    marketing and launching the Indian cricket team jersey twice.</p>
+                                <p></p>
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                             </div>
                         </div>
                         <section
