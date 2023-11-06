@@ -1084,7 +1084,7 @@
                         <input type="hidden" class="price" name="price"
                             value="{{ $mentor->metaData ? $mentor->metaData->price_per_call : '0' }}">
                         <input type="hidden" class="time" name="time" value="">
-                        <label class="form-label" style="color:black;">Description (Regarding the topic)</label>
+                        <label class="form-label desc" style="color:black;">Description (Regarding the topic)</label>
                         <textarea required="required" id="desc" class="form-control" rows="5" cols="5"
                             name="desc">{{ $call->description ?? '' }}</textarea>
                         <!-- <div class="text-danger error" data-error="desc"></div> -->
@@ -2667,6 +2667,11 @@
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
-</style>
 
+@media(max-width:480px) {
+    .desc {
+        font-size: 12px !important;
+    }
+}
+</style>
 </html>
