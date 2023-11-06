@@ -2674,7 +2674,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     #desc {
-        width: 50%;
+        width: 75%;
     }
 }
 </style>
