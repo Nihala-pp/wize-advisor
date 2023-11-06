@@ -2763,7 +2763,7 @@
                         <div class="elementor-element elementor-element-a7cb679 elementor-widget elementor-widget-heading"
                             data-id="a7cb679" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Work Experience</h3>
+                                <h3 class="elementor-heading-title elementor-size-default experience">Work Experience</h3>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-12b61d0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -4835,5 +4835,16 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
 .price {
     padding-left:150px !important;
     color:#000 !important;
+}
+
+@media (max-width:430px) {
+
+    .experience {
+        padding-bottom:10px !important;
+    }
+
+    ul {
+        padding-right:30px !important;
+    }
 }
 </style>
