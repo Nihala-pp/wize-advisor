@@ -1752,7 +1752,7 @@
                                 }
                                 </style>
                                 <div class="elementor-star-rating__wrapper">
-                                    <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating"
+                                    <div class="elementor-star-rating  rating" title="5/5" itemtype="http://schema.org/Rating"
                                         itemscope="" itemprop="reviewRating">
                                         <i class="elementor-star-full">&#xE934;</i><i
                                             class="elementor-star-full">&#xE934;</i><i
@@ -4825,5 +4825,9 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
 .elementor-widget-container .price span {
     color:#000 !important;
     padding-left: 80px !important;
+}
+
+.rating {
+    padding-left:130px !important;
 }
 </style>
