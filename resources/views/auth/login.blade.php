@@ -153,7 +153,7 @@
 
 </html>
 <style>
-@media only screen and (min-width: 767px) and (max-width: 1281px) {
+@media only screen and (min-width: 767px) and (max-width: 1280px) {
     .loginForm {
         padding-left: 750px;
     }
