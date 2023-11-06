@@ -2670,7 +2670,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media(max-width:480px) {
     .desc {
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 }
 </style>
