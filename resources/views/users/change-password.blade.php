@@ -9,7 +9,7 @@
 
 @media(max-width:480px) {
     .col-4 {
-        width:100% !important;
+        width: 100% !important;
     }
 }
 </style>
