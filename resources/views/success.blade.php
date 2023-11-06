@@ -911,6 +911,11 @@ i.fas.fa-bell.fa-2xl {
 .scheduled {
     color:white;
 }
-</style>
 
+@media(max-width:480px) {
+   p {
+    font-family:"Roboto,Helvetica,Arial,sans-serif";
+   }
+}
+</style>
 </html>
