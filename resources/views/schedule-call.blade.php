@@ -2674,17 +2674,18 @@ i.fas.fa-bell.fa-2xl {
     }
 
     #desc {
-        width: 55%;
+        width: 75%;
     }
 
     #customFile {
-        width: 55%;
+        width: 75%;
     }
 
     .heading-section {
         color: #000;
         font-size: 16px;
     }
+}
 </style>
 
 </html>
