@@ -4822,7 +4822,7 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     background-color:#001E64 !important;
 }
 
-.elementor-widget-container.price span {
+.elementor-widget-container .price span {
     color:#000 !important;
     padding-left: 80px !important;
     margin-top: -10px !important;
