@@ -2672,6 +2672,10 @@ i.fas.fa-bell.fa-2xl {
     .desc {
         font-size: 9.5px !important;
     }
+
+    #desc {
+        width: 50%;
+    }
 }
 </style>
 </html>
