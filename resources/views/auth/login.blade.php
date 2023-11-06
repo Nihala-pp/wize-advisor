@@ -153,7 +153,7 @@
 
 </html>
 <style>
-.loginForm {
+/* .loginForm {
     padding-left: 750px;
-}
+} */
 </style>
