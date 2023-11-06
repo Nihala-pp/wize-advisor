@@ -1766,9 +1766,9 @@
                         </div>
                         <div class="elementor-element elementor-element-65d4d32 elementor-widget-mobile__width-auto elementor-widget elementor-widget-heading"
                             data-id="65d4d32" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container price">
+                            <div class="elementor-widget-container">
                                 <span
-                                    class="elementor-heading-title elementor-size-default">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
+                                    class="elementor-heading-title elementor-size-default price">{{ $data->metaData ?  $data->metaData->price_per_call : '' }}
                                     $ / 30 Min</span>
                             </div>
                         </div>
@@ -4822,12 +4822,17 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     background-color:#001E64 !important;
 }
 
-.elementor-widget-container .price span {
+/* .elementor-widget-container .price span {
     color:#000 !important;
     padding-left: 80px !important;
-}
+} */
 
 .rating {
-    padding-left:130px !important;
+    padding-left:140px !important;
+}
+
+.price {
+    padding-left:150px !important;
+    color:#000 !important;
 }
 </style>
