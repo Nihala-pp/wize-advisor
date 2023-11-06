@@ -4837,7 +4837,7 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     color:#000 !important;
 }
 
-@media (max-width:430px) {
+@media (max-width:480px) {
 
     .experience {
         padding-bottom:10px !important;
