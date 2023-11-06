@@ -6,12 +6,6 @@
 
 <style>
 <link id="pagestyle"href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/><link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
-
-@media(max-width:480px) {
-    .col-4 {
-        width: 100% !important;
-    }
-}
 </style>
 
 <body
@@ -64,5 +58,11 @@
     </div>
     <!--   Core JS Files   -->
 </body>
-
+<style>
+    @media(max-width:480px) {
+    .col-4 {
+        width: 100% !important;
+    }
+}
+</style>
 </html>
