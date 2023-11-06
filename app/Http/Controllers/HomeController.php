@@ -411,8 +411,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function success()
   {
-    $mentor = User::find(108);
-    $details = ScheduledCall::find(40);
+    $mentor = User::find(29);
+    $details = ScheduledCall::find(95);
 
     return view('success', compact('details', 'mentor'));
   }
