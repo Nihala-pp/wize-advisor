@@ -1297,7 +1297,7 @@
     }
     </style>
     <style>
-    @media (min-width: 1025px) and (max-width: 1280px) {
+    @media screen and (min-width: 1025px) and (max-width: 1280px) {
         .mob-header {
                 visibility: hidden !important;
         }
