@@ -1299,7 +1299,7 @@
     <style>
     @media (min-width: 1025px) and (max-width: 1280px) {
         header.elementor-section.elementor-top-section.elementor-element.elementor-element-9adafe6.elementor-section-full_width.elementor-section-content-top.she-header-yes.elementor-hidden-desktop.elementor-hidden-tablet.elementor-section-height-default.elementor-section-height-default.header {
-            visibility: hidden;
+            visibility: hidden !important;
         }
     }
     </style>
