@@ -168,6 +168,62 @@
         padding: 0 !important;
     }
     </style>
+    <style>
+    .animated {
+        -webkit-transition: height 0.2s;
+        -moz-transition: height 0.2s;
+        transition: height 0.2s;
+    }
+
+    .stars {
+        margin: 20px 0;
+        font-size: 24px;
+        color: #d17581;
+    }
+
+    /* .navbar-light li a {
+        font-family: "Helvetica", Sans-serif !important;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        color: #001e64 !important;
+    } */
+
+    .card-header {
+        background-color: #001e64 !important;
+    }
+
+    .card-header:first-child {
+        border-radius: 0.75rem 0.75rem 0 0;
+    }
+
+    .req {
+        padding-right: 50px;
+        margin-left: 20px;
+    }
+
+    .btn-secondary {
+        background-color: #fff !important;
+    }
+
+    /* #navbarDropdownMenuLink {
+        z-index: 999999 !important;
+    } */
+
+    /* 
+.dropdown-menu {
+    position: absolute;
+    top: 59px;
+} */
+
+    /* 
+    .menu-list {
+        align: center;
+    } */
+
+    /* .dropdown-menu {
+	margin: 8px 0px!important;
+} */
+    </style>
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -181,7 +237,8 @@
         --wp-block-synced-color--rgb: 122, 0, 223
     }
 
-    @media (min-resolution:192dpi) {
+    @media (-webkit-min-device-pixel-ratio:2),
+    (min-resolution:192dpi) {
         :root {
             --wp-admin-border-width-focus: 1.5px
         }
@@ -369,18 +426,12 @@
         max-width: 100%
     }
 
-    :where(figure) {
+    figure {
         margin: 0 0 1em
     }
 
     html :where(.is-position-sticky) {
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
-    }
-
-    @media screen and (max-width:600px) {
-        html :where(.is-position-sticky) {
-            --wp-admin--admin-bar--position-offset: 0px
-        }
     }
 
     a {
@@ -396,64 +447,53 @@
         color: black !important;
         font-size: 32px !important;
     }
-    </style>
-    <style>
-    .animated {
-        -webkit-transition: height 0.2s;
-        -moz-transition: height 0.2s;
-        transition: height 0.2s;
-    }
 
-    .stars {
-        margin: 20px 0;
-        font-size: 24px;
-        color: #d17581;
-    }
-
-    /* .navbar-light li a {
-        font-family: "Helvetica", Sans-serif !important;
-        font-size: 17px !important;
-        font-weight: 700 !important;
-        color: #001e64 !important;
+    /* .browseMentor {
+        padding-right : 20px;
+    } */
+    /* 
+    i.fas.fa-bell {
+        height: 75px;
+        width: 1256px;
     } */
 
-    .card-header {
-        background-color: #001e64 !important;
+    /* ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
     }
 
-    .card-header:first-child {
-        border-radius: 0.75rem 0.75rem 0 0;
+    .pe-7s-user {
+        margin-right: 20px;
+        align: center;
     }
 
-    .req {
-        padding-right: 50px;
+    .elementor-button-wrapper .browse {
         margin-left: 20px;
     }
 
-    .btn-secondary {
-        background-color: #fff !important;
+    .menuITem {
+        margin-left: 30px;
     }
 
-    /* #navbarDropdownMenuLink {
-        z-index: 999999 !important;
+    .name {
+        font-size: 13px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+
+    .menu {
+        font-size: 12px;
+        text-align: center;
     } */
 
-    /* 
-.dropdown-menu {
-    position: absolute;
-    top: 59px;
-} */
-
-    /* 
-    .menu-list {
-        align: center;
-    } */
-
-    /* .dropdown-menu {
-	margin: 8px 0px!important;
-} */
+    @media screen and (max-width:600px) {
+        html :where(.is-position-sticky) {
+            --wp-admin--admin-bar--position-offset: 0px
+        }
+    }
     </style>
-
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
