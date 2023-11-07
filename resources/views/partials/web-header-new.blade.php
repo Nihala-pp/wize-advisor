@@ -377,6 +377,20 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
+    a {
+        font-size: 15px;
+    }
+
+    a.dropdown-item {
+        color: black !important;
+        padding-right: 20px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        color: black !important;
+        font-size: 32px !important;
+    }
+
     @media screen and (max-width:600px) {
         html :where(.is-position-sticky) {
             --wp-admin--admin-bar--position-offset: 0px
