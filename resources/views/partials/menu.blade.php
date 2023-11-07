@@ -1,5 +1,5 @@
 <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-    <p class="main-title bhf-hidden" itemprop="headline"><a href="/http://localhost/wize-advisor/" title="WISE ADVIZOR"
+    <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
             rel="home">WISE ADVIZOR</a></p>
     <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
         <header
@@ -32,11 +32,11 @@
                                     vertical-align: middle;
                                     display: inline-block
                                 }
-                                </style> <a href="/http://localhost/wize-advisor/home">
+                                </style> <a href="https://wiseadvizor.com">
                                     <img width="932" height="140"
-                                        src="/http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC.png"
+                                        src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                         class="attachment-large size-large wp-image-624" alt=""
-                                        srcset="/http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC.png 932w, /http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, /http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                        srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                         sizes="(max-width: 932px) 100vw, 932px"> </a>
                             </div>
                         </div>
@@ -66,41 +66,41 @@
                                         <ul id="menu-1-ff5e4cd" class="hfe-nav-menu">
                                             <li id="menu-item-29" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="/http://localhost/wize-advisor/about-us/" itemprop="url"
+                                                <a href="https://wiseadvizor.com/about-us/" itemprop="url"
                                                     class="hfe-menu-item">About Us</a>
                                             </li>
                                             <li id="menu-item-28" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="/http://localhost/wize-advisor/contact-us/" itemprop="url"
+                                                <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
                                                     class="hfe-menu-item">Contact Us</a>
                                             </li>
                                             <li id="menu-item-27" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                 <div class="hfe-has-submenu-container"><a
-                                                        href="/http://localhost/wize-advisor/resources/" itemprop="url"
+                                                        href="https://wiseadvizor.com/resources/" itemprop="url"
                                                         class="hfe-menu-item">Resource<span
                                                             class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                 class="fa"></i></span></a></div>
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/community-post/"
+                                                        <a href="https://wiseadvizor.com/community-post/"
                                                             itemprop="url" class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/libraries/"
+                                                        <a href="https://wiseadvizor.com/libraries/"
                                                             itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                     </li>
                                                     <li id="menu-item-26" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/blogs/" itemprop="url"
+                                                        <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                             class="hfe-sub-menu-item">FAQ</a>
                                                     </li>
                                                     <li id="menu-item-2842" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/faq/" itemprop="url"
+                                                        <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                             class="hfe-sub-menu-item">BLOGS</a>
                                                     </li>
                                                 </ul>
@@ -132,7 +132,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="/http://localhost/wize-advisor/browse-mentor/">
+                                        href="https://wiseadvizor.com/browse-mentor/">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Browse Mentor</span>
                                         </span>
@@ -167,11 +167,11 @@
                         <div class="elementor-element elementor-element-af3e3d6 elementor-widget elementor-widget-image"
                             data-id="af3e3d6" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <a href="/http://localhost/wize-advisor/home">
+                                <a href="https://wiseadvizor.com/home">
                                     <img width="300" height="45"
-                                        src="/http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-300x45.png"
+                                        src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png"
                                         class="attachment-medium size-medium wp-image-624" alt=""
-                                        srcset="/http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, /http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w, /http://localhost/wize-advisor/wp-content/uploads/2023/06/pngLargeC.png 932w"
+                                        srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w"
                                         sizes="(max-width: 300px) 100vw, 300px"> </a>
                             </div>
                         </div>
@@ -196,41 +196,41 @@
                                         <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                             <li id="menu-item-29" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="/http://localhost/wize-advisor/about-us/" itemprop="url"
+                                                <a href="https://wiseadvizor.com/about-us/" itemprop="url"
                                                     class="hfe-menu-item">About Us</a>
                                             </li>
                                             <li id="menu-item-28" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="/http://localhost/wize-advisor/contact-us/" itemprop="url"
+                                                <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
                                                     class="hfe-menu-item">Contact Us</a>
                                             </li>
                                             <li id="menu-item-27" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                 <div class="hfe-has-submenu-container"><a
-                                                        href="/http://localhost/wize-advisor/resources/" itemprop="url"
+                                                        href="https://wiseadvizor.com/resources/" itemprop="url"
                                                         class="hfe-menu-item">Resource<span
                                                             class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                 class="fa"></i></span></a></div>
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/community-post/"
+                                                        <a href="https://wiseadvizor.com/community-post/"
                                                             itemprop="url" class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/libraries/"
+                                                        <a href="https://wiseadvizor.com/libraries/"
                                                             itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                     </li>
                                                     <li id="menu-item-26" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/blogs/" itemprop="url"
+                                                        <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                             class="hfe-sub-menu-item">FAQ</a>
                                                     </li>
                                                     <li id="menu-item-2842" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="/http://localhost/wize-advisor/faq/" itemprop="url"
+                                                        <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                             class="hfe-sub-menu-item">BLOGS</a>
                                                     </li>
                                                 </ul>
@@ -262,7 +262,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-xs"
-                                        href="/http://localhost/wize-advisor/browse-mentor/">
+                                        href="https://wiseadvizor.com/browse-mentor/">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Browse Mentor</span>
                                         </span>
