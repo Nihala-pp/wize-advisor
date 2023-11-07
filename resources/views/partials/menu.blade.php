@@ -306,18 +306,6 @@
                     data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-button-wrapper">
-                            <a class="elementor-button elementor-button-link elementor-size-xs" href="#">
-                                <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-text">Sign In</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-aea4c40 elementor-widget__width-auto elementor-mobile-align-right elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                    data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-button-wrapper">
                             @if(Auth::id() && auth()->user()->role_id == 3)
                             <div class="d-flex align-items-center">
                                 <div class="dropdown">
@@ -387,6 +375,19 @@
                                 </span>
                             </a>
                             @endif
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-aea4c40 elementor-widget__width-auto elementor-mobile-align-right elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                    data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                            <a class="elementor-button elementor-button-link elementor-size-xs"
+                                href="https://wiseadvizor.com/browse-mentor/">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-text">Browse Mentor</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
