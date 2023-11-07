@@ -1,3 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-dark-grayscale">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg>
+                <fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-grayscale">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0 1"></fefuncg>
+                <fefuncb type="table" tablevalues="0 1"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-purple-yellow">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr>
+                <fefuncg type="table" tablevalues="0 1"></fefuncg>
+                <fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-blue-red">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
+                <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-midnight">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 0"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg>
+                <fefuncb type="table" tablevalues="0 1"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-magenta-yellow">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
+                <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-purple-green">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr>
+                <fefuncg type="table" tablevalues="0 1"></fefuncg>
+                <fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-blue-orange">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
+                <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-foreground-and-background">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0 1"></fefuncg>
+                <fefuncb type="table" tablevalues="0 1"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-foreground-and-secondary">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg>
+                <fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-foreground-and-tertiary">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr>
+                <fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg>
+                <fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-primary-and-background">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg>
+                <fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-primary-and-secondary">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
+                <fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg>
+                <fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+    style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+    <defs>
+        <filter id="wp-duotone-primary-and-tertiary">
+            <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
+                values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
+            </fecolormatrix>
+            <fecomponenttransfer color-interpolation-filters="sRGB">
+                <fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr>
+                <fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg>
+                <fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb>
+                <fefunca type="table" tablevalues="1 1"></fefunca>
+            </fecomponenttransfer>
+            <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
+        </filter>
+    </defs>
+</svg>
 <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
     <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
             rel="home">WISE ADVIZOR</a></p>
@@ -84,14 +309,14 @@
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/community-post/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Community
+                                                        <a href="https://wiseadvizor.com/community-post/" itemprop="url"
+                                                            class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/libraries/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                        <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                            class="hfe-sub-menu-item">Libraries</a>
                                                     </li>
                                                     <li id="menu-item-26" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -214,14 +439,14 @@
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/community-post/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Community
+                                                        <a href="https://wiseadvizor.com/community-post/" itemprop="url"
+                                                            class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/libraries/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                        <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                            class="hfe-sub-menu-item">Libraries</a>
                                                     </li>
                                                     <li id="menu-item-26" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
