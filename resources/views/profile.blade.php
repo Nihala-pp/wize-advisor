@@ -1671,7 +1671,7 @@
                                 .elementor-star-rating__wrapper {
                                     display: flex;
                                     align-items: center;
-                                    padding-left:25px;
+                                    padding-left:20px;
                                 }
 
                                 .elementor-star-rating__title {
