@@ -3210,6 +3210,7 @@ i.fas.fa-bell.fa-2xl {
         height: 200px;
         object-fit: cover;
         padding-right: 25px;
+        padding-left: 15px;
     }
 }
 </style>
