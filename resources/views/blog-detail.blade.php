@@ -3076,7 +3076,7 @@ i.fas.fa-bell.fa-2xl {
     ul {
         margin-top: 0;
         margin-bottom: 1rem;
-        padding-right: 30px;
+        /* padding-right: 30px; */
     }
 }
 </style>
