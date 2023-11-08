@@ -3711,6 +3711,16 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 10px;
         padding-right: 25px;
     }
+
+    .elementor-18 .elementor-element.elementor-element-bac9a5c .elementor-heading-title {
+        font-size: 18px;
+        margin-top: -60px;
+    }
+
+    .elementor-18 .elementor-element.elementor-element-9bc0d4c>.elementor-widget-container {
+        margin-top: -30px;
+        padding: 0px 0px 10px 0px;
+    }
 }
 </style>
 
