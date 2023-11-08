@@ -3705,6 +3705,11 @@ i.fas.fa-bell.fa-2xl {
         text-align: justify;
         text-justify: inter-word;
     }
+
+    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
+        margin-right: 8px;
+        padding-left: 10px;
+    }
 }
 </style>
 
