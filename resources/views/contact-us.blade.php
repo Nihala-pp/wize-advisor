@@ -3291,7 +3291,9 @@ i.fas.fa-bell.fa-2xl {
         font-family: "Roboto", Sans-serif;
         font-weight: 600;
         margin-top: -50px !important;
-        padding-left:15px !important;
+        text-align:center !important;
+        /* padding-left:15px !important;
+        padding-left:15px !important; */
     }
 
     .elementor-element-wp7j1fg {
