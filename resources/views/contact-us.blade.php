@@ -3291,6 +3291,7 @@ i.fas.fa-bell.fa-2xl {
         font-family: "Roboto", Sans-serif;
         font-weight: 600;
         margin-top: -50px !important;
+        padding-left:35px !important;
     }
 }
 </style>
