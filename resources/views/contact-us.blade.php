@@ -3293,6 +3293,10 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -50px !important;
         padding-left:20px !important;
     }
+
+    .elementor-element-wp7j1fg {
+        margin-top: -30px !important;
+    }
 }
 </style>
 
