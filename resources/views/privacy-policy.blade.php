@@ -1707,7 +1707,7 @@
                                         technologies enable us to provide customized content, analyze trends, and
                                         enhance the functionality of our platform.</li>
                                 </ol>
-                                <p>How We Use Your Information:</p>
+                                <p class="INFO">How We Use Your Information:</p>
                                 <ol>
                                     <li>Providing and Improving Services: We use your personal information to create and
                                         manage your wiseAdvizor account, connect you with mentors, and facilitate
@@ -3048,6 +3048,10 @@ i.fas.fa-bell.fa-2xl {
         text-justify: inter-word;
         padding-right:15px;
         padding-left:15px;
+    }
+
+    .INFO {
+        margin-top:-20px;
     }
 }
 </style>
