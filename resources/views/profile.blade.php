@@ -4833,7 +4833,7 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
 }
 
 .price {
-    padding-left:170px !important;
+    padding-left:160px !important;
     color:#000 !important;
 }
 
