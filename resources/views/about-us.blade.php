@@ -3877,6 +3877,10 @@ i.fas.fa-bell.fa-2xl {
         height: 131px;
         width: auto;
     }
+
+    .elementor-button-wrapper {
+        margin-top: -20px;
+    }
 }
 </style>
 
