@@ -3185,6 +3185,13 @@
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
+
+@media (max-width:480px) {
+    p {
+        padding-right:20px;
+        padding-left:20px;
+    }
+}
 </style>
 
 </html>
