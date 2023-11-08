@@ -3865,6 +3865,13 @@ i.fas.fa-bell.fa-2xl {
         margin: 0 auto !important;
         margin-center: 0 !important;
     }
+
+    .elementor-11 .elementor-element.elementor-element-ef5188a .elementor-image-box-title {
+        margin-bottom: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
 }
 </style>
+
 </html>
