@@ -1688,7 +1688,7 @@
                                     wiseAdvizor, you acknowledge that you have read, understood, and agreed to the terms
                                     of this Privacy Policy.</p>
                                 <p> </p>
-                                <p>Information We Collect:</p>
+                                <p class="INFO">Information We Collect:</p>
                                 <ol>
                                     <li>Personal Information: When you sign up for an account on wiseAdvizor, we collect
                                         personal information such as your name, email address, contact number, and
@@ -1707,7 +1707,7 @@
                                         technologies enable us to provide customized content, analyze trends, and
                                         enhance the functionality of our platform.</li>
                                 </ol>
-                                <p class="INFO">How We Use Your Information:</p>
+                                <p class="">How We Use Your Information:</p>
                                 <ol>
                                     <li>Providing and Improving Services: We use your personal information to create and
                                         manage your wiseAdvizor account, connect you with mentors, and facilitate
