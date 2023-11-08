@@ -4804,7 +4804,7 @@ i.fas.fa-bell.fa-2xl {
 h1.elementor-heading-title.elementor-size-default.heading {
     font-size: 19px !important;
     color: #330252 !important;
-    padding-left: 55px !important;
+    /* padding-left: 55px !important; */
     text-align: center !important;
 }
 
