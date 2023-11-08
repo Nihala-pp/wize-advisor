@@ -1529,7 +1529,8 @@
                                                             Profile</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -3017,7 +3018,14 @@
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
+
+@media (max-width:480px) {
+    p {
+        padding-right:20px;
+        padding-left:20px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
 </style>
-
-
 </html>
