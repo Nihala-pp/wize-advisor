@@ -1592,7 +1592,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -3283,5 +3284,15 @@
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
+
+@media(max-width:480px) {
+    .elementor-13 .elementor-element.elementor-element-b418882 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Roboto", Sans-serif;
+        font-weight: 600;
+        margin-top: -50px !important;
+    }
+}
 </style>
+
 </html>
