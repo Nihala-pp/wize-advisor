@@ -3864,6 +3864,7 @@ i.fas.fa-bell.fa-2xl {
         width: 110px !important;
         margin: 0 auto !important;
         margin-center: 0 !important;
+        padding-botton:10px !important;
     }
 
     .elementor-11 .elementor-element.elementor-element-ef5188a .elementor-image-box-title {
