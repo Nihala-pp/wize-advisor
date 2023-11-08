@@ -3030,6 +3030,7 @@ i.fas.fa-bell.fa-2xl {
     ol {
         text-align: justify;
         text-justify: inter-word;
+        padding-right:20px;
     }
 }
 </style>
