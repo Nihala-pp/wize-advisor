@@ -3864,13 +3864,18 @@ i.fas.fa-bell.fa-2xl {
         width: 110px !important;
         margin: 0 auto !important;
         margin-center: 0 !important;
-        padding-bottom:20px !important;
+        padding-bottom: 20px !important;
     }
 
     .elementor-11 .elementor-element.elementor-element-ef5188a .elementor-image-box-title {
         margin-bottom: 20px !important;
         font-size: 25px !important;
         text-align: center !important;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-4706453 .uc_classic_carousel_placeholder img {
+        height: 131px;
+        width: auto;
     }
 }
 </style>
