@@ -3859,7 +3859,7 @@ i.fas.fa-bell.fa-2xl {
     } */
 }
 
-@media screen(max-width:480px) {
+@media (max-width:480px) {
     .elementor-11 .elementor-element.elementor-element-2a5a40c .elementor-divider {
         width: 80px !important;
         margin: 0 auto !important;
@@ -3867,8 +3867,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-11 .elementor-element.elementor-element-ef5188a .elementor-image-box-title {
-        margin-bottom: 20px;
-        font-size: 25px;
+        margin-bottom: 20px !important;
+        font-size: 25px !important;
         text-align: center !important;
     }
 }
