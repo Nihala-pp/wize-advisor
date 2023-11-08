@@ -3709,7 +3709,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
         margin-right: 8px;
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 25px;
     }
 }
 </style>
