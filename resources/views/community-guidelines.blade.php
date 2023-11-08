@@ -3026,6 +3026,11 @@ i.fas.fa-bell.fa-2xl {
         text-align: justify;
         text-justify: inter-word;
     }
+
+    ol {
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 </style>
 </html>
