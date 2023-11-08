@@ -3046,6 +3046,8 @@ i.fas.fa-bell.fa-2xl {
     .elementor-widget-container p {
         text-align: justify;
         text-justify: inter-word;
+        padding-right:15px;
+        padding-left:15px;
     }
 }
 </style>
