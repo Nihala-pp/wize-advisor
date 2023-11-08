@@ -3053,6 +3053,11 @@ i.fas.fa-bell.fa-2xl {
     .INFO {
         margin-top: -35px;
     }
+
+    li {
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 </style>
 </html>
