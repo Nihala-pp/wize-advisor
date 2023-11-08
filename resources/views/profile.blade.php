@@ -4805,6 +4805,7 @@ h1.elementor-heading-title.elementor-size-default.heading {
     font-size: 19px !important;
     color: #330252 !important;
     padding-left: 55px !important;
+    text-align: center !important;
 }
 
 div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widget-text-editor {
