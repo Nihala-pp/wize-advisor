@@ -3051,7 +3051,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .INFO {
-        margin-top:-20px;
+        margin-top: -35px;
     }
 }
 </style>
