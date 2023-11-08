@@ -3065,6 +3065,20 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 20px;
         text-align: justify;
     }
+
+    .elementor-4349 .elementor-element.elementor-element-34a10af .elementor-heading-title {
+        font-size: 28px;
+        margin-top: -30px;
+    }
+
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-right: 30px;
+    }
 }
 </style>
+
 </html>
