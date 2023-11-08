@@ -3191,6 +3191,10 @@ i.fas.fa-bell.fa-2xl {
         padding-right:20px;
         padding-left:20px;
     }
+
+    ol {
+        padding-right:20px;
+    }
 }
 </style>
 
