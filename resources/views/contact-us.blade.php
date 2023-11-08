@@ -3295,7 +3295,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-element-wp7j1fg {
-        margin-top: -65px !important;
+        margin-top: -75px !important;
     }
 }
 </style>
