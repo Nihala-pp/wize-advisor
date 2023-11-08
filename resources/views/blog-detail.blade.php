@@ -3061,7 +3061,7 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width:480px) {
     .elementor-4349 .elementor-element.elementor-element-4f3b33b .elementor-heading-title {
         font-size: 20px;
-        padding-left: 30px;
+        padding-right: 30px;
         text-align: justify;
     }
 }
