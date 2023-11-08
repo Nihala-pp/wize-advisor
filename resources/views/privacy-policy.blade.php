@@ -3056,7 +3056,7 @@ i.fas.fa-bell.fa-2xl {
 
     li {
         text-align: justify;
-        text-justify: inter-word;
+        text-justify: auto;
         padding-right:15px;
     }
 }
