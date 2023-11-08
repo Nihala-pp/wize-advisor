@@ -3861,9 +3861,9 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen(max-width:480px) {
     .elementor-11 .elementor-element.elementor-element-2a5a40c .elementor-divider {
-        width: 80px;
-        margin: 0 auto;
-        margin-center: 0;
+        width: 80px !important;
+        margin: 0 auto !important;
+        margin-center: 0 !important;
     }
 }
 </style>
