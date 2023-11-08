@@ -1562,7 +1562,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -3186,7 +3187,30 @@
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
+
+@media (max-width:480px) {
+    .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
+        margin-bottom: 9px;
+        color: var(--e-global-color-1e1892c);
+        font-family: "Roboto", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 25px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-description {
+        font-size: 16px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .elementor-2650 .elementor-element.elementor-element-bff2ac9 img {
+        height: 200px;
+        object-fit: cover;
+        padding-right: 25px;
+    }
+}
 </style>
-
-
 </html>
