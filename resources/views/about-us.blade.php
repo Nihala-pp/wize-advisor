@@ -8,7 +8,7 @@
     <script>
     var theplus_ajax_url = "https://pransainvestment.ca/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://pransainvestment.ca/wp-admin/admin-post.php";
-    var theplus_nonce = "41e9834823";
+    var theplus_nonce = "d4a31829e8";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
