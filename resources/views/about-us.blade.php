@@ -1049,7 +1049,7 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="pransainvestment.ca//"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="pransainvestment.ca"
                 title="WISE ADVIZOR" rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -3233,11 +3233,11 @@
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
-        "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
+        "ajaxurl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php",
         "nonce": "b803da9bff",
         "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-            "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
+            "assets": "https:\/\/pransainvestment.ca\/wp-content\/plugins\/elementor-pro\/assets\/",
+            "rest": "https:\/\/pransainvestment.ca\/wp-json\/"
         },
         "i18n": {
             "toc_no_headings_found": "No headings were found on this page."
