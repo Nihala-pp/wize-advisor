@@ -2414,7 +2414,7 @@
                         <div class="elementor-element elementor-element-59520de elementor-align-center elementor-widget elementor-widget-button"
                             data-id="59520de" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
+                                <div class="elementor-button-wrapper uploadcv">
                                     <a class="elementor-button elementor-button-link elementor-size-xs"
                                         href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjMwMzMiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
                                         <span class="elementor-button-content-wrapper">
@@ -3666,7 +3666,7 @@ i.fas.fa-bell.fa-2xl {
         width: auto;
     }
 
-    .elementor-button-wrapper {
+    .uploadcv {
         margin-top: -75px !important;
     }
 }
