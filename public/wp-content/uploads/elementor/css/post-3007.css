@@ -364,6 +364,11 @@
 	fill: #001E64;
 }
 
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .hfe-nav-menu-icon {
+	background-color: #FFFFFF;
+	padding: 0.35em;
+}
+
 .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
 	padding: 20px 0px 0px 0px;
 }
@@ -450,7 +455,7 @@
 	}
 
 	.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-		padding: 0px 0px 0px 45px;
+		padding: 0px 0px 0px 20px;
 	}
 
 	.elementor-3007 .elementor-element.elementor-element-0a7faa7 .elementor-button {
@@ -463,9 +468,9 @@
 	}
 
 	.elementor-3007 .elementor-element.elementor-element-0a7faa7 {
-		width: var(--container-widget-width, 95px);
-		max-width: 95px;
-		--container-widget-width: 95px;
+		width: var(--container-widget-width, 96px);
+		max-width: 96px;
+		--container-widget-width: 96px;
 		--container-widget-flex-grow: 0;
 	}
 
@@ -479,9 +484,9 @@
 	}
 
 	.elementor-3007 .elementor-element.elementor-element-aea4c40 {
-		width: var(--container-widget-width, 133.425px);
-		max-width: 133.425px;
-		--container-widget-width: 133.425px;
+		width: var(--container-widget-width, 133px);
+		max-width: 133px;
+		--container-widget-width: 133px;
 		--container-widget-flex-grow: 0;
 	}
 }
