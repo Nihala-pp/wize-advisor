@@ -3671,12 +3671,12 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-.elementor-3007 .elementor-element.elementor-element-556f326 img {
+/* .elementor-3007 .elementor-element.elementor-element-556f326 img {
     width: 200%;
     max-width: 120%;
     height: 80px;
     object-fit: contain;
-}
+} */
 </style>
 
 </html>
