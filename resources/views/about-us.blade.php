@@ -1291,7 +1291,7 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
+                                <div class="elementor-widget-container signin">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                             <span class="elementor-button-content-wrapper">
@@ -3668,6 +3668,10 @@ i.fas.fa-bell.fa-2xl {
 
     .uploadcv {
         margin-top: -75px !important;
+    }
+
+    .signin {
+        padding-left: 20px !important;
     }
 }
 
