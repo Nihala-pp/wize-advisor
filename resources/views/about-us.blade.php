@@ -2668,7 +2668,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href=https://pransainvestment.ca/privacy-policy/">Privacy
+                                                            <a href="https://pransainvestment.ca/privacy-policy/">Privacy
                                                                 Policy</a>
                                                         </p>
                                                     </div>
@@ -2683,7 +2683,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href=https://pransainvestment.ca/terms-conditions">Terms
+                                                            <a href="https://pransainvestment.ca/terms-conditions">Terms
                                                                 & Conditions</a>
                                                         </p>
                                                     </div>
@@ -2698,7 +2698,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href=https://pransainvestment.ca/community-guidelines/">Community
+                                                            <a href="https://pransainvestment.ca/community-guidelines/">Community
                                                                 Guidelines</a>
                                                         </p>
                                                     </div>
@@ -2713,7 +2713,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href=https://pransainvestment.ca/about-us/">About
+                                                            <a href="https://pransainvestment.ca/about-us/">About
                                                                 Us</a>
                                                         </p>
                                                     </div>
@@ -2728,7 +2728,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href=https://pransainvestment.ca/contact-us/">Contact
+                                                            <a href="https://pransainvestment.ca/contact-us/">Contact
                                                                 Us</a>
                                                         </p>
                                                     </div>
@@ -2772,7 +2772,7 @@
                                     data-widget_type="copyright.default">
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
-                                            <a href=https://pransainvestment.ca/">
+                                            <a href="https://pransainvestment.ca/">
                                                 <span>Copyright © 2023 wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
                                             </a>
@@ -3046,14 +3046,14 @@
             </section>
         </div>
     </div>
-    <script src=https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+    <script src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
-        src=https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
+        src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
         id="jquery.mousewheel.min-js"></script>
     <script src=https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
         id="niso-carousel-lightbox.min-js"></script>
-    <script src=https://pransainvestment.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
     </script>
     <script id="qi-addons-for-elementor-script-js-extra">
     var qodefQiAddonsGlobal = {
@@ -3065,26 +3065,26 @@
         }
     };
     </script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
+    <script src="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2"
         id="qi-addons-for-elementor-script-js"></script>
-    <script src=https://pransainvestment.ca/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
-    <script src=https://pransainvestment.ca/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
     </script>
-    <script src=https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688659619"
+    <script src="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688659619"
         id="theplus-front-js-js" defer></script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
+    <script src="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
         id="hfe-frontend-js-js"></script>
     <script
         src=https://pransainvestment.ca/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.75"
         id="owl-carousel-js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=3.5.0"
         id="elementor-recaptcha-api-js"></script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
+    <script src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
         id="elementor-webpack-runtime-js"></script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
+    <script src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
         id="elementor-frontend-modules-js"></script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3183,7 +3183,7 @@
             "e_scroll_snap": true
         },
         "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+            "assets": "https:\/\/pransainvestment.ca\/wp-content\/plugins\/elementor\/assets\/"
         },
         "swiperClass": "swiper",
         "settings": {
@@ -3208,17 +3208,17 @@
         }
     };
     </script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1"
+    <script src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1"
         id="elementor-frontend-js"></script>
-    <script src=https://pransainvestment.ca/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
-    <script src=https://pransainvestment.ca/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11"
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11"
         id="regenerator-runtime-js"></script>
-    <script src=https://pransainvestment.ca/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
     </script>
-    <script src=https://pransainvestment.ca/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js">
     </script>
-    <script src=https://pransainvestment.ca/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
@@ -3226,10 +3226,10 @@
     });
     </script>
     <script
-        src=https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2"
+        src="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
-        src=https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0"
+        src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0"
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
@@ -3312,18 +3312,18 @@
             "app_id": ""
         },
         "lottie": {
-            "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+            "defaultAnimationUrl": "https:\/\/pransainvestment.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
         }
     };
     </script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0"
+    <script src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0"
         id="elementor-pro-frontend-js"></script>
-    <script src=https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
+    <script src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
         id="pro-elements-handlers-js"></script>
     <script
-        src=https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0"
+        src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0"
         id="e-sticky-js"></script>
-    <script src=https://pransainvestment.ca/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js">
     </script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
@@ -3332,7 +3332,7 @@
         }
     };
     </script>
-    <script src=https://pransainvestment.ca/wp-includes/js/wp-util.min.js?ver=6.2.2" id="wp-util-js"></script>
+    <script src="https://pransainvestment.ca/wp-includes/js/wp-util.min.js?ver=6.2.2" id="wp-util-js"></script>
     <script id="wpforms-elementor-js-extra">
     var wpformsElementorVars = {
         "captcha_provider": "recaptcha",
@@ -3340,7 +3340,7 @@
     };
     </script>
     <script
-        src=https://pransainvestment.ca/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
+        src="https://pransainvestment.ca/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
