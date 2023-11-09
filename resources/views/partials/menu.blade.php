@@ -32,7 +32,7 @@
                                     vertical-align: middle;
                                     display: inline-block
                                 }
-                                </style> <a href="https://pransainvestment.ca/home">
+                                </style> <a href="https://pransainvestment.ca">
                                     <img width="932" height="140"
                                         src="https://pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                         class="attachment-large size-large wp-image-624" alt=""
