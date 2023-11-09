@@ -1173,7 +1173,7 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="pransainvestment.ca"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="pransainvestment.ca//"
                 title="WISE ADVIZOR" rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -1208,9 +1208,9 @@
                                     }
                                     </style> <a href="pransainvestment.cahome">
                                         <img width="932" height="140"
-                                            src="pransainvestment.cawp-content/uploads/2023/06/pngLargeC.png"
+                                            src="pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
-                                            srcset="pransainvestment.cawp-content/uploads/2023/06/pngLargeC.png 932w, pransainvestment.cawp-content/uploads/2023/06/pngLargeC-300x45.png 300w, pransainvestment.cawp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png 932w, pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -3025,7 +3025,7 @@
     }());
     </script>
     <div data-elementor-type="popup" data-elementor-id="3033" class="elementor elementor-3033 elementor-location-popup"
-        data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;url_url&quot;:&quot;web.pransainvestment.ca\/send-cv&quot;,&quot;url&quot;:&quot;yes&quot;,&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;url_action&quot;:&quot;show&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
+        data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;url_url&quot;:&quot;web.pransainvestment.ca///\/send-cv&quot;,&quot;url&quot;:&quot;yes&quot;,&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;url_action&quot;:&quot;show&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
         <div class="elementor-section-wrap">
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-b94de34 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
