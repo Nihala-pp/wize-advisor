@@ -1206,11 +1206,11 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="pransainvestment.cahome">
+                                    </style> <a href="pransainvestment.ca">
                                         <img width="932" height="140"
-                                            src="pransainvestment.cawp-content/uploads/2023/06/pngLargeC.png"
+                                            src="pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
-                                            srcset="pransainvestment.cawp-content/uploads/2023/06/pngLargeC.png 932w, pransainvestment.cawp-content/uploads/2023/06/pngLargeC-300x45.png 300w, pransainvestment.cawp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png 932w, pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -1240,41 +1240,41 @@
                                             <ul id="menu-1-359f243" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="pransainvestment.caabout-us/" itemprop="url"
+                                                    <a href="pransainvestment.ca/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="pransainvestment.cacontact-us/" itemprop="url"
+                                                    <a href="pransainvestment.ca/contact-us/" itemprop="url"
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="pransainvestment.caresources/"
+                                                            href="pransainvestment.ca/resources/"
                                                             itemprop="url" class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="pransainvestment.cacommunity-post/"
+                                                            <a href="pransainvestment.ca/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="pransainvestment.calibraries/"
+                                                            <a href="pransainvestment.ca/libraries/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="pransainvestment.cablogs/"
+                                                            <a href="pransainvestment.ca/blogs/"
                                                                 itemprop="url" class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="pransainvestment.cafaq/" itemprop="url"
+                                                            <a href="pransainvestment.ca/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
