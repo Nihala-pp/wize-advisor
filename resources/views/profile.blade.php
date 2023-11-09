@@ -1671,7 +1671,7 @@
                                 .elementor-star-rating__wrapper {
                                     display: flex;
                                     align-items: center;
-                                    padding-left:15px;
+                                    padding-left: 15px;
                                 }
 
                                 .elementor-star-rating__title {
@@ -1752,8 +1752,8 @@
                                 }
                                 </style>
                                 <div class="elementor-star-rating__wrapper">
-                                    <div class="elementor-star-rating  rating" title="5/5" itemtype="http://schema.org/Rating"
-                                        itemscope="" itemprop="reviewRating">
+                                    <div class="elementor-star-rating  rating" title="5/5"
+                                        itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
                                         <i class="elementor-star-full">&#xE934;</i><i
                                             class="elementor-star-full">&#xE934;</i><i
                                             class="elementor-star-full">&#xE934;</i><i
@@ -2763,7 +2763,8 @@
                         <div class="elementor-element elementor-element-a7cb679 elementor-widget elementor-widget-heading"
                             data-id="a7cb679" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default experience">Work Experience</h3>
+                                <h3 class="elementor-heading-title elementor-size-default experience">Work Experience
+                                </h3>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-12b61d0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -4812,16 +4813,17 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     text-justify: inter-word;
 }
 
-.elementor-widget-text-editor   p {
+.elementor-widget-text-editor p {
     text-align: justify !important;
     text-justify: inter-word !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
     color: #000 !important;
 }
+
 .elementor-widget-button .elementor-button {
-    background-color:#001E64 !important;
-    margin-bottom:30px !important;
+    background-color: #001E64 !important;
+    margin-bottom: 30px !important;
 }
 
 /* .elementor-widget-container .price span {
@@ -4830,22 +4832,27 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
 } */
 
 .rating {
-    padding-left:140px !important;
+    padding-left: 140px !important;
 }
 
 .price {
-    padding-left:150px !important;
-    color:#000 !important;
+    padding-left: 150px !important;
+    color: #000 !important;
 }
 
 @media (max-width:480px) {
 
     .experience {
-        padding-bottom:10px !important;
+        padding-bottom: 10px !important;
     }
 
     ul {
-        padding-right:30px !important;
+        padding-right: 30px !important;
+    }
+
+    .elementor-2372 .elementor-element.elementor-element-07446d7 {
+        --divider-border-style: solid;
+        --divider-border-width: 2px;
     }
 }
 </style>
