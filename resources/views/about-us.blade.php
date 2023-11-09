@@ -1410,10 +1410,10 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-0a7faa7 elementor-align-right elementor-widget__width-auto elementor-mobile-align-left elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
                                 data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
+                                <div class="elementor-widget-container signin">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-xs" href="#">
-                                            <span class="elementor-button-content-wrapper signin">
+                                            <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
