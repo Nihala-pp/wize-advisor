@@ -3024,7 +3024,7 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <div data-elementor-type="popup" data-elementor-id="3033" class="elementor elementor-3033 elementor-location-popup"
+    <!-- <div data-elementor-type="popup" data-elementor-id="3033" class="elementor elementor-3033 elementor-location-popup"
         data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;url_url&quot;:&quot;pransainvestment.ca/\/send-cv&quot;,&quot;url&quot;:&quot;yes&quot;,&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;url_action&quot;:&quot;show&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
         <div class="elementor-section-wrap">
             <section
@@ -3169,7 +3169,7 @@
                 </div>
             </section>
         </div>
-    </div>
+    </div> -->
     <script src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
