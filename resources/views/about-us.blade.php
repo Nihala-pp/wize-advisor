@@ -3671,7 +3671,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .signin {
-        padding-left: 30px !important;
+        padding-left: 25px !important;
     }
 }
 
