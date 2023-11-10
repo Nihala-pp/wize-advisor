@@ -2176,7 +2176,7 @@
                 </div>
             </div>
         </section>
-        <section
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5hmwced elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5hmwced" data-element_type="section">
             <div class="elementor-container elementor-column-gap-wide">
@@ -2206,7 +2206,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
