@@ -3690,8 +3690,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .browseMentor {
-        padding-left:20px !important;
-        padding-right:10px !important;
+        margin-left:20px !important;
+        padding-right:20px !important;
     }
 }
 
