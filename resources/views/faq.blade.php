@@ -2,42 +2,19 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
+    <title>FAQ &#8211; WISE ADVIZOR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FAQ &#8211; wiseAdvizor</title>
     <script>
     var theplus_ajax_url = "https://pransainvestment.ca/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://pransainvestment.ca/wp-admin/admin-post.php";
-    var theplus_nonce = "d4a31829e8";
+    var theplus_nonce = "e7ae24e787";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://pransainvestment.ca/feed/">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://pransainvestment.ca/comments/feed/">
-    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
-
-    <!-- <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
-    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
-    <script>
-    (function(h, o, t, j, a, r) {
-        h.hj = h.hj || function() {
-            (h.hj.q = h.hj.q || []).push(arguments)
-        };
-        h._hjSettings = {
-            hjid: 3668045,
-            hjsv: 6
-        };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -45,63 +22,113 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "\/https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
         }
     };
     /*! This file is auto-generated */
-    ! function(e, a, t) {
-        var n, r, o, i = a.createElement("canvas"),
-            p = i.getContext && i.getContext("2d");
-
-        function s(e, t) {
-            p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
-            e = i.toDataURL();
-            return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
-        }
+    ! function(i, n) {
+        var o, s, e;
 
         function c(e) {
-            var t = a.createElement("script");
-            t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            try {
+                var t = {
+                    supportTests: e,
+                    timestamp: (new Date).valueOf()
+                };
+                sessionStorage.setItem(o, JSON.stringify(t))
+            } catch (e) {}
         }
-        for (o = Array("flag", "emoji"), t.supports = {
-                everything: !0,
-                everythingExceptFlag: !0
-            }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
-            if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+
+        function p(e, t, n) {
+            e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+            var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
+                    .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+            return t.every(function(e, t) {
+                return e === r[t]
+            })
+        }
+
+        function u(e, t, n) {
+            switch (t) {
                 case "flag":
-                    return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") && !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                         "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
                 case "emoji":
-                    return !s("🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
             }
             return !1
-        }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
-            .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
-            .readyCallback = function() {
-                t.DOMReady = !0
-            }, t.supports.everything || (n = function() {
-                t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
-                1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                "complete" === a.readyState && t.readyCallback()
-            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
-                .wpemoji)))
-    }(window, document, window._wpemojiSettings);
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+        }
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function f(e, t, n) {
+            var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
+                    300, 150) : i.createElement("canvas"),
+                a = r.getContext("2d", {
+                    willReadFrequently: !0
+                }),
+                o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+            return e.forEach(function(e) {
+                o[e] = t(a, e, n)
+            }), o
+        }
 
-    gtag('config', 'G-1HZW2R3J0M');
+        function t(e) {
+            var t = i.createElement("script");
+            t.src = e, t.defer = !0, i.head.appendChild(t)
+        }
+        "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+            everything: !0,
+            everythingExceptFlag: !0
+        }, e = new Promise(function(e) {
+            i.addEventListener("DOMContentLoaded", e, {
+                once: !0
+            })
+        }), new Promise(function(t) {
+            var n = function() {
+                try {
+                    var e = JSON.parse(sessionStorage.getItem(o));
+                    if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
+                        e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                } catch (e) {}
+                return null
+            }();
+            if (!n) {
+                if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
+                    typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                    var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
+                            .toString()
+                        ].join(",") + "));",
+                        r = new Blob([e], {
+                            type: "text/javascript"
+                        }),
+                        a = new Worker(URL.createObjectURL(r), {
+                            name: "wpTestEmojiSupports"
+                        });
+                    return void(a.onmessage = function(e) {
+                        c(n = e.data), a.terminate(), t(n)
+                    })
+                } catch (e) {}
+                c(n = f(s, u, p))
+            }
+            t(n)
+        }).then(function(e) {
+            for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
+                .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
+                    .everythingExceptFlag && n.supports[t]);
+            n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
+                .DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+        }).then(function() {
+            return e
+        }).then(function() {
+            var e;
+            n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
+                .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+        }))
+    }((window, document), window._wpemojiSettings);
     </script>
-    <style>
+    <style id="wp-emoji-styles-inline-css">
     img.wp-smiley,
     img.emoji {
         display: inline !important;
@@ -128,8 +155,7 @@
         --wp-block-synced-color--rgb: 122, 0, 223
     }
 
-    @media (-webkit-min-device-pixel-ratio:2),
-    (min-resolution:192dpi) {
+    @media (min-resolution:192dpi) {
         :root {
             --wp-admin-border-width-focus: 1.5px
         }
@@ -317,7 +343,7 @@
         max-width: 100%
     }
 
-    figure {
+    :where(figure) {
         margin: 0 0 1em
     }
 
@@ -330,51 +356,20 @@
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
-
-    /* ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .pe-7s-user {
-        margin-right: 20px;
-        align: center;
-    } */
-    /* 
-    .elementor-button-wrapper .browse {
-        margin-left: 20px;
-    } */
-
-    /* .menuITem {
-        margin-left: 30px;
-    } */
-
-    .name {
-        font-size: 13px;
-        line-height: 0em;
-        margin-right: 20px;
-    }
-
-    /* .menu {
-        font-size: 12px;
-        text-align: center;
-    } */
     </style>
     <link rel="preload"
-        href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+        href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+            href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
             media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://pransainvestment.ca/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687429826"
+        href="https://pransainvestment.ca/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687528450"
         media="all">
     <style id="global-styles-inline-css">
     body {
@@ -415,20 +410,6 @@
         --wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
         --wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
         --wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
-        --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
-        --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
-        --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
-        --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
-        --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
-        --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
-        --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
-        --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
-        --wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');
-        --wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');
-        --wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');
-        --wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');
-        --wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');
-        --wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');
         --wp--preset--font-size--small: 1rem;
         --wp--preset--font-size--medium: 1.125rem;
         --wp--preset--font-size--large: 1.75rem;
@@ -482,40 +463,54 @@
         margin-right: auto;
     }
 
-    .wp-site-blocks>* {
-        margin-block-start: 0;
+    :where(.wp-site-blocks)>* {
+        margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    .wp-site-blocks>*+* {
-        margin-block-start: 1.5rem;
+    :where(.wp-site-blocks)> :first-child:first-child {
+        margin-block-start: 0;
+    }
+
+    :where(.wp-site-blocks)> :last-child:last-child {
+        margin-block-end: 0;
     }
 
     body {
         --wp--style--block-gap: 1.5rem;
     }
 
-    body .is-layout-flow>* {
+    :where(body .is-layout-flow)> :first-child:first-child {
         margin-block-start: 0;
+    }
+
+    :where(body .is-layout-flow)> :last-child:last-child {
         margin-block-end: 0;
     }
 
-    body .is-layout-flow>*+* {
+    :where(body .is-layout-flow)>* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    body .is-layout-constrained>* {
+    :where(body .is-layout-constrained)> :first-child:first-child {
         margin-block-start: 0;
+    }
+
+    :where(body .is-layout-constrained)> :last-child:last-child {
         margin-block-end: 0;
     }
 
-    body .is-layout-constrained>*+* {
+    :where(body .is-layout-constrained)>* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    body .is-layout-flex {
+    :where(body .is-layout-flex) {
+        gap: 1.5rem;
+    }
+
+    :where(body .is-layout-grid) {
         gap: 1.5rem;
     }
 
@@ -573,6 +568,14 @@
     }
 
     body .is-layout-flex>* {
+        margin: 0;
+    }
+
+    body .is-layout-grid {
+        display: grid;
+    }
+
+    body .is-layout-grid>* {
         margin: 0;
     }
 
@@ -957,6 +960,37 @@
         font-family: var(--wp--preset--font-family--source-serif-pro) !important;
     }
     </style>
+    <style id="wp-block-template-skip-link-inline-css">
+    .skip-link.screen-reader-text {
+        border: 0;
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute !important;
+        width: 1px;
+        word-wrap: normal !important;
+    }
+
+    .skip-link.screen-reader-text:focus {
+        background-color: #eee;
+        clip: auto !important;
+        clip-path: none;
+        color: #444;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+    }
+    </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
         href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
         media="all">
@@ -978,7 +1012,89 @@
     <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
         href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
         media="all">
-    <style id="wp-webfonts-inline-css">
+    <link rel="stylesheet" id="hfe-style-css"
+        href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
+        media="all">
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+        media="all">
+    <link rel="stylesheet" id="swiper-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-5-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
+    <link rel="stylesheet" id="she-header-style-css"
+        href="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        media="all">
+    <link rel="stylesheet" id="elementor-global-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">
+    <link rel="stylesheet" id="elementor-post-2650-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-2650.css?ver=1699364633" media="all">
+    <link rel="stylesheet" id="hfe-widgets-style-css"
+        href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3007.css?ver=1699609169" media="all">
+    <link rel="stylesheet" id="elementor-post-32-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1"
+        media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
+        media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
+        media="all">
+    <link rel="stylesheet" id="theplus-front-css-css"
+        href="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364633" media="all">
+    <link rel="stylesheet" id="twentytwentytwo-style-css"
+        href="https://pransainvestment.ca/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script id="jquery-core-js-extra">
+    var tpgb_load = {
+        "ajaxUrl": "\/https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
+    };
+    var smoothAllowedBrowsers = [];
+    </script>
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+    </script>
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js"></script>
+    <script
+        src="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
+        id="she-header-js"></script>
+    <link rel="https://api.w.org/" href="https://pransainvestment.ca/wp-json/">
+    <link rel="alternate" type="application/json" href="https://pransainvestment.ca/wp-json/wp/v2/pages/2650">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pransainvestment.ca/xmlrpc.php?rsd">
+    <meta name="generator" content="WordPress 6.4.1">
+    <link rel="canonical" href="https://pransainvestment.ca/faq/">
+    <link rel="shortlink" href="https://pransainvestment.ca/?p=2650">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://pransainvestment.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ffaq%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://pransainvestment.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ffaq%2F#038;format=xml">
+    <meta name="generator"
+        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <style id="wp-fonts-local">
     @font-face {
         font-family: "Source Serif Pro";
         font-style: normal;
@@ -997,105 +1113,6 @@
         font-stretch: normal;
     }
     </style>
-    <link rel="stylesheet" id="hfe-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
-        media="all">
-    <link rel="stylesheet" id="elementor-frontend-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        media="all">
-    <link rel="stylesheet" id="swiper-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-5-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
-    <link rel="stylesheet" id="elementor-pro-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
-        media="all">
-    <link rel="stylesheet" id="font-awesome-5-all-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
-        media="all">
-    <link rel="stylesheet" id="font-awesome-4-shim-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
-        media="all">
-    <link rel="stylesheet" id="she-header-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
-        media="all">
-    <link rel="stylesheet" id="elementor-global-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">
-    <link rel="stylesheet" id="elementor-post-11-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-11.css?ver=1688659619" media="all">
-    <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
-    <link rel="stylesheet" id="elementor-post-32-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2"
-        media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2"
-        media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
-        media="all">
-    <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688659619" media="all">
-    <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="https://pransainvestment.ca/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
-    <link rel="stylesheet" id="elementor-post-3033-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3033.css?ver=1688395839" media="all">
-    <link rel="stylesheet" id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-shared-0-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
-        media="all">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script id="jquery-core-js-extra">
-    var tpgb_load = {
-        "ajaxUrl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
-    };
-    var smoothAllowedBrowsers = [];
-    </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
-    </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
-        id="jquery-migrate-js">
-    </script>
-    <script
-        src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
-        id="font-awesome-4-shim-js"></script>
-    <script
-        src="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
-        id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="https://pransainvestment.ca/wp-json/">
-    <link rel="alternate" type="application/json" href="https://pransainvestment.ca/wp-json/wp/v2/pages/11">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pransainvestment.ca/xmlrpc.php?rsd">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="https://pransainvestment.ca/wp-includes/wlwmanifest.xml">
-    <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="https://pransainvestment.ca/about-us/">
-    <link rel="shortlink" href="https://pransainvestment.ca/?p=11">
-    <link rel="alternate" type="application/json+oembed"
-        href="https://pransainvestment.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fabout-us%2F">
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://pransainvestment.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fabout-us%2F#038;format=xml">
-    <meta name="generator"
-        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style type="text/css">
     #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
         height: 350px;
@@ -1173,234 +1190,9 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-18 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-18">
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg> -->
+    class="page-template page-template-elementor_canvas page page-id-2650 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2650">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://pransainvestment.ca" title="WISE ADVIZOR"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://pransainvestment.ca/" title="WISE ADVIZOR"
                 rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -1433,7 +1225,7 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="https://pransainvestment.ca">
+                                    </style> <a href="https://pransainvestment.ca/home">
                                         <img width="932" height="140"
                                             src="https://pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
@@ -1466,7 +1258,7 @@
                                             data-full-width="yes">
                                             <ul id="menu-1-359f243" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://pransainvestment.ca/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
@@ -1476,7 +1268,7 @@
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
                                                             href="https://pransainvestment.ca/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resource<span
@@ -1496,13 +1288,13 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
+                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">BLOGS</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -1520,10 +1312,9 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1533,77 +1324,12 @@
                                 data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        @if(Auth::id() && auth()->user()->role_id == 3)
-                                        <div class="d-flex align-items-center">
-                                            <div class="dropdown">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <i class="fas fa-bell fa-2xl"></i>
-                                                    <!-- <span
-                                                        class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuLink">
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                    id="navbarDropdownMenuAvatar" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                        class="rounded-circle" height="8" width="37"
-                                                        alt="Black and White Portrait of a Man" loading="lazy" />
-                                                    @else
-                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        class="rounded-circle" height="8" width="37">
-                                                    @endif
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuAvatar">
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                            Dashboard</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                            Profile</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.change-password') }}">Change
-                                                            Password</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.reviews.list') }}">My
-                                                            Reviews</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
+                                            href="https://pransainvestment.ca/browse-mentor/">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
-                                        @endif
                                     </div>
                                 </div>
                             </div>
@@ -1623,7 +1349,7 @@
                             <div class="elementor-element elementor-element-556f326 elementor-widget elementor-widget-image"
                                 data-id="556f326" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <a href="https://pransainvestment.ca">
+                                    <a href="https://pransainvestment.ca/home">
                                         <img width="932" height="140"
                                             src="https://pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
@@ -1651,7 +1377,7 @@
                                             data-full-width="yes">
                                             <ul id="menu-1-ee84ee1" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://pransainvestment.ca/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
@@ -1661,7 +1387,7 @@
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
                                                             href="https://pransainvestment.ca/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resource<span
@@ -1681,13 +1407,13 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
+                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">BLOGS</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -1706,9 +1432,9 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="{{ route('browseMentor') }}">
+                                            href="https://pransainvestment.ca/browse-mentor/">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentors</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1718,77 +1444,11 @@
                                 data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        @if(Auth::id() && auth()->user()->role_id == 3)
-                                        <div class="d-flex align-items-center">
-                                            <div class="dropdown">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <i class="fas fa-bell fa-2xl"></i>
-                                                    <!-- <span
-                                                        class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuLink">
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                    id="navbarDropdownMenuAvatar" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                        class="rounded-circle" height="8" width="37"
-                                                        alt="Black and White Portrait of a Man" loading="lazy" />
-                                                    @else
-                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        class="rounded-circle" height="8" width="37">
-                                                    @endif
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuAvatar">
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                            Dashboard</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                            Profile</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.change-password') }}">Change
-                                                            Password</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.reviews.list') }}">My
-                                                            Reviews</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        @else
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="{{ route('login') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="#">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
-                                        @endif
                                     </div>
                                 </div>
                             </div>
