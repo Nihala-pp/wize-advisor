@@ -54,139 +54,67 @@
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
     <script>
-    var win = navigator.platform.indexOf('Win') > -1;
-    if (win && document.querySelector('#sidenav-scrollbar')) {
-        var options = {
-            damping: '0.5'
-        }
-        Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
-    }
-    </script>
-    <!-- Github buttons -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-    <!-- <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-    <script src="{{ asset('public/assets/js/plugins/choices.min.js') }}"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
-    <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
         "ext": ".png",
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\/http:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"
+            "concatemoji": "https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
-    ! function(i, n) {
-        var o, s, e;
+    ! function(e, a, t) {
+        var n, r, o, i = a.createElement("canvas"),
+            p = i.getContext && i.getContext("2d");
+
+        function s(e, t) {
+            p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
+            e = i.toDataURL();
+            return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
+        }
 
         function c(e) {
-            try {
-                var t = {
-                    supportTests: e,
-                    timestamp: (new Date).valueOf()
-                };
-                sessionStorage.setItem(o, JSON.stringify(t))
-            } catch (e) {}
+            var t = a.createElement("script");
+            t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
         }
-
-        function p(e, t, n) {
-            e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
-            var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
-                r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
-                    .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-            return t.every(function(e, t) {
-                return e === r[t]
-            })
-        }
-
-        function u(e, t, n) {
-            switch (t) {
+        for (o = Array("flag", "emoji"), t.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+            if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                    return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") && !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                         "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !s("🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
             }
             return !1
-        }
+        }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
+            .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+            .readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
+                1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
+                .wpemoji)))
+    }(window, document, window._wpemojiSettings);
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function f(e, t, n) {
-            var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
-                    300, 150) : i.createElement("canvas"),
-                a = r.getContext("2d", {
-                    willReadFrequently: !0
-                }),
-                o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-            return e.forEach(function(e) {
-                o[e] = t(a, e, n)
-            }), o
-        }
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        function t(e) {
-            var t = i.createElement("script");
-            t.src = e, t.defer = !0, i.head.appendChild(t)
-        }
-        "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
-            everything: !0,
-            everythingExceptFlag: !0
-        }, e = new Promise(function(e) {
-            i.addEventListener("DOMContentLoaded", e, {
-                once: !0
-            })
-        }), new Promise(function(t) {
-            var n = function() {
-                try {
-                    var e = JSON.parse(sessionStorage.getItem(o));
-                    if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
-                        e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-                } catch (e) {}
-                return null
-            }();
-            if (!n) {
-                if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
-                    typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
-                    var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
-                            .toString()
-                        ].join(",") + "));",
-                        r = new Blob([e], {
-                            type: "text/javascript"
-                        }),
-                        a = new Worker(URL.createObjectURL(r), {
-                            name: "wpTestEmojiSupports"
-                        });
-                    return void(a.onmessage = function(e) {
-                        c(n = e.data), a.terminate(), t(n)
-                    })
-                } catch (e) {}
-                c(n = f(s, u, p))
-            }
-            t(n)
-        }).then(function(e) {
-            for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
-                .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
-                    .everythingExceptFlag && n.supports[t]);
-            n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
-                .DOMReady = !1, n.readyCallback = function() {
-                    n.DOMReady = !0
-                }
-        }).then(function() {
-            return e
-        }).then(function() {
-            var e;
-            n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
-                .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
-        }))
-    }((window, document), window._wpemojiSettings);
+    gtag('config', 'G-1HZW2R3J0M');
     </script>
     <style>
     img.wp-smiley,
@@ -202,62 +130,6 @@
         padding: 0 !important;
     }
     </style>
-    <style>
-    .animated {
-        -webkit-transition: height 0.2s;
-        -moz-transition: height 0.2s;
-        transition: height 0.2s;
-    }
-
-    .stars {
-        margin: 20px 0;
-        font-size: 24px;
-        color: #d17581;
-    }
-
-    /* .navbar-light li a {
-        font-family: "Helvetica", Sans-serif !important;
-        font-size: 17px !important;
-        font-weight: 700 !important;
-        color: #001e64 !important;
-    } */
-
-    .card-header {
-        background-color: #001e64 !important;
-    }
-
-    .card-header:first-child {
-        border-radius: 0.75rem 0.75rem 0 0;
-    }
-
-    .req {
-        padding-right: 50px;
-        margin-left: 20px;
-    }
-
-    .btn-secondary {
-        background-color: #fff !important;
-    }
-
-    /* #navbarDropdownMenuLink {
-        z-index: 999999 !important;
-    } */
-
-    /* 
-.dropdown-menu {
-    position: absolute;
-    top: 59px;
-} */
-
-    /* 
-    .menu-list {
-        align: center;
-    } */
-
-    /* .dropdown-menu {
-	margin: 8px 0px!important;
-} */
-    </style>
     <style id="wp-block-library-inline-css">
     :root {
         --wp-admin-theme-color: #007cba;
@@ -271,7 +143,8 @@
         --wp-block-synced-color--rgb: 122, 0, 223
     }
 
-    @media (min-resolution:192dpi) {
+    @media (-webkit-min-device-pixel-ratio:2),
+    (min-resolution:192dpi) {
         :root {
             --wp-admin-border-width-focus: 1.5px
         }
@@ -459,7 +332,7 @@
         max-width: 100%
     }
 
-    :where(figure) {
+    figure {
         margin: 0 0 1em
     }
 
@@ -472,13 +345,44 @@
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
+
+    /* ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .pe-7s-user {
+        margin-right: 20px;
+        align: center;
+    } */
+    /* 
+    .elementor-button-wrapper .browse {
+        margin-left: 20px;
+    } */
+
+    /* .menuITem {
+        margin-left: 30px;
+    } */
+
+    .name {
+        font-size: 13px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+
+    /* .menu {
+        font-size: 12px;
+        text-align: center;
+    } */
     </style>
     <link rel="preload"
-        href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
+        href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
+            href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
             media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
@@ -526,6 +430,20 @@
         --wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
         --wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
         --wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
+        --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+        --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+        --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+        --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+        --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+        --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+        --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+        --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+        --wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');
+        --wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');
+        --wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');
+        --wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');
+        --wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');
+        --wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');
         --wp--preset--font-size--small: 1rem;
         --wp--preset--font-size--medium: 1.125rem;
         --wp--preset--font-size--large: 1.75rem;
@@ -579,54 +497,40 @@
         margin-right: auto;
     }
 
-    :where(.wp-site-blocks)>* {
-        margin-block-start: 1.5rem;
-        margin-block-end: 0;
-    }
-
-    :where(.wp-site-blocks)> :first-child:first-child {
+    .wp-site-blocks>* {
         margin-block-start: 0;
+        margin-block-end: 0;
     }
 
-    :where(.wp-site-blocks)> :last-child:last-child {
-        margin-block-end: 0;
+    .wp-site-blocks>*+* {
+        margin-block-start: 1.5rem;
     }
 
     body {
         --wp--style--block-gap: 1.5rem;
     }
 
-    :where(body .is-layout-flow)> :first-child:first-child {
+    body .is-layout-flow>* {
         margin-block-start: 0;
-    }
-
-    :where(body .is-layout-flow)> :last-child:last-child {
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-flow)>* {
+    body .is-layout-flow>*+* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-constrained)> :first-child:first-child {
+    body .is-layout-constrained>* {
         margin-block-start: 0;
-    }
-
-    :where(body .is-layout-constrained)> :last-child:last-child {
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-constrained)>* {
+    body .is-layout-constrained>*+* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-flex) {
-        gap: 1.5rem;
-    }
-
-    :where(body .is-layout-grid) {
+    body .is-layout-flex {
         gap: 1.5rem;
     }
 
@@ -684,14 +588,6 @@
     }
 
     body .is-layout-flex>* {
-        margin: 0;
-    }
-
-    body .is-layout-grid {
-        display: grid;
-    }
-
-    body .is-layout-grid>* {
         margin: 0;
     }
 
@@ -1129,37 +1025,47 @@
         href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
         media="all">
     <link rel="stylesheet" id="elementor-post-5-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
+    <link rel="stylesheet" id="elementor-pro-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
+        media="all">
+    <link rel="stylesheet" id="font-awesome-5-all-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
+        media="all">
+    <link rel="stylesheet" id="font-awesome-4-shim-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
+        media="all">
     <link rel="stylesheet" id="she-header-style-css"
         href="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">
     <link rel="stylesheet" id="elementor-post-11-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-11.css?ver=1699364603" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-11.css?ver=1688659619" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
         href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
         media="all">
     <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3007.css?ver=1699369157" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
-        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.3.2"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.3.2"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.3.2"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364603"
-        media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688659619" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://pransainvestment.ca/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+    <link rel="stylesheet" id="elementor-post-3033-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3033.css?ver=1688395839" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.3.2"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
         href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
@@ -1176,21 +1082,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "\/https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
     </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
+        id="jquery-migrate-js">
+    </script>
+    <script
+        src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
+        id="font-awesome-4-shim-js"></script>
     <script
         src="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
         id="she-header-js"></script>
     <link rel="https://api.w.org/" href="https://pransainvestment.ca/wp-json/">
     <link rel="alternate" type="application/json" href="https://pransainvestment.ca/wp-json/wp/v2/pages/11">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pransainvestment.ca/xmlrpc.php?rsd">
-    <meta name="generator" content="WordPress 6.3.2">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://pransainvestment.ca/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 6.2.2">
     <link rel="canonical" href="https://pransainvestment.ca/about-us/">
     <link rel="shortlink" href="https://pransainvestment.ca/?p=11">
     <link rel="alternate" type="application/json+oembed"
