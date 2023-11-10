@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
-    <title>FAQ &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FAQ &#8211; wiseAdvizor</title>
     <script>
-    var theplus_ajax_url = "{{ asset('public/wp-admin/admin-ajax.php') }}";
-    var theplus_ajax_post_url = "{{ asset('public/wp-admin/admin-post.php') }}";
-    var theplus_nonce = "db17101d24";
+    var theplus_ajax_url = "https://pransainvestment.ca/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://pransainvestment.ca/wp-admin/admin-post.php";
+    var theplus_nonce = "d4a31829e8";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>FAQ &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="{{ asset('public/feed/') }}">
+        href="https://pransainvestment.ca/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/') }}">
+        href="https://pransainvestment.ca/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+
     <!-- <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
+    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
+    <script>
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 3668045,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -29,7 +45,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
@@ -309,6 +325,12 @@
         --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
     }
 
+    @media screen and (max-width:600px) {
+        html :where(.is-position-sticky) {
+            --wp-admin--admin-bar--position-offset: 0px
+        }
+    }
+
     /* ul {
         list-style-type: none;
         margin: 0;
@@ -319,15 +341,15 @@
     .pe-7s-user {
         margin-right: 20px;
         align: center;
-    }
-
+    } */
+    /* 
     .elementor-button-wrapper .browse {
         margin-left: 20px;
-    }
+    } */
 
-    .menuITem {
+    /* .menuITem {
         margin-left: 30px;
-    }
+    } */
 
     .name {
         font-size: 13px;
@@ -335,30 +357,25 @@
         margin-right: 20px;
     }
 
-    .menu {
+    /* .menu {
         font-size: 12px;
         text-align: center;
     } */
-
-    @media screen and (max-width:600px) {
-        html :where(.is-position-sticky) {
-            --wp-admin--admin-bar--position-offset: 0px
-        }
-    }
     </style>
     <link rel="preload"
-        href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="{{ asset('public/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2') }} media="
-            all">
+            href="https://pransainvestment.ca/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
+            media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="{{ asset('public/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687443863') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687429826"
+        media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -941,25 +958,25 @@
     }
     </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-carousel-owl-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-theme-default-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-animate-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-        href="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
         media="all">
     <style id="wp-webfonts-inline-css">
     @font-face {
@@ -967,7 +984,7 @@
         font-style: normal;
         font-weight: 200 900;
         font-display: fallback;
-        src:url('{{ asset('public/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') }}') format('woff2');
+        src: url('https://pransainvestment.ca/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
         font-stretch: normal;
     }
 
@@ -976,104 +993,107 @@
         font-style: italic;
         font-weight: 200 900;
         font-display: fallback;
-        src:url('{{ asset('public/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') }}') format('woff2');
+        src: url('https://pransainvestment.ca/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
         font-stretch: normal;
     }
     </style>
     <link rel="stylesheet" id="hfe-style-css"
-        href="{{ asset('public/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
         media="all">
     <link rel="stylesheet" id="elementor-icons-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
         media="all">
     <link rel="stylesheet" id="elementor-frontend-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
         media="all">
     <link rel="stylesheet" id="swiper-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
         media="all">
     <link rel="stylesheet" id="elementor-post-5-css"
-        href="{{ asset('public/wp-content/uploads/elementor/css/post-5.css?ver=1688377903') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
     <link rel="stylesheet" id="elementor-pro-css"
-        href="{{ asset('public/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
         media="all">
     <link rel="stylesheet" id="font-awesome-5-all-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
         media="all">
     <link rel="stylesheet" id="font-awesome-4-shim-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
         media="all">
     <link rel="stylesheet" id="she-header-style-css"
-        href="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
-        href="{{ asset('public/wp-content/uploads/elementor/css/global.css?ver=1688377904') }}" media="all">
-    <link rel="stylesheet" id="elementor-post-18-css"
-        href="{{ asset('public/wp-content/uploads/elementor/css/post-18.css?ver=1688658984') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">
+    <link rel="stylesheet" id="elementor-post-11-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-11.css?ver=1688659619" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
         media="all">
     <link rel="stylesheet" id="elementor-post-3007-css"
-        href="{{ asset('public/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
-        href="{{ asset('public/wp-content/uploads/elementor/css/post-32.css?ver=1688661608') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688658984') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688659619" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="{{ asset('public/wp-content/themes/twentytwentytwo/style.css?ver=1.4') }}" media="all">
-    <link rel="stylesheet" id="elementor-post-3048-css"
-        href="{{ asset('public/wp-content/uploads/elementor/css/post-3048.css?ver=1688632403') }}" media="all">
+        href="https://pransainvestment.ca/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+    <link rel="stylesheet" id="elementor-post-3033-css"
+        href="https://pransainvestment.ca/wp-content/uploads/elementor/css/post-3033.css?ver=1688395839" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2"
         media="all">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3') }}"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3') }}"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3') }}"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+        href="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
         media="all">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script src="{{ asset('public/wp-includes/js/jquery/jquery.min.js?ver=3.6.4') }}" id="jquery-core-js"></script>
-    <script src="{{ asset('public/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0') }}" id="jquery-migrate-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
+    </script>
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
+        id="jquery-migrate-js">
     </script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1') }}"
+        src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
         id="font-awesome-4-shim-js"></script>
     <script
-        src="{{ asset('public/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5') }}"
+        src="https://pransainvestment.ca/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
         id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="{{ asset('public/wp-json/') }}">
-    <link rel="alternate" type="application/json" href="{{ asset('public/wp-json/wp/v2/pages/18') }}">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{ asset('public/xmlrpc.php?rsd') }}">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('public/wp-includes/wlwmanifest.xml') }}">
+    <link rel="https://api.w.org/" href="https://pransainvestment.ca/wp-json/">
+    <link rel="alternate" type="application/json" href="https://pransainvestment.ca/wp-json/wp/v2/pages/11">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pransainvestment.ca/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://pransainvestment.ca/wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="{{ asset('public/blogs/') }}">
-    <link rel="shortlink" href="{{ asset('public/?p=18') }}">
+    <link rel="canonical" href="https://pransainvestment.ca/about-us/">
+    <link rel="shortlink" href="https://pransainvestment.ca/?p=11">
     <link rel="alternate" type="application/json+oembed"
-        href="{{ asset('public/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fblogs%2F') }}">
+        href="https://pransainvestment.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fabout-us%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="{{ asset('public/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fblogs%2F#038;format=xml') }}">
+        href="https://pransainvestment.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fabout-us%2F#038;format=xml">
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style type="text/css">
