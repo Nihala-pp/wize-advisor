@@ -1422,7 +1422,7 @@
         </defs>
     </svg> -->
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://pransainvestment.ca" title="WISE ADVIZOR"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://pransainvestment.ca/" title="WISE ADVIZOR"
                 rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -1455,7 +1455,7 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="https://pransainvestment.ca">
+                                    </style> <a href="https://pransainvestment.ca/home">
                                         <img width="932" height="140"
                                             src="https://pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
@@ -1488,7 +1488,7 @@
                                             data-full-width="yes">
                                             <ul id="menu-1-359f243" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://pransainvestment.ca/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
@@ -1518,12 +1518,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1542,10 +1542,9 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1555,76 +1554,83 @@
                                 data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                    @if(Auth::id() && auth()->user()->role_id == 3)
-                                    <div class="d-flex align-items-center">
-                                        <div class="dropdown">
-                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <i class="fas fa-bell fa-2xl"></i>
-                                                <!-- <span
+                                        @if(Auth::id() && auth()->user()->role_id == 3)
+                                        <div class="d-flex align-items-center">
+                                            <div class="dropdown">
+                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-bell fa-2xl"></i>
+                                                    <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuLink">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Some news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Another news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </li>
-                                            </ul>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuLink">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown">
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
+                                                        class="rounded-circle" height="8" width="37"
+                                                        alt="Black and White Portrait of a Man" loading="lazy" />
+                                                    @else
+                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        class="rounded-circle" height="8" width="37">
+                                                    @endif
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuAvatar">
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                            Dashboard</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.change-password') }}">Change
+                                                            Password</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
+                                                            Reviews</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" />
-                                                @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="8" width="37">
-                                                @endif
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuAvatar">
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                        Dashboard</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                        Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.change-password') }}">Change
-                                                        Password</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
-                                                        Reviews</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    @else
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('login') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Sign In</span>
-                                        </span>
-                                    </a>
-                                    @endif
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-xs"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
+                                        <!-- <a class="elementor-button elementor-button-link elementor-size-sm"
+											href="">
+											<span class="elementor-button-content-wrapper">
+												<span class="elementor-button-text">Sign In</span>
+											</span>
+										</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -1644,7 +1650,7 @@
                             <div class="elementor-element elementor-element-556f326 elementor-widget elementor-widget-image"
                                 data-id="556f326" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <a href="https://pransainvestment.ca">
+                                    <a href="https://pransainvestment.ca/home">
                                         <img width="932" height="140"
                                             src="https://pransainvestment.ca/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
@@ -1672,7 +1678,7 @@
                                             data-full-width="yes">
                                             <ul id="menu-1-ee84ee1" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://pransainvestment.ca/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
@@ -1702,12 +1708,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1726,10 +1732,9 @@
                                 data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="{{ route('browseMentor') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentors</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1810,6 +1815,11 @@
                                             </span>
                                         </a>
                                         @endif
+                                        <!-- <a class="elementor-button elementor-button-link elementor-size-xs" href="#">
+											<span class="elementor-button-content-wrapper">
+												<span class="elementor-button-text">Sign In</span>
+											</span>
+										</a> -->
                                     </div>
                                 </div>
                             </div>
