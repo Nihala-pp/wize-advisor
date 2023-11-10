@@ -1296,9 +1296,9 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1309,9 +1309,9 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="https://pransainvestment.ca/browse-mentor">
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1415,9 +1415,9 @@
                                 data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="#">
+                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
+                                                <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1428,9 +1428,9 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="https://pransainvestment.ca/browse-mentor/">
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
                                     </div>
