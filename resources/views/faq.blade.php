@@ -1499,7 +1499,7 @@
                                         <a class="elementor-button elementor-button-link elementor-size-xs"
                                             href="https://pransainvestment.ca/browse-mentor/">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
                                         </a>
                                     </div>
