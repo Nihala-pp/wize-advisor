@@ -3553,7 +3553,7 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
-@media(max-width:480px) {
+/* @media(max-width:480px) {
     .elementor-18 .elementor-element.elementor-element-f86b72c .elementor-heading-title {
         color: #FFFFFF;
         font-family: "Roboto", Sans-serif;
@@ -3587,7 +3587,7 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -30px;
         padding: 0px 0px 10px 0px;
     }
-}
+} */
 </style>
 
 </html>
