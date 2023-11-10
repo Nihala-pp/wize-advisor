@@ -1296,7 +1296,8 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('browseMentor') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -1373,8 +1374,8 @@
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://pransainvestment.ca/resources/" itemprop="url"
-                                                            class="hfe-menu-item">Resource<span
+                                                            href="https://pransainvestment.ca/resources/"
+                                                            itemprop="url" class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
@@ -1391,12 +1392,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                            <a href="https://pransainvestment.ca/faq/"
+                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://pransainvestment.ca/faq/" itemprop="url"
+                                                            <a href="https://pransainvestment.ca/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1411,11 +1412,12 @@
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a2b9669"
                         data-id="a2b9669" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-aea4c40 elementor-widget__width-auto elementor-mobile-align-right elementor-widget-mobile__width-initial elementor-widget elementor-widget-button browseMentor"
-                                data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-element elementor-element-aea4c40 elementor-widget__width-auto elementor-mobile-align-right elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="{{ route('browseMentor') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-xs"
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -1423,12 +1425,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-0a7faa7 elementor-align-right elementor-widget__width-auto elementor-mobile-align-left elementor-widget-mobile__width-initial elementor-widget elementor-widget-button signin"
-                                data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-element elementor-element-0a7faa7 elementor-align-right elementor-widget__width-auto elementor-mobile-align-left elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="{{ route('login') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
@@ -3691,7 +3692,7 @@ i.fas.fa-bell.fa-2xl {
 
     .browseMentor {
         /* margin-left:20px !important; */
-        padding-right:20px !important;
+        padding-right: 20px !important;
     }
 }
 
