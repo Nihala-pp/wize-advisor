@@ -3673,6 +3673,10 @@ i.fas.fa-bell.fa-2xl {
     .signin {
         margin-left: 30px !important;
     }
+
+    .current_page_item {
+        color:#fff;
+    }
 }
 
 /* .elementor-3007 .elementor-element.elementor-element-556f326 img {
