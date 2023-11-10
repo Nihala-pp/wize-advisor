@@ -3675,7 +3675,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .current_page_item {
-        color:#fff;
+        color:#fff !important;
     }
 }
 
