@@ -2183,7 +2183,7 @@
                 </div>
             </div>
         </section>
-        <!-- <section
+        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5hmwced elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="5hmwced" data-element_type="section">
             <div class="elementor-container elementor-column-gap-wide">
@@ -2213,7 +2213,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
@@ -3092,7 +3092,7 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
+    <!-- <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
         class="elementor elementor-3048 elementor-location-popup modal fade" role="dialog"
         data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
         <div class="elementor-section-wrap">
@@ -3194,7 +3194,7 @@
                 </div>
             </section>
         </div>
-    </div>
+    </div> -->
     <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
         id="niso-carousel-owl.min-js"></script>
     <script
