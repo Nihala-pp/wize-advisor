@@ -5016,7 +5016,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .rating {
-        padding-left: 120px !important;
+        padding-left: 110px !important;
     }
 
     .price {
