@@ -5020,7 +5020,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .price {
-        padding-left: 90px !important;
+        padding-left: 110px !important;
         color: #000 !important;
     }
 
