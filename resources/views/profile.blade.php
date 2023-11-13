@@ -5055,6 +5055,7 @@ i.fas.fa-bell.fa-2xl {
         margin-left: 20px !important;
         margin-right: 20px !important;
         color: #000 !important;
+        padding-top: 20px;
     }
 
     .elementor-2372 .elementor-element.elementor-element-15eb00e>.elementor-widget-container {
@@ -5064,7 +5065,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2372 .elementor-element.elementor-element-9e80a97>.elementor-widget-container {
         /* margin: -50px 0px 0px 0px; */
-        padding: 0px 0px 10px 25px;
+        padding: 15px 0px 40px 25px;
     }
 
     .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider-separator {
