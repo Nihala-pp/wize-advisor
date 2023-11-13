@@ -5091,6 +5091,7 @@ i.fas.fa-bell.fa-2xl {
         display: flex;
         align-items: center;
         padding-left: 31px;
+        padding-botton: 10px;
     }
 
     .elementor-2372 .elementor-element.elementor-element-65d4d32 .elementor-heading-title {
