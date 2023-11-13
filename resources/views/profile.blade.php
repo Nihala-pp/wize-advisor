@@ -5056,5 +5056,9 @@ i.fas.fa-bell.fa-2xl {
         color: #000 !important;
     }
 
+    .elementor-2372 .elementor-element.elementor-element-15eb00e>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 40px 140px;
+    }
 }
 </style>
