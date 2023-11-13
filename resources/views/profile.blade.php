@@ -5066,33 +5066,11 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 10px 25px;
     }
 
-    /* .elementor-2372 .elementor-element.elementor-element-72aecbd>.elementor-widget-container {
-        margin: -50px 0px 0px 0px;
-        padding: 0px 25px 0px 50px;
-    }
-
-    .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider {
-        text-align: center;
-        padding-top: 2px;
-        padding-bottom: 2px;
-    } */
-
-    /* .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
-        border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
-    } */
-
-
-    /*! elementor - v3.14.0 - 26-06-2023 */
-    .elementor-widget-divider {
-        --divider-border-style: none;
-        --divider-border-width: 1px;
-        --divider-color: #0c0d0e;
-        --divider-icon-size: 20px;
-        --divider-element-spacing: 10px;
-        --divider-pattern-height: 24px;
-        --divider-pattern-size: 20px;
-        --divider-pattern-url: none;
-        --divider-pattern-repeat: repeat-x
+    .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider-separator {
+        width: 12%;
+        margin: 0 auto;
+        padding-left: 50px !important;
+        /* margin-center: 0; */
     }
 }
 </style>
