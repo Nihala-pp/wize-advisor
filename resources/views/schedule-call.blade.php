@@ -1068,7 +1068,7 @@
 	</style>
 	<style id="wpforms-css-vars-root">
 		:root {
-			--wpforms-field-border-radius: 3px;
+			--wpforms-field-border-radius: 3px;`
 			--wpforms-field-background-color: #ffffff;
 			--wpforms-field-border-color: rgba(0, 0, 0, 0.25);
 			--wpforms-field-text-color: rgba(0, 0, 0, 0.7);
