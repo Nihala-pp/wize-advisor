@@ -4984,14 +4984,6 @@
     overflow: hidden;
 }
 
-.fee {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 75vh;
-}
-
 /* .browseMentor {
     padding-right: 20px;
 } */
@@ -5053,6 +5045,14 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
     .elementor-widget-button .elementor-button {
         background-color: #001E64 !important;
         margin-bottom: 30px !important;
+    }
+
+    .fee {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-rtop: 20px;
+        padding-bight: 20px;
+        height: 75vh;
     }
 }
 </style>
