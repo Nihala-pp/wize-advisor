@@ -4992,24 +4992,6 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
-h1.elementor-heading-title.elementor-size-default.heading {
-    font-size: 19px !important;
-    color: #330252 !important;
-    /* padding-left: 55px !important; */
-    text-align: center !important;
-}
-
-div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widget-text-editor {
-    text-justify: inter-word;
-}
-
-.elementor-widget-text-editor p {
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-    color: #000 !important;
-}
 
 
 
@@ -5054,5 +5036,25 @@ div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widge
         padding-bight: 20px;
         height: 75vh;
     }
+
+    h1.elementor-heading-title.elementor-size-default.heading {
+        font-size: 19px !important;
+        color: #330252 !important;
+        /* padding-left: 55px !important; */
+        text-align: center !important;
+    }
+
+    div.elementor-element.elementor-element-72aecbd.elementor-widget.elementor-widget-text-editor {
+        text-justify: inter-word;
+    }
+
+    .elementor-widget-text-editor p {
+        text-align: justify !important;
+        text-justify: inter-word !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        color: #000 !important;
+    }
+
 }
 </style>
