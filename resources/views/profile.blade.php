@@ -5103,5 +5103,11 @@ i.fas.fa-bell.fa-2xl {
     .elementor-2372 .elementor-element.elementor-element-kiw0ep4 {
         padding: 60px 20px 0px 20px;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-8a50591>.elementor-element-populated {
+        /* margin: 0px 0px 0px 0px; */
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
 }
 </style>
