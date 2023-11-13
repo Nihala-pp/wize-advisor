@@ -5074,9 +5074,9 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider {
-    text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
 }
 </style>
