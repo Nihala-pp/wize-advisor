@@ -5078,5 +5078,12 @@ i.fas.fa-bell.fa-2xl {
         padding-top: 2px;
         padding-bottom: 2px;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-90a514a .elementor-heading-title {
+        color: var(--e-global-color-a5a4b57);
+        font-family: "Roboto", Sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
 }
 </style>
