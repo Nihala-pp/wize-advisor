@@ -5049,7 +5049,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-widget-text-editor p {
-        font-size:12px;
+        font-size: 12px;
         text-align: justify !important;
         text-justify: inter-word !important;
         margin-left: 20px !important;
@@ -5098,6 +5098,10 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2372 .elementor-element.elementor-element-65d4d32 .elementor-heading-title {
         font-size: 15px;
+    }
+
+    .elementor-2372 .elementor-element.elementor-element-kiw0ep4 {
+        padding: 60px 20px 0px 20px;
     }
 }
 </style>
