@@ -5067,7 +5067,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider-separator {
-        width: 25% !important;
+        width: 29% !important;
         margin: 0 auto;
         /* padding-left: 50px !important; */
         /* margin-center: 0; */
