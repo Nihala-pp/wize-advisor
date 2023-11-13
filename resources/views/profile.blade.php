@@ -5070,5 +5070,15 @@ i.fas.fa-bell.fa-2xl {
         margin: -50px 0px 0px 0px;
         padding: 0px 25px 0px 50px;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider {
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+        border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+    }
 }
 </style>
