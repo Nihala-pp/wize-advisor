@@ -5062,7 +5062,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-2372 .elementor-element.elementor-element-9e80a97>.elementor-widget-container {
-        margin: -50px 0px 0px 0px;
+        /* margin: -50px 0px 0px 0px; */
         padding: 0px 0px 10px 25px;
     }
 
