@@ -5049,6 +5049,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-widget-text-editor p {
+        font-size:12px;
         text-align: justify !important;
         text-justify: inter-word !important;
         margin-left: 20px !important;
