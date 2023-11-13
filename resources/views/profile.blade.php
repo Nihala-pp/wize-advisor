@@ -5060,5 +5060,15 @@ i.fas.fa-bell.fa-2xl {
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 40px 140px;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-9e80a97>.elementor-widget-container {
+        margin: -50px 0px 0px 0px;
+        padding: 0px 0px 10px 25px;
+    }
+
+    .elementor-2372 .elementor-element.elementor-element-72aecbd>.elementor-widget-container {
+        margin: -50px 0px 0px 0px;
+        padding: 0px 25px 0px 50px;
+    }
 }
 </style>
