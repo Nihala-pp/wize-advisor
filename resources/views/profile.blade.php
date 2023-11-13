@@ -5069,9 +5069,14 @@ i.fas.fa-bell.fa-2xl {
     .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider-separator {
         width: 14% !important;
         margin: 0 auto;
-        text-align: center !important;
         /* padding-left: 50px !important; */
         /* margin-center: 0; */
     }
+
+    .elementor-2372 .elementor-element.elementor-element-cab3f6f .elementor-divider {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 }
 </style>
