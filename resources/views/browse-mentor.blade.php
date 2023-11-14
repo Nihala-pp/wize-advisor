@@ -2163,10 +2163,11 @@
                                                     class="elementor-star-full">&#xE934;</i> <span
                                                     itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                             </div>
+                                            
                                             <!-- </div> -->
-                                            <span class="text-center price"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                    $ / 30 Min</b></span>
                                         </div>
+                                        <span class="text-center price"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                    $ / 30 Min</b></span>
                                     </small>
                                 </div>
                             </div>
