@@ -5124,5 +5124,29 @@ i.fas.fa-bell.fa-2xl {
         font-size: 16px;
         font-weight: 400;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-297c2fe {
+        text-align: justify;
+        color: #000000;
+        font-family: "Sailec", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .elementor-2372 .elementor-element.elementor-element-6f4f3fe {
+        text-align: justify;
+        color: #000000;
+        font-family: "Sailec", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .elementor-2372 .elementor-element.elementor-element-3c041f0 {
+        text-align: justify;
+        color: #000000;
+        font-family: "Sailec", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 </style>
