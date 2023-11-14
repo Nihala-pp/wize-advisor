@@ -3581,7 +3581,7 @@
     }
 
     .filters {
-        margin-left: 80px;
+        margin-left: 95px;
         margin-right: 50px;
     }
 
