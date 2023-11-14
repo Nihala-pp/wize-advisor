@@ -2259,7 +2259,7 @@
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bac9a5c elementor-widget elementor-widget-heading"
                             data-id="bac9a5c" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container quest">
                                 <h3 class="elementor-heading-title elementor-size-default">Have any other questions?
                                 </h3>
                             </div>
@@ -3626,6 +3626,15 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:480px) {
+
+    .quest {
+      margin-top: -20px;
+    }
+
+    .elementor-18 .elementor-element.elementor-element-f86b72c>.elementor-widget-container {
+        padding: 55px 1548px 120px 50px;
+    }
+
     .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
         font-size: 12px;
         line-height: 1em;
