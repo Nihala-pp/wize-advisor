@@ -3636,34 +3636,11 @@ i.fas.fa-bell.fa-2xl {
         text-justify: inter-word;
     }
 
-    /* .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
-        margin-right: 8px;
-        padding-left: 10px;
-        padding-right: 25px;
-    } */
-
-    /* .elementor-18 .elementor-element.elementor-element-bac9a5c .elementor-heading-title {
-        font-size: 18px;
-        margin-top: -60px;
-    }
-
-    .elementor-18 .elementor-element.elementor-element-9bc0d4c>.elementor-widget-container {
-        margin-top: -30px;
-        padding: 0px 0px 10px 0px;
-    } */
-
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
 }
 
-/* @media (max-width: 767px) {
-    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
-        font-size: 12px;
-        /* line-height: 0em; */
-/* } */
-/* } */
 </style>
-
 </html>
