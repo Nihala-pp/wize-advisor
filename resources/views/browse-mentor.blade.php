@@ -3588,8 +3588,8 @@
         color: white !important;
     }
 
-    .elementor-star-rating__wrapper .price {
-        text-align: right !important;
+     .price {
+        padding-left: 110px;
     }
 }
 
