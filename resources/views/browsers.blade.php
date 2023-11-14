@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <span class="text-center"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                    $ / 30 Min</b></span>
+                                $ / 30 Min</b></span>
                     </small>
                 </div>
             </div>
@@ -51,43 +51,66 @@
     </div>
 </div>
 <style>
-@media screen and (max-width:480px) {
-    /* img {
-        width: 100%;
+@media screen and (max-device-width: 480px) and (min-width: 410px) {
+
+    div.d-grid.gap-2.col-6.butto {
+        padding-left: 75px;
+        text-align: center !important;
     }
-
-    .container {
-        max-width: 100%;
-        width: 100%;
-    } */
-
-    /* .col-md-4 {
-        width: 100%;
-        /* float: left; */
-        /* margin: 0; */
-    /* } */ 
 
     .card {
         width: 15rem;
     }
 
     .elementor-star-rating__wrapper {
-        padding-right: 26px;
+        padding-left: 125px;
+    }
+
+    /* input#date.form-control.selectpicker {
+    padding-left: 20px;
+    padding-top: 10px; */
+
+
+    /* background-color: #54b4d3;
+    color: #fff;
+    font-weight: 400px;
+    line-height: 1;
+    height: 100% !important;
+    width: 200% !important;
+    font-size: 0.75rem !important; */
+    /* } */
+
+    .datefilter {
+        /* padding-top: 20px; */
+        margin-bottom: 10px;
+    }
+
+    .filters {
+        margin-left: 75px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color: white !important;
+    }
+
+    .price {
+        padding-left: 110px !important;
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) and (min-width: 320px) {
 
-    #date {
-        background-color: #54b4d3;
-        color: #fff;
-        font-weight: 400px;
-        line-height: 1;
-        height: 140%;
-        width: 85%;
-        FONT-VARIANT: JIS78;
-        padding-left: 20px !important;
-    }
+    /* #date {
+    background-color: #54b4d3;
+    color: #fff;
+    font-weight: 400px;
+    line-height: 1;
+    height: 140% !important;
+    width: 75% !important;
+    FONT-VARIANT: JIS78;
+    /* padding-left: 20px !important; */
+    /* } */
 
     .selectpicker {
         font-size: 10px;
@@ -105,5 +128,60 @@
         /* /* margin-left:50px; */
         padding-left: 25px;
     }
+}
+
+@media screen and (max-width: 1280px),
+screen and (min-width: 720px) {
+
+    div.d-grid.gap-2.col-6.butto {
+        text-align: center !important;
+    }
+
+    .card {
+        width: 22rem !important;
+    }
+}
+
+.card-deck .card {
+    margin-bottom: 50px;
+}
+
+input[type="date"]::before {
+    padding-right: 16px !important;
+    /* padding-top: 10px !important; */
+    padding-left: 16px !important;
+    color: #ffff;
+    content: attr(placeholder);
+}
+
+input[type="date"] {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    /* padding-top: 25px !important; */
+    color: #54b4d3 !important;
+}
+
+input[type="date"]:focus,
+input[type="date"]:valid {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    /* padding-top: 25px !important;     */
+    color: #ffff !important;
+}
+
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    /* padding-top: 25px !important; */
+    content: "" !important;
+}
+
+/* .browseMentor {
+    padding-right: 20px;
+} */
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
 }
 </style>
