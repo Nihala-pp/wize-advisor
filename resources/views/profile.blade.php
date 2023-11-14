@@ -5051,7 +5051,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-widget-text-editor p {
         font-size: 16px;
         line-height:25px;
-        padding-right:15px !important;
+        padding-right:20px !important;
         /* text-align: justify !important;
         text-justify: inter-word !important; */
         /* margin-left: 20px !important;
