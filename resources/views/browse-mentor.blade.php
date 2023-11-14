@@ -3029,7 +3029,7 @@
         }
 
         #date {
-            padding-top: 10px!important;
+            padding-top: 10px !important;
             /* padding-top: 20px!important; */
             background-color: #54b4d3;
             color: #fff;
