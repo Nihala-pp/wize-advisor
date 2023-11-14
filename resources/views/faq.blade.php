@@ -3626,6 +3626,10 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:480px) {
+    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
+        font-size: 12px;
+        line-height: 1em;
+    }
 
     .elementor-18 .elementor-element.elementor-element-2642eda .elementor-tab-title {
         padding: 10px 25px 10px 0px;
@@ -3640,12 +3644,6 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
-
-    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
-        font-size: 12px;
-        /* line-height: 0em; */
-    }
 }
 </style>
-
 </html>
