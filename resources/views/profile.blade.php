@@ -5123,7 +5123,7 @@ i.fas.fa-bell.fa-2xl {
         font-family: "Sailec", Sans-serif;
         font-size: 16px;
         font-weight: 400;
-        padding-right: 10px;
+        padding-right: 15px;
     }
 
     .elementor-2372 .elementor-element.elementor-element-297c2fe {
@@ -5132,7 +5132,7 @@ i.fas.fa-bell.fa-2xl {
         font-family: "Sailec", Sans-serif;
         font-size: 16px;
         font-weight: 400;
-        padding-right: 10px;
+        padding-right: 15px;
     }
 
     .elementor-2372 .elementor-element.elementor-element-6f4f3fe {
