@@ -2267,7 +2267,7 @@
                         <div class="elementor-element elementor-element-9bc0d4c elementor-align-center elementor-widget elementor-widget-button"
                             data-id="9bc0d4c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
+                                <div class="elementor-button-wrapper ask">
                                     <a class="elementor-button elementor-button-link elementor-size-md"
                                         data-toggle="modal" data-target="#myModal">
                                         <span class="elementor-button-content-wrapper">
@@ -3626,6 +3626,10 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:480px) {
+
+    .ask {
+        margin-top: -10px !important; 
+    }
 
     .quest {
       margin-top: -50px !important;
