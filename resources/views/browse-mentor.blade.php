@@ -1939,7 +1939,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
                             <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
-                                name="date" style="width: 220px;height: 35px;" required>
+                                name="date" required>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters">
                             <select id="name" class="selectpicker" data-style="btn-info">
@@ -3029,6 +3029,8 @@
         }
 
         #date {
+            width: 220px;
+            height: 35px;
             /* padding-top: 10px !important; */
             /* padding-top: 20px!important; */
             background-color: #54b4d3;
