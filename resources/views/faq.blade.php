@@ -3665,5 +3665,13 @@ i.fas.fa-bell.fa-2xl {
         color: white !important;
     }
 }
+
+@media (max-width: 767px) {
+    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
+        font-size: 12px;
+        /* line-height: 0em; */
+    }
+}
 </style>
+
 </html>
