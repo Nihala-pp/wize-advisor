@@ -3029,7 +3029,7 @@
         }
 
         #date {
-            padding-top: 10px !important;
+            /* padding-top: 10px !important; */
             /* padding-top: 20px!important; */
             background-color: #54b4d3;
             color: #fff;
@@ -3042,13 +3042,13 @@
         }
 
         ::placeholder {
-            margin-top: 15px !important;
+            /* margin-top: 15px !important; */
             color: #fff !important;
             opacity: 1 !important;
         }
 
         ::-ms-input-placeholder {
-            margin-top: 15px !important;
+            /* margin-top: 15px !important; */
             color: #fff !important;
             opacity: 1 !important;
         }
