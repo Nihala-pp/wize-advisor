@@ -3644,7 +3644,7 @@ screen and (min-width: 720px) {
 
 input[type="date"]::before {
     padding-right: 16px !important;
-    padding-top: 10px !important;
+    padding-top: 16px !important;
     padding-left: 16px !important;
     color: #ffff;
     content: attr(placeholder);
