@@ -3644,11 +3644,11 @@ i.fas.fa-bell.fa-2xl {
         text-justify: inter-word;
     }
 
-    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
+    /* .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
         margin-right: 8px;
         padding-left: 10px;
         padding-right: 25px;
-    }
+    } */
 
     /* .elementor-18 .elementor-element.elementor-element-bac9a5c .elementor-heading-title {
         font-size: 18px;
@@ -3666,5 +3666,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>
