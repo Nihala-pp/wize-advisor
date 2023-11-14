@@ -3640,7 +3640,12 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
-}
 
+    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
+        font-size: 12px;
+        /* line-height: 0em; */
+    }
+}
 </style>
+
 </html>
