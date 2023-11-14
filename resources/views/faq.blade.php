@@ -3596,9 +3596,6 @@
                     }
                 }
             })
-
-
-
         });
     }(jQuery));
     </script>
@@ -3653,7 +3650,7 @@ i.fas.fa-bell.fa-2xl {
         padding-right: 25px;
     }
 
-    .elementor-18 .elementor-element.elementor-element-bac9a5c .elementor-heading-title {
+    /* .elementor-18 .elementor-element.elementor-element-bac9a5c .elementor-heading-title {
         font-size: 18px;
         margin-top: -60px;
     }
@@ -3661,7 +3658,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-18 .elementor-element.elementor-element-9bc0d4c>.elementor-widget-container {
         margin-top: -30px;
         padding: 0px 0px 10px 0px;
-    }
+    } */
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
