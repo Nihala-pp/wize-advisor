@@ -41,7 +41,7 @@
                                 </div>
                             <!-- </div> -->
                         </div>
-                        <span class="text-center"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                        <span class="text-center price"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                 $ / 30 Min</b></span>
                     </small>
                 </div>
