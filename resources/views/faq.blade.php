@@ -3626,23 +3626,15 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:480px) {
-    /* .elementor-18 .elementor-element.elementor-element-f86b72c .elementor-heading-title {
-        color: #FFFFFF;
-        font-family: "Roboto", Sans-serif;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-style: normal;
-        padding-left: 35px;
+
+    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-tab-title {
+        padding: 10px 25px 10px 0px;
     }
 
-    /* .elementor-18 .elementor-element.elementor-element-2642eda .elementor-tab-title { */
-        /* padding: 10px 25px 10px 0px;
-    } */
-
-    /* .elementor-tab-content-4011 p {
+    .elementor-tab-content-4011 p {
         text-align: justify;
         text-justify: inter-word;
-    } */ 
+    }
 
     /* .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
         margin-right: 8px;
@@ -3670,7 +3662,8 @@ i.fas.fa-bell.fa-2xl {
     .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-title {
         font-size: 12px;
         /* line-height: 0em; */
-    /* } */
-/* } */ 
+/* } */
+/* } */
 </style>
+
 </html>
