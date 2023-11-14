@@ -325,7 +325,8 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://pransainvestment.ca/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688380875" media="all">
+        href="https://pransainvestment.ca/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688380875"
+        media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1019,8 +1020,10 @@
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
+    </script>
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
+        id="jquery-migrate-js">
     </script>
     <script
         src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
@@ -1479,76 +1482,77 @@
                                 data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                    @if(Auth::id() && auth()->user()->role_id == 3)
-                                    <div class="d-flex align-items-center">
-                                        <div class="dropdown">
-                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <i class="fas fa-bell fa-2xl"></i>
-                                                <!-- <span
+                                        @if(Auth::id() && auth()->user()->role_id == 3)
+                                        <div class="d-flex align-items-center">
+                                            <div class="dropdown">
+                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-bell fa-2xl"></i>
+                                                    <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuLink">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Some news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Another news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </li>
-                                            </ul>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuLink">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown">
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
+                                                        class="rounded-circle" height="8" width="37"
+                                                        alt="Black and White Portrait of a Man" loading="lazy" />
+                                                    @else
+                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        class="rounded-circle" height="8" width="37">
+                                                    @endif
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuAvatar">
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                            Dashboard</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.change-password') }}">Change
+                                                            Password</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
+                                                            Reviews</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" />
-                                                @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="8" width="37">
-                                                @endif
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuAvatar">
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                        Dashboard</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                        Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.change-password') }}">Change
-                                                        Password</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
-                                                        Reviews</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    @else
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('login') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Sign In</span>
-                                        </span>
-                                    </a>
-                                    @endif
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
@@ -2365,7 +2369,8 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://pransainvestment.ca/about-us/">About Us</a>
+                                                                href="https://pransainvestment.ca/about-us/">About
+                                                                Us</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2843,12 +2848,14 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <script src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+    <script
+        src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
         src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
         id="jquery.mousewheel.min-js"></script>
-    <script src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
+    <script
+        src="https://pransainvestment.ca/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
         id="niso-carousel-lightbox.min-js"></script>
     <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
     </script>
@@ -2866,7 +2873,8 @@
         id="qi-addons-for-elementor-script-js"></script>
     <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2"
+        id="jquery-ui-slider-js">
     </script>
     <script src="https://pransainvestment.ca/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688381122"
         id="theplus-front-js-js" defer></script>
@@ -2876,7 +2884,8 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1"
         id="elementor-frontend-modules-js"></script>
-    <script src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script
+        src="https://pransainvestment.ca/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3006,9 +3015,11 @@
         id="wp-polyfill-inert-js"></script>
     <script src="https://pransainvestment.ca/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11"
         id="regenerator-runtime-js"></script>
-    <script src="https://pransainvestment.ca/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+        id="wp-polyfill-js">
     </script>
-    <script src="https://pransainvestment.ca/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js">
+    <script src="https://pransainvestment.ca/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5"
+        id="wp-hooks-js">
     </script>
     <script src="https://pransainvestment.ca/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js">
     </script>
@@ -3110,7 +3121,8 @@
     </script>
     <script src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0"
         id="elementor-pro-frontend-js"></script>
-    <script src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
+    <script
+        src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0"
         id="pro-elements-handlers-js"></script>
     <script
         src="https://pransainvestment.ca/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0"
@@ -3213,15 +3225,21 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width:480px) {
     p {
-        padding-right:20px;
-        padding-left:20px;
+        padding-right: 20px;
+        padding-left: 20px;
         text-align: justify;
         text-justify: inter-word;
     }
 
     ol {
-        padding-right:20px;
+        padding-right: 20px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color: white !important;
     }
 }
 </style>
+
 </html>

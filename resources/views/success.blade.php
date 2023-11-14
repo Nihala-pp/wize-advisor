@@ -21,13 +21,14 @@
             <h5 class="card-title mt-3">Confirmed</h5>
             <p class="card-text">Your call is scheduled with {{ $mentor->name }}</p>
             <h5 class="card-title">{{ $details['duration'] }} Min Meeting</h5>
-            <h6 class="card-title"> {{ $details['start_time'] }} - {{ $details['finish_time'] }} {{ $details['date'] }} {{ $details['UTC'] }} </h6>
+            <h6 class="card-title"> {{ $details['start_time'] }} - {{ $details['finish_time'] }} {{ $details['date'] }}
+                {{ $details['UTC'] }} </h6>
             <p class="card-text mt-2">An email for the meeting link will be sent to your Email Address Once
                 mentor approves the call.</p>
         </div>
     </div>
-      <!--   Core JS Files   -->
-      <!-- <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+    <!--   Core JS Files   -->
+    <!-- <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
             <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
                 <footer
@@ -909,13 +910,19 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .scheduled {
-    color:white;
+    color: white;
 }
 
 @media(max-width:480px) {
-   p {
-    font-family:"Roboto,Helvetica,Arial,sans-serif";
-   }
+    p {
+        font-family: "Roboto,Helvetica,Arial,sans-serif";
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color: white !important;
+    }
 }
 </style>
+
 </html>

@@ -2163,11 +2163,11 @@
                                                     class="elementor-star-full">&#xE934;</i> <span
                                                     itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                             </div>
-                                            
+
                                             <!-- </div> -->
                                         </div>
                                         <span class="text-center price"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                    $ / 30 Min</b></span>
+                                                $ / 30 Min</b></span>
                                     </small>
                                 </div>
                             </div>
@@ -3592,7 +3592,7 @@
         color: white !important;
     }
 
-     .price {
+    .price {
         padding-left: 110px !important;
     }
 }
@@ -3682,6 +3682,6 @@ input[type="date"]:valid::before {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
-</style>
 
+</style>
 </html>

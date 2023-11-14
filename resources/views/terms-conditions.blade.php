@@ -3387,6 +3387,11 @@ i.fas.fa-bell.fa-2xl {
     ol {
         padding-right:20px;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color: white !important;
+    }
 }
 </style>
 

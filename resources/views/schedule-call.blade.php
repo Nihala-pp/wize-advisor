@@ -2731,6 +2731,11 @@ i.fas.fa-bell.fa-2xl {
         color: #000;
         font-size: 16px;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color: white !important;
+    }
 }
 </style>
 
