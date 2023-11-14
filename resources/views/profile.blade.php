@@ -5157,6 +5157,12 @@ i.fas.fa-bell.fa-2xl {
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-12b61d0 .elementor-divider {
+        text-align: center;
+        margin-top: -15px;
+        padding-bottom: 2px;
+    }
 }
 
 @media (max-width: 767px) {
