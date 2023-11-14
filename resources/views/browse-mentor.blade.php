@@ -3581,7 +3581,8 @@
     }
 
     .filters {
-        margin-left: 75px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
