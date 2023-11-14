@@ -3653,14 +3653,14 @@ input[type="date"]::before {
 input[type="date"] {
     padding-right: 16px !important;
     padding-left: 16px !important;
-    padding-top: 16px !important;
+    /* padding-top: 16px !important; */
     color: #54b4d3 !important;
 }
 
 input[type="date"]:focus,
 input[type="date"]:valid {
     padding-right: 16px !important;
-    padding-left: 16px !important;
+    /* padding-left: 16px !important; */
     /* padding-top: 25px !important;     */
     color: #ffff !important;
 }
