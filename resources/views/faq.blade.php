@@ -3628,7 +3628,7 @@ i.fas.fa-bell.fa-2xl {
 @media(max-width:480px) {
 
     .quest {
-      margin-top: -20px !important;
+      margin-top: -40px !important;
     }
 
     .elementor-18 .elementor-element.elementor-element-f86b72c>.elementor-widget-container {
