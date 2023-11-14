@@ -5163,6 +5163,11 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -15px !important;
         padding-bottom: 2px;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color: white !important;
+    }
 }
 
 @media (max-width: 767px) {
