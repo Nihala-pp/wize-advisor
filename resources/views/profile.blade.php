@@ -5152,5 +5152,17 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 400;
         padding-right: 20px;
     }
+
+    .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-2372 .elementor-element.elementor-element-52071b2>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
 }
 </style>
