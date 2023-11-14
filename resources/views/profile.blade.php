@@ -5053,7 +5053,7 @@ i.fas.fa-bell.fa-2xl {
         text-align: justify !important;
         text-justify: inter-word !important;
         margin-left: 20px !important;
-        margin-right: 35px !important;
+        margin-right: 40px !important;
         color: #000 !important;
         padding-top: 20px;
     }
