@@ -3640,10 +3640,16 @@ i.fas.fa-bell.fa-2xl {
         text-justify: inter-word;
     }
 
+    .elementor-18 .elementor-element.elementor-element-2642eda .elementor-accordion-icon.elementor-accordion-icon-left {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
 }
 </style>
+
 </html>
