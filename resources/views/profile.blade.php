@@ -5159,6 +5159,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2372 .elementor-element.elementor-element-9905fba {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: 0px !important;
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
     }
