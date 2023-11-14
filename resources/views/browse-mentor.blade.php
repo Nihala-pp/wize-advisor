@@ -1923,7 +1923,7 @@
 
             .elementor-star-rating__wrapper {
                 display: flex;
-                align-items: center
+                align-items: right
             }
 
             .elementor-star-rating__title {
@@ -3443,7 +3443,7 @@
     }
 
     .elementor-star-rating__wrapper {
-        padding-right: 70px;
+        padding-right: 90px;
     }
 
     /* input#date.form-control.selectpicker {
