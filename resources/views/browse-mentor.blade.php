@@ -3042,13 +3042,13 @@
         }
 
         ::placeholder {
-            padding-top: 10px !important;
+            margin-top: 15px !important;
             color: #fff !important;
             opacity: 1 !important;
         }
 
         ::-ms-input-placeholder {
-            padding-top: 10px !important;
+            margin-top: 15px !important;
             color: #fff !important;
             opacity: 1 !important;
         }
