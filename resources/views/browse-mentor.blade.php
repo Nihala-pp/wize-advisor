@@ -1972,7 +1972,7 @@
 
             @media (max-width:767px) {
                 .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
-                    text-align: right;
+                    text-align: center;
                     justify-content: flex-end
                 }
 
@@ -2039,7 +2039,7 @@
                                 <div class="card-footer">
                                     <small class="text-muted">
                                         <div class="elementor-star-rating__wrapper">
-                                            <div class="elementor-star-rating__wrapper">
+                                            <!-- <div class="elementor-star-rating__wrapper"> -->
                                                 <div class="elementor-star-rating" title="5/5"
                                                     itemtype="http://schema.org/Rating" itemscope=""
                                                     itemprop="reviewRating">
@@ -2050,7 +2050,7 @@
                                                         class="elementor-star-full">&#xE934;</i> <span
                                                         itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                                 </div>
-                                            </div>
+                                            <!-- </div> -->
                                             <span class="text-center"><b>{{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                     $ / 30 Min</b></span>
                                         </div>
@@ -3443,7 +3443,7 @@
     }
 
     .elementor-star-rating__wrapper {
-        padding-right: 90px;
+        padding-right: 75px;
     }
 
     /* input#date.form-control.selectpicker {
