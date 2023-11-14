@@ -5160,7 +5160,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2372 .elementor-element.elementor-element-12b61d0 .elementor-divider {
         text-align: center;
-        margin-top: -15px;
+        margin-top: -15px !important;
         padding-bottom: 2px;
     }
 }
