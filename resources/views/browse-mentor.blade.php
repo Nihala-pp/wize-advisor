@@ -3588,8 +3588,8 @@
         color: white !important;
     }
 
-     span .price {
-        padding-left: 110px;
+     .price {
+        padding-left: 110px !important;
     }
 }
 
