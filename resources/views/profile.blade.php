@@ -5048,7 +5048,7 @@ i.fas.fa-bell.fa-2xl {
         text-justify: inter-word;
     }
 
-    .elementor-widget-text-editor p {
+    .elementor-widget-text-editor .bio p {
         font-size: 16px;
         line-height: 25px;
         padding-right: 20px !important;
