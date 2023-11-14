@@ -3628,7 +3628,7 @@ i.fas.fa-bell.fa-2xl {
 @media(max-width:480px) {
 
     .ask {
-        margin-top: -10px !important; 
+        margin-top: -20px !important; 
     }
 
     .quest {
