@@ -5050,8 +5050,8 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-widget-text-editor p {
         font-size: 16px;
-        line-height:25px;
-        padding-right:20px !important;
+        line-height: 25px;
+        padding-right: 20px !important;
         /* text-align: justify !important;
         text-justify: inter-word !important; */
         /* margin-left: 20px !important;
@@ -5115,6 +5115,14 @@ i.fas.fa-bell.fa-2xl {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-2372 .elementor-element.elementor-element-6b6a93e {
+        text-align: justify;
+        color: #000000;
+        font-family: "Sailec", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
     }
 }
 </style>
