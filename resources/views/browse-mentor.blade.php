@@ -3557,7 +3557,7 @@
     }
 
     .elementor-star-rating__wrapper {
-        padding-right: 75px;
+        padding-left: 125px;
     }
 
     /* input#date.form-control.selectpicker {
