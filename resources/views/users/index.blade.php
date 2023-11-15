@@ -447,15 +447,20 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     background-color: #fff !important;
 }
 
-.mentor_name {
+/* .mentor_name {
     margin-right: 20px !important;
     font-size: 12px !important;
-}
+} */
 
 @media (max-width:480px) {
     .rounded-circle {
         height: 40px;
         width: 40px;
+    }
+
+    .mentor_name {
+        margin-left: 20px !important;
+        font-size: 12px !important;
     }
 }
 
@@ -463,6 +468,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     .rounded-circle {
         height: 40px;
         width: 40px;
+    }
+
+    .mentor_name {
+        margin-left: 20px !important;
+        font-size: 12px !important;
     }
 }
 
