@@ -476,7 +476,6 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     }
 }
 
-.rounded-circle
 /* #navbarDropdownMenuLink {
         z-index: 999999 !important;
     } */
