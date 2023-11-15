@@ -84,8 +84,8 @@
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/community-post/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Community
+                                                        <a href="https://wiseadvizor.com/community-post/" itemprop="url"
+                                                            class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
@@ -122,7 +122,7 @@
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                         href="{{ route('browseMentor') }}">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Browse Mentors</span>
+                                            <span class="elementor-button-text">Browse Mentor</span>
                                         </span>
                                     </a>
                                 </div>
@@ -132,7 +132,7 @@
                             data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                @if(Auth::id() && auth()->user()->role_id == 3)
+                                    @if(Auth::id() && auth()->user()->role_id == 3)
                                     <div class="d-flex align-items-center">
                                         <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
@@ -268,8 +268,8 @@
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/community-post/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Community
+                                                        <a href="https://wiseadvizor.com/community-post/" itemprop="url"
+                                                            class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
@@ -393,16 +393,3 @@
                 </div>
             </div>
         </header>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-d847c98 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="d847c98" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d317bb"
-                    data-id="4d317bb" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-</header>
