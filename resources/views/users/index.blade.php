@@ -13,7 +13,7 @@
 @php header('Access-Control-Allow-Origin: *'); @endphp
 
 
-@include('partials.web-header')
+@include('partials.web-header-new')
 
 <!-- <style>
 <link id="pagestyle"href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/><link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
