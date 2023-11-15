@@ -76,7 +76,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->mentor->metaData ? $upcoming_session->mentor->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img') }}/{{ $upcoming_session->mentor->metaData ? $upcoming_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
@@ -166,7 +166,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->mentor->metaData ? $requested_session->mentor->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img') }}/{{ $requested_session->mentor->metaData ? $requested_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
@@ -255,7 +255,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->mentor->metaData ? $completed_session->mentor->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img') }}/{{ $completed_session->mentor->metaData ? $completed_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
@@ -338,7 +338,7 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img/') }}/{{ $suggested_mentor->metaData ? $suggested_mentor->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData ? $suggested_mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
