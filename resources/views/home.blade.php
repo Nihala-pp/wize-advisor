@@ -1094,7 +1094,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/8">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
-    <link rel="canonical" href="https://wiseadvizor.com/home/">
+    <link rel="canonical" href="https://wiseadvizor.com/">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=8">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fhome%2F">
@@ -1233,7 +1233,7 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="https://wiseadvizor.com/home">
+                                    </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
@@ -1368,7 +1368,7 @@
                             <div class="elementor-element elementor-element-af3e3d6 elementor-widget elementor-widget-image"
                                 data-id="af3e3d6" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <a href="https://wiseadvizor.com/home">
+                                    <a href="https://wiseadvizor.com">
                                         <img width="300" height="45"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png"
                                             class="attachment-medium size-medium wp-image-624" alt=""
