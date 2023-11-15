@@ -454,8 +454,8 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 @media (max-width:480px) {
     .rounded-circle {
-        height: 40px;
-        width: 40px;
+        height: 40px !important;
+        width: 40px !important;
     }
 
     .mentor_name {
@@ -466,8 +466,8 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 @media (min-width:1024px) {
     .rounded-circle {
-        height: 40px;
-        width: 40px;
+        height: 40px !important;
+        width: 40px !important;
     }
 
     .mentor_name {
