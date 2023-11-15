@@ -462,6 +462,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         margin-left: 20px !important;
         font-size: 12px !important;
     }
+
+    .text-muted {
+        --mdb-text-opacity: 1;
+        color: #000000 !important;
+    }
 }
 
 @media (min-width:1024px) {
