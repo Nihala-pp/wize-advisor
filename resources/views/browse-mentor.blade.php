@@ -1542,12 +1542,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1566,7 +1566,7 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
@@ -1732,12 +1732,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1756,7 +1756,7 @@
                                 data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="">
+                                        <a class="elementor-button elementor-button-link elementor-size-xs" href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
