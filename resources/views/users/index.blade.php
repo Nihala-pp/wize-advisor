@@ -10,9 +10,6 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-@php header('Access-Control-Allow-Origin: *'); @endphp
-
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -1316,10 +1313,6 @@
 
 <!-- <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13"> -->
-
-<style>
-<link id="pagestyle"href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/><link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
-</style>
 
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
