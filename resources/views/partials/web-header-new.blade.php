@@ -79,7 +79,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
@@ -1115,7 +1115,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
