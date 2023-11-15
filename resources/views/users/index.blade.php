@@ -167,7 +167,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->mentor->metaData ? $requested_session->mentor->metaData->profile_pic : '' }}"
-                                                            class="rounded-circle" height="5" width="35">
+                                                                class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
@@ -256,7 +256,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->mentor->metaData ? $completed_session->mentor->metaData->profile_pic : '' }}"
-                                                            class="rounded-circle" height="5" width="35">
+                                                                class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
@@ -339,7 +339,7 @@
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img/') }}/{{ $suggested_mentor->metaData ? $suggested_mentor->metaData->profile_pic : '' }}"
-                                                            class="rounded-circle" height="5" width="35">
+                                                                class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
@@ -448,10 +448,25 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .mentor_name {
-    margin-right : 20px !important;
+    margin-right: 20px !important;
     font-size: 12px !important;
 }
 
+@media (max-width:480px) {
+    .rounded-circle {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (min-width:1024px) {
+    .rounded-circle {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.rounded-circle
 /* #navbarDropdownMenuLink {
         z-index: 999999 !important;
     } */
