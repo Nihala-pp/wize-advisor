@@ -1347,7 +1347,7 @@
             </header>
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-14994ed elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="14994ed" data-element_type="section">
+                data-id="14994ed" data-element_type="section" style="display:none;">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4e76ded elementor-hidden-mobile"
                         data-id="4e76ded" data-element_type="column">
