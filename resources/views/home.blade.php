@@ -2716,16 +2716,17 @@
                                                                                                     data-id="4f32c92"
                                                                                                     data-element_type="widget"
                                                                                                     data-widget_type="button.default">
+
                                                                                                     <div
-                                                                                                        style="display: flex; justify-content: space-between;">
-                                                                                                        <span
-                                                                                                            class="badge badge-warning">{{ $expert->expertise }}</span>
-                                                                                                        <span
-                                                                                                            class="badge badge-info">{{ $expert->expertise }}</span>
-                                                                                                    </div>
-                                                                                                    <!-- <div
-                                                                                                        class="elementor-widget-container"> -->
-                                                                                                    <!-- <div
+                                                                                                        class="elementor-widget-container">
+                                                                                                        <div
+                                                                                                            style="display: flex; justify-content: space-between;">
+                                                                                                            <span
+                                                                                                                class="badge badge-warning">{{ $expert->expertise }}</span>
+                                                                                                            <span
+                                                                                                                class="badge badge-info">{{ $expert->expertise }}</span>
+                                                                                                        </div>
+                                                                                                        <!-- <div
                                                                                                             class="elementor-button-wrapper">
                                                                                                             <a class="elementor-button elementor-button-link elementor-size-xs"
                                                                                                                 href="#">
@@ -2738,7 +2739,7 @@
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div> -->
-                                                                                                    <!-- </div> -->
+                                                                                                    </div>
                                                                                                 </div>
                                                                                                 <!-- <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                 data-id="27f7170"
