@@ -2713,9 +2713,9 @@
                                                                                                 $expert)
                                                                                                 @endphp
                                                                                                 <span
-                                                                                                    class="badge badge-warning">Warning</span>
+                                                                                                    class="badge badge-warning">{{ $expert->expertise }}</span>
                                                                                                 <span
-                                                                                                    class="badge badge-info">Info</span>
+                                                                                                    class="badge badge-info">{{ $expert->expertise }}</span>
                                                                                                 <!-- <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                     data-id="4f32c92"
                                                                                                     data-element_type="widget"
