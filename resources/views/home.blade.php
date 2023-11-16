@@ -2717,7 +2717,7 @@
                                                                                                     data-element_type="widget"
                                                                                                     data-widget_type="button.default">
                                                                                                     <span
-                                                                                                        class="badge badge-primary">{{ $expert->expertise }}</span>
+                                                                                                        class="badge badge-info">{{ $expert->expertise }}</span>
                                                                                                     <!-- <div
                                                                                                         class="elementor-widget-container">
                                                                                                         <div
