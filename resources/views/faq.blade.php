@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title>FAQ &#8211; WISE ADVIZOR</title>
+    <title>FAQ &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -9,9 +9,9 @@
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
@@ -1192,8 +1192,8 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-18 page-parent wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-18">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
-                rel="home">WISE ADVIZOR</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="wiseAdvizor"
+                rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf19fcc elementor-section-full_width elementor-section-content-top she-header-yes elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"

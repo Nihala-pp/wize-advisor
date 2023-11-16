@@ -1357,8 +1357,8 @@
         </defs>
     </svg>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
-                rel="home">WISE ADVIZOR</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="wiseAdvizor"
+                rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-7527857 elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"

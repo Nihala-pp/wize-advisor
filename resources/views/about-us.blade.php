@@ -1176,8 +1176,8 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="WISE ADVIZOR"
-                rel="home">WISE ADVIZOR</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
+                rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf19fcc elementor-section-full_width elementor-section-content-top she-header-yes elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"

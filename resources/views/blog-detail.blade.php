@@ -12,9 +12,9 @@
     <meta name="robots" content="max-image-preview:large">
     <title>Blogs &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
@@ -1370,8 +1370,8 @@
         </defs>
     </svg> -->
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="WISE ADVIZOR"
-                rel="home">WISE ADVIZOR</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
+                rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-cf19fcc elementor-section-full_width elementor-section-content-top she-header-yes elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
