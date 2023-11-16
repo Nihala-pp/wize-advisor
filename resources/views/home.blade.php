@@ -3414,7 +3414,7 @@
                                 <div class="elementor-element elementor-element-4e4b0af elementor-widget elementor-widget-heading"
                                     data-id="4e4b0af" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">What Our Client Says
+                                        <h2 class="elementor-heading-title elementor-size-default">What Our  Mentees Say
                                         </h2>
                                     </div>
                                 </div>
