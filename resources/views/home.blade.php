@@ -376,8 +376,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1057,8 +1056,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
@@ -1085,8 +1083,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
         id="she-header-js"></script>
@@ -1200,8 +1198,8 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/"
-                title="wiseAdvizor" rel="home">wiseAdvizor</a></p>
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="wiseAdvizor"
+                rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-7527857 elementor-section-full_width elementor-section-content-top elementor-hidden-tablet elementor-hidden-mobile she-header-yes elementor-section-height-default elementor-section-height-default"
@@ -1278,8 +1276,8 @@
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/"
-                                                            itemprop="url" class="hfe-menu-item">Resource<span
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
+                                                            class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
@@ -1291,13 +1289,13 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -1320,7 +1318,8 @@
                                 data-id="02e763c" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
@@ -1421,8 +1420,8 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -2724,12 +2723,14 @@
                                                                                                             <a class="elementor-button elementor-button-link elementor-size-xs"
                                                                                                                 href="#">
                                                                                                                 <span
+                                                                                                                    class="badge badge-primary">{{ $expert->expertise }}</span>
+                                                                                                                <!-- <span
                                                                                                                     class="elementor-button-content-wrapper">
                                                                                                                     <span
                                                                                                                         class="elementor-button-text">
                                                                                                                         {{ $expert->expertise }}
                                                                                                                     </span>
-                                                                                                                </span>
+                                                                                                                </span> -->
                                                                                                             </a>
                                                                                                         </div>
                                                                                                     </div>
@@ -4487,7 +4488,8 @@
                                                                 <p
                                                                     class="elementor-heading-title elementor-size-default">
                                                                     <a href="{{ route('termsConditions') }}">Terms &
-                                                                        Conditions</a></p>
+                                                                        Conditions</a>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -4502,7 +4504,8 @@
                                                                 <p
                                                                     class="elementor-heading-title elementor-size-default">
                                                                     <a href="{{ route('community-guidelines') }}">Community
-                                                                        Guidelines</a></p>
+                                                                        Guidelines</a>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -4516,7 +4519,8 @@
                                                             <div class="elementor-widget-container">
                                                                 <p
                                                                     class="elementor-heading-title elementor-size-default">
-                                                                    <a href="{{ route('aboutUs') }}">About Us</a></p>
+                                                                    <a href="{{ route('aboutUs') }}">About Us</a>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -4545,7 +4549,8 @@
                                                             <div class="elementor-widget-container">
                                                                 <p
                                                                     class="elementor-heading-title elementor-size-default">
-                                                                    <a href="{{ route('faq') }}">FAQs</a></p>
+                                                                    <a href="{{ route('faq') }}">FAQs</a>
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
