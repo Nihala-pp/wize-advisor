@@ -2705,13 +2705,6 @@
                                                                                             data-element_type="column">
                                                                                             <div
                                                                                                 class="elementor-widget-wrap elementor-element-populated">
-                                                                                                @php
-                                                                                                $expertise =
-                                                                                                App\Models\Expertise::where('mentor_id',
-                                                                                                $mentor->id)->limit(3)->get();
-                                                                                                foreach($expertise as
-                                                                                                $expert)
-                                                                                                @endphp
                                                                                                 <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                     data-id="4f32c92"
                                                                                                     data-element_type="widget"
@@ -2721,10 +2714,25 @@
                                                                                                         class="elementor-widget-container">
                                                                                                         <div
                                                                                                             style="display: flex; justify-content: space-between;">
+                                                                                                            @php
+                                                                                                            $expertise =
+                                                                                                            App\Models\UserMeta::where('user_id',
+                                                                                                            $mentor->id)->first();
+                                                                                                            $decoded =
+                                                                                                            json_decode($expertise,
+                                                                                                            true);
+                                                                                                            @endphp
+                                                                                                            @foreach($decoded
+                                                                                                            as $d)
+                                                                                                            @foreach($d
+                                                                                                            as $k=>$v)
                                                                                                             <span
-                                                                                                                class="badge badge-pill badge-warning">{{ $expert->expertise }}</span>
-                                                                                                            <span
-                                                                                                                class="badge badge-pill badge-warning">{{ $expert->expertise }}</span>
+                                                                                                                class="badge badge-pill badge-warning">{{ $v }}</span>
+                                                                                                            <!-- echo "$k -
+                                                                                                            $v\n"; -->
+                                                                                                            
+                                                                                                            <!-- <span
+                                                                                                                class="badge badge-pill badge-warning">{{ $expert->expertise }}</span> -->
                                                                                                         </div>
                                                                                                         <!-- <div
                                                                                                             class="elementor-button-wrapper">

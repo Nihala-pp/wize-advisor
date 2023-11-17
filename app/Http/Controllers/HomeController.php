@@ -68,7 +68,6 @@ class HomeController extends Controller
     $review5 = Review::where('id', 9)->first();
 
     // $expertise = [
-    //   Inna => Content-Marketing, Copywriting,
     //   Sumedha => GTM-Strategy, Brand-Strategy,
     //   Soha => Growth-Strategy, Storytelling,
     //   Michelle => Fundraising, Business-Strategy,
