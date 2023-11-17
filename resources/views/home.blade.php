@@ -2697,7 +2697,7 @@
                                                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                                                             @php
                                                                                                                $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
-                                                                                                               $decoded = json_decode($expertise,true);
+                                                                                                               $decoded = json_decode($expertise);
                                                                                                             @endphp
                                                                                                 <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="4f32c92" data-element_type="widget" data-widget_type="button.default">
                                                                                                     <div class="elementor-widget-container">
