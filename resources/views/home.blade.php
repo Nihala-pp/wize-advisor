@@ -2681,7 +2681,7 @@
                                                                                         <p
                                                                                             class="elementor-heading-title elementor-size-default">
                                                                                             {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}
-                            
+
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -2691,25 +2691,40 @@
                                                                                     data-element_type="section">
                                                                                     <div
                                                                                         class="elementor-container elementor-column-gap-default">
-                                                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8b82564" data-id="8b82564"  data-element_type="column">
-                                                                                            
-                                                                                           
-                                                                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                                                                            @php
-                                                                                                               $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
-                                                                                                               $decoded = json_decode($expertise);
-                                                                                                            @endphp
-                                                                                                <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="4f32c92" data-element_type="widget" data-widget_type="button.default">
-                                                                                                    <div class="elementor-widget-container">
-                                                                                                        <div style="display:flex; justify-content:space-between;">
-                                                                                                            @foreach($decoded as $d)
-                                                                                                               @foreach($d as $k => $v) 
-                                                                                                                  <span class="badge badge-pill badge-warning">{{ $v }}</span>
-                                                                                                               @endforeach    
+                                                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8b82564"
+                                                                                            data-id="8b82564"
+                                                                                            data-element_type="column">
+
+
+                                                                                            <div
+                                                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                                                @php
+                                                                                                $expertise =
+                                                                                                $mentor->metaData ?
+                                                                                                $mentor->metaData->expertise
+                                                                                                : '';
+                                                                                                $decoded =
+                                                                                                json_decode($expertise);
+                                                                                                @endphp
+                                                                                                <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                                                                                    data-id="4f32c92"
+                                                                                                    data-element_type="widget"
+                                                                                                    data-widget_type="button.default">
+                                                                                                    <div
+                                                                                                        class="elementor-widget-container">
+                                                                                                        <div
+                                                                                                            style="display:flex; justify-content:space-between;">
+                                                                                                            @foreach($decoded
+                                                                                                            as $d)
+                                                                                                            @foreach($d
+                                                                                                            as $k => $v)
+                                                                                                            <span
+                                                                                                                class="badge badge-pill badge-warning">{{ $v }}</span>
                                                                                                             @endforeach
-                                                                                                          
+                                                                                                            @endforeach
+
                                                                                                         </div>
-                                                        
+
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <!-- <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -5454,6 +5469,14 @@
                 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
                     color: #330252;
                 }
+            }
+
+            .badge-warning {
+                background-color: #4f4f4f;
+                color: #fff;
+                font-size: 12px;
+                font-family: sans-serif, helvetica;
+                margin-right: 20px;
             }
             </style>
 
