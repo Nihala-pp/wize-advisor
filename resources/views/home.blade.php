@@ -2719,7 +2719,7 @@
                                                                                                             App\Models\UserMeta::where('user_id',
                                                                                                             $mentor->id)->first();
                                                                                                             $decoded =
-                                                                                                            json_decode($expertise,
+                                                                                                            json_decode($expertise->expertise,
                                                                                                             true);
                                                                                                             foreach($decoded
                                                                                                             as $d) {
