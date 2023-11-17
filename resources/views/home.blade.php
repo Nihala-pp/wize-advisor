@@ -5474,7 +5474,7 @@
             .badge-warning {
                 background-color: #262626;
                 color: #fff;
-                font-size: 12px;
+                font-size: 11px;
                 font-family: "Helvetica", Sans-serif;
                 margin-right: 20px;
             }
