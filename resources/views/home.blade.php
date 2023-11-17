@@ -2722,9 +2722,9 @@
                                                                                                         <div
                                                                                                             style="display: flex; justify-content: space-between;">
                                                                                                             <span
-                                                                                                                class="badge badge-warning">{{ $expert->expertise }}</span>
+                                                                                                                class="badge badge-pill badge-primary">{{ $expert->expertise }}</span>
                                                                                                             <span
-                                                                                                                class="badge badge-info">{{ $expert->expertise }}</span>
+                                                                                                                class="badge badge-pill badge-primary">{{ $expert->expertise }}</span>
                                                                                                         </div>
                                                                                                         <!-- <div
                                                                                                             class="elementor-button-wrapper">
