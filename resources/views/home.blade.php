@@ -2721,16 +2721,20 @@
                                                                                                             $decoded =
                                                                                                             json_decode($expertise,
                                                                                                             true);
+                                                                                                            foreach($decoded
+                                                                                                            as $d) {
+                                                                                                            foreach($d
+                                                                                                            as $k=>$v) {
                                                                                                             @endphp
-                                                                                                            @foreach($decoded
-                                                                                                            as $d)
-                                                                                                            @foreach($d
-                                                                                                            as $k=>$v)
                                                                                                             <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $v }}</span>
+                                                                                                            @php
+                                                                                                            }
+                                                                                                            }
+                                                                                                            @endphp
                                                                                                             <!-- echo "$k -
                                                                                                             $v\n"; -->
-                                                                                                            
+
                                                                                                             <!-- <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $expert->expertise }}</span> -->
                                                                                                         </div>
@@ -5692,4 +5696,5 @@
             </script>
             <!--End of Tawk.to Script-->
 </body>
+
 </html>
