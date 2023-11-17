@@ -2705,32 +2705,25 @@
                                                                                             data-element_type="column">
                                                                                             <div
                                                                                                 class="elementor-widget-wrap elementor-element-populated">
-                                                                                                @php
-                                                                                                            $expertise = $mentor->metaData->expertise;                                                                 
-                                                                                                            $decoded = json_decode($expertise,true);
-                                                                                                            echo $decoded;
-                                                                                                            <!-- foreach($decoded as $d) {
-                                                                                                                foreach($d as $k=>$v) { -->
-                                                                                                @endphp
+                                                                                               
                                                                                                 <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                                                                                     data-id="4f32c92"
                                                                                                     data-element_type="widget"
                                                                                                     data-widget_type="button.default">
-
                                                                                                     <div
                                                                                                         class="elementor-widget-container">
                                                                                                         <div
                                                                                                             style="display: flex; justify-content: space-between;">
-                                                                                                           
-                                                                                                            <span
-                                                                                                                class="badge badge-pill badge-warning">{{ $v }}</span>
                                                                                                             @php
-                                                                                                                                  <!-- }
-                                                                                                            } -->
+                                                                                                               $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
+                                                                                                               $decoded = json_decode($expertise,true);
+                                                                                                            <!-- echo $decoded; -->      
                                                                                                             @endphp
-                                                                                                            <!-- echo "$k -
-                                                                                                            $v\n"; -->
-
+                                                                                                            @foreach($decoded as $d)
+                                                                                                               @foreach($d as $k => $v) 
+                                                                                                                  <span class="badge badge-pill badge-warning">{{ $v }}</span>
+                                                                                                                @endforeachq    
+                                                                                                            @endforeach
                                                                                                             <!-- <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $expert->expertise }}</span> -->
                                                                                                         </div>
