@@ -2715,21 +2715,15 @@
                                                                                                         <div
                                                                                                             style="display: flex; justify-content: space-between;">
                                                                                                             @php
-                                                                                                            $expertise =
-                                                                                                            App\Models\UserMeta::where('user_id',
-                                                                                                            $mentor->id)->first();
-                                                                                                            $decoded =
-                                                                                                            json_decode($expertise->expertise,
-                                                                                                            true);
-                                                                                                            foreach($decoded
-                                                                                                            as $d) {
-                                                                                                            foreach($d
-                                                                                                            as $k=>$v) {
+                                                                                                            $expertise = $mentor->metaData->expertise;                                                                 
+                                                                                                            $decoded = json_decode($expertise,true);
+                                                                                                            foreach($decoded as $d) {
+                                                                                                                foreach($d as $k=>$v) {
                                                                                                             @endphp
                                                                                                             <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $v }}</span>
                                                                                                             @php
-                                                                                                            }
+                                                                                                                                  }
                                                                                                             }
                                                                                                             @endphp
                                                                                                             <!-- echo "$k -
