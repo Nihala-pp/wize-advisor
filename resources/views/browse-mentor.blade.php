@@ -3625,7 +3625,7 @@
 
     .butto {
         /* /* margin-left:50px; */
-        padding-left: 20px;
+        padding-left: 25px;
     }
 }
 
@@ -3653,7 +3653,7 @@
     }
 
     .name {
-        margin-top:25px;
+        margin-top:20px;
     }
 }
 
