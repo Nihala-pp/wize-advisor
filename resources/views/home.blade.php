@@ -2700,9 +2700,9 @@
                                                                                     data-element_type="section">
                                                                                     <div
                                                                                         class="elementor-container elementor-column-gap-default">
-                                                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8b82564"
-                                                                                            data-id="8b82564"
-                                                                                            data-element_type="column">
+                                                                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8b82564" data-id="8b82564"  data-element_type="column">
+                                                                                            
+                                                                                           
                                                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                                                             @php
                                                                                                                $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
