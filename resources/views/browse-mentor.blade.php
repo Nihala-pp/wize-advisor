@@ -3653,7 +3653,7 @@
     }
 
     .name {
-        margin-top:20px;
+        margin-top:15px;
     }
 }
 
