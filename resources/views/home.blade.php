@@ -2721,7 +2721,8 @@
                                                                                                         class="elementor-widget-container">
                                                                                                         <div
                                                                                                             style="display: flex; justify-content: space-between;">
-                                                                                                            <h6> <span class="badge badge-secondary">{{ $expert->expertise }}</span></h6>
+                                                                                                            <span
+                                                                                                                class="badge badge-pill badge-warning">{{ $expert->expertise }}</span>
                                                                                                             <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $expert->expertise }}</span>
                                                                                                         </div>
