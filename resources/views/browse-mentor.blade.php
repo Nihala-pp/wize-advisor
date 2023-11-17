@@ -3649,7 +3649,7 @@
     .price {
         padding-left: 110px;
         display: flex;
-        align-items: right; 
+        align-items: center; 
     }
 }
 
