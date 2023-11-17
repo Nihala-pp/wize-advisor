@@ -2717,14 +2717,15 @@
                                                                                                             @php
                                                                                                             $expertise = $mentor->metaData->expertise;                                                                 
                                                                                                             $decoded = json_decode($expertise,true);
-                                                                                                            foreach($decoded as $d) {
-                                                                                                                foreach($d as $k=>$v) {
+                                                                                                            echo $decoded;
+                                                                                                            <!-- foreach($decoded as $d) {
+                                                                                                                foreach($d as $k=>$v) { -->
                                                                                                             @endphp
                                                                                                             <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $v }}</span>
                                                                                                             @php
-                                                                                                                                  }
-                                                                                                            }
+                                                                                                                                  <!-- }
+                                                                                                            } -->
                                                                                                             @endphp
                                                                                                             <!-- echo "$k -
                                                                                                             $v\n"; -->
