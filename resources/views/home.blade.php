@@ -5472,10 +5472,10 @@
             }
 
             .badge-warning {
-                background-color: #4f4f4f;
+                background-color: #262626;
                 color: #fff;
                 font-size: 12px;
-                font-family: sans-serif, helvetica;
+                font-family: "Helvetica", Sans-serif;
                 margin-right: 20px;
             }
             </style>
