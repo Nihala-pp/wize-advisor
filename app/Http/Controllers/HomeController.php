@@ -67,16 +67,16 @@ class HomeController extends Controller
     $review4 = Review::where('id', 16)->first();
     $review5 = Review::where('id', 9)->first();
 
-    $expertise = [
-      Inna => Content-Marketing, Copywriting,
-      Sumedha => GTM-Strategy, Brand-Strategy,
-      Soha => Growth-Strategy, Storytelling,
-      Michelle => Fundraising, Business-Strategy,
-      Cien => Growth-Marketing, Idea-Validation,
-      Nevra => GTM-Strategy, Marketing-Strategy,
-      Lucile => E-Commerce, B2B,
-      Svetlana => MVP-Strategy, Idea-Validation
-    ];
+    // $expertise = [
+    //   Inna => Content-Marketing, Copywriting,
+    //   Sumedha => GTM-Strategy, Brand-Strategy,
+    //   Soha => Growth-Strategy, Storytelling,
+    //   Michelle => Fundraising, Business-Strategy,
+    //   Cien => Growth-Marketing, Idea-Validation,
+    //   Nevra => GTM-Strategy, Marketing-Strategy,
+    //   Lucile => E-Commerce, B2B,
+    //   Svetlana => MVP-Strategy, Idea-Validation
+    // ];
     
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
