@@ -1942,7 +1942,7 @@
                             <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
                                 name="date" required>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
                                 @foreach($price as $pr)
@@ -3650,6 +3650,10 @@
         padding-left: 110px;
         display: flex;
         align-items: center; 
+    }
+
+    .name {
+        margin-top:25px;
     }
 }
 
