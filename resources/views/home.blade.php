@@ -2703,8 +2703,7 @@
                                                                                         <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8b82564"
                                                                                             data-id="8b82564"
                                                                                             data-element_type="column">
-                                                                                            <div
-                                                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                                            <div class="elementor-widget-wrap elementor-element-populated">
                                                                                                             @php
                                                                                                                $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
                                                                                                                $decoded = json_decode($expertise,true);
@@ -2712,7 +2711,7 @@
                                                                                                             @endphp
                                                                                                 <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="4f32c92" data-element_type="widget" data-widget_type="button.default">
                                                                                                     <div class="elementor-widget-container">
-                                                                                                        <div style="display: flex; justify-content: space-between;">
+                                                                                                        <div style="display:flex; justify-content:space-between;">
                                                                                                             @foreach($decoded as $d)
                                                                                                                @foreach($d as $k => $v) 
                                                                                                                   <span class="badge badge-pill badge-warning">{{ $v }}</span>
