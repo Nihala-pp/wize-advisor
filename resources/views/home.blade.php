@@ -2705,24 +2705,18 @@
                                                                                             data-element_type="column">
                                                                                             <div
                                                                                                 class="elementor-widget-wrap elementor-element-populated">
-                                                                                               
-                                                                                                <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                                                                                    data-id="4f32c92"
-                                                                                                    data-element_type="widget"
-                                                                                                    data-widget_type="button.default">
-                                                                                                    <div
-                                                                                                        class="elementor-widget-container">
-                                                                                                        <div
-                                                                                                            style="display: flex; justify-content: space-between;">
                                                                                                             @php
                                                                                                                $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
                                                                                                                $decoded = json_decode($expertise,true);
-                                                                                                            <!-- echo $decoded; -->      
+                                                                                                                <!-- echo $decoded; -->      
                                                                                                             @endphp
+                                                                                                <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="4f32c92" data-element_type="widget" data-widget_type="button.default">
+                                                                                                    <div class="elementor-widget-container">
+                                                                                                        <div style="display: flex; justify-content: space-between;">
                                                                                                             @foreach($decoded as $d)
                                                                                                                @foreach($d as $k => $v) 
                                                                                                                   <span class="badge badge-pill badge-warning">{{ $v }}</span>
-                                                                                                                @endforeachq    
+                                                                                                               @endforeach    
                                                                                                             @endforeach
                                                                                                             <!-- <span
                                                                                                                 class="badge badge-pill badge-warning">{{ $expert->expertise }}</span> -->
