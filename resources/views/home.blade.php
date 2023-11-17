@@ -2681,16 +2681,7 @@
                                                                                         <p
                                                                                             class="elementor-heading-title elementor-size-default">
                                                                                             {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}
-                                                                                            <!-- @php
-                                                                                    $str = $mentor->metaData ?
-                                                                                    Str::words($mentor->metaData->bio,
-                                                                                    '17') : '';
-                                                                                    $result =
-                                                                                    preg_replace('~(\R{4})\R+~',
-                                                                                    '$1',$str);
-                                                                                    echo $result;
-                                                                                    @endphp -->
-                                                                                            <!-- {{ $mentor->metaData ? Str::words($mentor->metaData->bio, '17') : '' }} -->
+                            
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -2707,7 +2698,6 @@
                                                                                                             @php
                                                                                                                $expertise =  $mentor->metaData ? $mentor->metaData->expertise : '';                                                                 
                                                                                                                $decoded = json_decode($expertise,true);
-                                                                                                                <!-- echo $decoded; -->      
                                                                                                             @endphp
                                                                                                 <div class="elementor-element elementor-element-4f32c92 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="4f32c92" data-element_type="widget" data-widget_type="button.default">
                                                                                                     <div class="elementor-widget-container">
