@@ -2707,22 +2707,9 @@
                                                                                                                   <span class="badge badge-pill badge-warning">{{ $v }}</span>
                                                                                                                @endforeach    
                                                                                                             @endforeach
-                                                                                                            <!-- <span
-                                                                                                                class="badge badge-pill badge-warning">{{ $expert->expertise }}</span> -->
+                                                                                                          
                                                                                                         </div>
-                                                                                                        <!-- <div
-                                                                                                            class="elementor-button-wrapper">
-                                                                                                            <a class="elementor-button elementor-button-link elementor-size-xs"
-                                                                                                                href="#">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-content-wrapper">
-                                                                                                                    <span
-                                                                                                                        class="elementor-button-text">
-                                                                                                                        {{ $expert->expertise }}
-                                                                                                                    </span>
-                                                                                                                </span>
-                                                                                                            </a>
-                                                                                                        </div> -->
+                                                        
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <!-- <div class="elementor-element elementor-element-27f7170 elementor-widget__width-auto elementor-widget elementor-widget-button"
