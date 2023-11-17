@@ -3639,6 +3639,18 @@
     .card {
         width: 22rem !important;
     }
+
+    .elementor-star-rating__wrapper {
+        padding-left: 110px;
+        display: flex;
+        align-items: right;
+    }
+
+    .price {
+        padding-left: 110px;
+        display: flex;
+        align-items: right; 
+    }
 }
 
 .card-deck .card {
