@@ -187,7 +187,7 @@
                                                 <p class="text-xs font-weight-bold mb-0">{{ $expert->name }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <img src="{{ asset('public/assets/img/') }}/{{ $expert->icon }}"
+                                                <img src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $expert->icon }}"
                                                     class="avatar avatar-sm me-3 border-radius-lg" alt="icon">
                                             </td>
                                             <td class="align-middle text-center">
