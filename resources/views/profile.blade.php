@@ -249,7 +249,7 @@
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
-    </style>`
+    </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
