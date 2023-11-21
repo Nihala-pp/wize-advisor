@@ -93,12 +93,15 @@ class AdminController extends Controller
         return view('admin.expertise', compact('expertise'));
     }
 
-    public function editExpertise()
+    public function editExpertise(Request $request)
     {
 
     }
 
-    public function addExpertise
+    public function addExpertise(Request $reques)
+    {
+
+    }
 
     public function scheduledCalls()
     {
