@@ -100,7 +100,7 @@ class AdminController extends Controller
 
     public function addExpertise(Request $reques)
     {
-        return view(admin.add-expertise);
+        return view('admin.add-expertise');
     }
 
     public function deleteExpertise()

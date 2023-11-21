@@ -157,7 +157,7 @@
                         </div>
                         <div class="card-body">
                             <div class="row" id="row">
-                                <form method="POST" action="{{ route('admin.mentors.save') }}"
+                                <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
