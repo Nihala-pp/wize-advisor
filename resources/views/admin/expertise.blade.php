@@ -157,7 +157,7 @@
                         </div>
                         <div class="ms-auto my-auto mt-lg-3">
                             <div class="ms-auto my-auto">
-                                <a href="{{ route('admin.users.add') }}"
+                                <a href="{{ route('admin.mentors.expertise.add') }}"
                                     class="btn bg-gradient-primary btn-sm mb-0 newuser" target="_blank"
                                     data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New
                                     User</a>
@@ -170,56 +170,35 @@
                                         <tr>
                                             <th
                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">
-                                                User</th>
+                                                Expertise</th>
                                             <th
                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-sm heading">
-                                                Designation</th>
-                                            <th
-                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">
-                                                Status</th>
+                                                Icon</th>
                                             <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">
-                                                Registered at</th>
+                                                created at</th>
                                             <th class="text-secondary opacity-7"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach($users as $user)
+                                        @foreach($expertise as $expert)
                                         <tr>
                                             <td>
-                                                <div class="d-flex px-2 py-1">
-                                                    <div>
-                                                        <img src="{{ asset('assets/img/team-2.jpg') }}"
-                                                            class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="mb-0 text-sm">{{ $user->name }}</h6>
-                                                        <p class="text-xs text-secondary mb-0">{{ 'USR000'.$user->id }}
-                                                        </p>
-                                                        <p class="text-xs text-secondary mb-0">{{ $user->email }}</p>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td>
                                                 <p class="text-xs font-weight-bold mb-0">Manager</p>
-                                                <p class="text-xs text-secondary mb-0">Organization</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                @if($user->email_verified_at)
-                                                <span class="badge badge-sm bg-gradient-success">Active</span>
-                                                @else
-                                                <span class="badge badge-sm bg-gradient-danger">In-Active</span>
-                                                @endif
+                                                <img src="{{ asset('assets/img/team-2.jpg') }}"
+                                                    class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span
                                                     class="text-secondary text-xs font-weight-bold">{{ $user->created_at }}</span>
                                             </td>
                                             <td class="align-middle">
-                                                <a href="{{ route('admin.user_profiles.view_profile',[$user->id]) }}"
+                                                <a href="{{ route('admin.mentors.expertise.edit',[$user->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
-                                                    data-toggle="tooltip" data-original-title="View user">
-                                                    View
+                                                    data-toggle="tooltip" data-original-title="Edit user">
+                                                    Edit
                                                 </a>
                                             </td>
                                         </tr>

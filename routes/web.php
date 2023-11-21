@@ -133,7 +133,8 @@ Route::controller(AdminController::class)
         Route::get('/login_history', 'login_history')->name('login_history');
         Route::get('/logs', 'logs')->name('logs');
         Route::get('/sign-in', 'signin')->name('mentors.sign-in');
-        Route::get('/expertise/add', 'expertise')->name('mentors.expertise.list');
+        Route::get('/expertise/list', 'expertise')->name('mentors.expertise.list');
+        Route::get('/expertise/add', 'expertise')->name('mentors.expertise.add');
         Route::get('/blogs', 'blogs')->name('mentors.blogs');
         Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
