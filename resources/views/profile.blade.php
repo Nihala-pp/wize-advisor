@@ -5196,5 +5196,11 @@ i.fas.fa-bell.fa-2xl {
         --e-column-margin-right: 0px;
         --e-column-margin-left: 0px;
     }
+
+    .elementor-2372 .elementor-element.elementor-element-9e80a97 .elementor-heading-title {
+        font-size: 20px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
 }
 </style>
