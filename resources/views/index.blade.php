@@ -94,6 +94,30 @@
                                     <span class="sidenav-normal  ms-2  ps-1"> Profile </span>
                                 </a>
                             </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="{{ route('admin.mentors.list_mentors') }}">
+                                    <span class="sidenav-mini-icon"> P </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Profile </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="{{ route('admin.mentors.expertise.list') }}">
+                                    <span class="sidenav-mini-icon"> E </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Expertise </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="{{ route('admin.mentors.blogs') }}">
+                                    <span class="sidenav-mini-icon"> B </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Blogs </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="{{ route('admin.mentors.vouchers') }}">
+                                    <span class="sidenav-mini-icon"> V </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Vouchers </span>
+                                </a>
+                            </li>
                             <!-- <li class="nav-item ">
                 <a class="nav-link text-white " href="{{ route('admin.mentors.reviews') }}">
                   <span class="sidenav-mini-icon"> R </span>
@@ -169,7 +193,8 @@
     </aside>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky" id="navbarBlur" data-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg position-sticky mt-4 top-1 px-0 mx-4 shadow-none border-radius-xl z-index-sticky"
+            id="navbarBlur" data-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
