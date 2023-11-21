@@ -136,6 +136,7 @@ Route::controller(AdminController::class)
         Route::get('/expertise/list', 'expertise')->name('mentors.expertise.list');
         Route::post('/expertise/add', 'addExpertise')->name('mentors.expertise.add');
         Route::get('/expertise/edit', 'editExpertise')->name('mentors.expertise.edit');
+        Route::get('/expertise/delete', 'deleteExpertise')->name('mentors.expertise.delete');
         Route::get('/blogs', 'blogs')->name('mentors.blogs');
         Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');

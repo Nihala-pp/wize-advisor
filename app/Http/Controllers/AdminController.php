@@ -103,6 +103,11 @@ class AdminController extends Controller
         return view(admin.add-expertise);
     }
 
+    public function deleteExpertise()
+    {
+        
+    }
+
     public function scheduledCalls()
     {
         return view('admin.scheduled-calls');
