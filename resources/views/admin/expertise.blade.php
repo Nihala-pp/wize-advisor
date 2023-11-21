@@ -152,7 +152,7 @@
                     <div class="card my-4">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Users</h6>
+                                <h6 class="text-white text-capitalize ps-3">Expertise</h6>
                             </div>
                         </div>
                         <div class="ms-auto my-auto mt-lg-3">
@@ -160,7 +160,7 @@
                                 <a href="{{ route('admin.mentors.expertise.add') }}"
                                     class="btn bg-gradient-primary btn-sm mb-0 newuser" target="_blank"
                                     data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New
-                                    User</a>
+                                    Expertise</a>
                             </div>
                         </div>
                         <div class="card-body px-0 pb-2">
@@ -184,18 +184,18 @@
                                         @foreach($expertise as $expert)
                                         <tr>
                                             <td>
-                                                <p class="text-xs font-weight-bold mb-0">Manager</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $expert->name }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <img src="{{ asset('assets/img/team-2.jpg') }}"
-                                                    class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                                                <img src="{{ asset('public/assets/img/') }}/{{ $expert->icon }}"
+                                                    class="avatar avatar-sm me-3 border-radius-lg" alt="icon">
                                             </td>
                                             <td class="align-middle text-center">
                                                 <span
-                                                    class="text-secondary text-xs font-weight-bold">{{ $user->created_at }}</span>
+                                                    class="text-secondary text-xs font-weight-bold">{{ $expert->created_at }}</span>
                                             </td>
                                             <td class="align-middle">
-                                                <a href="{{ route('admin.mentors.expertise.edit',[$user->id]) }}"
+                                                <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Edit user">
                                                     Edit
