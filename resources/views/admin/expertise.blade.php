@@ -147,55 +147,91 @@
         </nav>
         <!-- End Navbar -->
         <div class="container-fluid py-4">
-            <div class="row mt-5">
-                <div class="col-12 col-lg-10 m-auto">
-                    <div class="card">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card my-4">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Edit Mentor @else Add
-                                    Mentor @endif</h6>
+                                <h6 class="text-white text-capitalize ps-3">Users</h6>
                             </div>
                         </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <form method="POST" action="{{ route('mentor.save') }}" enctype="multipart/form-data">
-                                    @csrf
-                                    <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
-                                    <div class="input-group input-group-static mb-3">
-                                        <label>Full Name</label>
-                                        <input type="text" name="name" class="form-control"
-                                            value="{{ $data->name ? : '' }}" required>
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Email</label>
-                                        <input type="email" name="email" class="form-control"
-                                            value="{{ $data->email ? : '' }}" required>
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Phone</label>
-                                        <input type="tel" name="phone" class="form-control"
-                                            value="{{ $data->metaData->mobile ? : '' }}">
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Linked-In Profile</label>
-                                        <input type="url" class="form-control" name="linked_in"
-                                            value="{{ $data->metaData->social_linked_in ? : '' }}" required>
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Youtube Link (if any)</label>
-                                        <input type="url" class="form-control" name="youtube_link"
-                                            value="{{ $data->metaData->youtube_link ? : '' }}">
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">Website Link (if any)</label>
-                                        <input type="url" class="form-control" name="website_link"
-                                            value="{{ $data->metaData->website_link ? : '' }}" required>
-                                    </div>
-                                    <div class="input-group input-group-static mb-3">
-                                        <label class="">BIO</label>
-                                        <textarea name="bio" class="form-control"
-                                            rows="5">{{ $data->metaData->about_me ? : '' }}</textarea>
-                                    </div>
+                        <div class="ms-auto my-auto mt-lg-3">
+                            <div class="ms-auto my-auto">
+                                <a href="{{ route('admin.users.add') }}"
+                                    class="btn bg-gradient-primary btn-sm mb-0 newuser" target="_blank"
+                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New
+                                    User</a>
+                            </div>
+                        </div>
+                        <div class="card-body px-0 pb-2">
+                            <div class="table-responsive p-0">
+                                <table class="table align-items-center mb-0" id="datatable-basic">
+                                    <thead>
+                                        <tr>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">
+                                                User</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-sm heading">
+                                                Designation</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">
+                                                Status</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">
+                                                Registered at</th>
+                                            <th class="text-secondary opacity-7"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach($users as $user)
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex px-2 py-1">
+                                                    <div>
+                                                        <img src="{{ asset('assets/img/team-2.jpg') }}"
+                                                            class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                                                    </div>
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">{{ $user->name }}</h6>
+                                                        <p class="text-xs text-secondary mb-0">{{ 'USR000'.$user->id }}
+                                                        </p>
+                                                        <p class="text-xs text-secondary mb-0">{{ $user->email }}</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">Manager</p>
+                                                <p class="text-xs text-secondary mb-0">Organization</p>
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                @if($user->email_verified_at)
+                                                <span class="badge badge-sm bg-gradient-success">Active</span>
+                                                @else
+                                                <span class="badge badge-sm bg-gradient-danger">In-Active</span>
+                                                @endif
+                                            </td>
+                                            <td class="align-middle text-center">
+                                                <span
+                                                    class="text-secondary text-xs font-weight-bold">{{ $user->created_at }}</span>
+                                            </td>
+                                            <td class="align-middle">
+                                                <a href="{{ route('admin.user_profiles.view_profile',[$user->id]) }}"
+                                                    class="text-secondary font-weight-bold text-xs"
+                                                    data-toggle="tooltip" data-original-title="View user">
+                                                    View
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
