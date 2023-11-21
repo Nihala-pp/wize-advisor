@@ -3431,11 +3431,11 @@
                                                     data-id="405616b" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        @if ($reviews->user->metaData)
+                                                        @if ($reviews->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                            alt="" srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}
+                                                            alt="" srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                         <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                     class="rounded-circle" height="8" width="37"
@@ -3488,12 +3488,12 @@
                                                     data-id="6bc782c" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        @if($reviews->user->metaData)
+                                                        @if($reviews->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                     class="rounded-circle" height="8" width="37"
@@ -3594,12 +3594,12 @@
                                                     data-id="c86512d" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        @if ($review2->user->metaData)
+                                                        @if ($review2->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}">
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}">
                                                         @else
                                                         <img decoding="async" width="150" height="150"
                                                             src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
@@ -3648,12 +3648,12 @@
                                                     data-id="9e2f95c" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        @if ($review3->user->metaData)
+                                                        @if ($review3->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         @else
                                                         <img decoding="async" width="150" height="150"
@@ -3712,10 +3712,10 @@
                                                     <div class="elementor-widget-container">
                                                         @if ($review4->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData->profile_pic ? $review4->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData->profile_pic ? $review4->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         @else
                                                         <img decoding="async" width="150" height="150"
@@ -3766,10 +3766,10 @@
                                                     <div class="elementor-widget-container">
                                                         @if ($review5->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData->profile_pic ? $review5->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData->profile_pic ? $review5->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         @else
                                                         <img decoding="async" width="150" height="150"
@@ -3822,10 +3822,10 @@
                                                     <div class="elementor-widget-container">
                                                         @if ($review2->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         @else
                                                         <img decoding="async" width="150" height="150"
@@ -3877,10 +3877,10 @@
                                                     <div class="elementor-widget-container">
                                                         @if ($review3->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         @else
                                                         <img decoding="async" width="150" height="150"
@@ -4018,7 +4018,7 @@
                                                             src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
+                                                            srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         @endif
                                                     </div>
