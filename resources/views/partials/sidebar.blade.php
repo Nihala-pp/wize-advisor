@@ -59,24 +59,24 @@
                                 <span class="sidenav-normal  ms-2  ps-1"> Profile </span>
                             </a>
                         </li>
-                        <!-- <li class="nav-item ">
+                        <li class="nav-item ">
                             <a class="nav-link text-white " href="{{ route('admin.mentors.reviews') }}">
-                                <span class="sidenav-mini-icon"> R </span>
-                                <span class="sidenav-normal  ms-2  ps-1"> Reviews </span>
+                                <span class="sidenav-mini-icon"> E </span>
+                                <span class="sidenav-normal  ms-2  ps-1"> Expertise </span>
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-white " href="{{ route('admin.mentors.experience') }}">
-                                <span class="sidenav-mini-icon"> E </span>
-                                <span class="sidenav-normal  ms-2  ps-1"> Experience & Achievements </span>
+                                <span class="sidenav-mini-icon"> B </span>
+                                <span class="sidenav-normal  ms-2  ps-1"> Blogs </span>
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-white " href="{{ route('admin.mentors.expertise') }}">
-                                <span class="sidenav-mini-icon"> E </span>
-                                <span class="sidenav-normal  ms-2  ps-1"> Expertise </span>
+                                <span class="sidenav-mini-icon"> V </span>
+                                <span class="sidenav-normal  ms-2  ps-1"> Vouchers </span>
                             </a>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </li>
