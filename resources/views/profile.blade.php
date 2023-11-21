@@ -5181,14 +5181,15 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-/* @media(min-width: 1280px) {
+@media screen and (max-width: 1280px),
+screen and (min-width: 1024px) {
     .elementor-star-rating__wrapper {
         display: flex;
         align-items: center;
         padding-left: 15px;
         font-size: 12px;
     }
-} */
+}
 
 @media (max-width: 767px) {
     .elementor-2372 .elementor-element.elementor-element-52071b2>.elementor-element-populated {
