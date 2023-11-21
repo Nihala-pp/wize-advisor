@@ -199,7 +199,7 @@
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Edit expertise">
                                                     Edit
-                                                </a> &nbsp &nbsp
+                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp
                                                 <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Delete expertise">
