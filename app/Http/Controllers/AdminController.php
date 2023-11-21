@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Mail\CredentialEmail;
+use App\Models\ExpertiseList;
 use App\Models\LoginActivity;
 use App\Models\Setting;
 use App\Models\TodoList;
@@ -87,7 +88,9 @@ class AdminController extends Controller
 
     public function expertise($id=null)
     {
-        return view('admin.expertise');
+        $expertise = ExpertiseList::get();
+
+        return view('admin.expertise', compact('expertise'));
     }
 
     public function scheduledCalls()
