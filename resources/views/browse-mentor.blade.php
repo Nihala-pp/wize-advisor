@@ -3630,7 +3630,7 @@
 }
 
 @media screen and (max-width: 1280px),
-screen and (min-width: 720px) {
+screen and (min-width: 1024px) {
 
     div.d-grid.gap-2.col-6.butto {
         padding-left: 80px;
