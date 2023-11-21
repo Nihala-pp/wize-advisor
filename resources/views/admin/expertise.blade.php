@@ -197,8 +197,13 @@
                                             <td class="align-middle">
                                                 <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
-                                                    data-toggle="tooltip" data-original-title="Edit user">
+                                                    data-toggle="tooltip" data-original-title="Edit expertise">
                                                     Edit
+                                                </a>
+                                                <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
+                                                    class="text-secondary font-weight-bold text-xs"
+                                                    data-toggle="tooltip" data-original-title="Delete expertise">
+                                                    Delete
                                                 </a>
                                             </td>
                                         </tr>
