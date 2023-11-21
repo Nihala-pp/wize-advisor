@@ -3629,14 +3629,16 @@
     }
 }
 
-/* @media (min-width: 1280px) {
+@media screen and (max-width: 1280px),
+screen and (min-width: 720px) {
 
     div.d-grid.gap-2.col-6.butto {
-        padding-left: 80px; */
+        padding-left: 80px;
+        */
         /* text-align: right!important; */
-    /* } */
+    }
 
-    /* .card {
+    .card {
         width: 22rem !important;
     }
 
@@ -3649,13 +3651,13 @@
     .price {
         padding-left: 110px;
         display: flex;
-        align-items: center; 
+        align-items: center;
     }
 
     .name {
-        margin-top:15px;
+        margin-top: 15px;
     }
-} */
+}
 
 .card-deck .card {
     margin-bottom: 50px;
