@@ -4990,9 +4990,6 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
-
-
-
 /* .elementor-widget-container .price span {
     color:#000 !important;
     padding-left: 80px !important;
