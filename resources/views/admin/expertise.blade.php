@@ -212,5 +212,11 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+      const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+        searchable: true,
+        fixedHeight: true
+      });
+  </script>
 </body>
 </html>
