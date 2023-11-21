@@ -3643,7 +3643,7 @@ screen and (min-width: 1024px) {
     }
 
     .elementor-star-rating__wrapper {
-        padding-left: 110px;
+        padding-left: 120px;
         display: flex;
         align-items: right;
     }
@@ -3655,7 +3655,7 @@ screen and (min-width: 1024px) {
     }
 
     .name {
-        margin-top: 15px;
+        margin-top: 8px;
     }
 }
 
