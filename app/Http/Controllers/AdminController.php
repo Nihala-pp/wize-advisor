@@ -100,7 +100,16 @@ class AdminController extends Controller
 
     public function addExpertise(Request $request)
     {
-        return view('admin.add-expertise');
+
+        if($request->row_id)
+        {
+            $data = ExpertiseList::find($request->row_id);
+        }
+        else {
+            $data = '';
+        }
+        
+        return view('admin.add-expertise', compact('data'));
     }
 
     public function deleteExpertise()
@@ -351,14 +360,12 @@ class AdminController extends Controller
     public function logs()
     {
         $data = '';
-        // dd($monolog);
 
         return view('admin.logs', compact('data'));
     }
 
     public function saveExpertise(Request $request)
     {
-         // dd($request->all());
          $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
          $request->profile_pic->move(public_path('wp-content/uploads/2023/06'), $pro_pic);
 
