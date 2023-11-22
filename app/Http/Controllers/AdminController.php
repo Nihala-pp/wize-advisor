@@ -98,7 +98,7 @@ class AdminController extends Controller
 
     }
 
-    public function addExpertise(Request $reques)
+    public function addExpertise(Request $request)
     {
         return view('admin.add-expertise');
     }
