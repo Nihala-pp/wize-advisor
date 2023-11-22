@@ -242,7 +242,7 @@
                                             onfocusout="defocused(this)" required>
                                     </div>
                                     <div class="input-group input-group-static my-3">
-                                        <label class="form-label">Profile Pic</label>
+                                        <label class="form-label"></label>
                                         <input type="file" name="profile_pic" class="form-control" required>
                                     </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
