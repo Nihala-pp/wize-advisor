@@ -148,23 +148,23 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="col-12">
-                    <div class="card my-4">
-                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">Expertise</h6>
-                            </div>
-                        </div>
-                        <div class="ms-auto my-auto mt-lg-3">
-                            <div class="ms-auto my-auto">
-                                <a href="{{ route('admin.mentors.expertise.add') }}"
-                                    class="btn bg-gradient-primary btn-sm mb-0 new-mentor" target="_blank"
-                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Add Expertise">+&nbsp; New
-                                    Expertise</a>
+                <div class="col-md-12 col-md-6 mb-lg-0 mb-4">
+                    <div class="card mt-4">
+                        <div class="card-header pb-0 p-3">
+                            <div class="row">
+                                <div class="col-6 d-flex align-items-center">
+                                    <h6 class="mb-0"></h6>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        + New Expertise
+                                    </button>
+                                </div>
                             </div>
                         </div>
                         <div class="card-body px-0 pb-2">
-                            <div class="table-responsive p-0">
+                            <div class="table-responsive">
                                 <table class="table align-items-center mb-0" id="datatable-basic">
                                     <thead>
                                         <tr>
@@ -199,7 +199,8 @@
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Edit expertise">
                                                     Edit
-                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                &nbsp
                                                 &nbsp &nbsp
                                                 <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
@@ -217,12 +218,45 @@
                 </div>
             </div>
         </div>
-    </div>
-    <script type="text/javascript">
-    const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
-        searchable: true,
-        fixedHeight: true
-    });
-    </script>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Add Expertise</h5>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card card-plain">
+                            <div class="card-body">
+                                <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
+                                    enctype="multipart/form-data">
+                                    @csrf
+                                    <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
+                                    <div class="input-group input-group-dynamic is-filled">
+                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                        <input class="multisteps-form__input form-control" type="text"
+                                            value="{{ $data->name ?? '' }}" onfocus="focused(this)"
+                                            onfocusout="defocused(this)" required>
+                                    </div>
+                                    <div class="input-group input-group-static my-3">
+                                        <label class="form-label">Profile Pic</label>
+                                        <input type="file" name="profile_pic" class="form-control" required>
+                                    </div>
+                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                    const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+                        searchable: true,
+                        fixedHeight: true
+                    });
+                    </script>
 </body>
+
 </html>
