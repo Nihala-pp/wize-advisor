@@ -158,8 +158,8 @@
                         <div class="ms-auto my-auto mt-lg-3">
                             <div class="ms-auto my-auto">
                                 <a href="{{ route('admin.mentors.expertise.add') }}"
-                                    class="btn bg-gradient-primary btn-sm mb-0 newuser" target="_blank"
-                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Add User">+&nbsp; New
+                                    class="btn bg-gradient-primary btn-sm mb-0 new-mentor" target="_blank"
+                                    data-bs-toggle="tooltip" data-bs-placement="left" title="Add Expertise">+&nbsp; New
                                     Expertise</a>
                             </div>
                         </div>
@@ -199,7 +199,8 @@
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Edit expertise">
                                                     Edit
-                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                &nbsp &nbsp
                                                 <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Delete expertise">
@@ -218,10 +219,11 @@
         </div>
     </div>
     <script type="text/javascript">
-      const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+    const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
         searchable: true,
         fixedHeight: true
-      });
-  </script>
+    });
+    </script>
 </body>
+
 </html>
