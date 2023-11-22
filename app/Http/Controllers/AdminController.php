@@ -355,4 +355,20 @@ class AdminController extends Controller
 
         return view('admin.logs', compact('data'));
     }
+
+    public function saveExpertise(Request $request)
+    {
+         // dd($request->all());
+         $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
+         $request->profile_pic->move(public_path('wp-content/uploads/2023/06'), $pro_pic);
+
+        ExpertiseList::updateOrCreate(
+            ['id' => $request->row_id],
+
+            [
+            'name' => $request->expertise,
+            'icon' => $request->profile_pic,
+            ]
+        );
+    }
 }

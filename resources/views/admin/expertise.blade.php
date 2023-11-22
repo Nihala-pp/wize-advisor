@@ -237,7 +237,7 @@
                                     <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                        <input class="multisteps-form__input form-control" type="text"
+                                        <input class="multisteps-form__input form-control" type="text" name="expertise"
                                             value="{{ $data->name ?? '' }}" onfocus="focused(this)"
                                             onfocusout="defocused(this)" required>
                                     </div>
