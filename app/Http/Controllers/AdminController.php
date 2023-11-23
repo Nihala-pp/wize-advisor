@@ -93,10 +93,10 @@ class AdminController extends Controller
         return view('admin.expertise', compact('expertise'));
     }
 
-    public function editExpertise($id)
+    public function editExpertise(Request $request)
     {
 
-        $data = ExpertiseList::find($id);
+        $data = ExpertiseList::find($request->Id);
 
 
         return view('admin.edit-expertise', compact('data'));

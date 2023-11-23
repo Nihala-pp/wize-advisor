@@ -284,6 +284,7 @@
             var Id = $(this).data('id');
             $.ajax({
                 url: "{{ route('admin.mentors.expertise.edit') }}",
+                
                 type: "GET",
                 data: {
                     'Id': Id
