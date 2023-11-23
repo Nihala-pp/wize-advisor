@@ -188,13 +188,13 @@
                                                 <p class="text-xs font-weight-bold mb-0">{{ $voucher->name }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->name }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->type }}</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->name }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->discount_value }}</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->name }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->user->name }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
