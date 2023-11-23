@@ -262,14 +262,24 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header info-color white-text">
                         <h6 class="modal-title font-weight-normal"><b>Edit Availability</b></h6>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body editAvailability">
-                    </div>
+                    <form method="POST" action="{{ route('admin.mentors.expertise.save') }}" role="form text-left">
+                        @csrf
+                        <div class="modal-body editAvailability">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn bg-gradient-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                        </div>
+                    </form>
+                    <!-- <div class="modal-body editAvailability">
+                    </div> -->
                 </div>
             </div>
         </div>

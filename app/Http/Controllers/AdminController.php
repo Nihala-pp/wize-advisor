@@ -382,4 +382,12 @@ class AdminController extends Controller
             ]
         );
     }
+
+    public function vouchers()
+    {
+        
+
+
+        return view('admin.vouchers');
+    }
 }
