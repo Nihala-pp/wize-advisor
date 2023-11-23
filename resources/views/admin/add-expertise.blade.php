@@ -195,7 +195,7 @@
     $('body').on('click', '.edit', function() {
         var Id = $(this).data('id');
         $.ajax({
-            url: "{{ route('admin.mentor.dashboard.availability.edit') }}",
+            url: "{{ route('admin.mentors.expertise.edit') }}",
             type: "GET",
             data: {
                 'Id': Id
