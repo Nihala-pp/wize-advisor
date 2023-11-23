@@ -191,7 +191,8 @@
                                                 <p class="text-xs font-weight-bold mb-0">{{ $voucher->type }}</p>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->discount_value }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->discount_value }}
+                                                </p>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <p class="text-xs font-weight-bold mb-0">{{ $voucher->user->name }}</p>
@@ -244,12 +245,36 @@
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                        <input class="multisteps-form__input form-control" type="text" name="expertise"
+                                        <input class="multisteps-form__input form-control" type="text" name="voucher"
                                             onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
-                                    <div class="input-group input-group-static my-3">
-                                        <label class="form-label"></label>
-                                        <input type="file" name="profile_pic" class="form-control" required>
+                                    <div class="mb-3">
+                                        <label class="form-label">Type</label><br />
+                                        <select class="select form-control" name="type" required>
+                                            <option value="percent">
+                                                Percent
+                                            </option>
+                                            <option value="fixed">
+                                                Fixed
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="input-group input-group-dynamic is-filled">
+                                        <label for="exampleFormControlInput1" class="form-label">Discount Value</label>
+                                        <input class="multisteps-form__input form-control" type="number"
+                                            name="discount_value" onfocus="focused(this)" onfocusout="defocused(this)"
+                                            required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Mentors</label><br />
+                                        <select class="select form-control" name="mentor" required>
+                                            <option value="">All</option>
+                                            @foreach($mentors as $mentor)
+                                            <option value="{{ $mentor->id }}">
+                                                {{ $mentor->name }}
+                                            </option>
+                                            @endforeach
+                                        </select>
                                     </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>

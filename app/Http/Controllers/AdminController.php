@@ -386,9 +386,10 @@ class AdminController extends Controller
 
     public function vouchers()
     {
-        
         $vouchers = Voucher::get();
 
-        return view('admin.vouchers', compact('vouchers'));
+        $mentors = User::where('role_id', 2)->get();
+
+        return view('admin.vouchers', compact('vouchers', 'mentors'));
     }
 }
