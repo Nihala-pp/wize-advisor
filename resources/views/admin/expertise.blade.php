@@ -194,19 +194,25 @@
                                                 <span
                                                     class="text-secondary text-xs font-weight-bold">{{ $expert->created_at }}</span>
                                             </td>
-                                            <td class="align-middle">
-                                                <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
+                                            <td class="align-middle text-center text-sm">
+                                                <div class="avatar-group ">
+                                                    <button type="button" class="btn btn-block edit"
+                                                        data-id="{{ $avail->id }}">Edit
+                                                        <i class="fa fa-edit"></button></i>
+                                                    <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
+                                                        class="text-secondary font-weight-bold text-xs"
+                                                        data-toggle="tooltip" data-original-title="Delete expertise">
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                                <!-- <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
                                                     class="text-secondary font-weight-bold text-xs"
                                                     data-toggle="tooltip" data-original-title="Edit expertise">
                                                     Edit
                                                 </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                                                 &nbsp
-                                                &nbsp &nbsp
-                                                <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
-                                                    class="text-secondary font-weight-bold text-xs"
-                                                    data-toggle="tooltip" data-original-title="Delete expertise">
-                                                    Delete
-                                                </a>
+                                                &nbsp &nbsp -->
+
                                             </td>
                                         </tr>
                                         @endforeach
@@ -251,6 +257,29 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header info-color white-text">
+                        <h6 class="title"><b>Edit Availability</b></h6>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="POST" action="{{ route('admin.mentors.expertise.edit', [$data->id]) }}" role="form text-left">
+                        @csrf
+                        <div class="modal-body editAvailability">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn bg-gradient-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

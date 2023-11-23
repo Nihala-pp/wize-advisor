@@ -134,8 +134,8 @@ Route::controller(AdminController::class)
         Route::get('/logs', 'logs')->name('logs');
         Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         Route::get('/expertise/list', 'expertise')->name('mentors.expertise.list');
-        Route::get('/expertise/add/{id?}', 'addExpertise')->name('mentors.expertise.add');
-        Route::get('/expertise/edit', 'editExpertise')->name('mentors.expertise.edit');
+        Route::get('/expertise/add', 'addExpertise')->name('mentors.expertise.add');
+        Route::get('/expertise/edit/{id?}', 'editExpertise')->name('mentors.expertise.edit');
         Route::get('/expertise/delete', 'deleteExpertise')->name('mentors.expertise.delete');
         Route::post('/expertise/save', 'saveExpertise')->name('mentors.expertise.save');
         Route::get('/blogs', 'blogs')->name('mentors.blogs');

@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
+
 <body class="g-sidenav-show  bg-gray-200">
     @include('partials.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -164,7 +165,8 @@
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Name</label>
                                         <input class="multisteps-form__input form-control" type="text"
-                                            value="{{ $data->name ?? '' }}" onfocus="focused(this)" onfocusout="defocused(this)" required>
+                                            value="{{ $data->name ?? '' }}" onfocus="focused(this)"
+                                            onfocusout="defocused(this)" required>
                                     </div>
                                     <div class="input-group input-group-static my-3">
                                         <label class="form-label">Profile Pic</label>
@@ -292,7 +294,23 @@
         });
     }
     </script>
+
+    <script type="text/javascript">
+    $('body').on('click', '.edit', function() {
+        var Id = $(this).data('id');
+        $.ajax({
+            url: "{{ route('mentor.dashboard.availability.edit') }}",
+            type: "GET",
+            data: {
+                'Id': Id
+            },
+            success: function(response) {
+                $("#edit_availability .modal-body").html(response);
+                $("#edit_availability").modal('show');
+            }
+        });
+    });
+    </script>
     <!--   Core JS Files   -->
 </body>
-
 </html>
