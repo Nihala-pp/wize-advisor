@@ -182,21 +182,5 @@
     </main>
     @include('partials.settings')
     </div>
-    <script type="text/javascript">
-    $('body').on('click', '.edit', function() {
-        var Id = $(this).data('id');
-        $.ajax({
-            url: "{{ route('admin.mentors.expertise.edit') }}",
-            type: "GET",
-            data: {
-                'Id': Id
-            },
-            success: function(response) {
-                $("#edit_availability .modal-body").html(response);
-                $("#edit_availability").modal('show');
-            }
-        });
-    });
-    </script>
 </body>
 </html>

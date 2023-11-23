@@ -240,12 +240,10 @@
                                 <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
-                                    <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Name</label>
                                         <input class="multisteps-form__input form-control" type="text" name="expertise"
-                                             onfocus="focused(this)"
-                                            onfocusout="defocused(this)" required>
+                                            onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
                                     <div class="input-group input-group-static my-3">
                                         <label class="form-label"></label>
@@ -270,7 +268,8 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form method="POST" action="{{ route('admin.mentors.expertise.edit', [$data->id]) }}" role="form text-left">
+                    <form method="POST" action="{{ route('admin.mentors.expertise.edit', [$data->id]) }}"
+                        role="form text-left">
                         @csrf
                         <div class="modal-body editAvailability">
                         </div>
@@ -289,6 +288,21 @@
             fixedHeight: true
         });
         </script>
+        <script type="text/javascript">
+        $('body').on('click', '.edit', function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('admin.mentors.expertise.edit') }}",
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+                success: function(response) {
+                    $("#edit_availability .modal-body").html(response);
+                    $("#edit_availability").modal('show');
+                }
+            });
+        });
+        </script>
 </body>
-
 </html>
