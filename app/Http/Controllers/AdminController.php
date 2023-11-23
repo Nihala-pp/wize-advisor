@@ -12,6 +12,7 @@ use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\ScheduledCall;
 use App\Models\MentorsExperience;
+use App\Models\Voucher;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
@@ -386,8 +387,8 @@ class AdminController extends Controller
     public function vouchers()
     {
         
+        $vouchers = Voucher::get();
 
-
-        return view('admin.vouchers');
+        return view('admin.vouchers', compact('vouchers'));
     }
 }
