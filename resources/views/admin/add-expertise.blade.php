@@ -152,8 +152,7 @@
                     <div class="card">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Edit Expertise @else Add
-                                    Expertise @endif</h6>
+                                <h6 class="text-white text-capitalize ps-3">Add Expertise</h6>
                             </div>
                         </div>
                         <div class="card-body">
@@ -161,12 +160,10 @@
                                 <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
-                                    <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Name</label>
                                         <input class="multisteps-form__input form-control" type="text"
-                                            value="{{ $data->name ?? '' }}" onfocus="focused(this)"
-                                            onfocusout="defocused(this)" required>
+                                            onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
                                     <div class="input-group input-group-static my-3">
                                         <label class="form-label">Profile Pic</label>
@@ -186,12 +183,6 @@
     @include('partials.settings')
     </div>
     <script type="text/javascript">
-    $(document).ready(function() {
-
-    });
-    </script>
-
-    <script type="text/javascript">
     $('body').on('click', '.edit', function() {
         var Id = $(this).data('id');
         $.ajax({
@@ -207,6 +198,5 @@
         });
     });
     </script>
-    <!--   Core JS Files   -->
 </body>
 </html>
