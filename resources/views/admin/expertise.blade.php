@@ -278,8 +278,7 @@
             searchable: true,
             fixedHeight: true
         });
-        </script>
-        <script type="text/javascript">
+
         $('body').on('click', '.edit', function() {
             var Id = $(this).data('id');
             $.ajax({
@@ -296,6 +295,8 @@
             });
         });
         </script>
+        <!-- <script type="text/javascript">
+        
+        </script> -->
 </body>
-
 </html>
