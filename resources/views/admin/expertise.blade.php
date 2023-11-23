@@ -262,23 +262,14 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-header info-color white-text">
-                        <h6 class="title"><b>Edit Availability</b></h6>
+                    <div class="modal-header">
+                        <h6 class="modal-title font-weight-normal"><b>Edit Availability</b></h6>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form method="POST" action="{{ route('admin.mentors.expertise.edit', [$data->id]) }}"
-                        role="form text-left">
-                        @csrf
-                        <div class="modal-body editAvailability">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn bg-gradient-secondary"
-                                data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
-                        </div>
-                    </form>
+                    <div class="modal-body editAvailability">
+                    </div>
                 </div>
             </div>
         </div>
@@ -298,11 +289,12 @@
                     'Id': Id
                 },
                 success: function(response) {
-                    $("#edit_availability .modal-body").html(response);
-                    $("#edit_availability").modal('show');
+                    $(".dit_availability .modal-body").html(response);
+                    $(".edit_availability").modal('show');
                 }
             });
         });
         </script>
 </body>
+
 </html>
