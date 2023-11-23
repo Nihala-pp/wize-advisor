@@ -187,119 +187,15 @@
     </div>
     <script type="text/javascript">
     $(document).ready(function() {
-        $('.date').datepicker({
-            multidate: true,
-            format: 'dd-mm-yyyy'
-        });
-        // $('.time').timepicker({
-        //     format: 'hh:mm A',
-        // });
 
-        $("#rowAdder").click(function() {
-            newRowAdd =
-                '<div class="row">' +
-                '<div class="col-md-3">' +
-                '<div class="input-group input-group-static my-3">' +
-                '<label>Company </label>' +
-                '<input type="text" name="experience[company_name][]" class="form-control">' +
-                '</div></div>' +
-                '<div class="col-md-3">' +
-                '<div class="input-group input-group-static my-3">' +
-                '<label>Designation</label>' +
-                '<input type="text" name="experience[position][]" class="form-control">' +
-                '</div></div>' +
-                '<div class="col-md-2">' +
-                '<div class="input-group input-group-static my-3">' +
-                '<label>Start Date</label>' +
-                '<input type="text" name="experience[year][]" class="form-control date-pick">' +
-                '</div></div>' +
-                '<div class="col-md-2">' +
-                '<div class="input-group input-group-static my-3">' +
-                ' <label>End Date</label>' +
-                '<input type="text" name="experience[end_date][]" class="form-control date-pick">' +
-                '</div></div>' +
-                // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
-                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
-            // ' </div> </div>';
-            $('#newinput').append(newRowAdd);
-        });
-
-        $("#DeleteRow").click(function() {
-            $(this).parents("#row").remove();
-        });
-
-        $('.date-pick').datepicker({
-            multidate: true,
-            format: 'dd-mm-yyyy'
-        });
     });
-    </script>
-    <script type="text/javascript">
-    if (document.getElementById('choices-button')) {
-        var element = document.getElementById('choices-button');
-        const example = new Choices(element, {});
-    }
-    var choicesTags = document.getElementById('expertise-tags');
-    var color = choicesTags.dataset.color;
-    if (choicesTags) {
-        const example = new Choices(choicesTags, {
-            delimiter: ',',
-            editItems: true,
-            maxItemCount: 5,
-            removeItemButton: true,
-            addItems: true,
-            classNames: {
-                item: 'badge rounded-pill choices-' + color + ' me-2'
-            }
-        });
-    }
-    </script>
-    <script type="text/javascript">
-    if (document.getElementById('choices-button')) {
-        var element = document.getElementById('choices-button');
-        const example = new Choices(element, {});
-    }
-    var choicesTags = document.getElementById('languages-tags');
-    var color = choicesTags.dataset.color;
-    if (choicesTags) {
-        const example = new Choices(choicesTags, {
-            delimiter: ',',
-            editItems: true,
-            maxItemCount: 5,
-            removeItemButton: true,
-            addItems: true,
-            classNames: {
-                item: 'badge rounded-pill choices-' + color + ' me-2'
-            }
-        });
-    }
-    </script>
-    <script type="text/javascript">
-    if (document.getElementById('choices-button')) {
-        var element = document.getElementById('choices-button');
-        const example = new Choices(element, {});
-    }
-    var choicesTags = document.getElementById('language-tags');
-    var color = choicesTags.dataset.color;
-    if (choicesTags) {
-        const example = new Choices(choicesTags, {
-            delimiter: ',',
-            editItems: true,
-            maxItemCount: 5,
-            removeItemButton: true,
-            addItems: true,
-            classNames: {
-                item: 'badge rounded-pill choices-' + color + ' me-2'
-            }
-        });
-    }
     </script>
 
     <script type="text/javascript">
     $('body').on('click', '.edit', function() {
         var Id = $(this).data('id');
         $.ajax({
-            url: "{{ route('mentor.dashboard.availability.edit') }}",
+            url: "{{ route('admin.mentor.dashboard.availability.edit') }}",
             type: "GET",
             data: {
                 'Id': Id
