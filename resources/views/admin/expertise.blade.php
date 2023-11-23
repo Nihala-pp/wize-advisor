@@ -197,7 +197,7 @@
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
                                                     <button type="button" class="btn btn-block edit"
-                                                        data-id="{{ $avail->id }}">Edit
+                                                        data-id="{{ $expert->id }}">Edit
                                                         <i class="fa fa-edit"></button></i>
                                                     <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
