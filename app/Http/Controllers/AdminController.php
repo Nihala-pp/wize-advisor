@@ -93,23 +93,27 @@ class AdminController extends Controller
         return view('admin.expertise', compact('expertise'));
     }
 
-    public function editExpertise(Request $request)
+    public function editExpertise($id)
     {
 
+        $data = ExpertiseList::find($id);
+
+
+        return view('admin.edit-expertise', compact('data'));
     }
 
     public function addExpertise(Request $request)
     {
 
-        if($request->row_id)
-        {
-            $data = ExpertiseList::find($request->row_id);
-        }
-        else {
-            $data = '';
-        }
+        // if($request->row_id)
+        // {
+        //     $data = ExpertiseList::find($request->row_id);
+        // }
+        // else {
+        //     $data = '';
+        // }
         
-        return view('admin.add-expertise', compact('data'));
+        return view('admin.add-expertise');
     }
 
     public function deleteExpertise()
