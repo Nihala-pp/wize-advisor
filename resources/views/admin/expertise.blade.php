@@ -289,7 +289,7 @@
                     'Id': Id
                 },
                 success: function(response) {
-                    $(".dit_availability .modal-body").html(response);
+                    $("#edit_availability .modal-body").html(response);
                     $(".edit_availability").modal('show');
                 }
             });
