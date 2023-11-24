@@ -223,7 +223,7 @@
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Introduction</label>
-                                    <textarea id="summernote" name="introduction" class="form-control"></textarea>
+                                    <textarea id="summernote_1" name="introduction" class="form-control"></textarea>
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Description</label>
@@ -248,6 +248,7 @@
     <script>
     $(document).ready(function() {
         $('#summernote').summernote();
+        $('#summernote_1').summernote();
     });
     </script>
 </body>
