@@ -255,5 +255,12 @@
     });
     </script>
 </body>
+<style>
+.h5,
+h5 {
+    font-size: 1em;
+    line-height: 1.375;
+}
+</style>
 
 </html>
