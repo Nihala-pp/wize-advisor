@@ -480,4 +480,5 @@ class AdminController extends Controller
 
         return view('admin.edit-blogs', compact('blogs'));
     }
+
 }

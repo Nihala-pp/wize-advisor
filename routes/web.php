@@ -146,6 +146,7 @@ Route::controller(AdminController::class)
         Route::post('/vouchers/save', 'saveVouchers')->name('mentors.vouchers.save');
         Route::get('/vouchers/edit', 'editVouchers')->name('mentors.vouchers.edit');
         Route::get('/vouchers/delete/{id?}', 'deleteVouchers')->name('mentors.vouchers.delete');
+        Route::get('/reviews', 'reviews')->name('mentors.review');
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');
