@@ -140,6 +140,8 @@ Route::controller(AdminController::class)
         Route::post('/expertise/save', 'saveExpertise')->name('mentors.expertise.save');
         Route::get('/blogs', 'blogs')->name('mentors.blogs');
         Route::get('/blogs/save', 'saveBlogs')->name('mentors.blogs.save');
+        Route::get('/blogs/edit/{id?}', 'editBlogs')->name('mentors.blogs.edit');
+        Route::get('/blogs/delete/{id?}', 'deleteBlogs')->name('mentors.blogs.delete');
         Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');
         Route::post('/vouchers/save', 'saveVouchers')->name('mentors.vouchers.save');
         Route::get('/vouchers/edit', 'editVouchers')->name('mentors.vouchers.edit');

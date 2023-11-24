@@ -461,4 +461,24 @@ class AdminController extends Controller
         </script>
         <?php
     }
+
+    public function deleteBlogs($id)
+    {
+        Blogs::find($id)->delete();
+
+        ?>
+        <script type="text/javascript">
+            alert("Blogs Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
+    }
+
+    public function editBlogs($id)
+    {
+        $blogs = Blogs::find($id);
+
+        return view('admin.edit-blogs', compact('blogs'));
+
+    }
 }
