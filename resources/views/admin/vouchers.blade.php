@@ -202,7 +202,7 @@
                                                     <button type="button" class="btn btn-block edit"
                                                         data-id="{{ $voucher->id }}">Edit
                                                         <i class="fa fa-edit"></button></i>
-                                                    <a href="{{ route('admin.mentors.expertise.delete',[$voucher->id]) }}"
+                                                    <a href="{{ route('admin.mentors.vouchers.delete',[$voucher->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
                                                         data-toggle="tooltip" data-original-title="Delete expertise">
                                                         Delete

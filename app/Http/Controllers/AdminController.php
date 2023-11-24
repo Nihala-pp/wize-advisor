@@ -415,4 +415,17 @@ class AdminController extends Controller
 
         return view('admin.edit-vouchers', compact('vouchers', 'mentors'));
     }
+
+    public function deleteVouchers($id)
+    {
+        Voucher::find($id)->delete();
+
+        $notification = array(
+            'message' => 'Deleted Successfully!',
+            'alert-type' => 'success'
+        );
+
+        return redirect()->route('admin.mentors.vouchers')
+        ->with($notification, 'Deleted Successfully!');
+    }
 }
