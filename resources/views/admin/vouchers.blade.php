@@ -240,7 +240,7 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
+                                <form method="POST" action="{{ route('admin.mentors.vouchers.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
@@ -332,9 +332,5 @@
             });
         });
         </script>
-        <!-- <script type="text/javascript">
-        
-        </script> -->
 </body>
-
 </html>

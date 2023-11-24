@@ -392,4 +392,19 @@ class AdminController extends Controller
 
         return view('admin.vouchers', compact('vouchers', 'mentors'));
     }
+
+    public function saveVouchers(Request $request)
+    {
+        Voucher::updateOrCreate(
+            ['id' => $request->row_id],
+
+            [
+            'name' => $request->voucher,
+            'type' => $request->type,
+            'mentor_id' => $request->mentor,
+            'discount_value' => $request->discount_value,
+            'discount_type' => $request->type
+            ]
+        );
+    }
 }

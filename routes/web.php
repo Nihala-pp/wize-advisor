@@ -140,6 +140,7 @@ Route::controller(AdminController::class)
         Route::post('/expertise/save', 'saveExpertise')->name('mentors.expertise.save');
         Route::get('/blogs', 'blogs')->name('mentors.blogs');
         Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');
+        Route::post('/vouchers/save', 'saveVouchers')->name('mentors.vouchers.save');
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');
