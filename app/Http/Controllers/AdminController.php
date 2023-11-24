@@ -440,13 +440,16 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
 
     public function saveBlogs(Request $request)
     {
+        $pro_pic = time() . '.' . $request->image->getClientOriginalExtension();
+        $request->image->move(public_path('wp-content/uploads/2023/07'), $pro_pic);
+
         Blogs::updateOrCreate(
             ['id' => $request->row_id],
             [
                 'user_id' => Auth::id(),
-                'title' => $request->company,
-                'intro' => $request->designation,
-                'description' => $request->start_date,
+                'title' => $request->title,
+                'intro' => $request->introduction,
+                'description' => $request->description,
                 'image' => $request->end_date,
             ]
         );
