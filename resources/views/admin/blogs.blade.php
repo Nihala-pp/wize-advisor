@@ -181,13 +181,13 @@
                                     <div class="d-flex align-items-center justify-content-between">
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
                                             Blog</button>
-                                        <div class="avatar-group mt-2">
+                                        <!-- <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="Elena Morison">
                                                 <img src="" alt="Image placeholder">
                                             </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
