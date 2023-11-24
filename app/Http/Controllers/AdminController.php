@@ -403,11 +403,11 @@ class AdminController extends Controller
             ]
         );
         ?>
-<script type="text/javascript">
-alert("Voucher Updated Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/vouchers";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Voucher Updated Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function editVouchers(Request $request)
@@ -424,18 +424,18 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
         Voucher::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Voucher Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/vouchers";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Voucher Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function blogs()
     {
-       $blogs = Blogs::get();
+        $blogs = Blogs::get();
 
-       return view('admin.blogs', compact('blogs'));
+        return view('admin.blogs', compact('blogs'));
     }
 
     public function saveBlogs(Request $request)
@@ -453,5 +453,12 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
                 'image' => $request->end_date,
             ]
         );
+
+        ?>
+        <script type="text/javascript">
+            alert("Blog Saved Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 }
