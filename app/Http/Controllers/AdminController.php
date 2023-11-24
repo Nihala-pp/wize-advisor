@@ -409,7 +409,7 @@ class AdminController extends Controller
 
     public function editVouchers(Request $request)
     {
-        $data = Voucher::find($request->Id);
+        $vouchers = Voucher::find($request->Id);
 
         $mentors = User::where('role_id', 2)->get();
 
