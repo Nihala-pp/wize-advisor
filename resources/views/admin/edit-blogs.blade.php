@@ -174,7 +174,7 @@
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Introduction</label>
-                                    <textarea id="summernote_1" name="introduction" class="form-control">{{ $blogs->introduction ?? '' }}</textarea>
+                                    <textarea id="summernote_1" name="introduction" class="form-control">{{ $blogs->intro ?? '' }}</textarea>
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Description</label>
