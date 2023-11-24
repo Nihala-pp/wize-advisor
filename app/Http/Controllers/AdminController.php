@@ -484,4 +484,13 @@ class AdminController extends Controller
         return view('admin.edit-blogs', compact('blogs'));
     }
 
+    public function approveReviews(Request $request)
+    {
+       
+    }
+
+    public function deleteReviews()
+    {
+
+    }
 }

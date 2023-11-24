@@ -178,6 +178,10 @@
                                     <p class="dark-grey-text mt-4">
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
+                                    <span>
+                                        <a href="{{ route('admin.review.approve', [ $review->id ]) }}">Approve</a>
+                                        <a href="{{ route('admin.review.reject', [ $review->id ]) }}">Reject</a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
