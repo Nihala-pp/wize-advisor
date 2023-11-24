@@ -407,8 +407,8 @@ class AdminController extends Controller
         );
         ?>
         <script type="text/javascript">
-            alert("Voucher Updated Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        alert("Voucher Updated Successfully!"    );
+        window.location.href = "https://wiseadvizor.com/admin/vouchers";
         </script>
         <?php
     }
@@ -428,8 +428,8 @@ class AdminController extends Controller
 
         ?>
         <script type="text/javascript">
-            alert("Voucher Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        alert("Voucher Deleted Successfully!"    );
+        window.location.href = "https://wiseadvizor.com/admin/vouchers";
         </script>
         <?php
     }
@@ -459,8 +459,8 @@ class AdminController extends Controller
 
         ?>
         <script type="text/javascript">
-            alert("Blog Saved Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        alert("Blog Saved Successfully!");
+        win    dow.location.href = "https://wiseadvizor.com/admin/blogs";
         </script>
         <?php
     }
@@ -471,8 +471,8 @@ class AdminController extends Controller
 
         ?>
         <script type="text/javascript">
-            alert("Blogs Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        alert("Blogs Deleted Successfully!");
+        window.location.href = "https://wiseadvizor.com/admin/blogs";
         </script>
         <?php
     }
@@ -484,13 +484,17 @@ class AdminController extends Controller
         return view('admin.edit-blogs', compact('blogs'));
     }
 
-    public function approveReviews(Request $request)
+    public function approveReviews($id)
     {
-       
+        Review::find($id)->update(
+            [
+                'is_approved' => 1
+            ]
+        );
     }
 
-    public function deleteReviews()
+    public function deleteReviews($id)
     {
-
+        Review::find($id)->delete();
     }
 }
