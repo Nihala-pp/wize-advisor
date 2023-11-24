@@ -285,19 +285,19 @@
                 </div>
             </div>
         </div>
-        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        <div class="modal" id="editVoucher" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header info-color white-text">
-                        <h6 class="modal-title font-weight-normal"><b>Edit Availability</b></h6>
+                        <h6 class="modal-title font-weight-normal"><b>Edit Voucher</b></h6>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form method="POST" action="{{ route('admin.mentors.expertise.save') }}" role="form text-left">
+                    <form method="POST" action="{{ route('admin.mentors.vouchers.save') }}" role="form text-left">
                         @csrf
-                        <div class="modal-body editAvailability">
+                        <div class="modal-body editVoucher">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn bg-gradient-secondary"
@@ -319,15 +319,15 @@
         $('body').on('click', '.edit', function() {
             var Id = $(this).data('id');
             $.ajax({
-                url: "{{ route('admin.mentors.expertise.edit') }}",
+                url: "{{ route('admin.mentors.vouchers.edit') }}",
 
                 type: "GET",
                 data: {
                     'Id': Id
                 },
                 success: function(response) {
-                    $("#edit_availability .modal-body").html(response);
-                    $(".edit_availability").modal('show');
+                    $("#editVoucher .modal-body").html(response);
+                    $(".editVoucher").modal('show');
                 }
             });
         });
