@@ -167,18 +167,18 @@
                             <form method="POST" enctype="multipart/form-data"
                                 action="{{ route('admin.mentors.blogs.save') }}">
                                 @csrf
-                                <input type="hidden" name="row_id" class="form-control" value="">
+                                <input type="hidden" name="row_id" class="form-control" value="{{ $blogs->id }}">
                                 <div class="input-group input-group-static mb-4">
                                     <label>Title</label>
-                                    <input type="text" name="title" class="form-control">
+                                    <input type="text" name="title" class="form-control" value="{{ $blogs->title ?? '' }}">
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Introduction</label>
-                                    <textarea id="summernote_1" name="introduction" class="form-control"></textarea>
+                                    <textarea id="summernote_1" name="introduction" class="form-control">{{ $blogs->introduction ?? '' }}</textarea>
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Description</label>
-                                    <textarea id="summernote" name="description" class="form-control"></textarea>
+                                    <textarea id="summernote" name="description" class="form-control">{{ $blogs->description ?? '' }}</textarea>
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Image</label>
@@ -192,5 +192,12 @@
                 </div>
             </div>
         </div>
+        <script>
+        $(document).ready(function() {
+            $('#summernote').summernote();
+            $('#summernote_1').summernote();
+        });
+        </script>
 </body>
+
 </html>
