@@ -147,7 +147,7 @@ Route::controller(AdminController::class)
         Route::get('/vouchers/edit', 'editVouchers')->name('mentors.vouchers.edit');
         Route::get('/vouchers/delete/{id?}', 'deleteVouchers')->name('mentors.vouchers.delete');
         Route::get('/reviews', 'reviews')->name('mentors.review');
-        Route::post('/reviews/approve/{id?}', 'approveReviews')->name('mentors.review.approve');
+        Route::post('/reviews/approve', 'approveReviews')->name('mentors.review.approve');
         Route::get('/reviews/reject/{id?}', 'deleteReviews')->name('mentors.review.reject');
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');

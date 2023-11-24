@@ -178,8 +178,9 @@
                                     <p class="dark-grey-text mt-4">
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
+                                    <input type="hidden" name="id" value="{{ $review->id }}">
                                     <span>
-                                        <a href="{{ route('admin.mentors.review.approve', [ $review->id ]) }}">Approve</a>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                        <a href="{{ route('admin.mentors.review.approve') }}">Approve</a>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                                         <a href="{{ route('admin.mentors.review.reject', [ $review->id ]) }}">Reject</a>
                                     </span>
                                 </div>
