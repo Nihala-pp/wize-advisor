@@ -495,7 +495,7 @@ class AdminController extends Controller
         ?>
         <script type="text/javascript">
             alert("Reviews Approved Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
+            window.location.href = "https://wiseadvizor.com/admin/reviews";
         </script>
         <?php
     }
@@ -507,7 +507,7 @@ class AdminController extends Controller
         ?>
         <script type="text/javascript">
             alert("Reviews Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
+            window.location.href = "https://wiseadvizor.com/admin/reviews";
         </script>
         <?php
     }
