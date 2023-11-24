@@ -400,10 +400,9 @@ class AdminController extends Controller
 
             [
             'name' => $request->voucher,
-            'type' => $request->type,
+            'discount_type' => $request->type,
             'mentor_id' => $request->mentor,
             'discount_value' => $request->discount_value,
-            'discount_type' => $request->type
             ]
         );
     }
