@@ -484,9 +484,9 @@ class AdminController extends Controller
         return view('admin.edit-blogs', compact('blogs'));
     }
 
-    public function approveReviews($id)
+    public function approveReviews(Request $request)
     {
-        Review::find($id)->update(
+        Review::find($request->id)->update(
             [
                 'is_approved' => 1
             ]
