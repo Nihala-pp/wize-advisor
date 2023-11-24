@@ -169,8 +169,8 @@
                                     </a>
                                 </div>
                                 <div class="card-body p-3">
-                                    <p class="mb-0 text-sm">Blog #1</p>
-                                    <a href="javascript:;">
+                                    <p class="mb-0 text-sm"></p>
+                                    <a href="{{ route('') }}">
                                         <h5>
                                             {{ $blog->title  }}
                                         </h5>
