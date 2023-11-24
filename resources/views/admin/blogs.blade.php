@@ -152,10 +152,10 @@
                     <div class="mb-5 ps-3 text-end">
                         <h6 class="mb-1"></h6>
                         <p class="text-sm"></p>
-                        <!-- <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                        <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Add Blog
-                        </button> -->
+                        </button>
                     </div>
                     @if(!empty($blogs))
                     <div class="row">
