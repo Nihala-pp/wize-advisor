@@ -182,8 +182,10 @@
                                         {{ Str::words($blog->intro, '20') }}
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
-                                            Blog</button>
+                                        <a href="{{ route('admin.mentors.blogs.edit', [ $blog->id ]) }}">
+                                            <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
+                                                Blog</button>
+                                        </a>
                                         <!-- <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -214,7 +216,8 @@
                 <div class="modal-body">
                     <div class="card card-plain">
                         <div class="card-body">
-                            <form method="POST" enctype="multipart/form-data" action="{{ route('admin.mentors.blogs.save') }}">
+                            <form method="POST" enctype="multipart/form-data"
+                                action="{{ route('admin.mentors.blogs.save') }}">
                                 @csrf
                                 <input type="hidden" name="row_id" class="form-control" value="">
                                 <div class="input-group input-group-static mb-4">
