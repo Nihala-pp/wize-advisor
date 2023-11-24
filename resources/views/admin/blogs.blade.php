@@ -222,6 +222,10 @@
                                     <input type="text" name="title" class="form-control">
                                 </div>
                                 <div class="input-group input-group-static mb-4">
+                                    <label>Introduction</label>
+                                    <textarea id="summernote" name="introduction" class="form-control"></textarea>
+                                </div>
+                                <div class="input-group input-group-static mb-4">
                                     <label>Description</label>
                                     <textarea id="summernote" name="description" class="form-control"></textarea>
                                 </div>
