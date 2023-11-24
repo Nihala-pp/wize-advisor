@@ -179,8 +179,8 @@
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
                                     <span>
-                                        <a href="{{ route('admin.review.approve', [ $review->id ]) }}">Approve</a>
-                                        <a href="{{ route('admin.review.reject', [ $review->id ]) }}">Reject</a>
+                                        <a href="{{ route('admin.mentors.review.approve', [ $review->id ]) }}">Approve</a>
+                                        <a href="{{ route('admin.mentors.review.reject', [ $review->id ]) }}">Reject</a>
                                     </span>
                                 </div>
                             </div>
