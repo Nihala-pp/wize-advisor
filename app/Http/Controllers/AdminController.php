@@ -7,6 +7,7 @@ use App\Mail\CredentialEmail;
 use App\Models\Blogs;
 use App\Models\ExpertiseList;
 use App\Models\LoginActivity;
+use App\Models\Review;
 use App\Models\Setting;
 use App\Models\TodoList;
 use App\Models\User;
@@ -79,7 +80,9 @@ class AdminController extends Controller
 
     public function reviews($id = null)
     {
-        return view('admin.reviews');
+        $reviews = Review::get();
+
+        return view('admin.reviews', compact('reviews'));
     }
 
     public function experience($id = null)
