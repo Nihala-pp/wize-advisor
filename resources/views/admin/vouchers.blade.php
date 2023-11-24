@@ -188,7 +188,8 @@
                                                 <p class="text-xs font-weight-bold mb-0">{{ $voucher->name }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->discount_type }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $voucher->discount_type }}
+                                                </p>
                                             </td>
                                             <td class="align-middle text-center">
                                                 <p class="text-xs font-weight-bold mb-0">{{ $voucher->discount_value }}
@@ -208,7 +209,7 @@
                                                         Delete
                                                     </a>
                                                 </div>
-                                                
+
                                             </td>
                                         </tr>
                                         @endforeach
@@ -236,13 +237,12 @@
                                 <form method="POST" action="{{ route('admin.mentors.vouchers.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
-                                    <div class="input-group input-group-dynamic is-filled">
-                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                        <input class="multisteps-form__input form-control" type="text" name="voucher"
-                                            onfocus="focused(this)" onfocusout="defocused(this)" required>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label>Name</label>
+                                        <input type="text" name="voucher" class="form-control" required>
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label">Type</label><br />
+                                        <label class="">Type</label><br />
                                         <select class="select form-control" name="type" required>
                                             <option value="percent">
                                                 Percent
@@ -252,14 +252,12 @@
                                             </option>
                                         </select>
                                     </div>
-                                    <div class="input-group input-group-dynamic is-filled">
-                                        <label for="exampleFormControlInput1" class="form-label">Discount Value</label>
-                                        <input class="multisteps-form__input form-control" type="number"
-                                            name="discount_value" onfocus="focused(this)" onfocusout="defocused(this)"
-                                            required>
+                                    <div class="input-group input-group-static mb-3">
+                                        <label>Discount Value</label>
+                                        <input type="number" name="discount_value" required>
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label">Mentors</label><br />
+                                        <label class="">Mentors</label><br />
                                         <select class="select form-control" name="mentor" required>
                                             <option value="">All</option>
                                             @foreach($mentors as $mentor)
@@ -326,4 +324,5 @@
         });
         </script>
 </body>
+
 </html>
