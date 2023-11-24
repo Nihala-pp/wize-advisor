@@ -407,8 +407,8 @@ class AdminController extends Controller
         );
         ?>
         <script type="text/javascript">
-        alert("Voucher Updated Successfully!"    );
-        window.location.href = "https://wiseadvizor.com/admin/vouchers";
+            alert("Voucher Updated Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
         </script>
         <?php
     }
@@ -428,8 +428,8 @@ class AdminController extends Controller
 
         ?>
         <script type="text/javascript">
-        alert("Voucher Deleted Successfully!"    );
-        window.location.href = "https://wiseadvizor.com/admin/vouchers";
+            alert("Voucher Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
         </script>
         <?php
     }
@@ -459,8 +459,8 @@ class AdminController extends Controller
 
         ?>
         <script type="text/javascript">
-        alert("Blog Saved Successfully!");
-        win    dow.location.href = "https://wiseadvizor.com/admin/blogs";
+            alert("Blog Saved Successfully!");
+                win    dow.location.href = "https://wiseadvizor.com/admin/blogs";
         </script>
         <?php
     }
@@ -471,8 +471,8 @@ class AdminController extends Controller
 
         ?>
         <script type="text/javascript">
-        alert("Blogs Deleted Successfully!");
-        window.location.href = "https://wiseadvizor.com/admin/blogs";
+            alert("Blogs Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
         </script>
         <?php
     }
@@ -491,10 +491,24 @@ class AdminController extends Controller
                 'is_approved' => 1
             ]
         );
+
+        ?>
+        <script type="text/javascript">
+            alert("Reviews Approved Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 
     public function deleteReviews($id)
     {
         Review::find($id)->delete();
+
+        ?>
+        <script type="text/javascript">
+            alert("Reviews Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 }
