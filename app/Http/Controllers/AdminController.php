@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Mail\CredentialEmail;
+use App\Models\Blogs;
 use App\Models\ExpertiseList;
 use App\Models\LoginActivity;
 use App\Models\Setting;
@@ -427,5 +428,13 @@ class AdminController extends Controller
             window.location.href = "https://wiseadvizor.com/admin/vouchers";
         </script>
         <?php
+    }
+
+    public function blogs()
+    {
+
+        $blogs = Blogs::get();
+        
+        return view('admin.blogs', compact('blogs'));
     }
 }
