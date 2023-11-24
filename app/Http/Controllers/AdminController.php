@@ -479,6 +479,5 @@ class AdminController extends Controller
         $blogs = Blogs::find($id);
 
         return view('admin.edit-blogs', compact('blogs'));
-
     }
 }
