@@ -254,7 +254,7 @@
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label>Discount Value</label>
-                                        <input type="number" name="discount_value" required>
+                                        <input type="number" class="form-control" name="discount_value" required>
                                     </div>
                                     <div class="mb-3">
                                         <label class="">Mentors</label><br />
