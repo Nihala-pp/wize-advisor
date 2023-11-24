@@ -176,7 +176,7 @@
                                         </h5>
                                     </a>
                                     <p class="mb-4 text-sm">
-                                        {{ $blog->description }}
+                                        {{ Str::words($blog->description, '20') }}
                                     </p>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
@@ -244,4 +244,5 @@
     });
     </script>
 </body>
+
 </html>
