@@ -21,6 +21,7 @@ use App\Notifications\CustomNotification;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use Hash;
+use Illuminate\Support\Facades\Auth;
 
 // use CustomNotification;
 
@@ -402,11 +403,11 @@ class AdminController extends Controller
             ]
         );
         ?>
-        <script type="text/javascript">
-            alert("Voucher Updated Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Voucher Updated Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/vouchers";
+</script>
+<?php
     }
 
     public function editVouchers(Request $request)
@@ -423,18 +424,31 @@ class AdminController extends Controller
         Voucher::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Voucher Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Voucher Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/vouchers";
+</script>
+<?php
     }
 
     public function blogs()
     {
+       $blogs = Blogs::get();
 
-        $blogs = Blogs::get();
-        
-        return view('admin.blogs', compact('blogs'));
+       return view('admin.blogs', compact('blogs'));
+    }
+
+    public function saveBlogs(Request $request)
+    {
+        Blogs::updateOrCreate(
+            ['id' => $request->row_id],
+            [
+                'user_id' => Auth::id(),
+                'title' => $request->company,
+                'intro' => $request->designation,
+                'description' => $request->start_date,
+                'image' => $request->end_date,
+            ]
+        );
     }
 }
