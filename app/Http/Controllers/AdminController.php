@@ -56,7 +56,7 @@ class AdminController extends Controller
         $scheduled_calls = ScheduledCall::where('user_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
 
 
-        return view('admin.view_profile', compact('data','scheduled_calls'));
+        return view('admin.view_profile', compact('data', 'scheduled_calls'));
     }
 
     public function list_mentors()
@@ -72,22 +72,22 @@ class AdminController extends Controller
 
         $scheduled_calls = ScheduledCall::where('user_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
 
-        return view('admin.mentors_profile', compact('mentor','scheduled_calls'));
+        return view('admin.mentors_profile', compact('mentor', 'scheduled_calls'));
     }
 
-    public function reviews($id=null)
+    public function reviews($id = null)
     {
         return view('admin.reviews');
     }
 
-    public function experience($id=null)
+    public function experience($id = null)
     {
         $data = UserMeta::where('user_id', $id)->first();
 
         return view('admin.experience', compact('data'));
     }
 
-    public function expertise($id=null)
+    public function expertise($id = null)
     {
         $expertise = ExpertiseList::get();
 
@@ -113,13 +113,13 @@ class AdminController extends Controller
         // else {
         //     $data = '';
         // }
-        
+
         return view('admin.add-expertise');
     }
 
     public function deleteExpertise()
     {
-        
+
     }
 
     public function scheduledCalls()
@@ -237,17 +237,16 @@ class AdminController extends Controller
             'role_id' => 3,
         ];
 
-        if(!empty($request->row_id)) {
+        if (!empty($request->row_id)) {
             $user_record = User::find($request->row_id)->update(
                 $users
             );
-        }
-        else {
+        } else {
             $user_record = User::create(
                 $users
-            ); 
+            );
         }
-       
+
         $user_record->notify(new CustomNotification($user_record));
 
         $meta_data = [
@@ -321,23 +320,19 @@ class AdminController extends Controller
 
         UserMeta::update_user_details($request->row_id, $meta_data);
 
-        foreach($request->experience['company_name'] as $key => $company_name)
-        {
+        foreach ($request->experience['company_name'] as $key => $company_name) {
             $company = $company_name;
         }
 
-        foreach($request->experience['position'] as $key => $position)
-        {
+        foreach ($request->experience['position'] as $key => $position) {
             $pos = $position;
         }
 
-        foreach($request->experience['year'] as $key => $year)
-        {
+        foreach ($request->experience['year'] as $key => $year) {
             $start_date = $year;
         }
 
-        foreach($request->experience['end_date'] as $key => $end_date)
-        {
+        foreach ($request->experience['end_date'] as $key => $end_date) {
             $resigned_date = $end_date;
         }
 
@@ -345,10 +340,10 @@ class AdminController extends Controller
             ['user_id' => $user_record['id']],
 
             [
-            'company_name' => $company,
-            'position' => $pos,
-            'start_date' => $start_date,
-            'end_date' => $resigned_date
+                'company_name' => $company,
+                'position' => $pos,
+                'start_date' => $start_date,
+                'end_date' => $resigned_date
             ]
         );
 
@@ -371,15 +366,15 @@ class AdminController extends Controller
 
     public function saveExpertise(Request $request)
     {
-         $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
-         $request->profile_pic->move(public_path('wp-content/uploads/2023/06'), $pro_pic);
+        $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
+        $request->profile_pic->move(public_path('wp-content/uploads/2023/06'), $pro_pic);
 
         ExpertiseList::updateOrCreate(
             ['id' => $request->row_id],
 
             [
-            'name' => $request->expertise,
-            'icon' => $request->profile_pic,
+                'name' => $request->expertise,
+                'icon' => $request->profile_pic,
             ]
         );
     }
@@ -399,12 +394,18 @@ class AdminController extends Controller
             ['id' => $request->row_id],
 
             [
-            'name' => $request->voucher,
-            'discount_type' => $request->type,
-            'mentor_id' => $request->mentor,
-            'discount_value' => $request->discount_value,
+                'name' => $request->voucher,
+                'discount_type' => $request->type,
+                'mentor_id' => $request->mentor,
+                'discount_value' => $request->discount_value,
             ]
         );
+        ?>
+        <script type="text/javascript">
+            alert("Voucher Updated Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function editVouchers(Request $request)
@@ -420,12 +421,11 @@ class AdminController extends Controller
     {
         Voucher::find($id)->delete();
 
-        $notification = array(
-            'message' => 'Deleted Successfully!',
-            'alert-type' => 'success'
-        );
-
-        return redirect()->route('admin.mentors.vouchers')
-        ->with($notification, 'Deleted Successfully!');
+        ?>
+        <script type="text/javascript">
+            alert("Voucher Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 }
