@@ -112,6 +112,12 @@
                                     <span class="sidenav-normal  ms-2  ps-1"> Vouchers </span>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{ route('admin.mentors.review') }}">
+                                    <span class="sidenav-mini-icon"> R </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Review </span>
+                                </a>
+                            </li>
                             <!-- <li class="nav-item ">
                 <a class="nav-link text-white " href="{{ route('admin.mentors.reviews') }}">
                   <span class="sidenav-mini-icon"> R </span>
