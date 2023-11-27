@@ -161,7 +161,7 @@
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
                                     @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                    <img src="{{ asset('public/assets/img').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
+                                    <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->user->metaData->pro_pic }}"
                                         class="rounded-circle img-fluid" />
                                     @else
                                     <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
@@ -177,7 +177,7 @@
                                             <li>
                                                 <i class="fas fa-star fa-sm text-info"></i>
                                             </li>
-                                            @endfor
+                                        @endfor
                                     </ul>
                                     <hr />
                                     <p class="dark-grey-text mt-4">
@@ -199,5 +199,4 @@
             </div>
         </div>
 </body>
-
 </html>
