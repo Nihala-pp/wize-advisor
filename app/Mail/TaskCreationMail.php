@@ -29,7 +29,7 @@ class TaskCreationMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'To Creation Mail !',
+            subject: 'Todo List Created !',
             bcc: ['nihala-pp@wiseadvizor.com']
         );
     }
@@ -40,7 +40,7 @@ class TaskCreationMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'mail.task-creation',
         );
     }
 

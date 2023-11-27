@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Mail\CredentialEmail;
+use App\Mail\TaskCreationMail;
 use App\Models\Blogs;
 use App\Models\ExpertiseList;
 use App\Models\LoginActivity;
@@ -159,21 +160,23 @@ class AdminController extends Controller
         $task = $request->all();
         TodoList::todo_List($task);
 
-        return redirect->route('admin.dashboard');
+        Mail::to('info@wiseadvizor.com')->send(new TaskCreationMail($task));
+
+        return redirect()->route('admin.dashboard');
     }
 
     public function update_todo_status($id)
     {
         TodoList::find($id)->update(['is_done' => 1]);
 
-        return redirect->route('admin.dashboard');
+        return redirect()->route('admin.dashboard');
     }
 
     public function delete_todo_status($id)
     {
         TodoList::find($id)->delete();
 
-        return redirect->route('admin.dashboard');
+        return redirect()->route('admin.dashboard');
     }
 
     public function viewTask(Request $request)
