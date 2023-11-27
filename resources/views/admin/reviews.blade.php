@@ -177,19 +177,21 @@
                                             <li>
                                                 <i class="fas fa-star fa-sm text-info"></i>
                                             </li>
-                                        @endfor
+                                            @endfor
                                     </ul>
                                     <hr />
                                     <p class="dark-grey-text mt-4">
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
                                     <input type="hidden" name="id" value="{{ $review->id }}">
+                                    @if(is_null($review->is_approved))
                                     <span>
                                         <a href="{{ route('admin.mentors.review.approve') }}">Approve</a>&nbsp &nbsp
                                         &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                                         &nbsp &nbsp &nbsp
                                         <a href="{{ route('admin.mentors.review.reject', [ $review->id ]) }}">Reject</a>
                                     </span>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -199,6 +201,7 @@
             </div>
         </div>
 </body>
+
 </html>
 <style>
 .testimonial-card .card-up {
