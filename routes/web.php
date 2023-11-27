@@ -6,6 +6,7 @@ use App\Http\Controllers\CallReminderMentorController;
 use App\Http\Controllers\CallReminderUserController;
 use App\Http\Controllers\Cron;
 use App\Http\Controllers\MentorController;
+use App\Http\Controllers\ToDOController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
@@ -104,6 +105,7 @@ Route::get('/userReminderMail',[CallReminderUserController::class, 'userReminder
 Route::get('/completedcalls',[CompletedCallsMailController::class, 'index']);
 Route::get('/feedbackmail',[CallFeedbacksMailController::class, 'index']);
 Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
+Route::get('/to-do-task',[ToDOController::class, 'index']);
 
 
 Route::controller(AdminController::class)
