@@ -161,7 +161,7 @@
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
                                     @if ($review->user->metaData && $review->user->metaData->profile_pic)
-                                    <img src="{{ asset('public/aasets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                    <img src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                         class="rounded-circle img-fluid" />
                                     @else
                                     <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
