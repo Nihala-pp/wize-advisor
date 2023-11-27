@@ -30,13 +30,6 @@
                                         class="rounded-circle img-fluid" />
                                     @endif
                                 </div>
-                                <!-- <img class="rounded-circle img-fluid"
-                                    src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
-                                    data-src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
-                                    alt="" height="200" width="200"> -->
-                                <!-- <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
-                                        class="rounded-circle img-fluid" height="40px;" width="40px;"> -->
-                                <!-- </div> -->
                                 <div class="card-body">
                                     <h4 class="mb-4">{{ $review->mentor->name }}</h4>
                                     <h6 class="font-weight-bold my-3">{{ $review->mentor->metaData->designation }} at
