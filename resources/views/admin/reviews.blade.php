@@ -184,7 +184,7 @@
                                         <i class="fas fa-quote-left pe-2"></i>{{ $review->review }}
                                     </p>
                                     <input type="hidden" name="id" value="{{ $review->id }}">
-                                    @if(is_null($review->is_approved))
+                                    @if(empty($review->is_approved))
                                     <span>
                                         <a href="{{ route('admin.mentors.review.approve') }}">Approve</a>&nbsp &nbsp
                                         &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
