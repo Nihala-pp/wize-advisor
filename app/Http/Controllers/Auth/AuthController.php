@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Mail\WelcomeEmailUser;
+use App\Notifications\SignupAdmin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
@@ -123,8 +124,10 @@ class AuthController extends Controller
 
         $data = $request->all();
         $check = $this->create($data);
-
+        $admin = User::find(1);
+        
         Mail::to($request->email)->send(new WelcomeEmailUser($data));
+        $admin->notify(new SignupAdmin($data));
 
         if (Auth::attempt($credentials)) {
 
