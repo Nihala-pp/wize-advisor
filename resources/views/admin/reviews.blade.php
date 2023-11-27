@@ -172,7 +172,7 @@
                                             <li>
                                                 <i class="fas fa-star fa-sm text-info"></i>
                                             </li>
-                                            @endfor
+                                        @endfor
                                     </ul>
                                     <hr />
                                     <p class="dark-grey-text mt-4">
@@ -180,7 +180,9 @@
                                     </p>
                                     <input type="hidden" name="id" value="{{ $review->id }}">
                                     <span>
-                                        <a href="{{ route('admin.mentors.review.approve') }}">Approve</a>&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                        <a href="{{ route('admin.mentors.review.approve') }}">Approve</a>&nbsp &nbsp
+                                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                        &nbsp &nbsp &nbsp
                                         <a href="{{ route('admin.mentors.review.reject', [ $review->id ]) }}">Reject</a>
                                     </span>
                                 </div>
