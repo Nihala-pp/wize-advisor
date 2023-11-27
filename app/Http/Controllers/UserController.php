@@ -74,11 +74,11 @@ class UserController extends Controller
     $mentor->notify(new NewReview($mentor));
 
     ?>
-<script type="text/javascript">
-alert("Review has been submitted");
-window.location.href = "https://wiseadvizor.com/user/dashboard";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Review has been submitted");
+      window.location.href = "https://wiseadvizor.com/user/dashboard";
+    </script>
+    <?php
   }
 
   public function updateSchedule($id)
@@ -290,7 +290,8 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     $request->validate([
       'password' => [
         'required',
-        'confirmed', Password::min(8)
+        'confirmed',
+        Password::min(8)
           ->letters()
           ->mixedCase()
           ->numbers()
@@ -320,8 +321,8 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
   public function listReviews()
   {
-      $reviews = Review::where('user_id', Auth::id())->get();
+    $reviews = Review::where('user_id', Auth::id())->get();
 
-      return view('users.my-reviews', compact('reviews'));
+    return view('users.my-reviews', compact('reviews'));
   }
 }
