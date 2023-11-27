@@ -161,7 +161,7 @@
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
                                     @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                    <img src="{{ asset('public/assets/img/') }}{{ $review->user->metaData->pro_pic }}"
+                                    <img src="{{ asset('public/wp-content/uploads/2023/07/').'/' }}{{ $review->mentor->metaData->pro_pic_1 }}"
                                         class="rounded-circle img-fluid" />
                                     @else
                                     <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
@@ -200,3 +200,19 @@
         </div>
 </body>
 </html>
+<style>
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.testimonial-card .avatar {
+    width: 50px;
+    /* margin-top: -60px; */
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+</style>
