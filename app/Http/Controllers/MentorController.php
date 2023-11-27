@@ -9,6 +9,7 @@ use App\Models\Review;
 use App\Notifications\CallRejectedAdmin;
 use App\Notifications\CallRejectedUser;
 use App\Notifications\NewCallApprovedAdmin;
+use App\Notifications\TimeSlotAdmin;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
@@ -254,6 +255,9 @@ class MentorController extends Controller
                 ];
 
                 AvailableSchedule::update_schedule($request->row_id, $data);
+                $admin = User::where('role_id', 1)->first();
+                $mentor = User::find($data['mentor_id']);
+                $admin->notify(new TimeSlotAdmin($mentor));
 
                 ?>
                 <script type="text/javascript">
