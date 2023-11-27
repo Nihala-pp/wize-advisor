@@ -160,7 +160,7 @@
                             <div class="card testimonial-card">
                                 <div class="card-up" style="background-color: #9d789b;"></div>
                                 <div class="avatar mx-auto bg-white">
-                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                    @if ($review->user->metaData && $review->user->metaData->profile_pic)
                                     <img src="{{ asset('public/aasets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                         class="rounded-circle img-fluid" />
                                     @else
