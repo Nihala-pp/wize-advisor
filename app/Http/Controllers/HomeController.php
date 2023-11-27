@@ -11,6 +11,7 @@ use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\Review;
 use App\Models\UserFaq;
+use App\Notifications\CallRejectedAdmin;
 use App\Notifications\NewCallRequest;
 use Illuminate\Http\Request;
 use App\Models\User;
@@ -354,11 +355,13 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
       $user = User::find(Auth::id());
       $mentor = User::find($data['mentor']);
+      $admin = User::where('role_id', 1)->first();
 
       if (!empty($data['call_id'])) {
         ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
 
         $mentor->notify(new CallRejectedUser($user));
+        $admin->notify(new CallRejectedAdmin($user));
 
         Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
         Mail::to($mentor->email)->send(new RejectedCallMail($details));
