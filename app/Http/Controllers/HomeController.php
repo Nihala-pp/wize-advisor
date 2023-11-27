@@ -14,6 +14,7 @@ use App\Models\UserFaq;
 use App\Notifications\CallRejectedAdmin;
 use App\Notifications\NewCallRequest;
 use App\Notifications\NewCallRequestAdmin;
+use App\Notifications\UpdateSessionAdmin;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
@@ -363,6 +364,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
         $mentor->notify(new CallRejectedUser($user));
         $admin->notify(new CallRejectedAdmin($user));
+        $admin->notify(new UpdateSessionAdmin($user));
 
         Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
         Mail::to($mentor->email)->send(new RejectedCallMail($details));
