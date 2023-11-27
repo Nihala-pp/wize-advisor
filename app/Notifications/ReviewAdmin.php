@@ -6,18 +6,23 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class ReviewAdmin extends Notification
 {
     use Queueable;
 
-    /**
+    protected $user;
+
+   /**
      * Create a new notification instance.
      */
-    public function __construct()
+    public function __construct(User $user)
     {
-        //
+        $this->user = $user;
     }
+
 
     /**
      * Get the notification's delivery channels.
@@ -26,7 +31,7 @@ class ReviewAdmin extends Notification
      */
     public function via(object $notifiable): array
     {
-        return ['mail'];
+        return ['database'];
     }
 
     /**
@@ -47,8 +52,11 @@ class ReviewAdmin extends Notification
      */
     public function toArray(object $notifiable): array
     {
+        $user = Auth::user()->name;
         return [
-            //
+            'message' => "{$user} Added New Review.",
+            'mentor_id' => $this->user->id,
+            'user_id' =>  1,
         ];
     }
 }

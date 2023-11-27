@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Notifications\NewReview;
 use App\Notifications\passwordChange;
 use App\Notifications\profileUpdate;
+use App\Notifications\ReviewAdmin;
 use App\Notifications\SloteUpdate;
 use Illuminate\Support\Facades\Auth;
 use App\Models\ScheduledCall;
@@ -63,6 +64,7 @@ class UserController extends Controller
     ]);
 
     $user = User::find(Auth::id());
+    $admin = User::find(1);
     $mentor = User::find($request->mentor);
 
     $message = "{$user->name} added New Review for you";
@@ -72,6 +74,7 @@ class UserController extends Controller
     // $user->notify(new BirthdayWish($messages));
 
     $mentor->notify(new NewReview($mentor));
+    $admin->notify(new ReviewAdmin($mentor));
 
     ?>
     <script type="text/javascript">
