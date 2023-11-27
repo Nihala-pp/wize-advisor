@@ -2,14 +2,14 @@
 
 namespace App\Notifications;
 
-use App\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
-class CallRejectedAdmin extends Notification
+class NewCallRequestAdmin extends Notification
 {
     use Queueable;
 
@@ -52,9 +52,8 @@ class CallRejectedAdmin extends Notification
     public function toArray(object $notifiable): array
     {
         $user = Auth::user()->name;
-
         return [
-            'message' => "Call with {$this->user->name} is rejected",
+            'message' => "New Call is Requested with {$user}",
             'mentor_id' => $this->user->id,
             'user_id' =>  Auth::id(),
         ];

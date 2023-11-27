@@ -6,7 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Mail\callApprovalMentor;
 use App\Models\ScheduledCall;
 use App\Models\Review;
+use App\Notifications\CallRejectedAdmin;
 use App\Notifications\CallRejectedUser;
+use App\Notifications\NewCallApprovedAdmin;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
@@ -143,9 +145,11 @@ class MentorController extends Controller
     public function reject_call($id)
     {
         $schedule = ScheduledCall::find($id);
+        $admin = User::where('role_id', 1)->first();
         $schedule->update(['status' => 'Rejected']);
 
         $schedule->user->notify(new CallRejectedUser($schedule->mentor));
+        $admin->notify(new CallRejectedAdmin($schedule->mentor));
 
         $notification = array(
             'message' => 'Rejected Successfully!',
@@ -317,6 +321,9 @@ class MentorController extends Controller
             $schedule->update([
                 'call_link' => $data->join_url
             ]);
+
+            $admin = User::where('role_id', 1)->first();
+            $admin->notify(new NewCallApprovedAdmin($schedule->mentor));
 
             $user_email = $schedule->user->email;
             $mentor_email = $schedule->mentor->email;

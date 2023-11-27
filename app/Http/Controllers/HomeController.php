@@ -13,6 +13,7 @@ use App\Models\Review;
 use App\Models\UserFaq;
 use App\Notifications\CallRejectedAdmin;
 use App\Notifications\NewCallRequest;
+use App\Notifications\NewCallRequestAdmin;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\UserMeta;
@@ -369,6 +370,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       }
 
       $mentor->notify(new NewCallRequest($user));
+      $admin->notify(new NewCallRequestAdmin($user));
 
       // $array = serialize($details);
 
