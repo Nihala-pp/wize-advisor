@@ -218,6 +218,7 @@
                                             value="{{ $data->metaData->commission ??  '' }}" required>
                                     </div>
                                     <div class="row">
+                                        <div class="panel-heading"> Expertise</div>
                                         <div class="col-md-4 ">
                                             <div class="input-group input-group-static my-3">
                                                 <!-- <label>Date</label> -->
@@ -246,7 +247,6 @@
                                         </div>
                                         <div id="newinput" class="newinput"></div>
                                     </div>
-                                    <hr>
                                     <div>
                                         <label class="form-label">Languages (Type and Press Enter)</label>
                                         <input name="languages[]" class="form-control" id="languages-tags"
