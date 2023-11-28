@@ -336,7 +336,7 @@
                 '</div></div>' +
                 '<div class="col-md-6">' +
                 '<div class="input-group input-group-outline my-3">' +
-                '<label>Description</label>' +
+                '<label class="form-label">Description</label>' +
                 '<textarea name="expertise[' + new_row_number + '][desc]" class="form-control" rows="5" required></textarea>' +
                 '</div></div>' +
                 // '<div class="col-md-2">' +
