@@ -479,28 +479,18 @@
                 </div>
             </div>
             <div class="row mb-4">
-                <div class="col-lg-8 col-md-8 mb-md-0 mb-4">
+                <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
                     <div class="card">
                         <div class="card-header pb-0">
                             <div class="row">
                                 <div class="col-lg-6 col-7">
                                     <h6>Notification</h6>
-                                    <!-- <p class="text-sm mb-0">
-                    <i class="fa fa-check text-info" aria-hidden="true"></i>
-                     <span class="font-weight-bold ms-1">30 done</span> this month -->
+                                    <p class="text-sm mb-0">
+                                        <!-- <i class="fa fa-check text-info" aria-hidden="true"></i> -->
+                                        <span class="font-weight-bold ms-1">New</span> Notifications
                                     </p>
                                 </div>
                                 <div class="col-lg-6 col-5 my-auto text-end">
-                                    <!-- <div class="dropdown float-lg-end pe-4">
-                    <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fa fa-ellipsis-v text-secondary"></i>
-                    </a>
-                    <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5" aria-labelledby="dropdownTable">
-                      <li><a class="dropdown-item border-radius-md" href="javascript:;">Action</a></li>
-                      <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
-                      <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
-                    </ul>
-                  </div> -->
                                 </div>
                             </div>
                         </div>
@@ -528,39 +518,24 @@
                                         <tr>
                                             <td>
                                                 <div class="alert alert-info">
-                                                    <button type="button" aria-hidden="true" class="close">
+                                                    <!-- <button type="button" aria-hidden="true" class="close">
                                                         <i class="material-icons">close</i>
-                                                    </button>
-                                                    <span><b> [{{ $notification->created_at }}] - </b>
-                                                        {{ $notification->data['name'] }}
-                                                        ({{ $notification->data['email'] }})
-                                                        ({{ $notification->data['event'] }})
-                                                        <a href="#" class="float-right mark-as-read"
+                                                    </button> -->
+                                                    <span><b> {{ $notification->data['message'] }} </b>
+                                                        <!-- <a href="#" class="float-right mark-as-read"
                                                             data-id="{{ $notification->id }}">
                                                             Mark as read
-                                                        </a>
+                                                        </a> -->
                                                     </span>
                                                 </div>
-                                                <!-- <div class="alert alert-success" role="alert">
-                          [{{ $notification->created_at }}] User {{ $notification->data['name'] }} ({{ $notification->data['email'] }}) has just registered.
-                          <a href="#" class="float-right mark-as-read" data-id="{{ $notification->id }}">
-                            Mark as read
-                          </a>
-                        </div> -->
-                                                @if($loop->last)
+                                                <!-- @if($loop->last)
                                                 <a href="#" id="mark-all">
                                                     Mark all as read
                                                 </a>
-                                                @endif
+                                                @endif  -->
                                                 @empty
-                                                <div class="alert alert-info noti">
-                                                    <!-- <button type="button" aria-hidden="true" class="close">
-                            <i class="material-icons">close</i>
-                          </button> -->
+                                                <div class="alert alert-info notification">
                                                     <span><b> There are no new notifications </b>
-                                                        <!-- <a href="#" class="float-right mark-as-read" data-id="">
-                              Mark as read
-                            </a> -->
                                                     </span>
                                                 </div>
                                             </td>
@@ -655,7 +630,8 @@
                     <div class="row align-items-center justify-content-lg-between">
                         <div class="col-lg-4 mb-lg-0 mb-4">
                             <div class="copyright text-center text-sm text-muted text-lg-start">
-                                © <script>
+                                ©
+                                <script>
                                 document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
@@ -1055,32 +1031,28 @@
         Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
     </script>
-    <script>
-    function sendMarkRequest(id = null) {
-        return $.ajax("{{ route('admin.markNotification') }}", {
-            method: 'POST',
-            data: {
-                // _token,
-                // id
-            }
-        });
-    }
-
+    <script type="text/javascript">
     $(function() {
         $('.mark-as-read').click(function() {
-            let task = sendMarkRequest($(this).data('id'));
+            let request = sendMarkRequest($(this).data('id'));
             request.done(() => {
                 $(this).parents('div.alert').remove();
             });
         });
 
-        $('#mark-all').click(function() {
-            let request = sendMarkRequest();
-            request.done(() => {
-                $('div.alert').remove();
-            })
-        });
-
+        function sendMarkRequest(id = null) {
+            return $.ajax("{{ route('mentor.markNotification') }}", {
+                method: 'POST',
+                data: {
+                    _token,
+                    id
+                }
+            });
+        }
+    });
+    </script>
+    <script>
+    $(function() {
         $('.addTodoList').click(function() {
             let task = $('.task').val();
             // let form = $('.to-do-list-form').serialize();
