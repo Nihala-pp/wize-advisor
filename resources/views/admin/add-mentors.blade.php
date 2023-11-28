@@ -324,7 +324,6 @@
             var myOptions =
                 '@foreach($expertise as $expert) <option value="{{ $expert->name }}"> {{ $expert->name }} </option> @endforeach';
 
-            // alert("hii");
             newRowAdd =
                 '<div class="row">' +
                 '<div class="col-md-4">' +
