@@ -239,7 +239,7 @@
                                                     name="expertise[0][desc]"></textarea> -->
                                             </div>
                                         </div>
-                                        <div class="col-md-2 mt-3">
+                                        <div class="col-md-2">
                                             <div class="input-group input-group-static my-3">
                                                 <i class="fa fa-plus expertiseAdder ml-2" id="expertiseAdder"> </i>
                                             </div>
