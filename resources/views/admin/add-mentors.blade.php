@@ -219,14 +219,14 @@
                                     </div>
                                     <div class="row">
                                         <div class="panel-heading"> Expertise</div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-4">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Name</label>
                                                 <input type="text" name="expertise[0][name]"
                                                     class="form-control" required>
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
+                                        <div class="col-md-8">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Description</label>
                                                 <textarea required="required" class="form-control" cols="5"
