@@ -244,7 +244,7 @@
                                                 <i class="fa fa-plus expertiseAdder ml-2" id="expertiseAdder"> </i>
                                             </div>
                                         </div>
-                                        <div id="expertise" class="expertise"></div>
+                                        <div id="expertise"></div>
                                     </div>
                                     <div>
                                         <label class="form-label">Languages (Type and Press Enter)</label>
