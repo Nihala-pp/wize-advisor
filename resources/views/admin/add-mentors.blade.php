@@ -382,46 +382,6 @@
         var element = document.getElementById('choices-button');
         const example = new Choices(element, {});
     }
-    var choicesTags = document.getElementById('expertise-tags');
-    var color = choicesTags.dataset.color;
-    if (choicesTags) {
-        const example = new Choices(choicesTags, {
-            delimiter: ',',
-            editItems: true,
-            maxItemCount: 5,
-            removeItemButton: true,
-            addItems: true,
-            classNames: {
-                item: 'badge rounded-pill choices-' + color + ' me-2'
-            }
-        });
-    }
-    </script>
-    <script type="text/javascript">
-    if (document.getElementById('choices-button')) {
-        var element = document.getElementById('choices-button');
-        const example = new Choices(element, {});
-    }
-    var choicesTags = document.getElementById('languages-tags');
-    var color = choicesTags.dataset.color;
-    if (choicesTags) {
-        const example = new Choices(choicesTags, {
-            delimiter: ',',
-            editItems: true,
-            maxItemCount: 5,
-            removeItemButton: true,
-            addItems: true,
-            classNames: {
-                item: 'badge rounded-pill choices-' + color + ' me-2'
-            }
-        });
-    }
-    </script>
-    <script type="text/javascript">
-    if (document.getElementById('choices-button')) {
-        var element = document.getElementById('choices-button');
-        const example = new Choices(element, {});
-    }
     var choicesTags = document.getElementById('language-tags');
     var color = choicesTags.dataset.color;
     if (choicesTags) {
