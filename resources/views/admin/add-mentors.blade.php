@@ -325,13 +325,9 @@
                 '<label>Name</label>' +
                 '<select class="select form-control" name="expertise[name][]" required>' +
                 '<option value="">Choose any</option>' +
-                @foreach($expertise as $expert) <
-                option value = "{{ $expert->name }}" > {
-                    {
-                        $expert - > name
-                    }
-                } < /option>
-            @endforeach
+                @foreach($expertise as $expert) 
+                <option value="{{ $expert->name }}"> {{ $expert->name }} </option>
+                @endforeach
                 '</select>' +
                 '</div></div>' +
                 '<div class="col-md-8">' +
