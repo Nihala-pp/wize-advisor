@@ -344,7 +344,7 @@
                 // '<div class="col-md-2">' +
                 // '<div class="input-group input-group-static my-3">' +
                 // '<label></label>' +
-                '<i class="bi bi-trash" id="DeleteExp"> Delete</i> </div>';
+                '<i class="bi bi-trash DeleteExp" id="DeleteExp"> Delete</i> </div>';
             // '</div></div></div>';
             // ' </div> </div>';
             $('#expertise').append(newRowAdd);
@@ -374,14 +374,34 @@
                 '<input type="text" name="experience[end_date][]" class="form-control date-pick">' +
                 '</div></div>' +
                 // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
-                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
+                '<i class="bi bi-trash DeleteRow" id="DeleteRow"> Delete</i>  </div>';
             // ' </div> </div>';
             $('#newinput').append(newRowAdd);
         });
 
-        $("#DeleteRow").click(function() {
-            $(this).parents("#row").remove();
+        $(document).on('click', 'i.DeleteRow', function() {
+            if (row_number > 0) {
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
+                // $(this).parents(".row" + (row_number - 1)).remove();
+            }
         });
+
+        $(document).on('click', 'i.DeleteExp', function() {
+            if (row_number > 0) {
+                $(this).closest('.row').remove();
+                row_number--;
+
+                return false;
+                // $(this).parents(".row" + (row_number - 1)).remove();
+            }
+        });
+
+        // $("#DeleteRow").click(function() {
+        //     $(this).parents("#row").remove();
+        // });
 
         $('.date-pick').datepicker({
             multidate: true,
