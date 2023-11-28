@@ -53,8 +53,8 @@ class SignupAdmin extends Notification
     {
         return [
             'message' => "{$this->user->name} Signed Up Successfully",
-            'mentor_id' => $this->user->id,
-            'user_id' =>  Auth::id(),
+            'mentor_id' => 'NULL',
+            'user_id' =>  1,
         ];
     }
 }
