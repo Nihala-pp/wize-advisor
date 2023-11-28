@@ -279,11 +279,13 @@ class AdminController extends Controller
     {
         $data = '';
 
+        $expertise = ExpertiseList::get();
+
         if (!empty($id)) {
             $data = User::find($id);
         }
 
-        return view('admin.add-mentors', compact('data'));
+        return view('admin.add-mentors', compact('data','expertise'));
     }
 
     public function save_mentors(Request $request)

@@ -222,18 +222,21 @@
                                         <div class="col-md-4">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Name</label>
-                                                <input type="text" name="expertise[0][name]"
-                                                    class="form-control" required>
+                                                <select class="select form-control" name="expertise[0][name]" required>
+                                                    @foreach($expertise as $expert)
+                                                    <option value="{{ $expert }}">{{ $expert }}</option>
+                                                    @endforeach
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-8">
+                                        <div class="col-md-6">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Description</label>
                                                 <textarea required="required" class="form-control" cols="5"
-                                                    name="expertise[0][desc]">Type Here</textarea>
+                                                    name="expertise[0][desc]"></textarea>
                                             </div>
                                         </div>
-                                        <div class="col-md-3 mt-3">
+                                        <div class="col-md-2 mt-3">
                                             <div class="input-group input-group-static my-3">
                                                 <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
                                             </div>
