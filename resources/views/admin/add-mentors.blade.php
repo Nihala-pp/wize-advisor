@@ -332,7 +332,7 @@
                 '<select class="select form-control" name="expertise[' + new_row_number +
                 '][name]" required>' +
                 '<option value="">Choose any</option>' +
-                ' + myOptions + ' +
+                 myOptions   +
                 '</select>' +
                 '</div></div>' +
                 '<div class="col-md-6">' +
