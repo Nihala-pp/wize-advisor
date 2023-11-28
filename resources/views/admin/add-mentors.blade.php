@@ -246,7 +246,7 @@
                                     </div>
                                     <div>
                                         <label class="form-label">Languages (Type and Press Enter)</label>
-                                        <input name="languages[]" class="form-control" id="languages-tags"
+                                        <input name="languages[]" class="form-control" id="language-tags"
                                             data-color="dark" type="text" value="{{ $data->metaData->language ??  '' }}"
                                             required>
                                     </div>
@@ -397,7 +397,5 @@
         });
     }
     </script>
-    <!--   Core JS Files   -->
 </body>
-
 </html>
