@@ -321,29 +321,32 @@
 
         $("#expertiseAdder").click(function(e) {
             let new_row_number = row_number + 1;
+            var myOptions =
+                '@foreach($expertise as $expert) <option value="{{ $expert->name }}"> {{ $expert->name }} </option> @endforeach';
+
             // alert("hii");
             newRowAdd =
                 '<div class="row">' +
                 '<div class="col-md-4">' +
                 '<div class="input-group input-group-static my-3">' +
                 '<label>Name</label>' +
-                '<select class="select form-control" name="expertise[' + new_row_number + '][name]" required>' +
+                '<select class="select form-control" name="expertise[' + new_row_number +
+                '][name]" required>' +
                 '<option value="">Choose any</option>' +
-                // @foreach($expertise as $expert) 
-                // <option value="{{ $expert->name }}"> {{ $expert->name }} </option>
-                // @endforeach
+                ' + myOptions + ' +
                 '</select>' +
                 '</div></div>' +
                 '<div class="col-md-6">' +
                 '<div class="input-group input-group-outline my-3">' +
                 '<label class="form-label">Description</label>' +
-                '<textarea name="expertise[' + new_row_number + '][desc]" class="form-control" rows="5" required></textarea>' +
+                '<textarea name="expertise[' + new_row_number +
+                '][desc]" class="form-control" rows="5" required></textarea>' +
                 '</div></div>' +
                 // '<div class="col-md-2">' +
                 // '<div class="input-group input-group-static my-3">' +
                 // '<label></label>' +
                 '<i class="bi bi-trash" id="DeleteExp"> Delete</i> </div>';
-                // '</div></div></div>';
+            // '</div></div></div>';
             // ' </div> </div>';
             $('#expertise').append(newRowAdd);
         });
