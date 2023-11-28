@@ -229,7 +229,7 @@
                                         <div class="col-md-5">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Description</label>
-                                                <textarea rows="5" cols="5"
+                                                <textarea class="form-control" rows="5" cols="5"
                                                     name="expertise[0][desc]">Type Here</textarea>
                                             </div>
                                         </div>
