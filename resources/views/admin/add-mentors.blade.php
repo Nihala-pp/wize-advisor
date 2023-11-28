@@ -219,30 +219,23 @@
                                     </div>
                                     <div class="row">
                                         <div class="panel-heading"> Expertise</div>
-                                        <div class="col-md-4 ">
-                                            <div class="input-group input-group-static my-3">
-                                                <!-- <label>Date</label> -->
-                                                <input type="date" name="schedule[0][date]"
-                                                    class="form-control datevalue">
-                                            </div>
-                                        </div>
                                         <div class="col-md-3">
                                             <div class="input-group input-group-static my-3">
-                                                <!-- <label>Start Time</label> -->
-                                                <input type="time" name="schedule[0][start_time]" class="form-control">
+                                                <label>Name</label>
+                                                <input type="text" name="expertise[0][name]"
+                                                    class="form-control">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-5">
                                             <div class="input-group input-group-static my-3">
-                                                <!-- <label>End Time</label> -->
-                                                <input type="time" name="schedule[0][end_time]" class="form-control">
+                                                <label>Description</label>
+                                                <textarea rows="5" cols="5"
+                                                    name="expertise[0][desc]">Type Here</textarea>
                                             </div>
                                         </div>
-                                        <div class="col-md-2 mt-3">
+                                        <div class="col-md-3 mt-3">
                                             <div class="input-group input-group-static my-3">
-                                                <!-- <label></label> -->
                                                 <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
-                                                <!-- <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i> -->
                                             </div>
                                         </div>
                                         <div id="newinput" class="newinput"></div>
