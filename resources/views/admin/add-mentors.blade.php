@@ -244,7 +244,7 @@
                                                 <i class="fa fa-plus expertiseAdder ml-2" id="expertiseAdder"> </i>
                                             </div>
                                         </div>
-                                        <div id="expertise"></div>
+                                        <div class="expertise"></div>
                                     </div>
                                     <div>
                                         <label class="form-label">Languages (Type and Press Enter)</label>
@@ -347,7 +347,8 @@
                 '<i class="bi bi-trash DeleteExp" id="DeleteExp"> Delete</i> </div>';
             // '</div></div></div>';
             // ' </div> </div>';
-            $('#expertise').append(newRowAdd);
+            $('.expertise').append(newRowAdd);
+            row_number++;
         });
 
         $('#rowAdder').click(function() {
