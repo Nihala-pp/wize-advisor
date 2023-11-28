@@ -223,13 +223,13 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label>Name</label>
                                                 <input type="text" name="expertise[0][name]"
-                                                    class="form-control">
+                                                    class="form-control" required>
                                             </div>
                                         </div>
                                         <div class="col-md-5">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Description</label>
-                                                <textarea class="form-control" rows="5" cols="5"
+                                                <textarea required="required" class="form-control" rows="5"
                                                     name="expertise[0][desc]">Type Here</textarea>
                                             </div>
                                         </div>
