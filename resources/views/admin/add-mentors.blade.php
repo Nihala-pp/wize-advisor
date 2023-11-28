@@ -321,7 +321,7 @@
 
         $("#expertiseAdder").click(function(e) {
             let new_row_number = row_number + 1;
-            alert("hii");
+            // alert("hii");
             newRowAdd =
                 '<div class="row">' +
                 '<div class="col-md-4">' +
