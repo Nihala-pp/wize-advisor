@@ -390,6 +390,7 @@
         // });
 
         $(document).on('click', 'i.DeleteExp', function() {
+            alert("sdsfsf");
             if (row_number > 0) {
                 $(this).closest('.row').remove();
                 row_number--;
