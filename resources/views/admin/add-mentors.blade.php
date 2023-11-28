@@ -231,8 +231,10 @@
                                             </div>
                                         </div>
                                         <div class="col-md-8">
-                                            <div class="input-group input-group-static my-3">
+                                            <div class="input-group input-group-outline my-3">
                                                 <label>Description</label>
+                                                <textarea name="bio" class="form-control" rows="5"
+                                                    required>{{ $data->metaData->about_me ??  '' }}</textarea>
                                                 <textarea required="required" class="form-control"
                                                     name="expertise[0][desc]"></textarea>
                                             </div>
@@ -323,9 +325,13 @@
                 '<label>Name</label>' +
                 '<select class="select form-control" name="expertise[name][]" required>' +
                 '<option value="">Choose any</option>' +
-                  @foreach($expertise as $expert) 
-                    <option value = "{{ $expert->name }}" > {{ $expert->name }} </option>
-                  @endforeach
+                @foreach($expertise as $expert) <
+                option value = "{{ $expert->name }}" > {
+                    {
+                        $expert - > name
+                    }
+                } < /option>
+            @endforeach
                 '</select>' +
                 '</div></div>' +
                 '<div class="col-md-8">' +
@@ -398,4 +404,5 @@
     }
     </script>
 </body>
+
 </html>
