@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.header')
+
 <body class="g-sidenav-show  bg-gray-200">
     @include('partials.sidebar')
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -221,11 +222,102 @@
                                         <input type="number" name="commission" class="form-control"
                                             value="{{ $data->metaData->commission ??  '' }}" required>
                                     </div>
-                                    <div>
-                                        <label class="form-label">Expertise (Type and Press Enter)</label>
-                                        <input name="expertise[]" class="form-control" id="expertise-tags"
-                                            data-color="dark" type="text"
-                                            value="{{ $data->metaData->expertise ??  '' }}" required>
+                                    <div class="row">
+                                        <div class="col-md-4 ">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[0][date]"
+                                                    class="form-control datevalue">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Start Time</label> -->
+                                                <input type="time" name="schedule[0][start_time]" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>End Time</label> -->
+                                                <input type="time" name="schedule[0][end_time]" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 mt-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label></label> -->
+                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
+                                                <!-- <i class="fa fa-trash DeleteRow" id="DeleteRow"> </i> -->
+                                            </div>
+                                        </div>
+                                        <div id="newinput" class="newinput"></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Date</label> -->
+                                                <input type="date" name="schedule[11][date]"
+                                                    class="form-control datevalue1">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>Start Time</label> -->
+                                                <input type="time" name="schedule[11][start_time]" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label>End Time</label> -->
+                                                <input type="time" name="schedule[11][end_time]" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 ">
+                                            <div class="input-group input-group-static my-3">
+                                                <!-- <label></label> -->
+                                                <i class="fa fa-plus rowAdder1 ml-2" id="rowAdder1"> </i>
+                                            </div>
+                                        </div>
+                                        <div id="newinput1" class="newinput1"></div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="panel-heading"> Expertise</div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <label>Company</label>
+                                                <input type="text" name="experience[company_name][]"
+                                                    class="form-control" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="input-group input-group-static my-3">
+                                                <label>Designation</label>
+                                                <input type="text" name="experience[position][]" class="form-control"
+                                                    required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="input-group input-group-static my-3">
+                                                <label>Start Date</label>
+                                                <input type="text" name="experience[year][]" class="form-control date"
+                                                    required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="input-group input-group-static my-3">
+                                                <label>End Date</label>
+                                                <input type="text" name="experience[end_date][]"
+                                                    class="form-control date" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="input-group input-group-static my-3">
+                                                <label></label>
+                                                <i class="fa fa-plus" id="rowAdder"> Add</i>
+                                            </div>
+                                        </div>
+                                        <div id="newinput"></div>
                                     </div>
                                     <div>
                                         <label class="form-label">Languages (Type and Press Enter)</label>
