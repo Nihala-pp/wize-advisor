@@ -318,6 +318,7 @@
         // });
 
         $("#expertiseAdder").click(function() {
+            alert("hii");
             newRowAdd =
                 '<div class="row">' +
                 '<div class="col-md-3">' +
