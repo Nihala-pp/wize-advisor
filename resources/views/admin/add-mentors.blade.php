@@ -233,10 +233,10 @@
                                         <div class="col-md-8">
                                             <div class="input-group input-group-outline my-3">
                                                 <label>Description</label>
-                                                <textarea name="bio" class="form-control" rows="5"
-                                                    required>{{ $data->metaData->about_me ??  '' }}</textarea>
-                                                <textarea required="required" class="form-control"
-                                                    name="expertise[0][desc]"></textarea>
+                                                <textarea name="expertise[0][desc]" class="form-control" rows="5"
+                                                    required></textarea>
+                                                <!-- <textarea required="required" class="form-control"
+                                                    name="expertise[0][desc]"></textarea> -->
                                             </div>
                                         </div>
                                         <div class="col-md-1 mt-3">
