@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Mail\CredentialEmail;
 use App\Mail\TaskCreationMail;
 use App\Models\Blogs;
+use App\Models\Expertise;
 use App\Models\ExpertiseList;
 use App\Models\LoginActivity;
 use App\Models\Review;
@@ -327,6 +328,20 @@ class AdminController extends Controller
             'commission' => $request->commission,
             'language' => json_encode($request->languages)
         ];
+
+        foreach ($request->expertise as $key => $expertise) {
+
+            $expertise_data = [
+                'mentor_id' => $user_record['id'],
+                'expertise' => $expertise['name'],
+                'description' => $expertise['desc']
+            ];        
+
+            Expertise::update_expertise($request->row_id, $expertise_data);
+
+        }
+
+
 
         UserMeta::update_user_details($request->row_id, $meta_data);
 

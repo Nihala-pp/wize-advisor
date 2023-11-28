@@ -12,4 +12,12 @@ class Expertise extends Model
     protected $guarded = [];
     protected $fillable = [];
     protected $table = "expertise";
+
+    public static function update_expertise($id, $details)
+    {
+        self::updateOrCreate(
+            ['mentor_id' => $id],
+            $details
+        );
+    }
 }
