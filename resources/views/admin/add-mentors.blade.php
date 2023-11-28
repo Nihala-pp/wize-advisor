@@ -223,6 +223,7 @@
                                             <div class="input-group input-group-static my-3">
                                                 <label>Name</label>
                                                 <select class="select form-control" name="expertise[0][name]" required>
+                                                    <option value="">Choose any</option>
                                                     @foreach($expertise as $expert)
                                                     <option value="{{ $expert->name }}">{{ $expert->name }}</option>
                                                     @endforeach
