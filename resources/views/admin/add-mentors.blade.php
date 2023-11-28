@@ -339,11 +339,11 @@
                 '<label>Description</label>' +
                 '<textarea name="expertise[' + new_row_number + '][desc]" class="form-control" rows="5" required></textarea>' +
                 '</div></div>' +
-                '<div class="col-md-2">' +
-                '<div class="input-group input-group-static my-3">' +
-                '<label></label>' +
-                '<i class="bi bi-trash" id="DeleteExp"> Delete</i>' +
-                '</div></div></div>';
+                // '<div class="col-md-2">' +
+                // '<div class="input-group input-group-static my-3">' +
+                // '<label></label>' +
+                '<i class="bi bi-trash" id="DeleteExp"> Delete</i> </div>';
+                // '</div></div></div>';
             // ' </div> </div>';
             $('#expertise').append(newRowAdd);
         });
