@@ -391,7 +391,6 @@
         // });
 
         $(document).on('click', 'i.DeleteExp', function() {
-            let row_number = 0;
 
             alert("sdsfsf");
             if (row_number > 0) {
