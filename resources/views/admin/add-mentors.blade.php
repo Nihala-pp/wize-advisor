@@ -224,7 +224,7 @@
                                                 <label>Name</label>
                                                 <select class="select form-control" name="expertise[0][name]" required>
                                                     @foreach($expertise as $expert)
-                                                    <option value="{{ $expert }}">{{ $expert }}</option>
+                                                    <option value="{{ $expert->name }}">{{ $expert->name }}</option>
                                                     @endforeach
                                                 </select>
                                             </div>
