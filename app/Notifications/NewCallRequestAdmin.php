@@ -55,7 +55,7 @@ class NewCallRequestAdmin extends Notification
         return [
             'message' => "New Call is Requested with {$user}",
             'mentor_id' => $this->user->id,
-            'user_id' =>  Auth::id(),
+            'user_id' =>  1,
         ];
     }
 }

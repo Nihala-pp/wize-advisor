@@ -55,7 +55,7 @@ class NewCallApprovedAdmin extends Notification
         return [
             'message' => "Call with  {$this->user->name} is approved",
             'mentor_id' => $this->user->id,
-            'user_id' =>  Auth::id(),
+            'user_id' =>  1,
         ];
     }
 }

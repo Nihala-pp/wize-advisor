@@ -55,7 +55,7 @@ class TimeSlotAdmin extends Notification
         return [
             'message' => "{$this->user->name} Added Available Time Slot",
             'mentor_id' => $this->user->id,
-            'user_id' =>  Auth::id(),
+            'user_id' =>  1,
         ];
     }
 }
