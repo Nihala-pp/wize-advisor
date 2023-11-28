@@ -3,11 +3,18 @@
 namespace App\Providers;
 
 use App\Listeners\CallApprovalUserNotification;
+use App\Listeners\CallRejectedAdminNotification;
 use App\Listeners\CallRejectedUserNotification;
+use App\Listeners\NewCallApprovedAdminNotification;
+use App\Listeners\NewCallRequestAdminNotification;
 use App\Listeners\NewCallRequestNotification;
 use App\Listeners\passwordChangeNotification;
 use App\Listeners\profileUpdateNotification;
+use App\Listeners\ReviewAdminNotification;
+use App\Listeners\SignupAdminNotification;
 use App\Listeners\SlotUpdateNotification;
+use App\Listeners\TimeSlotAdminNotification;
+use App\Listeners\UpdateSessionAdminNotification;
 use App\Notifications\CustomNotification;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -33,7 +40,15 @@ class EventServiceProvider extends ServiceProvider
             CallRejectedUserNotification::class,
             SlotUpdateNotification::class,
             profileUpdateNotification::class,
-            passwordChangeNotification::class
+            passwordChangeNotification::class,
+            ReviewAdminNotification::class,
+            SignupAdminNotification::class,
+            TimeSlotAdminNotification::class,
+            UpdateSessionAdminNotification::class,
+            NewCallRequestAdminNotification::class,
+            NewCallApprovedAdminNotification::class,
+            CallRejectedAdminNotification::class
+
         ],
         'Illuminate\Auth\Events\Login' => [
             'App\Listeners\LogSuccessfulLogin',
