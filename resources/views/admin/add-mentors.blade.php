@@ -233,7 +233,7 @@
                                         <div class="col-md-8">
                                             <div class="input-group input-group-static my-3">
                                                 <label>Description</label>
-                                                <textarea required="required" class="form-control" cols="3"
+                                                <textarea required="required" class="form-control" cols="2"
                                                     name="expertise[0][desc]"></textarea>
                                             </div>
                                         </div>
