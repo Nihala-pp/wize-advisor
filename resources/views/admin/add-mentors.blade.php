@@ -239,10 +239,10 @@
                                         </div>
                                         <div class="col-md-1 mt-3">
                                             <div class="input-group input-group-static my-3">
-                                                <i class="fa fa-plus rowAdder ml-2" id="rowAdder"> </i>
+                                                <i class="fa fa-plus rowAdder ml-2" id="expertiseAdder"> </i>
                                             </div>
                                         </div>
-                                        <div id="newinput" class="newinput"></div>
+                                        <div id="expertise" class="expertise"></div>
                                     </div>
                                     <div>
                                         <label class="form-label">Languages (Type and Press Enter)</label>
@@ -320,6 +320,29 @@
                 '<div class="row">' +
                 '<div class="col-md-3">' +
                 '<div class="input-group input-group-static my-3">' +
+                '<label>Name</label>' +
+                '<select class="select form-control" name="expertise[name][]" required>' +
+                '<option value="">Choose any</option>' +
+                  @foreach($expertise as $expert) 
+                    <option value = "{{ $expert->name }}" > {{ $expert->name }} </option>
+                  @endforeach
+                '</select>' +
+                '</div></div>' +
+                '<div class="col-md-8">' +
+                '<div class="input-group input-group-static my-3">' +
+                '<label>Description</label>' +
+                '<textarea required="required" class="form-control" name="expertise[desc][]"></textarea>' +
+                '</div></div>' +
+                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
+            // ' </div> </div>';
+            $('#newinput').append(newRowAdd);
+        });
+
+        $('.expertiseAdder').click(function() {
+            newRowAdd =
+                '<div class="row">' +
+                '<div class="col-md-3">' +
+                '<div class="input-group input-group-static my-3">' +
                 '<label>Company </label>' +
                 '<input type="text" name="experience[company_name][]" class="form-control">' +
                 '</div></div>' +
@@ -341,7 +364,7 @@
                 // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
                 '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
             // ' </div> </div>';
-            $('#newinput').append(newRowAdd);
+            $('#expertise').append(newRowAdd);
         });
 
         $("#DeleteRow").click(function() {
