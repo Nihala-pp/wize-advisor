@@ -162,11 +162,6 @@
                                     enctype="multipart/form-data">
                                     @csrf
                                     <input type="hidden" name="row_id" value="{{ $data->id ??  '' }}">
-                                    <div class="input-group input-group-dynamic is-filled">
-                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                        <input class="multisteps-form__input form-control" type="text"
-                                            value="initial value" onfocus="focused(this)" onfocusout="defocused(this)">
-                                    </div>
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Full Name</label>
                                         <input type="text" name="name" class="form-control"
