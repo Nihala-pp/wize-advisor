@@ -379,15 +379,15 @@
             $('#newinput').append(newRowAdd);
         });
 
-        $(document).on('click', 'i.DeleteRow', function() {
-            if (row_number > 0) {
-                $(this).closest('.row').remove();
-                row_number--;
+        // $(document).on('click', 'i.DeleteRow', function() {
+        //     if (row_number > 0) {
+        //         $(this).closest('.row').remove();
+        //         row_number--;
 
-                return false;
-                // $(this).parents(".row" + (row_number - 1)).remove();
-            }
-        });
+        //         return false;
+        //         // $(this).parents(".row" + (row_number - 1)).remove();
+        //     }
+        // });
 
         $(document).on('click', 'i.DeleteExp', function() {
             if (row_number > 0) {
