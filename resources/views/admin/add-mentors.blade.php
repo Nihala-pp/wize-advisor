@@ -239,7 +239,7 @@
                                         </div>
                                         <div class="col-md-1 mt-3">
                                             <div class="input-group input-group-static my-3">
-                                                <i class="fa fa-plus rowAdder ml-2" id="expertiseAdder"> </i>
+                                                <i class="fa fa-plus expertiseAdder ml-2" id="expertiseAdder"> </i>
                                             </div>
                                         </div>
                                         <div id="expertise" class="expertise"></div>
@@ -315,7 +315,7 @@
         //     format: 'hh:mm A',
         // });
 
-        $("#rowAdder").click(function() {
+        $("#expertiseAdder").click(function() {
             newRowAdd =
                 '<div class="row">' +
                 '<div class="col-md-3">' +
@@ -333,12 +333,12 @@
                 '<label>Description</label>' +
                 '<textarea required="required" class="form-control" name="expertise[desc][]"></textarea>' +
                 '</div></div>' +
-                '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
+                '<i class="bi bi-trash" id="DeleteExp"> Delete</i>  </div>';
             // ' </div> </div>';
-            $('#newinput').append(newRowAdd);
+            $('#expertise').append(newRowAdd);
         });
 
-        $('.expertiseAdder').click(function() {
+        $('#rowAdder').click(function() {
             newRowAdd =
                 '<div class="row">' +
                 '<div class="col-md-3">' +
@@ -364,7 +364,7 @@
                 // '<button class="btn btn-danger" id="DeleteRow" type="button">' +
                 '<i class="bi bi-trash" id="DeleteRow"> Delete</i>  </div>';
             // ' </div> </div>';
-            $('#expertise').append(newRowAdd);
+            $('#newinput').append(newRowAdd);
         });
 
         $("#DeleteRow").click(function() {
