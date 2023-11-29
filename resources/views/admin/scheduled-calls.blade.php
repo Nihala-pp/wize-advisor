@@ -200,17 +200,14 @@
                                                 </option>
                                             </select>
                                         </div>
-
                                         <div class="form-control mb-2 col-md-6">
                                             <label class="custom-control-label" for="customSwitch1">{{ __('Start Time') }}*</label>
                                             <input type="text" name="start_time" id="start_time" class="form-control filters cm_tfilters daterangepicker-default" required>
                                         </div>
-
                                         <div class="form-control mb-2 col-md-6">
                                             <label>{{ __('End Time') }}*</label>
                                             <input type="text" name="end_time" id="end_time" class="form-control filters cm_tfilters daterangepicker-default" required>
                                         </div>
-
                                         <div class="form-control mb-2 col-md-6">
                                             <label>{{ __('Description') }}*</label>
                                             <input type="text" name="description" id="description" class="form-control" required>
@@ -265,11 +262,11 @@
                             </div>
                             <div class="modal-footer">
                                 <div class="row">
-                                    <button type="button" class="btn btn-block edit view" style="display:none;" onclick="viewCompletedAppointment()">view <i class="fa fa-stethoscope"></button></i>
+                                    <button type="button" class="btn btn-block edit view" style="display:none;" onclick="viewCompletedAppointment()">View <i class="fa fa-stethoscope"></button></i>
                                     <button type="button" class="btn btn-block edit editBooking" onclick="editBooking()">Edit <i class="fa fa-edit"></button></i><br />
                                     <button type="button" class="btn btn-block edit reschedule" onclick="rescheduleBooking()">Reschedule <i class="fa fa-table"></button></i>
                                     <button type="button" class="btn btn-block edit duplicate" onclick="duplicateBooking()">Duplicate <i class="fa fa-copy"></button></i>
-                                    <button type="button" class="btn btn-block edit deleteBooking" onclick="deleteBooking()"> <i class="fa fa-trash"></button></i>
+                                    <button type="button" class="btn btn-block edit deleteBooking" onclick="deleteBooking()">Delete <i class="fa fa-trash"></button></i>
                                 </div>
                             </div>
                         </div>
