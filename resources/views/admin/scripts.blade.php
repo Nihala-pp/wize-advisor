@@ -375,7 +375,9 @@
             //     getEvents(fetchInfo, successCallback, failureCallback);
             // },
 
-            events: [{
+            events: [
+                
+                {
                     id: '1',
                     resourceId: 'a',
                     title: 'Call With sandra',

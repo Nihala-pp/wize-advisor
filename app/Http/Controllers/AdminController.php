@@ -341,8 +341,6 @@ class AdminController extends Controller
 
         }
 
-
-
         UserMeta::update_user_details($request->row_id, $meta_data);
 
         foreach ($request->experience['company_name'] as $key => $company_name) {
@@ -480,7 +478,7 @@ class AdminController extends Controller
         ?>
         <script type="text/javascript">
             alert("Blog Saved Successfully!");
-                win    dow.location.href = "https://wiseadvizor.com/admin/blogs";
+                window.location.href = "https://wiseadvizor.com/admin/blogs";
         </script>
         <?php
     }
@@ -530,5 +528,12 @@ class AdminController extends Controller
             window.location.href = "https://wiseadvizor.com/admin/reviews";
         </script>
         <?php
+    }
+
+    public function resources()
+    {
+        $resources = User::where('role_id', 2)->whereNull('status')->get();
+
+        return $this->json_response($resources);
     }
 }
