@@ -352,20 +352,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 url: "{{ route('admin.mentors.resources') }}",
                 type: "GET",
                 success: function(response) {
-                    G_resources = {};
                     resources = [];
                     response.forEach(function(value, key) {
-                        var img = '<img src="' + value.image +
-                            '" height="50" width="50">';
-                        // span.fc-col-header-cell-cushion .fc-sticky
-                        G_resources[value.id] = value.image;
-                        var data = $(
-                                'span.fc-col-header-cell-cushion .fc-sticky')
-                            .append(img);
                         resources.push({
                             id: value.id,
                             title: value.name,
-                            class: "cal_resorce_" + value.id
                         });
                     });
                     successCallback(resources);
