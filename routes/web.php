@@ -152,6 +152,7 @@ Route::controller(AdminController::class)
         Route::post('/reviews/approve', 'approveReviews')->name('mentors.review.approve');
         Route::get('/reviews/reject/{id?}', 'deleteReviews')->name('mentors.review.reject');
         Route::get('/mentors/resources', 'resources')->name('mentors.resources');
+        Route::get('/mentors/events', 'events')->name('mentors.events');
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');

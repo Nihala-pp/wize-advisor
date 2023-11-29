@@ -379,27 +379,24 @@ document.addEventListener('DOMContentLoaded', function() {
         // },
 
         events: [
-            {
-                id: '1',
-                resourceId: 'a',
-                title: 'Call With sandra',
-                start: '2023-05-11T13:10',
-                end: '2023-05-11T14:25'
-            },
-            {
-                id: '2',
-                resourceId: 'b',
-                title: 'Call With jane',
-                start: '2023-05-11T09:45',
-                end: '2023-05-11T11:25'
-            },
-            {
-                id: '3',
-                resourceId: 'c',
-                title: 'Call With danes',
-                start: '2023-05-11T16:10',
-                end: '2023-05-11T17:25'
-            }
+            $.ajax({
+                url: "{{ route('admin.mentors.events') }}",
+                type: "GET",
+                success: function(response) {
+                    response = JSON.parse(response);
+                    var events = [];
+                    response.forEach(function(value, key) {
+                        events.push({
+                            title: value.title,
+                            start: value.start,
+                            end: value.end,
+                            resourceId: value.resourceId,
+                            backgroundColor: value.color
+                        });
+                    });
+                    successCallback(events);
+                },
+            });
         ],
         resourcesSet: function(resources) {
             G_resources;
