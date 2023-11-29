@@ -534,7 +534,14 @@ class AdminController extends Controller
     {
         $resources = User::where('role_id', 2)->whereNull('status')->get();
 
-        return $this->json_response($resources);
+        foreach ($resources as $resource) {
+            $data[] = [
+                'id' => $resource->id,
+                'name' => $resource->name
+            ];
+        }
+
+        return response()->json($data);
     }
 
     public function editBooking()
@@ -549,6 +556,6 @@ class AdminController extends Controller
 
     public function addBooking()
     {
-        
+
     }
 }
