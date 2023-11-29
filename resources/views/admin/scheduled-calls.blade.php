@@ -270,24 +270,24 @@
                                         <h6 id="price"></h6>
                                         <h6 id="package"></h6>
                                     </div>
-                                    {{-- <div class="details">
-                                    <div class="details-cal">
-                                        <p class="calendar">
-                                            15<em>March 12:30</em>
-                                        </p>
+                                    <div class="details">
+                                        <div class="details-cal">
+                                            <p class="calendar">
+                                                15<em>March 12:30</em>
+                                            </p>
+                                        </div>
                                     </div>
-                                </div> --}}
                                 </div>
-                                {{-- <hr>
-                            <div class="row">
-                                <div class="patientDetails">
-                                    <h5 id="medical"></h5>
-                                    <h5 id="channel"></h5>
-                                    <h5 id="paymentStatus"></h5>
-                                    <h5 id="location"></h5>
+                                <hr>
+                                <div class="row">
+                                    <div class="patientDetails">
+                                        <h5 id="medical"></h5>
+                                        <h5 id="channel"></h5>
+                                        <h5 id="paymentStatus"></h5>
+                                        <h5 id="location"></h5>
+                                    </div>
                                 </div>
-                            </div>
-                            <hr> --}}
+                                <hr> --}}
                             </div>
                             <div class="modal-footer">
                                 <div class="row">
