@@ -17,11 +17,13 @@
     @include('partials.sidebar')
     <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" navbar-scroll="true">
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur"
+            navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Mentor</a></li>
+                        <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
+                                href="javascript:;">Mentor</a></li>
                         <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Scheduled Calls</li>
                     </ol>
                     <h6 class="font-weight-bolder mb-0">Scheduled Calls</h6>
@@ -35,10 +37,11 @@
                     </div>
                     <ul class="navbar-nav  justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                           <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
-                              <img src="{{ asset('public/assets/img/user-avatar.png') }}" class="avatar avatar-sm me-3" alt="xd">
-                              <span class="d-sm-inline d-none">Admin</span>
-                           </a>
+                            <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
+                                <img src="{{ asset('public/assets/img/user-avatar.png') }}"
+                                    class="avatar avatar-sm me-3" alt="xd">
+                                <span class="d-sm-inline d-none">Admin</span>
+                            </a>
                         </li>
                         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
@@ -55,15 +58,18 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa fa-bell cursor-pointer"></i>
                             </a>
-                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                            <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"
+                                aria-labelledby="dropdownMenuButton">
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/team-2.jpg') }}" class="avatar avatar-sm  me-3 ">
+                                                <img src="{{ asset('assets/img/team-2.jpg') }}"
+                                                    class="avatar avatar-sm  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -81,7 +87,8 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="my-auto">
-                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                                                <img src="{{ asset('assets/img/small-logos/logo-spotify.svg') }}"
+                                                    class="avatar avatar-sm bg-gradient-dark  me-3 ">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="text-sm font-weight-normal mb-1">
@@ -99,14 +106,21 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="d-flex py-1">
                                             <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
-                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                        <g transform="translate(-2169.000000, -745.000000)"
+                                                            fill="#FFFFFF" fill-rule="nonzero">
                                                             <g transform="translate(1716.000000, 291.000000)">
                                                                 <g transform="translate(453.000000, 454.000000)">
-                                                                    <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                                                                    <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                                                    <path class="color-background"
+                                                                        d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z"
+                                                                        opacity="0.593633743"></path>
+                                                                    <path class="color-background"
+                                                                        d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z">
+                                                                    </path>
                                                                 </g>
                                                             </g>
                                                         </g>
@@ -143,11 +157,14 @@
                         </div> --}}
                             <div class="col-sm-12 col-12 text-right m-b-30 cont">
                                 <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle ms-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-secondary dropdown-toggle ms-2" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         Add
                                     </button>
                                     <ul class="dropdown-menu border" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#block_time"> <i class="fa-solid fa-mars me-2"></i>Block Time
+                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                                data-bs-target="#block_time"> <i class="fa-solid fa-mars me-2"></i>Block
+                                                Time
                                             </a>
                                         </li>
                                         <li><a class="dropdown-item" href="#"><i class="fa fa-times-circle me-2"></i>New
@@ -176,7 +193,8 @@
                         <input type="hidden" name="bookingId" id="bookingId">
                     </div>
                 </div>
-                <div class="modal fade" id="block_time" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="block_time" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -190,39 +208,50 @@
                                     <div class="row">
                                         <div class="form-control mb-2 col-md-6">
                                             <label>{{ __('Date') }}*</label>
-                                            <input type="date" class="form-control" name="block_date" id="block_date" required>
+                                            <input type="date" class="form-control" name="block_date" id="block_date"
+                                                required>
                                         </div>
                                         <div class="form-control mb-2 col-md-6">
                                             <label>{{ __('Staff') }}*</label>
-                                            <select id="staff" name="staff" class="form-control custom-select2" required>
+                                            <select id="staff" name="staff" class="form-control custom-select2"
+                                                required>
                                                 <option value="">- Select One -</option>
                                                 <option value="">
                                                 </option>
                                             </select>
                                         </div>
                                         <div class="form-control mb-2 col-md-6">
-                                            <label class="custom-control-label" for="customSwitch1">{{ __('Start Time') }}*</label>
-                                            <input type="text" name="start_time" id="start_time" class="form-control filters cm_tfilters daterangepicker-default" required>
+                                            <label class="custom-control-label"
+                                                for="customSwitch1">{{ __('Start Time') }}*</label>
+                                            <input type="text" name="start_time" id="start_time"
+                                                class="form-control filters cm_tfilters daterangepicker-default"
+                                                required>
                                         </div>
                                         <div class="form-control mb-2 col-md-6">
                                             <label>{{ __('End Time') }}*</label>
-                                            <input type="text" name="end_time" id="end_time" class="form-control filters cm_tfilters daterangepicker-default" required>
+                                            <input type="text" name="end_time" id="end_time"
+                                                class="form-control filters cm_tfilters daterangepicker-default"
+                                                required>
                                         </div>
                                         <div class="form-control mb-2 col-md-6">
                                             <label>{{ __('Description') }}*</label>
-                                            <input type="text" name="description" id="description" class="form-control" required>
+                                            <input type="text" name="description" id="description" class="form-control"
+                                                required>
                                         </div>
                                     </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary hvr-shrink" data-bs-dismiss="modal">{{ __('Cancel') }}</button>
-                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                <button type="button" class="btn btn-secondary hvr-shrink"
+                                    data-bs-dismiss="modal">{{ __('Cancel') }}</button>
+                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="bookingDetails" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="bookingDetails" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-sm" role="document">
                         <div class="modal-content">
                             <div class="modal-header calenderBooking">
@@ -262,17 +291,24 @@
                             </div>
                             <div class="modal-footer">
                                 <div class="row">
-                                    <button type="button" class="btn btn-block edit view" style="display:none;" onclick="viewCompletedAppointment()">View <i class="fa fa-stethoscope"></button></i>
-                                    <button type="button" class="btn btn-block edit editBooking" onclick="editBooking()">Edit <i class="fa fa-edit"></button></i><br />
-                                    <button type="button" class="btn btn-block edit reschedule" onclick="rescheduleBooking()">Reschedule <i class="fa fa-table"></button></i>
-                                    <button type="button" class="btn btn-block edit duplicate" onclick="duplicateBooking()">Duplicate <i class="fa fa-copy"></button></i>
-                                    <button type="button" class="btn btn-block edit deleteBooking" onclick="deleteBooking()">Delete <i class="fa fa-trash"></button></i>
+                                    <button type="button" class="btn btn-block edit view" style="display:none;"
+                                        onclick="viewCompletedAppointment()">View <i
+                                            class="fa fa-stethoscope"></button></i>
+                                    <button type="button" class="btn btn-block edit editBooking"
+                                        onclick="editBooking()">Edit <i class="fa fa-edit"></button></i><br />
+                                    <button type="button" class="btn btn-block edit reschedule"
+                                        onclick="rescheduleBooking()">Reschedule <i class="fa fa-table"></button></i>
+                                    <button type="button" class="btn btn-block edit duplicate"
+                                        onclick="duplicateBooking()">Duplicate <i class="fa fa-copy"></button></i>
+                                    <button type="button" class="btn btn-block edit deleteBooking"
+                                        onclick="deleteBooking()">Delete <i class="fa fa-trash"></button></i>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="edit_booking" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="edit_booking" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content" id="edit_booking">
                             <div class="modal-header">
@@ -287,8 +323,11 @@
                                 <div class="modal-body">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary hvr-shrink" data-bs-dismiss="modal">{{ __('Cancel') }}</button>
-                                    <button type="submit" name="submit_edit_form" id="submit_edit_form" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                    <button type="button" class="btn btn-secondary hvr-shrink"
+                                        data-bs-dismiss="modal">{{ __('Cancel') }}</button>
+                                    <button type="submit" name="submit_edit_form" id="submit_edit_form"
+                                        class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </div>
                             </form>
                         </div>
@@ -299,23 +338,27 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h6 class="modal-title" id="exampleModalLabel">{{ __('Duplicate Appointment') }}</h6>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <form class="duplicate_booking_form" data-href="" method="post">
                                 @csrf
                                 <div class="modal-body duplicate_booking">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary hvr-shrink" data-bs-dismiss="modal">{{ __('Cancel') }}</button>
-                                    <button type="submit" name="submit_duplicate_form" id="submit_duplicate_form" class="btn btn-primary"><i class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                    <button type="button" class="btn btn-secondary hvr-shrink"
+                                        data-bs-dismiss="modal">{{ __('Cancel') }}</button>
+                                    <button type="submit" name="submit_duplicate_form" id="submit_duplicate_form"
+                                        class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <!-- </div> -->
             </div>
         </div>
         @include('admin.scripts')
 </body>
+
 </html>
