@@ -307,7 +307,7 @@
             headerToolbar: {
                 left: 'prev,next',
                 center: 'title',
-                right: 'resourceTimeGridDay,resourceTimeGridFourDay,resourceTimeGridWeek,dayGridMonth,multiMonthFourMonth,myCustomButton'
+                right: 'resourceTimeGridDay,resourceTimeGridFourDay,resourceTimeGridWeek'
             },
             customButtons: {
                 myCustomButton: {
