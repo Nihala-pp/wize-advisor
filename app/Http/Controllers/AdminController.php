@@ -536,4 +536,19 @@ class AdminController extends Controller
 
         return $this->json_response($resources);
     }
+
+    public function editBooking()
+    {
+
+    }
+
+    public function deleteBooking()
+    {
+
+    }
+
+    public function addBooking()
+    {
+        
+    }
 }
