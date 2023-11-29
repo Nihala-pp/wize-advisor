@@ -347,19 +347,9 @@
                     buttonText: '4 days'
                 },
             },
-            resources: [{
-                    id: 'a',
-                    title: 'David Abarhim'
-                },
-                {
-                    id: 'b',
-                    title: 'John Doe'
-                },
-                {
-                    id: 'c',
-                    title: 'Strapin chap'
-                },
-            ],
+            resources: function(fetchInfo, successCallback, failureCallback) {
+                getResources(fetchInfo, successCallback, failureCallback);
+            },
             // resourceRender: function(resourceObj, th) {
             //     if (resourceObj.file_name) {
             //         th.prepend(
