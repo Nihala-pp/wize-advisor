@@ -565,38 +565,37 @@ class AdminController extends Controller
 
         $end = Date("Y-m-d", strtotime("+30 days"));
 
-        $schedules = Appointment::where("appointment_date >= '" . $start . " 00:00:00'")->where("appointment_date <= '" . $end . " 23:59:59'")->get();
+        $schedules = ScheduledCall::where("date >= '" . $start . " 00:00:00'")->where("date <= '" . $end . " 23:59:59'")->get();
 
-        foreach ($bookings as $booking) {
+        foreach ($schedules as $schedule) {
 
-            if ($booking->status == "Pending") {
+            if ($schedule->status == "Pending") {
                 $color = "#FF0000";
-            } elseif ($booking->status == "Confirmed") {
-                $color = "#6478a0";
-            } elseif ($booking->status == "Completed") {
+            } elseif ($schedule->status == "Approved") {
                 $color = "#9ea058";
-            } elseif ($booking->status == "Cancelled") {
+            }
+            elseif ($schedule->status == "Rejected") {
                 $color = "#D1BB9E";
             }
 
-            if ($booking->status == "block_time") {
+            if ($schedule->status == "block_time") {
                 $color = "#4E4E4E";
                 $service_name = "Blocked";
 
                 $data_events[] = array(
-                    "id" => $booking->_id,
-                    "title" => $booking->service['name'],
-                    "start" => $booking->appointment_date . 'T' . $booking->start_time,
-                    "end" => $booking->appointment_date . 'T' . $booking->end_time,
-                    "resourceId" => mongo_id($booking->resource_id),
+                    "id" => $schedule->_id,
+                    "title" => $schedule->service['name'],
+                    "start" => $schedule->appointment_date . 'T' . $schedule->start_time,
+                    "end" => $schedule->appointment_date . 'T' . $schedule->end_time,
+                    "resourceId" => mongo_id($schedule->resource_id),
                     "color" => $color
                 );
             } else {
                 $data_events[] = array(
-                    "id" => $booking->_id,
-                    "title" => $booking->service['name'],
-                    "start" => $booking->appointment_date . 'T' . $booking->start_time,
-                    "end" => $booking->appointment_date . 'T' . $booking->end_time,
+                    "id" => $schedule->_id,
+                    "title" => $schedule->service['name'],
+                    "start" => $schedule->appointment_date . 'T' . $schedule->start_time,
+                    "end" => $schedule->appointment_date . 'T' . $schedule->end_time,
                     "resourceId" => "6413f15b1cdb3828bd0dc31b",
                     "color" => $color
                 );
