@@ -558,4 +558,51 @@ class AdminController extends Controller
     {
 
     }
+
+    public function events()
+    {
+        $start = Carbon::now()->format('Y');
+
+        $end = Date("Y-m-d", strtotime("+30 days"));
+
+        $schedules = Appointment::where("appointment_date >= '" . $start . " 00:00:00'")->where("appointment_date <= '" . $end . " 23:59:59'")->get();
+
+        foreach ($bookings as $booking) {
+
+            if ($booking->status == "Pending") {
+                $color = "#FF0000";
+            } elseif ($booking->status == "Confirmed") {
+                $color = "#6478a0";
+            } elseif ($booking->status == "Completed") {
+                $color = "#9ea058";
+            } elseif ($booking->status == "Cancelled") {
+                $color = "#D1BB9E";
+            }
+
+            if ($booking->status == "block_time") {
+                $color = "#4E4E4E";
+                $service_name = "Blocked";
+
+                $data_events[] = array(
+                    "id" => $booking->_id,
+                    "title" => $booking->service['name'],
+                    "start" => $booking->appointment_date . 'T' . $booking->start_time,
+                    "end" => $booking->appointment_date . 'T' . $booking->end_time,
+                    "resourceId" => mongo_id($booking->resource_id),
+                    "color" => $color
+                );
+            } else {
+                $data_events[] = array(
+                    "id" => $booking->_id,
+                    "title" => $booking->service['name'],
+                    "start" => $booking->appointment_date . 'T' . $booking->start_time,
+                    "end" => $booking->appointment_date . 'T' . $booking->end_time,
+                    "resourceId" => "6413f15b1cdb3828bd0dc31b",
+                    "color" => $color
+                );
+            }
+        }
+        echo json_encode($data_events);
+        exit();
+    }
 }
