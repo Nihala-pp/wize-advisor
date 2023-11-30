@@ -287,7 +287,7 @@
                                         <h5 id="location"></h5>
                                     </div>
                                 </div>
-                                <hr> --}}
+                                <hr>
                             </div>
                             <div class="modal-footer">
                                 <div class="row">
@@ -296,10 +296,6 @@
                                             class="fa fa-stethoscope"></button></i>
                                     <button type="button" class="btn btn-block edit editBooking"
                                         onclick="editBooking()">Edit <i class="fa fa-edit"></button></i><br />
-                                    <button type="button" class="btn btn-block edit reschedule"
-                                        onclick="rescheduleBooking()">Reschedule <i class="fa fa-table"></button></i>
-                                    <button type="button" class="btn btn-block edit duplicate"
-                                        onclick="duplicateBooking()">Duplicate <i class="fa fa-copy"></button></i>
                                     <button type="button" class="btn btn-block edit deleteBooking"
                                         onclick="deleteBooking()">Delete <i class="fa fa-trash"></button></i>
                                 </div>
