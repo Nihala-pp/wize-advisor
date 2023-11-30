@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //     getEvents(fetchInfo, successCallback, failureCallback);
         // },
 
-        events: [
+        events: function(fetchInfo, successCallback, failureCallback) {
             $.ajax({
                 url: "{{ route('admin.mentors.events') }}",
                 type: "GET",
@@ -375,8 +375,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     successCallback(events);
                 },
-            }),
-        ],
+            });
+        },
         resourcesSet: function(resources) {
             G_resources;
             // var img = '<img src="' + value.image + '" height="50" width="50">';
