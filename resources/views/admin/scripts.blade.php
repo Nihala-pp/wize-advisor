@@ -362,7 +362,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 url: "{{ route('admin.mentors.events') }}",
                 type: "GET",
                 success: function(response) {
-                    response = JSON.parse(response);
                     var events = [];
                     response.forEach(function(value, key) {
                         events.push({
