@@ -571,7 +571,8 @@ class AdminController extends Controller
 
             $user_timezone_start = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
             $user_timezone_end = new \DateTime($schedule->date . ' ' . $schedule->end_time, new \DateTimeZone($schedule->utc));
-            dd($user_timezone_start->setTimezone(new \DateTimeZone('Asia/Tbilisi')));
+            $userTimeZone = 'Asia/Tbilisi'; 
+            dd($user_timezone_start->setTimezone(new \DateTimeZone($userTimeZone)));
 
             // $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
 
