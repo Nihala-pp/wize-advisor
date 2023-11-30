@@ -565,7 +565,7 @@ class AdminController extends Controller
 
         $end = Date("Y-m-d", strtotime("+30 days"));
 
-        $schedules = ScheduledCall::where("date >= '" . $start . " 00:00:00'")->where("date <= '" . $end . " 23:59:59'")->get();
+        $schedules = ScheduledCall::where("date >= $start ")->where("date <= $end ")->get();
 
         foreach ($schedules as $schedule) {
 
