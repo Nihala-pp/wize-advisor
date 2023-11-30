@@ -565,7 +565,7 @@ class AdminController extends Controller
 
         $end = Date("Y-m-d", strtotime("+30 days"));
 
-        $schedules = ScheduledCall::where("date >= $start")->where("date <= $end")->get();
+        $schedules = ScheduledCall::whereDate('date', '>=', $start)->whereDate('date', '<=', $end)->get();
 
         foreach ($schedules as $schedule) {
 
@@ -577,7 +577,7 @@ class AdminController extends Controller
                 $color = "#FF0000";
             } elseif ($schedule->status == "Approved") {
                 $color = "#9ea058";
-            } elseif ($schedule->status == "Rejected") {
+            } elseif ($schedule->status == "Rejected") {    
                 $color = "#D1BB9E";
             }
 
