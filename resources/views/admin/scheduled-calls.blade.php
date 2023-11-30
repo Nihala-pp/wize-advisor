@@ -333,29 +333,6 @@
                         </div>
                     </div>
                 </div>
-                <div id="duplicate_booking" class="modal fade duplicate_booking-modal" role="dialog">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h6 class="modal-title" id="exampleModalLabel">{{ __('Duplicate Appointment') }}</h6>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <form class="duplicate_booking_form" data-href="" method="post">
-                                @csrf
-                                <div class="modal-body duplicate_booking">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary hvr-shrink"
-                                        data-bs-dismiss="modal">{{ __('Cancel') }}</button>
-                                    <button type="submit" name="submit_duplicate_form" id="submit_duplicate_form"
-                                        class="btn btn-primary"><i
-                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         @include('admin.scripts')
