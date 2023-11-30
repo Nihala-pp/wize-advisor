@@ -579,12 +579,12 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
             }
 
                 $data_events[] = array(
-                    "id" => $schedule->_id,
-                    "title" => $schedule->service['name'],
-                    "start" => $schedule->appointment_date . 'T' . $schedule->start_time,
-                    "end" => $schedule->appointment_date . 'T' . $schedule->end_time,
-                    "resourceId" => "6413f15b1cdb3828bd0dc31b",
-                    "color" => $color
+                    "title" => "Call With".' '.$schedule->user->name,
+                    "resourceId" => $schedule->mentor_id,
+                    "start" => $schedule->date . 'T' . $schedule->start_time,
+                    "end" => $schedule->date . 'T' . $schedule->end_time,
+                    "color" =>  $color,
+                   
                 );
         }
          json_encode($data_events);
