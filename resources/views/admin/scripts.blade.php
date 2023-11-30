@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
         schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
         themeSystem: 'bootstrap5',
         expandRows: true,
-        height: 950,
+        height: 1200,
         allDaySlot: false,
         timeZone: 'local',
         initialView: 'resourceTimeGridDay',
