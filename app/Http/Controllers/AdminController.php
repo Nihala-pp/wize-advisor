@@ -424,11 +424,11 @@ class AdminController extends Controller
             ]
         );
         ?>
-        <script type="text/javascript">
-            alert("Voucher Updated Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Voucher Updated Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/vouchers";
+</script>
+<?php
     }
 
     public function editVouchers(Request $request)
@@ -445,11 +445,11 @@ class AdminController extends Controller
         Voucher::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Voucher Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Voucher Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/vouchers";
+</script>
+<?php
     }
 
     public function blogs()
@@ -476,11 +476,11 @@ class AdminController extends Controller
         );
 
         ?>
-        <script type="text/javascript">
-            alert("Blog Saved Successfully!");
-                window.location.href = "https://wiseadvizor.com/admin/blogs";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Blog Saved Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/blogs";
+</script>
+<?php
     }
 
     public function deleteBlogs($id)
@@ -488,11 +488,11 @@ class AdminController extends Controller
         Blogs::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Blogs Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Blogs Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/blogs";
+</script>
+<?php
     }
 
     public function editBlogs($id)
@@ -511,11 +511,11 @@ class AdminController extends Controller
         );
 
         ?>
-        <script type="text/javascript">
-            alert("Reviews Approved Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/reviews";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Reviews Approved Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/reviews";
+</script>
+<?php
     }
 
     public function deleteReviews($id)
@@ -523,11 +523,11 @@ class AdminController extends Controller
         Review::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Reviews Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/reviews";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Reviews Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/reviews";
+</script>
+<?php
     }
 
     public function resources()
@@ -578,19 +578,6 @@ class AdminController extends Controller
                 $color = "#D1BB9E";
             }
 
-            if ($schedule->status == "block_time") {
-                $color = "#4E4E4E";
-                $service_name = "Blocked";
-
-                $data_events[] = array(
-                    "id" => $schedule->_id,
-                    "title" => $schedule->service['name'],
-                    "start" => $schedule->appointment_date . 'T' . $schedule->start_time,
-                    "end" => $schedule->appointment_date . 'T' . $schedule->end_time,
-                    "resourceId" => mongo_id($schedule->resource_id),
-                    "color" => $color
-                );
-            } else {
                 $data_events[] = array(
                     "id" => $schedule->_id,
                     "title" => $schedule->service['name'],
@@ -599,9 +586,8 @@ class AdminController extends Controller
                     "resourceId" => "6413f15b1cdb3828bd0dc31b",
                     "color" => $color
                 );
-            }
         }
-        echo json_encode($data_events);
+         json_encode($data_events);
         exit();
     }
 }
