@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     successCallback(events);
                 },
-            });
+            }),
         ],
         resourcesSet: function(resources) {
             G_resources;
