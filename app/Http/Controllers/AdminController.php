@@ -589,6 +589,8 @@ class AdminController extends Controller
                 "color" => $color,
             );
         }
+
+        dd($data_events);
         json_encode($data_events);
         exit();
     }
