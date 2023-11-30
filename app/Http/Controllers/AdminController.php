@@ -587,7 +587,6 @@ class AdminController extends Controller
                 "start" => $schedule->date . 'T' . $schedule->start_time,
                 "end" => $schedule->date . 'T' . $schedule->end_time,
                 "color" => $color,
-
             );
         }
         json_encode($data_events);
