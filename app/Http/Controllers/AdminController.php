@@ -570,8 +570,8 @@ class AdminController extends Controller
         foreach ($schedules as $schedule) {
 
             $user_timezone_start = new \DateTime($schedule->date . 'T' . $schedule->start_time, new \DateTimeZone($schedule->utc));
-            dd($user_timezone_start);
             $user_timezone_end = new \DateTime($schedule->date . 'T' . $schedule->end_time, new \DateTimeZone($schedule->utc));
+            dd($user_timezone_start->setTimezone(new \DateTimeZone('Asia/Tbilisi')));
 
             // $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
 
