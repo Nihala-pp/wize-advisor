@@ -288,16 +288,6 @@ document.addEventListener('DOMContentLoaded', function() {
             center: 'title',
             right: 'resourceTimeGridDay,resourceTimeGridFourDay,resourceTimeGridWeek'
         },
-        customButtons: {
-            myCustomButton: {
-                text: 'List',
-                // icon: 'fa fa-list',
-                click: function() {
-                    listAppointments();
-                    // alert('clicked the custom button!');
-                }
-            }
-        },
         dateClick: function(info) {
             window.location.href = "appointments/newAppointment/" + info.dateStr + "/" + info
                 .resource.id;
@@ -342,21 +332,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
             });
         },
-        // resourceRender: function(resourceObj, th) {
-        //     if (resourceObj.file_name) {
-        //         th.prepend(
-        //             '<img src="{{ asset('img/doctors.png') }}" height="25px" width="25px"></img>'
-        //         );
-        //     } else {
-        //         th.prepend(
-        //             '<img src="{{ asset('img/doctors.png') }}" height="25px" width="25px"></img>'
-        //         );
-        //     }
-        // },
-        // events: function(fetchInfo, successCallback, failureCallback) {
-        //     getEvents(fetchInfo, successCallback, failureCallback);
-        // },
-
         events: function(fetchInfo, successCallback, failureCallback) {
             $.ajax({
                 url: "{{ route('admin.mentors.events') }}",
@@ -375,22 +350,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     successCallback(events);
                 },
             });
-        },
-        resourcesSet: function(resources) {
-            G_resources;
-            // var img = '<img src="' + value.image + '" height="50" width="50">';
-            // console.log(G_resources, "G_resources");
-
-            if (Object.keys(G_resources).length == 0) {
-                return;
-            } else {
-                $.each(G_resources, function(key, value) {
-                    $('th[data-resource-id="' + key + '"]').children('div').children(
-                        'span').prepend('<img src="' + value +
-                        '" height="50" width="50">');
-                });
-            }
-            //   $('th[data-resource-id="6413f15b1cdb3828bd0dc31b"]').children('div').children('span').prepend('<img src="http://localhost/CloudMeERP2_Mongo-Laravel9/public/img/doctors.png" height="50" width="50">');
         },
     });
     calendar.render();
