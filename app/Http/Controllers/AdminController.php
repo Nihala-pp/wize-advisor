@@ -286,7 +286,7 @@ class AdminController extends Controller
             $data = User::find($id);
         }
 
-        return view('admin.add-mentors', compact('data','expertise'));
+        return view('admin.add-mentors', compact('data', 'expertise'));
     }
 
     public function save_mentors(Request $request)
@@ -335,7 +335,7 @@ class AdminController extends Controller
                 'mentor_id' => $user_record['id'],
                 'expertise' => $expertise['name'],
                 'description' => $expertise['desc']
-            ];        
+            ];
 
             Expertise::update_expertise($request->row_id, $expertise_data);
 
@@ -424,11 +424,11 @@ class AdminController extends Controller
             ]
         );
         ?>
-<script type="text/javascript">
-alert("Voucher Updated Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/vouchers";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Voucher Updated Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function editVouchers(Request $request)
@@ -445,11 +445,11 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
         Voucher::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Voucher Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/vouchers";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Voucher Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function blogs()
@@ -476,11 +476,11 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
         );
 
         ?>
-<script type="text/javascript">
-alert("Blog Saved Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/blogs";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Blog Saved Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 
     public function deleteBlogs($id)
@@ -488,11 +488,11 @@ window.location.href = "https://wiseadvizor.com/admin/blogs";
         Blogs::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Blogs Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/blogs";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Blogs Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 
     public function editBlogs($id)
@@ -511,11 +511,11 @@ window.location.href = "https://wiseadvizor.com/admin/blogs";
         );
 
         ?>
-<script type="text/javascript">
-alert("Reviews Approved Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/reviews";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Reviews Approved Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/reviews";
+        </script>
+        <?php
     }
 
     public function deleteReviews($id)
@@ -523,11 +523,11 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         Review::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Reviews Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/reviews";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Reviews Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/reviews";
+        </script>
+        <?php
     }
 
     public function resources()
@@ -561,7 +561,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
     public function events()
     {
-        $start = Carbon::now()->format('Y');
+        $start = Carbon::now()->format('Y-m-d');
 
         $end = Date("Y-m-d", strtotime("+30 days"));
 
@@ -569,25 +569,28 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         foreach ($schedules as $schedule) {
 
+            $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
+
+            $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
+
             if ($schedule->status == "Pending") {
                 $color = "#FF0000";
             } elseif ($schedule->status == "Approved") {
                 $color = "#9ea058";
-            }
-            elseif ($schedule->status == "Rejected") {
+            } elseif ($schedule->status == "Rejected") {
                 $color = "#D1BB9E";
             }
 
-                $data_events[] = array(
-                    "title" => "Call With".' '.$schedule->user->name,
-                    "resourceId" => $schedule->mentor_id,
-                    "start" => $schedule->date . 'T' . $schedule->start_time,
-                    "end" => $schedule->date . 'T' . $schedule->end_time,
-                    "color" =>  $color,
-                   
-                );
+            $data_events[] = array(
+                "title" => "Call With" . ' ' . $schedule->user->name,
+                "resourceId" => $schedule->mentor_id,
+                "start" => $schedule->date . 'T' . $schedule->start_time,
+                "end" => $schedule->date . 'T' . $schedule->end_time,
+                "color" => $color,
+
+            );
         }
-         json_encode($data_events);
+        json_encode($data_events);
         exit();
     }
 }
