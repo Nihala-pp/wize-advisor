@@ -1,21 +1,6 @@
 <script type="text/javascript">
 // $('.modal-backdrop .fade .show').remove();
 G_resources = {};
-$('#start_time').daterangepicker({
-    singleDatePicker: true,
-    timePicker: true,
-    locale: {
-        format: 'hh:mm'
-    },
-});
-
-$('#end_time').daterangepicker({
-    singleDatePicker: true,
-    timePicker: true,
-    locale: {
-        format: 'hh:mm'
-    },
-});
 
 function editBooking() {
     var bookingId = $('#bookingId').val();
