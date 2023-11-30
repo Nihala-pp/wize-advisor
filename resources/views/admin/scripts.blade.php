@@ -283,6 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
         initialView: 'resourceTimeGridDay',
         slotMinTime: "08:00:00",
         slotMaxTime: "24:00:00",
+        slotDuration: "00:30:00",
         headerToolbar: {
             left: 'prev,next',
             center: 'title',
