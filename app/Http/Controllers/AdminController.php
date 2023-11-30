@@ -572,7 +572,7 @@ class AdminController extends Controller
             $user_timezone_start = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
             $user_timezone_end = new \DateTime($schedule->date . ' ' . $schedule->end_time, new \DateTimeZone($schedule->utc));
             $userTimeZone = 'Asia/Tbilisi'; 
-            dd($user_timezone_start->setTimezone(new \DateTimeZone($userTimeZone)));
+            // dd($user_timezone_start->setTimezone(new \DateTimeZone($userTimeZone)));
 
             // $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
 
@@ -587,8 +587,8 @@ class AdminController extends Controller
             $data_events[] = array(
                 "title" => "Call With" . ' ' . $schedule->user->name,
                 "resourceId" => $schedule->mentor_id,
-                "start" => $schedule->date . 'T' . $schedule->start_time,
-                "end" => $schedule->date . 'T' . $schedule->end_time,
+                "start" => $schedule->date . 'T' . $schedule->start_time.'+04:00',
+                "end" => $schedule->date . 'T' . $schedule->end_time.'+04:00',
                 "color" => $color,
             );
         }
