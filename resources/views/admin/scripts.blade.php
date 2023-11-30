@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
         expandRows: true,
         height: 1600,
         allDaySlot: false,
-        timeZone: 'local',
+        timeZone: 'Asia/Tbilisi',
         initialView: 'resourceTimeGridDay',
         slotMinTime: "08:00:00",
         slotMaxTime: "24:00:00",
