@@ -590,8 +590,6 @@ class AdminController extends Controller
             );
         }
 
-        dd($data_events);
-        json_encode($data_events);
-        exit();
+        return response()->json($data_events);
     }
 }
