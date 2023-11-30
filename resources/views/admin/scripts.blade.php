@@ -17,12 +17,6 @@ $('#end_time').daterangepicker({
     },
 });
 
-function date() {
-    $("#datepicker").datepicker({
-        dateFormat: 'yy-mm-dd',
-    });
-}
-
 function editBooking() {
     var bookingId = $('#bookingId').val();
     $.ajax({
