@@ -291,9 +291,6 @@
                             </div>
                             <div class="modal-footer">
                                 <div class="row">
-                                    <button type="button" class="btn btn-block edit view" style="display:none;"
-                                        onclick="viewCompletedAppointment()">View <i
-                                            class="fa fa-stethoscope"></button></i>
                                     <button type="button" class="btn btn-block edit editBooking"
                                         onclick="editBooking()">Edit <i class="fa fa-edit"></button></i><br />
                                     <button type="button" class="btn btn-block edit deleteBooking"
