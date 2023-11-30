@@ -569,9 +569,10 @@ class AdminController extends Controller
 
         foreach ($schedules as $schedule) {
 
-            $user_timezone = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
+            $user_timezone_start = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
+            $user_timezone_end = new \DateTime($schedule->date . ' ' . $schedule->end_time, new \DateTimeZone($schedule->utc));
 
-            $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
+            // $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
 
             if ($schedule->status == "Pending") {
                 $color = "#FF0000";
@@ -584,8 +585,8 @@ class AdminController extends Controller
             $data_events[] = array(
                 "title" => "Call With" . ' ' . $schedule->user->name,
                 "resourceId" => $schedule->mentor_id,
-                "start" => $schedule->date . 'T' . $schedule->start_time,
-                "end" => $schedule->date . 'T' . $schedule->end_time,
+                "start" =>  $user_timezone_start->setTimezone(new \DateTimeZone('Asia/Tbilisi')),
+                "end" => $user_timezone_end->setTimezone(new \DateTimeZone('Asia/Tbilisi')),
                 "color" => $color,
             );
         }
