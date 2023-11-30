@@ -585,8 +585,8 @@ class AdminController extends Controller
             $data_events[] = array(
                 "title" => "Call With" . ' ' . $schedule->user->name,
                 "resourceId" => $schedule->mentor_id,
-                "start" =>  $user_timezone_start->setTimezone(new \DateTimeZone('Asia/Tbilisi')),
-                "end" => $user_timezone_end->setTimezone(new \DateTimeZone('Asia/Tbilisi')),
+                "start" => $schedule->date . 'T' . $schedule->start_time,
+                "end" => $schedule->date . 'T' . $schedule->end_time,
                 "color" => $color,
             );
         }
