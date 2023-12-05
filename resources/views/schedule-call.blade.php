@@ -2794,19 +2794,19 @@
         }
     })(jQuery);
     </script>
-    <script type="text/javascript">
-    // call 'braintree.dropin.create' code here
+    <script>
+    var submitButton = document.querySelector('#payNow');
 
-    // Step two: create a dropin instance using that container (or a string
-    //   that functions as a query selector such as '#dropin-container')
     braintree.dropin.create({
-        authorization: CLIENT_TOKEN_FROM_SERVER,
-        container: document.getElementById('dropin-container'),
-        // ...plus remaining configuration
-    }, (error, dropinInstance) => {
-        // Use 'dropinInstance' here
-        // Methods documented at https://braintree.github.io/braintree-web-drop-in/docs/current/Dropin.html
-    });
+                authorization: '{{$token}}',
+                container: '#dropin-container'
+            }, function(err, dropinInstance) {
+                submitButton.addEventListener('click', function() {
+                    dropinInstance.requestPaymentMethod(function(err, payload) {
+                        // Send payload.nonce to your server.
+                    });
+                });
+            });
     </script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
