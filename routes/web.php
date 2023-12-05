@@ -80,6 +80,7 @@ Route::get('blogs', [HomeController::class, 'blogs'])->name('blogs');
 Route::get('faq', [HomeController::class, 'faq'])->name('faq');
 Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
 Route::any('schedule-call/{id?}/{call_id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call')->middleware('auth');
+Route::post('token', [HomeController::class, 'token'])->name('token')->middleware('auth');
 Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
 Route::get('getDateAvailability', [HomeController::class, 'getDateAvailability'])->name('getDateAvailability');

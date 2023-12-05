@@ -236,11 +236,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-            alert("Be a Mentor Requested Successfull  y!");
-          window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfull  y!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
@@ -589,5 +589,31 @@ class HomeController extends Controller
   public function weeklySlotUpdate()
   {
 
+  }
+
+  public function token(Request $request) {
+
+    $gateway = new \Braintree\Gateway([
+        'environment' => env('BRAINTREE_ENV'),
+        'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+        'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+        'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+    ]);
+
+    if($request->input('nonce') != null) {
+        $nonceFromTheClient = $request->input('nonce');
+
+        $gateway->transaction()->sale([
+            'amount' => '10.00',
+            'paymentMethodNonce' => $nonceFromTheClient,
+            'options' => [
+                'submitForSettlement' => True
+            ]
+        ]);
+        return view ('dashboard');
+    } else {
+        $clientToken = $gateway->clientToken()->generate();
+        return view ('payment', compact('clientToken'));
+    }
   }
 }
