@@ -237,8 +237,8 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-      alert("Be a Mentor Requested Successfully!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+            alert("Be a Mentor Requested Successfull  y!");
+          window.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
   }
@@ -259,10 +259,19 @@ class HomeController extends Controller
       ->orderBy('date', 'asc')
       ->first();
 
+    $gateway = new \Braintree\Gateway([
+      'environment' => env('BRAINTREE_ENVIRONMENT'),
+      'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+      'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+      'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+    ]);
+
+    $clientToken = $gateway->clientToken()->generate();
+
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
-    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call'));
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'clientToken'));
     // } 
   }
 
