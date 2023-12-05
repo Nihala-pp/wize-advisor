@@ -616,8 +616,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     if ($request->input('payment_method_nonce') != null) {
       $nonceFromTheClient = $request->input('payment_method_nonce');
 
+      $mentor = User::find($request->mentor_id);
+      $price_per_call = $mentor->metaData->price_per_call;
+
       $gateway->transaction()->sale([
-        'amount' => '10.00',
+        'amount' => $price_per_call,
         'paymentMethodNonce' => $nonceFromTheClient,
         'options' => [
           'submitForSettlement' => True
