@@ -12,7 +12,7 @@
             @csrf
             <div id="dropin-container" style="display: flex;justify-content: center;align-items: center;"></div>
             <div style="display: flex;justify-content: center;align-items: center; color: white">
-                <a id="submit-button" class="btn btn-sm btn-success">Pay Now</a>
+                <a id="submit-button" class="btn btn-sm btn-success mb-5">Pay Now</a>
             </div>
             <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script>
             <script>
