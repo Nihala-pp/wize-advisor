@@ -15,7 +15,7 @@
                 <input type="hidden" id="nonce" name="payment_method_nonce" />
                 <div style="display: flex;justify-content: center;align-items: center; color: white">
                     <button type="submit" class="btn btn-sm btn-success mb-5">Pay Now</button>
-                </div> 
+                </div>
             </div>
         </div>
     </form>
@@ -26,39 +26,29 @@
     </div> -->
     <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script>
     <script>
-     const form = document.getElementById('payment-form');
+    const form = document.getElementById('payment-form');
 
     braintree.dropin.create({
         authorization: '{{$clientToken}}',
         container: '#dropin-container'
     }, function(err, dropinInstance) {
-        submitButton.addEventListener('click', function() {
-            dropinInstance.requestPaymentMethod(function(err, payload) {
-                // Send payload.nonce to your server.
+        if (error) console.error(error);
 
-                (function($) {
-                    $(function() {
-                        $.ajaxSetup({
-                            headers: {
-                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]')
-                                    .attr('content')
-                            }
-                        });
-                        $.ajax({
-                            type: "POST",
-                            url: "{{route('token')}}",
-                            data: {
-                                nonce: payload.nonce
-                            },
-                            success: function(data) {
-                                console.log('success', payload.nonce)
-                            },
-                            error: function(data) {
-                                console.log('error', payload.nonce)
-                            }
-                        });
-                    });
-                })(jQuery);
+        // Send payload.nonce to your server.
+
+        form.addEventListener('submit', event => {
+            event.preventDefault();
+
+            dropinInstance.requestPaymentMethod((error, payload) => {
+                if (error) console.error(error);
+
+                // Step four: when the user is ready to complete their
+                //   transaction, use the dropinInstance to get a payment
+                //   method nonce for the user's selected payment method, then add
+                //   it a the hidden field before submitting the complete form to
+                //   a server-side integration
+                document.getElementById('nonce').value = payload.nonce;
+                form.submit();
             });
         });
     });
