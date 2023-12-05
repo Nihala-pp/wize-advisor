@@ -613,10 +613,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'privateKey' => env("BRAINTREE_PRIVATE_KEY")
     ]);
 
+    $call_data = ScheduledCall::find($request->call_id);
+
     if ($request->input('payment_method_nonce') != null) {
       $nonceFromTheClient = $request->input('payment_method_nonce');
 
-      $mentor = User::find($request->mentor_id);
+      $mentor = User::find($call_data->mentor_id);
       $price_per_call = $mentor->metaData->price_per_call;
 
       $gateway->transaction()->sale([
@@ -629,7 +631,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       return redirect()->route('success', [$request->call_id]);
     } else {
       $clientToken = $gateway->clientToken()->generate();
-      return view('payment', compact('clientToken'));
+      return view('payment', compact('clientToken', 'call_data'));
     }
   }
 }
