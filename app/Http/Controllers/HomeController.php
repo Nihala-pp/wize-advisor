@@ -326,11 +326,11 @@ class HomeController extends Controller
       $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
       $call_data = ScheduledCall::find($call['id']);
 
-      return view('payment', compact('call_data'));
+      return view('payment', compact('call_data', 'clientToken'));
 
     } catch (Exception $e) {
       if (451 == $e->getCode()) {
-        return view('payment', compact('call_data'));
+        return view('payment', compact('call_data', 'clientToken'));
       }
     }
 
@@ -343,7 +343,7 @@ class HomeController extends Controller
 
     $clientToken = $gateway->clientToken()->generate();
 
-    return view('payment', compact('call_data'));
+    return view('payment', compact('call_data', 'clientToken'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
