@@ -237,7 +237,7 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-            alert("Be a Mentor Requested Successfully!");
+            alert("Be a Mentor Requested Successfull  y!");
           window.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
@@ -332,69 +332,18 @@ class HomeController extends Controller
         'is_paid' => 0
       ]);
 
-      AvailableSchedule::where('mentor_id', $data['mentor'])
-        ->where('date', Carbon::parse($date)->format('Y-m-d'))
-        ->where('start_time', $user_timezone->format('H:i:s'))
-        ->first()
-        ->update([
-          'is_booked' => 1,
-          'call_id' => $call['id']
-        ]);
+      $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
+      $call_data = ScheduledCall::find($call['id']);
 
-      $mentor = User::find($data['mentor']);
-      $user = User::find(Auth::id());
-
-      $details = [
-        'mentor' => $data['mentor'],
-        'mentor_name' => $mentor->name,
-        'user_name' => $user->name,
-        'user_id' => Auth::id(),
-        'desc' => $data['desc'],
-        'user' => $user->name,
-        'date' => $date,
-        'start_time' => $data['time'],
-        'finish_time' => $finish_time,
-        'UTC' => $data['timezone'],
-        'duration' => $data['duration'],
-        'mentor_timezone' => $mentor_timezone->time_zone,
-        'mentor_start_time' => $user_timezone->format('h:i A'),
-        'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
-        'call' => $data['call_id'] ? ScheduledCall::find($data['call_id']) : null
-      ];
-
-      Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
-      Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
-
-      $user = User::find(Auth::id());
-      $mentor = User::find($data['mentor']);
-      $admin = User::where('role_id', 1)->first();
-
-      if (!empty($data['call_id'])) {
-        ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
-
-        $mentor->notify(new CallRejectedUser($user));
-        $admin->notify(new CallRejectedAdmin($user));
-        $admin->notify(new UpdateSessionAdmin($user));
-
-        Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
-        Mail::to($mentor->email)->send(new RejectedCallMail($details));
-        Mail::to($user->email)->send(new RejectedCallUserMail($details));
-      }
-
-      $mentor->notify(new NewCallRequest($user));
-      $admin->notify(new NewCallRequestAdmin($user));
-
-      // $array = serialize($details);
-
-      return view('success', compact('details', 'mentor'));
+      return view('payment', compact('call_data'));
 
     } catch (Exception $e) {
       if (451 == $e->getCode()) {
-        return view('success', compact('details', 'mentor'));
+        return view('payment', compact('call_data'));
       }
     }
 
-    return view('success', compact('details', 'mentor'));
+    return view('payment', compact('call_data'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
@@ -438,8 +387,57 @@ class HomeController extends Controller
 
   public function success()
   {
-    $mentor = User::find(29);
-    $details = ScheduledCall::find(95);
+    AvailableSchedule::where('mentor_id', $data['mentor'])
+      ->where('date', Carbon::parse($date)->format('Y-m-d'))
+      ->where('start_time', $user_timezone->format('H:i:s'))
+      ->first()
+      ->update([
+        'is_booked' => 1,
+        'call_id' => $call['id']
+      ]);
+
+    $mentor = User::find($data['mentor']);
+    $user = User::find(Auth::id());
+
+    $details = [
+      'mentor' => $data['mentor'],
+      'mentor_name' => $mentor->name,
+      'user_name' => $user->name,
+      'user_id' => Auth::id(),
+      'desc' => $data['desc'],
+      'user' => $user->name,
+      'date' => $date,
+      'start_time' => $data['time'],
+      'finish_time' => $finish_time,
+      'UTC' => $data['timezone'],
+      'duration' => $data['duration'],
+      'mentor_timezone' => $mentor_timezone->time_zone,
+      'mentor_start_time' => $user_timezone->format('h:i A'),
+      'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
+      'call' => $data['call_id'] ? ScheduledCall::find($data['call_id']) : null
+    ];
+
+    Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+    Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
+
+    $user = User::find(Auth::id());
+    $mentor = User::find($data['mentor']);
+    $admin = User::where('role_id', 1)->first();
+
+    if (!empty($data['call_id'])) {
+      ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
+
+      $mentor->notify(new CallRejectedUser($user));
+      $admin->notify(new CallRejectedAdmin($user));
+      $admin->notify(new UpdateSessionAdmin($user));
+
+      Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
+      Mail::to($mentor->email)->send(new RejectedCallMail($details));
+      Mail::to($user->email)->send(new RejectedCallUserMail($details));
+    }
+
+    $mentor->notify(new NewCallRequest($user));
+    $admin->notify(new NewCallRequestAdmin($user));
 
     return view('success', compact('details', 'mentor'));
   }
@@ -592,4 +590,6 @@ class HomeController extends Controller
   {
 
   }
+
+
 }
