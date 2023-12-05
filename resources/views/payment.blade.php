@@ -13,51 +13,7 @@
         <div style="display: flex;justify-content: center;align-items: center; color: white">
             <a id="submit-button" class="btn btn-sm btn-success">Pay Now</a>
         </div>
-    </div>
-        <style id="skip-link-styles">
-        .skip-link.screen-reader-text {
-            border: 0;
-            clip: rect(1px, 1px, 1px, 1px);
-            clip-path: inset(50%);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute !important;
-            width: 1px;
-            word-wrap: normal !important;
-        }
-
-        .skip-link.screen-reader-text:focus {
-            background-color: #eee;
-            clip: auto !important;
-            clip-path: none;
-            color: #444;
-            display: block;
-            font-size: 1em;
-            height: auto;
-            left: 5px;
-            line-height: normal;
-            padding: 15px 23px 14px;
-            text-decoration: none;
-            top: 5px;
-            width: auto;
-            z-index: 100000;
-        }
-        </style>
         <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script>
-
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-    <script src="{{ asset('public/assets/js/popper.js') }}"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script> -->
-        <!-- <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script> -->
-
         <script>
         var submitButton = document.querySelector('#payNow');
 
@@ -87,6 +43,7 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
         </script>
+    </div>
 </body>
 <style>
 i.fas.fa-bell.fa-2xl {
@@ -112,5 +69,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>
