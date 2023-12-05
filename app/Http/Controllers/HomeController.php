@@ -259,19 +259,10 @@ class HomeController extends Controller
       ->orderBy('date', 'asc')
       ->first();
 
-    $gateway = new \Braintree\Gateway([
-      'environment' => env('BRAINTREE_ENV'),
-      'merchantId' => env("BRAINTREE_MERCHANT_ID"),
-      'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
-      'privateKey' => env("BRAINTREE_PRIVATE_KEY")
-    ]);
-
-    $clientToken = $gateway->clientToken()->generate();
-
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
-    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'clientToken'));
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call'));
     // } 
   }
 
@@ -342,6 +333,15 @@ class HomeController extends Controller
         return view('payment', compact('call_data'));
       }
     }
+
+    $gateway = new \Braintree\Gateway([
+      'environment' => env('BRAINTREE_ENV'),
+      'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+      'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+      'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+    ]);
+
+    $clientToken = $gateway->clientToken()->generate();
 
     return view('payment', compact('call_data'));
 
@@ -590,6 +590,4 @@ class HomeController extends Controller
   {
 
   }
-
-
 }
