@@ -2798,7 +2798,7 @@
     var submitButton = document.querySelector('#payNow');
 
     braintree.dropin.create({
-                authorization: '{{$token}}',
+                authorization: '{{$clientToken}}',
                 container: '#dropin-container'
             }, function(err, dropinInstance) {
                 submitButton.addEventListener('click', function() {
