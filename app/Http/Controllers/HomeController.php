@@ -326,6 +326,15 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
       $call_data = ScheduledCall::find($call['id']);
 
+      $gateway = new \Braintree\Gateway([
+        'environment' => env('BRAINTREE_ENV'),
+        'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+        'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+        'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+      ]);
+  
+      $clientToken = $gateway->clientToken()->generate();
+
       return view('payment', compact('call_data', 'clientToken'));
 
     } catch (Exception $e) {
@@ -333,15 +342,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         return view('payment', compact('call_data', 'clientToken'));
       }
     }
-
-    $gateway = new \Braintree\Gateway([
-      'environment' => env('BRAINTREE_ENV'),
-      'merchantId' => env("BRAINTREE_MERCHANT_ID"),
-      'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
-      'privateKey' => env("BRAINTREE_PRIVATE_KEY")
-    ]);
-
-    $clientToken = $gateway->clientToken()->generate();
 
     return view('payment', compact('call_data', 'clientToken'));
 
