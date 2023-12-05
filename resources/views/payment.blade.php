@@ -7,7 +7,7 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     @include('partials.menu')
-    <div class="card mt-5 mb-5">
+    <div class="col-md-6 card mt-5 mb-5">
         <div class="py-12">
             @csrf
             <div id="dropin-container" style="display: flex;justify-content: center;align-items: center;"></div>
