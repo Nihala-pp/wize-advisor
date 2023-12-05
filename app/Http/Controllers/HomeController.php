@@ -79,7 +79,7 @@ class HomeController extends Controller
     //   Lucile => E-Commerce, B2B,
     //   Svetlana => MVP-Strategy, Idea-Validation
     // ];
-    
+
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
         return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
@@ -236,11 +236,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -327,9 +327,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first()
         ->update([
-            'is_booked' => 1,
-            'call_id' => $call['id']
-          ]);
+          'is_booked' => 1,
+          'call_id' => $call['id']
+        ]);
 
       $mentor = User::find($data['mentor']);
       $user = User::find(Auth::id());
