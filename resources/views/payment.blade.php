@@ -48,6 +48,11 @@
     </div>
 </body>
 <style>
+.card {
+    border: 0;
+    margin-left: 250px;
+}
+
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
