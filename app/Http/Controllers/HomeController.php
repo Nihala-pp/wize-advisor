@@ -237,7 +237,7 @@ class HomeController extends Controller
 
     ?>
     <script type="text/javascript">
-            alert("Be a Mentor Requested Successfull  y!");
+            alert("Be a Mentor Requested Successfully!");
           window.location.href = "https://wiseadvizor.com/be-a-mentor";
     </script>
     <?php
@@ -328,7 +328,8 @@ class HomeController extends Controller
         'utc' => $data['timezone'],
         'status' => 'Pending',
         'description' => $data['desc'],
-        'documents' => $request->doc
+        'documents' => $request->doc,
+        'is_paid' => 0
       ]);
 
       AvailableSchedule::where('mentor_id', $data['mentor'])
