@@ -385,8 +385,10 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     return response()->json($time);
   }
 
-  public function success()
+  public function success($call_id)
   {
+
+
     AvailableSchedule::where('mentor_id', $data['mentor'])
       ->where('date', Carbon::parse($date)->format('Y-m-d'))
       ->where('start_time', $user_timezone->format('H:i:s'))
@@ -600,8 +602,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         'privateKey' => env("BRAINTREE_PRIVATE_KEY")
     ]);
 
-    if($request->input('nonce') != null) {
-        $nonceFromTheClient = $request->input('nonce');
+    if($request->input('payment_method_nonce') != null) {
+        $nonceFromTheClient = $request->input('payment_method_nonce');
 
         $gateway->transaction()->sale([
             'amount' => '10.00',
@@ -610,7 +612,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                 'submitForSettlement' => True
             ]
         ]);
-        return view ('dashboard');
+        return redirect()->route('success', [$request->call_id]);
     } else {
         $clientToken = $gateway->clientToken()->generate();
         return view ('payment', compact('clientToken'));
