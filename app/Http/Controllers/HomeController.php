@@ -387,56 +387,66 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function success($call_id)
   {
+    $call = ScheduledCall::find($call_id);
 
+    $mentor_timezone = AvailableSchedule::where('mentor_id', $call->mentor_id)->where('date', Carbon::parse($call->date)->format('Y-m-d'))->first();
 
-    AvailableSchedule::where('mentor_id', $data['mentor'])
-      ->where('date', Carbon::parse($date)->format('Y-m-d'))
+    $user_timezone = new \DateTime($call->date . ' ' . $call->start_time, new \DateTimeZone($call->utc));
+
+    $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+
+    $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($call->duration);
+
+    $schedule = AvailableSchedule::where('mentor_id', $call->mentor_id)
+      ->where('date', Carbon::parse($call->date)->format('Y-m-d'))
       ->where('start_time', $user_timezone->format('H:i:s'))
-      ->first()
-      ->update([
+      ->first();
+
+      $schedule->update([
         'is_booked' => 1,
-        'call_id' => $call['id']
+        'call_id' => $call->id 
       ]);
 
-    $mentor = User::find($data['mentor']);
-    $user = User::find(Auth::id());
+      $call->update([
+        'is_paid' => 1
+      ]);
+
+    $mentor = User::find($call->mentor_id);
+    $user = User::find($call->user_id);
 
     $details = [
-      'mentor' => $data['mentor'],
+      'mentor' => $call->mentor_id,
       'mentor_name' => $mentor->name,
       'user_name' => $user->name,
-      'user_id' => Auth::id(),
-      'desc' => $data['desc'],
+      'user_id' => $call->user_id,
+      'desc' => $call->description,
       'user' => $user->name,
-      'date' => $date,
-      'start_time' => $data['time'],
-      'finish_time' => $finish_time,
-      'UTC' => $data['timezone'],
-      'duration' => $data['duration'],
+      'date' => $call->date,
+      'start_time' => $call->start_time,
+      'finish_time' => $call->end_time,
+      'UTC' => $call->utc,
+      'duration' => $call->duration,
       'mentor_timezone' => $mentor_timezone->time_zone,
       'mentor_start_time' => $user_timezone->format('h:i A'),
       'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
-      'call' => $data['call_id'] ? ScheduledCall::find($data['call_id']) : null
     ];
 
     Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
     Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
-    $user = User::find(Auth::id());
-    $mentor = User::find($data['mentor']);
     $admin = User::where('role_id', 1)->first();
 
-    if (!empty($data['call_id'])) {
-      ScheduledCall::find($data['call_id'])->update(['status' => 'Rejected']);
+    // if (!empty($call_id)) {
+    //   ScheduledCall::find($call_id)->update(['status' => 'Rejected']);
 
-      $mentor->notify(new CallRejectedUser($user));
-      $admin->notify(new CallRejectedAdmin($user));
-      $admin->notify(new UpdateSessionAdmin($user));
+    //   $mentor->notify(new CallRejectedUser($user));
+    //   $admin->notify(new CallRejectedAdmin($user));
+    //   $admin->notify(new UpdateSessionAdmin($user));
 
-      Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
-      Mail::to($mentor->email)->send(new RejectedCallMail($details));
-      Mail::to($user->email)->send(new RejectedCallUserMail($details));
-    }
+    //   Mail::to('info@wiseadvizor.com')->send(new updateSessionMail($details));
+    //   Mail::to($mentor->email)->send(new RejectedCallMail($details));
+    //   Mail::to($user->email)->send(new RejectedCallUserMail($details));
+    // }
 
     $mentor->notify(new NewCallRequest($user));
     $admin->notify(new NewCallRequestAdmin($user));
@@ -593,29 +603,30 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   }
 
-  public function token(Request $request) {
+  public function token(Request $request)
+  {
 
     $gateway = new \Braintree\Gateway([
-        'environment' => env('BRAINTREE_ENV'),
-        'merchantId' => env("BRAINTREE_MERCHANT_ID"),
-        'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
-        'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+      'environment' => env('BRAINTREE_ENV'),
+      'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+      'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+      'privateKey' => env("BRAINTREE_PRIVATE_KEY")
     ]);
 
-    if($request->input('payment_method_nonce') != null) {
-        $nonceFromTheClient = $request->input('payment_method_nonce');
+    if ($request->input('payment_method_nonce') != null) {
+      $nonceFromTheClient = $request->input('payment_method_nonce');
 
-        $gateway->transaction()->sale([
-            'amount' => '10.00',
-            'paymentMethodNonce' => $nonceFromTheClient,
-            'options' => [
-                'submitForSettlement' => True
-            ]
-        ]);
-        return redirect()->route('success', [$request->call_id]);
+      $gateway->transaction()->sale([
+        'amount' => '10.00',
+        'paymentMethodNonce' => $nonceFromTheClient,
+        'options' => [
+          'submitForSettlement' => True
+        ]
+      ]);
+      return redirect()->route('success', [$request->call_id]);
     } else {
-        $clientToken = $gateway->clientToken()->generate();
-        return view ('payment', compact('clientToken'));
+      $clientToken = $gateway->clientToken()->generate();
+      return view('payment', compact('clientToken'));
     }
   }
 }
