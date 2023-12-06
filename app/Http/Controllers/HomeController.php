@@ -607,7 +607,70 @@ class HomeController extends Controller {
           'submitForSettlement' => True
         ]
       ]);
-      return $this->success($request->call_id);
+
+      try {
+  
+        $mentor_timezone = AvailableSchedule::where('mentor_id', $call_data->mentor_id)->where('date', Carbon::parse($call_data->date)->format('Y-m-d'))->first();
+  
+        $user_timezone = new \DateTime($call_data->date.' '.$call_data->start_time, new \DateTimeZone($call_data->utc));
+  
+        $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+  
+        $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($call_data->duration);
+  
+        $schedule = AvailableSchedule::where('mentor_id', $call_data->mentor_id)
+          ->where('date', Carbon::parse($call_data->date)->format('Y-m-d'))
+          ->where('start_time', $user_timezone->format('H:i:s'))
+          ->first();
+  
+        $schedule->update([
+          'is_booked' => 1,
+          'call_id' => $call_data->id
+        ]);
+  
+        $call_data->update([
+          'is_paid' => 1
+        ]);
+  
+        $mentor = User::find($call_data->mentor_id);
+        $user = User::find($call_data->user_id);
+  
+        $details = [
+          'mentor' => $call_data->mentor_id,
+          'mentor_name' => $mentor->name,
+          'user_name' => $user->name,
+          'user_id' => $call_data->user_id,
+          'desc' => $call_data->description,
+          'user' => $user->name,
+          'date' => $call_data->date,
+          'start_time' => $call_data->start_time,
+          'finish_time' => $call_data->end_time,
+          'UTC' => $call_data->utc,
+          'duration' => $call_data->duration,
+          'mentor_timezone' => $mentor_timezone->time_zone,
+          'mentor_start_time' => $user_timezone->format('h:i A'),
+          'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
+        ];
+  
+        Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
+        Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
+  
+        $admin = User::where('role_id', 1)->first();
+  
+        $mentor->notify(new NewCallRequest($user));
+        $admin->notify(new NewCallRequestAdmin($user));
+  
+        return view('success', compact('details', 'mentor'));
+  
+      } catch (Exception $e) {
+        if(451 == $e->getCode()) {
+          return view('success', compact('details', 'mentor'));
+        }
+      }
+  
+      return view('success', compact('details', 'mentor'));
+
+      // return $this->success($request->call_id);
     } else {
       $clientToken = $gateway->clientToken()->generate();
       return view('payment', compact('clientToken', 'call_data'));
