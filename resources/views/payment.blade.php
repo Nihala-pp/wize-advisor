@@ -7,7 +7,7 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13 success">
     @include('partials.menu')
-    <form id="payment-form" method="post">
+    <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
                 @csrf
@@ -15,7 +15,7 @@
                 <!-- <input type="hidden" id="nonce" name="payment_method_nonce"> -->
                 <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                 <div style="display: flex;justify-content: center;align-items: center; color: white">
-                    <button type="button" class="btn btn-sm btn-success mb-5" id="submit-button">Pay Now</button>
+                    <button type="submit" class="btn btn-sm btn-success mb-5" id="submit-button">Pay Now</button>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                         $('.success').html(response);
                     },
                     error: function (response) {
-                        console.log('error',payload.nonce)
+                        $('.payment-page').html(response);
                     }
                 });
               });
