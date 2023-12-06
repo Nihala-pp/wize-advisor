@@ -605,6 +605,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function token(Request $request)
   {
+    dd($request->all());
 
     $gateway = new \Braintree\Gateway([
       'environment' => env('BRAINTREE_ENV'),
