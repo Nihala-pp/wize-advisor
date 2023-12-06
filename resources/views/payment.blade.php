@@ -51,9 +51,8 @@
                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                     }
                 });
-                return $.ajax({
-                    method: "POST",
-                    url: "{{route('token')}}",
+                return $.ajax("https://wiseadvizor.com/token", {
+                    method: 'POST',
                     data: {
                         nonce : payload.nonce,
                         call_id : $('#call_id').val()
