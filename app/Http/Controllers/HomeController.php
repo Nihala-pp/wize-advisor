@@ -297,8 +297,6 @@ class HomeController extends Controller {
 
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
-    try {
-
       $call = ScheduledCall::create([
         'user_id' => Auth::id(),
         'mentor_id' => $data['mentor'],
@@ -327,14 +325,6 @@ class HomeController extends Controller {
       $clientToken = $gateway->clientToken()->generate();
 
       return view('payment', compact('call_data', 'clientToken'));
-
-    } catch (Exception $e) {
-      if(451 == $e->getCode()) {
-        return view('payment', compact('call_data', 'clientToken'));
-      }
-    }
-
-    return view('payment', compact('call_data', 'clientToken'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
