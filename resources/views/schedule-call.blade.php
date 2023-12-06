@@ -1211,7 +1211,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 success">
+    class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 payment-page">
 
     @include('partials.menu')
     <div class="row">
@@ -2350,7 +2350,7 @@
                         "data": formdata
                     },
                     success: function(response) {
-                        $('.success').html(response);
+                        $('.payment-page').html(response);
                     },
                     // error: function(error) {
                     //     let errors = error.responseJSON.errors
