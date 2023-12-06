@@ -7,15 +7,15 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     @include('partials.menu')
-    <form id="payment-form" action="{{ route('token') }}" method="post">
+    <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
                 @csrf
                 <div id="dropin-container"></div>
-                <input type="hidden" id="nonce" name="payment_method_nonce">
-                <input type="hidden" name="call_id" value="{{ $call_data->id }}">
+                <!-- <input type="hidden" id="nonce" name="payment_method_nonce"> -->
+                <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                 <div style="display: flex;justify-content: center;align-items: center; color: white">
-                    <button type="submit" class="btn btn-sm btn-success mb-5">Pay Now</button>
+                    <button type="button" class="btn btn-sm btn-success mb-5" id="submit-button">Pay Now</button>
                 </div>
             </div>
         </div>
@@ -27,36 +27,52 @@
     </div> -->
     <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script>
     <script>
-    const form = document.getElementById('payment-form');
+        var button = document.querySelector('#submit-button');
+        var client_token = "{{$clientToken}}";
 
-    braintree.dropin.create({
-        authorization: '{{$clientToken}}',
-        container: '#dropin-container'
-    }, function(err, dropinInstance) {
-        if (error) console.error(error);
-
-        // Send payload.nonce to your server.
-
-        form.addEventListener('submit', event => {
+        braintree.dropin.create({
+          authorization: client_token,
+          selector: '#dropin-container',
+          paypal: {
+            flow: 'vault'
+          }
+        }, function (createErr, instance) {
+          if (createErr) {
+            console.log('Create Error', createErr);
+            return;
+          }
+          button.addEventListener('click', function (event) {
             event.preventDefault();
 
-            dropinInstance.requestPaymentMethod((error, payload) => {
-                if (error) console.error(error);
-
-                // Step four: when the user is ready to complete their
-                //   transaction, use the dropinInstance to get a payment
-                //   method nonce for the user's selected payment method, then add
-                //   it a the hidden field before submitting the complete form to
-                //   a server-side integration
-                document.getElementById('nonce').value = payload.nonce;
-                form.submit();
+            instance.requestPaymentMethod(function (err, payload) {
+            $(function() {
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+                $.ajax({
+                    type: "POST",
+                    url: "{{route('token')}}",
+                    data: {
+                        nonce : payload.nonce,
+                        call_id : $('.call_id').val()
+                    },
+                    success: function (data) {
+                        console.log('success',payload.nonce)
+                    },
+                    error: function (data) {
+                        console.log('error',payload.nonce)
+                    }
+                });
+              });
             });
+          });
         });
-    });
     </script>
 
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
+ <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
     (function() {
@@ -68,7 +84,7 @@
         s1.setAttribute('crossorigin', '*');
         s0.parentNode.insertBefore(s1, s0);
     })();
-    </script>
+ </script>
 </body>
 <style>
 .card {
