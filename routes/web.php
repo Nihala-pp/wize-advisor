@@ -81,7 +81,7 @@ Route::get('faq', [HomeController::class, 'faq'])->name('faq');
 Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
 Route::get('schedule-call/{id?}/{call_id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
 Route::post('token', [HomeController::class, 'token'])->name('token');
-Route::any('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest')->middleware('auth');
+Route::post('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest')->middleware('auth');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
 Route::get('getDateAvailability', [HomeController::class, 'getDateAvailability'])->name('getDateAvailability');
 Route::get('success/{call_id?}', [HomeController::class, 'success'])->name('success');
