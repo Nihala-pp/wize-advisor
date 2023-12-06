@@ -56,7 +56,7 @@
                     url: "{{route('token')}}",
                     data: {
                         nonce : payload.nonce,
-                        call_id : $('.call_id').val()
+                        call_id : $('#call_id').val()
                     },
                     success: function (data) {
                         console.log('success',payload.nonce)
