@@ -605,7 +605,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function token(Request $request)
   {
-    dd($request->all());
+    // dd($request->all());
 
     $gateway = new \Braintree\Gateway([
       'environment' => env('BRAINTREE_ENV'),
@@ -616,8 +616,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $call_data = ScheduledCall::find($request->call_id);
 
-    if ($request->input('payment_method_nonce') != null) {
-      $nonceFromTheClient = $request->input('payment_method_nonce');
+    if (!empty($request->nonce)) {
+      $nonceFromTheClient = $request->nonce;
 
       $mentor = User::find($call_data->mentor_id);
       $price_per_call = $mentor->metaData->price_per_call;
