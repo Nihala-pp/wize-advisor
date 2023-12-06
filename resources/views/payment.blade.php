@@ -58,10 +58,10 @@
                         nonce : payload.nonce,
                         call_id : $('#call_id').val()
                     },
-                    success: function (data) {
+                    success: function (response) {
                         $('.success').html(response);
                     },
-                    error: function (data) {
+                    error: function (response) {
                         console.log('error',payload.nonce)
                     }
                 });
