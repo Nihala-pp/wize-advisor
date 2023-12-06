@@ -58,7 +58,7 @@
                         call_id : $('#call_id').val()
                     },
                     success: function (response) {
-                        $('.success').html(response);
+                        $('.payment-page').html(response);
                     },
                     error: function (response) {
                         $('.payment-page').html(response);
