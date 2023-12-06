@@ -12,7 +12,7 @@
             <div class="py-12">
                 @csrf
                 <div id="dropin-container"></div>
-                <input type="hidden" id="nonce" name="payment_method_nonce" />
+                <input type="hidden" id="nonce" name="payment_method_nonce">
                 <input type="hidden" name="call_id" value="{{ $call_data->id }}">
                 <div style="display: flex;justify-content: center;align-items: center; color: white">
                     <button type="submit" class="btn btn-sm btn-success mb-5">Pay Now</button>
