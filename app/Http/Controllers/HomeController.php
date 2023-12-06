@@ -448,7 +448,7 @@ class HomeController extends Controller {
         return view('success', compact('details', 'mentor'));
       }
     }
-    
+
     return view('success', compact('details', 'mentor'));
   }
 
@@ -607,7 +607,7 @@ class HomeController extends Controller {
           'submitForSettlement' => True
         ]
       ]);
-      return redirect()->route('success', [$request->call_id]);
+      return $this->success($request->call_id);
     } else {
       $clientToken = $gateway->clientToken()->generate();
       return view('payment', compact('clientToken', 'call_data'));
