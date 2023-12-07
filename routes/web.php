@@ -126,7 +126,7 @@ Route::controller(AdminController::class)
         Route::get('/experience/{id?}', 'experience')->name('mentors.experience');
         Route::get('/expertise/{id?}', 'expertise')->name('mentors.expertise');
         Route::get('/scheduled-calls', 'scheduledCalls')->name('mentors.scheduled-calls');
-        Route::get('/scheduled-calls/new-schedule{date}/{resource_id}/{id}s', 'newschedule')->name('mentors.scheduled-calls.new-schedule');
+        Route::get('/scheduled-calls/new-schedule/{date}/{id}', 'newschedule')->name('mentors.scheduled-calls.new-schedule');
         Route::post('/mark-as-read', 'markNotification')->name('markNotification');
         Route::post('/addTodoList', 'addTodoList')->name('addTodoList');
         Route::get('/update_todo_status/{id}', 'update_todo_status')->name('update_todo_status');
