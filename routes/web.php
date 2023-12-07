@@ -126,7 +126,7 @@ Route::controller(AdminController::class)
         Route::get('/experience/{id?}', 'experience')->name('mentors.experience');
         Route::get('/expertise/{id?}', 'expertise')->name('mentors.expertise');
         Route::get('/scheduled-calls', 'scheduledCalls')->name('mentors.scheduled-calls');
-        Route::get('/scheduled-calls/new-schedule/{name}/{id}s', 'newschedule')->name('mentors.scheduled-calls.new-schedule');
+        Route::get('/scheduled-calls/new-schedule{date}/{resource_id}/{id}s', 'newschedule')->name('mentors.scheduled-calls.new-schedule');
         Route::post('/mark-as-read', 'markNotification')->name('markNotification');
         Route::post('/addTodoList', 'addTodoList')->name('addTodoList');
         Route::get('/update_todo_status/{id}', 'update_todo_status')->name('update_todo_status');
@@ -146,7 +146,7 @@ Route::controller(AdminController::class)
         Route::get('/blogs/save', 'saveBlogs')->name('mentors.blogs.save');
         Route::get('/blogs/edit/{id?}', 'editBlogs')->name('mentors.blogs.edit');
         Route::get('/blogs/delete/{id?}', 'deleteBlogs')->name('mentors.blogs.delete');
-        Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');
+        Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');qw21w2we2
         Route::post('/vouchers/save', 'saveVouchers')->name('mentors.vouchers.save');
         Route::get('/vouchers/edit', 'editVouchers')->name('mentors.vouchers.edit');
         Route::get('/vouchers/delete/{id?}', 'deleteVouchers')->name('mentors.vouchers.delete');
