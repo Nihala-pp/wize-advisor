@@ -290,8 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
             right: 'resourceTimeGridDay,resourceTimeGridFourDay,resourceTimeGridWeek'
         },
         dateClick: function(info) {
-            window.location.href = "appointments/newAppointment/" + info.dateStr + "/" + info
-                .resource.id;
+            window.location.href = "schedule-call/new-schedule/" + info.dateStr + "/" + info.resource.id;
         },
         eventClick: function(info) {
             eventClick(info);
