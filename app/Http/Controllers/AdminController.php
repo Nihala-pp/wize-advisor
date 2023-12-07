@@ -595,4 +595,9 @@ class AdminController extends Controller
 
         return response()->json($data_events);
     }
+
+    public function newschedule(Request $request)
+    {
+          dd($request->all());
+    }
 }
