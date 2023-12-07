@@ -155,7 +155,7 @@
                             {{-- <div class="col-sm-4 col-2">
                             <h4 class="page-title"></h4>
                         </div> --}}
-                            <div class="col-sm-12 col-12 text-right m-b-30 cont">
+                            <!-- <div class="col-sm-12 col-12 text-right m-b-30 cont">
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle ms-2" type="button"
                                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -173,7 +173,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             {{-- <div class="col-sm-4 col-2">
                             <button type="button" class="fa fa-calender" onclick="displayCalender()"></button>
                         </div> --}}
