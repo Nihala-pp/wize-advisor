@@ -146,7 +146,7 @@ Route::controller(AdminController::class)
         Route::get('/blogs/save', 'saveBlogs')->name('mentors.blogs.save');
         Route::get('/blogs/edit/{id?}', 'editBlogs')->name('mentors.blogs.edit');
         Route::get('/blogs/delete/{id?}', 'deleteBlogs')->name('mentors.blogs.delete');
-        Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');qw21w2we2
+        Route::get('/vouchers', 'vouchers')->name('mentors.vouchers');
         Route::post('/vouchers/save', 'saveVouchers')->name('mentors.vouchers.save');
         Route::get('/vouchers/edit', 'editVouchers')->name('mentors.vouchers.edit');
         Route::get('/vouchers/delete/{id?}', 'deleteVouchers')->name('mentors.vouchers.delete');
