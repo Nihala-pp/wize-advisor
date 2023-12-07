@@ -596,8 +596,8 @@ class AdminController extends Controller
         return response()->json($data_events);
     }
 
-    public function newschedule(Request $request)
+    public function newschedule($date, $mentor_id)
     {
-          dd($request->all());
+          dd($date);
     }
 }
