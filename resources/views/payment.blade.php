@@ -91,7 +91,7 @@
             tokenizationSpecification: {
                 type: 'PAYMENT_GATEWAY',
                 parameters: {
-                    gateway: 'your_payment_gateway',
+                    gateway: 'yourpayment',
                     gatewayMerchantId: 'BCR2DN4T3HN7LXCE'
                 }
             }
@@ -120,7 +120,7 @@
         paymentsClient.loadPaymentData(paymentDataRequestWithParameters)
             .then((paymentData) => {
                 // Send the payment data to the server for processing
-                fetch('/handle-payment-confirmation', {
+                fetch('/token', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -190,5 +190,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>

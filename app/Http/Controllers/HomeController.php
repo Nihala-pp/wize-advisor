@@ -41,7 +41,8 @@ use App\Notifications\CallRejectedUser;
 use Redirect;
 use Exception;
 
-class HomeController extends Controller {
+class HomeController extends Controller
+{
   // /**
   //  * Create a new controller instance.
   //  *
@@ -57,7 +58,8 @@ class HomeController extends Controller {
    *
    * @return \Illuminate\Contracts\Support\Renderable
    */
-  public function index() {
+  public function index()
+  {
     $mentors = User::where('role_id', 2)->whereNull('status')->get();
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::get()->count();
@@ -78,8 +80,8 @@ class HomeController extends Controller {
     //   Svetlana => MVP-Strategy, Idea-Validation
     // ];
 
-    if(Auth::id() && auth()->user()->role_id == 3) {
-      if(Auth::user()->metaData) {
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      if (Auth::user()->metaData) {
         return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
       } else {
         return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
@@ -89,7 +91,8 @@ class HomeController extends Controller {
     }
   }
 
-  public function profile($id) {
+  public function profile($id)
+  {
     $data = User::find($id);
     $expertise = Expertise::where('mentor_id', $id)->get();
     $experience = MentorsExperience::where('user_id', $id)->take(2)->get();
@@ -102,26 +105,27 @@ class HomeController extends Controller {
     return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles'));
   }
 
-  public function browseMentor($name = NULL, $filter = NULL) {
+  public function browseMentor($name = NULL, $filter = NULL)
+  {
     // dd($name);
     $variable = $name;
-    if(!empty($variable)) {
-      switch($filter) {
+    if (!empty($variable)) {
+      switch ($filter) {
         case 'name':
-          $mentors = User::where('name', 'LIKE', '%'.$variable.'%')->whereNull('status')->get();
+          $mentors = User::where('name', 'LIKE', '%' . $variable . '%')->whereNull('status')->get();
           break;
         case 'price':
           $mentors = User::where('role_id', 2)
             ->whereNull('status')
             ->whereHas('metaData', function (Builder $query) use ($variable) {
-              $query->where('price_per_call', 'LIKE', '%'.$variable.'%');
+              $query->where('price_per_call', 'LIKE', '%' . $variable . '%');
             })->get();
           break;
         case 'expertise':
           $mentors = User::where('role_id', 2)
             ->whereNull('status')
             ->whereHas('metaData', function (Builder $query) use ($variable) {
-              $query->where('expertise', 'LIKE', '%'.$variable.'%');
+              $query->where('expertise', 'LIKE', '%' . $variable . '%');
             })->get();
           break;
         case 'date':
@@ -132,7 +136,7 @@ class HomeController extends Controller {
             })->get();
           break;
         case 'time':
-          $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%'.$variable.'%')->get();
+          $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'sortBy':
           $mentors = User::where('role_id', 2)
@@ -186,24 +190,27 @@ class HomeController extends Controller {
 
     // dd($expertise);
 
-    if(!empty($variable)) {
+    if (!empty($variable)) {
       return view('browsers', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
     } else {
       return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
     }
   }
 
-  public function addMentor() {
-    if(!(Auth::id() && auth()->user()->role_id == 3)) {
+  public function addMentor()
+  {
+    if (!(Auth::id() && auth()->user()->role_id == 3)) {
       return view('be-a-mentor');
     }
   }
 
-  public function contactUs() {
+  public function contactUs()
+  {
     return view('contact-us');
   }
 
-  public function addMentorRequest(Request $request) {
+  public function addMentorRequest(Request $request)
+  {
     $request->validate([
       'email' => 'required|email|unique:mentors_join_request',
       'firstname' => 'required',
@@ -236,8 +243,9 @@ class HomeController extends Controller {
     <?php
   }
 
-  public function scheduleCall(Request $request) {
-    if(!empty($request->call_id)) {
+  public function scheduleCall(Request $request)
+  {
+    if (!empty($request->call_id)) {
       $call = ScheduledCall::find($request->call_id);
     } else {
       $call = '';
@@ -258,7 +266,8 @@ class HomeController extends Controller {
     // } 
   }
 
-  public function addScheduleRequest(Request $request) {
+  public function addScheduleRequest(Request $request)
+  {
     $requestData = $request->all();
     $data = array();
     parse_str($requestData['data'], $data);
@@ -270,20 +279,20 @@ class HomeController extends Controller {
       'timezone' => 'required',
     ])->validate();
 
-    if($request->hasFile('doc')) {
+    if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
       $fileNameOnly = pathinfo($completeFileName, PATHINFO_FILENAME);
       $extension = $request->file('doc')->getClientOriginalExtension();
-      $compPic = str_replace(' ', '_', $fileNameOnly).'-'.rand().'_'.time().'.'.$extension;
+      $compPic = str_replace(' ', '_', $fileNameOnly) . '-' . rand() . '_' . time() . '.' . $extension;
       $path = $request->file('doc')->storeAs('public/assets/img/docs', $compPic);
-      $request->doc = 'docs/'.$compPic;
+      $request->doc = 'docs/' . $compPic;
     } else {
       $request->doc = '';
     }
 
     $month = $data['month'];
     $nmonth = date("m", strtotime($data['month']));
-    $date = $data['year'].'-'.$nmonth.'-'.$data['day'];
+    $date = $data['year'] . '-' . $nmonth . '-' . $data['day'];
     $start_time = Carbon::parse($data['time'])->format('H:i');
     $end_time = Carbon::parse($data['time'])->addMinutes($data['duration']);
     $finish_time = $end_time->toTimeString();
@@ -291,40 +300,40 @@ class HomeController extends Controller {
     $mentor_timezone = AvailableSchedule::where('mentor_id', $data['mentor'])->where('date', Carbon::parse($date)->format('Y-m-d'))->first();
     // dd($date);
 
-    $user_timezone = new \DateTime($date.' '.$data['time'], new \DateTimeZone($data['timezone']));
+    $user_timezone = new \DateTime($date . ' ' . $data['time'], new \DateTimeZone($data['timezone']));
 
     $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
-      $call = ScheduledCall::create([
-        'user_id' => Auth::id(),
-        'mentor_id' => $data['mentor'],
-        'price' => $data['price'],
-        'date' => $date,
-        'duration' => $data['duration'],
-        'start_time' => $data['time'],
-        'end_time' => $finish_time,
-        'utc' => $data['timezone'],
-        'status' => 'Pending',
-        'description' => $data['desc'],
-        'documents' => $request->doc,
-        'is_paid' => 0
-      ]);
+    $call = ScheduledCall::create([
+      'user_id' => Auth::id(),
+      'mentor_id' => $data['mentor'],
+      'price' => $data['price'],
+      'date' => $date,
+      'duration' => $data['duration'],
+      'start_time' => $data['time'],
+      'end_time' => $finish_time,
+      'utc' => $data['timezone'],
+      'status' => 'Pending',
+      'description' => $data['desc'],
+      'documents' => $request->doc,
+      'is_paid' => 0
+    ]);
 
-      $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
-      $call_data = ScheduledCall::find($call['id']);
+    $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
+    $call_data = ScheduledCall::find($call['id']);
 
-      $gateway = new \Braintree\Gateway([
-        'environment' => env('BRAINTREE_ENV'),
-        'merchantId' => env("BRAINTREE_MERCHANT_ID"),
-        'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
-        'privateKey' => env("BRAINTREE_PRIVATE_KEY")
-      ]);
+    // $gateway = new \Braintree\Gateway([
+    //   'environment' => env("BRAINTREE_ENV"),
+    //   'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+    //   'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+    //   'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+    // ]);
 
-      $clientToken = $gateway->clientToken()->generate();
+    // $clientToken = $gateway->clientToken()->generate();
 
-      return view('payment', compact('call_data', 'clientToken'));
+    return view('payment', compact('call_data'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
@@ -338,12 +347,13 @@ class HomeController extends Controller {
     // return view('success', compact('details', 'mentor'));
   }
 
-  public function getTimeAvailability(Request $request) {
+  public function getTimeAvailability(Request $request)
+  {
     $mentor = $request->mentor;
     $timezone = $request->timezone ? $request->timezone : Auth::user()->metaData->timezone;
-    $nmonth = Carbon::parse($request->day.' '.$request->month)->month;
+    $nmonth = Carbon::parse($request->day . ' ' . $request->month)->month;
 
-    $format = $request->year.'-'.$nmonth.'-'.$request->day;
+    $format = $request->year . '-' . $nmonth . '-' . $request->day;
     $date = Carbon::parse($format)->toDateString();
     $availability = AvailableSchedule::where('mentor_id', $mentor)->where('date', $date)->where('is_booked', 0)->get();
     $timeAvailability = $this->utcToChangeTimezone($availability, $timezone);
@@ -351,10 +361,11 @@ class HomeController extends Controller {
     return $timeAvailability;
   }
 
-  public function utcToChangeTimezone($availability, $timezone) {
+  public function utcToChangeTimezone($availability, $timezone)
+  {
     $time = array();
-    foreach($availability as $avail) {
-      $date = new \DateTime($avail->date.' '.$avail->start_time, new \DateTimeZone($avail->time_zone));
+    foreach ($availability as $avail) {
+      $date = new \DateTime($avail->date . ' ' . $avail->start_time, new \DateTimeZone($avail->time_zone));
       //  echo($date->format('Y-m-d H:i:sP'));
       //  echo $date->format('Y-m-d H:i:sP') . "\n";
       $date->setTimezone(new \DateTimeZone($timezone));
@@ -364,14 +375,15 @@ class HomeController extends Controller {
     return response()->json($time);
   }
 
-  public function success($call_id) {
+  public function success($call_id)
+  {
     try {
 
       $call = ScheduledCall::find($call_id);
 
       $mentor_timezone = AvailableSchedule::where('mentor_id', $call->mentor_id)->where('date', Carbon::parse($call->date)->format('Y-m-d'))->first();
 
-      $user_timezone = new \DateTime($call->date.' '.$call->start_time, new \DateTimeZone($call->utc));
+      $user_timezone = new \DateTime($call->date . ' ' . $call->start_time, new \DateTimeZone($call->utc));
 
       $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
 
@@ -434,7 +446,7 @@ class HomeController extends Controller {
       return view('success', compact('details', 'mentor'));
 
     } catch (Exception $e) {
-      if(451 == $e->getCode()) {
+      if (451 == $e->getCode()) {
         return view('success', compact('details', 'mentor'));
       }
     }
@@ -442,7 +454,8 @@ class HomeController extends Controller {
     return view('success', compact('details', 'mentor'));
   }
 
-  public function sendScheduleRequestMail($details) {
+  public function sendScheduleRequestMail($details)
+  {
     $mentor = User::find($details['mentor']);
 
     Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
@@ -450,7 +463,8 @@ class HomeController extends Controller {
     //  dd("Email is sent successfully.");
   }
 
-  public function sendScheduleRequestUserMail($details) {
+  public function sendScheduleRequestUserMail($details)
+  {
     $mentor = User::find($details['user_id']);
 
     Mail::to($mentor->email)->send(new ScheduleCallRequestUser($details));
@@ -458,15 +472,18 @@ class HomeController extends Controller {
     //  dd("Email is sent successfully.");
   }
 
-  public function termsConditions() {
+  public function termsConditions()
+  {
     return view('terms-conditions');
   }
 
-  public function privacyPolicy() {
+  public function privacyPolicy()
+  {
     return view('privacy-policy');
   }
 
-  public function saveContact(Request $request) {
+  public function saveContact(Request $request)
+  {
     $request->validate([
       'firstname' => 'required',
       'lastname' => 'required',
@@ -491,46 +508,55 @@ class HomeController extends Controller {
     return view('thankyou');
   }
 
-  public function resources() {
+  public function resources()
+  {
     return view('resources');
   }
 
-  public function blogs() {
+  public function blogs()
+  {
     $blogs = Blogs::get();
 
     return view('blogs', compact('blogs'));
   }
 
-  public function blogDetailPage($id) {
+  public function blogDetailPage($id)
+  {
     $blog = Blogs::find($id);
 
     return view('blog-detail', compact('blog'));
   }
 
-  public function faq() {
+  public function faq()
+  {
     $userFaq = UserFaq::get();
     $mentors_faq = MentorsFaq::get();
 
     return view('faq', compact('userFaq', 'mentors_faq'));
   }
 
-  public function communityGuidelines() {
+  public function communityGuidelines()
+  {
     return view('community-guidelines');
   }
 
-  public function libararies() {
+  public function libararies()
+  {
     return view('libraries');
   }
 
-  public function communityPosts() {
+  public function communityPosts()
+  {
     return view('community-post');
   }
 
-  public function aboutUs() {
+  public function aboutUs()
+  {
     return view('about-us');
   }
 
-  public function getDateAvailability(Request $request) {
+  public function getDateAvailability(Request $request)
+  {
     $timezone = $request->timezone;
     $month = $request->month;
     $year = $request->year;
@@ -540,14 +566,15 @@ class HomeController extends Controller {
 
     $dates = array();
 
-    foreach($date as $dt) {
+    foreach ($date as $dt) {
       $dates[] = Carbon::parse($dt->date)->format('d');
     }
 
     return response()->json($dates);
   }
 
-  public function test() {
+  public function test()
+  {
     $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     // dd($tzlist);
     $password = Hash::make('soha@123!');
@@ -556,23 +583,28 @@ class HomeController extends Controller {
     return view('call');
   }
 
-  public function completedCalls() {
+  public function completedCalls()
+  {
 
   }
 
-  public function callFeedBack() {
+  public function callFeedBack()
+  {
 
   }
 
-  public function callReminder() {
+  public function callReminder()
+  {
 
   }
 
-  public function weeklySlotUpdate() {
+  public function weeklySlotUpdate()
+  {
 
   }
 
-  public function token(Request $request) {
+  public function token(Request $request)
+  {
     // dd($request->all());
 
     $gateway = new \Braintree\Gateway([
@@ -584,7 +616,7 @@ class HomeController extends Controller {
 
     $call_data = ScheduledCall::find($request->call_id);
 
-    if(!empty($request->nonce)) {
+    if (!empty($request->nonce)) {
       $nonceFromTheClient = $request->nonce;
 
       $mentor = User::find($call_data->mentor_id);
@@ -599,32 +631,32 @@ class HomeController extends Controller {
       ]);
 
       try {
-  
+
         $mentor_timezone = AvailableSchedule::where('mentor_id', $call_data->mentor_id)->where('date', Carbon::parse($call_data->date)->format('Y-m-d'))->first();
-  
-        $user_timezone = new \DateTime($call_data->date.' '.$call_data->start_time, new \DateTimeZone($call_data->utc));
-  
+
+        $user_timezone = new \DateTime($call_data->date . ' ' . $call_data->start_time, new \DateTimeZone($call_data->utc));
+
         $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
-  
+
         $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($call_data->duration);
-  
+
         $schedule = AvailableSchedule::where('mentor_id', $call_data->mentor_id)
           ->where('date', Carbon::parse($call_data->date)->format('Y-m-d'))
           ->where('start_time', $user_timezone->format('H:i:s'))
           ->first();
-  
+
         $schedule->update([
           'is_booked' => 1,
           'call_id' => $call_data->id
         ]);
-  
+
         $call_data->update([
           'is_paid' => 1
         ]);
-  
+
         $mentor = User::find($call_data->mentor_id);
         $user = User::find($call_data->user_id);
-  
+
         $details = [
           'mentor' => $call_data->mentor_id,
           'mentor_name' => $mentor->name,
@@ -641,23 +673,23 @@ class HomeController extends Controller {
           'mentor_start_time' => $user_timezone->format('h:i A'),
           'mentor_finish_time' => $mentor_finish_time->format('h:i A'),
         ];
-  
+
         Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
         Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
-  
+
         $admin = User::where('role_id', 1)->first();
-  
+
         $mentor->notify(new NewCallRequest($user));
         $admin->notify(new NewCallRequestAdmin($user));
-  
+
         return view('success', compact('details', 'mentor'));
-  
+
       } catch (Exception $e) {
-        if(451 == $e->getCode()) {
+        if (451 == $e->getCode()) {
           return view('success', compact('details', 'mentor'));
         }
       }
-  
+
       return view('success', compact('details', 'mentor'));
 
       // return $this->success($request->call_id);
