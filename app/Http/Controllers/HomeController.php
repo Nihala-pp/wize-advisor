@@ -607,12 +607,35 @@ class HomeController extends Controller
   {
     // dd($request->all());
 
-    $gateway = new \Braintree\Gateway([
-      'environment' => env('BRAINTREE_ENV'),
-      'merchantId' => env("BRAINTREE_MERCHANT_ID"),
-      'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
-      'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+    // $gateway = new \Braintree\Gateway([
+    //   'environment' => env('BRAINTREE_ENV'),
+    //   'merchantId' => env("BRAINTREE_MERCHANT_ID"),
+    //   'publicKey' => env("BRAINTREE_PUBLIC_KEY"),
+    //   'privateKey' => env("BRAINTREE_PRIVATE_KEY")
+    // ]);
+
+    $request->validate([
+      'paymentToken' => 'required',
+      // Add other necessary validation rules
     ]);
+
+  // Process the payment using your payment gateway
+    $paymentToken = $request->input('paymentToken');
+
+  // Perform actions with the payment token (e.g., send it to the payment gateway)
+  // Note: This is a simplified example, and you need to replace it with your actual payment gateway logic.
+
+  // Example:
+    $paymentGatewayResponse = $this->processPayment($paymentToken);
+
+  // Check the payment gateway response and handle accordingly
+  if ($paymentGatewayResponse['success']) {
+      // Payment successful
+      return response()->json(['message' => 'Payment successful']);
+  } else {
+      // Payment failed
+      return response()->json(['message' => 'Payment failed', 'error' => $paymentGatewayResponse['error']], 400);
+  }
 
     $call_data = ScheduledCall::find($request->call_id);
 
@@ -697,5 +720,19 @@ class HomeController extends Controller
       $clientToken = $gateway->clientToken()->generate();
       return view('payment', compact('clientToken', 'call_data'));
     }
+  }
+
+  public function processPayment($paymentToken)
+  {
+      // Implement your payment gateway integration logic here
+      // This is a placeholder and should be replaced with your actual logic
+
+      // Simulate a successful payment for demonstration purposes
+      // Replace this with your actual payment gateway integration logic
+      $success = true;
+      $error = null;
+
+      // Return a response
+      return ['success' => $success, 'error' => $error];
   }
 }

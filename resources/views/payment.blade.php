@@ -91,7 +91,7 @@
             tokenizationSpecification: {
                 type: 'PAYMENT_GATEWAY',
                 parameters: {
-                    gateway: 'yourpayment',
+                    gateway: 'acceptblue',
                     gatewayMerchantId: 'BCR2DN4T3HN7LXCE'
                 }
             }
