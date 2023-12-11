@@ -86,7 +86,8 @@
             type: 'CARD',
             parameters: {
                 allowedAuthMethods: ['PAN_ONLY', 'CRYPTOGRAM_3DS'],
-                allowedCardNetworks: ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD", "VISA"]
+                allowedCardNetworks: ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD", "VISA"],
+
             },
             tokenizationSpecification: {
                 type: 'PAYMENT_GATEWAY',
@@ -96,6 +97,12 @@
                 }
             }
         }],
+
+        billingAddressRequired: true,
+        "billingAddressParameters": {
+            "format": "FULL",
+            "phoneNumberRequired": false
+        },
         merchantInfo: {
             merchantId: 'BCR2DN4T3HN7LXCE',
             merchantName: 'wiseAdvizor'
@@ -190,4 +197,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
