@@ -19,6 +19,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+    @include('partials.googlepayscript')
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <script>
@@ -1424,10 +1426,11 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
-                            style="align:center;background-color:#001E64;">Continue</button>
-                    </div>
                     <div id="button_container"></div>
+
+                        <!-- <button type="submit" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
+                            style="align:center;background-color:#001E64;">Continue</button> -->
+                    </div>
                 </div>
             </div>
         </div>
