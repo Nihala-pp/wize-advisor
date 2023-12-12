@@ -10,6 +10,7 @@
       <div id="button_container"></div>
       <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
       <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}" id="price">
+      <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
     @include('partials.googlepayscript')
     <!-- <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">

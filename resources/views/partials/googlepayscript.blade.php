@@ -238,6 +238,3 @@ function processPayment(paymentData) {
   // consent in place.
   paymentToken = paymentData.paymentMethodData.tokenizationData.token;
 }</script>
-<script async
-  src="https://pay.google.com/gp/p/js/pay.js"
-  onload="onGooglePayLoaded()"></script>
