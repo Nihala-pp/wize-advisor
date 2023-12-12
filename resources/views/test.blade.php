@@ -10,6 +10,7 @@ $url = "https://zoom.us/oauth/authorize?response_type=code&client_id="$client_id
 <div style="display: flex;justify-content: center;align-items: center; color: white">
     <a id="submit-button" class="btn btn-sm btn-success mb-5">Pay Now</a>
 </div> -->
+<script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script>
 <script src="https://pay.google.com/gp/p/js/pay.js"></script>
 
 <!-- <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script> -->
