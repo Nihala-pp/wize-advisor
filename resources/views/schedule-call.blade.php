@@ -19,7 +19,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
-    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <script>
@@ -2287,6 +2286,7 @@
     <script src="{{ asset('public/assets/js/popper.js') }}"></script>
     <!-- <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
     <script type="text/javascript">
     (function($) {
         // Setup the calendar with the current date
