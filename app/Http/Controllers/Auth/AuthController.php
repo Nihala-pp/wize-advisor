@@ -125,9 +125,10 @@ class AuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
         $admin = User::find(1);
+        $user = User::find($check);
         
         Mail::to($request->email)->send(new WelcomeEmailUser($data));
-        $admin->notify(new SignupAdmin($data));
+        $admin->notify(new SignupAdmin($user));
 
         if (Auth::attempt($credentials)) {
 
@@ -177,6 +178,8 @@ class AuthController extends Controller
             'social_linked_in' => $data['linked_in'],
             'timezone' => $data['timezone']
         ]);
+
+        return $user['id'];
     }
 
     /**
