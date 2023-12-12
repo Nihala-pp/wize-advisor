@@ -1424,12 +1424,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center">
+                    <!-- <div class="text-center"> -->
                     <div id="button_container"></div>
 
                         <!-- <button type="submit" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
                             style="align:center;background-color:#001E64;">Continue</button> -->
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
