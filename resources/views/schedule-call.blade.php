@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-@include('partials.googlepayscript')
 <head>
     <meta charset="utf-8">
     <title>Schedule a Call &#8211; wiseAdvizor</title>
@@ -1212,6 +1211,8 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 payment-page">
     @include('partials.menu')
+    @include('partials.googlepayscript')
+
     <div class="row">
         <div class="col-sm-4 mb-3 mt-2">
             <div class="card h-100">
