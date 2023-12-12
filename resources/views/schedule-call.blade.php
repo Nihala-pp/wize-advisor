@@ -1427,6 +1427,7 @@
                         <button type="submit" class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
                             style="align:center;background-color:#001E64;">Continue</button>
                     </div>
+                    <div id="button_container"></div>
                 </div>
             </div>
         </div>
