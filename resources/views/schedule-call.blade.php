@@ -2839,8 +2839,8 @@
     const tokenizationSpecification = {
         type: 'PAYMENT_GATEWAY',
         parameters: {
-            'gateway': 'acceptblue',
-            'gatewayMerchantId': 'BCR2DN4T3HN7LXCE'
+            'gateway': 'example',
+            'gatewayMerchantId': 'exampleGatewayMerchantId'
         }
     };
 
