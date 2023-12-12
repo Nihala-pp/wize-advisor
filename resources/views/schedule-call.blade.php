@@ -2837,10 +2837,10 @@
      * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#gateway|PaymentMethodTokenizationSpecification}
      */
     const tokenizationSpecification = {
-        type: 'PAYMENT_GATEWAY',
-        parameters: {
-            'gateway': 'example',
-            'gatewayMerchantId': 'exampleGatewayMerchantId'
+        "type": "DIRECT",
+        "parameters": {
+            "protocolVersion": "ECv2",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGnJ7Yo1sX9b4kr4Aa5uq58JRQfzD8bIJXw7WXaap\/hVE+PnFxvjx4nVxt79SdRuUVeu++HZD0cGAv4IOznc96w=="
         }
     };
 
