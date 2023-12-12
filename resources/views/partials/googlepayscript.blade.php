@@ -237,4 +237,5 @@ function processPayment(paymentData) {
   // unless they're used for merchant-initiated transactions with user
   // consent in place.
   paymentToken = paymentData.paymentMethodData.tokenizationData.token;
-}</script>
+}
+</script>
