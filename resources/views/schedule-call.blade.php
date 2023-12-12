@@ -1179,7 +1179,7 @@
     <style id="wpforms-css-vars-root">
     :root {
         --wpforms-field-border-radius: 3px;
-        ` --wpforms-field-background-color: #ffffff;
+        --wpforms-field-background-color: #ffffff;
         --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
         --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
         --wpforms-label-color: rgba(0, 0, 0, 0.85);
@@ -1204,7 +1204,6 @@
         --wpforms-button-size-height: 41px;
         --wpforms-button-size-padding-h: 15px;
         --wpforms-button-size-margin-top: 10px;
-
     }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -1212,7 +1211,6 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 payment-page">
-
     @include('partials.menu')
     <div class="row">
         <div class="col-sm-4 mb-3 mt-2">
@@ -2849,5 +2847,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>
