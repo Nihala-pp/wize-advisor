@@ -2838,8 +2838,8 @@ const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
 const tokenizationSpecification = {
   type: 'PAYMENT_GATEWAY',
   parameters: {
-    'gateway': 'example',
-    'gatewayMerchantId': 'exampleGatewayMerchantId'
+    'gateway': 'acceptblue',
+    'gatewayMerchantId': 'BCR2DN4T3HN7LXCE'
   }
 };
 
@@ -3091,5 +3091,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>
