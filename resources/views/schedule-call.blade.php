@@ -2911,8 +2911,8 @@ function getGooglePaymentDataRequest() {
   paymentDataRequest.merchantInfo = {
     // @todo a merchant ID is available for a production environment after approval by Google
     // See {@link https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist|Integration checklist}
-    // merchantId: '12345678901234567890',
-    merchantName: 'Example Merchant'
+    merchantId: 'BCR2DN4T3HN7LXCE',
+    merchantName: 'wiseAdvizor'
   };
   return paymentDataRequest;
 }
