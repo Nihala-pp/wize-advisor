@@ -2994,7 +2994,7 @@
                 onClick: onGooglePaymentButtonClicked,
                 allowedPaymentMethods: [baseCardPaymentMethod]
             });
-        document.getElementById('container').appendChild(button);
+        document.getElementById('button_container').appendChild(button);
     }
 
     /**
