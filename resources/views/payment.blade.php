@@ -17,7 +17,8 @@
             </div>
         </div>
     </form>
-    <script src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+
     <script>
     var price = $('#price').val();
 
@@ -451,4 +452,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
