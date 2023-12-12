@@ -389,7 +389,7 @@
                             data: paymentData,
                             token: paymentToken,
                             amount: price,
-                            call_id: $('.call_id').val()
+                            call_id: $('.call_id').val(),
                             _token: "{{ csrf_token() }}"
                         },
                         success: function(result) {
