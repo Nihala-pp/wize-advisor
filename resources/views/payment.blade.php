@@ -11,72 +11,15 @@
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
                 @csrf
-                <!-- <div id="dropin-container"></div>
-                <! -- <input type="hidden" id="nonce" name="payment_method_nonce"> -->
                 <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                 <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}" id="price">
                 <button id="google-pay-button">Pay with Google</button>
-                <!-- <div style="display: flex;justify-content: center;align-items: center; color: white">
-                    <button type="submit" class="btn btn-sm btn-success mb-5" id="submit-button">Pay Now</button> -->
-                <!-- </div>  -->
             </div>
         </div>
     </form>
-
-    <!-- <div id="dropin-container" style="display: flex;justify-content: center;align-items: center;"></div>
-    <div style="display: flex;justify-content: center;align-items: center; color: white">
-        <a id="submit-button" class="btn btn-sm btn-success mb-5">Pay Now</a>
-    </div> -->
-    <script src="https://pay.google.com/gp/p/js/pay.js"></script>
-
-    <!-- <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script> -->
-    <!-- <script>
-        var button = document.querySelector('#submit-button');
-
-        braintree.dropin.create({
-            authorization: client_token,
-            selector: '#dropin-container',
-            paypal: {
-                flow: 'vault'
-            }
-        }, function (createErr, instance) {
-            if (createErr) {
-                console.log('Create Error', createErr);
-                return;
-            }
-            button.addEventListener('click', function (event) {
-                event.preventDefault();
-
-                instance.requestPaymentMethod(function (err, payload) {
-                    $(function () {
-                        $.ajaxSetup({
-                            headers: {
-                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr(
-                                    'content')
-                            }
-                        });
-                        return $.ajax("https://wiseadvizor.com/token", {
-                            method: 'POST',
-                            data: {
-                                nonce: payload.nonce,
-                                call_id: $('#call_id').val()
-                            },
-                            success: function (response) {
-                                $('.payment-page').html(response);
-                            },
-                            error: function (response) {
-                                $('.payment-page').html(response);
-                            }
-                        });
-                    });
-                });
-            });
-        });
-    </script> -->
-
+    <script src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
     <script>
     var price = $('#price').val();
-    const base64url = (str) => btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 
     const paymentDataRequest = {
         apiVersion: 2,
