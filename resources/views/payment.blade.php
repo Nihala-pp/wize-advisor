@@ -17,8 +17,9 @@
             </div>
         </div>
     </form>
-    
+
     <script>
+    var price = $("#price").val();
     /**
      * Define the version of the Google Pay API referenced when creating your
      * configuration
