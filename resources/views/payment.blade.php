@@ -17,15 +17,13 @@
             </div>
         </div>
     </form>
-    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
-
+    
     <script>
-    var price = $('#price').val();
-
     /**
      * Define the version of the Google Pay API referenced when creating your
      * configuration
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#PaymentDataRequest|apiVersion in PaymentDataRequest}
      */
     const baseRequest = {
         apiVersion: 2,
@@ -35,12 +33,16 @@
     /**
      * Card networks supported by your site and your gateway
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#CardParameters|CardParameters}
+     * @todo confirm card networks supported by your site and gateway
      */
-    const allowedCardNetworks = ["AMEX", "DISCOVER", "JCB", "MASTERCARD", "MIR", "VISA"];
+    const allowedCardNetworks = ["AMEX", "DISCOVER", "INTERAC", "JCB", "MASTERCARD", "VISA"];
 
     /**
      * Card authentication methods supported by your site and your gateway
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#CardParameters|CardParameters}
+     * @todo confirm your processor supports Android device tokens for your
      * supported card networks
      */
     const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
@@ -51,12 +53,14 @@
      * The Google Pay API response will return an encrypted payment method capable
      * of being charged by a supported gateway after payer authorization
      *
+     * @todo check with your gateway on the parameters to pass
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#gateway|PaymentMethodTokenizationSpecification}
      */
     const tokenizationSpecification = {
         type: 'PAYMENT_GATEWAY',
         parameters: {
-            'gateway': 'acceptblue',
-            'gatewayMerchantId': 'BCR2DN4T3HN7LXCE'
+            'gateway': 'example',
+            'gatewayMerchantId': 'exampleGatewayMerchantId'
         }
     };
 
@@ -64,6 +68,7 @@
      * Describe your site's support for the CARD payment method and its required
      * fields
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#CardParameters|CardParameters}
      */
     const baseCardPaymentMethod = {
         type: 'CARD',
@@ -77,6 +82,7 @@
      * Describe your site's support for the CARD payment method including optional
      * fields
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#CardParameters|CardParameters}
      */
     const cardPaymentMethod = Object.assign({},
         baseCardPaymentMethod, {
@@ -87,6 +93,7 @@
     /**
      * An initialized google.payments.api.PaymentsClient object or null if not yet set
      *
+     * @see {@link getGooglePaymentsClient}
      */
     let paymentsClient = null;
 
@@ -98,6 +105,7 @@
      * allowing reuse of this base request when determining a viewer's ability
      * to pay and later requesting a supported payment method
      *
+     * @returns {object} Google Pay API version, payment methods supported by the site
      */
     function getGoogleIsReadyToPayRequest() {
         return Object.assign({},
@@ -110,20 +118,21 @@
     /**
      * Configure support for the Google Pay API
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#PaymentDataRequest|PaymentDataRequest}
+     * @returns {object} PaymentDataRequest fields
      */
     function getGooglePaymentDataRequest() {
         const paymentDataRequest = Object.assign({}, baseRequest);
         paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
         paymentDataRequest.transactionInfo = getGoogleTransactionInfo();
         paymentDataRequest.merchantInfo = {
+            // @todo a merchant ID is available for a production environment after approval by Google
+            // See {@link https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist|Integration checklist}
             // merchantId: '12345678901234567890',
-            merchantName: 'wiseAdvizor'
+            merchantName: 'Example Merchant'
         };
 
-        paymentDataRequest.callbackIntents = ["SHIPPING_ADDRESS", "SHIPPING_OPTION", "PAYMENT_AUTHORIZATION"];
-        paymentDataRequest.shippingAddressRequired = true;
-        paymentDataRequest.shippingAddressParameters = getGoogleShippingAddressParameters();
-        paymentDataRequest.shippingOptionRequired = true;
+        paymentDataRequest.callbackIntents = ["PAYMENT_AUTHORIZATION"];
 
         return paymentDataRequest;
     }
@@ -131,27 +140,32 @@
     /**
      * Return an active PaymentsClient or initialize
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/client#PaymentsClient|PaymentsClient constructor}
+     * @returns {google.payments.api.PaymentsClient} Google Pay API client
      */
     function getGooglePaymentsClient() {
         if (paymentsClient === null) {
             paymentsClient = new google.payments.api.PaymentsClient({
-                environment: "TEST",
-                merchantInfo: {
-                    merchantName: "wiseAdvizor",
-                    merchantId: "BCR2DN4T3HN7LXCE"
-                },
+                environment: 'TEST',
                 paymentDataCallbacks: {
-                    onPaymentAuthorized: onPaymentAuthorized,
-                    onPaymentDataChanged: onPaymentDataChanged
+                    onPaymentAuthorized: onPaymentAuthorized
                 }
             });
         }
         return paymentsClient;
     }
 
+    /**
+     * Handles authorize payments callback intents.
+     *
+     * @param {object} paymentData response from Google Pay API after a payer approves payment through user gesture.
+     * @see {@link https://developers.google.com/pay/api/web/reference/response-objects#PaymentData object reference}
+     *
+     * @see {@link https://developers.google.com/pay/api/web/reference/response-objects#PaymentAuthorizationResult}
+     * @returns Promise<{object}> Promise of PaymentAuthorizationResult object to acknowledge the payment authorization status.
+     */
     function onPaymentAuthorized(paymentData) {
         return new Promise(function(resolve, reject) {
-
             // handle the response
             processPayment(paymentData)
                 .then(function() {
@@ -169,61 +183,7 @@
                         }
                     });
                 });
-
         });
-    }
-
-    /**
-     * Handles dynamic buy flow shipping address and shipping options callback intents.
-     *
-     */
-    function onPaymentDataChanged(intermediatePaymentData) {
-        return new Promise(function(resolve, reject) {
-
-            let shippingAddress = intermediatePaymentData.shippingAddress;
-            let shippingOptionData = intermediatePaymentData.shippingOptionData;
-            let paymentDataRequestUpdate = {};
-
-            if (intermediatePaymentData.callbackTrigger == "INITIALIZE" || intermediatePaymentData
-                .callbackTrigger == "SHIPPING_ADDRESS") {
-                if (shippingAddress.administrativeArea == "NJ") {
-                    paymentDataRequestUpdate.error = getGoogleUnserviceableAddressError();
-                } else {
-                    paymentDataRequestUpdate.newShippingOptionParameters = getGoogleDefaultShippingOptions();
-                    let selectedShippingOptionId = paymentDataRequestUpdate.newShippingOptionParameters
-                        .defaultSelectedOptionId;
-                    paymentDataRequestUpdate.newTransactionInfo = calculateNewTransactionInfo(
-                        selectedShippingOptionId);
-                }
-            } else if (intermediatePaymentData.callbackTrigger == "SHIPPING_OPTION") {
-                paymentDataRequestUpdate.newTransactionInfo = calculateNewTransactionInfo(shippingOptionData
-                    .id);
-            }
-
-            resolve(paymentDataRequestUpdate);
-        });
-    }
-
-    /**
-     * Helper function to create a new TransactionInfo object.
-     *
-     */
-    function calculateNewTransactionInfo(shippingOptionId) {
-        let newTransactionInfo = getGoogleTransactionInfo();
-
-        let shippingCost = getShippingCosts()[shippingOptionId];
-        newTransactionInfo.displayItems.push({
-            type: "LINE_ITEM",
-            label: "Shipping cost",
-            price: shippingCost,
-            status: "FINAL"
-        });
-
-        let totalPrice = 0.00;
-        newTransactionInfo.displayItems.forEach(displayItem => totalPrice += parseFloat(displayItem.price));
-        newTransactionInfo.totalPrice = totalPrice.toString();
-
-        return newTransactionInfo;
     }
 
     /**
@@ -238,8 +198,6 @@
             .then(function(response) {
                 if (response.result) {
                     addGooglePayButton();
-                    // @todo prefetch payment data to improve performance after confirming site functionality
-                    // prefetchGooglePaymentData();
                 }
             })
             .catch(function(err) {
@@ -251,6 +209,8 @@
     /**
      * Add a Google Pay purchase button alongside an existing checkout button
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#ButtonOptions|Button options}
+     * @see {@link https://developers.google.com/pay/api/web/guides/brand-guidelines|Google Pay brand guidelines}
      */
     function addGooglePayButton() {
         const paymentsClient = getGooglePaymentsClient();
@@ -265,101 +225,28 @@
     /**
      * Provide Google Pay API with a payment amount, currency, and amount status
      *
+     * @see {@link https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo|TransactionInfo}
+     * @returns {object} transaction info, suitable for use as transactionInfo property of PaymentDataRequest
      */
     function getGoogleTransactionInfo() {
         return {
             displayItems: [{
                     label: "Subtotal",
                     type: "SUBTOTAL",
-                    price: price,
+                    price: "11.00",
                 },
                 {
                     label: "Tax",
                     type: "TAX",
-                    price: "0.00",
+                    price: "1.00",
                 }
             ],
             countryCode: 'US',
             currencyCode: "USD",
             totalPriceStatus: "FINAL",
-            totalPrice: price,
+            totalPrice: "12.00",
             totalPriceLabel: "Total"
         };
-    }
-
-    /**
-     * Provide a key value store for shippping options.
-     */
-    function getShippingCosts() {
-        return {
-            "shipping-001": "0.00",
-            "shipping-002": "0.00",
-            "shipping-003": "0.00"
-        }
-    }
-
-    /**
-     * Provide Google Pay API with shipping address parameters when using dynamic buy flow.
-     *
-     */
-    function getGoogleShippingAddressParameters() {
-        return {
-            allowedCountryCodes: ['US'],
-            phoneNumberRequired: true
-        };
-    }
-
-    /**
-     * Provide Google Pay API with shipping options and a default selected shipping option.
-     *
-     */
-    function getGoogleDefaultShippingOptions() {
-        return {
-            defaultSelectedOptionId: "shipping-001",
-            shippingOptions: [{
-                    "id": "shipping-001",
-                    "label": "Free: Standard shipping",
-                    "description": "Free Shipping delivered in 5 business days."
-                },
-                {
-                    "id": "shipping-002",
-                    "label": "$1.99: Standard shipping",
-                    "description": "Standard shipping delivered in 3 business days."
-                },
-                {
-                    "id": "shipping-003",
-                    "label": "$10: Express shipping",
-                    "description": "Express shipping delivered in 1 business day."
-                },
-            ]
-        };
-    }
-
-    /**
-     * Provide Google Pay API with a payment data error.
-     *
-     */
-    function getGoogleUnserviceableAddressError() {
-        return {
-            reason: "SHIPPING_ADDRESS_UNSERVICEABLE",
-            message: "Cannot ship to the selected address",
-            intent: "SHIPPING_ADDRESS"
-        };
-    }
-
-    /**
-     * Prefetch payment data to improve performance
-     *
-     */
-    function prefetchGooglePaymentData() {
-        const paymentDataRequest = getGooglePaymentDataRequest();
-        // transactionInfo must be set but does not affect cache
-        paymentDataRequest.transactionInfo = {
-            totalPriceStatus: 'NOT_CURRENTLY_KNOWN',
-            currencyCode: 'USD'
-        };
-        const paymentsClient = getGooglePaymentsClient();
-        paymentsClient.prefetchPaymentData(paymentDataRequest);
     }
 
     /**
@@ -376,37 +263,21 @@
     /**
      * Process payment data returned by the Google Pay API
      *
-     *
+     * @param {object} paymentData response from Google Pay API after user approves payment
+     * @see {@link https://developers.google.com/pay/api/web/reference/response-objects#PaymentData|PaymentData object reference}
      */
     function processPayment(paymentData) {
         return new Promise(function(resolve, reject) {
             setTimeout(function() {
+                // @todo pass payment token to your gateway to process payment
                 paymentToken = paymentData.paymentMethodData.tokenizationData.token;
-                if (paymentToken != '') {
-                    jQuery.ajax({
-                        url: "{{ route('token') }}",
-                        method: 'POST',
-                        data: {
-                            data: paymentData,
-                            token: paymentToken,
-                            amount: price,
-                            call_id: $('#call_id').val(),
-                            _token: "{{ csrf_token() }}"
-                        },
-                        success: function(result) {
-                            if (result.success) {
-                                alert("success");
-                            } else {
-                                alert('Some thing went wrong, please tray again');
-                            }
-                        }
-                    });
-                }
+
                 resolve({});
             }, 3000);
         });
     }
     </script>
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
