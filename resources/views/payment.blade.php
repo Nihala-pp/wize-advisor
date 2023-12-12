@@ -395,7 +395,7 @@
                         },
                         success: function(result) {
                             if (result.success) {
-                                window.location.href = result.url;
+                                alert("success");
                             } else {
                                 alert('Some thing went wrong, please tray again');
                             }
