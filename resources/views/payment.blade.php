@@ -17,7 +17,8 @@
             </div>
         </div>
     </form>
-
+    
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="console.log('TODO: add onload function')"></script>
     <script>
     var price = $("#price").val();
     /**
@@ -278,7 +279,6 @@
         });
     }
     </script>
-    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="console.log('TODO: add onload function')"></script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
