@@ -32,7 +32,6 @@
     <!-- <script src="https://js.braintreegateway.com/web/dropin/1.40.2/js/dropin.min.js"></script> -->
     <!-- <script>
         var button = document.querySelector('#submit-button');
-        var client_token = "{{$clientToken}}";
 
         braintree.dropin.create({
             authorization: client_token,
