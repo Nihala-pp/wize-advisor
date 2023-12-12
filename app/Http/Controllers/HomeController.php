@@ -605,7 +605,7 @@ class HomeController extends Controller
 
   public function token(Request $request)
   {
-    dd($request->paymentToken);
+    dd($request->token);
     // dd($request->all());
 
     // $gateway = new \Braintree\Gateway([
