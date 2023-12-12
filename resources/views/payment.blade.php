@@ -278,7 +278,7 @@
         });
     }
     </script>
-    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+    <script async src="https://pay.google.com/gp/p/js/pay.js" onload="console.log('TODO: add onload function')"></script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
