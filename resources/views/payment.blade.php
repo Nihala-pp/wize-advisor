@@ -18,7 +18,7 @@
                 <div class="card-body">
                     <h4>Payment Summary</h4>
                     <div class="rounded-circle mt-3">
-                        <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}" title="Mentor"> <img
+                        <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}"> <img
                                 class="rounded-circle" decoding="async"
                                 src="{{ asset('public/assets/img/').'/'. $call_data->mentor->metaData->profile_pic }}" alt="Mentor"
                                 width="100" height="100">
