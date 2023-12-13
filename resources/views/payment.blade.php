@@ -23,7 +23,6 @@
         </div>
     </form>
     <!--Start of Tawk.to Script-->
-    <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}&currency=USD"></script>
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
