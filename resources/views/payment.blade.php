@@ -15,7 +15,7 @@
     <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <h4><b>Payment Summary</b></h4>
                     <div class="rounded-circle mt-3">
                         <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}">
@@ -87,7 +87,6 @@
 <style>
 .card {
     border: 0;
-    margin-left: 250px;
 }
 
 i.fas.fa-bell.fa-2xl {
