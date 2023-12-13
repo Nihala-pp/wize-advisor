@@ -113,7 +113,7 @@ Route::get('/to-do-task',[ToDOController::class, 'index']);
 
 Route::post('/payment/paypal/createTransaction',[PaymentController::class, 'payWithpaypal']);
 Route::post('/payment/paypal/capture/{orderid}',[PaymentController::class, 'getPaymentStatus']);
-Route::post('/cancel/{orderid}',[PaymentController::class, 'cancel']);
+Route::post('/cancel/{order_no}', 'PaymentController@orderCancel');
 Route::post('/order/cancel',[PaymentController::class, 'cancel_order'])->name('order.cancel');
 
 Route::controller(AdminController::class)
