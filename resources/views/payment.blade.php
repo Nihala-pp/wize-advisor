@@ -87,7 +87,7 @@
 <style>
 .card {
     border: 0;
-    margin-left:100px;
+    margin-left:200px;
 }
 
 i.fas.fa-bell.fa-2xl {
