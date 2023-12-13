@@ -9,11 +9,13 @@ return [
     'sandbox' => [
         'client_id'         => env('PAYPAL_SANDBOX_CLIENT_ID', ''),
         'client_secret'     => env('PAYPAL_SANDBOX_CLIENT_SECRET', ''),
+        'api_url' => env('API_URL','https://api-m.sandbox.paypal.com/'),
         'app_id'            => 'APP-80W284485P519543T',
     ],
     'live' => [
         'client_id'         => env('PAYPAL_LIVE_CLIENT_ID', ''),
         'client_secret'     => env('PAYPAL_LIVE_CLIENT_SECRET', ''),
+        'api_url' => env('API_URL','https://api-m.paypal.com/'),
         'app_id'            => env('PAYPAL_LIVE_APP_ID', ''),
     ],
 
