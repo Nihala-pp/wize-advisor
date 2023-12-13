@@ -7,9 +7,8 @@
 <head>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-    <script src="https://www.paypal.com/sdk/js?client-id= YOUR_CLIENT_ID "></script>
+    <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}"></script>
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13 success">
     @include('partials.menu')
@@ -37,6 +36,38 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
     </script>
+    <script>
+  // Render the PayPal button into #paypal-button-container
+    	paypal.Buttons({
+          	// Set up the transaction
+        	createOrder: function(data, actions) {
+            	return actions.order.create({
+                	purchase_units: [{
+                    	amount: {
+                        	value: $("#price").val()
+                    	}
+                	}]
+            	});
+        	},
+
+        	// Finalize the transaction
+        	onApprove: function(data, actions) {
+            	return actions.order.capture().then(function(orderData) {
+                	// Successful capture! For demo purposes:
+                	console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                	var transaction = orderData.purchase_units[0].payments.captures[0];
+                	alert('Transaction '+ transaction.status + ': ' + transaction.id 
+                                       + '\n\nSee console for all available details');
+
+                	// Replace the above to show a success message within this page, e.g.
+                	// const element = document.getElementById('paypal-button-container');
+                	// element.innerHTML = '';
+                	// element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                	// Or go to another URL:  actions.redirect('thank_you.html');
+            	});
+        	}
+    	}).render('#paypal_button_container');
+</script>
 </body>
 <style>
 .card {
@@ -67,5 +98,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>

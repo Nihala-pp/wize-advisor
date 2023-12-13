@@ -325,6 +325,8 @@ class HomeController extends Controller
     $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
     $call_data = ScheduledCall::find($call['id']);
 
+    $client_id = env('PAYPAL_SANDBOX_CLIENT');
+
     // $gateway = new \Braintree\Gateway([
     //   'environment' => env("BRAINTREE_ENV"),
     //   'merchantId' => env("BRAINTREE_MERCHANT_ID"),
@@ -334,7 +336,7 @@ class HomeController extends Controller
 
     // $clientToken = $gateway->clientToken()->generate();
 
-    return view('payment', compact('call_data'));
+    return view('payment', compact('call_data', 'client_id'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
