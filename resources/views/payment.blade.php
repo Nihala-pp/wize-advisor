@@ -57,7 +57,7 @@
     ?>
 
     <script>
-    // Render the PayPal button into #paypal-button-container
+    // Render the PayPal button into #paypal_button_container
 
     paypal.Buttons({
 
@@ -193,7 +193,7 @@
             console.log("on init", JSON.stringify(data));
         },
 
-    }).render('#paypal-button-container');
+    }).render('#paypal_button_container');
     </script>
 </body>
 <style>
