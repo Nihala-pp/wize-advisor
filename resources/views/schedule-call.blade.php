@@ -20,6 +20,7 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}"></script>
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <script>
     (function(h, o, t, j, a, r) {

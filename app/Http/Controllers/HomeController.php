@@ -237,11 +237,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-      alert("Be a Mentor Requested Successfull  y!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfull  y!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
@@ -260,10 +260,12 @@ class HomeController extends Controller
       ->orderBy('date', 'asc')
       ->first();
 
+    $client_id = env('PAYPAL_SANDBOX_CLIENT');
+
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
-    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call'));
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'client_id'));
     // } 
   }
 
