@@ -114,7 +114,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 #paypal_button_container {
-    padding-left:40px;
+    padding-left:75px;
 }
 </style>
 
