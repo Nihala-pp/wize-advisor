@@ -7,7 +7,6 @@
 <head>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-    <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}"></script>
 </head>
 
 <body
@@ -24,6 +23,7 @@
         </div>
     </form>
     <!--Start of Tawk.to Script-->
+    <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}"></script>
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
@@ -37,7 +37,7 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
     </script>
-    
+
     <script>
     // Render the PayPal button into #paypal-button-container
     paypal.Buttons({
