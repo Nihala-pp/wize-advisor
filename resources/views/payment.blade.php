@@ -31,7 +31,7 @@
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                     <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
                         id="price">
-                    <div id="paypal_button_container"></div>
+                    <div id="paypal_button_container" class="mt-3"></div>
                 </div>
             </div>
         </div>
