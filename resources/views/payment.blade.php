@@ -17,7 +17,6 @@
             <div class="py-12">
                 <div class="card-body">
                     <h4>Payment Summary</h4>
-                    <i class="fa-thin fa-circle-arrow-left"></i>
                     <div class="rounded-circle mt-3">
                         <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}" title="Mentor"> <img
                                 class="rounded-circle" decoding="async"
