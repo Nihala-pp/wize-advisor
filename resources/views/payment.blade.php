@@ -51,43 +51,156 @@
     })();
     </script>
 
+    <?php
+                  $d2 = new Datetime("now");
+                    $order_no="order".$d2->format('U');  // Get the last order id
+                    ?>
+
     <script>
     // Render the PayPal button into #paypal-button-container
+
     paypal.Buttons({
+
         // Set up the transaction
+
         createOrder: function(data, actions) {
-            return actions.order.create({
-                purchase_units: [{
-                    amount: {
-                        value: $("#price").val()
-                    }
-                }]
+            let amount = $("#price").val();
+            let call_id = $("#call_id").val();
+            let dataBody = {
+                'order_no': '{{$order_no}}',
+                'amount': amount,
+                'call_id': call_id
+            }
+            console.log("dataBody is", dataBody);
+
+            return fetch('/payment/paypal/createTransaction', {
+                method: 'post',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                },
+                body: JSON.stringify({
+
+                    'order_no': '{{$order_no}}',
+                    'amount': amount,
+                    'call_id': call_id
+                })
+
+            }).then(function(res) {
+                console.log("response ", res);
+                return res.json();
+            }).then(function(paypalTxnData) {
+                console.log("paypal txn data ", paypalTxnData);
+                return paypalTxnData.id;
+            }).catch(function(err) {
+                console.error("error in create transaction ", err);
             });
+
         },
+
 
         // Finalize the transaction
         onApprove: function(data, actions) {
-            return actions.order.capture().then(function(orderData) {
+
+            console.log("on approve", data);
+            return fetch('/payment/paypal/capture/{{$order_no}}', {
+                method: 'post',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                },
+                body: JSON.stringify(data),
+            }).then(function(res) {
+                return res.json();
+            }).then(function(orderData) {
+
+                // Three cases to handle:
+                //   (1) Recoverable INSTRUMENT_DECLINED -> call actions.restart()
+                //   (2) Other non-recoverable errors -> Show a failure message
+                //   (3) Successful transaction -> Show confirmation or thank you
+
+                // This example reads a v2/checkout/orders capture response, propagated from the server
+                // You could use a different API or structure for your 'orderData'
+                var errorDetail = Array.isArray(orderData.details) && orderData.details[0];
+
+                if (errorDetail && errorDetail.issue === 'INSTRUMENT_DECLINED') {
+                    return actions.restart(); // Recoverable state, per:
+                    // https://developer.paypal.com/docs/checkout/integration-features/funding-failure/
+                }
+
+                if (errorDetail) {
+                    var msg = 'Sorry, your transaction could not be processed.';
+                    if (errorDetail.description) msg += '\n\n' + errorDetail.description;
+                    if (orderData.debug_id) msg += ' (' + orderData.debug_id + ')';
+                    $.ajax({
+                        type: "POST",
+                        url: '{{ route("order.cancel") }}',
+                        headers: {
+                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                        },
+                        data: {
+                            "order_no": {{$order_no}},
+                            "call_id": call_id,
+                        },
+                        success: function(response) {
+                            if (response.status == 'SUCCESS') {
+
+                                swal("Cancelled!", "Your Order cancelled!", "success");
+
+                                window.location.href = "";
+
+                            } else {
+                                swal("Oops!",
+                                    "Your Order cancellation Failed. Please contact Team!",
+                                    "error");
+                                window.location.href = "";
+                            }
+                        }
+                    });
+                    console.log(msg);
+                    return; // Show a failure message (try to avoid alerts in production environments)
+                }
+
                 // Successful capture! For demo purposes:
                 console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
                 var transaction = orderData.purchase_units[0].payments.captures[0];
-                alert('Transaction ' + transaction.status + ': ' + transaction.id +
-                    '\n\nSee console for all available details');
-
-                // Replace the above to show a success message within this page, e.g.
-                // const element = document.getElementById('paypal-button-container');
-                // element.innerHTML = '';
-                // element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                // Or go to another URL:  actions.redirect('thank_you.html');
+                window.location.href = "{{URL('/success')}}" + "/" + "{{$order_no}}";
             });
-        }
-    }).render('#paypal_button_container');
+
+        },
+        onCancel: function(data) {
+            console.log("oncancel data", data);
+            fetch('/cancel/{{$order_no}}', {
+                method: 'post',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                },
+                body: JSON.stringify(data),
+            }).then(function(res) {
+                console.log("cancel response is ", res.json());
+                swal("Cancelled!", "Your Order cancelled!", "error");
+                window.location.href = "{{URL('/')}}";
+            })
+
+        },
+        onError: function(err) {
+            console.log("on error data", err);
+        },
+        onInit: function(data, actions) {
+            console.log("on init", JSON.stringify(data));
+        },
+
+    }).render('#paypal-button-container');
     </script>
 </body>
 <style>
 .card {
     border: 0;
-    margin-left:250px;
+    margin-left: 250px;
 }
 
 i.fas.fa-bell.fa-2xl {
@@ -114,7 +227,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 #paypal_button_container {
-    padding-left:75px;
+    padding-left: 75px;
 }
 </style>
 

@@ -15,6 +15,7 @@ use App\Http\Controllers\Auth\GoogleSocialiteController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\weeklySlotUpdateController;
 use App\Http\Controllers\CompletedCallsMailController;
+use App\Http\Controllers\paymentcontroller;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\Events\PasswordReset;
 
@@ -62,6 +63,7 @@ Route::post('/forgot-password-email', [ForgotPasswordController::class, 'forgotP
 Route::get('/reset-password/{token}', [ForgotPasswordController::class, 'passwordReset'])->name('password.reset');
 Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword'])->name('password.update');
 Route::get('/reload-captcha', [CaptchaServiceController::class, 'reloadCaptcha']);
+Route::get('/reload-captcha', [payWithpaypal::class, 'reloadCaptcha']);
 
 
 // Route::get('/sign-up', 'signup')->name('sign-up');
@@ -108,6 +110,10 @@ Route::get('/feedbackmail',[CallFeedbacksMailController::class, 'index']);
 Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
 Route::get('/to-do-task',[ToDOController::class, 'index']);
 
+
+Route::post('/payment/paypal/createTransaction',[PaymentController::class, 'payWithpaypal']);
+Route::post('/payment/paypal/capture/{orderid}',[PaymentController::class, 'getPaymentStatus']);
+Route::post('/order/cancel',[PaymentController::class, 'cancel_order'])->name('order.cancel');
 
 Route::controller(AdminController::class)
     ->as('admin.')
