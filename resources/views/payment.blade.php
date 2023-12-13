@@ -15,10 +15,25 @@
     <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
-                @csrf
-                <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
-                <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}" id="price">
-                <div id="paypal_button_container"></div>
+                <div class="card-body">
+                    <h4>Payment Summary</h4>
+                    <i class="fa-thin fa-circle-arrow-left"></i>
+                    <div class="rounded-circle mt-3">
+                        <a href="{{ route('profile', [$mentor ? $mentor->id : '']) }}" title="Mentor"> <img
+                                class="rounded-circle" decoding="async"
+                                src="{{ asset('public/assets/img/').'/'.$mentor->metaData->profile_pic }}" alt="Mentor"
+                                width="100" height="100">
+                        </a>
+                    </div>
+                    <div class="card_carousel_title"> {{ $call_data->mentor ?  $call_data->mentor->name : '' }}</div>
+                    <h5 class="card-title">30 Min Meeting</h5>
+                    <h6 class="card-title">${{ $call_data->mentor->metaData->price_per_call }}</h6>
+                    @csrf
+                    <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
+                    <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
+                        id="price">
+                    <div id="paypal_button_container"></div>
+                </div>
             </div>
         </div>
     </form>
