@@ -4,22 +4,25 @@
 
 @include('partials.web-header-new')
 
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://www.paypal.com/sdk/js?client-id= YOUR_CLIENT_ID "></script>
+</head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13 success">
     @include('partials.menu')
-      <div id="button_container"></div>
-      <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
-      <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}" id="price">
-      <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
-    @include('partials.googlepayscript')
-    <!-- <form id="payment-form">
+    <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
                 @csrf
-               
+                <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
+                <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}" id="price">
+                <div id="paypal_button_container"></div>
             </div>
         </div>
-    </form> -->
+    </form>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},

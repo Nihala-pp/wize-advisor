@@ -40,6 +40,7 @@ use Illuminate\Support\Facades\Validator;
 use App\Notifications\CallRejectedUser;
 use Redirect;
 use Exception;
+use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class HomeController extends Controller
 {
