@@ -53,8 +53,8 @@
 
     <?php
                   $d2 = new Datetime("now");
-                    $order_no="order".$d2->format('U');  // Get the last order id
-                    ?>
+                  $order_no="order".$d2->format('U');  // Get the last order id
+    ?>
 
     <script>
     // Render the PayPal button into #paypal-button-container
@@ -141,7 +141,7 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{$order_no}},
+                            "order_no": {{ $order_no }},
                             "call_id": call_id,
                         },
                         success: function(response) {
@@ -166,7 +166,7 @@
                 // Successful capture! For demo purposes:
                 console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
                 var transaction = orderData.purchase_units[0].payments.captures[0];
-                window.location.href = "{{URL('/success')}}" + "/" + "{{$order_no}}";
+                window.location.href = "{{ route('success')}}" + "/" + call_id;
             });
 
         },
@@ -185,7 +185,6 @@
                 swal("Cancelled!", "Your Order cancelled!", "error");
                 window.location.href = "{{URL('/')}}";
             })
-
         },
         onError: function(err) {
             console.log("on error data", err);
