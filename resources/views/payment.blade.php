@@ -19,9 +19,9 @@
                     <h4>Payment Summary</h4>
                     <i class="fa-thin fa-circle-arrow-left"></i>
                     <div class="rounded-circle mt-3">
-                        <a href="{{ route('profile', [$mentor ? $mentor->id : '']) }}" title="Mentor"> <img
+                        <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}" title="Mentor"> <img
                                 class="rounded-circle" decoding="async"
-                                src="{{ asset('public/assets/img/').'/'.$mentor->metaData->profile_pic }}" alt="Mentor"
+                                src="{{ asset('public/assets/img/').'/'. $call_data->mentor->metaData->profile_pic }}" alt="Mentor"
                                 width="100" height="100">
                         </a>
                     </div>
