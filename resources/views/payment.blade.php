@@ -112,6 +112,10 @@ i.fas.fa-bell.fa-2xl {
         color: white !important;
     }
 }
+
+#paypal_button_container {
+    padding-left:40px;
+}
 </style>
 
 </html>
