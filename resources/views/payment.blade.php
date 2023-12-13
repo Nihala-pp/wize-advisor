@@ -25,7 +25,7 @@
                         </a>
                     </div>
                     <div class="card_carousel_title"> {{ $call_data->mentor ?  $call_data->mentor->name : '' }}</div>
-                    <h5 class="card-title">30 Min Meeting</h5>
+                    <h5>30 Min Meeting</h5>
                     <h6 class="card-title">${{ $call_data->mentor->metaData->price_per_call }}</h6>
                     @csrf
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
