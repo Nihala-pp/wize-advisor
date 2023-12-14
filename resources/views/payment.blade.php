@@ -111,7 +111,10 @@
                     'Content-Type': 'application/json',
                     'X-CSRF-TOKEN': '{{ csrf_token() }}'
                 },
-                body: JSON.stringify(data),
+                body: JSON.stringify({
+                    'data': data,
+                    'call_id': call_id
+                }),
             }).then(function(res) {
                 return res.json();
             }).then(function(orderData) {
@@ -141,7 +144,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                         },
                         success: function(response) {
@@ -163,12 +170,12 @@
                     return; // Show a failure message (try to avoid alerts in production environments)
                 }
 
-               
+
                 // Successful capture! For demo purposes:
 
-                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                  var transaction = orderData.purchase_units[0].payments.captures[0];
-                  window.location.href = "{{ route('success', $call_id) }}";
+                console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                var transaction = orderData.purchase_units[0].payments.captures[0];
+                window.location.href = "{{ route('success', $call_id) }}";
 
                 // else {
                 //     console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
