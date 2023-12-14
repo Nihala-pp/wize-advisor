@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Input;
 use PayPalCheckoutSdk\Core\PayPalHttpClient;
 use PayPalCheckoutSdk\Core\SandboxEnvironment;
@@ -22,6 +23,7 @@ class PaymentController extends Controller
 {
     // private $_token_response;
     // private $_paypalApiUrl;
+    
     /**
      * Create a new controller instance.
      *
@@ -31,11 +33,11 @@ class PaymentController extends Controller
     public function __construct()
     {
         /** PayPal api context **/
-        $paypal_conf = \Config::get('paypal');
+        $paypal_conf = Config::get('paypal');
         // Creating an environment
-        $clientId = $paypal_conf['client_id'];
-        $clientSecret = $paypal_conf['secret'];
-        $this->_paypalApiUrl = $paypal_conf['api_url'];
+        $clientId = env('PAYPAL_SANDBOX_CLIENT');
+        $clientSecret = env('PAYPAL_SANDBOX_CLIENT_SECRET');
+        $this->_paypalApiUrl = "https://api-m.sandbox.paypal.com/";
         $params = ['name' => $clientId, 'surname' => $clientSecret];
         $ch = curl_init($this->_paypalApiUrl . "v1/oauth2/token");
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -58,7 +60,7 @@ class PaymentController extends Controller
     public function payWithpaypal(Request $request)
     {
         $paypal_conf = \Config::get('paypal');
-        $paypalApiUrl = $paypal_conf['api_url'];
+        $paypalApiUrl = $paypal_conf['sandbox']['api_url'];
         $input = $request->all();
         $order_no = $input['order_no'];
         $amount = $input['amount'];
@@ -123,6 +125,5 @@ class PaymentController extends Controller
     {
         Log::info($request->all());
         return json_encode(array('statusMsg' => "SUCCESS"), JSON_FORCE_OBJECT);
-
     }
 }
