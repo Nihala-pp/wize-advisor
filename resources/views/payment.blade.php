@@ -170,7 +170,6 @@
                 var transaction = orderData.purchase_units[0].payments.captures[0];
                 window.location.href = "{{ route('success', $call_id) }}";
             });
-
         },
         onCancel: function(data) {
             console.log("oncancel data", data);
