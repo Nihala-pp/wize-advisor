@@ -456,7 +456,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       }
     }
 
-    return view('success', compact('details', 'mentor'));
+    // return view('success', compact('details', 'mentor'));
   }
 
   public function sendScheduleRequestMail($details)
