@@ -382,8 +382,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function success(Request $request)
   {
-    // $call_id = $request->call_id;
-    dd($request->call_id);
+    $call_id = $request->call_id;
 
     try {
 
