@@ -101,6 +101,8 @@
 
         // Finalize the transaction
         onApprove: function(data, actions) {
+            let amount = $("#price").val();
+            let call_id = $("#call_id").val();
             console.log("on approve", data);
             return fetch('/payment/paypal/capture/{{ $order_no }}', {
                 method: 'post',
@@ -165,7 +167,7 @@
                 else {
                     console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
                     var transaction = orderData.purchase_units[0].payments.captures[0];
-                $.ajax({
+                    $.ajax({
                         type: "POST",
                         url: '{{ route("success") }}',
                         headers: {
