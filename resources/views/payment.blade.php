@@ -113,7 +113,7 @@
             }).then(function(res) {
                 return res.json();
             }).then(function(orderData) {
-                
+
                 // Three cases to handle:
                 //   (1) Recoverable INSTRUMENT_DECLINED -> call actions.restart()
                 //   (2) Other non-recoverable errors -> Show a failure message
@@ -139,11 +139,7 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {
-                                {
-                                    $order_no
-                                }
-                            },
+                            "order_no": {{ $order_no }},
                             "call_id": call_id,
                         },
                         success: function(response) {
