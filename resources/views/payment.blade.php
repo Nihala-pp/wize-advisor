@@ -168,7 +168,7 @@
 
                   console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
                   var transaction = orderData.purchase_units[0].payments.captures[0];
-                  window.location.href = "{{ URL('success') }}" + "/" + call_id;
+                  window.location.href = "{{ route('success', $call_id) }}";
 
                 // else {
                 //     console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
