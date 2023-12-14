@@ -86,7 +86,7 @@ Route::post('token', [HomeController::class, 'token'])->name('token');
 Route::any('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest')->middleware('auth');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');
 Route::get('getDateAvailability', [HomeController::class, 'getDateAvailability'])->name('getDateAvailability');
-Route::post('success', [HomeController::class, 'success'])->name('success');
+Route::put('success/{id}', [HomeController::class, 'success'])->name('success');
 Route::get('terms-conditions', [HomeController::class, 'termsConditions'])->name('termsConditions');
 Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('community-guidelines', [HomeController::class, 'communityGuidelines'])->name('community-guidelines');

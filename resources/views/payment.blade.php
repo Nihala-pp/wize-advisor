@@ -162,26 +162,30 @@
                     console.log(msg);
                     return; // Show a failure message (try to avoid alerts in production environments)
                 }
+
+                console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                  var transaction = orderData.purchase_units[0].payments.captures[0];
+                  window.location.href = "{{ URL('success') }}" + "/" + call_id;
                 // Successful capture! For demo purposes:
-                else {
-                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                    var transaction = orderData.purchase_units[0].payments.captures[0];
-                      return $.ajax({
-                        type: "POST",
-                        url: '{{ route("success") }}',
-                        headers: {
-                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                        },
-                        data: {
-                            "order_no": {{ $order_no }},
-                            "call_id": call_id,
-                            "transaction": transaction
-                        },
-                        success: function(response) {
-                            $('.payment-page').html(response);
-                        }
-                      });
-                }
+                // else {
+                //     console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                //     var transaction = orderData.purchase_units[0].payments.captures[0];
+                //       return $.ajax({
+                //         type: "POST",
+                //         url: '{{ route("success") }}',
+                //         headers: {
+                //             'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                //         },
+                //         data: {
+                //             "order_no": {{ $order_no }},
+                //             "call_id": call_id,
+                //             "transaction": transaction
+                //         },
+                //         success: function(response) {
+                //             $('.payment-page').html(response);
+                //         }
+                //       });
+                // }
             });
         },
         onCancel: function(data) {

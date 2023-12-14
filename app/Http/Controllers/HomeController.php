@@ -380,9 +380,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     return response()->json($time);
   }
 
-  public function success(Request $request)
+  public function success($call_id)
   {
-    $call_id = $request->call_id;
+    // $call_id = $request->call_id;
 
     try {
 
