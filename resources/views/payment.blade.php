@@ -144,11 +144,7 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {
-                                {
-                                    $order_no
-                                }
-                            },
+                            "order_no": {{ $order_no }},
                             "call_id": call_id,
                         },
                         success: function(response) {
