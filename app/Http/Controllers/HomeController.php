@@ -401,15 +401,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first();
 
-      $schedule->update([
-        'is_booked' => 1,
-        'call_id' => $call->id
-      ]);
-
-      $call->update([
-        'is_paid' => 1
-      ]);
-
       $mentor = User::find($call->mentor_id);
       $user = User::find($call->user_id);
 
