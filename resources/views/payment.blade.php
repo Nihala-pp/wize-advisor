@@ -133,7 +133,7 @@
                 if (errorDetail) {
                     var msg = 'Sorry, your transaction could not be processed.';
                     if (errorDetail.description) msg += '\n\n' + errorDetail.description;
-                    if (orderData.debug_id) msg += ' (' + orderData.debug_id + ')';
+                    if (orderData.debug_id) msg += '(' + orderData.debug_id + ')';
                     $.ajax({
                         type: "POST",
                         url: '{{ route("order.cancel") }}',
@@ -167,7 +167,7 @@
                 else {
                     console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
                     var transaction = orderData.purchase_units[0].payments.captures[0];
-                    $.ajax({
+                      return $.ajax({
                         type: "POST",
                         url: '{{ route("success") }}',
                         headers: {
@@ -181,10 +181,8 @@
                         success: function(response) {
                             $('.payment-page').html(response);
                         }
-                    });
+                      });
                 }
-                
-                // window.location.href = "{{ route('success', $call_id) }}";
             });
         },
         onCancel: function(data) {
