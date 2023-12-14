@@ -162,7 +162,6 @@
                     console.log(msg);
                     return; // Show a failure message (try to avoid alerts in production environments)
                 }
-
                 // Successful capture! For demo purposes:
                 else {
                     console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
@@ -187,7 +186,7 @@
         },
         onCancel: function(data) {
             console.log("oncancel data", data);
-            fetch('/cancel/{{$order_no}}', {
+            fetch('/cancel/{{ $order_no }}', {
                 method: 'post',
                 headers: {
                     'Accept': 'application/json',
