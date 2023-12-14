@@ -15,7 +15,7 @@ use App\Http\Controllers\Auth\GoogleSocialiteController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\weeklySlotUpdateController;
 use App\Http\Controllers\CompletedCallsMailController;
-use App\Http\Controllers\paymentcontroller;
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\Events\PasswordReset;
 
