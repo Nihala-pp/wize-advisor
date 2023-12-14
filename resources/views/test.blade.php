@@ -57,3 +57,30 @@ $url = "https://zoom.us/oauth/authorize?response_type=code&client_id="$client_id
         });
     });
 </script> -->
+
+
+if(gettype($_capture_response['purchase_units'][0]['payments']['captures']['status'] == "COMPLETED")) {
+    $call = ScheduledCall::find($request->call_id);
+
+    $mentor_timezone = AvailableSchedule::where('mentor_id', $call->mentor_id)->where('date', Carbon::parse($call->date)->format('Y-m-d'))->first();
+
+    $user_timezone = new \DateTime($call->date . ' ' . $call->start_time, new \DateTimeZone($call->utc));
+
+    $user_timezone->setTimezone(new \DateTimeZone($mentor_timezone->time_zone));
+
+    $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($call->duration);
+
+    $schedule = AvailableSchedule::where('mentor_id', $call->mentor_id)
+      ->where('date', Carbon::parse($call->date)->format('Y-m-d'))
+      ->where('start_time', $user_timezone->format('H:i:s'))
+      ->first();
+
+    $schedule->update([
+      'is_booked' => 1,
+      'call_id' => $call->id
+    ]);
+
+    $call->update([
+      'is_paid' => 1
+    ]);
+}
