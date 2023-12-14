@@ -382,7 +382,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function success(Request $request)
   {
-    dd($request->all());
+    $call_id = $request->call_id;
+    dd($call_id);
+
     try {
 
       $call = ScheduledCall::find($call_id);

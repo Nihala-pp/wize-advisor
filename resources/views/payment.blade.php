@@ -69,7 +69,7 @@
             let amount = $("#price").val();
             let call_id = $("#call_id").val();
             let dataBody = {
-                'order_no': '{{$order_no}}',
+                'order_no': '{{ $order_no }}',
                 'amount': amount,
                 'call_id': call_id
             }
@@ -83,12 +83,10 @@
                     'X-CSRF-TOKEN': '{{ csrf_token() }}'
                 },
                 body: JSON.stringify({
-
-                    'order_no': '{{$order_no}}',
+                    'order_no': '{{ $order_no }}',
                     'amount': amount,
                     'call_id': call_id
                 })
-
             }).then(function(res) {
                 console.log("response ", res);
                 return res.json();
@@ -98,15 +96,13 @@
             }).catch(function(err) {
                 console.error("error in create transaction ", err);
             });
-
         },
 
 
         // Finalize the transaction
         onApprove: function(data, actions) {
-
             console.log("on approve", data);
-            return fetch('/payment/paypal/capture/{{$order_no}}', {
+            return fetch('/payment/paypal/capture/{{ $order_no }}', {
                 method: 'post',
                 headers: {
                     'Accept': 'application/json',
@@ -117,7 +113,7 @@
             }).then(function(res) {
                 return res.json();
             }).then(function(orderData) {
-
+                
                 // Three cases to handle:
                 //   (1) Recoverable INSTRUMENT_DECLINED -> call actions.restart()
                 //   (2) Other non-recoverable errors -> Show a failure message
@@ -143,7 +139,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                         },
                         success: function(response) {
