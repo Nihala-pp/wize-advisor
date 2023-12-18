@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AvailableSchedule;
+use App\Models\ScheduledCall;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Input;
 use PayPalCheckoutSdk\Core\PayPalHttpClient;
@@ -21,8 +24,8 @@ use DB;
 
 class PaymentController extends Controller
 {
-    // private $_token_response;
-    // private $_paypalApiUrl;
+    private $_token_response;
+    private $_paypalApiUrl;
     
     /**
      * Create a new controller instance.
@@ -59,11 +62,10 @@ class PaymentController extends Controller
 
     public function payWithpaypal(Request $request)
     {
-        $paypal_conf = \Config::get('paypal');
-        $paypalApiUrl = $paypal_conf['sandbox']['api_url'];
-        $input = $request->all();
-        $order_no = $input['order_no'];
-        $amount = $input['amount'];
+        $paypal_config = Config::get('paypal');
+        $paypalApiUrl = "https://api-m.sandbox.paypal.com/";
+        $order_no = $request->order_no;
+        $amount = $request->amount;
         $ch = curl_init($this->_paypalApiUrl . "v2/checkout/orders");
         curl_setopt($ch, CURLOPT_POST, 1);
         $headers = array(
@@ -78,7 +80,7 @@ class PaymentController extends Controller
             "purchase_units": [
               {
                 "amount": {
-                  "currency_code": "' . $paypal_conf['currency_type'] . '",
+                  "currency_code": "' . $paypal_config['currency'] . '",
                   "value": "' . $amount . '"
                 }
               }
@@ -92,11 +94,11 @@ class PaymentController extends Controller
 
     public function getPaymentStatus(Request $request)
     {
-
-        $input = $request->all();
-        $payerId = $request->payerID;
-        $paypalOrderId = $request->orderID;
-        $facilitorAccessToken = $request->facilitatorAccessToken;
+        dd($request->all());
+        $data = $request->data;
+        $payerId = $data['payerID'];
+        $paypalOrderId = $data['orderID'];
+        $facilitorAccessToken = $data['facilitatorAccessToken'];
         log::info('facilitorAccessToken is' . $facilitorAccessToken);
         $ch = curl_init($this->_paypalApiUrl . "v2/checkout/orders/" . $paypalOrderId . "/capture");
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -112,11 +114,12 @@ class PaymentController extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $_capture_response = json_decode(curl_exec($ch), true, 512);
         $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+        
         Log::info($_capture_response);
 
         Log::info($paypalOrderId);
         Log::info('order capture data : ' . $status . 'for' . $facilitorAccessToken . 'response' . gettype($_capture_response['purchase_units'][0]['payments']['captures']));
-
 
         return response()->json($_capture_response);
     }
