@@ -260,7 +260,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       ->orderBy('date', 'asc')
       ->first();
 
-    $client_id = env('PAYPAL_SANDBOX_CLIENT');
+    $client_id = env('PAYPAL_LIVE_CLIENT');
 
     // $user = User::find($email);
 
