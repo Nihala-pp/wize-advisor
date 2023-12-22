@@ -24,7 +24,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\/http:\/\/localhost\/wize-advisor\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.2"
+            "concatemoji": "\/https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.2"
         }
     };
     /*! This file is auto-generated */
@@ -1081,7 +1081,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
@@ -3356,7 +3356,7 @@
             "e_global_styleguide": true
         },
         "urls": {
-            "assets": "\/http:\/\/localhost\/wize-advisor\/wp-content\/plugins\/elementor\/assets\/"
+            "assets": "\/https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
         "swiperClass": "swiper",
         "settings": {
@@ -3403,15 +3403,15 @@
         id="qi-addons-for-elementor-elementor-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
-        "ajaxurl": "\/http:\/\/localhost\/wize-advisor\/wp-admin\/admin-ajax.php",
-        "resturl": "\/http:\/\/localhost\/wize-advisor\/wp-json\/wpraddons\/v1",
+        "ajaxurl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
+        "resturl": "\/https:\/\/wiseadvizor.com\/wp-json\/wpraddons\/v1",
         "nonce": "35aa2052d6",
         "addedToCartText": "was added to cart",
         "viewCart": "View Cart",
         "comparePageID": "",
-        "comparePageURL": "\/http:\/\/localhost\/wize-advisor\/profile\/",
+        "comparePageURL": "\/https:\/\/wiseadvizor.com\/profile\/",
         "wishlistPageID": "",
-        "wishlistPageURL": "\/http:\/\/localhost\/wize-advisor\/profile\/",
+        "wishlistPageURL": "\/https:\/\/wiseadvizor.com\/profile\/",
         "chooseQuantityText": "Please select the required number of items.",
         "site_key": "",
         "is_admin": "",
