@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/">
+        href="https://wiseadvizor.com/comments/feed/">+
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1350,11 +1350,13 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
@@ -1367,19 +1369,23 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
+                                                                Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a></li>
+                                                                class="hfe-sub-menu-item">Libraries</a>
+                                                        </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1463,11 +1469,13 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                        class="hfe-menu-item">About Us</a></li>
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                        class="hfe-menu-item">Contact Us</a></li>
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
@@ -1480,19 +1488,23 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
+                                                                Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a></li>
+                                                                class="hfe-sub-menu-item">Libraries</a>
+                                                        </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a></li>
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -1548,17 +1560,17 @@
         </div>
     </header>
 
-    <div data-elementor-type="wp-page" data-elementor-id="2372" class="elementor elementor-2372">
+    <div data-elementor-type="wp-page" data-elementor-id="4878" class="elementor elementor-4878">
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-28463b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="28463b6" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="xjpohp1" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-11a0c5d"
-                    data-id="11a0c5d" data-element_type="column">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
+                    data-id="b1f32fb" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6037f0b elementor-widget elementor-widget-heading"
-                            data-id="6037f0b" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
+                            data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <style>
                                 /*! elementor - v3.18.0 - 20-12-2023 */
@@ -1594,17 +1606,19 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h3 class="elementor-heading-title elementor-size-default">Hi! I am Soha El Baklawy</h3>
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    Hi! I am Soha El Baklawy</h3>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-d04fbd4 elementor-widget elementor-widget-heading"
-                            data-id="d04fbd4" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
+                            data-id="b0cfee1" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default">Founder, BusinessETA</h6>
+                                <h6 class="elementor-heading-title elementor-size-default">
+                                    Founder, BusinessETA</h6>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-9c1c7e5 elementor-widget elementor-widget-text-editor"
-                            data-id="9c1c7e5" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                            data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <style>
                                 /*! elementor - v3.18.0 - 20-12-2023 */
@@ -1639,72 +1653,74 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>I am an entrepreneur and a mentor, dedicated to empowering startups and driving
-                                    impactful social change globally. As an entrepreneur and the visionary behind
-                                    Businessita, I often faced decision fatigue during my journey. This inspiration led
-                                    me to mentorship, aspiring to simplify choices for fellow entrepreneurs on their
+                                <p>I am an entrepreneur and a mentor, dedicated to
+                                    empowering startups and driving impactful social change
+                                    globally. As an entrepreneur and the visionary behind
+                                    Businessita, I often faced decision fatigue during my
+                                    journey. This inspiration led me to mentorship, aspiring
+                                    to simplify choices for fellow entrepreneurs on their
                                     journey.</p>
                             </div>
                         </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-3865f4e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="3865f4e" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-aae4654 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="aae4654" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-cf7fbcd"
-                                    data-id="cf7fbcd" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1a38400"
+                                    data-id="1a38400" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-3a2f919 elementor-widget elementor-widget-heading"
-                                            data-id="3a2f919" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-9cb279c elementor-widget elementor-widget-heading"
+                                            data-id="9cb279c" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default"><b>Languages
-                                                    </b><br><br> English, Arabic</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    <b>Languages </b><br><br> English,
+                                                    Arabic
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-662ed92"
-                                    data-id="662ed92" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2d4485e"
+                                    data-id="2d4485e" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-4215f83 elementor-widget elementor-widget-heading"
-                                            data-id="4215f83" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-0b592cc elementor-widget elementor-widget-heading"
+                                            data-id="0b592cc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default"><b>Time
-                                                        Available <br></b><br> 30 Minutes</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    <b>Time Available <br></b><br> 30
+                                                    Minutes
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-ffd9d9b"
-                                    data-id="ffd9d9b" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a778da0"
+                                    data-id="a778da0" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-d7c124d elementor-widget elementor-widget-heading"
-                                            data-id="d7c124d" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-4971126 elementor-widget elementor-widget-heading"
+                                            data-id="4971126" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default"><b>Next
-                                                        Availability <br></b><br> 14th Dec, 2023</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    <b>Next Availability <br></b><br> 14th
+                                                    Dec, 2023
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <div class="elementor-element elementor-element-101d2a7 elementor-widget elementor-widget-heading"
-                            data-id="101d2a7" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h5 class="elementor-heading-title elementor-size-default"><span
-                                        style="font-weight: normal;">$ 12.5/30 Min</span></h5>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-55e0c32 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
-                            data-id="55e0c32" data-element_type="widget" data-widget_type="button.default">
+                        <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Schedule Call</span>
+                                            <span class="elementor-button-text">Schedule
+                                                Call</span>
                                         </span>
                                     </a>
                                 </div>
@@ -1712,22 +1728,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f5af916"
-                    data-id="f5af916" data-element_type="column"
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48e4c8f"
+                    data-id="48e4c8f" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-0533934 elementor-widget elementor-widget-image"
-                            data-id="0533934" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-element elementor-element-c11a030 elementor-widget elementor-widget-image"
+                            data-id="c11a030" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="241" height="300"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2023/12/Soha-pic-1-241x300.png"
-                                    class="attachment-medium size-medium wp-image-4719" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2023/12/Soha-pic-1-241x300.png 241w, https://wiseadvizor.com/wp-content/uploads/2023/12/Soha-pic-1.png 722w"
-                                    sizes="(max-width: 241px) 100vw, 241px">
+                                <style>
+                                /*! elementor - v3.18.0 - 20-12-2023 */
+                                .elementor-widget-image {
+                                    text-align: center
+                                }
+
+                                .elementor-widget-image a {
+                                    display: inline-block
+                                }
+
+                                .elementor-widget-image a img[src$=".svg"] {
+                                    width: 48px
+                                }
+
+                                .elementor-widget-image img {
+                                    vertical-align: middle;
+                                    display: inline-block
+                                }
+                                </style> <img fetchpriority="high" decoding="async" width="241" height="300"
+                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                    class="attachment-medium size-medium wp-image-4926" alt=""
+                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
+                                    sizes="(max-width: 241px) 100vw, 241px" />
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-b6ef1a8 elementor-widget elementor-widget-rating"
-                            data-id="b6ef1a8" data-element_type="widget" data-widget_type="rating.default">
+                        <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
+                            data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h5 class="elementor-heading-title elementor-size-default">
+                                    <span style="font-weight: normal;">$ 12.5/30 Min</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-cf9a819 elementor-widget elementor-widget-rating"
+                            data-id="cf9a819" data-element_type="widget" data-widget_type="rating.default">
                             <div class="elementor-widget-container">
                                 <style>
                                 /*! elementor - v3.18.0 - 20-12-2023 */
@@ -1791,7 +1833,7 @@
                                 </style>
                                 <div class="e-rating" itemtype="https://schema.org/Rating" itemscope=""
                                     itemprop="reviewRating">
-                                    <meta itemprop="worstRating">
+                                    <meta itemprop="worstRating" content="0">
                                     <meta itemprop="bestRating" content="5">
                                     <div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img"
                                         aria-label="Rated 5 out of 5">
@@ -1839,14 +1881,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-5ef203d elementor-widget elementor-widget-heading"
-                            data-id="5ef203d" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
+                            data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">20 Reviews / 50 Sessions</p>
+                                <p class="elementor-heading-title elementor-size-default">20
+                                    Reviews / 50 Sessions</p>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-1f658de elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
-                            data-id="1f658de" data-element_type="widget" data-widget_type="social-icons.default">
+                        <div class="elementor-element elementor-element-144014d elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                            data-id="144014d" data-element_type="widget" data-widget_type="social-icons.default">
                             <div class="elementor-widget-container">
                                 <style>
                                 /*! elementor - v3.18.0 - 20-12-2023 */
@@ -2162,22 +2205,23 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-fea112e elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="fea112e" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-p7f37ge elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="p7f37ge" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-393a60c"
-                    data-id="393a60c" data-element_type="column"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0103c1e"
+                    data-id="0103c1e" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-a86fb2d elementor-widget elementor-widget-heading"
-                            data-id="a86fb2d" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-dcbce22 elementor-widget elementor-widget-heading"
+                            data-id="dcbce22" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">About Me</h3>
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    About Me</h3>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-91f3b40 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                            data-id="91f3b40" data-element_type="widget" data-widget_type="divider.default">
+                        <div class="elementor-element elementor-element-07446d7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="07446d7" data-element_type="widget" data-widget_type="divider.default">
                             <div class="elementor-widget-container">
                                 <style>
                                 /*! elementor - v3.18.0 - 20-12-2023 */
@@ -2307,37 +2351,46 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-2c05ec2 elementor-widget elementor-widget-text-editor"
-                            data-id="2c05ec2" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-element elementor-element-6b6a93e elementor-widget elementor-widget-text-editor"
+                            data-id="6b6a93e" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>A dynamic individual with over 22 years of professional experience. Armed with a
-                                    Cardiff master’s in business Strategies and a Doctorate in Entrepreneurship
-                                    specializing in Women in Social Entrepreneurship, she is passionate about driving
-                                    meaningful change.</p>
+                                <p>A dynamic individual with over 22 years of professional
+                                    experience. Armed with a Cardiff master’s in business
+                                    Strategies and a Doctorate in Entrepreneurship
+                                    specializing in Women in Social Entrepreneurship, she is
+                                    passionate about driving meaningful change.</p>
                                 <p><span
                                         style="font-style: inherit; font-weight: inherit; background-color: var( --e-global-color-astglobalcolor5 ); color: var(--ast-global-color-3);">Soha
-                                        is the founder of Businessita, a startup venture where she practices what she
-                                        preaches in the entrepreneurial ecosystem. Believing in the power of diversity,
-                                        she empowers women to excel in the workplace, leveraging their unique
-                                        strengths.</span></p>
-                                <p>Her notable achievement includes the development of the &#8220;Social Business
-                                    Canvas,&#8221; seamlessly integrating Sustainable Development Goals into everyday
-                                    business processes. This innovative approach simplifies social impact measurement,
-                                    freeing social entrepreneurs to focus on their mission independently.</p>
-                                <p><span style="font-style: inherit; font-weight: inherit;">Soha is internationally
-                                        recognized, having received multiple awards and being honored as one of the top
-                                        50 influential women in her field. As a mentor, trainer, and strategy &amp;
-                                        startup advisor, she brings a wealth of experience and accolades to inspire and
-                                        empower individuals and</span> organizations.</p>
+                                        is the founder of Businessita, a startup venture
+                                        where she practices what she preaches in the
+                                        entrepreneurial ecosystem. Believing in the power of
+                                        diversity, she empowers women to excel in the
+                                        workplace, leveraging their unique strengths.</span>
+                                </p>
+                                <p>Her notable achievement includes the development of the
+                                    &#8220;Social Business Canvas,&#8221; seamlessly
+                                    integrating Sustainable Development Goals into everyday
+                                    business processes. This innovative approach simplifies
+                                    social impact measurement, freeing social entrepreneurs
+                                    to focus on their mission independently.</p>
+                                <p><span style="font-style: inherit; font-weight: inherit;">Soha
+                                        is internationally recognized, having received
+                                        multiple awards and being honored as one of the top
+                                        50 influential women in her field. As a mentor,
+                                        trainer, and strategy &amp; startup advisor, she
+                                        brings a wealth of experience and accolades to
+                                        inspire and empower individuals and</span>
+                                    organizations.</p>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-daf8a6c elementor-align-left elementor-widget elementor-widget-button"
-                            data-id="daf8a6c" data-element_type="widget" data-widget_type="button.default">
+                        <div class="elementor-element elementor-element-dbbf342 elementor-align-left elementor-widget elementor-widget-button"
+                            data-id="dbbf342" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-xs" href="#">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Schedule Call</span>
+                                            <span class="elementor-button-text">Schedule
+                                                Call</span>
                                         </span>
                                     </a>
                                 </div>
@@ -2348,22 +2401,22 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-25c91f1 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="25c91f1" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-090b83a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="090b83a" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-background-overlay"></div>
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-54e2969"
-                    data-id="54e2969" data-element_type="column">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5d13830"
+                    data-id="5d13830" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-969681c elementor-widget elementor-widget-heading"
-                            data-id="969681c" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-116c85f elementor-widget elementor-widget-heading"
+                            data-id="116c85f" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Expertise</h3>
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    Achievements</h3>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-9dbe5ab elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                            data-id="9dbe5ab" data-element_type="widget" data-widget_type="divider.default">
+                        <div class="elementor-element elementor-element-f641fa2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="f641fa2" data-element_type="widget" data-widget_type="divider.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2371,15 +2424,61 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-a11b795 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                            data-id="a11b795" data-element_type="widget" data-widget_type="icon-box.default">
+                        <div class="elementor-element elementor-element-873ef0b elementor-widget elementor-widget-text-editor"
+                            data-id="873ef0b" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <ul>
+                                    <li>Delivered 420+ consultation hour</li>
+                                    <li>Delivered 600+ mentorship hours</li>
+                                    <li>4 talks (Nationally and Internationally)</li>
+                                    <li>23+ features (Nationally and Internationally)</li>
+                                    <li>4+ jury (Nationally and internationally)</li>
+                                    <li>Mentored 150+ Entrepreneur (Nationally and
+                                        Internationally)</li>
+                                    <li>Delivered 6+ Corporate Strategy and development
+                                        consultations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-79woq2o elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="79woq2o" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fadab0a"
+                    data-id="fadab0a" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-94a07f3 elementor-widget elementor-widget-heading"
+                            data-id="94a07f3" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    Expertise</h3>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-cdd8d8d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="cdd8d8d" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-422d6d7 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            data-id="422d6d7" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                                    href="https://ivygroupco.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                 <div class="elementor-icon-box-wrapper">
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
-                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
+                                            <i aria-hidden="true" class="fas fa-star"></i>
+                                        </span>
                                     </div>
                                     <div class="elementor-icon-box-content">
                                         <h5 class="elementor-icon-box-title">
@@ -2387,22 +2486,25 @@
                                                 BRAND STRATEGY </span>
                                         </h5>
                                         <p class="elementor-icon-box-description">
-                                            Extensive experience in developing brand strategies for diverse industries.
-                                            Ability to define brand positioning, messaging, and target audience.
-                                            Skillful in creating cohesive brand identities and visual representations.
-                                            Expertise in building brand awareness and differentiation in the market.
-                                        </p>
+                                            Extensive experience in developing brand
+                                            strategies for diverse industries. Ability to
+                                            define brand positioning, messaging, and target
+                                            audience. Skillful in creating cohesive brand
+                                            identities and visual representations. Expertise
+                                            in building brand awareness and differentiation
+                                            in the market. </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-f2d13d9 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                            data-id="f2d13d9" data-element_type="widget" data-widget_type="icon-box.default">
+                        <div class="elementor-element elementor-element-63b7f67 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            data-id="63b7f67" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-box-wrapper">
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
-                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
+                                            <i aria-hidden="true" class="fas fa-star"></i>
+                                        </span>
                                     </div>
                                     <div class="elementor-icon-box-content">
                                         <h5 class="elementor-icon-box-title">
@@ -2410,22 +2512,26 @@
                                                 WOMEN ENTREPRENEURSHIP </span>
                                         </h5>
                                         <p class="elementor-icon-box-description">
-                                            Deep understanding of the challenges and opportunities faced by women
-                                            entrepreneurs. Ability to provide mentorship and guidance to empower women
-                                            in business. Experience in developing strategies to leverage women's
-                                            strengths and traits in the workplace. Advocate for diversity and inclusion
-                                            in entrepreneurship. </p>
+                                            Deep understanding of the challenges and
+                                            opportunities faced by women entrepreneurs.
+                                            Ability to provide mentorship and guidance to
+                                            empower women in business. Experience in
+                                            developing strategies to leverage women's
+                                            strengths and traits in the workplace. Advocate
+                                            for diversity and inclusion in entrepreneurship.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-ee16697 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                            data-id="ee16697" data-element_type="widget" data-widget_type="icon-box.default">
+                        <div class="elementor-element elementor-element-e02dfe8 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            data-id="e02dfe8" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-box-wrapper">
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
-                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
+                                            <i aria-hidden="true" class="fas fa-star"></i>
+                                        </span>
                                     </div>
                                     <div class="elementor-icon-box-content">
                                         <h5 class="elementor-icon-box-title">
@@ -2433,11 +2539,14 @@
                                                 Growth Marketing </span>
                                         </h5>
                                         <p class="elementor-icon-box-description">
-                                            Proficient in designing and implementing growth strategies for startups and
-                                            businesses. Skilful in identifying market opportunities and developing
-                                            expansion plans. Experience in scaling operations, entering new markets, and
-                                            launching new products. Ability to analyse market trends and customer
-                                            insights to drive growth. </p>
+                                            Proficient in designing and implementing growth
+                                            strategies for startups and businesses. Skilful
+                                            in identifying market opportunities and
+                                            developing expansion plans. Experience in
+                                            scaling operations, entering new markets, and
+                                            launching new products. Ability to analyse
+                                            market trends and customer insights to drive
+                                            growth. </p>
                                     </div>
                                 </div>
                             </div>
@@ -2447,49 +2556,58 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-7ysff7o elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="7ysff7o" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/m.youtube.com\/watch?feature=youtu.be&amp;v=m9-QSnatRGo&quot;}">
-            <div class="elementor-background-video-container elementor-hidden-phone">
-                <div class="elementor-background-video-embed"></div>
-            </div>
+            class="elementor-section elementor-top-section elementor-element elementor-element-sd3ef48 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="sd3ef48" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-no">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-828c28c"
                     data-id="828c28c" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-86b94c8 elementor-view-default elementor-widget elementor-widget-icon"
+                            data-id="86b94c8" data-element_type="widget" data-widget_type="icon.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-icon-wrapper">
+                                    <a class="elementor-icon" href="#">
+                                        <i aria-hidden="true" class="far fa-play-circle"></i> </a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="elementor-element elementor-element-f14c791 elementor-widget elementor-widget-heading"
                             data-id="f14c791" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Working Process</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">
+                                    Working Process</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-c626176 elementor-widget elementor-widget-text-editor"
                             data-id="c626176" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,<br> luctus nec
-                                ullamcorper mattis, pulvinar dapibus leo. </div>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                elit tellus,<br> luctus nec ullamcorper mattis, pulvinar
+                                dapibus leo. </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-f2cb3d7 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="f2cb3d7" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-4yln1aq elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="4yln1aq" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ead87ca"
-                    data-id="ead87ca" data-element_type="column">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a72efbb"
+                    data-id="a72efbb" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-b49d1b5 elementor-widget elementor-widget-heading"
-                            data-id="b49d1b5" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-a7cb679 elementor-widget elementor-widget-heading"
+                            data-id="a7cb679" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">Work Experience</h3>
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    Work Experience</h3>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-baa6e5c elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                            data-id="baa6e5c" data-element_type="widget" data-widget_type="divider.default">
+                        <div class="elementor-element elementor-element-12b61d0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="12b61d0" data-element_type="widget" data-widget_type="divider.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2498,48 +2616,51 @@
                             </div>
                         </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-30a6b67 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="30a6b67" data-element_type="section"
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-9905fba elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="9905fba" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div class="elementor-background-overlay"></div>
                             <div class="elementor-container elementor-column-gap-no">
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-de184ca"
-                                    data-id="de184ca" data-element_type="column"
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8a50591"
+                                    data-id="8a50591" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-a4a9fe9 elementor-widget elementor-widget-heading"
-                                            data-id="a4a9fe9" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-3f8ebce elementor-widget elementor-widget-heading"
+                                            data-id="3f8ebce" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-medium">Chapter
                                                     Director</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-17fe0ad elementor-widget elementor-widget-heading"
-                                            data-id="17fe0ad" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-3af0bab elementor-widget elementor-widget-heading"
+                                            data-id="3af0bab" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Nov, 2022
-                                                    to Present</span>
+                                                <span class="elementor-heading-title elementor-size-default">Nov,
+                                                    2022 to Present</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-a2e5a22 elementor-widget elementor-widget-text-editor"
-                                            data-id="a2e5a22" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-5c6f3ea elementor-widget elementor-widget-text-editor"
+                                            data-id="5c6f3ea" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    <li>Building a network of events both online and offline.</li>
-                                                    <li>Creating a team of dedicated volunteers to launch and operate
-                                                        the chapter.</li>
-                                                    <li>Empowering startups through knowledge, tools, and fostering
-                                                        collaborative growth in a vibrant entrepreneurial community.
-                                                    </li>
+                                                    <li>Building a network of events both
+                                                        online and offline.</li>
+                                                    <li>Creating a team of dedicated
+                                                        volunteers to launch and operate the
+                                                        chapter.</li>
+                                                    <li>Empowering startups through
+                                                        knowledge, tools, and fostering
+                                                        collaborative growth in a vibrant
+                                                        entrepreneurial community.</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-04525b6 elementor-widget elementor-widget-progress"
-                                            data-id="04525b6" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-7c40f05 elementor-widget elementor-widget-progress"
+                                            data-id="7c40f05" data-element_type="widget"
                                             data-widget_type="progress.default">
                                             <div class="elementor-widget-container">
                                                 <style>
@@ -2614,50 +2735,53 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"
                                                     aria-valuetext="75% (Startup Grind New Cairo)">
                                                     <div class="elementor-progress-bar" data-max="75">
-                                                        <span class="elementor-progress-text">Startup Grind New
-                                                            Cairo</span>
+                                                        <span class="elementor-progress-text">Startup
+                                                            Grind New Cairo</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0535414"
-                                    data-id="0535414" data-element_type="column"
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-94b9e38"
+                                    data-id="94b9e38" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-8562550 elementor-widget elementor-widget-heading"
-                                            data-id="8562550" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-66e6ed3 elementor-widget elementor-widget-heading"
+                                            data-id="66e6ed3" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-medium">The
                                                     International Alliance for Women</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-2c216b5 elementor-widget elementor-widget-heading"
-                                            data-id="2c216b5" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-0a1114b elementor-widget elementor-widget-heading"
+                                            data-id="0a1114b" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Oct, 2019
-                                                    to Present</span>
+                                                <span class="elementor-heading-title elementor-size-default">Oct,
+                                                    2019 to Present</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-6bbe498 elementor-widget elementor-widget-text-editor"
-                                            data-id="6bbe498" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-f7169d6 elementor-widget elementor-widget-text-editor"
+                                            data-id="f7169d6" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    <li>Media board member &amp; VP overseeing rebranding initiatives.
+                                                    <li>Media board member &amp; VP
+                                                        overseeing rebranding initiatives.
                                                     </li>
-                                                    <li>Crafting effective marketing strategies, planning, and executing
+                                                    <li>Crafting effective marketing
+                                                        strategies, planning, and executing
                                                         online campaigns.</li>
-                                                    <li>Collaborating across teams, leveraging digital platforms for
+                                                    <li>Collaborating across teams,
+                                                        leveraging digital platforms for
                                                         maximum campaign impact.</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-6581d64 elementor-widget elementor-widget-progress"
-                                            data-id="6581d64" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-9269254 elementor-widget elementor-widget-progress"
+                                            data-id="9269254" data-element_type="widget"
                                             data-widget_type="progress.default">
                                             <div class="elementor-widget-container">
 
@@ -2665,7 +2789,8 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="83"
                                                     aria-valuetext="83% (Board Member and VP)">
                                                     <div class="elementor-progress-bar" data-max="83">
-                                                        <span class="elementor-progress-text">Board Member and VP</span>
+                                                        <span class="elementor-progress-text">Board
+                                                            Member and VP</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2675,45 +2800,49 @@
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-fd44e7e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="fd44e7e" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-ed09546 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="ed09546" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no">
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cb4676a"
-                                    data-id="cb4676a" data-element_type="column"
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-651f958"
+                                    data-id="651f958" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-1516ac4 elementor-widget elementor-widget-heading"
-                                            data-id="1516ac4" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-7bebc4a elementor-widget elementor-widget-heading"
+                                            data-id="7bebc4a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-medium">Businessita
                                                     WE</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-cc3f3e2 elementor-widget elementor-widget-heading"
-                                            data-id="cc3f3e2" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-c95ee9d elementor-widget elementor-widget-heading"
+                                            data-id="c95ee9d" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Jan, 2018
-                                                    To Present</span>
+                                                <span class="elementor-heading-title elementor-size-default">Jan,
+                                                    2018 To Present</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-5ab22d5 elementor-widget elementor-widget-text-editor"
-                                            data-id="5ab22d5" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-37316f5 elementor-widget elementor-widget-text-editor"
+                                            data-id="37316f5" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    <li>Conduct thorough market research to understand audience,
-                                                        competitors, and trends.</li>
-                                                    <li>Establish legal compliance, structure, and internal protocols
+                                                    <li>Conduct thorough market research to
+                                                        understand audience, competitors,
+                                                        and trends.</li>
+                                                    <li>Establish legal compliance,
+                                                        structure, and internal protocols
                                                         for operations and finance.</li>
-                                                    <li>Promote women empowerment through innovative services, community
-                                                        building, and global market expansion.</li>
+                                                    <li>Promote women empowerment through
+                                                        innovative services, community
+                                                        building, and global market
+                                                        expansion.</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-00ab90e elementor-widget elementor-widget-progress"
-                                            data-id="00ab90e" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-430d076 elementor-widget elementor-widget-progress"
+                                            data-id="430d076" data-element_type="widget"
                                             data-widget_type="progress.default">
                                             <div class="elementor-widget-container">
 
@@ -2728,42 +2857,46 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0d6b64a"
-                                    data-id="0d6b64a" data-element_type="column"
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2108a2a"
+                                    data-id="2108a2a" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-0ce1380 elementor-widget elementor-widget-heading"
-                                            data-id="0ce1380" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-659e598 elementor-widget elementor-widget-heading"
+                                            data-id="659e598" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-medium">Healthy life
-                                                    Int. Company</span>
+                                                <span class="elementor-heading-title elementor-size-medium">Healthy
+                                                    life Int. Company</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-bb671f7 elementor-widget elementor-widget-heading"
-                                            data-id="bb671f7" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-b42f07e elementor-widget elementor-widget-heading"
+                                            data-id="b42f07e" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Jan, 2012
-                                                    to Jan, 2015</span>
+                                                <span class="elementor-heading-title elementor-size-default">Jan,
+                                                    2012 to Jan, 2015</span>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-9e88305 elementor-widget elementor-widget-text-editor"
-                                            data-id="9e88305" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-a7e4a4e elementor-widget elementor-widget-text-editor"
+                                            data-id="a7e4a4e" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    <li>Enhanced company efficiency by restructuring protocols and
+                                                    <li>Enhanced company efficiency by
+                                                        restructuring protocols and
                                                         financial systems.</li>
-                                                    <li>Innovated product offerings through research and development,
-                                                        ensuring regulatory compliance.</li>
-                                                    <li>Successfully rebranded the company for a new direction,
-                                                        resolving legal matters for a clean, compliant status.</li>
+                                                    <li>Innovated product offerings through
+                                                        research and development, ensuring
+                                                        regulatory compliance.</li>
+                                                    <li>Successfully rebranded the company
+                                                        for a new direction, resolving legal
+                                                        matters for a clean, compliant
+                                                        status.</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-cfeac9d elementor-widget elementor-widget-progress"
-                                            data-id="cfeac9d" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-716842c elementor-widget elementor-widget-progress"
+                                            data-id="716842c" data-element_type="widget"
                                             data-widget_type="progress.default">
                                             <div class="elementor-widget-container">
 
@@ -2771,7 +2904,8 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="69"
                                                     aria-valuetext="69% (Executive Manager)">
                                                     <div class="elementor-progress-bar" data-max="69">
-                                                        <span class="elementor-progress-text">Executive Manager</span>
+                                                        <span class="elementor-progress-text">Executive
+                                                            Manager</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2785,21 +2919,22 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-90059c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="90059c9" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-9xouvrd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="9xouvrd" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-91d3ff8"
-                    data-id="91d3ff8" data-element_type="column">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-75d7dbd"
+                    data-id="75d7dbd" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-3f62dc7 elementor-widget elementor-widget-heading"
-                            data-id="3f62dc7" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-d2e8414 elementor-widget elementor-widget-heading"
+                            data-id="d2e8414" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">What My Mentees Says</h3>
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    What My Mentees Says</h3>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-de997ce elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                            data-id="de997ce" data-element_type="widget" data-widget_type="divider.default">
+                        <div class="elementor-element elementor-element-a1d20cc elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="a1d20cc" data-element_type="widget" data-widget_type="divider.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-divider">
                                     <span class="elementor-divider-separator">
@@ -2808,16 +2943,16 @@
                             </div>
                         </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-19271df elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="19271df" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="6f5a20e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9ace16b"
-                                    data-id="9ace16b" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-035a934"
+                                    data-id="035a934" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-674877c elementor-view-default elementor-widget elementor-widget-icon"
-                                            data-id="674877c" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
+                                            data-id="642ada1" data-element_type="widget"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
@@ -2827,28 +2962,30 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-eb78922 elementor-widget elementor-widget-image"
-                                            data-id="eb78922" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
+                                            data-id="b5670d9" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="336" height="336"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/12/male-3.jpg"
-                                                    class="attachment-large size-large wp-image-4786" alt=""
-                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2023/12/male-3.jpg 336w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-3-300x300.jpg 300w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-3-150x150.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-3-450x450.jpg 450w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-3-700x700.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-3-650x650.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-3-1300x1300.jpg 1300w"
-                                                    sizes="(max-width: 336px) 100vw, 336px">
+                                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/male-3.jpg"
+                                                    class="attachment-large size-large wp-image-4780" alt=""
+                                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/male-3.jpg 336w, https://ivygroupco.com/wp-content/uploads/2023/11/male-3-300x300.jpg 300w, https://ivygroupco.com/wp-content/uploads/2023/11/male-3-150x150.jpg 150w"
+                                                    sizes="(max-width: 336px) 100vw, 336px" />
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-e1a430d elementor-widget elementor-widget-text-editor"
-                                            data-id="e1a430d" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
+                                            data-id="e1a5c8d" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Session with Soha was Fantastic and awesome I must commend, It was
-                                                    indeed a great moment where I learnt a lot more enticing means of
-                                                    marketing and strategies needed.</p>
+                                                <p>Session with Soha was Fantastic and
+                                                    awesome I must commend, It was indeed a
+                                                    great moment where I learnt a lot more
+                                                    enticing means of marketing and
+                                                    strategies needed.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-8608d71 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="8608d71" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                            data-id="80f799d" data-element_type="widget"
                                             data-widget_type="divider.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-divider">
@@ -2857,8 +2994,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-7390602 elementor-widget elementor-widget-heading"
-                                            data-id="7390602" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-75927c9 elementor-widget elementor-widget-heading"
+                                            data-id="75927c9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-default">Yusuf
@@ -2867,13 +3004,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7ff1bd1"
-                                    data-id="7ff1bd1" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c6408f"
+                                    data-id="1c6408f" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-57f4acb elementor-view-default elementor-widget elementor-widget-icon"
-                                            data-id="57f4acb" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-5c58168 elementor-view-default elementor-widget elementor-widget-icon"
+                                            data-id="5c58168" data-element_type="widget"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
@@ -2883,27 +3020,29 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-01433a5 elementor-widget elementor-widget-image"
-                                            data-id="01433a5" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-b6bdea5 elementor-widget elementor-widget-image"
+                                            data-id="b6bdea5" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="150" height="150"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-150x150.jpg"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-4824" alt=""
-                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-150x150.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-300x300.jpg 300w, https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-450x450.jpg 450w, https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-700x700.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-650x650.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1-1300x1300.jpg 1300w, https://wiseadvizor.com/wp-content/uploads/2023/12/female-3-1.jpg 336w"
-                                                    sizes="(max-width: 150px) 100vw, 150px">
+                                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/female-3-150x150.jpg"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-4781" alt=""
+                                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/female-3-150x150.jpg 150w, https://ivygroupco.com/wp-content/uploads/2023/11/female-3-300x300.jpg 300w, https://ivygroupco.com/wp-content/uploads/2023/11/female-3.jpg 336w"
+                                                    sizes="(max-width: 150px) 100vw, 150px" />
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-c8d6bd3 elementor-widget elementor-widget-text-editor"
-                                            data-id="c8d6bd3" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-8b443c7 elementor-widget elementor-widget-text-editor"
+                                            data-id="8b443c7" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit. Ut elit tellus, luctus
+                                                    nec ullamcorper mattis, pulvinar dapibus
+                                                    leo.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-b22f2ef elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="b22f2ef" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-90ce6b0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                            data-id="90ce6b0" data-element_type="widget"
                                             data-widget_type="divider.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-divider">
@@ -2912,8 +3051,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-5492605 elementor-widget elementor-widget-heading"
-                                            data-id="5492605" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-17f034d elementor-widget elementor-widget-heading"
+                                            data-id="17f034d" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-default">Jenna
@@ -2922,13 +3061,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c3100a4"
-                                    data-id="c3100a4" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c4fd0e9"
+                                    data-id="c4fd0e9" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-bd04205 elementor-view-default elementor-widget elementor-widget-icon"
-                                            data-id="bd04205" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-407934b elementor-view-default elementor-widget elementor-widget-icon"
+                                            data-id="407934b" data-element_type="widget"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
@@ -2938,27 +3077,29 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-897ea9e elementor-widget elementor-widget-image"
-                                            data-id="897ea9e" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-fb2bc52 elementor-widget elementor-widget-image"
+                                            data-id="fb2bc52" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img loading="lazy" decoding="async" width="336" height="336"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/12/male-1.jpg"
-                                                    class="attachment-large size-large wp-image-4825" alt=""
-                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2023/12/male-1.jpg 336w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-1-300x300.jpg 300w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-1-150x150.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-1-450x450.jpg 450w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-1-700x700.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-1-650x650.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2023/12/male-1-1300x1300.jpg 1300w"
-                                                    sizes="(max-width: 336px) 100vw, 336px">
+                                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/male-1.jpg"
+                                                    class="attachment-large size-large wp-image-4782" alt=""
+                                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/male-1.jpg 336w, https://ivygroupco.com/wp-content/uploads/2023/11/male-1-300x300.jpg 300w, https://ivygroupco.com/wp-content/uploads/2023/11/male-1-150x150.jpg 150w"
+                                                    sizes="(max-width: 336px) 100vw, 336px" />
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-525ed2c elementor-widget elementor-widget-text-editor"
-                                            data-id="525ed2c" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-51c6d20 elementor-widget elementor-widget-text-editor"
+                                            data-id="51c6d20" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit. Ut elit tellus, luctus
+                                                    nec ullamcorper mattis, pulvinar dapibus
+                                                    leo.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-ba6018c elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="ba6018c" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-6a1ae3f elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                            data-id="6a1ae3f" data-element_type="widget"
                                             data-widget_type="divider.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-divider">
@@ -2967,8 +3108,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-1c62fde elementor-widget elementor-widget-heading"
-                                            data-id="1c62fde" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-dcea66b elementor-widget elementor-widget-heading"
+                                            data-id="dcea66b" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <span class="elementor-heading-title elementor-size-default">Samuel
@@ -2979,6 +3120,44 @@
                                 </div>
                             </div>
                         </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-fef4299 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="fef4299" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a7f8c6"
+                    data-id="3a7f8c6" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-202f85c elementor-widget elementor-widget-heading"
+                            data-id="202f85c" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h3 class="elementor-heading-title elementor-size-default">
+                                    Featured In</h3>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-1b99fe0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="1b99fe0" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-4c9ce4e elementor-widget elementor-widget-text-editor"
+                            data-id="4c9ce4e" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <ul>
+                                    <li>https://baladnaelyoum.com/news/603318</li>
+                                    <li>https://www.sada-elarab.com/166309</li>
+                                    <li>https://alnaasher.com/archives/83532</li>
+                                    <li>https://ahlmasrnews.com/904242</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
