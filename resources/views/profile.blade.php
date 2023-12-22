@@ -1097,11 +1097,13 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.2">
     <link rel="canonical" href="https://wiseadvizor.com/profile/">
-    <link rel="shortlink" href="https://wiseadvizor.com/?p=2372">
+    <link rel="shortlink" href="https://wiseadvizor.com/?p=4878">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
     <link rel="alternate" type="text/xml+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml">
+    <link rel='stylesheet' id='elementor-post-4878-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4878.css?ver=1703252722' media='all' />
     <meta name="generator"
         content="Elementor 3.18.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style id="wp-fonts-local">
@@ -1280,7 +1282,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-2372 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.6 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2372">
+    class="page-template page-template-elementor_canvas page page-id-2372 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.6 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4878">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
                 rel="home">WISE ADVIZOR</a></p>
