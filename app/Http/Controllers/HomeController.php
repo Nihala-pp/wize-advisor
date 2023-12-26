@@ -71,7 +71,6 @@ class HomeController extends Controller
     $review4 = Review::where('id', 16)->first();
     $review5 = Review::where('id', 9)->first();
 
-    // $expertise = [
     //   Sumedha => GTM-Strategy, Brand-Strategy,
     //   Soha => Growth-Strategy, Storytelling,
     //   Michelle => Fundraising, Business-Strategy,
@@ -101,9 +100,17 @@ class HomeController extends Controller
     $achievements = MentorAchievements::where('mentor_id', $id)->get();
     $reviews = Review::where('mentor_id', $id)->get();
     $articles = Article::where('mentor_id', $id)->get();
+    $nextAvailability = AvailableSchedule::where('mentor_id', $data->id)
+      ->whereDate('date', '>', now())
+      ->where('is_booked', 0)
+      ->orderBy('date', 'asc')
+      ->first();
+    // $expertise = [
+
+
     // dd($achievements);
 
-    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles'));
+    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability'));
   }
 
   public function browseMentor($name = NULL, $filter = NULL)

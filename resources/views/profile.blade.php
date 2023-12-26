@@ -1643,14 +1643,14 @@
                                 }
                                 </style>
                                 <h3 class="elementor-heading-title elementor-size-default">
-                                    Hi! I am Soha El Baklawy</h3>
+                                    Hi! I am {{ $data->name }}</h3>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
                             data-id="b0cfee1" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h6 class="elementor-heading-title elementor-size-default">
-                                    Founder, BusinessETA</h6>
+                                    {{ $data->metaData->designation }}, {{ $data->metaData->company }}</h6>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
@@ -1689,13 +1689,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>I am an entrepreneur and a mentor, dedicated to
-                                    empowering startups and driving impactful social change
-                                    globally. As an entrepreneur and the visionary behind
-                                    Businessita, I often faced decision fatigue during my
-                                    journey. This inspiration led me to mentorship, aspiring
-                                    to simplify choices for fellow entrepreneurs on their
-                                    journey.</p>
+                                <p>{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                             </div>
                         </div>
                         <section
@@ -1710,8 +1704,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    <b>Languages </b><br><br> English,
-                                                    Arabic
+                                                    <b>Languages </b><br><br> {{ $data->metaData ? $data->metaData->language : '' }}
                                                 </p>
                                             </div>
                                         </div>
