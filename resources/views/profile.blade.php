@@ -2502,6 +2502,7 @@
                                 </div>
                             </div>
                         </div>
+                        @foreach($expertise as $expert)
                         <div class="elementor-element elementor-element-422d6d7 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
                             data-id="422d6d7" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
@@ -2516,20 +2517,15 @@
                                     <div class="elementor-icon-box-content">
                                         <h5 class="elementor-icon-box-title">
                                             <span>
-                                                BRAND STRATEGY </span>
+                                            {{ $expert->expertise }} </span>
                                         </h5>
                                         <p class="elementor-icon-box-description">
-                                            Extensive experience in developing brand
-                                            strategies for diverse industries. Ability to
-                                            define brand positioning, messaging, and target
-                                            audience. Skillful in creating cohesive brand
-                                            identities and visual representations. Expertise
-                                            in building brand awareness and differentiation
-                                            in the market. </p>
+                                        {{ $expert->description }} </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        @endforeach
                         <div class="elementor-element elementor-element-63b7f67 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
                             data-id="63b7f67" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
