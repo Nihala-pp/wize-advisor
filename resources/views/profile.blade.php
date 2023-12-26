@@ -1733,7 +1733,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    <b>Next Availability <br></b><br>   @if(!empty($nextAvailability)) {{ $nextAvailability->date }} @endif
+                                                    <b>Next Availability <br></b><br>   @if(!empty($nextAvailability)) {{ $nextAvailability->date->format('jS F Y') }} @endif
                                                 </p>
                                             </div>
                                         </div>
