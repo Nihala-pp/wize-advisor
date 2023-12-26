@@ -3831,12 +3831,37 @@ h6,
     flex-grow: 1;
     border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
 }
+
 .elementor-element-p7f37ge {
-    background-color:#F3F1F6;
+    background-color: #F3F1F6;
 }
 
 .elementor-widget-icon-box .elementor-icon-box-title {
-  color:#150E1F;
+    color: #150E1F;
+}
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.elementor-view-stacked .elementor-icon {
+    padding: .5em;
+    background-color: #69727d;
+    color: #fff;
+    fill: #fff;
+    margin-top: 20px;
 }
 </style>
 
