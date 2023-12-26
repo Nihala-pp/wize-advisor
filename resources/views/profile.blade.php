@@ -3851,7 +3851,7 @@ h6,
 .elementor-view-stacked .elementor-icon {
     padding: .5em;
     background-color: #69727d;
-    color: #001e64;
+    color: #fff;
     fill: #fff;
     margin-top: 20px;
 }
