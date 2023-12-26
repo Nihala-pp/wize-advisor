@@ -6,16 +6,16 @@
     <title>Profile &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-    var theplus_ajax_url = "https://ivygroupco.com//wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://ivygroupco.com//wp-admin/admin-post.php";
+    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
     var theplus_nonce = "51391c8c76";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="https://ivygroupco.com//feed/">
+        href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="https://ivygroupco.com//comments/feed/">
+        href="https://wiseadvizor.com/comments/feed/">
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -359,18 +359,18 @@
     }
     </style>
     <link rel="preload"
-        href="https://ivygroupco.com//wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.2"
+        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="https://ivygroupco.com//wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.2"
+            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.2"
             media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.2.1"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://ivygroupco.com//wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1703170322" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1703170322" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -992,99 +992,99 @@
     }
     </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-carousel-owl-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-theme-default-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-animate-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-        href="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="hfe-style-css"
-        href="https://ivygroupco.com//wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.22"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.22"
         media="all">
     <link rel="stylesheet" id="elementor-icons-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0"
         media="all">
     <link rel="stylesheet" id="elementor-frontend-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.18.3"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.18.3"
         media="all">
     <link rel="stylesheet" id="swiper-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
         media="all">
     <link rel="stylesheet" id="elementor-post-5-css"
-        href="https://ivygroupco.com//wp-content/uploads/elementor/css/post-5.css?ver=1703156330" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1703156330" media="all">
     <link rel="stylesheet" id="she-header-style-css"
-        href="https://ivygroupco.com//wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
-        href="https://ivygroupco.com//wp-content/uploads/elementor/css/global.css?ver=1703170320" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1703170320" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://ivygroupco.com//wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.22"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.22"
         media="all">
     <link rel="stylesheet" id="elementor-post-2372-css"
-        href="https://ivygroupco.com//wp-content/uploads/elementor/css/post-2372.css?ver=1703246740" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2372.css?ver=1703246740" media="all">
     <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://ivygroupco.com//wp-content/uploads/elementor/css/post-3007.css?ver=1703156330" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1703156330" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
-        href="https://ivygroupco.com//wp-content/uploads/elementor/css/post-32.css?ver=1703156331" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1703156331" media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://ivygroupco.com//wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.2"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.2"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://ivygroupco.com//wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.2"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.2"
         media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="https://ivygroupco.com//wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.2"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.2"
         media="all">
     <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://ivygroupco.com//wp-content/uploads/theplus-addons/theplus.min.css?ver=1703246740" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1703246740" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="https://ivygroupco.com//wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
     <link rel="stylesheet" id="wpr-text-animations-css-css"
-        href="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.84"
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.84"
         media="all">
     <link rel="stylesheet" id="wpr-addons-css-css"
-        href="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.84"
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.84"
         media="all">
     <link rel="stylesheet" id="font-awesome-5-all-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.84"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.84"
         media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.2"
         media="all">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
         media="all">
     <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
         media="all">
     <link rel='stylesheet' id='elementor-post-442-css'
-        href='https://ivygroupco.com//wp-content/uploads/elementor/css/post-442.css?ver=1703156297' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-442.css?ver=1703156297' media='all' />
     <link rel='stylesheet' id='elementor-post-4878-css'
-        href='https://ivygroupco.com//wp-content/uploads/elementor/css/post-4878.css?ver=1703252722' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4878.css?ver=1703252722' media='all' />
     <link rel='stylesheet' id='elementor-post-4454-css'
-        href='https://ivygroupco.com//wp-content/uploads/elementor/css/post-4454.css?ver=1703156298' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4454.css?ver=1703156298' media='all' />
     <link rel='stylesheet' id='elementor-post-4509-css'
-        href='https://ivygroupco.com//wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -1092,23 +1092,23 @@
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script data-cfasync="false" src="https://ivygroupco.com//wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script data-cfasync="false" src="https://ivygroupco.com//wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.10"
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.10"
         id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="https://ivygroupco.com//wp-json/">
-    <link rel="alternate" type="application/json" href="https://ivygroupco.com//wp-json/wp/v2/pages/2372">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ivygroupco.com//xmlrpc.php?rsd">
+    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2372">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.2">
-    <link rel="canonical" href="https://ivygroupco.com//profile/">
-    <link rel="shortlink" href="https://ivygroupco.com//?p=4878">
+    <link rel="canonical" href="https://wiseadvizor.com/profile/">
+    <link rel="shortlink" href="https://wiseadvizor.com/?p=4878">
     <link rel="alternate" type="application/json+oembed"
-        href="https://ivygroupco.com//wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="https://ivygroupco.com//wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml">
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F#038;format=xml">
     <meta name="generator"
         content="Elementor 3.18.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style id="wp-fonts-local">
@@ -1117,7 +1117,7 @@
         font-style: normal;
         font-weight: 200 900;
         font-display: fallback;
-        src: url('https://ivygroupco.com//wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
+        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
         font-stretch: normal;
     }
 
@@ -1126,7 +1126,7 @@
         font-style: italic;
         font-weight: 200 900;
         font-display: fallback;
-        src: url('https://ivygroupco.com//wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
+        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
         font-stretch: normal;
     }
     </style>
@@ -1318,7 +1318,7 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-2372 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.6 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4878">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://ivygroupco.com//" title="WISE ADVIZOR"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="WISE ADVIZOR"
                 rel="home">WISE ADVIZOR</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -1351,11 +1351,11 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="https://ivygroupco.com//home">
+                                    </style> <a href="https://wiseadvizor.com/home">
                                         <img width="932" height="140"
-                                            src="https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC.png"
+                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
-                                            srcset="https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC.png 932w, https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -1385,41 +1385,41 @@
                                             <ul id="menu-1-359f243" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://ivygroupco.com//about-us/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://ivygroupco.com//contact-us/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://ivygroupco.com//resources/" itemprop="url"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//community-post/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//libraries/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1451,7 +1451,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="https://ivygroupco.com//browse-mentor/">
+                                            href="https://wiseadvizor.com/browse-mentor/">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -1475,11 +1475,11 @@
                             <div class="elementor-element elementor-element-556f326 elementor-widget elementor-widget-image"
                                 data-id="556f326" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <a href="https://ivygroupco.com//home">
+                                    <a href="https://wiseadvizor.com/home">
                                         <img width="932" height="140"
-                                            src="https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC.png"
+                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
-                                            srcset="https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC.png 932w, https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://ivygroupco.com//wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -1504,41 +1504,41 @@
                                             <ul id="menu-1-ee84ee1" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://ivygroupco.com//about-us/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://ivygroupco.com//contact-us/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://ivygroupco.com//resources/" itemprop="url"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//community-post/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//libraries/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://ivygroupco.com//faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1558,7 +1558,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="https://ivygroupco.com//browse-mentor/">
+                                            href="https://wiseadvizor.com/browse-mentor/">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentor</span>
                                             </span>
@@ -1790,9 +1790,9 @@
                                     display: inline-block
                                 }
                                 </style> <img fetchpriority="high" decoding="async" width="241" height="300"
-                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                    src="wiseadvizor.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
                                     class="attachment-medium size-medium wp-image-4926" alt=""
-                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
+                                    srcset="wiseadvizor.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, wiseadvizor.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
                                     sizes="(max-width: 241px) 100vw, 241px" />
                             </div>
                         </div>
@@ -2509,7 +2509,7 @@
                             data-id="422d6d7" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://ivygroupco.com//wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                                    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                 <div class="elementor-icon-box-wrapper">
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
@@ -3003,9 +3003,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="336" height="336"
-                                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/male-3.jpg"
+                                                    src="wiseadvizor.com/wp-content/uploads/2023/11/male-3.jpg"
                                                     class="attachment-large size-large wp-image-4780" alt=""
-                                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/male-3.jpg 336w, https://ivygroupco.com/wp-content/uploads/2023/11/male-3-300x300.jpg 300w, https://ivygroupco.com/wp-content/uploads/2023/11/male-3-150x150.jpg 150w"
+                                                    srcset="wiseadvizor.com/wp-content/uploads/2023/11/male-3.jpg 336w, wiseadvizor.com/wp-content/uploads/2023/11/male-3-300x300.jpg 300w, wiseadvizor.com/wp-content/uploads/2023/11/male-3-150x150.jpg 150w"
                                                     sizes="(max-width: 336px) 100vw, 336px" />
                                             </div>
                                         </div>
@@ -3061,9 +3061,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="150" height="150"
-                                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/female-3-150x150.jpg"
+                                                    src="wiseadvizor.com/wp-content/uploads/2023/11/female-3-150x150.jpg"
                                                     class="attachment-thumbnail size-thumbnail wp-image-4781" alt=""
-                                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/female-3-150x150.jpg 150w, https://ivygroupco.com/wp-content/uploads/2023/11/female-3-300x300.jpg 300w, https://ivygroupco.com/wp-content/uploads/2023/11/female-3.jpg 336w"
+                                                    srcset="wiseadvizor.com/wp-content/uploads/2023/11/female-3-150x150.jpg 150w, wiseadvizor.com/wp-content/uploads/2023/11/female-3-300x300.jpg 300w, wiseadvizor.com/wp-content/uploads/2023/11/female-3.jpg 336w"
                                                     sizes="(max-width: 150px) 100vw, 150px" />
                                             </div>
                                         </div>
@@ -3118,9 +3118,9 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img loading="lazy" decoding="async" width="336" height="336"
-                                                    src="https://ivygroupco.com/wp-content/uploads/2023/11/male-1.jpg"
+                                                    src="wiseadvizor.com/wp-content/uploads/2023/11/male-1.jpg"
                                                     class="attachment-large size-large wp-image-4782" alt=""
-                                                    srcset="https://ivygroupco.com/wp-content/uploads/2023/11/male-1.jpg 336w, https://ivygroupco.com/wp-content/uploads/2023/11/male-1-300x300.jpg 300w, https://ivygroupco.com/wp-content/uploads/2023/11/male-1-150x150.jpg 150w"
+                                                    srcset="wiseadvizor.com/wp-content/uploads/2023/11/male-1.jpg 336w, wiseadvizor.com/wp-content/uploads/2023/11/male-1-300x300.jpg 300w, wiseadvizor.com/wp-content/uploads/2023/11/male-1-150x150.jpg 150w"
                                                     sizes="(max-width: 336px) 100vw, 336px" />
                                             </div>
                                         </div>
@@ -3240,7 +3240,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//privacy-policy/">Privacy
+                                                                href="https://wiseadvizor.com/privacy-policy/">Privacy
                                                                 Policy</a></p>
                                                     </div>
                                                 </div>
@@ -3254,7 +3254,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//terms-and-conditions/">Terms
+                                                                href="https://wiseadvizor.com/terms-and-conditions/">Terms
                                                                 & Conditions</a></p>
                                                     </div>
                                                 </div>
@@ -3268,7 +3268,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//community-guidelines/">Community
+                                                                href="https://wiseadvizor.com/community-guidelines/">Community
                                                                 Guidelines</a></p>
                                                     </div>
                                                 </div>
@@ -3282,7 +3282,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//about-us/">About Us</a>
+                                                                href="https://wiseadvizor.com/about-us/">About Us</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -3296,7 +3296,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//contact-us/">Contact
+                                                                href="https://wiseadvizor.com/contact-us/">Contact
                                                                 Us</a></p>
                                                     </div>
                                                 </div>
@@ -3310,7 +3310,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//blogs/">FAQs</a></p>
+                                                                href="https://wiseadvizor.com/blogs/">FAQs</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3323,7 +3323,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://ivygroupco.com//browse-mentor/">Browse
+                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
                                                                 Mentors</a></p>
                                                     </div>
                                                 </div>
@@ -3337,7 +3337,7 @@
                                     data-widget_type="copyright.default">
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
-                                            <a href="https://ivygroupco.com//">
+                                            <a href="https://wiseadvizor.com/">
                                                 <span>Copyright © 2023 wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
                                             </a>
@@ -3431,14 +3431,14 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <script src="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
+        src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
         id="jquery.mousewheel.min-js"></script>
-    <script src="https://ivygroupco.com//wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
         id="niso-carousel-lightbox.min-js"></script>
-    <script src="https://ivygroupco.com//wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
     </script>
     <script id="qi-addons-for-elementor-script-js-extra">
     var qodefQiAddonsGlobal = {
@@ -3450,30 +3450,30 @@
         }
     };
     </script>
-    <script src="https://ivygroupco.com//wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.4.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.4.2"
         id="qi-addons-for-elementor-script-js"></script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
         id="wpr-particles-js"></script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
         id="wpr-jarallax-js"></script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
         id="wpr-parallax-hover-js"></script>
-    <script src="https://ivygroupco.com//wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
-    <script src="https://ivygroupco.com//wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
     </script>
-    <script src="https://ivygroupco.com//wp-content/uploads/theplus-addons/theplus.min.js?ver=1703246740"
+    <script src="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1703246740"
         id="theplus-front-js-js" defer></script>
-    <script src="https://ivygroupco.com//wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.22"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.22"
         id="hfe-frontend-js-js"></script>
-    <script src="https://ivygroupco.com//wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
         id="elementor-webpack-runtime-js"></script>
-    <script src="https://ivygroupco.com//wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3"
         id="elementor-frontend-modules-js"></script>
-    <script src="https://ivygroupco.com//wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3596,17 +3596,17 @@
         }
     };
     </script>
-    <script src="https://ivygroupco.com//wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3"
         id="elementor-frontend-js"></script>
-    <script src="https://ivygroupco.com//wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
-    <script src="https://ivygroupco.com//wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <script src="https://ivygroupco.com//wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
     </script>
-    <script src="https://ivygroupco.com//wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script>
-    <script src="https://ivygroupco.com//wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
@@ -3614,7 +3614,7 @@
     });
     </script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.2"
+        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.2"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
@@ -3637,12 +3637,12 @@
     };
     </script>
     <script data-cfasync="false"
-        src="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.84"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.84"
         id="wpr-addons-js-js"></script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.84"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.84"
         id="wpr-modal-popups-js-js"></script>
-    <script src="https://ivygroupco.com//wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
         "ajax": {
@@ -3650,7 +3650,7 @@
         }
     };
     </script>
-    <script src="https://ivygroupco.com//wp-includes/js/wp-util.min.js?ver=6.4.2" id="wp-util-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.2" id="wp-util-js"></script>
     <script id="wpforms-elementor-js-extra">
     var wpformsElementorVars = {
         "captcha_provider": "recaptcha",
@@ -3658,7 +3658,7 @@
     };
     </script>
     <script
-        src="https://ivygroupco.com//wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.5.3"
+        src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.5.3"
         id="wpforms-elementor-js"></script>
     <script type="text/javascript">
     (function($) {
