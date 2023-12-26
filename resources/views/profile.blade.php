@@ -3721,8 +3721,22 @@
     line-height: 1.3em;
 }
 
-.elementor-4878 .elementor-element.elementor-element-b0cfee1 > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-b0cfee1>.elementor-widget-container {
     margin: -15px 0px 0px 0px;
+}
+
+h6,
+.entry-content h6 {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3,
+.entry-content h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 </style>
 </html>
