@@ -3843,15 +3843,7 @@ h6,
 .elementor-progress-wrapper {
     position: relative;
     background-color: #eee;
-    color: #fff;
-    height: 100%;
-    border-radius: 2px;
-}
-
-.elementor-progress-wrapper {
-    position: relative;
-    background-color: #eee;
-    color: #fff;
+    color: #001e64 !important;
     height: 100%;
     border-radius: 2px;
 }
@@ -3859,7 +3851,7 @@ h6,
 .elementor-view-stacked .elementor-icon {
     padding: .5em;
     background-color: #69727d;
-    color: #fff;
+    color: #001e64;
     fill: #fff;
     margin-top: 20px;
 }
