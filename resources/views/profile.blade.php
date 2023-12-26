@@ -3199,6 +3199,7 @@
                 </div>
             </div>
         </section>
+        @endif
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
