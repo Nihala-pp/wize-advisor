@@ -3740,6 +3740,7 @@ h3,.entry-content h3 {
 
 .elementor-widget-heading .elementor-heading-title {
     color: #150E1F;
+    text-transform: capitalize !important;
 }
 </style>
 </html>
