@@ -1299,6 +1299,19 @@
         font-size: 14px;
         font-size: 0.875rem;
     }
+
+    .elementor-button-wrapper .elementor-button {
+        font-weight: 700;
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+
+    .elementor-button-wrapper .elementor-button {
+        border-color: #001e64;
+        background-color: #001e64;
+    }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
