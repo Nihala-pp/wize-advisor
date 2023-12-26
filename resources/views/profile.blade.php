@@ -3807,7 +3807,7 @@ h5,
 .entry-content h5,
 h6,
 .entry-content h6 {
-    color: var(--ast-global-color-3);
+    color: #000;
 }
 
 .elementor-widget-divider .elementor-divider-separator {
