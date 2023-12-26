@@ -1080,7 +1080,7 @@
     <link rel='stylesheet' id='elementor-post-442-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-442.css?ver=1703156297' media='all' />
     <link rel='stylesheet' id='elementor-post-4878-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4878.css?ver=1703252722' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4878.css' media='all' />
     <link rel='stylesheet' id='elementor-post-4454-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4454.css?ver=1703156298' media='all' />
     <link rel='stylesheet' id='elementor-post-4509-css'
