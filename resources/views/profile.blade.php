@@ -1786,9 +1786,9 @@
                                     display: inline-block
                                 }
                                 </style> <img fetchpriority="high" decoding="async" width="241" height="300"
-                                    src="wiseadvizor.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                    src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                     class="attachment-medium size-medium wp-image-4926" alt=""
-                                    srcset="wiseadvizor.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, wiseadvizor.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
+                                    srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
                                     sizes="(max-width: 241px) 100vw, 241px" />
                             </div>
                         </div>
