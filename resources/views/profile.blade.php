@@ -3182,19 +3182,19 @@
                                 </div>
                             </div>
                         </div>
-                        @foreach($articles as $article)
                         <div class="elementor-element elementor-element-4c9ce4e elementor-widget elementor-widget-text-editor"
                             data-id="4c9ce4e" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <ul>
+                                @foreach($articles as $article)
                                     <li><a href="{{ $article->name }}">{{ $article->name }}</a></li>
+                                @endforeach
                                     <!-- <li>https://www.sada-elarab.com/166309</li>
                                     <li>https://alnaasher.com/archives/83532</li>
                                     <li>https://ahlmasrnews.com/904242</li> -->
                                 </ul>
                             </div>
                         </div>
-                        @endforeach
                     </div>
                 </div>
             </div>
