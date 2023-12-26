@@ -2876,7 +2876,8 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="69"
                                                     aria-valuetext="69% (Founder)">
                                                     <div class="elementor-progress-bar" data-max="69">
-                                                        <span class="elementor-progress-text">{{ $last_exp->company_name }}</span>
+                                                        <span
+                                                            class="elementor-progress-text">{{ $last_exp->company_name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2938,7 +2939,7 @@
                                         </div>
                                     </div>
                                 </div> -->
-                                @endforeach 
+                                @endforeach
                             </div>
                         </section>
                     </div>
@@ -2973,6 +2974,7 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="6f5a20e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
+                                @foreach($reviews as $review)
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-035a934"
                                     data-id="035a934" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2993,22 +2995,26 @@
                                             data-id="b5670d9" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
+                                                @if ($review->user->metaData->profile_pic)
                                                 <img decoding="async" width="336" height="336"
-                                                    src="wiseadvizor.com/wp-content/uploads/2023/11/male-3.jpg"
+                                                    src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                     class="attachment-large size-large wp-image-4780" alt=""
-                                                    srcset="wiseadvizor.com/wp-content/uploads/2023/11/male-3.jpg 336w, wiseadvizor.com/wp-content/uploads/2023/11/male-3-300x300.jpg 300w, wiseadvizor.com/wp-content/uploads/2023/11/male-3-150x150.jpg 150w"
+                                                    srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w"
                                                     sizes="(max-width: 336px) 100vw, 336px" />
+                                                @else
+                                                <img decoding="async" width="336" height="336"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    class="attachment-large size-large wp-image-4780" alt=""
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w"
+                                                    sizes="(max-width: 336px) 100vw, 336px" />
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
                                             data-id="e1a5c8d" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Session with Soha was Fantastic and
-                                                    awesome I must commend, It was indeed a
-                                                    great moment where I learnt a lot more
-                                                    enticing means of marketing and
-                                                    strategies needed.</p>
+                                                <p>{{ $review->review }}.</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -3025,13 +3031,14 @@
                                             data-id="75927c9" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Yusuf
-                                                    Abdulmajeed</span>
+                                                <span
+                                                    class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c6408f"
+                                @endforeach
+                                <!-- <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c6408f"
                                     data-id="1c6408f" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -3087,8 +3094,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c4fd0e9"
+                                </div> -->
+                                <!-- <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c4fd0e9"
                                     data-id="c4fd0e9" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -3144,13 +3151,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </section>
                     </div>
                 </div>
             </div>
         </section>
+        @if(!empty($data->metaData->articles))
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-fef4299 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="fef4299" data-element_type="section">
@@ -3174,17 +3182,19 @@
                                 </div>
                             </div>
                         </div>
+                        @foreach($articles as $article)
                         <div class="elementor-element elementor-element-4c9ce4e elementor-widget elementor-widget-text-editor"
                             data-id="4c9ce4e" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <ul>
-                                    <li>https://baladnaelyoum.com/news/603318</li>
-                                    <li>https://www.sada-elarab.com/166309</li>
+                                    <li><a href="{{ $article->name }}">{{ $article->name }}</a></li>
+                                    <!-- <li>https://www.sada-elarab.com/166309</li>
                                     <li>https://alnaasher.com/archives/83532</li>
-                                    <li>https://ahlmasrnews.com/904242</li>
+                                    <li>https://ahlmasrnews.com/904242</li> -->
                                 </ul>
                             </div>
                         </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
