@@ -1748,7 +1748,8 @@
                             data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login', ['schedule-call', $data->id]) }}">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('login', ['schedule-call', $data->id]) }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Schedule
                                                 Call</span>
@@ -2387,7 +2388,7 @@
                         <div class="elementor-element elementor-element-6b6a93e elementor-widget elementor-widget-text-editor"
                             data-id="6b6a93e" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p> 
+                                <p>
                                     @php
                                     $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me);
                                     echo $text;
@@ -2421,7 +2422,8 @@
                             data-id="dbbf342" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-xs" href="{{ route('login', ['schedule-call', $data->id]) }}">
+                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                        href="{{ route('login', ['schedule-call', $data->id]) }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Schedule
                                                 Call</span>
@@ -2434,6 +2436,7 @@
                 </div>
             </div>
         </section>
+        @if($achievements->isNotEmpty())
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-090b83a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="090b83a" data-element_type="section"
@@ -2462,15 +2465,10 @@
                             data-id="873ef0b" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <ul>
-                                    <li>Delivered 420+ consultation hour</li>
-                                    <li>Delivered 600+ mentorship hours</li>
-                                    <li>4 talks (Nationally and Internationally)</li>
-                                    <li>23+ features (Nationally and Internationally)</li>
-                                    <li>4+ jury (Nationally and internationally)</li>
-                                    <li>Mentored 150+ Entrepreneur (Nationally and
-                                        Internationally)</li>
-                                    <li>Delivered 6+ Corporate Strategy and development
-                                        consultations</li>
+                                    @foreach($achievements as $achievement)
+                                    <li>{{ $achievement->description }}
+                                    </li>
+                                    @endforeach
                                 </ul>
                             </div>
                         </div>
@@ -2478,6 +2476,7 @@
                 </div>
             </div>
         </section>
+        @endif
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-79woq2o elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="79woq2o" data-element_type="section"
