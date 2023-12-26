@@ -3742,5 +3742,9 @@ h3,.entry-content h3 {
     color: #150E1F;
     text-transform: capitalize !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-0e640ef {
+    text-align: left;
+}
 </style>
 </html>
