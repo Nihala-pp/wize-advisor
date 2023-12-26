@@ -3834,6 +3834,10 @@ h6,
 .elementor-element-p7f37ge {
     background-color:#F3F1F6;
 }
+
+.elementor-widget-icon-box .elementor-icon-box-title {
+  color:#150E1F;
+}
 </style>
 
 </html>
