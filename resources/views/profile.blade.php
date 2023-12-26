@@ -1597,7 +1597,6 @@
     </header>
 
     <div class="entry-content clear" itemprop="text">
-
         <div data-elementor-type="wp-page" data-elementor-id="4878" class="elementor elementor-4878">
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
@@ -3201,6 +3200,7 @@
             </section>
             @endif
         </div>
+    </div>
         <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
             <div class="footer-width-fixer">
                 <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
