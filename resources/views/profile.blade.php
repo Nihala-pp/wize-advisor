@@ -3831,8 +3831,9 @@ h6,
     flex-grow: 1;
     border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
 }
-
-background-color:#F3F1F6;
+.elementor-element-p7f37ge {
+    background-color:#F3F1F6;
+}
 </style>
 
 </html>
