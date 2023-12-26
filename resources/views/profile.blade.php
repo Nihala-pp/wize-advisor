@@ -3737,5 +3737,9 @@ h3,.entry-content h3 {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+.elementor-widget-heading .elementor-heading-title {
+    color: #150E1F;
+}
 </style>
 </html>
