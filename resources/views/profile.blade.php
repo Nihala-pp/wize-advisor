@@ -1597,8 +1597,11 @@
     </header>
 
     <div class="entry-content clear" itemprop="text">
-			<div data-elementor-type="wp-page" data-elementor-id="4878" class="elementor elementor-4878">
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="xjpohp1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div data-elementor-type="wp-page" data-elementor-id="4878" class="elementor elementor-4878">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                data-id="xjpohp1" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
                         data-id="b1f32fb" data-element_type="column">
@@ -3805,6 +3808,28 @@ h5,
 h6,
 .entry-content h6 {
     color: var(--ast-global-color-3);
+}
+
+.elementor-widget-divider .elementor-divider-separator {
+    display: flex;
+    margin: 0;
+    direction: ltr
+}
+
+.elementor-widget-divider--view-line_icon .elementor-divider-separator,
+.elementor-widget-divider--view-line_text .elementor-divider-separator {
+    align-items: center
+}
+
+.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+.elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+.elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+    display: block;
+    content: "";
+    border-bottom: 0;
+    flex-grow: 1;
+    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
 }
 </style>
 
