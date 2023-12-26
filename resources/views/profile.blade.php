@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Profile &#8211; WISE ADVIZOR</title>
+    <title>Profile &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -11,12 +11,11 @@
     var theplus_nonce = "51391c8c76";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Profile &#8211; WISE ADVIZOR</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/">+
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+        href="https://wiseadvizor.com/comments/feed/">
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
