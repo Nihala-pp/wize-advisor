@@ -1733,7 +1733,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    <b>Next Availability <br></b><br>   @if(!empty($nextAvailability)) {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F \\, Y') }} @endif
+                                                    <b>Next Availability <br></b><br>   @if(!empty($nextAvailability)) {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }} @endif
                                                 </p>
                                             </div>
                                         </div>
