@@ -3729,10 +3729,7 @@ h6,.entry-content h6 {
     font-size: 15px;
     font-size: 0.9375rem;
     font-family: 'Montserrat', sans-serif;
-}
-
-h1, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6 {
-    color: var(--ast-global-color-2);
+    color: #150E1F;
 }
 
 h3,.entry-content h3 {
