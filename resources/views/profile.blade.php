@@ -1912,8 +1912,8 @@
                         <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
                             data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">20
-                                    Reviews / 50 Sessions</p>
+                                <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}}
+                                    Reviews / {{ $totalSessions}} Sessions</p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-144014d elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"

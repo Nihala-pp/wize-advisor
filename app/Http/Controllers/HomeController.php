@@ -105,12 +105,15 @@ class HomeController extends Controller
       ->where('is_booked', 0)
       ->orderBy('date', 'asc')
       ->first();
+
+    $totalReviews = Review::where('mentor_id', $data->id)->get()->count();
+    $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
     // $expertise = [
 
 
     // dd($achievements);
 
-    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability'));
+    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions'));
   }
 
   public function browseMentor($name = NULL, $filter = NULL)
