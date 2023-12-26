@@ -2251,8 +2251,7 @@
                             <div class="elementor-element elementor-element-dcbce22 elementor-widget elementor-widget-heading"
                                 data-id="dcbce22" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h3 class="elementor-heading-title elementor-size-default">
-                                        About Me</h3>
+                                    <h3 class="elementor-heading-title elementor-size-default">About Me</h3>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-07446d7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -3792,6 +3791,23 @@ body .elementor-button {
     padding-right: 40px;
     padding-bottom: 17px;
     padding-left: 40px;
+}
+
+body,
+h1,
+.entry-title a,
+.entry-content h1,
+h2,
+.entry-content h2,
+h3,
+.entry-content h3,
+h4,
+.entry-content h4,
+h5,
+.entry-content h5,
+h6,
+.entry-content h6 {
+    color: var(--ast-global-color-3);
 }
 </style>
 
