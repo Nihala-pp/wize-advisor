@@ -2517,10 +2517,10 @@
                                     <div class="elementor-icon-box-content">
                                         <h5 class="elementor-icon-box-title">
                                             <span>
-                                            {{ $expert->expertise }} </span>
+                                                {{ $expert->expertise }} </span>
                                         </h5>
                                         <p class="elementor-icon-box-description">
-                                        {{ $expert->description }} </p>
+                                            {{ $expert->description }} </p>
                                     </div>
                                 </div>
                             </div>
@@ -2650,6 +2650,7 @@
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div class="elementor-background-overlay"></div>
                             <div class="elementor-container elementor-column-gap-no">
+                                @foreach($experience as $exp)
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8a50591"
                                     data-id="8a50591" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2659,16 +2660,17 @@
                                             data-id="3f8ebce" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-medium">Chapter
-                                                    Director</span>
+                                                <span class="elementor-heading-title elementor-size-medium">
+                                                    {{ $exp->position }}</span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-3af0bab elementor-widget elementor-widget-heading"
                                             data-id="3af0bab" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Nov,
-                                                    2022 to Present</span>
+                                                <span class="elementor-heading-title elementor-size-default">
+                                                    {{ $exp->start_date }} To
+                                                    {{ $exp->end_date ? $exp->end_date : 'Present' }}</span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-5c6f3ea elementor-widget elementor-widget-text-editor"
@@ -2676,15 +2678,12 @@
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    <li>Building a network of events both
-                                                        online and offline.</li>
-                                                    <li>Creating a team of dedicated
-                                                        volunteers to launch and operate the
-                                                        chapter.</li>
-                                                    <li>Empowering startups through
-                                                        knowledge, tools, and fostering
-                                                        collaborative growth in a vibrant
-                                                        entrepreneurial community.</li>
+                                                    <li>
+                                                        @php
+                                                        $text = str_ireplace("<br />", "\r\n", $exp->description);
+                                                        echo $text;
+                                                        @endphp
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -2764,15 +2763,17 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"
                                                     aria-valuetext="75% (Startup Grind New Cairo)">
                                                     <div class="elementor-progress-bar" data-max="75">
-                                                        <span class="elementor-progress-text">Startup
-                                                            Grind New Cairo</span>
+                                                        <span
+                                                            class="elementor-progress-text">{{ $exp->company_name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-94b9e38"
+                                @endforeach
+
+                                <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-94b9e38"
                                     data-id="94b9e38" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -2825,13 +2826,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </section>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-ed09546 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="ed09546" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-no">
+                                @foreach($last_experience as $last_exp)
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-651f958"
                                     data-id="651f958" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2840,16 +2842,17 @@
                                             data-id="7bebc4a" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-medium">Businessita
-                                                    WE</span>
+                                                <span
+                                                    class="elementor-heading-title elementor-size-medium">{{ $last_exp->position }}</span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-c95ee9d elementor-widget elementor-widget-heading"
                                             data-id="c95ee9d" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Jan,
-                                                    2018 To Present</span>
+                                                <span class="elementor-heading-title elementor-size-default">
+                                                    {{ $last_exp->start_date }} To
+                                                    {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}</span>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-37316f5 elementor-widget elementor-widget-text-editor"
@@ -2857,16 +2860,10 @@
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <ul>
-                                                    <li>Conduct thorough market research to
-                                                        understand audience, competitors,
-                                                        and trends.</li>
-                                                    <li>Establish legal compliance,
-                                                        structure, and internal protocols
-                                                        for operations and finance.</li>
-                                                    <li>Promote women empowerment through
-                                                        innovative services, community
-                                                        building, and global market
-                                                        expansion.</li>
+                                                    @php
+                                                    $text = str_ireplace("<br />", "\r\n", $last_exp->description);
+                                                    echo $text;
+                                                    @endphp
                                                 </ul>
                                             </div>
                                         </div>
@@ -2879,14 +2876,14 @@
                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="69"
                                                     aria-valuetext="69% (Founder)">
                                                     <div class="elementor-progress-bar" data-max="69">
-                                                        <span class="elementor-progress-text">Founder</span>
+                                                        <span class="elementor-progress-text">{{ $last_exp->company_name }}</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2108a2a"
+                                <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2108a2a"
                                     data-id="2108a2a" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -2940,7 +2937,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
+                                @endforeach 
                             </div>
                         </section>
                     </div>
