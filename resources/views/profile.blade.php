@@ -3725,14 +3725,16 @@
     margin: -15px 0px 0px 0px;
 }
 
-h6,.entry-content h6 {
+h6,
+.entry-content h6 {
     font-size: 15px;
     font-size: 0.9375rem;
     font-family: 'Montserrat', sans-serif;
     color: #150E1F;
 }
 
-h3,.entry-content h3 {
+h3,
+.entry-content h3 {
     font-size: 24px;
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
@@ -3746,5 +3748,51 @@ h3,.entry-content h3 {
 .elementor-4878 .elementor-element.elementor-element-0e640ef {
     text-align: left;
 }
+
+.elementor-button-wrapper .elementor-button {
+    border-color: #001e64;
+    background-color: #001e64;
+}
+
+.elementor-button-wrapper .elementor-button:hover,
+.elementor-button-wrapper .elementor-button:focus {
+    color: #ffffff;
+    background-color: #001e64;
+    border-color: #001e64;
+}
+
+.elementor-button-wrapper .elementor-button {
+    font-weight: 700;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.elementor-button-wrapper .elementor-button {
+    border-style: solid;
+    text-decoration: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+
+body .elementor-button.elementor-size-sm,
+body .elementor-button.elementor-size-xs,
+body .elementor-button.elementor-size-md,
+body .elementor-button.elementor-size-lg,
+body .elementor-button.elementor-size-xl,
+body .elementor-button {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 17px;
+    padding-right: 40px;
+    padding-bottom: 17px;
+    padding-left: 40px;
+}
 </style>
+
 </html>
