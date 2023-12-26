@@ -1704,7 +1704,8 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    <b>Languages </b><br><br> {{ $data->metaData ? $data->metaData->language : '' }}
+                                                    <b>Languages </b><br><br>
+                                                    {{ $data->metaData ? $data->metaData->language : '' }}
                                                 </p>
                                             </div>
                                         </div>
@@ -1733,7 +1734,9 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    <b>Next Availability <br></b><br>   @if(!empty($nextAvailability)) {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }} @endif
+                                                    <b>Next Availability <br></b><br> @if(!empty($nextAvailability))
+                                                    {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
+                                                    @endif
                                                 </p>
                                             </div>
                                         </div>
@@ -1792,7 +1795,8 @@
                             data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h5 class="elementor-heading-title elementor-size-default">
-                                    <span style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30 Min</span>
+                                    <span style="font-weight: normal;">$
+                                        {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30 Min</span>
                                 </h5>
                             </div>
                         </div>
@@ -2220,7 +2224,8 @@
                                 </style>
                                 <div class="elementor-social-icons-wrapper elementor-grid">
                                     <span class="elementor-grid-item">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a" href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}"
+                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a"
+                                            href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}"
                                             target="_blank">
                                             <span class="elementor-screen-only">Linkedin</span>
                                             <i class="fab fa-linkedin"></i> </a>
@@ -2382,12 +2387,13 @@
                         <div class="elementor-element elementor-element-6b6a93e elementor-widget elementor-widget-text-editor"
                             data-id="6b6a93e" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>A dynamic individual with over 22 years of professional
-                                    experience. Armed with a Cardiff master’s in business
-                                    Strategies and a Doctorate in Entrepreneurship
-                                    specializing in Women in Social Entrepreneurship, she is
-                                    passionate about driving meaningful change.</p>
-                                <p><span
+                                <p> 
+                                    @php
+                                    $text = str_ireplace("<br />", "\r\n", $data->metaData->about_me);
+                                    echo $text;
+                                    @endphp
+                                </p>
+                                <!-- <p><span
                                         style="font-style: inherit; font-weight: inherit; background-color: var( --e-global-color-astglobalcolor5 ); color: var(--ast-global-color-3);">Soha
                                         is the founder of Businessita, a startup venture
                                         where she practices what she preaches in the
@@ -2408,7 +2414,7 @@
                                         trainer, and strategy &amp; startup advisor, she
                                         brings a wealth of experience and accolades to
                                         inspire and empower individuals and</span>
-                                    organizations.</p>
+                                    organizations.</p> -->
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-dbbf342 elementor-align-left elementor-widget elementor-widget-button"
