@@ -1757,7 +1757,7 @@
                                             mentorship
                                             you need to thrive in the competitive startup world!</p><br />
 
-                                        <h4 style="text-align:center;color:#001E64;text:bold;"> wiseAdvizor Demystified: Who We're Here For. </h4>
+                                        <h4 style="text-align:center;color:#001E64;font-weight:bold;"> wiseAdvizor Demystified: Who We're Here For. </h4>
                                     </div>
                                 </div>
                             </div>
