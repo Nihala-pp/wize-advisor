@@ -6377,8 +6377,7 @@
                 margin-right: 20px;
             }
 
-            .elementor-4878 .elementor-element.elementor-element-0e640ef>.elementor-widget-container {
-                padding: 0px 0px 0px 0px;
+            .elementor-widget-container p {
                 color: #150E1F !important;
             }
             </style>
