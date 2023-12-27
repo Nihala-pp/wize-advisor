@@ -371,15 +371,15 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-image {
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-image {
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-image {
-        margin-bottom: 15px;
+        margin-bottom: 15px !important;
     }
     </style>
     <link rel="preload"
