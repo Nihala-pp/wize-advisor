@@ -1777,7 +1777,7 @@
                                             as they guide you on your startup journey.<br />Don&#8217;t waste precious time
                                             trying to figure it all out on your own. Get the mentorship you need to thrive in the competitive startup world!</p><br />
 
-                                        <h3 style="text-align:center;color:#001E64;font-weight:bold;font-size:22px;"> wiseAdvizor
+                                        <h3 style="text-align:center;color:#001E64;font-weight:bold;font-size:23px;"> wiseAdvizor
                                             Demystified: Who We're Here For </h3>
                                     </div>
                                 </div>
