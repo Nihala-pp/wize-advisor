@@ -463,6 +463,11 @@
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-back .wpr-flip-box-content {
         padding: 50px 20px 20px 20px !important;
     }
+
+    #uc_blob_shapes_elementor_56bc6db {
+        aspect-ratio: 1 / 1;
+        width: 80%;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
