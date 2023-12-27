@@ -445,7 +445,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: 15px !important;
+        margin-top: 20px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-content {
