@@ -1806,7 +1806,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/professionals.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Professionals</h3>
