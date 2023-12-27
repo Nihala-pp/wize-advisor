@@ -3233,7 +3233,9 @@
                                     data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
                                     data-widget_type="ucaddon_blob_shapes.default">
                                     <div class="elementor-widget-container">
+
                                         <style type="text/css">
+                                        -->< !--
                                         /* widget: Blob Shapes */
 
                                         #uc_blob_shapes_elementor_56bc6db {
@@ -3389,7 +3391,6 @@
                                         <!-- start Blob Shapes -->
                                         <style type="text/css">
                                         /* widget: Blob Shapes */
-
                                         #uc_blob_shapes_elementor_f8230d2 {
                                             mix-blend-mode: overlay;
                                             background-size: cover;
@@ -3436,7 +3437,6 @@
                                             position: relative;
                                         }
                                         </style>
-
                                         <div id="uc_blob_shapes_elementor_f8230d2_justification"
                                             class="ue-blob-wrapper">
                                             <div id="uc_blob_shapes_elementor_f8230d2_size" class="ue_blob_inside">
