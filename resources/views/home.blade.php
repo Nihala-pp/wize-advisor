@@ -369,6 +369,10 @@
         font-family: "Helvetica", Sans-serif;
         font-weight: 600;
     }
+
+    .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-image {
+        margin-bottom: 15px;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
