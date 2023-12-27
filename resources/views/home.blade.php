@@ -453,15 +453,15 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back .wpr-flip-box-content {
-        padding: 50px 20px 20px 20px;
+        padding: 50px 20px 20px 20px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back .wpr-flip-box-content {
-        padding: 45px 20px 20px 20px;
+        padding: 45px 20px 20px 20px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-back .wpr-flip-box-content {
-        padding: 50px 20px 20px 20px;
+        padding: 50px 20px 20px 20px !important;
     }
     </style>
     <link rel="preload"
