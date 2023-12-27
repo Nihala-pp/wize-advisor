@@ -468,6 +468,11 @@
         color: white;
         margin-left: 50px !important;
     }
+
+    #uc_blob_shapes_elementor_605fd17_size {
+        color: white;
+        margin-left: 50px !important;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
