@@ -1772,9 +1772,11 @@
                                             display: inline-block
                                         }
                                         </style>
-                                        <p style="text-align: center;"> Connect 1:1 with successful entrepreneurs and industry leaders
+                                        <p style="text-align: center;"> Connect 1:1 with successful entrepreneurs and
+                                            industry leaders
                                             who&#8217;ve
-                                            walked the path before you. <br />Gain direct access to their wisdom and expertise
+                                            walked the path before you. <br />Gain direct access to their wisdom and
+                                            expertise
                                             as they
                                             guide you on your startup journey.<br />Don&#8217;t waste precious time
                                             trying to
@@ -1782,7 +1784,8 @@
                                             mentorship
                                             you need to thrive in the competitive startup world!</p><br />
 
-                                        <h3 style="text-align:center;color:#001E64;font-weight:bold;font-size:30px;"> wiseAdvizor
+                                        <h3 style="text-align:center;color:#001E64;font-weight:bold;font-size:30px;">
+                                            wiseAdvizor
                                             Demystified: Who We're Here For </h3>
                                     </div>
                                 </div>
@@ -6372,6 +6375,11 @@
                 font-size: 11px;
                 font-family: "Helvetica", Sans-serif;
                 margin-right: 20px;
+            }
+
+            .elementor-4878 .elementor-element.elementor-element-0e640ef>.elementor-widget-container {
+                padding: 0px 0px 0px 0px;
+                color: #150E1F !important;
             }
             </style>
 
