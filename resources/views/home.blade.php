@@ -2052,7 +2052,7 @@
                                     data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
                                     data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h4 class="elementor-heading-title elementor-size-default">How it works</h4>
+                                        <h2 class="elementor-heading-title elementor-size-default">How it works</h2>
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-68748a9 elementor-widget elementor-widget-video"
