@@ -474,7 +474,7 @@
         margin-left: 130px !important;
     }
 
-    #uc_blob_shapes_elementor_56bc6db_size {
+    #uc_blob_shapes_elementor_f8230d2_size {
         color: white;
         margin-left: 130px !important;
     }
