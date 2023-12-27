@@ -466,17 +466,17 @@
 
     #uc_blob_shapes_elementor_56bc6db_size {
         color: white;
-        margin-left: 75px !important;
+        margin-left: 90px !important;
     }
 
     #uc_blob_shapes_elementor_605fd17_size {
         color: white;
-        margin-left: 75px !important;
+        margin-left: 90px !important;
     }
 
     #uc_blob_shapes_elementor_f8230d2_size {
         color: white;
-        margin-left: 75px !important;
+        margin-left: 90px !important;
     }
     </style>
     <link rel="preload"
