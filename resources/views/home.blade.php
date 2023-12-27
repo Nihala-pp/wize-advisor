@@ -440,28 +440,9 @@
         line-height: 1.6em;
     }
 
-    .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-content {
-        padding: 20px 20px 20px 20px;
-        -webkit-justify-content: center;
-        justify-content: center;
-        text-align: center;
-        /* margin-top: 20px !important; */
-    }
-
-    .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-content {
-        padding: 20px 20px 20px 20px;
-        -webkit-justify-content: center;
-        justify-content: center;
-        text-align: center;
-        /* margin-top: 10px !important; */
-    }
-
-    .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-content {
-        padding: 20px 20px 20px 20px;
-        -webkit-justify-content: center;
-        justify-content: center;
-        text-align: center;
-        /* margin-top: 8px !important; */
+    .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-image {
+        margin-top: 32px !important;
+        margin-bottom: 5px;
     }
     </style>
     <link rel="preload"
@@ -1757,7 +1738,8 @@
                                             mentorship
                                             you need to thrive in the competitive startup world!</p><br />
 
-                                        <h4 style="text-align:center;color:#001E64;font-weight:bold;"> wiseAdvizor Demystified: Who We're Here For. </h4>
+                                        <h4 style="text-align:center;color:#001E64;font-weight:bold;"> wiseAdvizor
+                                            Demystified: Who We're Here For. </h4>
                                     </div>
                                 </div>
                             </div>
