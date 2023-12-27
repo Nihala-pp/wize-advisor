@@ -1758,7 +1758,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/enthusiast.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/professionals.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Professionals</h3>
@@ -1812,7 +1812,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/professionals.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/enthusiast.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
