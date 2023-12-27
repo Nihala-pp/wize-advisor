@@ -431,14 +431,30 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-5ec2cae {
-    column-gap: 17px;
-    text-align: justify;
-    color: #444444;
-    font-family: "Open Sans", Sans-serif;
-    font-size: 16px !important;
-    font-weight: 400;
-    line-height: 1.6em;
-}
+        column-gap: 17px;
+        text-align: justify;
+        color: #444444;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 1.6em;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-content {
+        padding: 20px 20px 20px 20px;
+        -webkit-justify-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -5px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-content {
+        padding: 20px 20px 20px 20px;
+        -webkit-justify-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -10px !important;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
