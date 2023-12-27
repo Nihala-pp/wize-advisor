@@ -461,7 +461,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: 15px !important;
+        margin-top: 12px !important;
     }
     </style>
     <link rel="preload"
