@@ -484,6 +484,12 @@
         font-weight: var(--e-global-typography-text-font-weight);
         text-align: center !important;
     }
+
+    .elementor-widget-ucaddon_blob_shapes .ue-blob-text {
+        font-family: var(--e-global-typography-text-font-family), Sans-serif;
+        font-weight: var(--e-global-typography-text-font-weight);
+        text-align: center !important;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
