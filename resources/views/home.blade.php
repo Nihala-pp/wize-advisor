@@ -466,17 +466,17 @@
 
     #uc_blob_shapes_elementor_56bc6db_size {
         color: white;
-        margin-left: 130px !important;
+        margin-left: 150px !important;
     }
 
     #uc_blob_shapes_elementor_605fd17_size {
         color: white;
-        margin-left: 130px !important;
+        margin-left: 150px !important;
     }
 
     #uc_blob_shapes_elementor_f8230d2_size {
         color: white;
-        margin-left: 130px !important;
+        margin-left: 150px !important;
     }
 
     .elementor-widget-ucaddon_blob_shapes .ue-blob-title {
