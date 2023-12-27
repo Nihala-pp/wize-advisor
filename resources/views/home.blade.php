@@ -3207,7 +3207,6 @@
                                         <div class="uc_overlay_image_carousel"
                                             id="uc_uc_card_post_carousel_elementor_df03b3c" data-custom-sethtml="true">
                                             <div class="uc_carousel owl-carousel owl-theme uc-items-wrapper">
-
                                             </div>
                                         </div>
 
