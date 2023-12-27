@@ -1755,7 +1755,7 @@
                                             trying to
                                             figure it all out on your own. Connect with a Mentor today and get the
                                             mentorship
-                                            you need to thrive in the competitive startup world!</p>
+                                            you need to thrive in the competitive startup world!</p><br /><br />
 
                                         <p style="text-align: center;color:#001E64;"> wiseAdvizor Demystified: Who We're Here For. </p>
                                     </div>
