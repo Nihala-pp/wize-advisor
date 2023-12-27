@@ -409,7 +409,7 @@
     .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back .wpr-flip-box-description {
         color: #ffffff;
         font-family: "Open Sans", Sans-serif;
-        font-size: 17px !important;
+        font-size: 16px !important;
         font-weight: 400;
         margin-bottom: 20px;
     }
