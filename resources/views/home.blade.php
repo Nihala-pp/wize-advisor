@@ -482,6 +482,92 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box {
+    height: 262px;
+    border-radius: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E8E8E8;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-overlay {
+    border-radius: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-content {
+    padding: 20px 20px 20px 20px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-image {
+    margin-bottom: 5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-image img {
+    max-width: 69px;
+    border-radius: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-title {
+    color: #222222;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-item {
+    border-radius: 10px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-description {
+    color: #444444;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back {
+    background-color: #1204A9;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-item {
+    border-radius: 10px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-overlay {
+    border-radius: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back .wpr-flip-box-content {
+    padding: 20px 20px 20px 20px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back .wpr-flip-box-description {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
