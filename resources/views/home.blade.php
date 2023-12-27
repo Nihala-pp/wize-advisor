@@ -442,7 +442,6 @@
 
     .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-image {
         margin-top: 32px !important;
-        margin-bottom: 5px;
     }
     </style>
     <link rel="preload"
