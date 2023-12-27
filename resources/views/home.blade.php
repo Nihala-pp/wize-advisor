@@ -4081,7 +4081,7 @@
                                         </blockquote>
                                     </div>
                                 </div>
-                                <section
+                                <!-- <section
                                     class="elementor-section elementor-inner-section elementor-element elementor-element-8124914 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="8124914" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
@@ -4092,10 +4092,11 @@
                                                     data-id="56bc6db" data-element_type="widget"
                                                     data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
                                                     data-widget_type="ucaddon_blob_shapes.default">
-                                                    <div class="elementor-widget-container"> -->
-                                                        start Blob Shapes -->
-                                                        <style type="text/css">
-                                                        /* widget: Blob Shapes */
+                                                    <div class="elementor-widget-container">
+                                              
+                                                        <style type="text/css"> -->
+
+                                                        <!-- /* widget: Blob Shapes */
 
                                                         #uc_blob_shapes_elementor_56bc6db {
                                                             mix-blend-mode: overlay;
@@ -4142,9 +4143,9 @@
                                                         .ue_blob_inside {
                                                             position: relative;
                                                         }
-                                                        </style>
+                                                        </style> -->
 
-                                                        <div id="uc_blob_shapes_elementor_56bc6db_justification"
+                                                        <!-- <div id="uc_blob_shapes_elementor_56bc6db_justification"
                                                             class="ue-blob-wrapper">
                                                             <div id="uc_blob_shapes_elementor_56bc6db_size"
                                                                 class="ue_blob_inside">
@@ -4157,9 +4158,9 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <!-- end Blob Shapes -->
-                                                    </div>
+                                                    <!-- </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -4170,10 +4171,10 @@
                                                     data-id="605fd17" data-element_type="widget"
                                                     data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
                                                     data-widget_type="ucaddon_blob_shapes.default">
-                                                    <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-container"> -->
                                                         <!-- start Blob Shapes -->
-                                                        <style type="text/css">
-                                                        /* widget: Blob Shapes */
+                                                        <!-- <style type="text/css"> -->
+                                                        <!-- /* widget: Blob Shapes */
 
                                                         #uc_blob_shapes_elementor_605fd17 {
                                                             mix-blend-mode: overlay;
@@ -4235,9 +4236,9 @@
                                                                     <div class="ue-blob-text">{{ $calls }}</div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <!-- end Blob Shapes -->
-                                                    </div>
+                                                    <!-- </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -4248,10 +4249,10 @@
                                                     data-id="f8230d2" data-element_type="widget"
                                                     data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
                                                     data-widget_type="ucaddon_blob_shapes.default">
-                                                    <div class="elementor-widget-container">
+                                                    <div class="elementor-widget-container"> -->
                                                         <!-- start Blob Shapes -->
-                                                        <style type="text/css">
-                                                        /* widget: Blob Shapes */
+                                                        <!-- <style type="text/css"> -->
+                                                        <!-- /* widget: Blob Shapes */
 
                                                         #uc_blob_shapes_elementor_f8230d2 {
                                                             mix-blend-mode: overlay;
@@ -4311,14 +4312,14 @@
                                                                     <div class="ue-blob-text">{{ $users }}</div>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <!-- end Blob Shapes -->
-                                                        << /div>
+                                                        <!-- </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                </section>
+                                </section> -->
                             </div>
                         </div>
                     </div>
