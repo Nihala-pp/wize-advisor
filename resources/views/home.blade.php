@@ -413,6 +413,22 @@
         font-weight: 400;
         margin-bottom: 20px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back .wpr-flip-box-description {
+        color: #ffffff;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 16px !important;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-back .wpr-flip-box-description {
+        color: #ffffff;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 16px !important;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
