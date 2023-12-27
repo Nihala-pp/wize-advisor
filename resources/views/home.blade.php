@@ -1783,7 +1783,7 @@
                                             you need to thrive in the competitive startup world!</p><br />
 
                                         <h3 style="text-align:center;color:#001E64;font-weight:bold;font-size:24px;"> wiseAdvizor
-                                            Demystified: Who We're Here For. </h3>
+                                            Demystified: Who We're Here For </h3>
                                     </div>
                                 </div>
                             </div>
