@@ -453,7 +453,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: 15px !important;
+        margin-top: 10px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-content {
@@ -461,7 +461,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: 12px !important;
+        margin-top: 8px !important;
     }
     </style>
     <link rel="preload"
