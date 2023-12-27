@@ -3855,6 +3855,10 @@ h6,
     fill: #fff;
     margin-top: 20px;
 }
+
+.elementor-widget-container p {
+    color: #150E1F !important;
+}
 </style>
 
 </html>

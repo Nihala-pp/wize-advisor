@@ -6377,9 +6377,6 @@
                 margin-right: 20px;
             }
 
-            .elementor-widget-container p {
-                color: #150E1F !important;
-            }
             </style>
 
             <div class="unlimited-elements-background-overlay" data-forid="b513049" data-location="back"
