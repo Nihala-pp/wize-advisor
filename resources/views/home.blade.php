@@ -1235,7 +1235,7 @@
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
     <link rel='stylesheet' id='elementor-pro-css'
-        href='https://web.pransainvestment.ca/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
         media='all' />
     <link rel="stylesheet" id="she-header-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
@@ -1279,6 +1279,18 @@
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
         media="all">
+    <link rel='stylesheet' id='wpr-text-animations-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85'
+        media='all' />
+    <link rel='stylesheet' id='wpr-addons-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85'
+        media='all' />
+    <link rel='stylesheet' id='wpr-button-animations-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85'
+        media='all' />
+    <link rel='stylesheet' id='wpr-animations-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85'
+        media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -1875,7 +1887,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://web.pransainvestment.ca/wp-content/uploads/2023/12/service-7.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/12/service-7.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
@@ -1930,7 +1942,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://web.pransainvestment.ca/wp-content/uploads/2023/12/service-5.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/12/service-5.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Professionals</h3>
@@ -1984,7 +1996,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://web.pransainvestment.ca/wp-content/uploads/2023/12/service-4.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/12/service-4.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
@@ -5461,6 +5473,21 @@
                 id="niso-carousel-lightbox.min-js"></script>
             <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js') }}">
             </script>
+            <script
+                src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+                id="wpr-particles-js"></script>
+            <script
+                src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
+                id="wpr-jarallax-js"></script>
+            <script
+                src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
+                id="wpr-parallax-hover-js"></script>
+            <script data-cfasync="false"
+                src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+                id="wpr-addons-js-js"></script>
+            <script
+                src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.85"
+                id="wpr-modal-popups-js-js"></script>
             <script id="qi-addons-for-elementor-script-js-extra">
             var qodefQiAddonsGlobal = {
                 "vars": {
