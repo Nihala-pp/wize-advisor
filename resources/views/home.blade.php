@@ -464,9 +464,9 @@
         padding: 50px 20px 20px 20px !important;
     }
 
-    #uc_blob_shapes_elementor_56bc6db {
-        aspect-ratio: 1 / 1;
-        width: 80% !important;
+    #uc_blob_shapes_elementor_56bc6db_size {
+        color: white;
+        margin-left: 50px !important;
     }
     </style>
     <link rel="preload"
