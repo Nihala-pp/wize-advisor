@@ -3235,7 +3235,6 @@
                                     <div class="elementor-widget-container">
 
                                         <style type="text/css">
-                                        -->< !--
                                         /* widget: Blob Shapes */
 
                                         #uc_blob_shapes_elementor_56bc6db {
