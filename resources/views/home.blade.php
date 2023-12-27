@@ -445,7 +445,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: -5px !important;
+        margin-top: 15px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-content {
@@ -453,7 +453,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: -10px !important;
+        margin-top: 15px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-content {
@@ -461,7 +461,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        margin-top: -4px !important;
+        margin-top: 15px !important;
     }
     </style>
     <link rel="preload"
