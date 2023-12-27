@@ -1777,7 +1777,7 @@
 
                                                     <div class="wpr-flip-box-image">
                                                         <img decoding="async" alt=""
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/entrepreneur.png">
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png">
                                                     </div>
 
                                                     <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
