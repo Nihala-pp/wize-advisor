@@ -429,6 +429,16 @@
         font-weight: 400;
         margin-bottom: 10px !important;
     }
+
+    .elementor-8 .elementor-element.elementor-element-5ec2cae {
+    column-gap: 17px;
+    text-align: justify;
+    color: #444444;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 1.6em;
+}
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
