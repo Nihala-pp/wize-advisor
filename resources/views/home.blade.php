@@ -565,6 +565,12 @@
         font-weight: 400;
         margin-bottom: 20px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
+        color: #330252;;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
