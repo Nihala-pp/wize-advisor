@@ -451,6 +451,18 @@
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-image {
         padding-top: 20px !important;
     }
+
+    .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back .wpr-flip-box-content {
+        padding: 50px 20px 20px 20px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back .wpr-flip-box-content {
+        padding: 45px 20px 20px 20px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-back .wpr-flip-box-content {
+        padding: 50px 20px 20px 20px;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
