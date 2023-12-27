@@ -1588,516 +1588,226 @@
                     </div>
                 </section>
                 <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-b513049 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="b513049" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-760199c"
-                            data-id="760199c" data-element_type="column">
+                    class="elementor-section elementor-top-section elementor-element elementor-element-2bdeaec elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                    data-id="2bdeaec" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3734ebf"
+                            data-id="3734ebf" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-0c4f5bc elementor-blockquote--skin-quotation elementor-blockquote--align-center elementor-blockquote--button-color-official elementor-widget elementor-widget-blockquote"
-                                    data-id="0c4f5bc" data-element_type="widget" data-widget_type="blockquote.default">
+                                <div class="elementor-element elementor-element-5ec2cae elementor-widget elementor-widget-text-editor"
+                                    data-id="5ec2cae" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <style>
-                                        /*! elementor-pro - v3.5.0 - 01-11-2021 */
-                                        @charset "UTF-8";
-
-                                        .entry-content blockquote.elementor-blockquote:not(.alignright):not(.alignleft),
-                                        .entry-summary blockquote.elementor-blockquote {
-                                            margin-right: 0;
-                                            margin-left: 0
-                                        }
-
-                                        .elementor-widget-blockquote blockquote {
-                                            margin: 0;
-                                            padding: 0;
-                                            outline: 0;
-                                            font-size: 100%;
-                                            vertical-align: baseline;
-                                            background: transparent;
-                                            quotes: none;
-                                            border: 0;
-                                            font-style: normal;
-                                            color: #55595c
-                                        }
-
-                                        .elementor-widget-blockquote blockquote:after,
-                                        .elementor-widget-blockquote blockquote:before,
-                                        .elementor-widget-blockquote blockquote cite:after,
-                                        .elementor-widget-blockquote blockquote cite:before,
-                                        .elementor-widget-blockquote blockquote footer:after,
-                                        .elementor-widget-blockquote blockquote footer:before {
-                                            content: "";
-                                            content: none
-                                        }
-
-                                        .elementor-blockquote {
-                                            -webkit-transition: .3s;
-                                            -o-transition: .3s;
-                                            transition: .3s
-                                        }
-
-                                        .elementor-blockquote__author,
-                                        .elementor-blockquote__content {
-                                            margin-bottom: 0;
-                                            font-style: normal
-                                        }
-
-                                        .elementor-blockquote__author {
-                                            font-weight: 700
-                                        }
-
-                                        .elementor-blockquote footer {
-                                            margin-top: 12px;
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -webkit-box-pack: justify;
-                                            -ms-flex-pack: justify;
-                                            justify-content: space-between
-                                        }
-
-                                        .elementor-blockquote__tweet-button {
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -webkit-transition: .3s;
-                                            -o-transition: .3s;
-                                            transition: .3s;
-                                            color: #1da1f2;
-                                            -ms-flex-item-align: end;
-                                            align-self: flex-end;
-                                            line-height: 1;
-                                            position: relative;
-                                            width: -webkit-max-content;
-                                            width: -moz-max-content;
-                                            width: max-content
-                                        }
-
-                                        .elementor-blockquote__tweet-button:hover {
-                                            color: #0967a0
-                                        }
-
-                                        .elementor-blockquote__tweet-button span {
-                                            font-weight: 600
-                                        }
-
-                                        .elementor-blockquote__tweet-button i,
-                                        .elementor-blockquote__tweet-button span {
-                                            vertical-align: middle
-                                        }
-
-                                        .elementor-blockquote__tweet-button i+span,
-                                        .elementor-blockquote__tweet-button svg+span {
-                                            margin-left: .5em
-                                        }
-
-                                        .elementor-blockquote__tweet-button svg {
-                                            fill: #1da1f2;
-                                            height: 1em;
-                                            width: 1em
-                                        }
-
-                                        .elementor-blockquote__tweet-label {
-                                            white-space: pre-wrap
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button,
-                                        .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button {
-                                            padding: .7em 1.2em;
-                                            border-radius: 100em;
-                                            background-color: #1da1f2;
-                                            color: #fff;
-                                            font-size: 15px
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:hover,
-                                        .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button:hover {
-                                            background-color: #0967a0;
+                                        /*! elementor - v3.18.0 - 20-12-2023 */
+                                        .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                            background-color: #69727d;
                                             color: #fff
                                         }
 
-                                        .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:hover:before,
-                                        .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button:hover:before {
-                                            border-right-color: #0967a0
+                                        .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                            color: #69727d;
+                                            border: 3px solid;
+                                            background-color: transparent
                                         }
 
-                                        .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button svg,
-                                        .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button svg {
-                                            fill: #fff;
-                                            height: 1em;
-                                            width: 1em
+                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                            margin-top: 8px
                                         }
 
-                                        .elementor-blockquote--button-skin-bubble.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button,
-                                        .elementor-blockquote--button-skin-classic.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button {
-                                            padding: 0;
-                                            width: 2em;
-                                            height: 2em
+                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                            width: 1em;
+                                            height: 1em
                                         }
 
-                                        .elementor-blockquote--button-skin-bubble.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button i,
-                                        .elementor-blockquote--button-skin-classic.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button i {
-                                            position: absolute;
-                                            left: 50%;
-                                            top: 50%;
-                                            -webkit-transform: translate(-50%, -50%);
-                                            -ms-transform: translate(-50%, -50%);
-                                            transform: translate(-50%, -50%)
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:before {
-                                            content: "";
-                                            border: .5em solid transparent;
-                                            border-right-color: #1da1f2;
-                                            position: absolute;
-                                            left: -.8em;
-                                            top: 50%;
-                                            -webkit-transform: translateY(-50%) scaleY(.65);
-                                            -ms-transform: translateY(-50%) scaleY(.65);
-                                            transform: translateY(-50%) scaleY(.65);
-                                            -webkit-transition: .3s;
-                                            -o-transition: .3s;
-                                            transition: .3s
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-left .elementor-blockquote__tweet-button:before {
-                                            right: auto;
-                                            left: -.8em;
-                                            border-right-color: #1da1f2;
-                                            border-left-color: transparent
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-left .elementor-blockquote__tweet-button:hover:before {
-                                            border-right-color: #0967a0
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-right .elementor-blockquote__tweet-button:before {
-                                            left: auto;
-                                            right: -.8em;
-                                            border-right-color: transparent;
-                                            border-left-color: #1da1f2
-                                        }
-
-                                        .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-right .elementor-blockquote__tweet-button:hover:before {
-                                            border-left-color: #0967a0
-                                        }
-
-                                        .elementor-blockquote--skin-boxed .elementor-blockquote {
-                                            background-color: #e6e9ec;
-                                            padding: 30px
-                                        }
-
-                                        .elementor-blockquote--skin-border .elementor-blockquote {
-                                            border-color: #e6e9ec;
-                                            border-left: 7px #e6e9ec;
-                                            border-style: solid;
-                                            padding-left: 20px
-                                        }
-
-                                        .elementor-blockquote--skin-quotation .elementor-blockquote:before {
-                                            content: "“";
-                                            font-size: 100px;
-                                            color: #e6e9ec;
-                                            font-family: Times New Roman, Times, serif;
-                                            font-weight: 900;
+                                        .elementor-widget-text-editor .elementor-drop-cap {
+                                            float: left;
+                                            text-align: center;
                                             line-height: 1;
-                                            display: block;
-                                            height: .6em
+                                            font-size: 50px
                                         }
 
-                                        .elementor-blockquote--skin-quotation .elementor-blockquote__content {
-                                            margin-top: 15px
-                                        }
-
-                                        .elementor-blockquote--align-left .elementor-blockquote__content {
-                                            text-align: left
-                                        }
-
-                                        .elementor-blockquote--align-left .elementor-blockquote footer {
-                                            -webkit-box-orient: horizontal;
-                                            -webkit-box-direction: normal;
-                                            -ms-flex-direction: row;
-                                            flex-direction: row
-                                        }
-
-                                        .elementor-blockquote--align-right .elementor-blockquote__content {
-                                            text-align: right
-                                        }
-
-                                        .elementor-blockquote--align-right .elementor-blockquote footer {
-                                            -webkit-box-orient: horizontal;
-                                            -webkit-box-direction: reverse;
-                                            -ms-flex-direction: row-reverse;
-                                            flex-direction: row-reverse
-                                        }
-
-                                        .elementor-blockquote--align-center .elementor-blockquote {
-                                            text-align: center
-                                        }
-
-                                        .elementor-blockquote--align-center .elementor-blockquote__author,
-                                        .elementor-blockquote--align-center .elementor-blockquote footer {
-                                            display: block
-                                        }
-
-                                        .elementor-blockquote--align-center .elementor-blockquote__tweet-button {
-                                            margin-right: auto;
-                                            margin-left: auto
+                                        .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                            display: inline-block
                                         }
                                         </style>
-                                        <blockquote class="elementor-blockquote">
-                                            <p class="elementor-blockquote__content">
-                                                Mentoring is vital for startups as it provides expert guidance,
-                                                networking
-                                                opportunities, and experience-based learning, empowering them to
-                                                navigate
-                                                challenges and thrive in the competitive business landscape. </p>
-                                            <footer>
-                                                <cite class="elementor-blockquote__author">Deep Shikha </br> Co -
-                                                    Founder</cite>
-                                            </footer>
-                                        </blockquote>
+                                        <p style="text-align: center;">wiseAdvizor is the solution you&#8217;ve been
+                                            searching
+                                            for. Connect 1:1 with successful entrepreneurs and industry leaders
+                                            who&#8217;ve
+                                            walked the path before you. Gain direct access to their wisdom and expertise
+                                            as they
+                                            guide you on your startup journey.<br />Don&#8217;t waste precious time
+                                            trying to
+                                            figure it all out on your own. Connect with a Mentor today and get the
+                                            mentorship
+                                            you need to thrive in the competitive startup world!</p>
                                     </div>
                                 </div>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-8124914 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="8124914" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-445f2a6"
-                                            data-id="445f2a6" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-56bc6db elementor-widget elementor-widget-ucaddon_blob_shapes"
-                                                    data-id="56bc6db" data-element_type="widget"
-                                                    data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
-                                                    data-widget_type="ucaddon_blob_shapes.default">
-                                                    <div class="elementor-widget-container">
-                                                        <!-- start Blob Shapes -->
-                                                        <style type="text/css">
-                                                        /* widget: Blob Shapes */
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-a9a15f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                    data-id="a9a15f2" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-742d26e"
+                            data-id="742d26e" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-10e0acf wpr-flip-box-animation-flip wpr-flip-box-animation-3d-yes wpr-flip-box-anim-direction-right wpr-flip-box-front-align-center wpr-flip-box-back-align-center elementor-widget elementor-widget-wpr-flip-box"
+                                    data-id="10e0acf" data-element_type="widget"
+                                    data-widget_type="wpr-flip-box.default">
+                                    <div class="elementor-widget-container">
 
-                                                        #uc_blob_shapes_elementor_56bc6db {
-                                                            mix-blend-mode: overlay;
-                                                            background-size: cover;
-                                                            background-repeat: no-repeat;
-                                                            background-position: center center;
-                                                            opacity: 100%;
-                                                        }
+                                        <div class="wpr-flip-box" data-trigger="hover">
 
-                                                        #uc_blob_shapes_elementor_56bc6db_justification {
-                                                            display: flex;
-                                                            min-height: 1px;
-                                                        }
+                                            <div
+                                                class="wpr-flip-box-item wpr-flip-box-front wpr-anim-timing-ease-default">
 
-                                                        #uc_blob_shapes_elementor_56bc6db_size {
-                                                            overflow: hidden;
-                                                            width: 100%;
-                                                            clip-path: polygon(70.400% 19.900%, 72.500% 21.400%, 74.600% 22.900%, 76.800% 24.300%, 79.000% 25.700%, 81.100% 27.100%, 83.200% 28.500%, 85.300% 29.900%, 87.300% 31.400%, 89.200% 32.900%, 91.000% 34.400%, 92.700% 35.900%, 94.200% 37.500%, 95.600% 39.100%, 96.800% 40.800%, 97.800% 42.500%, 98.600% 44.300%, 99.200% 46.200%, 99.600% 48.200%, 99.800% 50.200%, 99.800% 52.200%, 99.600% 54.300%, 99.300% 56.400%, 98.800% 58.500%, 98.100% 60.600%, 97.300% 62.600%, 96.300% 64.600%, 95.200% 66.500%, 94.000% 68.400%, 92.700% 70.200%, 91.200% 71.900%, 89.600% 73.500%, 87.900% 74.900%, 86.100% 76.200%, 84.300% 77.400%, 82.400% 78.500%, 80.400% 79.500%, 78.400% 80.400%, 76.300% 81.200%, 74.200% 82.000%, 72.000% 82.700%, 69.800% 83.400%, 67.600% 84.100%, 65.300% 84.800%, 63.000% 85.500%, 60.700% 86.200%, 58.400% 86.900%, 56.100% 87.700%, 53.800% 88.600%, 51.600% 89.500%, 49.400% 90.500%, 47.200% 91.500%, 45.000% 92.600%, 42.900% 93.700%, 40.800% 94.700%, 38.700% 95.700%, 36.600% 96.600%, 34.600% 97.500%, 32.600% 98.300%, 30.700% 99.000%, 28.800% 99.500%, 26.900% 99.900%, 25.100% 100.100%, 23.300% 100.100%, 21.600% 99.900%, 19.900% 99.500%, 18.300% 98.900%, 16.700% 98.100%, 15.200% 97.100%, 13.800% 95.900%, 12.400% 94.600%, 11.100% 93.200%, 9.800% 91.600%, 8.600% 89.900%, 7.500% 88.100%, 6.500% 86.300%, 5.500% 84.400%, 4.600% 82.500%, 3.800% 80.500%, 3.100% 78.500%, 2.400% 76.500%, 1.800% 74.500%, 1.300% 72.500%, 0.900% 70.500%, 0.500% 68.500%, 0.200% 66.500%, 0.000% 64.500%, -0.200% 62.500%, -0.300% 60.500%, 0.000% 58.700%, 0.000% 56.700%, 0.000% 54.700%, 0.000% 52.700%, 0.100% 50.700%, 0.200% 48.700%, 0.300% 46.700%, 0.400% 44.600%, 0.600% 42.500%, 0.800% 40.400%, 1.000% 38.300%, 1.300% 36.200%, 1.600% 34.100%, 1.900% 32.000%, 2.300% 29.900%, 2.800% 27.800%, 3.300% 25.800%, 3.900% 23.800%, 4.600% 21.800%, 5.400% 19.900%, 6.300% 18.000%, 7.300% 16.200%, 8.400% 14.400%, 9.600% 12.700%, 11.000% 11.100%, 12.500% 9.600%, 14.100% 8.200%, 15.800% 6.800%, 17.600% 5.500%, 19.400% 4.300%, 21.300% 3.300%, 23.200% 2.400%, 25.200% 1.600%, 27.200% 0.900%, 29.300% 0.400%, 31.400% -0.000%, 33.500% -0.200%, 35.500% 0.000%, 37.500% 0.100%, 39.500% 0.400%, 41.500% 0.900%, 43.400% 1.500%, 45.300% 2.300%, 47.200% 3.200%, 49.100% 4.200%, 51.000% 5.300%, 52.900% 6.500%, 54.800% 7.800%, 56.700% 9.200%, 58.600% 10.700%, 60.500% 12.200%, 62.400% 13.700%, 64.400% 15.200%, 66.400% 16.800%, 68.400% 18.300%, 70.400% 19.900%);
-                                                            -webkit-clip-path: polygon(70.400% 19.900%, 72.500% 21.400%, 74.600% 22.900%, 76.800% 24.300%, 79.000% 25.700%, 81.100% 27.100%, 83.200% 28.500%, 85.300% 29.900%, 87.300% 31.400%, 89.200% 32.900%, 91.000% 34.400%, 92.700% 35.900%, 94.200% 37.500%, 95.600% 39.100%, 96.800% 40.800%, 97.800% 42.500%, 98.600% 44.300%, 99.200% 46.200%, 99.600% 48.200%, 99.800% 50.200%, 99.800% 52.200%, 99.600% 54.300%, 99.300% 56.400%, 98.800% 58.500%, 98.100% 60.600%, 97.300% 62.600%, 96.300% 64.600%, 95.200% 66.500%, 94.000% 68.400%, 92.700% 70.200%, 91.200% 71.900%, 89.600% 73.500%, 87.900% 74.900%, 86.100% 76.200%, 84.300% 77.400%, 82.400% 78.500%, 80.400% 79.500%, 78.400% 80.400%, 76.300% 81.200%, 74.200% 82.000%, 72.000% 82.700%, 69.800% 83.400%, 67.600% 84.100%, 65.300% 84.800%, 63.000% 85.500%, 60.700% 86.200%, 58.400% 86.900%, 56.100% 87.700%, 53.800% 88.600%, 51.600% 89.500%, 49.400% 90.500%, 47.200% 91.500%, 45.000% 92.600%, 42.900% 93.700%, 40.800% 94.700%, 38.700% 95.700%, 36.600% 96.600%, 34.600% 97.500%, 32.600% 98.300%, 30.700% 99.000%, 28.800% 99.500%, 26.900% 99.900%, 25.100% 100.100%, 23.300% 100.100%, 21.600% 99.900%, 19.900% 99.500%, 18.300% 98.900%, 16.700% 98.100%, 15.200% 97.100%, 13.800% 95.900%, 12.400% 94.600%, 11.100% 93.200%, 9.800% 91.600%, 8.600% 89.900%, 7.500% 88.100%, 6.500% 86.300%, 5.500% 84.400%, 4.600% 82.500%, 3.800% 80.500%, 3.100% 78.500%, 2.400% 76.500%, 1.800% 74.500%, 1.300% 72.500%, 0.900% 70.500%, 0.500% 68.500%, 0.200% 66.500%, 0.000% 64.500%, -0.200% 62.500%, -0.300% 60.500%, 0.000% 58.700%, 0.000% 56.700%, 0.000% 54.700%, 0.000% 52.700%, 0.100% 50.700%, 0.200% 48.700%, 0.300% 46.700%, 0.400% 44.600%, 0.600% 42.500%, 0.800% 40.400%, 1.000% 38.300%, 1.300% 36.200%, 1.600% 34.100%, 1.900% 32.000%, 2.300% 29.900%, 2.800% 27.800%, 3.300% 25.800%, 3.900% 23.800%, 4.600% 21.800%, 5.400% 19.900%, 6.300% 18.000%, 7.300% 16.200%, 8.400% 14.400%, 9.600% 12.700%, 11.000% 11.100%, 12.500% 9.600%, 14.100% 8.200%, 15.800% 6.800%, 17.600% 5.500%, 19.400% 4.300%, 21.300% 3.300%, 23.200% 2.400%, 25.200% 1.600%, 27.200% 0.900%, 29.300% 0.400%, 31.400% -0.000%, 33.500% -0.200%, 35.500% 0.000%, 37.500% 0.100%, 39.500% 0.400%, 41.500% 0.900%, 43.400% 1.500%, 45.300% 2.300%, 47.200% 3.200%, 49.100% 4.200%, 51.000% 5.300%, 52.900% 6.500%, 54.800% 7.800%, 56.700% 9.200%, 58.600% 10.700%, 60.500% 12.200%, 62.400% 13.700%, 64.400% 15.200%, 66.400% 16.800%, 68.400% 18.300%, 70.400% 19.900%);
-                                                            background: linear-gradient(45deg, #330252, 50%, #330252 100%);
+                                                <div class="wpr-flip-box-overlay"></div>
 
-                                                        }
+                                                <div class="wpr-flip-box-content">
 
-                                                        #uc_blob_shapes_elementor_56bc6db {
-                                                            aspect-ratio: 1 / 1;
-                                                            width: 100%;
+                                                    <div class="wpr-flip-box-image">
+                                                        <img decoding="async" alt=""
+                                                            src="https://web.pransainvestment.ca/wp-content/uploads/2023/12/service-7.png">
+                                                    </div>
 
-                                                        }
+                                                    <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
 
-                                                        .ue-blob-text-holder {
-                                                            position: absolute;
-                                                            top: 0px;
-                                                            left: 0px;
-                                                            right: 0px;
-                                                            bottom: 0px;
-                                                            width: 100%;
-                                                            height: 100%;
-                                                            z-index: 2;
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            flex-direction: column;
-                                                        }
-
-                                                        .ue_blob_inside {
-                                                            position: relative;
-                                                        }
-                                                        </style>
-
-                                                        <div id="uc_blob_shapes_elementor_56bc6db_justification"
-                                                            class="ue-blob-wrapper">
-                                                            <div id="uc_blob_shapes_elementor_56bc6db_size"
-                                                                class="ue_blob_inside">
-
-                                                                <div id="uc_blob_shapes_elementor_56bc6db"
-                                                                    style="background-image:url()" class="blob"></div>
-                                                                <div class="ue-blob-text-holder">
-                                                                    <div class="ue-blob-title">Total Mentors</div>
-                                                                    <div class="ue-blob-text">{{ $mentors->count() }}
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- end Blob Shapes -->
+                                                    <div class="wpr-flip-box-description">
+                                                        <p>Startups/Entrepreneurs looking for mentorship to navigate
+                                                            challenges,
+                                                            refine strategies, and accelerate growth</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-cf0eed5"
-                                            data-id="cf0eed5" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-605fd17 elementor-widget elementor-widget-ucaddon_blob_shapes"
-                                                    data-id="605fd17" data-element_type="widget"
-                                                    data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
-                                                    data-widget_type="ucaddon_blob_shapes.default">
-                                                    <div class="elementor-widget-container">
-                                                        <!-- start Blob Shapes -->
-                                                        <style type="text/css">
-                                                        /* widget: Blob Shapes */
 
-                                                        #uc_blob_shapes_elementor_605fd17 {
-                                                            mix-blend-mode: overlay;
-                                                            background-size: cover;
-                                                            background-repeat: no-repeat;
-                                                            background-position: center center;
-                                                            opacity: 100%;
-                                                        }
+                                            <div
+                                                class="wpr-flip-box-item wpr-flip-box-back wpr-anim-timing-ease-default">
 
-                                                        #uc_blob_shapes_elementor_605fd17_justification {
-                                                            display: flex;
-                                                            min-height: 1px;
-                                                        }
+                                                <div class="wpr-flip-box-overlay"></div>
 
-                                                        #uc_blob_shapes_elementor_605fd17_size {
-                                                            overflow: hidden;
-                                                            width: 100%;
-                                                            clip-path: polygon(70.400% 19.900%, 72.500% 21.400%, 74.600% 22.900%, 76.800% 24.300%, 79.000% 25.700%, 81.100% 27.100%, 83.200% 28.500%, 85.300% 29.900%, 87.300% 31.400%, 89.200% 32.900%, 91.000% 34.400%, 92.700% 35.900%, 94.200% 37.500%, 95.600% 39.100%, 96.800% 40.800%, 97.800% 42.500%, 98.600% 44.300%, 99.200% 46.200%, 99.600% 48.200%, 99.800% 50.200%, 99.800% 52.200%, 99.600% 54.300%, 99.300% 56.400%, 98.800% 58.500%, 98.100% 60.600%, 97.300% 62.600%, 96.300% 64.600%, 95.200% 66.500%, 94.000% 68.400%, 92.700% 70.200%, 91.200% 71.900%, 89.600% 73.500%, 87.900% 74.900%, 86.100% 76.200%, 84.300% 77.400%, 82.400% 78.500%, 80.400% 79.500%, 78.400% 80.400%, 76.300% 81.200%, 74.200% 82.000%, 72.000% 82.700%, 69.800% 83.400%, 67.600% 84.100%, 65.300% 84.800%, 63.000% 85.500%, 60.700% 86.200%, 58.400% 86.900%, 56.100% 87.700%, 53.800% 88.600%, 51.600% 89.500%, 49.400% 90.500%, 47.200% 91.500%, 45.000% 92.600%, 42.900% 93.700%, 40.800% 94.700%, 38.700% 95.700%, 36.600% 96.600%, 34.600% 97.500%, 32.600% 98.300%, 30.700% 99.000%, 28.800% 99.500%, 26.900% 99.900%, 25.100% 100.100%, 23.300% 100.100%, 21.600% 99.900%, 19.900% 99.500%, 18.300% 98.900%, 16.700% 98.100%, 15.200% 97.100%, 13.800% 95.900%, 12.400% 94.600%, 11.100% 93.200%, 9.800% 91.600%, 8.600% 89.900%, 7.500% 88.100%, 6.500% 86.300%, 5.500% 84.400%, 4.600% 82.500%, 3.800% 80.500%, 3.100% 78.500%, 2.400% 76.500%, 1.800% 74.500%, 1.300% 72.500%, 0.900% 70.500%, 0.500% 68.500%, 0.200% 66.500%, 0.000% 64.500%, -0.200% 62.500%, -0.300% 60.500%, 0.000% 58.700%, 0.000% 56.700%, 0.000% 54.700%, 0.000% 52.700%, 0.100% 50.700%, 0.200% 48.700%, 0.300% 46.700%, 0.400% 44.600%, 0.600% 42.500%, 0.800% 40.400%, 1.000% 38.300%, 1.300% 36.200%, 1.600% 34.100%, 1.900% 32.000%, 2.300% 29.900%, 2.800% 27.800%, 3.300% 25.800%, 3.900% 23.800%, 4.600% 21.800%, 5.400% 19.900%, 6.300% 18.000%, 7.300% 16.200%, 8.400% 14.400%, 9.600% 12.700%, 11.000% 11.100%, 12.500% 9.600%, 14.100% 8.200%, 15.800% 6.800%, 17.600% 5.500%, 19.400% 4.300%, 21.300% 3.300%, 23.200% 2.400%, 25.200% 1.600%, 27.200% 0.900%, 29.300% 0.400%, 31.400% -0.000%, 33.500% -0.200%, 35.500% 0.000%, 37.500% 0.100%, 39.500% 0.400%, 41.500% 0.900%, 43.400% 1.500%, 45.300% 2.300%, 47.200% 3.200%, 49.100% 4.200%, 51.000% 5.300%, 52.900% 6.500%, 54.800% 7.800%, 56.700% 9.200%, 58.600% 10.700%, 60.500% 12.200%, 62.400% 13.700%, 64.400% 15.200%, 66.400% 16.800%, 68.400% 18.300%, 70.400% 19.900%);
-                                                            -webkit-clip-path: polygon(70.400% 19.900%, 72.500% 21.400%, 74.600% 22.900%, 76.800% 24.300%, 79.000% 25.700%, 81.100% 27.100%, 83.200% 28.500%, 85.300% 29.900%, 87.300% 31.400%, 89.200% 32.900%, 91.000% 34.400%, 92.700% 35.900%, 94.200% 37.500%, 95.600% 39.100%, 96.800% 40.800%, 97.800% 42.500%, 98.600% 44.300%, 99.200% 46.200%, 99.600% 48.200%, 99.800% 50.200%, 99.800% 52.200%, 99.600% 54.300%, 99.300% 56.400%, 98.800% 58.500%, 98.100% 60.600%, 97.300% 62.600%, 96.300% 64.600%, 95.200% 66.500%, 94.000% 68.400%, 92.700% 70.200%, 91.200% 71.900%, 89.600% 73.500%, 87.900% 74.900%, 86.100% 76.200%, 84.300% 77.400%, 82.400% 78.500%, 80.400% 79.500%, 78.400% 80.400%, 76.300% 81.200%, 74.200% 82.000%, 72.000% 82.700%, 69.800% 83.400%, 67.600% 84.100%, 65.300% 84.800%, 63.000% 85.500%, 60.700% 86.200%, 58.400% 86.900%, 56.100% 87.700%, 53.800% 88.600%, 51.600% 89.500%, 49.400% 90.500%, 47.200% 91.500%, 45.000% 92.600%, 42.900% 93.700%, 40.800% 94.700%, 38.700% 95.700%, 36.600% 96.600%, 34.600% 97.500%, 32.600% 98.300%, 30.700% 99.000%, 28.800% 99.500%, 26.900% 99.900%, 25.100% 100.100%, 23.300% 100.100%, 21.600% 99.900%, 19.900% 99.500%, 18.300% 98.900%, 16.700% 98.100%, 15.200% 97.100%, 13.800% 95.900%, 12.400% 94.600%, 11.100% 93.200%, 9.800% 91.600%, 8.600% 89.900%, 7.500% 88.100%, 6.500% 86.300%, 5.500% 84.400%, 4.600% 82.500%, 3.800% 80.500%, 3.100% 78.500%, 2.400% 76.500%, 1.800% 74.500%, 1.300% 72.500%, 0.900% 70.500%, 0.500% 68.500%, 0.200% 66.500%, 0.000% 64.500%, -0.200% 62.500%, -0.300% 60.500%, 0.000% 58.700%, 0.000% 56.700%, 0.000% 54.700%, 0.000% 52.700%, 0.100% 50.700%, 0.200% 48.700%, 0.300% 46.700%, 0.400% 44.600%, 0.600% 42.500%, 0.800% 40.400%, 1.000% 38.300%, 1.300% 36.200%, 1.600% 34.100%, 1.900% 32.000%, 2.300% 29.900%, 2.800% 27.800%, 3.300% 25.800%, 3.900% 23.800%, 4.600% 21.800%, 5.400% 19.900%, 6.300% 18.000%, 7.300% 16.200%, 8.400% 14.400%, 9.600% 12.700%, 11.000% 11.100%, 12.500% 9.600%, 14.100% 8.200%, 15.800% 6.800%, 17.600% 5.500%, 19.400% 4.300%, 21.300% 3.300%, 23.200% 2.400%, 25.200% 1.600%, 27.200% 0.900%, 29.300% 0.400%, 31.400% -0.000%, 33.500% -0.200%, 35.500% 0.000%, 37.500% 0.100%, 39.500% 0.400%, 41.500% 0.900%, 43.400% 1.500%, 45.300% 2.300%, 47.200% 3.200%, 49.100% 4.200%, 51.000% 5.300%, 52.900% 6.500%, 54.800% 7.800%, 56.700% 9.200%, 58.600% 10.700%, 60.500% 12.200%, 62.400% 13.700%, 64.400% 15.200%, 66.400% 16.800%, 68.400% 18.300%, 70.400% 19.900%);
-                                                            background: linear-gradient(45deg, #330252 0%, 50%, #330252 100%);
+                                                <div class="wpr-flip-box-content">
 
-                                                        }
-
-                                                        #uc_blob_shapes_elementor_605fd17 {
-                                                            aspect-ratio: 1 / 1;
-                                                            width: 100%;
-
-                                                        }
-
-                                                        .ue-blob-text-holder {
-                                                            position: absolute;
-                                                            top: 0px;
-                                                            left: 0px;
-                                                            right: 0px;
-                                                            bottom: 0px;
-                                                            width: 100%;
-                                                            height: 100%;
-                                                            z-index: 2;
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            flex-direction: column;
-                                                        }
-
-                                                        .ue_blob_inside {
-                                                            position: relative;
-                                                        }
-                                                        </style>
-
-                                                        <div id="uc_blob_shapes_elementor_605fd17_justification"
-                                                            class="ue-blob-wrapper">
-                                                            <div id="uc_blob_shapes_elementor_605fd17_size"
-                                                                class="ue_blob_inside">
-
-                                                                <div id="uc_blob_shapes_elementor_605fd17"
-                                                                    style="background-image:url()" class="blob"></div>
-                                                                <div class="ue-blob-text-holder">
-                                                                    <div class="ue-blob-title">Total Calls Scheduled
-                                                                    </div>
-                                                                    <div class="ue-blob-text">{{ $calls }}</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- end Blob Shapes -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c5517e1"
-                                            data-id="c5517e1" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-f8230d2 elementor-widget elementor-widget-ucaddon_blob_shapes"
-                                                    data-id="f8230d2" data-element_type="widget"
-                                                    data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
-                                                    data-widget_type="ucaddon_blob_shapes.default">
-                                                    <div class="elementor-widget-container">
-                                                        <!-- start Blob Shapes -->
-                                                        <style type="text/css">
-                                                        /* widget: Blob Shapes */
-
-                                                        #uc_blob_shapes_elementor_f8230d2 {
-                                                            mix-blend-mode: overlay;
-                                                            background-size: cover;
-                                                            background-repeat: no-repeat;
-                                                            background-position: center center;
-                                                            opacity: 100%;
-                                                        }
-
-                                                        #uc_blob_shapes_elementor_f8230d2_justification {
-                                                            display: flex;
-                                                            min-height: 1px;
-                                                        }
-
-                                                        #uc_blob_shapes_elementor_f8230d2_size {
-                                                            overflow: hidden;
-                                                            width: 100%;
-                                                            clip-path: polygon(70.400% 19.900%, 72.500% 21.400%, 74.600% 22.900%, 76.800% 24.300%, 79.000% 25.700%, 81.100% 27.100%, 83.200% 28.500%, 85.300% 29.900%, 87.300% 31.400%, 89.200% 32.900%, 91.000% 34.400%, 92.700% 35.900%, 94.200% 37.500%, 95.600% 39.100%, 96.800% 40.800%, 97.800% 42.500%, 98.600% 44.300%, 99.200% 46.200%, 99.600% 48.200%, 99.800% 50.200%, 99.800% 52.200%, 99.600% 54.300%, 99.300% 56.400%, 98.800% 58.500%, 98.100% 60.600%, 97.300% 62.600%, 96.300% 64.600%, 95.200% 66.500%, 94.000% 68.400%, 92.700% 70.200%, 91.200% 71.900%, 89.600% 73.500%, 87.900% 74.900%, 86.100% 76.200%, 84.300% 77.400%, 82.400% 78.500%, 80.400% 79.500%, 78.400% 80.400%, 76.300% 81.200%, 74.200% 82.000%, 72.000% 82.700%, 69.800% 83.400%, 67.600% 84.100%, 65.300% 84.800%, 63.000% 85.500%, 60.700% 86.200%, 58.400% 86.900%, 56.100% 87.700%, 53.800% 88.600%, 51.600% 89.500%, 49.400% 90.500%, 47.200% 91.500%, 45.000% 92.600%, 42.900% 93.700%, 40.800% 94.700%, 38.700% 95.700%, 36.600% 96.600%, 34.600% 97.500%, 32.600% 98.300%, 30.700% 99.000%, 28.800% 99.500%, 26.900% 99.900%, 25.100% 100.100%, 23.300% 100.100%, 21.600% 99.900%, 19.900% 99.500%, 18.300% 98.900%, 16.700% 98.100%, 15.200% 97.100%, 13.800% 95.900%, 12.400% 94.600%, 11.100% 93.200%, 9.800% 91.600%, 8.600% 89.900%, 7.500% 88.100%, 6.500% 86.300%, 5.500% 84.400%, 4.600% 82.500%, 3.800% 80.500%, 3.100% 78.500%, 2.400% 76.500%, 1.800% 74.500%, 1.300% 72.500%, 0.900% 70.500%, 0.500% 68.500%, 0.200% 66.500%, 0.000% 64.500%, -0.200% 62.500%, -0.300% 60.500%, 0.000% 58.700%, 0.000% 56.700%, 0.000% 54.700%, 0.000% 52.700%, 0.100% 50.700%, 0.200% 48.700%, 0.300% 46.700%, 0.400% 44.600%, 0.600% 42.500%, 0.800% 40.400%, 1.000% 38.300%, 1.300% 36.200%, 1.600% 34.100%, 1.900% 32.000%, 2.300% 29.900%, 2.800% 27.800%, 3.300% 25.800%, 3.900% 23.800%, 4.600% 21.800%, 5.400% 19.900%, 6.300% 18.000%, 7.300% 16.200%, 8.400% 14.400%, 9.600% 12.700%, 11.000% 11.100%, 12.500% 9.600%, 14.100% 8.200%, 15.800% 6.800%, 17.600% 5.500%, 19.400% 4.300%, 21.300% 3.300%, 23.200% 2.400%, 25.200% 1.600%, 27.200% 0.900%, 29.300% 0.400%, 31.400% -0.000%, 33.500% -0.200%, 35.500% 0.000%, 37.500% 0.100%, 39.500% 0.400%, 41.500% 0.900%, 43.400% 1.500%, 45.300% 2.300%, 47.200% 3.200%, 49.100% 4.200%, 51.000% 5.300%, 52.900% 6.500%, 54.800% 7.800%, 56.700% 9.200%, 58.600% 10.700%, 60.500% 12.200%, 62.400% 13.700%, 64.400% 15.200%, 66.400% 16.800%, 68.400% 18.300%, 70.400% 19.900%);
-                                                            -webkit-clip-path: polygon(70.400% 19.900%, 72.500% 21.400%, 74.600% 22.900%, 76.800% 24.300%, 79.000% 25.700%, 81.100% 27.100%, 83.200% 28.500%, 85.300% 29.900%, 87.300% 31.400%, 89.200% 32.900%, 91.000% 34.400%, 92.700% 35.900%, 94.200% 37.500%, 95.600% 39.100%, 96.800% 40.800%, 97.800% 42.500%, 98.600% 44.300%, 99.200% 46.200%, 99.600% 48.200%, 99.800% 50.200%, 99.800% 52.200%, 99.600% 54.300%, 99.300% 56.400%, 98.800% 58.500%, 98.100% 60.600%, 97.300% 62.600%, 96.300% 64.600%, 95.200% 66.500%, 94.000% 68.400%, 92.700% 70.200%, 91.200% 71.900%, 89.600% 73.500%, 87.900% 74.900%, 86.100% 76.200%, 84.300% 77.400%, 82.400% 78.500%, 80.400% 79.500%, 78.400% 80.400%, 76.300% 81.200%, 74.200% 82.000%, 72.000% 82.700%, 69.800% 83.400%, 67.600% 84.100%, 65.300% 84.800%, 63.000% 85.500%, 60.700% 86.200%, 58.400% 86.900%, 56.100% 87.700%, 53.800% 88.600%, 51.600% 89.500%, 49.400% 90.500%, 47.200% 91.500%, 45.000% 92.600%, 42.900% 93.700%, 40.800% 94.700%, 38.700% 95.700%, 36.600% 96.600%, 34.600% 97.500%, 32.600% 98.300%, 30.700% 99.000%, 28.800% 99.500%, 26.900% 99.900%, 25.100% 100.100%, 23.300% 100.100%, 21.600% 99.900%, 19.900% 99.500%, 18.300% 98.900%, 16.700% 98.100%, 15.200% 97.100%, 13.800% 95.900%, 12.400% 94.600%, 11.100% 93.200%, 9.800% 91.600%, 8.600% 89.900%, 7.500% 88.100%, 6.500% 86.300%, 5.500% 84.400%, 4.600% 82.500%, 3.800% 80.500%, 3.100% 78.500%, 2.400% 76.500%, 1.800% 74.500%, 1.300% 72.500%, 0.900% 70.500%, 0.500% 68.500%, 0.200% 66.500%, 0.000% 64.500%, -0.200% 62.500%, -0.300% 60.500%, 0.000% 58.700%, 0.000% 56.700%, 0.000% 54.700%, 0.000% 52.700%, 0.100% 50.700%, 0.200% 48.700%, 0.300% 46.700%, 0.400% 44.600%, 0.600% 42.500%, 0.800% 40.400%, 1.000% 38.300%, 1.300% 36.200%, 1.600% 34.100%, 1.900% 32.000%, 2.300% 29.900%, 2.800% 27.800%, 3.300% 25.800%, 3.900% 23.800%, 4.600% 21.800%, 5.400% 19.900%, 6.300% 18.000%, 7.300% 16.200%, 8.400% 14.400%, 9.600% 12.700%, 11.000% 11.100%, 12.500% 9.600%, 14.100% 8.200%, 15.800% 6.800%, 17.600% 5.500%, 19.400% 4.300%, 21.300% 3.300%, 23.200% 2.400%, 25.200% 1.600%, 27.200% 0.900%, 29.300% 0.400%, 31.400% -0.000%, 33.500% -0.200%, 35.500% 0.000%, 37.500% 0.100%, 39.500% 0.400%, 41.500% 0.900%, 43.400% 1.500%, 45.300% 2.300%, 47.200% 3.200%, 49.100% 4.200%, 51.000% 5.300%, 52.900% 6.500%, 54.800% 7.800%, 56.700% 9.200%, 58.600% 10.700%, 60.500% 12.200%, 62.400% 13.700%, 64.400% 15.200%, 66.400% 16.800%, 68.400% 18.300%, 70.400% 19.900%);
-                                                            background: linear-gradient(45deg, #330252 0%, 50%, #330252 100%);
-
-                                                        }
-
-                                                        #uc_blob_shapes_elementor_f8230d2 {
-                                                            aspect-ratio: 1 / 1;
-                                                            width: 100%;
-
-                                                        }
-
-                                                        .ue-blob-text-holder {
-                                                            position: absolute;
-                                                            top: 0px;
-                                                            left: 0px;
-                                                            right: 0px;
-                                                            bottom: 0px;
-                                                            width: 100%;
-                                                            height: 100%;
-                                                            z-index: 2;
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            flex-direction: column;
-                                                        }
-
-                                                        .ue_blob_inside {
-                                                            position: relative;
-                                                        }
-                                                        </style>
-
-                                                        <div id="uc_blob_shapes_elementor_f8230d2_justification"
-                                                            class="ue-blob-wrapper">
-                                                            <div id="uc_blob_shapes_elementor_f8230d2_size"
-                                                                class="ue_blob_inside">
-
-                                                                <div id="uc_blob_shapes_elementor_f8230d2"
-                                                                    style="background-image:url()" class="blob"></div>
-                                                                <div class="ue-blob-text-holder">
-                                                                    <div class="ue-blob-title">Total Users</div>
-                                                                    <div class="ue-blob-text">{{ $users }}</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- end Blob Shapes -->
+                                                    <div class="wpr-flip-box-description">
+                                                        <p style="text-align: center">Whether you are launching a new
+                                                            venture or
+                                                            navigating the challenges of scaling up, seek feedback and
+                                                            insights
+                                                            from startup mentors to break through obstacles and craft an
+                                                            up-to-date growth strategy that propels your business
+                                                            forward.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6c45e41"
+                            data-id="6c45e41" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-a3c7394 wpr-flip-box-animation-flip wpr-flip-box-animation-3d-yes wpr-flip-box-anim-direction-right wpr-flip-box-front-align-center wpr-flip-box-back-align-center elementor-widget elementor-widget-wpr-flip-box"
+                                    data-id="a3c7394" data-element_type="widget"
+                                    data-widget_type="wpr-flip-box.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="wpr-flip-box" data-trigger="hover">
+
+                                            <div
+                                                class="wpr-flip-box-item wpr-flip-box-front wpr-anim-timing-ease-default">
+
+                                                <div class="wpr-flip-box-overlay"></div>
+
+                                                <div class="wpr-flip-box-content">
+
+                                                    <div class="wpr-flip-box-image">
+                                                        <img decoding="async" alt=""
+                                                            src="https://web.pransainvestment.ca/wp-content/uploads/2023/12/service-5.png">
+                                                    </div>
+
+                                                    <h3 class="wpr-flip-box-title">Professionals</h3>
+
+                                                    <div class="wpr-flip-box-description">
+                                                        <p>Professionals looking for mentors to guide them to overcome
+                                                            the
+                                                            challenges, to make strategic decision making.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="wpr-flip-box-item wpr-flip-box-back wpr-anim-timing-ease-default">
+
+                                                <div class="wpr-flip-box-overlay"></div>
+
+                                                <div class="wpr-flip-box-content">
+                                                    <div class="wpr-flip-box-description">
+                                                        <p>Professionals seeking fresh perspectives, facing
+                                                            decision-making
+                                                            dilemmas, or in need of strategic insights can connect with
+                                                            a mentor
+                                                            to navigate their challenges and enhance their professional
+                                                            journey.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-15eee10"
+                            data-id="15eee10" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-ea45af9 wpr-flip-box-animation-flip wpr-flip-box-animation-3d-yes wpr-flip-box-anim-direction-right wpr-flip-box-front-align-center wpr-flip-box-back-align-center elementor-widget elementor-widget-wpr-flip-box"
+                                    data-id="ea45af9" data-element_type="widget"
+                                    data-widget_type="wpr-flip-box.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="wpr-flip-box" data-trigger="hover">
+
+                                            <div
+                                                class="wpr-flip-box-item wpr-flip-box-front wpr-anim-timing-ease-default">
+
+                                                <div class="wpr-flip-box-overlay"></div>
+
+                                                <div class="wpr-flip-box-content">
+
+                                                    <div class="wpr-flip-box-image">
+                                                        <img decoding="async" alt=""
+                                                            src="https://web.pransainvestment.ca/wp-content/uploads/2023/12/service-4.png">
+                                                    </div>
+
+                                                    <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
+
+                                                    <div class="wpr-flip-box-description">
+                                                        <div dir="ltr">Students or recent graduates aspiring to start
+                                                            their own
+                                                            ventures or need guidance on their career.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="wpr-flip-box-item wpr-flip-box-back wpr-anim-timing-ease-default">
+                                                <div class="wpr-flip-box-overlay"></div>
+                                                <div class="wpr-flip-box-content">
+                                                    <div class="wpr-flip-box-description">
+                                                        <p>Aspiring entrepreneurs can kickstart their journey with
+                                                            tailored
+                                                            mentorship. Mentors can guide you through the intricacies of
+                                                            starting a business, offering support and insights to set
+                                                            them on
+                                                            the path to success.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
