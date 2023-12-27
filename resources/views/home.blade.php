@@ -363,6 +363,125 @@
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
+
+    .elementor-8 .elementor-element.elementor-element-2bdeaec {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-2bdeaec {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .elementor-element {
+        --widgets-spacing: 20px 20px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5ec2cae {
+    column-gap: 17px;
+    text-align: justify;
+    color: #444444;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.elementor-8 .elementor-element.elementor-element-5ec2cae {
+    column-gap: 17px;
+    text-align: justify;
+    color: #444444;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.elementor-8 .elementor-element.elementor-element-a9a15f2 {
+    padding: 0px 0px 50px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box {
+    height: 262px;
+    border-radius: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E8E8E8;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-item {
+    border-radius: 10px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-overlay {
+    border-radius: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-content {
+    padding: 20px 20px 20px 20px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-image {
+    margin-bottom: 5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-image img {
+    max-width: 69px;
+    border-radius: 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-title {
+    color: #222222;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-description {
+    color: #444444;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back {
+    background-color: #1204A9;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-item {
+    border-radius: 10px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-overlay {
+    border-radius: 10px;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back .wpr-flip-box-content {
+    padding: 20px 20px 20px 20px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back .wpr-flip-box-description {
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
@@ -4096,7 +4215,7 @@
                                               
                                                         <style type="text/css"> -->
 
-                                                        <!-- /* widget: Blob Shapes */
+                                <!-- /* widget: Blob Shapes */
 
                                                         #uc_blob_shapes_elementor_56bc6db {
                                                             mix-blend-mode: overlay;
@@ -4145,7 +4264,7 @@
                                                         }
                                                         </style> -->
 
-                                                        <!-- <div id="uc_blob_shapes_elementor_56bc6db_justification"
+                                <!-- <div id="uc_blob_shapes_elementor_56bc6db_justification"
                                                             class="ue-blob-wrapper">
                                                             <div id="uc_blob_shapes_elementor_56bc6db_size"
                                                                 class="ue_blob_inside">
@@ -4159,8 +4278,8 @@
                                                                 </div>
                                                             </div>
                                                         </div> -->
-                                                        <!-- end Blob Shapes -->
-                                                    <!-- </div>
+                                <!-- end Blob Shapes -->
+                                <!-- </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -4172,9 +4291,9 @@
                                                     data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
                                                     data-widget_type="ucaddon_blob_shapes.default">
                                                     <div class="elementor-widget-container"> -->
-                                                        <!-- start Blob Shapes -->
-                                                        <!-- <style type="text/css"> -->
-                                                        <!-- /* widget: Blob Shapes */
+                                <!-- start Blob Shapes -->
+                                <!-- <style type="text/css"> -->
+                                <!-- /* widget: Blob Shapes */
 
                                                         #uc_blob_shapes_elementor_605fd17 {
                                                             mix-blend-mode: overlay;
@@ -4237,8 +4356,8 @@
                                                                 </div>
                                                             </div>
                                                         </div> -->
-                                                        <!-- end Blob Shapes -->
-                                                    <!-- </div>
+                                <!-- end Blob Shapes -->
+                                <!-- </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -4250,9 +4369,9 @@
                                                     data-settings="{&quot;motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_effect&quot;:&quot;yes&quot;,&quot;motion_fx_mouseTrack_direction&quot;:&quot;negative&quot;,&quot;motion_fx_mouseTrack_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;1&quot;,&quot;sizes&quot;:[]}}"
                                                     data-widget_type="ucaddon_blob_shapes.default">
                                                     <div class="elementor-widget-container"> -->
-                                                        <!-- start Blob Shapes -->
-                                                        <!-- <style type="text/css"> -->
-                                                        <!-- /* widget: Blob Shapes */
+                                <!-- start Blob Shapes -->
+                                <!-- <style type="text/css"> -->
+                                <!-- /* widget: Blob Shapes */
 
                                                         #uc_blob_shapes_elementor_f8230d2 {
                                                             mix-blend-mode: overlay;
@@ -4313,8 +4432,8 @@
                                                                 </div>
                                                             </div>
                                                         </div> -->
-                                                        <!-- end Blob Shapes -->
-                                                        <!-- </div>
+                                <!-- end Blob Shapes -->
+                                <!-- </div>
                                                     </div>
                                                 </div>
                                             </div>
