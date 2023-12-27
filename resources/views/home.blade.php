@@ -405,6 +405,14 @@
         font-weight: 500;
         margin: 0 0 15px !important;
     }
+
+    .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-back .wpr-flip-box-description {
+        color: #ffffff;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 17px !important;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
