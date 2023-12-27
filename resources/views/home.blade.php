@@ -1778,7 +1778,7 @@
                                             as they
                                             guide you on your startup journey.<br />Don&#8217;t waste precious time
                                             trying to
-                                            figure it all out on your own.Get the
+                                            figure it all out on your own. Get the
                                             mentorship
                                             you need to thrive in the competitive startup world!</p><br />
 
