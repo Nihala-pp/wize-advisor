@@ -1772,7 +1772,7 @@
                                             display: inline-block
                                         }
                                         </style>
-                                        <p style="text-align: center;"> Connect 1:1 with successful entrepreneurs and industry leaders
+                                        <p style="text-align: center;">Connect 1:1 with successful entrepreneurs and industry leaders
                                             who&#8217;ve
                                             walked the path before you. Gain direct access to their wisdom and expertise
                                             as they
@@ -1782,7 +1782,7 @@
                                             mentorship
                                             you need to thrive in the competitive startup world!</p><br />
 
-                                        <h4 style="text-align:center;color:#001E64;font-weight:bold;"> wiseAdvizor
+                                        <h4 style="text-align:center;color:#001E64;font-weight:bold;font-size:16px;"> wiseAdvizor
                                             Demystified: Who We're Here For. </h4>
                                     </div>
                                 </div>
