@@ -381,6 +381,30 @@
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-image {
         margin-bottom: 15px !important;
     }
+
+    .elementor-8 .elementor-element.elementor-element-10e0acf .wpr-flip-box-front .wpr-flip-box-title {
+        color: #222222;
+        font-family: "Poppins", Sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 0 0 15px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-front .wpr-flip-box-title {
+        color: #222222;
+        font-family: "Poppins", Sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 0 0 15px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-front .wpr-flip-box-title {
+        color: #222222;
+        font-family: "Poppins", Sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 0 0 15px !important;
+    }
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
