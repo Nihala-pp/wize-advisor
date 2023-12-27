@@ -411,7 +411,7 @@
         font-family: "Open Sans", Sans-serif;
         font-size: 16px !important;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 10px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-a3c7394 .wpr-flip-box-back .wpr-flip-box-description {
@@ -419,7 +419,7 @@
         font-family: "Open Sans", Sans-serif;
         font-size: 16px !important;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 10px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-ea45af9 .wpr-flip-box-back .wpr-flip-box-description {
@@ -427,7 +427,7 @@
         font-family: "Open Sans", Sans-serif;
         font-size: 16px !important;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 10px !important;
     }
     </style>
     <link rel="preload"
