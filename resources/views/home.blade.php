@@ -466,7 +466,7 @@
 
     #uc_blob_shapes_elementor_56bc6db {
         aspect-ratio: 1 / 1;
-        width: 80%;
+        width: 80% !important;
     }
     </style>
     <link rel="preload"
