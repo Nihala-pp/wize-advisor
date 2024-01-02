@@ -1720,8 +1720,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Time Available</b> <br><br></p> 
-                                                        <p>30 Minutes</p>
+                                                        <b>Time Available</b> <br><br>
+                                                    </p>
+                                                    <p>30 Minutes</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1748,7 +1749,8 @@
                                 data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default">
-                                        <span>$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30 Min</span>
+                                        <span>$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30
+                                            Min</span>
                                     </h5>
                                 </div>
                             </div>
