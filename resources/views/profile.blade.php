@@ -1749,7 +1749,7 @@
                                 data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default">
-                                        <span style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30 Min</span>
+                                        <span>$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30 Min</span>
                                     </h5>
                                 </div>
                             </div>
