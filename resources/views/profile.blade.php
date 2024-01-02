@@ -3885,20 +3885,20 @@ h6,
     margin-top: 10px !important;
 }
 
-.elementor-4878 .elementor-element.elementor-element-dcbce22 > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
     margin: -80px 0px 0px 0px !important;
 }
 
-.elementor-4878 .elementor-element.elementor-element-6b6a93e > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container {
     margin: -90px 0px -5px 0px !important;
 }
 
-.elementor-element .elementor-element-dbbf342  > .elementor-widget-container {
-  margin-bottom: -25px !important;
+.elementor-element .elementor-element-dbbf342>.elementor-widget-container {
+    margin-bottom: -25px !important;
 }
 
-.elementor-element .elementor-element-873ef0b > .elementor-widget-container {
-  margin-top: -60px !important;
+.elementor-element .elementor-element-873ef0b>.elementor-widget-container {
+    margin-top: -60px !important;
 }
 
 p {
@@ -3911,7 +3911,7 @@ li {
 }
 
 .elementor-element .elementor-element-090b83a {
-    background-color:#F3F1F6 !important;
+    background-color: #F3F1F6 !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-090b83a {
@@ -3920,7 +3920,8 @@ li {
     margin-bottom: -32px !important;
 }
 
-.elementor-4878 .elementor-element.elementor-element-4yln1aq:not(.elementor-motion-effects-element-type-background), .elementor-4878 .elementor-element.elementor-element-4yln1aq > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-4878 .elementor-element.elementor-element-4yln1aq:not(.elementor-motion-effects-element-type-background),
+.elementor-4878 .elementor-element.elementor-element-4yln1aq>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #F3F1F6 !important;
     background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1-horiz.png");
     background-position: center right;
@@ -3931,5 +3932,17 @@ li {
     margin-top: -10px !important;
 }
 
+.elementor-4878 .elementor-element.elementor-element-cdd8d8d {
+    --divider-border-style: solid;
+    --divider-color: var(--e-global-color-astglobalcolor0);
+    --divider-border-width: 2px;
+    margin-top: -200px;
+}
+
+.elementor-4878 .elementor-element.elementor-element-422d6d7 {
+    --icon-box-icon-margin: 15px;
+    margin-top: -30px;
+}
 </style>
+
 </html>
