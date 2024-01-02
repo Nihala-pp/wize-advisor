@@ -3166,7 +3166,7 @@
             @if(!empty($data->metaData->articles))
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-fef4299 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                data-id="fef4299" data-element_type="section" style="background-image:url('https://wiseadvizor.com/public/assets/img/v1016-a-08.jpg');">
+                data-id="fef4299" data-element_type="section" style="background-color:#F3F1F6;">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a7f8c6"
                         data-id="3a7f8c6" data-element_type="column">
