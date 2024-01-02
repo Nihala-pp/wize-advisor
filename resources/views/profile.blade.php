@@ -3997,9 +3997,13 @@ li {
 
 .elementor-4878 .elementor-element.elementor-element-c95ee9d > .elementor-widget-container {
     margin: -20px 0px 0px 30px;
-    color: #150E1F !important;
+}
+
+.elementor-4878 .elementor-element.elementor-element-c95ee9d .elementor-heading-title {
+    color: var( --e-global-color-astglobalcolor0 );
+    line-height: 0.1em;
     font-weight: normal;
-    font-size: 16px !important;
+    font-size: 16px;
 }
 </style>
 </html>
