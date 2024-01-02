@@ -4056,6 +4056,9 @@ li {
     font-size: 16px !important;
 }
 
-</style>
+.elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p{
+    font-size: 16px !important;
+}
 
+</style>
 </html>
