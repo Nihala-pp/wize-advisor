@@ -3917,7 +3917,7 @@ li {
 .elementor-4878 .elementor-element.elementor-element-090b83a {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     background-color: #F3F1F6 !important;
-    margin-bottom: -35px !important;
+    margin-bottom: -32px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-4yln1aq:not(.elementor-motion-effects-element-type-background), .elementor-4878 .elementor-element.elementor-element-4yln1aq > .elementor-motion-effects-container > .elementor-motion-effects-layer {
