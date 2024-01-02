@@ -3862,13 +3862,9 @@ h6,
     color: #150E1F !important;
 }
 
-/* .elementor-4878 .elementor-element.elementor-element-9cb279c {
-    font-weight: 200 !important;
-} */
-
 .elementor-4878 .elementor-element.elementor-element-138a60d p {
-    font-weight: 200;
+    font-weight: 400;
+    color:#150E1F !important;
 }
 </style>
-
 </html>
