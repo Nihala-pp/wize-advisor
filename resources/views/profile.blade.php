@@ -3866,5 +3866,9 @@ h6,
     font-weight: 400;
     color:#150E1F !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-a92b341 {
+    margin-top: -25px;
+}
 </style>
 </html>
