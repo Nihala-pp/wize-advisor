@@ -3904,5 +3904,9 @@ h6,
 p {
     font-size: 17px;
 }
+
+li {
+    font-size: 17px;
+}
 </style>
 </html>
