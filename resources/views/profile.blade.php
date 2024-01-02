@@ -3893,8 +3893,12 @@ h6,
     margin: -90px 0px -5px 0px !important;
 }
 
-.elementor-element .elementor-element-dbbf342  > .elementor-widget-container{
+.elementor-element .elementor-element-dbbf342  > .elementor-widget-container {
   margin-bottom: -25px !important;
+}
+
+.elementor-element .elementor-element-873ef0b > .elementor-widget-container {
+  margin-top: -50px !important;
 }
 
 p {
