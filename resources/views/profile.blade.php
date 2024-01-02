@@ -3864,10 +3864,10 @@ h6,
     color: #150E1F !important;
 }
 
-/* .elementor-4878 .elementor-element.elementor-element-138a60d p {
-    font-weight: 400;
+.elementor-4878 .elementor-element.elementor-element-138a60d p {
+    font-weight: normal;
     color: #150E1F !important;
-} */
+}
 
 .elementor-4878 .elementor-element.elementor-element-a92b341 {
     margin-top: -25px;
