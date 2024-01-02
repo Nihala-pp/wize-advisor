@@ -3927,5 +3927,9 @@ li {
     background-repeat: no-repeat;
 }
 
+.elementor-4878 .elementor-element.elementor-element-94a07f3 {
+    margin-top: -10px !important;
+}
+
 </style>
 </html>
