@@ -3858,6 +3858,10 @@ h6,
 .elementor-widget-container p {
     color: #150E1F !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-9cb279c {
+    font-weight: 200 !important;
+}
 </style>
 
 </html>
