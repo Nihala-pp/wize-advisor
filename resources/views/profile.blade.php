@@ -3884,6 +3884,9 @@ h6,
 .availability {
     margin-top: 10px !important;
 }
-</style>
 
+.elementor-4878 .elementor-element.elementor-element-dcbce22 > .elementor-widget-container {
+    margin: -80px 0px 0px 0px !important;
+}
+</style>
 </html>
