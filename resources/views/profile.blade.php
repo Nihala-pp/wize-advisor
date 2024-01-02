@@ -1920,8 +1920,8 @@
                             <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
                                 data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}}
-                                        Review / {{ $totalSessions}} Sessions</p>
+                                    <h5 class="elementor-heading-title elementor-size-default">{{ $totalReviews}}
+                                        Review / {{ $totalSessions}} Sessions</h5>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-144014d elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
