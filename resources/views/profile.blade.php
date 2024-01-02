@@ -3898,7 +3898,7 @@ h6,
 }
 
 .elementor-element .elementor-element-873ef0b > .elementor-widget-container {
-  margin-top: -50px !important;
+  margin-top: -60px !important;
 }
 
 p {
