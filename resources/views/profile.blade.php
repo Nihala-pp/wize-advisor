@@ -3988,5 +3988,18 @@ li {
     font-size: 16px;
     color: #150E1F;
 }
+
+.elementor-4878 .elementor-element.elementor-element-37316f5 > .elementor-widget-container {
+    margin: -30px 15px -30px 30px;
+    color: #150E1F !important;
+    font-size: 16px;
+}
+
+.elementor-element .elementor-element-7bebc4a .elementor-widget-container p {
+    color: #150E1F !important;
+    font-weight: normal;
+    font-size: 16px !important;
+    margin-top: -20px !important;
+}
 </style>
 </html>
