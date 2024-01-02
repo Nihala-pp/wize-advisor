@@ -3936,7 +3936,7 @@ li {
     background-color: #F3F1F6 !important;
 }
 
-.elementor-element .elementor-element-4c9ce4e .elementor-widget .elementor-widget-text-editor {
+.elementor-section .elementor-top-section .elementor-element .elementor-element-fef4299 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     background-color: #F3F1F6 !important;
 }
 </style>
