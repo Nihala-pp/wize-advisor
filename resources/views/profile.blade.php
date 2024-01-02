@@ -1704,9 +1704,9 @@
                                                 data-id="9cb279c" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Languages </b>
-                                                    </p>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        <span>Languages </span>
+                                                    </h5>
                                                     <p>{{ $data->metaData ? $data->metaData->language : '' }}</p>
                                                 </div>
                                             </div>
@@ -1719,9 +1719,9 @@
                                                 data-id="0b592cc" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Time Available</b>
-                                                    </p>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        <span>Time Available</span>
+                                                    </h5>
                                                     <p>30 Minutes</p>
                                                 </div>
                                             </div>
@@ -1734,9 +1734,9 @@
                                                 data-id="4971126" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Next Availability </b>
-                                                    </p>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        <span>Next Availability </span>
+                                                    </h5>
                                                     <p> @if(!empty($nextAvailability))
                                                         {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                         @endif
