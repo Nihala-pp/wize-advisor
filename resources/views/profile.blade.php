@@ -2673,8 +2673,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                       <p> {{ $exp->start_date }} To
-                                                        {{ $exp->end_date ? $exp->end_date : 'Present' }} </p></span>
+                                                        <p> {{ $exp->start_date }} To
+                                                            {{ $exp->end_date ? $exp->end_date : 'Present' }} </p>
+                                                    </span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5c6f3ea elementor-widget elementor-widget-text-editor"
@@ -2853,7 +2854,10 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                        <p>{{ $last_exp->start_date }} To {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}</p></span>
+                                                        <p>{{ $last_exp->start_date }} To
+                                                            {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
+                                                        </p>
+                                                    </span>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-37316f5 elementor-widget elementor-widget-text-editor"
@@ -3943,7 +3947,8 @@ li {
     margin-top: -40px !important;
 }
 
-.elementor-4878 .elementor-element.elementor-element-79woq2o:not(.elementor-motion-effects-element-type-background), .elementor-4878 .elementor-element.elementor-element-79woq2o > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-4878 .elementor-element.elementor-element-79woq2o:not(.elementor-motion-effects-element-type-background),
+.elementor-4878 .elementor-element.elementor-element-79woq2o>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #F3F1F6;
     background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
     background-repeat: no-repeat;
@@ -3963,53 +3968,53 @@ li {
     margin-top: -25px;
 }
 
-.elementor-4878 .elementor-element.elementor-element-3f8ebce > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-3f8ebce>.elementor-widget-container {
     margin: 10px 0px 0px 30px;
 }
 
-.elementor-4878 .elementor-element.elementor-element-3af0bab > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-3af0bab>.elementor-widget-container {
     margin: -20px 0px 0px 30px;
     font-weight: normal !important;
 }
 
-.elementor-element .elementor-element-3af0bab  .elementor-widget-container p {
+.elementor-element .elementor-element-3af0bab .elementor-widget-container p {
     color: #150E1F !important;
     font-weight: normal;
     font-size: 16px !important;
 }
 
-.elementor-4878 .elementor-element.elementor-element-7c40f05 > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-7c40f05>.elementor-widget-container {
     padding: 0px 25px 15px 25px;
 }
 
-.elementor-4878 .elementor-element.elementor-element-5c6f3ea > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-5c6f3ea>.elementor-widget-container {
     margin: -30px 15px -10px 30px;
     font-size: 16px;
     color: #150E1F;
 }
 
-.elementor-4878 .elementor-element.elementor-element-37316f5 > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-37316f5>.elementor-widget-container {
     margin: -30px 15px -10px 30px;
     color: #150E1F !important;
     font-size: 16px;
 }
 
-.elementor-4878 .elementor-element.elementor-element-c95ee9d > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-c95ee9d>.elementor-widget-container {
     margin: -20px 0px 0px 30px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-c95ee9d .elementor-heading-title {
-    color: var( --e-global-color-astglobalcolor0 );
+    color: var(--e-global-color-astglobalcolor0);
     line-height: 0.1em;
     font-weight: normal;
     font-size: 16px;
 }
 
-.elementor-4878 .elementor-element.elementor-element-7bebc4a > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-7bebc4a>.elementor-widget-container {
     margin: 10px 0px 0px 30px;
 }
 
-.elementor-4878 .elementor-element.elementor-element-430d076 > .elementor-widget-container {
+.elementor-4878 .elementor-element.elementor-element-430d076>.elementor-widget-container {
     padding: 0px 25px 15px 25px;
 }
 
@@ -4017,5 +4022,31 @@ li {
     margin-top: -52px;
     margin-bottom: -125px;
 }
+
+.elementor-4878 .elementor-element.elementor-element-9xouvrd:not(.elementor-motion-effects-element-type-background),
+.elementor-4878 .elementor-element.elementor-element-9xouvrd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var(--e-global-color-astglobalcolor4);
+    background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
+    background-repeat: no-repeat;
+    margin-top: -35px;
+}
+
+.elementor-4878 .elementor-element.elementor-element-6f5a20e>.elementor-container {
+    max-width: 1350px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.elementor-4878 .elementor-element.elementor-element-1b99fe0 {
+    --divider-border-style: solid;
+    --divider-color: var(--e-global-color-astglobalcolor0);
+    --divider-border-width: 2px;
+    margin-top: -100px;
+}
+
+.elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul {
+    margin-bottom:-30px;
+}
 </style>
+
 </html>
