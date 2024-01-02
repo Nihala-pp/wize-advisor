@@ -1720,7 +1720,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Time Available</b> <br><br>
+                                                        <b>Time Available</b>
                                                     </p>
                                                     <p>30 Minutes</p>
                                                 </div>
