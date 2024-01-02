@@ -1922,7 +1922,7 @@
                                 data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <p class="elementor-heading-title elementor-size-default">
-                                        <span>{{ $totalReviews}} Review / {{ $totalSessions}} Sessions </span>
+                                        <span>{{ $totalReviews}} Review / {{ $totalSessions}} Sessions</span>
                                     </p>
                                 </div>
                             </div>
