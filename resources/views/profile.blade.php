@@ -3995,11 +3995,11 @@ li {
     font-size: 16px;
 }
 
-.elementor-element .elementor-element-7bebc4a .elementor-widget-container p {
+.elementor-4878 .elementor-element.elementor-element-c95ee9d > .elementor-widget-container {
+    margin: -20px 0px 0px 30px;
     color: #150E1F !important;
     font-weight: normal;
     font-size: 16px !important;
-    margin-top: -20px !important;
 }
 </style>
 </html>
