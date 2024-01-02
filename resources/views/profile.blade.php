@@ -1707,7 +1707,7 @@
                                                     <h5 class="elementor-heading-title elementor-size-default">
                                                         <span>Languages </span>
                                                     </h5>
-                                                    <p>{{ $data->metaData ? $data->metaData->language : '' }}</p>
+                                                    <p class="lang">{{ $data->metaData ? $data->metaData->language : '' }}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1722,7 +1722,7 @@
                                                     <h5 class="elementor-heading-title elementor-size-default">
                                                         <span>Time Available</span>
                                                     </h5>
-                                                    <p>30 Minutes</p>
+                                                    <p class="time">30 Minutes</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1737,7 +1737,7 @@
                                                     <h5 class="elementor-heading-title elementor-size-default">
                                                         <span>Next Availability </span>
                                                     </h5>
-                                                    <p> @if(!empty($nextAvailability))
+                                                    <p class="availability"> @if(!empty($nextAvailability))
                                                         {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                         @endif
                                                     </p>
