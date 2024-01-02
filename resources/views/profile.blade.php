@@ -4049,7 +4049,7 @@ li {
 }
 
 .elementor-element .elementor-element-873ef0b .elementor-widget .elementor-widget-text-editor li {
-    font-size: 16px;
+    font-size: 16px !important;
 } 
 
 </style>
