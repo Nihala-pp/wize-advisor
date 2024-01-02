@@ -3907,6 +3907,7 @@ p {
 
 li {
     font-size: 17px;
+    color: #150E1F !important;
 }
 </style>
 </html>
