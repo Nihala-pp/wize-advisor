@@ -3958,7 +3958,7 @@ li {
     font-size: 16px !important;
 }
 
-.elementor-widget-heading .elementor-heading-title {
+.elementor-element .elementor-element-a7cb679 h3 {
     color: #150E1F;
     text-transform: capitalize !important;
     margin-top: -25px;
