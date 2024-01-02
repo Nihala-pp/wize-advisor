@@ -3950,6 +3950,11 @@ li {
     background-repeat: no-repeat;
     margin-bottom: -80px;
 }
+
+.elementor-widget-icon-box .elementor-icon-box-description {
+    margin: 0;
+    margin-top: -25px;
+}
 </style>
 
 </html>
