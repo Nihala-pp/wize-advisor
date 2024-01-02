@@ -3872,8 +3872,15 @@ h6,
 }
 
 .lang {
-    padding-top: -15px !important;
+    margin-top: 10px !important;
 }
 
+.time {
+    margin-top: 10px !important;
+}
+
+.availability {
+    margin-top: 10px !important;
+}
 </style>
 </html>
