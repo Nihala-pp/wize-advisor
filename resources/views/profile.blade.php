@@ -3872,7 +3872,7 @@ h6,
 }
 
 .lang {
-    margin-top: -2px;
+    padding-top: -2px;
 }
 
 </style>
