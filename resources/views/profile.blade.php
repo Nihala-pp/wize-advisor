@@ -3167,12 +3167,12 @@
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-fef4299 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="fef4299" data-element_type="section" style="background-color:#F3F1F6;">
-                <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-container elementor-column-gap-default" style="background-color:#F3F1F6;">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a7f8c6"
                         data-id="3a7f8c6" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-202f85c elementor-widget elementor-widget-heading"
-                                data-id="202f85c" data-element_type="widget" data-widget_type="heading.default" style="background-color:#F3F1F6;">
+                                data-id="202f85c" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h3 class="elementor-heading-title elementor-size-default">
                                         Featured In</h3>
