@@ -3941,7 +3941,7 @@ li {
 
 .elementor-4878 .elementor-element.elementor-element-422d6d7 {
     --icon-box-icon-margin: 15px;
-    margin-top: -30px;
+    margin-top: -40px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-79woq2o:not(.elementor-motion-effects-element-type-background), .elementor-4878 .elementor-element.elementor-element-79woq2o > .elementor-motion-effects-container > .elementor-motion-effects-layer {
