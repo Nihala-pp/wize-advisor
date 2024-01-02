@@ -3172,7 +3172,7 @@
                         data-id="3a7f8c6" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-202f85c elementor-widget elementor-widget-heading"
-                                data-id="202f85c" data-element_type="widget" data-widget_type="heading.default">
+                                data-id="202f85c" data-element_type="widget" data-widget_type="heading.default" style="background-color:#F3F1F6;">
                                 <div class="elementor-widget-container">
                                     <h3 class="elementor-heading-title elementor-size-default">
                                         Featured In</h3>
