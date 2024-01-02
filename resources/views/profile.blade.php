@@ -2951,6 +2951,48 @@
                     </div>
                 </div>
             </section>
+            @if(!empty($data->metaData->articles))
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-fef4299 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                data-id="fef4299" data-element_type="section" style="background-color:#F3F1F6;">
+                <div class="elementor-container elementor-column-gap-default" style="background-color:#F3F1F6;">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a7f8c6"
+                        data-id="3a7f8c6" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-202f85c elementor-widget elementor-widget-heading"
+                                data-id="202f85c" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h3 class="elementor-heading-title elementor-size-default">
+                                        Featured In</h3>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-1b99fe0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                data-id="1b99fe0" data-element_type="widget" data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-4c9ce4e elementor-widget elementor-widget-text-editor"
+                                data-id="4c9ce4e" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <ul>
+                                        @foreach($articles as $article)
+                                        <li><a href="{{ $article->name }}">{{ $article->name }}</a></li>
+                                        @endforeach
+                                        <!-- <li>https://www.sada-elarab.com/166309</li>
+                                    <li>https://alnaasher.com/archives/83532</li>
+                                    <li>https://ahlmasrnews.com/904242</li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            @endif
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-9xouvrd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="9xouvrd" data-element_type="section"
@@ -3163,48 +3205,6 @@
                     </div>
                 </div>
             </section>
-            @if(!empty($data->metaData->articles))
-            <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-fef4299 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                data-id="fef4299" data-element_type="section" style="background-color:#F3F1F6;">
-                <div class="elementor-container elementor-column-gap-default" style="background-color:#F3F1F6;">
-                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3a7f8c6"
-                        data-id="3a7f8c6" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-202f85c elementor-widget elementor-widget-heading"
-                                data-id="202f85c" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    <h3 class="elementor-heading-title elementor-size-default">
-                                        Featured In</h3>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-1b99fe0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                data-id="1b99fe0" data-element_type="widget" data-widget_type="divider.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-divider">
-                                        <span class="elementor-divider-separator">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-4c9ce4e elementor-widget elementor-widget-text-editor"
-                                data-id="4c9ce4e" data-element_type="widget" data-widget_type="text-editor.default">
-                                <div class="elementor-widget-container">
-                                    <ul>
-                                        @foreach($articles as $article)
-                                        <li><a href="{{ $article->name }}">{{ $article->name }}</a></li>
-                                        @endforeach
-                                        <!-- <li>https://www.sada-elarab.com/166309</li>
-                                    <li>https://alnaasher.com/archives/83532</li>
-                                    <li>https://ahlmasrnews.com/904242</li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            @endif
         </div>
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
