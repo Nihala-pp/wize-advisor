@@ -3957,5 +3957,12 @@ li {
     margin-bottom: 20px;
     font-size: 16px !important;
 }
+
+.elementor-widget-heading .elementor-heading-title {
+    color: #150E1F;
+    text-transform: capitalize !important;
+    margin-top: -25px;
+    margin-bottom: -30px;
+}
 </style>
 </html>
