@@ -3913,5 +3913,10 @@ li {
 .elementor-element .elementor-element-090b83a {
     background-color:#F3F1F6 !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-090b83a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    background-color: #F3F1F6 !important;
+}
 </style>
 </html>
