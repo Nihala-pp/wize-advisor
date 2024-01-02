@@ -4047,6 +4047,11 @@ li {
 .elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul {
     margin-bottom:-5px;
 }
+
+.elementor-element .elementor-element-873ef0b .elementor-widget .elementor-widget-text-editor li {
+    font-size: 16px;
+} 
+
 </style>
 
 </html>
