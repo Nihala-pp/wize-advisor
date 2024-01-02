@@ -3955,8 +3955,7 @@ li {
     margin: 0;
     margin-top: -25px;
     margin-bottom: 20px;
-
+    font-size: 16px !important;
 }
 </style>
-
 </html>
