@@ -3918,5 +3918,12 @@ li {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     background-color: #F3F1F6 !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-4yln1aq:not(.elementor-motion-effects-element-type-background), .elementor-4878 .elementor-element.elementor-element-4yln1aq > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F3F1F6 !important;
+    background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1-horiz.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+}
 </style>
 </html>
