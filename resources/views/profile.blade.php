@@ -2591,7 +2591,7 @@
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-sd3ef48 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="sd3ef48" data-element_type="section"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="display:none;">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-no">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-828c28c"
