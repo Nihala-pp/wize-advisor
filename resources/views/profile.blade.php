@@ -4060,5 +4060,9 @@ li {
     font-size: 16px !important;
 }
 
+.elementor-4878 .elementor-element.elementor-element-12b61d0 {
+    margin-top: -10px;
+}
+
 </style>
 </html>
