@@ -3896,5 +3896,9 @@ h6,
 .elementor-element .elementor-element-dbbf342  > .elementor-widget-container{
   margin-bottom: -25px !important;
 }
+
+p {
+    font-size: 14px;
+}
 </style>
 </html>
