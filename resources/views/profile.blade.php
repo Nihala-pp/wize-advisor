@@ -3931,5 +3931,9 @@ li {
     background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
     background-repeat: no-repeat;
 }
+
+.elementor-element .elementor-element-fef4299 {
+    background-color: #F3F1F6 !important;
+}
 </style>
 </html>
