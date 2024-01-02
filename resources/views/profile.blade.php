@@ -3978,5 +3978,9 @@ li {
     font-weight: normal;
     font-size: 16px !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-7c40f05 > .elementor-widget-container {
+    padding: 0px 25px 15px 25px;
+}
 </style>
 </html>
