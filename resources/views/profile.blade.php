@@ -3964,5 +3964,14 @@ li {
     margin-top: -25px;
     margin-bottom: -30px;
 }
+
+.elementor-4878 .elementor-element.elementor-element-3f8ebce > .elementor-widget-container {
+    margin: 10px 0px 0px 30px;
+}
+
+.elementor-4878 .elementor-element.elementor-element-3af0bab > .elementor-widget-container {
+    margin: -20px 0px 0px 30px;
+    font-weight: normal !important;
+}
 </style>
 </html>
