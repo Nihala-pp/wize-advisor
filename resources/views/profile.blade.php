@@ -1705,7 +1705,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Languages </b><br><br>
+                                                        <b>Languages </b>
+                                                    </p>
+                                                    <p>
                                                         {{ $data->metaData ? $data->metaData->language : '' }}
                                                     </p>
                                                 </div>
