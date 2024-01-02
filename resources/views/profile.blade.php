@@ -3982,5 +3982,10 @@ li {
 .elementor-4878 .elementor-element.elementor-element-7c40f05 > .elementor-widget-container {
     padding: 0px 25px 15px 25px;
 }
+
+.elementor-4878 .elementor-element.elementor-element-5c6f3ea > .elementor-widget-container {
+    margin: -30px 15px -30px 30px;
+    padding: 0px 0px 0px 0px;
+}
 </style>
 </html>
