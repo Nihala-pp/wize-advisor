@@ -4033,7 +4033,7 @@ li {
 
 .elementor-4878 .elementor-element.elementor-element-6f5a20e>.elementor-container {
     max-width: 1350px;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-bottom: -40px;
 }
 
@@ -4046,6 +4046,7 @@ li {
 
 .elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul {
     margin-bottom:-5px;
+    margin-top:-5px;
 }
 
 li {
