@@ -3932,7 +3932,11 @@ li {
     background-repeat: no-repeat;
 }
 
-.elementor-section .elementor-top-section .elementor-element.elementor-element-fef4299 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
+.elementor-4878 .elementor-element.elementor-element-1b99fe0 {
+    background-color: #F3F1F6 !important;
+}
+
+.elementor-element .elementor-element-4c9ce4e .elementor-widget .elementor-widget-text-editor {
     background-color: #F3F1F6 !important;
 }
 </style>
