@@ -1707,7 +1707,8 @@
                                                     <h5 class="elementor-heading-title elementor-size-default">
                                                         <span>Languages </span>
                                                     </h5>
-                                                    <p class="lang">{{ $data->metaData ? $data->metaData->language : '' }}</p>
+                                                    <p class="lang">
+                                                        {{ $data->metaData ? $data->metaData->language : '' }}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1920,9 +1921,9 @@
                             <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
                                 data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h5 class="elementor-heading-title elementor-size-default">
-                                    <span>{{ $totalReviews}} Review / {{ $totalSessions}} Sessions </span>
-                                    </h5>
+                                    <p class="elementor-heading-title elementor-size-default">
+                                        <span>{{ $totalReviews}} Review / {{ $totalSessions}} Sessions </span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-144014d elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
@@ -3865,7 +3866,7 @@ h6,
 
 .elementor-4878 .elementor-element.elementor-element-138a60d p {
     font-weight: 400;
-    color:#150E1F !important;
+    color: #150E1F !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-a92b341 {
@@ -3884,4 +3885,5 @@ h6,
     margin-top: 10px !important;
 }
 </style>
+
 </html>
