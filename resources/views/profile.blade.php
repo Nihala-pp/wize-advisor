@@ -3902,7 +3902,7 @@ h6,
 }
 
 p {
-    font-size: 17px;
+    font-size: 16px;
 }
 </style>
 </html>
