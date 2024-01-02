@@ -3927,7 +3927,7 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-9xouvrd:not(.elementor-motion-effects-element-type-background), .elementor-4878 .elementor-element.elementor-element-9xouvrd > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-color: var( --e-global-color-astglobalcolor4 );
+    background-color: #F3F1F6 !important;
     background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
     background-repeat: no-repeat;
 }
