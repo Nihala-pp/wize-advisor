@@ -4048,7 +4048,7 @@ li {
     margin-bottom:-5px;
 }
 
-.elementor-element .elementor-element-873ef0b .elementor-widget .elementor-widget-text-editor li {
+li {
     font-size: 16px !important;
 } 
 
