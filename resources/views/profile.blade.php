@@ -4052,6 +4052,10 @@ li {
     font-size: 16px !important;
 } 
 
+.elementor-4878 .elementor-element.elementor-element-e1a5c8d > .elementor-widget-container {
+    font-size: 16px !important;
+}
+
 </style>
 
 </html>
