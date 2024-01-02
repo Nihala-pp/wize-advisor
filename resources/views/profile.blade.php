@@ -3962,7 +3962,6 @@ li {
     color: #150E1F;
     text-transform: capitalize !important;
     margin-top: -25px;
-    margin-bottom: -30px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-3f8ebce > .elementor-widget-container {
@@ -3972,6 +3971,12 @@ li {
 .elementor-4878 .elementor-element.elementor-element-3af0bab > .elementor-widget-container {
     margin: -20px 0px 0px 30px;
     font-weight: normal !important;
+}
+
+.elementor-element .elementor-element-3af0bab  .elementor-widget-container p {
+    color: #150E1F !important;
+    font-weight: normal;
+    font-size: 16px !important;
 }
 </style>
 </html>
