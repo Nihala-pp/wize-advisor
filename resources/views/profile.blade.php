@@ -3773,6 +3773,7 @@ h3,
 .elementor-button-wrapper .elementor-button {
     border-style: solid;
     text-decoration: none;
+    border-radius: 7px 7px 7px 7px;
     /* border-top-width: 0;
     border-right-width: 0;
     border-left-width: 0;
