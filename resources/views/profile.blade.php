@@ -1300,13 +1300,13 @@
         font-size: 0.875rem;
     }
 
-    /* .elementor-button-wrapper .elementor-button {
+    .elementor-button-wrapper .elementor-button {
         font-weight: 700;
         font-size: 14px;
         font-size: 0.875rem;
         line-height: 1em;
         text-transform: uppercase;
-    } */
+    }
 
     .elementor-button-wrapper .elementor-button {
         border-color: #001e64;
@@ -3762,13 +3762,13 @@ h3,
     border-color: #001e64;
 }
 
-/* .elementor-button-wrapper .elementor-button {
+.elementor-button-wrapper .elementor-button {
     font-weight: 700;
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 1em;
     text-transform: uppercase;
-}
+} 
 
 .elementor-button-wrapper .elementor-button {
     border-style: solid;
@@ -3785,14 +3785,15 @@ body .elementor-button.elementor-size-md,
 body .elementor-button.elementor-size-lg,
 body .elementor-button.elementor-size-xl,
 body .elementor-button {
-    border-top-left-radius: 30px;
+    /* border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
     padding-top: 17px;
     padding-right: 40px;
     padding-bottom: 17px;
     padding-left: 40px;
+    border-radius: 7px 7px 7px 7px;
 }
 
 body,
