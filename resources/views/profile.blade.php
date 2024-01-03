@@ -3050,10 +3050,10 @@
                                                                 <i class="fas fa-star"></i>
                                                                 <i class="fas fa-star"></i>
                                                             </span>
-                                                            <hr>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <hr width="100%" background-color="transparent">
                                             </div>
                                         </div>
                                         @endforeach
