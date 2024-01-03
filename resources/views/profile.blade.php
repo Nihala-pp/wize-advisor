@@ -4122,8 +4122,8 @@ li {
 }
 
 .testimonial-box .user-box img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
