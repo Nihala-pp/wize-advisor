@@ -4195,8 +4195,8 @@ li {
 }
 
 .testimonial-box .user-box img {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
@@ -4225,7 +4225,7 @@ li {
 }
 
 .testimonial-box p {
-    font-size:14px !important;
+    font-size:12px !important;
 }
 </style>
 </html>
