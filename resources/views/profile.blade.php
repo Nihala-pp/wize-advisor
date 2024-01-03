@@ -3773,11 +3773,11 @@ h3,
 .elementor-button-wrapper .elementor-button {
     border-style: solid;
     text-decoration: none;
-    border-top-width: 0;
+    /* border-top-width: 0;
     border-right-width: 0;
     border-left-width: 0;
-    border-bottom-width: 0;
-} */
+    border-bottom-width: 0; */
+}
 
 body .elementor-button.elementor-size-sm,
 body .elementor-button.elementor-size-xs,
