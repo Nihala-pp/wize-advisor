@@ -4225,7 +4225,7 @@ li {
 }
 
 .testimonial-box p {
-    font-size:15px;
+    font-size:14px;
 }
 </style>
 </html>
