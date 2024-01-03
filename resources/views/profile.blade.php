@@ -3986,7 +3986,7 @@ li {
     color: var(--e-global-color-astglobalcolor0);
     line-height: 0.1em;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-7bebc4a>.elementor-widget-container {
