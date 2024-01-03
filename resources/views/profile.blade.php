@@ -3884,7 +3884,7 @@ h6,
 }
 
 p {
-    font-size: 15px !important;
+    font-size: 17px !important;
 }
 
 li {
