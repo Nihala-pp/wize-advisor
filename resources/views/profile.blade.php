@@ -4118,7 +4118,7 @@ li {
 .testimonial-box .user-box {
     display: flex;
     align-items: flex-end;
-    margin: 0 0 8px;
+    margin: 0 0 0px;
 }
 
 .testimonial-box .user-box img {
