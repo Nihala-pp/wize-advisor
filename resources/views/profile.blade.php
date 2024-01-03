@@ -4239,7 +4239,7 @@ li {
 }
 
 .fee hr {
-    background-color: #150E1F !important;
+    background-color: #d3d3d3 !important;
     size:1px !important;
 }
 </style>
