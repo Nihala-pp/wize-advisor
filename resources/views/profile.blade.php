@@ -4231,7 +4231,7 @@ li {
 }
 
 .testimonial-box {
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
 }
 
 .testimonial-box .user-box .name {
