@@ -4182,7 +4182,7 @@ li {
 .testimonial-box .rating {
     display: flex;
     align-items: center;
-    color: #FFDB20;
+    color: #f0ad4e;
     font-size: 15px;
 }
 
