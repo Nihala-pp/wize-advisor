@@ -3022,7 +3022,7 @@
                                 data-id="6f5a20e" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
                                     @foreach($reviews as $review)
-                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-035a934"
+                                    <div class="col-lg-4 col-md-6 mb-4"
                                         data-id="035a934" data-element_type="column"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class="elementor-widget-wrap elementor-element-populated">
