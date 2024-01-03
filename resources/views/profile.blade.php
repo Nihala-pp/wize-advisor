@@ -4248,8 +4248,7 @@ li {
     text-transform: capitalize;
 }
 .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
-    font-size: 25px;
+    font-size: 25px !important;
 }
 </style>
-
 </html>
