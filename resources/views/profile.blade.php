@@ -3183,8 +3183,8 @@
                     </div>
                 </div>
             </section> -->
-        <!-- </div>
-    </div> -->
+        </div>
+    </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
             <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
@@ -4222,6 +4222,10 @@ li {
 
 .feedback {
     overflow: hidden;
+}
+
+.testimonial-box p {
+    font-size:17px;
 }
 </style>
 </html>
