@@ -4238,8 +4238,8 @@ li {
     margin-top: -10px;
 }
 
-hr {
-    background-color: #150E1F !importantq;
+.fee hr {
+    background-color: #150E1F !important;
 }
 </style>
 
