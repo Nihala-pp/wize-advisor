@@ -3050,8 +3050,8 @@
                                                                 <i class="fas fa-star"></i>
                                                                 <i class="fas fa-star"></i>
                                                             </span>
+                                                            <hr>
                                                         </div>
-                                                        <hr>
                                                     </div>
                                                 </div>
                                             </div>
