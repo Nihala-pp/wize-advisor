@@ -4029,7 +4029,7 @@ li {
 }
 
 li {
-    font-size: 16px !important;
+    font-size: 15px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-e1a5c8d>.elementor-widget-container p {
