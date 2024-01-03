@@ -4250,5 +4250,9 @@ li {
 .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
     font-size: 25px !important;
 }
+
+.elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul li {
+    color:#007bff !important;
+}
 </style>
 </html>
