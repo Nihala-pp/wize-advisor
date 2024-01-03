@@ -3041,7 +3041,7 @@
                                                             data-src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                             alt="" />
                                                         @endif
-                                                        <div>
+                                                        <div class="name">
                                                             <h4>{{ $review->user->name }}</h4>
                                                             <span>
                                                                 <i class="fas fa-star"></i>
@@ -4128,6 +4128,7 @@ li {
     object-fit: cover;
     object-position: center;
     margin-right: 8px;
+    margin-top: -15px;
 }
 
 .testimonial-box .user-box .discerption {
@@ -4230,6 +4231,10 @@ li {
 
 .testimonial-box {
     margin-bottom: 30px !important;
+}
+
+.testimonial-box .user-box .name {
+    margin-top: -10px;
 }
 </style>
 
