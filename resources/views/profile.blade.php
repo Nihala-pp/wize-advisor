@@ -3989,6 +3989,7 @@ li {
     color: #150E1F !important;
     font-weight: normal;
     font-size: 15px !important;
+    text-transform:capitalize !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-7c40f05>.elementor-widget-container {
