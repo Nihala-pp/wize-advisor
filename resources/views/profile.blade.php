@@ -4242,6 +4242,11 @@ li {
     background-color: #d3d3d3 !important;
     size:1px !important;
 }
+
+.elementor-widget-icon-box .elementor-icon-box-title {
+    color: #150E1F;
+    text-transform: capitalize;
+}
 </style>
 
 </html>
