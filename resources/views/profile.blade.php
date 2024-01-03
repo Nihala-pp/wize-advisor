@@ -3975,7 +3975,7 @@ li {
 .elementor-4878 .elementor-element.elementor-element-37316f5>.elementor-widget-container {
     margin: -30px 15px -10px 30px;
     color: #150E1F !important;
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-c95ee9d>.elementor-widget-container {
