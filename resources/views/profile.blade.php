@@ -3053,7 +3053,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <hr width="100%" background-color="transparent">
+                                                <hr width="100%" background-color="#150E1F">
                                             </div>
                                         </div>
                                         @endforeach
