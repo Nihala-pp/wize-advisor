@@ -3968,14 +3968,14 @@ li {
 
 .elementor-4878 .elementor-element.elementor-element-5c6f3ea>.elementor-widget-container {
     margin: -30px 15px -10px 30px;
-    font-size: 16px;
+    font-size: 15px;
     color: #150E1F;
 }
 
 .elementor-4878 .elementor-element.elementor-element-37316f5>.elementor-widget-container {
     margin: -30px 15px -10px 30px;
     color: #150E1F !important;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-c95ee9d>.elementor-widget-container {
