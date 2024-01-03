@@ -4155,7 +4155,7 @@ li {
     font-family: 'Work Sans';
     font-style: italic;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     color: #FFFFFF;
     margin: 0;
@@ -4224,8 +4224,5 @@ li {
     overflow: hidden;
 }
 
-.testimonial-box p {
-    font-size:15px;
-}
 </style>
 </html>
