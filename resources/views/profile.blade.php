@@ -2699,7 +2699,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                        <p> {{ $exp->start_date }} To
+                                                        <p> {{ $exp->start_date }} to
                                                             {{ $exp->end_date ? $exp->end_date : 'Present' }} </p>
                                                     </span>
                                                 </div>
@@ -2880,7 +2880,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                        <p>{{ $last_exp->start_date }} To
+                                                        <p>{{ $last_exp->start_date }} to
                                                             {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
                                                         </p>
                                                     </span>
