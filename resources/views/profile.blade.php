@@ -2699,7 +2699,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                        <p> {{ $exp->start_date }} {{ \Str::lower('TO')}}
+                                                        <p> {{ $exp->start_date }} {{ strtolower('TO')}}
                                                             {{ $exp->end_date ? $exp->end_date : 'Present' }} </p>
                                                     </span>
                                                 </div>
