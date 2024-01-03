@@ -3051,9 +3051,9 @@
                                                                 <i class="fas fa-star"></i>
                                                             </span>
                                                         </div>
+                                                        <hr>
                                                     </div>
                                                 </div>
-                                                <hr>
                                             </div>
                                         </div>
                                         @endforeach
