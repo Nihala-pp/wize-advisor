@@ -4217,7 +4217,7 @@ li {
 
 .testimonial-box .user-box span {
     font-size: 12px;
-    color: #ff7020;
+    color: #f0ad4e;
     display: flex;
     align-items: center;
 }
