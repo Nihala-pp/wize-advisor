@@ -4224,5 +4224,8 @@ li {
     overflow: hidden;
 }
 
+.testimonial-box p {
+    font-size:15px;
+}
 </style>
 </html>
