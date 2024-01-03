@@ -4065,5 +4065,9 @@ li {
     margin-top: -10px;
 }
 
+.elementor-4878 .elementor-element.elementor-element-202f85c {
+    margin-top: 70px;
+    text-align: center;
+}
 </style>
 </html>
