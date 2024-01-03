@@ -4147,5 +4147,173 @@ li {
     --e-column-margin-left: 0px;
 }
 </style>
+<style>
+.main-data-wrp p a {
+    text-decoration: underline;
+    color: inherit;
+}
 
+.main-data-wrp a:hover {
+    color: #3153C6;
+}
+
+.main-data-wrp ul li,
+.main-data-wrp ol li {
+    margin: 0 0 16px 0;
+}
+
+.main-data-wrp {
+    padding: 80px 0;
+}
+
+.testimonial-block {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+
+.testimonial-block h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0 0 80px;
+}
+
+.testimonial-block h2 img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.testimonial-block ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-block ul li {
+    list-style: none;
+    margin: 0 0 43px;
+    padding: 0;
+}
+
+.testimonial-block ul li:last-child {
+    margin: 0;
+}
+
+.testimonial-box .user-box {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 8px;
+}
+
+.testimonial-box .user-box img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 8px;
+}
+
+.testimonial-box .user-box .discerption {
+    max-width: 580px;
+    padding: 12px;
+    background: #18489B;
+    border-radius: 18px;
+    position: relative;
+}
+
+.testimonial-box .user-box .discerption:before {
+    position: absolute;
+    content: "";
+    left: -3px;
+    bottom: -2px;
+    background-image: url("../images/msg-arrow.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 20px;
+}
+
+.testimonial-box .user-box .discerption p {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.testimonial-box h5 {
+    font-family: 'ArticulatCFDemiBold';
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.testimonial-box h6 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 0 0 2px;
+}
+
+.testimonial-box .rating {
+    display: flex;
+    align-items: center;
+    color: #FFDB20;
+    font-size: 15px;
+}
+
+.testimonial-box img.quote-icon {
+    max-width: 100%;
+    margin: 0 0 24px;
+}
+
+.testimonial-box .user-box {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-box .user-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 24px;
+}
+
+.testimonial-box .user-box h4 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #12141d;
+    margin: 0 0 2px;
+}
+
+.testimonial-box .user-box span {
+    font-size: 14px;
+    color: #ff7020;
+    display: flex;
+    align-items: center;
+}
+
+.feedback {
+    overflow: hidden;
+}
+</style>
 </html>
