@@ -4155,7 +4155,7 @@ li {
     font-family: 'Work Sans';
     font-style: italic;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 24px;
     color: #FFFFFF;
     margin: 0;
@@ -4163,14 +4163,14 @@ li {
 
 .testimonial-box h5 {
     font-family: 'ArticulatCFDemiBold';
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
     color: #FFFFFF;
     margin: 0;
 }
 
 .testimonial-box h6 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -4207,14 +4207,14 @@ li {
     font-family: "Work Sans";
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #12141d;
     margin: 0 0 2px;
 }
 
 .testimonial-box .user-box span {
-    font-size: 14px;
+    font-size: 12px;
     color: #ff7020;
     display: flex;
     align-items: center;
