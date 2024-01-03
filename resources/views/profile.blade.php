@@ -3746,7 +3746,7 @@ h3,
     border-color: #001e64;
 }
 
-.elementor-button-wrapper .elementor-button {
+/* .elementor-button-wrapper .elementor-button {
     font-weight: 700;
     font-size: 14px;
     font-size: 0.875rem;
@@ -3761,7 +3761,7 @@ h3,
     border-right-width: 0;
     border-left-width: 0;
     border-bottom-width: 0;
-}
+} */
 
 body .elementor-button.elementor-size-sm,
 body .elementor-button.elementor-size-xs,
