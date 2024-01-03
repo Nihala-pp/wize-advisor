@@ -16,7 +16,6 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -3649,8 +3648,6 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.5.3"
         id="wpforms-elementor-js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
     <script type="text/javascript">
     (function($) {
         "use strict";
