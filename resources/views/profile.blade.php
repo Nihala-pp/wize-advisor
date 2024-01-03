@@ -1283,16 +1283,17 @@
 
     }
 
-    /* .elementor-button {
-        border-top-left-radius: 30px;
+    .elementor-button {
+        /* border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 30px;
+        border-bottom-left-radius: 30px; */
         padding-top: 17px;
         padding-right: 40px;
         padding-bottom: 17px;
         padding-left: 40px;
-    } */
+        border-radius: 7px 7px 7px 7px;
+    }
 
     .elementor-button {
         font-size: 14px;
