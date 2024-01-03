@@ -3938,7 +3938,7 @@ li {
     margin: 0;
     margin-top: -25px;
     margin-bottom: 20px;
-    font-size: 16px !important;
+    font-size: 15px !important;
 }
 
 .elementor-element .elementor-element-a7cb679 h3 {
