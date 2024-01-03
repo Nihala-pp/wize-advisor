@@ -4240,7 +4240,7 @@ li {
 
 .fee hr {
     background-color: #150E1F !important;
-    Width:50%;
+    size:1px;
 }
 </style>
 
