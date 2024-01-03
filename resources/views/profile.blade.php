@@ -4229,7 +4229,7 @@ li {
 }
 
 .testimonial-box {
-    margin-bottom:15px !important;
+    margin-bottom:30px !important;
 }
 </style>
 </html>
