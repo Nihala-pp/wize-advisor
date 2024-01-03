@@ -2993,6 +2993,7 @@
                 </div>
             </section>
             @endif
+
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-9xouvrd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="9xouvrd" data-element_type="section"
@@ -3022,7 +3023,104 @@
                                 data-id="6f5a20e" data-element_type="section">
                                 <div class="elementor-container elementor-column-gap-default">
                                     @foreach($reviews as $review)
-                                    <div class="col-lg-4 col-md-6 mb-4"
+                                    <div class="col-lg-4 col-md-6 mb-4" data-id="035a934" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-background-overlay"></div>
+                                            <div class="elementor-element elementor-element-642ada1 elementor-view-default elementor-widget elementor-widget-icon"
+                                                data-id="642ada1" data-element_type="widget"
+                                                data-widget_type="icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-icon-wrapper">
+                                                        <div class="elementor-icon">
+                                                            <i aria-hidden="true" class="fas fa-quote-left"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-b5670d9 elementor-widget elementor-widget-image"
+                                                data-id="b5670d9" data-element_type="widget"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    @if ($review->user->metaData->profile_pic)
+                                                    <img decoding="async" width="336" height="336"
+                                                        src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
+                                                        class="attachment-large size-large wp-image-4780" alt=""
+                                                        srcset="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 336w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }} 150w"
+                                                        sizes="(max-width: 336px) 100vw, 336px" />
+                                                    @else
+                                                    <img decoding="async" width="336" height="336"
+                                                        src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        class="attachment-large size-large wp-image-4780" alt=""
+                                                        srcset="{{ asset('public/assets/img/blank-profile-picture.png') }} 336w, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 150w"
+                                                        sizes="(max-width: 336px) 100vw, 336px" />
+                                                    @endif
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-e1a5c8d elementor-widget elementor-widget-text-editor"
+                                                data-id="e1a5c8d" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <p>{{ $review->review }}.</p>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-80f799d elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                                data-id="80f799d" data-element_type="widget"
+                                                data-widget_type="divider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-divider">
+                                                        <span class="elementor-divider-separator">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-75927c9 elementor-widget elementor-widget-heading"
+                                                data-id="75927c9" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <span
+                                                        class="elementor-heading-title elementor-size-default">{{ $review->user->name }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    @endforeach
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-9xouvrd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                data-id="9xouvrd" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-75d7dbd"
+                        data-id="75d7dbd" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-d2e8414 elementor-widget elementor-widget-heading"
+                                data-id="d2e8414" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h3 class="elementor-heading-title elementor-size-default">
+                                        What My Mentees Says</h3>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-a1d20cc elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                data-id="a1d20cc" data-element_type="widget" data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-6f5a20e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                data-id="6f5a20e" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    @foreach($reviews as $review)
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-035a934"
                                         data-id="035a934" data-element_type="column"
                                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -4045,19 +4143,19 @@ li {
 }
 
 .elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul {
-    margin-bottom:-5px;
-    margin-top:-5px;
+    margin-bottom: -5px;
+    margin-top: -5px;
 }
 
 li {
     font-size: 16px !important;
-} 
+}
 
-.elementor-4878 .elementor-element.elementor-element-e1a5c8d > .elementor-widget-container p {
+.elementor-4878 .elementor-element.elementor-element-e1a5c8d>.elementor-widget-container p {
     font-size: 16px !important;
 }
 
-.elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p{
+.elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
     font-size: 16px !important;
 }
 
@@ -4071,10 +4169,11 @@ li {
     text-align: center;
 }
 
-.elementor-4878 .elementor-element.elementor-element-3a7f8c6 > .elementor-element-populated {
+.elementor-4878 .elementor-element.elementor-element-3a7f8c6>.elementor-element-populated {
     margin: -56px 0px 10px 0px;
     --e-column-margin-right: 0px;
     --e-column-margin-left: 0px;
 }
 </style>
+
 </html>
