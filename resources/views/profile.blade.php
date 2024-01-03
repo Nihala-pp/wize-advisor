@@ -4058,8 +4058,8 @@ li {
 </style>
 <style>
 .main-data-wrp p a {
-    text-decoration: underline;
-    color: inherit;
+    /* text-decoration: underline;
+    color: inherit; */
 }
 
 .main-data-wrp a:hover {
@@ -4072,7 +4072,7 @@ li {
 }
 
 .main-data-wrp {
-    padding: 80px 0;
+    padding: -10px 0;
 }
 
 .testimonial-block {
