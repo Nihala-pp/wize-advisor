@@ -1299,13 +1299,13 @@
         font-size: 0.875rem;
     }
 
-    .elementor-button-wrapper .elementor-button {
+    /* .elementor-button-wrapper .elementor-button {
         font-weight: 700;
         font-size: 14px;
         font-size: 0.875rem;
         line-height: 1em;
         text-transform: uppercase;
-    }
+    } */
 
     .elementor-button-wrapper .elementor-button {
         border-color: #001e64;
