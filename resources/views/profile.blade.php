@@ -3053,7 +3053,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <hr width="100%" background-color="#150E1F">
+                                                <hr width="100%">
                                             </div>
                                         </div>
                                         @endforeach
@@ -4236,6 +4236,10 @@ li {
 
 .testimonial-box .user-box .name {
     margin-top: -10px;
+}
+
+hr {
+    background-color: #150E1F !importantq;
 }
 </style>
 
