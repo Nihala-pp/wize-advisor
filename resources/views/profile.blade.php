@@ -3052,8 +3052,8 @@
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <hr>
                                                 </div>
+                                                <hr>
                                             </div>
                                         </div>
                                         @endforeach
