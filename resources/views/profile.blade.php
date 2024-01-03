@@ -4072,7 +4072,7 @@ li {
 }
 
 .main-data-wrp {
-    padding: -10px 0 !important;
+    margin-top:-10px !important;
 }
 
 .testimonial-block {
