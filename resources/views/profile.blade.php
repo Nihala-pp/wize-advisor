@@ -3959,7 +3959,7 @@ li {
 .elementor-element .elementor-element-3af0bab .elementor-widget-container p {
     color: #150E1F !important;
     font-weight: normal;
-    font-size: 16px !important;
+    font-size: 15px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-7c40f05>.elementor-widget-container {
