@@ -4070,5 +4070,11 @@ li {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.elementor-4878 .elementor-element.elementor-element-3a7f8c6 > .elementor-element-populated {
+    margin: -56px 0px 10px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
 </style>
 </html>
