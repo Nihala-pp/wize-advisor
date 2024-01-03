@@ -4227,5 +4227,9 @@ li {
 .testimonial-box p {
     font-size:14px !important;
 }
+
+.testimonial-box {
+    margin-bottom:15px !important;
+}
 </style>
 </html>
