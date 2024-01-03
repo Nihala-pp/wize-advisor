@@ -3024,8 +3024,8 @@
                                         <div class="col-lg-4 col-md-6 mb-4">
                                             <div class="card fee">
                                                 <div class="testimonial-box m-0 h-100">
-                                                    <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
-                                                        alt="" class="quote-icon" />
+                                                    <!-- <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
+                                                        alt="" class="quote-icon" /> -->
                                                     <p>
                                                         {{ $review->review }}
                                                     </p>
@@ -3183,8 +3183,8 @@
                     </div>
                 </div>
             </section> -->
-        </div>
-    </div>
+        <!-- </div>
+    </div> -->
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
             <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
