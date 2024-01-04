@@ -4400,5 +4400,9 @@ li {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
+
+.elementor-4878 .elementor-element.elementor-element-f641fa2 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px !important;
+}
 </style>
 </html>
