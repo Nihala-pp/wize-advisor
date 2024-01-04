@@ -4116,7 +4116,7 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-c95ee9d>.elementor-widget-container {
-    margin: -20px 0px 0px 30px;
+    margin: -5px 0px 30px 30px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-c95ee9d .elementor-heading-title {
