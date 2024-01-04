@@ -16,6 +16,8 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -129,7 +131,7 @@
         }))
     }((window, document), window._wpemojiSettings);
     </script> -->
-  <style>
+    <style>
     img.wp-smiley,
     img.emoji {
         display: inline !important;
@@ -358,7 +360,7 @@
         }
     }
     </style>
-        <link rel="preload"
+    <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.3.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -1172,7 +1174,7 @@
         animation-fill-mode: both;
     }
     </style>
-    
+
     <style id="wpr_lightbox_styles">
     .lg-backdrop {
         background-color: rgba(0, 0, 0, 0.6) !important;
@@ -1287,7 +1289,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
-<body class="page-template page-template-elementor_canvas page page-id-2372 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.6 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4878">
+<body
+    class="page-template page-template-elementor_canvas page page-id-2372 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.6 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4878">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
                 rel="home">wiseAdvizor</a></p>
@@ -2041,7 +2044,8 @@
                                 data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <p class="elementor-heading-title elementor-size-default">
-                                        <span>{{ $totalReviews}} @if($totalReviews > 1) Reviews @else Review @endif/ {{ $totalSessions}} Sessions</span>
+                                        <span>{{ $totalReviews}} @if($totalReviews > 1) Reviews @else Review @endif/
+                                            {{ $totalSessions}} Sessions</span>
                                     </p>
                                 </div>
                             </div>
@@ -2800,7 +2804,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                        <p> {{ $exp->start_date }} 
+                                                        <p> {{ $exp->start_date }}
                                                             {{ $exp->end_date ? $exp->end_date : 'Present' }} </p>
                                                     </span>
                                                 </div>
@@ -2981,7 +2985,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <span class="elementor-heading-title elementor-size-default">
-                                                        <p>{{ $last_exp->start_date }} 
+                                                        <p>{{ $last_exp->start_date }}
                                                             {{ $last_exp->end_date ? $last_exp->end_date : 'Present' }}
                                                         </p>
                                                     </span>
@@ -3861,13 +3865,13 @@ h3,
     text-align: left;
 }
 
- .elementor-button-wrapper .elementor-button {
+.elementor-button-wrapper .elementor-button {
     border-color: #001e64;
     background-color: #001e64;
- } 
+}
 
- .elementor-button-wrapper .elementor-button:hover,
-  .elementor-button-wrapper .elementor-button:focus {
+.elementor-button-wrapper .elementor-button:hover,
+.elementor-button-wrapper .elementor-button:focus {
     color: #ffffff;
     background-color: #001e64;
     border-color: #001e64;
@@ -3885,7 +3889,7 @@ h3,
     border-style: solid;
     text-decoration: none;
     border-radius: 7px 7px 7px 7px; */
-    /* border-top-width: 0;
+/* border-top-width: 0;
     border-right-width: 0;
     border-left-width: 0;
     border-bottom-width: 0; */
@@ -3897,11 +3901,11 @@ body .elementor-button.elementor-size-md,
 body .elementor-button.elementor-size-lg,
 body .elementor-button.elementor-size-xl,
 body .elementor-button { */
-    /* border-top-left-radius: 30px;
+/* border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px; */
-    /* padding-top: 17px;
+/* padding-top: 17px;
     padding-right: 40px;
     padding-bottom: 17px;
     padding-left: 40px;
@@ -4090,7 +4094,7 @@ li {
     color: #150E1F !important;
     font-weight: normal;
     font-size: 15px !important;
-    text-transform:capitalize !important;
+    text-transform: capitalize !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-7c40f05>.elementor-widget-container {
@@ -4189,7 +4193,7 @@ li {
 </style>
 <style>
 /* .main-data-wrp p a { */
-    /* text-decoration: underline;
+/* text-decoration: underline;
     color: inherit; */
 /* } */
 
@@ -4387,4 +4391,5 @@ li {
     color: #007bff !important;
 }
 </style>
+
 </html>
