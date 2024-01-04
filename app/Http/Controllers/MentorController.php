@@ -38,11 +38,12 @@ class MentorController extends Controller
 
     public function index()
     {
-        $total_calls_scheduled = ScheduledCall::where('mentor_id', Auth::id())->get()->count();
-        $total_calls_approved = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->get()->count();
-        $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Rejected')->get()->count();
-        $total_earning = ScheduledCall::where('mentor_id', Auth::id())->sum('price');
-        $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->where('date', '>=', Carbon::now())->get();
+        $total_calls_scheduled = ScheduledCall::where('mentor_id', Auth::id())->where('is_paid', 1)->get()->count();
+        $total_calls_approved = ScheduledCall::where('mentor_id', Auth::id())->where('is_paid', 1)->where('status', 'Approved')->get()->count();
+        $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('is_paid', 1)->where('status', 'Rejected')->get()->count();
+        $mentor_call_price = UserMeta::where('user_id', Auth::id())->first()->price_per_call;
+        $total_earning = $total_calls_approved * $mentor_call_price;
+        $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
         $notifications = auth()->user()->unreadNotifications;
 
 
@@ -51,9 +52,9 @@ class MentorController extends Controller
 
     public function my_sessions()
     {
-        $upcoming_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->get();
-        $completed_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->get();
-        $requested_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->get();
+        $upcoming_sessions =  ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->get();
+        $completed_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->get();
+        $requested_sessions = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
 
         return view('mentors.sessions', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions'));
     }
@@ -61,7 +62,7 @@ class MentorController extends Controller
     public function profile()
     {
         $profile = User::find(Auth::id());
-        $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
+        $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
 
         return view('mentors.profile', compact('profile', 'scheduled_calls'));
     }
