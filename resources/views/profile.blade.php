@@ -4392,6 +4392,13 @@ li {
 .elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul li a {
     color: #007bff !important;
 }
-</style>
 
+.feedback {
+    overflow: hidden;
+}
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+}
+</style>
 </html>
