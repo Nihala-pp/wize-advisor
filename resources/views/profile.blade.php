@@ -3861,12 +3861,12 @@ h3,
     text-align: left;
 }
 
-.elementor-button-wrapper .elementor-button {
+/* .elementor-button-wrapper .elementor-button {
     border-color: #001e64;
     background-color: #001e64;
-}
+} */
 
-.elementor-button-wrapper .elementor-button:hover,
+/* .elementor-button-wrapper .elementor-button:hover,
 .elementor-button-wrapper .elementor-button:focus {
     color: #ffffff;
     background-color: #001e64;
@@ -3879,34 +3879,34 @@ h3,
     font-size: 0.875rem;
     line-height: 1em;
     text-transform: uppercase;
-}
+} */
 
-.elementor-button-wrapper .elementor-button {
+/* .elementor-button-wrapper .elementor-button {
     border-style: solid;
     text-decoration: none;
-    border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px; */
     /* border-top-width: 0;
     border-right-width: 0;
     border-left-width: 0;
     border-bottom-width: 0; */
-}
+/* } */
 
-body .elementor-button.elementor-size-sm,
+/* body .elementor-button.elementor-size-sm,
 body .elementor-button.elementor-size-xs,
 body .elementor-button.elementor-size-md,
 body .elementor-button.elementor-size-lg,
 body .elementor-button.elementor-size-xl,
-body .elementor-button {
+body .elementor-button { */
     /* border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px; */
-    padding-top: 17px;
+    /* padding-top: 17px;
     padding-right: 40px;
     padding-bottom: 17px;
     padding-left: 40px;
     border-radius: 7px 7px 7px 7px;
-}
+} */
 
 body,
 h1,
@@ -4387,5 +4387,4 @@ li {
     color: #007bff !important;
 }
 </style>
-
 </html>
