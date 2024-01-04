@@ -39,6 +39,23 @@
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
     <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1HZW2R3J0M');
+    </script>
+    <style type="text/css">
+    .current {
+        background-color: #007bff !important;
+        color: #fff !important;
+    }
+    </style>
+
+    <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
         "ext": ".png",
@@ -2825,9 +2842,9 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
-.timeslot:active{
+/* .timeslot:active{
     background-color:#007BFF;
-}
+} */
 
 @media(max-width:480px) {
     .desc {
