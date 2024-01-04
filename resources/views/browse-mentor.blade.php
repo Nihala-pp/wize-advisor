@@ -1642,7 +1642,7 @@
                                             </div>
                                         </div>
                                         @else
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
