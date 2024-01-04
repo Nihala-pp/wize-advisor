@@ -31,9 +31,9 @@ class UserController extends Controller
     // $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Rejected')->get()->count();
     // $total_earning= ScheduledCall::where('mentor_id', Auth::id())->sum('price');
 
-    $upcoming_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
-    $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('date', '<', Carbon::now())->get();
-    $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->get();
+    $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
+    $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
+    $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
     $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
     $notifications = auth()->user()->unreadNotifications;
 
@@ -129,7 +129,8 @@ class UserController extends Controller
       'utc' => $request->utc,
       'status' => 'Pending',
       'description' => $request->description,
-      'documents' => $request->documents
+      'documents' => $request->documents,
+      'is_paid' => 1
     ]);
 
     $user->notify(new SloteUpdate($mentor));
@@ -186,7 +187,7 @@ class UserController extends Controller
     $timezone = AvailableSchedule::timezones();
     $id = Auth::id();
     $data = User::find($id);
-    $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('date', '>=', Carbon::now())->get();
+    $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
 
     return view('users.profile', compact('data', 'scheduled_calls', 'expertise', 'timezone'));
   }
