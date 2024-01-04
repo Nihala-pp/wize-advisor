@@ -372,8 +372,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687528450"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687528450" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1080,8 +1079,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
         id="she-header-js"></script>
@@ -1286,8 +1285,8 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -1315,7 +1314,8 @@
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('browseMentor') }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
@@ -1391,7 +1391,7 @@
                                             </div>
                                         </div>
                                         @else
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
@@ -1470,8 +1470,8 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -1512,7 +1512,7 @@
                                 data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                    @if(Auth::id() && auth()->user()->role_id == 3)
+                                        @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown">
                                                 <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
@@ -3231,7 +3231,14 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-size: 14px !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-size: 14px !important;
+    }
 }
 </style>
-
 </html>
