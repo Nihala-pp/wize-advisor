@@ -4054,7 +4054,7 @@ li {
     --divider-border-style: solid;
     --divider-color: var(--e-global-color-astglobalcolor0);
     --divider-border-width: 2px;
-    margin-top: -200px;
+    /* margin-top: -200px; */
 }
 
 .elementor-4878 .elementor-element.elementor-element-422d6d7 {
