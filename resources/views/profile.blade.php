@@ -4088,7 +4088,7 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-3af0bab>.elementor-widget-container {
-    margin: -5px 0px 0px 30px;
+    margin: -5px 0px 30px 30px;
     font-weight: normal !important;
 }
 
