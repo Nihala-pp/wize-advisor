@@ -16,7 +16,7 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
-    <script>
+    <!-- <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
         "ext": ".png",
@@ -128,7 +128,7 @@
                 .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
         }))
     }((window, document), window._wpemojiSettings);
-    </script>
+    </script> -->
   <style>
     img.wp-smiley,
     img.emoji {
