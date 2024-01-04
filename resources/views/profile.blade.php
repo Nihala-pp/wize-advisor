@@ -1172,6 +1172,7 @@
         animation-fill-mode: both;
     }
     </style>
+    
     <style id="wpr_lightbox_styles">
     .lg-backdrop {
         background-color: rgba(0, 0, 0, 0.6) !important;
@@ -1281,36 +1282,6 @@
         --wpforms-button-size-padding-h: 15px;
         --wpforms-button-size-margin-top: 10px;
 
-    }
-
-    .elementor-button {
-        /* border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 30px; */
-        padding-top: 17px;
-        padding-right: 40px;
-        padding-bottom: 17px;
-        padding-left: 40px;
-        border-radius: 7px 7px 7px 7px;
-    }
-
-    .elementor-button {
-        font-size: 14px;
-        font-size: 0.875rem;
-    }
-
-    .elementor-button-wrapper .elementor-button {
-        font-weight: 700;
-        font-size: 14px;
-        font-size: 0.875rem;
-        line-height: 1em;
-        text-transform: uppercase;
-    }
-
-    .elementor-button-wrapper .elementor-button {
-        border-color: #001e64;
-        background-color: #001e64;
     }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
