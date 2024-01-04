@@ -2825,6 +2825,10 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
+.timeslot:active{
+    background-color:#007BFF;
+}
+
 @media(max-width:480px) {
     .desc {
         font-size: 9.5px !important;
