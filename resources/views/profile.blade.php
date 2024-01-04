@@ -4188,10 +4188,10 @@ li {
 }
 </style>
 <style>
-.main-data-wrp p a {
+/* .main-data-wrp p a { */
     /* text-decoration: underline;
     color: inherit; */
-}
+/* } */
 
 .main-data-wrp a:hover {
     color: #3153C6;
