@@ -3974,7 +3974,7 @@ h6,
     background-color: #69727d;
     color: #fff;
     fill: #fff;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .elementor-widget-container p {
