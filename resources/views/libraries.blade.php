@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Libraries &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -17,6 +16,10 @@
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link rel='stylesheet' id='elementor-post-2-css' href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' />
+
+
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -322,7 +325,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688476023" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688476015" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1024,17 +1027,17 @@
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
         id="she-header-js"></script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/20">
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/22">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
         href="https://wiseadvizor.com/wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="https://wiseadvizor.com/libraries/">
-    <link rel="shortlink" href="https://wiseadvizor.com/?p=20">
+    <link rel="canonical" href="https://wiseadvizor.com/community-posts/">
+    <link rel="shortlink" href="https://wiseadvizor.com/?p=22">
     <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Flibraries%2F">
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fcommunity-post%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Flibraries%2F#038;format=xml">
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fcommunity-post%2F#038;format=xml">
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style type="text/css">
@@ -1114,232 +1117,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-20 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5">
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg> -->
+    class="page-template page-template-elementor_canvas page page-id-22 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
                 rel="home">wiseAdvizor</a></p>
@@ -1426,14 +1204,14 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/community-posts/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -1464,7 +1242,7 @@
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1474,76 +1252,77 @@
                                 data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                    @if(Auth::id() && auth()->user()->role_id == 3)
-                                    <div class="d-flex align-items-center">
-                                        <div class="dropdown">
-                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <i class="fas fa-bell fa-2xl"></i>
-                                                <!-- <span
+                                        @if(Auth::id() && auth()->user()->role_id == 3)
+                                        <div class="d-flex align-items-center">
+                                            <div class="dropdown">
+                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    <i class="fas fa-bell fa-2xl"></i>
+                                                    <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuLink">
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Some news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Another news</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </li>
-                                            </ul>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuLink">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown">
+                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
+                                                    id="navbarDropdownMenuAvatar" role="button"
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
+                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
+                                                        class="rounded-circle" height="8" width="37"
+                                                        alt="Black and White Portrait of a Man" loading="lazy" />
+                                                    @else
+                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                        class="rounded-circle" height="8" width="37">
+                                                    @endif
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-menu-end"
+                                                    aria-labelledby="navbarDropdownMenuAvatar">
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
+                                                            Dashboard</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
+                                                            Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.change-password') }}">Change
+                                                            Password</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
+                                                            Reviews</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-                                                aria-expanded="false">
-                                                @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" />
-                                                @else
-                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                    class="rounded-circle" height="8" width="37">
-                                                @endif
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                aria-labelledby="navbarDropdownMenuAvatar">
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                        Dashboard</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                        Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('user.change-password') }}">Change
-                                                        Password</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
-                                                        Reviews</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    @else
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('login') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Sign In</span>
-                                        </span>
-                                    </a>
-                                    @endif
+                                        @else
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login') }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Sign In</span>
+                                            </span>
+                                        </a>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
@@ -1616,8 +1395,8 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -1749,6 +1528,23 @@
             </section>
         </div>
     </header>
+
+    <div class="entry-content clear" itemprop="text">
+        <div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-5d5d56ce elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                data-id="5d5d56ce" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-46e6576e"
+                        data-id="46e6576e" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
@@ -2055,9 +1851,9 @@
                                         <form class="elementor-form" method="post" name="Subscribe Form">
                                             <input type="hidden" name="post_id" value="32">
                                             <input type="hidden" name="form_id" value="dd4d324">
-                                            <input type="hidden" name="referer_title" value="Libraries">
+                                            <input type="hidden" name="referer_title" value="About Us">
 
-                                            <input type="hidden" name="queried_id" value="20">
+                                            <input type="hidden" name="queried_id" value="11">
 
                                             <div class="elementor-form-fields-wrapper elementor-labels-above">
                                                 <div
@@ -2095,41 +1891,8 @@
                                                     data-id="b84e421" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <style>
-                                                        /*! elementor - v3.14.0 - 26-06-2023 */
-                                                        .elementor-heading-title {
-                                                            padding: 0;
-                                                            margin: 0;
-                                                            line-height: 1
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                            color: inherit;
-                                                            font-size: inherit;
-                                                            line-height: inherit
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                            font-size: 15px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                            font-size: 19px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                            font-size: 29px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                            font-size: 39px
-                                                        }
-
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                            font-size: 59px
-                                                        }
-                                                        </style>
-                                                        <p class="elementor-heading-title elementor-size-default">How it
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            How it
                                                             Works</p>
                                                     </div>
                                                 </div>
@@ -2142,9 +1905,10 @@
                                                     data-id="7b6d864" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/privacy-policy/">Privacy
-                                                                Policy</a></p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/privacy-policy/">Privacy
+                                                                Policy</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2156,9 +1920,10 @@
                                                     data-id="aaf88ad" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/terms-conditions">Terms &
-                                                                Conditions</a></p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/terms-conditions">Terms
+                                                                & Conditions</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2170,9 +1935,10 @@
                                                     data-id="b23aa07" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/community-guidelines/">Community
-                                                                Guidelines</a></p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/community-guidelines/">Community
+                                                                Guidelines</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2184,8 +1950,9 @@
                                                     data-id="269f902" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/about-us/">About Us</a>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/about-us/">About
+                                                                Us</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2198,9 +1965,10 @@
                                                     data-id="32f5614" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/contact-us/">Contact
-                                                                Us</a></p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/contact-us/">Contact
+                                                                Us</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2212,8 +1980,9 @@
                                                     data-id="159e6db" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/blogs/">FAQs</a></p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="{{ route('faq') }}">FAQs</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2225,9 +1994,10 @@
                                                     data-id="5db6379" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
-                                                                Mentors</a></p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="{{ route('browseMentor') }}">Browse
+                                                                Mentors</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2251,305 +2021,6 @@
                                     data-id="540d2d1" data-element_type="widget"
                                     data-widget_type="social-icons.default">
                                     <div class="elementor-widget-container">
-                                        <style>
-                                        /*! elementor - v3.14.0 - 26-06-2023 */
-                                        .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
-                                        .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
-                                        .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
-                                            line-height: 1;
-                                            font-size: 0
-                                        }
-
-                                        .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-                                            display: inline-grid
-                                        }
-
-                                        .elementor-widget-social-icons .elementor-grid {
-                                            grid-column-gap: var(--grid-column-gap, 5px);
-                                            grid-row-gap: var(--grid-row-gap, 5px);
-                                            grid-template-columns: var(--grid-template-columns);
-                                            justify-content: var(--justify-content, center);
-                                            justify-items: var(--justify-content, center)
-                                        }
-
-                                        .elementor-icon.elementor-social-icon {
-                                            font-size: var(--icon-size, 25px);
-                                            line-height: var(--icon-size, 25px);
-                                            width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
-                                            height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))
-                                        }
-
-                                        .elementor-social-icon {
-                                            --e-social-icon-icon-color: #fff;
-                                            display: inline-flex;
-                                            background-color: #69727d;
-                                            align-items: center;
-                                            justify-content: center;
-                                            text-align: center;
-                                            cursor: pointer
-                                        }
-
-                                        .elementor-social-icon i {
-                                            color: var(--e-social-icon-icon-color)
-                                        }
-
-                                        .elementor-social-icon svg {
-                                            fill: var(--e-social-icon-icon-color)
-                                        }
-
-                                        .elementor-social-icon:last-child {
-                                            margin: 0
-                                        }
-
-                                        .elementor-social-icon:hover {
-                                            opacity: .9;
-                                            color: #fff
-                                        }
-
-                                        .elementor-social-icon-android {
-                                            background-color: #a4c639
-                                        }
-
-                                        .elementor-social-icon-apple {
-                                            background-color: #999
-                                        }
-
-                                        .elementor-social-icon-behance {
-                                            background-color: #1769ff
-                                        }
-
-                                        .elementor-social-icon-bitbucket {
-                                            background-color: #205081
-                                        }
-
-                                        .elementor-social-icon-codepen {
-                                            background-color: #000
-                                        }
-
-                                        .elementor-social-icon-delicious {
-                                            background-color: #39f
-                                        }
-
-                                        .elementor-social-icon-deviantart {
-                                            background-color: #05cc47
-                                        }
-
-                                        .elementor-social-icon-digg {
-                                            background-color: #005be2
-                                        }
-
-                                        .elementor-social-icon-dribbble {
-                                            background-color: #ea4c89
-                                        }
-
-                                        .elementor-social-icon-elementor {
-                                            background-color: #d30c5c
-                                        }
-
-                                        .elementor-social-icon-envelope {
-                                            background-color: #ea4335
-                                        }
-
-                                        .elementor-social-icon-facebook,
-                                        .elementor-social-icon-facebook-f {
-                                            background-color: #3b5998
-                                        }
-
-                                        .elementor-social-icon-flickr {
-                                            background-color: #0063dc
-                                        }
-
-                                        .elementor-social-icon-foursquare {
-                                            background-color: #2d5be3
-                                        }
-
-                                        .elementor-social-icon-free-code-camp,
-                                        .elementor-social-icon-freecodecamp {
-                                            background-color: #006400
-                                        }
-
-                                        .elementor-social-icon-github {
-                                            background-color: #333
-                                        }
-
-                                        .elementor-social-icon-gitlab {
-                                            background-color: #e24329
-                                        }
-
-                                        .elementor-social-icon-globe {
-                                            background-color: #69727d
-                                        }
-
-                                        .elementor-social-icon-google-plus,
-                                        .elementor-social-icon-google-plus-g {
-                                            background-color: #dd4b39
-                                        }
-
-                                        .elementor-social-icon-houzz {
-                                            background-color: #7ac142
-                                        }
-
-                                        .elementor-social-icon-instagram {
-                                            background-color: #262626
-                                        }
-
-                                        .elementor-social-icon-jsfiddle {
-                                            background-color: #487aa2
-                                        }
-
-                                        .elementor-social-icon-link {
-                                            background-color: #818a91
-                                        }
-
-                                        .elementor-social-icon-linkedin,
-                                        .elementor-social-icon-linkedin-in {
-                                            background-color: #0077b5
-                                        }
-
-                                        .elementor-social-icon-medium {
-                                            background-color: #00ab6b
-                                        }
-
-                                        .elementor-social-icon-meetup {
-                                            background-color: #ec1c40
-                                        }
-
-                                        .elementor-social-icon-mixcloud {
-                                            background-color: #273a4b
-                                        }
-
-                                        .elementor-social-icon-odnoklassniki {
-                                            background-color: #f4731c
-                                        }
-
-                                        .elementor-social-icon-pinterest {
-                                            background-color: #bd081c
-                                        }
-
-                                        .elementor-social-icon-product-hunt {
-                                            background-color: #da552f
-                                        }
-
-                                        .elementor-social-icon-reddit {
-                                            background-color: #ff4500
-                                        }
-
-                                        .elementor-social-icon-rss {
-                                            background-color: #f26522
-                                        }
-
-                                        .elementor-social-icon-shopping-cart {
-                                            background-color: #4caf50
-                                        }
-
-                                        .elementor-social-icon-skype {
-                                            background-color: #00aff0
-                                        }
-
-                                        .elementor-social-icon-slideshare {
-                                            background-color: #0077b5
-                                        }
-
-                                        .elementor-social-icon-snapchat {
-                                            background-color: #fffc00
-                                        }
-
-                                        .elementor-social-icon-soundcloud {
-                                            background-color: #f80
-                                        }
-
-                                        .elementor-social-icon-spotify {
-                                            background-color: #2ebd59
-                                        }
-
-                                        .elementor-social-icon-stack-overflow {
-                                            background-color: #fe7a15
-                                        }
-
-                                        .elementor-social-icon-steam {
-                                            background-color: #00adee
-                                        }
-
-                                        .elementor-social-icon-stumbleupon {
-                                            background-color: #eb4924
-                                        }
-
-                                        .elementor-social-icon-telegram {
-                                            background-color: #2ca5e0
-                                        }
-
-                                        .elementor-social-icon-thumb-tack {
-                                            background-color: #1aa1d8
-                                        }
-
-                                        .elementor-social-icon-tripadvisor {
-                                            background-color: #589442
-                                        }
-
-                                        .elementor-social-icon-tumblr {
-                                            background-color: #35465c
-                                        }
-
-                                        .elementor-social-icon-twitch {
-                                            background-color: #6441a5
-                                        }
-
-                                        .elementor-social-icon-twitter {
-                                            background-color: #1da1f2
-                                        }
-
-                                        .elementor-social-icon-viber {
-                                            background-color: #665cac
-                                        }
-
-                                        .elementor-social-icon-vimeo {
-                                            background-color: #1ab7ea
-                                        }
-
-                                        .elementor-social-icon-vk {
-                                            background-color: #45668e
-                                        }
-
-                                        .elementor-social-icon-weibo {
-                                            background-color: #dd2430
-                                        }
-
-                                        .elementor-social-icon-weixin {
-                                            background-color: #31a918
-                                        }
-
-                                        .elementor-social-icon-whatsapp {
-                                            background-color: #25d366
-                                        }
-
-                                        .elementor-social-icon-wordpress {
-                                            background-color: #21759b
-                                        }
-
-                                        .elementor-social-icon-xing {
-                                            background-color: #026466
-                                        }
-
-                                        .elementor-social-icon-yelp {
-                                            background-color: #af0606
-                                        }
-
-                                        .elementor-social-icon-youtube {
-                                            background-color: #cd201f
-                                        }
-
-                                        .elementor-social-icon-500px {
-                                            background-color: #0099e5
-                                        }
-
-                                        .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                            border-radius: 10%
-                                        }
-
-                                        .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                            border-radius: 50%
-                                        }
-                                        </style>
                                         <div class="elementor-social-icons-wrapper elementor-grid">
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a96e0b3"
@@ -2579,7 +2050,7 @@
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
-                                                    target="_blank">
+                                                    href="https://www.instagram.com/wiseadvizor/" target="_blank">
                                                     <span class="elementor-screen-only">Instagram</span>
                                                     <i class="fab fa-instagram"></i> </a>
                                             </span>
@@ -2624,6 +2095,10 @@
         width: auto;
         z-index: 100000;
     }
+
+    /* .coming-soon-page {
+        background-image: url("https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg");
+    } */
     </style>
     <script>
     (function() {
@@ -2813,8 +2288,8 @@
             "lightbox_description_src": "description"
         },
         "post": {
-            "id": 20,
-            "title": "Libraries%20%E2%80%93%20WISE%20ADVIZOR",
+            "id": 22,
+            "title": "Community%20Post%20%E2%80%93%20WISE%20ADVIZOR",
             "excerpt": "",
             "featuredImage": false
         }
@@ -2997,9 +2472,6 @@
                     }
                 }
             })
-
-
-
         });
     }(jQuery));
     </script>
