@@ -1115,7 +1115,8 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-22 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5" style="url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg')">
+    class="page-template page-template-elementor_canvas page page-id-22 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5"
+    style="url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg')">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
         style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
@@ -1751,20 +1752,8 @@
             </section>
         </div>
     </header>
-    <div data-elementor-type="wp-page" data-elementor-id="2942" class="elementor elementor-2942">
-        <section class="coming-soon-page">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d317bb"
-                    data-id="4d317bb" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="page-header align-items-start min-vh-100" style="background-image: url('{{ asset('wp-content/uploads/2023/07/coming_soon.jpg') }}')">
     </div>
-
-
-
     <style id="skip-link-styles">
     .skip-link.screen-reader-text {
         border: 0;
