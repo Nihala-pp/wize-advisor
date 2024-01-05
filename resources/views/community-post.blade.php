@@ -1528,7 +1528,7 @@
     </header>
 
     <div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11">
-        <div class="page-header align-items-start min-vh-100" style="background-image:url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg')">
+        <div class="page-header align-items-start min-vh-100" style="background-image: url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg');">
         </div>
     </div>
 
