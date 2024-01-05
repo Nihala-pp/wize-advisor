@@ -1751,8 +1751,11 @@
             </section>
         </div>
     </header>
-    <div class="page-header align-items-start min-vh-100" style="background-image: url('{{ asset('wp-content/uploads/2023/07/coming_soon.jpg') }}')">
-    </div>
+    <main class="main-content  mt-0">
+        <div class="page-header align-items-start min-vh-100"
+            style="background-image: url('{{ asset('wp-content/uploads/2023/07/coming_soon.jpg') }}')">
+        </div>
+    </main>
     <style id="skip-link-styles">
     .skip-link.screen-reader-text {
         border: 0;
