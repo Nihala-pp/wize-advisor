@@ -6584,5 +6584,18 @@
 .elementor-30 .elementor-element.elementor-element-ae81400 .elementor-button {
     font-size: 14px !important;
 }
+
+.elementor-934 .elementor-element.elementor-element-452c0d8f .elementor-heading-title {
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    word-spacing: 2px !important;
+}
+
+.elementor-934 .elementor-element.elementor-element-452c0d8f {
+    text-align: left;
+}
 </style>
 </html>
