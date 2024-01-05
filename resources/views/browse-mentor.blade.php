@@ -3655,7 +3655,7 @@ screen and (min-width: 1024px) {
     }
 
     .name {
-        margin-top: 8px;
+        margin-top: 15px;
     }
 }
 
@@ -3702,5 +3702,4 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
-
 </html>
