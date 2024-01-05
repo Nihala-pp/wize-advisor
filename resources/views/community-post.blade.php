@@ -17,6 +17,8 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link rel='stylesheet' id='elementor-post-2-css' href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' />
+
 
     <script>
     window._wpemojiSettings = {
