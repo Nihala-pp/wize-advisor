@@ -2167,7 +2167,9 @@
 
                                             <!-- </div> -->
                                         </div>
-                                        <span class="text-center price"><b> $ {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }} / 30 Min</b></span>
+                                        <span class="text-center price"><b> $
+                                                {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }} / 30
+                                                Min</b></span>
                                     </small>
                                 </div>
                             </div>
@@ -3637,6 +3639,19 @@ screen and (min-width: 1024px) {
         /* text-align: right!important; */
     }
 
+    #date {
+        width: 220px;
+        height: 36px;
+        /* padding-top: 10px !important; */
+        /* padding-top: 20px!important; */
+        background-color: #54b4d3;
+        color: #fff;
+        font-weight: 200px;
+        /* line-height: normal; */
+        font-size: 0.75rem !important;
+        /* padding-left: 20px !important; */
+    }
+
     .card {
         width: 22rem !important;
     }
@@ -3701,4 +3716,5 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 </style>
+
 </html>
