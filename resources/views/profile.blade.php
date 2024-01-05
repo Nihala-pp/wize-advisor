@@ -5050,7 +5050,7 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
@@ -5082,6 +5082,6 @@ i.fas.fa-bell.fa-2xl {
     font-weight: 400;
     color: #ffff !important;
 }
-</style>
 
+</style>
 </html>
