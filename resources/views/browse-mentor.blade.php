@@ -3640,7 +3640,7 @@ screen and (min-width: 1024px) {
 
     #date {
         width: 220px;
-        height: 36px;
+        height: 35px;
         background-color: #54b4d3;
         color: #fff;
         font-weight: 200px;
