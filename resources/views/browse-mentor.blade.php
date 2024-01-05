@@ -3652,13 +3652,13 @@ screen and (min-width: 1024px) {
     }
 
     .elementor-star-rating__wrapper {
-        padding-left: 125px;
+        padding-left: 115px;
         display: flex;
         /* align-items: right; */
     }
 
     .price {
-        padding-left: 110px;
+        padding-left: 100px;         
         display: flex;
         align-items: center;
     }
