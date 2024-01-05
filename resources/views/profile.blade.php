@@ -3152,7 +3152,7 @@
                                 <div class="testimonial-block">
                                     <div class="row feedback">
                                         @foreach($reviews as $review)
-                                        <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="col-lg-4 mb-4">
                                             <div class="fee">
                                                 <div class="testimonial-box m-0 h-100">
                                                     <!-- <img src="https://www.sociablekit.com/tutorials/tutorials-resources/images/quote-top.svg"
