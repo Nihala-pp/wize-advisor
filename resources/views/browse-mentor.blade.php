@@ -3642,14 +3642,10 @@ screen and (min-width: 1024px) {
     #date {
         width: 220px;
         height: 36px;
-        /* padding-top: 10px !important; */
-        /* padding-top: 20px!important; */
         background-color: #54b4d3;
         color: #fff;
         font-weight: 200px;
-        /* line-height: normal; */
         font-size: 0.75rem !important;
-        /* padding-left: 20px !important; */
     }
 
     .card {
