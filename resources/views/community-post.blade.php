@@ -1527,8 +1527,20 @@
         </div>
     </header>
 
-    <div data-elementor-type="wp-page" data-elementor-id="11" class="elementor elementor-11">
-        <div class="page-header align-items-start min-vh-100" style="background-image: url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg');">
+    <div class="entry-content clear" itemprop="text">
+        <div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-5d5d56ce elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                data-id="5d5d56ce" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-46e6576e"
+                        data-id="46e6576e" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 
