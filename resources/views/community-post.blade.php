@@ -1738,7 +1738,7 @@
                     </div>
                 </div>
             </header>
-            <section style="background-image:url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg')">
+            <section class="coming-soon-page" style="">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d317bb"
                         data-id="4d317bb" data-element_type="column">
@@ -3027,5 +3027,9 @@
     </script>
     <!--End of Tawk.to Script-->
 </body>
-
+<style>
+    section {
+        background-image:url("https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg");
+    }
+</style>
 </html>
