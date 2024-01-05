@@ -1738,9 +1738,7 @@
                     </div>
                 </div>
             </header>
-            <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-d847c98 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="d847c98" data-element_type="section" style="background-image:url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg')">
+            <section style="background-image:url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg')">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d317bb"
                         data-id="4d317bb" data-element_type="column">
