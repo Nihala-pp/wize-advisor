@@ -4407,7 +4407,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title {
-  color:#ffff !important;
+    color: #ffff !important;
 }
 </style>
 </html>
