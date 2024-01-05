@@ -3657,9 +3657,9 @@ screen and (min-width: 1024px) {
     }
 
     .elementor-star-rating__wrapper {
-        padding-left: 120px;
+        padding-left: 125px;
         display: flex;
-        align-items: right;
+        /* align-items: right; */
     }
 
     .price {
