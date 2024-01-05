@@ -2536,7 +2536,7 @@
                                                                                         class="elementor-widget-container">
                                                                                         <p
                                                                                             class="elementor-heading-title elementor-size-default">
-                                                                                            {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}
+                                                                                            {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(120) : '' }}
 
                                                                                         </p>
                                                                                     </div>
