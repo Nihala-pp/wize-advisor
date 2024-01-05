@@ -4405,5 +4405,9 @@ i.fas.fa-bell.fa-2xl {
 .elementor-4878 .elementor-element.elementor-element-f641fa2 > .elementor-widget-container {
     margin: 0px 0px 0px 0px !important;
 }
+
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title {
+  color:#ffff;
+}
 </style>
 </html>
