@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Community Post &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -1116,7 +1115,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-22 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5">
+    class="page-template page-template-elementor_canvas page page-id-22 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5" style="background-image:url('https://wiseadvizor.com/wp-content/uploads/2023/07/coming_soon.jpg');">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
         style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
