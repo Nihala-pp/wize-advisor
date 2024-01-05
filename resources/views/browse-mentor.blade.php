@@ -3635,7 +3635,6 @@ screen and (min-width: 1024px) {
 
     div.d-grid.gap-2.col-6.butto {
         padding-left: 80px;
-        */
         /* text-align: right!important; */
     }
 
@@ -3711,6 +3710,21 @@ input[type="date"]:valid::before {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
-</style>
 
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* For Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* For Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+</style>
 </html>
