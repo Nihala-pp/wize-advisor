@@ -3634,8 +3634,7 @@
                                                     <input size="1" type="email" name="form_fields[email]"
                                                         id="form-field-email"
                                                         class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="Your email address" required="required"
-                                                        aria-required="true">
+                                                        placeholder="" required="required" aria-required="true">
                                                 </div>
                                                 <div
                                                     class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
