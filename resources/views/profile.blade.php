@@ -5029,21 +5029,21 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
@@ -5057,28 +5057,28 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
     color: #ffff !important;
 }
