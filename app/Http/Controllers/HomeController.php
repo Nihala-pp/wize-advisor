@@ -548,7 +548,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     return view('community-guidelines');
   }
 
-  public function libararies()
+  public function libraries()
   {
     return view('libraries');
   }
