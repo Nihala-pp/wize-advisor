@@ -3710,21 +3710,5 @@ input[type="date"]:valid::before {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
-
-::-webkit-input-placeholder {
-   text-align: center;
-}
-
-:-moz-placeholder { /* For Firefox 18- */
-   text-align: center;  
-}
-
-::-moz-placeholder {  /* For Firefox 19+ */
-   text-align: center;  
-}
-
-:-ms-input-placeholder {  
-   text-align: center; 
-}
 </style>
 </html>
