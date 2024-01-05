@@ -3643,7 +3643,7 @@ screen and (min-width: 1024px) {
         width: 220px;
         height: 36px;
         background-color: #54b4d3;
-        color: #fff !important;
+        color: #fff;
         font-weight: 200px;
         font-size: 0.75rem !important;
     }
