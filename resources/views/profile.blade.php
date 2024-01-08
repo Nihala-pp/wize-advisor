@@ -5940,6 +5940,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin: 0px 0px 0px 0px;
     }
 
+    .elementor-4878 .elementor-element.elementor-element-dc63cc3 {
+        text-align: center;
+        margin-top: -5px;
+    }
+
     .elementor-4878 .elementor-element.elementor-element-7d4fe70>.elementor-widget-container {
         margin: -10px 0px 45px 0px;
         padding: 0px 0px 0px 0px;
