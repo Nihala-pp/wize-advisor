@@ -1999,10 +1999,13 @@
                                                 data-id="4971126" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="availability"><b>Next
-                                                            Availability <br></b><br> @if(!empty($nextAvailability))
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        <span>Next Availability </span>
+                                                    </h5>
+                                                    <p class="availability"> @if(!empty($nextAvailability))
                                                         {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
-                                                        @endif</p>
+                                                        @endif
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
