@@ -2129,7 +2129,7 @@
                                 <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
                                     data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}}
+                                        <p class="elementor-heading-title elementor-size-default review">{{ $totalReviews}}
                                             @if($totalReviews > 1) Reviews @else Review @endif /
                                             {{ $totalSessions}} Sessions
                                         </p>
@@ -5886,12 +5886,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-b0cfee1>.elementor-widget-container {
-        margin: -5px 0px 0px 85px;
+        margin: -5px 0px 0px 0px;
         padding: 0px 0px 0px 40px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
-        font-size: 16px;
+        font-size: 14px;
+        text-align: center;
     }
 
     .elementor-4878 .elementor-element.elementor-element-24ce783 {
@@ -5986,6 +5987,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .bio {
+        font-size: 12px !important;
+        font-weight: normal !important;
+    }
+
+    .review {
         font-size: 12px !important;
         font-weight: normal !important;
     }
