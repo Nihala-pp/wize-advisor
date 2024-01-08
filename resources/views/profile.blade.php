@@ -1711,6 +1711,722 @@
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
                         data-id="b1f32fb" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-f428972 elementor-hidden-desktop elementor-widget elementor-widget-heading"
+                                data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                    /*! elementor - v3.18.0 - 20-12-2023 */
+                                    .elementor-heading-title {
+                                        padding: 0;
+                                        margin: 0;
+                                        line-height: 1
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                        color: inherit;
+                                        font-size: inherit;
+                                        line-height: inherit
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                        font-size: 15px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                        font-size: 19px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                        font-size: 29px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                        font-size: 39px
+                                    }
+
+                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                        font-size: 59px
+                                    }
+                                    </style>
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am Soha El Baklawy
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-576c4f2 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
+                                data-id="576c4f2" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                    /*! elementor - v3.18.0 - 20-12-2023 */
+                                    .elementor-widget-image {
+                                        text-align: center
+                                    }
+
+                                    .elementor-widget-image a {
+                                        display: inline-block
+                                    }
+
+                                    .elementor-widget-image a img[src$=".svg"] {
+                                        width: 48px
+                                    }
+
+                                    .elementor-widget-image img {
+                                        vertical-align: middle;
+                                        display: inline-block
+                                    }
+                                    </style> <img fetchpriority="high" decoding="async" width="241" height="300"
+                                        src="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                        class="attachment-medium size-medium wp-image-4926" alt=""
+                                        srcset="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
+                                        sizes="(max-width: 241px) 100vw, 241px">
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
+                                data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am Soha El Baklawy
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
+                                data-id="b0cfee1" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h6 class="elementor-heading-title elementor-size-default">Founder, Businesseta</h6>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
+                                data-id="24ce783" data-element_type="widget" data-widget_type="rating.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                    /*! elementor - v3.18.0 - 20-12-2023 */
+                                    .elementor-widget-rating {
+                                        --e-rating-gap: 0px;
+                                        --e-rating-icon-font-size: 16px;
+                                        --e-rating-icon-color: #ccd6df;
+                                        --e-rating-icon-marked-color: #f0ad4e;
+                                        --e-rating-icon-marked-width: 100%;
+                                        --e-rating-justify-content: flex-start
+                                    }
+
+                                    .elementor-widget-rating .e-rating {
+                                        display: flex;
+                                        justify-content: var(--e-rating-justify-content)
+                                    }
+
+                                    .elementor-widget-rating .e-rating-wrapper {
+                                        display: flex;
+                                        justify-content: inherit;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        width: -moz-fit-content;
+                                        width: fit-content;
+                                        margin-block-end: calc(0px - var(--e-rating-gap));
+                                        margin-inline-end: calc(0px - var(--e-rating-gap))
+                                    }
+
+                                    .elementor-widget-rating .e-rating .e-icon {
+                                        position: relative;
+                                        margin-block-end: var(--e-rating-gap);
+                                        margin-inline-end: var(--e-rating-gap)
+                                    }
+
+                                    .elementor-widget-rating .e-rating .e-icon-wrapper.e-icon-marked {
+                                        --e-rating-icon-color: var(--e-rating-icon-marked-color);
+                                        width: var(--e-rating-icon-marked-width);
+                                        position: absolute;
+                                        z-index: 1;
+                                        height: 100%;
+                                        left: 0;
+                                        top: 0;
+                                        overflow: hidden
+                                    }
+
+                                    .elementor-widget-rating .e-rating .e-icon-wrapper :is(i, svg) {
+                                        display: flex;
+                                        flex-shrink: 0
+                                    }
+
+                                    .elementor-widget-rating .e-rating .e-icon-wrapper i {
+                                        font-size: var(--e-rating-icon-font-size);
+                                        color: var(--e-rating-icon-color)
+                                    }
+
+                                    .elementor-widget-rating .e-rating .e-icon-wrapper svg {
+                                        width: auto;
+                                        height: var(--e-rating-icon-font-size);
+                                        fill: var(--e-rating-icon-color)
+                                    }
+                                    </style>
+                                    <div class="e-rating" itemtype="https://schema.org/Rating" itemscope=""
+                                        itemprop="reviewRating">
+                                        <meta itemprop="worstRating" content="0">
+                                        <meta itemprop="bestRating" content="5">
+                                        <div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img"
+                                            aria-label="Rated 5 out of 5">
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-712b493 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading"
+                                data-id="712b493" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <p class="elementor-heading-title elementor-size-default">20 Reviews / 50 Sessions
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                    /*! elementor - v3.18.0 - 20-12-2023 */
+                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                        background-color: #69727d;
+                                        color: #fff
+                                    }
+
+                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                        color: #69727d;
+                                        border: 3px solid;
+                                        background-color: transparent
+                                    }
+
+                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                        margin-top: 8px
+                                    }
+
+                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                        width: 1em;
+                                        height: 1em
+                                    }
+
+                                    .elementor-widget-text-editor .elementor-drop-cap {
+                                        float: left;
+                                        text-align: center;
+                                        line-height: 1;
+                                        font-size: 50px
+                                    }
+
+                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                        display: inline-block
+                                    }
+                                    </style>
+                                    <p style="text-align: left;">I am an entrepreneur and a mentor, dedicated to
+                                        empowering startups and driving impactful social change globally. As an
+                                        entrepreneur and the visionary behind Businessita, I often faced decision
+                                        fatigue during my journey. This inspiration led me to mentorship, aspiring to
+                                        simplify choices for fellow entrepreneurs on their journey.</p>
+                                </div>
+                            </div>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-aae4654 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                data-id="aae4654" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1a38400"
+                                        data-id="1a38400" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-9cb279c elementor-widget elementor-widget-heading"
+                                                data-id="9cb279c" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">
+                                                        <b>Languages </b><br><br> English, Arabic</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2d4485e"
+                                        data-id="2d4485e" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-0b592cc elementor-widget elementor-widget-heading"
+                                                data-id="0b592cc" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default"><b>Time
+                                                            Available <br></b><br> 30 Minutes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a778da0"
+                                        data-id="a778da0" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-4971126 elementor-widget elementor-widget-heading"
+                                                data-id="4971126" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default"><b>Next
+                                                            Availability <br></b><br> 14th Dec, 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="elementor-element elementor-element-dc63cc3 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading"
+                                data-id="dc63cc3" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h5 class="elementor-heading-title elementor-size-default"><span
+                                            style="font-weight: normal;">$ 12.5 / 30 Min</span></h5>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
+                                data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Schedule Call</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48e4c8f elementor-hidden-mobile"
+                        data-id="48e4c8f" data-element_type="column"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-c11a030 elementor-widget elementor-widget-image"
+                                data-id="c11a030" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img fetchpriority="high" decoding="async" width="241" height="300"
+                                        src="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                        class="attachment-medium size-medium wp-image-4926" alt=""
+                                        srcset="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
+                                        sizes="(max-width: 241px) 100vw, 241px">
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
+                                data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h5 class="elementor-heading-title elementor-size-default"><span
+                                            style="font-weight: normal;">$ 12.5/30 Min</span></h5>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-cf9a819 elementor-widget elementor-widget-rating"
+                                data-id="cf9a819" data-element_type="widget" data-widget_type="rating.default">
+                                <div class="elementor-widget-container">
+                                    <div class="e-rating" itemtype="https://schema.org/Rating" itemscope=""
+                                        itemprop="reviewRating">
+                                        <meta itemprop="worstRating" content="0">
+                                        <meta itemprop="bestRating" content="5">
+                                        <div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img"
+                                            aria-label="Rated 5 out of 5">
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="e-icon">
+                                                <div class="e-icon-wrapper e-icon-marked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                                <div class="e-icon-wrapper e-icon-unmarked">
+                                                    <i aria-hidden="true" class="eicon-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
+                                data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <p class="elementor-heading-title elementor-size-default">20 Reviews / 50 Sessions
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-144014d elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                                data-id="144014d" data-element_type="widget" data-widget_type="social-icons.default">
+                                <div class="elementor-widget-container">
+                                    <style>
+                                    /*! elementor - v3.18.0 - 20-12-2023 */
+                                    .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+                                    .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+                                    .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+                                        line-height: 1;
+                                        font-size: 0
+                                    }
+
+                                    .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+                                        display: inline-grid
+                                    }
+
+                                    .elementor-widget-social-icons .elementor-grid {
+                                        grid-column-gap: var(--grid-column-gap, 5px);
+                                        grid-row-gap: var(--grid-row-gap, 5px);
+                                        grid-template-columns: var(--grid-template-columns);
+                                        justify-content: var(--justify-content, center);
+                                        justify-items: var(--justify-content, center)
+                                    }
+
+                                    .elementor-icon.elementor-social-icon {
+                                        font-size: var(--icon-size, 25px);
+                                        line-height: var(--icon-size, 25px);
+                                        width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
+                                        height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+                                    }
+
+                                    .elementor-social-icon {
+                                        --e-social-icon-icon-color: #fff;
+                                        display: inline-flex;
+                                        background-color: #69727d;
+                                        align-items: center;
+                                        justify-content: center;
+                                        text-align: center;
+                                        cursor: pointer
+                                    }
+
+                                    .elementor-social-icon i {
+                                        color: var(--e-social-icon-icon-color)
+                                    }
+
+                                    .elementor-social-icon svg {
+                                        fill: var(--e-social-icon-icon-color)
+                                    }
+
+                                    .elementor-social-icon:last-child {
+                                        margin: 0
+                                    }
+
+                                    .elementor-social-icon:hover {
+                                        opacity: .9;
+                                        color: #fff
+                                    }
+
+                                    .elementor-social-icon-android {
+                                        background-color: #a4c639
+                                    }
+
+                                    .elementor-social-icon-apple {
+                                        background-color: #999
+                                    }
+
+                                    .elementor-social-icon-behance {
+                                        background-color: #1769ff
+                                    }
+
+                                    .elementor-social-icon-bitbucket {
+                                        background-color: #205081
+                                    }
+
+                                    .elementor-social-icon-codepen {
+                                        background-color: #000
+                                    }
+
+                                    .elementor-social-icon-delicious {
+                                        background-color: #39f
+                                    }
+
+                                    .elementor-social-icon-deviantart {
+                                        background-color: #05cc47
+                                    }
+
+                                    .elementor-social-icon-digg {
+                                        background-color: #005be2
+                                    }
+
+                                    .elementor-social-icon-dribbble {
+                                        background-color: #ea4c89
+                                    }
+
+                                    .elementor-social-icon-elementor {
+                                        background-color: #d30c5c
+                                    }
+
+                                    .elementor-social-icon-envelope {
+                                        background-color: #ea4335
+                                    }
+
+                                    .elementor-social-icon-facebook,
+                                    .elementor-social-icon-facebook-f {
+                                        background-color: #3b5998
+                                    }
+
+                                    .elementor-social-icon-flickr {
+                                        background-color: #0063dc
+                                    }
+
+                                    .elementor-social-icon-foursquare {
+                                        background-color: #2d5be3
+                                    }
+
+                                    .elementor-social-icon-free-code-camp,
+                                    .elementor-social-icon-freecodecamp {
+                                        background-color: #006400
+                                    }
+
+                                    .elementor-social-icon-github {
+                                        background-color: #333
+                                    }
+
+                                    .elementor-social-icon-gitlab {
+                                        background-color: #e24329
+                                    }
+
+                                    .elementor-social-icon-globe {
+                                        background-color: #69727d
+                                    }
+
+                                    .elementor-social-icon-google-plus,
+                                    .elementor-social-icon-google-plus-g {
+                                        background-color: #dd4b39
+                                    }
+
+                                    .elementor-social-icon-houzz {
+                                        background-color: #7ac142
+                                    }
+
+                                    .elementor-social-icon-instagram {
+                                        background-color: #262626
+                                    }
+
+                                    .elementor-social-icon-jsfiddle {
+                                        background-color: #487aa2
+                                    }
+
+                                    .elementor-social-icon-link {
+                                        background-color: #818a91
+                                    }
+
+                                    .elementor-social-icon-linkedin,
+                                    .elementor-social-icon-linkedin-in {
+                                        background-color: #0077b5
+                                    }
+
+                                    .elementor-social-icon-medium {
+                                        background-color: #00ab6b
+                                    }
+
+                                    .elementor-social-icon-meetup {
+                                        background-color: #ec1c40
+                                    }
+
+                                    .elementor-social-icon-mixcloud {
+                                        background-color: #273a4b
+                                    }
+
+                                    .elementor-social-icon-odnoklassniki {
+                                        background-color: #f4731c
+                                    }
+
+                                    .elementor-social-icon-pinterest {
+                                        background-color: #bd081c
+                                    }
+
+                                    .elementor-social-icon-product-hunt {
+                                        background-color: #da552f
+                                    }
+
+                                    .elementor-social-icon-reddit {
+                                        background-color: #ff4500
+                                    }
+
+                                    .elementor-social-icon-rss {
+                                        background-color: #f26522
+                                    }
+
+                                    .elementor-social-icon-shopping-cart {
+                                        background-color: #4caf50
+                                    }
+
+                                    .elementor-social-icon-skype {
+                                        background-color: #00aff0
+                                    }
+
+                                    .elementor-social-icon-slideshare {
+                                        background-color: #0077b5
+                                    }
+
+                                    .elementor-social-icon-snapchat {
+                                        background-color: #fffc00
+                                    }
+
+                                    .elementor-social-icon-soundcloud {
+                                        background-color: #f80
+                                    }
+
+                                    .elementor-social-icon-spotify {
+                                        background-color: #2ebd59
+                                    }
+
+                                    .elementor-social-icon-stack-overflow {
+                                        background-color: #fe7a15
+                                    }
+
+                                    .elementor-social-icon-steam {
+                                        background-color: #00adee
+                                    }
+
+                                    .elementor-social-icon-stumbleupon {
+                                        background-color: #eb4924
+                                    }
+
+                                    .elementor-social-icon-telegram {
+                                        background-color: #2ca5e0
+                                    }
+
+                                    .elementor-social-icon-thumb-tack {
+                                        background-color: #1aa1d8
+                                    }
+
+                                    .elementor-social-icon-tripadvisor {
+                                        background-color: #589442
+                                    }
+
+                                    .elementor-social-icon-tumblr {
+                                        background-color: #35465c
+                                    }
+
+                                    .elementor-social-icon-twitch {
+                                        background-color: #6441a5
+                                    }
+
+                                    .elementor-social-icon-twitter {
+                                        background-color: #1da1f2
+                                    }
+
+                                    .elementor-social-icon-viber {
+                                        background-color: #665cac
+                                    }
+
+                                    .elementor-social-icon-vimeo {
+                                        background-color: #1ab7ea
+                                    }
+
+                                    .elementor-social-icon-vk {
+                                        background-color: #45668e
+                                    }
+
+                                    .elementor-social-icon-weibo {
+                                        background-color: #dd2430
+                                    }
+
+                                    .elementor-social-icon-weixin {
+                                        background-color: #31a918
+                                    }
+
+                                    .elementor-social-icon-whatsapp {
+                                        background-color: #25d366
+                                    }
+
+                                    .elementor-social-icon-wordpress {
+                                        background-color: #21759b
+                                    }
+
+                                    .elementor-social-icon-xing {
+                                        background-color: #026466
+                                    }
+
+                                    .elementor-social-icon-yelp {
+                                        background-color: #af0606
+                                    }
+
+                                    .elementor-social-icon-youtube {
+                                        background-color: #cd201f
+                                    }
+
+                                    .elementor-social-icon-500px {
+                                        background-color: #0099e5
+                                    }
+
+                                    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+                                        border-radius: 10%
+                                    }
+
+                                    .elementor-shape-circle .elementor-icon.elementor-social-icon {
+                                        border-radius: 50%
+                                    }
+                                    </style>
+                                    <div class="elementor-social-icons-wrapper elementor-grid">
+                                        <span class="elementor-grid-item">
+                                            <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a"
+                                                target="_blank">
+                                                <span class="elementor-screen-only">Linkedin</span>
+                                                <i class="fab fa-linkedin"></i> </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                data-id="xjpohp1" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
+                        data-id="b1f32fb" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-f428972 elementor-widget elementor-widget-heading"
                                 data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
