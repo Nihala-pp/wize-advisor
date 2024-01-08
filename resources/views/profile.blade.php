@@ -2009,11 +2009,19 @@
                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
                                 data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
+                                    <h5 class="elementor-heading-title elementor-size-default">
+                                        <span>$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <!-- <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default"><span
                                             style="font-weight: normal;">$
                                             {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
                                 data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
