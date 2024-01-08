@@ -5926,6 +5926,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-aae4654 {
         margin-top: -30px;
         margin-bottom: 0px;
+        padding-right: 20px;
     }
 
     .elementor-section.elementor-section-boxed>.elementor-container {
