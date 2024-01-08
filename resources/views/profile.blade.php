@@ -1960,7 +1960,8 @@
                                         display: inline-block
                                     }
                                     </style>
-                                    <p style="text-align: justify;">{{ $data->metaData ? $data->metaData->bio : '' }}</p>
+                                    <p class="bio" style="text-align: justify;">
+                                        {{ $data->metaData ? $data->metaData->bio : '' }}</p>
                                 </div>
                             </div>
                             <section
@@ -5980,6 +5981,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .availability {
+        font-size: 12px !important;
+        font-weight: normal !important;
+    }
+
+    .bio {
         font-size: 12px !important;
         font-weight: normal !important;
     }
