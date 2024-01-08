@@ -1777,7 +1777,7 @@
 
                                     }
                                     </style> 
-                                     <h3 class="elementor-heading-title elementor-size-default">Hi! I am
+                                     <h3 class="elementor-heading-title elementor-size-default name">Hi! I am
                                         {{ $data->name }}
                                     </h3>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
@@ -5939,6 +5939,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-shape-rounded .elementor-icon.elementor-social-icon {
         border-radius: 10%;
+    }
+
+    .name {
+        margin-top:30px;
     }
 }
 </style>
