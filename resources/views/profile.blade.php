@@ -5900,7 +5900,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-24ce783>.elementor-widget-container {
-        margin: -15px 0px 0px 0px;
+        margin: -15px 0px 0px 0px !important;
         margin-bottom: 30px !important;
     }
 
