@@ -1984,7 +1984,10 @@
                                                 data-id="0b592cc" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="time"><b>Time Available <br></b><br> 30 Minutes</p>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        <span>Time Available</span>
+                                                    </h5>
+                                                    <p class="time">30 Minutes</p>
                                                 </div>
                                             </div>
                                         </div>
