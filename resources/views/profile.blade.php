@@ -1771,9 +1771,13 @@
                                     }
 
                                     .elementor-widget-image img {
-                                        margin-top:50px;
                                         vertical-align: middle;
                                         display: inline-block
+                                    }
+
+                                    .wp-image-4926 {
+                                        margin-top:50px;
+
                                     }
                                     </style> <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
