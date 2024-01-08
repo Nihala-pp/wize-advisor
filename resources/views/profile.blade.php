@@ -5568,7 +5568,7 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
-    font-size: 12px !important;
+    font-size: 15px !important;
     text-align: justify;
 }
 
