@@ -5945,8 +5945,8 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .name {
         margin-top: 50px !important;
         text-transform: bold !important;
-        color: #002D5B !IMPORTANT;
-        FONT-WEIGHT: BOLD;
+        color: #002D5B  !important;
+        font-weight: BOLD !important;
     }
 }
 </style>
