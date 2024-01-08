@@ -2429,7 +2429,7 @@
                     </div>
                 </div>
             </section>
-            <section
+            <!-- <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="xjpohp1" data-element_type="section"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2607,7 +2607,7 @@
                                         </a>
                                         @endif
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                         href="{{ route('login', ['schedule-call', $data->id]) }}">
@@ -2617,7 +2617,7 @@
                                         </span>
                                     </a>
                                 </div> -->
-                            </div>
+                            <!-- </div>
                         </div>
                     </div>
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48e4c8f"
@@ -3089,7 +3089,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-p7f37ge elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="p7f37ge" data-element_type="section"
