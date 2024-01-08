@@ -1960,7 +1960,7 @@
                                         display: inline-block
                                     }
                                     </style>
-                                    <p style="text-align: left;">{{ $data->metaData ? $data->metaData->bio : '' }}</p>
+                                    <p style="text-align: justify;">{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                                 </div>
                             </div>
                             <section
@@ -5920,7 +5920,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-0e640ef>.elementor-widget-container {
         margin: -30px 0px 0px 0px;
-        padding: 0px 15px 0px 45px;
+        padding: 0px 40px 0px 45px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-aae4654 {
