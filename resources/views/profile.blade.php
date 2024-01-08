@@ -1773,7 +1773,7 @@
                                     }
 
                                     .wp-image-4926 {
-                                        margin-top: 50px;
+                                        margin-top: 30px;
 
                                     }
                                     </style>
