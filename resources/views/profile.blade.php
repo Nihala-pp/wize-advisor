@@ -3133,7 +3133,7 @@
                             <div class="elementor-element elementor-element-dcbce22 elementor-widget elementor-widget-heading"
                                 data-id="dcbce22" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h3 class="elementor-heading-title elementor-size-default">About Me</h3>
+                                    <h3 class="elementor-heading-title elementor-size-default about">About Me</h3>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-07446d7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
@@ -5950,6 +5950,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         text-transform: bold !important;
         color: #002D5B !important;
         font-weight: BOLD !important;
+    }
+
+    .about {
+        margin-top: 25px;
     }
 }
 </style>
