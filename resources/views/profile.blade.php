@@ -6018,6 +6018,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-bottom: -25px !important;
         margin-left: 30px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
+        font-size: 15px !important;
+        text-align: justify;
+    }
 }
 </style>
 
