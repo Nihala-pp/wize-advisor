@@ -5955,6 +5955,18 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .about {
         margin-top: 25px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-4971126 .elementor-heading-title {
+        font-size: 12px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-0b592cc .elementor-heading-title {
+        font-size: 12px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
+        font-size: 12px;
+    }
 }
 </style>
 
