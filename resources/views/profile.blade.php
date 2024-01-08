@@ -1703,8 +1703,7 @@
     </header>
     <div class="entry-content clear" itemprop="text">
         <div data-elementor-type="wp-page" data-elementor-id="4878" class="elementor elementor-4878">
-            <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-xjpohp1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                 data-id="xjpohp1" data-element_type="section"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-container elementor-column-gap-default">
@@ -1748,8 +1747,7 @@
                                         font-size: 59px
                                     }
                                     </style>
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am
-                                        {{ $data->name }}
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am {{ $data->name }}
                                     </h3>
                                 </div>
                             </div>
@@ -2009,10 +2007,8 @@
                             <div class="elementor-element elementor-element-dc63cc3 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading"
                                 data-id="dc63cc3" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h5 class="elementor-heading-title elementor-size-default"><span
-                                            style="font-weight: normal;">$
-                                            {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30
-                                            Min</span></h5>
+                                    <h5 class="elementor-heading-title elementor-size-default">
+                                        <span style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
