@@ -5963,7 +5963,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .about {
         margin-top: 25px;
-        padding-bottom:20px !important;
+        padding-bottom: 20px !important;
     }
 
     .elementor-4878 .elementor-element.elementor-element-4971126 .elementor-heading-title {
@@ -6005,6 +6005,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-widget-rating .e-rating-wrapper {
         padding-top: 5px !important;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container {
+        margin: -75px 0px -5px 0px !important;
     }
 }
 </style>
