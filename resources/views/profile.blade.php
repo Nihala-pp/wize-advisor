@@ -1968,7 +1968,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Languages </b><br><br> English, Arabic</p>
+                                                        <b>Languages </b><br><br> English, Arabic
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -5817,6 +5818,13 @@ i.fas.fa-bell.fa-2xl {
 body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-labels-above .elementor-field-group>label {
     padding-bottom: 10px !important;
 }
-</style>
 
+@media screen and (max-width: 767px) {
+    .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
+        margin-top: -50px;
+        margin-bottom: -50px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+</style>
 </html>
