@@ -5968,6 +5968,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
         font-size: 12px;
     }
+
+    .lang {
+        font-size: 12px !important;
+    }
 }
 </style>
 
