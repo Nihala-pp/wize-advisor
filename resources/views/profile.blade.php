@@ -1748,7 +1748,8 @@
                                         font-size: 59px
                                     }
                                     </style>
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am {{ $data->name }}
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am
+                                        {{ $data->name }}
                                     </h3>
                                 </div>
                             </div>
@@ -1774,23 +1775,25 @@
                                         display: inline-block
                                     }
                                     </style> <img fetchpriority="high" decoding="async" width="241" height="300"
-                                        src="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                        src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt=""
-                                        srcset="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
-                                        sizes="(max-width: 241px) 100vw, 241px">
+                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
+                                        sizes="(max-width: 241px) 100vw, 241px" />
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am {{ $data->name }}
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am
+                                        {{ $data->name }}
                                     </h3>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
                                 data-id="b0cfee1" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h6 class="elementor-heading-title elementor-size-default">{{ $data->metaData->designation }}, {{ $data->metaData->company }}</h6>
+                                    <h6 class="elementor-heading-title elementor-size-default">
+                                        {{ $data->metaData->designation }}, {{ $data->metaData->company }}</h6>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
@@ -1909,8 +1912,9 @@
                             <div class="elementor-element elementor-element-712b493 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading"
                                 data-id="712b493" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}} @if($totalReviews > 1) Reviews @else Review @endif /
-                                            {{ $totalSessions}} Sessions
+                                    <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}}
+                                        @if($totalReviews > 1) Reviews @else Review @endif /
+                                        {{ $totalSessions}} Sessions
                                     </p>
                                 </div>
                             </div>
@@ -1965,7 +1969,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Languages </b><br><br> {{ $data->metaData ? $data->metaData->language : '' }}</p>
+                                                        <b>Languages </b><br><br>
+                                                        {{ $data->metaData ? $data->metaData->language : '' }}
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2004,14 +2010,17 @@
                                 data-id="dc63cc3" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default"><span
-                                            style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
+                                            style="font-weight: normal;">$
+                                            {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30
+                                            Min</span></h5>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
                                 data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login', ['schedule-call', $data->id]) }}">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('login', ['schedule-call', $data->id]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
@@ -2029,18 +2038,17 @@
                                 data-id="c11a030" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
-                                        src="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png"
+                                    src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt=""
-                                        srcset="https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1-241x300.png 241w, https://ivygroupco.com/wp-content/uploads/2023/11/Soha-pic-1.png 722w"
-                                        sizes="(max-width: 241px) 100vw, 241px">
-                                </div>
+                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
+                                        sizes="(max-width: 241px) 100vw, 241px" />
                             </div>
                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
                                 data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default"><span
-                                            style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30
-                                            Min</span></h5>
+                                            style="font-weight: normal;">$
+                                            {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-cf9a819 elementor-widget elementor-widget-rating"
@@ -2099,7 +2107,9 @@
                             <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
                                 data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <p class="elementor-heading-title elementor-size-default">20 Reviews / 50 Sessions
+                                    <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}}
+                                        @if($totalReviews > 1) Reviews @else Review @endif /
+                                        {{ $totalSessions}} Sessions
                                     </p>
                                 </div>
                             </div>
@@ -2408,7 +2418,7 @@
                                     <div class="elementor-social-icons-wrapper elementor-grid">
                                         <span class="elementor-grid-item">
                                             <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a"
-                                                target="_blank">
+                                            href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}" target="_blank">
                                                 <span class="elementor-screen-only">Linkedin</span>
                                                 <i class="fab fa-linkedin"></i> </a>
                                         </span>
