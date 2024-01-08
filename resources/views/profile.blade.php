@@ -5837,6 +5837,65 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-f428972 .elementor-heading-title {
         font-size: 20px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-c8cd16f {
+        text-align: center;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-b0cfee1>.elementor-widget-container {
+        margin: -5px 0px 0px 85px;
+        padding: 0px 0px 0px 40px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
+        font-size: 12px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-24ce783 {
+        --e-rating-icon-font-size: 10px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-24ce783>.elementor-widget-container {
+        margin: -15px 0px 0px 0px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-712b493>.elementor-widget-container {
+        margin: -20px 0px 25px 0px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-712b493 .elementor-heading-title {
+        font-size: 14px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-0e640ef {
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-0e640ef>.elementor-widget-container {
+        margin: -30px 0px 0px 0px;
+        padding: 0px 15px 0px 45px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-aae4654 {
+        margin-top: -30px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-dc63cc3>.elementor-widget-container {
+        margin: 2px 0px 0px 0px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-7d4fe70>.elementor-widget-container {
+        margin: 0px 0px 45px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
 }
 </style>
 
