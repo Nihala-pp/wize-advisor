@@ -5890,7 +5890,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-24ce783 {
