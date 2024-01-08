@@ -1965,10 +1965,7 @@
                                                 data-id="9cb279c" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="lang">
-                                                        <b>Languages </b><br><br>
-                                                        {{ $data->metaData ? $data->metaData->language : '' }}
-                                                    </p>
+                                                    <p class="lang"><b>Languages </b><br><br> {{ $data->metaData ? $data->metaData->language : '' }} </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1980,8 +1977,7 @@
                                                 data-id="0b592cc" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default"><b>Time
-                                                            Available <br></b><br> 30 Minutes</p>
+                                                    <p class="time"><b>Time Available <br></b><br> 30 Minutes</p>
                                                 </div>
                                             </div>
                                         </div>
