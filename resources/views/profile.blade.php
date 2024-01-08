@@ -2129,7 +2129,8 @@
                                 <div class="elementor-element elementor-element-138a60d elementor-widget elementor-widget-heading"
                                     data-id="138a60d" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <p class="elementor-heading-title elementor-size-default review">{{ $totalReviews}}
+                                        <p class="elementor-heading-title elementor-size-default review">
+                                            {{ $totalReviews}}
                                             @if($totalReviews > 1) Reviews @else Review @endif /
                                             {{ $totalSessions}} Sessions
                                         </p>
@@ -5994,6 +5995,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .review {
         font-size: 12px !important;
         font-weight: normal !important;
+    }
+
+    .elementor-widget-rating .e-rating-wrapper {
+        padding-top: 5px !important;
     }
 }
 </style>
