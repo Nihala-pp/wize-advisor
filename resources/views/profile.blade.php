@@ -1748,7 +1748,7 @@
                                         font-size: 59px
                                     }
                                     </style>
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am Soha El Baklawy
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am {{ $data->name }}
                                     </h3>
                                 </div>
                             </div>
@@ -1783,14 +1783,14 @@
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am Soha El Baklawy
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am {{ $data->name }}
                                     </h3>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
                                 data-id="b0cfee1" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h6 class="elementor-heading-title elementor-size-default">Founder, Businesseta</h6>
+                                    <h6 class="elementor-heading-title elementor-size-default">{{ $data->metaData->designation }}, {{ $data->metaData->company }}</h6>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
@@ -1909,7 +1909,8 @@
                             <div class="elementor-element elementor-element-712b493 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading"
                                 data-id="712b493" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <p class="elementor-heading-title elementor-size-default">20 Reviews / 50 Sessions
+                                    <p class="elementor-heading-title elementor-size-default">{{ $totalReviews}} @if($totalReviews > 1) Reviews @else Review @endif /
+                                            {{ $totalSessions}} Sessions
                                     </p>
                                 </div>
                             </div>
@@ -1949,11 +1950,7 @@
                                         display: inline-block
                                     }
                                     </style>
-                                    <p style="text-align: left;">I am an entrepreneur and a mentor, dedicated to
-                                        empowering startups and driving impactful social change globally. As an
-                                        entrepreneur and the visionary behind Businessita, I often faced decision
-                                        fatigue during my journey. This inspiration led me to mentorship, aspiring to
-                                        simplify choices for fellow entrepreneurs on their journey.</p>
+                                    <p style="text-align: left;">{{ $data->metaData ? $data->metaData->bio : '' }}</p>
                                 </div>
                             </div>
                             <section
@@ -1968,7 +1965,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        <b>Languages </b><br><br> English, Arabic</p>
+                                                        <b>Languages </b><br><br> {{ $data->metaData ? $data->metaData->language : '' }}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1994,7 +1991,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default"><b>Next
-                                                            Availability <br></b><br> 14th Dec, 2023</p>
+                                                            Availability <br></b><br> @if(!empty($nextAvailability))
+                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
+                                                        @endif</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2005,14 +2004,14 @@
                                 data-id="dc63cc3" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default"><span
-                                            style="font-weight: normal;">$ 12.5 / 30 Min</span></h5>
+                                            style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
                                 data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login', ['schedule-call', $data->id]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
@@ -2040,7 +2039,8 @@
                                 data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default"><span
-                                            style="font-weight: normal;">$ 12.5/30 Min</span></h5>
+                                            style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }}/30
+                                            Min</span></h5>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-cf9a819 elementor-widget elementor-widget-rating"
