@@ -6013,6 +6013,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         padding-right: 20px;
     }
 
+    .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
+        font-size: 12px !important;
+    }
+
 }
 </style>
 
