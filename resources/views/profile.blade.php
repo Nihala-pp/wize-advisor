@@ -5943,6 +5943,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .name {
         margin-top:50px !important;
+        text-transform:bold !important;
     }
 }
 </style>
