@@ -1973,8 +1973,6 @@
                                                     </h5>
                                                     <p class="lang">
                                                         {{ $data->metaData ? $data->metaData->language : '' }}</p>
-                                                    <!-- <p class="lang"><b>Languages </b><br><br>
-                                                        {{ $data->metaData ? $data->metaData->language : '' }} </p> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -5373,15 +5371,15 @@ h6,
 }
 
 .lang {
-    margin-top: -10px !important;
+    margin-top: 10px !important;
 }
 
 .time {
-    margin-top: -10px !important;
+    margin-top: 10px !important;
 }
 
 .availability {
-    margin-top: -10px !important;
+    margin-top: 10px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
