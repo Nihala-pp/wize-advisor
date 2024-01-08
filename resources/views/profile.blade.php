@@ -5825,6 +5825,19 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-bottom: -50px;
         padding: 0px 0px 0px 0px;
     }
+
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-f428972 {
+        text-align: center;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-f428972 .elementor-heading-title {
+        font-size: 20px;
+    }
 }
 </style>
+
 </html>
