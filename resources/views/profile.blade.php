@@ -5568,7 +5568,8 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
-    font-size: 15px !important;
+    font-size: 12px !important;
+    text-align: justify;
 }
 
 .elementor-4878 .elementor-element.elementor-element-12b61d0 {
@@ -6011,10 +6012,6 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin: -75px 0px -5px 0px !important;
         padding-left: 40px;
         padding-right: 20px;
-    }
-
-    .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
-        font-size: 12px !important;
     }
 
 }
