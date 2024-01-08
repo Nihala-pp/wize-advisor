@@ -5933,7 +5933,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-dc63cc3>.elementor-widget-container {
-        margin: 2px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-7d4fe70>.elementor-widget-container {
