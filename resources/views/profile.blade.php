@@ -1989,7 +1989,7 @@
                                                 data-id="4971126" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default"><b>Next
+                                                    <p class="availability"><b>Next
                                                             Availability <br></b><br> @if(!empty($nextAvailability))
                                                         {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                         @endif</p>
