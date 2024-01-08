@@ -1748,9 +1748,6 @@
                                         font-size: 59px
                                     }
                                     </style>
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am
-                                        {{ $data->name }}
-                                    </h3>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-576c4f2 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
@@ -1779,7 +1776,11 @@
                                         margin-top:50px;
 
                                     }
-                                    </style> <img fetchpriority="high" decoding="async" width="241" height="300"
+                                    </style> 
+                                     <h3 class="elementor-heading-title elementor-size-default">Hi! I am
+                                        {{ $data->name }}
+                                    </h3>
+                                    <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt=""
                                         srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
