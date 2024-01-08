@@ -1968,8 +1968,13 @@
                                                 data-id="9cb279c" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="lang"><b>Languages </b><br><br>
-                                                        {{ $data->metaData ? $data->metaData->language : '' }} </p>
+                                                    <h5 class="elementor-heading-title elementor-size-default">
+                                                        <span>Languages </span>
+                                                    </h5>
+                                                    <p class="lang">
+                                                        {{ $data->metaData ? $data->metaData->language : '' }}</p>
+                                                    <!-- <p class="lang"><b>Languages </b><br><br>
+                                                        {{ $data->metaData ? $data->metaData->language : '' }} </p> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -5929,4 +5934,5 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 }
 </style>
+
 </html>
