@@ -5233,9 +5233,9 @@
 }
 
 .elementor-4878 .elementor-element.elementor-element-b0cfee1>.elementor-widget-container {
-    margin: -15px 0px 0px 0px;
+    margin: -5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
-
 h6,
 .entry-content h6 {
     font-size: 15px;
