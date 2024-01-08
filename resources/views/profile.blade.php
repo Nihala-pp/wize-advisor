@@ -5910,7 +5910,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-712b493 .elementor-heading-title {
-        font-size: 14px;
+        font-size: 12px !important;
         margin-top: -40px !important;
         font-weight: normal;
     }
