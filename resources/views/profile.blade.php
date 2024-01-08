@@ -6010,10 +6010,9 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container {
         margin: -75px 0px -5px 0px !important;
-        padding-left: 40px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 25px;
     }
-
 }
 </style>
 
