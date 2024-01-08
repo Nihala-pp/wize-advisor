@@ -6013,6 +6013,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         padding-left: 30px;
         padding-right: 25px;
     }
+
+    .elementor-element .elementor-element-dbbf342>.elementor-widget-container {
+        margin-bottom: -25px !important;
+        margin-left: 30px;
+    }
 }
 </style>
 
