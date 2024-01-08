@@ -1782,8 +1782,7 @@
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am
-                                        {{ $data->name }}
+                                    <h3 class="elementor-heading-title elementor-size-default">Hi! I am {{ $data->name }}
                                     </h3>
                                 </div>
                             </div>
@@ -1966,7 +1965,7 @@
                                                 data-id="9cb279c" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">
+                                                    <p class="lang">
                                                         <b>Languages </b><br><br>
                                                         {{ $data->metaData ? $data->metaData->language : '' }}
                                                     </p>
@@ -2011,6 +2010,14 @@
                                         <span style="font-weight: normal;">$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
                                 </div>
                             </div>
+                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h5 class="elementor-heading-title elementor-size-default"><span
+                                            style="font-weight: normal;">$
+                                            {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
+                                </div>
+                            </div>
                             <div class="elementor-element elementor-element-7d4fe70 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button"
                                 data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
@@ -2038,14 +2045,6 @@
                                         class="attachment-medium size-medium wp-image-4926" alt=""
                                         srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
                                         sizes="(max-width: 241px) 100vw, 241px" />
-                            </div>
-                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
-                                data-id="a92b341" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    <h5 class="elementor-heading-title elementor-size-default"><span
-                                            style="font-weight: normal;">$
-                                            {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span></h5>
-                                </div>
                             </div>
                             <div class="elementor-element elementor-element-cf9a819 elementor-widget elementor-widget-rating"
                                 data-id="cf9a819" data-element_type="widget" data-widget_type="rating.default">
