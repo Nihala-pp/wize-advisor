@@ -1760,7 +1760,6 @@
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-image {
                                         text-align: center
-                                        margin-top:20px;
                                     }
 
                                     .elementor-widget-image a {
@@ -1772,6 +1771,7 @@
                                     }
 
                                     .elementor-widget-image img {
+                                        margin-top:50px;
                                         vertical-align: middle;
                                         display: inline-block
                                     }
