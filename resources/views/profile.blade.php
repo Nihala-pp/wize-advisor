@@ -5973,6 +5973,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         font-size: 12px !important;
         font-weight: normal !important;
     }
+
+    .time {
+        font-size: 12px !important;
+        font-weight: normal !important;
+    }
 }
 </style>
 
