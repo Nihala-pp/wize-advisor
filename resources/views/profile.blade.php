@@ -1773,11 +1773,11 @@
                                     }
 
                                     .wp-image-4926 {
-                                        margin-top:50px;
+                                        margin-top: 50px;
 
                                     }
-                                    </style> 
-                                     <h3 class="elementor-heading-title elementor-size-default name">Hi! I am
+                                    </style>
+                                    <h3 class="elementor-heading-title elementor-size-default name">Hi! I am
                                         {{ $data->name }}
                                     </h3>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
@@ -2022,7 +2022,8 @@
                                 data-id="dc63cc3" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h5 class="elementor-heading-title elementor-size-default">
-                                        <span>$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30 Min</span>
+                                        <span>$ {{ $data->metaData ?  $data->metaData->price_per_call : '' }} / 30
+                                            Min</span>
                                     </h5>
                                 </div>
                             </div>
@@ -5942,9 +5943,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .name {
-        margin-top:50px !important;
-        text-transform:bold !important;
-        color: #002D5B;    
+        margin-top: 50px !important;
+        text-transform: bold !important;
+        color: #002D5B !IMPORTANT;
+        FONT-WEIGHT: BOLD;
     }
 }
 </style>
