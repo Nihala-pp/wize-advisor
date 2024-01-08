@@ -5405,7 +5405,7 @@ h6,
 
 .elementor-element .elementor-element-dbbf342>.elementor-widget-container {
     margin-bottom: -25px !important;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .elementor-element .elementor-element-873ef0b>.elementor-widget-container {
