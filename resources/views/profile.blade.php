@@ -3080,8 +3080,7 @@
                                     <div class="elementor-social-icons-wrapper elementor-grid">
                                         <span class="elementor-grid-item">
                                             <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a"
-                                                href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}"
-                                                target="_blank">
+                                                href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}" target="_blank">
                                                 <span class="elementor-screen-only">Linkedin</span>
                                                 <i class="fab fa-linkedin"></i> </a>
                                         </span>
