@@ -5971,7 +5971,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .lang {
         font-size: 12px !important;
-        font-weight:normal;
+        font-weight: normal !important;
     }
 }
 </style>
