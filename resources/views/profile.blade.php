@@ -5766,7 +5766,7 @@ li {
     margin-bottom: 10px !important;
 }
 
-.testimonial-box .user-box .name {
+.testimonial-box .user-box .client_name {
     margin-top: -10px;
 }
 
@@ -6158,8 +6158,8 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         font-size: 12px !important;
     }
 
-    .client_name {
-        margin-top: -5px !important;
+    .testimonial-box .user-box .client_name {
+        margin-top: -10px;
     }
 }
 </style>
