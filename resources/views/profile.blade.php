@@ -6171,6 +6171,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         object-position: center;
         margin-right: 12px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-d2e8414 {
+        margin-top: -30px;
+        text-align: center;
+    }
 }
 </style>
 
