@@ -6029,7 +6029,6 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-wrapper {
-        text-align: left;
         flex-direction: row;
     }
 
