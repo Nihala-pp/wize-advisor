@@ -2127,7 +2127,7 @@
                                                         <div class="qodef-e-images-holder">
                                                             <div class="qodef-e-main-image">
                                                                 <img decoding="async"
-                                                                    src="{{ asset('public/wp-content/uploads/2023/06/product-market-fit.png') }}"
+                                                                    src="{{ asset('public/wp-content/uploads/2023/06/market-research.png') }}"
                                                                     alt="" width="50" height="50">
                                                             </div>
                                                         </div>
