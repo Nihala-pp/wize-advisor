@@ -6150,10 +6150,9 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         font-size: 12px !important;
     }
 
-    .elementor-4878 .elementor-element.elementor-element-7bebc4a>.elementor-element-populated {
-        margin: -30px 0px 0px 0px;
+    .elementor-element .elementor-element-7bebc4a .elementor-widget .elementor-widget-heading {
+        margin-top: -30px;
     }
 }
 </style>
-
 </html>
