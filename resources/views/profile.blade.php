@@ -6116,6 +6116,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-5c6f3ea>.elementor-widget-container {
         font-size: 12px !important;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-37316f5>.elementor-widget-container {
+        font-size: 12px !important;
+    }
 }
 </style>
 
