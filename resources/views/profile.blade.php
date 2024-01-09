@@ -6093,8 +6093,14 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin: -65px 0px 15px 0px !important;
     }
 
-    .elementor-4878 .elementor-element.elementor-element-9905fba > .elementor-container{
+    .elementor-4878 .elementor-element.elementor-element-9905fba>.elementor-container {
         max-width: 1000px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-8a50591>.elementor-element-populated {
+        margin: 0px 0px 20px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
     }
 }
 </style>
