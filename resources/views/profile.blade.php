@@ -3406,8 +3406,8 @@
                                                 @php
                                                 $icon = Illuminate\Database\Eloquent\Model\ExpertiseList::where('name', $expert->expertise)->first();
                                                 @endphp
-                                                <img src="{{ $icon->icon }}">
-                                                <i aria-hidden="true" class="fas fa-star"></i>
+                                                <img src="{{ asset('wp-content/uploads/2023/06') }}/{{ $icon->icon }}">
+                                                <!-- <i aria-hidden="true" class="fas fa-star"></i> -->
                                             </span>
                                         </div>
                                         <div class="elementor-icon-box-content">
