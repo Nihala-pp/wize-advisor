@@ -6021,11 +6021,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container p {
         font-size: 12px !important;
-        text-align: left;
+        text-align: justify;
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-wrapper {
-        text-align: left;
+        text-align: justify;
     }
 
     .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-wrapper {
