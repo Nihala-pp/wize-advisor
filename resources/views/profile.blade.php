@@ -6178,8 +6178,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         text-align: center;
     }
 
-    .fee {
-        margin-bottom:-20px !important;
+    .elementor-4878 .elementor-element.elementor-element-9xouvrd:not(.elementor-motion-effects-element-type-background),
+    .elementor-4878 .elementor-element.elementor-element-9xouvrd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: var(--e-global-color-astglobalcolor4);
+        background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
+        background-repeat: no-repeat;
+        margin-top: -35px;
+        margin-bottom: -30px;
     }
 }
 </style>
