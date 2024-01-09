@@ -3404,9 +3404,11 @@
                                         <div class="elementor-icon-box-icon">
                                             <span class="elementor-icon elementor-animation-">
                                                 @php
-                                                $icon = \App\Models\ExpertiseList::where('name', $expert->expertise)->first();
+                                                $icon = \App\Models\ExpertiseList::where('name',
+                                                $expert->expertise)->first();
                                                 @endphp
-                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}" height="25" width="25">
+                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}"
+                                                    height="25" width="25">
                                                 <!-- <i aria-hidden="true" class="fas fa-star"></i> -->
                                             </span>
                                         </div>
@@ -5591,6 +5593,10 @@ li {
     --e-column-margin-right: 0px;
     --e-column-margin-left: 0px;
 }
+
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+    background-color: #ffff;
+}
 </style>
 <style>
 /* .main-data-wrp p a { */
@@ -6189,6 +6195,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         background-repeat: no-repeat;
         margin-top: -35px;
         margin-bottom: -30px;
+    }
+
+    .elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+        background-color: #ffff;
     }
 }
 </style>
