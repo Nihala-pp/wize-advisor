@@ -5734,7 +5734,7 @@ li {
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
-    margin-right: 24px;
+    margin-right: 16px;
 }
 
 .testimonial-box .user-box h4 {
