@@ -6077,6 +6077,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         display: block;
         flex-direction: unset;
     }
+
+    li {
+        font-size: 12px !important;
+    }
 }
 </style>
+
 </html>
