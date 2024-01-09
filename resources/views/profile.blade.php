@@ -5396,7 +5396,7 @@ h6,
 }
 
 .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
-    margin: -65px 0px 15px 0px !important;
+    margin: -80px 0px 0px 0px !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container {
@@ -6084,14 +6084,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-9905fba {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin-top: -15px;
+        margin-top: -10px;
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
     }
 
-    .elementor-4878 .elementor-element.elementor-element-a7cb679 {
-        text-align: center;
-        margin-top: -75px;
+    .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
+        margin: -65px 0px 15px 0px !important;
     }
 }
 </style>
