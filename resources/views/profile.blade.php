@@ -6027,6 +6027,48 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-wrapper {
         text-align: justify;
     }
+
+    .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-wrapper {
+        text-align: left;
+        flex-direction: row;
+    }
+
+    .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-wrapper,
+    .elementor-widget-icon-box.elementor-mobile-position-right .elementor-icon-box-wrapper {
+        display: flex;
+    }
+
+    .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon,
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon {
+        display: block;
+        flex: unset;
+    }
+
+    .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-icon {
+        margin-right: var(--icon-box-icon-margin, 15px);
+        margin-left: 0;
+        margin-bottom: unset;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
+        font-size: 15px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title,
+    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title a {
+        font-size: 12px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title {
+        margin-bottom: 0px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
+        font-size: 10px;
+    }
+
+    
+
 }
 </style>
 
