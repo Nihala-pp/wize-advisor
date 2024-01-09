@@ -6088,6 +6088,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-a7cb679 {
+        text-align: center;
+        margin-top: -75px;
+    }
 }
 </style>
+
 </html>
