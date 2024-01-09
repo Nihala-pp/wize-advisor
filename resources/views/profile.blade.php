@@ -6064,7 +6064,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
-        font-size: 10px !important;
+        font-size: 11px !important;
     }
 
     .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-icon {
