@@ -3929,7 +3929,7 @@
                                                             data-src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                             alt="" />
                                                         @endif
-                                                        <div class="name">
+                                                        <div class="client_name">
                                                             <h4>{{ $review->user->name }}</h4>
                                                             <span>
                                                                 <i class="fas fa-star"></i>
@@ -6153,6 +6153,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-element .elementor-element-7bebc4a .elementor-widget .elementor-widget-heading {
         margin-top: -30px;
     }
+
+    .testimonial-box p {
+        font-size: 12px !important;
+    }
 }
 </style>
+
 </html>
