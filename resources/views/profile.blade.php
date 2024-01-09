@@ -6092,6 +6092,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
         margin: -65px 0px 15px 0px !important;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-9905fba > .elementor-container{
+        max-width: 1000px;
+    }
 }
 </style>
 
