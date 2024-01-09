@@ -3406,7 +3406,7 @@
                                                 @php
                                                 $icon = \App\Models\ExpertiseList::where('name', $expert->expertise)->first();
                                                 @endphp
-                                                <img src="{{ asset('wp-content/uploads/2023/06') }}/{{ $icon->icon }}">
+                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}">
                                                 <!-- <i aria-hidden="true" class="fas fa-star"></i> -->
                                             </span>
                                         </div>
