@@ -5781,7 +5781,7 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
-    font-size: 25px !important;
+    font-size: 15px !important;
 }
 
 .elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul li a {
@@ -6050,9 +6050,9 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-bottom: unset;
     }
 
-    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
+    /* .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
         font-size: 15px;
-    }
+    } */
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title,
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title a {
