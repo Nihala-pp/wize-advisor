@@ -6179,7 +6179,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .fee {
-        margin-bottom:-50px !important;
+        margin-bottom:-20px !important;
     }
 }
 </style>
