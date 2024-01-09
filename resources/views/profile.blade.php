@@ -6056,7 +6056,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title,
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title a {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title {
@@ -6066,9 +6066,6 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
         font-size: 10px;
     }
-
-
-
 }
 </style>
 
