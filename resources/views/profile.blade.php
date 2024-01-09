@@ -3408,7 +3408,7 @@
                                                 $expert->expertise)->first();
                                                 @endphp
                                                 <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}"
-                                                    height="45" width="45">
+                                                    height="40" width="40">
                                                 <!-- <i aria-hidden="true" class="fas fa-star"></i> -->
                                             </span>
                                         </div>
