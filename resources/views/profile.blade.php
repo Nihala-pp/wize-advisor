@@ -6055,11 +6055,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title,
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title a {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title {
-        margin-bottom: 12px;
+        margin-bottom: 0px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
@@ -6076,7 +6076,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         display: block;
         flex-direction: unset;
     }
-}
+
 </style>
 
 </html>
