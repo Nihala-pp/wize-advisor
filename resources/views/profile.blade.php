@@ -6081,7 +6081,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     li {
         font-size: 12px !important;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-9905fba {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: -10px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
 }
 </style>
-
 </html>
