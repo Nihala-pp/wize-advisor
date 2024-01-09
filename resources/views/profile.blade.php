@@ -6066,6 +6066,17 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
         font-size: 10px !important;
     }
+
+    .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-icon {
+        margin-bottom: var(--icon-box-icon-margin, 15px);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-wrapper {
+        display: block;
+        flex-direction: unset;
+    }
 }
 </style>
 
