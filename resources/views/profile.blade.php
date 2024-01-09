@@ -6149,6 +6149,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-widget-container p {
         font-size: 12px !important;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-7bebc4a>.elementor-element-populated {
+        margin: -30px 0px 0px 0px;
+    }
 }
 </style>
 
