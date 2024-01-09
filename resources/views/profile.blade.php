@@ -6162,6 +6162,15 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .testimonial-box .user-box .client_name {
         margin-top: -10px;
     }
+
+    .testimonial-box .user-box img {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 12px;
+    }
 }
 </style>
 
