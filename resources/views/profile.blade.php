@@ -6128,12 +6128,20 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-element .elementor-element-3af0bab .elementor-widget-container p {
         font-size: 12px !important;
     }
-
+/* 
     .elementor-4878 .elementor-element.elementor-element-3f8ebce>.elementor-widget-container {
         font-size: 14px !important;
     }
 
     .elementor-4878 .elementor-element.elementor-element-7bebc4a>.elementor-widget-container {
+        font-size: 14px !important;
+    } */
+
+    .elementor-4878 .elementor-element.elementor-element-3f8ebce .elementor-heading-title {
+        font-size: 14px !important;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-7bebc4a .elementor-heading-title {
         font-size: 14px !important;
     }
 }
