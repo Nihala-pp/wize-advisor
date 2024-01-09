@@ -3403,6 +3403,10 @@
                                     <div class="elementor-icon-box-wrapper">
                                         <div class="elementor-icon-box-icon">
                                             <span class="elementor-icon elementor-animation-">
+                                                @php
+                                                $icon = Illuminate\Database\Eloquent\Model\ExpertiseList::where('name', $expert->expertise)->first();
+                                                @endphp
+                                                <img src="{{ $icon->icon }}">
                                                 <i aria-hidden="true" class="fas fa-star"></i>
                                             </span>
                                         </div>
