@@ -6174,6 +6174,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-d2e8414 {
         margin-top: -40px;
+        margin-bottom: -30px;
         text-align: center;
     }
 }
