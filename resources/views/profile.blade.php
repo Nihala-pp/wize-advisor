@@ -5720,7 +5720,7 @@ li {
 
 .testimonial-box img.quote-icon {
     max-width: 100%;
-    margin: 0 0 24px;
+    margin: 0 0 16px;
 }
 
 .testimonial-box .user-box {
