@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta name="description" content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
@@ -5898,7 +5897,7 @@
                 media="all">
             <link rel="stylesheet" id="elementor-post-934-css"
                 href="{{ asset('public/wp-content/uploads/elementor/css/post-934.css?ver=1688647328') }}" media="all">
-            <link rel="stylesheet" id="elementor-post-1015-css"
+            <link rel="stylesheet" id="elementor-post-p-css"
                 href="{{ asset('public/wp-content/uploads/elementor/css/post-1015.css?ver=1688647329') }}" media="all">
             <link rel="stylesheet" id="elementor-post-941-css"
                 href="{{ asset('public/wp-content/uploads/elementor/css/post-941.css?ver=1688647329') }}" media="all">
