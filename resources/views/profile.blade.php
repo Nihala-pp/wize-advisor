@@ -6203,6 +6203,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
         background-color: #ffff;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-ed09546 {
+        margin-top: 0px;
+        margin-bottom: -20px;
+    }
 }
 </style>
 
