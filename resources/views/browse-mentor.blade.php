@@ -3672,36 +3672,35 @@ screen and (min-width: 1024px) {
     margin-bottom: 50px;
 }
 
-input[type="date"]::before {
+/* input[type="date"]::before {
     padding-right: 16px !important;
     padding-top: 0px;
     padding-left: 16px !important;
     color: #ffff;
     content: attr(placeholder);
-}
+} */
 
-input[type="date"] {
+/* input[type="date"] {
     padding-right: 16px !important;
     padding-left: 5px !important;
-    /* padding-top: 16px !important; */
     color: #54b4d3 !important;
-}
+} */
 
-input[type="date"]:focus,
+/* input[type="date"]:focus,
 input[type="date"]:valid {
-    padding-right: 16px !important;
+    padding-right: 16px !important; */
     /* padding-left: 16px !important; */
     /* padding-top: 25px !important;     */
-    color: #ffff !important;
-}
+    /* color: #ffff !important;
+} */
 
-input[type="date"]:focus::before,
+/* input[type="date"]:focus::before,
 input[type="date"]:valid::before {
     padding-right: 16px !important;
-    padding-left: 16px !important;
+    padding-left: 16px !important; */
     /* padding-top: 25px !important; */
-    content: "" !important;
-}
+    /* content: "" !important;
+} */
 
 /* .browseMentor {
     padding-right: 20px;
@@ -3720,7 +3719,8 @@ i.fas.fa-bell.fa-2xl {
     input[type="date"] {
         padding-right: 16px !important;
         padding-left: 5px !important;
-        padding-top: 20px !important;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
         color: #54b4d3 !important;
         font-size: 12px !important;
     }
