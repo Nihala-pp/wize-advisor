@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta name="description"
+        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
@@ -6608,9 +6609,11 @@
     margin-bottom: 1px;
 }
 
-@media (max-width: 767px)
-.elementor-8 .elementor-element.elementor-element-9a6781f > .elementor-container {
-    min-height: 70vh;
+@media (max-width: 767px) {
+    .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
+        min-height: 70vh;
+    }
 }
 </style>
+
 </html>
