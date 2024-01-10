@@ -3745,7 +3745,7 @@ i.fas.fa-bell.fa-2xl {
 
     input[type="date"]::before {
         padding-right: 16px !important;
-        padding-top: 0px;
+        padding-top: 10px;
         padding-left: 16px !important;
         color: #ffff !important;
         content: attr(placeholder);
