@@ -6630,7 +6630,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 27px;
-    text-align:center;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -6662,6 +6662,11 @@
         color: white;
         margin-right: 50px !important;
         margin-left: 50px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5fe437d .elementor-heading-title {
+        font-size: 16px;
+        line-height: 1.4em;
     }
 }
 </style>
