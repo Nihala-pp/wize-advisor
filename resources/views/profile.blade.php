@@ -5592,7 +5592,7 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-3a7f8c6>.elementor-element-populated {
-    margin: -56px 0px 10px 0px;
+    margin: -106px 0px 10px 0px;
     --e-column-margin-right: 0px;
     --e-column-margin-left: 0px;
 }
@@ -6207,6 +6207,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-ed09546 {
         margin-top: 0px;
         margin-bottom: -20px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-3a7f8c6>.elementor-element-populated {
+        margin: -106px 0px 10px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
     }
 }
 </style>
