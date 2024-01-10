@@ -6623,9 +6623,10 @@
     }
 
     #uc_blob_shapes_elementor_56bc6db_size {
-        color: white;
-        margin-left: 80px !important;
-    }
+    color: white;
+    margin-right: 50px !important;
+    margin-left: 50px !important;
+}
 }
 </style>
 
