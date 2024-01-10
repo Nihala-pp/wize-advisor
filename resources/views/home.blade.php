@@ -6668,7 +6668,12 @@
         font-size: 14px;
         line-height: 1.4em;
     }
+
+    .elementor-8 .elementor-element.elementor-element-50b16a3 {
+        margin-top: -85px;
+        margin-bottom: -50px;
+        padding: 0px 0px 180px 60px !important;
+    }
 }
 </style>
-
 </html>
