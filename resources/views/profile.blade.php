@@ -5877,6 +5877,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     padding-top: 10px;
 }
 
+.elementor-4878 .elementor-element.elementor-element-202f85c {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width: 767px) {
     .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
         margin-top: -50px;
