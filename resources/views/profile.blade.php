@@ -6580,7 +6580,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-9a9bf6d {
-        margin-top: -20px;
+        margin-top: -25px;
         --grid-template-columns: repeat(0, auto);
         --grid-column-gap: 5px;
         --grid-row-gap: 0px;
