@@ -6613,14 +6613,15 @@
     margin-bottom: 1px;
 }
 
-.elementor-widget-button .elementor-button {
+.elementor-8 .elementor-element.elementor-element-f82bbec .elementor-button {
+    font-family: "Sailec", Sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
     background-color: #001E64 !important;
-}
-
-
-.elementor-element .elementor-element-5fe437d .elementor-widget .elementor-widget-heading>.elementor-widget-container p {
-    font-family: "Helvetica", Sans-serif;
-    color:#001E64 !important;
+    border-radius: 7px 7px 7px 7px;
 }
 
 @media (max-width: 767px) {
