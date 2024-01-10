@@ -3724,7 +3724,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     ::-ms-input-placeholder {
-        /* margin-top: 15px !important; */
+        margin-top: 15px !important;
         color: #fff !important;
         opacity: 1 !important;
     }
@@ -3745,7 +3745,7 @@ i.fas.fa-bell.fa-2xl {
 
     input[type="date"]::before {
         padding-right: 16px !important;
-        margin-top: 10px !important;
+        /* margin-top: 10px !important; */
         padding-left: 16px !important;
         color: #ffff !important;
         content: attr(placeholder);
