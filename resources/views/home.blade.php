@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>wiseAdvizor : Startup mentorship platform</title>
+    <title>wiseAdvizor: Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <script>
