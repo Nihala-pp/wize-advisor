@@ -3720,11 +3720,9 @@ i.fas.fa-bell.fa-2xl {
     input[type="date"] {
         padding-right: 16px !important;
         padding-left: 5px !important;
-        /* padding-top: 16px !important; */
+        padding-top: 10px !important;
         color: #54b4d3 !important;
     }
-
 }
 </style>
-
 </html>
