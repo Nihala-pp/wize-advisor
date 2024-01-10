@@ -6617,6 +6617,10 @@
     .elementor-8 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
         margin-top: -50px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-68748a9 > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
 }
 </style>
 
