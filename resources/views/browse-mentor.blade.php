@@ -3658,7 +3658,7 @@ screen and (min-width: 1024px) {
     }
 
     .price {
-        padding-left: 100px;         
+        padding-left: 100px;
         display: flex;
         align-items: center;
     }
@@ -3710,5 +3710,13 @@ input[type="date"]:valid::before {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
+
+@media screen and (max-width: 767px) {
+    .elementor-star-rating__wrapper {
+        padding-left: 125px;
+        display: flex;
+    }
+}
 </style>
+
 </html>
