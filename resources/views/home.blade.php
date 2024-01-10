@@ -4436,13 +4436,13 @@
                     data-id="b2c5733" data-element_type="section"
                     data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=MDU2NsdQ9R0&amp;list=PL7RcAd6D0_T31iFRpnhZsQo1mtg1Uox_p&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
                     <div class="elementor-background-video-container">
-                        <iframe class="elementor-background-video-embed" frameborder="0" allowfullscreen=""
+                        <!-- <iframe class="elementor-background-video-embed" frameborder="0" allowfullscreen=""
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             title="Orange abstract circle orange fire time tunnel | 4K free animated motion background"
                             width="640" height="360"
                             src="https://www.youtube.com/embed/MDU2NsdQ9R0?controls=0&amp;rel=0&amp;playsinline=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwiseadvizor.com&amp;widgetid=1"
-                            id="widget2" style="width: 547.556px; height: 308px;"></iframe>
-                        <!-- <div class="elementor-background-video-embed"></div> -->
+                            id="widget2" style="width: 547.556px; height: 308px;"></iframe> -->
+                        <div class="elementor-background-video-embed"></div>
                     </div>
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c429127"
