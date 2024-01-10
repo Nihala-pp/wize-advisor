@@ -3722,6 +3722,7 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 5px !important;
         padding-top: 20px !important;
         color: #54b4d3 !important;
+        font-size: 12px !important;
     }
 }
 </style>
