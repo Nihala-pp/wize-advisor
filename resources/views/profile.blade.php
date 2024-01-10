@@ -5534,15 +5534,13 @@ li {
     padding: 0px 25px 15px 25px;
 }
 
-@media screen and (max-width: 1280px),
+/* @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
     .elementor-4878 .elementor-element.elementor-element-ed09546 {
         margin-top: -52px;
         margin-bottom: -125px;
     }
-}
-
-
+} */
 
 .elementor-4878 .elementor-element.elementor-element-9xouvrd:not(.elementor-motion-effects-element-type-background),
 .elementor-4878 .elementor-element.elementor-element-9xouvrd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
