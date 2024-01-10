@@ -3673,33 +3673,34 @@ screen and (min-width: 1024px) {
         color: #ffff;
         content: attr(placeholder);
     }
+
+    input[type="date"] {
+        padding-right: 16px !important;
+        padding-left: 5px !important;
+        /* padding-top: 16px !important; */
+        color: #54b4d3 !important;
+    }
+
+    input[type="date"]:focus,
+    input[type="date"]:valid {
+        padding-right: 16px !important;
+        /* padding-left: 16px !important; */
+        /* padding-top: 25px !important;     */
+        color: #ffff !important;
+    }
+
+    input[type="date"]:focus::before,
+    input[type="date"]:valid::before {
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+        /* padding-top: 25px !important; */
+        content: "" !important;
+    }
 }
 
 .card-deck .card {
     margin-bottom: 50px;
 }
-
-/* input[type="date"] {
-    padding-right: 16px !important;
-    padding-left: 5px !important;
-    color: #54b4d3 !important;
-} */
-
-/* input[type="date"]:focus,
-input[type="date"]:valid {
-    padding-right: 16px !important; */
-/* padding-left: 16px !important; */
-/* padding-top: 25px !important;     */
-/* color: #ffff !important;
-} */
-
-/* input[type="date"]:focus::before,
-input[type="date"]:valid::before {
-    padding-right: 16px !important;
-    padding-left: 16px !important; */
-/* padding-top: 25px !important; */
-/* content: "" !important;
-} */
 
 /* .browseMentor {
     padding-right: 20px;
