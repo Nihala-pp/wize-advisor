@@ -6623,10 +6623,22 @@
     }
 
     #uc_blob_shapes_elementor_56bc6db_size {
-    color: white;
-    margin-right: 50px !important;
-    margin-left: 50px !important;
-}
+        color: white;
+        margin-right: 50px !important;
+        margin-left: 50px !important;
+    }
+
+    #uc_blob_shapes_elementor_605fd17_size {
+        color: white;
+        margin-right: 50px !important;
+        margin-left: 50px !important;
+    }
+
+    #uc_blob_shapes_elementor_f8230d2_size {
+        color: white;
+        margin-right: 50px !important;
+        margin-left: 50px !important;
+    }
 }
 </style>
 
