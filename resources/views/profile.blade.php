@@ -2219,7 +2219,7 @@
                                     }
 
                                     .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                        border-radius: 10%
+                                        border-radius: 15%
                                     }
 
                                     .elementor-shape-circle .elementor-icon.elementor-social-icon {
