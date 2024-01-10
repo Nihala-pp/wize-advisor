@@ -6292,9 +6292,9 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         padding: 0px 0px 0px 0px;
     }
 
-    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+    /* .elementor-shape-rounded .elementor-icon.elementor-social-icon {
         border-radius: 10%;
-    }
+    } */
 
     .name {
         margin-top: 50px !important;
@@ -6571,9 +6571,9 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         word-break: break-word;
     }
 
-    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+    /* .elementor-shape-rounded .elementor-icon.elementor-social-icon {
         border-radius: 15%;
-    }
+    } */
 
     .elementor-social-icon i {
         color: var(--e-social-icon-icon-color);
