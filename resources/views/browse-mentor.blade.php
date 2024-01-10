@@ -3030,20 +3030,20 @@
             z-index: 100000;
         }
 
-        #date {
+        /* #date {
             width: 220px;
             height: 35px;
             /* padding-top: 10px !important; */
             /* padding-top: 20px!important; */
-            background-color: #54b4d3;
-            color: #fff;
-            font-weight: 200px;
+            /* background-color: #54b4d3; */
+            /* color: #fff; */
+            /* font-weight: 200px; */
             /* line-height: normal; */
             /* height: 70%;
             width: 140%; */
-            font-size: 0.75rem !important;
+            /* font-size: 0.75rem !important; */
             /* padding-left: 20px !important; */
-        }
+        /* } */ */
 
         ::placeholder {
             /* margin-top: 15px !important; */
