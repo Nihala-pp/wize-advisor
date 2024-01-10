@@ -6220,6 +6220,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         --e-column-margin-right: 0px;
         --e-column-margin-left: 0px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-202f85c {
+        margin-top: 55px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 </style>
 
