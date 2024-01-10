@@ -3582,7 +3582,7 @@
     /* .datefilter {
         /* padding-top: 20px; */
         margin-bottom: 10px;
-    } */
+    /* } */ */
 
     .filters {
         margin-left: 95px;
