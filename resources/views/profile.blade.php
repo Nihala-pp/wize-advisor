@@ -6599,11 +6599,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-icon i,
     .elementor-icon svg {
-        /* margin-top: 8px; */
-        /* margin-left: 7px; */
-        /* width: 1em; */
-        /* height: 1em; */
-        position: relative !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        width: 1em; 
+        height: 1em; 
+        position: relative;
         display: block !important;
     }
 }
