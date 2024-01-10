@@ -1924,6 +1924,15 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="elementor-social-icons-wrapper elementor-grid elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading">
+                                <span class="elementor-grid-item">
+                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a"
+                                        href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}"
+                                        target="_blank">
+                                        <span class="elementor-screen-only">Linkedin</span>
+                                        <i class="fab fa-linkedin"></i> </a>
+                                </span>
+                            </div>
                             <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                 data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
@@ -5883,9 +5892,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     text-align: center;
 }
 
-.elementor-icon i, .elementor-icon svg {
+.elementor-icon i,
+.elementor-icon svg {
     margin-top: 8px;
-    margin-left: 7px; 
+    margin-left: 7px;
     /* width: 1em; */
     /* height: 1em; */
     position: relative;
