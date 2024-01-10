@@ -6607,5 +6607,10 @@
     font-size: 15px;
     margin-bottom: 1px;
 }
+
+@media (max-width: 767px)
+.elementor-8 .elementor-element.elementor-element-9a6781f > .elementor-container {
+    min-height: 70vh;
+}
 </style>
 </html>
