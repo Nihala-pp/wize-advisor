@@ -6630,6 +6630,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 27px;
+    text-align:center;
 }
 
 @media (max-width: 767px) {
