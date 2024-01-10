@@ -6114,7 +6114,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-651f958>.elementor-element-populated {
-        margin: 50px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
         --e-column-margin-right: 0px;
         --e-column-margin-left: 0px;
     }
