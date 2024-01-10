@@ -6613,6 +6613,10 @@
     .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
     }
+
+    .elementor-8 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
+        margin-top: -50px;
+    }
 }
 </style>
 
