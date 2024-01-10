@@ -6572,7 +6572,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-        border-radius: 10%;
+        border-radius: 15%;
     }
 
     .elementor-social-icon i {
