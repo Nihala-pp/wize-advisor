@@ -3034,18 +3034,17 @@
             width: 220px;
             height: 35px;
             /* padding-top: 10px !important; */
-            /* padding-top: 20px!important; */
-            /* background-color: #54b4d3; */
-            /* color: #fff; */
-            /* font-weight: 200px; */
-            /* line-height: normal; */
-            /* height: 70%;
+        /* padding-top: 20px!important; */
+        /* background-color: #54b4d3; */
+        /* color: #fff; */
+        /* font-weight: 200px; */
+        /* line-height: normal; */
+        /* height: 70%;
             width: 140%; */
-            /* font-size: 0.75rem !important; */
-            /* padding-left: 20px !important; */
-        /* } */ */
-
-        ::placeholder {
+        /* font-size: 0.75rem !important; */
+        /* padding-left: 20px !important; */
+        /* } */
+        */ ::placeholder {
             /* margin-top: 15px !important; */
             color: #fff !important;
             opacity: 1 !important;
@@ -3581,8 +3580,8 @@
 
     /* .datefilter {
         /* padding-top: 20px; */
-        /* margin-bottom: 10px; */
-    /* } */ 
+    /* margin-bottom: 10px; */
+    /* } */
 
     .filters {
         margin-left: 95px;
@@ -3666,19 +3665,19 @@ screen and (min-width: 1024px) {
     .name {
         margin-top: 15px;
     }
+
+    input[type="date"]::before {
+        padding-right: 16px !important;
+        padding-top: 0px;
+        padding-left: 16px !important;
+        color: #ffff;
+        content: attr(placeholder);
+    }
 }
 
 .card-deck .card {
     margin-bottom: 50px;
 }
-
-/* input[type="date"]::before {
-    padding-right: 16px !important;
-    padding-top: 0px;
-    padding-left: 16px !important;
-    color: #ffff;
-    content: attr(placeholder);
-} */
 
 /* input[type="date"] {
     padding-right: 16px !important;
@@ -3689,17 +3688,17 @@ screen and (min-width: 1024px) {
 /* input[type="date"]:focus,
 input[type="date"]:valid {
     padding-right: 16px !important; */
-    /* padding-left: 16px !important; */
-    /* padding-top: 25px !important;     */
-    /* color: #ffff !important;
+/* padding-left: 16px !important; */
+/* padding-top: 25px !important;     */
+/* color: #ffff !important;
 } */
 
 /* input[type="date"]:focus::before,
 input[type="date"]:valid::before {
     padding-right: 16px !important;
     padding-left: 16px !important; */
-    /* padding-top: 25px !important; */
-    /* content: "" !important;
+/* padding-top: 25px !important; */
+/* content: "" !important;
 } */
 
 /* .browseMentor {
@@ -3726,4 +3725,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
