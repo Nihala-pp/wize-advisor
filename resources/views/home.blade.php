@@ -6665,7 +6665,7 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-5fe437d .elementor-heading-title {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.4em;
     }
 }
