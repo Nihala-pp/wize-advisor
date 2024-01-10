@@ -3044,21 +3044,6 @@
         /* font-size: 0.75rem !important; */
         /* padding-left: 20px !important; */
         /* } */
-         ::placeholder {
-            /* margin-top: 15px !important; */
-            color: #fff !important;
-            opacity: 1 !important;
-        }
-
-        ::-ms-input-placeholder {
-            /* margin-top: 15px !important; */
-            color: #fff !important;
-            opacity: 1 !important;
-        }
-
-        ::-webkit-calendar-picker-indicator {
-            filter: invert(1);
-        }
 
         /* [type=date] {
             padding: 1em 16px 1em 1em;
@@ -3632,6 +3617,22 @@
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
 
+    ::placeholder {
+        /* margin-top: 15px !important; */
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+
+    ::-ms-input-placeholder {
+        /* margin-top: 15px !important; */
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+
+    ::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+
     div.d-grid.gap-2.col-6.butto {
         padding-left: 80px;
         /* text-align: right!important; */
@@ -3716,6 +3717,22 @@ i.fas.fa-bell.fa-2xl {
         display: flex;
     }
 
+    ::placeholder {
+        /* margin-top: 15px !important; */
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+
+    ::-ms-input-placeholder {
+        /* margin-top: 15px !important; */
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+
+    ::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+
     input[type="date"] {
         padding-right: 16px !important;
         padding-left: 5px !important;
@@ -3725,7 +3742,7 @@ i.fas.fa-bell.fa-2xl {
         font-size: 12px !important;
     }
 
-    
+
     input[type="date"]::before {
         padding-right: 16px !important;
         padding-top: 0px;
