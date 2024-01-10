@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home &#8211; wiseAdvizor</title>
+    <title>wiseAdvizor : Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
