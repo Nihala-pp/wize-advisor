@@ -3724,7 +3724,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     ::-ms-input-placeholder {
-        margin-top: 15px !important;
+        padding-top: 15px !important;
         color: #fff !important;
         opacity: 1 !important;
     }
