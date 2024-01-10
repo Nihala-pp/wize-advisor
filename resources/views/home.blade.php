@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta name="description"
+        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
@@ -4431,28 +4432,31 @@
                     </div>
                 </section>
                 <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="b2c5733" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=MDU2NsdQ9R0&amp;list=PL7RcAd6D0_T31iFRpnhZsQo1mtg1Uox_p&quot;}">
+                    class="elementor-section elementor-top-section elementor-element elementor-element-77e621d elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                    data-id="77e621d" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=MDU2NsdQ9R0&amp;list=PL7RcAd6D0_T31iFRpnhZsQo1mtg1Uox_p&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
                     <div class="elementor-background-video-container">
-                        <div class="elementor-background-video-embed"></div>
+                        <iframe class="elementor-background-video-embed" frameborder="0" allowfullscreen=""
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            title="Orange abstract circle orange fire time tunnel | 4K free animated motion background"
+                            width="640" height="360"
+                            src="https://www.youtube.com/embed/MDU2NsdQ9R0?controls=0&amp;rel=0&amp;playsinline=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fivygroupco.com&amp;widgetid=1"
+                            id="widget2" style="width: 547.556px; height: 308px;"></iframe>
                     </div>
                     <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f70d2b0"
-                            data-id="f70d2b0" data-element_type="column">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c429127"
+                            data-id="c429127" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4f7cb56 elementor-widget elementor-widget-heading"
-                                    data-id="4f7cb56" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-element elementor-element-5fe437d elementor-widget elementor-widget-heading"
+                                    data-id="5fe437d" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
                                         <p class="elementor-heading-title elementor-size-default">Join our mentor
-                                            community,
-                                            share your expertise, and empower the next generation of entrepreneurs.
-                                            Together,
-                                            let's shape the future of entrepreneurship.</p>
+                                            community, share your expertise, and empower the next generation of
+                                            entrepreneurs. Together, let's shape the future of entrepreneurship.</p>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-fbc2c99 elementor-align-center elementor-widget elementor-widget-button"
-                                    data-id="fbc2c99" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-element elementor-element-f82bbec elementor-align-center elementor-widget elementor-widget-button"
+                                    data-id="f82bbec" data-element_type="widget" data-widget_type="button.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
