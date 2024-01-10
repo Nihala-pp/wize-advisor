@@ -6624,6 +6624,14 @@
     border-radius: 7px 7px 7px 7px;
 }
 
+.elementor-8 .elementor-element.elementor-element-5fe437d .elementor-heading-title {
+    color: var( --e-global-color-a5a4b57 );
+    font-family: "Helvetica", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
 @media (max-width: 767px) {
     .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
