@@ -5883,6 +5883,14 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     text-align: center;
 }
 
+.elementor-icon i, .elementor-icon svg {
+    margin-top: 8px;
+    /* width: 1em; */
+    /* height: 1em; */
+    position: relative;
+    display: block;
+}
+
 @media screen and (max-width: 767px) {
     .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
         margin-top: -50px;
