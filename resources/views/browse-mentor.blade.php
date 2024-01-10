@@ -3579,10 +3579,10 @@
         font-size: 0.75rem !important; */
     /* } */
 
-    .datefilter {
+    /* .datefilter {
         /* padding-top: 20px; */
         margin-bottom: 10px;
-    }
+    } */
 
     .filters {
         margin-left: 95px;
