@@ -6618,8 +6618,13 @@
         margin-top: -50px;
     }
 
-    .elementor-8 .elementor-element.elementor-element-68748a9 > .elementor-widget-container {
+    .elementor-8 .elementor-element.elementor-element-68748a9>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
+    }
+
+    #uc_blob_shapes_elementor_56bc6db_size {
+        color: white;
+        margin-left: 80px !important;
     }
 }
 </style>
