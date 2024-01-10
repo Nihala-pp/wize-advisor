@@ -6603,8 +6603,8 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         /* margin-left: 7px; */
         /* width: 1em; */
         /* height: 1em; */
-        position: relative;
-        display: block;
+        position: relative !important;
+        display: block !important;
     }
 }
 </style>
