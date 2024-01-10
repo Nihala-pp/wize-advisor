@@ -4434,9 +4434,9 @@
                     class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="b2c5733" data-element_type="section"
                     data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=MDU2NsdQ9R0&amp;list=PL7RcAd6D0_T31iFRpnhZsQo1mtg1Uox_p&quot;}">
-                    <div class="elementor-background-video-container elementor-hidden-phone">
+                    <!-- <div class="elementor-background-video-container elementor-hidden-phone">
                         <div class="elementor-background-video-embed"></div>
-                    </div>
+                    </div> -->
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f70d2b0"
                             data-id="f70d2b0" data-element_type="column">
