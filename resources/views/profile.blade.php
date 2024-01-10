@@ -1951,8 +1951,8 @@
                                     .elementor-icon.elementor-social-icon {
                                         font-size: var(--icon-size, 25px);
                                         line-height: var(--icon-size, 25px);
-                                        width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
-                                        height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+                                        /* width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
+                                        height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em)) */
                                     }
 
                                     .elementor-social-icon {
