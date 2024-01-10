@@ -6552,6 +6552,50 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-9a9bf6d {
         --icon-size: 8px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-9a9bf6d>.elementor-widget-container {
+        margin: -20px 0px 20px 0px;
+    }
+
+    .elementor-widget-social-icons .elementor-grid {
+        grid-column-gap: var(--grid-column-gap, 5px);
+        grid-row-gap: var(--grid-row-gap, 5px);
+        grid-template-columns: var(--grid-template-columns);
+        justify-content: var(--justify-content, center);
+        justify-items: var(--justify-content, center);
+    }
+
+    .elementor-grid-0 .elementor-grid .elementor-grid-item {
+        display: inline-block;
+        margin-bottom: var(--grid-row-gap);
+        word-break: break-word;
+    }
+
+    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+        border-radius: 10%;
+    }
+
+    .elementor-social-icon i {
+        color: var(--e-social-icon-icon-color);
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-9a9bf6d {
+        --grid-template-columns: repeat(0, auto);
+        --grid-column-gap: 5px;
+        --grid-row-gap: 0px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-9a9bf6d .elementor-widget-container {
+        text-align: center;
+    }
+
+    .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+    .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+    .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+        line-height: 1;
+        font-size: 0;
+    }
 }
 </style>
+
 </html>
