@@ -3044,7 +3044,7 @@
         /* font-size: 0.75rem !important; */
         /* padding-left: 20px !important; */
         /* } */
-        */ ::placeholder {
+         ::placeholder {
             /* margin-top: 15px !important; */
             color: #fff !important;
             opacity: 1 !important;
@@ -3723,6 +3723,31 @@ i.fas.fa-bell.fa-2xl {
         /* padding-bottom: 16px !important; */
         color: #54b4d3 !important;
         font-size: 12px !important;
+    }
+
+    
+    input[type="date"]::before {
+        padding-right: 16px !important;
+        padding-top: 0px;
+        padding-left: 16px !important;
+        color: #ffff;
+        content: attr(placeholder);
+    }
+
+    input[type="date"]:focus,
+    input[type="date"]:valid {
+        padding-right: 16px !important;
+        /* padding-left: 16px !important; */
+        /* padding-top: 25px !important;     */
+        color: #ffff !important;
+    }
+
+    input[type="date"]:focus::before,
+    input[type="date"]:valid::before {
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+        /* padding-top: 25px !important; */
+        content: "" !important;
     }
 }
 </style>
