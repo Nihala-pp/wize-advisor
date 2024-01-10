@@ -6613,6 +6613,11 @@
     margin-bottom: 1px;
 }
 
+.elementor-element .elementor-element-5fe437d .elementor-widget .elementor-widget-heading {
+    font-family: "Helvetica", Sans-serif;
+    color:#001E64 !important;
+}
+
 @media (max-width: 767px) {
     .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
