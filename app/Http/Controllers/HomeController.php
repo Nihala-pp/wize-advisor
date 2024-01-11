@@ -585,7 +585,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
   {
     $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     // dd($tzlist);
-    $password = Hash::make('vishram@123!');
+    $password = Hash::make('Vishram@123!');
     dd($password);
 
     return view('call');
