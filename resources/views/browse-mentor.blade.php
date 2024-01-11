@@ -3713,7 +3713,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
     .elementor-star-rating__wrapper {
-        padding-left: 125px;
+        padding-left: 118px;
         display: flex;
     }
 
