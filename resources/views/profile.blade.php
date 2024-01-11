@@ -1708,7 +1708,7 @@
                 data-id="xjpohp1" data-element_type="section"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b1f32fb"
+                    <div class="elementor-column elementor-col-70 elementor-top-column elementor-element elementor-element-b1f32fb"
                         data-id="b1f32fb" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-f428972 elementor-hidden-desktop elementor-widget elementor-widget-heading"
@@ -2372,7 +2372,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-48e4c8f elementor-hidden-mobile"
+                    <div class="elementor-column elementor-col-30 elementor-top-column elementor-element elementor-element-48e4c8f elementor-hidden-mobile"
                         data-id="48e4c8f" data-element_type="column"
                         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                         <div class="elementor-widget-wrap elementor-element-populated">
