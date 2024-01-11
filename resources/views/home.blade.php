@@ -6767,7 +6767,7 @@
 
     .elementor-8 .elementor-element.elementor-element-a8c414f>.elementor-widget-container {
         margin: -12px 0px 2px 15px;
-        padding: 3px 0px 0px px;
+        padding: 3px 0px 0px 0px;
     }
 
     .elementor-8 .elementor-element.elementor-element-64263e0>.elementor-widget-container {
