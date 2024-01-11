@@ -6730,6 +6730,13 @@
         font-size: 10px;
         font-weight: 300;
     }
+
+    .elementor-8 .elementor-element.elementor-element-5620f48 .elementor-heading-title {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    
 }
 </style>
 
