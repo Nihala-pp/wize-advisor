@@ -6740,6 +6740,51 @@
         font-size: 10px;
         font-weight: 400;
     }
+
+    .elementor-8 .elementor-element.elementor-element-9e2f95c img {
+        width: 50%;
+        max-width: 50%;
+        height: 24px;
+        object-fit: cover;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-cd8caff .elementor-heading-title {
+        color: #54595F;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-cd8caff>.elementor-widget-container {
+        margin: -12px 0px 2px 15px;
+        padding: 3px 0px 0px 1px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-3be270d .elementor-heading-title {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-a8c414f>.elementor-widget-container {
+        margin: -12px 0px 2px 15px;
+        padding: 3px 0px 0px px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-64263e0>.elementor-widget-container {
+        margin: -20px 0px 0px 0px;
+        padding: 0px 0px 0px 17px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-2007f34>.elementor-widget-container {
+        margin: -20px 0px 0px 0px;
+        padding: 0px 0px 0px 17px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-0ab35dc>.elementor-widget-container {
+        margin: -20px 0px 0px 0px;
+        padding: 0px 0px 0px 17px;
+    }
 }
 </style>
+
 </html>
