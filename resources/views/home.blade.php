@@ -3984,7 +3984,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            {{ $review2->name }}</h4>
+                                                            {{ $review2->user->name }}</h4>
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-64263e0 elementor-widget elementor-widget-heading"
@@ -6724,6 +6724,11 @@
         max-width: 39%;
         height: 43px;
         object-fit: cover;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-64263e0 .elementor-heading-title {
+        font-size: 10px;
+        font-weight: 300;
     }
 }
 </style>
