@@ -6682,8 +6682,14 @@
         object-fit: cover;
     }
 
-    .elementor-8 .elementor-element.elementor-element-7b394ae .elementor-heading-title {
-        font-size: 10px !important;
+    .elementor-8 .elementor-element.elementor-element-7b394ae>.elementor-widget-container {
+        margin: -12px 0px 2px 15px;
+        padding: 3px 0px 0px 1px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-2007f34 .elementor-heading-title {
+        font-size: 10px;
+        font-weight: 300;
     }
 }
 </style>
