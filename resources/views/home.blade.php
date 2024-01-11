@@ -3858,7 +3858,7 @@
                                                     data-id="6bc782c" data-element_type="widget"
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
-                                                        @if(review1->user->metaData->profile_pic)
+                                                        @if($review1->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
                                                             src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
@@ -3882,7 +3882,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            {{ review1->user->name }}</h4>
+                                                            {{ $review1->user->name }}</h4>
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-0ab35dc elementor-widget elementor-widget-heading"
@@ -3890,7 +3890,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h6 class="elementor-heading-title elementor-size-default">
-                                                            {{ review1->user->metaData->designation }}
+                                                            {{ $review1->user->metaData->designation }}
                                                         </h6>
                                                     </div>
                                                 </div>
@@ -3899,7 +3899,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            {{ Str::of(review1->review)->limit(50) }}</p>
+                                                            {{ Str::of($review1->review)->limit(50) }}</p>
                                                     </div>
                                                 </div>
                                             </div>
