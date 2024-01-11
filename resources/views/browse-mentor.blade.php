@@ -3767,10 +3767,9 @@ i.fas.fa-bell.fa-2xl {
         content: "" !important;
     }
 
-    .mentorsList {
-        margin-right:30px !important;
+    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
+        padding: 75px 45px 75px 12px;
     }
-
 }
 </style>
 
