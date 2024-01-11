@@ -1488,7 +1488,7 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                                class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
