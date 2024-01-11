@@ -3766,6 +3766,11 @@ i.fas.fa-bell.fa-2xl {
         /* padding-top: 25px !important; */
         content: "" !important;
     }
+
+    .card {
+        width: 15rem;
+    }
+
 }
 </style>
 
