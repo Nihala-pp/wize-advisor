@@ -6696,6 +6696,28 @@
         font-size: 10px;
         font-weight: 300;
     }
+
+    .elementor-8 .elementor-element.elementor-element-6bc782c img {
+        width: 100%;
+        max-width: 39%;
+        height: 43px;
+        object-fit: cover;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-8290913 .elementor-heading-title {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-8290913>.elementor-widget-container {
+        margin: -12px 0px 2px 15px;
+        padding: 3px 0px 0px 1px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-0ab35dc .elementor-heading-title {
+        font-size: 10px;
+        font-weight: 300;
+    }
 }
 </style>
 
