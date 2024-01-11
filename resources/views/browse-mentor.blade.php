@@ -3579,7 +3579,7 @@
     }
 
     .price {
-        padding-left: 90px !important;
+       padding-left: 90px !important;
     }
 }
 
@@ -3713,7 +3713,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
     .elementor-star-rating__wrapper {
-        align-items: center;
+        padding-left: 118px;
         display: flex;
     }
 
