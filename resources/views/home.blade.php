@@ -6718,6 +6718,13 @@
         font-size: 10px;
         font-weight: 300;
     }
+
+    .elementor-8 .elementor-element.elementor-element-c86512d img {
+        width: 100%;
+        max-width: 39%;
+        height: 43px;
+        object-fit: cover;
+    }
 }
 </style>
 
