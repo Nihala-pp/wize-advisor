@@ -3767,7 +3767,7 @@ i.fas.fa-bell.fa-2xl {
         content: "" !important;
     }
 
-    .card {
+    .mentorsList {
         margin-right:30px !important;
     }
 
