@@ -6682,6 +6682,11 @@
         object-fit: cover;
     }
 
+    .elementor-8 .elementor-element.elementor-element-7b394ae .elementor-heading-title {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
     .elementor-8 .elementor-element.elementor-element-7b394ae>.elementor-widget-container {
         margin: -12px 0px 2px 15px;
         padding: 3px 0px 0px 1px;
@@ -6693,4 +6698,5 @@
     }
 }
 </style>
+
 </html>
