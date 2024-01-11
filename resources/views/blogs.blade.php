@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>BLOGS &#8211; wiseAdvizor</title>
+    <title>Blogs &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -1296,7 +1296,7 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">BLOGS</a>
+                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -1481,7 +1481,7 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">BLOGS</a>
+                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
