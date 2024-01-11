@@ -6784,6 +6784,11 @@
         margin: -20px 0px 0px 0px;
         padding: 0px 0px 0px 17px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-3be270d>.elementor-widget-container {
+        margin: -20px 0px 0px 0px;
+        padding: 0px 0px 0px 17px;
+    }
 }
 </style>
 
