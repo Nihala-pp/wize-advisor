@@ -3860,10 +3860,10 @@
                                                     <div class="elementor-widget-container">
                                                         @if($review1->user->metaData->profile_pic)
                                                         <img decoding="async" width="150" height="150"
-                                                            src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
+                                                            src="{{ asset('public/assets/img/') }}/{{ $review1->user->metaData->profile_pic ? $review1->user->metaData->profile_pic : '' }}"
                                                             class="attachment-thumbnail size-thumbnail wp-image-601"
                                                             alt=""
-                                                            srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
+                                                            srcset="{{ asset('public/assets/img/') }}/{{ $review1->user->metaData->profile_pic ? $review1->user->metaData->profile_pic : '' }}"
                                                             450w sizes="(max-width: 150px) 100vw, 150px">
                                                         <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                     class="rounded-circle" height="8" width="37"
