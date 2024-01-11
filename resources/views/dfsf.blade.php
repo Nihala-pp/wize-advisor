@@ -1449,7 +1449,7 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
                                                             <a href="{{ route('blogs') }}" itemprop="url"
-                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">BLOGS</a>
+                                                                class="hfe-sub-menu-item hfe-sub-menu-item-active">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
