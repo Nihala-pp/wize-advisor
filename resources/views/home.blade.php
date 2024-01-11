@@ -4434,7 +4434,7 @@
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="b2c5733" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=MDU2NsdQ9R0&amp;list=PL7RcAd6D0_T31iFRpnhZsQo1mtg1Uox_p&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+                    data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https://www.youtube.com/embed/MDU2NsdQ9R0?controls=0&amp;rel=0&amp;playsinline=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwiseadvizor.com&amp;widgetid=10&amp;list=PL7RcAd6D0_T31iFRpnhZsQo1mtg1Uox_p&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
                     <div class="elementor-background-video-container">
                         <!-- <iframe class="elementor-background-video-embed" frameborder="0" allowfullscreen=""
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -6720,9 +6720,9 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-c86512d img {
-        width: 100%;
-        max-width: 39%;
-        height: 43px;
+        width: 50%;
+        max-width: 50%;
+        height: 42px;
         object-fit: cover;
     }
 
@@ -6736,14 +6736,10 @@
         font-weight: 400;
     }
 
-    .elementor-8 .elementor-element.elementor-element-6d758cd img {
-        width: 100%;
-        height: 50px;
-        object-fit: cover;
-        object-position: center center;
-        border-radius: 50px 50px 50px 50px;
+    .elementor-8 .elementor-element.elementor-element-a8c414f .elementor-heading-title {
+        font-size: 10px;
+        font-weight: 400;
     }
 }
 </style>
-
 </html>
