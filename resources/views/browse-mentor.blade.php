@@ -3768,7 +3768,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-        padding: 75px 45px 75px 15px;
+        padding: 75px 45px 75px 12px;
     }
 }
 </style>
