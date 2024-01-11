@@ -6674,6 +6674,17 @@
         margin-bottom: -50px;
         padding: 0px 0px 180px 60px !important;
     }
+
+    .elementor-8 .elementor-element.elementor-element-405616b img {
+        width: 50%;
+        max-width: 50%;
+        height: 24px;
+        object-fit: cover;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-7b394ae .elementor-heading-title {
+        font-size: 10px !important;
+    }
 }
 </style>
 </html>
