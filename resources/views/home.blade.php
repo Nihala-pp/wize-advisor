@@ -4039,7 +4039,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <h4 class="elementor-heading-title elementor-size-default">
-                                                            {{ $review3->name }}</h4>
+                                                            {{ $review3->user->name }}</h4>
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-3be270d elementor-widget elementor-widget-heading"
@@ -6734,6 +6734,14 @@
     .elementor-8 .elementor-element.elementor-element-5620f48 .elementor-heading-title {
         font-size: 11px !important;
         font-weight: 400;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-6d758cd img {
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 50px 50px 50px 50px;
     }
 }
 </style>
