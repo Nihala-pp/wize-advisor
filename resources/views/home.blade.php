@@ -6732,11 +6732,9 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-5620f48 .elementor-heading-title {
-        font-size: 11px;
+        font-size: 11px !important;
         font-weight: 400;
     }
-
-    
 }
 </style>
 
