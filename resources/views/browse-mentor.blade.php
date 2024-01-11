@@ -3768,7 +3768,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .card {
-        width: 15rem !important;
+        width: 22rem !important;
     }
 
 }
