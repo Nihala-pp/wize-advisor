@@ -1932,7 +1932,7 @@
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
                                 @foreach($expertise as $expert)
-                                <option value="{{ $expert->name }}" {{ $expert == $variable  ? 'selected' : '' }}>
+                                <option value="{{ $expert->name }}" {{ $expert->name == $variable  ? 'selected' : '' }}>
                                     {{ $expert }}
                                 </option>
                                 @endforeach
