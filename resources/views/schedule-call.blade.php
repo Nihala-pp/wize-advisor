@@ -2835,7 +2835,7 @@
 </body>
 <style>
 .avail h4 {
-    padding-left:20px;
+    margin-left:20px;
     font-family: "Helvetica", Sans-serif;
     font-size: 16px !important;
     font-weight: 300;
