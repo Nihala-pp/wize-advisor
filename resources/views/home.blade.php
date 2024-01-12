@@ -6868,6 +6868,47 @@
         font-size: 10px !important;
     }
 }
+
+@media (max-width: 280px) {
+    .elementor-button.elementor-size-xs {
+        /* font-size: 13px; */
+        padding: 10px 15px;
+        /* border-radius: 2px; */
+    }
+
+    .elementor-30 .elementor-element.elementor-element-4db9008 .elementor-button {
+        font-size: 8px !important;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-4db9008 {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        /* width: var( --container-widget-width, 136px ); */
+        /* max-width: 136px; */
+        /* --container-widget-width: 136px; */
+        /* --container-widget-flex-grow: 0; */
+    }
+
+    .elementor-30 .elementor-element.elementor-element-00e2efe {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        /* width: var( --container-widget-width, 96px ); */
+        /* max-width: 96px; */
+        /* --container-widget-width: 96px; */
+        --container-widget-flex-grow: 0;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
+        margin-right: 10px;
+        /* padding: 15px 10px 0px 0px; */
+    }
+
+    .elementor-30 .elementor-element.elementor-element-00e2efe .elementor-button {
+        font-size: 8px !important;
+    }
+}
 </style>
 
 </html>
