@@ -6844,11 +6844,12 @@
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2) {
-    
+
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         margin-top: -34px;
         /* margin-left: 30px; */
         padding: 0px 0px 0px 0px;
+        margin-right: 20px;
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe {
