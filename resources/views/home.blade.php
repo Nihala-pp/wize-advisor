@@ -6910,7 +6910,7 @@
     }
 }
 
-@media screen and (max-width: 375px) and (min-width: 360px) {
+@media screen and (max-width: 375px) and (min-width: 320px) {
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
         margin-right: 20px;
