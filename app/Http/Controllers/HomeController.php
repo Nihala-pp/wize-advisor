@@ -139,6 +139,8 @@ class HomeController extends Controller
           ->whereHas('expertise', function (Builder $query) use ($variable) {
             $query->where('expertise', 'LIKE', '%' . $variable . '%');
           })->get();
+          
+          // Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'date':
           $mentors = User::where('role_id', 2)
@@ -152,13 +154,10 @@ class HomeController extends Controller
           break;
         case 'sortBy':
           $mentors = User::where('role_id', 2)
-          ->join('metaData', 'users.id', '=', 'user_meta_data.user_id')
-          ->orderBy('user_meta_data.price_per_call', $variable)->get();
-        // })
-        //   User::where('role_id', 2)
-        //     ->whereNull('status')
-        //     ->whereHas('metaData', function (Builder $query) use ($variable) {
-        //       $query->orderBy('price_per_call', $variable);
+            ->whereNull('status')
+            ->whereHas('metaData', function (Builder $query) use ($variable) {
+              $query->orderBy('price_per_call', $variable);
+            })->get();
           break;
         default:
           $mentors = User::where('role_id', 2)->whereNull('status')->get();
