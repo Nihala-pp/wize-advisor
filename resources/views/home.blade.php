@@ -6977,20 +6977,14 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-4db9008 {
-        /* width: var( --container-widget-width, 136px ); */
-        /* max-width: 136px; */
-        --container-widget-width: 136px;
-        --container-widget-flex-grow: 0;
+        --container-widget-width: 136px !important;
+        --container-widget-flex-grow: 0 !important;
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe {
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-        /* width: var( --container-widget-width, 96px ); */
-        /* max-width: 96px; */
-        /* --container-widget-width: 96px; */
-        /* --container-widget-flex-grow: 0; */
     }
 }
 </style>
