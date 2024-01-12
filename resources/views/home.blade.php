@@ -6861,7 +6861,11 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe .elementor-button {
-        font-size: 10px;
+        font-size: 10px !important;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-4db9008 .elementor-button {
+        font-size: 10px !important;
     }
 }
 </style>
