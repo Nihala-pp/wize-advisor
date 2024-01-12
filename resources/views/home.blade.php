@@ -6962,10 +6962,10 @@
 }
 
 @media (max-width: 375px) {
+
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
         margin-top: -63px;
-        margin-right: 20px;
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe .elementor-button {
