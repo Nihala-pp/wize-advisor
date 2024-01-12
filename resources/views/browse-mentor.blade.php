@@ -3579,7 +3579,7 @@
     }
 
     .price {
-       padding-left: 90px !important;
+       padding-left: 100px !important;
     }
 }
 
