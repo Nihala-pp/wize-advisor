@@ -134,11 +134,7 @@ class HomeController extends Controller
             })->get();
           break;
         case 'expertise':
-          $mentors = User::where('role_id', 2)
-            ->whereNull('status')
-            ->whereHas('metaData', function (Builder $query) use ($variable) {
-              $query->where('expertise', 'LIKE', '%' . $variable . '%');
-            })->get();
+          $mentors = Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'date':
           $mentors = User::where('role_id', 2)

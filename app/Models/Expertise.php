@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
 
 class Expertise extends Model
 {
@@ -19,5 +21,10 @@ class Expertise extends Model
             ['mentor_id' => $id],
             $details
         );
+    }
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'mentor_id');
     }
 }
