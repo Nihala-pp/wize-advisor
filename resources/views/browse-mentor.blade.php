@@ -3534,6 +3534,12 @@
         <!--End of Tawk.to Script-->
 </body>
 <style>
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
 
     div.d-grid.gap-2.col-6.butto {
@@ -3579,7 +3585,7 @@
     }
 
     .price {
-       padding-left: 100px !important;
+        padding-left: 100px !important;
     }
 }
 
