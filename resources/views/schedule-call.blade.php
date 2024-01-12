@@ -1339,7 +1339,7 @@
                                         </div>
                                     </div>
                                     @if(!empty($nextAvailability))
-                                    <div style="margin-left:20px;">
+                                    <div style="margin-left:20px;" class="avail">
                                         <h4 style="color:green"><b>Next Availability on
                                                 {{ $nextAvailability->date }}</b></h4>
                                     </div>
@@ -2834,6 +2834,12 @@
     </script>
 </body>
 <style>
+.avail h4 {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
 /* .browseMentor {
         padding-right: 20px;
     } */
