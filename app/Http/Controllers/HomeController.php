@@ -124,7 +124,7 @@ class HomeController extends Controller
     if (!empty($variable)) {
       switch ($filter) {
         case 'name':
-          $mentors = User::where('name', 'LIKE', '%' . $variable . '%')->whereNull('status')->get();
+          $mentors = User::where('role_id', 2)->where('name', 'LIKE', '%' . $variable . '%')->whereNull('status')->get();
           break;
         case 'price':
           $mentors = User::where('role_id', 2)
@@ -134,7 +134,13 @@ class HomeController extends Controller
             })->get();
           break;
         case 'expertise':
-          $mentors = Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
+          $mentors = User::where('role_id', 2)
+          ->whereNull('status')
+          ->whereHas('expertise', function (Builder $query) use ($variable) {
+            $query->where('expertise', 'LIKE', '%' . $variable . '%');
+          })->get();
+          
+          // Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'date':
           $mentors = User::where('role_id', 2)
