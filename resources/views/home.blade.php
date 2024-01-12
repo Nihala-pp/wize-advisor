@@ -6987,9 +6987,8 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-4db9008 {
-        min-width: 100% !important;
-        max-width: 100% !important;
-        width: 100% !important;
+        --container-widget-width: 136px;
+        --container-widget-flex-grow: 0;
         /* width: var( --container-widget-width, 136px ); */
         /* max-width: 136px; */
         /* --container-widget-width: 136px; */
