@@ -6840,7 +6840,7 @@
     }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
 
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         margin-top: -34px;
