@@ -2836,8 +2836,8 @@
 <style>
 .avail h4 {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px !important;
-    font-weight: 400;
+    font-size: 16px !important;
+    font-weight: 300;
 }
 
 /* .browseMentor {
