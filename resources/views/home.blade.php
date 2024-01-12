@@ -6911,6 +6911,14 @@
 }
 
 @media screen and (max-width: 375px) and (min-width: 320px) {
+
+    .elementor-30 .elementor-element.elementor-element-4db9008 {
+        /* width: var( --container-widget-width, 136px ); */
+        /* max-width: 136px; */
+        --container-widget-width: 136px;
+        --container-widget-flex-grow: 0;
+    }
+
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
         margin-right: 20px;
