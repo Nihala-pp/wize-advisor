@@ -153,11 +153,16 @@ class HomeController extends Controller
           $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%' . $variable . '%')->get();
           break;
         case 'sortBy':
-          $mentors = User::where('role_id', 2)
-            ->whereNull('status')
-            ->whereHas('metaData', function (Builder $query) use ($variable) {
-              $query->orderBy('price_per_call', $variable);
-            })->get();
+          $mentors = User::with(['metaData' => function ($q) use ($variable) {
+            $q->orderBy('price_per_call', $variable);
+            }])
+            ->get();
+          
+          // User::where('role_id', 2)
+          //   ->whereNull('status')
+          //   ->whereHas('metaData', function (Builder $query) use ($variable) {
+          //     $query->orderBy('price_per_call', $variable);
+          //   })->get();
           break;
         default:
           $mentors = User::where('role_id', 2)->whereNull('status')->get();
