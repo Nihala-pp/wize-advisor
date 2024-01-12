@@ -6840,7 +6840,11 @@
     }
 }
 
-@media (max-width: 320px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+    
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         margin-top: -34px;
         /* margin-left: 30px; */
@@ -6911,7 +6915,7 @@
     }
 }
 
-@media screen and (max-width: 375px) and (min-width: 320px) {
+@media screen and (max-width: 375px) and (min-width: 360px) {
 
     .elementor-30 .elementor-element.elementor-element-4db9008 {
         /* width: var( --container-widget-width, 136px ); */
