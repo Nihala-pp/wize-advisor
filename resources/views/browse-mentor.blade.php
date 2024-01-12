@@ -1931,8 +1931,8 @@
                             <!-- <label>Select with Button Class</label> -->
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
-                                @foreach($expertise as $key => $expert)
-                                <option value="{{ $expert }}" {{ $expert == $variable  ? 'selected' : '' }}>
+                                @foreach($expertise as $expert)
+                                <option value="{{ $expert->name }}" {{ $expert == $variable  ? 'selected' : '' }}>
                                     {{ $expert }}
                                 </option>
                                 @endforeach

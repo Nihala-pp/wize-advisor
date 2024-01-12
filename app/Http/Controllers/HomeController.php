@@ -7,6 +7,7 @@ use App\Mail\RejectedCallUserMail;
 use App\Mail\updateSessionMail;
 use App\Models\Article;
 use App\Models\Blogs;
+use App\Models\ExpertiseList;
 use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\Review;
@@ -174,30 +175,7 @@ class HomeController extends Controller
     // ->groupBy('expertise')
     // ->get();
 
-    $expertise = [
-      '1' => 'Sales',
-      '2' => 'Marketing',
-      '3' => 'Technology',
-      '4' => 'Idea Validation',
-      '5' => 'Product Market Fit',
-      '6' => 'Team Management',
-      '7' => 'Content creation',
-      '8' => 'Leadership',
-      '9' => 'Fund raising',
-      '10' => 'Networking',
-      '11' => 'Social Media',
-      '12' => 'Pricing Strategy',
-      '13' => 'Startup valuation',
-      '14' => 'Business Strategy',
-      '15' => 'Email Marketing',
-      '16' => 'Brand Building ',
-      '17' => 'SEO',
-      '18' => 'Operations and logistics',
-      '19' => 'Risk Management',
-      '20' => 'Ads Strategy',
-      '21' => 'Go to Market Strategy',
-      '22' => 'Growth Strategy'
-    ];
+    $expertise = ExpertiseList::get();
 
     // dd($expertise);
 
