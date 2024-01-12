@@ -2841,6 +2841,10 @@
     font-weight: 300;
 }
 
+.avail h4 b{
+    padding-left:20px;
+}
+
 /* .browseMentor {
         padding-right: 20px;
     } */
