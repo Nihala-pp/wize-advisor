@@ -1595,17 +1595,38 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-00e2efe elementor-align-right elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                    data-id="00e2efe" data-element_type="widget"
-                                                    data-widget_type="button.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-xs"
-                                                                href="{{ route('login') }}">
-                                                                <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-text">Sign In</span>
-                                                                </span>
-                                                            </a>
+                                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-094a417"
+                                                    data-id="094a417" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-4db9008 elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                                            data-id="4db9008" data-element_type="widget"
+                                                            data-widget_type="button.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                                        href="{{ route('browseMentor') }}">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-text">Browse
+                                                                                Mentors</span>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-00e2efe elementor-align-right elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                                            data-id="00e2efe" data-element_type="widget"
+                                                            data-widget_type="button.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                                        href="{{ route('login') }}">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-text">Sign
+                                                                                In</span>
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
