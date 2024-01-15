@@ -5447,16 +5447,95 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.2"
         id="qi-addons-for-elementor-elementor-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-        id="elementor-pro-webpack-runtime-js"></script>
-
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
-        id="elementor-pro-frontend-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
-        id="pro-elements-handlers-js"></script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-        id="e-sticky-js"></script>
+        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
+        id="elementor-pro-webpack-runtime-js"></script>
+    <script id="elementor-pro-frontend-js-before">
+    var ElementorProFrontendConfig = {
+        "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
+        "nonce": "06fd83ab01",
+        "urls": {
+            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
+            "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
+        },
+        "shareButtonsNetworks": {
+            "facebook": {
+                "title": "Facebook",
+                "has_counter": true
+            },
+            "twitter": {
+                "title": "Twitter"
+            },
+            "linkedin": {
+                "title": "LinkedIn",
+                "has_counter": true
+            },
+            "pinterest": {
+                "title": "Pinterest",
+                "has_counter": true
+            },
+            "reddit": {
+                "title": "Reddit",
+                "has_counter": true
+            },
+            "vk": {
+                "title": "VK",
+                "has_counter": true
+            },
+            "odnoklassniki": {
+                "title": "OK",
+                "has_counter": true
+            },
+            "tumblr": {
+                "title": "Tumblr"
+            },
+            "digg": {
+                "title": "Digg"
+            },
+            "skype": {
+                "title": "Skype"
+            },
+            "stumbleupon": {
+                "title": "StumbleUpon",
+                "has_counter": true
+            },
+            "mix": {
+                "title": "Mix"
+            },
+            "telegram": {
+                "title": "Telegram"
+            },
+            "pocket": {
+                "title": "Pocket",
+                "has_counter": true
+            },
+            "xing": {
+                "title": "XING",
+                "has_counter": true
+            },
+            "whatsapp": {
+                "title": "WhatsApp"
+            },
+            "email": {
+                "title": "Email"
+            },
+            "print": {
+                "title": "Print"
+            }
+        },
+        "facebook_sdk": {
+            "lang": "en_US",
+            "app_id": ""
+        },
+        "lottie": {
+            "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+        }
+    };
+    </script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+        id="elementor-pro-frontend-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+        id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
         "ajaxurl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -5477,11 +5556,31 @@
         "recaptcha_error": "Recaptcha Error"
     };
     </script>
+    <script id="wpr-addons-js-js-extra">
+    var WprConfig = {
+        "ajaxurl": "https:\/\/web.pransainvestment.ca\/wp-admin\/admin-ajax.php",
+        "resturl": "https:\/\/web.pransainvestment.ca\/wp-json\/wpraddons\/v1",
+        "nonce": "3d92144067",
+        "addedToCartText": "was added to cart",
+        "viewCart": "View Cart",
+        "comparePageID": "",
+        "comparePageURL": "https:\/\/web.pransainvestment.ca\/profile\/",
+        "wishlistPageID": "",
+        "wishlistPageURL": "https:\/\/web.pransainvestment.ca\/profile\/",
+        "chooseQuantityText": "Please select the required number of items.",
+        "site_key": "",
+        "is_admin": "",
+        "input_empty": "Please fill out this field",
+        "select_empty": "Nothing selected",
+        "file_empty": "Please upload a file",
+        "recaptcha_error": "Recaptcha Error"
+    };
+    </script>
     <script data-cfasync="false"
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.84"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
         id="wpr-addons-js-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.84"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.85"
         id="wpr-modal-popups-js-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
     <script id="wp-util-js-extra">
