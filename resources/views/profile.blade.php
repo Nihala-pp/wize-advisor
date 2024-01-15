@@ -3976,13 +3976,22 @@
                                                     }
                                                     </style>
                                                     <div class="elementor-progress-wrapper" role="progressbar"
+                                                        aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
+                                                        aria-valuetext="100% (Mobile Premier League )">
+                                                        <div class="elementor-progress-bar" data-max="100">
+                                                            <span
+                                                                class="elementor-progress-text">{{ $exp->company_name }}
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="elementor-progress-wrapper" role="progressbar"
                                                         aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"
                                                         aria-valuetext="75% (Startup Grind New Cairo)">
                                                         <div class="elementor-progress-bar" data-max="75">
                                                             <span
                                                                 class="elementor-progress-text">{{ $exp->company_name }}</span>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
