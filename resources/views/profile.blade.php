@@ -1028,6 +1028,9 @@
         media="all">
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1703156330" media="all">
+    <link rel='stylesheet' id='elementor-pro-css'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
+        media='all' />
     <link rel="stylesheet" id="she-header-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10"
         media="all">
@@ -2229,7 +2232,8 @@
                                     <div class="elementor-social-icons-wrapper elementor-grid">
                                         <span class="elementor-grid-item">
                                             <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-775161a"
-                                                target="_blank" href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
+                                                target="_blank"
+                                                href="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                                 <span class="elementor-screen-only">Linkedin</span>
                                                 <i class="fab fa-linkedin"></i> </a>
                                         </span>
@@ -6601,8 +6605,8 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-icon svg {
         margin-top: 0px !important;
         margin-left: 0px !important;
-        width: 1em; 
-        height: 1em; 
+        width: 1em;
+        height: 1em;
         position: relative;
         display: block !important;
     }
