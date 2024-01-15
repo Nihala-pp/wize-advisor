@@ -5717,7 +5717,7 @@ h6,
 .elementor-progress-wrapper {
     position: relative;
     background-color: #eee;
-    color: #fff;
+    color: #fff !important;
     height: 100%;
     border-radius: 2px;
 }
