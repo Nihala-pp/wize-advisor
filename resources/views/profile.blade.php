@@ -5706,10 +5706,14 @@ h6,
     color: #150E1F;
 }
 
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: #001e64 !important;
+}
+
 .elementor-progress-wrapper {
     position: relative;
-    background-color: #001e64;
-    color: #ffff !important;
+    background-color: #eee;
+    color: #fff !important;
     height: 100%;
     border-radius: 2px;
 }
