@@ -5710,8 +5710,16 @@ h6,
     background-color: #001e64 !important;
 }
 
-.elementor-progress-text {
+/* .elementor-progress-text {
     color: #fff !important;
+} */
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    border-radius: 2px;
 }
 
 /* .elementor-progress-wrapper {
