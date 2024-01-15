@@ -6674,6 +6674,7 @@
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown .menu-item a.hfe-menu-item,
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
     background-color: #fff;
+    color:#001E64;
 }
 
 .elementor-30 .elementor-element.elementor-element-02e763c .elementor-button {
