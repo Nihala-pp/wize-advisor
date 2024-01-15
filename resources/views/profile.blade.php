@@ -5440,7 +5440,7 @@
         id="qi-addons-for-elementor-elementor-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
         id="elementor-pro-webpack-runtime-js"></script>
-    
+
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
         id="elementor-pro-frontend-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
@@ -5571,6 +5571,14 @@
     margin: -15px 0px 0px 0px;
 }
 
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #001e64 !important;
+    color: #fff !important;
+    height: 100%;
+    /* border-radius: 2px; */
+}
+
 h6,
 .entry-content h6 {
     font-size: 15px;
@@ -5691,8 +5699,8 @@ h6,
 
 .elementor-progress-wrapper {
     position: relative;
-    background-color: #eee;
-    color: #001e64 !important;
+    background-color: #001e64;
+    color: #ffff !important;
     height: 100%;
     border-radius: 2px;
 }
