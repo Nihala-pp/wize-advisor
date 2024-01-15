@@ -1340,7 +1340,9 @@
                                     </div>
                                     @if(!empty($nextAvailability))
                                     <div style="margin-left:20px;" class="avail">
-                                        <h4 style="color:green"><b>Next Availability on {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}</b></h4>
+                                        <h4 style="color:green"><b>Next Availability on
+                                                {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}</b>
+                                        </h4>
                                     </div>
                                     @endif
                                     <div class="events-container">
@@ -1796,7 +1798,9 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            How it Works</p>
+                                                            <a href="https://wiseadvizor.com/#how_it_works"> How it
+                                                                Works</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2834,14 +2838,14 @@
 </body>
 <style>
 .avail h4 {
-    margin-left:20px;
+    margin-left: 20px;
     font-family: "Helvetica", Sans-serif;
     font-size: 16px !important;
     font-weight: 300;
 }
 
-.avail h4 b{
-    padding-left:20px;
+.avail h4 b {
+    padding-left: 20px;
 }
 
 /* .browseMentor {

@@ -2305,8 +2305,10 @@
                                                     data-id="b84e421" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">How it
-                                                            Works</p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/#how_it_works"> How it
+                                                                Works</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3241,4 +3243,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
