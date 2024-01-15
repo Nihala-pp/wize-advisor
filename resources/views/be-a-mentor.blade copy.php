@@ -1544,7 +1544,8 @@
                                                             Password</a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item" href="{{ route('user.reviews.list') }}">My
+                                                        <a class="dropdown-item"
+                                                            href="{{ route('user.reviews.list') }}">My
                                                             Reviews</a>
                                                     </li>
                                                     <li>
@@ -2077,8 +2078,10 @@
                                                             font-size: 59px
                                                         }
                                                         </style>
-                                                        <p class="elementor-heading-title elementor-size-default">How it
-                                                            Works</p>
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://wiseadvizor.com/#how_it_works"> How it
+                                                                Works</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
