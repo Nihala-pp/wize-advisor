@@ -1522,98 +1522,99 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- </div> -->
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-094a417"
-                    data-id="094a417" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-b0aaaa9 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
-                            data-id="b0aaaa9" data-element_type="widget"
-                            data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                            data-widget_type="navigation-menu.default">
-                            <div class="elementor-widget-container">
-                                <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                    data-layout="horizontal">
-                                    <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
-                                        <span class="screen-reader-text">Menu</span>
-                                        <div class="hfe-nav-menu-icon">
-                                            <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
+                    <!-- </div> -->
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-094a417"
+                        data-id="094a417" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-b0aaaa9 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
+                                data-id="b0aaaa9" data-element_type="widget"
+                                data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                data-widget_type="navigation-menu.default">
+                                <div class="elementor-widget-container">
+                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
+                                        data-layout="horizontal">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
+                                            <span class="screen-reader-text">Menu</span>
+                                            <div class="hfe-nav-menu-icon">
+                                                <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
-                                        class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
-                                        data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
-                                        data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
-                                        data-full-width="yes">
-                                        <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
-                                            <li id="menu-item-29" itemprop="name"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                    class="hfe-menu-item">About Us</a>
-                                            </li>
-                                            <li id="menu-item-28" itemprop="name"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                    class="hfe-menu-item">Contact Us</a>
-                                            </li>
-                                            <li id="menu-item-27" itemprop="name"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                <div class="hfe-has-submenu-container"><a
-                                                        href="https://wiseadvizor.com/resources/" itemprop="url"
-                                                        class="hfe-menu-item">Resource<span
-                                                            class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                class="fa"></i></span></a></div>
-                                                <ul class="sub-menu">
-                                                    <li id="menu-item-24" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/community-posts/"
-                                                            itemprop="url" class="hfe-sub-menu-item">Community
-                                                            Post</a>
-                                                    </li>
-                                                    <li id="menu-item-25" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                            class="hfe-sub-menu-item">Libraries</a>
-                                                    </li>
-                                                    <li id="menu-item-26" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                            class="hfe-sub-menu-item">FAQ</a>
-                                                    </li>
-                                                    <li id="menu-item-2842" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                            class="hfe-sub-menu-item">Blogs</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li id="menu-item-5114" itemprop="name"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a class="elementor-button elementor-button-link elementor-size-xs"
-                                                    href="{{ route('browseMentor') }}">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">Browse Mentors</span>
-                                                    </span>
-                                                </a>
-                                                <!-- <a href="https://web.pransainvestment.ca/browse-mentor/"
+                                        <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
+                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
+                                            data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
+                                            data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
+                                            data-full-width="yes">
+                                            <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
+                                                <li id="menu-item-29" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    <a href="https://wiseadvizor.com/about-us/" itemprop="url"
+                                                        class="hfe-menu-item">About Us</a>
+                                                </li>
+                                                <li id="menu-item-28" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
+                                                        class="hfe-menu-item">Contact Us</a>
+                                                </li>
+                                                <li id="menu-item-27" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
+                                                    <div class="hfe-has-submenu-container"><a
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
+                                                            class="hfe-menu-item">Resource<span
+                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                    class="fa"></i></span></a></div>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-24" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/community-posts/"
+                                                                itemprop="url" class="hfe-sub-menu-item">Community
+                                                                Post</a>
+                                                        </li>
+                                                        <li id="menu-item-25" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
+                                                        </li>
+                                                        <li id="menu-item-26" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                        </li>
+                                                        <li id="menu-item-2842" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Blogs</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li id="menu-item-5114" itemprop="name"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                        href="{{ route('browseMentor') }}">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Browse Mentors</span>
+                                                        </span>
+                                                    </a>
+                                                    <!-- <a href="https://web.pransainvestment.ca/browse-mentor/"
                                                         itemprop="url" class="hfe-menu-item">Browse Mentor</a> -->
-                                            </li>
-                                            <li id="menu-item-5136" itemprop="name"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                <a class="elementor-button elementor-button-link elementor-size-xs"
-                                                    href="{{ route('login') }}">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">Sign In</span>
-                                                    </span>
-                                                </a>
-                                                <!-- <a href="https://wiseadvizor.com/login" itemprop="url"
+                                                </li>
+                                                <li id="menu-item-5136" itemprop="name"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
+                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                        href="{{ route('login') }}">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Sign In</span>
+                                                        </span>
+                                                    </a>
+                                                    <!-- <a href="https://wiseadvizor.com/login" itemprop="url"
                                                         class="hfe-menu-item">Sign In</a> -->
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <!-- <div class="elementor-element elementor-element-4db9008 elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
                             data-id="4db9008" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
