@@ -1598,7 +1598,7 @@
                     </div>
                 </div>
         </div>
-        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-094a417"
+        <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-094a417"
             data-id="094a417" data-element_type="column">
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-4db9008 elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
@@ -1628,7 +1628,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         </div>
     </header>
 
