@@ -7142,7 +7142,7 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding: 0px 0px 0px 45px;
+        padding: 0px 0px 0px 50px;
         margin-top: 65px;
     }
 }
@@ -7206,7 +7206,7 @@
     } */
 
         .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-            padding: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 30px;
             margin-top: 65px;
         }
 }
