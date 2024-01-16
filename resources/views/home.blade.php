@@ -7124,6 +7124,13 @@
         padding: 0px 0px 0px 17px;
     } */
 
+    /* .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu__layout-horizontal li,
+    .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu {
+        width: 75%;
+        /* padding-left: 50px; */
+        margin-top: -55px;
+    } */
+
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-horizontal .hfe-nav-menu__toggle,
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-vertical .hfe-nav-menu__toggle {
         margin-top: 20px;
@@ -7137,7 +7144,7 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417 {
-        width: 100%;
+        width: 50%;
         /* margin-top: 30px; */
     }
 
