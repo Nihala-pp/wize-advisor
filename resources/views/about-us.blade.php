@@ -4004,7 +4004,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 280px) {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 20px;
         margin-top: 60px;
     }
 }
