@@ -4000,21 +4000,20 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-@media (max-width: 320px) {
-}
+@media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: 60px;
+    }
 }
 
-@media (max-width: 360px) {
-}
+@media (max-width: 360px) {}
 
-@media (max-width: 375px) {
-}
+@media (max-width: 375px) {}
 
-@media (min-width: 540px) {
-}
+@media (min-width: 540px) {}
 </style>
 
 </html>
