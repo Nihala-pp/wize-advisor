@@ -1626,7 +1626,7 @@
                         </div>
                     </div>
                      </div> -->
-                <!-- </div>
+            <!-- </div>
             </header>  -->
             <header
                 class="elementor-section elementor-top-section elementor-element elementor-element-a72004e elementor-section-full_width elementor-section-content-top elementor-hidden-tablet she-header-yes elementor-hidden-desktop elementor-section-height-default elementor-section-height-default"
@@ -7139,6 +7139,14 @@
         margin: -20px 0px 0px 0px;
         padding: 0px 0px 0px 17px;
     } */
+
+    .hfe-nav-menu__breakpoint-mobile .hfe-layout-horizontal .hfe-nav-menu__toggle,
+    .hfe-nav-menu__breakpoint-mobile .hfe-layout-vertical .hfe-nav-menu__toggle {
+        margin-top: 20px;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
 }
 
 @media (max-width: 320px) {
