@@ -7120,16 +7120,11 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-a2b9669 {
-        width: 40%;
+        width: 50%;
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417 {
-        width: 30%;
-    }
-
-    .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding: 0px 0px 0px 35px;
-        margin-top: 65px;
+        width: 20%;
     }
 
     .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu a.hfe-sub-menu-item:hover,
@@ -7142,7 +7137,7 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding: 0px 0px 0px 50px;
+        padding: 0px 0px 0px 40px;
         margin-top: 65px;
     }
 }
@@ -7173,6 +7168,11 @@
     .elementor-30 .elementor-element.elementor-element-4db9008 .elementor-button {
         font-size: 10px !important;
     } */
+
+    .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 65px;
+    }
 }
 
 @media (max-width: 280px) {
@@ -7205,10 +7205,10 @@
         font-size: 8px !important;
     } */
 
-        .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-            padding: 0px 0px 0px 30px;
-            margin-top: 65px;
-        }
+    .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 65px;
+    }
 }
 
 @media (max-width: 360px) {
