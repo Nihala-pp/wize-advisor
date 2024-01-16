@@ -7205,10 +7205,10 @@
         font-size: 8px !important;
     } */
 
-    .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding: 0px 0px 0px 40px;
-        margin-top: 65px;
-    }
+        .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
+            padding: 0px 0px 0px 0px;
+            margin-top: 65px;
+        }
 }
 
 @media (max-width: 360px) {
