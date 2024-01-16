@@ -1593,7 +1593,7 @@
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                    <a class="elementor-button elementor-button-link elementor-size-md"
                                                         href="{{ route('login') }}">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-text">Sign In</span>
