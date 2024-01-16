@@ -7128,15 +7128,19 @@
     .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu {
         width: 75%;
         /* padding-left: 50px; */
-        /* margin-top: -55px; */
-    /* } */ */
-
-    .hfe-nav-menu__breakpoint-mobile .hfe-layout-horizontal .hfe-nav-menu__toggle,
+    /* margin-top: -55px; */
+    /* } */
+    */ .hfe-nav-menu__breakpoint-mobile .hfe-layout-horizontal .hfe-nav-menu__toggle,
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-vertical .hfe-nav-menu__toggle {
-        margin-top: -30px;
+        margin-top: -50px;
         visibility: visible;
         opacity: 1;
         display: block;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9>.elementor-widget-container {
+        margin: -55px 0px 0px 70px;
+        padding: 0px 0px 0px 0px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-b18e926 .hfe-nav-menu__toggle {
