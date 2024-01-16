@@ -7131,6 +7131,15 @@
         padding: 0px 0px 0px 35px;
         margin-top: 65px;
     }
+
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu a.hfe-sub-menu-item:hover,
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 .elementor-menu-toggle:hover,
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown li a.hfe-menu-item:hover,
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
+        color: #001E64;
+    }
 }
 
 @media (max-width: 320px) {
