@@ -7133,7 +7133,7 @@
 
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-horizontal .hfe-nav-menu__toggle,
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-vertical .hfe-nav-menu__toggle {
-        margin-top: 20px;
+        margin-top: 0px;
         visibility: visible;
         opacity: 1;
         display: block;
