@@ -7137,7 +7137,7 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417 {
-        width: 70%;
+        width: 100%;
         /* margin-top: 30px; */
     }
 
