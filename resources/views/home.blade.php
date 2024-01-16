@@ -6667,7 +6667,7 @@
 }
 
 @media (max-width: 767px) {
-    .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
+    /* .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
     }
 
@@ -6821,14 +6821,13 @@
     .elementor-8 .elementor-element.elementor-element-3be270d>.elementor-widget-container {
         margin: -20px 0px 0px 0px;
         padding: 0px 0px 0px 17px;
-    }
+    } */
 }
 
 @media (max-width: 320px) {
 
-    .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
+    /* .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         margin-top: -34px;
-        /* margin-left: 30px; */
         padding: 0px 0px 0px 0px;
         margin-right: 20px;
     }
@@ -6837,9 +6836,6 @@
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-        /* width: var( --container-widget-width, 96px ); */
-        /* max-width: 96px; */
-        /* --container-widget-width: 96px; */
         --container-widget-flex-grow: 0;
     }
 
@@ -6853,14 +6849,12 @@
 
     .elementor-30 .elementor-element.elementor-element-4db9008 .elementor-button {
         font-size: 10px !important;
-    }
+    } */
 }
 
 @media (max-width: 280px) {
-    .elementor-button.elementor-size-xs {
-        /* font-size: 13px; */
+    /* .elementor-button.elementor-size-xs {
         padding: 10px 15px;
-        /* border-radius: 2px; */
     }
 
     .elementor-30 .elementor-element.elementor-element-4db9008 .elementor-button {
@@ -6871,37 +6865,27 @@
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-        /* width: var( --container-widget-width, 136px ); */
-        /* max-width: 136px; */
-        /* --container-widget-width: 136px; */
-        /* --container-widget-flex-grow: 0; */
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe {
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-        /* width: var( --container-widget-width, 96px ); */
-        /* max-width: 96px; */
-        /* --container-widget-width: 96px; */
         --container-widget-flex-grow: 0;
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         margin-right: 10px;
-        /* padding: 15px 10px 0px 0px; */
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe .elementor-button {
         font-size: 8px !important;
-    }
+    } */
 }
 
 @media (max-width: 360px) {
 
-    .elementor-30 .elementor-element.elementor-element-4db9008 {
-        /* width: var( --container-widget-width, 136px ); */
-        /* max-width: 136px; */
+    /* .elementor-30 .elementor-element.elementor-element-4db9008 {
         --container-widget-width: 136px;
         --container-widget-flex-grow: 0;
     }
@@ -6920,20 +6904,12 @@
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-        /* width: var( --container-widget-width, 136px ); */
-        /* max-width: 136px; */
-        /* --container-widget-width: 136px; */
-        /* --container-widget-flex-grow: 0; */
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe {
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-        /* width: var( --container-widget-width, 96px ); */
-        /* max-width: 96px; */
-        /* --container-widget-width: 96px; */
-        /* --container-widget-flex-grow: 0; */
     }
 
     .elementor-30 .elementor-element.elementor-element-00e2efe .elementor-button {
@@ -6942,12 +6918,12 @@
 
     .elementor-30 .elementor-element.elementor-element-4db9008>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
-    }
+    } */
 }
 
 @media (max-width: 375px) {
 
-    .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
+    /* .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
         margin-top: -63px;
     }
@@ -6969,7 +6945,7 @@
         min-width: 100% !important;
         max-width: 100% !important;
         width: 100% !important;
-    }
+    } */
 }
 </style>
 
