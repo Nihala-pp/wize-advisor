@@ -7138,7 +7138,12 @@
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
         padding: 0px 0px 0px 35px;
-        margin-top: 65px;
+        margin-top: 45px;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: -20px;
     }
 }
 
@@ -7171,7 +7176,12 @@
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
-        margin-top: 65px;
+        margin-top: 45px;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: -20px;
     }
 }
 
@@ -7207,7 +7217,12 @@
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
-        margin-top: 65px;
+        margin-top: 45px;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: -20px;
     }
 }
 
@@ -7215,7 +7230,12 @@
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
-        margin-top: 65px;
+        margin-top: 45px;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: -20px;
     }
 
     /* .elementor-30 .elementor-element.elementor-element-4db9008 {
@@ -7258,7 +7278,12 @@
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
-        margin-top: 65px;
+        margin-top: 45px;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: -20px;
     }
 
     /* .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
@@ -7288,9 +7313,14 @@
 
 @media (min-width: 540px) {
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-    padding: 0px 0px 0px 60px;
-    margin-top: 65px;
-}
+        padding: 0px 0px 0px 60px;
+        margin-top: 45px;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+        padding: 0px 0px 0px 10px;
+        margin-top: -20px;
+    }
 }
 </style>
 
