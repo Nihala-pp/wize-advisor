@@ -7111,12 +7111,26 @@
         display: none;
     } */
 
-    .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu a.hfe-sub-menu-item:hover,
+    /* .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu a.hfe-sub-menu-item:hover,
     .elementor-30 .elementor-element.elementor-element-b0aaaa9 .elementor-menu-toggle:hover,
     .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown li a.hfe-menu-item:hover,
     .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
     .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
-    .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover
+    .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover .elementor-30 .elementor-element.elementor-element-b97627d {
+        width: 30%;
+    } */
+
+    .elementor-30 .elementor-element.elementor-element-b97627d {
+        width: 30%;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-a2b9669 {
+        width: 40%;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-094a417 {
+        width: 30%;
+    }
 }
 
 @media (max-width: 320px) {
