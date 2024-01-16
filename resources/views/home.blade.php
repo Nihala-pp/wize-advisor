@@ -7131,14 +7131,14 @@
         margin-top: 30px;
     }
 
-    .elementor .elementor-hidden-mobile,
+    /* .elementor .elementor-hidden-mobile,
     .elementor .elementor-hidden-phone {
         display: none;
     }
 
     .nav-extra {
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 320px) {
