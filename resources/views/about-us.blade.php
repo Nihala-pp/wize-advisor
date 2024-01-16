@@ -4069,7 +4069,7 @@ i.fas.fa-bell.fa-2xl {
         margin-top: 60px;
     }
 
-    i.fas.fa-bell.fa-2xl {
+    /* i.fas.fa-bell.fa-2xl {
         font-size: 32px !important;
         padding-left: 10px;
         color: #000;
@@ -4077,7 +4077,7 @@ i.fas.fa-bell.fa-2xl {
 
     img.rounded-circle {
         margin-bottom: 10px;
-    }
+    } */
 }
 
 @media (max-width: 320px) {}
