@@ -3993,6 +3993,28 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669 {
         width: 20%;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 280px) {
+
+}
+
+@media (max-width: 360px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (min-width: 540px) {
 }
 </style>
+
 </html>
