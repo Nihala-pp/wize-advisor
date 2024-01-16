@@ -4068,6 +4068,12 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 30px;
         margin-top: 60px;
     }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 32px !important;
+        padding-left: 10px;
+        color: #000;
+    }
 }
 
 @media (max-width: 320px) {}
