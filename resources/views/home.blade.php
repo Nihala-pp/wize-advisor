@@ -1610,7 +1610,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
         <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-094a417"
             data-id="094a417" data-element_type="column">
             <div class="elementor-widget-wrap elementor-element-populated">
@@ -6667,6 +6667,14 @@
 }
 
 @media (max-width: 767px) {
+
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+
     /* .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
     }
