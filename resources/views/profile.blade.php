@@ -1641,88 +1641,78 @@
                                 data-widget_type="navigation-menu.default">
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                        data-layout="horizontal" data-last-item="cta">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
-                                            aria-haspopup="true" aria-expanded="false">
+                                        data-layout="horizontal">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
                                             <span class="screen-reader-text">Menu</span>
-                                            <div class="hfe-nav-menu-icon"><i aria-hidden="true" tabindex="0"
-                                                    class="fas fa-align-justify"></i></div>
+                                            <div class="hfe-nav-menu-icon">
+                                                <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
+                                            </div>
                                         </div>
                                         <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
-                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow hfe-dropdown"
-                                            data-toggle-icon="<i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;></i>"
-                                            data-close-icon="<i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;></i>"
-                                            data-full-width="yes" style="width: auto; left: 0px; z-index: 0;">
-                                            <ul id="menu-1-b18e926" class="hfe-nav-menu">
+                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
+                                            data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
+                                            data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
+                                            data-full-width="yes">
+                                            <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://web.pransainvestment.ca/about-us/" itemprop="url"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    <a href="https://wiseadvizor.com/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.pransainvestment.ca/contact-us/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.pransainvestment.ca/resources/"
-                                                            itemprop="url" class="hfe-menu-item" aria-haspopup="true"
-                                                            aria-expanded="false">Resource<span
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
+                                                            class="hfe-menu-item">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div><button
-                                                        class="sub-menu-toggle" aria-expanded="false"
-                                                        onclick="twentytwentyoneExpandSubMenu(this)"
-                                                        style="position: absolute;" fdprocessedid="lajl07"><span
-                                                            class="icon-plus"><svg class="svg-icon" width="18"
-                                                                height="18" aria-hidden="true" role="img"
-                                                                focusable="false" viewBox="0 0 24 24" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z"
-                                                                    fill="currentColor"></path>
-                                                            </svg></span><span class="icon-minus"><svg class="svg-icon"
-                                                                width="18" height="18" aria-hidden="true" role="img"
-                                                                focusable="false" viewBox="0 0 24 24" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M6 11h12v2H6z" fill="currentColor"></path>
-                                                            </svg></span><span class="screen-reader-text">Open
-                                                            menu</span></button>
+                                                                    class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/community-post/"
+                                                            <a href="https://wiseadvizor.com/community-posts/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/blogs/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/faq/"
-                                                                itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.pransainvestment.ca/browse-mentor/"
-                                                        itemprop="url" class="hfe-menu-item">Browse Mentor</a>
+                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                        href="{{ route('browseMentor') }}">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Browse
+                                                                Mentors</span>
+                                                        </span>
+                                                    </a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/login" itemprop="url"
-                                                        class="hfe-menu-item">Sign In</a>
+                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
+                                                        href="{{ route('login') }}">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Sign In</span>
+                                                        </span>
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </nav>
