@@ -1634,7 +1634,7 @@
                 data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#00000000&quot;,&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;60&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-no">
-                    <div class="elementor-column elementor-col-30 elementor-top-column elementor-element elementor-element-b97627d"
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b97627d"
                         data-id="b97627d" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-af3e3d6 elementor-widget elementor-widget-image"
@@ -1651,8 +1651,8 @@
                         </div>
                     </div>
                     <!-- </div> -->
-                    <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-094a417 nav-extra"
-                        data-id="094a417" data-element_type="column">
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-094a417 nav-extra"
+                        data-id="094a417" data-element_type="column" style="display:none;">
                         <div class="elementor-widget-wrap elementor-element-populated">
                           <div class="elementor-element elementor-element-b0aaaa9 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
                                 data-id="b0aaaa9" data-element_type="widget"
@@ -1661,7 +1661,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal">
-                                        <!-- <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                                 <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
@@ -1733,13 +1733,13 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </nav> -->
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="element or-column elementor-col-30 elementor-top-column elementor-element elementor-element-094a417"
+                        <div class="element or-column elementor-col-33 elementor-top-column elementor-element elementor-element-094a417"
                             data-id="094a417" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-b0aaaa9 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
