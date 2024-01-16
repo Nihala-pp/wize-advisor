@@ -7286,7 +7286,7 @@
     } */
 }
 
-@media (max-width: 540px) {
+@media (min-width: 540px) {
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
     padding: 0px 0px 0px 60px;
     margin-top: 65px;
