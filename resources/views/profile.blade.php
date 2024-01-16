@@ -6946,7 +6946,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         display: block !important;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-f871cda {
+    .elementor-3007 .elementor-element.elementor-element-b97627d {
         width: 30%;
     }
 
