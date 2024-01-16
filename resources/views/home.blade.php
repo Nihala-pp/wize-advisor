@@ -7126,6 +7126,11 @@
     .elementor-30 .elementor-element.elementor-element-094a417 {
         width: 30%;
     }
+
+    .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
+        padding: 0px 0px 0px 35px;
+        margin-top: 65px;
+    }
 }
 
 @media (max-width: 320px) {
