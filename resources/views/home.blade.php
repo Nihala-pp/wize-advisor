@@ -1651,7 +1651,7 @@
                         </div>
                     </div>
                     <!-- </div> -->
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a2b9669"
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a2b9669 nav-extra"
                         data-id="a2b9669" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-ee84ee1 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-right elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile hfe-nav-menu__theme-icon-no hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
@@ -7099,7 +7099,7 @@
         display: none;
     } */
 
-    .elementor-column .elementor-col-33 .elementor-top-column .elementor-element .elementor-element-094a417 .nav-extra {
+    .elementor-column .elementor-col-33 .elementor-top-column .elementor-element .elementor-element-a2b9669 .nav-extra {
         visibility: hidden;
     }
 }
