@@ -7142,7 +7142,7 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding: 0px 0px 0px 40px;
+        padding: 0px 0px 0px 45px;
         margin-top: 65px;
     }
 }
