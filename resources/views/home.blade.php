@@ -7120,7 +7120,7 @@
     }
 
     .elementor-30 .elementor-element.elementor-element-a2b9669 {
-        width: 35%;
+        width: 40%;
     }
 
     .elementor-30 .elementor-element.elementor-element-094a417 {
