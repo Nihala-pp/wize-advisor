@@ -1407,11 +1407,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a2b9669"
-                        data-id="a2b9669" data-element_type="column">
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-094a417"
+                        data-id="094a417" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-ee84ee1 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-right elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile hfe-nav-menu__theme-icon-no hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
-                                data-id="ee84ee1" data-element_type="widget"
+                            <div class="elementor-element elementor-element-b0aaaa9 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-right elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile hfe-nav-menu__theme-icon-no hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
+                                data-id="b0aaaa9" data-element_type="widget"
                                 data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                 data-widget_type="navigation-menu.default">
                                 <div class="elementor-widget-container">
@@ -1429,7 +1429,7 @@
                                             data-toggle-icon="<i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;></i>"
                                             data-close-icon="<i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;></i>"
                                             data-full-width="yes">
-                                            <ul id="menu-1-ee84ee1" class="hfe-nav-menu">
+                                            <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.pransainvestment.ca/about-us/" itemprop="url"
@@ -1625,7 +1625,7 @@
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                                <!-- </a>
+                    <!-- </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
                                                     <li>
@@ -1645,7 +1645,7 @@
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     @if (Auth::user()->metaData &&
                                                     Auth::user()->metaData->profile_pic) -->
-                                                    <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
+                    <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                         class="rounded-circle" height="8" width="37"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                     @else
@@ -1667,7 +1667,7 @@
                                                     <li>
                                                         <a class="dropdown-item"
                                                             href="{{ route('user.change-password') }}">Change -->
-                                                            <!-- Password</a>
+                    <!-- Password</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item"
@@ -1688,7 +1688,7 @@
                                             </span>
                                         </a>
                                         @endif -->
-                                    <!-- </div>
+                    <!-- </div>
                                 </div>
                             </div>
                         </div>
@@ -3980,6 +3980,14 @@ i.fas.fa-bell.fa-2xl {
         fill: #fff;
         text-align: center;
         transition: all .3s;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 50%;
     }
 
 }
