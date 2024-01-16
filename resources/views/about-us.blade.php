@@ -1596,7 +1596,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a2b9669"
+                    <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a2b9669"
                         data-id="a2b9669" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-aea4c40 elementor-widget__width-auto elementor-mobile-align-right elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
@@ -1623,9 +1623,9 @@
                                                     id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                     aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
-                                                    <!-- <span
+                                                    <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                                </a>
+                                                <!-- </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
                                                     <li>
@@ -1644,8 +1644,8 @@
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
                                                     @if (Auth::user()->metaData &&
-                                                    Auth::user()->metaData->profile_pic)
-                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
+                                                    Auth::user()->metaData->profile_pic) -->
+                                                    <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                         class="rounded-circle" height="8" width="37"
                                                         alt="Black and White Portrait of a Man" loading="lazy" />
                                                     @else
@@ -1666,8 +1666,8 @@
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item"
-                                                            href="{{ route('user.change-password') }}">Change
-                                                            Password</a>
+                                                            href="{{ route('user.change-password') }}">Change -->
+                                                            <!-- Password</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item"
@@ -1687,12 +1687,12 @@
                                                 <span class="elementor-button-text">Sign In</span>
                                             </span>
                                         </a>
-                                        @endif
-                                    </div>
+                                        @endif -->
+                                    <!-- </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </header>
             <section
