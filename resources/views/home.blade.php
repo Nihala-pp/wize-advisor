@@ -6914,7 +6914,7 @@
         transition: all .3s;
     }
 
-    /* .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
+    .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
     }
 
