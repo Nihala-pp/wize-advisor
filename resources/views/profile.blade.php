@@ -7026,7 +7026,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }
 
@@ -7035,7 +7035,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 @media (max-width: 280px) {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
 }
 
