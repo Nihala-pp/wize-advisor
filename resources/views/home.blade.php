@@ -7128,8 +7128,8 @@
     .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu {
         width: 75%;
         /* padding-left: 50px; */
-        margin-top: -55px;
-    } */
+        /* margin-top: -55px; */
+    /* } */ */
 
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-horizontal .hfe-nav-menu__toggle,
     .hfe-nav-menu__breakpoint-mobile .hfe-layout-vertical .hfe-nav-menu__toggle {
