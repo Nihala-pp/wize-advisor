@@ -3986,11 +3986,13 @@ i.fas.fa-bell.fa-2xl {
         width: 30%;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
         width: 50%;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
 }
 </style>
-
 </html>
