@@ -7277,7 +7277,7 @@
 @media (max-width: 375px) {
 
     .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding: 0px 0px 0px 30px;
+        padding: 0px 0px 0px 20px;
         margin-top: 45px;
     }
 
