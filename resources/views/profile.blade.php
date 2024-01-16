@@ -6882,7 +6882,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-top: 45px;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+    .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
@@ -6915,12 +6915,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     font-size: 10px !important;
 } */
 
-    .elementor-30 .elementor-element.elementor-element-094a417>.elementor-element-populated {
+    .elementor-3007 .elementor-element.elementor-element-094a417>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
         margin-top: 45px;
     }
 
-    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+    .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
@@ -6961,7 +6961,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-top: 45px;
     }
 
-    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+    .elementor-30 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
@@ -6974,7 +6974,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-top: 45px;
     }
 
-    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+    .elementor-30 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
@@ -7022,7 +7022,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-top: 45px;
     }
 
-    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+    .elementor-30 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
@@ -7058,7 +7058,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin-top: 45px;
     }
 
-    .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
+    .elementor-30 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
