@@ -6675,6 +6675,19 @@
         margin: 10px;
     }
 
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        /* font-size: 15px; */
+        /* padding: 12px 24px; */
+        /* border-radius: 3px; */
+        /* color: #fff; */
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+    }
+
     /* .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-container {
         min-height: 70vh;
     }
