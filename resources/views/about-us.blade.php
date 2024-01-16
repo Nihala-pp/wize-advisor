@@ -3844,8 +3844,29 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
-        color:#001E64;
+        color: #001E64;
+    }
+
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        /* font-size: 15px; */
+        /* padding: 12px 24px; */
+        /* border-radius: 3px; */
+        /* color: #fff; */
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
     }
 }
 </style>
+
 </html>
