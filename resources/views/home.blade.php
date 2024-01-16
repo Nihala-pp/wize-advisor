@@ -7129,6 +7129,11 @@
     .elementor-3007 .elementor-element.elementor-element-b18e926 .hfe-nav-menu__toggle {
         margin-left: auto;
     }
+
+    .elementor-30 .elementor-element.elementor-element-094a417 {
+        width: 70%;
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 320px) {
