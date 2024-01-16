@@ -7138,7 +7138,7 @@
 
     .elementor-30 .elementor-element.elementor-element-094a417 {
         width: 70%;
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
     /* .elementor .elementor-hidden-mobile,
