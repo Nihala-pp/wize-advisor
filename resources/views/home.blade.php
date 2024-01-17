@@ -6765,8 +6765,6 @@
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
-        $('.offer_modal').click();
-
         function ucBackgroundOverlayPutStart() {
 
             var objBG = jQuery(".unlimited-elements-background-overlay");
@@ -6832,6 +6830,9 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
+
+            $('.offer_modal').click();
+
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
                 items: 4,
