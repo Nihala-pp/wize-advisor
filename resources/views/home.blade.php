@@ -5276,7 +5276,7 @@
                 </div>
             </div>
         </section>
-        
+
         <div class="modal" tabindex="-1" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -5290,10 +5290,10 @@
                         <p>25% off on scheduling a call now!</p>
                         <p><b>Promo Code: MENTOR25 </b></p>
                         <p>Remember, A mentor is a cheat sheet for an entrepreneur.
-                            Don't miss out this incredible opportunity </p>
+                            Don't miss out this incredible opportunity. </p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary"><a href="{{ route('login') }}">Get
+                        <button type="button" class="btn btn-primary" style="background-color:#001E64"><a href="{{ route('login') }}">Get
                                 Started</a></button>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
