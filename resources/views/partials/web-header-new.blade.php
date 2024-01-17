@@ -53,8 +53,19 @@
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- </main> -->
     <!--   Core JS Files   -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <script>
-    (function(h, o, t, j, a, r) {
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-1HZW2R3J0M');
+    </script>
+    <script>
+    (function(h, o, t, j, a, r) {q2
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
         };
