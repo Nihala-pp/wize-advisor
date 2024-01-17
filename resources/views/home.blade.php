@@ -5282,10 +5282,9 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
-                        <button type="button" class="close" data-bs-dismiss="modal">Close</button>
-                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                        </button> -->
+                        </button>
                     </div>
                     <div class="modal-body">
                         <p>25% off on scheduling a call now!</p>
