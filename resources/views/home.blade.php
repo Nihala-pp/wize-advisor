@@ -6963,6 +6963,13 @@
     margin-right: 175px;
 }
 
+.offer_modal {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
 @media (max-width: 767px) {
 
     .elementor-button.elementor-size-xs {
