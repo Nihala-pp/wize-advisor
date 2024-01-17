@@ -141,13 +141,13 @@ screen and (min-width: 720px) {
     }
 }
 
-@media (max-width:375px) {
+@media (min-width:375px) {
     .filters {
         padding-left: 75px;
     }
 
     .card {
-        width: 19rem !important;
+        width: 19.5rem !important;
     }
 }
 
