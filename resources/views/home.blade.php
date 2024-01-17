@@ -6831,7 +6831,9 @@
         "use strict";
         $(document).ready(function() {
 
-            $('.offer_modal').click();
+            $('#offer_modal').modal('show');
+
+            // $('.offer_modal').click();
 
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
