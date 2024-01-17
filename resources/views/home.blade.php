@@ -5282,7 +5282,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
-                        <a href="#" class="close" data-bs-dismiss="modal" aria-label="close">&times;</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button> -->
