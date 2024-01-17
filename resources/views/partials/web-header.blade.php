@@ -105,7 +105,7 @@
     }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -114,7 +114,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-1HZW2R3J0M');
+    gtag('config', 'AW-11325588607');
     </script>
     <style>
     img.wp-smiley,
@@ -389,8 +389,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687429826"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687429826" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1088,8 +1087,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
-        id="jquery-migrate-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
     </script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"

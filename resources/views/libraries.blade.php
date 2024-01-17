@@ -73,7 +73,7 @@
     }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -82,7 +82,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-1HZW2R3J0M');
+    gtag('config', 'AW-11325588607');
     </script>
     <style>
     img.wp-smiley,

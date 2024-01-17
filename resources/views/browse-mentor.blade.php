@@ -3709,6 +3709,19 @@
         }(jQuery));
         </script>
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11325588607');
+        </script>
+
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
         var Tawk_API = Tawk_API || {},
@@ -3968,7 +3981,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-2772 .elementor-element.elementor-element-lqdwygc {
         padding: 75px 45px 75px 12px;
     }
- 
+
     .elementor-3007 .elementor-element.elementor-element-b97627d {
         width: 30%;
     }
@@ -4061,7 +4074,6 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
-
 </style>
 
 </html>

@@ -92,7 +92,7 @@
     }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -101,7 +101,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-1HZW2R3J0M');
+    gtag('config', 'AW-11325588607');
     </script>
     <style>
     img.wp-smiley,
@@ -345,8 +345,7 @@
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687439283"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687439283" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -1073,8 +1072,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0"
-        id="jquery-migrate-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
     </script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
@@ -1491,8 +1489,8 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -2046,53 +2044,53 @@
 
     @media (max-width: 767px) {
 
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-    background-color: #fff;
-    color: #001E64;
-}
+        .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+            background-color: #fff;
+            color: #001E64;
+        }
 
-.elementor-button.elementor-size-xs {
-    font-size: 12px;
-    padding: 10px 20px;
-    border-radius: 7px;
-    margin: 10px;
-}
+        .elementor-button.elementor-size-xs {
+            font-size: 12px;
+            padding: 10px 20px;
+            border-radius: 7px;
+            margin: 10px;
+        }
 
-.elementor-button {
-    display: inline-block;
-    line-height: 1;
-    background-color: #001E64;
-    /* font-size: 15px; */
-    /* padding: 12px 24px; */
-    /* border-radius: 3px; */
-    /* color: #fff; */
-    fill: #fff;
-    text-align: center;
-    transition: all .3s;
-}
+        .elementor-button {
+            display: inline-block;
+            line-height: 1;
+            background-color: #001E64;
+            /* font-size: 15px; */
+            /* padding: 12px 24px; */
+            /* border-radius: 3px; */
+            /* color: #fff; */
+            fill: #fff;
+            text-align: center;
+            transition: all .3s;
+        }
 
-.elementor-3007 .elementor-element.elementor-element-f871cda {
-    width: 30%;
-}
+        .elementor-3007 .elementor-element.elementor-element-f871cda {
+            width: 30%;
+        }
 
-.elementor-3007 .elementor-element.elementor-element-094a417 {
-    width: 50%;
-}
+        .elementor-3007 .elementor-element.elementor-element-094a417 {
+            width: 50%;
+        }
 
-.elementor-3007 .elementor-element.elementor-element-a2b9669 {
-    width: 20%;
-}
+        .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+            width: 20%;
+        }
 
-.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-    padding: 0px 0px 0px 30px;
-    margin-top: 60px;
-}
+        .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+            padding: 0px 0px 0px 30px;
+            margin-top: 60px;
+        }
 
-/* i.fas.fa-bell.fa-2xl {
+        /* i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     padding-left: 10px;
     color: #000;
@@ -2101,21 +2099,22 @@
 img.rounded-circle {
     margin-bottom: 10px;
 } */
-}
+    }
 
-@media (max-width: 320px) {}
+    @media (max-width: 320px) {}
 
-@media (max-width: 280px) {
-.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-    padding: 0px 0px 0px 20px;
-    margin-top: 60px;
-}
-}
+    @media (max-width: 280px) {
+        .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+            padding: 0px 0px 0px 20px;
+            margin-top: 60px;
+        }
+    }
 
-@media (max-width: 360px) {}
+    @media (max-width: 360px) {}
 
-@media (max-width: 375px) {}
+    @media (max-width: 375px) {}
 
-@media (min-width: 540px) {}
+    @media (min-width: 540px) {}
     </style>
+
 </html>

@@ -36,9 +36,9 @@
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
-
+    
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -46,7 +46,8 @@
         dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-1HZW2R3J0M');
+
+    gtag('config', 'AW-11325588607');
     </script>
     <style type="text/css">
     .current {
