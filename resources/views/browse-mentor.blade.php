@@ -3849,8 +3849,7 @@
     }
 }
 
-@media screen and (max-width: 1280px),
-screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
 
     ::placeholder {
         /* margin-top: 15px !important; */
