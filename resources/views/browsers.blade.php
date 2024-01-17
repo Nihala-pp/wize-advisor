@@ -143,6 +143,10 @@ screen and (min-width: 720px) {
     }
 }
 
+@media (max-width:375px) {
+
+}
+
 .card-deck .card {
     margin-bottom: 50px;
 }
