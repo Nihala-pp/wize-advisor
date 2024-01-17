@@ -5276,6 +5276,17 @@
                 </div>
             </div>
         </section>
+        <button type="button" class="btn btn-primary offer_modal" data-toggle="modal" data-target=".bd-example-modal-sm">Small
+            modal</button>
+
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    ...
+                </div>
+            </div>
+        </div>
         <div class="modal" tabindex="-1" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -5292,8 +5303,8 @@
                             Don't miss out this incredible opportunity </p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary"><a
-                                href="{{ route('login') }}">Get Started</a></button>
+                        <button type="button" class="btn btn-primary"><a href="{{ route('login') }}">Get
+                                Started</a></button>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -6754,7 +6765,7 @@
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
-        $('#offer_modal').show();
+        $('.offer_modal').click();
 
         function ucBackgroundOverlayPutStart() {
 
