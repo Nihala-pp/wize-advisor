@@ -17,8 +17,6 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}&currency=USD"></script>
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
@@ -38,6 +36,9 @@
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -45,7 +46,6 @@
         dataLayer.push(arguments);
     }
     gtag('js', new Date());
-
     gtag('config', 'G-1HZW2R3J0M');
     </script>
     <style type="text/css">
@@ -2977,6 +2977,6 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
-
 </style>
+
 </html>
