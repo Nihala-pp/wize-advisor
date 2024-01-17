@@ -6960,7 +6960,7 @@
 }
 
 .modal-footer button{
-    margin-right: 50px;
+    margin-right: 175px;
 }
 
 @media (max-width: 767px) {
