@@ -21,6 +21,17 @@
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-1HZW2R3J0M');
+    </script>
 
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
@@ -7068,8 +7079,9 @@
     .elementor-8 .elementor-element.elementor-element-3be270d>.elementor-widget-container {
         margin: -20px 0px 0px 0px;
         padding: 0px 0px 0px 17px;
-    } */
+    }
 
+    */
     /* .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu__layout-horizontal li,
     .hfe-nav-menu__breakpoint-tablet .hfe-nav-menu {
         width: 75%;
