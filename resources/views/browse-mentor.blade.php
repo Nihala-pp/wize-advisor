@@ -4095,7 +4095,15 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 360px) {}
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    .filters {
+        padding-left: 75px;
+    }
+
+    .card {
+        width: 18.5rem !important;
+    }
+}
 
 @media (min-width: 540px) {}
 </style>

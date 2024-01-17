@@ -147,7 +147,7 @@ screen and (min-width: 720px) {
     }
 
     .card {
-        width: 19.5rem !important;
+        width: 18.5rem !important;
     }
 }
 
