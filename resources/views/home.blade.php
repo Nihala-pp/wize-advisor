@@ -6964,8 +6964,7 @@
 }
 
 #offer_modal {
-  
-    margin-top:50px;
+    margin-top:100px;
 }
 
 @media (max-width: 767px) {
