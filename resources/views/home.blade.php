@@ -5276,6 +5276,29 @@
                 </div>
             </div>
         </section>
+        <div class="modal" tabindex="-1" role="dialog" style="display:none" id="offer_modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>25% off on scheduling a call now!</p>
+                        <p><b>Promo Code: MENTOR 25 </b></p>
+                        <p>Remember, A mentor is a cheat sheet for an entrepreneur.
+                            Don't miss out this incredible opportunity </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Get Started <a
+                                href="{{ route('login) }}"></button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
@@ -6730,6 +6753,8 @@
     </div>
     <script type="text/javascript">
     jQuery(document).ready(function() {
+
+        $('#offer_modal').show();
 
         function ucBackgroundOverlayPutStart() {
 
