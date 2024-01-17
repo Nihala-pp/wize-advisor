@@ -37,7 +37,6 @@
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
-    <!-- Google tag (gtag.js) -->
     <!-- Google Tag Manager -->
     <script>
     (function(w, d, s, l, i) {
@@ -1236,6 +1235,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 payment-page">
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
