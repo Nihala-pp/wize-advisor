@@ -6963,7 +6963,7 @@
     margin-right: 175px;
 }
 
-.offer_modal {
+#offer_modal {
    position: absolute;
    top: 50%;
    left: 50%;
