@@ -5293,7 +5293,9 @@
                             Don't miss out this incredible opportunity. </p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" style="align:center;background-color:#001E64;color:#fff;"><a href="{{ route('login') }}" style="color:#fff;">Get
+                        <button type="button" class="btn btn-primary"
+                            style="align:center;background-color:#001E64;color:#fff;"><a href="{{ route('login') }}"
+                                style="color:#fff;">Get
                                 Started</a></button>
                         <!-- <button type="button" class="btn btn-secondary" style="background-color:#001E64;color:#fff;" data-dismiss="modal">Close</button> -->
                     </div>
@@ -6946,17 +6948,19 @@
 }
 
 .modal-body p {
-    text-align:center;
-    font-size:15px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
 }
 
 .modal-header h5 {
-    text-align:center;
-    font-size:17px;
+    text-align: center;
+    font-size: 17px;
 }
 
-.modal-footer button {
-    text-align:center;}
+.modal-footer {
+    text-align: center;
+}
 
 @media (max-width: 767px) {
 
