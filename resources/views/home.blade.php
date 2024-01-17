@@ -5276,17 +5276,7 @@
                 </div>
             </div>
         </section>
-        <button type="button" class="btn btn-primary offer_modal" data-toggle="modal" data-target=".bd-example-modal-sm">Small
-            modal</button>
-
-        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    ...
-                </div>
-            </div>
-        </div>
+        
         <div class="modal" tabindex="-1" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -5298,7 +5288,7 @@
                     </div>
                     <div class="modal-body">
                         <p>25% off on scheduling a call now!</p>
-                        <p><b>Promo Code: MENTOR 25 </b></p>
+                        <p><b>Promo Code: MENTOR25 </b></p>
                         <p>Remember, A mentor is a cheat sheet for an entrepreneur.
                             Don't miss out this incredible opportunity </p>
                     </div>
