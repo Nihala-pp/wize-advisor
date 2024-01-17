@@ -6956,6 +6956,7 @@
 .modal-header h5 {
     text-align: center;
     font-size: 17px;
+    text-transform:capitalize;
 }
 
 .modal-footer {
