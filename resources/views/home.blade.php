@@ -5292,8 +5292,8 @@
                             Don't miss out this incredible opportunity </p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Get Started <a
-                                href="{{ route('login) }}"></button>
+                        <button type="button" class="btn btn-primary"><a
+                                href="{{ route('login') }}">Get Started</a></button>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
