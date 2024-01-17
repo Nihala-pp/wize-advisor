@@ -6945,6 +6945,16 @@
     text-align: center;
 }
 
+.modal-body p {
+    text-align:center;
+    font-size:15px;
+}
+
+.modal-header h5 {
+    text-align:center;
+    font-size:17px;
+}
+
 @media (max-width: 767px) {
 
     .elementor-button.elementor-size-xs {
