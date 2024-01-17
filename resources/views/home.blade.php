@@ -5293,7 +5293,7 @@
                             Don't miss out this incredible opportunity. </p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" style="background-color:#001E64;color:#fff;"><a href="{{ route('login') }}" style="color:#fff;">Get
+                        <button type="button" class="btn btn-primary" style="align:center;background-color:#001E64;color:#fff;"><a href="{{ route('login') }}" style="color:#fff;">Get
                                 Started</a></button>
                         <!-- <button type="button" class="btn btn-secondary" style="background-color:#001E64;color:#fff;" data-dismiss="modal">Close</button> -->
                     </div>
