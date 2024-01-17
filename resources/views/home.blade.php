@@ -6960,7 +6960,7 @@
 }
 
 .modal-footer {
-    width: 50%;
+    width: 75%;
 }
 
 @media (max-width: 767px) {
