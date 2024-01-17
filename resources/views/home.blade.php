@@ -6959,8 +6959,8 @@
     text-transform:capitalize;
 }
 
-.modal-footer {
-    width: 75%;
+.modal-footer button{
+    margin-right: 50px;
 }
 
 @media (max-width: 767px) {
