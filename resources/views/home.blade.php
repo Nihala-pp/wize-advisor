@@ -6823,7 +6823,6 @@
         "use strict";
         $(document).ready(function() {
 
-            $('#offer_modal').modal('show');
 
             // $('.offer_modal').click();
 
