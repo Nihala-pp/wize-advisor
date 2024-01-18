@@ -276,7 +276,7 @@
 
 .card {
     border: 0;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 i.fas.fa-bell.fa-2xl {
