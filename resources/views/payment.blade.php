@@ -314,11 +314,11 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .input-group {
+        margin-right: 150px !important;
         width: 75%;
-        margin-left: 75px;
+        margin-left: 70px;
         transition: all .1s linear;
         box-shadow: none;
-        margin-right: 50px;
     }
 }
 
