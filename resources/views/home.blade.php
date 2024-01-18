@@ -6895,10 +6895,9 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
 .close {
-   background-color: #fff;
-   border: none;
+    background-color: #fff;
+    border: none;
 }
 
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu,
@@ -6969,15 +6968,15 @@
 .modal-header h5 {
     text-align: center;
     font-size: 17px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
-.modal-footer button{
+.modal-footer button {
     margin-right: 175px;
 }
 
 #offer_modal {
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -7233,6 +7232,10 @@
     .elementor-30 .elementor-element.elementor-element-b97627d>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
+    }
+
+    .modal-footer button {
+        margin-right: 125px;
     }
 }
 
