@@ -840,8 +840,6 @@
     </script> -->
 
     <script type="text/javascript">
-    (function($) {
-        "use strict";
         $(document).ready(function() {
 
             $('#offer_modal').modal('show');
@@ -852,7 +850,6 @@
 
             });
         });
-    });
     </script>
 </body>
 <style>
