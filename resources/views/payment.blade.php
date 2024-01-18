@@ -264,7 +264,6 @@
 }
 
 .coupon_code {
-    margin-left: 150px;
 }
 
 .form-control,
