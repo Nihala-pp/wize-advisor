@@ -7051,6 +7051,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         padding: 0px 0px 0px 30px;
         margin-top: 45px;
     }
+
+    i.fas.fa-bell.fa-2xl {
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 320px) {}
