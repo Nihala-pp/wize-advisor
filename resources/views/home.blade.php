@@ -7378,6 +7378,10 @@
         margin-top: -20px;
     }
 
+    .modal-footer button {
+        margin-right: 100px;
+    }
+
     /* .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
         padding: 30px 0px 0px 0px;
         margin-top: -63px;
