@@ -26,7 +26,7 @@
                     </div>
                     <div class="card_carousel_title"> {{ $call_data->mentor ?  $call_data->mentor->name : '' }}</div>
                     <h5>30 Min Meeting</h5>
-                    <h6 class="card-title">${{ $call_data->mentor->metaData->price_per_call }}</h6>
+                    <h6 class="card-title price">${{ $call_data->mentor->metaData->price_per_call }}</h6>
                     @csrf
                     <div class="input-group"><input type="text" class="form-control coupon" id="discount_code"
                             name="discount_code" placeholder="Enter the Promo Code"> <span class="input-group-append">
@@ -223,13 +223,32 @@
         },
     }).render('#paypal_button_container');
     </script>
+       <script>
+                $('.coupon').on('click', function() {
+                    var coupon = $('#discount_code').val();
+                    $.ajax({
+                        type: "POST",
+                        url: '{{ route("coupon.redeem") }}',
+                        headers: {
+                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                        },
+                        data: {
+                            "coupon": coupon
+                        },
+                        success: function(response) {
+                           $('.price').html(response);
+                        }
+                    });
+               });
+      </script>
 </body>
 <style>
 .coupon {
     border-radius: 1px;
 }
 
-.form-control, .form-control:focus {
+.form-control,
+.form-control:focus {
     width: 25%;
     /* margin-left: 350px; */
     transition: all .1s linear;
