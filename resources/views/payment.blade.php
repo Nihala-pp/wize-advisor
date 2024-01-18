@@ -30,7 +30,7 @@
                     @csrf
                     <div class="input-group"><input type="text" class="form-control coupon" id="discount_code"
                             name="discount_code" placeholder="Enter the Promo Code"> <span class="input-group-append">
-                            <button type="button" class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
+                            <button type="button" class="btn btn-primary btn-apply coupon_code">Apply</button> </span> </div>
                     <!-- <input type="text" name="discount_code" class="form-control" id="discount_code"
                         placeholder="Enter the Promo Code"> -->
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
@@ -116,7 +116,7 @@
             let call_id = $("#call_id").val();
             let coupon = $("#discount_code").val();
             let mentor_id = $("#mentor_id").val();
-            
+
             console.log("on approve", data);
             return fetch('/payment/paypal/capture/{{ $order_no }}', {
                 method: 'post',
@@ -237,7 +237,7 @@
     }).render('#paypal_button_container');
     </script>
        <script>
-                $('.coupon').on('click', function() {
+                $('.coupon_code').on('click', function() {
                     var coupon = $('#discount_code').val();
                     let mentor_id = $("#mentor_id").val();
 
