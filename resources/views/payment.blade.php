@@ -269,14 +269,14 @@
 .form-control,
 .form-control:focus {
     width: 25%;
-    margin-left: 150px;
+    margin-left: 250px;
     transition: all .1s linear;
     box-shadow: none;
 }
 
 .card {
     border: 0;
-    margin-left: 350px;
+    margin-left: 250px;
 }
 
 i.fas.fa-bell.fa-2xl {
