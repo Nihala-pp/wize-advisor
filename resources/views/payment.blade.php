@@ -73,11 +73,12 @@
         createOrder: function(data, actions) {
             let amount = $("#price").val();
             let call_id = $("#call_id").val();
-            let discount_code
+            let coupon = $("#discount_code").val();
             let dataBody = {
                 'order_no': '{{ $order_no }}',
                 'amount': amount,
-                'call_id': call_id
+                'call_id': call_id,
+                'coupon': coupon
             }
             console.log("dataBody is", dataBody);
 
@@ -91,7 +92,8 @@
                 body: JSON.stringify({
                     'order_no': '{{ $order_no }}',
                     'amount': amount,
-                    'call_id': call_id
+                    'call_id': call_id,
+                    'coupon': coupon
                 })
             }).then(function(res) {
                 console.log("response ", res);
@@ -108,6 +110,8 @@
         onApprove: function(data, actions) {
             let amount = $("#price").val();
             let call_id = $("#call_id").val();
+            let coupon = $("#discount_code").val();
+
             console.log("on approve", data);
             return fetch('/payment/paypal/capture/{{ $order_no }}', {
                 method: 'post',
@@ -118,7 +122,8 @@
                 },
                 body: JSON.stringify({
                     'data': data,
-                    'call_id': call_id
+                    'call_id': call_id,
+                    'coupon': coupon
                 }),
             }).then(function(res) {
                 return res.json();
@@ -151,6 +156,7 @@
                         data: {
                             "order_no": {{ $order_no }},
                             "call_id": call_id,
+                            'coupon': coupon
                         },
                         success: function(response) {
                             if (response.status == 'SUCCESS') {

@@ -129,4 +129,10 @@ class PaymentController extends Controller
         Log::info($request->all());
         return json_encode(array('statusMsg' => "SUCCESS"), JSON_FORCE_OBJECT);
     }
+
+    public function redeem(Request $request)
+    {
+        dd($request->all());
+
+    }
 }

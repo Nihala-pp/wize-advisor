@@ -111,6 +111,7 @@ Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
 Route::get('/to-do-task',[ToDOController::class, 'index']);
 
 
+Route::post('/coupon/redeem',[PaymentController::class, 'redeem'])->name('coupon.redeem');
 Route::post('/payment/paypal/createTransaction',[PaymentController::class, 'payWithpaypal']);
 Route::post('/payment/paypal/capture/{orderid}',[PaymentController::class, 'getPaymentStatus']);
 Route::post('/cancel/{order_no}', 'PaymentController@orderCancel');
