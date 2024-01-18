@@ -263,6 +263,10 @@
     border-radius: 1px;
 }
 
+.coupon_code {
+    margin-left: 150px;
+}
+
 .form-control,
 .form-control:focus {
     width: 25%;
