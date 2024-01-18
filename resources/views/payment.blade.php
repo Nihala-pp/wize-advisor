@@ -316,7 +316,7 @@ i.fas.fa-bell.fa-2xl {
     .input-group {
         margin-right: 150px !important;
         width: 75%;
-        margin-left: 70px;
+        margin-left: 50px;
         transition: all .1s linear;
         box-shadow: none;
     }
@@ -328,6 +328,10 @@ i.fas.fa-bell.fa-2xl {
 
     .text-center {
         padding: 0px;
+    }
+
+    #paypal_button_container {
+        padding-left: 5px;
     }
 }
 
