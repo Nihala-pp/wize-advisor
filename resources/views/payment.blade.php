@@ -116,10 +116,7 @@
             let call_id = $("#call_id").val();
             let coupon = $("#discount_code").val();
             let mentor_id = $("#mentor_id").val();
-
-            'mentor_id': mentor_id,
-
-
+            
             console.log("on approve", data);
             return fetch('/payment/paypal/capture/{{ $order_no }}', {
                 method: 'post',
