@@ -7417,6 +7417,10 @@
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
+
+    .modal-footer button {
+        margin-right: 175px;
+    }
 }
 </style>
 
