@@ -6895,6 +6895,11 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.close {
+   background-color: #fff;
+}
+
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu,
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown,
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible,
