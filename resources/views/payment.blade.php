@@ -266,8 +266,7 @@
 .coupon_code {
 }
 
-.form-control,
-.form-control:focus {
+.input-group {
     width: 25%;
     margin-left: 250px;
     transition: all .1s linear;
