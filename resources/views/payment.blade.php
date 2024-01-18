@@ -267,6 +267,7 @@
 .form-control:focus {
     width: 25%;
     margin-left: 150px;
+    margin-right: 150px;
     transition: all .1s linear;
     box-shadow: none;
 }
