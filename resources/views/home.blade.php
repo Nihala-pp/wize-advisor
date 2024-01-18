@@ -6898,6 +6898,7 @@
 
 .close {
    background-color: #fff;
+   border: none;
 }
 
 .elementor-30 .elementor-element.elementor-element-b0aaaa9 .sub-menu,
