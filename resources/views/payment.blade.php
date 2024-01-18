@@ -28,6 +28,7 @@
                     <h5>30 Min Meeting</h5>
                     <h6 class="card-title">${{ $call_data->mentor->metaData->price_per_call }}</h6>
                     @csrf
+                    <div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Coupon code"> <span class="input-group-append"> <button class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
                     <input type="text" name="discount_code" class="form-control"  id="discount_code" placeholder="Enter the Promo Code">
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                     <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
@@ -69,6 +70,7 @@
         createOrder: function(data, actions) {
             let amount = $("#price").val();
             let call_id = $("#call_id").val();
+            let discount_code
             let dataBody = {
                 'order_no': '{{ $order_no }}',
                 'amount': amount,
