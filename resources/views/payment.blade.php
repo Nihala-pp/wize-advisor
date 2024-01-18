@@ -317,9 +317,9 @@ i.fas.fa-bell.fa-2xl {
         box-shadow: none;
     }
 
-    input,input::placeholder {
-        font: 12px;
-    }
+    input,input::-webkit-input-placeholder {
+      font-size: 12px;
+   }
 }
 
 @media (max-width: 320px) {}
