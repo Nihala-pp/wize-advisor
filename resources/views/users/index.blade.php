@@ -788,6 +788,32 @@
                     </div>
                 </div>
             </div>
+            <div class="modal" tabindex="-1" role="dialog" id="offer_modal" style="display:none">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b>
+                            </h5>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>25% off on scheduling a call now!</p>
+                            <p><b>Promo Code: MENTOR25 </b></p>
+                            <p>Remember, A mentor is a cheat sheet for an entrepreneur.
+                                Don't miss out this incredible opportunity. </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary"
+                                style="align:center;background-color:#001E64;color:#fff;"><a href="{{ route('login') }}"
+                                    style="color:#fff;">Get
+                                    Started</a></button>
+                            <!-- <button type="button" class="btn btn-secondary" style="background-color:#001E64;color:#fff;" data-dismiss="modal">Close</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
             @include('partials.web-footer')
     </main>
     </div>
@@ -812,6 +838,22 @@
     <!-- <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script> -->
+
+    <script type="text/javascript">
+    (function($) {
+        "use strict";
+        $(document).ready(function() {
+
+            $('#offer_modal').modal('show');
+
+            $('.close').on('click', function() {
+
+                $('#offer_modal').modal('hide');
+
+            });
+        });
+    });
+    </script>
 </body>
 <style>
 .animated {
