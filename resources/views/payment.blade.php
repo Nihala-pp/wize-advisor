@@ -17,7 +17,7 @@
             <div class="py-12">
                 <div class="card-body text-center">
                     <h4><b>Payment Summary</b></h4>
-                    <input type="text" name="discount_code" class="discount_code">
+                    <input type="text" name="discount_code" class="form-control discount_code">
                     <div class="rounded-circle mt-5">
                         <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}">
                             <img class="rounded-circle" decoding="async"
