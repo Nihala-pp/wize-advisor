@@ -7055,6 +7055,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     i.fas.fa-bell.fa-2xl {
         margin-left: 20px;
     }
+
+    #menu-item-5136 {
+        font-size:8px;
+    }
 }
 
 @media (max-width: 320px) {}
