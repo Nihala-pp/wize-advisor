@@ -6825,6 +6825,12 @@
 
             $('#offer_modal').modal('show');
 
+            $('.close').on('click', function() {
+
+                $('#offer_modal').modal('hide');
+
+            });
+
 
             // $('.offer_modal').click();
 
