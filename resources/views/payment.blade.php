@@ -267,7 +267,7 @@
 }
 
 .input-group {
-    width: 25%;
+    width: 40%;
     margin-left: 250px;
     transition: all .1s linear;
     box-shadow: none;
