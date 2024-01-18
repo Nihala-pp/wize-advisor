@@ -150,7 +150,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                         },
                         success: function(response) {
@@ -227,7 +231,12 @@
     </script>
 </body>
 <style>
-.form-control, .form-control:focus {
+.coupon {
+    border-radius: 1px
+}
+
+.form-control,
+.form-control:focus {
     width: 25%;
     /* margin-left: 350px; */
     transition: all .1s linear;
