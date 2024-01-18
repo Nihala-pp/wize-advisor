@@ -34,6 +34,7 @@
                     <!-- <input type="text" name="discount_code" class="form-control" id="discount_code"
                         placeholder="Enter the Promo Code"> -->
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
+                    <input type="hidden" name="mentor_id" value="{{ $call_data->mentor_id }}" id="mentor_id">
                     <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
                         id="price">
                     <div id="paypal_button_container" class="mt-5"></div>
@@ -74,11 +75,13 @@
             let amount = $("#price").val();
             let call_id = $("#call_id").val();
             let coupon = $("#discount_code").val();
+            let mentor_id = $("#mentor_id").val();
             let dataBody = {
                 'order_no': '{{ $order_no }}',
                 'amount': amount,
                 'call_id': call_id,
-                'coupon': coupon
+                'coupon': coupon,
+                'mentor_id': mentor_id,
             }
             console.log("dataBody is", dataBody);
 
@@ -93,7 +96,8 @@
                     'order_no': '{{ $order_no }}',
                     'amount': amount,
                     'call_id': call_id,
-                    'coupon': coupon
+                    'coupon': coupon,
+                    'mentor_id': mentor_id,
                 })
             }).then(function(res) {
                 console.log("response ", res);
@@ -111,6 +115,10 @@
             let amount = $("#price").val();
             let call_id = $("#call_id").val();
             let coupon = $("#discount_code").val();
+            let mentor_id = $("#mentor_id").val();
+
+            'mentor_id': mentor_id,
+
 
             console.log("on approve", data);
             return fetch('/payment/paypal/capture/{{ $order_no }}', {
@@ -123,7 +131,8 @@
                 body: JSON.stringify({
                     'data': data,
                     'call_id': call_id,
-                    'coupon': coupon
+                    'coupon': coupon,
+                    'mentor_id': mentor_id
                 }),
             }).then(function(res) {
                 return res.json();
@@ -156,7 +165,8 @@
                         data: {
                             "order_no": {{ $order_no }},
                             "call_id": call_id,
-                            'coupon': coupon
+                            'coupon': coupon,
+                            'mentor_id': mentor_id
                         },
                         success: function(response) {
                             if (response.status == 'SUCCESS') {
@@ -232,6 +242,8 @@
        <script>
                 $('.coupon').on('click', function() {
                     var coupon = $('#discount_code').val();
+                    let mentor_id = $("#mentor_id").val();
+
                     $.ajax({
                         type: "POST",
                         url: '{{ route("coupon.redeem") }}',
@@ -239,7 +251,8 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "coupon": coupon
+                            "coupon": coupon,
+                            'mentor_id': mentor_id
                         },
                         success: function(response) {
                            $('.price').html(response);
