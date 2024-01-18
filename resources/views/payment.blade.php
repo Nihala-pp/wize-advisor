@@ -28,7 +28,7 @@
                     <h5>30 Min Meeting</h5>
                     <h6 class="card-title">${{ $call_data->mentor->metaData->price_per_call }}</h6>
                     @csrf
-                    <input type="text" name="discount_code" class="form-control"  id="discount_code">
+                    <input type="text" name="discount_code" class="form-control"  id="discount_code" placeholder="Enter the Promo Code">
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                     <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
                         id="price">
