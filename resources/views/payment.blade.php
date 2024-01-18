@@ -149,11 +149,7 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {
-                                {
-                                    $order_no
-                                }
-                            },
+                            "order_no": {{ $order_no }},
                             "call_id": call_id,
                         },
                         success: function(response) {
@@ -225,7 +221,6 @@
         onInit: function(data, actions) {
             console.log("on init", JSON.stringify(data));
         },
-
     }).render('#paypal_button_container');
     </script>
 </body>
