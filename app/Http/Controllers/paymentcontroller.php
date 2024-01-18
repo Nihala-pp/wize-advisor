@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\AvailableSchedule;
 use App\Models\ScheduledCall;
+use App\Models\UserMeta;
+use App\Models\Voucher;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Config;
@@ -65,6 +67,10 @@ class PaymentController extends Controller
         $paypal_config = Config::get('paypal');
         $paypalApiUrl = "https://api-m.sandbox.paypal.com/";
         $order_no = $request->order_no;
+
+        if ($request->coupon) {
+
+        }
         $amount = $request->amount;
         $ch = curl_init($this->_paypalApiUrl . "v2/checkout/orders");
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -132,7 +138,16 @@ class PaymentController extends Controller
 
     public function redeem(Request $request)
     {
-        dd($request->all());
+        $mentor = UserMeta::where('user_id', $request->mentor_id)->first();
+        $voucher = Voucher::where('name', $request->coupon)->first();
 
+        if($voucher->discount_type == "fixed") {
+            $price =  $mentor->price_per_call - $voucher->discount_value;
+        }
+        else {
+            $price =  $mentor->price_per_call - $mentor->price_per_call * $voucher->discount_value/100;
+        }
+
+        return response()->json('$ '.$price);
     }
 }
