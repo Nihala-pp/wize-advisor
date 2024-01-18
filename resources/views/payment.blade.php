@@ -261,13 +261,12 @@
 <style>
 .coupon {
     border-radius: 1px;
-    width:50%;
 }
 
 .form-control,
 .form-control:focus {
     width: 25%;
-    /* margin-left: 350px; */
+    margin-left: 150px;
     transition: all .1s linear;
     box-shadow: none;
 }
