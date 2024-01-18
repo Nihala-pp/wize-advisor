@@ -232,7 +232,7 @@
 </body>
 <style>
 .coupon {
-    border-radius: 1px
+    border-radius: 1px;
 }
 
 .form-control,
