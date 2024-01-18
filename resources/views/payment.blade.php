@@ -227,6 +227,13 @@
     </script>
 </body>
 <style>
+.form-control, .form-control:focus {
+    width: 25%;
+    /* margin-left: 350px; */
+    transition: all .1s linear;
+    box-shadow: none;
+}
+
 .card {
     border: 0;
     margin-left: 250px;
