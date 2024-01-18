@@ -7278,6 +7278,11 @@
 }
 
 @media (max-width: 280px) {
+
+    .modal-footer button {
+        margin-right: 60px;
+    }
+
     /* .elementor-button.elementor-size-xs {
         padding: 10px 15px;
     }
