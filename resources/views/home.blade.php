@@ -7384,7 +7384,7 @@
     }
 
     .modal-footer button {
-        margin-right: 100px;
+        margin-right: 50px;
     }
 
     /* .elementor-30 .elementor-element.elementor-element-00e2efe>.elementor-widget-container {
