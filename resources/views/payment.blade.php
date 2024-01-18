@@ -104,7 +104,6 @@
             });
         },
 
-
         // Finalize the transaction
         onApprove: function(data, actions) {
             let amount = $("#price").val();
