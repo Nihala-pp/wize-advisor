@@ -377,6 +377,10 @@ i.fas.fa-bell.fa-2xl {
         margin-top: 60px;
     }
 
+    .payment-form {
+        margin-top: -10px !important;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     padding-left: 10px;
