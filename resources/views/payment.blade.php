@@ -301,6 +301,34 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
+@media(max-width:1024px) {
+    
+}
+
+@media (max-width: 767px) {
+ 
+}
+
+@media (max-width: 320px) {
+
+}
+
+@media (max-width: 280px) {
+
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (min-width: 540px) {
+
+}
+
 #paypal_button_container {
     padding-left: 75px;
 }
