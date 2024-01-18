@@ -275,7 +275,7 @@
 }
 
 .card {
-    border: 0;
+    /* border: 0; */
     margin-left: 150px;
 }
 
