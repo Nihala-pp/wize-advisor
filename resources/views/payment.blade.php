@@ -27,6 +27,7 @@
                     <div class="card_carousel_title"> {{ $call_data->mentor ?  $call_data->mentor->name : '' }}</div>
                     <h5>30 Min Meeting</h5>
                     <h6 class="card-title">${{ $call_data->mentor->metaData->price_per_call }}</h6>
+                    <input type="text" name="discount_code" class="discount_code">
                     @csrf
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
                     <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
@@ -144,7 +145,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                         },
                         success: function(response) {
