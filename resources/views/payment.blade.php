@@ -322,7 +322,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     input,input::placeholder {
-        font: 16px;
+        font: 12px;
     }
 }
 
