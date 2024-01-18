@@ -261,6 +261,7 @@
 <style>
 .coupon {
     border-radius: 1px;
+    width:50%;
 }
 
 .form-control,
