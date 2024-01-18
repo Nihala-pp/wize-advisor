@@ -30,7 +30,8 @@
                     @csrf
                     <div class="input-group"><input type="text" class="form-control coupon" id="discount_code"
                             name="discount_code" placeholder="Enter the Promo Code"> <span class="input-group-append">
-                            <button type="button" class="btn btn-primary btn-apply coupon_code">Apply</button> </span> </div>
+                            <button type="button" class="btn btn-primary btn-apply coupon_code">Apply</button> </span>
+                    </div>
                     <!-- <input type="text" name="discount_code" class="form-control" id="discount_code"
                         placeholder="Enter the Promo Code"> -->
                     <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
@@ -160,7 +161,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                             'coupon': coupon,
                             'mentor_id': mentor_id
@@ -236,35 +241,34 @@
         },
     }).render('#paypal_button_container');
     </script>
-       <script>
-                $('.coupon_code').on('click', function() {
-                    var coupon = $('#discount_code').val();
-                    let mentor_id = $("#mentor_id").val();
+    <script>
+    $('.coupon_code').on('click', function() {
+        var coupon = $('#discount_code').val();
+        let mentor_id = $("#mentor_id").val();
 
-                    $.ajax({
-                        type: "POST",
-                        url: '{{ route("coupon.redeem") }}',
-                        headers: {
-                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                        },
-                        data: {
-                            "coupon": coupon,
-                            'mentor_id': mentor_id
-                        },
-                        success: function(response) {
-                           $('.price').html(response);
-                        }
-                    });
-               });
-      </script>
+        $.ajax({
+            type: "POST",
+            url: '{{ route("coupon.redeem") }}',
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            data: {
+                "coupon": coupon,
+                'mentor_id': mentor_id
+            },
+            success: function(response) {
+                $('.price').html(response);
+            }
+        });
+    });
+    </script>
 </body>
 <style>
 .coupon {
     border-radius: 1px;
 }
 
-.coupon_code {
-}
+.coupon_code {}
 
 .input-group {
     width: 40%;
@@ -301,33 +305,24 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-@media(max-width:1024px) {
-    
-}
+@media(max-width:1024px) {}
 
 @media (max-width: 767px) {
- 
+    .card {
+        /* border: 0; */
+        /* margin-left: 250px; */
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px) {}
 
-}
+@media (max-width: 280px) {}
 
-@media (max-width: 280px) {
+@media (max-width: 360px) {}
 
-}
+@media (max-width: 375px) {}
 
-@media (max-width: 360px) {
-
-}
-
-@media (max-width: 375px) {
-
-}
-
-@media (min-width: 540px) {
-
-}
+@media (min-width: 540px) {}
 
 #paypal_button_container {
     padding-left: 75px;
