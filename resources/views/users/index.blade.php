@@ -979,7 +979,8 @@ a:link {
     /* top: 50%; */
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom:25px;
 }
 
 /* #navbarDropdownMenuLink {
