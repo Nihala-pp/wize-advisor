@@ -3620,7 +3620,9 @@
         (function($) {
             $(document).ready(function() {
 
-                $('.hfe-nav-menu__toggle elementor-clickable').click()
+                $('.hfe-nav-menu__toggle elementor-clickable').on('click', function() {
+                    $("nav").toggle();
+                });
 
                 $('#name').on('change', function() {
                     var name = $(this).val();
