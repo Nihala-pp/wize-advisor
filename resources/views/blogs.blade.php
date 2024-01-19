@@ -3415,7 +3415,6 @@ i.fas.fa-bell.fa-2xl {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
 }
 
 @media (max-width:480px) {
