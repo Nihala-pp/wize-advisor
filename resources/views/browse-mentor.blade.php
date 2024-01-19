@@ -3643,7 +3643,7 @@
 
                 $('.hfe-nav-menu__toggle').on('click', function() {
                     // alert("asdsfdsfd");
-                    $(".hfe-nav-menu").show();
+                    $(".hfe-nav-menu").toggleClass('show');
                 });
 
                 $('#name').on('change', function() {
