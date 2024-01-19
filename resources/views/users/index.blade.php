@@ -556,7 +556,7 @@
             <!--====================================================
                            Requested Sessions
     ======================================================-->
-            <div class="container-fluid py-4 req">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <div class="card my-4">
