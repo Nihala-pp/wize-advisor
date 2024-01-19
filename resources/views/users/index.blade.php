@@ -456,7 +456,7 @@
                                 </div>
                             </div> -->
                             <div class="card-body px-0 pb-2">
-                                <p>Welcome {{ auth()->user()->name }} !</p>
+                                <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
                                 <p>A mentor is a cheat sheet for an entrepreneur.</p>
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
