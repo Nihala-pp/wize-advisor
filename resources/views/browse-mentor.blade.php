@@ -3647,7 +3647,9 @@
                 $('.hfe-nav-menu__toggle').on('click', function() {
                     // alert("asdsfdsfd");
 
-                    $("#open_nav").addcss("background-color:white;").addClass('hfe-active-menu hfe-active-menu-full-width').setAttribute("aria-expanded", x);
+                    $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+
+                    $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
                     // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
 
                     // document.getElementById("open_nav").setAttribute("aria-expanded", x);
