@@ -959,7 +959,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .para {
-    margin-top:-10px;
+    margin-top:-12px;
 }
 
 a:hover {
