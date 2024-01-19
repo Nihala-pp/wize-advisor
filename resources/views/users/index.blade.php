@@ -453,7 +453,7 @@
                         <div class="row mb-4">
                             <div class="col-lg-8 col-md-8 mb-md-0 mb-4 center">
                                 <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
-                                <p>A mentor is a cheat sheet for an entrepreneur.</p>
+                                <p>Book your session today and grow faster with the wisdom of mentorship.</p>
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                         href="{{ route('browseMentor') }}">
