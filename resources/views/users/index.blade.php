@@ -446,6 +446,31 @@
                            Upcoming Sessions
     ======================================================-->
         <div class="row" style="background-image: url('{{ asset('public/assets/img/cover.jpg') }}')">
+
+            <div class="container-fluid py-4 req">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
+                        <div class="row mb-4">
+                            <div class="col-lg-8 col-md-8 mb-md-0 mb-4">
+                                <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
+                                <p>A mentor is a cheat sheet for an entrepreneur.</p>
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('browseMentor') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Find your mentor</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <p>Get 25% off each call with code MENTOR25</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
