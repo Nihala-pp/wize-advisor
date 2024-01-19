@@ -447,7 +447,7 @@
     ======================================================-->
         <div class="row" style="background-image: url('{{ asset('public/assets/img/cover.jpg') }}')">
 
-            <div class="container-fluid">
+            <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <p class="heading center"><b>Welcome, {{ auth()->user()->name }} ! </b></p>
