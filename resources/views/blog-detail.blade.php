@@ -2041,12 +2041,12 @@
                                 <h4 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h4>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
+                        <!-- <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
                             data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">{{ $blog->intro }}</p>
+                                <p class="elementor-heading-title elementor-size-default">{{ strip_tags($blog->intro) }}</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
