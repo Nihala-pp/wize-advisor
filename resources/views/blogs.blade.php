@@ -2053,7 +2053,7 @@
                             <div class="elementor-container elementor-column-gap-default">
                                 @foreach($blogs as $blog)
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fd27b31 col-md-4"
-                                    data-id="fd27b31" data-element_type="column">
+                                    data-id="fd27b31" data-element_type="row">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="grid-container">
                                             <div class="elementor-element elementor-element-bff2ac9 elementor-widget elementor-widget-image"
