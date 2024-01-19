@@ -471,7 +471,7 @@ class AdminController extends Controller
                 'title' => $request->title,
                 'intro' => $request->introduction,
                 'description' => $request->description,
-                'image' => $request->end_date,
+                'image' => $pro_pic,
             ]
         );
 
