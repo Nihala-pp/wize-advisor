@@ -172,7 +172,7 @@
                                                 sizes="(max-width: 370px) 100vw, 370px">
                                         </a>
                                     </div>
-                                    <div class="card-body p-3">
+                                    <div class="card-body p-3 mb-4">
                                         <p class="mb-0 text-sm"></p>
                                         <a href="{{ route('blog-detail', [ $blog->id ]) }}">
                                             <h5>
