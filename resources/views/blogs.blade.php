@@ -3418,6 +3418,11 @@ i.fas.fa-bell.fa-2xl {
     display: grid;
 }
 
+.elementor-widget-image-box .elementor-image-box-description {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
 @media (max-width:480px) {
     .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
         margin-bottom: 9px;
