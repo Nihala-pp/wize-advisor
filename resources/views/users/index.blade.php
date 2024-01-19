@@ -452,7 +452,7 @@
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <div class="row mb-4">
                             <div class="col-lg-8 col-md-8 mb-md-0 mb-4 center">
-                                <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
+                                <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
                                 <p>A mentor is a cheat sheet for an entrepreneur.</p>
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
@@ -482,7 +482,7 @@
                             </div> -->
                             <div class="card-body px-0 pb-2">
                                 <div class="row mb-4 center">
-                                    <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
+                                    <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
                                     <p>A mentor is a cheat sheet for an entrepreneur.</p>
                                     <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
@@ -986,6 +986,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     margin: auto;
     width: 50%;
     padding: 10px;
+}
+
+.heading {
+    font-size:20px;
 }
 
 /* #navbarDropdownMenuLink {
