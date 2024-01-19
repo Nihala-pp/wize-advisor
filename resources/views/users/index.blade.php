@@ -453,7 +453,7 @@
                         <p class="heading center"><b>Welcome {{ auth()->user()->name }} ! </b></p>
                         <p class="center">Book your session today and grow faster with the wisdom of mentorship.</p>
                         <p class="center">Get 25% off each call with code MENTOR25</p>
-                        <div class="elementor-widget-container">
+                        <div class="elementor-widget-container find_mentor">
                             <div class="elementor-button-wrapper">
                                 <a class="elementor-button elementor-button-link elementor-size-xs mentor"
                                     href="{{ route('browseMentor') }}">
@@ -972,6 +972,14 @@ a:link {
     background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
     border-style: none;
     border-radius: 7px 7px 7px 7px;
+}
+
+.find_mentor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
 
 /* #navbarDropdownMenuLink {
