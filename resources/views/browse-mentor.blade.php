@@ -1719,7 +1719,7 @@
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal">
                                         <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
-                                            aria-haspopup="true" aria-expanded="false">
+                                            aria-haspopup="true" aria-expanded="false" id="open_nav">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                                 <i aria-hidden="false" class="fas fa-align-justify"></i>
