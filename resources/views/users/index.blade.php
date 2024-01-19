@@ -455,7 +455,7 @@
                         <p class="center">Get 25% off each call with code MENTOR25</p>
                         <div class="elementor-widget-container find_mentor">
                             <div class="elementor-button-wrapper">
-                                <a class="elementor-button elementor-button-link elementor-size-xs mentor"
+                                <a class="elementor-button elementor-button-link elementor-size-sm mentor"
                                     href="{{ route('browseMentor') }}">
                                     <span class="elementor-button-content-wrapper">
                                         <span class="elementor-button-text">Find your mentor</span>
@@ -981,6 +981,7 @@ a:link {
     transform: translate(-50%, -50%);
     margin-top: 15px;
     margin-bottom:25px;
+    border-radius: 7px 7px 7px 7px !important;
 }
 
 /* #navbarDropdownMenuLink {
