@@ -3642,7 +3642,7 @@
             $(document).ready(function() {
 
                 $('.hfe-nav-menu__toggle').on('click', function() {
-                    alert("asdsfdsfd");
+                    // alert("asdsfdsfd");
                     $("nav").toggle();
                 });
 
