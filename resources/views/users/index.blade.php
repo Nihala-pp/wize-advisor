@@ -451,8 +451,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <p class="heading center"><b>Welcome, {{ auth()->user()->name }} ! </b></p>
-                        <p class="center">Book your session today and grow faster with the wisdom of mentorship.</p>
-                        <p class="center">Get 25% off on each call with code MENTOR25</p>
+                        <p class="center para">Book your session today and grow faster with the wisdom of mentorship.</p>
+                        <p class="center para">Get 25% off on each call with code MENTOR25</p>
                         <div class="elementor-widget-container find_mentor">
                             <div class="elementor-button-wrapper">
                                 <a class="elementor-button elementor-button-link elementor-size-sm mentor"
@@ -956,6 +956,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 .heading {
     font-size: 32px;
     margin-bottom: 10px; 
+}
+
+.para {
+    margin-top:-10px;
 }
 
 a:hover {
