@@ -950,7 +950,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .center {
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 5px; 
 }
 
 .heading {
