@@ -982,7 +982,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .center {
-    border: 5px solid;
+    border: none;
     margin: auto;
     width: 50%;
     padding: 10px;
