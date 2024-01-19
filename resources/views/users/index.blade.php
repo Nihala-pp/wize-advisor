@@ -451,7 +451,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <p class="heading center"><b>Welcome, {{ auth()->user()->name }} ! </b></p>
-                        <p class="center para">Book your session today and grow faster with the wisdom of mentorship.</p>
+                        <p class="center para">Book your session today and grow faster with the wisdom of mentorship.
+                        </p>
                         <p class="center para">Get 25% off on each call with code MENTOR25</p>
                         <div class="elementor-widget-container find_mentor">
                             <div class="elementor-button-wrapper">
@@ -915,7 +916,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .padd {
-    margin-top:-25px;
+    margin-top: -25px;
 }
 
 /* .mentor_name {
@@ -938,6 +939,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         --mdb-text-opacity: 1;
         color: #000000 !important;
     }
+
+    .para {
+        margin-top: -12px;
+        font-size: 12px;
+    }
 }
 
 @media (min-width:1024px) {
@@ -959,11 +965,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .heading {
     font-size: 32px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .para {
-    margin-top:-12px;
+    margin-top: -12px;
 }
 
 a:hover {
@@ -990,7 +996,7 @@ a:link {
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 15px;
-    margin-bottom:25px;
+    margin-bottom: 25px;
     border-radius: 7px 7px 7px 7px !important;
 }
 
