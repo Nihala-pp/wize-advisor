@@ -963,6 +963,10 @@ a:hover {
     text-decoration: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .mentor {
     font-family: "Helvetica", Sans-serif;
     font-size: 14px;
