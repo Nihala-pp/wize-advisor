@@ -456,20 +456,22 @@
                                 </div>
                             </div> -->
                             <div class="card-body px-0 pb-2">
-                                <div class="col-sm-8">
-                                    <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
-                                    <p>A mentor is a cheat sheet for an entrepreneur.</p>
-                                    <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Find your mentor</span>
-                                            </span>
-                                        </a>
+                                <div>
+                                    <div class="col-sm-8">
+                                        <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
+                                        <p>A mentor is a cheat sheet for an entrepreneur.</p>
+                                        <div class="elementor-button-wrapper">
+                                            <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                href="{{ route('browseMentor') }}">
+                                                <span class="elementor-button-content-wrapper">
+                                                    <span class="elementor-button-text">Find your mentor</span>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <p>Get 25% off each call with code MENTOR25</p>
+                                    <div class="col-sm-4">
+                                        <p>Get 25% off each call with code MENTOR25</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
