@@ -454,8 +454,8 @@
                         <p>Book your session today and grow faster with the wisdom of mentorship.</p>
                         <p>Get 25% off each call with code MENTOR25</p>
                         <div class="elementor-widget-container">
-                            <div class="elementor-button-wrapper mentor">
-                                <a class="elementor-button elementor-button-link elementor-size-xs"
+                            <div class="elementor-button-wrapper">
+                                <a class="elementor-button elementor-button-link elementor-size-xs mentor"
                                     href="{{ route('browseMentor') }}">
                                     <span class="elementor-button-content-wrapper">
                                         <span class="elementor-button-text">Find your mentor</span>
