@@ -556,7 +556,7 @@
             <!--====================================================
                            Requested Sessions
     ======================================================-->
-            <div class="container-fluid req">
+            <div class="container-fluid req padd">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <div class="card my-4">
@@ -912,6 +912,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .btn-secondary {
     background-color: #fff !important;
+}
+
+.padd {
+    margin-top:-10px;
 }
 
 /* .mentor_name {
