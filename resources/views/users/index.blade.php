@@ -470,35 +470,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="container-fluid py-4 req">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
-                        <div class="card my-4">
-                            <!-- <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                    <h6 class="text-white text-capitalize ps-3">Upcoming Sessions</h6>
-                                </div>
-                            </div> -->
-                            <div class="card-body px-0 pb-2">
-                                <div class="row mb-4 center">
-                                    <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
-                                    <p>A mentor is a cheat sheet for an entrepreneur.</p>
-                                    <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Find your mentor</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                    <p>Get 25% off each call with code MENTOR25</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
