@@ -928,6 +928,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     .rounded-circle {
         height: 40px !important;
         width: 40px !important;
+        border-radius: 60%!important;
     }
 
     .mentor_name {
