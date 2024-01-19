@@ -989,7 +989,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .heading {
-    font-size:20px;
+    font-size:25px;
 }
 
 /* #navbarDropdownMenuLink {
