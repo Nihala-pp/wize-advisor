@@ -2144,6 +2144,7 @@
                                                             $text = str_ireplace("<br />", "\r\n",
                                                             Str::words($blog->description, '20'));
                                                             echo $text;
+                                                            @endphp
                                                     </div>
                                                 </div>
                                             </div>
