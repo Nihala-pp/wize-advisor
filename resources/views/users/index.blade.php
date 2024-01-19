@@ -452,7 +452,7 @@
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <p class="heading center"><b>Welcome, {{ auth()->user()->name }} ! </b></p>
                         <p class="center">Book your session today and grow faster with the wisdom of mentorship.</p>
-                        <p class="center">Get 25% off each call with code MENTOR25</p>
+                        <p class="center">Get 25% off on each call with code MENTOR25</p>
                         <div class="elementor-widget-container find_mentor">
                             <div class="elementor-button-wrapper">
                                 <a class="elementor-button elementor-button-link elementor-size-sm mentor"
