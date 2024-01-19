@@ -451,7 +451,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <div class="row mb-4">
-                            <div class="col-lg-8 col-md-8 mb-md-0 mb-4">
+                            <div class="col-lg-8 col-md-8 mb-md-0 mb-4 center">
                                 <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
                                 <p>A mentor is a cheat sheet for an entrepreneur.</p>
                                 <div class="elementor-button-wrapper">
@@ -983,6 +983,13 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         margin-left: 20px !important;
         font-size: 12px !important;
     }
+}
+
+.center {
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 /* #navbarDropdownMenuLink {
