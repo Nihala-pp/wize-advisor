@@ -3413,6 +3413,11 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
 @media (max-width:480px) {
     .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
         margin-bottom: 9px;
