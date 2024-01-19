@@ -456,6 +456,16 @@
                                 </div>
                             </div> -->
                             <div class="card-body px-0 pb-2">
+                                <p>Welcome {{ auth()->user()->name }} !</p>
+                                <p>A mentor is a cheat sheet for an entrepreneur.</p>
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('browseMentor') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Browse Mentors</span>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
