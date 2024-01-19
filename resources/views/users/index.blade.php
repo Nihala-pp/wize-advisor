@@ -457,7 +457,7 @@
                             </div> -->
                             <div class="card-body px-0 pb-2">
                                 <div class="row mb-4">
-                                    <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
+                                    <div class="col-lg-8 col-md-8 mb-md-0 mb-4">
                                         <p><b>Welcome {{ auth()->user()->name }} ! </b></p>
                                         <p>A mentor is a cheat sheet for an entrepreneur.</p>
                                         <div class="elementor-button-wrapper">
