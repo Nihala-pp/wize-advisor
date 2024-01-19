@@ -959,6 +959,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     font-size: 32px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .mentor {
     font-family: "Helvetica", Sans-serif;
     font-size: 14px;
