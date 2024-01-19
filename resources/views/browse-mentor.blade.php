@@ -3621,6 +3621,20 @@
         (function($) {
             $(document).ready(function() {
 
+                x = "true";
+
+                $('.hfe-nav-menu__toggle').on('click', function() {
+                    // alert("asdsfdsfd");
+
+                    $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+
+                    $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
+                    // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
+
+                    // document.getElementById("open_nav").setAttribute("aria-expanded", x);
+                    // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
+                });
+
                 $('#name').on('change', function() {
                     var name = $(this).val();
                     var filter = "name";
