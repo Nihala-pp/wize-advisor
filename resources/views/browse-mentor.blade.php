@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <title>Browse Mentor &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -20,14 +20,34 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+        <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" /> -->
+
     <!-- <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
         rel='stylesheet'> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
-    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+   
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Browse Mentor &#8211; wiseAdvizor</title>
+    <script>
+    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_nonce = "41e9834823";
+    </script>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+        href="https://wiseadvizor.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+        href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 
     <!-- Google Tag Manager -->
     <script>
@@ -3614,7 +3634,7 @@
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
         </script>
-        
+
         <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}">
         </script> -->
         <script type="text/javascript">
