@@ -1310,7 +1310,7 @@
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
-                                            <div class="dropdown">
+                                            <div class="dropdown noti">
                                                 <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
                                                     id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                     aria-expanded="false">
@@ -3965,6 +3965,20 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+    background-color: #fff;
+    color: #001E64 !important;
+}
+
+.noti {
+    position: relative;
+    margin-left: 15px;
+}
+
 @media only screen and (max-width: 1290px) {
     /* html :where(img[class*=rounded-circle]) {
         height:  8px !important;
@@ -4096,4 +4110,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 </style>
+
 </html>
