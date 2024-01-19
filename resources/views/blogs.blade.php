@@ -2140,7 +2140,7 @@
                                                                 href="{{ route('blog-detail', $blog->id) }}">
                                                                 {{ $blog->title }} </a></h3>
                                                         <p class="elementor-image-box-description">
-                                                            {{ Str::words($blog->intro, '20') }}
+                                                            {{ Str::words($blog->description, '20') }}
                                                     </div>
                                                 </div>
                                             </div>
