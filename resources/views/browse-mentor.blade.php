@@ -3312,7 +3312,7 @@
         <script
             src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
             id="niso-carousel-lightbox.min-js"></script> -->
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=3.7.1') }}" id="jquery-ui-core-js">
+        <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?s?ver=1.13.2') }}" id="jquery-ui-core-js">
         </script>
         <!-- <script id="qi-addons-for-elementor-script-js-extra">
         var qodefQiAddonsGlobal = {
