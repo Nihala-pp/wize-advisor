@@ -1838,7 +1838,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable" aria-haspopup="true">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                                 <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
