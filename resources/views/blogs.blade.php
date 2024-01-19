@@ -2051,105 +2051,106 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-ef970f2 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                             data-id="ef970f2" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                @foreach($blogs as $blog)
-                                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4"
-                                    data-id="fd27b31" data-element_type="row">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="grid-container">
-                                            <div class="elementor-element elementor-element-bff2ac9 elementor-widget elementor-widget-image"
-                                                data-id="bff2ac9" data-element_type="widget"
-                                                data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img decoding="async" width="370" height="500"
-                                                        src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
-                                                        class="attachment-full size-full wp-image-2739" alt=""
-                                                        srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
-                                                        sizes="(max-width: 370px) 100vw, 370px">
+                                <div class="row">
+                                    @foreach($blogs as $blog)
+                                    <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="grid-container">
+                                                <div class="elementor-element elementor-element-bff2ac9 elementor-widget elementor-widget-image"
+                                                    data-id="bff2ac9" data-element_type="widget"
+                                                    data-widget_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <img decoding="async" width="370" height="500"
+                                                            src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
+                                                            class="attachment-full size-full wp-image-2739" alt=""
+                                                            srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
+                                                            sizes="(max-width: 370px) 100vw, 370px">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-54a2f8d elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                                data-id="54a2f8d" data-element_type="widget"
-                                                data-widget_type="image-box.default">
-                                                <div class="elementor-widget-container">
-                                                    <style>
-                                                    /*! elementor - v3.14.0 - 26-06-2023 */
-                                                    .elementor-widget-image-box .elementor-image-box-content {
-                                                        width: 100%
-                                                    }
-
-                                                    @media (min-width:768px) {
-
-                                                        .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
-                                                        .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                                            display: flex
+                                                <div class="elementor-element elementor-element-54a2f8d elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                                    data-id="54a2f8d" data-element_type="widget"
+                                                    data-widget_type="image-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <style>
+                                                        /*! elementor - v3.14.0 - 26-06-2023 */
+                                                        .elementor-widget-image-box .elementor-image-box-content {
+                                                            width: 100%
                                                         }
 
-                                                        .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                                            text-align: right;
-                                                            flex-direction: row-reverse
+                                                        @media (min-width:768px) {
+
+                                                            .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
+                                                            .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+                                                                display: flex
+                                                            }
+
+                                                            .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+                                                                text-align: right;
+                                                                flex-direction: row-reverse
+                                                            }
+
+                                                            .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
+                                                                text-align: left;
+                                                                flex-direction: row
+                                                            }
+
+                                                            .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
+                                                                margin: auto
+                                                            }
+
+                                                            .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+                                                                align-items: flex-start
+                                                            }
+
+                                                            .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
+                                                                align-items: center
+                                                            }
+
+                                                            .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+                                                                align-items: flex-end
+                                                            }
                                                         }
 
-                                                        .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
-                                                            text-align: left;
-                                                            flex-direction: row
+                                                        @media (max-width:767px) {
+                                                            .elementor-widget-image-box .elementor-image-box-img {
+                                                                margin-left: auto !important;
+                                                                margin-right: auto !important;
+                                                                margin-bottom: 15px
+                                                            }
                                                         }
 
-                                                        .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
-                                                            margin: auto
-                                                        }
-
-                                                        .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
-                                                            align-items: flex-start
-                                                        }
-
-                                                        .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
-                                                            align-items: center
-                                                        }
-
-                                                        .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
-                                                            align-items: flex-end
-                                                        }
-                                                    }
-
-                                                    @media (max-width:767px) {
                                                         .elementor-widget-image-box .elementor-image-box-img {
-                                                            margin-left: auto !important;
-                                                            margin-right: auto !important;
-                                                            margin-bottom: 15px
+                                                            display: inline-block
                                                         }
-                                                    }
 
-                                                    .elementor-widget-image-box .elementor-image-box-img {
-                                                        display: inline-block
-                                                    }
+                                                        .elementor-widget-image-box .elementor-image-box-title a {
+                                                            color: inherit
+                                                        }
 
-                                                    .elementor-widget-image-box .elementor-image-box-title a {
-                                                        color: inherit
-                                                    }
+                                                        .elementor-widget-image-box .elementor-image-box-wrapper {
+                                                            text-align: center
+                                                        }
 
-                                                    .elementor-widget-image-box .elementor-image-box-wrapper {
-                                                        text-align: center
-                                                    }
-
-                                                    .elementor-widget-image-box .elementor-image-box-description {
-                                                        margin: 0
-                                                    }
-                                                    </style>
-                                                    <div class="elementor-image-box-wrapper">
-                                                        <div class="elementor-image-box-content">
-                                                            <h3 class="elementor-image-box-title"> <a
-                                                                    href="{{ route('blog-detail', $blog->id) }}">
-                                                                    {{ $blog->title }} </a></h3>
-                                                            <p class="elementor-image-box-description">
-                                                                {{ Str::words($blog->intro, '20') }}
+                                                        .elementor-widget-image-box .elementor-image-box-description {
+                                                            margin: 0
+                                                        }
+                                                        </style>
+                                                        <div class="elementor-image-box-wrapper">
+                                                            <div class="elementor-image-box-content">
+                                                                <h3 class="elementor-image-box-title"> <a
+                                                                        href="{{ route('blog-detail', $blog->id) }}">
+                                                                        {{ $blog->title }} </a></h3>
+                                                                <p class="elementor-image-box-description">
+                                                                    {{ Str::words($blog->intro, '20') }}
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    @endforeach
                                 </div>
-                                @endforeach
                             </div>
                         </section>
                     </div>
@@ -3414,7 +3415,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .grid-container {
-  display: grid;
+    display: grid;
 }
 
 @media (max-width:480px) {
