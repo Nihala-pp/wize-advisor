@@ -2058,12 +2058,12 @@
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f1f2bc2"
                     data-id="f1f2bc2" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
+                        <!-- <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
                             data-id="34a10af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h3 class="elementor-heading-title elementor-size-default">The Impact of Mentorship</h3>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="elementor-element elementor-element-dc0f3cb elementor-widget elementor-widget-text-editor"
                             data-id="dc0f3cb" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
