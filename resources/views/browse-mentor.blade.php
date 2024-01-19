@@ -3622,6 +3622,7 @@
             $(document).ready(function() {
 
                 $('.hfe-nav-menu__toggle elementor-clickable').on('click', function() {
+                    alert("asdsfdsfd");
                     $("nav").toggle();
                 });
 
