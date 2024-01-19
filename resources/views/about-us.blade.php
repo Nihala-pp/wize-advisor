@@ -3963,6 +3963,7 @@
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
+    Margin-top: 7px;
 }
 
 .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
