@@ -3982,6 +3982,11 @@ i.fas.fa-bell.fa-2xl {
     /* display: flex!important; */
 }
 
+.rounded-circle {
+    border-radius: 50%!important;
+    margin-top: 3px !important;
+}
+
 @media only screen and (max-width: 1290px) {
     /* html :where(img[class*=rounded-circle]) {
         height:  8px !important;
