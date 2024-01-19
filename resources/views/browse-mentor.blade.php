@@ -1717,9 +1717,9 @@
                                 data-widget_type="navigation-menu.default">
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                        data-layout="horizontal">
+                                        data-layout="horizontal" id="open_nav">
                                         <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
-                                            aria-haspopup="true" aria-expanded="false" id="open_nav">
+                                            aria-haspopup="true" aria-expanded="false">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                                 <i aria-hidden="false" class="fas fa-align-justify"></i>
