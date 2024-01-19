@@ -3423,6 +3423,15 @@ i.fas.fa-bell.fa-2xl {
     margin: 0;
 }
 
+.elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
+    margin-bottom: 9px;
+    margin-top: 25px;
+    color: var( --e-global-color-1e1892c );
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 @media (max-width:480px) {
     .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
         margin-bottom: 9px;
