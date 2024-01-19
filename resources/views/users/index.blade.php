@@ -452,6 +452,7 @@
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
                         <p>Book your session today and grow faster with the wisdom of mentorship.</p>
+                        <p>Get 25% off each call with code MENTOR25</p>
                         <div class="elementor-button-wrapper">
                             <a class="elementor-button elementor-button-link elementor-size-sm"
                                 href="{{ route('browseMentor') }}">
@@ -460,7 +461,6 @@
                                 </span>
                             </a>
                         </div>
-                        <p>Get 25% off each call with code MENTOR25</p>
                     </div>
                 </div>
             </div>
