@@ -3425,7 +3425,7 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
     margin-bottom: 9px;
-    margin-top: 25px;
+    margin-top: 30px;
     color: var( --e-global-color-1e1892c );
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
