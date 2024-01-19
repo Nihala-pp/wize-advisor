@@ -148,58 +148,60 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="col-12 mt-4">
-                    <div class="mb-5 ps-3 text-end">
-                        <h6 class="mb-1"></h6>
-                        <p class="text-sm"></p>
-                        <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Add Blog
-                        </button>
-                    </div>
-                    @if(!empty($blogs))
-                    <div class="row">
-                        @foreach($blogs as $blog)
-                        <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                            <div class="card card-blog card-plain">
-                                <div class="card-header p-0 mt-n4 mx-3">
-                                    <a class="d-block shadow-xl border-radius-xl">
-                                        <img decoding="async" width="200" height="200"
-                                            src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
-                                            class="attachment-full size-full wp-image-2739" alt=""
-                                            srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
-                                            sizes="(max-width: 370px) 100vw, 370px">
-                                    </a>
-                                </div>
-                                <div class="card-body p-3">
-                                    <p class="mb-0 text-sm"></p>
-                                    <a href="{{ route('blog-detail', [ $blog->id ]) }}">
-                                        <h5>
-                                            {{ $blog->title  }}
-                                        </h5>
-                                    </a>
-                                    <p class="mb-4 text-sm">
-                                        {{ Str::words($blog->intro, '20') }}
-                                    </p>
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <a href="{{ route('admin.mentors.blogs.edit', [ $blog->id ]) }}">
-                                            <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
-                                                Blog</button>
+                <div class="card">
+                    <div class="col-12 mt-4">
+                        <div class="mb-5 ps-3 text-end">
+                            <h6 class="mb-1"></h6>
+                            <p class="text-sm"></p>
+                            <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Add Blog
+                            </button>
+                        </div>
+                        @if(!empty($blogs))
+                        <div class="row">
+                            @foreach($blogs as $blog)
+                            <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                                <div class="card card-blog card-plain">
+                                    <div class="card-header p-0 mt-n4 mx-3">
+                                        <a class="d-block shadow-xl border-radius-xl">
+                                            <img decoding="async" width="200" height="200"
+                                                src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
+                                                class="attachment-full size-full wp-image-2739" alt=""
+                                                srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
+                                                sizes="(max-width: 370px) 100vw, 370px">
                                         </a>
-                                        <!-- <div class="avatar-group mt-2">
+                                    </div>
+                                    <div class="card-body p-3">
+                                        <p class="mb-0 text-sm"></p>
+                                        <a href="{{ route('blog-detail', [ $blog->id ]) }}">
+                                            <h5>
+                                                {{ $blog->title  }}
+                                            </h5>
+                                        </a>
+                                        <p class="mb-4 text-sm">
+                                            {{ Str::words($blog->intro, '20') }}
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <a href="{{ route('admin.mentors.blogs.edit', [ $blog->id ]) }}">
+                                                <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
+                                                    Blog</button>
+                                            </a>
+                                            <!-- <div class="avatar-group mt-2">
                                             <a href="javascript:;" class="avatar avatar-xs rounded-circle"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="Elena Morison">
                                                 <img src="" alt="Image placeholder">
                                             </a>
                                         </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            @endforeach
                         </div>
-                        @endforeach
+                        @endif
                     </div>
-                    @endif
                 </div>
             </div>
         </div>
