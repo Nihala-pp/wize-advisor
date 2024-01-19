@@ -949,7 +949,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .center {
-    text-align:center;
+    text-align: center;
 }
 
 .heading {
@@ -975,11 +975,11 @@ a:link {
 }
 
 .find_mentor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* padding: 10px; */
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 15px;
 }
 
 /* #navbarDropdownMenuLink {
