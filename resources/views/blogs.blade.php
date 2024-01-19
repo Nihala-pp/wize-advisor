@@ -2053,7 +2053,7 @@
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="row">
                                     @foreach($blogs as $blog)
-                                    <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                                    <div class="col-xl-3 col-md-6 mb-xl-0 mb-3">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="grid-container">
                                                 <div class="elementor-element elementor-element-bff2ac9 elementor-widget elementor-widget-image"
