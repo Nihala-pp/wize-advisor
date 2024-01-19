@@ -957,6 +957,16 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     font-size: 32px;
 }
 
+.elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+    border-style: none;
+    border-radius: 7px 7px 7px 7px;
+}
+
 /* #navbarDropdownMenuLink {
         z-index: 999999 !important;
     } */
