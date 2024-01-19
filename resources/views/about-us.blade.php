@@ -3974,9 +3974,11 @@ i.fas.fa-bell.fa-2xl {
     color: #001E64 !important;
 }
 
-.noti {
-    position: relative;
-    margin-left: 15px;
+.d-flex {
+    margin-left: 10px;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    /* display: flex!important; */
 }
 
 @media only screen and (max-width: 1290px) {
