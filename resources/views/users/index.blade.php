@@ -966,7 +966,7 @@ a:link {
 
 .mentor {
     font-family: "Helvetica", Sans-serif;
-    font-size: 14px;
+    font-size: 15px !important;
     font-weight: 400;
     background-color: transparent;
     background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
