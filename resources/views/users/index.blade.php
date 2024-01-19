@@ -450,23 +450,17 @@
             <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
-                        <div class="row mb-4">
-                            <div class="col-lg-8 col-md-8 mb-md-0 mb-4 center">
-                                <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
-                                <p>Book your session today and grow faster with the wisdom of mentorship.</p>
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('browseMentor') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Find your mentor</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                                <p>Get 25% off each call with code MENTOR25</p>
-                            </div>
+                        <p class="heading"><b>Welcome {{ auth()->user()->name }} ! </b></p>
+                        <p>Book your session today and grow faster with the wisdom of mentorship.</p>
+                        <div class="elementor-button-wrapper">
+                            <a class="elementor-button elementor-button-link elementor-size-sm"
+                                href="{{ route('browseMentor') }}">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-text">Find your mentor</span>
+                                </span>
+                            </a>
                         </div>
+                        <p>Get 25% off each call with code MENTOR25</p>
                     </div>
                 </div>
             </div>
@@ -960,7 +954,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .heading {
-    font-size:32px;
+    font-size: 32px;
 }
 
 /* #navbarDropdownMenuLink {
