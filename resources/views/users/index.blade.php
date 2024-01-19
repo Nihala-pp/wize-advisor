@@ -449,7 +449,7 @@
 
             <div class="container-fluid py-4">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
+                    <div class="col-lg-12 col-md-12 mb-md-0 mb-2">
                         <p class="heading center"><b>Welcome, {{ auth()->user()->name }} ! </b></p>
                         <p class="center para">Book your session today and grow faster with the wisdom of mentorship.</p>
                         <p class="center para">Get 25% off on each call with code MENTOR25</p>
