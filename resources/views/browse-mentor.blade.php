@@ -3648,6 +3648,7 @@
                     // alert("asdsfdsfd");
 
                     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+                    $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
 
                     // document.getElementById("open_nav").setAttribute("aria-expanded", x);
                     // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
