@@ -915,7 +915,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .padd {
-    margin-top:-10px;
+    margin-top:-15px;
 }
 
 /* .mentor_name {
