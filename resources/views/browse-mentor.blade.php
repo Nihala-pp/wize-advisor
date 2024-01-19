@@ -3647,7 +3647,7 @@
                 $('.hfe-nav-menu__toggle').on('click', function() {
                     // alert("asdsfdsfd");
 
-                    document.getElementById("open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+                    $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
 
                     // document.getElementById("open_nav").setAttribute("aria-expanded", x);
                     // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
