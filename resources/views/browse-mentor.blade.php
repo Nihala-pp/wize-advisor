@@ -1126,9 +1126,9 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.7.1" id="jquery-migrate-js">
     </script> -->
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
-        id="she-header-js"></script>
+        id="she-header-js"></script> -->
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
