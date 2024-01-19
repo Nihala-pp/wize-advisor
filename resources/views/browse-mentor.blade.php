@@ -26,7 +26,7 @@
     <!-- <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
         rel='stylesheet'> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
-   
+
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
@@ -1838,7 +1838,8 @@
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable" aria-haspopup="true">
+                                        <div id="open_nav" role="button"
+                                            class="hfe-nav-menu__toggle elementor-clickable" aria-haspopup="true">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                                 <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
@@ -3641,9 +3642,16 @@
         (function($) {
             $(document).ready(function() {
 
+                x = "true";
+
                 $('.hfe-nav-menu__toggle').on('click', function() {
                     // alert("asdsfdsfd");
-                    $(".hfe-nav-menu").toggleClass('show');
+
+                    // document.getElementById("open_nav").addClass(
+                    //     'hfe-active-menu hfe-active-menu-full-width');
+
+                    document.getElementById("open_nav").setAttribute("aria-expanded", x);
+                    // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
                 });
 
                 $('#name').on('change', function() {
