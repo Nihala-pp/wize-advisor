@@ -572,9 +572,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     // dd($tzlist);
     $password = Hash::make('Ivy@123!');
-    dd($password);
+    // dd($password);
 
-    return view('call');
+    return view('test');
   }
 
   public function completedCalls()
