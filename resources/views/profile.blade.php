@@ -7053,11 +7053,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     i.fas.fa-bell.fa-2xl {
-        margin-left: 20px;
+        font-size: 30px !important;
     }
 
     #menu-item-5136 {
-        font-size:8px;
+        font-size: 8px;
     }
 }
 
