@@ -860,7 +860,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script> -->
 
-    <script type="text/javascript">
+<script type="text/javascript">
     $(document).ready(function() {
 
         $('#offer_modal').modal('show');
@@ -871,7 +871,7 @@
 
         });
     });
-    </script>
+</script>
 </body>
 <style>
 .animated {
@@ -925,11 +925,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 } */
 
 @media (max-width:480px) {
-    .rounded-circle {
+    /* .rounded-circle {
         height: 40px !important;
         width: 40px !important;
         border-radius: 60%!important;
-    }
+    } */
 
     .mentor_name {
         margin-left: 20px !important;
@@ -948,10 +948,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 @media (min-width:1024px) {
-    /* .rounded-circle {
+    .rounded-circle {
         height: 40px !important;
         width: 40px !important;
-    } */
+    }
 
     .mentor_name {
         margin-left: 20px !important;
