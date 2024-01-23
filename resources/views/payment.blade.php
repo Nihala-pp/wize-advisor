@@ -2,7 +2,7 @@
 <html lang="en-US">
 @php header('Access-Control-Allow-Origin: *'); @endphp
 
-@include('partials.web-header-new')
+<!-- @include('partials.web-header-new') -->
 
 <head>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
