@@ -120,7 +120,7 @@ class HomeController extends Controller
   public function browseMentor(Request $request)
   {
 
-    $filters = $request['filters'];
+    $filters = $request['data']['filters'];
     // dd($request->all());
     // dd($name);
     // $variable = $name;
@@ -142,7 +142,7 @@ class HomeController extends Controller
     //       ->whereHas('expertise', function (Builder $query) use ($variable) {
     //         $query->where('expertise', 'LIKE', '%' . $variable . '%');
     //       })->get();
-          
+
     //       // Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
     //       break;
     //     case 'date':
@@ -161,7 +161,7 @@ class HomeController extends Controller
     //         $q->orderBy('price_per_call', $variable);
     //         }])
     //         ->get();
-          
+
     //       // User::where('role_id', 2)
     //       //   ->whereNull('status')
     //       //   ->whereHas('metaData', function (Builder $query) use ($variable) {
@@ -174,36 +174,35 @@ class HomeController extends Controller
     // } else {
     // dd($mentors);
 
-   if (!empty($request['filters'])) {
-    $mentors = User::with(['metaData', 'expertise', 'availability'])
-    ->where('role_id', 2)
-    ->whereNull('status')
-    ->whereHas('metaData', function ($query) use ($filters) {
-        /** @var Builder $query */
-        if ($filters->get('sort_by'))
-        $query->orderBy('price_per_call', $filters->get('sort_by'));
-    })
-    ->whereHas('expertise', function ($query) use ($filters) {
-        /** @var Builder $query */
-        if ($filters->get('expertise'))
-        $query->where('expertise', 'LIKE', '%' . $filters->get('expertise') . '%');
-    })
-    ->whereHas('availability', function ($query) use ($filters) {
-      /** @var Builder $query */
-      if ($filters->get('date'))
-          $query->whereDate('date', '=', $filters->get('date'));
-    })
-    ->when($filters->count(), function ($query) use ($filters) {
-        /** @var Builder $query */
-        if ($filters->get('name'))
-            $query->where('name', $filters->get('name'));
-    })->get();
-  }
-  else {
-    $mentors = User::where('role_id', 2)->whereNull('status')->get();
-  }
+    if (!empty($request['data']['filters'])) {
+      $mentors = User::with(['metaData', 'expertise', 'availability'])
+        ->where('role_id', 2)
+        ->whereNull('status')
+        ->whereHas('metaData', function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['sort_by'])
+            $query->orderBy('price_per_call', $filters['sort_by']);
+        })
+        ->whereHas('expertise', function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['expertise'])
+            $query->where('expertise', 'LIKE', '%' . $filters['expertise'] . '%');
+        })
+        ->whereHas('availability', function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['date'])
+            $query->whereDate('date', '=', $filters['date']);
+        })
+        ->when($filters->count(), function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['name'])
+            $query->where('name', $filters['name']);
+        })->get();
+    } else {
+      $mentors = User::where('role_id', 2)->whereNull('status')->get();
+    }
 
-  // dd($mentors);
+    // dd($mentors);
 
     $price = User::where('role_id', 2)->whereNull('status')->get();
     $slot = AvailableSchedule::where('date', '>=', now())
@@ -223,33 +222,33 @@ class HomeController extends Controller
 
     $filters = $request['filters'];
 
-    dd( $filters);
-     
+    dd($filters);
+
     $data['audits'] = AuditDetails::with(['user', 'status', 'shop'])
-    ->whereHas('shop', function ($query) use ($filters) {
+      ->whereHas('shop', function ($query) use ($filters) {
         /** @var Builder $query */
         if ($filters->get('sales_area'))
-            $query->where('sales_area', $filters->get('sales_area'));
+          $query->where('sales_area', $filters->get('sales_area'));
         if ($filters->get('sales_executive'))
-            $query->where('sales_executive', $filters->get('sales_executive'));
-    })
-    ->whereHas('user', function ($query) use ($filters) {
+          $query->where('sales_executive', $filters->get('sales_executive'));
+      })
+      ->whereHas('user', function ($query) use ($filters) {
         /** @var Builder $query */
         if ($filters->get('auditor'))
-            $query->where('id', $filters->get('auditor'));
-    })
-    ->when($filters->count(), function ($query) use ($filters) {
+          $query->where('id', $filters->get('auditor'));
+      })
+      ->when($filters->count(), function ($query) use ($filters) {
         /** @var Builder $query */
         if ($filters->get('review_status'))
-            $query->where('review_status', $filters->get('review_status'));
+          $query->where('review_status', $filters->get('review_status'));
         if ($filters->get('action_required'))
-            $query->where('action_required', $filters->get('action_required'));
+          $query->where('action_required', $filters->get('action_required'));
         if ($filters->get('from'))
-            $query->whereDate('created_at', '>=', $filters->get('from'));
+          $query->whereDate('created_at', '>=', $filters->get('from'));
         if ($filters->get('to'))
-            $query->whereDate('created_at', '<=', $filters->get('to'));
+          $query->whereDate('created_at', '<=', $filters->get('to'));
 
-    })->get();
+      })->get();
   }
 
   public function addMentor()
@@ -291,11 +290,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfull  y!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfull  y!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -672,23 +671,23 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       // Add other necessary validation rules
     ]);
 
-  // Process the payment using your payment gateway
+    // Process the payment using your payment gateway
     $paymentToken = $request->input('paymentToken');
 
-  // Perform actions with the payment token (e.g., send it to the payment gateway)
-  // Note: This is a simplified example, and you need to replace it with your actual payment gateway logic.
+    // Perform actions with the payment token (e.g., send it to the payment gateway)
+    // Note: This is a simplified example, and you need to replace it with your actual payment gateway logic.
 
-  // Example:
+    // Example:
     $paymentGatewayResponse = $this->processPayment($paymentToken);
 
-  // Check the payment gateway response and handle accordingly
-  if ($paymentGatewayResponse['success']) {
+    // Check the payment gateway response and handle accordingly
+    if ($paymentGatewayResponse['success']) {
       // Payment successful
       return response()->json(['message' => 'Payment successful']);
-  } else {
+    } else {
       // Payment failed
       return response()->json(['message' => 'Payment failed', 'error' => $paymentGatewayResponse['error']], 400);
-  }
+    }
 
     $call_data = ScheduledCall::find($request->call_id);
 
@@ -702,8 +701,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         'amount' => $price_per_call,
         'paymentMethodNonce' => $nonceFromTheClient,
         'options' => [
-          'submitForSettlement' => True
-        ]
+            'submitForSettlement' => True
+          ]
       ]);
 
       try {
@@ -777,15 +776,15 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function processPayment($paymentToken)
   {
-      // Implement your payment gateway integration logic here
-      // This is a placeholder and should be replaced with your actual logic
+    // Implement your payment gateway integration logic here
+    // This is a placeholder and should be replaced with your actual logic
 
-      // Simulate a successful payment for demonstration purposes
-      // Replace this with your actual payment gateway integration logic
-      $success = true;
-      $error = null;
+    // Simulate a successful payment for demonstration purposes
+    // Replace this with your actual payment gateway integration logic
+    $success = true;
+    $error = null;
 
-      // Return a response
-      return ['success' => $success, 'error' => $error];
+    // Return a response
+    return ['success' => $success, 'error' => $error];
   }
 }
