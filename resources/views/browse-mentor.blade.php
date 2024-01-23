@@ -2156,7 +2156,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
                                 <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker"
-                                    id="date" name="filters[date]" required>
+                                    id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
@@ -3648,7 +3648,7 @@
                         type: 'GET',
                         url: "{{ route('browseMentor') }}",
                         data: {
-                            form,
+                            "data": form,
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
