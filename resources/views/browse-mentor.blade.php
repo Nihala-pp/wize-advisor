@@ -2143,7 +2143,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <!-- <label>Select with Button Class</label> -->
-                            <select id="expertise" class="selectpicker" data-style="btn-info">
+                            <select id="expertise" class="selectpicker" data-style="btn-info" name="filters[expertise]">
                                 <option value="">Expertise</option>
                                 @foreach($expertise as $expert)
                                 <option value="{{ $expert->name }}" {{ $expert->name == $variable  ? 'selected' : '' }}>
@@ -2154,10 +2154,10 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
                             <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
-                                name="date" required>
+                                name="filters[date]" required>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
-                            <select id="name" class="selectpicker" data-style="btn-info">
+                            <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                 <option value="">Search by name</option>
                                 @foreach($price as $pr)
                                 <option value="{{ $pr->name }}">{{ $pr->name }}</option>
@@ -2165,7 +2165,7 @@
                             </select>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                            <select id="sort" class="selectpicker" data-style="btn-info">
+                            <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                 <option value="">Sort by Price</option>
                                 <option value="ASC">ASC</option>
                                 <option value="DESC">DESC </option>
