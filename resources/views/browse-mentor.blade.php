@@ -2171,6 +2171,8 @@
                                 <option value="DESC">DESC </option>
                             </select>
                         </div>
+
+                        <button class="btn btn-info">Apply</button>
                     </div>
                 </div>
             </div>
