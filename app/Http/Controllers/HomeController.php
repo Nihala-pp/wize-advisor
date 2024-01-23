@@ -120,6 +120,7 @@ class HomeController extends Controller
   public function browseMentor(Request $request)
   {
 
+    $filters = $request['filters'];
     // dd($request->all());
     // dd($name);
     // $variable = $name;
@@ -173,19 +174,37 @@ class HomeController extends Controller
     // } else {
     // dd($mentors);
 
-    $mentors = $this->filters();
+   if (!empty($request['filters'])) {
+    $mentors = User::with(['metaData', 'expertise', 'availability'])
+    ->where('role_id', 2)
+    ->whereNull('status')
+    ->whereHas('metaData', function ($query) use ($filters) {
+        /** @var Builder $query */
+        if ($filters->get('sort_by'))
+        $query->orderBy('price_per_call', $filters->get('sort_by'));
+    })
+    ->whereHas('expertise', function ($query) use ($filters) {
+        /** @var Builder $query */
+        if ($filters->get('expertise'))
+        $query->where('expertise', 'LIKE', '%' . $filters->get('expertise') . '%');
+    })
+    ->whereHas('availability', function ($query) use ($filters) {
+      /** @var Builder $query */
+      if ($filters->get('date'))
+          $query->whereDate('date', '=', $filters->get('date'));
+    })
+    ->when($filters->count(), function ($query) use ($filters) {
+        /** @var Builder $query */
+        if ($filters->get('name'))
+            $query->where('name', $filters->get('name'));
+    })->get();
+  }
+
     $price = User::where('role_id', 2)->whereNull('status')->get();
     $slot = AvailableSchedule::where('date', '>=', now())
-      // ->disctint()
       ->get();
 
-    // $expertise = UserMeta::select('expertise')
-    // ->groupBy('expertise')
-    // ->get();
-
     $expertise = ExpertiseList::get();
-
-    // dd($expertise);
 
     if (!empty($variable)) {
       return view('browsers', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
