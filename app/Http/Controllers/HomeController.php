@@ -121,7 +121,7 @@ class HomeController extends Controller
   {
 
     $filters = $request['filters'];
-    dd($filters['expertise']);
+    // dd($filters['expertise']);
     // dd($request->all());
     // dd($name);
     // $variable = $name;
