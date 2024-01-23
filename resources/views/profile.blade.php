@@ -7058,7 +7058,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     #menu-item-5136 {
         font-size: 8px;
+        padding-left: 15px;
     }
+
+    /* #menu-item-5136 {
+        padding-left: 15px;
+        font-size: 1;
+    } */
 }
 
 @media (max-width: 320px) {}
