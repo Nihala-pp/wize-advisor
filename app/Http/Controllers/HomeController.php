@@ -211,7 +211,7 @@ class HomeController extends Controller
 
     $expertise = ExpertiseList::get();
 
-    if (!empty($variable)) {
+    if (!empty($request['filters'])) {
       return view('browsers', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
     } else {
       return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
