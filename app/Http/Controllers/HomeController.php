@@ -120,7 +120,7 @@ class HomeController extends Controller
   public function browseMentor(Request $request)
   {
 
-    dd($request->all());
+    // dd($request->all());
     // dd($name);
     // $variable = $name;
     // if (!empty($variable)) {
