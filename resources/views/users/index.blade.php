@@ -948,10 +948,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 @media (min-width:1024px) {
-    .rounded-circle {
+    /* .rounded-circle {
         height: 40px !important;
         width: 40px !important;
-    }
+    } */
 
     .mentor_name {
         margin-left: 20px !important;
@@ -1020,5 +1020,4 @@ a:link {
 	margin: 8px 0px!important;
 } */
 </style>
-
 </html>
