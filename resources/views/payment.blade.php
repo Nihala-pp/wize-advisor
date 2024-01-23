@@ -331,14 +331,14 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 5px !important;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    /* .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
         color: #001E64;
-    }
+    } */
 
     .elementor-button.elementor-size-xs {
         font-size: 12px;
@@ -360,7 +360,7 @@ i.fas.fa-bell.fa-2xl {
         transition: all .3s;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-f871cda {
+    /* .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
 
@@ -375,7 +375,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
         margin-top: 60px;
-    }
+    } */
 
     .card {
         margin-top: -15px !important;
@@ -395,10 +395,10 @@ img.rounded-circle {
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+    /* .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
         margin-top: 60px;
-    }
+    } */
 }
 
 @media (max-width: 360px) {}
