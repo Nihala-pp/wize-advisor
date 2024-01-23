@@ -1311,7 +1311,7 @@
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown noti">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
+                                                <a class="text-reset me-3" href="#"
                                                     id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
                                                     aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
@@ -1586,7 +1586,7 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow"
+                                                            <a class="text-reset me-3"
                                                                 href="#" id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
@@ -1608,7 +1608,7 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="dropdown-toggle d-flex align-items-center"
+                                                            <a class="d-flex align-items-center"
                                                                 href="#" id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
@@ -4090,6 +4090,15 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
         margin-top: 60px;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        padding-left: 15px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 30px !important;
     }
 
     /* i.fas.fa-bell.fa-2xl {
