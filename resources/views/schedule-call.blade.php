@@ -3297,7 +3297,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:767px) {
-    .elementor-3007 .elementor-element.elementor-element-b97627d {
+    /* .elementor-3007 .elementor-element.elementor-element-b97627d {
         width: 30%;
     }
 
@@ -3335,7 +3335,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
         color: #001E64;
-    }
+    } */
 
     .elementor-button.elementor-size-xs {
         font-size: 12px;
