@@ -295,6 +295,10 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
+        padding: 15px 0px 0px 0px;
+    }
 }
 
 @media(max-width:1024px) {}
