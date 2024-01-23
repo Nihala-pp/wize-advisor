@@ -3899,6 +3899,7 @@
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
+    color:#000;
 }
 
 @media(max-width:480px) {
@@ -3987,6 +3988,21 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 30px;
         margin-top: 60px;
     }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        padding-left: 15px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
+    }
+
 
     /* i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
