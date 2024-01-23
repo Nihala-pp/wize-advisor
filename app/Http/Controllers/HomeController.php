@@ -117,63 +117,63 @@ class HomeController extends Controller
     return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions'));
   }
 
-  public function browseMentor($name = NULL, $filter = NULL)
+  public function browseMentor($name = NULL, $filter = NULL, Request $request)
   {
-    // dd($name);
-    $variable = $name;
-    if (!empty($variable)) {
-      switch ($filter) {
-        case 'name':
-          $mentors = User::where('role_id', 2)->where('name', 'LIKE', '%' . $variable . '%')->whereNull('status')->get();
-          break;
-        case 'price':
-          $mentors = User::where('role_id', 2)
-            ->whereNull('status')
-            ->whereHas('metaData', function (Builder $query) use ($variable) {
-              $query->where('price_per_call', 'LIKE', '%' . $variable . '%');
-            })->get();
-          break;
-        case 'expertise':
-          $mentors = User::where('role_id', 2)
-          ->whereNull('status')
-          ->whereHas('expertise', function (Builder $query) use ($variable) {
-            $query->where('expertise', 'LIKE', '%' . $variable . '%');
-          })->get();
-          
-          // Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
-          break;
-        case 'date':
-          $mentors = User::where('role_id', 2)
-            ->whereNull('status')
-            ->whereHas('availability', function (Builder $query) use ($variable) {
-              $query->whereDate('date', '=', $variable);
-            })->get();
-          break;
-        case 'time':
-          $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%' . $variable . '%')->get();
-          break;
-        case 'sortBy':
-          $mentors = User::where('role_id', 2)->where('status', '!=', 1)
-          ->with(['metaData' => function ($q) use ($variable) {
-            $q->orderBy('price_per_call', $variable);
-            }])
-            ->get();
-          
-          // User::where('role_id', 2)
-          //   ->whereNull('status')
-          //   ->whereHas('metaData', function (Builder $query) use ($variable) {
-          //     $query->orderBy('price_per_call', $variable);
-          //   })->get();
-          break;
-        default:
-          $mentors = User::where('role_id', 2)->whereNull('status')->get();
-      }
-    } else {
-      $mentors = User::where('role_id', 2)->whereNull('status')->get();
-    }
 
+    dd($request->all());
+    // dd($name);
+    // $variable = $name;
+    // if (!empty($variable)) {
+    //   switch ($filter) {
+    //     case 'name':
+    //       $mentors = User::where('role_id', 2)->where('name', 'LIKE', '%' . $variable . '%')->whereNull('status')->get();
+    //       break;
+    //     case 'price':
+    //       $mentors = User::where('role_id', 2)
+    //         ->whereNull('status')
+    //         ->whereHas('metaData', function (Builder $query) use ($variable) {
+    //           $query->where('price_per_call', 'LIKE', '%' . $variable . '%');
+    //         })->get();
+    //       break;
+    //     case 'expertise':
+    //       $mentors = User::where('role_id', 2)
+    //       ->whereNull('status')
+    //       ->whereHas('expertise', function (Builder $query) use ($variable) {
+    //         $query->where('expertise', 'LIKE', '%' . $variable . '%');
+    //       })->get();
+          
+    //       // Expertise::with('user')->where('expertise', 'LIKE', '%' . $variable . '%')->get();
+    //       break;
+    //     case 'date':
+    //       $mentors = User::where('role_id', 2)
+    //         ->whereNull('status')
+    //         ->whereHas('availability', function (Builder $query) use ($variable) {
+    //           $query->whereDate('date', '=', $variable);
+    //         })->get();
+    //       break;
+    //     case 'time':
+    //       $mentors = AvailableSchedule::with('user')->where('price', 'LIKE', '%' . $variable . '%')->get();
+    //       break;
+    //     case 'sortBy':
+    //       $mentors = User::where('role_id', 2)->where('status', '!=', 1)
+    //       ->with(['metaData' => function ($q) use ($variable) {
+    //         $q->orderBy('price_per_call', $variable);
+    //         }])
+    //         ->get();
+          
+    //       // User::where('role_id', 2)
+    //       //   ->whereNull('status')
+    //       //   ->whereHas('metaData', function (Builder $query) use ($variable) {
+    //       //     $query->orderBy('price_per_call', $variable);
+    //       //   })->get();
+    //       break;
+    //     default:
+    //       $mentors = User::where('role_id', 2)->whereNull('status')->get();
+    //   }
+    // } else {
     // dd($mentors);
 
+    $mentors = $this->filters();
     $price = User::where('role_id', 2)->whereNull('status')->get();
     $slot = AvailableSchedule::where('date', '>=', now())
       // ->disctint()
@@ -192,6 +192,40 @@ class HomeController extends Controller
     } else {
       return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price', 'variable', 'expertise'));
     }
+  }
+
+  public function filters(Request $request)
+  {
+
+    $filters = $request['filters'];
+
+    dd( $filters);
+     
+    $data['audits'] = AuditDetails::with(['user', 'status', 'shop'])
+    ->whereHas('shop', function ($query) use ($filters) {
+        /** @var Builder $query */
+        if ($filters->get('sales_area'))
+            $query->where('sales_area', $filters->get('sales_area'));
+        if ($filters->get('sales_executive'))
+            $query->where('sales_executive', $filters->get('sales_executive'));
+    })
+    ->whereHas('user', function ($query) use ($filters) {
+        /** @var Builder $query */
+        if ($filters->get('auditor'))
+            $query->where('id', $filters->get('auditor'));
+    })
+    ->when($filters->count(), function ($query) use ($filters) {
+        /** @var Builder $query */
+        if ($filters->get('review_status'))
+            $query->where('review_status', $filters->get('review_status'));
+        if ($filters->get('action_required'))
+            $query->where('action_required', $filters->get('action_required'));
+        if ($filters->get('from'))
+            $query->whereDate('created_at', '>=', $filters->get('from'));
+        if ($filters->get('to'))
+            $query->whereDate('created_at', '<=', $filters->get('to'));
+
+    })->get();
   }
 
   public function addMentor()
