@@ -194,7 +194,7 @@ class HomeController extends Controller
           if ($filters['date'])
             $query->whereDate('date', '=', $filters['date']);
         })
-        ->when($filters->count(), function ($query) use ($filters) {
+        ->when((!empty($filters)), function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['name'])
             $query->where('name', $filters['name']);
