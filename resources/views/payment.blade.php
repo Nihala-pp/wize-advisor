@@ -299,6 +299,10 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
         padding: 15px 0px 0px 0px;
     }
+
+    .text-center {
+        padding: 20px !important;
+    }
 }
 
 @media(max-width:1024px) {}
@@ -306,7 +310,7 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 767px) {
 
     .text-center {
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .rounded-circle {
