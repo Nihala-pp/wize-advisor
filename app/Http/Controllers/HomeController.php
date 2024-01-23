@@ -199,6 +199,11 @@ class HomeController extends Controller
             $query->where('name', $filters->get('name'));
     })->get();
   }
+  else {
+    $mentors = User::where('role_id', 2)->whereNull('status')->get();
+  }
+
+  dd($mentors);
 
     $price = User::where('role_id', 2)->whereNull('status')->get();
     $slot = AvailableSchedule::where('date', '>=', now())
