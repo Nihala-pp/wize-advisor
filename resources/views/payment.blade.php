@@ -342,7 +342,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-button.elementor-size-xs {
         font-size: 12px;
-        padding: 10px 20px;
+        /* padding: 10px 20px; */
         border-radius: 7px;
         margin: 10px;
     }
