@@ -3648,7 +3648,7 @@
                         type: 'GET',
                         url: "{{ route('browseMentor') }}",
                         data: {
-                            "data": form,
+                            form,
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
