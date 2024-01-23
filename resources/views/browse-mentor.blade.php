@@ -2141,7 +2141,7 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <!-- <label>Select with Button Class</label> -->
                             <select id="expertise" class="selectpicker" data-style="btn-info">
                                 <option value="">Expertise</option>
@@ -2152,11 +2152,11 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
+                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
                             <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
                                 name="date" required>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
+                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12  filters name">
                             <select id="name" class="selectpicker" data-style="btn-info">
                                 <option value="">Search by name</option>
                                 @foreach($price as $pr)
@@ -2164,14 +2164,14 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                             <select id="sort" class="selectpicker" data-style="btn-info">
                                 <option value="">Sort by Price</option>
                                 <option value="ASC">ASC</option>
                                 <option value="DESC">DESC </option>
                             </select>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                         <button class="btn btn-info">Apply</button>
                         </div>
                     </div>
