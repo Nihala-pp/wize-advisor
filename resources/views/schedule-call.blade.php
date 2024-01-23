@@ -3287,7 +3287,7 @@ i.fas.fa-bell.fa-2xl {
     .rounded-circle {
         height: 40px !important;
         width: 40px !important;
-        border-radius: 60%!important;
+        border-radius: 60% !important;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
@@ -3297,6 +3297,11 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:767px) {
+
+    .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
+        padding: 15px 0px 0px 0px;
+    }
+
     /* .elementor-3007 .elementor-element.elementor-element-b97627d {
         width: 30%;
     }
