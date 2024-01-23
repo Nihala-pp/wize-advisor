@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel='stylesheet' id='elementor-post-2-css'
         href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' />
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
 
     <script>
     window._wpemojiSettings = {
@@ -1256,9 +1256,8 @@
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown">
-                                                <a class="text-reset me-3" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
+                                                <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
@@ -1531,8 +1530,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1553,8 +1552,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -2625,6 +2624,8 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <script type="text/javascript">
     (function($) {
         "use strict";
@@ -2689,5 +2690,99 @@
     </script>
     <!--End of Tawk.to Script-->
 </body>
+<style>
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+    color: #000;
+}
+
+@media (max-width: 767px) {
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64;
+    }
+
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        /* font-size: 15px; */
+        /* padding: 12px 24px; */
+        /* border-radius: 3px; */
+        /* color: #fff; */
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        padding-left: 15px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
+    }
+
+    /* i.fas.fa-bell.fa-2xl {
+font-size: 32px !important;
+padding-left: 10px;
+color: #000;
+}
+
+img.rounded-circle {
+margin-bottom: 10px;
+} */
+}
+
+@media (max-width: 320px) {}
+
+@media (max-width: 280px) {
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 375px) {}
+
+@media (min-width: 540px) {}
+</style>
 
 </html>
