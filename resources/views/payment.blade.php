@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13 success">
     @include('partials.menu')
@@ -152,7 +153,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                             'coupon': coupon,
                             'mentor_id': mentor_id
@@ -295,6 +300,15 @@ i.fas.fa-bell.fa-2xl {
 @media(max-width:1024px) {}
 
 @media (max-width: 767px) {
+
+    .text-center {
+        padding: 20px;
+    }
+
+    .rounded-circle {
+        border-radius: 50% !important;
+        margin-top: 0px !important;
+    }
 
     .card {
         /* border: 0; */
