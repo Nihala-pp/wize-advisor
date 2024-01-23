@@ -117,7 +117,7 @@ class HomeController extends Controller
     return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions'));
   }
 
-  public function browseMentor($name = NULL, $filter = NULL, Request $request)
+  public function browseMentor(Request $request)
   {
 
     dd($request->all());
