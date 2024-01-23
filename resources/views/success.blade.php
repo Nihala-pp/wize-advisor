@@ -1000,5 +1000,4 @@ img.rounded-circle {
 
 @media (min-width: 540px) {}
 </style>
-
 </html>
