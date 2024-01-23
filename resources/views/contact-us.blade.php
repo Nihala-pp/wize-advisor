@@ -3673,6 +3673,7 @@
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
+    color:#000;
 }
 
 @media(max-width:480px) {
@@ -3742,6 +3743,11 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
         margin-top: 60px;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        padding-left: 15px;
     }
 
     /* i.fas.fa-bell.fa-2xl {
