@@ -175,7 +175,7 @@ class HomeController extends Controller
     // } else {
     // dd($mentors);
 
-    if (!empty($request['data']['filters'])) {
+    if (!empty($filters)) {
       $mentors = User::with(['metaData', 'expertise', 'availability'])
         ->where('role_id', 2)
         ->whereNull('status')
@@ -211,10 +211,10 @@ class HomeController extends Controller
 
     $expertise = ExpertiseList::get();
 
-    if (!empty($request['filters'])) {
-      return view('browsers', compact('mentors', 'slot', 'expertise', 'price', 'expertise'));
+    if (!empty($filters)) {
+      return view('browsers', compact('mentors', 'slot', 'price', 'expertise'));
     } else {
-      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price', 'expertise'));
+      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price'));
     }
   }
 
