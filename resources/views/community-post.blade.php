@@ -19,6 +19,8 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel='stylesheet' id='elementor-post-2-css'
         href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+
 
 
     <script>
@@ -2624,6 +2626,8 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2"
         id="wpforms-elementor-js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <script type="text/javascript">
     (function($) {
         "use strict";
