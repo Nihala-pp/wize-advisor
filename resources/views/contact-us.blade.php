@@ -1836,7 +1836,7 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="dropdown-toggle d-flex align-items-center"
+                                                            <a class="d-flex align-items-center"
                                                                 href="#" id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
