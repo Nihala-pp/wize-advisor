@@ -161,7 +161,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                             'coupon': coupon,
                             'mentor_id': mentor_id
@@ -329,6 +333,10 @@ i.fas.fa-bell.fa-2xl {
 
     #paypal_button_container {
         padding-left: 5px !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
+        padding: 15px 0px 0px 0px;
     }
 
     /* .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
