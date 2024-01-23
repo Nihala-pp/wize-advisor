@@ -3357,7 +3357,7 @@ i.fas.fa-bell.fa-2xl {
         transition: all .3s;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-f871cda {
+    /* .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
 
@@ -3372,16 +3372,16 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
         margin-top: 45px;
-    }
+    } */
 }
 
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+    /* .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
         margin-top: 45px;
-    }
+    } */
 }
 
 @media (max-width: 360px) {}
