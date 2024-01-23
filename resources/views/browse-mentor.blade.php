@@ -2158,7 +2158,7 @@
                                 <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker"
                                     id="date" name="filters[date]" required>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
@@ -2166,14 +2166,14 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
                                     <option value="ASC">ASC</option>
                                     <option value="DESC">DESC </option>
                                 </select>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3">
                                 <button class="btn btn-info apply_filters">Apply</button>
                             </div>
                         </form>
