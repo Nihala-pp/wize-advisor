@@ -1732,7 +1732,7 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3 dropdown-toggle"
+                                                            <a class="text-reset me-3"
                                                                 href="#" id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
@@ -1754,7 +1754,7 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="dropdown-toggle d-flex align-items-center"
+                                                            <a class="d-flex align-items-center"
                                                                 href="#" id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
