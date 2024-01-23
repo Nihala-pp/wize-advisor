@@ -121,7 +121,7 @@ class HomeController extends Controller
   {
 
     $filters = $request['filters'];
-    dd($filters);
+    dd($filters['expertise']);
     // dd($request->all());
     // dd($name);
     // $variable = $name;
@@ -187,7 +187,7 @@ class HomeController extends Controller
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['expertise'])
-            $query->where('expertise', 'LIKE', '%' . $filters[expertise] . '%');
+            $query->where('expertise', 'LIKE', '%' . $filters['expertise'] . '%');
         })
         ->whereHas('availability', function ($query) use ($filters) {
           /** @var Builder $query */
