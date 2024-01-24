@@ -198,7 +198,7 @@ class HomeController extends Controller
           if ($filters['name'])
             $query->where('name', $filters['name']);
         })->get()
-        ->sortBy('metaData.price_per_call', $filters['sort_by']);
+        ->orderBy('metaData.price_per_call', $filters['sort_by']);
     } else {
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
