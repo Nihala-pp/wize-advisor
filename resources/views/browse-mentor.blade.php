@@ -4119,6 +4119,29 @@ i.fas.fa-bell.fa-2xl {
         font-size: 30px !important;
         color: #000;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width: 200%;
+        /* max-width: 120%; */
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -40px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width: 200%;
+        /* max-width: 120%; */
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+        padding: 20px 0px 0px 0px;
+    }
 }
 
 @media (max-width: 320px) {}
