@@ -3,6 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Profile &#8211; wiseAdvizor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_nonce = "51391c8c76";
+    </script>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+        href="https://wiseadvizor.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+        href="https://wiseadvizor.com/comments/feed/">
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    
     <title>Browse Mentor &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -3627,19 +3644,19 @@
         (function($) {
             $(document).ready(function() {
 
-                x = "true";
+                // x = "true";
 
-                $('.hfe-nav-menu__toggle').on('click', function() {
-                    // alert("asdsfdsfd");
+                // $('.hfe-nav-menu__toggle').on('click', function() {
+                //     // alert("asdsfdsfd");
 
-                    $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+                //     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
 
                     // $('#nav_menu').setAttribute("aria-expanded", "true");
                     // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
 
                     // document.getElementById("open_nav").setAttribute("aria-expanded", x);
                     // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
-                });
+                // });
 
                 $('.apply_filters').on('click', function() {
                     var form = $('.filterForm').serialize();
