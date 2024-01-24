@@ -3346,14 +3346,14 @@
             }
         };
         </script>
-        <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
+        <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2') }}"
             id="elementor-pro-frontend-js"></script>
         <script
-            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
+            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2') }}"
             id="pro-elements-handlers-js"></script>
-        <script
+        <!-- <script
             src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-            id="e-sticky-js"></script>
+            id="e-sticky-js"></script> -->
         <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4') }}" id="underscore-js"></script>
         <script id="wp-util-js-extra">
         var _wpUtilSettings = {
