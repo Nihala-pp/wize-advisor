@@ -179,12 +179,7 @@ class HomeController extends Controller
         ->where('role_id', 2)
         ->whereNull('status')
         ->whereHas('metaData', function ($query) use ($filters) {
-
           /** @var Builder $query */
-          if ($filters['sort_by'] == 'ASC') {
-            $query->orderBy('price_per_call');
-          }
-
           if ($filters['sort_by'] == 'DESC') {
             $query->orderByDesc('price_per_call');
           }
