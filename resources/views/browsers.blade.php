@@ -2171,8 +2171,8 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
-                                    <option value="asc">ASC</option>
-                                    <option value="desc">DESC
+                                    <option value="asc" {{ $filters[sort_by] == "asc" ? 'selected' : '' }}>ASC</option>
+                                    <option value="desc" {{ $filters[sort_by] == "desc" ? 'selected' : '' }}>DESC
                                     </option>
                                 </select>
                             </div>
