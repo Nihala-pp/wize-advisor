@@ -179,11 +179,6 @@ class HomeController extends Controller
       $mentors = User::with('expertise', 'availability')
         ->where('role_id', 2)
         ->whereNull('status')
-        // ->whereHas('metaData', function ($query) use ($filters) {
-        //   /** @var Builder $query */
-        //   if ($filters['sort_by'] == 'DESC')
-        //     $query->where('price_per_call','!=', 0)->orderBy('price_per_call', 'desc');
-        // })
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['expertise'])
