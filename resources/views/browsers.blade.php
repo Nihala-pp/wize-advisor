@@ -2148,7 +2148,7 @@
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}">
+                                    <option value="{{ $expert->name }}" {{ $expert->name == $filters['expertise'] ? 'selected' : '' }}>
                                         {{ $expert->name }}
                                     </option>
                                     @endforeach

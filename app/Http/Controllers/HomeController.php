@@ -119,7 +119,6 @@ class HomeController extends Controller
 
   public function browseMentor(Request $request)
   {
-
     $filters = $request['filters'];
     // dd($filters['expertise']);
     // dd($request->all());
@@ -203,16 +202,12 @@ class HomeController extends Controller
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
 
-    // dd($mentors);
-
     $price = User::where('role_id', 2)->whereNull('status')->get();
-    $slot = AvailableSchedule::where('date', '>=', now())
-      ->get();
-
+    $slot = AvailableSchedule::where('date', '>=', now())->get();
     $expertise = ExpertiseList::get();
 
     if (!empty($filters)) {
-      return view('browsers', compact('mentors', 'slot', 'price', 'expertise'));
+      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'filters'));
     } else {
       return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price'));
     }
