@@ -47,7 +47,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
+            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
@@ -1069,7 +1069,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
@@ -1433,18 +1433,18 @@
                                             <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.pransainvestment.ca/about-us/" itemprop="url"
+                                                    <a href="https://web.wiseadvizor.com/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.pransainvestment.ca/contact-us/" itemprop="url"
+                                                    <a href="https://web.wiseadvizor.com/contact-us/" itemprop="url"
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.pransainvestment.ca/resources/"
+                                                            href="https://web.wiseadvizor.com/resources/"
                                                             itemprop="url" class="hfe-menu-item" aria-haspopup="true"
                                                             aria-expanded="false">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
@@ -1470,30 +1470,30 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/community-post/"
+                                                            <a href="https://web.wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/libraries/"
+                                                            <a href="https://web.wiseadvizor.com/libraries/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/blogs/"
+                                                            <a href="https://web.wiseadvizor.com/blogs/"
                                                                 itemprop="url" class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.pransainvestment.ca/faq/"
+                                                            <a href="https://web.wiseadvizor.com/faq/"
                                                                 itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.pransainvestment.ca/browse-mentor/"
+                                                    <a href="https://web.wiseadvizor.com/browse-mentor/"
                                                         itemprop="url" class="hfe-menu-item">Browse Mentor</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
