@@ -3255,12 +3255,12 @@
             'text directionltr': ['ltr']
         });
         </script> -->
-        <script
+        <!-- <script
             src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2') }}"
             id="qi-addons-for-elementor-elementor-js"></script>
         <script
             src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-            id="elementor-pro-webpack-runtime-js"></script>
+            id="elementor-pro-webpack-runtime-js"></script> -->
         <script id="elementor-pro-frontend-js-before">
         var ElementorProFrontendConfig = {
             "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
