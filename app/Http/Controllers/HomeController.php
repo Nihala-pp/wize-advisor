@@ -178,11 +178,17 @@ class HomeController extends Controller
       $mentors = User::with(['metaData', 'expertise', 'availability'])
         ->where('role_id', 2)
         ->whereNull('status')
-        // ->whereHas('metaData', function ($query) use ($filters) {
-        //   /** @var Builder $query */
-        //   if ($filters['sort_by'])
-        //     $query->orderBy('price_per_call', $filters['sort_by']);
-        // })
+        ->whereHas('metaData', function ($query) use ($filters) {
+
+          /** @var Builder $query */
+          if ($filters['sort_by'] == 'ASC') {
+            $query->orderBy('price_per_call');
+          }
+
+          if ($filters['sort_by'] == 'DESC') {
+            $query->orderByDesc('price_per_call');
+          }
+        })
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['expertise'])
@@ -198,8 +204,8 @@ class HomeController extends Controller
           if ($filters['name'])
             $query->where('name', $filters['name']);
         })
-        ->get()
-        ->sortByDesc('metaData.price_per_call');
+        ->get();
+        // ->sortByDesc('metaData.price_per_call');
     } else {
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
@@ -699,8 +705,8 @@ class HomeController extends Controller
         'amount' => $price_per_call,
         'paymentMethodNonce' => $nonceFromTheClient,
         'options' => [
-            'submitForSettlement' => True
-          ]
+          'submitForSettlement' => True
+        ]
       ]);
 
       try {
