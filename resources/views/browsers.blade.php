@@ -2182,7 +2182,7 @@
                         </div>
                     </form>
                     @if(empty($mentors->count()))
-                    <p>No Matches Found</p>
+                    <p class="result" style="text-align:center;">No Matches Found</p>
                     @endif
                 </div>
             </div>
