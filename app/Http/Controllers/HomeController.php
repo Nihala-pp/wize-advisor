@@ -178,8 +178,8 @@ class HomeController extends Controller
       $sortby = $filters['sort_by'] ?? 'asc';
       $mentors = User::where('role_id', 2)
         ->whereNull('status')
-        ->with(['metaData' => function($query) use ($filters) {
-          $query->orderBy('price_per_call', $filters['sort_by']);
+        ->with(['metaData' => function($query) use ($sortby) {
+          $query->orderBy('price_per_call', $sortby);
         }])
         // ->whereHas('metaData', function ($query) use ($filters) {
         //   /** @var Builder $query */
