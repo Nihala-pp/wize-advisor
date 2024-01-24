@@ -175,9 +175,11 @@ class HomeController extends Controller
     // dd($mentors);
 
     if (!empty($filters)) {
-      $mentors = User::with(['metaData', 'expertise', 'availability'])
-        ->where('role_id', 2)
+      $mentors = User::where('role_id', 2)
         ->whereNull('status')
+        ->with(['metaData' => function($query) use ($filters) {
+          $query->orderBy('price_per_call', $filters['sort_by']);
+        }])->has('metaData')
         // ->whereHas('metaData', function ($query) use ($filters) {
         //   /** @var Builder $query */
         //   if ($filters['sort_by'] == 'DESC')
@@ -198,7 +200,9 @@ class HomeController extends Controller
           if ($filters['name'])
             $query->where('name', $filters['name']);
         })
-        ->get();
+        ->get()
+        ->sortByDesc('account.restaurant_name');
+
       // ->sortByDesc('metaData.price_per_call');
     } else {
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
