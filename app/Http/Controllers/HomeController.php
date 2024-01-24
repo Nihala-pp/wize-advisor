@@ -179,7 +179,7 @@ class HomeController extends Controller
       $mentors = User::with(['expertise', 'availability'])
         ->where('role_id', 2)
         ->where('status', '!=' , 1)
-        ->orWhereNull('status')
+        ->WhereNull('status')
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['expertise'])
