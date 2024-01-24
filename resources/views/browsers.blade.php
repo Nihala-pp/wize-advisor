@@ -2171,8 +2171,8 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
-                                    <option value="ASC" "ASC"=={{ $filters['sort_by'] ? 'selected' : '' }}>ASC</option>
-                                    <option value="DESC" "DESC"=={{ $filters['sort_by'] ? 'selected' : '' }}>DESC
+                                    <option value="asc" "ASC"=={{ $filters['sort_by'] ? 'selected' : '' }}>ASC</option>
+                                    <option value="desc" "DESC"=={{ $filters['sort_by'] ? 'selected' : '' }}>DESC
                                     </option>
                                 </select>
                             </div>
@@ -3749,6 +3749,7 @@
                 //             filter + "",
                 //         data: {
                 //             "slug": "name",
+                -
                 //             "_token": "{{ csrf_token() }}",
                 //         },
                 //         success: function(response) {
