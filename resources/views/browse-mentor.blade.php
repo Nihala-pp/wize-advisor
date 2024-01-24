@@ -4119,6 +4119,24 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 30px;
         margin-top: 45px;
     }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        padding-left: 15px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 30px !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64;
+    }
 }
 
 @media (max-width: 320px) {}
