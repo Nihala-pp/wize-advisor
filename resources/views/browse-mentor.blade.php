@@ -4113,7 +4113,6 @@ i.fas.fa-bell.fa-2xl {
 
     #menu-item-5136 {
         font-size: 8px;
-        padding-left: 10px;
     }
 
     i.fas.fa-bell.fa-2xl {
