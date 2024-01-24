@@ -178,7 +178,6 @@ class HomeController extends Controller
       $sortby = $filters['sort_by'] ?? 'asc';
       $mentors = User::with(['expertise', 'availability'])
         ->where('role_id', 2)
-        ->where('status', '!=' , 1)
         ->WhereNull('status')
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
