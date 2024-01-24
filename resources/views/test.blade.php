@@ -3087,7 +3087,7 @@
         <script
             src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
             id="niso-carousel-lightbox.min-js"></script> -->
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2') }}" id="jquery-ui-core-js">
+        <!-- <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2') }}" id="jquery-ui-core-js">
         </script>
         <script id="qi-addons-for-elementor-script-js-extra">
         var qodefQiAddonsGlobal = {
@@ -3106,7 +3106,7 @@
         <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
         </script>
         <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
-            id="theplus-front-js-js" defer></script>
+            id="theplus-front-js-js" defer></script> -->
         <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
             id="hfe-frontend-js-js"></script>
         <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
