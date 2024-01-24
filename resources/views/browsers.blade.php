@@ -2179,7 +2179,7 @@
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3">
                                 <button class="btn btn-info apply_filters">Apply</button>
                             </div>
-                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-5 clear_filters">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 clear_filters">
                                 <a class="reset_filters" href="">Clear Filters</a>
                             </div>
                         </div>
