@@ -3815,6 +3815,10 @@
     appearance: none;
 }
 
+.reset_filters {
+    text-align:right;
+}
+
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
 
     div.d-grid.gap-2.col-6.butto {
