@@ -1174,7 +1174,10 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
+    class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
                 rel="home">wiseAdvizor</a></p>
@@ -1444,8 +1447,8 @@
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.wiseadvizor.com/resources/"
-                                                            itemprop="url" class="hfe-menu-item" aria-haspopup="true"
+                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                            class="hfe-menu-item" aria-haspopup="true"
                                                             aria-expanded="false">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div><button
@@ -1481,20 +1484,20 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/blogs/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
+                                                            <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/faq/"
-                                                                itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
+                                                            <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/browse-mentor/"
-                                                        itemprop="url" class="hfe-menu-item">Browse Mentor</a>
+                                                    <a href="https://web.wiseadvizor.com/browse-mentor/" itemprop="url"
+                                                        class="hfe-menu-item">Browse Mentor</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
