@@ -175,6 +175,7 @@ class HomeController extends Controller
     // dd($mentors);
 
     if (!empty($filters)) {
+      $sortby = $filters['sort_by'] ?? 'asc';
       $mentors = User::where('role_id', 2)
         ->whereNull('status')
         ->with(['metaData' => function($query) use ($filters) {
