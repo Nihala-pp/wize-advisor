@@ -3817,7 +3817,7 @@
 
 .reset_filters {
     text-align:right;
-    margin-left:100px;
+    padding-left:100px;
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
