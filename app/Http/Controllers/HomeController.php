@@ -176,11 +176,9 @@ class HomeController extends Controller
 
     if (!empty($filters)) {
       $sortby = $filters['sort_by'] ?? 'asc';
-      $mentors = User::where('role_id', 2)
+      $mentors = User::with('expertise', 'availability')
+        ->where('role_id', 2)
         ->whereNull('status')
-        ->with(['metaData' => function($query) use ($sortby) {
-          $query->orderBy('price_per_call', $sortby);
-        }])
         // ->whereHas('metaData', function ($query) use ($filters) {
         //   /** @var Builder $query */
         //   if ($filters['sort_by'] == 'DESC')
@@ -200,7 +198,11 @@ class HomeController extends Controller
           /** @var Builder $query */
           if ($filters['name'])
             $query->where('name', $filters['name']);
+
+          if($filters['sort_by'])
+          $query->orderBy('price', $filters['sort_by']);
         })
+        // ->orderBy('price', $sortby)
         ->get();
       // ->sortByDesc('metaData.price_per_call');
     } else {
