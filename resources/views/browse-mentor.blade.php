@@ -2173,7 +2173,7 @@
                                     <option value="DESC">DESC </option>
                                 </select>
                             </div>
-                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <button class="btn btn-info apply_filters">Apply</button>
                             </div>
                         </div>
