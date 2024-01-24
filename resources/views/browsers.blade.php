@@ -2181,10 +2181,10 @@
                             </div>
                         </div>
                     </form>
+                    @if(empty($mentors->count()))
+                    <p>No Matches Found</p>
+                    @endif
                 </div>
-                @if(empty($mentors->count()))
-                No Matches Found
-                @endif
             </div>
         </section>
         <section
