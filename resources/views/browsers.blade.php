@@ -3816,7 +3816,6 @@
 }
 
 .reset_filters {
-    text-align:right;
     padding-left:100px;
 }
 
