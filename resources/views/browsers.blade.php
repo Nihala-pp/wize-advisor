@@ -2180,11 +2180,11 @@
                                 <button class="btn btn-info apply_filters">Apply</button>
                             </div>
                         </div>
-                        @if(empty($mentors->count()))
-                        No Matches Found
-                        @endif
                     </form>
                 </div>
+                @if(empty($mentors->count()))
+                No Matches Found
+                @endif
             </div>
         </section>
         <section
