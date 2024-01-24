@@ -4004,14 +4004,15 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
-    .result {
-        font-size: 16px;
-        margin-top:20px;
-    }
-
     .reset_filters {
         font-size: 14px;
-        padding-left:10px;
+        color: #007bff;
+        padding-left: 10px;
+    }
+
+    .result {
+        font-size: 16px;
+        margin-top: 20px;
     }
 
     .elementor-star-rating__wrapper {
