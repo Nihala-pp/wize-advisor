@@ -3821,7 +3821,7 @@
 
 .clear_filters {
     margin-left: auto; 
-    margin-right: 0;
+    margin-right: 20;
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
