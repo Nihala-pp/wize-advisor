@@ -3817,6 +3817,7 @@
 
 .reset_filters {
     font-size: 14px;
+    color: #007bff;
 }
 
 .clear_filters {
