@@ -1457,9 +1457,8 @@
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown">
-                                                <a class="text-reset me-3" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
+                                                <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
@@ -1732,8 +1731,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1754,8 +1753,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -5864,10 +5863,7 @@
                         items: 4,
                     }
                 }
-            })
-
-
-
+            });
         });
     }(jQuery));
     </script>
@@ -7048,7 +7044,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding: 0px 0px 0px 30px;
+        padding: 20px 0px 0px 30px;
         margin-top: 45px;
     }
 
@@ -7065,6 +7061,22 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         padding-left: 15px;
         font-size: 1;
     } */
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width: 92%;
+        /* max-width: 120%; */
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -40px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
+    }
 }
 
 @media (max-width: 320px) {}
