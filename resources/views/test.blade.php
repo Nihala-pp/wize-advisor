@@ -2140,38 +2140,44 @@
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                            <!-- <label>Select with Button Class</label> -->
-                            <select id="expertise" class="selectpicker" data-style="btn-info">
-                                <option value="">Expertise</option>
-                                @foreach($expertise as $expert)
-                                <option value="{{ $expert->name }}" {{ $expert->name == $variable  ? 'selected' : '' }}>
-                                    {{ $expert->name }}
-                                </option>
-                                @endforeach
-                            </select>
+                    <form class="filterForm">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <!-- <label>Select with Button Class</label> -->
+                                <select id="expertise" class="selectpicker" data-style="btn-info"
+                                    name="filters[expertise]">
+                                    <option value="">Expertise</option>
+                                    @foreach($expertise as $expert)
+                                    <option value="{{ $expert->name }}">
+                                        {{ $expert->name }}
+                                    </option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
+                                <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker"
+                                    id="date" name="filters[date]">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
+                                <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
+                                    <option value="">Search by name</option>
+                                    @foreach($price as $pr)
+                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
+                                    <option value="">Sort by Price</option>
+                                    <option value="asc">ASC</option>
+                                    <option value="desc">DESC </option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <button class="btn btn-info apply_filters">Apply</button>
+                            </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                            <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker" id="date"
-                                name="date" required>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
-                            <select id="name" class="selectpicker" data-style="btn-info">
-                                <option value="">Search by name</option>
-                                @foreach($price as $pr)
-                                <option value="{{ $pr->name }}">{{ $pr->name }}</option>
-                                @endforeach
-                            </select>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                            <select id="sort" class="selectpicker" data-style="btn-info">
-                                <option value="">Sort by Price</option>
-                                <option value="ASC">ASC</option>
-                                <option value="DESC">DESC </option>
-                            </select>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -3635,15 +3641,14 @@
                     // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
                 });
 
-                $('#name').on('change', function() {
-                    var name = $(this).val();
-                    var filter = "name";
+                $('.apply_filters').on('click', function() {
+                    var form = $('.filterForm').serialize();
+
                     return $.ajax({
                         type: 'GET',
-                        url: "{{ route('browseMentor', '') }}" + "/" + name + "/" +
-                            filter + "",
+                        url: "{{ route('browseMentor') }}",
                         data: {
-                            "slug": "name",
+                            form,
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
@@ -3653,96 +3658,114 @@
                     });
                 });
 
-                $('#price').on('change', function() {
-                    var price = $(this).val();
-                    var filter = "price";
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor', '') }}" + "/" + price + "/" +
-                            filter + "",
-                        data: {
-                            "slug": "name",
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function(response) {
-                            $('.mentors').html(response);
-                            $('.mentorsList').hide();
-                        }
-                    });
-                });
+                // $('#name').on('change', function() {
+                //     var name = $(this).val();
+                //     var filter = "name";
+                //     return $.ajax({
+                //         type: 'GET',
+                //         url: "{{ route('browseMentor', '') }}" + "/" + name + "/" +
+                //             filter + "",
+                //         data: {
+                //             "slug": "name",
+                //             "_token": "{{ csrf_token() }}",
+                //         },
+                //         success: function(response) {
+                //             $('.mentors').html(response);
+                //             $('.mentorsList').hide();
+                //         }
+                //     });
+                // });
 
-                $('#time').on('change', function() {
-                    var time = $(this).val();
-                    var filter = "time";
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor', '') }}" + "/" + time + "/" +
-                            filter + "",
-                        data: {
-                            "slug": "name",
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function(response) {
-                            $('.mentors').html(response);
-                            $('.mentorsList').hide();
-                        }
-                    });
-                });
+                // $('#price').on('change', function() {
+                //     var price = $(this).val();
+                //     var filter = "price";
+                //     return $.ajax({
+                //         type: 'GET',
+                //         url: "{{ route('browseMentor', '') }}" + "/" + price + "/" +
+                //             filter + "",
+                //         data: {
+                //             "slug": "name",
+                //             "_token": "{{ csrf_token() }}",
+                //         },
+                //         success: function(response) {
+                //             $('.mentors').html(response);
+                //             $('.mentorsList').hide();
+                //         }
+                //     });
+                // });
 
-                $('#date').on('change', function(ev) {
-                    var date = $(this).val();
-                    // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
-                    var filter = "date";
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor', '') }}" + "/" + date + "/" +
-                            filter + "",
-                        data: {
-                            "slug": "name",
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function(response) {
-                            $('.mentors').html(response);
-                            $('.mentorsList').hide();
-                        }
-                    });
-                });
+                // $('#time').on('change', function() {
+                //     var time = $(this).val();
+                //     var filter = "time";
+                //     return $.ajax({
+                //         type: 'GET',
+                //         url: "{{ route('browseMentor', '') }}" + "/" + time + "/" +
+                //             filter + "",
+                //         data: {
+                //             "slug": "name",
+                //             "_token": "{{ csrf_token() }}",
+                //         },
+                //         success: function(response) {
+                //             $('.mentors').html(response);
+                //             $('.mentorsList').hide();
+                //         }
+                //     });
+                // });
 
-                $('#expertise').on('change', function() {
-                    var expertise = $(this).val();
-                    var filter = "expertise";
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor', '') }}" + "/" + expertise + "/" +
-                            filter + "",
-                        data: {
-                            "slug": "name",
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function(response) {
-                            $('.mentors').html(response);
-                            $('.mentorsList').hide();
-                        }
-                    });
-                });
+                // $('#date').on('change', function(ev) {
+                //     var date = $(this).val();
+                //     // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
+                //     var filter = "date";
+                //     return $.ajax({
+                //         type: 'GET',
+                //         url: "{{ route('browseMentor', '') }}" + "/" + date + "/" +
+                //             filter + "",
+                //         data: {
+                //             "slug": "name",
+                //             "_token": "{{ csrf_token() }}",
+                //         },
+                //         success: function(response) {
+                //             $('.mentors').html(response);
+                //             $('.mentorsList').hide();
+                //         }
+                //     });
+                // });
 
-                $('#sort').on('change', function() {
-                    var sort = $(this).val();
-                    var filter = "sortBy";
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor', '') }}" + "/" + sort + "/" +
-                            filter + "",
-                        data: {
-                            "slug": "name",
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function(response) {
-                            $('.mentors').html(response);
-                            $('.mentorsList').hide();
-                        }
-                    });
-                });
+                // $('#expertise').on('change', function() {
+                //     var expertise = $(this).val();
+                //     var filter = "expertise";
+                //     return $.ajax({
+                //         type: 'GET',
+                //         url: "{{ route('browseMentor', '') }}" + "/" + expertise + "/" +
+                //             filter + "",
+                //         data: {
+                //             "slug": "name",
+                //             "_token": "{{ csrf_token() }}",
+                //         },
+                //         success: function(response) {
+                //             $('.mentors').html(response);
+                //             $('.mentorsList').hide();
+                //         }
+                //     });
+                // });
+
+                // $('#sort').on('change', function() {
+                //     var sort = $(this).val();
+                //     var filter = "sortBy";
+                //     return $.ajax({
+                //         type: 'GET',
+                //         url: "{{ route('browseMentor', '') }}" + "/" + sort + "/" +
+                //             filter + "",
+                //         data: {
+                //             "slug": "name",
+                //             "_token": "{{ csrf_token() }}",
+                //         },
+                //         success: function(response) {
+                //             $('.mentors').html(response);
+                //             $('.mentorsList').hide();
+                //         }
+                //     });
+                // });
             });
         }(jQuery));
         </script>
@@ -4121,4 +4144,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 </style>
+
 </html>
