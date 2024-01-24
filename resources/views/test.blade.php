@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Browse Mentor &#8211; wiseAdvizor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -16,7 +16,7 @@
         href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="{{ asset('public/comments/feed/') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
@@ -29,8 +29,8 @@
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
 
-     <!-- Google Tag Manager -->
-     <script>
+    <!-- Google Tag Manager -->
+    <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
@@ -1242,6 +1242,7 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
+
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
                 rel="home">wiseAdvizor</a></p>
@@ -1500,19 +1501,19 @@
                                             <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/about-us/" itemprop="url"
+                                                    <a href="https://web.pransainvestment.ca/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/contact-us/" itemprop="url"
+                                                    <a href="https://web.pransainvestment.ca/contact-us/" itemprop="url"
                                                         class="hfe-menu-item">Contact Us</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
-                                                            class="hfe-menu-item" aria-haspopup="true"
+                                                            href="https://web.pransainvestment.ca/resources/"
+                                                            itemprop="url" class="hfe-menu-item" aria-haspopup="true"
                                                             aria-expanded="false">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div><button
@@ -1537,31 +1538,31 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/community-post/"
+                                                            <a href="https://web.pransainvestment.ca/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/libraries/"
+                                                            <a href="https://web.pransainvestment.ca/libraries/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a>
+                                                            <a href="https://web.pransainvestment.ca/blogs/"
+                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                            <a href="https://web.pransainvestment.ca/faq/"
+                                                                itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/browse-mentor/" itemprop="url"
-                                                        class="hfe-menu-item">Browse Mentor</a>
+                                                    <a href="https://web.pransainvestment.ca/browse-mentor/"
+                                                        itemprop="url" class="hfe-menu-item">Browse Mentor</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
@@ -1846,6 +1847,7 @@
             </section>
         </div>
     </header>
+
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-82fl1zs elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default"
