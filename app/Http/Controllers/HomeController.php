@@ -181,7 +181,7 @@ class HomeController extends Controller
         ->whereHas('metaData', function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['sort_by'] == 'DESC')
-            $query->orderBy('price_per_call', 'desc');
+            $query->where('price_per_call','!=', 0)->orderBy('id', 'desc');
         })
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
