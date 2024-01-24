@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Browse Mentor &#8211; wiseAdvizor</title>
     <script>
@@ -21,24 +22,6 @@
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
 
-    <!-- Google Tag Manager -->
-    <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PK457VCB');
-    </script>
-    <!-- End Google Tag Manager -->
     <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
@@ -62,113 +45,64 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\/https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
+            "concatemoji": "https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"
         }
     };
     /*! This file is auto-generated */
-    ! function(i, n) {
-        var o, s, e;
+    ! function(e, a, t) {
+        var n, r, o, i = a.createElement("canvas"),
+            p = i.getContext && i.getContext("2d");
+
+        function s(e, t) {
+            p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
+            e = i.toDataURL();
+            return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
+        }
 
         function c(e) {
-            try {
-                var t = {
-                    supportTests: e,
-                    timestamp: (new Date).valueOf()
-                };
-                sessionStorage.setItem(o, JSON.stringify(t))
-            } catch (e) {}
+            var t = a.createElement("script");
+            t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
         }
-
-        function p(e, t, n) {
-            e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
-            var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
-                r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
-                    .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-            return t.every(function(e, t) {
-                return e === r[t]
-            })
-        }
-
-        function u(e, t, n) {
-            switch (t) {
+        for (o = Array("flag", "emoji"), t.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+            if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                    return s("🏳️‍⚧️", "🏳️​⚧️") ? !1 : !s("🇺🇳", "🇺​🇳") && !s("🏴󠁧󠁢󠁥󠁮󠁧󠁿",
                         "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !s("🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
             }
             return !1
-        }
-
-        function f(e, t, n) {
-            var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
-                    300, 150) : i.createElement("canvas"),
-                a = r.getContext("2d", {
-                    willReadFrequently: !0
-                }),
-                o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-            return e.forEach(function(e) {
-                o[e] = t(a, e, n)
-            }), o
-        }
-
-        function t(e) {
-            var t = i.createElement("script");
-            t.src = e, t.defer = !0, i.head.appendChild(t)
-        }
-        "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
-            everything: !0,
-            everythingExceptFlag: !0
-        }, e = new Promise(function(e) {
-            i.addEventListener("DOMContentLoaded", e, {
-                once: !0
-            })
-        }), new Promise(function(t) {
-            var n = function() {
-                try {
-                    var e = JSON.parse(sessionStorage.getItem(o));
-                    if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
-                        e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-                } catch (e) {}
-                return null
-            }();
-            if (!n) {
-                if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
-                    typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
-                    var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
-                            .toString()
-                        ].join(",") + "));",
-                        r = new Blob([e], {
-                            type: "text/javascript"
-                        }),
-                        a = new Worker(URL.createObjectURL(r), {
-                            name: "wpTestEmojiSupports"
-                        });
-                    return void(a.onmessage = function(e) {
-                        c(n = e.data), a.terminate(), t(n)
-                    })
-                } catch (e) {}
-                c(n = f(s, u, p))
-            }
-            t(n)
-        }).then(function(e) {
-            for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
-                .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
-                    .everythingExceptFlag && n.supports[t]);
-            n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
-                .DOMReady = !1, n.readyCallback = function() {
-                    n.DOMReady = !0
-                }
-        }).then(function() {
-            return e
-        }).then(function() {
-            var e;
-            n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
-                .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
-        }))
-    }((window, document), window._wpemojiSettings);
+        }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
+            .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+            .readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
+                1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
+                .wpemoji)))
+    }(window, document, window._wpemojiSettings);
     </script>
-    <style id="wp-emoji-styles-inline-css">
+    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11325588607');
+    </script>
+    <style>
     img.wp-smiley,
     img.emoji {
         display: inline !important;
@@ -195,7 +129,8 @@
         --wp-block-synced-color--rgb: 122, 0, 223
     }
 
-    @media (min-resolution:192dpi) {
+    @media (-webkit-min-device-pixel-ratio:2),
+    (min-resolution:192dpi) {
         :root {
             --wp-admin-border-width-focus: 1.5px
         }
@@ -383,7 +318,7 @@
         max-width: 100%
     }
 
-    :where(figure) {
+    figure {
         margin: 0 0 1em
     }
 
@@ -396,20 +331,51 @@
             --wp-admin--admin-bar--position-offset: 0px
         }
     }
+
+    /* ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .pe-7s-user {
+        margin-right: 20px;
+        align: center;
+    } */
+    /* 
+    .elementor-button-wrapper .browse {
+        margin-left: 20px;
+    } */
+
+    /* .menuITem {
+        margin-left: 30px;
+    } */
+
+    .name {
+        font-size: 13px;
+        line-height: 0em;
+        margin-right: 20px;
+    }
+
+    /* .menu {
+        font-size: 12px;
+        text-align: center;
+    } */
     </style>
     <link rel="preload"
-        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
+        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
         as="style" id="tpgb-fontawesome" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
+            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
             media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
         media="all">
     <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688368797" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687429826" media="all">
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
@@ -449,6 +415,20 @@
         --wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
         --wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
         --wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
+        --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+        --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+        --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+        --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+        --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+        --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+        --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+        --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+        --wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');
+        --wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');
+        --wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');
+        --wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');
+        --wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');
+        --wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');
         --wp--preset--font-size--small: 1rem;
         --wp--preset--font-size--medium: 1.125rem;
         --wp--preset--font-size--large: 1.75rem;
@@ -502,54 +482,40 @@
         margin-right: auto;
     }
 
-    :where(.wp-site-blocks)>* {
-        margin-block-start: 1.5rem;
-        margin-block-end: 0;
-    }
-
-    :where(.wp-site-blocks)> :first-child:first-child {
+    .wp-site-blocks>* {
         margin-block-start: 0;
+        margin-block-end: 0;
     }
 
-    :where(.wp-site-blocks)> :last-child:last-child {
-        margin-block-end: 0;
+    .wp-site-blocks>*+* {
+        margin-block-start: 1.5rem;
     }
 
     body {
         --wp--style--block-gap: 1.5rem;
     }
 
-    :where(body .is-layout-flow)> :first-child:first-child {
+    body .is-layout-flow>* {
         margin-block-start: 0;
-    }
-
-    :where(body .is-layout-flow)> :last-child:last-child {
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-flow)>* {
+    body .is-layout-flow>*+* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-constrained)> :first-child:first-child {
+    body .is-layout-constrained>* {
         margin-block-start: 0;
-    }
-
-    :where(body .is-layout-constrained)> :last-child:last-child {
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-constrained)>* {
+    body .is-layout-constrained>*+* {
         margin-block-start: 1.5rem;
         margin-block-end: 0;
     }
 
-    :where(body .is-layout-flex) {
-        gap: 1.5rem;
-    }
-
-    :where(body .is-layout-grid) {
+    body .is-layout-flex {
         gap: 1.5rem;
     }
 
@@ -607,14 +573,6 @@
     }
 
     body .is-layout-flex>* {
-        margin: 0;
-    }
-
-    body .is-layout-grid {
-        display: grid;
-    }
-
-    body .is-layout-grid>* {
         margin: 0;
     }
 
@@ -999,37 +957,6 @@
         font-family: var(--wp--preset--font-family--source-serif-pro) !important;
     }
     </style>
-    <style id="wp-block-template-skip-link-inline-css">
-    .skip-link.screen-reader-text {
-        border: 0;
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50%);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute !important;
-        width: 1px;
-        word-wrap: normal !important;
-    }
-
-    .skip-link.screen-reader-text:focus {
-        background-color: #eee;
-        clip: auto !important;
-        clip-path: none;
-        color: #444;
-        display: block;
-        font-size: 1em;
-        height: auto;
-        left: 5px;
-        line-height: normal;
-        padding: 15px 23px 14px;
-        text-decoration: none;
-        top: 5px;
-        width: auto;
-        z-index: 100000;
-    }
-    </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
         media="all">
@@ -1051,89 +978,7 @@
     <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
         media="all">
-    <link rel="stylesheet" id="hfe-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
-        media="all">
-    <link rel="stylesheet" id="elementor-frontend-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        media="all">
-    <link rel="stylesheet" id="swiper-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-5-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
-    <link rel="stylesheet" id="she-header-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
-        media="all">
-    <link rel="stylesheet" id="elementor-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">
-    <link rel="stylesheet" id="elementor-post-2772-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
-    <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1699609169" media="all">
-    <link rel="stylesheet" id="elementor-post-32-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1"
-        media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
-        media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
-        media="all">
-    <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364619" media="all">
-    <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
-    <link rel="stylesheet" id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-shared-0-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
-        media="all">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script id="jquery-core-js-extra">
-    var tpgb_load = {
-        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
-    };
-    var smoothAllowedBrowsers = [];
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
-    </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
-        id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
-    <meta name="generator" content="WordPress 6.4.1">
-    <link rel="canonical" href="https://wiseadvizor.com/browse-mentor/">
-    <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
-    <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F">
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F#038;format=xml">
-    <meta name="generator"
-        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <style id="wp-fonts-local">
+    <style id="wp-webfonts-inline-css">
     @font-face {
         font-family: "Source Serif Pro";
         font-style: normal;
@@ -1152,6 +997,104 @@
         font-stretch: normal;
     }
     </style>
+    <link rel="stylesheet" id="hfe-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
+        media="all">
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+        media="all">
+    <link rel="stylesheet" id="swiper-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-5-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
+    <link rel="stylesheet" id="elementor-pro-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
+        media="all">
+    <link rel="stylesheet" id="font-awesome-5-all-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
+        media="all">
+    <link rel="stylesheet" id="font-awesome-4-shim-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
+        media="all">
+    <link rel="stylesheet" id="she-header-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        media="all">
+    <link rel="stylesheet" id="elementor-global-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">
+    <link rel="stylesheet" id="elementor-post-11-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-11.css?ver=1688659619" media="all">
+    <link rel="stylesheet" id="hfe-widgets-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
+    <link rel="stylesheet" id="elementor-post-32-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.2.2"
+        media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.2.2"
+        media="all">
+    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
+        media="all">
+    <link rel="stylesheet" id="theplus-front-css-css"
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688659619" media="all">
+    <link rel="stylesheet" id="twentytwentytwo-style-css"
+        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+    <link rel="stylesheet" id="elementor-post-3033-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3033.css?ver=1688395839" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+        media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script id="jquery-core-js-extra">
+    var tpgb_load = {
+        "ajaxUrl": "https:\/\/pransainvestment.ca\/wp-admin\/admin-ajax.php"
+    };
+    var smoothAllowedBrowsers = [];
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
+    </script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
+        id="font-awesome-4-shim-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
+        id="she-header-js"></script>
+    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/11">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://wiseadvizor.com/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 6.2.2">
+    <link rel="canonical" href="https://wiseadvizor.com/about-us/">
+    <link rel="shortlink" href="https://wiseadvizor.com/?p=11">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fabout-us%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fabout-us%2F#038;format=xml">
+    <meta name="generator"
+        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style type="text/css">
     #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
         height: 350px;
@@ -1229,239 +1172,9 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg> -->
+    class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="wiseAdvizor"
+        <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
                 rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
             <header
@@ -1527,7 +1240,7 @@
                                             data-full-width="yes">
                                             <ul id="menu-1-359f243" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/about-us/" itemprop="url"
                                                         class="hfe-menu-item">About Us</a>
                                                 </li>
@@ -1546,7 +1259,7 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/community-posts/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
@@ -1596,10 +1309,9 @@
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
-                                            <div class="dropdown">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
+                                            <div class="dropdown noti">
+                                                <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
@@ -1665,12 +1377,6 @@
                                             </span>
                                         </a>
                                         @endif
-                                        <!-- <a class="elementor-button elementor-button-link elementor-size-sm"
-											href="">
-											<span class="elementor-button-content-wrapper">
-												<span class="elementor-button-text">Sign In</span>
-											</span>
-										</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -1708,8 +1414,8 @@
                                 data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                 data-widget_type="navigation-menu.default">
                                 <div class="elementor-widget-container">
-                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none nav_menu"
-                                        data-layout="horizontal" id="open_nav nav_menu">
+                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
+                                        data-layout="horizontal">
                                         <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
                                             aria-haspopup="true" aria-expanded="false">
                                             <span class="screen-reader-text">Menu</span>
@@ -1878,8 +1584,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3 dropdown-toggle hidden-arrow"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1900,8 +1606,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="dropdown-toggle d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -3626,11 +3332,11 @@
 
                 //     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
 
-                    // $('#nav_menu').setAttribute("aria-expanded", "true");
-                    // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
+                // $('#nav_menu').setAttribute("aria-expanded", "true");
+                // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
 
-                    // document.getElementById("open_nav").setAttribute("aria-expanded", x);
-                    // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
+                // document.getElementById("open_nav").setAttribute("aria-expanded", x);
+                // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
                 // });
 
                 $('.apply_filters').on('click', function() {
