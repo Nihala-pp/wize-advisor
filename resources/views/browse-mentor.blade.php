@@ -3652,8 +3652,8 @@
                             "_token": "{{ csrf_token() }}",
                         },
                         success: function(response) {
-                            // $('.mentors').html(response);
-                            // $('.mentorsList').hide();
+                            $('.mentors').html(response);
+                            $('.mentorsList').hide();
                         }
                     });
                 });
