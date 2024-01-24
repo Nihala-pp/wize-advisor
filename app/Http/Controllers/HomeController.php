@@ -178,11 +178,11 @@ class HomeController extends Controller
       $mentors = User::with(['metaData', 'expertise', 'availability'])
         ->where('role_id', 2)
         ->whereNull('status')
-        ->whereHas('metaData', function ($query) use ($filters) {
-          /** @var Builder $query */
-          if ($filters['sort_by'])
-            $query->orderBy('price_per_call', $filters['sort_by']);
-        })
+        // ->whereHas('metaData', function ($query) use ($filters) {
+        //   /** @var Builder $query */
+        //   if ($filters['sort_by'])
+        //     $query->orderBy('price_per_call', $filters['sort_by']);
+        // })
         ->whereHas('expertise', function ($query) use ($filters) {
           /** @var Builder $query */
           if ($filters['expertise'])
@@ -197,7 +197,8 @@ class HomeController extends Controller
           /** @var Builder $query */
           if ($filters['name'])
             $query->where('name', $filters['name']);
-        })->get();
+        })->get()
+        ->sortBy('metaData.price_per_call', $filters['sort_by']);
     } else {
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
