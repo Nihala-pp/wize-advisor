@@ -179,7 +179,7 @@ class HomeController extends Controller
         ->whereNull('status')
         ->with(['metaData' => function($query) use ($filters) {
           $query->orderBy('price_per_call', $filters['sort_by']);
-        }])->has('metaData')
+        }])
         // ->whereHas('metaData', function ($query) use ($filters) {
         //   /** @var Builder $query */
         //   if ($filters['sort_by'] == 'DESC')
