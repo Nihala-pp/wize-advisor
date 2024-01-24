@@ -2179,7 +2179,7 @@
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3">
                                 <button class="btn btn-info apply_filters">Apply</button>
                             </div>
-                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-4">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-4 clear_filters">
                                 <a class="reset_filters" href="">Clear Filters</a>
                             </div>
                         </div>
@@ -3816,8 +3816,11 @@
 }
 
 .reset_filters {
-    padding-left:100px;
+    font-size:16px;
 }
+
+margin-left: auto; 
+margin-right: 0;
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
 
