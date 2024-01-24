@@ -3816,7 +3816,7 @@
 }
 
 .reset_filters {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .clear_filters {
