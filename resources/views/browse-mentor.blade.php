@@ -4127,6 +4127,7 @@ i.fas.fa-bell.fa-2xl {
 
     i.fas.fa-bell.fa-2xl {
         font-size: 30px !important;
+        color:#000;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
