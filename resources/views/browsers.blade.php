@@ -4009,7 +4009,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .reset_filters {
-        font-size: 16px;
+        font-size: 14px;
+        padding-left:10px;
     }
 
     .elementor-star-rating__wrapper {
