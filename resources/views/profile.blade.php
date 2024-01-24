@@ -7075,7 +7075,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
         margin: -40px 0px 0px 0px;
-        padding: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 }
 
