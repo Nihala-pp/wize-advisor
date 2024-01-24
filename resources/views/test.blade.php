@@ -8,7 +8,7 @@
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    var theplus_nonce = "d4a31829e8";
+    var theplus_nonce = "e7ae24e787";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
