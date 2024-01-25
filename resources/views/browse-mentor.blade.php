@@ -3806,6 +3806,12 @@
     appearance: none;
 }
 
+.search {
+    width: 55%;
+    text-align: left;
+    /* margin-left: 125px !important; */
+}
+
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
 
     div.d-grid.gap-2.col-6.butto {
