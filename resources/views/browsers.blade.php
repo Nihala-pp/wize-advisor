@@ -2171,13 +2171,14 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
-                                    <option value="asc" {{ $filters['sort_by'] == "asc" ? 'selected' : '' }}>ASC</option>
+                                    <option value="asc" {{ $filters['sort_by'] == "asc" ? 'selected' : '' }}>ASC
+                                    </option>
                                     <option value="desc" {{ $filters['sort_by'] == "desc" ? 'selected' : '' }}>DESC
                                     </option>
                                 </select>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <button class="btn btn-info apply_filters">Apply To Search</button>
+                                <button class="btn btn-info apply_filters search">Apply To Search</button>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters clear_filters">
                                 <a href="{{ route('browseMentor') }}" class="reset_filters">Clear Filters</a>
@@ -3989,6 +3990,12 @@ screen and (min-width: 1024px) {
         /* padding-top: 25px !important; */
         content: "" !important;
     }
+
+    .search {
+        width: 130%;
+        text-align: left;
+        /* margin-left: 125px !important; */
+    }
 }
 
 .card-deck .card {
@@ -4150,6 +4157,12 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
         margin-top: 45px;
+    }
+
+    .search {
+        width: 55% !important;
+        text-align: left;
+        /* margin-left: 125px !important; */
     }
 }
 
