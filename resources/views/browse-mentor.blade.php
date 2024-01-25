@@ -2155,8 +2155,9 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" placeholder="FILTER BY DATE" onchange="this.className=(this.value!=''?'has-value':'')" class="form-control selectpicker"
-                                    id="date" name="filters[date]">
+                                <input type="date" placeholder="FILTER BY DATE"
+                                    onchange="this.className=(this.value!=''?'has-value':'')"
+                                    class="form-control selectpicker" id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
@@ -3888,6 +3889,11 @@
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
+
+    input[type="date"]:not(.has-value):before {
+        color: lightgray;
+        content: attr(placeholder);
+    }
 
     ::placeholder {
         /* margin-top: 15px !important; */
