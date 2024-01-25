@@ -1809,8 +1809,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1831,8 +1831,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -2088,6 +2088,27 @@
         .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
             padding: 0px 0px 0px 30px;
             margin-top: 60px;
+        }
+
+        i.fas.fa-bell.fa-2xl {
+            font-size: 27px !important;
+            color: #000;
+            padding-left: 10px;
+        }
+
+        .rounded-circle {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: auto;
+            max-width: 100%;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+        }
+
+        #menu-item-5136 {
+            font-size: 8px;
+            /* padding-left: 15px; */
         }
 
         /* i.fas.fa-bell.fa-2xl {
