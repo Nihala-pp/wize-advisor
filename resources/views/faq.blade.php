@@ -3989,11 +3989,6 @@ i.fas.fa-bell.fa-2xl {
         margin-top: 60px;
     }
 
-    #menu-item-5136 {
-        font-size: 8px;
-        padding-left: 15px;
-    }
-
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
