@@ -3971,7 +3971,7 @@ screen and (min-width: 1024px) {
     }
 
     .search {
-        width: 75%;
+        width: 130%;
         text-align: left;
         /* margin-left: 125px !important; */
     }
