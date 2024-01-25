@@ -3994,6 +3994,7 @@ screen and (min-width: 1024px) {
     .search {
         width: 130%;
         text-align: left;
+        background-color:#000;
         /* margin-left: 125px !important; */
     }
 }
@@ -4153,6 +4154,7 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 55% !important;
         text-align: left;
+        background-color:#000;
         /* margin-left: 125px !important; */
     }
 
