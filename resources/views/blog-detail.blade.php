@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Blog-detail | wiseAdvizor - Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -10,7 +11,6 @@
     var theplus_nonce = "a524c30ab1";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Blogs &#8211; wiseAdvizor</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">

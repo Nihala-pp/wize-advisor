@@ -10,7 +10,7 @@
     var theplus_nonce = "41e9834823";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Libraries &#8211; wiseAdvizor</title>
+    <title>Libraries | wiseAdvizor: Startup mentorship platform</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">

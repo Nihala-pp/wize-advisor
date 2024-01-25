@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title>FAQ &#8211; wiseAdvizor</title>
+    <title>FAQ | wiseAdvizor: Startup mentorship platform</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
