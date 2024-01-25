@@ -11,13 +11,14 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+<title>Join wiseAdvizor | Startup mentorship for your success</title>
 
 @include('partials.header')
 
 
 <body class="">
-     <!-- Google Tag Manager (noscript) -->
-     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="container position-sticky z-index-sticky top-0">
@@ -197,6 +198,7 @@
     $('.select2').select2();
     </script>
 </body>
+
 </html>
 <style>
 .linkedin {
