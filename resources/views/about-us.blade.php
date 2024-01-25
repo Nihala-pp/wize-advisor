@@ -1311,9 +1311,8 @@
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown noti">
-                                                <a class="text-reset me-3" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
+                                                <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
@@ -1586,8 +1585,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1608,8 +1607,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -3977,13 +3976,13 @@ i.fas.fa-bell.fa-2xl {
 
 .d-flex {
     margin-left: 10px;
-    display: -webkit-box!important;
-    display: -ms-flexbox!important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     /* display: flex!important; */
 }
 
 .rounded-circle {
-    border-radius: 50%!important;
+    border-radius: 50% !important;
     margin-top: 3px !important;
 }
 
@@ -4102,6 +4101,16 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 10px;
     }
 
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
         font-size: 32px !important;
         padding-left: 10px;
@@ -4128,4 +4137,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 </style>
+
 </html>
