@@ -3319,7 +3319,7 @@
             sibling.parentElement.insertBefore(skipLink, sibling);
         }());
         </script>
-        <script
+        <!-- <script
             src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
             id="niso-carousel-owl.min-js"></script>
         <script
@@ -3347,7 +3347,7 @@
         <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
         </script>
         <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
-            id="theplus-front-js-js" defer></script>
+            id="theplus-front-js-js" defer></script> -->
         <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
             id="hfe-frontend-js-js"></script>
         <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
@@ -3480,7 +3480,7 @@
         </script>
         <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
             id="elementor-frontend-js"></script>
-        <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
+        <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
             id="wp-polyfill-inert-js"></script>
         <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
             id="regenerator-runtime-js"></script>
@@ -3501,7 +3501,7 @@
             id="qi-addons-for-elementor-elementor-js"></script>
         <script
             src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-            id="elementor-pro-webpack-runtime-js"></script>
+            id="elementor-pro-webpack-runtime-js"></script> -->
         <script id="elementor-pro-frontend-js-before">
         var ElementorProFrontendConfig = {
             "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -3592,9 +3592,9 @@
         <script
             src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
             id="pro-elements-handlers-js"></script>
-        <script
+        <!-- <script
             src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-            id="e-sticky-js"></script>
+            id="e-sticky-js"></script> -->
         <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4') }}" id="underscore-js"></script>
         <script id="wp-util-js-extra">
         var _wpUtilSettings = {
@@ -3613,10 +3613,10 @@
         <script
             src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
             id="wpforms-elementor-js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
         </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
         </script>
