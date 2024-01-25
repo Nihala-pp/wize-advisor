@@ -3962,7 +3962,7 @@
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
-    Margin-top: 7px;
+    /* Margin-top: 7px; */
 }
 
 .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
@@ -3974,17 +3974,16 @@ i.fas.fa-bell.fa-2xl {
     color: #001E64 !important;
 }
 
-.d-flex {
+/* .d-flex {
     margin-left: 10px;
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    /* display: flex!important; */
-}
+} */
 
-.rounded-circle {
+/* .rounded-circle {
     border-radius: 50% !important;
     margin-top: 3px !important;
-}
+} */
 
 @media only screen and (max-width: 1290px) {
     /* html :where(img[class*=rounded-circle]) {
@@ -4098,7 +4097,7 @@ i.fas.fa-bell.fa-2xl {
     i.fas.fa-bell.fa-2xl {
         font-size: 27px !important;
         color: #000;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
 
     .rounded-circle {
