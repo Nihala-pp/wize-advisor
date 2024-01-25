@@ -12,6 +12,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+<title> Login | wiseAdvizor - Startup mentorship platform </title>
 @include('partials.header')
 
 <body class="bg-gray-200">
