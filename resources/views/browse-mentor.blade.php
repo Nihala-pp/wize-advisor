@@ -2173,7 +2173,7 @@
                                     <option value="desc">DESC </option>
                                 </select>
                             </div>
-                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters search">
                                 <button class="btn btn-info apply_filters">Apply To Search</button>
                             </div>
                         </div>
@@ -2305,6 +2305,10 @@
             }
 
             @media (max-width:767px) {
+                .search {
+                    margin-left:30px;
+                }
+
                 .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
                     text-align: right;
                     justify-content: flex-end
