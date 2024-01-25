@@ -1515,9 +1515,8 @@
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown">
-                                                <a class="text-reset me-3" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
+                                                <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
@@ -1790,8 +1789,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1812,8 +1811,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -3594,53 +3593,74 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-    background-color: #fff;
-    color: #001E64;
-}
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64;
+    }
 
-.elementor-button.elementor-size-xs {
-    font-size: 12px;
-    padding: 10px 20px;
-    border-radius: 7px;
-    margin: 10px;
-}
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
 
-.elementor-button {
-    display: inline-block;
-    line-height: 1;
-    background-color: #001E64;
-    /* font-size: 15px; */
-    /* padding: 12px 24px; */
-    /* border-radius: 3px; */
-    /* color: #fff; */
-    fill: #fff;
-    text-align: center;
-    transition: all .3s;
-}
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        /* font-size: 15px; */
+        /* padding: 12px 24px; */
+        /* border-radius: 3px; */
+        /* color: #fff; */
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-f871cda {
-    width: 30%;
-}
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-094a417 {
-    width: 50%;
-}
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-a2b9669 {
-    width: 20%;
-}
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-    padding: 0px 0px 0px 30px;
-    margin-top: 60px;
-}
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
 
-/* i.fas.fa-bell.fa-2xl {
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        /* padding-left: 15px; */
+    }
+
+    /* i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     padding-left: 10px;
     color: #000;
@@ -3654,10 +3674,10 @@ img.rounded-circle {
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-    padding: 0px 0px 0px 20px;
-    margin-top: 60px;
-}
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 360px) {}
