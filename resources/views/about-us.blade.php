@@ -4097,7 +4097,7 @@ i.fas.fa-bell.fa-2xl {
     i.fas.fa-bell.fa-2xl {
         font-size: 27px !important;
         color: #000;
-        /* padding-left: 10px; */
+         padding-left: 10px;
     }
 
     .rounded-circle {
