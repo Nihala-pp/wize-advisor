@@ -92,7 +92,7 @@ class HomeController extends Controller
     }
   }
 
-  public function profile($id)
+  public function profile($id, $name=null)
   {
     $data = User::find($id);
     $expertise = Expertise::where('mentor_id', $id)->get();

@@ -2366,7 +2366,7 @@
                                             class="btn btn-primary mid-center"
                                             style="background-color:#001E64;">Schedule Call</a>
                                         @endif
-                                        <a href="{{ route('profile', [$mentor->id]) }}" class="card-link viewProfile"
+                                        <a href="{{ route('profile', [$mentor->id, $mentor->name]) }}" class="card-link viewProfile"
                                             style="color:#007bff;">View Profile</a>
                                     </div>
                                 </div>

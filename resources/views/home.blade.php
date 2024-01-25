@@ -2871,7 +2871,7 @@
                                                                                                 class="elementor-widget-container">
                                                                                                 <span
                                                                                                     class="elementor-heading-title elementor-size-small"><a
-                                                                                                        href="{{ route('profile', [$mentor->id]) }}">View
+                                                                                                        href="{{ route('profile', [$mentor->id, $mentor->name]) }}">View
                                                                                                         Profile</a></span>
                                                                                             </div>
                                                                                         </div>

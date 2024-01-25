@@ -75,7 +75,7 @@ Route::get('/reload-captcha', [payWithpaypal::class, 'reloadCaptcha']);
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('test', [HomeController::class, 'test'])->name('test');
-Route::get('profile/{id?}', [HomeController::class, 'profile'])->name('profile');
+Route::get('mentors/{id?}/{name?}', [HomeController::class, 'profile'])->name('profile');
 Route::get('browseMentor', [HomeController::class, 'browseMentor'])->name('browseMentor');
 Route::get('browseMentor/filters', [HomeController::class, 'filters'])->name('browseMentor.filters');
 Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-mentor');
