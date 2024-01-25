@@ -2585,12 +2585,21 @@
                                 data-id="7d4fe70" data-element_type="widget" data-widget_type="button.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-button-wrapper">
+                                        @if(Auth::id())
+                                        <a class="elementor-button elementor-button-link elementor-size-sm"
+                                            href="{{ route('schedule-call', [$data->id]) }}">
+                                            <span class="elementor-button-content-wrapper">
+                                                <span class="elementor-button-text">Schedule Call</span>
+                                            </span>
+                                        </a>
+                                        @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login', ['schedule-call', $data->id]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
                                         </a>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
