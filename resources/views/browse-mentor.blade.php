@@ -4030,7 +4030,7 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 5px !important;
         padding-top: 16px !important;
         /* padding-bottom: 16px !important; */
-        /* color: #54b4d3 !important; */
+        color: #fff !important;
         font-size: 12px !important;
     }
 
