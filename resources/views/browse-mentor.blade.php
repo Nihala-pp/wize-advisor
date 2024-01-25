@@ -3807,7 +3807,7 @@
 }
 
 .search {
-    width: 55%;
+    width: 75%;
     text-align: left;
     /* margin-left: 125px !important; */
 }
