@@ -2305,12 +2305,6 @@
             }
 
             @media (max-width:767px) {
-                .search {
-                    width: 55%;
-                    text-align: left;
-                    /* margin-left: 125px !important; */
-                }
-
                 .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
                     text-align: right;
                     justify-content: flex-end
@@ -3990,6 +3984,12 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media screen and (max-width: 767px) {
+    .search {
+        width: 55%;
+        text-align: left;
+        /* margin-left: 125px !important; */
+    }
+
     .elementor-star-rating__wrapper {
         padding-left: 120px;
         display: flex;
