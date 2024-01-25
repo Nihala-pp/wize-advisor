@@ -4157,6 +4157,16 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
         padding: 20px 0px 0px 0px;
     }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 320px) {}
