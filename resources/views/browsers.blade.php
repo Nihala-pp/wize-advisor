@@ -3994,7 +3994,7 @@ screen and (min-width: 1024px) {
     .search {
         width: 130%;
         text-align: left;
-        background-color:#000;
+        background-color: #000;
         /* margin-left: 125px !important; */
     }
 }
@@ -4154,7 +4154,7 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 55% !important;
         text-align: left;
-        background-color:#000;
+        background-color: #000;
         /* margin-left: 125px !important; */
     }
 
@@ -4163,8 +4163,9 @@ i.fas.fa-bell.fa-2xl {
     }
 
     i.fas.fa-bell.fa-2xl {
-        font-size: 30px !important;
+        font-size: 27px !important;
         color: #000;
+        padding-left: 10px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
@@ -4188,6 +4189,16 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
         padding: 20px 0px 0px 0px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
     }
 }
 
