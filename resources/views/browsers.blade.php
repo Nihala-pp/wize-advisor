@@ -4094,13 +4094,13 @@ i.fas.fa-bell.fa-2xl {
         width: 20%;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-b0aaaa9 .sub-menu a.hfe-sub-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-b0aaaa9 .elementor-menu-toggle:hover,
-    .elementor-3007 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown li a.hfe-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-b0aaaa9 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
-        color: #001E64;
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
     }
 
     .elementor-3007 .elementor-element.elementor-element-094a417>.elementor-element-populated {
@@ -4111,15 +4111,6 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-        background-color: #fff;
-        color: #001E64;
     }
 
     .elementor-button.elementor-size-xs {
@@ -4163,6 +4154,38 @@ i.fas.fa-bell.fa-2xl {
         width: 55% !important;
         text-align: left;
         /* margin-left: 125px !important; */
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 30px !important;
+        color: #000;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width: 200%;
+        /* max-width: 120%; */
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -40px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width: 92%;
+        /* max-width: 120%; */
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+        padding: 20px 0px 0px 0px;
     }
 }
 
