@@ -3284,11 +3284,11 @@ i.fas.fa-bell.fa-2xl {
 } */
 
 @media(max-width:480px) {
-    .rounded-circle {
+    /* .rounded-circle {
         height: 40px !important;
         width: 40px !important;
         border-radius: 60% !important;
-    }
+    } */
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
