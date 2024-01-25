@@ -3806,12 +3806,6 @@
     appearance: none;
 }
 
-.search {
-    width: 75%;
-    text-align: left;
-    /* margin-left: 125px !important; */
-}
-
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
 
     div.d-grid.gap-2.col-6.butto {
@@ -3974,6 +3968,12 @@ screen and (min-width: 1024px) {
         padding-left: 16px !important;
         /* padding-top: 25px !important; */
         content: "" !important;
+    }
+
+    .search {
+        width: 75%;
+        text-align: left;
+        /* margin-left: 125px !important; */
     }
 }
 
