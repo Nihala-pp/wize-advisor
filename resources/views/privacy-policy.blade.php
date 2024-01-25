@@ -3501,6 +3501,27 @@ i.fas.fa-bell.fa-2xl {
         margin-top: 60px;
     }
 
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        /* padding-left: 15px; */
+    }
+
     /* i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     padding-left: 10px;
