@@ -2155,8 +2155,7 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" placeholder="FILTER BY DATE"
-                                    onchange="this.className=(this.value!=''?'has-value':'')"
+                                <input type="text" placeholder="FILTER BY DATE" onfocus="(this.type='date')"
                                     class="form-control selectpicker" id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
