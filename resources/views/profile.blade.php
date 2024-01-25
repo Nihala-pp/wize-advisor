@@ -7069,6 +7069,15 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         /* padding-left: 15px; */
     }
 
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu a.hfe-sub-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .elementor-menu-toggle:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
+        color: #001E64;
+    }
+
     /* #menu-item-5136 {
         padding-left: 15px;
         font-size: 1;
