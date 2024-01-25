@@ -3382,6 +3382,10 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 30px;
         margin-top: 45px;
     } */
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 29px !important;
+    }
 }
 
 @media (max-width: 320px) {}
@@ -3399,5 +3403,4 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 </style>
-
 </html>

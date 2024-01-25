@@ -3973,7 +3973,7 @@ screen and (min-width: 1024px) {
     .search {
         width: 130%;
         text-align: left;
-        background-color:#000;
+        background-color: #000;
         /* margin-left: 125px !important; */
     }
 }
@@ -3994,7 +3994,7 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 55% !important;
         text-align: left;
-        background-color:#000;
+        background-color: #000;
         /* margin-left: 125px !important; */
     }
 
@@ -4130,8 +4130,9 @@ i.fas.fa-bell.fa-2xl {
     }
 
     i.fas.fa-bell.fa-2xl {
-        font-size: 30px !important;
+        font-size: 27px !important;
         color: #000;
+        padding-left: 10px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
