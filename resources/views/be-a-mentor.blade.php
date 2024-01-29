@@ -5,6 +5,9 @@
 @include('partials.script')
 @include('partials.header')
 
+<meta name="description" content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+<meta name="keywords" content="ebusiness growth, startup stories">
+
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11">
     @include('partials.menu')
