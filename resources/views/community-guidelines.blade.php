@@ -1034,7 +1034,7 @@
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
         href="https://wiseadvizor.com/wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="https://wiseadvizor.com/community-guidelines/">
+    <link rel="canonical" href="https://wiseadvizor.com/community-guidelines">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=2942">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fcommunity-guidelines%2F">
