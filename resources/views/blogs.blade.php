@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Blogs | wiseAdvizor - Startup mentorship platform</title>
@@ -25,7 +24,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "\/https:\/\/pransainvestment.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
+            "concatemoji": "\/https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
         }
     };
     /*! This file is auto-generated */
