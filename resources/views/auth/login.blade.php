@@ -13,6 +13,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <title> Login | wiseAdvizor - Startup mentorship platform </title>
+<meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
+<meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
 
 <body class="bg-gray-200">
