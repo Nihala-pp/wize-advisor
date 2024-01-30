@@ -1976,10 +1976,8 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">We're
-                                                    excited
-                                                    to bring you a transformative mentorship experience designed
-                                                    to
-                                                    empower startups and fuel their growth. </p>
+                                                    excited to bring you a transformative mentorship experience designed
+                                                    to empower startups and fuel their growth. </p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
