@@ -1058,7 +1058,7 @@
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
         href="https://wiseadvizor.com/wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 6.2.2">
-    <link rel="canonical" href="https://wiseadvizor.com/blogs/blog-detail/">
+    <link rel="canonical" href="https://wiseadvizor.com/blogs/{{ $blog->id }}">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=4349">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fblogs%2Fblog-detail%2F">
