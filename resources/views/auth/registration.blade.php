@@ -12,7 +12,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Join wiseAdvizor | Startup mentorship for your success</title>
-<meta name="description" content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+<meta name="description"
+    content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
 <meta name="keywords" content="entrepreneur advice, startup mentors">
 @include('partials.header')
 
@@ -201,6 +202,10 @@
 
 </html>
 <style>
+h1 {
+    font-size: 30px;
+}
+
 .linkedin {
     padding-right: 50px;
 }
