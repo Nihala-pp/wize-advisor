@@ -12,7 +12,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<title> Login | Get Expert Business Guidance | wiseAdvizor| Your Go-To Business Coach  </title>
+<title> Get Expert Business Guidance | our Go-To Business Coach for Building a Successful Startup   </title>
 <meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
 <meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
