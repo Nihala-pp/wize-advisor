@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";https://wiseadvizor.com/profile/
     var theplus_nonce = "51391c8c76";
     </script>
     <meta name="robots" content="max-image-preview:large">
@@ -1133,7 +1133,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2372">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.2">
-    <link rel="canonical" href="https://wiseadvizor.com/profile/">
+    <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ $data->name }}">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=4878">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
