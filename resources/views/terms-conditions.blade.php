@@ -1416,7 +1416,7 @@
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
-                                            sizes="(max-width: 932px) 100vw, 932px"> </a>
+                                            sizes="(max-width: 932px) 100vw, 932px" alt=""> </a>
                                 </div>
                             </div>
                         </div>
@@ -2028,7 +2028,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Terms And Conditions</h2>
+                                <h1 class="elementor-heading-title elementor-size-default">Terms And Conditions</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-4f700ca elementor-widget elementor-widget-text-editor"
