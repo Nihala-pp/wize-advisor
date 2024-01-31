@@ -41,7 +41,7 @@
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
                             <div class="card mt-3 mb-3">
                                 <div class="card-header mt-0">
-                                    <h4 class="font-weight-bolder">Create Account</h4>
+                                    <h1 class="font-weight-bolder">Create Account</h1>
                                     <p class="mb-0">Welcome! Join us and start your journey today.</p>
                                     <!-- <div class="row">
                                         <div class="col-3 text-center ms-auto">
