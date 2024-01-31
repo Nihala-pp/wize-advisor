@@ -1494,7 +1494,7 @@
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('browseMentor') }}">
                                             <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentor</span>
+                                                <span class="elementor-button-text">Browse Mentors</span>
                                             </span>
                                         </a>
                                     </div>
@@ -1689,7 +1689,7 @@
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/browse-mentor/"
-                                                        itemprop="url" class="hfe-menu-item">Browse Mentor</a>
+                                                        itemprop="url" class="hfe-menu-item">Browse Mentors</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
