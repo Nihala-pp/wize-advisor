@@ -1677,12 +1677,12 @@
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
+                                                                itemprop="url" class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/faq/"
-                                                                itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
+                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                     </ul>
                                                 </li>
