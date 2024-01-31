@@ -11,7 +11,7 @@
     @include('partials.menu')
     <div class="card text-center mt-5">
         <div class="card-header mt-5 scheduled">
-            Successfully Scheduled
+           <h1> Successfully Scheduled </h1>
         </div>
         <div class="card-body">
             <div class="rounded-circle mt-3">
