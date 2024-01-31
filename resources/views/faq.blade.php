@@ -1085,7 +1085,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/18">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
-    <link rel="canonical" href="https://wiseadvizor.com/blogs/">
+    <link rel="canonical" href="https://wiseadvizor.com/faq">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=18">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fblogs%2F">
@@ -1287,7 +1287,7 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-18 current_page_item hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq" itemprop="url"
                                                                 class="hfe-sub-menu-item hfe-sub-menu-item-active">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
@@ -1497,12 +1497,12 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/"
+                                                            <a href="https://wiseadvizor.com/faq"
                                                                 itemprop="url" class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/"
+                                                            <a href="https://wiseadvizor.com/blogs/"
                                                                 itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
@@ -1577,7 +1577,7 @@
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq" itemprop="url"
                                                                 class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
