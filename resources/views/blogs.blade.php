@@ -2138,9 +2138,9 @@
                                                             <div class="elementor-image-box-content">
                                                                 <h3 class="elementor-image-box-title"> <a
                                                                         href="{{ route('blog-detail', $blog->id) }}">
-                                                                        {{ $blog->title }} </a></h3>
+                                                                        {{ strip_tags($blog->title, '<p>') }} </a></h3>
                                                                 <p class="elementor-image-box-description">
-                                                                    {{ Str::words($blog->intro, '20') }}
+                                                                    {{ strip_tags(Str::words($blog->intro, '20'), '<p>') }}
                                                             </div>
                                                         </div>
                                                     </div>
