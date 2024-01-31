@@ -6,7 +6,7 @@
     <title> {{ $data->name }} - wiseAdvizor</title>
     <meta name="description"
         content="Looking for a mentor – Unlock startup growth strategies with {{ $data->name }} on wiseAdvizor.">
-    <meta name="keywords" content="Looking for a mentor, Startup growth">
+    <meta name="keywords" content="Looking for a mentor, startup growth">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
