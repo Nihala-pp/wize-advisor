@@ -162,7 +162,7 @@
     }
 
     h1 {
-        font-size:20px !important;
+        font-size:17px !important;
     }
 }
 </style>
