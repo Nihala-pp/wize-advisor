@@ -2141,8 +2141,8 @@
                                                                         {{ strip_tags($blog->title, '<p>') }} </a></h3>
                                                                 <p class="elementor-image-box-description">
                                                                     @php
-                                                                    $intro = Str::words($blog->intro, '20');
-                                                                    {{ strip_tags($intro, '<p>') }}
+                                                                       $intro = Str::words($blog->intro, '20');
+                                                                       echo strip_tags($intro, '<p>');
                                                                     @endphp
                                                             </div>
                                                         </div>
