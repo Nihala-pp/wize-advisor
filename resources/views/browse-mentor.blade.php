@@ -6,7 +6,7 @@
     <title>Browse Mentors | wiseAdvizor: Startup mentorship platform</title>
     <meta name="description"
         content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips tailored to your needs.">
-    <meta name="keywords" content=" Find a mentor, entrepreneur advice, mentorship program, growth mentors, business tips">
+    <meta name="keywords" content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
