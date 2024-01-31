@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Blogs | wiseAdvizor - Startup mentorship platform</title>
@@ -1329,9 +1330,8 @@
                                         @if(Auth::id() && auth()->user()->role_id == 3)
                                         <div class="d-flex align-items-center">
                                             <div class="dropdown">
-                                                <a class="text-reset me-3" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
+                                                <a class="text-reset me-3" href="#" id="navbarDropdownMenuLink"
+                                                    role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                     <!-- <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
@@ -1462,8 +1462,8 @@
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/"
-                                                            itemprop="url" class="hfe-menu-item" aria-haspopup="true"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
+                                                            class="hfe-menu-item" aria-haspopup="true"
                                                             aria-expanded="false">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div><button
@@ -1494,25 +1494,25 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-26" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/"
-                                                                itemprop="url" class="hfe-sub-menu-item">FAQ</a>
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
+                                                                class="hfe-sub-menu-item">FAQ</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/"
-                                                                itemprop="url" class="hfe-sub-menu-item">BLOGS</a>
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                                class="hfe-sub-menu-item">BLOGS</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/browse-mentor/"
-                                                        itemprop="url" class="hfe-menu-item">Browse Mentor</a>
+                                                    <a href="https://wiseadvizor.com/browse-mentor/" itemprop="url"
+                                                        class="hfe-menu-item">Browse Mentor</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
@@ -1604,8 +1604,8 @@
                                                     @if(Auth::id() && auth()->user()->role_id == 3)
                                                     <div class="d-flex align-items-center">
                                                         <div class="dropdown">
-                                                            <a class="text-reset me-3"
-                                                                href="#" id="navbarDropdownMenuLink" role="button"
+                                                            <a class="text-reset me-3" href="#"
+                                                                id="navbarDropdownMenuLink" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 <i class="fas fa-bell fa-2xl"></i>
                                                                 <span
@@ -1626,8 +1626,8 @@
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
-                                                            <a class="d-flex align-items-center"
-                                                                href="#" id="navbarDropdownMenuAvatar" role="button"
+                                                            <a class="d-flex align-items-center" href="#"
+                                                                id="navbarDropdownMenuAvatar" role="button"
                                                                 data-mdb-toggle="dropdown" aria-expanded="false">
                                                                 @if (Auth::user()->metaData &&
                                                                 Auth::user()->metaData->profile_pic)
@@ -2140,7 +2140,10 @@
                                                                         href="{{ route('blog-detail', $blog->id) }}">
                                                                         {{ strip_tags($blog->title, '<p>') }} </a></h3>
                                                                 <p class="elementor-image-box-description">
-                                                                    {{ strip_tags(Str::words($blog->intro, '20'), '<p>') }}
+                                                                    @php
+                                                                    $intro = Str::words($blog->intro, '20');
+                                                                    {{ strip_tags($intro, '<p>') }}
+                                                                    @endphp
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3411,7 +3414,7 @@
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
-    color:#000;
+    color: #000;
 }
 
 .grid-container {
@@ -3426,7 +3429,7 @@ i.fas.fa-bell.fa-2xl {
 .elementor-2650 .elementor-element.elementor-element-54a2f8d .elementor-image-box-title {
     margin-bottom: 9px;
     margin-top: 30px;
-    color: var( --e-global-color-1e1892c );
+    color: var(--e-global-color-1e1892c);
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
     font-weight: 600;
