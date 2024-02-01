@@ -3260,6 +3260,54 @@
     </script>
 </body>
 <style>
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
 .avail h4 {
     margin-left: 20px;
     font-family: "Helvetica", Sans-serif;
