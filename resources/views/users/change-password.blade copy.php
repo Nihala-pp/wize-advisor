@@ -1469,6 +1469,12 @@
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
+                                                        <li id="menu-item-2412" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/how-it-works"
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
+                                                            </a>
+                                                        </li>
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-posts/"
@@ -1646,6 +1652,7 @@
     <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
-    </body> 
+</body>
 </style>
+
 </html>
