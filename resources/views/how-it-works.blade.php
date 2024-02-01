@@ -4088,6 +4088,12 @@
     </script>
 </body>
 <style>
+.ehf-header #masthead {
+    margin-top: -35px;
+    z-index: 99;
+    position: relative;
+}
+
 .elementor-5225 .elementor-element.elementor-element-8e32c54 {
     margin-top: 0px;
     margin-bottom: 100px;
@@ -4278,4 +4284,5 @@ margin-bottom: 10px;
 
 @media (min-width: 540px) {}
 </style>
+
 </html>
