@@ -2988,6 +2988,12 @@ i.fas.fa-bell.fa-2xl {
     color: #000;
 }
 
+a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
 @media (max-width: 767px) {
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
