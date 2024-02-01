@@ -915,7 +915,7 @@
         b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
     }());
     </script>
-    <div id="wpadminbar" class="nojq nojs">
+    <!-- <div id="wpadminbar" class="nojq nojs">
         <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
             <ul id='wp-admin-bar-root-default' class="ab-top-menu">
                 <li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true"
@@ -1074,7 +1074,7 @@
         </div>
         <a class="screen-reader-shortcut"
             href="https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=6b28f58518">Log Out</a>
-    </div>
+    </div> -->
 
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com" title="wiseAdvizor"
