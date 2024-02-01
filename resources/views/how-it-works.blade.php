@@ -3023,7 +3023,7 @@
         <div class="elementor-templates-modal__header__logo-area"></div>
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
-			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
+			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close-elementor-templates-modal__header__item">
 				<span>Skip</span>
 				<i class="eicon-close" aria-hidden="true"></i>w
 				<span class="elementor-screen-only">Close</span>
