@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Terms and conditions | wiseAdvizor: Startup mentorship platform</title>
+    <title>Mentoring Definition and User Requirements for wiseAdvizor | Terms and Conditions</title>
+    <meta name="description" content="Get a clear understanding of the mentoring definition with wiseAdvizor. Explore our platform and find resources to help you become a better mentor or mentee.">
+    <meta name="keywords" content="mentoring definition, define mentorship">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
