@@ -1833,8 +1833,11 @@
                                         <li class="wpr-feature-list-item elementor-repeater-item-1d535be">
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
-                                                <div class="wpr-feature-list-icon-inner-wrap"><i aria-hidden="true"
-                                                        class="far fa-flag"></i></div>
+                                                <div class="wpr-feature-list-icon-inner-wrap">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png"
+                                                        width="20px" height="20px">
+                                                    <i aria-hidden="true" class="far fa-flag"></i></img>
+                                                </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
