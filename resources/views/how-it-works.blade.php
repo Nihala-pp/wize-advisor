@@ -4120,6 +4120,163 @@
     border-style: none;
     border-radius: 5px 5px 5px 5px;
 }
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+    color: #000;
+}
+
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+@media (max-width: 767px) {
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64;
+    }
+
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        /* font-size: 15px; */
+        /* padding: 12px 24px; */
+        /* border-radius: 3px; */
+        /* color: #fff; */
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        /* padding-left: 15px; */
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
+    }
+
+    /* i.fas.fa-bell.fa-2xl {
+font-size: 32px !important;
+padding-left: 10px;
+color: #000;
+}
+
+img.rounded-circle {
+margin-bottom: 10px;
+} */
+}
+
+@media (max-width: 320px) {}
+
+@media (max-width: 280px) {
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 375px) {}
+
+@media (min-width: 540px) {}
 </style>
 
 </html>
