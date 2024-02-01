@@ -3006,6 +3006,36 @@ i.fas.fa-bell.fa-2xl {
     text-underline-offset: 0.25ch;
 }
 
+.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title a {
+    color: #ffff !important;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
 @media (max-width: 767px) {
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
