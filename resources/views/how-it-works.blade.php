@@ -1886,10 +1886,10 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
                                                         width="10px" height="10px" class="join_session">
-                                                    <i aria-hidden="true"
-                                                        class=""></i></img></div>
+                                                    <i aria-hidden="true" class=""></i></img>
+                                                </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
@@ -1904,10 +1904,10 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.png"
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.png"
                                                         width="20px" height="20px" class="feedback">
-                                                    <i aria-hidden="true"
-                                                        class=""></i></img></div>
+                                                    <i aria-hidden="true" class=""></i></img>
+                                                </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
@@ -1936,7 +1936,8 @@
                             data-id="17f853c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login') }}">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('login') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get your mentor, sign up now!</span>
                                         </span>
@@ -2169,7 +2170,8 @@
                             data-id="565dab4" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://wiseadvizor.com/BrowseMentors">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="https://wiseadvizor.com/BrowseMentors">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Browse Mentors</span>
                                         </span>
@@ -4086,6 +4088,11 @@
     </script>
 </body>
 <style>
+.elementor-5225 .elementor-element.elementor-element-8e32c54 {
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
 .elementor-5225 .elementor-element.elementor-element-6bccf34c .wpr-feature-list-icon-inner-wrap img {
     width: 20px;
     height: 20px;
