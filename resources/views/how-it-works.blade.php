@@ -3052,7 +3052,7 @@
 </script>
 
     <script type="text/template" id="tmpl-elementor-finder__results__category">
-        <div class="elementor-finder__results__category__title">{{{ title }}}</div>
+        <div class="elementor-finder__results__category__title">Title</div>
 	<div class="elementor-finder__results__category__items"></div>
 </script>
 
@@ -3061,9 +3061,9 @@
 		<div class="elementor-finder__results__item__icon">
 			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
 		</div>
-		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
+		<div class="elementor-finder__results__item__title">Title</div>
 		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
+			<div class="elementor-finder__results__item__description">- description </div></div>
 		<# } #>
 
 		<# if ( lock ) { #>
