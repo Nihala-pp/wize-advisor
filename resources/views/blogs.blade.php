@@ -3412,6 +3412,13 @@
     padding-right: 20px;
 } */
 
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title {
+    color: #FFFF !important;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     color: #000;
