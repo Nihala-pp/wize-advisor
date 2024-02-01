@@ -2988,7 +2988,7 @@ i.fas.fa-bell.fa-2xl {
     color: #000;
 }
 
-a {
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title a {
     color: #ffff !important;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.25ch;
