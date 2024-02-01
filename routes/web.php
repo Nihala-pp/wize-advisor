@@ -43,7 +43,7 @@ use Illuminate\Auth\Events\PasswordReset;
 //     return view('users.index');
 // })
 
-Route::get('login/{token?}/{id?}', [AuthController::class, 'index'])->name('login');
+Route::get('login/{token?}/{id?}/{name?}', [AuthController::class, 'index'])->name('login');
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post');
 Route::get('registration/{token?}/{id?}', [AuthController::class, 'registration'])->name('register');
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post');
@@ -82,7 +82,7 @@ Route::get('be-a-mentor', [HomeController::class, 'addMentor'])->name('be-a-ment
 Route::get('blogs', [HomeController::class, 'blogs'])->name('blogs');
 Route::get('faq', [HomeController::class, 'faq'])->name('faq');
 Route::post('addMentorRequest', [HomeController::class, 'addMentorRequest'])->name('addMentorRequest');
-Route::get('schedule-call/{id?}/{call_id?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
+Route::get('schedule-call/{id?}/{call_id?}/{name?}', [HomeController::class, 'scheduleCall'])->name('schedule-call');
 Route::post('token', [HomeController::class, 'token'])->name('token');
 Route::any('addScheduleRequest', [HomeController::class, 'addScheduleRequest'])->name('addScheduleRequest')->middleware('auth');
 Route::post('getTimeAvailability', [HomeController::class, 'getTimeAvailability'])->name('getTimeAvailability');

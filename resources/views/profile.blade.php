@@ -2590,14 +2590,14 @@
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id())
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('schedule-call', [$data->id]) }}">
+                                            href="{{ route('schedule-call', [$data->id, $data->name]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
                                         </a>
                                         @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login', ['schedule-call', $data->id]) }}">
+                                            href="{{ route('login', ['schedule-call', $data->id, $data->name]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
@@ -3856,14 +3856,14 @@
                                     <div class="elementor-button-wrapper">
                                         @if(Auth::id())
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('schedule-call', [$data->id]) }}">
+                                            href="{{ route('schedule-call', [$data->id, $data->name]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
                                         </a>
                                         @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login', ['schedule-call', $data->id]) }}">
+                                            href="{{ route('login', ['schedule-call', $data->id, $data->name]) }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Schedule Call</span>
                                             </span>
