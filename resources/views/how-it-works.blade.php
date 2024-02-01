@@ -136,8 +136,8 @@
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <link rel='stylesheet' id='admin-bar-css'
-        href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3' media='all' />
+    <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
+        media='all' />
     <style id='admin-bar-inline-css'>
     @media screen {
         html {
@@ -161,8 +161,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.19.0'
-        media='all' />
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.19.0' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.19.0'
         media='all' />
@@ -655,8 +654,7 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
-        media='print' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.6.4'
         media='all' />
@@ -3057,47 +3055,36 @@
 </script>
 
     <script type="text/template" id="tmpl-elementor-finder__results__item">
-        <a href="{{ url }}" class="elementor-finder__results__item__link">
+        <a href="" class="elementor-finder__results__item__link">
 		<div class="elementor-finder__results__item__icon">
-			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
+			<i class="eicon-" aria-hidden="true"></i>
 		</div>
 		<div class="elementor-finder__results__item__title">Title</div>
-		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- description </div></div>
-		<# } #>
-
-		<# if ( lock ) { #>
-		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
-		<# } #>
-	</a>
-	<# if ( actions.length ) { #>
+			<div class="elementor-finder__results__item__description">description </div></div>
+		<div class="elementor-finder__results__item__badge"><i class=""></i></div>
+	    </a>
 		<div class="elementor-finder__results__item__actions">
-		<# jQuery.each( actions, function() { #>
-			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
-				<i class="eicon-{{{ this.icon }}}"></i>
+			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--" href="" target="_blank">
+				<i class="eicon-"></i>
 			</a>
-		<# } ); #>
 		</div>
-	<# } #>
-</script>
+    </script>
     <link rel='stylesheet' id='e-animations-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.19.0'
         media='all' />
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
         id="niso-carousel-owl.min-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
         id="jquery.mousewheel.min-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
         id="niso-carousel-lightbox.min-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
         id="wp-dom-ready-js"></script>
     <script id="starter-templates-zip-preview-js-extra">
@@ -3230,8 +3217,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.19.0"
         id="elementor-dev-tools-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
-        id="wp-hooks-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
@@ -3685,8 +3672,7 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.0"
         id="elementor-frontend-modules-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3908,8 +3894,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
@@ -3996,8 +3981,7 @@
         }
     };
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.19.0"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
