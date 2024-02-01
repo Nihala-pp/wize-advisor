@@ -1481,6 +1481,12 @@
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
+                                                    <li id="menu-item-2412" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/how-it-works"
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
+                                                            </a>
+                                                        </li>
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-posts/"
@@ -1691,6 +1697,12 @@
                                                             </svg></span><span class="screen-reader-text">Open
                                                             menu</span></button>
                                                     <ul class="sub-menu">
+                                                    <li id="menu-item-2412" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/how-it-works"
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
+                                                            </a>
+                                                        </li>
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
@@ -1771,6 +1783,12 @@
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
+                                                    <li id="menu-item-2412" itemprop="name"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                                            <a href="https://wiseadvizor.com/how-it-works"
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
+                                                            </a>
+                                                        </li>
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-posts/"

@@ -1164,7 +1164,7 @@
                                                         <li id="menu-item-2412" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/how-it-works"
-                                                                itemprop="url" class="hfe-sub-menu-item">How it Works
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
                                                             </a>
                                                         </li>
                                                         <li id="menu-item-24" itemprop="name"
@@ -1379,7 +1379,7 @@
                                                         <li id="menu-item-2412" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/how-it-works"
-                                                                itemprop="url" class="hfe-sub-menu-item">How it Works
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
                                                             </a>
                                                         </li>
                                                         <li id="menu-item-24" itemprop="name"
@@ -1465,7 +1465,7 @@
                                                         <li id="menu-item-2412" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/how-it-works"
-                                                                itemprop="url" class="hfe-sub-menu-item">How it Works
+                                                                itemprop="url" class="hfe-sub-menu-item">How it works
                                                             </a>
                                                         </li>
                                                         <li id="menu-item-24" itemprop="name"
