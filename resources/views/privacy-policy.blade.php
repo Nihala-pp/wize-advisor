@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy | wiseAdvizor: Startup mentorship platform</title>
+    <title>Protecting Your Privacy on wiseAdvizor | Mentorship Program</title>
+    <meta name="description" content="Keep your personal information secure while getting the most out of wiseAdvizor's mentorship program. Protecting your privacy is our top priority at wiseAdvizor.">
+    <meta name="keywords" content="mentorship program">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
