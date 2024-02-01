@@ -1870,7 +1870,7 @@
                                                 <div class="wpr-feature-list-icon-inner-wrap">
                                                     <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/calendar.png"
                                                         width="15px" height="15px" class="calender">
-                                                    <i aria-hidden="true" class="fas fa-star"></i></img>
+                                                    <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
@@ -1888,7 +1888,7 @@
                                                 <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
                                                         width="10px" height="10px" class="join_session">
                                                     <i aria-hidden="true"
-                                                        class="fas fa-star"></i></img></div>
+                                                        class=""></i></img></div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
@@ -1906,7 +1906,7 @@
                                                 <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.png"
                                                         width="20px" height="20px" class="feedback">
                                                     <i aria-hidden="true"
-                                                        class="fas fa-star"></i></img></div>
+                                                        class=""></i></img></div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
