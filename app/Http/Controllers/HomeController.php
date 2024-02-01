@@ -320,6 +320,11 @@ class HomeController extends Controller
     // } 
   }
 
+  public function howitWorks()
+  {
+    return view('how-it-works');
+  }
+
   public function addScheduleRequest(Request $request)
   {
     $requestData = $request->all();
