@@ -1817,7 +1817,7 @@
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
                                                     <a href="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png">
-                                                    <i aria-hidden="true" class="fas fa-rocket"></i></a>
+                                                    <i aria-hidden="true" class=""></i></a>
                                                 </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
