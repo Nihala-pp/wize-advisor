@@ -1834,9 +1834,9 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png"
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/browse.png"
                                                         width="20px" height="20px">
-                                                    <i aria-hidden="true" class="far fa-flag"></i></img>
+                                                    <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
@@ -1850,8 +1850,11 @@
                                         <li class="wpr-feature-list-item elementor-repeater-item-f664ce5">
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
-                                                <div class="wpr-feature-list-icon-inner-wrap"><i aria-hidden="true"
-                                                        class="fas fa-grip-lines-vertical"></i></div>
+                                                <div class="wpr-feature-list-icon-inner-wrap">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/profile.png"
+                                                        width="20px" height="20px">
+                                                    <i aria-hidden="true" class=""></i></img>
+                                                </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
@@ -1864,8 +1867,11 @@
                                         <li class="wpr-feature-list-item elementor-repeater-item-4e592e3">
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
-                                                <div class="wpr-feature-list-icon-inner-wrap"><i aria-hidden="true"
-                                                        class="fas fa-star"></i></div>
+                                                <div class="wpr-feature-list-icon-inner-wrap">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/calendar.png"
+                                                        width="20px" height="20px">
+                                                    <i aria-hidden="true" class="fas fa-star"></i></img>
+                                                </div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
@@ -1878,8 +1884,11 @@
                                         <li class="wpr-feature-list-item elementor-repeater-item-94dc587">
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
-                                                <div class="wpr-feature-list-icon-inner-wrap"><i aria-hidden="true"
-                                                        class="fas fa-star"></i></div>
+                                                <div class="wpr-feature-list-icon-inner-wrap">
+                                                <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
+                                                        width="20px" height="20px">
+                                                    <i aria-hidden="true"
+                                                        class="fas fa-star"></i></img></div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
@@ -1893,8 +1902,11 @@
                                         <li class="wpr-feature-list-item elementor-repeater-item-3b1a87c">
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
-                                                <div class="wpr-feature-list-icon-inner-wrap"><i aria-hidden="true"
-                                                        class="fas fa-star"></i></div>
+                                                <div class="wpr-feature-list-icon-inner-wrap">
+                                                <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.png"
+                                                        width="20px" height="20px">
+                                                    <i aria-hidden="true"
+                                                        class="fas fa-star"></i></img></div>
                                             </div>
                                             <div class="wpr-feature-list-content-wrap">
                                                 <h2 class="wpr-feature-list-title"><a class="wpr-feature-list-url"
