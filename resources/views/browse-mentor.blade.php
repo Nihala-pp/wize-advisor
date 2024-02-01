@@ -2361,11 +2361,11 @@
                                     </p>
                                     <div class="d-grid gap-2 col-6 butto">
                                         @if(Auth::id())
-                                        <a href="{{ route('schedule-call', [$mentor->id]) }}"
+                                        <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                             class="btn btn-primary mid-center"
                                             style="background-color:#001E64;">Schedule Call</a>
                                         @else
-                                        <a href="{{ route('login', ['schedule-call', $mentor->id]) }}"
+                                        <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                             class="btn btn-primary mid-center"
                                             style="background-color:#001E64;">Schedule Call</a>
                                         @endif
