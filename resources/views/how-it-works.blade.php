@@ -3036,7 +3036,7 @@
         <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
 		<i class="eicon-elementor"></i>
 	</span>
-	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
+	<span class="elementor-templates-modal__header__logo__title">Title</span>
 </script>
     <script type="text/template" id="tmpl-elementor-finder">
         <div id="elementor-finder__search">
