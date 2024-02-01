@@ -23,9 +23,9 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function index($token = 'Null', $id = 'Null')
+    public function index($token = 'Null', $id = 'Null', $name = 'Null')
     {
-        return view('auth.login', compact('token', 'id'));
+        return view('auth.login', compact('token', 'id', 'name'));
     }
 
     /**
@@ -81,7 +81,7 @@ class AuthController extends Controller
             $request->session()->regenerate();
 
             if (!($request->token == "Null")) {
-                return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
+                return redirect()->route('schedule-call', [$request->mentor_id, $request->mentor_name])->withSuccess('You have Successfully loggedin');
             }
 
             if (auth()->user()->role_id == 1) {
