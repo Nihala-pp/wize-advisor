@@ -4071,8 +4071,8 @@
 </body>
 <style>
 .elementor-5225 .elementor-element.elementor-element-6bccf34c .wpr-feature-list-icon-inner-wrap img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
 }
