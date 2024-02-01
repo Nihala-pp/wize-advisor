@@ -1816,7 +1816,8 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png" width="40px" height="40px">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png"
+                                                        width="40px" height="40px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -4068,5 +4069,13 @@
     }(jQuery));
     </script>
 </body>
+<style>
+.elementor-5225 .elementor-element.elementor-element-6bccf34c .wpr-feature-list-icon-inner-wrap img {
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+}
+</style>
 
 </html>
