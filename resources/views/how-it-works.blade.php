@@ -1886,7 +1886,7 @@
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
                                                 <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
-                                                        width="15px" height="15px">
+                                                        width="10px" height="10px">
                                                     <i aria-hidden="true"
                                                         class="fas fa-star"></i></img></div>
                                             </div>
