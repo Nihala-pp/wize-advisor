@@ -1935,7 +1935,7 @@
                             data-id="17f853c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('login') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get your mentor, sign up now!</span>
                                         </span>
@@ -2168,7 +2168,7 @@
                             data-id="565dab4" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://wiseadvizor.com/BrowseMentors">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Browse Mentors</span>
                                         </span>
