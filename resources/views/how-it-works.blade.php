@@ -4093,22 +4093,22 @@
 }
 
 .calender {
-    width: 10px !important;
-    height: 10px !important;
+    width: 20px !important;
+    height: 20px !important;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
 }
 
 .join_session {
-    width: 10px !important;
-    height: 10px !important;
+    width: 20px !important;
+    height: 20px !important;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
 }
 
 .feedback {
-    width: 10px !important;
-    height: 10px !important;
+    width: 20px !important;
+    height: 20px !important;
     border-style: none;
     border-radius: 5px 5px 5px 5px;
 }
