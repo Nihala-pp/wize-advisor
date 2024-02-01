@@ -900,7 +900,8 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-5225 logged-in admin-bar no-customize-support wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.7 is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5225">
+    class="page-template page-template-elementor_canvas page page-id-5225 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.7 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5225">
+    <!-- page-template page-template-elementor_canvas page page-id-5225 logged-in admin-bar no-customize-support wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.7 is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5225"> -->
     <script>
     (function() {
         var request, b = document.body,
