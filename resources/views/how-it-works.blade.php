@@ -1816,7 +1816,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png" width="40px" height="40px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
