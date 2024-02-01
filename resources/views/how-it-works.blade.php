@@ -1682,7 +1682,7 @@
         </div>
     </header>
     <div data-elementor-type="wp-page" data-elementor-id="5225" class="elementor elementor-5225">
-        <section
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5ae9d68 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="5ae9d68" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
@@ -1692,7 +1692,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-8e32c54 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="8e32c54" data-element_type="section">
