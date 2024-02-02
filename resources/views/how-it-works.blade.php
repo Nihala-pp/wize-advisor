@@ -1931,12 +1931,21 @@
                             data-id="17f853c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
+                                    @if(Auth::id())
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('browseMentor') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Get your mentor</span>
+                                        </span>
+                                    </a>
+                                    @else
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                         href="{{ route('login') }}">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Get your mentor, sign up now!</span>
+                                            <span class="elementor-button-text">Get your mentor</span>
                                         </span>
                                     </a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -4084,8 +4093,8 @@
 </body>
 <style>
 i.fas.fa-chevron-down {
-    margin-top:-30px;
-    padding-left:10px !important;
+    margin-top: -30px;
+    padding-left: 10px !important;
     font-size: 9px !important;
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
