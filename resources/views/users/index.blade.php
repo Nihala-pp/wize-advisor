@@ -870,8 +870,8 @@
     </script>
 </body>
 <style>
-  i .fa.fa-chevron-down {
-    font-size: 10px;
+  i.fa.fa-chevron-down {
+    font-size: 10px !important;
   }
 
 .animated {
