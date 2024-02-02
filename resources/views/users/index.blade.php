@@ -872,6 +872,8 @@
 <style>
   i.fas.fa-chevron-down {
     font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
   }
 
 .animated {
