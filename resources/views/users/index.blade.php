@@ -103,9 +103,8 @@
                                                             href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div>
+                                                                    class="fa-regular fa-chevron-down"></i></span></a></div>
                                                     <ul class="sub-menu">
-
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-posts/"
