@@ -872,6 +872,7 @@
 <style>
   i.fa.fa-chevron-down {
     font-size: 10px !important;
+    font-weight: 900px !important;
   }
 
 .animated {
