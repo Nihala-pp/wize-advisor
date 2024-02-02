@@ -1460,8 +1460,8 @@
                                                     <div class="hfe-has-submenu-container"><a
                                                             href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
-                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div>
+                                                                class="hfe-menu-toggle hfe-menu-child-0"><i
+                                                                    class="fas fa-chevron-down"></i></span></a></div>
                                                     <ul class="sub-menu">
 
                                                         <li id="menu-item-24" itemprop="name"
@@ -3563,6 +3563,14 @@
 /* .browseMentor {
     padding-right: 20px;
 } */
+
+i.fas.fa-chevron-down {
+    margin-top: -15px !important;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
