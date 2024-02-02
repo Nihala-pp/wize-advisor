@@ -103,7 +103,7 @@
                                                             href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa-regular fa-chevron-down"></i></span></a></div>
+                                                                    class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -870,6 +870,20 @@
     </script>
 </body>
 <style>
+.hfe-nav-menu .sub-arrow {
+    font-size: 14px;
+    line-height: 1;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
 .animated {
     -webkit-transition: height 0.2s;
     -moz-transition: height 0.2s;
