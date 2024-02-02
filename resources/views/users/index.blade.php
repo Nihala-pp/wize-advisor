@@ -870,7 +870,7 @@
     </script>
 </body>
 <style>
-.hfe-nav-menu .sub-arrow {
+.fa .fa-chevron-down {
     font-size: 14px;
     line-height: 1;
     -js-display: flex;
