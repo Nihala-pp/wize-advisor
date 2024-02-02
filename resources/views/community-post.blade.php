@@ -1202,7 +1202,7 @@
                                                     <div class="hfe-has-submenu-container"><a
                                                             href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
-                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                class="hfe-menu-toggle hfe-menu-child-0"><i
                                                                     class="fas fa-chevron-down"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
@@ -2975,6 +2975,13 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+i.fas.fa-chevron-down {
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     color: #000;
