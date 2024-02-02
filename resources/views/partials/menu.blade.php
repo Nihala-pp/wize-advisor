@@ -65,29 +65,24 @@
                                         data-full-width="yes">
                                         <ul id="menu-1-359f243" class="hfe-nav-menu">
                                             <li id="menu-item-29" itemprop="name"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="https://wiseadvizor.com/about-us/" itemprop="url"
-                                                    class="hfe-menu-item">About Us</a>
+                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
+                                                <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
+                                                    class="hfe-sub-menu-item">How it works
+                                                </a>
                                             </li>
                                             <li id="menu-item-28" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="https://wiseadvizor.com/contact-us/" itemprop="url"
-                                                    class="hfe-menu-item">Contact Us</a>
+                                                <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                    class="hfe-sub-menu-item">FAQ'S</a>
                                             </li>
                                             <li id="menu-item-27" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                 <div class="hfe-has-submenu-container"><a
                                                         href="https://wiseadvizor.com/resources/" itemprop="url"
-                                                        class="hfe-menu-item">Resource<span
+                                                        class="hfe-menu-item">Resources<span
                                                             class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                 class="fa"></i></span></a></div>
                                                 <ul class="sub-menu">
-                                                    <li id="menu-item-2412" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
-                                                            class="hfe-sub-menu-item">How it works
-                                                        </a>
-                                                    </li>
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                         <a href="https://wiseadvizor.com/community-posts/"
@@ -98,11 +93,6 @@
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                         <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                             class="hfe-sub-menu-item">Libraries</a>
-                                                    </li>
-                                                    <li id="menu-item-26" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                            class="hfe-sub-menu-item">FAQ</a>
                                                     </li>
                                                     <li id="menu-item-2842" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
