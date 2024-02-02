@@ -871,7 +871,7 @@
 </body>
 <style>
   i .fa.fa-chevron-down {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 .animated {
