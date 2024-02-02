@@ -1149,13 +1149,12 @@
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
                                                     <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
-                                                        class="hfe-sub-menu-item">How it works
-                                                    </a>
+                                                        class="hfe-menu-item">How it works</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                        class="hfe-sub-menu-item">FAQ's</a>
+                                                    <a href="https://wiseadvizor.com/faq" itemprop="url"
+                                                        class="hfe-menu-item">FAQ's</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
