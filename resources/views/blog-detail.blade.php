@@ -1747,11 +1747,6 @@
                                                             <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
-                                                        <li id="menu-item-26" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">FAQ</a>
-                                                        </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
