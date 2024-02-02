@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>How it Works - wiseAdvizor</title>
+    <title>Connect with Startup Mentors at wiseAdvizor - Ignite Your Success Now</title>
     <meta name="description"
         content="Unlock the secrets to startup success - your one-stop platform for connecting with experienced entrepreneurs and industry leaders. Find a mentor and accelerate your business growth today.">
     <meta name="keywords" content="startup success, find a mentor, business growth">
