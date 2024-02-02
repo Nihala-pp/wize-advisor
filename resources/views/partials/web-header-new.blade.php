@@ -73,7 +73,6 @@
     <!-- End Google Tag Manager -->
     <script>
     (function(h, o, t, j, a, r) {
-        q2
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
         };
