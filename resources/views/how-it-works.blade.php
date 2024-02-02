@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Elementor #5225 &#8211; WISE ADVIZOR</title>
+    <title>How it Works - wiseAdvizor</title>
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
