@@ -870,19 +870,9 @@
     </script>
 </body>
 <style>
-.fa .fa-chevron-down {
+  i .fa.fa-chevron-down {
     font-size: 14px;
-    line-height: 1;
-    -js-display: flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    cursor: pointer;
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
+  }
 
 .animated {
     -webkit-transition: height 0.2s;
