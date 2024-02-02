@@ -1161,7 +1161,7 @@
                                                     <div class="hfe-has-submenu-container"><a
                                                             href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
-                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                class="hfe-menu-toggle  hfe-menu-child-0"><i
                                                                     class="fas fa-chevron-down"></i></span></a></div>
                                                     <ul class="sub-menu">
 
