@@ -1692,7 +1692,7 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-8e32c54 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="8e32c54" data-element_type="section">
             <div class="elementor-container elementor-column-gap-wide">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-57864ae6"
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-57864ae6 hidden-mobile"
                     data-id="57864ae6" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
