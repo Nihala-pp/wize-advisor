@@ -2585,7 +2585,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/privacy-policy/">Privacy
+                                                                href="https://wiseadvizor.com/privacy-policy/">Privacy
                                                                 Policy</a></p>
                                                     </div>
                                                 </div>
@@ -2599,7 +2599,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/terms-and-conditions/">Terms
+                                                                href="https://wiseadvizor.com/terms-and-conditions/">Terms
                                                                 & Conditions</a></p>
                                                     </div>
                                                 </div>
@@ -2613,7 +2613,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/community-guidelines/">Community
+                                                                href="https://wiseadvizor.com/community-guidelines/">Community
                                                                 Guidelines</a></p>
                                                     </div>
                                                 </div>
@@ -2627,7 +2627,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/about-us/">About
+                                                                href="https://wiseadvizor.com/about-us/">About
                                                                 Us</a></p>
                                                     </div>
                                                 </div>
@@ -2641,7 +2641,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/contact-us/">Contact
+                                                                href="https://wiseadvizor.com/contact-us/">Contact
                                                                 Us</a></p>
                                                     </div>
                                                 </div>
@@ -2655,7 +2655,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/blogs/">FAQs</a>
+                                                                href="https://wiseadvizor.com/blogs/">FAQs</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2669,7 +2669,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://web.pransainvestment.ca/browse-mentor/">Browse
+                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
                                                                 Mentors</a></p>
                                                     </div>
                                                 </div>
