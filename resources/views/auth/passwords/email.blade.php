@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Forgot Password | wiseAdvizor - Startup mentorship platform</title>
-<meta name="description" content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips tailored to your needs.">
-<meta name="keywords" content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
+<title>Forgot Password| Start Your Own Business Today - wiseAdvizor</title>
+<meta name="description" content=" Unlock a world of business opportunities with our website, offering valuable entrepreneur advice and inspiring ideas to fuel your start-up journey.">
+<meta name="keywords" content="entrepreneur advice, ideas of business, start your own business">
 @include('partials.header')
 
 <body class="bg-gray-200">
