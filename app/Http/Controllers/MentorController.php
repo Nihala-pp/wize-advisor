@@ -428,7 +428,7 @@ class MentorController extends Controller
                 ],
                 'form_params' => [
                     "grant_type" => "authorization_code",
-                    "code" => $code,
+                    "code" => $authorization_code,
                     "redirect_uri" => $redirect_uri
                 ],
             ]);
@@ -466,7 +466,7 @@ class MentorController extends Controller
 
     public function get_authorization_code($url)
     {
-        return "vFrVqwGvuIDTEFPfc3JS0WxOPBTmZx8GQ";
+        return "qJUVlBEaHfFniem3jN5TZC1iy68WxLL9A";
         // return redirect($url);
     }
 
