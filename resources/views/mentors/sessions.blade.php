@@ -186,7 +186,7 @@
                                         $upcoming_session->mentor_id)->where('date',
                                         $upcoming_session->date)->first();
                                         if(!empty($mentor_timezone->time_zone)) {
-                                            {{ dd("ertrryttyu"); }}
+                                        dd("ertrryttyu");
                                         $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                         $upcoming_session->start_time, new
                                         \DateTimeZone($upcoming_session->utc));
