@@ -4,8 +4,8 @@
 
 @include('partials.script')
 @include('partials.header')
-
-<meta name="description" content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+<title>Become a Mentor| Ignite Business Growth Today - wiseAdvizor</title>
+<meta name="description" content="Be a mentor on wiseAdvizor, help entrepreneurs on their business growth. Share your expertise, guide them in crafting their startup stories.">
 <meta name="keywords" content="business growth, startup stories">
 <link rel="canonical" href="https://wiseadvizor.com/be-a-mentor">
 
