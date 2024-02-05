@@ -1661,7 +1661,7 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="300" height="45"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png"
-                                            class="attachment-medium size-medium wp-image-624" alt=""
+                                            class="attachment-medium size-medium wp-image-624" alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w"
                                             sizes="(max-width: 300px) 100vw, 300px"> </a>
                                 </div>
@@ -1893,7 +1893,7 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="360" height="360"
                                     src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.gif') }}"
-                                    class="attachment-full size-full wp-image-2588" alt="">
+                                    class="attachment-full size-full wp-image-2588" alt="define mentorship">
                             </div>
                         </div>
                         <section
@@ -2072,7 +2072,7 @@
                                         <div class="wpr-flip-box-content">
 
                                             <div class="wpr-flip-box-image">
-                                                <img decoding="async" alt=""
+                                                <img decoding="async" alt="business coach"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png">
                                             </div>
 
@@ -2124,7 +2124,7 @@
                                         <div class="wpr-flip-box-content">
 
                                             <div class="wpr-flip-box-image">
-                                                <img decoding="async" alt=""
+                                                <img decoding="async" alt="types of mentoring"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png">
                                             </div>
 
