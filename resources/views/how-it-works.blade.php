@@ -2656,7 +2656,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/blogs/">FAQs</a>
+                                                                href="https://wiseadvizor.com/faq/">FAQs</a>
                                                         </p>
                                                     </div>
                                                 </div>
