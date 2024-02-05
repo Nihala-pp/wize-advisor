@@ -2175,7 +2175,7 @@
                                         <div class="wpr-flip-box-content">
 
                                             <div class="wpr-flip-box-image">
-                                                <img decoding="async" alt=""
+                                                <img decoding="async" alt="growth mentor"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.png">
                                             </div>
 
@@ -2346,7 +2346,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="online mentoring" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Sales']) }}">
@@ -2362,7 +2362,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="business build" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Idea Validation']) }}">
@@ -2378,7 +2378,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/product-new.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="project manager mentor" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['product-market-fit']) }}">
@@ -2394,7 +2394,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="marketing mentor" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Marketing']) }}">
@@ -2410,7 +2410,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="leadership mentoring" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Leadership']) }}">
@@ -2437,7 +2437,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="goals for a mentorship" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Fund raising']) }}">
@@ -2453,7 +2453,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="mentorship network" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Networking']) }}">
@@ -2468,7 +2468,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/roadmap-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="business tips" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Business Strategy']) }}">
@@ -2484,7 +2484,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="cheapest business to start" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Pricing Strategy']) }}">
@@ -2500,7 +2500,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="start up business" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Social Media']) }}">
@@ -2628,7 +2628,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/team-management-final-50x50.png') }}"
-                                                            alt="" width="50" height="50">
+                                                            alt="tech accelerator" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Technology']) }}">
@@ -2673,7 +2673,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/email-final-50x50.png') }}"
-                                                            alt="Email" width="50" height="50">
+                                                            alt="good ideas for business" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Email Marketing']) }}">
