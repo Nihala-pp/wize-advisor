@@ -199,6 +199,7 @@
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
                                         }
+                                        if (!empty($mentor_finish_time)) {
                                         if(date($upcoming_session->date.' '.$mentor_finish_time->format('H:i:s')) >=
                                         $current_time)
                                         {
@@ -266,6 +267,7 @@
                                         </tr>
                                         @php
                                         }
+                                      }
                                         @endphp
                                         @endforeach
                                         @endif
