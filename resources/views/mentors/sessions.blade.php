@@ -179,7 +179,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @if(count($upcoming_sessions))
+                                    @if($upcoming_sessions->count())
                                         @foreach($upcoming_sessions as $upcoming_session)
                                         @php
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
