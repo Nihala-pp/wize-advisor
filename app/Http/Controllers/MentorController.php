@@ -286,7 +286,7 @@ class MentorController extends Controller
 
         $client = new \GuzzleHttp\Client(['base_uri' => 'https://api.zoom.us']);
 
-        $arr_token = $this->generateAccessToken();
+        $arr_token = $this->get_access_token();
         $accessToken = $arr_token->access_token;
         $url = '/v2/users/';
         $user = 'me';
