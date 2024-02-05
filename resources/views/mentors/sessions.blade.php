@@ -182,10 +182,12 @@
                                         @if(count($upcoming_sessions))
                                         @foreach($upcoming_sessions as $upcoming_session)
                                         @php
+                                        if()
                                         $mentor_timezone = App\Models\AvailableSchedule::where('mentor_id',
                                         $upcoming_session->mentor_id)->where('date',
                                         $upcoming_session->date)->first();
                                         if(!empty($mentor_timezone->time_zone)) {
+                                            {{ dd("ertrryttyu"); }}
                                         $user_timezone = new \DateTime($upcoming_session->date . ' ' .
                                         $upcoming_session->start_time, new
                                         \DateTimeZone($upcoming_session->utc));
@@ -194,7 +196,7 @@
                                         \DateTimeZone($mentor_timezone->time_zone));
 
                                         $mentor_finish_time =
-                                        Illuminate\Support\Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
+                                        Illuminate\Support\Carbon::arse($user_timezone->format('H:i:s'))->addMinutes($upcoming_session->duration);
 
                                         $current_time = \Carbon\Carbon::now()->timezone($mentor_timezone->time_zone);
                                         }
