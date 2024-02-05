@@ -283,11 +283,10 @@ class MentorController extends Controller
         $client_secret = env('ZOOM_API_SECRET');
         $schedule = ScheduledCall::find($id);
         $date = $schedule->date . '\T' . $schedule->start_time;
-        // $this->generateAccessToken($request);
 
         $client = new \GuzzleHttp\Client(['base_uri' => 'https://api.zoom.us']);
 
-        $arr_token = $this->get_access_token();
+        $arr_token = $this->generateAccessToken();
         $accessToken = $arr_token->access_token;
         $url = '/v2/users/';
         $user = 'me';
@@ -403,7 +402,7 @@ class MentorController extends Controller
         return redirect()->route('mentor.dashboard.my_sessions');
     }
 
-    public function generateAccessToken(Request $request)
+    public function generateAccessToken()
     {
         try {
             $url = "https://zoom.us/oauth/authorize?response_type=code&";
@@ -414,7 +413,7 @@ class MentorController extends Controller
             $api_url = $url . $data;
             $authorization_code = $this->get_authorization_code($api_url);
 
-            $code = $request->code;
+            // $code = "NWiN87pxCNo3Jbnd1uBSrS2623mPdP0QQ";
             // dd($code);
 
             $client = new \GuzzleHttp\Client(['base_uri' => 'https://zoom.us']);
@@ -467,7 +466,8 @@ class MentorController extends Controller
 
     public function get_authorization_code($url)
     {
-        return redirect($url);
+        return "vFrVqwGvuIDTEFPfc3JS0WxOPBTmZx8GQ";
+        // return redirect($url);
     }
 
     public function success(Request $request)
