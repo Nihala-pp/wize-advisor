@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Blogs | wiseAdvizor - Startup mentorship platform</title>
+    <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
+    <meta name="description"
+        content="wiseAdvizor is a platform that bridges the gap between mentors and learners through 1:1 mentorship. Get expert guidance on your business journey, from refining your startup idea to mastering startup strategy.">
+    <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
