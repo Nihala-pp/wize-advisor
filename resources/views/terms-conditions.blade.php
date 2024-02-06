@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mentoring Definition and User Requirements for wiseAdvizor | Terms and Conditions</title>
+    <title>Mentoring Definition and User Requirements for wiseAdvizor</title>
     <meta name="description"
         content="Get a clear understanding of the mentoring definition with wiseAdvizor. Explore our platform and find resources to help you become a better mentor or mentee.">
     <meta name="keywords" content="mentoring definition, define mentorship">
