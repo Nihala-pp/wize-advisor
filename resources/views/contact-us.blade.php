@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us | wiseAdvizor: Startup mentorship platform</title>
-    <meta name="description" content="Community Post| Discover the easiest businesses to start and find the perfect mentor to guide your career on our website - wiseAdvizor.">
-    <meta name="keywords"
-        content="mentoring organizations, one on one mentoring">    
+    <title>Top Mentoring Organizations : One-on-One Mentoring Programs</title>
+    <meta name="description" content="Experience the transformative impact of one-on-one mentoring through our organization, empowering individuals and fostering growth in mentoring relationships.">
+    <meta name="keywords" content="mentoring organizations, one on one mentoring">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";

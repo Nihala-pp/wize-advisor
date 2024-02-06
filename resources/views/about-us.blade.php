@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mentorship for New Ventures: Explore Easy Start-Up Ideas</title>
-    <meta name="description" content="Community Post| Discover the easiest businesses to start and find the perfect mentor to guide your career on our website - wiseAdvizor.">
+    <meta name="description" content="Find the ideal mentor to kickstart your career and explore a range of easy-to-start businesses on our website. Start your entrepreneurial journey with ease.">
     <meta name="keywords"
         content="easy businesses to start, i need a mentor for my career">    
     <script>
