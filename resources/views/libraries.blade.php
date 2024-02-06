@@ -10,7 +10,9 @@
     var theplus_nonce = "41e9834823";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Libraries | wiseAdvizor: Startup mentorship platform</title>
+    <title>Libraries| Expert Tips for Business Growth - wiseAdvizor</title>
+    <meta name="description" content="Take your business to the next level with our invaluable business guidance and experience exponential business growth like never before.">
+    <meta name="keywords" content="business guidance, business growth"> 
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
