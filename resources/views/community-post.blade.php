@@ -10,7 +10,11 @@
     var theplus_nonce = "41e9834823";
     </script>
     <meta name="robots" content="max-image-preview:large">
-    <title>Community Post | wiseAdvizor - Startup mentorship platform</title>
+    <title>Get entrepreneur advice & tips for budding entrepreneurs</title>
+    <meta name="description"
+        content="Unlock valuable entrepreneur advice and discover the best business to start on our website. Unlock your success by setting clear goals and finding the perfect mentor to guide you">
+    <meta name="keywords"
+        content="entrepreneur advice, best business to start">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
