@@ -1,8 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <title>FAQ | Get Answers to Your Startup Growth Questions</title>
-    <meta name="description"
-        content="Take your startup growth to the next level with wiseAdvizor's expert mentorship. From shaping your startup idea to refining business strategies, we'll guide you towards business success.">
+    <meta name="description" content="Take your startup growth to the next level with wiseAdvizor's expert mentorship. From shaping your startup idea to refining business strategies, we'll guide you towards business success.">
     <meta name="keywords"
         content="startup growth, business success, startup idea">
     <meta name="viewport" content="width=device-width, initial-scale=1">
