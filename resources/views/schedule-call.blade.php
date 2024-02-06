@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Connect with Professional Mentor {{ $mentor->name }} - wiseAdvizor</title>
+    <title>Connect with Professional Mentor {{ $mentor->name }}</title>
     <meta name="description"
         content="Get professional mentoring from highly accomplished mentor {{ $mentor->name }} at wiseAdvizor. Discover her expertise and see what her mentees have to say.">
     <meta name="keywords" content="professional mentor, my mentor">
