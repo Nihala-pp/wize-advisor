@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Us | wiseAdvizor: Startup mentorship platform</title>
+    <title>Mentorship for New Ventures: Explore Easy Start-Up Ideas</title>
+    <meta name="description" content="Take your startup growth to the next level with wiseAdvizor's expert mentorship. From shaping your startup idea to refining business strategies, we'll guide you towards business success.">
+    <meta name="keywords"
+        content="easy businesses to start, i need a mentor for my career">    
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
