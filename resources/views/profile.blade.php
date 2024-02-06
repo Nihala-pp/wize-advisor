@@ -1361,7 +1361,7 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt=""
+                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1546,7 +1546,7 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt=""
+                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -2000,7 +2000,7 @@
                                     </h3>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
-                                        class="attachment-medium size-medium wp-image-4926" alt=""
+                                        class="attachment-medium size-medium wp-image-4926" alt="ideas of business"
                                         srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
                                         sizes="(max-width: 241px) 100vw, 241px" />
                                 </div>
@@ -2609,7 +2609,7 @@
                                 <div class="elementor-widget-container">
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
-                                        class="attachment-medium size-medium wp-image-4926" alt=""
+                                        class="attachment-medium size-medium wp-image-4926" alt="professional mentor"
                                         srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
                                         sizes="(max-width: 241px) 100vw, 241px" />
                                 </div>
@@ -4477,12 +4477,12 @@
                                                         <img class="lazy-loading"
                                                             src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                             data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
-                                                            alt="" height="40px;" width="40px;">
+                                                            alt="growth mentor" height="40px;" width="40px;">
                                                         @else
                                                         <img class="lazy-loading"
                                                             src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                             data-src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                            alt="" />
+                                                            alt="user avatar" />
                                                         @endif
                                                         <div class="client_name">
                                                             <h4>{{ $review->user->name }}</h4>
