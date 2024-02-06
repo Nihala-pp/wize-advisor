@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Community Guidelines | wiseAdvizor - Startup mentorship platform</title>
+    <title>Community Guidelines| Setting Effective Mentor-Mentee Goals</title>
+    <meta name="description"
+        content=" Empower yourself through mentorship and reach new heights by setting and achieving your personal and professional goals.">
+    <meta name="keywords" content="mentor mentee goals, goals for a mentorship">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
