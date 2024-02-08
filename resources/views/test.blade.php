@@ -678,11 +678,11 @@
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.24'
         media='all' />
     <link rel='stylesheet' id='elementor-post-3007-css'
-        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' media='all' />
     <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3'
+        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3'
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3'
