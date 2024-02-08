@@ -2046,10 +2046,10 @@
                                                         $totalReviews = \App\Models\Review::where('mentor_id',
                                                         $mentor->id)->get()->count();
                                                         $totalSessions = \App\Models\ScheduledCall::where('mentor_id',
-                                                        $mentor->id)->where('status', 'Approved')->get()->count();
+                                                        $mentor->id)->where('status', 'Approved')->where('is_paid', 1)->get()->count();
                                                           echo $totalReviews;
                                                          if($totalReviews > 1) {
-                                                           echo " Reviews";
+                                                           echo " Reviews / ".$totalSessions. " Sessions";
                                                          }
                                                         else {
                                                             echo " Review / ".$totalSessions. " Sessions";
