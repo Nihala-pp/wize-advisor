@@ -2047,9 +2047,9 @@
                                                         $mentor->id)->get()->count();
                                                         $totalSessions = \Illuminate\Database\Eloquent\Model\ScheduledCall::where('mentor_id',
                                                         $mentor->id)->where('status', 'Approved')->get()->count();
-                                                        {{ $totalReviews}}
+                                                          echo $totalReviews;
                                                         @if($totalReviews > 1) Reviews @else Review @endif /
-                                                        {{ $totalSessions}}
+                                                          echo $totalSessions;
                                                         @endphp
                                                     </span>
                                                 </p>
