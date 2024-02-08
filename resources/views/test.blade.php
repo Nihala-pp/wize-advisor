@@ -1871,10 +1871,10 @@
                                             </div>
                                         </div>
 
-                                        <div class="wpr-switcher-inner wpr-switcher-second">
+                                        <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                     <div class="wpr-switcher-content-wrap">
