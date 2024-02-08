@@ -1850,19 +1850,19 @@
 
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-82fl1zs elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="82fl1zs" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-9bcde29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="9bcde29" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-background-overlay"></div>
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49ee3de"
-                    data-id="49ee3de" data-element_type="column">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-55b12a5"
+                    data-id="55b12a5" data-element_type="column"
+                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-c828001 elementor-widget elementor-widget-heading"
-                            data-id="c828001" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-2ad683c elementor-widget elementor-widget-heading"
+                            data-id="2ad683c" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <style>
-                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                /*! elementor - v3.19.0 - 29-01-2024 */
                                 .elementor-heading-title {
                                     padding: 0;
                                     margin: 0;
@@ -1895,8 +1895,33 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">Browse mentor and schedule a
-                                    call right away</h1>
+                                <h2 class="elementor-heading-title elementor-size-default">Getting a mentor is your
+                                    shortcut is success!</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
+                            data-id="7fd4600" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-heading-title elementor-size-default">Skip the trial and error
+                                    approach! Browse our mentors and overcome obstacles with personalized guidance.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29a38af"
+                    data-id="29a38af" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-e813b77 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="e813b77" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Browse Mentors</span>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
