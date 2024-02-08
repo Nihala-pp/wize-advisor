@@ -2088,14 +2088,8 @@
                                                     <div class="elementor-widget-container">
                                                         <p>&nbsp </p>
                                                         <p class="bio" style="text-align: left"><span
-                                                                style="color: #000000">I enjoy the 0-1, 1-10 journey and
-                                                                have setup processes from scratch. A true believer in
-                                                                leveraging multiple channels, from doing co-branded
-                                                                campaigns with the likes of Coca Cola, to creating a GTM
-                                                                strategy focused only on user experience for Paytm's
-                                                                loyalty program. From driving promoter led BTL campaigns
-                                                                in Rajasthan's by lanes to marketing and launching the
-                                                                Indian cricket team jersey twice.</span></p>
+                                                                style="color: #000000">
+                                                                 {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}</span></p>
                                                         <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
                                                             data-id="a92b341" data-element_type="widget"
                                                             data-widget_type="heading.default">
