@@ -2053,7 +2053,6 @@
                                                          
                                                         else 
                                                           Review  / echo $totalSessions;
-                                                        w
                                                         @endphp
                                                     </span>
                                                 </p>
