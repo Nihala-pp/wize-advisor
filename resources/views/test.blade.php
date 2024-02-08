@@ -1861,7 +1861,7 @@
 
                                         </div> -->
 
-                                        <div class="wpr-switcher-outer">
+                                        <!-- <div class="wpr-switcher-outer"> -->
                                             <!-- <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher" data-switcher="1"></div>
 
@@ -1869,7 +1869,7 @@
 
                                                 <div class="wpr-switcher-bg"></div>
                                             </div> -->
-                                        </div>
+                                        <!-- </div> -->
 
                                         <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
