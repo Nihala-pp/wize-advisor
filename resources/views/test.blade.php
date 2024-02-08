@@ -2118,7 +2118,7 @@
                                                                     class="btn btn-primary"
                                                                     style="background-color:#001E64;">View Profile</a>
                                                                 <span style="color: #000000"><strong>
-                                                                        {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                        $ {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                         / 30
                                                                         Min</strong></span>
                                                                 <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
