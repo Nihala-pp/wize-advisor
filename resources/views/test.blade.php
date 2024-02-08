@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Browse Mentor &#8211; WISE ADVIZOR</title>
@@ -54,7 +55,7 @@
                         n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                             "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                             "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                            );
+                        );
                 case "emoji":
                     return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
                         "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
@@ -1111,7 +1112,8 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1302,7 +1304,8 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1748,6 +1751,53 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano"
+            data-id="2aff472" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="container">
+                    <form class="filterForm">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <!-- <label>Select with Button Class</label> -->
+                                <select id="expertise" class="selectpicker" data-style="btn-info"
+                                    name="filters[expertise]">
+                                    <option value="">Expertise</option>
+                                    @foreach($expertise as $expert)
+                                    <option value="{{ $expert->name }}">
+                                        {{ $expert->name }}
+                                    </option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
+                                <input type="text" placeholder="FILTER BY DATE" onfocus="(this.type='date')"
+                                    class="form-control selectpicker" id="date" name="filters[date]">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
+                                <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
+                                    <option value="">Search by name</option>
+                                    @foreach($price as $pr)
+                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
+                                    <option value="">Sort by Price</option>
+                                    <option value="asc">ASC</option>
+                                    <option value="desc">DESC </option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <button class="btn btn-info apply_filters search">Apply To Search</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
