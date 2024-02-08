@@ -289,7 +289,7 @@ class HomeController extends Controller
 
     ?>
 <script type="text/javascript">
-alert("Be a Mentor Requested Successfull  y!");
+alert("Be a Mentor Requested Successfully!");
 window.location.href = "https://wiseadvizor.com/be-a-mentor";
 </script>
 <?php
@@ -627,16 +627,18 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     return response()->json($dates);
   }
 
-  public function test()
+  public function test(Request $request)
   {
+    $filters = $request['filters'];
 
-     $data =  ScheduledCall::where('is_paid', 0)->get();
 
-     foreach($data as  $dt) {
-       ScheduledCall::find($dt->id)->update([
-        'is_paid' => 1
-       ]);
-     }
+    //  $data =  ScheduledCall::where('is_paid', 0)->get();
+
+    //  foreach($data as  $dt) {
+    //    ScheduledCall::find($dt->id)->update([
+    //     'is_paid' => 1
+    //    ]);
+    //  }
 
     // $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
     // // dd($tzlist);
@@ -678,6 +680,46 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     // $expertise = ExpertiseList::get();
 
     // return view('test', compact('mentors', 'slot', 'expertise', 'price'));
+
+    if (!empty($filters)) {
+      $sortby = $filters['sort_by'] ?? 'asc';
+      $mentors = User::with(['expertise', 'availability'])
+        ->where('role_id', 2)
+        ->WhereNull('status')
+        ->whereHas('expertise', function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['expertise'])
+            $query->where('expertise', 'LIKE', '%' . $filters['expertise'] . '%');
+        })
+        ->whereHas('availability', function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['date'])
+            $query->whereDate('date', '=', $filters['date']);
+        })
+        ->when((!empty($filters)), function ($query) use ($filters) {
+          /** @var Builder $query */
+          if ($filters['name'])
+            $query->where('name', $filters['name']);
+
+          if($filters['sort_by'])
+          $query->orderBy('price', $filters['sort_by']);
+        })
+        // ->orderBy('price', $sortby)
+        ->get();
+      // ->sortByDesc('metaData.price_per_call');
+    } else {
+      $mentors = User::where('role_id', 2)->whereNull('status')->get();
+    }
+
+    $price = User::where('role_id', 2)->whereNull('status')->get();
+    $slot = AvailableSchedule::where('date', '>=', now())->get();
+    $expertise = ExpertiseList::get();
+
+    if (!empty($filters)) {
+      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'filters'));
+    } else {
+      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price'));
+    }
   }
 
   public function completedCalls()
