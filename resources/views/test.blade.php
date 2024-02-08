@@ -1853,7 +1853,7 @@
                             data-id="b4f3275" data-element_type="widget" data-widget_type="wpr-content-toggle.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-content-toggle">
-                                    <!-- <div class="wpr-switcher-container" data-active-switcher="1">
+                                    <div class="wpr-switcher-container" data-active-switcher="1">
 
 
                                         <!-- <div class="wpr-switcher-inner wpr-switcher-first">
@@ -1875,7 +1875,7 @@
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div>
-                                    </div> -->
+                                    </div>
 
                                     <div class="wpr-switcher-content-wrap">
 
