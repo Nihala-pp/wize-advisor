@@ -630,25 +630,25 @@
         href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-owl-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0'
+        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-theme-default-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0'
+        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-animate-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18'
+        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18'
+        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-lightbox-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0'
+        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-lightbox-theme-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0'
+        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='hfe-style-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
         media='all' /> -->
     <link rel='stylesheet' id='elementor-frontend-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0'
@@ -691,7 +691,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
         media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
-        href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/css/print.css?ver=2.0' media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
@@ -956,14 +956,14 @@
         <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
             <ul id='wp-admin-bar-root-default' class="ab-top-menu">
                 <li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://web.wiseadvizor.com/wp-admin/about.php'><span class="ab-icon"
+                        href='https://wiseadvizor.com/wp-admin/about.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="screen-reader-text">About WordPress</span></a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-wp-logo-default' class="ab-submenu">
                             <li id='wp-admin-bar-about'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/about.php'>About WordPress</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/about.php'>About WordPress</a></li>
                             <li id='wp-admin-bar-contribute'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/contribute.php'>Get Involved</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/contribute.php'>Get Involved</a></li>
                         </ul>
                         <ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu">
                             <li id='wp-admin-bar-wporg'><a class='ab-item'
@@ -980,86 +980,86 @@
                     </div>
                 </li>
                 <li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://web.wiseadvizor.com/wp-admin/'>WISE ADVIZOR</a>
+                        href='https://wiseadvizor.com/wp-admin/'>WISE ADVIZOR</a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-site-name-default' class="ab-submenu">
                             <li id='wp-admin-bar-dashboard'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/'>Dashboard</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/'>Dashboard</a></li>
                         </ul>
                         <ul id='wp-admin-bar-appearance' class="ab-submenu">
                             <li id='wp-admin-bar-themes'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/themes.php'>Themes</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/themes.php'>Themes</a></li>
                             <li id='wp-admin-bar-widgets'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/widgets.php'>Widgets</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/widgets.php'>Widgets</a></li>
                             <li id='wp-admin-bar-menus'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/nav-menus.php'>Menus</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/nav-menus.php'>Menus</a></li>
                             <li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/themes.php?page=custom-background'>Background</a>
+                                    href='https://wiseadvizor.com/wp-admin/themes.php?page=custom-background'>Background</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item'
-                        href='https://web.wiseadvizor.com/wp-admin/customize.php?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fbrowse-mentor%2F'>Customize</a>
+                        href='https://wiseadvizor.com/wp-admin/customize.php?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fbrowse-mentor%2F'>Customize</a>
                 </li>
                 <li id='wp-admin-bar-updates'><a class='ab-item'
-                        href='https://web.wiseadvizor.com/wp-admin/update-core.php'><span class="ab-icon"
+                        href='https://wiseadvizor.com/wp-admin/update-core.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="ab-label" aria-hidden="true">6</span><span
                             class="screen-reader-text updates-available-text">6 updates available</span></a></li>
                 <li id='wp-admin-bar-comments'><a class='ab-item'
-                        href='https://web.wiseadvizor.com/wp-admin/edit-comments.php'><span class="ab-icon"
+                        href='https://wiseadvizor.com/wp-admin/edit-comments.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0"
                             aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0
                             Comments in moderation</span></a></li>
                 <li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://web.wiseadvizor.com/wp-admin/post-new.php'><span class="ab-icon"
+                        href='https://wiseadvizor.com/wp-admin/post-new.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="ab-label">New</span></a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-new-content-default' class="ab-submenu">
                             <li id='wp-admin-bar-new-post'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php'>Post</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php'>Post</a></li>
                             <li id='wp-admin-bar-new-media'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/media-new.php'>Media</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/media-new.php'>Media</a></li>
                             <li id='wp-admin-bar-new-page'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php?post_type=page'>Page</a>
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=page'>Page</a>
                             </li>
                             <li id='wp-admin-bar-new-e-landing-page'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=5a29513f16#library'>Landing
+                                    href='https://wiseadvizor.com/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=5a29513f16#library'>Landing
                                     Page</a></li>
                             <li id='wp-admin-bar-new-elementor_library'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php?post_type=elementor_library'>Template</a>
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=elementor_library'>Template</a>
                             </li>
                             <li id='wp-admin-bar-new-sa_slider'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php?post_type=sa_slider'>Slider</a>
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=sa_slider'>Slider</a>
                             </li>
                             <li id='wp-admin-bar-new-user'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/user-new.php'>User</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/user-new.php'>User</a></li>
                             <li id='wp-admin-bar-wpforms'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a>
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li id='wp-admin-bar-edit'><a class='ab-item'
-                        href='https://web.wiseadvizor.com/wp-admin/post.php?post=2772&#038;action=edit'>Edit Page</a>
+                        href='https://wiseadvizor.com/wp-admin/post.php?post=2772&#038;action=edit'>Edit Page</a>
                 </li>
                 <li id='wp-admin-bar-wpforms-menu' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>WPForms <div
+                        href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>WPForms <div
                             class="wp-core-ui wp-ui-notification wpforms-menu-notification-counter">6</div></a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-wpforms-menu-default' class="ab-submenu">
                             <li id='wp-admin-bar-wpforms-notifications'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>Notifications
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>Notifications
                                     <div class="wp-core-ui wp-ui-notification wpforms-menu-notification-indicator">
                                     </div></a></li>
                             <li id='wp-admin-bar-wpforms-forms'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>All
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>All
                                     Forms</a></li>
                             <li id='wp-admin-bar-wpforms-payments'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-payments'>Payments</a>
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-payments'>Payments</a>
                             </li>
                             <li id='wp-admin-bar-wpforms-add-new'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>Add
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>Add
                                     New</a></li>
                             <li id='wp-admin-bar-wpforms-community'><a class='ab-item'
                                     href='https://www.facebook.com/groups/wpformsvip/' target='_blank'
@@ -1077,7 +1077,7 @@
             <ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu">
                 <li id='wp-admin-bar-search' class="admin-bar-search">
                     <div class="ab-item ab-empty-item" tabindex="-1">
-                        <form action="https://web.wiseadvizor.com/" method="get" id="adminbarsearch"><input
+                        <form action="https://wiseadvizor.com/" method="get" id="adminbarsearch"><input
                                 class="adminbar-input" name="s" id="adminbar-search" type="text" value=""
                                 maxlength="150" /><label for="adminbar-search"
                                 class="screen-reader-text">Search</label><input type="submit" class="adminbar-button"
@@ -1085,7 +1085,7 @@
                     </div>
                 </li>
                 <li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true"
-                        href='https://web.wiseadvizor.com/wp-admin/profile.php'>Howdy, <span class="display-name">WISE
+                        href='https://wiseadvizor.com/wp-admin/profile.php'>Howdy, <span class="display-name">WISE
                             ADVIZOR</span><img alt=''
                             src='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=26&#038;d=mm&#038;r=g'
                             srcset='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=52&#038;d=mm&#038;r=g 2x'
@@ -1093,15 +1093,15 @@
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-user-actions' class="ab-submenu">
                             <li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1"
-                                    href='https://web.wiseadvizor.com/wp-admin/profile.php'><img alt=''
+                                    href='https://wiseadvizor.com/wp-admin/profile.php'><img alt=''
                                         src='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=64&#038;d=mm&#038;r=g'
                                         srcset='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=128&#038;d=mm&#038;r=g 2x'
                                         class='avatar avatar-64 photo' height='64' width='64' decoding='async' /><span
                                         class='display-name'>WISE ADVIZOR</span></a></li>
                             <li id='wp-admin-bar-edit-profile'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-admin/profile.php'>Edit Profile</a></li>
+                                    href='https://wiseadvizor.com/wp-admin/profile.php'>Edit Profile</a></li>
                             <li id='wp-admin-bar-logout'><a class='ab-item'
-                                    href='https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1'>Log
+                                    href='https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1'>Log
                                     Out</a></li>
                         </ul>
                     </div>
@@ -1109,7 +1109,7 @@
             </ul>
         </div>
         <a class="screen-reader-shortcut"
-            href="https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1">Log Out</a>
+            href="https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1">Log Out</a>
     </div> -->
 
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
@@ -3307,7 +3307,7 @@
         '<script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
         'ipt>');
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
+    <script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
         id="twenty-twenty-one-responsive-embeds-script-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
@@ -3343,9 +3343,9 @@
         "version": "3.19.0"
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.19.0"
         id="elementor-web-cli-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
         id="elementor-dialog-js"></script>
     <script id="wp-api-request-js-extra">
     var wpApiSettings = {
@@ -3354,7 +3354,7 @@
         "versionString": "wp\/v2\/"
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
     </script>
     <script id="elementor-dev-tools-js-before">
     var elementorDevToolsConfig = {
@@ -3394,11 +3394,11 @@
         }
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.19.0"
         id="elementor-dev-tools-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script>
-    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
@@ -3817,7 +3817,7 @@
         }
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.19.0"
         id="elementor-common-js"></script>
     <script id="elementor-app-loader-js-before">
     var elementorAppConfig = {
@@ -3835,9 +3835,9 @@
         "onboarding": []
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.19.0"
         id="elementor-app-loader-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.24"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.24"
         id="hfe-frontend-js-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
@@ -3845,13 +3845,13 @@
     }
     </script>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.4"
+        src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.4"
         id="tpgb-admin-bar-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.0"
         id="elementor-webpack-runtime-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.0"
         id="elementor-frontend-modules-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3981,13 +3981,13 @@
         }
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.0"
         id="elementor-frontend-js"></script>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
+        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
+        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
         id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
@@ -4071,9 +4071,9 @@
         }
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
@@ -4096,13 +4096,13 @@
     };
     </script>
     <script data-cfasync="false"
-        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
         id="wpr-addons-js-js"></script>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
         id="wpr-modal-popups-js-js"></script>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.8.2"
+        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.8.2"
         id="e-sticky-js"></script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
@@ -4111,7 +4111,7 @@
         }
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
     <script id="wpforms-elementor-js-extra">
     var wpformsElementorVars = {
         "captcha_provider": "recaptcha",
@@ -4119,7 +4119,7 @@
     };
     </script>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4"
+        src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4"
         id="wpforms-elementor-js"></script>
     <script id="elementor-admin-bar-js-before">
     var elementorAdminBarConfig = {
@@ -4160,9 +4160,9 @@
         }
     };
     </script>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.19.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.19.0"
         id="elementor-admin-bar-js"></script>
-    <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
     <!-- <script id="admin-bar-js-before">
     (function() {
@@ -4189,7 +4189,7 @@
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
     </script> -->
-    <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
