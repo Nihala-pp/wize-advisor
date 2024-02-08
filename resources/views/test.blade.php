@@ -2046,15 +2046,16 @@
                                                         $totalReviews = \App\Models\Review::where('mentor_id',
                                                         $mentor->id)->get()->count();
                                                         $totalSessions = \App\Models\ScheduledCall::where('mentor_id',
-                                                        $mentor->id)->where('status', 'Approved')->where('is_paid', 1)->get()->count();
-                                                          echo $totalReviews;
-                                                         if($totalReviews > 1) {
-                                                           echo " Reviews / ".$totalSessions. " Sessions";
-                                                         }
-                                                        else {
-                                                            echo " Review / ".$totalSessions. " Sessions";
+                                                        $mentor->id)->where('status', 'Approved')->where('is_paid',
+                                                        1)->get()->count();
+                                                        echo $totalReviews;
+                                                        if($totalReviews > 1) {
+                                                        echo " Reviews / ".$totalSessions. " Sessions";
                                                         }
-                                                          
+                                                        else {
+                                                        echo " Review / ".$totalSessions. " Sessions";
+                                                        }
+
                                                         @endphp
                                                     </span>
                                                 </p>
@@ -2072,11 +2073,12 @@
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
                                                 <ul>
                                                     @php
-                                                        $expertise = \App\Models\Expertise::where('mentor_id',
-                                                        $mentor->id)->take(4)->get();
+                                                    $expertise = \App\Models\Expertise::where('mentor_id',
+                                                    $mentor->id)->take(4)->get();
                                                     @endphp
                                                     @foreach($expertise as $expert)
-                                                    <li><span style="color: #000000">{{ $expert->expertise }}</span></li>
+                                                    <li><span style="color: #000000">{{ $expert->expertise }}</span>
+                                                    </li>
                                                     <!-- <li><span style="color: #000000">Brand Strategy</span></li>
                                                     <li><span style="color: #000000">Marketing Strategy</span></li>
                                                     <li><span style="color: #000000">Idea Validation</span></li> -->
@@ -2089,22 +2091,28 @@
                                                         <p>&nbsp </p>
                                                         <p class="bio" style="text-align: left"><span
                                                                 style="color: #000000">
-                                                                 {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}</span></p>
+                                                                {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}</span>
+                                                        </p>
                                                         <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
                                                             data-id="a92b341" data-element_type="widget"
                                                             data-widget_type="heading.default">
                                                             <div class="elementor-widget-container"
                                                                 style="text-align: center"><span
                                                                     style="color: #333333"><strong>Next Availability -
-                                                                        8th February, 2024</strong></span></div>
+                                                                        @if(!empty($nextAvailability))
+                                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
+                                                                        @endif
+                                                                    </strong></span></div>
                                                             <div> </div>
                                                             <div style="text-align: center">
-                                                                <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
+                                                                <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                     class="btn btn-primary"
                                                                     style="background-color:#001E64;">View Profile</a>
-                                                                <span style="color: #000000"><strong> $50 / 30
+                                                                <span style="color: #000000"><strong>
+                                                                        {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                        / 30
                                                                         Min</strong></span>
-                                                                <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
+                                                                <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                     class="btn btn-primary"
                                                                     style="background-color:#001E64;">Schedule Call</a>
                                                                 <!-- <a
