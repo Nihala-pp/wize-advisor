@@ -2085,8 +2085,7 @@
                                                                 <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
                                                                     class="btn btn-primary mid-center"
                                                                     style="background-color:#001E64;">View Profile</a>
-                                                                <span style="color: #000000"><strong>View Profile $50
-                                                                        / 30 Min Schedule Call</strong></span>
+                                                                <span style="color: #000000"><strong> $50 / 30 Min</strong></span>
                                                                 <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
                                                                     class="btn btn-primary mid-center"
                                                                     style="background-color:#001E64;">Schedule Call</a>
