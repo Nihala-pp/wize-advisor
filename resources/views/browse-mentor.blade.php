@@ -3792,6 +3792,10 @@
         <!--End of Tawk.to Script-->
 </body>
 <style>
+
+img {
+    border-radius:10px;
+}
 .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
     color: #4A4A4A;
     font-family: "Lato", Sans-serif;
