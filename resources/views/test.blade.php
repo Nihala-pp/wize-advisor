@@ -755,12 +755,12 @@
         "import-export": []
     };
     </script>
-    <link rel="https://api.w.org/" href="https://web.wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://web.wiseadvizor.com/wp-json/wp/v2/pages/2772" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://web.wiseadvizor.com/xmlrpc.php?rsd" />
+    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://web.wiseadvizor.com/browse-mentor/" />
-    <link rel='shortlink' href='https://web.wiseadvizor.com/?p=2772' />
+    <link rel="canonical" href="https://wiseadvizor.com/browse-mentor/" />
+    <link rel='shortlink' href='https://wiseadvizor.com/?p=2772' />
     <link rel="alternate" type="application/json+oembed"
         href="https://web.wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fbrowse-mentor%2F" />
     <link rel="alternate" type="text/xml+oembed"
@@ -768,7 +768,7 @@
     <style>
     #wpadminbar .theplus-purge-clear>.ab-item:before {
         content: '';
-        background-image: url(https://web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png) !important;
+        background-image: url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png) !important;
         background-size: 20px !important;
         background-position: center;
         width: 20px;
