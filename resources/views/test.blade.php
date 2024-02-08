@@ -1845,6 +1845,158 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="lqdwygc" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <style>
+            /*! elementor - v3.14.0 - 26-06-2023 */
+            @charset "UTF-8";
+
+            .elementor-star-rating {
+                color: #ccd6df;
+                font-family: eicons;
+                display: inline-block
+            }
+
+            .elementor-star-rating i {
+                display: inline-block;
+                position: relative;
+                font-style: normal;
+                cursor: default;
+                font-size: 80%;
+            }
+
+            .elementor-star-rating i:before {
+                content: "\e934";
+                display: block;
+                font-size: inherit;
+                font-family: inherit;
+                position: absolute;
+                overflow: hidden;
+                color: #f0ad4e;
+                top: 0;
+                left: 0
+            }
+
+            .elementor-star-rating .elementor-star-empty:before {
+                content: none
+            }
+
+            .elementor-star-rating .elementor-star-1:before {
+                width: 10%
+            }
+
+            .elementor-star-rating .elementor-star-2:before {
+                width: 20%
+            }
+
+            .elementor-star-rating .elementor-star-3:before {
+                width: 30%
+            }
+
+            .elementor-star-rating .elementor-star-4:before {
+                width: 40%
+            }
+
+            .elementor-star-rating .elementor-star-5:before {
+                width: 50%
+            }
+
+            .elementor-star-rating .elementor-star-6:before {
+                width: 60%
+            }
+
+            .elementor-star-rating .elementor-star-7:before {
+                width: 70%
+            }
+
+            .elementor-star-rating .elementor-star-8:before {
+                width: 80%
+            }
+
+            .elementor-star-rating .elementor-star-9:before {
+                width: 90%
+            }
+
+            .elementor-star-rating__wrapper {
+                display: flex;
+                align-items: right
+            }
+
+            .elementor-star-rating__title {
+                margin-right: 10px
+            }
+
+            .elementor-star-rating--align-right .elementor-star-rating__wrapper {
+                text-align: right;
+                justify-content: flex-end
+            }
+
+            .elementor-star-rating--align-left .elementor-star-rating__wrapper {
+                text-align: left;
+                justify-content: flex-start
+            }
+
+            .elementor-star-rating--align-center .elementor-star-rating__wrapper {
+                text-align: center;
+                justify-content: center
+            }
+
+            .elementor-star-rating--align-justify .elementor-star-rating__title {
+                margin-right: auto
+            }
+
+            @media (max-width:1024px) {
+                .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: flex-end
+                }
+
+                .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
+                    text-align: left;
+                    justify-content: flex-start
+                }
+
+                .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
+                    text-align: center;
+                    justify-content: center
+                }
+
+                .elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
+                    margin-right: auto
+                }
+            }
+
+            @media (max-width:767px) {
+                .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: flex-end
+                }
+
+                .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: flex-start
+                }
+
+                .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: right
+                }
+
+                .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
+                    margin-right: auto
+                }
+            }
+
+            .last-star {
+                letter-spacing: 0
+            }
+
+            .elementor--star-style-star_unicode .elementor-star-rating {
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
+                content: "★"
+            }
+            </style>
             <div class="elementor-container elementor-column-gap-no">
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                     data-id="6a69efe" data-element_type="column">
