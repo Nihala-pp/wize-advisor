@@ -1984,13 +1984,10 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-content-toggle">
                                     <div class="wpr-switcher-container" data-active-switcher="1">
-
-
                                         <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
 
                                         </div>
-
                                         <div class="wpr-switcher-outer">
                                             <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher wpr-switcher-active" data-switcher="1"></div>
@@ -2000,17 +1997,12 @@
                                                 <div class="wpr-switcher-bg"></div>
                                             </div>
                                         </div>
-
                                         <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div>
-
-
                                     </div>
-
                                     <div class="wpr-switcher-content-wrap">
-
                                         <div class="wpr-switcher-content wpr-switcher-content-active wpr-animation-enter"
                                             data-switcher="1">
                                             <div
@@ -2066,7 +2058,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="wpr-switcher-content" data-switcher="2">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
