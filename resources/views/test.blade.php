@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>Browse Mentor &#8211; WISE ADVIZOR</title>
     <script>
-    var theplus_ajax_url = "https://web.wiseadvizor.com/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://web.wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
     var theplus_nonce = "92c4d641b6";
     </script>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
-        href="https://web.wiseadvizor.com/feed/" />
+        href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://web.wiseadvizor.com/comments/feed/" />
+        href="https://wiseadvizor.com/comments/feed/" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
