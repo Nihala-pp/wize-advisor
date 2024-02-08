@@ -2081,15 +2081,15 @@
                                                                         8th February, 2024</strong></span></div>
                                                             <div> </div>
                                                             <div style="text-align: center">
-                                                                <a href="https://web.wiseadvizor.com/mentors/108/Sumedha-mahajan"
+                                                                <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
                                                                     class="btn btn-primary"
                                                                     style="background-color:#001E64;">View Profile</a>
                                                                 <span style="color: #000000"><strong> $50 / 30 Min</strong></span>
-                                                                <a href="https://web.wiseadvizor.com/mentors/108/Sumedha-mahajan"
+                                                                <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
                                                                     class="btn btn-primary"
                                                                     style="background-color:#001E64;">Schedule Call</a>
                                                                 <!-- <a
-                                                                    href="https://web.wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
+                                                                    href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
                                                                         style="color: #000000"><strong>View Profile $50
                                                                             / 30 Min Schedule Call</strong></span></a> -->
                                                             </div>
@@ -2103,9 +2103,9 @@
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                 <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
-                                                            src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
-                                                            srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
+                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
                                                             sizes="(max-width: 221px) 100vw, 221px" /></strong><span
                                                         style="color: #000000">Sumedha Mahajan</span></h5>
                                                 <p><span style="color: #000000">Head of marketing,
@@ -2151,7 +2151,7 @@
                                                                         8th February, 2024</strong></span></div>
                                                             <div> </div>
                                                             <div style="text-align: center"><a
-                                                                    href="https://web.wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
+                                                                    href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
                                                                         style="color: #000000"><strong>View Profile $50
                                                                             / 30 Min Schedule Call</strong></span></a>
                                                             </div>
