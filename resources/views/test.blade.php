@@ -2083,11 +2083,11 @@
                                                             <div> </div>
                                                             <div style="text-align: center">
                                                                 <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
-                                                                    class="btn btn-primary mid-center"
+                                                                    class="btn btn-primary"
                                                                     style="background-color:#001E64;">View Profile</a>
                                                                 <span style="color: #000000"><strong> $50 / 30 Min</strong></span>
                                                                 <a href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"
-                                                                    class="btn btn-primary mid-center"
+                                                                    class="btn btn-primary"
                                                                     style="background-color:#001E64;">Schedule Call</a>
                                                                 <!-- <a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
