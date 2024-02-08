@@ -2168,7 +2168,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c7b960f"
+                <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c7b960f"
                     data-id="c7b960f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-e88dc5c wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
@@ -2334,7 +2334,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
     </div>
