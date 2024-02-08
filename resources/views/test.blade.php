@@ -2725,7 +2725,7 @@
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
 		<# if ( closeType ) { #>
-			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
+			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close-- elementor-templates-modal__header__item">
 				<# if ( 'skip' === closeType ) { #>
 				<span>Skip</span>
 				<# } #>
@@ -2741,7 +2741,7 @@
         <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
 		<i class="eicon-elementor"></i>
 	</span>
-	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
+	<span class="elementor-templates-modal__header__logo__title"></span>
 </script>
     <script type="text/template" id="tmpl-elementor-finder">
         <div id="elementor-finder__search">
@@ -2757,29 +2757,29 @@
 </script>
 
     <script type="text/template" id="tmpl-elementor-finder__results__category">
-        <div class="elementor-finder__results__category__title">{{{ title }}}</div>
+        <div class="elementor-finder__results__category__title"></div>
 	<div class="elementor-finder__results__category__items"></div>
 </script>
 
     <script type="text/template" id="tmpl-elementor-finder__results__item">
-        <a href="{{ url }}" class="elementor-finder__results__item__link">
+        <a href="" class="elementor-finder__results__item__link">
 		<div class="elementor-finder__results__item__icon">
-			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
+			<i class="eicon-" aria-hidden="true"></i>
 		</div>
-		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
+		<div class="elementor-finder__results__item__title"></div>
 		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
+			<div class="elementor-finder__results__item__description">- </div>
 		<# } #>
 
 		<# if ( lock ) { #>
-		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
+		<div class="elementor-finder__results__item__badge"><i class=""></i></div>
 		<# } #>
 	</a>
 	<# if ( actions.length ) { #>
 		<div class="elementor-finder__results__item__actions">
 		<# jQuery.each( actions, function() { #>
-			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
-				<i class="eicon-{{{ this.icon }}}"></i>
+			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--" href="" target="_blank">
+				<i class="eicon-"></i>
 			</a>
 		<# } ); #>
 		</div>
