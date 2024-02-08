@@ -197,7 +197,7 @@
     }
     </style>
     <link rel='stylesheet' id='elementor-icons-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.19.0' media='all' />
