@@ -2715,12 +2715,12 @@
     <script>
     document.body.classList.remove("no-js");
     </script>
-    <script>
+    <!-- <script>
     if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
         document.body.classList.add('is-IE');
     }
-    </script>
-    <script type="text/template" id="tmpl-elementor-templates-modal__header">
+    </script> -->
+    <!-- <script type="text/template" id="tmpl-elementor-templates-modal__header">
         <div class="elementor-templates-modal__header__logo-area"></div>
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
@@ -2735,9 +2735,9 @@
 		<# } #>
 		<div id="elementor-template-library-header-tools"></div>
 	</div>
-</script>
+</script> -->
 
-    <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
+    <!-- <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
         <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
 		<i class="eicon-elementor"></i>
 	</span>
@@ -2784,7 +2784,7 @@
 		<# } ); #>
 		</div>
 	<# } #>
-</script>
+</script> -->
     <link rel='stylesheet' id='wpr-animations-css-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.87'
         media='all' />
