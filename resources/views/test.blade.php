@@ -1987,32 +1987,25 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-0672680 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="0672680" data-element_type="section">
+            class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="lqdwygc" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aefc077"
-                    data-id="aefc077" data-element_type="column">
-                    <div class="elementor-widget-wrap">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-65b87a5b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="65b87a5b0" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f08966f"
-                    data-id="f08966f" data-element_type="column">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
+                    data-id="6a69efe" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-5902bcc wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                            data-id="5902bcc" data-element_type="widget" data-widget_type="wpr-content-toggle.default">
+                        <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
+                            data-id="b4f3275" data-element_type="widget" data-widget_type="wpr-content-toggle.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-content-toggle">
                                     <div class="wpr-switcher-container" data-active-switcher="1">
+
+
                                         <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
 
                                         </div>
+
                                         <div class="wpr-switcher-outer">
                                             <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher wpr-switcher-active" data-switcher="1"></div>
@@ -2022,18 +2015,22 @@
                                                 <div class="wpr-switcher-bg"></div>
                                             </div>
                                         </div>
+
                                         <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div>
+
+
                                     </div>
+
                                     <div class="wpr-switcher-content-wrap">
+
                                         <div class="wpr-switcher-content wpr-switcher-content-active wpr-animation-enter"
                                             data-switcher="1">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                <h5><strong><img loading="lazy" decoding="async"
-                                                            class="alignleft wp-image-5531 "
+                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
@@ -2083,11 +2080,11 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="wpr-switcher-content" data-switcher="2">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                <h5><strong><img loading="lazy" decoding="async"
-                                                            class="alignleft wp-image-5531 "
+                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
@@ -2136,23 +2133,29 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7198140"
-                    data-id="7198140" data-element_type="column">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c7b960f"
+                    data-id="c7b960f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-ca491e2 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                            data-id="ca491e2" data-element_type="widget" data-widget_type="wpr-content-toggle.default">
+                        <div class="elementor-element elementor-element-e88dc5c wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
+                            data-id="e88dc5c" data-element_type="widget" data-widget_type="wpr-content-toggle.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-content-toggle">
                                     <div class="wpr-switcher-container" data-active-switcher="1">
+
+
                                         <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
+
                                         </div>
+
                                         <div class="wpr-switcher-outer">
                                             <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher wpr-switcher-active" data-switcher="1"></div>
@@ -2162,18 +2165,22 @@
                                                 <div class="wpr-switcher-bg"></div>
                                             </div>
                                         </div>
+
                                         <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div>
+
+
                                     </div>
+
                                     <div class="wpr-switcher-content-wrap">
+
                                         <div class="wpr-switcher-content wpr-switcher-content-active wpr-animation-enter"
                                             data-switcher="1">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                <h5><strong><img loading="lazy" decoding="async"
-                                                            class="alignleft wp-image-5531 "
+                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
@@ -2190,11 +2197,11 @@
                                                     <li><span style="color: #000000">Marketing Strategy</span></li>
                                                     <li><span style="color: #000000">Idea Validation</span></li>
                                                 </ul>
-                                                <p>&nbsp;</p>
                                                 <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                     data-id="0e640ef" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
+                                                        <p>&nbsp;</p>
                                                         <p class="bio" style="text-align: left"><span
                                                                 style="color: #000000">I enjoy the 0-1, 1-10 journey and
                                                                 have setup processes from scratch. A true believer in
@@ -2223,11 +2230,11 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="wpr-switcher-content" data-switcher="2">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                <h5><strong><img loading="lazy" decoding="async"
-                                                            class="alignleft wp-image-5531 "
+                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
@@ -2276,7 +2283,9 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
