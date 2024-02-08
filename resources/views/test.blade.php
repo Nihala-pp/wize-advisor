@@ -2071,10 +2071,16 @@
                                                 <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
                                                 <ul>
-                                                    <li><span style="color: #000000">Marketing Campaign</span></li>
-                                                    <li><span style="color: #000000">Brand Strategy</span></li>
+                                                    @php
+                                                        $expertise = \App\Models\Expertise::where('mentor_id',
+                                                        $mentor->id)->get();
+                                                    @endphp
+                                                    @foreach($expertise as $expert)
+                                                    <li><span style="color: #000000">{{ $expert->expertise }}</span></li>
+                                                    <!-- <li><span style="color: #000000">Brand Strategy</span></li>
                                                     <li><span style="color: #000000">Marketing Strategy</span></li>
-                                                    <li><span style="color: #000000">Idea Validation</span></li>
+                                                    <li><span style="color: #000000">Idea Validation</span></li> -->
+                                                    @endforeach
                                                 </ul>
                                                 <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                     data-id="0e640ef" data-element_type="widget"
