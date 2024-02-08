@@ -14,6 +14,46 @@
         href="https://web.wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://web.wiseadvizor.com/comments/feed/" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PK457VCB');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 3668045,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -3957,7 +3997,10 @@
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
     </script> -->
-    <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+     <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script type="text/javascript">
     (function($) {
         "use strict";
@@ -4009,51 +4052,50 @@
     }(jQuery));
     </script>
     <script>
-        $('.apply_filters').on('click', function() {
-                    var form = $('.filterForm').serialize();
+    $('.apply_filters').on('click', function() {
+        var form = $('.filterForm').serialize();
 
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor') }}",
-                        data: {
-                            form,
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function(response) {
-                            $('.mentors').html(response);
-                            $('.mentorsList').hide();
-                        }
-                    });
-                });
-
+        return $.ajax({
+            type: 'GET',
+            url: "{{ route('browseMentor') }}",
+            data: {
+                form,
+                "_token": "{{ csrf_token() }}",
+            },
+            success: function(response) {
+                $('.mentors').html(response);
+                $('.mentorsList').hide();
+            }
+        });
+    });
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'AW-11325588607');
-        </script>
+    gtag('config', 'AW-11325588607');
+    </script>
 
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/65046147b1aaa13b7a770b04/1hacho0lm';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-        </script>
-        <!--End of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/65046147b1aaa13b7a770b04/1hacho0lm';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 <style>
 i.fas.fa-chevron-down {
@@ -4455,4 +4497,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 </style>
+
 </html>
