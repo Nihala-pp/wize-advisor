@@ -2043,9 +2043,9 @@
                                                         {{ $mentor->metaData->company }}</span><br />
                                                     <span style="color: #000000">
                                                         @php
-                                                        $totalReviews = \Illuminate\Database\Eloquent\Model\Review::where('mentor_id',
+                                                        $totalReviews = \App\Models\Review::where('mentor_id',
                                                         $mentor->id)->get()->count();
-                                                        $totalSessions = \Illuminate\Database\Eloquent\Model\ScheduledCall::where('mentor_id',
+                                                        $totalSessions = \App\Models\ScheduledCall::where('mentor_id',
                                                         $mentor->id)->where('status', 'Approved')->get()->count();
                                                           echo $totalReviews;
                                                          if($totalReviews > 1) {
