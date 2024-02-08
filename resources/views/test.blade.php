@@ -1961,7 +1961,18 @@
                 </div>
             </div>
         </section>
-                <section
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-0672680 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="0672680" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aefc077"
+                    data-id="aefc077" data-element_type="column">
+                    <div class="elementor-widget-wrap">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-65b87a5b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="65b87a5b0" data-element_type="section">
             <div class="elementor-container elementor-column-gap-no">
@@ -1982,7 +1993,7 @@
 
                                         <div class="wpr-switcher-outer">
                                             <div class="wpr-switcher-wrap">
-                                                <div class="wpr-switcher" data-switcher="1"></div>
+                                                <div class="wpr-switcher wpr-switcher-active" data-switcher="1"></div>
 
                                                 <div class="wpr-switcher" data-switcher="2"></div>
 
@@ -2000,7 +2011,8 @@
 
                                     <div class="wpr-switcher-content-wrap">
 
-                                        <div class="wpr-switcher-content" data-switcher="1">
+                                        <div class="wpr-switcher-content wpr-switcher-content-active wpr-animation-enter"
+                                            data-switcher="1">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                 <h5><strong><img loading="lazy" decoding="async"
@@ -2008,10 +2020,10 @@
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
-                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            sizes="(max-width: 221px) 100vw, 221px"></strong><span
                                                         style="color: #000000">Sumedha Mahajan</span></h5>
                                                 <p><span style="color: #000000">Head of marketing,
-                                                        Ampverse</span><br /><span style="color: #000000">10 sessions, 5
+                                                        Ampverse</span><br><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
                                                 <p><span style="color: #000000">ewfrefregfrtghty</span></p>
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2025,7 +2037,7 @@
                                                     data-id="0e640ef" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p> </p>
+                                                        <p>&nbsp;</p>
                                                         <p class="bio" style="text-align: left"><span
                                                                 style="color: #000000">I enjoy the 0-1, 1-10 journey and
                                                                 have setup processes from scratch. A true believer in
@@ -2042,12 +2054,13 @@
                                                                 style="text-align: center"><span
                                                                     style="color: #333333"><strong>Next Availability -
                                                                         8th February, 2024</strong></span></div>
-                                                            <div> </div>
+                                                            <div>&nbsp;</div>
                                                             <div style="text-align: center"><a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                        style="color: #000000"><strong>View Profile $50
-                                                                            / 30 Min Schedule Call</strong></span></a>
-                                                            </div>
+                                                                        style="color: #000000"><strong>View
+                                                                            Profile&nbsp; &nbsp; &nbsp; $50 / 30
+                                                                            Min&nbsp; &nbsp; &nbsp; &nbsp; Schedule
+                                                                            Call</strong></span></a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2062,10 +2075,10 @@
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
-                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            sizes="(max-width: 221px) 100vw, 221px"></strong><span
                                                         style="color: #000000">Sumedha Mahajan</span></h5>
                                                 <p><span style="color: #000000">Head of marketing,
-                                                        Ampverse</span><br /><span style="color: #000000">10 sessions, 5
+                                                        Ampverse</span><br><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
                                                 <p><span style="color: #000000">ewfrefregfrtghty</span></p>
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2095,20 +2108,19 @@
                                                                 style="text-align: center"><span
                                                                     style="color: #333333"><strong>Next Availability -
                                                                         8th February, 2024</strong></span></div>
-                                                            <div> </div>
+                                                            <div>&nbsp;</div>
                                                             <div style="text-align: center"><a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                        style="color: #000000"><strong>View Profile $50
-                                                                            / 30 Min Schedule Call</strong></span></a>
-                                                            </div>
+                                                                        style="color: #000000"><strong>View
+                                                                            Profile&nbsp; &nbsp; &nbsp; $50 / 30
+                                                                            Min&nbsp; &nbsp; &nbsp; &nbsp; Schedule
+                                                                            Call</strong></span></a></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -2122,34 +2134,26 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-content-toggle">
                                     <div class="wpr-switcher-container" data-active-switcher="1">
-
-
                                         <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
-
                                         </div>
-
                                         <div class="wpr-switcher-outer">
                                             <div class="wpr-switcher-wrap">
-                                                <div class="wpr-switcher" data-switcher="1"></div>
+                                                <div class="wpr-switcher wpr-switcher-active" data-switcher="1"></div>
 
                                                 <div class="wpr-switcher" data-switcher="2"></div>
 
                                                 <div class="wpr-switcher-bg"></div>
                                             </div>
                                         </div>
-
                                         <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div>
-
-
                                     </div>
-
                                     <div class="wpr-switcher-content-wrap">
-
-                                        <div class="wpr-switcher-content" data-switcher="1">
+                                        <div class="wpr-switcher-content wpr-switcher-content-active wpr-animation-enter"
+                                            data-switcher="1">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                 <h5><strong><img loading="lazy" decoding="async"
@@ -2157,10 +2161,10 @@
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
-                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            sizes="(max-width: 221px) 100vw, 221px"></strong><span
                                                         style="color: #000000">Sumedha Mahajan</span></h5>
                                                 <p><span style="color: #000000">Head of marketing,
-                                                        Ampverse</span><br /><span style="color: #000000">10 sessions, 5
+                                                        Ampverse</span><br><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
                                                 <p><span style="color: #000000">ewfrefregfrtghty</span></p>
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2170,7 +2174,7 @@
                                                     <li><span style="color: #000000">Marketing Strategy</span></li>
                                                     <li><span style="color: #000000">Idea Validation</span></li>
                                                 </ul>
-                                                <p> </p>
+                                                <p>&nbsp;</p>
                                                 <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                     data-id="0e640ef" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
@@ -2191,18 +2195,18 @@
                                                                 style="text-align: center"><span
                                                                     style="color: #333333"><strong>Next Availability -
                                                                         8th February, 2024</strong></span></div>
-                                                            <div> </div>
+                                                            <div>&nbsp;</div>
                                                             <div style="text-align: center"><a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                        style="color: #000000"><strong>View Profile $50
-                                                                            / 30 Min Schedule Call</strong></span></a>
-                                                            </div>
+                                                                        style="color: #000000"><strong>View
+                                                                            Profile&nbsp; &nbsp; &nbsp; $50 / 30
+                                                                            Min&nbsp; &nbsp; &nbsp; &nbsp; Schedule
+                                                                            Call</strong></span></a></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="wpr-switcher-content" data-switcher="2">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
@@ -2211,10 +2215,10 @@
                                                             src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
                                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
-                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            sizes="(max-width: 221px) 100vw, 221px"></strong><span
                                                         style="color: #000000">Sumedha Mahajan</span></h5>
                                                 <p><span style="color: #000000">Head of marketing,
-                                                        Ampverse</span><br /><span style="color: #000000">10 sessions, 5
+                                                        Ampverse</span><br><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
                                                 <p><span style="color: #000000">ewfrefregfrtghty</span></p>
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2244,12 +2248,13 @@
                                                                 style="text-align: center"><span
                                                                     style="color: #333333"><strong>Next Availability -
                                                                         8th February, 2024</strong></span></div>
-                                                            <div> </div>
+                                                            <div>&nbsp;</div>
                                                             <div style="text-align: center"><a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                        style="color: #000000"><strong>View Profile $50
-                                                                            / 30 Min Schedule Call</strong></span></a>
-                                                            </div>
+                                                                        style="color: #000000"><strong>View
+                                                                            Profile&nbsp; &nbsp; &nbsp; $50 / 30
+                                                                            Min&nbsp; &nbsp; &nbsp; &nbsp; Schedule
+                                                                            Call</strong></span></a></div>
                                                         </div>
                                                     </div>
                                                 </div>
