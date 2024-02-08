@@ -1915,6 +1915,53 @@
             </div>
         </section>
         <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano"
+            data-id="2aff472" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="container">
+                    <form class="filterForm">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <!-- <label>Select with Button Class</label> -->
+                                <select id="expertise" class="selectpicker" data-style="btn-info"
+                                    name="filters[expertise]">
+                                    <option value="">Expertise</option>
+                                    @foreach($expertise as $expert)
+                                    <option value="{{ $expert->name }}">
+                                        {{ $expert->name }}
+                                    </option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
+                                <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker"
+                                    id="date" name="filters[date]">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
+                                <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
+                                    <option value="">Search by name</option>
+                                    @foreach($price as $pr)
+                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
+                                    <option value="">Sort by Price</option>
+                                    <option value="asc">ASC</option>
+                                    <option value="desc">DESC </option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <button class="btn btn-info apply_filters">Apply</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+                <section
             class="elementor-section elementor-top-section elementor-element elementor-element-65b87a5b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="65b87a5b0" data-element_type="section">
             <div class="elementor-container elementor-column-gap-no">
@@ -2208,60 +2255,11 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano"
-            data-id="2aff472" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="container">
-                    <form class="filterForm">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <!-- <label>Select with Button Class</label> -->
-                                <select id="expertise" class="selectpicker" data-style="btn-info"
-                                    name="filters[expertise]">
-                                    <option value="">Expertise</option>
-                                    @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}">
-                                        {{ $expert->name }}
-                                    </option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker"
-                                    id="date" name="filters[date]">
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
-                                <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
-                                    <option value="">Search by name</option>
-                                    @foreach($price as $pr)
-                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
-                                    <option value="">Sort by Price</option>
-                                    <option value="asc">ASC</option>
-                                    <option value="desc">DESC </option>
-                                </select>
-                            </div>
-                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <button class="btn btn-info apply_filters">Apply</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </section>
