@@ -2049,7 +2049,7 @@
                                                         $mentor->id)->where('status', 'Approved')->get()->count();
                                                           echo $totalReviews;
                                                          if($totalReviews > 1) {
-                                                           echo "Reviews";
+                                                           echo " Reviews";
                                                          }
                                                         else {
                                                             echo " Review / ".$totalSessions. " Sessions";
