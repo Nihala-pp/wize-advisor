@@ -651,7 +651,7 @@
         href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
         media='all' /> -->
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0'
         media='all' />
     <link rel='stylesheet' id='swiper-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6'
