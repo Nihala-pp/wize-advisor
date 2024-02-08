@@ -2102,7 +2102,7 @@
                                                                         Next Availability -
                                                                         @php
                                                                         $nextAvailability =
-                                                                        \App\Models\AvailableSchedule::where('mentor_id', $data->id)
+                                                                        \App\Models\AvailableSchedule::where('mentor_id', $mentor->id)
                                                                         ->whereDate('date', '>', now())
                                                                         ->where('is_booked', 0)
                                                                         ->orderBy('date', 'asc')
