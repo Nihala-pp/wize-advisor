@@ -19,7 +19,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
-    
+
     <!-- Google Tag Manager -->
     <script>
     (function(w, d, s, l, i) {
@@ -1862,7 +1862,7 @@
                                         </div> -->
 
                                         <!-- <div class="wpr-switcher-outer"> -->
-                                            <!-- <div class="wpr-switcher-wrap">
+                                        <!-- <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher" data-switcher="1"></div>
 
                                                 <div class="wpr-switcher" data-switcher="2"></div>
@@ -1891,7 +1891,17 @@
                                                 <p><span style="color: #000000">Head of marketing,
                                                         Ampverse</span><br /><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
-                                                <p><span style="color: #000000">ewfrefregfrtghty</span></p>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+                                                </div>
+                                                <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
                                                 <ul>
                                                     <li><span style="color: #000000">Marketing Campaign</span></li>
@@ -2007,7 +2017,7 @@
                                         </div> -->
 
                                         <!-- <div class="wpr-switcher-outer"> -->
-                                            <!-- <div class="wpr-switcher-wrap">
+                                        <!-- <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher" data-switcher="1"></div>
 
                                                 <div class="wpr-switcher" data-switcher="2"></div>
@@ -3997,10 +4007,10 @@
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
     </script> -->
-     <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script> 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script type="text/javascript">
     (function($) {
         "use strict";
