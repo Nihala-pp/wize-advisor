@@ -2043,18 +2043,15 @@
                                                 <p><span style="color: #000000">Head of marketing,
                                                         Ampverse</span><br /><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
-                                                <div class="elementor-star-rating__wrapper">
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                                 </div>
                                                 <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2109,18 +2106,15 @@
                                                 <p><span style="color: #000000">Head of marketing,
                                                         Ampverse</span><br /><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
-                                                <div class="elementor-star-rating__wrapper">
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                                 </div>
                                                 <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2216,18 +2210,15 @@
                                                 <p><span style="color: #000000">Head of marketing,
                                                         Ampverse</span><br /><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
-                                                <div class="elementor-star-rating__wrapper">
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                                 </div>
                                                 <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
@@ -2282,18 +2273,15 @@
                                                 <p><span style="color: #000000">Head of marketing,
                                                         Ampverse</span><br /><span style="color: #000000">10 sessions, 5
                                                         Reviews</span></p>
-                                                <div class="elementor-star-rating__wrapper">
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                                 </div>
                                                 <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                 <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
