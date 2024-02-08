@@ -2098,7 +2098,16 @@
                                                             data-widget_type="heading.default">
                                                             <div class="elementor-widget-container"
                                                                 style="text-align: center"><span
-                                                                    style="color: #333333"><strong>Next Availability -
+                                                                    style="color: #333333"><strong>
+                                                                        Next Availability -
+                                                                        @php
+                                                                        $nextAvailability =
+                                                                        \App\Models\AvailableSchedule::where('mentor_id', $data->id)
+                                                                        ->whereDate('date', '>', now())
+                                                                        ->where('is_booked', 0)
+                                                                        ->orderBy('date', 'asc')
+                                                                        ->first();
+                                                                        @endphp
                                                                         @if(!empty($nextAvailability))
                                                                         {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                                         @endif
