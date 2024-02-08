@@ -900,7 +900,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 logged-in admin-bar no-customize-support wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.7 is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
-    <script>
+    <!-- <script>
     (function() {
         var request, b = document.body,
             c = 'className',
@@ -913,8 +913,8 @@
         // The customizer requires postMessage and CORS (if the site is cross domain).
         b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
     }());
-    </script>
-    <div id="wpadminbar" class="nojq nojs">
+    </script> -->
+    <!-- <div id="wpadminbar" class="nojq nojs">
         <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
             <ul id='wp-admin-bar-root-default' class="ab-top-menu">
                 <li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true"
@@ -1072,7 +1072,7 @@
         </div>
         <a class="screen-reader-shortcut"
             href="https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1">Log Out</a>
-    </div>
+    </div> -->
 
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://web.wiseadvizor.com" title="WISE ADVIZOR"
@@ -1609,8 +1609,6 @@
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div>
-
-
                                     </div>
 
                                     <div class="wpr-switcher-content-wrap">
@@ -3708,7 +3706,7 @@
         id="elementor-admin-bar-js"></script>
     <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
-    <script id="admin-bar-js-before">
+    <!-- <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
             var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
@@ -3732,7 +3730,7 @@
         };
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
-    </script>
+    </script> -->
     <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
     <script type="text/javascript">
     (function($) {
