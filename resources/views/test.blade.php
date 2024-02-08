@@ -2048,12 +2048,12 @@
                                                         $totalSessions = \Illuminate\Database\Eloquent\Model\ScheduledCall::where('mentor_id',
                                                         $mentor->id)->where('status', 'Approved')->get()->count();
                                                           echo $totalReviews;
-                                                         if($totalReviews > 1) {
+                                                         if($totalReviews > 1)
                                                          Reviews 
-                                                         }
-                                                        else {
+                                                         
+                                                        else 
                                                           Review  / echo $totalSessions;
-                                                        }
+                                                        w
                                                         @endphp
                                                     </span>
                                                 </p>
