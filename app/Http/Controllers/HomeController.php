@@ -718,7 +718,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     if (!empty($filters)) {
       return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'filters'));
     } else {
-      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price'));
+      return view('test', compact('mentors', 'slot', 'expertise', 'price'));
     }
   }
 
