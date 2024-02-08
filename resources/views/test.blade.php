@@ -2001,10 +2001,10 @@
                                     <div class="wpr-switcher-container" data-active-switcher="1">
 
 
-                                        <div class="wpr-switcher-inner wpr-switcher-first">
+                                        <!-- <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
 
-                                        </div>
+                                        </div> -->
 
                                         <div class="wpr-switcher-outer">
                                             <div class="wpr-switcher-wrap">
@@ -2016,10 +2016,10 @@
                                             </div>
                                         </div>
 
-                                        <div class="wpr-switcher-inner wpr-switcher-second">
+                                        <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
-                                        </div>
+                                        </div> -->
 
 
                                     </div>
