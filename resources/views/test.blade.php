@@ -2052,7 +2052,7 @@
                                                            echo "Reviews";
                                                          }
                                                         else {
-                                                            echo " Review / ".$totalSessions. "Sessions";
+                                                            echo " Review / ".$totalSessions. " Sessions";
                                                         }
                                                           
                                                         @endphp
