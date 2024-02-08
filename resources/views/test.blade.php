@@ -2063,7 +2063,7 @@
                                                     data-id="0e640ef" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <p>&nnsp </p>
+                                                        <p>&nbsp </p>
                                                         <p class="bio" style="text-align: left"><span
                                                                 style="color: #000000">I enjoy the 0-1, 1-10 journey and
                                                                 have setup processes from scratch. A true believer in
