@@ -1146,12 +1146,12 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     }
-                                    </style> <a href="https://web.wiseadvizor.com">
+                                    </style> <a href="https:/wiseadvizor.com">
                                         <img width="932" height="140"
-                                            src="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
+                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624"
                                             alt="startup mentorship platform"
-                                            srcset="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -1181,36 +1181,36 @@
                                             <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/how-it-works" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
                                                         class="hfe-menu-item">How it works</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/faq" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/faq" itemprop="url"
                                                         class="hfe-menu-item">FAQ's</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
                                                                 class="hfe-menu-toggle hfe-menu-child-0"><i
                                                                     class="fas fa-chevron-down"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/community-posts/"
+                                                            <a href="https://wiseadvizor.com/community-posts/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/libraries/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
@@ -1338,12 +1338,12 @@
                             <div class="elementor-element elementor-element-556f326 elementor-widget elementor-widget-image"
                                 data-id="556f326" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <a href="https://web.wiseadvizor.com">
+                                    <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
-                                            src="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
+                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624"
                                             alt="startup mentorship platform"
-                                            srcset="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
                             </div>
@@ -1374,18 +1374,18 @@
                                             <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/how-it-works" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
                                                         class="hfe-menu-item">How it works</a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/faq" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/faq" itemprop="url"
                                                         class="hfe-menu-item">FAQ's</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item" aria-haspopup="true"
                                                             aria-expanded="false">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
@@ -1411,18 +1411,18 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/community-post/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/libraries/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
@@ -1434,7 +1434,7 @@
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/login" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/login" itemprop="url"
                                                         class="hfe-menu-item">Sign In</a>
                                                 </li>
                                             </ul>
@@ -1468,37 +1468,37 @@
                                             <ul id="menu-1-ee84ee1" class="hfe-nav-menu">
                                                 <li id="menu-item-29" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/how-it-works" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
                                                         class="hfe-sub-menu-item">How it works
                                                     </a>
                                                 </li>
                                                 <li id="menu-item-28" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                         class="hfe-sub-menu-item">FAQ'S</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
-                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/community-posts/"
+                                                            <a href="https://wiseadvizor.com/community-posts/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/libraries/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
@@ -2032,9 +2032,9 @@
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                 <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
-                                                            src="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
                                                             alt="" width="221" height="221"
-                                                            srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
+                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
                                                             sizes="(max-width: 221px) 100vw, 221px" /></strong><span
                                                         style="color: #000000">Sumedha Mahajan</span></h5>
                                                 <p><span style="color: #000000">Head of marketing,
