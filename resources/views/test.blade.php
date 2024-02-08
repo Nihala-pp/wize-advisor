@@ -3304,7 +3304,7 @@
     <script id="twenty-twenty-one-ie11-polyfills-js-after">
     (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
     document.write(
-        '<script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
+        '<script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
         'ipt>');
     </script>
     <script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
