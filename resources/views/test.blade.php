@@ -2073,7 +2073,7 @@
                                                 <ul>
                                                     @php
                                                         $expertise = \App\Models\Expertise::where('mentor_id',
-                                                        $mentor->id)->take(5)->get();
+                                                        $mentor->id)->take(4)->get();
                                                     @endphp
                                                     @foreach($expertise as $expert)
                                                     <li><span style="color: #000000">{{ $expert->expertise }}</span></li>
