@@ -744,10 +744,10 @@
         id="she-header-js"></script>
     <script id="elementor-pro-app-js-before">
     var elementorAppProConfig = {
-        "baseUrl": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
+        "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
         "site-editor": {
             "urls": {
-                "legacy_view": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
+                "legacy_view": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
             }
         },
         "kit-library": [],
