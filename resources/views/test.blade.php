@@ -2088,7 +2088,7 @@
                                                         data-id="0e640ef" data-element_type="widget"
                                                         data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p>&nbsp </p>
+                                                            <!-- <p>&nbsp </p> -->
                                                             <p class="bio" style="text-align: left"><span
                                                                     style="color: #000000">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
