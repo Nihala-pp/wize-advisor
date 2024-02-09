@@ -2122,8 +2122,7 @@
                                                                         class="btn btn-primary"
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
-                                                                    <span class=""
-                                                                        style="color: #000000"><strong>
+                                                                    <span class="" style="color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
@@ -4185,11 +4184,21 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-<!-- .schedule-call {
-    margin-left:75px;
-} -->
+.elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
+    /* color: #4A4A4A; */
+    /* font-family: "Lato", Sans-serif; */
+    font-size: 15px;
+    /* font-weight: 400; */
+    line-height: 1.7em;
+    /* letter-spacing: 0.2px; */
+    padding: 35px 35px 35px 35px;
+}
 
-.wp-image-5531 {
+< !-- .schedule-call {
+    margin-left: 75px;
+}
+
+-->.wp-image-5531 {
     border-radius: 10px !important;
 }
 
