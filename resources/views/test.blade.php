@@ -4181,8 +4181,8 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-.btn .btn-primary {
-    background-color: #001E64;
+.btn.btn-primary {
+    background-color: #001E64 !important;
 }
 
 < !-- .next_availability {
