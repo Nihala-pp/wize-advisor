@@ -4190,7 +4190,7 @@
 }
 
 .price {
-    padding-left:30px;
+    margin-left:30px;
 }
 
 .wp-image-5531 {
