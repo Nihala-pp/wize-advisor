@@ -2167,10 +2167,10 @@
                                                     <p><span style="color: #000000"><strong>Expertise:</strong></span>
                                                     </p>
                                                     <ul>
-                                                        <li><span style="color: #000000">Marketing Campaign</span></li>
-                                                        <li><span style="color: #000000">Brand Strategy</span></li>
-                                                        <li><span style="color: #000000">Marketing Strategy</span></li>
-                                                        <li><span style="color: #000000">Idea Validation</span></li>
+                                                        <li><span style="font-size:14px;color: #000000">Marketing Campaign</span></li>
+                                                        <li><span style="font-size:14px;color: #000000">Brand Strategy</span></li>
+                                                        <li><span style="font-size:14px;color: #000000">Marketing Strategy</span></li>
+                                                        <li><span style="font-size:14px;color: #000000">Idea Validation</span></li>
                                                     </ul>
                                                     <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                         data-id="0e640ef" data-element_type="widget"
@@ -4186,7 +4186,7 @@
 }
 
 .bio {
-    font-size:13px;
+    font-size:14px;
 }
 < !-- .next_availability {
     padding-right: 95px;
