@@ -2031,7 +2031,6 @@
                                         </div>
 
                                         <div class="wpr-switcher-content-wrap">
-
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
@@ -2118,7 +2117,7 @@
                                                                             @endif
                                                                         </strong></span></div>
                                                                 <div> </div>
-                                                                <div style="text-align: center">
+                                                                <div style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="background-color:#001E64;">View
