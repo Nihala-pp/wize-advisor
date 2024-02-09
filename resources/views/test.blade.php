@@ -2118,26 +2118,20 @@
                                                                         </strong></span></div>
                                                                 <div> </div>
                                                                 <div class="row" style="">
-                                                                    <div>
-                                                                        <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                            class="btn btn-primary"
-                                                                            style="background-color:#001E64;">View
-                                                                            Profile</a>
-                                                                    </div>
-                                                                    <div>
-                                                                        <span class="" style="color: #000000"><strong>
-                                                                                $
-                                                                                {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                                / 30
-                                                                                Min</strong></span>
-                                                                    </div>
-                                                                    <div>
-                                                                        <span class="" style="color: #000000"><strong>
-                                                                                <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                    class="btn btn-primary"
-                                                                                    style="background-color:#001E64;">Schedule
-                                                                                    Call</a></strong></span>
-                                                                    </div>
+                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="background-color:#001E64;">View
+                                                                        Profile</a>
+                                                                    <span class="" style="color: #000000"><strong>
+                                                                            $
+                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                            / 30
+                                                                            Min</strong></span>
+                                                                    <span class="" style="color: #000000"><strong>
+                                                                            <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                                class="btn btn-primary"
+                                                                                style="background-color:#001E64;">Schedule
+                                                                                Call</a></strong></span>
                                                                 </div>
                                                             </div>
                                                         </div>
