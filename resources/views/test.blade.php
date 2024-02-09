@@ -4185,6 +4185,9 @@
     background-color: #001E64 !important;
 }
 
+.bio {
+    font-size:13px;
+}
 < !-- .next_availability {
     padding-right: 95px;
 }
