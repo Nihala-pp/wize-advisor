@@ -2124,11 +2124,11 @@
                                                                 <div style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
-                                                                        style="background-color:#001E64;">View
+                                                                        style="margin-top:5px;background-color:#001E64;">View
                                                                         Profile</a>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary" style="float: right;"
-                                                                        style="background-color:#001E64;">Schedule
+                                                                        style="margin-top:5px;background-color:#001E64;">Schedule
                                                                         Call</a>
                                                                 </div>
                                                             </div>
@@ -2198,7 +2198,7 @@
                                                                 <div> </div>
                                                                 <div style=""><a
                                                                         href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                            style="color: #000000"><strong>View Profile
+                                                                            style="margin-top:5px;color: #000000"><strong>View Profile
                                                                                 $50
                                                                                 / 30 Min Schedule
                                                                                 Call</strong></span></a>
