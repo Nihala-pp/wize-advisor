@@ -2089,7 +2089,7 @@
                                                         data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
                                                             <!-- <p>&nbsp </p> -->
-                                                            <p class="bio" style="text-align: left"><span
+                                                            <p class="bio" style="float:left;"><span
                                                                     style="color: #000000">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
                                                             </p>
