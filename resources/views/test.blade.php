@@ -2094,7 +2094,7 @@
                                                             <p>&nbsp </p>
                                                             <p class="bio" style="text-align: left"><span
                                                                     style="color: #000000">
-                                                                    {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}</span>
+                                                                    {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}</span>
                                                             </p>
                                                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
                                                                 data-id="a92b341" data-element_type="widget"
@@ -2122,13 +2122,14 @@
                                                                         class="btn btn-primary"
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
-                                                                    <span style="text-align: center;color: #000000"><strong>
+                                                                    <span
+                                                                        style="text-align: center;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
                                                                             Min</strong></span>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
+                                                                        class="btn btn-primary schedule-call"
                                                                         style="align: right;background-color:#001E64;">Schedule
                                                                         Call</a>
                                                                     <!-- <a
@@ -4184,9 +4185,8 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
 .wp-image-5531 {
-   border-radius:10px !important;
+    border-radius: 10px !important;
 }
 
 i.fas.fa-chevron-down {
