@@ -2100,7 +2100,7 @@
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
-                                                                    <span style="color: #333333"><strong>
+                                                                    <span class="next_availability" style="color: #333333"><strong>
                                                                             Next Availability -
                                                                             @php
                                                                             $nextAvailability =
@@ -4181,6 +4181,11 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.next_availability {
+  padding-right: 95px;
+}
+
 .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
     /* color: #4A4A4A; */
     /* font-family: "Lato", Sans-serif; */
