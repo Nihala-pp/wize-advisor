@@ -4185,6 +4185,11 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.wp-image-5531 {
+   border-radius:10px;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
