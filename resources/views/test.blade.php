@@ -4191,7 +4191,7 @@
     font-size:14px;
 }
 
-.slot {
+.slot strong{
     padding-bottom:15px !important;
 }
 
