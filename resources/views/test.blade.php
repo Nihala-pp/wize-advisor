@@ -4192,7 +4192,7 @@
 }
 
 .slot {
-    padding-bottom:10px;
+    padding-bottom:15px;
 }
 
 < !-- .next_availability {
