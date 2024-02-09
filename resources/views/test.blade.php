@@ -2094,7 +2094,7 @@
                                                             <p>&nbsp </p>
                                                             <p class="bio" style="text-align: left"><span
                                                                     style="color: #000000">
-                                                                    {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(100) : '' }}</span>
+                                                                    {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
                                                             </p>
                                                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
                                                                 data-id="a92b341" data-element_type="widget"
