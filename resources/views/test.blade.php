@@ -2128,7 +2128,7 @@
                                                                             / 30
                                                                             Min</strong></span>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primar"
+                                                                        class="btn btn-primary"
                                                                         style="align: right;background-color:#001E64;">Schedule
                                                                         Call</a>
                                                                     <!-- <a
