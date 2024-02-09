@@ -2122,7 +2122,7 @@
                                                                         class="btn btn-primary"
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
-                                                                    <span
+                                                                    <span class="price"
                                                                         style="text-align:center;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
@@ -4187,6 +4187,10 @@
 <style>
 .schedule-call {
     margin-left:75px;
+}
+
+.price {
+    padding-left:30px;
 }
 
 .wp-image-5531 {
