@@ -2058,7 +2058,6 @@
                                                             else {
                                                             echo " Review / ".$totalSessions. " Sessions";
                                                             }
-
                                                             @endphp
                                                         </span>
                                                     </p>
@@ -2147,10 +2146,10 @@
                                             <div class="wpr-switcher-content" data-switcher="2">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
-                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
+                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531"
+                                                                src="{{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="" width="221" height="221"
-                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
+                                                                srcset="{{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                                 sizes="(max-width: 221px) 100vw, 221px" /></strong><span
                                                             style="color: #000000">Sumedha Mahajan</span></h5>
                                                     <p><span style="color: #000000">Head of marketing,
