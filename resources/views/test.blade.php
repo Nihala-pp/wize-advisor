@@ -4187,7 +4187,7 @@
 }
 
 .bio {
-    margin-top:-10px;
+    margin-top:-15px;
     font-size:14px;
 }
 < !-- .next_availability {
