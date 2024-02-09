@@ -2099,9 +2099,8 @@
                                                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container"
-                                                                    style="text-align: center"><span
-                                                                        style="color: #333333"><strong>
+                                                                <div class="elementor-widget-container" style="">
+                                                                    <span style="color: #333333"><strong>
                                                                             Next Availability -
                                                                             @php
                                                                             $nextAvailability =
@@ -2115,24 +2114,24 @@
                                                                             @if(!empty($nextAvailability))
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                                             @endif
-                                                                        </strong></span></div>
-                                                                    <div>
+                                                                        </strong></span>
+                                                                    <span class="" style="color: #000000"><strong>
+                                                                            $
+                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                            / 30
+                                                                            Min</strong></span>
+                                                                </div>
+                                                                <div>
                                                                 </div>
                                                                 <div style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
-                                                                    <!-- <span class="" style="color: #000000"><strong>
-                                                                            $
-                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                            / 30
-                                                                            Min</strong></span> -->
-                                                                    <span class="" style="color: #000000"><strong>
-                                                                            <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                class="btn btn-primary"
-                                                                                style="background-color:#001E64;">Schedule
-                                                                                Call</a></strong></span>
+                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="background-color:#001E64;">Schedule
+                                                                        Call</a>
                                                                 </div>
                                                             </div>
                                                         </div>
