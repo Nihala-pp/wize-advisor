@@ -4187,7 +4187,7 @@
 <style>
 
 .wp-image-5531 {
-   border-radius:10px;
+   border-radius:10px !important;
 }
 
 i.fas.fa-chevron-down {
