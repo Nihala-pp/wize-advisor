@@ -4192,6 +4192,7 @@ a {
 .bio {
     margin-top:-15px;
     font-size:14px;
+    padding-top: 5px;
 }
 
 span.slot {
