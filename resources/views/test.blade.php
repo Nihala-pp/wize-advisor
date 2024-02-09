@@ -2123,7 +2123,7 @@
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
                                                                     <span
-                                                                        style="text-align: center;color: #000000"><strong>
+                                                                        style="text-align:center;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
