@@ -2132,10 +2132,11 @@
                                                                                 Min</strong></span>
                                                                     </div>
                                                                     <div>
-                                                                        <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                            class="btn btn-primary"
-                                                                            style="background-color:#001E64;">Schedule
-                                                                            Call</a>
+                                                                        <span class="" style="color: #000000"><strong>
+                                                                                <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                                    class="btn btn-primary"
+                                                                                    style="background-color:#001E64;">Schedule
+                                                                                    Call</a></strong></span>
                                                                     </div>
                                                                     <!-- <a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
