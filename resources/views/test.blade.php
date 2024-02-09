@@ -2138,17 +2138,12 @@
                                                                                     style="background-color:#001E64;">Schedule
                                                                                     Call</a></strong></span>
                                                                     </div>
-                                                                    <!-- <a
-                                                                    href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                        style="color: #000000"><strong>View Profile $50
-                                                                            / 30 Min Schedule Call</strong></span></a> -->
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-
                                             <div class="wpr-switcher-content" data-switcher="2">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
