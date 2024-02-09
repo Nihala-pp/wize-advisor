@@ -2097,7 +2097,7 @@
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
-                                                                    <span class="" style="color: #333333"><strong>
+                                                                    <span class="slot" style="font-size:14px;color: #333333"><strong>
                                                                             Next Slot -
                                                                             @php
                                                                             $nextAvailability =
@@ -2112,8 +2112,8 @@
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
                                                                             @endif
                                                                         </strong></span>
-                                                                    <span class=""
-                                                                        style="float:right;color: #000000"><strong>
+                                                                    <span class="charge"
+                                                                        style="font-size:14px;float:right;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
