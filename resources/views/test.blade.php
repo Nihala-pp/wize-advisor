@@ -2118,16 +2118,16 @@
                                                                         </strong></span></div>
                                                                     <div>
                                                                 </div>
-                                                                <div class="row" style="">
+                                                                <div style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
-                                                                    <span class="" style="color: #000000"><strong>
+                                                                    <!-- <span class="" style="color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
-                                                                            Min</strong></span>
+                                                                            Min</strong></span> -->
                                                                     <span class="" style="color: #000000"><strong>
                                                                             <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                                 class="btn btn-primary"
