@@ -4190,6 +4190,11 @@
     margin-top:-15px;
     font-size:14px;
 }
+
+.slot {
+    padding-bottom:10px;
+}
+
 < !-- .next_availability {
     padding-right: 95px;
 }
