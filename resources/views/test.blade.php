@@ -2116,7 +2116,8 @@
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                                             @endif
                                                                         </strong></span></div>
-                                                                <div> </div>
+                                                                    <div>
+                                                                </div>
                                                                 <div class="row" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
