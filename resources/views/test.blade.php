@@ -2130,7 +2130,7 @@
                                                                         style="background-color:#001E64;">View
                                                                         Profile</a>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
+                                                                        class="btn btn-primary" style="float: right;"
                                                                         style="background-color:#001E64;">Schedule
                                                                         Call</a>
                                                                 </div>
