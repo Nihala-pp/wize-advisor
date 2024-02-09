@@ -2100,7 +2100,8 @@
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
-                                                                    <span class="next_availability" style="color: #333333"><strong>
+                                                                    <span class="next_availability"
+                                                                        style="color: #333333"><strong>
                                                                             Next Availability -
                                                                             @php
                                                                             $nextAvailability =
@@ -2115,8 +2116,7 @@
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                                             @endif
                                                                         </strong></span>
-                                                                    <span class="text-align:right;"
-                                                                        style="color: #000000"><strong>
+                                                                    <span style="float:right;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
@@ -4181,9 +4181,8 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
 .next_availability {
-  padding-right: 95px;
+    padding-right: 95px;
 }
 
 .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
