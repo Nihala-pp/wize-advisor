@@ -2133,7 +2133,7 @@
                                                                     </div>
                                                                     <div>
                                                                         <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                            class="btn btn-primary schedule-call"
+                                                                            class="btn btn-primary"
                                                                             style="background-color:#001E64;">Schedule
                                                                             Call</a>
                                                                     </div>
