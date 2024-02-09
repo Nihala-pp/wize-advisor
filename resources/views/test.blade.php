@@ -2101,7 +2101,7 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
                                                                     <span class="" style="color: #333333"><strong>
-                                                                            Next Availability -
+                                                                            Next Slot -
                                                                             @php
                                                                             $nextAvailability =
                                                                             \App\Models\AvailableSchedule::where('mentor_id',
