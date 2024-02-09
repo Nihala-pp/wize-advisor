@@ -4191,7 +4191,7 @@
     font-size:14px;
 }
 
-.slot strong{
+span.slot {
     padding-bottom:15px !important;
 }
 
