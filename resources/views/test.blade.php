@@ -2112,7 +2112,7 @@
                                                                             ->first();
                                                                             @endphp
                                                                             @if(!empty($nextAvailability))
-                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('d M, Y') }}
+                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
                                                                             @endif
                                                                         </strong></span>
                                                                     <span class=""
