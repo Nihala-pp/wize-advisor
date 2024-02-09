@@ -4177,6 +4177,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+a {
+    text-transform:capitalize !important;
+}
+
 .btn.btn-primary {
     background-color: #001E64 !important;
 }
