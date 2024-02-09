@@ -2080,11 +2080,8 @@
                                                         $mentor->id)->take(4)->get();
                                                         @endphp
                                                         @foreach($expertise as $expert)
-                                                        <li><span style="color: #000000">{{ $expert->expertise }}</span>
+                                                        <li class="expertise"><span style="color: #000000">{{ $expert->expertise }}</span>
                                                         </li>
-                                                        <!-- <li><span style="color: #000000">Brand Strategy</span></li>
-                                                    <li><span style="color: #000000">Marketing Strategy</span></li>
-                                                    <li><span style="color: #000000">Idea Validation</span></li> -->
                                                         @endforeach
                                                     </ul>
                                                     <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
@@ -2167,10 +2164,10 @@
                                                     <p><span style="color: #000000"><strong>Expertise:</strong></span>
                                                     </p>
                                                     <ul>
-                                                        <li><span style="font-size:14px;color: #000000">Marketing Campaign</span></li>
-                                                        <li><span style="font-size:14px;color: #000000">Brand Strategy</span></li>
-                                                        <li><span style="font-size:14px;color: #000000">Marketing Strategy</span></li>
-                                                        <li><span style="font-size:14px;color: #000000">Idea Validation</span></li>
+                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Marketing Campaign</span></li>
+                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Brand Strategy</span></li>
+                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Marketing Strategy</span></li>
+                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Idea Validation</span></li>
                                                     </ul>
                                                     <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                         data-id="0e640ef" data-element_type="widget"
@@ -4183,6 +4180,10 @@
 <style>
 .btn.btn-primary {
     background-color: #001E64 !important;
+}
+
+.expertise {
+       font-size:14px; 
 }
 
 .bio {
