@@ -2115,7 +2115,8 @@
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
                                                                             @endif
                                                                         </strong></span>
-                                                                    <span class="" style="color: #000000"><strong>
+                                                                    <span class="text-align:right;"
+                                                                        style="color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
