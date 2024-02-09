@@ -2097,7 +2097,7 @@
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
-                                                                    <span class="slot" style="font-size:14px;color: #333333"><strong>
+                                                                    <span class="slot" style="font-size:14px;color: #000000"><strong>
                                                                             Next Slot -
                                                                             @php
                                                                             $nextAvailability =
