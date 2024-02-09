@@ -1996,215 +1996,236 @@
             }
             </style>
             <div class="elementor-container elementor-column-gap-no">
-                @foreach($mentors as $mentor)
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
-                    data-id="6a69efe" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                            data-id="b4f3275" data-element_type="widget" data-widget_type="wpr-content-toggle.default">
-                            <div class="elementor-widget-container">
-                                <div class="wpr-content-toggle">
-                                    <div class="wpr-switcher-container" data-active-switcher="1">
+                <div class="row">
+                    @foreach($mentors as $mentor)
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
+                        data-id="6a69efe" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
+                                data-id="b4f3275" data-element_type="widget"
+                                data-widget_type="wpr-content-toggle.default">
+                                <div class="elementor-widget-container">
+                                    <div class="wpr-content-toggle">
+                                        <div class="wpr-switcher-container" data-active-switcher="1">
 
 
-                                        <!-- <div class="wpr-switcher-inner wpr-switcher-first">
+                                            <!-- <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
 
                                         </div> -->
 
-                                        <!-- <div class="wpr-switcher-outer"> -->
-                                        <!-- <div class="wpr-switcher-wrap">
+                                            <!-- <div class="wpr-switcher-outer"> -->
+                                            <!-- <div class="wpr-switcher-wrap">
                                                 <div class="wpr-switcher" data-switcher="1"></div>
 
                                                 <div class="wpr-switcher" data-switcher="2"></div>
 
                                                 <div class="wpr-switcher-bg"></div>
                                             </div> -->
-                                        <!-- </div> -->
+                                            <!-- </div> -->
 
-                                        <!-- <div class="wpr-switcher-inner wpr-switcher-second">
+                                            <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
                                         </div> -->
-                                    </div>
+                                        </div>
 
-                                    <div class="wpr-switcher-content-wrap">
+                                        <div class="wpr-switcher-content-wrap">
 
-                                        <div class="wpr-switcher-content" data-switcher="1">
-                                            <div
-                                                class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
-                                                            src="{{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                            alt="" width="221" height="221"
-                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
-                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                        style="color: #000000">{{ $mentor->name }}</span></h5>
-                                                <p><span style="color: #000000">{{ $mentor->metaData->designation }},
-                                                        {{ $mentor->metaData->company }}</span><br />
-                                                    <span style="color: #000000">
+                                            <div class="wpr-switcher-content" data-switcher="1">
+                                                <div
+                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
+                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
+                                                                src="{{ asset('public/wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                alt="" width="221" height="221"
+                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
+                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            style="color: #000000">{{ $mentor->name }}</span></h5>
+                                                    <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                            {{ $mentor->metaData->company }}</span><br />
+                                                        <span style="color: #000000">
+                                                            @php
+                                                            $totalReviews = \App\Models\Review::where('mentor_id',
+                                                            $mentor->id)->get()->count();
+                                                            $totalSessions =
+                                                            \App\Models\ScheduledCall::where('mentor_id',
+                                                            $mentor->id)->where('status', 'Approved')->where('is_paid',
+                                                            1)->get()->count();
+                                                            echo $totalReviews;
+                                                            if($totalReviews > 1) {
+                                                            echo " Reviews / ".$totalSessions. " Sessions";
+                                                            }
+                                                            else {
+                                                            echo " Review / ".$totalSessions. " Sessions";
+                                                            }
+
+                                                            @endphp
+                                                        </span>
+                                                    </p>
+                                                    <div class="elementor-star-rating" title="5/5"
+                                                        itemtype="http://schema.org/Rating" itemscope=""
+                                                        itemprop="reviewRating">
+                                                        <i class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i> <span
+                                                            itemprop="ratingValue"
+                                                            class="elementor-screen-only">5/5</span>
+                                                    </div>
+                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                    </p>
+                                                    <ul>
                                                         @php
-                                                        $totalReviews = \App\Models\Review::where('mentor_id',
-                                                        $mentor->id)->get()->count();
-                                                        $totalSessions = \App\Models\ScheduledCall::where('mentor_id',
-                                                        $mentor->id)->where('status', 'Approved')->where('is_paid',
-                                                        1)->get()->count();
-                                                        echo $totalReviews;
-                                                        if($totalReviews > 1) {
-                                                        echo " Reviews / ".$totalSessions. " Sessions";
-                                                        }
-                                                        else {
-                                                        echo " Review / ".$totalSessions. " Sessions";
-                                                        }
-
+                                                        $expertise = \App\Models\Expertise::where('mentor_id',
+                                                        $mentor->id)->take(4)->get();
                                                         @endphp
-                                                    </span>
-                                                </p>
-                                                <div class="elementor-star-rating" title="5/5"
-                                                    itemtype="http://schema.org/Rating" itemscope=""
-                                                    itemprop="reviewRating">
-                                                    <i class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i> <span
-                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
-                                                </div>
-                                                <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
-                                                <ul>
-                                                    @php
-                                                    $expertise = \App\Models\Expertise::where('mentor_id',
-                                                    $mentor->id)->take(4)->get();
-                                                    @endphp
-                                                    @foreach($expertise as $expert)
-                                                    <li><span style="color: #000000">{{ $expert->expertise }}</span>
-                                                    </li>
-                                                    <!-- <li><span style="color: #000000">Brand Strategy</span></li>
+                                                        @foreach($expertise as $expert)
+                                                        <li><span style="color: #000000">{{ $expert->expertise }}</span>
+                                                        </li>
+                                                        <!-- <li><span style="color: #000000">Brand Strategy</span></li>
                                                     <li><span style="color: #000000">Marketing Strategy</span></li>
                                                     <li><span style="color: #000000">Idea Validation</span></li> -->
-                                                    @endforeach
-                                                </ul>
-                                                <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                    data-id="0e640ef" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p>&nbsp </p>
-                                                        <p class="bio" style="text-align: left"><span
-                                                                style="color: #000000">
-                                                                {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}</span>
-                                                        </p>
-                                                        <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                            data-id="a92b341" data-element_type="widget"
-                                                            data-widget_type="heading.default">
-                                                            <div class="elementor-widget-container"
-                                                                style="text-align: center"><span
-                                                                    style="color: #333333"><strong>
-                                                                        Next Availability -
-                                                                        @php
-                                                                        $nextAvailability =
-                                                                        \App\Models\AvailableSchedule::where('mentor_id', $mentor->id)
-                                                                        ->whereDate('date', '>', now())
-                                                                        ->where('is_booked', 0)
-                                                                        ->orderBy('date', 'asc')
-                                                                        ->first();
-                                                                        @endphp
-                                                                        @if(!empty($nextAvailability))
-                                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
-                                                                        @endif
-                                                                    </strong></span></div>
-                                                            <div> </div>
-                                                            <div style="text-align: center">
-                                                                <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                    class="btn btn-primary"
-                                                                    style="background-color:#001E64;">View Profile</a>
-                                                                <span style="color: #000000"><strong>
-                                                                        $ {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                        / 30
-                                                                        Min</strong></span>
-                                                                <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                    class="btn btn-primary"
-                                                                    style="background-color:#001E64;">Schedule Call</a>
-                                                                <!-- <a
+                                                        @endforeach
+                                                    </ul>
+                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                                        data-id="0e640ef" data-element_type="widget"
+                                                        data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p>&nbsp </p>
+                                                            <p class="bio" style="text-align: left"><span
+                                                                    style="color: #000000">
+                                                                    {{ $mentor->metaData ? Str::of($mentor->metaData->bio)->limit(91) : '' }}</span>
+                                                            </p>
+                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                                                data-id="a92b341" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container"
+                                                                    style="text-align: center"><span
+                                                                        style="color: #333333"><strong>
+                                                                            Next Availability -
+                                                                            @php
+                                                                            $nextAvailability =
+                                                                            \App\Models\AvailableSchedule::where('mentor_id',
+                                                                            $mentor->id)
+                                                                            ->whereDate('date', '>', now())
+                                                                            ->where('is_booked', 0)
+                                                                            ->orderBy('date', 'asc')
+                                                                            ->first();
+                                                                            @endphp
+                                                                            @if(!empty($nextAvailability))
+                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}
+                                                                            @endif
+                                                                        </strong></span></div>
+                                                                <div> </div>
+                                                                <div style="text-align: center">
+                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="background-color:#001E64;">View
+                                                                        Profile</a>
+                                                                    <span style="color: #000000"><strong>
+                                                                            $
+                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                            / 30
+                                                                            Min</strong></span>
+                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    <!-- <a
                                                                     href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
                                                                         style="color: #000000"><strong>View Profile $50
                                                                             / 30 Min Schedule Call</strong></span></a> -->
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <div class="wpr-switcher-content" data-switcher="2">
-                                            <div
-                                                class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
-                                                            alt="" width="221" height="221"
-                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
-                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                        style="color: #000000">Sumedha Mahajan</span></h5>
-                                                <p><span style="color: #000000">Head of marketing,
-                                                        Ampverse</span><br /><span style="color: #000000">10 sessions, 5
-                                                        Reviews</span></p>
-                                                <div class="elementor-star-rating" title="5/5"
-                                                    itemtype="http://schema.org/Rating" itemscope=""
-                                                    itemprop="reviewRating">
-                                                    <i class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i><i
-                                                        class="elementor-star-full">&#xE934;</i> <span
-                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
-                                                </div>
-                                                <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
-                                                <ul>
-                                                    <li><span style="color: #000000">Marketing Campaign</span></li>
-                                                    <li><span style="color: #000000">Brand Strategy</span></li>
-                                                    <li><span style="color: #000000">Marketing Strategy</span></li>
-                                                    <li><span style="color: #000000">Idea Validation</span></li>
-                                                </ul>
-                                                <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                    data-id="0e640ef" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="bio" style="text-align: left"><span
-                                                                style="color: #000000">I enjoy the 0-1, 1-10 journey and
-                                                                have setup processes from scratch. A true believer in
-                                                                leveraging multiple channels, from doing co-branded
-                                                                campaigns with the likes of Coca Cola, to creating a GTM
-                                                                strategy focused only on user experience for Paytm's
-                                                                loyalty program. From driving promoter led BTL campaigns
-                                                                in Rajasthan's by lanes to marketing and launching the
-                                                                Indian cricket team jersey twice.</span></p>
-                                                        <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                            data-id="a92b341" data-element_type="widget"
-                                                            data-widget_type="heading.default">
-                                                            <div class="elementor-widget-container"
-                                                                style="text-align: center"><span
-                                                                    style="color: #333333"><strong>Next Availability -
-                                                                        8th February, 2024</strong></span></div>
-                                                            <div> </div>
-                                                            <div style="text-align: center"><a
-                                                                    href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                        style="color: #000000"><strong>View Profile $50
-                                                                            / 30 Min Schedule Call</strong></span></a>
+                                            <div class="wpr-switcher-content" data-switcher="2">
+                                                <div
+                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
+                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531 "
+                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png"
+                                                                alt="" width="221" height="221"
+                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-450x450.png 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/sumedha-1-1.png 352w"
+                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            style="color: #000000">Sumedha Mahajan</span></h5>
+                                                    <p><span style="color: #000000">Head of marketing,
+                                                            Ampverse</span><br /><span style="color: #000000">10
+                                                            sessions, 5
+                                                            Reviews</span></p>
+                                                    <div class="elementor-star-rating" title="5/5"
+                                                        itemtype="http://schema.org/Rating" itemscope=""
+                                                        itemprop="reviewRating">
+                                                        <i class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i> <span
+                                                            itemprop="ratingValue"
+                                                            class="elementor-screen-only">5/5</span>
+                                                    </div>
+                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                    </p>
+                                                    <ul>
+                                                        <li><span style="color: #000000">Marketing Campaign</span></li>
+                                                        <li><span style="color: #000000">Brand Strategy</span></li>
+                                                        <li><span style="color: #000000">Marketing Strategy</span></li>
+                                                        <li><span style="color: #000000">Idea Validation</span></li>
+                                                    </ul>
+                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                                        data-id="0e640ef" data-element_type="widget"
+                                                        data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p class="bio" style="text-align: left"><span
+                                                                    style="color: #000000">I enjoy the 0-1, 1-10 journey
+                                                                    and
+                                                                    have setup processes from scratch. A true believer
+                                                                    in
+                                                                    leveraging multiple channels, from doing co-branded
+                                                                    campaigns with the likes of Coca Cola, to creating a
+                                                                    GTM
+                                                                    strategy focused only on user experience for Paytm's
+                                                                    loyalty program. From driving promoter led BTL
+                                                                    campaigns
+                                                                    in Rajasthan's by lanes to marketing and launching
+                                                                    the
+                                                                    Indian cricket team jersey twice.</span></p>
+                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                                                data-id="a92b341" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container"
+                                                                    style="text-align: center"><span
+                                                                        style="color: #333333"><strong>Next Availability
+                                                                            -
+                                                                            8th February, 2024</strong></span></div>
+                                                                <div> </div>
+                                                                <div style="text-align: center"><a
+                                                                        href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
+                                                                            style="color: #000000"><strong>View Profile
+                                                                                $50
+                                                                                / 30 Min Schedule
+                                                                                Call</strong></span></a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
 
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
+                    @endforeach
                 </div>
-                @endforeach
                 <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c7b960f"
                     data-id="c7b960f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
