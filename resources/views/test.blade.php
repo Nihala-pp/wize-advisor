@@ -4190,7 +4190,7 @@
     font-size: 15px;
     /* font-weight: 400; */
     line-height: 1.7em;
-    /* letter-spacing: 0.2px; */
+    letter-spacing: 0px; 
     padding: 35px 35px 35px 35px;
 }
 
