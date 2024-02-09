@@ -2202,7 +2202,7 @@
                                                                             -
                                                                             8th February, 2024</strong></span></div>
                                                                 <div> </div>
-                                                                <div style="text-align: center"><a
+                                                                <div style=""><a
                                                                         href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
                                                                             style="color: #000000"><strong>View Profile
                                                                                 $50
