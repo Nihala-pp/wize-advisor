@@ -3836,12 +3836,7 @@
         "use strict";
         $(document).ready(function() {
 
-            <
-            !--$('body').on('click', '.ask_a_question', function() {
-                $('#myModal').modal('show');
-            });
-            -- >
-
+          
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
                 items: 4,

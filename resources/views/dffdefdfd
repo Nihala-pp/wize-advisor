@@ -1489,3 +1489,5 @@
                                             <span class="elementor-button-text">Ask a Question</span>
                                         </span>
                                     </a> -->
+
+< !--$('body').on('click', '.ask_a_question' , function() { $('#myModal').modal('show'); }); -->
