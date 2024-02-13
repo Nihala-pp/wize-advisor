@@ -56,7 +56,7 @@ window._wpemojiSettings = {
                     "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                     "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                     "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                    );
+                );
             case "emoji":
                 return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
                     "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
@@ -1115,7 +1115,7 @@ html body .animated {
                                         </div>
                                     </div> -->
                             </div>
-                            <div class="card-body">
+                            <div class="card-body signup-form">
                                 <form method="POST" action="{{ route('register.post') }}">
                                     @csrf
                                     <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
@@ -2214,13 +2214,18 @@ html body .animated {
 
 </html>
 <style>
-    h1 {
-        font-size:18px;
-    }
+.signup-form {
+    margin-top:-30px;
+}
 
-    p {
-        font-size: 13px !important;
-    }
+h1 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 13px !important;
+}
+
 .elementor-5595 .elementor-element.elementor-element-f1541c9:not(.elementor-motion-effects-element-type-background),
 .elementor-5595 .elementor-element.elementor-element-f1541c9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
