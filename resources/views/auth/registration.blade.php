@@ -2227,15 +2227,15 @@ html body .animated {
 .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select,
 .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
     margin-top: -5px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    <!-- border-top-right-radius: 0;
+    border-bottom-right-radius: 0; -->
 }
 
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
     margin-bottom: 25px;
     margin-left: -1px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    <!-- border-top-left-radius: 0;
+    border-bottom-left-radius: 0; -->
 }
 
 h1 {
