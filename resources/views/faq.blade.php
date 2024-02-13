@@ -1,9 +1,9 @@
 <head>
     <meta charset="UTF-8">
     <title>FAQ | Get Answers to Your Startup Growth Questions</title>
-    <meta name="description" content="Take your startup growth to the next level with wiseAdvizor's expert mentorship. From shaping your startup idea to refining business strategies, we'll guide you towards business success.">
-    <meta name="keywords"
-        content="startup growth, business success, startup idea">
+    <meta name="description"
+        content="Take your startup growth to the next level with wiseAdvizor's expert mentorship. From shaping your startup idea to refining business strategies, we'll guide you towards business success.">
+    <meta name="keywords" content="startup growth, business success, startup idea">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -1230,7 +1230,8 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1415,7 +1416,8 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1760,7 +1762,7 @@
                                             </div>
                                         </div>
                                         @else
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
+                                        <a class="elementor-button elementor-butto98n-link elementor-size-xs"
                                             href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
                                                 <span class="elementor-button-text">Sign In</span>
@@ -2522,7 +2524,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
                                     <a class="elementor-button elementor-button-link elementor-size-md"
-                                        data-toggle="modal" data-target="#myModal">
+                                        ng-click="myModal();" data-toggle="modal">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Ask a Question</span>
                                         </span>
@@ -3414,7 +3416,7 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <!-- <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
+    <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
         class="elementor elementor-3048 elementor-location-popup modal fade" role="dialog"
         data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
         <div class="elementor-section-wrap">
@@ -3516,7 +3518,7 @@
                 </div>
             </section>
         </div>
-    </div> -->
+    </div>
     <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
         id="niso-carousel-owl.min-js"></script>
     <script
@@ -3855,7 +3857,6 @@
     }(jQuery));
     </script>
 
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -3868,7 +3869,6 @@
     gtag('config', 'AW-11325588607');
     </script>
 
-    <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
@@ -3882,7 +3882,11 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
     </script>
-    <!--End of Tawk.to Script-->
+    <script type="text/javascript">
+    $scope.openModal = function() {w3
+        $('#myModal').modal('show');
+    };
+    </script>
 </body>
 <style>
 i.fas.fa-chevron-down {
