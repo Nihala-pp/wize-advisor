@@ -906,7 +906,6 @@ window.location.href = "https://wiseadvizor.com";
     $details = Contact::create([
       'firstname' => $request->first_name,
       'lastname' => $request->last_name,
-      'mob' => $request->mobile,
       'email' => $request->email,
       'message' => $request->message,
     ]);

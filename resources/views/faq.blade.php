@@ -2593,20 +2593,6 @@
                                                                             placeholder="Email" required="required"
                                                                             aria-required="true">
                                                                     </div>
-                                                                    <!-- <div
-                                                                        class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-mobile elementor-col-50 elementor-field-required">
-                                                                        <label for="form-field-mobile"
-                                                                            class="elementor-field-label elementor-screen-only">
-                                                                            Mobile </label>
-                                                                        <input size="1" type="tel" name="mobile"
-                                                                            id="form-field-mobile"
-                                                                            class="elementor-field elementor-size-md  elementor-field-textual"
-                                                                            placeholder="Mobile" required="required"
-                                                                            aria-required="true"
-                                                                            pattern="[0-9()#&amp;+*-=.]+"
-                                                                            title="Only numbers and phone characters (#, -, *, etc) are accepted.">
-
-                                                                    </div> -->
                                                                     <div
                                                                         class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
                                                                         <label for="form-field-message"
