@@ -2524,7 +2524,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
                                     <a class="dropdown-item elementor-button elementor-button-link elementor-size-md"
-                                        href="" data-bs-toggle="modal" data-bs-target="#myModal">Ask a Question</a>
+                                        data-bs-toggle="modal" data-bs-target="#myModal">Ask a Question</a>
                                     <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
                                         class="elementor elementor-3048 elementor-location-popup modal fade"
                                         role="dialog"
