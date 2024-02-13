@@ -41,6 +41,7 @@ use Illuminate\Support\Facades\Validator;
 use App\Notifications\CallRejectedUser;
 use Redirect;
 use Exception;
+use App\Models\SubscriptionList;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
 
 class HomeController extends Controller
@@ -874,5 +875,24 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     // Return a response
     return ['success' => $success, 'error' => $error];
+  }
+
+  public function subscriptionList(Request $request)
+  {
+      SubscriptionList::create([
+       'email_id' => $request->email
+      ]);
+      
+      ?>
+      <script type="text/javascript">
+      alert("Subscribed to the newsletter!");
+      window.location.href = "https://wiseadvizor.com";
+      </script>
+      <?php
+  }
+
+  public function ask_question(Request $request)
+  {
+     
   }
 }

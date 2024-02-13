@@ -98,6 +98,8 @@ Route::get('libraries', [HomeController::class, 'libraries'])->name('libraries')
 Route::post('contact-us/save', [HomeController::class, 'saveContact'])->name('contact.save');
 Route::get('blogs/{id?}', [HomeController::class, 'blogDetailPage'])->name('blog-detail');
 Route::get('how-it-works', [HomeController::class, 'howitWorks'])->name('howitWorks');
+Route::post('question', [HomeController::class, 'ask_question'])->name('askQuestion');
+Route::post('subscribe',[HomeController::class, 'subscriptionList'])->name('subscribe');
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);

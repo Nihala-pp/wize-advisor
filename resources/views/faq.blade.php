@@ -2548,7 +2548,7 @@
                                                         data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
                                                         data-widget_type="form.default">
                                                         <div class="elementor-widget-container">
-                                                            <form class="elementor-form" method="post" name="New Form">
+                                                            <form class="elementor-form" method="post" name="New Form" action="{{ route('askQuestion') }}">
                                                                 <input type="hidden" name="post_id" value="3048">
                                                                 <input type="hidden" name="form_id" value="30c899b">
                                                                 <input type="hidden" name="referer_title" value="Blogs">
