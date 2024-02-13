@@ -2538,7 +2538,8 @@
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Tell Us Your Query</h5>
+                                                    <h5 class="modal-title" id="exampleModalLabel">Tell Us Your Query
+                                                    </h5>
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button>
                                                 </div>
@@ -4047,13 +4048,17 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-field-group-first_name {
-    padding-right:20px;
-    padding-bottom:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .elementor-field-group-last_name {
-    padding-left:20px;
-    padding-bottom:20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.elementor-field-group-email {
+    padding-bottom: 20px;
 }
 
 @media(max-width:480px) {
