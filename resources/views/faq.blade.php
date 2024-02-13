@@ -4048,10 +4048,12 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-field-group-first_name {
     padding-right:20px;
+    padding-bottom:20px;
 }
 
 .elementor-field-group-last_name {
     padding-left:20px;
+    padding-bottom:20px;
 }
 
 @media(max-width:480px) {
