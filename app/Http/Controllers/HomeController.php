@@ -903,7 +903,7 @@ window.location.href = "https://wiseadvizor.com";
 
     $email = 'info@wiseadvizor.com';
 
-    $details = askQuestionMail::create([
+    $details = Contact::create([
       'firstname' => $request->first_name,
       'lastname' => $request->last_name,
       'mob' => $request->mobile,
