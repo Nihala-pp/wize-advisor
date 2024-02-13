@@ -5588,7 +5588,7 @@
                                             height: 1em
                                         }
                                         </style>
-                                        <form class="elementor-form" method="post" name="Subscribe Form">
+                                        <form class="elementor-form" method="post" name="Subscribe Form" action="{{ route('subscribe') }}">
                                             <input type="hidden" name="post_id" value="32">
                                             <input type="hidden" name="form_id" value="dd4d324">
                                             <input type="hidden" name="referer_title" value="Home">
