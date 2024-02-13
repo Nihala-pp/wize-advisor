@@ -2525,13 +2525,6 @@
                                 <div class="elementor-button-wrapper ask">
                                     <a class="dropdown-item elementor-button elementor-button-link elementor-size-md"
                                         href="#" data-bs-toggle="modal" data-bs-target="#myModal">Ask a Question</a>
-                                    <!-- <button
-                                        class="elementor-button elementor-button-link elementor-size-md ask_a_question"
-                                        data-toggle="modal" data-target="#myModal">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Ask a Question</span>
-                                        </span>
-                                    </button> -->
                                     <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
                                         class="elementor elementor-3048 elementor-location-popup modal fade"
                                         role="dialog"
@@ -2661,13 +2654,6 @@
                                             </section>
                                         </div>
                                     </div>
-
-                                    <!-- <a class="elementor-button elementor-button-link elementor-size-md"
-                                        ng-click="myModal();" data-toggle="modal">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Ask a Question</span>
-                                        </span>
-                                    </a> -->
                                 </div>
                             </div>
                         </div>
