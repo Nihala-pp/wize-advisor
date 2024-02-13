@@ -2526,7 +2526,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    <button type="button" class="btn btn-primary elementor-button elementor-button-link elementor-size-md" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">
                                         Ask a Question
                                     </button>
