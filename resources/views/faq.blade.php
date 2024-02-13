@@ -2523,9 +2523,38 @@
                             data-id="9bc0d4c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
-                                    <a class="dropdown-item elementor-button elementor-button-link elementor-size-md"
-                                        data-bs-toggle="modal" data-bs-target="#myModal">Ask a Question</a>
-                                    <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                        Launch demo modal
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <a class="dropdown-item elementor-button elementor-button-link elementor-size-md"
+                                        data-bs-toggle="modal" data-bs-target="#myModal">Ask a Question</a> -->
+                                    <!-- <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
                                         class="elementor elementor-3048 elementor-location-popup modal fade"
                                         role="dialog"
                                         data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
@@ -2653,7 +2682,7 @@
                                                 </div>
                                             </section>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -3836,7 +3865,7 @@
         "use strict";
         $(document).ready(function() {
 
-          
+
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
                 items: 4,
