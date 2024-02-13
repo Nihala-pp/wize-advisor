@@ -3933,7 +3933,6 @@
         "use strict";
         $(document).ready(function() {
 
-
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
                 items: 4,
