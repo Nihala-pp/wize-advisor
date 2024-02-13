@@ -2548,7 +2548,9 @@
                                                         data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
                                                         data-widget_type="form.default">
                                                         <div class="elementor-widget-container">
-                                                            <form class="elementor-form" method="post" name="New Form" action="{{ route('askQuestion') }}">
+                                                            <form class="elementor-form" method="post" name="New Form"
+                                                                action="{{ route('askQuestion') }}">
+                                                                @csrf
                                                                 <input type="hidden" name="post_id" value="3048">
                                                                 <input type="hidden" name="form_id" value="30c899b">
                                                                 <input type="hidden" name="referer_title" value="Blogs">
@@ -2562,8 +2564,7 @@
                                                                         <label for="form-field-first_name"
                                                                             class="elementor-field-label elementor-screen-only">
                                                                             First Name </label>
-                                                                        <input size="1" type="text"
-                                                                            name="first_name"
+                                                                        <input size="1" type="text" name="first_name"
                                                                             id="form-field-first_name"
                                                                             class="elementor-field elementor-size-md  elementor-field-textual"
                                                                             placeholder="First Name" required="required"
@@ -2574,8 +2575,7 @@
                                                                         <label for="form-field-last_name"
                                                                             class="elementor-field-label elementor-screen-only">
                                                                             Last Name </label>
-                                                                        <input size="1" type="text"
-                                                                            name="last_name"
+                                                                        <input size="1" type="text" name="last_name"
                                                                             id="form-field-last_name"
                                                                             class="elementor-field elementor-size-md  elementor-field-textual"
                                                                             placeholder="Last Name" required="required"
@@ -2586,8 +2586,7 @@
                                                                         <label for="form-field-email"
                                                                             class="elementor-field-label elementor-screen-only">
                                                                             Email </label>
-                                                                        <input size="1" type="email"
-                                                                            name="email"
+                                                                        <input size="1" type="email" name="email"
                                                                             id="form-field-email"
                                                                             class="elementor-field elementor-size-md  elementor-field-textual"
                                                                             placeholder="Email" required="required"
@@ -2598,8 +2597,7 @@
                                                                         <label for="form-field-mobile"
                                                                             class="elementor-field-label elementor-screen-only">
                                                                             Mobile </label>
-                                                                        <input size="1" type="tel"
-                                                                            name="mobile"
+                                                                        <input size="1" type="tel" name="mobile"
                                                                             id="form-field-mobile"
                                                                             class="elementor-field elementor-size-md  elementor-field-textual"
                                                                             placeholder="Mobile" required="required"
@@ -2615,9 +2613,8 @@
                                                                             Message </label>
                                                                         <textarea
                                                                             class="elementor-field-textual elementor-field  elementor-size-md"
-                                                                            name="message"
-                                                                            id="form-field-message" rows="4"
-                                                                            placeholder="Message"></textarea>
+                                                                            name="message" id="form-field-message"
+                                                                            rows="4" placeholder="Message"></textarea>
                                                                     </div>
                                                                     <!-- <div
                                                                         class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
@@ -2637,9 +2634,11 @@
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="submit" class="btn btn-secondary elementor-button elementor-size-sm"
+                                                    <button type="button"
+                                                        class="btn btn-secondary elementor-button elementor-size-sm"
                                                         data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary elementor-button elementor-size-sm">Send</button>
+                                                    <button type="submit"
+                                                        class="btn btn-primary elementor-button elementor-size-sm">Send</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -3097,8 +3096,7 @@
                                                     class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
                                                     <label for="form-field-email" class="elementor-field-label">
                                                         Subscribe to news updates </label>
-                                                    <input size="1" type="email" name="email"
-                                                        id="form-field-email"
+                                                    <input size="1" type="email" name="email" id="form-field-email"
                                                         class="elementor-field elementor-size-md  elementor-field-textual"
                                                         placeholder="Your email address" required="required"
                                                         aria-required="true">
