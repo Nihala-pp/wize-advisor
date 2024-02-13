@@ -2217,6 +2217,10 @@ html body .animated {
     h1 {
         font-size:18px;
     }
+
+    p {
+        font-size: 13px !important;
+    }
 .elementor-5595 .elementor-element.elementor-element-f1541c9:not(.elementor-motion-effects-element-type-background),
 .elementor-5595 .elementor-element.elementor-element-f1541c9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
