@@ -2583,7 +2583,7 @@
                                                                             aria-required="true">
                                                                     </div>
                                                                     <div
-                                                                        class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+                                                                        class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required email">
                                                                         <label for="form-field-email"
                                                                             class="elementor-field-label elementor-screen-only">
                                                                             Email </label>
@@ -4030,7 +4030,7 @@ i.fas.fa-bell.fa-2xl {
     padding-bottom: 15px;
 }
 
-.elementor-field-group-email {
+.email {
     padding-bottom: 15px;
 }
 
