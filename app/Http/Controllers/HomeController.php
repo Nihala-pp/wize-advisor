@@ -913,6 +913,11 @@ window.location.href = "https://wiseadvizor.com";
 
     Mail::to($email)->send(new askQuestionMail($details));
 
-    return view('thankyou');
+    ?>
+<script type="text/javascript">
+alert("Your query has been submitted!");
+window.location.href = "https://wiseadvizor.com/faq";
+</script>
+<?php
   }
 }
