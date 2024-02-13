@@ -2529,6 +2529,7 @@
                                             <span class="elementor-button-text">Ask a Question</span>
                                         </span>
                                     </button>
+
                                     <!-- <a class="elementor-button elementor-button-link elementor-size-md"
                                         ng-click="myModal();" data-toggle="modal">
                                         <span class="elementor-button-content-wrapper">
@@ -2542,6 +2543,109 @@
                 </div>
             </div>
         </section>
+    </div>
+    <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
+        class="elementor elementor-3048 elementor-location-popup modal fade" role="dialog"
+        data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
+        <div class="elementor-section-wrap">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-dae5c68 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="dae5c68" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a45800e"
+                        data-id="a45800e" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-196050c elementor-widget elementor-widget-heading"
+                                data-id="196050c" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Ask Question</h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-30c899b elementor-button-align-stretch elementor-widget elementor-widget-form"
+                                data-id="30c899b" data-element_type="widget"
+                                data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+                                data-widget_type="form.default">
+                                <div class="elementor-widget-container">
+                                    <form class="elementor-form" method="post" name="New Form">
+                                        <input type="hidden" name="post_id" value="3048">
+                                        <input type="hidden" name="form_id" value="30c899b">
+                                        <input type="hidden" name="referer_title" value="Blogs">
+
+                                        <input type="hidden" name="queried_id" value="18">
+
+                                        <div class="elementor-form-fields-wrapper elementor-labels-">
+                                            <div
+                                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-first_name elementor-col-50 elementor-field-required">
+                                                <label for="form-field-first_name"
+                                                    class="elementor-field-label elementor-screen-only">
+                                                    First Name </label>
+                                                <input size="1" type="text" name="form_fields[first_name]"
+                                                    id="form-field-first_name"
+                                                    class="elementor-field elementor-size-md  elementor-field-textual"
+                                                    placeholder="First Name" required="required" aria-required="true">
+                                            </div>
+                                            <div
+                                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-last_name elementor-col-50 elementor-field-required">
+                                                <label for="form-field-last_name"
+                                                    class="elementor-field-label elementor-screen-only">
+                                                    Last Name </label>
+                                                <input size="1" type="text" name="form_fields[last_name]"
+                                                    id="form-field-last_name"
+                                                    class="elementor-field elementor-size-md  elementor-field-textual"
+                                                    placeholder="Last Name" required="required" aria-required="true">
+                                            </div>
+                                            <div
+                                                class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
+                                                <label for="form-field-email"
+                                                    class="elementor-field-label elementor-screen-only">
+                                                    Email </label>
+                                                <input size="1" type="email" name="form_fields[email]"
+                                                    id="form-field-email"
+                                                    class="elementor-field elementor-size-md  elementor-field-textual"
+                                                    placeholder="Email" required="required" aria-required="true">
+                                            </div>
+                                            <div
+                                                class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-mobile elementor-col-50 elementor-field-required">
+                                                <label for="form-field-mobile"
+                                                    class="elementor-field-label elementor-screen-only">
+                                                    Mobile </label>
+                                                <input size="1" type="tel" name="form_fields[mobile]"
+                                                    id="form-field-mobile"
+                                                    class="elementor-field elementor-size-md  elementor-field-textual"
+                                                    placeholder="Mobile" required="required" aria-required="true"
+                                                    pattern="[0-9()#&amp;+*-=.]+"
+                                                    title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+
+                                            </div>
+                                            <div
+                                                class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+                                                <label for="form-field-message"
+                                                    class="elementor-field-label elementor-screen-only">
+                                                    Message </label>
+                                                <textarea
+                                                    class="elementor-field-textual elementor-field  elementor-size-md"
+                                                    name="form_fields[message]" id="form-field-message" rows="4"
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                            <div
+                                                class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                                                <button type="submit" class="elementor-button elementor-size-sm">
+                                                    <span>
+                                                        <span class=" elementor-button-icon">
+                                                        </span>
+                                                        <span class="elementor-button-text">Send</span>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class="footer-width-fixer">
@@ -3422,109 +3526,6 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
-        class="elementor elementor-3048 elementor-location-popup modal fade" role="dialog"
-        data-elementor-settings="{&quot;triggers&quot;:{&quot;click&quot;:&quot;yes&quot;,&quot;click_times&quot;:1},&quot;timing&quot;:{&quot;sources&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;devices&quot;:&quot;yes&quot;,&quot;browsers&quot;:&quot;yes&quot;,&quot;sources_sources&quot;:[&quot;search&quot;,&quot;external&quot;,&quot;internal&quot;],&quot;logged_in_users&quot;:&quot;all&quot;,&quot;devices_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;browsers_browsers&quot;:&quot;all&quot;}}">
-        <div class="elementor-section-wrap">
-            <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-dae5c68 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="dae5c68" data-element_type="section">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a45800e"
-                        data-id="a45800e" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-196050c elementor-widget elementor-widget-heading"
-                                data-id="196050c" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Ask Question</h2>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-30c899b elementor-button-align-stretch elementor-widget elementor-widget-form"
-                                data-id="30c899b" data-element_type="widget"
-                                data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                data-widget_type="form.default">
-                                <div class="elementor-widget-container">
-                                    <form class="elementor-form" method="post" name="New Form">
-                                        <input type="hidden" name="post_id" value="3048">
-                                        <input type="hidden" name="form_id" value="30c899b">
-                                        <input type="hidden" name="referer_title" value="Blogs">
-
-                                        <input type="hidden" name="queried_id" value="18">
-
-                                        <div class="elementor-form-fields-wrapper elementor-labels-">
-                                            <div
-                                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-first_name elementor-col-50 elementor-field-required">
-                                                <label for="form-field-first_name"
-                                                    class="elementor-field-label elementor-screen-only">
-                                                    First Name </label>
-                                                <input size="1" type="text" name="form_fields[first_name]"
-                                                    id="form-field-first_name"
-                                                    class="elementor-field elementor-size-md  elementor-field-textual"
-                                                    placeholder="First Name" required="required" aria-required="true">
-                                            </div>
-                                            <div
-                                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-last_name elementor-col-50 elementor-field-required">
-                                                <label for="form-field-last_name"
-                                                    class="elementor-field-label elementor-screen-only">
-                                                    Last Name </label>
-                                                <input size="1" type="text" name="form_fields[last_name]"
-                                                    id="form-field-last_name"
-                                                    class="elementor-field elementor-size-md  elementor-field-textual"
-                                                    placeholder="Last Name" required="required" aria-required="true">
-                                            </div>
-                                            <div
-                                                class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-                                                <label for="form-field-email"
-                                                    class="elementor-field-label elementor-screen-only">
-                                                    Email </label>
-                                                <input size="1" type="email" name="form_fields[email]"
-                                                    id="form-field-email"
-                                                    class="elementor-field elementor-size-md  elementor-field-textual"
-                                                    placeholder="Email" required="required" aria-required="true">
-                                            </div>
-                                            <div
-                                                class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-mobile elementor-col-50 elementor-field-required">
-                                                <label for="form-field-mobile"
-                                                    class="elementor-field-label elementor-screen-only">
-                                                    Mobile </label>
-                                                <input size="1" type="tel" name="form_fields[mobile]"
-                                                    id="form-field-mobile"
-                                                    class="elementor-field elementor-size-md  elementor-field-textual"
-                                                    placeholder="Mobile" required="required" aria-required="true"
-                                                    pattern="[0-9()#&amp;+*-=.]+"
-                                                    title="Only numbers and phone characters (#, -, *, etc) are accepted.">
-
-                                            </div>
-                                            <div
-                                                class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-                                                <label for="form-field-message"
-                                                    class="elementor-field-label elementor-screen-only">
-                                                    Message </label>
-                                                <textarea
-                                                    class="elementor-field-textual elementor-field  elementor-size-md"
-                                                    name="form_fields[message]" id="form-field-message" rows="4"
-                                                    placeholder="Message"></textarea>
-                                            </div>
-                                            <div
-                                                class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                                <button type="submit" class="elementor-button elementor-size-sm">
-                                                    <span>
-                                                        <span class=" elementor-button-icon">
-                                                        </span>
-                                                        <span class="elementor-button-text">Send</span>
-                                                    </span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
     <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
         id="niso-carousel-owl.min-js"></script>
     <script
