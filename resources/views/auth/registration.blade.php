@@ -2218,6 +2218,13 @@ html body .animated {
     margin-top:-30px;
 }
 
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-bottom: 10px;
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 h1 {
     font-size: 18px;
 }
