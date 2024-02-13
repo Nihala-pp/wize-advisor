@@ -2629,7 +2629,6 @@
                                                                         </button>
                                                                     </div> -->
                                                                 </div>
-                                                            </form>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2639,6 +2638,7 @@
                                                         data-bs-dismiss="modal">Close</button>
                                                     <button type="submit"
                                                         class="btn btn-primary elementor-button elementor-size-sm">Send</button>
+                                                    </form>
                                                 </div>
                                             </div>
                                         </div>
