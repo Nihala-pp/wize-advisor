@@ -2523,12 +2523,18 @@
                             data-id="9bc0d4c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
-                                    <a class="elementor-button elementor-button-link elementor-size-md"
+                                    <button class="elementor-button elementor-button-link elementor-size-md"
+                                        data-toggle="modal" data-target="#myModal">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Ask a Question</span>
+                                        </span>
+                                    </button>
+                                    <!-- <a class="elementor-button elementor-button-link elementor-size-md"
                                         ng-click="myModal();" data-toggle="modal">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Ask a Question</span>
                                         </span>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -3883,7 +3889,8 @@
     })();
     </script>
     <script type="text/javascript">
-    $scope.openModal = function() {w3
+    $scope.openModal = function() {
+        w3
         $('#myModal').modal('show');
     };
     </script>
