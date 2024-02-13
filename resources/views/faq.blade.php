@@ -3890,7 +3890,6 @@
     </script>
     <script type="text/javascript">
     $scope.openModal = function() {
-        w3
         $('#myModal').modal('show');
     };
     </script>
