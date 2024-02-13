@@ -4049,16 +4049,16 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-field-group-first_name {
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .elementor-field-group-last_name {
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .elementor-field-group-email {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 @media(max-width:480px) {
