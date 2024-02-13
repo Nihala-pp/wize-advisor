@@ -884,15 +884,34 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       ]);
       
       ?>
-      <script type="text/javascript">
-      alert("Subscribed to the newsletter!");
-      window.location.href = "https://wiseadvizor.com";
-      </script>
-      <?php
+<script type="text/javascript">
+alert("Subscribed to the newsletter!");
+window.location.href = "https://wiseadvizor.com";
+</script>
+<?php
   }
 
   public function ask_question(Request $request)
   {
-     
+    $request->validate([
+      'first_name' => 'required',
+      'last_name' => 'required',
+      'email' => 'required|email',
+      'message' => 'required',
+    ]);
+
+    $email = 'info@wiseadvizor.com';
+
+    $details = Contact::create([
+      'firstname' => $request->first_name,
+      'lastname' => $request->last_name,
+      'mob' => $request->mobile,
+      'email' => $request->email,
+      'message' => $request->message,
+    ]);
+
+    Mail::to($email)->send(new ContactMail($details));
+
+    return view('thankyou');
   }
 }
