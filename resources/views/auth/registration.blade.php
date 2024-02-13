@@ -1165,12 +1165,12 @@ html body .animated {
                                         <label class="">Company Name</label>
                                         <input type="text" class="form-control" name="company_name">
                                     </div>
-                                    <div class="input-group input-group-static mb-3">
+                                    <!-- <div class="input-group input-group-static mb-3">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
-                                    </div> -->
+                                    </div>  -->
                                     <div class="input-group input-group-static mb-0">
-                                        <label class="">Linked-In Url</label>
+                                        <label class="">LinkedIn Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
                                     <div class="mb-0">
