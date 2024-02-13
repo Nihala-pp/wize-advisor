@@ -2582,7 +2582,7 @@
                                                                             aria-required="true">
                                                                     </div>
                                                                     <div
-                                                                        class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
+                                                                        class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
                                                                         <label for="form-field-email"
                                                                             class="elementor-field-label elementor-screen-only">
                                                                             Email </label>
@@ -2592,7 +2592,7 @@
                                                                             placeholder="Email" required="required"
                                                                             aria-required="true">
                                                                     </div>
-                                                                    <div
+                                                                    <!-- <div
                                                                         class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-mobile elementor-col-50 elementor-field-required">
                                                                         <label for="form-field-mobile"
                                                                             class="elementor-field-label elementor-screen-only">
@@ -2605,7 +2605,7 @@
                                                                             pattern="[0-9()#&amp;+*-=.]+"
                                                                             title="Only numbers and phone characters (#, -, *, etc) are accepted.">
 
-                                                                    </div>
+                                                                    </div> -->
                                                                     <div
                                                                         class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
                                                                         <label for="form-field-message"
