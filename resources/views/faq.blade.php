@@ -3889,9 +3889,9 @@
     })();
     </script>
     <script type="text/javascript">
-    $scope.openModal = function() {
+    $(document).ready(function() {
         $('#myModal').modal('show');
-    };
+    });
     </script>
 </body>
 <style>
