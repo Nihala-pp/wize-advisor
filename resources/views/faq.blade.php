@@ -4058,7 +4058,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-field-group-email {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 @media(max-width:480px) {
