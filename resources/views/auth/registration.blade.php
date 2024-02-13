@@ -1165,15 +1165,15 @@ html body .animated {
                                         <label class="">Company Name</label>
                                         <input type="text" class="form-control" name="company_name">
                                     </div>
-                                    <!-- <div class="input-group input-group-static mb-3">
+                                    <!-- <div class="input-group input-group-static mb-1">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
                                     </div>  -->
-                                    <div class="input-group input-group-static mb-3">
+                                    <div class="input-group input-group-static mb-1">
                                         <label class="">LinkedIn Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
-                                    <div class="mb-3">
+                                    <div class="mb-1">
                                         <label class="form-label">Expertise you are looking for?</label></br>
                                         <select class="select form-control @error('expert') is-invalid @enderror"
                                             multiple data-mdb-clear-button="true" name="expert[]" required>
@@ -1182,7 +1182,7 @@ html body .animated {
                                             @endforeach
                                         </select>
                                     </div>
-                                    <div class="timezone mb-3">
+                                    <div class="timezone mb-1">
                                         <label class=""></label></br>
                                         <select name="timezone"
                                             class="select2 form-control @error('timezone') is-invalid @enderror"
@@ -1198,7 +1198,7 @@ html body .animated {
                                         </span>
                                         @enderror
                                     </div>
-                                    <div class="form-check form-check-info text-start ps-0 mt-3">
+                                    <div class="form-check form-check-info text-start ps-0 mt-1">
                                         <input class="form-check-input @error('terms_condition') is-invalid @enderror"
                                             type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
                                             required>
