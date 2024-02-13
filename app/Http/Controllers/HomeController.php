@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\askQuestionMail;
 use App\Mail\RejectedCallMail;
 use App\Mail\RejectedCallUserMail;
 use App\Mail\updateSessionMail;
@@ -902,7 +903,7 @@ window.location.href = "https://wiseadvizor.com";
 
     $email = 'info@wiseadvizor.com';
 
-    $details = Contact::create([
+    $details = askQuestionMail::create([
       'firstname' => $request->first_name,
       'lastname' => $request->last_name,
       'mob' => $request->mobile,
@@ -910,7 +911,7 @@ window.location.href = "https://wiseadvizor.com";
       'message' => $request->message,
     ]);
 
-    Mail::to($email)->send(new ContactMail($details));
+    Mail::to($email)->send(new askQuestionMail($details));
 
     return view('thankyou');
   }
