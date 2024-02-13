@@ -1161,7 +1161,7 @@ html body .animated {
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" required autocomplete="current-password">
                                     </div>
-                                    <!-- <div class="input-group input-group-static mb-3">
+                                    <div class="input-group input-group-static mb-3">
                                         <label class="">Company Name</label>
                                         <input type="text" class="form-control" name="company_name">
                                     </div>
@@ -1169,11 +1169,11 @@ html body .animated {
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
                                     </div> -->
-                                    <div class="input-group input-group-static mb-3">
+                                    <div class="input-group input-group-static mb-0">
                                         <label class="">Linked-In Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
-                                    <div class="mb-3">
+                                    <div class="mb-0">
                                         <label class="form-label">Expertise you are looking for?</label></br>
                                         <select class="select form-control @error('expert') is-invalid @enderror"
                                             multiple data-mdb-clear-button="true" name="expert[]" required>
