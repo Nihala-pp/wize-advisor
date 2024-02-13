@@ -2619,7 +2619,7 @@
                                                                             id="form-field-message" rows="4"
                                                                             placeholder="Message"></textarea>
                                                                     </div>
-                                                                    <div
+                                                                    <!-- <div
                                                                         class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                                                         <button type="submit"
                                                                             class="elementor-button elementor-size-sm">
@@ -2630,16 +2630,16 @@
                                                                                     class="elementor-button-text">Send</span>
                                                                             </span>
                                                                         </button>
-                                                                    </div>
+                                                                    </div> -->
                                                                 </div>
                                                             </form>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
+                                                    <button type="submit" class="btn btn-secondary elementor-button elementor-size-sm"
                                                         data-bs-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                    <button type="button" class="btn btn-primary elementor-button elementor-size-sm">Send</button>
                                                 </div>
                                             </div>
                                         </div>
