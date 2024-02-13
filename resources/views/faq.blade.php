@@ -2523,13 +2523,15 @@
                             data-id="9bc0d4c" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
-                                    <button
+                                    <a class="dropdown-item elementor-button elementor-button-link elementor-size-md"
+                                        href="#" data-bs-toggle="modal" data-bs-target="#myModal">Ask a Question</a>
+                                    <!-- <button
                                         class="elementor-button elementor-button-link elementor-size-md ask_a_question"
                                         data-toggle="modal" data-target="#myModal">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Ask a Question</span>
                                         </span>
-                                    </button>
+                                    </button> -->
                                     <div id="myModal" data-elementor-type="popup" data-elementor-id="3048"
                                         class="elementor elementor-3048 elementor-location-popup modal fade"
                                         role="dialog"
@@ -3848,9 +3850,11 @@
         "use strict";
         $(document).ready(function() {
 
-            $('body').on('click', '.ask_a_question', function() {
+            <
+            !--$('body').on('click', '.ask_a_question', function() {
                 $('#myModal').modal('show');
             });
+            -- >
 
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
