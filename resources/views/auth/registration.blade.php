@@ -1161,14 +1161,14 @@ html body .animated {
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" required autocomplete="current-password">
                                     </div>
-                                    <div class="input-group input-group-static mb-3">
+                                    <!-- <div class="input-group input-group-static mb-3">
                                         <label class="">Company Name</label>
                                         <input type="text" class="form-control" name="company_name">
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
-                                    </div>
+                                    </div> -->
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Linked-In Url</label>
                                         <input type="url" class="form-control" name="linked_in">
