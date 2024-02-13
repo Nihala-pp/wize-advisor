@@ -3888,11 +3888,12 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     $(document).ready(function() {
+
         $('#myModal').modal('show');
     });
-    </script>
+    </script> -->
 </body>
 <style>
 i.fas.fa-chevron-down {
