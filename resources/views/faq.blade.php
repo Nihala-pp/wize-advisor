@@ -2526,8 +2526,9 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper ask">
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary elementor-button elementor-button-link elementor-size-md" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
+                                    <button type="button"
+                                        class="btn btn-primary elementor-button elementor-button-link elementor-size-md"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         Ask a Question
                                     </button>
 
@@ -2542,7 +2543,98 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    ...
+                                                    <div class="elementor-element elementor-element-30c899b elementor-button-align-stretch elementor-widget elementor-widget-form"
+                                                        data-id="30c899b" data-element_type="widget"
+                                                        data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+                                                        data-widget_type="form.default">
+                                                        <div class="elementor-widget-container">
+                                                            <form class="elementor-form" method="post" name="New Form">
+                                                                <input type="hidden" name="post_id" value="3048">
+                                                                <input type="hidden" name="form_id" value="30c899b">
+                                                                <input type="hidden" name="referer_title" value="Blogs">
+
+                                                                <input type="hidden" name="queried_id" value="18">
+
+                                                                <div
+                                                                    class="elementor-form-fields-wrapper elementor-labels-">
+                                                                    <div
+                                                                        class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-first_name elementor-col-50 elementor-field-required">
+                                                                        <label for="form-field-first_name"
+                                                                            class="elementor-field-label elementor-screen-only">
+                                                                            First Name </label>
+                                                                        <input size="1" type="text"
+                                                                            name="form_fields[first_name]"
+                                                                            id="form-field-first_name"
+                                                                            class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                            placeholder="First Name" required="required"
+                                                                            aria-required="true">
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-last_name elementor-col-50 elementor-field-required">
+                                                                        <label for="form-field-last_name"
+                                                                            class="elementor-field-label elementor-screen-only">
+                                                                            Last Name </label>
+                                                                        <input size="1" type="text"
+                                                                            name="form_fields[last_name]"
+                                                                            id="form-field-last_name"
+                                                                            class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                            placeholder="Last Name" required="required"
+                                                                            aria-required="true">
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
+                                                                        <label for="form-field-email"
+                                                                            class="elementor-field-label elementor-screen-only">
+                                                                            Email </label>
+                                                                        <input size="1" type="email"
+                                                                            name="form_fields[email]"
+                                                                            id="form-field-email"
+                                                                            class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                            placeholder="Email" required="required"
+                                                                            aria-required="true">
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-mobile elementor-col-50 elementor-field-required">
+                                                                        <label for="form-field-mobile"
+                                                                            class="elementor-field-label elementor-screen-only">
+                                                                            Mobile </label>
+                                                                        <input size="1" type="tel"
+                                                                            name="form_fields[mobile]"
+                                                                            id="form-field-mobile"
+                                                                            class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                            placeholder="Mobile" required="required"
+                                                                            aria-required="true"
+                                                                            pattern="[0-9()#&amp;+*-=.]+"
+                                                                            title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+                                                                        <label for="form-field-message"
+                                                                            class="elementor-field-label elementor-screen-only">
+                                                                            Message </label>
+                                                                        <textarea
+                                                                            class="elementor-field-textual elementor-field  elementor-size-md"
+                                                                            name="form_fields[message]"
+                                                                            id="form-field-message" rows="4"
+                                                                            placeholder="Message"></textarea>
+                                                                    </div>
+                                                                    <div
+                                                                        class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                                                                        <button type="submit"
+                                                                            class="elementor-button elementor-size-sm">
+                                                                            <span>
+                                                                                <span class=" elementor-button-icon">
+                                                                                </span>
+                                                                                <span
+                                                                                    class="elementor-button-text">Send</span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
