@@ -12,7 +12,8 @@
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments
+     Feed"
         href="https://wiseadvizor.com/comments/feed/" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
