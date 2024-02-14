@@ -4569,6 +4569,14 @@ margin-left:
     }
 }
 
+.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+    color: #343F5A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .card-deck .card {
     margin-bottom:
         50px;
