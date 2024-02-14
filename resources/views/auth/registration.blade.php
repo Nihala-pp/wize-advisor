@@ -2303,4 +2303,10 @@ h1 {
     margin-left: -1px;
     /* border-bottom-left-radius: 0; */
 }
+
+.elementor-5595 .elementor-element.elementor-element-16ea950:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-5595 .elementor-element.elementor-element-16ea950>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
+}
 </style>
