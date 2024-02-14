@@ -1153,7 +1153,7 @@ html body .animated {
                                         </span>
                                         @enderror
                                     </div>
-                                    <div class="input-group input-group-static mb-1">
+                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Password</label>
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror" name="password"
@@ -1164,21 +1164,21 @@ html body .animated {
                                         </span>
                                         @enderror
                                     </div>
-                                    <div class="input-group input-group-static mb-1">
+                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Confirm Password</label>
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" required autocomplete="current-password">
                                     </div>
-                                    <div class="input-group input-group-static mb-1">
+                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Company Name</label>
                                         <input type="text" class="form-control" name="company_name">
                                     </div>
-                                    <!-- <div class="input-group input-group-static mb-1">
+                                    <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
                                     </div>  -->
-                                    <div class="input-group input-group-static mb-1">
+                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">LinkedIn Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
