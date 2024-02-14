@@ -2235,7 +2235,7 @@ html body .animated {
 }
 
 .signup-form {
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .input-group.has-validation>.dropdown-toggle:nth-last-child(n+4),
