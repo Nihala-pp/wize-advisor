@@ -964,7 +964,7 @@ html body .animated {
                                 }
                                 </style>
                                 <div class="flex justify-center md:justify-start items-center image" style="align:center;">
-                                    <img alt="Logo" loading="lazy" width="250" height="250" decoding="async"
+                                    <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
                                     <!-- <h2 class="ml-6 text-white text-5xl font-bold">Syllaby</h2> -->
