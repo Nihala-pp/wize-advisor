@@ -4192,8 +4192,8 @@
 </body>
 <style>
 .selectpicker {
-    background-color:#54b4d3;
-    color:#fff;
+    background-color:#54b4d3 !important;
+    color:#fff !important;
 }
 
 .filter-section {
