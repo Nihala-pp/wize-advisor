@@ -963,7 +963,7 @@ html body .animated {
                                     font-size: 59px
                                 }
                                 </style>
-                                <div class="flex justify-center md:justify-start items-center image" style="align:center;">
+                                <div class="image">
                                     <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
