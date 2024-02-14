@@ -1182,7 +1182,7 @@ html body .animated {
                                         <label class="">LinkedIn Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
-                                    <div class="timezone mb-1">
+                                    <div class="mb-1">
                                         <label class="form-label time">Timezone</label>
                                         <select name="timezone"
                                             class="timezone select2 form-control @error('timezone') is-invalid @enderror"
