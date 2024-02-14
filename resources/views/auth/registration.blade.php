@@ -963,7 +963,7 @@ html body .animated {
                                     font-size: 59px
                                 }
                                 </style>
-                                <div class="flex justify-center md:justify-start items-center" style="align:center;">
+                                <div class="flex justify-center md:justify-start items-center image" style="align:center;">
                                     <img alt="Logo" loading="lazy" width="250" height="250" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
@@ -2261,5 +2261,9 @@ p {
 .elementor-5595 .elementor-element.elementor-element-f1541c9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
     margin-top: -35px;
+}
+
+.image {
+    margin-left:50px;
 }
 </style>
