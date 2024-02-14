@@ -1182,15 +1182,6 @@ html body .animated {
                                         <label class="">LinkedIn Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
-                                    <div class="mb-0">
-                                        <label class="form-label">Expertise you are looking for?</label></br>
-                                        <select class="select form-control @error('expert') is-invalid @enderror"
-                                            multiple data-mdb-clear-button="true" name="expert[]" required>
-                                            @foreach($expertise as $key => $expert)
-                                            <option value="{{ $expert }}">{{ $expert }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
                                     <div class="timezone mb-1 mt-4">
                                         <label class="form-label">Timezone</label>
                                         <select name="timezone"
@@ -1206,6 +1197,15 @@ html body .animated {
                                             <strong>{{ $message }}</strong>
                                         </span>
                                         @enderror
+                                    </div>
+                                    <div class="mb-0">
+                                        <label class="form-label">Expertise you are looking for?</label></br>
+                                        <select class="select form-control @error('expert') is-invalid @enderror"
+                                            multiple data-mdb-clear-button="true" name="expert[]" required>
+                                            @foreach($expertise as $key => $expert)
+                                            <option value="{{ $expert }}">{{ $expert }}</option>
+                                            @endforeach
+                                        </select>
                                     </div>
                                     <div class="form-check form-check-info text-start ps-0 mt-1">
                                         <input class="form-check-input @error('terms_condition') is-invalid @enderror"
