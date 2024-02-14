@@ -1182,7 +1182,7 @@ html body .animated {
                                         <label class="">LinkedIn Url</label>
                                         <input type="url" class="form-control" name="linked_in">
                                     </div>
-                                    <div class="mb-1">
+                                    <div class="mb-0">
                                         <label class="form-label">Expertise you are looking for?</label></br>
                                         <select class="select form-control @error('expert') is-invalid @enderror"
                                             multiple data-mdb-clear-button="true" name="expert[]" required>
