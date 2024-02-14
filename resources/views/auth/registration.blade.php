@@ -2264,6 +2264,6 @@ p {
 }
 
 .image {
-    margin-left:150px;
+    margin-left:250px;
 }
 </style>
