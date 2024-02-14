@@ -1185,7 +1185,7 @@ html body .animated {
                                     <div class="timezone mb-1">
                                         <label class="form-label time">Timezone</label>
                                         <select name="timezone"
-                                            class="select2 form-control @error('timezone') is-invalid @enderror"
+                                            class="timezone select2 form-control @error('timezone') is-invalid @enderror"
                                             required>
                                             <option value="">Choose Your Timezone</option>
                                             @foreach($timezone as $zone => $time)
@@ -2322,6 +2322,6 @@ h1 {
 }
 
 .timezone {
-    margin-right:70px;
+    margin-left:10px;
 }
 </style>
