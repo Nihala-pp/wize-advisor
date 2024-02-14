@@ -4586,12 +4586,14 @@ i.fas.fa-bell.fa-2xl {
         32px !important;
 }
 
-@media screen and (max-width: 767px) {
-
+@media (min-width: 768px) {
     .elementor-2772 .elementor-element.elementor-element-55b12a5 {
-        width: 100% !important;
+        width: 100%;
     }
+}
 
+
+@media screen and (max-width: 767px) {
     .search {
         width:
             55% !important;
