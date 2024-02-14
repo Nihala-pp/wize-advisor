@@ -13,8 +13,7 @@
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments
-     Feed"
-        href="https://wiseadvizor.com/comments/feed/" />
+     Feed" href="https://wiseadvizor.com/comments/feed/" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -1760,8 +1759,10 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Getting a mentor is your
-                                    shortcut is success!</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Discover a world of
+                                    expertise: Explore mentors offering invaluable guidance. Find the perfect mentor to
+                                    elevate your journey and achieve your goals with confidence.
+                                </h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
@@ -2081,7 +2082,8 @@
                                                         $mentor->id)->take(4)->get();
                                                         @endphp
                                                         @foreach($expertise as $expert)
-                                                        <li class="expertise"><span style="color: #000000">{{ $expert->expertise }}</span>
+                                                        <li class="expertise"><span
+                                                                style="color: #000000">{{ $expert->expertise }}</span>
                                                         </li>
                                                         @endforeach
                                                     </ul>
@@ -2098,7 +2100,8 @@
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
-                                                                    <span class="slot" style="font-size:14px;color: #000000"><strong>
+                                                                    <span class="slot"
+                                                                        style="font-size:14px;color: #000000"><strong>
                                                                             Next Slot -
                                                                             @php
                                                                             $nextAvailability =
@@ -2128,7 +2131,8 @@
                                                                         style="margin-top:5px;background-color:#001E64;">View
                                                                         Profile</a>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary" style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
                                                                         Call</a>
                                                                 </div>
                                                             </div>
@@ -2164,10 +2168,18 @@
                                                     <p><span style="color: #000000"><strong>Expertise:</strong></span>
                                                     </p>
                                                     <ul>
-                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Marketing Campaign</span></li>
-                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Brand Strategy</span></li>
-                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Marketing Strategy</span></li>
-                                                        <li class="expertise"><span style="font-size:14px;color: #000000">Idea Validation</span></li>
+                                                        <li class="expertise"><span
+                                                                style="font-size:14px;color: #000000">Marketing
+                                                                Campaign</span></li>
+                                                        <li class="expertise"><span
+                                                                style="font-size:14px;color: #000000">Brand
+                                                                Strategy</span></li>
+                                                        <li class="expertise"><span
+                                                                style="font-size:14px;color: #000000">Marketing
+                                                                Strategy</span></li>
+                                                        <li class="expertise"><span
+                                                                style="font-size:14px;color: #000000">Idea
+                                                                Validation</span></li>
                                                     </ul>
                                                     <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                         data-id="0e640ef" data-element_type="widget"
@@ -2198,7 +2210,8 @@
                                                                 <div> </div>
                                                                 <div style=""><a
                                                                         href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                            style="margin-top:5px;color: #000000"><strong>View Profile
+                                                                            style="margin-top:5px;color: #000000"><strong>View
+                                                                                Profile
                                                                                 $50
                                                                                 / 30 Min Schedule
                                                                                 Call</strong></span></a>
@@ -4179,7 +4192,7 @@
 </body>
 <style>
 a {
-    text-transform:capitalize !important;
+    text-transform: capitalize !important;
 }
 
 .btn.btn-primary {
@@ -4187,17 +4200,17 @@ a {
 }
 
 .expertise {
-       font-size:14px; 
+    font-size: 14px;
 }
 
 .bio {
-    margin-top:-15px;
-    font-size:14px;
+    margin-top: -15px;
+    font-size: 14px;
     padding-top: 5px;
 }
 
 span.slot {
-    padding-bottom:15px !important;
+    padding-bottom: 15px !important;
 }
 
 < !-- .next_availability {
