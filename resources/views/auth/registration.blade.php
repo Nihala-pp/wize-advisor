@@ -1192,7 +1192,7 @@ html body .animated {
                                         </select>
                                     </div>
                                     <div class="timezone mb-1">
-                                        <label class="">Timezone</label></br>
+                                        <label class="form-label">Timezone</label></br>
                                         <select name="timezone"
                                             class="select2 form-control @error('timezone') is-invalid @enderror"
                                             required>
@@ -2252,15 +2252,15 @@ html body .animated {
     -->
 }
 
-<!-- .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+< !-- .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
     margin-bottom: 32px;
     margin-left: -1px;
     < !-- border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     -->
-} -->
+}
 
-h1 {
+-->h1 {
     font-size: 18px;
 }
 
