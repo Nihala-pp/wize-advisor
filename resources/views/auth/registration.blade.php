@@ -2318,6 +2318,6 @@ h1 {
 }
 
 .time {
-   text-align:left;
+   margin-right:10px;
 }
 </style>
