@@ -1192,7 +1192,7 @@ html body .animated {
                                         </select>
                                     </div>
                                     <div class="timezone mb-1">
-                                        <label class=""></label></br>
+                                        <label class="">Timezone</label></br>
                                         <select name="timezone"
                                             class="select2 form-control @error('timezone') is-invalid @enderror"
                                             required>
