@@ -2309,4 +2309,12 @@ h1 {
     background-color: transparent;
     background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
 }
+
+.elementor-5595 .elementor-element.elementor-element-9d9a822 .elementor-icon-box-description {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-shadow: 0px 0px 12px rgba(0,0,0,0.3);
+}
 </style>
