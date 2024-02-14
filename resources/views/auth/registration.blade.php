@@ -1191,7 +1191,7 @@ html body .animated {
                                             @endforeach
                                         </select>
                                     </div>
-                                    <div class="timezone mb-1">
+                                    <div class="timezone mb-1 mt-4">
                                         <label class="form-label">Timezone</label>
                                         <select name="timezone"
                                             class="select2 form-control @error('timezone') is-invalid @enderror"
