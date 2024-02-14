@@ -1108,7 +1108,7 @@ html body .animated {
                         <div class="card mt-0 mb-0">
                             <div class="card-header mt-0">
                                 <h1 class="font-weight-bolder">Create Account</h1>
-                                <p class="mb-0">Welcome! Join us and start your journey today.</p>
+                                <p class="mb-0 para">Welcome! Join us and start your journey today.</p>
                                 <!-- <div class="row">
                                         <div class="col-3 text-center ms-auto">
                                             <a class="btn btn-link px-0" href="{{ route('auth.linkedin') }}">
@@ -2234,6 +2234,11 @@ html body .animated {
     margin: 20px 0;
 }
 
+.para {
+    font-size: 13px !important;
+    text-align: center;
+}
+
 .signup-form {
     margin-top: -20px;
 }
@@ -2265,12 +2270,12 @@ h1 {
     text-align: center;
 }
 
-p {
+< !-- p {
     font-size: 13px !important;
     text-align: center;
 }
 
-.elementor-5595 .elementor-element.elementor-element-f1541c9:not(.elementor-motion-effects-element-type-background),
+-->.elementor-5595 .elementor-element.elementor-element-f1541c9:not(.elementor-motion-effects-element-type-background),
 .elementor-5595 .elementor-element.elementor-element-f1541c9>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
     margin-top: -35px;
