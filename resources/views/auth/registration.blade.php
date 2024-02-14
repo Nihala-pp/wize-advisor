@@ -923,6 +923,9 @@ html body .animated {
                     data-id="16ea950" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="">
+
+                        </div>
                         <div class="elementor-element elementor-element-fa5f143 elementor-widget elementor-widget-heading"
                             data-id="fa5f143" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
@@ -960,6 +963,11 @@ html body .animated {
                                     font-size: 59px
                                 }
                                 </style>
+                                <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
+                                        loading="lazy" width="58" height="58" decoding="async" data-nimg="1"
+                                        src="{{ asset('public/assets/img/logo-secondary.svg') }}" style="color: transparent;">
+                                    <!-- <h2 class="ml-6 text-white text-5xl font-bold">Syllaby</h2> -->
+                                </div>
                                 <div class="elementor-heading-title elementor-size-default">Embark on a journey of
                                     growth and success!
                                     <div><br></div>
@@ -2227,15 +2235,17 @@ html body .animated {
 .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select,
 .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
     margin-top: -5px;
-    <!-- border-top-right-radius: 0;
-    border-bottom-right-radius: 0; -->
+    < !-- border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -->
 }
 
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
     margin-bottom: 32px;
     margin-left: -1px;
-    <!-- border-top-left-radius: 0;
-    border-bottom-left-radius: 0; -->
+    < !-- border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -->
 }
 
 h1 {
