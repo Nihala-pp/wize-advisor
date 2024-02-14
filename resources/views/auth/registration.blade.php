@@ -2278,4 +2278,15 @@ p {
     margin-left: 235px;
     margin-bottom: 40px;
 }
+
+.qodef-qi-separator .qodef-m-line {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 1px;
+    /* color: #111; */
+    border-bottom: 1em solid currentColor;
+    margin: 20px 0;
+}
 </style>
