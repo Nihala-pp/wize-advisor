@@ -2252,13 +2252,13 @@ html body .animated {
     -->
 }
 
-.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+<!-- .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
     margin-bottom: 32px;
     margin-left: -1px;
     < !-- border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     -->
-}
+} -->
 
 h1 {
     font-size: 18px;
@@ -2288,5 +2288,11 @@ p {
     /* color: #111; */
     border-bottom: 1em solid currentColor;
     margin: 20px 0;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-bottom: 16px;
+    margin-left: -1px;
+    /* border-bottom-left-radius: 0; */
 }
 </style>
