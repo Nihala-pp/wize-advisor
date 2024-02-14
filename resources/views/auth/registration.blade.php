@@ -2220,7 +2220,6 @@ html body .animated {
     }(jQuery));
     </script>
 </body>
-
 </html>
 <style>
 .qodef-qi-separator .qodef-m-line {
@@ -2263,7 +2262,7 @@ html body .animated {
     < !-- border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     -->
-}
+<!-- } -->
 
 h1 {
     font-size: 20px;
