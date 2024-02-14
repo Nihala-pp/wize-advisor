@@ -2283,7 +2283,7 @@ h1 {
 .image {
     margin-left: 235px;
     margin-bottom: 40px;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .qodef-qi-separator .qodef-m-line {
