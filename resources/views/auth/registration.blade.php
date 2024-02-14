@@ -2320,4 +2320,8 @@ h1 {
 .time {
    margin-right:10px;
 }
+
+.timezone {
+    margin-right:70px;
+}
 </style>
