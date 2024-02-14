@@ -1207,7 +1207,7 @@ html body .animated {
                                             @endforeach
                                         </select>
                                     </div>
-                                    <div class="form-check form-check-info text-start ps-0 mt-1">
+                                    <div class="form-check form-check-info text-start ps-0 mt-3">
                                         <input class="form-check-input @error('terms_condition') is-invalid @enderror"
                                             type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
                                             required>
