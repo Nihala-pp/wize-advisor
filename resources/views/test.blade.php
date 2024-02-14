@@ -1775,7 +1775,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29a38af"
+                <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29a38af"
                     data-id="29a38af" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-e813b77 elementor-align-center elementor-widget elementor-widget-button"
@@ -1791,7 +1791,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <section
