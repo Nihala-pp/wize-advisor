@@ -1795,7 +1795,7 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano"
+            class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano filter-section"
             data-id="2aff472" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
@@ -4191,6 +4191,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.filter-section {
+    background-color: #F3EEF5;
+}
+
 a {
     text-transform: capitalize !important;
 }
