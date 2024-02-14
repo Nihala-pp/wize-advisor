@@ -2265,5 +2265,6 @@ p {
 
 .image {
     margin-left:235px;
+    margin-bottom:20px;
 }
 </style>
