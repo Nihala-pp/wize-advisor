@@ -2260,8 +2260,9 @@ html body .animated {
     -->
 }
 
--->h1 {
-    font-size: 18px;
+h1 {
+    font-size: 20px;
+    text-align: center;
 }
 
 p {
