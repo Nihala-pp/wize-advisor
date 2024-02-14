@@ -2267,6 +2267,7 @@ h1 {
 
 p {
     font-size: 13px !important;
+    text-align: center;
 }
 
 .elementor-5595 .elementor-element.elementor-element-f1541c9:not(.elementor-motion-effects-element-type-background),
