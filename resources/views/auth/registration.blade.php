@@ -2279,6 +2279,7 @@ p {
 .image {
     margin-left: 235px;
     margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 .qodef-qi-separator .qodef-m-line {
