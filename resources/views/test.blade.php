@@ -4191,6 +4191,11 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.selectpicker {
+    background-color:#54b4d3;
+    color:#fff;
+}
+
 .filter-section {
     background-color: #F3EEF5;
 }
