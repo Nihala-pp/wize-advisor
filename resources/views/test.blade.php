@@ -1718,7 +1718,7 @@
             data-id="9bcde29" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-55b12a5"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55b12a5"
                     data-id="55b12a5" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
