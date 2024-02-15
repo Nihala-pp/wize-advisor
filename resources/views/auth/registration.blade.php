@@ -2338,7 +2338,7 @@ html body .animated {
         display: none;
     }
 
-    .logo_div {
+    .logo_div img {
         visibility: visible !important;
     }
 
@@ -2352,4 +2352,7 @@ html body .animated {
         padding-bottom: 2rem !important;
     }
 }
+
+@media screen and (max-device-width: 480px) and (min-width: 410px) {
+
 </style>
