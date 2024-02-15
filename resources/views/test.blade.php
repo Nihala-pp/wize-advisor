@@ -4197,7 +4197,7 @@
     font-size: 23px;
     font-weight: 600;
     text-align: center;
-    line-height: 32px;
+    line-height: 30px;
 }
 
 .selectpicker {
