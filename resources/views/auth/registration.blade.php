@@ -923,9 +923,9 @@ html body .animated {
                     data-id="16ea950" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="">
+                        <!-- <div class="">
 
-                        </div>
+                        </div> -->
                         <div class="elementor-element elementor-element-fa5f143 elementor-widget elementor-widget-heading"
                             data-id="fa5f143" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
