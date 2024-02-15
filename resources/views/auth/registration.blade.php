@@ -2370,6 +2370,11 @@ html body .animated {
     .elementor-column {
         /* width: 100%; */
     }
+
+    .elementor-5595 .elementor-element.elementor-element-56e8bbb>.elementor-element-populated {
+        margin-right: 85px;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    }
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {}
