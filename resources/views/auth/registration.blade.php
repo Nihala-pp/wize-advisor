@@ -2340,7 +2340,7 @@ html body .animated {
 
     .logo_div img {
         visibility: visible !important;
-        padding-left:30px;
+        padding-left:70px;
     }
 
     .to-gradtwo-to {
