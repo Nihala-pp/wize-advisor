@@ -2343,7 +2343,7 @@ html body .animated {
     }
 
     .logo_div {
-        visibility: visible;
+        visibility:visible !important;
     }
 }
 </style>
