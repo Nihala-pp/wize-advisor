@@ -1714,7 +1714,7 @@
     </header>
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-9bcde29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-9bcde29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no para"
             data-id="9bcde29" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
@@ -4191,6 +4191,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.para {
+    background-color: #001E64 !important;
+}
+
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger,
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:focus,
