@@ -1108,7 +1108,8 @@ html body .animated {
                         <div class="logo_div bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
                             <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
                                     loading="lazy" width="200" height="200" decoding="async" data-nimg="1"
-                                    src="{{ asset('public/assets/img/WhitePNGNew.png') }}" style="visibility:hidden;color:transparent;">
+                                    src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                    style="visibility:hidden;color:transparent;">
                             </div>
                         </div>
                         <div class="card mt-0 mb-0">
@@ -2226,13 +2227,9 @@ html body .animated {
     }(jQuery));
     </script>
 </body>
+
 </html>
 <style>
-.to-gradtwo-to {
-    background-color: transparent;
-    background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
-}
-
 .qodef-qi-separator .qodef-m-line {
     position: relative;
     display: inline-block;
@@ -2338,11 +2335,16 @@ html body .animated {
 
 @media screen and (max-width: 767px) {
     .signup {
-        display:none;
+        display: none;
     }
 
     .logo_div {
-        visibility:visible !important;
+        visibility: visible !important;
+    }
+
+    .to-gradtwo-to {
+        background-color: transparent;
+        background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
     }
 }
 </style>
