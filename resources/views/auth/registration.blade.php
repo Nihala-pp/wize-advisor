@@ -1106,12 +1106,18 @@ html body .animated {
                     <!--<div class="elementor-widget-wrap elementor-element-populated">-->
                     <div class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
                         <div class="card mt-0 mb-0">
+                            <div class="md:hidden bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
+                                <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
+                                        loading="lazy" width="58" height="58" decoding="async" data-nimg="1"
+                                        src="{{ asset('public/assets/img/WhitePNGNew.png') }}" style="color: transparent;">
+                                </div>
+                            </div>
                             <div class="card-header mt-0">
-                                <div class="image" style="background-color: transparent;background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);">
+                                <div class="image"
+                                    style="background-color: transparent;background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);">
                                     <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
-                                    <!-- <h2 class="ml-6 text-white text-5xl font-bold">Syllaby</h2> -->
                                 </div>
                                 <h1 class="font-weight-bolder">Create Account</h1>
                                 <p class="mb-0 para">Welcome! Join us and start your journey today.</p>
