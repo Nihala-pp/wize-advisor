@@ -2235,12 +2235,12 @@ html body .animated {
 
 </html>
 <style>
-@media screen and (max-width: 1280px),
+<!-- @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
     .logo_div {
         display: none;
     }
-}
+} -->
 
 -->-->.to-gradtwo-to {
     background-color: transparent;
@@ -2353,6 +2353,10 @@ screen and (min-width: 1024px) {
 @media screen and (max-width: 767px) {
     .signup {
         display:none;
+    }
+
+    .logo_div {
+        visibility: visible;
     }
 }
 </style>
