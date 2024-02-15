@@ -2239,12 +2239,12 @@ html body .animated {
     display: none;
 }
 
-< !-- @media screen and (max-width: 1280px),
+<!-- @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
     .md:hidden {
         display: none;
     }
-}
+} -->
 
 -->.to-gradtwo-to {
     background-color: transparent;
