@@ -1103,20 +1103,21 @@ html body .animated {
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56e8bbb create-form"
                     data-id="56e8bbb" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <!--<div class="elementor-widget-wrap elementor-element-populated">-->
-                    <div class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
-                        <div class="logo_div bg-gradient-to-t from-gradtwo-from to-gradtwo-to">
-                            <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
-                                    loading="lazy" width="180" height="180" decoding="async" data-nimg="1"
-                                    src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
-                                    style="visibility:hidden;color:transparent;">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div
+                            class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
+                            <div class="logo_div bg-gradient-to-t from-gradtwo-from to-gradtwo-to">
+                                <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
+                                        loading="lazy" width="180" height="180" decoding="async" data-nimg="1"
+                                        src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                        style="visibility:hidden;color:transparent;">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card mt-0 mb-0">
-                            <div class="card-header mt-0">
-                                <h1 class="font-weight-bolder">Create Account</h1>
-                                <p class="mb-0 para">Welcome! Join us and start your journey today.</p>
-                                <!-- <div class="row">
+                            <div class="card mt-0 mb-0">
+                                <div class="card-header mt-0">
+                                    <h1 class="font-weight-bolder">Create Account</h1>
+                                    <p class="mb-0 para">Welcome! Join us and start your journey today.</p>
+                                    <!-- <div class="row">
                                         <div class="col-3 text-center ms-auto">
                                             <a class="btn btn-link px-0" href="{{ route('auth.linkedin') }}">
                                                 <img src="{{ asset('public/assets/img/linkedin.png') }}"
@@ -1130,123 +1131,124 @@ html body .animated {
                                             </a>
                                         </div>
                                     </div> -->
-                            </div>
-                            <div class="card-body signup-form">
-                                <form method="POST" action="{{ route('register.post') }}">
-                                    @csrf
-                                    <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
-                                    <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
-                                    <div class="input-group input-group-static mb-0" style="padding-left:5px;">
-                                        <label class="">Name</label>
-                                        <input id="name" type="text"
-                                            class="form-control @error('name') is-invalid @enderror" name="name"
-                                            value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                </div>
+                                <div class="card-body signup-form">
+                                    <form method="POST" action="{{ route('register.post') }}">
+                                        @csrf
+                                        <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
+                                        <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
+                                        <div class="input-group input-group-static mb-0" style="padding-left:5px;">
+                                            <label class="">Name</label>
+                                            <input id="name" type="text"
+                                                class="form-control @error('name') is-invalid @enderror" name="name"
+                                                value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                        @error('name')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
-                                    <div class="input-group input-group-static mb-0" style="padding-left:5px;">
-                                        <label class="">Email</label>
-                                        <input id="email" type="email"
-                                            class="form-control @error('email') is-invalid @enderror" name="email"
-                                            value="{{ old('email') }}" required autocomplete="email">
+                                            @error('name')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+                                        <div class="input-group input-group-static mb-0" style="padding-left:5px;">
+                                            <label class="">Email</label>
+                                            <input id="email" type="email"
+                                                class="form-control @error('email') is-invalid @enderror" name="email"
+                                                value="{{ old('email') }}" required autocomplete="email">
 
-                                        @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
-                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                        <label class="">Password</label>
-                                        <input id="password" type="password"
-                                            class="form-control @error('password') is-invalid @enderror" name="password"
-                                            required autocomplete="current-password">
-                                        @error('password')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
-                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                        <label class="">Confirm Password</label>
-                                        <input id="password" type="password"
-                                            class="form-control @error('password') is-invalid @enderror"
-                                            name="password_confirmation" required autocomplete="current-password">
-                                    </div>
-                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                        <label class="">Company Name</label>
-                                        <input type="text" class="form-control" name="company_name">
-                                    </div>
-                                    <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+                                        <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            <label class="">Password</label>
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password" required autocomplete="current-password">
+                                            @error('password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+                                        <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            <label class="">Confirm Password</label>
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password_confirmation" required autocomplete="current-password">
+                                        </div>
+                                        <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            <label class="">Company Name</label>
+                                            <input type="text" class="form-control" name="company_name">
+                                        </div>
+                                        <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
                                     </div>  -->
-                                    <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                        <label class="">LinkedIn Url</label>
-                                        <input type="url" class="form-control" name="linked_in">
-                                    </div>
-                                    <div class="mb-1">
-                                        <label class="form-label time">Timezone</label>
-                                        <select name="timezone"
-                                            class="timezone select2 form-control @error('timezone') is-invalid @enderror"
-                                            required>
-                                            <option value="">Choose Your Timezone</option>
-                                            @foreach($timezone as $zone => $time)
-                                            <option value="{{ $time }}">{{ $time }}</option>
-                                            @endforeach
-                                        </select>
-                                        @error('timezone')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
-                                    <div class="mb-0">
-                                        <label class="form-label">Expertise you are looking for?</label></br>
-                                        <select class="select form-control @error('expert') is-invalid @enderror"
-                                            multiple data-mdb-clear-button="true" name="expert[]" required>
-                                            @foreach($expertise as $key => $expert)
-                                            <option value="{{ $expert }}">{{ $expert }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                    <div class="form-check form-check-info text-start ps-0 mt-3">
-                                        <input class="form-check-input @error('terms_condition') is-invalid @enderror"
-                                            type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
-                                            required>
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            I agree the <a href="{{ route('termsConditions') }}"
-                                                class="text-dark font-weight-bolder">Terms and Conditions</a>
-                                        </label>
-                                        @error('terms_condition')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                        @enderror
-                                    </div>
-                                    <div class="text-center">
-                                        <button type="submit"
-                                            class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0"
-                                            style="background-color:#001E64;">Sign
-                                            Up</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="card-footer text-center pt-0 px-lg-2 px-1">
-                                <p class="mb-2 text-sm mx-auto">
-                                    Already have an account?
-                                    <a href="{{ route('login') }}"
-                                        class="text-primary text-gradient font-weight-bold">Sign in</a>
-                                </p>
+                                        <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            <label class="">LinkedIn Url</label>
+                                            <input type="url" class="form-control" name="linked_in">
+                                        </div>
+                                        <div class="mb-1">
+                                            <label class="form-label time">Timezone</label>
+                                            <select name="timezone"
+                                                class="timezone select2 form-control @error('timezone') is-invalid @enderror"
+                                                required>
+                                                <option value="">Choose Your Timezone</option>
+                                                @foreach($timezone as $zone => $time)
+                                                <option value="{{ $time }}">{{ $time }}</option>
+                                                @endforeach
+                                            </select>
+                                            @error('timezone')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+                                        <div class="mb-0">
+                                            <label class="form-label">Expertise you are looking for?</label></br>
+                                            <select class="select form-control @error('expert') is-invalid @enderror"
+                                                multiple data-mdb-clear-button="true" name="expert[]" required>
+                                                @foreach($expertise as $key => $expert)
+                                                <option value="{{ $expert }}">{{ $expert }}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                        <div class="form-check form-check-info text-start ps-0 mt-3">
+                                            <input
+                                                class="form-check-input @error('terms_condition') is-invalid @enderror"
+                                                type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
+                                                required>
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I agree the <a href="{{ route('termsConditions') }}"
+                                                    class="text-dark font-weight-bolder">Terms and Conditions</a>
+                                            </label>
+                                            @error('terms_condition')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+                                        <div class="text-center">
+                                            <button type="submit"
+                                                class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0"
+                                                style="background-color:#001E64;">Sign
+                                                Up</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                                    <p class="mb-2 text-sm mx-auto">
+                                        Already have an account?
+                                        <a href="{{ route('login') }}"
+                                            class="text-primary text-gradient font-weight-bold">Sign in</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
+                        </div>
                     </div>
-                    <!--</div>-->
-                </div>
         </section>
     </div>
     <link rel='stylesheet' id='elementor-icons-fa-regular-css'
@@ -2288,13 +2290,13 @@ html body .animated {
     margin-top: -35px;
 }
 
-<!-- .image {
+< !-- .image {
     margin-left: 235px;
     margin-bottom: 40px;
     margin-top: 35px;
-} -->
+}
 
-.qodef-qi-separator .qodef-m-line {
+-->.qodef-qi-separator .qodef-m-line {
     position: relative;
     display: inline-block;
     width: 100%;
