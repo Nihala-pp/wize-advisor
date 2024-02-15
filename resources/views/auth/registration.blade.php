@@ -1105,13 +1105,12 @@ html body .animated {
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <!--<div class="elementor-widget-wrap elementor-element-populated">-->
                     <div class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
-                    <div class="md:hidden bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
-                                <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
-                                        loading="lazy" width="200" height="200" decoding="async" data-nimg="1"
-                                        src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
-                                        style="color: transparent;">
-                                </div>
+                        <div class="md:hidden bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
+                            <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
+                                    loading="lazy" width="200" height="200" decoding="async" data-nimg="1"
+                                    src="{{ asset('public/assets/img/WhitePNGNew.png') }}" style="color: transparent;">
                             </div>
+                        </div>
                         <div class="card mt-0 mb-0">
                             <div class="card-header mt-0">
                                 <!-- <div class="image"
