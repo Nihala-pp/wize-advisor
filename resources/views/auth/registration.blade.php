@@ -2347,7 +2347,7 @@ html body .animated {
 
     .logo_div img {
         visibility: visible !important;
-        margin-left: 75px;
+        margin-left: 125px;
     }
 
     .to-gradtwo-to {
