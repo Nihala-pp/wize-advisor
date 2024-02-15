@@ -1107,7 +1107,7 @@ html body .animated {
                     <div class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
                         <div class="card mt-0 mb-0">
                             <div class="card-header mt-0">
-                                <div class="image">
+                                <div class="image" style="background-color: transparent;background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);">
                                     <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
