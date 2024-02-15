@@ -4511,6 +4511,7 @@ right !important;
         border-color: #54b4d3 !important;
         border-radius: 5px;
         font-size: 0.75rem !important;
+        padding-left: 20px;
     }
 
     .card {
