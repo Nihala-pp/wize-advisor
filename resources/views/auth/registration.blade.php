@@ -1109,7 +1109,8 @@ html body .animated {
                             <div class="md:hidden bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
                                 <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
                                         loading="lazy" width="58" height="58" decoding="async" data-nimg="1"
-                                        src="{{ asset('public/assets/img/WhitePNGNew.png') }}" style="color: transparent;">
+                                        src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                        style="color: transparent;">
                                 </div>
                             </div>
                             <div class="card-header mt-0">
@@ -2235,6 +2236,11 @@ html body .animated {
 
 </html>
 <style>
+.to-gradtwo-to {
+    background-color: transparent;
+    background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
+}
+
 .qodef-qi-separator .qodef-m-line {
     position: relative;
     display: inline-block;
