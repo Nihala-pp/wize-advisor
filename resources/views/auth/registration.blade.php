@@ -2288,11 +2288,7 @@ html body .animated {
     margin-top: -35px;
 }
 
-.image {
-    margin-left: 235px;
-    margin-bottom: 40px;
-    margin-top: 35px;
-}
+
 
 .qodef-qi-separator .qodef-m-line {
     position: relative;
