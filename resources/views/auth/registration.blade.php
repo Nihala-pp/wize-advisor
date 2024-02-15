@@ -2346,5 +2346,10 @@ html body .animated {
         background-color: transparent;
         background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
     }
+
+    .from-gradtwo-from {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
 }
 </style>
