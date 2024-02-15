@@ -2226,7 +2226,6 @@ html body .animated {
     }(jQuery));
     </script>
 </body>
-
 </html>
 <style>
 .to-gradtwo-to {
