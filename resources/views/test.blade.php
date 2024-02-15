@@ -4191,6 +4191,14 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+    color: #fff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
 .para {
     background-color: #001E64 !important;
 }
