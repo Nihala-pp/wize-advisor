@@ -2337,8 +2337,10 @@ html body .animated {
 }
 
 @media screen and (max-width: 767px) {
+
     .create-form {
-        width: 430px !important;
+        margin-top: -30px;
+        /* width: 430px !important; */
     }
 
     .signup {
@@ -2362,7 +2364,11 @@ html body .animated {
     }
 
     .card {
-        width:150%;
+        width: 150%;
+    }
+
+    .elementor-column {
+        /* width: 100%; */
     }
 }
 
