@@ -2235,6 +2235,13 @@ html body .animated {
 
 </html>
 <style>
+@media screen and (max-width: 1280px),
+screen and (min-width: 1024px) {
+    .md:hidden {
+        display:none;
+    }
+}
+
 .to-gradtwo-to {
     background-color: transparent;
     background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
