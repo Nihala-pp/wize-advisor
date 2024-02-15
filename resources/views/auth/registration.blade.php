@@ -2235,13 +2235,9 @@ html body .animated {
 
 </html>
 <style>
-.logo_div {
-    display: none;
-}
-
-< !-- @media screen and (max-width: 1280px),
+@media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
-    .md:hidden {
+    .logo_div {
         display: none;
     }
 }
