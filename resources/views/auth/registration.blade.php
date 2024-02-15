@@ -1106,7 +1106,7 @@ html body .animated {
                     <!--<div class="elementor-widget-wrap elementor-element-populated">-->
                     <div class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
                         <div class="card mt-0 mb-0">
-                            <div class="md:hidden bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5 image">
+                            <div class="md:hidden bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
                                 <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
                                         loading="lazy" width="58" height="58" decoding="async" data-nimg="1"
                                         src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
