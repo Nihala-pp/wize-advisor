@@ -2364,6 +2364,7 @@ html body .animated {
     .card {
         width:150%;
     }
+}
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {}
 </style>
