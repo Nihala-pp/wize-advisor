@@ -1108,7 +1108,7 @@ html body .animated {
                         <div class="logo_div bg-gradient-to-t from-gradtwo-from to-gradtwo-to py-5">
                             <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
                                     loading="lazy" width="200" height="200" decoding="async" data-nimg="1"
-                                    src="{{ asset('public/assets/img/WhitePNGNew.png') }}" style="visibility:hidden;color: transparent;">
+                                    src="{{ asset('public/assets/img/WhitePNGNew.png') }}" style="visibility:hidden;color:transparent;">
                             </div>
                         </div>
                         <div class="card mt-0 mb-0">
