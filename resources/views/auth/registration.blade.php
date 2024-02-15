@@ -1247,8 +1247,9 @@ html body .animated {
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
+            </div>
         </section>
     </div>
     <link rel='stylesheet' id='elementor-icons-fa-regular-css'
