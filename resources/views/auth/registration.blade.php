@@ -2356,12 +2356,13 @@ html body .animated {
     }
 
     .from-gradtwo-from {
+        width: 150% !important;
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
     }
 
     .card {
-        width:100%;
+        width:150%;
     }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {}
