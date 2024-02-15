@@ -2220,13 +2220,9 @@ html body .animated {
     }(jQuery));
     </script>
 </body>
+
 </html>
 <style>
-
-.signup {
-    display:none;
-}
-
 .qodef-qi-separator .qodef-m-line {
     position: relative;
     display: inline-block;
@@ -2266,10 +2262,10 @@ html body .animated {
     margin-left: -1px;
     < !-- border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    -->
-<!-- } -->
+    -->< !--
+}
 
-h1 {
+-->h1 {
     font-size: 20px;
     text-align: center;
 }
@@ -2319,14 +2315,20 @@ h1 {
     font-family: "Helvetica", Sans-serif;
     font-size: 12px;
     font-weight: 300;
-    text-shadow: 0px 0px 12px rgba(0,0,0,0.3);
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
 }
 
 .time {
-   margin-right:10px;
+    margin-right: 10px;
 }
 
 .timezone {
-    margin-left:5px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .signup {
+        display: none;
+    }
 }
 </style>
