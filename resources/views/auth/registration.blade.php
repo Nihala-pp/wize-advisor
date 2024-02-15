@@ -964,7 +964,7 @@ html body .animated {
                                 }
                                 </style>
                                 <div class="image">
-                                    <img alt="Logo" loading="lazy" width="180" height="180" decoding="async"
+                                    <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
                                     <!-- <h2 class="ml-6 text-white text-5xl font-bold">Syllaby</h2> -->
@@ -1107,7 +1107,7 @@ html body .animated {
                     <div class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
                         <div class="logo_div bg-gradient-to-t from-gradtwo-from to-gradtwo-to">
                             <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
-                                    loading="lazy" width="200" height="200" decoding="async" data-nimg="1"
+                                    loading="lazy" width="180" height="180" decoding="async" data-nimg="1"
                                     src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                     style="visibility:hidden;color:transparent;">
                             </div>
