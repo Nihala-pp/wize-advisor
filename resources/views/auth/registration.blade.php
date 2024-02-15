@@ -2375,6 +2375,11 @@ html body .animated {
         margin-right: 85px;
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     }
+
+    .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+        margin-left: -15px;
+        /* padding: 10px; */
+    }
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {}
