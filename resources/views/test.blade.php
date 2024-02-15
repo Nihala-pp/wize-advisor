@@ -4191,6 +4191,14 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.bio {
+    margin-top: -15px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #343F5A;
     font-family: "Roboto", Sans-serif;
