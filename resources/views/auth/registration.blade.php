@@ -919,7 +919,7 @@ html body .animated {
             data-id="f1541c9" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-16ea950"
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-16ea950 signup"
                     data-id="16ea950" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -2222,6 +2222,11 @@ html body .animated {
 </body>
 </html>
 <style>
+
+.signup {
+    display:none;
+}
+
 .qodef-qi-separator .qodef-m-line {
     position: relative;
     display: inline-block;
