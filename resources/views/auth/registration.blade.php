@@ -1113,12 +1113,12 @@ html body .animated {
                                 </div>
                             </div>
                             <div class="card-header mt-0">
-                                <div class="image"
+                                <!-- <div class="image"
                                     style="background-color: transparent;background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);">
                                     <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
                                         data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
                                         style="color:transparent;">
-                                </div>
+                                </div> -->
                                 <h1 class="font-weight-bolder">Create Account</h1>
                                 <p class="mb-0 para">Welcome! Join us and start your journey today.</p>
                                 <!-- <div class="row">
