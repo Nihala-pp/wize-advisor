@@ -2340,6 +2340,7 @@ html body .animated {
 
     .logo_div img {
         visibility: visible !important;
+        padding-left:30px;
     }
 
     .to-gradtwo-to {
@@ -2354,5 +2355,6 @@ html body .animated {
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
+}
 
 </style>
