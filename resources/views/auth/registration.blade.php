@@ -2354,9 +2354,5 @@ screen and (min-width: 1024px) {
     .signup {
         display: none;
     }
-
-    .logo_div {
-        visibility: visible;
-    }
 }
 </style>
