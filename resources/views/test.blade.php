@@ -4191,9 +4191,18 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+    color: #343F5A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 32px;
+}
+
 .selectpicker {
-    background-color:#54b4d3 !important;
-    color:#fff !important;
+    background-color: #54b4d3 !important;
+    color: #fff !important;
 }
 
 .filter-section {
