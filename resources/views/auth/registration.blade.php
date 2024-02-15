@@ -1100,7 +1100,7 @@ html body .animated {
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56e8bbb"
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56e8bbb create-form"
                     data-id="56e8bbb" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <!--<div class="elementor-widget-wrap elementor-element-populated">-->
@@ -2334,13 +2334,17 @@ html body .animated {
 }
 
 @media screen and (max-width: 767px) {
+    .create-form {
+        width: 430px !important;
+    }
+
     .signup {
         display: none;
     }
 
     .logo_div img {
         visibility: visible !important;
-        margin-left:75px;
+        margin-left: 75px;
     }
 
     .to-gradtwo-to {
@@ -2354,7 +2358,5 @@ html body .animated {
     }
 }
 
-@media screen and (max-device-width: 480px) and (min-width: 410px) {
-}
-
+@media screen and (max-device-width: 480px) and (min-width: 410px) {}
 </style>
