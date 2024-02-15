@@ -2236,17 +2236,17 @@ html body .animated {
 </html>
 <style>
 .logo_div {
-    display:none;
+    display: none;
 }
 
-<!-- @media screen and (max-width: 1280px),
+< !-- @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
     .md:hidden {
         display: none;
     }
-} -->
+}
 
--->.to-gradtwo-to {
+-->-->.to-gradtwo-to {
     background-color: transparent;
     background-image: linear-gradient(360deg, #799EF3 0%, #001E64 100%);
 }
@@ -2357,6 +2357,10 @@ screen and (min-width: 1024px) {
 @media screen and (max-width: 767px) {
     .signup {
         display: none;
+    }
+
+    .logo_div {
+        visibility: visible;
     }
 }
 </style>
