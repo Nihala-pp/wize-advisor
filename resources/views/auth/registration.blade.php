@@ -2352,7 +2352,7 @@ screen and (min-width: 1024px) {
 
 @media screen and (max-width: 767px) {
     .signup {
-        display: none;
+        display:none;
     }
 }
 </style>
