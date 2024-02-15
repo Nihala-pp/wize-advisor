@@ -4193,7 +4193,7 @@
 <style>
 
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #fff;
+    color: #fff !important;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
     font-weight: 600;
