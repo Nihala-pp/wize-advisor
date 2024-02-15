@@ -4456,6 +4456,7 @@ margin-left:50px;
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
+
     input[type="date"]:not(.has-value):before {
         color:
             lightgray;
@@ -4502,18 +4503,14 @@ right !important;
     }
 
     #date {
-        width:
-            220px;
-        height:
-            36px;
-        background-color:
-            #54b4d3;
-        color:
-            #fff;
-        font-weight:
-            200px;
-        font-size:
-            0.75rem !important;
+        width: 220px;
+        height: 36px;
+        background-color: #54b4d3;
+        color: #fff;
+        font-weight: 200px;
+        border-color: #54b4d3 !important;
+        border-radius: 5px;
+        font-size: 0.75rem !important;
     }
 
     .card {
