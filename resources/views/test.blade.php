@@ -4199,6 +4199,10 @@
     padding: 35px 35px 35px 50px;
 }
 
+.elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container {
+    padding: 0px 0px 0px 35px;
+}
+
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #fff !important;
     font-family: "Roboto", Sans-serif;
