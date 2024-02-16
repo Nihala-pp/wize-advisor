@@ -4751,10 +4751,10 @@ padding-top:
              !important;
     }
 
-    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
+    /* .elementor-2772 .elementor-element.elementor-element-lqdwygc {
         padding:
             75px 45px 75px 12px;
-    }
+    } */
 
     .elementor-3007 .elementor-element.elementor-element-b97627d {
         width:
