@@ -2126,7 +2126,6 @@
                                                                 class="elementor-screen-only">5/5</span>
                                                         </div>
                                                     </div>
-                                                </div>
                                                 <h5><strong><img decoding="async" class="alignleft wp-image-5531"
                                                             src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                             alt="" width="221" height="221"
