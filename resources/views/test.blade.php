@@ -4188,6 +4188,16 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
+    /* color: #4A4A4A; */
+    /* font-family: "Lato",
+      Sans-serif; */
+    /* font-size: 15px; */
+    /* font-weight: 400; */
+    /* line-height: 1.7em; */
+    /* letter-spacing: 0px; */
+    padding: 35px 35px 35px 50px;
+}
 
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #fff !important;
@@ -4196,6 +4206,7 @@
     font-weight: 600;
     text-align: center;
 }
+
 .para {
     background-color: #001E64 !important;
 }
