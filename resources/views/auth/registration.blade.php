@@ -723,7 +723,7 @@ var elementorAppProConfig = {
 <style>
 #wpadminbar .theplus-purge-clear>.ab-item:before {
     content: '';
-    background-image: url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png) !important;
+    background-image: url("https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png") !important;
     background-size: 20px !important;
     background-position: center;
     width: 20px;
