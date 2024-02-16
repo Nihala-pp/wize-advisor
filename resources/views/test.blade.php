@@ -4315,10 +4315,10 @@ font-weight:
         35px 35px 35px 35px;
 }
 
-.schedule-call {
+/* .schedule-call {
     margin-left:
         70px;
-}
+} */
 
 -->.wp-image-5531 {
     border-radius:
