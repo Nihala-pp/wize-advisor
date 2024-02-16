@@ -4644,7 +4644,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor img {
         height: auto;
-        max-width: 20%;
+        max-width: 20% !important;
         border: none;
         border-radius: 0;
         box-shadow: none;
