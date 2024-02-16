@@ -4188,20 +4188,6 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-.elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
-    /* color: #4A4A4A; */
-    /* font-family: "Lato",
-      Sans-serif; */
-    /* font-size: 15px; */
-    /* font-weight: 400; */
-    /* line-height: 1.7em; */
-    /* letter-spacing: 0px; */
-    padding: 35px 35px 35px 50px;
-}
-
-.elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container {
-    padding: 0px 0px 0px 35px;
-}
 
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #fff !important;
@@ -4210,7 +4196,6 @@
     font-weight: 600;
     text-align: center;
 }
-
 .para {
     background-color: #001E64 !important;
 }
@@ -4304,15 +4289,28 @@ font-family:
 "Lato",
 Sans-serif;
 */
-    font-size: 15px;
+    font-size:
+        15px;
     /*
 font-weight:
 400;
 */
-    line-height: 1.7em;
-    letter-spacing: 30px;
+    line-height:
+        1.7em;
+    letter-spacing:
+        0px;
     padding:
         35px 35px 35px 35px;
+}
+
+.schedule-call {
+    margin-left:
+        70px;
+}
+
+-->.wp-image-5531 {
+    border-radius:
+        10px !important;
 }
 
 i.fas.fa-chevron-down {
@@ -4322,18 +4320,23 @@ i.fas.fa-chevron-down {
         10px !important;
     font-size:
         9px !important;
-    font-family: "FontAwesome 5 Free" !important;
+    font-family:
+        "Font
+Awesome 5 Free"
+ !important;
     font-weight:
         900 !important;
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
-    /* div.d-grid.gap-2.col-6.butto {
-        padding-left:75px;
-        text-align:center !important;
-    } */
+    div.d-grid.gap-2.col-6.butto {
+        padding-left:
+            75px;
+        text-align:
+            center !important;
+    }
 
-    /* .card {
+    .card {
         width:
             15rem;
     }
@@ -4341,7 +4344,7 @@ i.fas.fa-chevron-down {
     .elementor-star-rating__wrapper {
         padding-left:
             118px;
-    } */
+    }
 
     /*
 input#date.form-control.selectpicker
@@ -4407,6 +4410,34 @@ margin-bottom:
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
+
+    /*
+#date
+{
+background-color:
+#54b4d3;
+color:
+#fff;
+font-weight:
+400px;
+line-height:
+1;
+height:
+140%
+ !important;
+width:
+75%
+ !important;
+FONT-VARIANT:
+JIS78;
+/*
+padding-left:
+20px
+ !important;
+*/
+    /*
+}
+*/
     .selectpicker {
         font-size:
             10px;
@@ -4423,21 +4454,17 @@ margin-bottom:
     }
 
     .butto {
-        padding-left: 25px;
+        /*
+/*
+margin-left:50px;
+*/
+        padding-left:
+            25px;
     }
 }
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
-
-    .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
-        /* color: #4A4A4A; */
-        /* font-size: 15px; */
-        /* font-weight: 400; */
-        /* line-height: 1.7em; */
-        /* letter-spacing: 0px; */
-        padding: 35px 35px 35px 48px;
-    }
 
     input[type="date"]:not(.has-value):before {
         color:
@@ -4473,6 +4500,15 @@ margin-top:
     ::-webkit-calendar-picker-indicator {
         filter:
             invert(1);
+    }
+
+    div.d-grid.gap-2.col-6.butto {
+        padding-left:
+            80px;
+        /*
+text-align:
+right !important;
+*/
     }
 
     #date {
