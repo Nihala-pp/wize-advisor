@@ -2048,8 +2048,7 @@
                                                         </div>
 
                                                         <div class="grid-child">
-                                                            <h5><span
-                                                                    style="color: #000000">{{ $mentor->name }}</span>
+                                                            <h5><span style="color: #000000">{{ $mentor->name }}</span>
                                                             </h5>
                                                             <p><span style="color: #000000">{{ $mentor->metaData->designation }},
                                                                     {{ $mentor->metaData->company }}</span><br />
@@ -4726,6 +4725,12 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
     .wp-image-5531 {
         height: auto;
         max-width: 20% !important;
