@@ -4925,6 +4925,12 @@ max-width:
         box-shadow:
             none;
     }
+
+    .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap {
+        background-color: #FFFFFF;
+        border-style: none;
+        border-radius: 20px 20px 20px 20px;
+    }
 }
 
 @media (max-width: 320px) {}
