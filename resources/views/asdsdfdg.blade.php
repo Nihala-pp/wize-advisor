@@ -6110,3 +6110,5 @@ flexibility(document.documentElement);
 </body>
 
 </html>
+
+col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5
