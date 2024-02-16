@@ -4335,10 +4335,7 @@ i.fas.fa-chevron-down {
         10px !important;
     font-size:
         9px !important;
-    font-family:
-        "Font
-Awesome 5 Free"
- !important;
+    font-family:"FontAwesome 5 Free" !important;
     font-weight:
         900 !important;
 }
