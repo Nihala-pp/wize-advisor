@@ -2014,7 +2014,7 @@
                                             <!-- <div class="wpr-switcher-inner wpr-switcher-first">
                                             <div class="wpr-switcher-label">Before</div>
 
-                                        </div> -->
+                                            </div> -->
 
                                             <!-- <div class="wpr-switcher-outer"> -->
                                             <!-- <div class="wpr-switcher-wrap">
@@ -2029,7 +2029,7 @@
                                             <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
-                                        </div> -->
+                                            </div> -->
                                         </div>
 
                                         <div class="wpr-switcher-content-wrap">
@@ -2126,15 +2126,15 @@
                                                                 class="elementor-screen-only">5/5</span>
                                                         </div>
                                                     </div>
-                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531"
+                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531"
                                                             src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                             alt="" width="221" height="221"
                                                             srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                             sizes="(max-width: 221px) 100vw, 221px" /></strong><span
                                                         style="color: #000000">{{ $mentor->name }}</span></h5>
-                                                <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                    <p><span style="color: #000000">{{ $mentor->metaData->designation }},
                                                         {{ $mentor->metaData->company }}</span><br />
-                                                    <span style="font-size:14px;color: #000000">
+                                                       <span style="font-size:14px;color: #000000">
                                                         @php
                                                         $totalReviews = \App\Models\Review::where('mentor_id',
                                                         $mentor->id)->get()->count();
@@ -2150,9 +2150,9 @@
                                                         echo " Review / ".$totalSessions. " Sessions";
                                                         }
                                                         @endphp
-                                                    </span>
-                                                </p>
-                                                <div class="elementor-star-rating" title="5/5"
+                                                      </span>
+                                                    </p>
+                                                   <div class="elementor-star-rating" title="5/5"
                                                     itemtype="http://schema.org/Rating" itemscope=""
                                                     itemprop="reviewRating">
                                                     <i class="elementor-star-full">&#xE934;</i><i
@@ -2161,21 +2161,20 @@
                                                         class="elementor-star-full">&#xE934;</i><i
                                                         class="elementor-star-full">&#xE934;</i> <span
                                                         itemprop="ratingValue" class="elementor-screen-only">5/5</span>
-                                                </div>
+                                                   </div>
                                                 <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                <p><span style="color: #000000"><strong>Expertise:</strong></span>
-                                                </p>
-                                                <ul>
-                                                    @php
-                                                    $expertise = \App\Models\Expertise::where('mentor_id',
-                                                    $mentor->id)->take(4)->get();
-                                                    @endphp
-                                                    @foreach($expertise as $expert)
-                                                    <li class="expertise"><span
+                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span></p>
+                                                   <ul>
+                                                      @php
+                                                       $expertise = \App\Models\Expertise::where('mentor_id',
+                                                       $mentor->id)->take(4)->get();
+                                                      @endphp
+                                                      @foreach($expertise as $expert)
+                                                        <li class="expertise"><span
                                                             style="color: #000000">{{ $expert->expertise }}</span>
-                                                    </li>
-                                                    @endforeach
-                                                </ul>
+                                                        </li>
+                                                      @endforeach
+                                                   </ul>
                                                 <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                     data-id="0e640ef" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
