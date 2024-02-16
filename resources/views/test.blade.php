@@ -4304,25 +4304,15 @@ font-family:
 "Lato",
 Sans-serif;
 */
-    font-size:15px;
+    font-size: 15px;
     /*
 font-weight:
 400;
 */
-    line-height:1.7em;
-    letter-spacing:30px;
+    line-height: 1.7em;
+    letter-spacing: 30px;
     padding:
         35px 35px 35px 35px;
-}
-
-/* .schedule-call {
-    margin-left:
-        70px;
-} */
-
--->.wp-image-5531 {
-    border-radius:
-        10px !important;
 }
 
 i.fas.fa-chevron-down {
@@ -4332,7 +4322,7 @@ i.fas.fa-chevron-down {
         10px !important;
     font-size:
         9px !important;
-    font-family:"FontAwesome 5 Free" !important;
+    font-family: "FontAwesome 5 Free" !important;
     font-weight:
         900 !important;
 }
@@ -4417,34 +4407,6 @@ margin-bottom:
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
-
-    /*
-#date
-{
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-140%
- !important;
-width:
-75%
- !important;
-FONT-VARIANT:
-JIS78;
-/*
-padding-left:
-20px
- !important;
-*/
-    /*
-}
-*/
     .selectpicker {
         font-size:
             10px;
@@ -4461,12 +4423,7 @@ padding-left:
     }
 
     .butto {
-        /*
-/*
-margin-left:50px;
-*/
-        padding-left:
-            25px;
+        padding-left: 25px;
     }
 }
 
@@ -4516,15 +4473,6 @@ margin-top:
     ::-webkit-calendar-picker-indicator {
         filter:
             invert(1);
-    }
-
-    div.d-grid.gap-2.col-6.butto {
-        padding-left:
-            80px;
-        /*
-text-align:
-right !important;
-*/
     }
 
     #date {
