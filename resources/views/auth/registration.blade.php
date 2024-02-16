@@ -2233,6 +2233,11 @@ html body .animated {
 
 </html>
 <style>
+.elementor-5595 .elementor-element.elementor-element-56e8bbb>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -40px;
+}
+
 .qodef-qi-separator .qodef-m-line {
     position: relative;
     display: inline-block;
