@@ -4638,6 +4638,10 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
+    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
+        padding: 75px 10px 75px 10px;
+    }
+
     .search {
         width:
             55% !important;
