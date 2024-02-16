@@ -4304,16 +4304,13 @@ font-family:
 "Lato",
 Sans-serif;
 */
-    font-size:
-        15px;
+    font-size:15px;
     /*
 font-weight:
 400;
 */
-    line-height:
-        1.7em;
-    letter-spacing:
-        0px;
+    line-height:1.7em;
+    letter-spacing:30px;
     padding:
         35px 35px 35px 35px;
 }
@@ -4341,14 +4338,12 @@ i.fas.fa-chevron-down {
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
-    div.d-grid.gap-2.col-6.butto {
-        padding-left:
-            75px;
-        text-align:
-            center !important;
-    }
+    /* div.d-grid.gap-2.col-6.butto {
+        padding-left:75px;
+        text-align:center !important;
+    } */
 
-    .card {
+    /* .card {
         width:
             15rem;
     }
@@ -4356,7 +4351,7 @@ i.fas.fa-chevron-down {
     .elementor-star-rating__wrapper {
         padding-left:
             118px;
-    }
+    } */
 
     /*
 input#date.form-control.selectpicker
