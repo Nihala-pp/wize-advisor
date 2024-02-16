@@ -2226,6 +2226,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
                                         <div class="wpr-switcher-content" data-switcher="2">
                                             <div
                                                 class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
