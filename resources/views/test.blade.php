@@ -4297,9 +4297,8 @@ i.fas.fa-chevron-down {
     font-size:
         9px !important;
     font-family:
-        "Font
-Awesome 5 Free"
- !important;
+        "FontAwesome 5 Free"
+         !important;
     font-weight:
         900 !important;
 }
@@ -4638,16 +4637,16 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
-    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-        padding: 75px 5px 75px 5px;
-    }
-
-    .elementor img {
+    .wp-image-5531 {
         height: auto;
         max-width: 20% !important;
         border: none;
         border-radius: 0;
         box-shadow: none;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
+        padding: 75px 5px 75px 5px;wqewq
     }
 
     .search {
