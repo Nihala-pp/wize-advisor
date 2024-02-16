@@ -6112,3 +6112,27 @@ flexibility(document.documentElement);
 </html>
 
 col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5
+
+-->.elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap>.wpr-switcher-content {
+    /*
+color:
+#4A4A4A;
+*/
+    /*
+font-family:
+"Lato",
+Sans-serif;
+*/
+    font-size:
+        15px;
+    /*
+font-weight:
+400;
+*/
+    line-height:
+        1.7em;
+    letter-spacing:
+        0px;
+    padding:
+        35px 35px 35px 35px;
+}
