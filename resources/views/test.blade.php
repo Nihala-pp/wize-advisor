@@ -4642,6 +4642,14 @@ i.fas.fa-bell.fa-2xl {
         padding: 75px 5px 75px 5px;
     }
 
+    .elementor img {
+        height: auto;
+        max-width: 20%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
     .search {
         width:
             55% !important;
