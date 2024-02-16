@@ -4446,6 +4446,12 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #fff !important;
     font-family: "Roboto", Sans-serif;
