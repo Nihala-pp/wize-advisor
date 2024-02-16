@@ -2036,202 +2036,291 @@
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531"
-                                                                src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                alt="" width="221" height="221"
-                                                                srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                            style="color: #000000">{{ $mentor->name }}</span></h5>
-                                                    <p><span style="color: #000000">{{ $mentor->metaData->designation }},
-                                                            {{ $mentor->metaData->company }}</span><br />
-                                                        <span style="font-size:14px;color: #000000">
-                                                            @php
-                                                            $totalReviews = \App\Models\Review::where('mentor_id',
-                                                            $mentor->id)->get()->count();
-                                                            $totalSessions =
-                                                            \App\Models\ScheduledCall::where('mentor_id',
-                                                            $mentor->id)->where('status', 'Approved')->where('is_paid',
-                                                            1)->get()->count();
-                                                            echo $totalReviews;
-                                                            if($totalReviews > 1) {
-                                                            echo " Reviews / ".$totalSessions. " Sessions";
-                                                            }
-                                                            else {
-                                                            echo " Review / ".$totalSessions. " Sessions";
-                                                            }
-                                                            @endphp
-                                                        </span>
-                                                    </p>
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
-                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
-                                                    </p>
-                                                    <ul>
-                                                        @php
-                                                        $expertise = \App\Models\Expertise::where('mentor_id',
-                                                        $mentor->id)->take(4)->get();
-                                                        @endphp
-                                                        @foreach($expertise as $expert)
-                                                        <li class="expertise"><span
-                                                                style="color: #000000">{{ $expert->expertise }}</span>
-                                                        </li>
-                                                        @endforeach
-                                                    </ul>
-                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                        data-id="0e640ef" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <!-- <p>&nbsp </p> -->
-                                                            <p class="bio" style="float:left;"><span
-                                                                    style="color: #000000">
-                                                                    {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
-                                                            </p>
-                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                                data-id="a92b341" data-element_type="widget"
-                                                                data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container" style="">
-                                                                    <span class="slot"
-                                                                        style="font-size:14px;color: #000000"><strong>
-                                                                            Next Slot -
-                                                                            @php
-                                                                            $nextAvailability =
-                                                                            \App\Models\AvailableSchedule::where('mentor_id',
-                                                                            $mentor->id)
-                                                                            ->whereDate('date', '>', now())
-                                                                            ->where('is_booked', 0)
-                                                                            ->orderBy('date', 'asc')
-                                                                            ->first();
-                                                                            @endphp
-                                                                            @if(!empty($nextAvailability))
-                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                            @endif
-                                                                        </strong></span>
-                                                                    <span class="charge"
-                                                                        style="font-size:14px;float:right;color: #000000"><strong>
-                                                                            $
-                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                            / 30
-                                                                            Min</strong></span>
-                                                                </div>
-                                                                <div>
-                                                                </div>
-                                                                <div style="">
-                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
-                                                                        style="margin-top:5px;background-color:#001E64;">View
-                                                                        Profile</a>
-                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
-                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                        Call</a>
-                                                                </div>
-                                                            </div>
+                                                    <div class="grid-container">
+                                                        <div class="grid-child">
+                                                            <h5><strong><img decoding="async"
+                                                                        class="alignleft wp-image-5531"
+                                                                        src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                        alt="" width="221" height="221"
+                                                                        srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
+                                                                        sizes="(max-width: 221px) 100vw, 221px" /></strong>
+                                                            </h5>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="wpr-switcher-content" data-switcher="2">
-                                                <div
-                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531"
-                                                                src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                alt="" width="221" height="221"
-                                                                srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                            style="color: #000000">Sumedha Mahajan</span></h5>
-                                                    <p><span style="color: #000000">Head of marketing,
-                                                            Ampverse</span><br /><span style="color: #000000">10
-                                                            sessions, 5
-                                                            Reviews</span></p>
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
-                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
-                                                    </p>
-                                                    <ul>
-                                                        <li class="expertise"><span
-                                                                style="font-size:14px;color: #000000">Marketing
-                                                                Campaign</span></li>
-                                                        <li class="expertise"><span
-                                                                style="font-size:14px;color: #000000">Brand
-                                                                Strategy</span></li>
-                                                        <li class="expertise"><span
-                                                                style="font-size:14px;color: #000000">Marketing
-                                                                Strategy</span></li>
-                                                        <li class="expertise"><span
-                                                                style="font-size:14px;color: #000000">Idea
-                                                                Validation</span></li>
-                                                    </ul>
-                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                        data-id="0e640ef" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <p class="bio" style="text-align: left"><span
-                                                                    style="color: #000000">I enjoy the 0-1, 1-10 journey
-                                                                    and
-                                                                    have setup processes from scratch. A true believer
-                                                                    in
-                                                                    leveraging multiple channels, from doing co-branded
-                                                                    campaigns with the likes of Coca Cola, to creating a
-                                                                    GTM
-                                                                    strategy focused only on user experience for Paytm's
-                                                                    loyalty program. From driving promoter led BTL
-                                                                    campaigns
-                                                                    in Rajasthan's by lanes to marketing and launching
-                                                                    the
-                                                                    Indian cricket team jersey twice.</span></p>
-                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                                data-id="a92b341" data-element_type="widget"
-                                                                data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container"
-                                                                    style="text-align: center"><span
-                                                                        style="color: #333333"><strong>Next Availability
-                                                                            -
-                                                                            8th February, 2024</strong></span></div>
-                                                                <div> </div>
-                                                                <div style=""><a
-                                                                        href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                            style="margin-top:5px;color: #000000"><strong>View
-                                                                                Profile
-                                                                                $50
-                                                                                / 30 Min Schedule
-                                                                                Call</strong></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
 
+                                                        <div class="grid-child">
+                                                            <h5><span
+                                                                    style="color: #000000">{{ $mentor->name }}</span>
+                                                            </h5>
+                                                            <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                                    {{ $mentor->metaData->company }}</span><br />
+                                                                <span style="font-size:14px;color: #000000">
+                                                                    @php
+                                                                    $totalReviews =
+                                                                    \App\Models\Review::where('mentor_id',
+                                                                    $mentor->id)->get()->count();
+                                                                    $totalSessions =
+                                                                    \App\Models\ScheduledCall::where('mentor_id',
+                                                                    $mentor->id)->where('status',
+                                                                    'Approved')->where('is_paid',
+                                                                    1)->get()->count();
+                                                                    echo $totalReviews;
+                                                                    if($totalReviews > 1) {
+                                                                    echo " Reviews / ".$totalSessions. " Sessions";
+                                                                    }
+                                                                    else {
+                                                                    echo " Review / ".$totalSessions. " Sessions";
+                                                                    }
+                                                                    @endphp
+                                                                </span>
+                                                            </p>
+                                                            <div class="elementor-star-rating" title="5/5"
+                                                                itemtype="http://schema.org/Rating" itemscope=""
+                                                                itemprop="reviewRating">
+                                                                <i class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i> <span
+                                                                    itemprop="ratingValue"
+                                                                    class="elementor-screen-only">5/5</span>
+                                                            </div>
+                                                        </div>
+                                                        <h5><strong><img decoding="async"
+                                                                    class="alignleft wp-image-5531"
+                                                                    src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                    alt="" width="221" height="221"
+                                                                    srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
+                                                                    sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                                style="color: #000000">{{ $mentor->name }}</span>
+                                                        </h5>
+                                                        <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                                {{ $mentor->metaData->company }}</span><br />
+                                                            <span style="font-size:14px;color: #000000">
+                                                                @php
+                                                                $totalReviews =
+                                                                \App\Models\Review::where('mentor_id',
+                                                                $mentor->id)->get()->count();
+                                                                $totalSessions =
+                                                                \App\Models\ScheduledCall::where('mentor_id',
+                                                                $mentor->id)->where('status',
+                                                                'Approved')->where('is_paid',
+                                                                1)->get()->count();
+                                                                echo $totalReviews;
+                                                                if($totalReviews > 1) {
+                                                                echo " Reviews / ".$totalSessions. " Sessions";
+                                                                }
+                                                                else {
+                                                                echo " Review / ".$totalSessions. " Sessions";
+                                                                }
+                                                                @endphp
+                                                            </span>
+                                                        </p>
+                                                        <div class="elementor-star-rating" title="5/5"
+                                                            itemtype="http://schema.org/Rating" itemscope=""
+                                                            itemprop="reviewRating">
+                                                            <i class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i><i
+                                                                class="elementor-star-full">&#xE934;</i> <span
+                                                                itemprop="ratingValue"
+                                                                class="elementor-screen-only">5/5</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531"
+                                                            src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                            alt="" width="221" height="221"
+                                                            srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
+                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                        style="color: #000000">{{ $mentor->name }}</span></h5>
+                                                <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                        {{ $mentor->metaData->company }}</span><br />
+                                                    <span style="font-size:14px;color: #000000">
+                                                        @php
+                                                        $totalReviews = \App\Models\Review::where('mentor_id',
+                                                        $mentor->id)->get()->count();
+                                                        $totalSessions =
+                                                        \App\Models\ScheduledCall::where('mentor_id',
+                                                        $mentor->id)->where('status', 'Approved')->where('is_paid',
+                                                        1)->get()->count();
+                                                        echo $totalReviews;
+                                                        if($totalReviews > 1) {
+                                                        echo " Reviews / ".$totalSessions. " Sessions";
+                                                        }
+                                                        else {
+                                                        echo " Review / ".$totalSessions. " Sessions";
+                                                        }
+                                                        @endphp
+                                                    </span>
+                                                </p>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+                                                </div>
+                                                <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                </p>
+                                                <ul>
+                                                    @php
+                                                    $expertise = \App\Models\Expertise::where('mentor_id',
+                                                    $mentor->id)->take(4)->get();
+                                                    @endphp
+                                                    @foreach($expertise as $expert)
+                                                    <li class="expertise"><span
+                                                            style="color: #000000">{{ $expert->expertise }}</span>
+                                                    </li>
+                                                    @endforeach
+                                                </ul>
+                                                <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                                    data-id="0e640ef" data-element_type="widget"
+                                                    data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <!-- <p>&nbsp </p> -->
+                                                        <p class="bio" style="float:left;"><span style="color: #000000">
+                                                                {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
+                                                        </p>
+                                                        <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                                            data-id="a92b341" data-element_type="widget"
+                                                            data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container" style="">
+                                                                <span class="slot"
+                                                                    style="font-size:14px;color: #000000"><strong>
+                                                                        Next Slot -
+                                                                        @php
+                                                                        $nextAvailability =
+                                                                        \App\Models\AvailableSchedule::where('mentor_id',
+                                                                        $mentor->id)
+                                                                        ->whereDate('date', '>', now())
+                                                                        ->where('is_booked', 0)
+                                                                        ->orderBy('date', 'asc')
+                                                                        ->first();
+                                                                        @endphp
+                                                                        @if(!empty($nextAvailability))
+                                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
+                                                                        @endif
+                                                                    </strong></span>
+                                                                <span class="charge"
+                                                                    style="font-size:14px;float:right;color: #000000"><strong>
+                                                                        $
+                                                                        {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                        / 30
+                                                                        Min</strong></span>
+                                                            </div>
+                                                            <div>
+                                                            </div>
+                                                            <div style="">
+                                                                <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                    class="btn btn-primary"
+                                                                    style="margin-top:5px;background-color:#001E64;">View
+                                                                    Profile</a>
+                                                                <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                    class="btn btn-primary"
+                                                                    style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                    Call</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wpr-switcher-content" data-switcher="2">
+                                            <div
+                                                class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
+                                                <h5><strong><img decoding="async" class="alignleft wp-image-5531"
+                                                            src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                            alt="" width="221" height="221"
+                                                            srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
+                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                        style="color: #000000">Sumedha Mahajan</span></h5>
+                                                <p><span style="color: #000000">Head of marketing,
+                                                        Ampverse</span><br /><span style="color: #000000">10
+                                                        sessions, 5
+                                                        Reviews</span></p>
+                                                <div class="elementor-star-rating" title="5/5"
+                                                    itemtype="http://schema.org/Rating" itemscope=""
+                                                    itemprop="reviewRating">
+                                                    <i class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i><i
+                                                        class="elementor-star-full">&#xE934;</i> <span
+                                                        itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+                                                </div>
+                                                <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                </p>
+                                                <ul>
+                                                    <li class="expertise"><span
+                                                            style="font-size:14px;color: #000000">Marketing
+                                                            Campaign</span></li>
+                                                    <li class="expertise"><span
+                                                            style="font-size:14px;color: #000000">Brand
+                                                            Strategy</span></li>
+                                                    <li class="expertise"><span
+                                                            style="font-size:14px;color: #000000">Marketing
+                                                            Strategy</span></li>
+                                                    <li class="expertise"><span
+                                                            style="font-size:14px;color: #000000">Idea
+                                                            Validation</span></li>
+                                                </ul>
+                                                <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                                    data-id="0e640ef" data-element_type="widget"
+                                                    data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="bio" style="text-align: left"><span
+                                                                style="color: #000000">I enjoy the 0-1, 1-10 journey
+                                                                and
+                                                                have setup processes from scratch. A true believer
+                                                                in
+                                                                leveraging multiple channels, from doing co-branded
+                                                                campaigns with the likes of Coca Cola, to creating a
+                                                                GTM
+                                                                strategy focused only on user experience for Paytm's
+                                                                loyalty program. From driving promoter led BTL
+                                                                campaigns
+                                                                in Rajasthan's by lanes to marketing and launching
+                                                                the
+                                                                Indian cricket team jersey twice.</span></p>
+                                                        <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                                            data-id="a92b341" data-element_type="widget"
+                                                            data-widget_type="heading.default">
+                                                            <div class="elementor-widget-container"
+                                                                style="text-align: center"><span
+                                                                    style="color: #333333"><strong>Next Availability
+                                                                        -
+                                                                        8th February, 2024</strong></span></div>
+                                                            <div> </div>
+                                                            <div style=""><a
+                                                                    href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
+                                                                        style="margin-top:5px;color: #000000"><strong>View
+                                                                            Profile
+                                                                            $50
+                                                                            / 30 Min Schedule
+                                                                            Call</strong></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
 
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    @endforeach
                 </div>
+                @endforeach
             </div>
+    </div>
     </div>
     </div>
     </div>
