@@ -1100,10 +1100,23 @@
     <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
         media="all">
+    <link rel='stylesheet' id='twenty-twenty-one-style-css'
+        href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
+    <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/css/print.css?ver=2.0' media='print' />
     <link rel="stylesheet" id="theplus-front-css-css"
         href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364619" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+    <link rel='stylesheet' id='wpr-text-animations-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
+        media='all' />
+    <link rel='stylesheet' id='wpr-addons-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.87'
+        media='all' />
+    <link rel='stylesheet' id='wpr-animations-css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.87'
+        media='all' />
     <link rel="stylesheet" id="google-fonts-1-css"
         href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1"
         media="all">
@@ -3590,6 +3603,15 @@
         </script>
         <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
             id="theplus-front-js-js" defer></script> -->
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        id="wpr-particles-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
+        id="wpr-jarallax-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
+        id="wpr-parallax-hover-js"></script>
     <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
@@ -3833,6 +3855,12 @@
         id="elementor-pro-frontend-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
         id="pro-elements-handlers-js"></script>
+    <script data-cfasync="false"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
+        id="wpr-addons-js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
+        id="wpr-modal-popups-js-js"></script>
     <!-- <script
             src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
             id="e-sticky-js"></script> -->
