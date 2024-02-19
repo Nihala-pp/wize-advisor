@@ -4910,7 +4910,7 @@ i.fas.fa-bell.fa-2xl {
         font-size:10px;
     }
 
-    .grid-child ul {
+    .expertise {
         font-size:10px;
     }
 
@@ -4919,7 +4919,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-star-rating {
-        font-size:10px;
+        font-size:9px;
     }
 
     .wp-image-5531 {
