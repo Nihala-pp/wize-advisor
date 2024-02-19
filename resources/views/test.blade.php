@@ -2343,7 +2343,7 @@
                                                                     style="color: #000000">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
                                                             </p>
-                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
                                                                 data-id="a92b341" data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
