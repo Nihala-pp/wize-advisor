@@ -680,7 +680,7 @@
         font-size: var(--wp--preset--font-size--medium);
         font-weight: 700;
         line-height: var(--wp--custom--typography--line-height--normal);
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 
     h6 {
@@ -688,7 +688,7 @@
         font-size: var(--wp--preset--font-size--medium);
         font-weight: 400;
         line-height: var(--wp--custom--typography--line-height--normal);
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 
     .wp-element-button,
