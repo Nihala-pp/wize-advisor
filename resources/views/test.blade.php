@@ -2375,11 +2375,11 @@
                                                                 <div class="buttons" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
-                                                                        style="margin-top:5px;background-color:#001E64;">View
+                                                                        style="margin-top:5px;background-color:#001E64;font-size:11px;">View
                                                                         Profile</a>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
-                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;font-size:11px;">Schedule
                                                                         Call</a>
                                                                 </div>
                                                             </div>
