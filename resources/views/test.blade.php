@@ -4908,7 +4908,7 @@ i.fas.fa-bell.fa-2xl {
 
     .wp-image-5531 {
         height: auto;
-        max-width: 20% !important;
+        max-width: 100% !important;
         border: none;
         border-radius: 0;
         box-shadow: none;
