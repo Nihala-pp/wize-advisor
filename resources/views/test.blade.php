@@ -4910,6 +4910,10 @@ i.fas.fa-bell.fa-2xl {
         font-size:11px;
     }
 
+    .grid-child ul {
+        font-size:11px;
+    }
+
     .mobile-display {
         visibility: visible;
     }
