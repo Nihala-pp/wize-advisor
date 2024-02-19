@@ -4705,7 +4705,7 @@ i.fas.fa-bell.fa-2xl {
     ol {
         font-family: var(--list--font-family);
         margin: 0;
-        /* padding-left: calc(2 * var(--global--spacing-horizontal)); */
+        padding-left: 0px !important;
     }
 
     .elementor-widget-text-editor .buttons {
