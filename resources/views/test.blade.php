@@ -4903,15 +4903,15 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .grid-child h5 {
-        font-size:12px;
+        font-size:11px;
     }
 
     .grid-child p {
-        font-size:11px;
+        font-size:10px;
     }
 
     .grid-child ul {
-        font-size:11px;
+        font-size:10px;
     }
 
     .mobile-display {
