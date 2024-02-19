@@ -4911,7 +4911,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .expertise {
-        font-size:10px;
+        font-size:10px !important;
     }
 
     .mobile-display {
