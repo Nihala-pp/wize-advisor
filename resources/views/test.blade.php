@@ -4894,6 +4894,12 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
+    .bio {
+        margin-top: 5px;
+        font-size: 10px;
+        padding-top: 0px;
+    }
+
     .desktop-display {
         display: none;
     }
