@@ -3932,7 +3932,6 @@
                     },
                     success: function(response) {
                         $('.filter_result').html(response);
-                        $('.mentorsList').hide();
                     }
                 });
             });
