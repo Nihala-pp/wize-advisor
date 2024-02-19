@@ -2370,7 +2370,7 @@
                                                                             / 30
                                                                             Min</strong></span>
                                                                 </div>
-                                                                <div>
+                                                            <div>
                                                                 </div>
                                                                 <div class="buttons" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
@@ -4894,8 +4894,8 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
-    .buttons {
-        font-size: 11px; 
+    .elementor-widget-text-editor  .buttons {
+        font-size: 11px !important; 
     }
 
     .bio {
