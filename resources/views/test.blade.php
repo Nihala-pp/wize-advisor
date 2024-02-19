@@ -4914,6 +4914,10 @@ i.fas.fa-bell.fa-2xl {
         visibility: visible;
     }
 
+    .elementor-star-rating {
+        font-size:10px;
+    }
+
     .wp-image-5531 {
         height: auto;
         max-width: 100% !important;
