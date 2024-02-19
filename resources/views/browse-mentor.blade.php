@@ -4164,7 +4164,7 @@ a {
 
 .bio {
     margin-top: -15px;
-    font-size: 14px;
+    font-size: 13.5px;
     padding-top: 5px;
 }
 
