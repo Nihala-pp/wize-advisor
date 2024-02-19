@@ -2137,7 +2137,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                           
                                         </div>
                                     </div>
                                 </div>
@@ -2157,29 +2156,7 @@
                                 <div class="elementor-widget-container">
                                     <div class="wpr-content-toggle">
                                         <div class="wpr-switcher-container" data-active-switcher="1">
-
-
-                                            <!-- <div class="wpr-switcher-inner wpr-switcher-first">
-                                            <div class="wpr-switcher-label">Before</div>
-
-                                        </div> -->
-
-                                            <!-- <div class="wpr-switcher-outer"> -->
-                                            <!-- <div class="wpr-switcher-wrap">
-                                                <div class="wpr-switcher" data-switcher="1"></div>
-
-                                                <div class="wpr-switcher" data-switcher="2"></div>
-
-                                                <div class="wpr-switcher-bg"></div>
-                                            </div> -->
-                                            <!-- </div> -->
-
-                                            <!-- <div class="wpr-switcher-inner wpr-switcher-second">
-                                            <div class="wpr-switcher-label">After</div>
-
-                                        </div> -->
                                         </div>
-
                                         <div class="wpr-switcher-content-wrap">
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
@@ -2304,99 +2281,15 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="wpr-switcher-content" data-switcher="2">
-                                        <div class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                            <h5><strong><img decoding="async" class="alignleft wp-image-5531"
-                                                        src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                        alt="" width="221" height="221"
-                                                        srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                        sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                    style="color: #000000">Sumedha Mahajan</span></h5>
-                                            <p><span style="color: #000000">Head of marketing,
-                                                    Ampverse</span><br /><span style="color: #000000">10
-                                                    sessions, 5
-                                                    Reviews</span></p>
-                                            <div class="elementor-star-rating" title="5/5"
-                                                itemtype="http://schema.org/Rating" itemscope=""
-                                                itemprop="reviewRating">
-                                                <i class="elementor-star-full">&#xE934;</i><i
-                                                    class="elementor-star-full">&#xE934;</i><i
-                                                    class="elementor-star-full">&#xE934;</i><i
-                                                    class="elementor-star-full">&#xE934;</i><i
-                                                    class="elementor-star-full">&#xE934;</i> <span
-                                                    itemprop="ratingValue" class="elementor-screen-only">5/5</span>
-                                            </div>
-                                            <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                            <!-- <p><span style="color: #000000"><strong>Expertise:</strong></span>
-                                            </p>
-                                            <ul> -->
-                                                <!-- <li class="expertise"><span
-                                                        style="font-size:14px;color: #000000">Marketing
-                                                        Campaign</span></li>
-                                                <li class="expertise"><span style="font-size:14px;color: #000000">Brand
-                                                        Strategy</span></li>
-                                                <li class="expertise"><span
-                                                        style="font-size:14px;color: #000000">Marketing
-                                                        Strategy</span></li>
-                                                <li class="expertise"><span style="font-size:14px;color: #000000">Idea
-                                                        Validation</span></li>
-                                            </ul>
-                                            <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                data-id="0e640ef" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p class="bio" style="text-align: left"><span
-                                                            style="color: #000000">I enjoy the 0-1, 1-10 journey
-                                                            and
-                                                            have setup processes from scratch. A true believer
-                                                            in
-                                                            leveraging multiple channels, from doing co-branded
-                                                            campaigns with the likes of Coca Cola, to creating a
-                                                            GTM
-                                                            strategy focused only on user experience for Paytm's
-                                                            loyalty program. From driving promoter led BTL
-                                                            campaigns
-                                                            in Rajasthan's by lanes to marketing and launching
-                                                            the
-                                                            Indian cricket team jersey twice.</span></p>
-                                                    <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                        data-id="a92b341" data-element_type="widget"
-                                                        data-widget_type="heading.default">
-                                                        <div class="elementor-widget-container"
-                                                            style="text-align: center"><span
-                                                                style="color: #333333"><strong>Next Availability
-                                                                    -
-                                                                    8th February, 2024</strong></span></div>
-                                                        <div> </div>
-                                                        <div style=""><a
-                                                                href="https://wiseadvizor.com/mentors/108/Sumedha-mahajan"><span
-                                                                    style="margin-top:5px;color: #000000"><strong>View
-                                                                        Profile
-                                                                        $50
-                                                                        / 30 Min Schedule
-                                                                        Call</strong></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    <!-- </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
             @endforeach
         </div>
     </div>
-    <!-- </div>
-    </div>
-    </div>
-    </div>
-    </div> -->
-    </section>
-    </div>
+  </section>
+</div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class='footer-width-fixer'>
             <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
