@@ -2467,13 +2467,13 @@
                 </div>
             </div>
             @endforeach
+        </div>
+    </div>
+    <!-- </div>
     </div>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
+    </div> -->
     </section>
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
