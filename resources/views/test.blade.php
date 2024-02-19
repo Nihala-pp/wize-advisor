@@ -4567,6 +4567,11 @@ i.fas.fa-chevron-down {
         900 !important;
 }
 
+.mobile-display {
+    display: none;
+}
+
+
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
     div.d-grid.gap-2.col-6.butto {
         padding-left:
@@ -4704,10 +4709,6 @@ margin-left:50px;
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
-
-    .mobile-display {
-        display:none;
-    }
 
     input[type="date"]:not(.has-value):before {
         color:
@@ -4907,13 +4908,13 @@ i.fas.fa-bell.fa-2xl {
 @media screen and (max-width: 767px) {
 
     .desktop-display {
-        display:none;
+        display: none;
     }
 
     .mobile-display {
-        visibility:visible;
+        visibility: visible;
     }
-    
+
     .wp-image-5531 {
         height: auto;
         max-width: 20% !important;
