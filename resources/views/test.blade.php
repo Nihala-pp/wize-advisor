@@ -1998,7 +1998,7 @@
             }
             </style>
             <div class="elementor-container elementor-column-gap-no">
-                <div class="row">
+                <div class="row desktop-display">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
@@ -2242,7 +2242,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="row" style="display:none;">
+                <div class="row mobile-display" style="display:none;">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
@@ -4704,6 +4704,10 @@ margin-left:50px;
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
+
+    .mobile-display {
+        display:none;
+    }
 
     input[type="date"]:not(.has-value):before {
         color:
