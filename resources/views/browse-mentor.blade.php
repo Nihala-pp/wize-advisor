@@ -2371,7 +2371,7 @@
             }
             </style>
             <div class="elementor-container elementor-column-gap-no">
-                <div class="row elementor-hidden-mobile">
+                <div class="row elementor-hidden-mobile filter_result">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
@@ -2519,7 +2519,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="row elementor-hidden-desktop">
+                <div class="row elementor-hidden-desktop filter_result">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
@@ -3931,7 +3931,7 @@
                         "_token": "{{ csrf_token() }}",
                     },
                     success: function(response) {
-                        $('.mentors').html(response);
+                        $('.filter_result').html(response);
                         $('.mentorsList').hide();
                     }
                 });
