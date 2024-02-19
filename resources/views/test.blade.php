@@ -2348,7 +2348,7 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
                                                                     <span class="slot"
-                                                                        style="font-size:14px;color: #000000"><strong>
+                                                                        style="font-size:11px;color: #000000"><strong>
                                                                             Next Slot -
                                                                             @php
                                                                             $nextAvailability =
@@ -2364,7 +2364,7 @@
                                                                             @endif
                                                                         </strong></span>
                                                                     <span class="charge"
-                                                                        style="font-size:14px;float:right;color: #000000"><strong>
+                                                                        style="font-size:11px;float:right;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
