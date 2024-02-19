@@ -2181,7 +2181,7 @@
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}" {{ $filters['expertise'] == $expert->name ? selected : '' }}>
+                                    <option value="{{ $expert->name }}" {{ $filters['expertise'] == $expert->name ? 'selected' : '' }}>
                                         {{ $expert->name }}
                                     </option>
                                     @endforeach
@@ -2195,7 +2195,7 @@
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
-                                    <option value="{{ $pr->name }}" {{ $filters['name'] == $pr->name ? selected : '' }}>{{ $pr->name }}</option>
+                                    <option value="{{ $pr->name }}" {{ $filters['name'] == $pr->name ? 'selected' : '' }}>{{ $pr->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
