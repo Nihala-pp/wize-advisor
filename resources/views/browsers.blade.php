@@ -4188,17 +4188,11 @@ span.slot {
 }
 
 i.fas.fa-chevron-down {
-    margin-top:
-        -15px !important;
-    padding-left:
-        10px !important;
-    font-size:
-        9px !important;
-    font-family:
-        "FontAwesome 5 Free"
-         !important;
-    font-weight:
-        900 !important;
+    margin-top: -30px;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
 }
 
 .mobile-display {
