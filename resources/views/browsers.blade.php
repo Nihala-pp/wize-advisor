@@ -4194,7 +4194,6 @@ i.fas.fa-chevron-down {
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
 }
-
 .mobile-display {
     visibility: hidden;
 }
