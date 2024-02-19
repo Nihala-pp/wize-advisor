@@ -2009,12 +2009,10 @@
                                 <div class="elementor-widget-container">
                                     <div class="wpr-content-toggle">
                                         <div class="wpr-switcher-container" data-active-switcher="1">
-
-
                                             <!-- <div class="wpr-switcher-inner wpr-switcher-first">
-                                            <div class="wpr-switcher-label">Before</div>
+                                              <div class="wpr-switcher-label">Before</div>
 
-                                        </div> -->
+                                             </div> -->
 
                                             <!-- <div class="wpr-switcher-outer"> -->
                                             <!-- <div class="wpr-switcher-wrap">
@@ -2029,9 +2027,8 @@
                                             <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                             <div class="wpr-switcher-label">After</div>
 
-                                        </div> -->
+                                            </div> -->
                                         </div>
-
                                         <div class="wpr-switcher-content-wrap">
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
@@ -2140,9 +2137,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="wpr-switcher-content" data-switcher="2">
-                                                <div
-                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
+                                            <!-- <div class="wpr-switcher-content" data-switcher="2">
+                                                <div class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                     <h5><strong><img decoding="async" class="alignleft wp-image-5531"
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="" width="221" height="221"
@@ -2164,8 +2160,8 @@
                                                             itemprop="ratingValue"
                                                             class="elementor-screen-only">5/5</span>
                                                     </div>
-                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                     <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                    <!-- <p><span style="color: #000000"><strong>Expertise:</strong></span>
                                                     </p>
                                                     <ul>
                                                         <li class="expertise"><span
@@ -2220,7 +2216,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -2387,7 +2383,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="wpr-switcher-content" data-switcher="2">
+                                    <!-- <div class="wpr-switcher-content" data-switcher="2">
                                         <div class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                             <h5><strong><img decoding="async" class="alignleft wp-image-5531"
                                                         src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
@@ -2409,11 +2405,11 @@
                                                     class="elementor-star-full">&#xE934;</i> <span
                                                     itemprop="ratingValue" class="elementor-screen-only">5/5</span>
                                             </div>
-                                            <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                            <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                            <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                            <!-- <p><span style="color: #000000"><strong>Expertise:</strong></span>
                                             </p>
-                                            <ul>
-                                                <li class="expertise"><span
+                                            <ul> -->
+                                                <!-- <li class="expertise"><span
                                                         style="font-size:14px;color: #000000">Marketing
                                                         Campaign</span></li>
                                                 <li class="expertise"><span style="font-size:14px;color: #000000">Brand
@@ -2462,11 +2458,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-
+                                        </div> -->
+                                    <!-- </div> -->
                                 </div>
-
                             </div>
                         </div>
                     </div>
