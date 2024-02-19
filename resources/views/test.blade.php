@@ -2242,7 +2242,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="row mobile-display" style="display:none;">
+                <div class="row mobile-display">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
@@ -4905,6 +4905,11 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
+
+    .desktop-display {
+        display:none;
+    }
+    
     .wp-image-5531 {
         height: auto;
         max-width: 20% !important;
