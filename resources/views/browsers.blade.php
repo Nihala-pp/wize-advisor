@@ -2181,7 +2181,7 @@
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}" {{ $filters[expertise] == $expert->name ? selected : '' }}>
+                                    <option value="{{ $expert->name }}" {{ $filters['expertise'] == $expert->name ? selected : '' }}>
                                         {{ $expert->name }}
                                     </option>
                                     @endforeach
@@ -2189,21 +2189,21 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
                                 <input type="text" placeholder="FILTER BY DATE" onfocus="(this.type='date')"
-                                    class="form-control selectpicker" id="date" name="filters[date]" value="{{ filters[date] ?? '' }}">
+                                    class="form-control selectpicker" id="date" name="filters[date]" value="{{ $filters['date'] ?? '' }}">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
-                                    <option value="{{ $pr->name }}" {{ $filters[name] == $pr->name ? selected : '' }}>{{ $pr->name }}</option>
+                                    <option value="{{ $pr->name }}" {{ $filters['name'] == $pr->name ? selected : '' }}>{{ $pr->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
-                                    <option value="asc" {{ $filters[sort_by] == "asc" ? selected : '' }}>ASC</option>
-                                    <option value="desc" {{ $filters[sort_by] == "desc" ? selected : '' }}>DESC </option>
+                                    <option value="asc" {{ $filters['sort_by'] == "asc" ? selected : '' }}>ASC</option>
+                                    <option value="desc" {{ $filters['sort_by'] == "desc" ? selected : '' }}>DESC </option>
                                 </select>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
