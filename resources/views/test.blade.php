@@ -4903,7 +4903,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .grid-child h5 {
-        font-size:15px;
+        font-size:12px;
     }
 
     .mobile-display {
