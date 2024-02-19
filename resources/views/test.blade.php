@@ -2372,7 +2372,7 @@
                                                                 </div>
                                                                 <div>
                                                                 </div>
-                                                                <div style="">
+                                                                <div class="buttons" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;background-color:#001E64;">View
@@ -4893,6 +4893,10 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
+
+    .buttons {
+        font-size: 11px; 
+    }
 
     .bio {
         margin-top: 5px;
