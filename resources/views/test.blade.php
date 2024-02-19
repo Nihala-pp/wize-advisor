@@ -4568,7 +4568,7 @@ i.fas.fa-chevron-down {
 }
 
 .mobile-display {
-    display: none;
+    visibility: hidden;
 }
 
 
