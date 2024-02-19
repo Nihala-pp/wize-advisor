@@ -4906,6 +4906,10 @@ i.fas.fa-bell.fa-2xl {
         font-size:12px;
     }
 
+    .grid-child p {
+        font-size:11px;
+    }
+
     .mobile-display {
         visibility: visible;
     }
