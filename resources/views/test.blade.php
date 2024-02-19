@@ -2143,7 +2143,7 @@
                             </div>
                         </div>
                     </div>
-                  @endforeach
+                    @endforeach
                 </div>
                 <div class="row elementor-hidden-desktop">
                     @foreach($mentors as $mentor)
@@ -2262,7 +2262,7 @@
                                                                             / 30
                                                                             Min</strong></span>
                                                                 </div>
-                                                            <div>
+                                                                <div>
                                                                 </div>
                                                                 <div class="buttons" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
@@ -2285,11 +2285,11 @@
                             </div>
                         </div>
                     </div>
-            @endforeach
-        </div>
+                    @endforeach
+                </div>
+            </div>
+        </section>
     </div>
-  </section>
-</div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class='footer-width-fixer'>
             <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
@@ -4700,8 +4700,16 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
-    .elementor-widget-text-editor  .buttons {
-        font-size: 11px !important; 
+
+    ul,
+    ol {
+        font-family: var(--list--font-family);
+        margin: 0;
+        /* padding-left: calc(2 * var(--global--spacing-horizontal)); */
+    }
+
+    .elementor-widget-text-editor .buttons {
+        font-size: 11px !important;
     }
 
     .bio {
