@@ -4909,6 +4909,10 @@ i.fas.fa-bell.fa-2xl {
     .desktop-display {
         display:none;
     }
+
+    .mobile-display {
+        visibility:visible;
+    }
     
     .wp-image-5531 {
         height: auto;
