@@ -2412,7 +2412,7 @@
                                                                 srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                                 sizes="(max-width: 221px) 100vw, 221px" /></strong><span
                                                             style="color: #000000">{{ $mentor->name }}</span></h5>
-                                                    <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                    <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
                                                             {{ $mentor->metaData->company }}</span><br />
                                                         <span style="font-size:14px;color: #000000">
                                                             @php
@@ -4128,7 +4128,7 @@
 
 .bio {
     margin-top: -15px;
-    font-size: 14px;
+    font-size: 13.5px;
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -4165,7 +4165,7 @@ a {
 
 .bio {
     margin-top: -15px;
-    font-size: 14px;
+    font-size: 13.5px;
     padding-top: 5px;
 }
 
