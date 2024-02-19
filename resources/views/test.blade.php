@@ -2286,7 +2286,7 @@
                                                             </h5>
                                                             <p><span style="color: #000000">{{ $mentor->metaData->designation }},
                                                                     {{ $mentor->metaData->company }}</span><br />
-                                                                <span style="font-size:12px;color: #000000">
+                                                                <span style="font-size:10px;color: #000000">
                                                                     @php
                                                                     $totalReviews =
                                                                     \App\Models\Review::where('mentor_id',
