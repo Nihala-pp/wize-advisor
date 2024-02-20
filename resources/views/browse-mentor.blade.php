@@ -2640,11 +2640,11 @@
                                                                 </div>
                                                                 <div class="buttons" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
+                                                                        class="btn btn-primary view_profile"
                                                                         style="margin-top:5px;background-color:#001E64;font-size:11px;">View
                                                                         Profile</a>
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
+                                                                        class="btn btn-primary schedule_call"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;font-size:11px;">Schedule
                                                                         Call</a>
                                                                 </div>
@@ -4911,8 +4911,12 @@ i.fas.fa-bell.fa-2xl {
         font-size: 9px;
     }
 
-    .elementor-widget-text-editor .buttons {
-        font-size: 9px !important;
+    .view_profile {
+        font-size: 7px !important;
+    }
+
+    .schedule_call {
+        font-size: 7px !important;
     }
 }
 
