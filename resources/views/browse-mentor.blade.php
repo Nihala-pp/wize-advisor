@@ -2585,7 +2585,7 @@
                                                             <p class="exp-heading"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
-                                                            <ul>
+                                                            <ul class="list-expert">
                                                                 @php
                                                                 $expertise =
                                                                 \App\Models\Expertise::where('mentor_id',
@@ -4890,6 +4890,10 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .grid-child .exp-heading {
+        margin-top: -10px;
+    }
+
+    .list-expert {
         margin-top: -10px;
     }
 }
