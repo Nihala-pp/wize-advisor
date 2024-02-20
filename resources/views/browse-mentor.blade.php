@@ -4879,7 +4879,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .expertise {
-        font-size: 8px;
+        font-size: 5px;
     }
 
     .elementor-star-rating {
