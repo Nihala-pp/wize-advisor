@@ -4900,6 +4900,16 @@ i.fas.fa-bell.fa-2xl {
     .list-expert {
         margin-top: -10px;
     }
+
+    .bio {
+        margin-top: 5px;
+        font-size: 7px;
+        padding-top: 10px;
+    }
+
+    .grid-child h5 {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 360px) {}
