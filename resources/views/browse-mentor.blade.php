@@ -4532,8 +4532,17 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
+
+    h2 {
+        text-align:center !important;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-2ad683c>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
     body {
-        color:#fff;
+        color: #fff;
         max-width: 100%;
         overflow-x: hidden;
     }
