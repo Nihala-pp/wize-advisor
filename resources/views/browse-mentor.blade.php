@@ -4879,11 +4879,11 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .expertise {
-        font-size: 5px;
+        font-size: 5px !important;
     }
 
     .elementor-star-rating {
-        font-size: 11px;
+        font-size: 7px;
         /* margin-top: -60px !important; */
         /* padding-top: 0px; */
     }
