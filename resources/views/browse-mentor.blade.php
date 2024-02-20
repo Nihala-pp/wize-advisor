@@ -4912,7 +4912,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .butttons a {
-        font-size:7px;
+        font-size:7px !important;
     }
 }
 
