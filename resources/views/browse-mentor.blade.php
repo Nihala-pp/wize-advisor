@@ -4331,6 +4331,10 @@ margin-left:50px;
         padding-left:
             25px;
     }
+
+    .filters {
+        padding-left: 75px;
+    }
 }
 
 @media screen and (max-width: 1280px),
