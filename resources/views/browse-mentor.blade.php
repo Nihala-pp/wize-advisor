@@ -4538,7 +4538,7 @@ i.fas.fa-bell.fa-2xl {
 @media screen and (max-width: 767px) {
 
     .search {
-        width: 75% !important;
+        width: 55% !important;
         text-align: left;
         /* background-color: #000; */
         /* margin-left: 125px
