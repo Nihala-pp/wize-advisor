@@ -4532,7 +4532,10 @@ i.fas.fa-bell.fa-2xl {
 
 
 @media screen and (max-width: 767px) {
-
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     ul,
     ol {
