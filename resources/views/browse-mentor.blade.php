@@ -4885,13 +4885,16 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-star-rating {
+        margin-top: -20px !important;
         font-size: 7px;
+        padding-bottom: 5px;
         /* margin-top: -60px !important; */
-        /* padding-top: 0px; */
+        padding-top: 5px;
     }
 
     .grid-child .exp-heading {
         margin-top: -10px;
+        padding-bottom: 5px;
     }
 
     .list-expert {
