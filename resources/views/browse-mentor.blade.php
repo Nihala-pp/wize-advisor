@@ -4875,11 +4875,17 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .grid-child p span {
-        font-size:8px !important;
+        font-size: 8px !important;
     }
 
     .expertise {
-        font-size:8px;
+        font-size: 8px;
+    }
+
+    .elementor-star-rating {
+        font-size: 11px;
+        /* margin-top: -60px !important; */
+        /* padding-top: 0px; */
     }
 }
 
