@@ -4538,10 +4538,11 @@ i.fas.fa-bell.fa-2xl {
 @media screen and (max-width: 767px) {
 
     .search {
-        width: 76% !important;
+        width: 75% !important;
         text-align: left;
         /* background-color: #000; */
-        /* margin-left: 125px !important; */
+        /* margin-left: 125px
+ !important; */
     }
 
     h2 {
@@ -4611,19 +4612,14 @@ i.fas.fa-bell.fa-2xl {
         padding: 75px 5px 75px 5px;
     }
 
-    .search {
+    /* .search {
         width:
             55% !important;
         text-align:
             left;
         background-color:
             #000;
-        /*
-margin-left:
-125px
- !important;
-*/
-    }
+    } */
 
     .elementor-star-rating__wrapper {
         padding-left:
@@ -4662,11 +4658,6 @@ margin-left:
             5px !important;
         padding-top:
             16px !important;
-        /*
-padding-bottom:
-16px
- !important;
-*/
         color:
             #fff !important;
         font-size:
@@ -4690,16 +4681,6 @@ padding-bottom:
     input[type="date"]:valid {
         padding-right:
             16px !important;
-        /*
-padding-left:
-16px
- !important;
-*/
-        /*
-padding-top:
-25px
- !important;
-*/
         color:
             #ffff !important;
     }
@@ -4710,20 +4691,10 @@ padding-top:
             16px !important;
         padding-left:
             16px !important;
-        /*
-padding-top:
-25px
- !important;
-*/
         content:
             ""
              !important;
     }
-
-    /* .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-        padding:
-            75px 45px 75px 12px;
-    } */
 
     .elementor-3007 .elementor-element.elementor-element-b97627d {
         width:
@@ -4783,23 +4754,6 @@ padding-top:
             1;
         background-color:
             #001E64;
-        /*
-font-size:
-15px;
-*/
-        /*
-padding:
-12px
-24px;
-*/
-        /*
-border-radius:
-3px;
-*/
-        /*
-color:
-#fff;
-*/
         fill:
             #fff;
         text-align:
@@ -4847,10 +4801,6 @@ color:
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
         width:
             200%;
-        /*
-max-width:
-120%;
-*/
         height:
             80px;
         object-fit:
@@ -4867,10 +4817,6 @@ max-width:
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
         width:
             92%;
-        /*
-max-width:
-120%;
-*/
         height:
             80px;
         object-fit:
