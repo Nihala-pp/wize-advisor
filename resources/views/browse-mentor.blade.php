@@ -4922,6 +4922,14 @@ max-width:
     .name {
         margin-top: 5px;
     }
+
+    .search {
+        width: 77% !important;
+        text-align: left;
+        /* background-color: #000; */
+        /* margin-left: 125px
+         !important; */
+    }
 }
 
 @media (min-width: 540px) {}
