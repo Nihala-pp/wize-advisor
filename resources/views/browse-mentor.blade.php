@@ -2582,7 +2582,7 @@
                                                                     class="elementor-screen-only">5/5</span>
                                                             </div>
                                                             <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                            <p><span
+                                                            <p class="exp-heading"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
                                                             <ul>
@@ -4880,12 +4880,17 @@ i.fas.fa-bell.fa-2xl {
 
     .expertise {
         font-size: 5px !important;
+        margin-bottom: -16px;
     }
 
     .elementor-star-rating {
         font-size: 7px;
         /* margin-top: -60px !important; */
         /* padding-top: 0px; */
+    }
+
+    .grid-child .exp-heading {
+        margin-top: -10px;
     }
 }
 
