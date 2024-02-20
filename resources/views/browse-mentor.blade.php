@@ -4534,7 +4534,7 @@ i.fas.fa-bell.fa-2xl {
 @media screen and (max-width: 767px) {
 
     h2 {
-        text-align:center !important;
+        text-align: center !important;
     }
 
     .elementor-2772 .elementor-element.elementor-element-2ad683c>.elementor-widget-container {
@@ -4917,6 +4917,10 @@ max-width:
     .card {
         width:
             18.5rem !important;
+    }
+
+    .name {
+        margin-top: 5px;
     }
 }
 
