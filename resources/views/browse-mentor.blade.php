@@ -8,7 +8,7 @@
         content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips.">
     <meta name="keywords"
         content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
@@ -1250,7 +1250,6 @@
 
     }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
 <body
@@ -4193,6 +4192,7 @@ i.fas.fa-chevron-down {
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
 }
+
 .mobile-display {
     visibility: hidden;
 }
