@@ -4878,7 +4878,7 @@ i.fas.fa-bell.fa-2xl {
     .grid-child p span {
         font-size: 7px !important;
     }
-    
+
     .expertise {
         font-size: 5px !important;
         margin-bottom: -16px;
@@ -4909,6 +4909,10 @@ i.fas.fa-bell.fa-2xl {
 
     .grid-child h5 {
         font-size: 9px;
+    }
+
+    .butttons a {
+        font-size:7px;
     }
 }
 
