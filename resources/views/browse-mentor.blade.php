@@ -4871,6 +4871,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .grid-child p {
+        margin-bottom: -10px;
         font-size: 8px;
     }
 
