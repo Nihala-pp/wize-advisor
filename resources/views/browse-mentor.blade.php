@@ -4911,8 +4911,8 @@ i.fas.fa-bell.fa-2xl {
         font-size: 9px;
     }
 
-    .butttons a {
-        font-size:7px !important;
+    .elementor-widget-text-editor .buttons {
+        font-size: 9px !important;
     }
 }
 
