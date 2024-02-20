@@ -4855,11 +4855,31 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
+    .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+        /* color: #343F5A; */
+        font-family: "Roboto", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        /* text-align: center; */
+    }
+
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding:
             0px 0px 0px 20px;
         margin-top:
             45px;
+    }
+
+    .grid-child p {
+        font-size: 8px;
+    }
+
+    .grid-child p span {
+        font-size:8px;
+    }
+
+    .expertise {
+        font-size:8px;
     }
 }
 
