@@ -44,8 +44,7 @@ class UserController extends Controller
         /** @var Builder $query */
         if ($expertise)
           $query->where('expertise', 'LIKE', '%' . $expertise . '%');
-      })
-      ->get();
+      })->get();
     
     User::where('role_id', 2)
       ->whereHas('metaData', function ($q) use ($expertise) {
