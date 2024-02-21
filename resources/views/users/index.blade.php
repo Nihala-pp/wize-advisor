@@ -782,7 +782,7 @@
                                                             echo $exp;
                                                         }
                                                         }
-                                                        ,
+                                                        ","
                                                         @endphp
                                                     </div>
                                                 </td>
