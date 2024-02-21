@@ -779,7 +779,7 @@
                                                         json_decode($suggested_mentor->metaData->expertise);
                                                         foreach($expertise as $key => $expert) {
                                                         foreach($expert as $exp) {
-                                                            echo "$exp<br />\n";
+                                                        echo "$exp<br />\n";
                                                         }
                                                         }
                                                         @endphp
@@ -879,6 +879,11 @@
     </script>
 </body>
 <style>
+.avat2023-07-05 {
+        margin-top: .5rem !important;
+        margin-left: -15px;
+}
+
 i.fas.fa-chevron-down {
     font-size: 9px !important;
     font-family: "Font Awesome 5 Free" !important;
