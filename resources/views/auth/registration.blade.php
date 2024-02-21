@@ -1140,7 +1140,7 @@ html body .animated {
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Name</label>
                                             <input id="name" type="text"
-                                                class="form-control-sm @error('name') is-invalid @enderror" name="name"
+                                                class="form-control @error('name') is-invalid @enderror" name="name"
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @error('name')
@@ -1152,7 +1152,7 @@ html body .animated {
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Email</label>
                                             <input id="email" type="email"
-                                                class="form-control-sm @error('email') is-invalid @enderror" name="email"
+                                                class="form-control @error('email') is-invalid @enderror" name="email"
                                                 value="{{ old('email') }}" required autocomplete="email">
 
                                             @error('email')
@@ -1164,7 +1164,7 @@ html body .animated {
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Password</label>
                                             <input id="password" type="password"
-                                                class="form-control-sm @error('password') is-invalid @enderror"
+                                                class="form-control @error('password') is-invalid @enderror"
                                                 name="password" required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
@@ -1175,25 +1175,25 @@ html body .animated {
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
                                             <input id="password" type="password"
-                                                class="form-control-sm @error('password') is-invalid @enderror"
+                                                class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Company Name</label>
-                                            <input type="text" class="form-control-sm" name="company_name">
+                                            <input type="text" class="form-control" name="company_name">
                                         </div>
                                         <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Designation</label>
-                                        <input type="text" class="form-control-sm" name="designation">
+                                        <input type="text" class="form-control" name="designation">
                                     </div>  -->
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">LinkedIn Url</label>
-                                            <input type="url" class="form-control-sm" name="linked_in">
+                                            <input type="url" class="form-control" name="linked_in">
                                         </div>
                                         <div class="mb-1">
                                             <label class="form-label time">Timezone</label>
                                             <select name="timezone"
-                                                class="timezone select2 form-control-sm @error('timezone') is-invalid @enderror"
+                                                class="timezone select2 form-control @error('timezone') is-invalid @enderror"
                                                 required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
@@ -1208,7 +1208,7 @@ html body .animated {
                                         </div>
                                         <div class="mb-0">
                                             <label class="form-label">Expertise you are looking for?</label></br>
-                                            <select class="select form-control-sm @error('expert') is-invalid @enderror"
+                                            <select class="select form-control @error('expert') is-invalid @enderror"
                                                 multiple data-mdb-clear-button="true" name="expert[]" required>
                                                 @foreach($expertise as $key => $expert)
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
