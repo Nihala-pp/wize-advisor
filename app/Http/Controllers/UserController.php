@@ -35,7 +35,7 @@ class UserController extends Controller
     $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
-    $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
+    $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
     $notifications = auth()->user()->unreadNotifications;
     $suggested_mentors = User::with(['expertise', 'availability'])
       ->where('role_id', 2)
@@ -43,7 +43,7 @@ class UserController extends Controller
       ->whereHas('expertise', function ($query) use ($expertise) {
         /** @var Builder $query */
         if ($expertise)
-          $query->whereIn('expertise', 'LIKE', '%' . $expertise . '%');
+          $query->where('expertise', 'LIKE', '%' . $expertise . '%');
       })->get();
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
