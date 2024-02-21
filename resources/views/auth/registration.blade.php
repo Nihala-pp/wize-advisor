@@ -2364,7 +2364,7 @@ html body .animated {
     }
 
     .from-gradtwo-from {
-        width: 150% !important;
+        width: 130% !important;
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
     }
