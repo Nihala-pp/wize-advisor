@@ -4286,6 +4286,10 @@ i.fas.fa-bell.fa-2xl {
         margin-top: 60px;
     }
 
+    .elementor-5225 .elementor-element.elementor-element-4937a55>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
     i.fas.fa-bell.fa-2xl {
         font-size: 27px !important;
         color: #000;
