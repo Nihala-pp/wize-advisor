@@ -774,8 +774,13 @@
                                                 </td>
                                                 <td>
                                                     <div class="avat2023-07-05 13ar-group mt-2">
-
-                                                        {{ json_decode($suggested_mentor->metaData->expertise) }}
+                                                        @php
+                                                        $expertise =
+                                                        json_decode($suggested_mentor->metaData->expertise);
+                                                        foreach($expertise as $expert)
+                                                        echo $expert;
+                                                        @endphp
+                                                        <!-- {{ json_decode($suggested_mentor->metaData->expertise) }} -->
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
@@ -871,11 +876,11 @@
     </script>
 </body>
 <style>
-  i.fas.fa-chevron-down {
+i.fas.fa-chevron-down {
     font-size: 9px !important;
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
-  }
+}
 
 .animated {
     -webkit-transition: height 0.2s;
