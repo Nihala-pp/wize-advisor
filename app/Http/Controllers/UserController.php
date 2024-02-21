@@ -35,18 +35,12 @@ class UserController extends Controller
     $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
-    $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
+    $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
     // dd($expertise);
     $notifications = auth()->user()->unreadNotifications;
+      
     foreach($expertise as $expert) {
-      $suggested_mentors = User::with(['expertise', 'availability'])
-      ->where('role_id', 2)
-      ->WhereNull('status')
-      ->whereHas('expertise', function ($query) use ($expert) {
-        /** @var Builder $query */
-        if ($expert)
-          $query->whereJsonContains('expertise', 'LIKE', '%' . $expert . '%');
-      })->get();
+      $suggested_mentors[] = Expertise::where('expertise', 'LIKE', '%' . $expert . '%')->pluck()->to_array();
     }
     
       dd($suggested_mentors);
