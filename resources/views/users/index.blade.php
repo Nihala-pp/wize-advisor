@@ -779,10 +779,10 @@
                                                         json_decode($suggested_mentor->metaData->expertise);
                                                         foreach($expertise as $key => $expert) {
                                                         foreach($expert as $exp) {
-                                                            echo '    '.$exp;
+                                                            echo $exp;
                                                         }
                                                         }
-                                                        ","
+                                                        ECHO ",";
                                                         @endphp
                                                     </div>
                                                 </td>
