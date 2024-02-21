@@ -4233,6 +4233,7 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 400;
         /* padding-left: 50px; */
         padding-right: 70px;
+        line-height: 18px;
     }
 
     .elementor-5225 .elementor-element.elementor-element-37f75126>.elementor-element-populated {
