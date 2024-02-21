@@ -4207,6 +4207,11 @@ i.fas.fa-bell.fa-2xl {
         text-align: justify;
     }
 
+    .elementor-5225 .elementor-element.elementor-element-424ada2 {
+        margin-top: -80px;
+        margin-bottom: 0px;
+    }
+
     .elementor-5225 .elementor-element.elementor-element-37f75126>.elementor-element-populated {
         padding: 20px 0px 0px 35px;
         margin-top: -60px;
