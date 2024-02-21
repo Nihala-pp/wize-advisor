@@ -38,15 +38,17 @@ class UserController extends Controller
     $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
     // dd($expertise);
     $notifications = auth()->user()->unreadNotifications;
-    $suggested_mentors = User::with(['expertise', 'availability'])
+    foreach($expertise as $expert) {
+      $suggested_mentors = User::with(['expertise', 'availability'])
       ->where('role_id', 2)
       ->WhereNull('status')
-      ->whereHas('expertise', function ($query) use ($expertise) {
+      ->whereHas('expertise', function ($query) use ($expert) {
         /** @var Builder $query */
-        if ($expertise)
-          $query->whereJsonContains('expertise', 'LIKE', '%' . $expertise . '%');
+        if ($expert)
+          $query->whereJsonContains('expertise', 'LIKE', '%' . $expert . '%');
       })->get();
-
+    }
+    
       dd($suggested_mentors);
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
