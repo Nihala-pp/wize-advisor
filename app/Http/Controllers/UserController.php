@@ -44,7 +44,7 @@ class UserController extends Controller
       ->whereHas('expertise', function ($query) use ($expertise) {
         /** @var Builder $query */
         if ($expertise)
-          $query->whereIn('expertise', 'LIKE', '%' . $expertise . '%');
+          $query->whereJsonContains('expertise', 'LIKE', '%' . $expertise . '%');
       })->get();
 
       dd($suggested_mentors);
