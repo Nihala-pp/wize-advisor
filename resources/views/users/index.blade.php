@@ -776,7 +776,7 @@
                                                     <div class="avat2023-07-05 13ar-group mt-2">
                                                         @php
                                                         $expertise =
-                                                        json_decode($suggested_mentor->metaData->expertise);
+                                                        $suggested_mentor->metaData->expertise;
                                                         foreach($expertise as $expert)
                                                         echo $expert;
                                                         @endphp
