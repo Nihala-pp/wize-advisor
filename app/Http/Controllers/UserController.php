@@ -40,7 +40,15 @@ class UserController extends Controller
     $notifications = auth()->user()->unreadNotifications;
       
     foreach($expertise as $expert) {
-      $suggested_mentors = Expertise::where('expertise', 'LIKE', '%' . $expert . '%')->get();
+      $suggested_mentors = User::with(['expertise', 'availability'])
+      ->where('role_id', 2)
+      ->WhereNull('status')
+      ->whereHas('expertise', function ($query) use ($expert) {
+        /** @var Builder $query */
+        if ($expert)
+          $query->where('expertise', 'LIKE', '%' . $expert . '%');
+      })
+      ->get();
     }
         
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
