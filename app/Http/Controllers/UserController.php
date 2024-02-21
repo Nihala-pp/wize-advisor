@@ -14,6 +14,7 @@ use App\Models\AvailableSchedule;
 use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\Review;
+use App\Models\Expertise;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
 use App\Mail\ScheduleCallRequest;
@@ -34,10 +35,19 @@ class UserController extends Controller
     $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
-    $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
+    $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
     $notifications = auth()->user()->unreadNotifications;
-
-    $suggested_mentors = User::where('role_id', 2)
+    $suggested_mentors[] = User::with(['expertise', 'availability'])
+      ->where('role_id', 2)
+      ->WhereNull('status')
+      ->whereHas('expertise', function ($query) use ($expertise) {
+        /** @var Builder $query */
+        if ($expertise)
+          $query->where('expertise', 'LIKE', '%' . $expertise . '%');
+      })
+      ->get();
+    
+    User::where('role_id', 2)
       ->whereHas('metaData', function ($q) use ($expertise) {
         $q->where('expertise', 'LIKE', '%' . $expertise . '%');
       })->get();
@@ -77,11 +87,11 @@ class UserController extends Controller
     $admin->notify(new ReviewAdmin($mentor));
 
     ?>
-    <script type="text/javascript">
-      alert("Review has been submitted");
-      window.location.href = "https://wiseadvizor.com/user/dashboard";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Review has been submitted");
+window.location.href = "https://wiseadvizor.com/user/dashboard";
+</script>
+<?php
   }
 
   public function updateSchedule($id)
