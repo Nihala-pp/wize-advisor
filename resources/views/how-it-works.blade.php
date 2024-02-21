@@ -4198,6 +4198,16 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-5225 .elementor-element.elementor-element-4937a55 .elementor-heading-title {
+        text-align: center;
+        color: #000000;
+        font-family: "Roboto", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-right: 75px;
+        /* padding-left: 30px; */
+    }
+
     .elementor-5225 .elementor-element.elementor-element-6bccf34c .wpr-feature-list-description {
         color: #777777;
         font-family: "Red Hat Display", Sans-serif;
@@ -4207,9 +4217,22 @@ i.fas.fa-bell.fa-2xl {
         text-align: justify;
     }
 
+    .elementor-5225 .elementor-element.elementor-element-904c4b6>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
     .elementor-5225 .elementor-element.elementor-element-424ada2 {
         margin-top: -80px;
         margin-bottom: 0px;
+    }
+
+    .elementor-5225 .elementor-element.elementor-element-904c4b6 .elementor-heading-title {
+        color: #1B1B1B;
+        font-family: "Roboto", Sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        /* padding-left: 50px; */
+        padding-right: 70px;
     }
 
     .elementor-5225 .elementor-element.elementor-element-37f75126>.elementor-element-populated {
