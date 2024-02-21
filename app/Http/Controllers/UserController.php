@@ -36,6 +36,7 @@ class UserController extends Controller
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
     $expertise = auth()->user()->metaData ? auth()->user()->metaData->expertise : '';
+    dd($expertise);
     $notifications = auth()->user()->unreadNotifications;
     $suggested_mentors = User::with(['expertise', 'availability'])
       ->where('role_id', 2)
