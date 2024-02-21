@@ -763,23 +763,23 @@
                                                 <td>
                                                     <div class="d-flex px-2 py-1">
                                                         <div>
-                                                            <img src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData ? $suggested_mentor->metaData->profile_pic : '' }}"
+                                                            <img src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->user->metaData ? $suggested_mentor->user->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
-                                                                {{ $suggested_mentor->name }}</h6>
+                                                                {{ $suggested_mentor->user->name }}</h6>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div class="avat2023-07-05 13ar-group mt-2">
-                                                        {{ $suggested_mentor->metaData->designation }}
+                                                        {{ $suggested_mentor->user->metaData->designation }}
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="{{ route('profile', [$suggested_mentor->id]) }}"
+                                                        <a href="{{ route('profile', [$suggested_mentor->user->id, ucfirst(Str::slug($suggested_mentor->user->name))]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Join Session">
                                                             View Profile
@@ -788,7 +788,7 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
-                                                        <a href="{{ route('schedule-call', [$suggested_mentor->id]) }}"
+                                                        <a href="{{ route('schedule-call', [$suggested_mentor->user->id, ucfirst(Str::slug($suggested_mentor->user->name))]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Join Session">
                                                             Schedule Call
