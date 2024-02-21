@@ -42,9 +42,7 @@ class UserController extends Controller
     foreach($expertise as $expert) {
       $suggested_mentors = Expertise::where('expertise', 'LIKE', '%' . $expert . '%')->get();
     }
-    
-      dd($suggested_mentors);
-    
+        
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
       return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors', 'notifications'));
     } else {
