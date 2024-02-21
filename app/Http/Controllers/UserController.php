@@ -37,7 +37,7 @@ class UserController extends Controller
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
     $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
     $notifications = auth()->user()->unreadNotifications;
-    $suggested_mentors[] = User::with(['expertise', 'availability'])
+    $suggested_mentors = User::with(['expertise', 'availability'])
       ->where('role_id', 2)
       ->WhereNull('status')
       ->whereHas('expertise', function ($query) use ($expertise) {
