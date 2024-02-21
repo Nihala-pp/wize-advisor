@@ -779,7 +779,7 @@
                                                         json_decode($suggested_mentor->metaData->expertise);
                                                         foreach($expertise as $key => $expert) {
                                                         foreach($expert as $exp) {
-                                                        print_r($exp);
+                                                        print_r($exp),;
                                                         }
                                                         }
                                                         @endphp
