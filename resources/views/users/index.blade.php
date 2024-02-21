@@ -777,8 +777,9 @@
                                                         @php
                                                         $expertise =
                                                         $suggested_mentor->metaData->expertise;
-                                                        foreach($expertise as $key => $expert)
+                                                        foreach($expertise as $key => $expert) {
                                                         echo $expert;
+                                                        }
                                                         @endphp
                                                         <!-- {{ json_decode($suggested_mentor->metaData->expertise) }} -->
                                                     </div>
