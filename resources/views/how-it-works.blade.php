@@ -4198,6 +4198,15 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-5225 .elementor-element.elementor-element-6bccf34c .wpr-feature-list-description {
+        color: #777777;
+        font-family: "Red Hat Display", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        padding-right: 35px;
+        text-align: justify;
+    }
+
     .elementor-5225 .elementor-element.elementor-element-37f75126>.elementor-element-populated {
         padding: 20px 0px 0px 35px;
         margin-top: -60px;
