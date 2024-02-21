@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Connect with Startup Mentors at wiseAdvizor - Ignite Your Success Now</title>
@@ -1116,7 +1117,8 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1301,7 +1303,8 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1700,7 +1703,8 @@
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="750" height="750"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg"
-                                    class="attachment-medium_large size-medium_large wp-image-5468" alt="startup mentorship platform"
+                                    class="attachment-medium_large size-medium_large wp-image-5468"
+                                    alt="startup mentorship platform"
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 1024w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:100%;max-width:1080px" />
@@ -4193,6 +4197,11 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
+
+    .elementor-5225 .elementor-element.elementor-element-37f75126>.elementor-element-populated {
+        padding: 20px 0px 0px 35px;
+        margin-top: -60px;
+    }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
