@@ -4290,6 +4290,10 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 0px;
     }
 
+    .elementor-5225 .elementor-element.elementor-element-26b914d>.elementor-element-populated {
+        padding: 0px 0px 30px 0px;
+    }
+
     i.fas.fa-bell.fa-2xl {
         font-size: 27px !important;
         color: #000;
