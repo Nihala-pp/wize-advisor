@@ -783,7 +783,7 @@
                                                         }
                                                         }
                                                         @endphp
-                                                        <br/>
+                                                        </n>
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
