@@ -1695,7 +1695,7 @@
                     data-id="57864ae6" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-8667dac elementor-widget elementor-widget-image"
+                        <div class="elementor-element elementor-element-8667dac elementor-widget elementor-widget-image elementor-hidden-mobile elementor-hidden-desktop"
                             data-id="8667dac" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="750" height="750"
@@ -1706,7 +1706,7 @@
                                     style="width:100%;height:100%;max-width:1080px" />
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-13909a7 elementor-widget elementor-widget-image"
+                        <div class="elementor-element elementor-element-13909a7 elementor-widget elementor-widget-image elementor-hidden-mobile"
                             data-id="13909a7" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="618"
