@@ -747,7 +747,7 @@
                                                     Name</th>
                                                 <th
                                                     class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
-                                                    Topic</th>
+                                                    Expertise</th>
                                                 <th
                                                     class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                                     Action</th>
@@ -779,7 +779,7 @@
                                                         json_decode($suggested_mentor->metaData->expertise);
                                                         foreach($expertise as $key => $expert) {
                                                         foreach($expert as $exp) {
-                                                            echo '    '.$exp;
+                                                            echo $exp. <br/>;
                                                         }
                                                         }
                                                         ","
