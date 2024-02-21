@@ -774,7 +774,8 @@
                                                 </td>
                                                 <td>
                                                     <div class="avat2023-07-05 13ar-group mt-2">
-                                                        {{ json_encode($suggested_mentor->metaData->expertise) }}
+
+                                                        {{ json_decode($suggested_mentor->metaData->expertise) }}
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
