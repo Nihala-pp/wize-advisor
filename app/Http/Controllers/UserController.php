@@ -40,7 +40,7 @@ class UserController extends Controller
     $notifications = auth()->user()->unreadNotifications;
       
     foreach($expertise as $expert) {
-      $suggested_mentors[] = Expertise::where('expertise', 'LIKE', '%' . $expert . '%')->pluck()->to_array();
+      $suggested_mentors[] = Expertise::where('expertise', 'LIKE', '%' . $expert . '%')->all();
     }
     
       dd($suggested_mentors);
