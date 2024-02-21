@@ -46,11 +46,6 @@ class UserController extends Controller
           $query->where('expertise', 'LIKE', '%' . $expertise . '%');
       })->get();
     
-    User::where('role_id', 2)
-      ->whereHas('metaData', function ($q) use ($expertise) {
-        $q->where('expertise', 'LIKE', '%' . $expertise . '%');
-      })->get();
-
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
       return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors', 'notifications'));
     } else {
