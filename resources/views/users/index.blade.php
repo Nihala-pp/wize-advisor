@@ -781,7 +781,6 @@
                                                           print_r($key);
                                                         }
                                                         @endphp
-                                                        <!-- {{ json_decode($suggested_mentor->metaData->expertise) }} -->
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
