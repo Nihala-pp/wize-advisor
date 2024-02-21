@@ -2370,7 +2370,7 @@ html body .animated {
     }
 
     .card {
-        width: 150%;
+        width: 130%;
     }
 
     .elementor-column {
