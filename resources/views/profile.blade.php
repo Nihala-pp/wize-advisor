@@ -1361,7 +1361,8 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1546,7 +1547,8 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -4931,7 +4933,9 @@
                                             height: 1em
                                         }
                                         </style>
-                                        <form class="elementor-form" method="post" name="Subscribe Form">
+                                        <form class="elementor-form" method="post" name="Subscribe Form"
+                                            action="{{ route('subscribe') }}">
+                                            @csrf
                                             <input type="hidden" name="post_id" value="32">
                                             <input type="hidden" name="form_id" value="dd4d324">
                                             <input type="hidden" name="referer_title" value="Home">
@@ -4943,10 +4947,10 @@
                                                     class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
                                                     <label for="form-field-email" class="elementor-field-label">
                                                         Subscribe to news updates </label>
-                                                    <input size="1" type="email" name="form_fields[email]"
-                                                        id="form-field-email"
+                                                    <input size="1" type="email" name="email" id="form-field-email"
                                                         class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="" required="required" aria-required="true">
+                                                        placeholder="Your email address" required="required"
+                                                        aria-required="true">
                                                 </div>
                                                 <div
                                                     class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
