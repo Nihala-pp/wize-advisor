@@ -1233,7 +1233,8 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1418,7 +1419,8 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -2054,7 +2056,8 @@
                                                     <div class="elementor-widget-container">
                                                         <img decoding="async" width="370" height="500"
                                                             src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
-                                                            class="attachment-full size-full wp-image-2739" alt="looking for a mentor"
+                                                            class="attachment-full size-full wp-image-2739"
+                                                            alt="looking for a mentor"
                                                             srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
                                                             sizes="(max-width: 370px) 100vw, 370px">
                                                     </div>
@@ -2456,20 +2459,21 @@
                                             height: 1em
                                         }
                                         </style>
-                                        <form class="elementor-form" method="post" name="Subscribe Form">
+                                        <form class="elementor-form" method="post" name="Subscribe Form"
+                                            action="{{ route('subscribe') }}">
+                                            @csrf
                                             <input type="hidden" name="post_id" value="32">
                                             <input type="hidden" name="form_id" value="dd4d324">
-                                            <input type="hidden" name="referer_title" value="FAQ">
+                                            <input type="hidden" name="referer_title" value="Home">
 
-                                            <input type="hidden" name="queried_id" value="2650">
+                                            <input type="hidden" name="queried_id" value="8">
 
                                             <div class="elementor-form-fields-wrapper elementor-labels-above">
                                                 <div
                                                     class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
                                                     <label for="form-field-email" class="elementor-field-label">
                                                         Subscribe to news updates </label>
-                                                    <input size="1" type="email" name="form_fields[email]"
-                                                        id="form-field-email"
+                                                    <input size="1" type="email" name="email" id="form-field-email"
                                                         class="elementor-field elementor-size-md  elementor-field-textual"
                                                         placeholder="Your email address" required="required"
                                                         aria-required="true">
