@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
     <meta name="description"
-        content="Looking for a mentor – Unlock startup growth strategies with {{ $data->name }} on wiseAdvizor.">
+        content="Looking for a mentor Unlock startup growth strategies with {{ $data->name }} on wiseAdvizor.">
     <meta name="keywords" content="Looking for a mentor, startup growth">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
