@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
@@ -6871,7 +6870,7 @@
                         items: 4,
                     }
                 }
-            })
+            });
         });
     }(jQuery));
     </script>
