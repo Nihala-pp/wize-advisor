@@ -961,6 +961,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         margin-top: -12px;
         font-size: 12px;
     }
+
+    .rounded-circle {
+        height:35px;
+        width:35px;
+    }
 }
 
 @media (min-width:1024px) {
