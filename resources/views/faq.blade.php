@@ -4048,6 +4048,11 @@ i.fas.fa-bell.fa-2xl {
         padding-bottom: 15px;
     }
 
+    .elementor-field-group-first_name {
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+
     .ask {
         margin-top: -20px !important;
     }
