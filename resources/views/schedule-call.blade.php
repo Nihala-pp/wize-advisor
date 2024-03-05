@@ -3363,6 +3363,13 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 10px;
     }
 
+    .events-container {
+        width: 100%;
+        height: auto;
+        padding-left: 65px;
+        padding-top: 10px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
         padding: 15px 0px 0px 0px;
     }
