@@ -1760,7 +1760,7 @@
                                         </div>
                                     </div>
                                     @if(!empty($nextAvailability))
-                                    <div style="margin-left:20px;" class="avail">
+                                    <div style="" class="avail">
                                         <h4 style="color:green"><b>Next Availability on
                                                 {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS F\\, Y') }}</b>
                                         </h4>
@@ -3463,13 +3463,20 @@ i.fas.fa-bell.fa-2xl {
     } */
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    .avail h4 {
+        margin-left: 15px;
+        /* font-family: "Helvetica", Sans-serif; */
+        /* font-size: 16px !important; */
+        /* font-weight: 300; */
+    }
+}
 
 @media (max-width: 375px) {
     .avail h4 {
         margin-left: 5px;
         font-family: "Helvetica", Sans-serif;
-        font-size: 16px !important;
+        font-size: 15px !important;
         font-weight: 300;
     }
 }
