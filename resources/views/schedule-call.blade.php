@@ -3360,7 +3360,7 @@ i.fas.fa-bell.fa-2xl {
 @media(max-width:767px) {
 
     .avail h4 b {
-        padding-left: 5px !important;
+        padding-left: 10px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
