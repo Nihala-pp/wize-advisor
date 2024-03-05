@@ -3364,10 +3364,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .events-container {
-        width: 100%;
-        height: auto;
-        padding-left: 65px;
-        padding-top: 10px;
+        padding-left: 65px !important;
+        padding-top: 10px !important;
     }
 
     .elementor-3007 .elementor-element.elementor-element-aea4c40>.elementor-widget-container {
