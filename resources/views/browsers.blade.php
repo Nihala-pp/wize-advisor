@@ -4592,6 +4592,10 @@ i.fas.fa-bell.fa-2xl {
         box-shadow: none;
     }
 
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
+
     .elementor-2772 .elementor-element.elementor-element-lqdwygc {
         padding: 75px 5px 75px 5px;
     }
