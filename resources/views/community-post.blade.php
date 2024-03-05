@@ -3055,6 +3055,10 @@ i.fas.fa-bell.fa-2xl {
         color: #001E64;
     }
 
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
+
     .elementor-button.elementor-size-xs {
         font-size: 12px;
         padding: 10px 20px;

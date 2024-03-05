@@ -4889,6 +4889,10 @@ max-width:
         border-style: none;
         border-radius: 20px 20px 20px 20px;
     }
+
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
 }
 
 @media (max-width: 320px) {}

@@ -4540,6 +4540,10 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
+
     .search {
         width: 55% !important;
         text-align: left;
