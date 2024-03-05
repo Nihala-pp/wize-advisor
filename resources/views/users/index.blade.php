@@ -935,6 +935,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     margin-top: -25px;
 }
 
+.mentor_name {
+    text-transform: capitalize;
+}
+
 /* .mentor_name {
     margin-right: 20px !important;
     font-size: 12px !important;
