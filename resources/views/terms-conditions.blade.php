@@ -3598,6 +3598,10 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,

@@ -6588,6 +6588,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 }
 
 @media screen and (max-width: 767px) {
+
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
+    
     .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
         margin-top: -50px;
         margin-bottom: -50px;

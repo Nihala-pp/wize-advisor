@@ -1768,7 +1768,7 @@
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                     <ul class="sub-menu">
-                                                        
+
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-posts/"
@@ -1780,7 +1780,7 @@
                                                             <a href="https://wiseadvizor.com/libraries/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
-                                                        
+
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/blogs/" itemprop="url"
@@ -2037,6 +2037,10 @@
     }
 
     @media (max-width: 767px) {
+
+        .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+            padding: 0px 20px 10px 100px;
+        }
 
         .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
         .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
