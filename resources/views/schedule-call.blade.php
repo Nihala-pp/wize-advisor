@@ -3360,7 +3360,7 @@ i.fas.fa-bell.fa-2xl {
 @media(max-width:767px) {
 
     .avail h4 b {
-        padding-left: 20px;
+        padding-left: 25px;
     }
 
     /* .avail h4 b {
