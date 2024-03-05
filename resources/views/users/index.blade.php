@@ -506,7 +506,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
-                                                                {{ $upcoming_session->mentor->name }}
+                                                                {{ ucfirst($upcoming_session->mentor->name) }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -596,7 +596,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
-                                                                {{ $requested_session->mentor->name }}
+                                                                {{ ucfirst($requested_session->mentor->name) }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -685,7 +685,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
-                                                                {{ $completed_session->mentor->name }}
+                                                                {{ ucfirst($completed_session->mentor->name) }}
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -768,7 +768,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column justify-content-center">
                                                             <h6 class="mb-0 text-sm mentor_name">
-                                                                {{ $suggested_mentor->name }}</h6>
+                                                                {{ ucfirst($suggested_mentor->name) }}</h6>
                                                         </div>
                                                     </div>
                                                 </td>
