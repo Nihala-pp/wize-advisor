@@ -4043,6 +4043,11 @@ i.fas.fa-bell.fa-2xl {
 
 @media(max-width:480px) {
 
+    .elementor-field-group-last_name {
+        padding-left: 0px;
+        padding-bottom: 15px;
+    }
+
     .ask {
         margin-top: -20px !important;
     }
@@ -4083,7 +4088,7 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 767px) {
 
     .elementor-field-group-last_name {
-        /* padding-left: 10px; */
+        padding-left: 0px;
         padding-bottom: 15px;
     }
 
