@@ -937,6 +937,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .mentor_name {
     text-transform: capitalize;
+    font
 }
 
 /* .mentor_name {
@@ -952,8 +953,9 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     } */
 
     .mentor_name {
+        text-transform: capitalize;
         margin-left: 20px !important;
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 
     .text-muted {
@@ -979,6 +981,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     }
 
     .mentor_name {
+        text-transform: capitalize;
         margin-left: 20px !important;
         font-size: 12px !important;
     }
