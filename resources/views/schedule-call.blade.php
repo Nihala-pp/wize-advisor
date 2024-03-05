@@ -3360,8 +3360,12 @@ i.fas.fa-bell.fa-2xl {
 @media(max-width:767px) {
 
     .avail h4 b {
-        padding-left: 10px;
+        padding-left: 20px;
     }
+
+    /* .avail h4 b {
+        padding-left: 10px;
+    } */
 
     .events-container {
         padding-left: 65px !important;
