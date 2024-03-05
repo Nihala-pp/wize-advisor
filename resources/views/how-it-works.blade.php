@@ -2688,7 +2688,9 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com">
-                                                <span>Copyright © 2024 wiseAdvizor | Powered by IVY Investment
+                                                <span>Copyright © <script>
+                                                    document.write(new Date().getFullYear())
+                                                    </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
                                             </a>
                                         </div>

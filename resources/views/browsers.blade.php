@@ -2181,7 +2181,8 @@
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}" {{ $filters['expertise'] == $expert->name ? 'selected' : '' }}>
+                                    <option value="{{ $expert->name }}"
+                                        {{ $filters['expertise'] == $expert->name ? 'selected' : '' }}>
                                         {{ $expert->name }}
                                     </option>
                                     @endforeach
@@ -2189,21 +2190,25 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
                                 <input type="text" placeholder="FILTER BY DATE" onfocus="(this.type='date')"
-                                    class="form-control selectpicker" id="date" name="filters[date]" value="{{ $filters['date'] ?? '' }}">
+                                    class="form-control selectpicker" id="date" name="filters[date]"
+                                    value="{{ $filters['date'] ?? '' }}">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
-                                    <option value="{{ $pr->name }}" {{ $filters['name'] == $pr->name ? 'selected' : '' }}>{{ $pr->name }}</option>
+                                    <option value="{{ $pr->name }}"
+                                        {{ $filters['name'] == $pr->name ? 'selected' : '' }}>{{ $pr->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
-                                    <option value="asc" {{ $filters['sort_by'] == "asc" ? 'selected' : '' }}>ASC</option>
-                                    <option value="desc" {{ $filters['sort_by'] == "desc" ? 'selected' : '' }}>DESC </option>
+                                    <option value="asc" {{ $filters['sort_by'] == "asc" ? 'selected' : '' }}>ASC
+                                    </option>
+                                    <option value="desc" {{ $filters['sort_by'] == "desc" ? 'selected' : '' }}>DESC
+                                    </option>
                                 </select>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
@@ -2972,8 +2977,9 @@
                                                 font-size: 17px !important;
                                             } */
                                         </style>
-                                        <form class="elementor-form" method="post" name="Subscribe Form" action="{{ route('subscribe') }}">
-                                             @csrf
+                                        <form class="elementor-form" method="post" name="Subscribe Form"
+                                            action="{{ route('subscribe') }}">
+                                            @csrf
                                             <input type="hidden" name="post_id" value="32">
                                             <input type="hidden" name="form_id" value="dd4d324">
                                             <input type="hidden" name="referer_title" value="Home">
@@ -2985,8 +2991,7 @@
                                                     class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
                                                     <label for="form-field-email" class="elementor-field-label">
                                                         Subscribe to news updates </label>
-                                                    <input size="1" type="email" name="email"
-                                                        id="form-field-email"
+                                                    <input size="1" type="email" name="email" id="form-field-email"
                                                         class="elementor-field elementor-size-md  elementor-field-textual"
                                                         placeholder="Your email address" required="required"
                                                         aria-required="true">
@@ -3135,7 +3140,9 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © 2023 wiseAdvizor | Powered by IVY Investment
+                                                <span>Copyright © <script>
+                                                    document.write(new Date().getFullYear())
+                                                    </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
                                             </a>
                                         </div>
@@ -4194,6 +4201,7 @@ i.fas.fa-chevron-down {
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
 }
+
 .mobile-display {
     visibility: hidden;
 }

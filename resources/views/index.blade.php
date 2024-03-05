@@ -3,7 +3,7 @@
 * Material Dashboard 2 - v3.0.0
 =========================================================
 
-* Copyright 2023 IVY Investment LLC
+* Copyright 2024 IVY Investment LLC
 * Coded by Nihala PP
 
 =========================================================

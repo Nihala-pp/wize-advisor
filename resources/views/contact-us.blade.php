@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Top Mentoring Organizations : One-on-One Mentoring Programs</title>
-    <meta name="description" content="Experience the transformative impact of one-on-one mentoring through our organization, empowering individuals and fostering growth in mentoring relationships.">
-    <meta name="keywords" content="mentoring organizations, one on one mentoring">    
+    <meta name="description"
+        content="Experience the transformative impact of one-on-one mentoring through our organization, empowering individuals and fostering growth in mentoring relationships.">
+    <meta name="keywords" content="mentoring organizations, one on one mentoring">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -1440,7 +1441,8 @@
                                     </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -1626,7 +1628,8 @@
                                     <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624" alt="startup mentorship platform"
+                                            class="attachment-large size-large wp-image-624"
+                                            alt="startup mentorship platform"
                                             srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 932px) 100vw, 932px"> </a>
                                 </div>
@@ -2869,7 +2872,9 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © 2023 wiseAdvizor | Powered by IVY Investment
+                                                <span>Copyright © <script>
+                                                    document.write(new Date().getFullYear())
+                                                    </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
                                             </a>
                                         </div>
