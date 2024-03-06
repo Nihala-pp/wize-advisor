@@ -4569,7 +4569,7 @@ i.fas.fa-bell.fa-2xl {
         /* max-width: 100%; */
     }
 
-    .elementor-page-2772 {
+    .element {
         overflow-x: hidden !important;
     }
 
