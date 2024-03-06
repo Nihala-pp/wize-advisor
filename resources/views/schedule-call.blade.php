@@ -3462,6 +3462,19 @@ i.fas.fa-bell.fa-2xl {
     i.fas.fa-bell.fa-2xl {
         font-size: 29px !important;
     }
+
+    .event-name {
+        padding-right: 0;
+        text-align: left;
+        font-weight: bold;
+        margin-left: -10px;
+    }
+
+    .event-card {
+        margin: 0;
+        background: #e6e6e6;
+        margin-left: -19px;
+    }
 }
 
 @media (max-width: 320px) {}
