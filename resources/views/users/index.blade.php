@@ -940,7 +940,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .date {
-    margin-left: -10px;
+    margin-left: -12px;
 }
 
 /* .mentor_name {
