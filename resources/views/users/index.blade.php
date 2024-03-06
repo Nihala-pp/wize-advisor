@@ -677,7 +677,7 @@
                                             @foreach($completed_sessions as $completed_session)
                                             <tr>
                                                 <td>
-                                                    <div class="d-flex px-2 py-1">
+                                                    <div class="d-flex px-2 py-1 imag">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img') }}/{{ $completed_session->mentor->metaData ? $completed_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
@@ -690,7 +690,7 @@
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group mt-2 date">
                                                         {{ $completed_session->date }} -
                                                         {{ $completed_session->start_time }}
                                                     </div>
