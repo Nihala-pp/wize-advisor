@@ -754,6 +754,8 @@
                                                     class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                                 </th>
                                                 <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                                                                            <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+
                                             </tr>
                                         </thead>
                                         <tbody>
