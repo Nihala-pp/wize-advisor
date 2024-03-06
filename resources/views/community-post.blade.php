@@ -2087,7 +2087,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://wiseadvizor.com/#how_it_works"> How it
+                                                            <a href="https://wiseadvizor.com/how-it-works"> How it
                                                                 Works</a>
                                                         </p>
                                                     </div>
