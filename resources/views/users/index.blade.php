@@ -524,7 +524,7 @@
                                                 </td>
                                                 <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group">
-                                                        <a href="{{ $upcoming_session->call_link ?: '' }}" class=""
+                                                        <a href="{{ $upcoming_session->call_link ?: '' }}" class="link"
                                                             data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Join Session">
                                                             Join Session
@@ -619,7 +619,7 @@
                                                 <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group">
                                                         <a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
-                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Update Session">
                                                             Update Session
                                                         </a>
@@ -698,7 +698,7 @@
                                                 <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group">
                                                         <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Write Review" target="_blank">
                                                             Write Review
                                                         </a>
@@ -963,7 +963,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 .action {
     font-size: 12px;
     margin-left:20px;
-    color: #3b71ca !important;
+}
+
+.link {
+    color:#3b71ca !important;w
 }
 
 a {
