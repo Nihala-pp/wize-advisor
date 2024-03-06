@@ -616,7 +616,7 @@
                                                         {{ $requested_session->status }}
                                                     </div>
                                                 </td>
-                                                <td class="align-middle text-center text-sm">
+                                                <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -956,6 +956,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .desc {
+    font-size: 12px;
+}
+
+.action {
     font-size: 12px;
 }
 
