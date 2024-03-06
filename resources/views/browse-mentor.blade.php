@@ -4568,8 +4568,14 @@ i.fas.fa-bell.fa-2xl {
         color: #fff;
     }
 
-    .element {
-        overflow-x: hidden !important;
+    body {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-y: scroll;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
     }
 
     ul,
