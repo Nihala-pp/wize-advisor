@@ -790,7 +790,7 @@
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ route('profile', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
-                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Join Session">
                                                             View Profile
                                                         </a>
@@ -799,7 +799,7 @@
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
-                                                            class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Join Session">
                                                             Schedule Call
                                                         </a>
