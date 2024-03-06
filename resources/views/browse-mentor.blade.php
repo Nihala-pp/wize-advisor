@@ -4566,7 +4566,10 @@ i.fas.fa-bell.fa-2xl {
 
     body {
         color: #fff;
-        max-width: 100%;
+        /* max-width: 100%; */
+    }
+
+    .elementor-page-2772 {
         overflow-x: hidden;
     }
 
