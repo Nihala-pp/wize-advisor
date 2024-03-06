@@ -4531,11 +4531,11 @@ i.fas.fa-bell.fa-2xl {
         32px !important;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .elementor-2772 .elementor-element.elementor-element-55b12a5 {
         width: 100%;
     }
-}
+} */
 
 
 @media screen and (max-width: 767px) {
@@ -4566,16 +4566,6 @@ i.fas.fa-bell.fa-2xl {
 
     body {
         color: #fff;
-    }
-
-    body {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        overflow-y: scroll;
-    }
-
-    body::-webkit-scrollbar {
-        display: none;
     }
 
     ul,
