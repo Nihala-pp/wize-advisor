@@ -4200,6 +4200,11 @@ i.fas.fa-chevron-down {
     visibility: hidden;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
     div.d-grid.gap-2.col-6.butto {
@@ -4530,13 +4535,6 @@ i.fas.fa-bell.fa-2xl {
     font-size:
         32px !important;
 }
-
-/* @media (min-width: 768px) {
-    .elementor-2772 .elementor-element.elementor-element-55b12a5 {
-        width: 100%;
-    }
-} */
-
 
 @media screen and (max-width: 767px) {
 
