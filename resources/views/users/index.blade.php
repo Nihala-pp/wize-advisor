@@ -589,7 +589,7 @@
                                             @foreach($requested_sessions as $requested_session)
                                             <tr>
                                                 <td>
-                                                    <div class="d-flex px-2 py-1">
+                                                    <div class="d-flex px-2 py-1 imag">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img') }}/{{ $requested_session->mentor->metaData ? $requested_session->mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
@@ -944,6 +944,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .status {
+    margin-left: -12px;
+}
+
+.imag {
     margin-left: -12px;
 }
 
