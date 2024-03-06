@@ -612,7 +612,7 @@
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group status mt-2">
                                                         {{ $requested_session->status }}
                                                     </div>
                                                 </td>
@@ -940,6 +940,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .date {
+    margin-left: -12px;
+}
+
+.status {
     margin-left: -12px;
 }
 
