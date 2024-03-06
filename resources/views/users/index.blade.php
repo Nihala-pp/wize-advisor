@@ -602,7 +602,7 @@
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group mt-2 desc">
                                                         {{ $requested_session->description }}
                                                     </div>
                                                 </td>
@@ -943,14 +943,20 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .date {
     margin-left: -12px;
+    font-size: 12px;
 }
 
 .status {
     margin-left: -12px;
+    font-size: 12px;
 }
 
 .imag {
     margin-left: -12px;
+}
+
+.desc {
+    font-size: 12px;
 }
 
 /* .mentor_name {
