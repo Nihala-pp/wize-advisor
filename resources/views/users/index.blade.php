@@ -512,17 +512,17 @@
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group mt-2 desc">
                                                         {{ $upcoming_session->description }}
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group mt-2 date">
                                                         {{ $upcoming_session->date }}
                                                         {{ $upcoming_session->start_time }}
                                                     </div>
                                                 </td>
-                                                <td class="align-middle text-center text-sm">
+                                                <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ $upcoming_session->call_link ?: '' }}" class=""
                                                             data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -695,7 +695,7 @@
                                                         {{ $completed_session->start_time }}
                                                     </div>
                                                 </td>
-                                                <td class="align-middle text-center text-sm">
+                                                <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -962,6 +962,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .action {
     font-size: 12px;
+    padding-left:20px;
 }
 
 a {
