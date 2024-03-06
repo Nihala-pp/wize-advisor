@@ -523,7 +523,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm action">
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group">
                                                         <a href="{{ $upcoming_session->call_link ?: '' }}" class=""
                                                             data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Join Session">
@@ -532,7 +532,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm">
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group">
                                                         <a href="{{ route('schedule-call', [$upcoming_session->mentor_id, $upcoming_session->id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="update Session">
@@ -617,7 +617,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm action">
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group">
                                                         <a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Update Session">
@@ -696,7 +696,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="align-middle text-center text-sm action">
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group">
                                                         <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
                                                             class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                             title="Write Review" target="_blank">
