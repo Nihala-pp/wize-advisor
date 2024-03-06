@@ -963,7 +963,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 .action {
     font-size: 12px;
     margin-left:20px;
-    color:#3b71ca;
+    color:#3b71ca !important;
 }
 
 a {
