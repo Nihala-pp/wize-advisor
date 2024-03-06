@@ -629,10 +629,13 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     return response()->json($dates);
   }
 
-  public function test(Request $request)
+  public function test()
   {
-    $filters = $request['filters'];
 
+    $password = Hash::make('Ankur@123!*');
+    dd($password);
+
+    // $filters = $request['filters'];
 
     //  $data =  ScheduledCall::where('is_paid', 0)->get();
 
@@ -643,9 +646,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //  }
 
     // $tzlist = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
-    // // dd($tzlist);
-    // $password = Hash::make('Ivy@123!');
-    // // dd($password);
+    // dd($tzlist);
 
     // if (!empty($filters)) {
     //   $sortby = $filters['sort_by'] ?? 'asc';
