@@ -608,8 +608,7 @@
                                                 </td>
                                                 <td>
                                                     <div class="avatar-group mt-2">
-                                                        {{ $requested_session->date }}
-                                                        {{ $requested_session->start_time }}
+                                                        {{ $requested_session->date.' '.$requested_session->start_time }}
                                                     </div>
                                                 </td>
                                                 <td>
@@ -938,6 +937,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 .mentor_name {
     text-transform: capitalize;
     font
+}
+
+.avatar-group {
+
 }
 
 /* .mentor_name {
