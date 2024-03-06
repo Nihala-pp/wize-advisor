@@ -760,7 +760,7 @@
                                             @foreach($suggested_mentors as $suggested_mentor)
                                             <tr>
                                                 <td>
-                                                    <div class="d-flex px-2 py-1">
+                                                    <div class="d-flex px-2 py-1 imag">
                                                         <div>
                                                             <img src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData ? $suggested_mentor->metaData->profile_pic : '' }}"
                                                                 class="rounded-circle" height="5" width="35">
