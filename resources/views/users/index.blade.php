@@ -967,6 +967,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 a {
     font-size: 12px;
+    padding-left: 27px;
 }
 
 /* .mentor_name {
