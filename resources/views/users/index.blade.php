@@ -883,6 +883,7 @@
 .avat2023-07-05 {
     margin-top: .5rem !important;
     margin-left: -15px;
+    font-size:12px;
 }
 
 i.fas.fa-chevron-down {
