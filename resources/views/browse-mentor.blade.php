@@ -4566,6 +4566,7 @@ i.fas.fa-bell.fa-2xl {
 
     body {
         color: #fff;
+        max-width: 100%;
     }
 
     ul,
