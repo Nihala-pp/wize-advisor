@@ -966,7 +966,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 }
 
 .link {
-    color:#3b71ca !important;w
+    color:#3b71ca !important;
 }
 
 a {
