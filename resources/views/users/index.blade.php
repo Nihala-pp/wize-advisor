@@ -963,6 +963,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     font-size: 12px;
 }
 
+a {
+    font-size: 12px;
+}
+
 /* .mentor_name {
     margin-right: 20px !important;
     font-size: 12px !important;
