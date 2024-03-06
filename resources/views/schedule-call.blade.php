@@ -3374,7 +3374,7 @@ i.fas.fa-bell.fa-2xl {
     } */
 
     .events-container {
-        padding-left: 35px !important;
+        padding-left: 40px !important;
         padding-top: 10px !important;
     }
 
