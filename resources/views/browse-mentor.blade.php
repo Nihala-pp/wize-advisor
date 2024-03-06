@@ -4570,7 +4570,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-page-2772 {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     ul,
