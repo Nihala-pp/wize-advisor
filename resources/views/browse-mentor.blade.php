@@ -492,11 +492,11 @@
         --wp--custom--typography--line-height--normal: 1.6;
     }
 
-    body {
+    /* body {
         margin: 0;
         --wp--style--global--content-size: 650px;
         --wp--style--global--wide-size: 1000px;
-    }
+    } */
 
     .wp-site-blocks>.alignleft {
         float: left;
@@ -4566,7 +4566,7 @@ i.fas.fa-bell.fa-2xl {
 
     body {
         color: #fff;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 
     ul,
