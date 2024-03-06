@@ -607,7 +607,7 @@
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <div class="avatar-group mt-2">
+                                                    <div class="avatar-group date mt-2">
                                                         {{ $requested_session->date.' '.$requested_session->start_time }}
                                                     </div>
                                                 </td>
@@ -879,8 +879,8 @@
 </body>
 <style>
 .avat2023-07-05 {
-        margin-top: .5rem !important;
-        margin-left: -15px;
+    margin-top: .5rem !important;
+    margin-left: -15px;
 }
 
 i.fas.fa-chevron-down {
@@ -939,8 +939,8 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     font
 }
 
-.avatar-group {
-
+.date {
+    margin-left: -10px;
 }
 
 /* .mentor_name {
@@ -972,8 +972,8 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     }
 
     .rounded-circle {
-        height:35px;
-        width:35px;
+        height: 35px;
+        width: 35px;
     }
 }
 
