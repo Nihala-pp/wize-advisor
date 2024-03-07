@@ -4557,11 +4557,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .wp-image-5531 {
-        height: auto;
-        max-width: 50%;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
+        border-radius: 10px !important;
+        max-width: 50% !important;
     }
 }
 
