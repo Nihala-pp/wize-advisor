@@ -4600,6 +4600,12 @@ i.fas.fa-bell.fa-2xl {
     span.charge {
         font-size: 10px !important;
     }
+
+    .bio {
+        /* margin-top: -15px; */
+        font-size: 10px;
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 767px) {
