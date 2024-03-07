@@ -4597,6 +4597,9 @@ i.fas.fa-bell.fa-2xl {
         font-size: 10px !important;
     }
 
+    span.slot {
+        font-size: 10px !important;
+    }
 }
 
 @media screen and (max-width: 767px) {
