@@ -4567,6 +4567,14 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
+@media screen and (max-width: 768px) {
+
+    p>span {
+        margin-top: -15px !important;
+        font-size: 7.5px !important;
+    }
+}
+
 @media screen and (max-width: 820px) {
 
     .search {
