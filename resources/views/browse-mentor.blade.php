@@ -4567,6 +4567,23 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
+@media screen and (max-width: 820px) {
+    .wp-image-5531 {
+        border-radius: 10px !important;
+        max-width: 50% !important;
+        height: 150px !important;
+    }
+
+    .mentor_name {
+        font-size: 12px;
+    }
+
+    p>span {
+        font-size: 10px !important;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
