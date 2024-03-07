@@ -4589,6 +4589,10 @@ i.fas.fa-bell.fa-2xl {
         display: inline-block;
     }
 
+    .expertise {
+        font-size: 8px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
