@@ -4568,6 +4568,15 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media screen and (max-width: 820px) {
+
+    .search {
+        width: 65%;
+        text-align: left;
+        background-color: #000;
+        /* margin-left: 125px
+ !important; */
+    }
+
     .wp-image-5531 {
         border-radius: 10px !important;
         max-width: 50% !important;
