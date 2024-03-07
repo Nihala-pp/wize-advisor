@@ -4560,6 +4560,10 @@ i.fas.fa-bell.fa-2xl {
         border-radius: 10px !important;
         max-width: 50% !important;
     }
+
+    .expertise {
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 767px) {
