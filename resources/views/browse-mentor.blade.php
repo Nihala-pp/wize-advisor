@@ -4584,6 +4584,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-star-rating {
+        margin-bottom: -10px !important;
+        margin-top: -20px !important;
         font-size: 10px;
         color: #ccd6df;
         font-family: eicons;
