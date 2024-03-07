@@ -4547,7 +4547,7 @@ i.fas.fa-bell.fa-2xl {
 @media screen and (max-width: 1024px) {
 
     .mentor_name {
-         font-size:15px;
+         font-size:14px;
     }
 }
 
