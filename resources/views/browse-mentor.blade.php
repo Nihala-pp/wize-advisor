@@ -2520,7 +2520,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="row elementor-hidden-desktop filter_result">
+                <div class="row elementor-hidden-desktop elementor-hidden-tablet filter_result">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
