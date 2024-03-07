@@ -4582,6 +4582,13 @@ i.fas.fa-bell.fa-2xl {
         font-size: 8px !important;
     }
 
+    .elementor-star-rating {
+        font-size: 10px;
+        color: #ccd6df;
+        font-family: eicons;
+        display: inline-block;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
