@@ -4571,7 +4571,7 @@ i.fas.fa-bell.fa-2xl {
     .wp-image-5531 {
         border-radius: 10px !important;
         max-width: 50% !important;
-        height: 150px !important;
+        height: 170px !important;
     }
 
     .mentor_name {
