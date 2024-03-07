@@ -4579,6 +4579,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     p>span {
+        margin-top: -15px !important;
         font-size: 8px !important;
     }
 
