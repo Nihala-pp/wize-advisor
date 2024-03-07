@@ -4594,7 +4594,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     span.slot {
-        font-size: 12px;
+        font-size: 10px !important;
     }
 
 }
