@@ -2110,6 +2110,7 @@
                                     line-height: inherit
                                 }
 
+
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-small {
                                     font-size: 15px
                                 }
@@ -4548,6 +4549,10 @@ i.fas.fa-bell.fa-2xl {
 
     .mentor_name {
          font-size:14px;
+    }
+
+    span {
+        font-size:12px;
     }
 }
 
