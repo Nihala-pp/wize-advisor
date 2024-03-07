@@ -4349,6 +4349,13 @@ margin-left:50px;
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
 
+    .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: -47px;
+        margin-bottom: 0px;
+        padding: 20px 20px 20px 275px;
+    }
+
     input[type="date"]:not(.has-value):before {
         color:
             lightgray;
@@ -4536,6 +4543,10 @@ i.fas.fa-bell.fa-2xl {
     font-size:
         32px !important;
 }
+
+/* @media screen and (min-width: 1024px) {
+   
+} */
 
 @media screen and (max-width: 767px) {
 
