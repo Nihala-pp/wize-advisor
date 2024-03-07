@@ -4590,7 +4590,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .expertise {
-        font-size: 8px;
+        font-size: 7px;
     }
 
 }
