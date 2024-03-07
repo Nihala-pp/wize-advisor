@@ -4200,7 +4200,8 @@ i.fas.fa-chevron-down {
     visibility: hidden;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -4534,6 +4535,15 @@ padding-right:
 i.fas.fa-bell.fa-2xl {
     font-size:
         32px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: -47px;
+        margin-bottom: 0px;
+        padding: 20px 20px 20px 250px;
+    }
 }
 
 @media screen and (max-width: 767px) {
