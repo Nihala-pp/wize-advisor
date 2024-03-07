@@ -2410,7 +2410,8 @@
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="" width="221" height="221"
                                                                 srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span class="mentor_name"
+                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            class="mentor_name"
                                                             style="color: #000000">{{ $mentor->name }}</span></h5>
                                                     <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
                                                             {{ $mentor->metaData->company }}</span><br />
@@ -4548,11 +4549,19 @@ i.fas.fa-bell.fa-2xl {
 @media screen and (max-width: 1024px) {
 
     .mentor_name {
-         font-size:14px;
+        font-size: 14px;
     }
 
-   p > span {
-        font-size:12px !important;
+    p>span {
+        font-size: 12px !important;
+    }
+
+    .wp-image-5531 {
+        height: auto;
+        max-width: 50%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
     }
 }
 
