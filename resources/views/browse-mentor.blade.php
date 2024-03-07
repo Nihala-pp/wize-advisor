@@ -2409,7 +2409,7 @@
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="" width="221" height="221"
                                                                 srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span class="mentor_name"
                                                             style="color: #000000">{{ $mentor->name }}</span></h5>
                                                     <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
                                                             {{ $mentor->metaData->company }}</span><br />
@@ -4546,8 +4546,8 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 1024px) {
 
-   div.h5 > span {
-         font-size:12px;
+    .mentor_name {
+         font-size:15px;
     }
 }
 
