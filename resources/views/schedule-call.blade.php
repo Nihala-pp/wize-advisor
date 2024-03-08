@@ -3558,8 +3558,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .avail h4 b {
-    padding-left: 0px;
-}
+        padding-left: 0px;
+    }
 
     .events-container {
         overflow-y: scroll;
@@ -3586,6 +3586,11 @@ i.fas.fa-bell.fa-2xl {
     .event-name {
         text-align: left;
         font-weight: bold;
+    }
+
+    .heading-section {
+        font-size: 20px;
+        color: #000;
     }
 }
 </style>
