@@ -3508,7 +3508,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 1024px) {
     .event-card {
-        /* padding: 0px 0; */
+        padding: 0px 0px;
         max-width: 100%;
         display: block;
         background: #fff;
