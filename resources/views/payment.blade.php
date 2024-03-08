@@ -318,6 +318,11 @@ i.fas.fa-bell.fa-2xl {
         transition: all .1s linear;
         box-shadow: none;
     }
+
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 7px;
+    }
 }
 
 @media(max-width:820px) {
@@ -331,6 +336,11 @@ i.fas.fa-bell.fa-2xl {
 
     .card {
         margin-left: 140px;
+    }
+
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 7px;
     }
 }
 
