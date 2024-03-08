@@ -311,7 +311,13 @@ i.fas.fa-bell.fa-2xl {
         /* border: 0; */
         margin-left: 175px;
     }
-    
+
+    .input-group {
+        width: 40%;
+        margin-left: 200px;
+        transition: all .1s linear;
+        box-shadow: none;
+    }
 }
 
 @media (max-width: 767px) {
