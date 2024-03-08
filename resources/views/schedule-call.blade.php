@@ -3557,6 +3557,10 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 300;
     }
 
+    .avail h4 b {
+    padding-left: 0px;
+}
+
     .events-container {
         overflow-y: scroll;
         height: 100%;
