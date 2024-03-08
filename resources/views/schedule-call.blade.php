@@ -3508,11 +3508,6 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 1024px) {
 
-    .card {
-        /* border: 0; */
-        margin-left: 175px;
-    }
-
     .event-card {
         padding: 0px 0px;
         max-width: 100%;

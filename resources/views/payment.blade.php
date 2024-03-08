@@ -153,7 +153,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                             'coupon': coupon,
                             'mentor_id': mentor_id
@@ -301,7 +305,14 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-@media(max-width:1024px) {}
+@media(max-width:1024px) {
+
+    .card {
+        /* border: 0; */
+        margin-left: 175px;
+    }
+    
+}
 
 @media (max-width: 767px) {
 
