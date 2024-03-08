@@ -6592,7 +6592,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
-    
+
     .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
         margin-top: -50px;
         margin-bottom: -50px;
@@ -7137,6 +7137,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media(max-width: 1024px) {
+    .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 25px 0px 0px 30px;
+    }
+}
 </style>
 
 </html>
