@@ -3603,7 +3603,7 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px;
         border-bottom-right-radius: 3px;
         border-top-right-radius: 3px;
-        padding-right: 90px;
+        /* padding-right: 90px; */
     }
 }
 </style>
