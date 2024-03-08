@@ -3516,6 +3516,15 @@ i.fas.fa-bell.fa-2xl {
         /* margin: 20px; */
         margin-left: 75px;
     }
+
+    .event-count,
+    .event-name,
+    .event-cancelled {
+        display: inline;
+        padding: 0 0px;
+        font-size: 1rem;
+    }
 }
 </style>
+
 </html>
