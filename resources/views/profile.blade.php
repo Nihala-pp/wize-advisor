@@ -7143,6 +7143,14 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         padding: 25px 0px 0px 30px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
+        margin: -40px 0px 45px 0px !important;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container {
+        margin: -90px 40px -5px 40px !important;
+    }
 }
 </style>
 
