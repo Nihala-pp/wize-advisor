@@ -3592,6 +3592,19 @@ i.fas.fa-bell.fa-2xl {
         font-size: 20px;
         color: #000;
     }
+
+    .events-container {
+        overflow-y: scroll;
+        height: 100%;
+        width: 50%;
+        float: right;
+        margin: 0px auto;
+        display: inline-block;
+        padding: 0px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        padding-right: 90px;
+    }
 }
 </style>
 
