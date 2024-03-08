@@ -3549,5 +3549,27 @@ i.fas.fa-bell.fa-2xl {
         padding-right: 20px;
     }
 }
+
+@media screen and (max-width: 820px) {
+    .avail h4 {
+        /* margin-left: 50px !important; */
+        font-family: "Helvetica", Sans-serif;
+        font-size: 11px !important;
+        font-weight: 300;
+    }
+
+    .events-container {
+        overflow-y: scroll;
+        height: 100%;
+        width: 50%;
+        float: right;
+        margin: 0px auto;
+        display: inline-block;
+        padding: 0px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        padding-right: 40px;
+    }
+}
 </style>
 </html>
