@@ -3552,7 +3552,6 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 820px) {
     .avail h4 {
-        /* margin-left: 50px !important; */
         font-family: "Helvetica", Sans-serif;
         font-size: 11px !important;
         font-weight: 300;
@@ -3570,6 +3569,21 @@ i.fas.fa-bell.fa-2xl {
         border-top-right-radius: 3px;
         padding-right: 40px;
     }
+
+    .event-card {
+        padding: 0px 0px;
+        max-width: 100%;
+        display: block;
+        background: #fff;
+        border: solid #007bff !important;
+        margin-left: 100px;
+    }
+
+    .event-name {
+        text-align: left;
+        font-weight: bold;
+    }
 }
 </style>
+
 </html>
