@@ -320,6 +320,20 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
+@media(max-width:820px) {
+
+    .input-group {
+        width: 40%;
+        margin-left: 135px;
+        transition: all .1s linear;
+        box-shadow: none;
+    }
+
+    .card {
+        margin-left: 140px;
+    }
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
