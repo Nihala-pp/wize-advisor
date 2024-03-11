@@ -7138,11 +7138,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
 @media (min-width: 540px) {}
 
-@media(max-width: 1024px) {
-    .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        padding: 25px 0px 0px 30px;
-    }
+@media(max-width > 1024px) {
 
     .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
         margin: -40px 0px 45px 0px !important;
@@ -7155,6 +7151,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-element .elementor-element-dbbf342>.elementor-widget-container {
         margin-bottom: -25px !important;
         margin-left: 40px;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 25px 0px 0px 0px;
     }
 }
 </style>
