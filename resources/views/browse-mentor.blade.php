@@ -4738,7 +4738,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-        padding: 75px 5px 75px 5px;
+        padding: 35px 5px 75px 5px;
     }
 
     /* .search {
