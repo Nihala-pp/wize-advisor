@@ -7168,6 +7168,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
         margin: -50px 0px 50px 0px !important;
     }
+
+    .elementor-element .elementor-element-dbbf342>.elementor-widget-container {
+        margin-bottom: -25px !important;
+        margin-left: 0px;
+    }
 }
 </style>w
+
 </html>
