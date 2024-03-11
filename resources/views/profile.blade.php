@@ -7160,7 +7160,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .elementor-4878 .elementor-element.elementor-element-b1f32fb>.elementor-element-populated {
         padding: 0px 0px 0px 35px;
     }
