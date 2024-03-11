@@ -6085,6 +6085,7 @@ h6,
 
 .lang {
     margin-top: 10px !important;
+    padding-left: 20px;
 }
 
 .time {
