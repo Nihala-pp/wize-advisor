@@ -7177,6 +7177,11 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-p7f37ge {
         padding: 60px 30px 60px 30px;
     }
+
+    .elementor-widget-container p {
+        padding-right: 25px;
+        color: #150E1F !important;
+    }
 }
 </style>w
 
