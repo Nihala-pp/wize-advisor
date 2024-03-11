@@ -7164,6 +7164,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-b1f32fb>.elementor-element-populated {
         padding: 0px 0px 0px 35px;
     }
+
+    .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
+        margin: -50px 0px 50px 0px !important;
+    }
 }
-</style>
+</style>w
 </html>
