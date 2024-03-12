@@ -4211,6 +4211,13 @@ img.rounded-circle {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .elementor-18 .elementor-element.elementor-element-f86b72c>.elementor-widget-container {
+        padding: 55px 0px 120px 0px;
+    }
+}
 </style>
 
 </html>
