@@ -7445,7 +7445,12 @@ i.fas.fa-chevron-down {
         margin-left: 150px !important;
     }
 
-    
+    .elementor-widget-ucaddon_blob_shapes .ue-blob-title {
+        font-size: 10px;
+        /* font-family: var(--e-global-typography-text-font-family), Sans-serif; */
+        /* font-weight: var(--e-global-typography-text-font-weight); */
+        /* text-align: center !important; */
+    }
 }
 </style>
 
