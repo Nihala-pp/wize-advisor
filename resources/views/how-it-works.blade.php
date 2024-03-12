@@ -4356,6 +4356,28 @@ margin-bottom: 10px;
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 20px;
+    }
+
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 20px;
+    }
+}
 </style>
 
 </html>
