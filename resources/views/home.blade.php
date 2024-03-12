@@ -7451,6 +7451,13 @@ i.fas.fa-chevron-down {
         /* font-weight: var(--e-global-typography-text-font-weight); */
         /* text-align: center !important; */
     }
+
+    .elementor-widget-ucaddon_blob_shapes .ue-blob-text {
+        font-size: 10px;
+        /* font-family: var(--e-global-typography-text-font-family), Sans-serif;
+        font-weight: var(--e-global-typography-text-font-weight);
+        text-align: center !important; */
+    }
 }
 </style>
 
