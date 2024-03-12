@@ -619,8 +619,8 @@
                                                 <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group">
                                                         <a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
-                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                            title="Update Session">
+                                                            class="link" data-bs-toggle="tooltip"
+                                                            data-bs-placement="bottom" title="Update Session">
                                                             Update Session
                                                         </a>
                                                     </div>
@@ -698,8 +698,9 @@
                                                 <td class="align-middle text-center text-sm action">
                                                     <div class="avatar-group">
                                                         <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                            title="Write Review" target="_blank">
+                                                            class="link" data-bs-toggle="tooltip"
+                                                            data-bs-placement="bottom" title="Write Review"
+                                                            target="_blank">
                                                             Write Review
                                                         </a>
                                                     </div>
@@ -754,7 +755,7 @@
                                                     class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                                 </th>
                                                 <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
-                                                                                            <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                                <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
 
                                             </tr>
                                         </thead>
@@ -790,8 +791,8 @@
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ route('profile', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
-                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                            title="Join Session">
+                                                            class="link" data-bs-toggle="tooltip"
+                                                            data-bs-placement="bottom" title="Join Session">
                                                             View Profile
                                                         </a>
                                                     </div>
@@ -799,8 +800,8 @@
                                                 <td class="align-middle text-center text-sm">
                                                     <div class="avatar-group mt-2">
                                                         <a href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
-                                                            class="link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                            title="Join Session">
+                                                            class="link" data-bs-toggle="tooltip"
+                                                            data-bs-placement="bottom" title="Join Session">
                                                             Schedule Call
                                                         </a>
                                                     </div>
@@ -883,7 +884,7 @@
 .avat2023-07-05 {
     margin-top: .5rem !important;
     margin-left: -15px;
-    font-size:12px;
+    font-size: 12px;
 }
 
 i.fas.fa-chevron-down {
@@ -962,11 +963,11 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 .action {
     font-size: 12px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 .link {
-    color:#3b71ca !important;
+    color: #3b71ca !important;
 }
 
 a {
@@ -1018,6 +1019,13 @@ a {
         text-transform: capitalize;
         margin-left: 20px !important;
         font-size: 12px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 820px) {
+    .rounded-circle {
+        height: 35px !important;
+        width: 35px !important;
     }
 }
 
@@ -1082,4 +1090,5 @@ a:link {
 	margin: 8px 0px!important;
 } */
 </style>
+
 </html>
