@@ -14,7 +14,7 @@
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
         <div class="container-fluid py-4">
             <div class="row mt-5">
-                <div class="col-4 col-lg-10 m-auto">
+                <div class="col-8 col-lg-8 m-auto">
                     <div class="card">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
