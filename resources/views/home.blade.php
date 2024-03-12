@@ -7458,6 +7458,38 @@ i.fas.fa-chevron-down {
         x: var(--e-global-typography-text-font-family), Sans-serif;
         font-weight: var(--e-global-typography-text-font-weight);
     }
+
+    .elementor-8 .elementor-element.elementor-element-1e158b0 img {
+        width: 100%;
+        /* height: 0px; */
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 50px 50px 50px 50px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-532fd2e img {
+        width: 75%;
+        /* height: 75px; */
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 50px 50px 50px 50px;
+        box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .elementor-8 .elementor-element.elementor-element-62e39a3 .elementor-heading-title {
+        color: var(--e-global-color-text);
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-e10f42e img {
+        width: 100%;
+        /* height: 20px; */
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 20px 20px 20px 20px;
+    }
 }
 </style>
 
