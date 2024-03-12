@@ -7446,7 +7446,7 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-widget-ucaddon_blob_shapes .ue-blob-title {
-        font-size: 3px;
+        font-size: 10px;
         /* font-family: var(--e-global-typography-text-font-family), Sans-serif; */
         /* font-weight: var(--e-global-typography-text-font-weight); */
         /* text-align: center !important; */
