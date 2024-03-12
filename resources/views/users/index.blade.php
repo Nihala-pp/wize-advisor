@@ -1024,8 +1024,9 @@ a {
 
 @media (min-width: 768px) and (max-width: 820px) {
     .rounded-circle {
-        height: 35px !important;
-        width: 35px !important;
+        height: 25px !important;
+        width: 25px !important;
+        margin-right: 20px;
     }
 }
 
