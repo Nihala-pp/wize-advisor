@@ -7437,6 +7437,16 @@ i.fas.fa-chevron-down {
         margin-right: 175px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #uc_blob_shapes_elementor_56bc6db_size {
+        color: white;
+        font-size: 10px;
+        margin-left: 150px !important;
+    }
+
+    
+}
 </style>
 
 </html>
