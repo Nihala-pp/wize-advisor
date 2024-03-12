@@ -7490,6 +7490,28 @@ i.fas.fa-chevron-down {
         object-position: center center;
         border-radius: 20px 20px 20px 20px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-d949cfa .elementor-heading-title {
+        color: #54595F;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-de21adc .elementor-heading-title {
+        color: var(--e-global-color-secondary);
+        font-family: "Helvetica", Sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-1e9a843 .elementor-heading-title {
+        color: var(--e-global-color-text);
+        font-family: "Helvetica", Sans-serif;
+        font-size: 8px;
+        font-weight: 200;
+    }
 }
 </style>
 
