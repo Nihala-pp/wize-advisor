@@ -3694,6 +3694,19 @@ img.rounded-circle {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .elementor-2915 .elementor-element.elementor-element-4f700ca {
+        text-align: justify;
+        color: #000000;
+        font-family: "Sailec", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 </style>
 
 </html>
