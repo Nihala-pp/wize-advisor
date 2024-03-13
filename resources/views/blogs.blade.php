@@ -3590,8 +3590,6 @@ img.rounded-circle {
         padding: 0px 0px 0px 20px;
         margin-top: 60px;
     }
-
-    .
 }
 
 @media (max-width: 360px) {}
