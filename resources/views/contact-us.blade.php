@@ -3807,6 +3807,21 @@ img.rounded-circle {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-13 .elementor-element.elementor-element-b49818b .elementor-icon-box-description {
+        font-size: 15px;
+    }
+
+    .elementor-13 .elementor-element.elementor-element-28ecdb1 .elementor-icon-box-description {
+        font-size: 15px;
+    }
+
+    .elementor-13 .elementor-element.elementor-element-c4c0a58 .elementor-icon-box-description {
+        font-size: 15px;
+    }
+}
+
+
 @media (max-width: 360px) {}
 
 @media (max-width: 375px) {}
