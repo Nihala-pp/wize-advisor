@@ -3590,6 +3590,8 @@ img.rounded-circle {
         padding: 0px 0px 0px 20px;
         margin-top: 60px;
     }
+
+    .
 }
 
 @media (max-width: 360px) {}
@@ -3597,6 +3599,17 @@ img.rounded-circle {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-2650 .elementor-element.elementor-element-0708f7f .elementor-heading-title {
+        font-size: 68px;
+        letter-spacing: -5px;
+    }
+
+    .elementor-2650 .elementor-element.elementor-element-ef970f2 {
+        padding: 20px 10px 0px 10px;
+    }
+}
 </style>
 
 </html>
