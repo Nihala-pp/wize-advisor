@@ -3558,6 +3558,21 @@ img.rounded-circle {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
-</style>
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-2917 .elementor-element.elementor-element-2efd286 {
+        color: #000000;
+        font-family: "Sailec", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: justify;
+    }
+
+    .INFO {
+        margin-top:-20px;
+    }
+}
+</style>
 </html>
