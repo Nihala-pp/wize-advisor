@@ -2163,12 +2163,12 @@
                                     handling of your personal information, please contact our Privacy Team at <a
                                         href="mailto:info@wiseadvizor.com">info@wiseadvizor.com</a>. We are committed to
                                     addressing your inquiries and resolving any privacy concerns in a timely manner.</p>
-                                <p> </p>
+                                <!-- <p> </p> -->
                                 <p>Please note that this Privacy Policy applies to wiseAdvizor only. If you access
                                     external websites or platforms through links provided on wiseAdvizor, please review
                                     their respective privacy policies, as we do not control or take responsibility for
                                     the privacy practices of those third-party sites.</p>
-                                <p> </p>
+                                <!-- <p> </p> -->
                                 <p>By using wiseAdvizor, you acknowledge that you have read, understood, and agreed to
                                     the terms of this Privacy Policy. You consent to the collection, use, and disclosure
                                     of your personal information as described herein.</p>
