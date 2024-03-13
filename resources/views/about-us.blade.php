@@ -4140,6 +4140,17 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .elementor-11 .elementor-element.elementor-element-9f04a37 {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .elementor-11 .elementor-element.elementor-element-59520de>.elementor-widget-container {
+        padding: 0px 0px 50px 0px;
+    }
+}
 </style>
 
 </html>
