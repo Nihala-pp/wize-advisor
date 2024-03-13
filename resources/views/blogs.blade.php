@@ -3609,6 +3609,10 @@ img.rounded-circle {
     .elementor-2650 .elementor-element.elementor-element-ef970f2 {
         padding: 20px 10px 0px 10px;
     }
+
+    .elementor-2650 .elementor-element.elementor-element-mnvl3gb {
+        padding: 50px 0px 20px 0px;
+    }
 }
 </style>
 
