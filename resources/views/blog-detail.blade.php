@@ -3584,6 +3584,18 @@ img.rounded-circle {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-4349 .elementor-element.elementor-element-gbthqh4 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-oxz7tx7 {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+}
 </style>
 
 </html>
