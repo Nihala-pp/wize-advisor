@@ -3613,6 +3613,11 @@ img.rounded-circle {
     .elementor-2650 .elementor-element.elementor-element-mnvl3gb {
         padding: 50px 0px 20px 0px;
     }
+
+    .elementor-4349 .elementor-element.elementor-element-oxz7tx7 {
+        margin-top: 65px;
+        margin-bottom: 0px;
+    }
 }
 </style>
 
