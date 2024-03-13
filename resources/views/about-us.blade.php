@@ -4018,7 +4018,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .uploadcv {
-        margin-top: -75px !important;
+        margin-top: -100px !important;
     }
 
     /* .signin {
