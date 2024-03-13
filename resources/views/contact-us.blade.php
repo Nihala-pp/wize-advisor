@@ -3711,6 +3711,10 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-13 .elementor-element.elementor-element-3214698 {
+        margin-top: -190px;
+        padding: 30px 0px 0px 0px;
+    }
 
     .elementor-13 .elementor-element.elementor-element-3214698 {
         padding: 30px 0px 0px 0px;
