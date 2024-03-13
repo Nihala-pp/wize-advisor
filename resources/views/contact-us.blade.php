@@ -3819,6 +3819,10 @@ img.rounded-circle {
     .elementor-13 .elementor-element.elementor-element-c4c0a58 .elementor-icon-box-description {
         font-size: 15px;
     }
+
+    .elementor-13 .elementor-element.elementor-element-fabf113>.elementor-element-populated {
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 
