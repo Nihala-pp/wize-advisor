@@ -19,6 +19,7 @@
         href="https://wiseadvizor.com/comments/feed/" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <link rel='stylesheet' id='elementor-post-5607-css' href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5607.css?ver=1710409200' media='all' />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
