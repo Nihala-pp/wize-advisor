@@ -1668,9 +1668,10 @@
                 </div>
             </header>
             <header
-                class="elementor-section elementor-top-section elementor-element elementor-element-0483eab elementor-section-full_width she-header-yes elementor-hidden-mobile elementor-hidden-desktop elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                class="elementor-section elementor-top-section elementor-element elementor-element-0483eab elementor-section-full_width she-header-yes elementor-hidden-mobile elementor-hidden-desktop elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects header"
                 data-id="0483eab" data-element_type="section"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#FFFFFF&quot;,&quot;bottom_border&quot;:&quot;yes&quot;,&quot;custom_bottom_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#FFFFFF&quot;,&quot;bottom_border&quot;:&quot;yes&quot;,&quot;custom_bottom_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:60,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                style="position: fixed; width: 1024px; margin-top: 0px; margin-bottom: 0px; top: 32px;">
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-no">
                     <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-420732f"
@@ -1703,7 +1704,7 @@
                                             class="attachment-large size-large wp-image-624" alt=""
                                             srcset="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 750px) 100vw, 750px"
-                                            style="width:100%;height:15.02%;max-width:932px" /> </a>
+                                            style="width:100%;height:15.02%;max-width:932px"> </a>
                                 </div>
                             </div>
                         </div>
@@ -1718,7 +1719,8 @@
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal" data-last-item="cta">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
+                                            aria-haspopup="true" aria-expanded="false">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                             </div>
@@ -1730,35 +1732,34 @@
                                                 <li id="menu-item-5475" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.wiseadvizor.com/elementor-5225/" itemprop="url"
-                                                        class="hfe-menu-item">How it works</a>
-                                                </li>
+                                                        class="hfe-menu-item">How it works</a></li>
                                                 <li id="menu-item-26" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
-                                                        class="hfe-menu-item">FAQ</a>
-                                                </li>
+                                                        class="hfe-menu-item">FAQ</a></li>
                                                 <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                    <div class="hfe-has-submenu-container"><a
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
+                                                    <div class="hfe-has-submenu-container elementor-button-wrapper"><a
                                                             href="https://web.wiseadvizor.com/resources/" itemprop="url"
-                                                            class="hfe-menu-item">Resource<span
-                                                                class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                                    class='fa'></i></span></a></div><button
+                                                            class="hfe-menu-item elementor-button" aria-haspopup="true"
+                                                            aria-expanded="false">Resource<span
+                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
+                                                                    class="fa"></i></span></a></div><button
                                                         class="sub-menu-toggle" aria-expanded="false"
-                                                        onClick="twentytwentyoneExpandSubMenu(this)"><span
+                                                        onclick="twentytwentyoneExpandSubMenu(this)"><span
                                                             class="icon-plus"><svg class="svg-icon" width="18"
                                                                 height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
                                                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                                                     d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z"
-                                                                    fill="currentColor" />
+                                                                    fill="currentColor"></path>
                                                             </svg></span><span class="icon-minus"><svg class="svg-icon"
                                                                 width="18" height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
                                                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M6 11h12v2H6z" fill="currentColor" />
+                                                                    d="M6 11h12v2H6z" fill="currentColor"></path>
                                                             </svg></span><span class="screen-reader-text">Open
                                                             menu</span></button>
                                                     <ul class="sub-menu">
@@ -1766,8 +1767,7 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a>
-                                                        </li>
+                                                                Post</a></li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/libraries/"
@@ -1776,8 +1776,7 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a>
-                                                        </li>
+                                                                class="hfe-sub-menu-item">BLOGS</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
