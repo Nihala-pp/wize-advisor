@@ -19,7 +19,8 @@
         href="https://wiseadvizor.com/comments/feed/" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
-    <link rel='stylesheet' id='elementor-post-5607-css' href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5607.css?ver=1710409200' media='all' />
+    <link rel='stylesheet' id='elementor-post-5607-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5607.css?ver=1710409200' media='all' />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1729,11 +1730,13 @@
                                                 <li id="menu-item-5475" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.wiseadvizor.com/elementor-5225/" itemprop="url"
-                                                        class="hfe-menu-item">How it works</a></li>
+                                                        class="hfe-menu-item">How it works</a>
+                                                </li>
                                                 <li id="menu-item-26" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
-                                                        class="hfe-menu-item">FAQ</a></li>
+                                                        class="hfe-menu-item">FAQ</a>
+                                                </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
                                                     <div class="hfe-has-submenu-container"><a
@@ -1763,7 +1766,8 @@
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a></li>
+                                                                Post</a>
+                                                        </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/libraries/"
@@ -1772,7 +1776,8 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a></li>
+                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -4507,6 +4512,12 @@ margin-bottom: 10px;
 @media (min-width: 540px) {}
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .wp-image-624 {
+        width: 100%;
+        height: 15.02%;
+        max-width: 150px;
+    }
 
     .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
         font-size: 40px;
