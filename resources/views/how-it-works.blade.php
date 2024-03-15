@@ -4516,7 +4516,7 @@ margin-bottom: 10px;
     .wp-image-624 {
         width: 100%;
         height: 15.02%;
-        max-width: 150px;
+        max-width: 150px !important;
     }
 
     .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
