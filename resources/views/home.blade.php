@@ -5024,7 +5024,7 @@
                                     <footer>
                                         <cite class="elementor-blockquote__author">Deep Shikha </br> Co
                                             -
-                                            Founder</cite>
+                                            Managing Director</cite>
                                     </footer>
                                 </blockquote>
                             </div>
