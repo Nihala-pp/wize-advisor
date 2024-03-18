@@ -5022,8 +5022,7 @@
                                         challenges and thrive in the competitive business landscape.
                                     </p>
                                     <footer>
-                                        <cite class="elementor-blockquote__author">Deep Shikha </br> Co
-                                            -
+                                        <cite class="elementor-blockquote__author">Deep Shikha </br> 
                                             Managing Director</cite>
                                     </footer>
                                 </blockquote>
