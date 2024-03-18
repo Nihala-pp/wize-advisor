@@ -2271,8 +2271,8 @@
                                                                     </div>
                                                                     <div class="card_carousel_title">Deep Shikha
                                                                     </div>
-                                                                    <p class="card_carousel_text">General
-                                                                        Manager</p>
+                                                                    <p class="card_carousel_text">Managing Director
+                                                                        </p>
                                                                 </div>
                                                             </div>
                                                         </div>
