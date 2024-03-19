@@ -1750,16 +1750,17 @@
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
-                                                    <div class="hfe-has-submenu-container elementor-button-wrapper resource-button"><a
-                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                    <div
+                                                        class="hfe-has-submenu-container elementor-button-wrapper resource-button">
+                                                        <a href="https://web.wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item elementor-button" aria-haspopup="true"
                                                             aria-expanded="false">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
-                                                                    <!-- <button
+                                                    <!-- <button
                                                         class="sub-menu-toggle" aria-expanded="false"
                                                         onclick="twentytwentyoneExpandSubMenu(this)"> -->
-                                                        <!-- <span class="icon-plus"><svg class="svg-icon" width="18"
+                                                    <!-- <span class="icon-plus"><svg class="svg-icon" width="18"
                                                                 height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1770,12 +1771,12 @@
                                                                 width="18" height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg"> -->
-                                                                <!-- <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    <!-- <path fill-rule="evenodd" clip-rule="evenodd"
                                                                     d="M6 11h12v2H6z" fill="currentColor"></path>
                                                             </svg></span> -->
-                                                            <!-- <span class="screen-reader-text">Open
+                                                    <!-- <span class="screen-reader-text">Open
                                                             menu</span> -->
-                                                        <!-- </button> -->
+                                                    <!-- </button> -->
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -4483,6 +4484,11 @@
     </script>
 </body>
 <style>
+    
+.resource-button {
+    background-color: #fff !important;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -30px;
     padding-left: 10px !important;
@@ -4769,9 +4775,7 @@ margin-bottom: 10px;
         margin-left: 20px;
     }
 
-    .resource-button {
-        background-color: #fff !important;
-    }
+
 
     /* .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu a.hfe-sub-menu-item {
