@@ -4769,11 +4769,11 @@ margin-bottom: 10px;
         margin-left: 20px;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item,
+    /* .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu a.hfe-sub-menu-item {
         color: var(--e-global-color-1e1892c);
         background-color: white;
-    }
+    } */
 }
 </style>
 
