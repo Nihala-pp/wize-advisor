@@ -1717,7 +1717,7 @@
                                 data-widget_type="navigation-menu.default">
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                        data-layout="horizontal" data-last-item="cta">
+                                        data-layout="horizontal">
                                         <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
                                             aria-haspopup="true" aria-expanded="false">
                                             <span class="screen-reader-text">Menu</span>
