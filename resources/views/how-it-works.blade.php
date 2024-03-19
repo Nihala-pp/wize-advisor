@@ -1740,19 +1740,19 @@
                                             <ul id="menu-1-28654d1" class="hfe-nav-menu">
                                                 <li id="menu-item-5475" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/elementor-5225/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/elementor-5225/" itemprop="url"
                                                         class="hfe-menu-item">How it works</a>
                                                 </li>
                                                 <li id="menu-item-26" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                         class="hfe-menu-item">FAQ's</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div
                                                         class="hfe-has-submenu-container elementor-button-wrapper resource-button">
-                                                        <a href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                        <a href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item elementor-button" aria-haspopup="true"
                                                             aria-expanded="false">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
@@ -1781,18 +1781,18 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/community-post/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a>
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/libraries/"
+                                                            <a href="https://wiseadvizor.com/libraries/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
@@ -1934,9 +1934,9 @@
                                     }
                                     </style> <a href="https://web.pransainvestment.ca/home">
                                         <img fetchpriority="high" decoding="async" width="750" height="113"
-                                            src="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
+                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624" alt=""
-                                            srcset="https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
+                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
                                             sizes="(max-width: 750px) 100vw, 750px"
                                             style="width:100%;height:15.02%;max-width:932px"> </a>
                                 </div>
@@ -1965,16 +1965,16 @@
                                             <ul id="menu-1-28654d1" class="hfe-nav-menu">
                                                 <li id="menu-item-5475" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/elementor-5225/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/elementor-5225/" itemprop="url"
                                                         class="hfe-menu-item">How it works</a></li>
                                                 <li id="menu-item-26" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/blogs/" itemprop="url"
                                                         class="hfe-menu-item">FAQ</a></li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container elementor-button-wrapper"><a
-                                                            href="https://web.wiseadvizor.com/resources/" itemprop="url"
+                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item elementor-button" aria-haspopup="true"
                                                             aria-expanded="false">Resource<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
@@ -1999,17 +1999,17 @@
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/community-post/"
+                                                            <a href="https://wiseadvizor.com/community-post/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Community
                                                                 Post</a></li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/libraries/"
+                                                            <a href="https://wiseadvizor.com/libraries/"
                                                                 itemprop="url" class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
+                                                            <a href="https://wiseadvizor.com/faq/" itemprop="url"
                                                                 class="hfe-sub-menu-item">BLOGS</a></li>
                                                     </ul>
                                                 </li>
@@ -4807,5 +4807,4 @@ margin-bottom: 10px;
     } */
 }
 </style>
-
 </html>
