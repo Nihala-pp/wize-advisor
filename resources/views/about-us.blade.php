@@ -1876,8 +1876,8 @@
                                                         </li>
                                                         <li id="menu-item-25" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Libraries</a>
+                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
+                                                                class="hfe-sub-menu-item">Libraries</a>
                                                         </li>
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
@@ -2506,7 +2506,7 @@
                                                                     <div class="card_carousel_title">Deep Shikha
                                                                     </div>
                                                                     <p class="card_carousel_text">Managing Director
-                                                                        </p>
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -4186,6 +4186,10 @@
 /* .browseMentor {
     padding-right: 20px;
 } */
+
+.resource-button {
+    background-color: #fff !important;
+}
 
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
