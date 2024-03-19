@@ -1772,8 +1772,9 @@
                                                                 <!-- <path fill-rule="evenodd" clip-rule="evenodd"
                                                                     d="M6 11h12v2H6z" fill="currentColor"></path>
                                                             </svg></span> -->
-                                                            <span class="screen-reader-text">Open
-                                                            menu</span></button>
+                                                            <!-- <span class="screen-reader-text">Open
+                                                            menu</span> -->
+                                                        </button>
                                                     <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
