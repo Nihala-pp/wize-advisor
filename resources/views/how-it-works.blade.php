@@ -1775,7 +1775,7 @@
                         </div>
                     </div>
                     <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
-                        data-id="a87489f" data-element_type="column">
+                        data-id="a87489f" data-element_type="section">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
                                 data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
