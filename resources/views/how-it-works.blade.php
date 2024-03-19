@@ -1746,14 +1746,14 @@
                                                 <li id="menu-item-26" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.wiseadvizor.com/blogs/" itemprop="url"
-                                                        class="hfe-menu-item">FAQ</a>
+                                                        class="hfe-menu-item">FAQ's</a>
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
                                                     <div class="hfe-has-submenu-container elementor-button-wrapper"><a
                                                             href="https://web.wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item elementor-button" aria-haspopup="true"
-                                                            aria-expanded="false">Resource<span
+                                                            aria-expanded="false">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div>
                                                                     <!-- <button
@@ -1791,7 +1791,7 @@
                                                         <li id="menu-item-2842" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://web.wiseadvizor.com/faq/" itemprop="url"
-                                                                class="hfe-sub-menu-item">BLOGS</a>
+                                                                class="hfe-sub-menu-item">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </li>
