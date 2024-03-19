@@ -1756,7 +1756,8 @@
                                                             class="hfe-menu-item elementor-button" aria-haspopup="true"
                                                             aria-expanded="false">Resources<span
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div>
+                                                                    class="fa"></i></span></a>
+                                                    </div>
                                                     <!-- <button
                                                         class="sub-menu-toggle" aria-expanded="false"
                                                         onclick="twentytwentyoneExpandSubMenu(this)"> -->
@@ -4484,7 +4485,6 @@
     </script>
 </body>
 <style>
-
 .resource-button {
     background-color: #fff !important;
 }
@@ -4779,7 +4779,26 @@ margin-bottom: 10px;
         background-color: #fff !important;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        margin-right: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
 
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
 
     /* .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu a.hfe-sub-menu-item {
