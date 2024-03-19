@@ -4484,7 +4484,7 @@
     </script>
 </body>
 <style>
-    
+
 .resource-button {
     background-color: #fff !important;
 }
@@ -4773,6 +4773,10 @@ margin-bottom: 10px;
         margin-top: 0;
         margin-bottom: 1rem;
         margin-left: 20px;
+    }
+
+    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
+        background-color: #fff !important;
     }
 
 
