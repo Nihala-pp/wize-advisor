@@ -1750,7 +1750,7 @@
                                                 </li>
                                                 <li id="menu-item-27" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
-                                                    <div class="hfe-has-submenu-container elementor-button-wrapper"><a
+                                                    <div class="hfe-has-submenu-container elementor-button-wrapper resource-button"><a
                                                             href="https://web.wiseadvizor.com/resources/" itemprop="url"
                                                             class="hfe-menu-item elementor-button" aria-haspopup="true"
                                                             aria-expanded="false">Resources<span
@@ -4769,8 +4769,8 @@ margin-bottom: 10px;
         margin-left: 20px;
     }
 
-    #menu-item-27 {
-        background-color: white;
+    .resource-button {
+        background-color: #fff !important;
     }
 
     /* .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item,
