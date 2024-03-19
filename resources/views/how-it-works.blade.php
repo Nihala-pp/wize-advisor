@@ -1757,8 +1757,8 @@
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a></div><button
                                                         class="sub-menu-toggle" aria-expanded="false"
-                                                        onclick="twentytwentyoneExpandSubMenu(this)"><span
-                                                            class="icon-plus"><svg class="svg-icon" width="18"
+                                                        onclick="twentytwentyoneExpandSubMenu(this)">
+                                                        <!-- <span class="icon-plus"><svg class="svg-icon" width="18"
                                                                 height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1768,7 +1768,7 @@
                                                             </svg></span><span class="icon-minus"><svg class="svg-icon"
                                                                 width="18" height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                xmlns="http://www.w3.org/2000/svg"> -->
                                                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                                                     d="M6 11h12v2H6z" fill="currentColor"></path>
                                                             </svg></span><span class="screen-reader-text">Open
