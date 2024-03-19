@@ -1737,7 +1737,7 @@
                                         <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
                                             class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                                             data-toggle-icon="" data-close-icon="" data-full-width="">
-                                            <ul id="menu-1-28654d1" class="hfe-nav-menu" style="background-color:#001E64">
+                                            <ul id="menu-1-28654d1" class="hfe-nav-menu">
                                                 <li id="menu-item-5475" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
                                                     <a href="https://web.wiseadvizor.com/elementor-5225/" itemprop="url"
