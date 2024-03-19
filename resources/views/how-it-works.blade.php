@@ -1717,13 +1717,22 @@
                                 data-widget_type="navigation-menu.default">
                                 <div class="elementor-widget-container">
                                     <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
+                                        data-layout="horizontal" data-last-item="cta">
+                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            <span class="screen-reader-text">Menu</span>
+                                            <div class="hfe-nav-menu-icon">
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal">
                                         <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
                                             <span class="screen-reader-text">Menu</span>
                                             <div class="hfe-nav-menu-icon">
                                                 <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
                                             class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                                             data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
