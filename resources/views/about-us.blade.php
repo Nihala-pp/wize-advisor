@@ -4446,6 +4446,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         color: var(--e-global-color-1e1892c);
         background-color: #fff;
+        font-weight: 700;
     }
 }
 </style>
