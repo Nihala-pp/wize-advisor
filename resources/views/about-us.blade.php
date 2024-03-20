@@ -4438,6 +4438,15 @@ i.fas.fa-bell.fa-2xl {
         border-style: none;
         border-radius: 7px 7px 7px 7px;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        color: var(--e-global-color-1e1892c);
+        background-color: #fff;
+    }
 }
 </style>
 
