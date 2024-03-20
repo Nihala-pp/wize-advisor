@@ -4448,6 +4448,14 @@ i.fas.fa-bell.fa-2xl {
         background-color: #fff;
         font-weight: 700;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu li.menu-item:not(:last-child),
+    .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown li.menu-item:not(:last-child),
+    .elementor-3007 .elementor-element.elementor-element-359f243 nav.hfe-dropdown-expandible li.menu-item:not(:last-child) {
+        /* border-bottom-style: solid; */
+        border-bottom-color: #c4c4c4;
+        border-bottom-width: 1px;
+    }
 }
 </style>
 
