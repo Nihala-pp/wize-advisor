@@ -5161,7 +5161,7 @@
                                         challenges and thrive in the competitive business landscape.
                                     </p>
                                     <footer>
-                                        <cite class="elementor-blockquote__author">Deep Shikha </br> 
+                                        <cite class="elementor-blockquote__author">Deep Shikha </br>
                                             Managing Director</cite>
                                     </footer>
                                 </blockquote>
@@ -7649,6 +7649,14 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         font-size: 8px;
         font-weight: 200;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-ae81400 .elementor-button {
+        font-size: 10px !important;
+    }
+
+    .elementor-30 .elementor-element.elementor-element-02e763c .elementor-button {
+        font-size: 10px !important;
     }
 }
 </style>
