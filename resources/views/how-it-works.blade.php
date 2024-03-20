@@ -1680,8 +1680,8 @@
                             <div class="elementor-element elementor-element-4a940d6 elementor-widget elementor-widget-image"
                                 data-id="4a940d6" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container"> -->
-                                    <!-- <style> -->
-                                    <!-- /*! elementor - v3.14.0 - 26-06-2023 */
+            <!-- <style> -->
+            <!-- /*! elementor - v3.14.0 - 26-06-2023 */
                                     .elementor-widget-image {
                                         text-align: center
                                     }
@@ -1698,7 +1698,7 @@
                                         vertical-align: middle;
                                         display: inline-block
                                     } -->
-                                    <!-- </style> <a href="https://wiseadvizor.com">
+            <!-- </style> <a href="https://wiseadvizor.com">
                                         <img width="932" height="140"
                                             src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                             class="attachment-large size-large wp-image-624"
@@ -1726,7 +1726,7 @@
                                             </div>
                                         </div> -->
 
-                                        <!-- <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
+            <!-- <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
                                         data-layout="horizontal">
                                         <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
                                             <span class="screen-reader-text">Menu</span>
@@ -1734,7 +1734,7 @@
                                                 <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
                                             </div>
                                         </div> -->
-                                        <!-- <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
+            <!-- <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
                                             class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
                                             data-toggle-icon="" data-close-icon="" data-full-width="">
                                             <ul id="menu-1-28654d1" class="hfe-nav-menu">
@@ -1758,10 +1758,10 @@
                                                                 class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
                                                                     class="fa"></i></span></a>
                                                     </div> -->
-                                                    <!-- <button
+            <!-- <button
                                                         class="sub-menu-toggle" aria-expanded="false"
                                                         onclick="twentytwentyoneExpandSubMenu(this)"> -->
-                                                    <!-- <span class="icon-plus"><svg class="svg-icon" width="18"
+            <!-- <span class="icon-plus"><svg class="svg-icon" width="18"
                                                                 height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1772,13 +1772,13 @@
                                                                 width="18" height="18" aria-hidden="true" role="img"
                                                                 focusable="false" viewBox="0 0 24 24" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg"> -->
-                                                    <!-- <path fill-rule="evenodd" clip-rule="evenodd"
+            <!-- <path fill-rule="evenodd" clip-rule="evenodd"
                                                                     d="M6 11h12v2H6z" fill="currentColor"></path>
                                                             </svg></span> -->
-                                                    <!-- <span class="screen-reader-text">Open
+            <!-- <span class="screen-reader-text">Open
                                                             menu</span> -->
-                                                    <!-- </button> -->
-                                                    <!-- <ul class="sub-menu">
+            <!-- </button> -->
+            <!-- <ul class="sub-menu">
                                                         <li id="menu-item-24" itemprop="name"
                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
                                                             <a href="https://wiseadvizor.com/community-post/"
@@ -1804,7 +1804,7 @@
                             </div>
                         </div>
                     </div> -->
-                    <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
+            <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
                         data-id="a87489f" data-element_type="section">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
@@ -1832,7 +1832,7 @@
                                                     <i class="fas fa-bell fa-2xl"></i>
                                                      <span
                                                         class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                                <!-- </a>
+            <!-- </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
                                                     <li>
@@ -1846,7 +1846,7 @@
                                                     </li>
                                                 </ul>
                                             </div> -->
-                                            <!-- <div class="dropdown">
+            <!-- <div class="dropdown">
                                                 <a class="dropdown-toggle d-flex align-items-center" href="#"
                                                     id="navbarDropdownMenuAvatar" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">
@@ -1886,7 +1886,7 @@
                                                 </ul>
                                             </div>
                                         </div> -->
-                                        <!-- @else
+            <!-- @else
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
                                             href="{{ route('login') }}">
                                             <span class="elementor-button-content-wrapper">
@@ -4954,6 +4954,11 @@ margin-bottom: 10px;
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+        padding: 25px 10px 0px 0px;
+        margin-left: -60px;
+    }
+
     .wp-image-624 {
         width: 100%;
         height: 15.02%;
@@ -5011,4 +5016,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>
