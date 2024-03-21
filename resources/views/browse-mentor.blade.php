@@ -4654,6 +4654,12 @@ i.fas.fa-bell.fa-2xl {
         background-color: #F3EEF5;
         padding-left: 85px;
     }
+
+    .search {
+        width: 70%;
+        text-align: left;
+        /* background-color: #000; */
+    }
 }
 
 @media screen and (max-width: 820px) {
