@@ -4643,6 +4643,12 @@ i.fas.fa-bell.fa-2xl {
         margin-bottom: 0px;
         padding: 20px 20px 20px 20px;
     }
+
+    .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
+    .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        padding-left: 180px;
+        background-color: #F3EEF5;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -5133,9 +5139,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    
-}
+@media (min-width: 768px) and (max-width: 1024px) {}
 </style>
 
 </html>
