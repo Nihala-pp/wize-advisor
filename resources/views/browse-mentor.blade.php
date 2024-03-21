@@ -4720,6 +4720,23 @@ i.fas.fa-bell.fa-2xl {
         padding: 20px 20px 20px 20px;
     }
 
+    .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
+    .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #F3EEF5;
+        padding-left: 200px;
+    }
+
+    .filter-section {
+        background-color: #F3EEF5;
+        padding-left: 110px;
+    }
+
+    .search {
+        width: 68%;
+        text-align: left;
+        /* background-color: #000; */
+    }
+
     /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         margin-top: -47px;
