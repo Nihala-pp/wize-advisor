@@ -4652,7 +4652,7 @@ i.fas.fa-bell.fa-2xl {
 
     .filter-section {
         background-color: #F3EEF5;
-        padding-left: 80px;
+        padding-left: 85px;
     }
 }
 
