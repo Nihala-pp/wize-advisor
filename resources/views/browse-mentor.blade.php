@@ -4649,6 +4649,11 @@ i.fas.fa-bell.fa-2xl {
         padding-left: 180px;
         background-color: #F3EEF5;
     }
+
+    .filter-section {
+        background-color: #F3EEF5;
+        padding-left: 80px;
+    }
 }
 
 @media screen and (max-width: 820px) {
