@@ -8,12 +8,12 @@
 * Coded by Nihala PP
 
 =========================================================
-
 -->
 <!DOCTYPE html>
 <html lang="en">
-<title> Your Go-To Business Coach for Building a Successful Startup   </title>
-<meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
+<title> Your Go-To Business Coach for Building a Successful Startup </title>
+<meta name="description"
+    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
 <meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
 
@@ -157,13 +157,19 @@
 
 </html>
 <style>
-@media only screen and (min-width: 767px) and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {
     .loginForm {
         padding-left: 750px;
     }
 
     h1 {
-        font-size:17px !important;
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .loginForm {
+        padding-left: 0px;
     }
 }
 </style>
