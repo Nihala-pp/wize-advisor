@@ -4628,6 +4628,12 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
     }
+
+    .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
+    .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #F3EEF5;
+        padding-left: 275px;
+    }
 }
 
 @media screen and (max-width: 768px) {
