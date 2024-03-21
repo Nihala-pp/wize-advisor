@@ -4656,7 +4656,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .search {
-        width: 70%;
+        width: 80%;
         text-align: left;
         /* background-color: #000; */
     }
