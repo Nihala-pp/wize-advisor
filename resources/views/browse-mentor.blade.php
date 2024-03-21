@@ -4662,8 +4662,6 @@ i.fas.fa-bell.fa-2xl {
         width: 65%;
         text-align: left;
         background-color: #000;
-        /* margin-left: 125px
- !important; */
     }
 
     .wp-image-5531 {
