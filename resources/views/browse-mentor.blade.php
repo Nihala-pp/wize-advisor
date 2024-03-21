@@ -4646,7 +4646,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
     .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        padding-left: 180px;
+        padding-left: 200px;
         background-color: #F3EEF5;
     }
 
