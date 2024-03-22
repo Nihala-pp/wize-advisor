@@ -12,7 +12,7 @@
     <meta name="robots" content="max-image-preview:large">
     <title>Top mentoring organizations: one on one mentoring</title>
     <meta name="description"
-        content="Experience the transformative impact of one-on-one mentoring through our organization, empowering individuals and fostering growth in mentoring relationships.">
+        content="Enhance your library knowledge and skills by joining our mentorship platform. Connect with mentors, access resources, and grow in your library career.">
     <meta name="keywords" content="mentoring organizations, one on one mentoring">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
