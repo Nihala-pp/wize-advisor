@@ -1396,7 +1396,7 @@
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/browse-mentor/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/BrowseMentors/" itemprop="url"
                                                         class="hfe-menu-item">Browse Mentor</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
@@ -3264,7 +3264,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
+                                                                href="https://wiseadvizor.com/BrowseMentors/">Browse
                                                                 Mentors</a></p>
                                                     </div>
                                                 </div>
