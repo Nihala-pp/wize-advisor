@@ -4216,7 +4216,7 @@
 
                                                     .e-con-inner .elementor-progress-wrapper,
                                                     .e-con .elementor-progress-wrapper {
-                                                        height: auto
+                                                        height: auto;
                                                     }
                                                 </style>
                                                     <div class="elementor-progress-wrapper" role="progressbar"
