@@ -5963,6 +5963,53 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.elementor-widget-progress {
+    text-align: left;
+}
+
+.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-1e1892c);
+}
+
+.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-bar {
+    height: 22px;
+    line-height: 22px;
+}
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.elementor-progress-text {
+    flex-grow: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-bar {
+    height: 22px;
+    line-height: 22px;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
