@@ -1069,14 +1069,14 @@
     <link rel="stylesheet" id="elementor-post-32-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1703156331" media="all">
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.2"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3"
         media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.2"
-        media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.2"
-        media="all">
+    <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3'
+        media='all' />
+    <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
+        media='all' />
     <link rel="stylesheet" id="theplus-front-css-css"
         href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1703246740" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
@@ -5623,7 +5623,7 @@
     });
     </script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.2"
+        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
