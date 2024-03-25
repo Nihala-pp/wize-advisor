@@ -4130,7 +4130,7 @@
                                                 data-id="04525b6" data-element_type="widget"
                                                 data-widget_type="progress.default">
                                                 <div class="elementor-widget-container">
-                                                    <style>
+                                                    <!-- <style>
                                                     /*! elementor - v3.19.0 - 29-01-2024 */
                                                     .elementor-widget-progress {
                                                         text-align: left
@@ -4197,8 +4197,8 @@
                                                     .e-con .elementor-progress-wrapper {
                                                         height: auto
                                                     }
-                                                    </style>
-                                                    <!-- <style>
+                                                    </style> -->
+                                                    <style>
                                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                                     .elementor-widget-progress {
                                                         text-align: left
@@ -4265,7 +4265,7 @@
                                                     .e-con .elementor-progress-wrapper {
                                                         height: auto
                                                     }
-                                                    </style> -->
+                                                </style>
                                                     <div class="elementor-progress-wrapper" role="progressbar"
                                                         aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                         aria-valuetext="100% (Mobile Premier League )">
