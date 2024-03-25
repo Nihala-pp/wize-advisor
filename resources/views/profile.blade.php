@@ -1130,6 +1130,19 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.10"
         id="she-header-js"></script>
+    <script id="elementor-pro-app-js-before">
+    var elementorAppProConfig = {
+        "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
+        "site-editor": {
+            "urls": {
+                "legacy_view": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
+            }
+        },
+        "kit-library": [],
+        "onboarding": [],
+        "import-export": []
+    };
+    </script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2372">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
