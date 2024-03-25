@@ -5963,7 +5963,7 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-wrapper {
+/* .elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-wrapper {
     border-radius: 10px;
     overflow: hidden;
 }
@@ -6008,7 +6008,7 @@
 .elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-bar {
     height: 22px;
     line-height: 22px;
-}
+} */
 
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
