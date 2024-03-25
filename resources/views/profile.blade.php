@@ -4079,12 +4079,59 @@
                                 data-id="12b61d0" data-element_type="widget" data-widget_type="divider.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-divider">
-                                            <div class="elementor-element elementor-element-04525b6 elementor-widget elementor-widget-progress"
-                                                data-id="04525b6" data-element_type="widget"
+                                        <span class="elementor-divider-separator">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-9905fba elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                data-id="9905fba" data-element_type="section"
+                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-background-overlay"></div>
+                                <div class="elementor-container elementor-column-gap-no">
+                                    @foreach($experience as $exp)
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8a50591"
+                                        data-id="8a50591" data-element_type="column"
+                                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-background-overlay"></div>
+                                            <div class="elementor-element elementor-element-3f8ebce elementor-widget elementor-widget-heading"
+                                                data-id="3f8ebce" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <span class="elementor-heading-title elementor-size-medium">
+                                                        {{ $exp->position }}</span>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-3af0bab elementor-widget elementor-widget-heading"
+                                                data-id="3af0bab" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container date">
+                                                    <span class="elementor-heading-title elementor-size-default">
+                                                        {{ $exp->start_date }} To
+                                                        {{ $exp->end_date ? $exp->end_date : 'Present' }}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5c6f3ea elementor-widget elementor-widget-text-editor"
+                                                data-id="5c6f3ea" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul>
+                                                        @php
+                                                        $text = str_ireplace("<br />", "\r\n", $exp->description);
+                                                        echo $text;
+                                                        @endphp
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-7c40f05 elementor-widget elementor-widget-progress"
+                                                data-id="7c40f05" data-element_type="widget"
                                                 data-widget_type="progress.default">
                                                 <div class="elementor-widget-container">
-                                                    <!-- <style>
-                                                    /*! elementor - v3.19.0 - 29-01-2024 */
+                                                    <style>
+                                                    /*! elementor - v3.14.0 - 26-06-2023 */
                                                     .elementor-widget-progress {
                                                         text-align: left
                                                     }
@@ -4150,75 +4197,7 @@
                                                     .e-con .elementor-progress-wrapper {
                                                         height: auto
                                                     }
-                                                    </style> -->
-                                                    <style>
-                                                    /*! elementor - v3.18.0 - 20-12-2023 */
-                                                    .elementor-widget-progress {
-                                                        text-align: left
-                                                    }
-
-                                                    .elementor-progress-wrapper {
-                                                        position: relative;
-                                                        background-color: #eee;
-                                                        color: #fff;
-                                                        height: 100%;
-                                                        border-radius: 2px
-                                                    }
-
-                                                    .elementor-progress-bar {
-                                                        display: flex;
-                                                        background-color: #69727d;
-                                                        width: 0;
-                                                        font-size: 11px;
-                                                        height: 30px;
-                                                        line-height: 30px;
-                                                        border-radius: 2px;
-                                                        transition: width 1s ease-in-out
-                                                    }
-
-                                                    .elementor-progress-text {
-                                                        flex-grow: 1;
-                                                        white-space: nowrap;
-                                                        text-overflow: ellipsis;
-                                                        overflow: hidden;
-                                                        padding-left: 15px
-                                                    }
-
-                                                    .elementor-progress-percentage {
-                                                        padding-right: 15px
-                                                    }
-
-                                                    .elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
-                                                        background-color: #5bc0de
-                                                    }
-
-                                                    .elementor-widget-progress .elementor-progress-wrapper.progress-success .elementor-progress-bar {
-                                                        background-color: #5cb85c
-                                                    }
-
-                                                    .elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
-                                                        background-color: #f0ad4e
-                                                    }
-
-                                                    .elementor-widget-progress .elementor-progress-wrapper.progress-danger .elementor-progress-bar {
-                                                        background-color: #d9534f
-                                                    }
-
-                                                    .elementor-progress .elementor-title {
-                                                        display: block
-                                                    }
-
-                                                    @media (max-width:767px) {
-                                                        .elementor-progress-text {
-                                                            padding-left: 10px
-                                                        }
-                                                    }
-
-                                                    .e-con-inner .elementor-progress-wrapper,
-                                                    .e-con .elementor-progress-wrapper {
-                                                        height: auto;
-                                                    }
-                                                </style>
+                                                    </style>
                                                     <div class="elementor-progress-wrapper" role="progressbar"
                                                         aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                         aria-valuetext="100% (Mobile Premier League )">
@@ -4228,74 +4207,11 @@
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="elementor-progress-wrapper" role="progressbar"
-                                                        aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"
-                                                        aria-valuetext="75% (Startup Grind New Cairo)">
-                                                        <div class="elementor-progress-bar" data-max="75">
-                                                            <span
-                                                                class="elementor-progress-text">{{ $exp->company_name }}</span>
-                                                        </div>
-                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- @endforeach -->
-
-                                    <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-94b9e38"
-                                    data-id="94b9e38" data-element_type="column"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-66e6ed3 elementor-widget elementor-widget-heading"
-                                            data-id="66e6ed3" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-medium">The
-                                                    International Alliance for Women</span>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-0a1114b elementor-widget elementor-widget-heading"
-                                            data-id="0a1114b" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <span class="elementor-heading-title elementor-size-default">Oct,
-                                                    2019 to Present</span>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-f7169d6 elementor-widget elementor-widget-text-editor"
-                                            data-id="f7169d6" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <ul>
-                                                    <li>Media board member &amp; VP
-                                                        overseeing rebranding initiatives.
-                                                    </li>
-                                                    <li>Crafting effective marketing
-                                                        strategies, planning, and executing
-                                                        online campaigns.</li>
-                                                    <li>Collaborating across teams,
-                                                        leveraging digital platforms for
-                                                        maximum campaign impact.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-9269254 elementor-widget elementor-widget-progress"
-                                            data-id="9269254" data-element_type="widget"
-                                            data-widget_type="progress.default">
-                                            <div class="elementor-widget-container">
-
-                                                <div class="elementor-progress-wrapper" role="progressbar"
-                                                    aria-valuemin="0" aria-valuemax="100" aria-valuenow="83"
-                                                    aria-valuetext="83% (Board Member and VP)">
-                                                    <div class="elementor-progress-bar" data-max="83">
-                                                        <span class="elementor-progress-text">Board
-                                                            Member and VP</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                                    @endforeach
                                 </div>
                             </section>
                             <section
@@ -7263,120 +7179,120 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 </style>
 
 ed {
-        padding: 0px 0px 0px 35px;
-        margin-top: 45px;
-    }
+padding: 0px 0px 0px 35px;
+margin-top: 45px;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
-        padding: 0px 0px 0px 10px;
-        margin-top: -20px;
-    }
+.elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
+padding: 0px 0px 0px 10px;
+margin-top: -20px;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-        background-color: #fff;
-        color: #001E64;
-    }
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+background-color: #fff;
+color: #001E64;
+}
 
-    .elementor-button.elementor-size-xs {
-        font-size: 12px;
-        padding: 10px 20px;
-        border-radius: 7px;
-        margin: 10px;
-    }
+.elementor-button.elementor-size-xs {
+font-size: 12px;
+padding: 10px 20px;
+border-radius: 7px;
+margin: 10px;
+}
 
-    .elementor-button {
-        display: inline-block;
-        line-height: 1;
-        background-color: #001E64;
-        /* font-size: 15px; */
-        /* padding: 12px 24px; */
-        /* border-radius: 3px; */
-        /* color: #fff; */
-        fill: #fff;
-        text-align: center;
-        transition: all .3s;
-    }
+.elementor-button {
+display: inline-block;
+line-height: 1;
+background-color: #001E64;
+/* font-size: 15px; */
+/* padding: 12px 24px; */
+/* border-radius: 3px; */
+/* color: #fff; */
+fill: #fff;
+text-align: center;
+transition: all .3s;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-f871cda {
-        width: 30%;
-    }
+.elementor-3007 .elementor-element.elementor-element-f871cda {
+width: 30%;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-094a417 {
-        width: 50%;
-    }
+.elementor-3007 .elementor-element.elementor-element-094a417 {
+width: 50%;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
-        width: 20%;
-    }
+.elementor-3007 .elementor-element.elementor-element-a2b9669 {
+width: 20%;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding: 20px 0px 0px 30px;
-        margin-top: 45px;
-    }
+.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+padding: 20px 0px 0px 30px;
+margin-top: 45px;
+}
 
-    i.fas.fa-bell.fa-2xl {
-        font-size: 27px !important;
-        color: #000;
-        padding-left: 10px;
-    }
+i.fas.fa-bell.fa-2xl {
+font-size: 27px !important;
+color: #000;
+padding-left: 10px;
+}
 
-    .rounded-circle {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: auto;
-        max-width: 100%;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-    }
+.rounded-circle {
+margin-top: 10px;
+margin-bottom: 10px;
+height: auto;
+max-width: 100%;
+border: none;
+border-radius: 0;
+box-shadow: none;
+}
 
-    #menu-item-5136 {
-        font-size: 8px;
-        /* padding-left: 15px; */
-    }
+#menu-item-5136 {
+font-size: 8px;
+/* padding-left: 15px; */
+}
 
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu a.hfe-sub-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .elementor-menu-toggle:hover,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
-        color: #001E64;
-    }
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu a.hfe-sub-menu-item:hover,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .elementor-menu-toggle:hover,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-menu-item:hover,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
+color: #001E64;
+}
 
-    /* #menu-item-5136 {
-        padding-left: 15px;
-        font-size: 1;
-    } */
+/* #menu-item-5136 {
+padding-left: 15px;
+font-size: 1;
+} */
 
-    .elementor-3007 .elementor-element.elementor-element-556f326 img {
-        width: 92%;
-        /* max-width: 120%; */
-        height: 80px;
-        object-fit: contain;
-    }
+.elementor-3007 .elementor-element.elementor-element-556f326 img {
+width: 92%;
+/* max-width: 120%; */
+height: 80px;
+object-fit: contain;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
-        padding: 20px 0px 0px 0px;
-    }
+.elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+padding: 20px 0px 0px 0px;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
-        margin: -40px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-    }
+.elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+margin: -40px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
 }
 
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding: 0px 0px 0px 20px;
-        margin-top: 45px;
-    }
+.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+padding: 0px 0px 0px 20px;
+margin-top: 45px;
+}
 }
 
 @media (max-width: 360px) {}
@@ -7385,105 +7301,106 @@ ed {
 
 @media (min-width: 540px) {}
 
-@media(max-width<=1024px) {
-
-    .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
-        margin: -40px 0px 45px 0px !important;
+@media(max-width<=1024px) { .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
+    margin: -40px 0px 45px 0px !important;
     }
 
     .elementor-4878 .elementor-element.elementor-element-6b6a93e>.elementor-widget-container {
-        margin: -90px 40px -5px 40px !important;
+    margin: -90px 40px -5px 40px !important;
     }
 
     .elementor-element .elementor-element-dbbf342>.elementor-widget-container {
-        margin-bottom: -25px !important;
-        margin-left: 40px;
+    margin-bottom: -25px !important;
+    margin-left: 40px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-xjpohp1 {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        padding: 25px 0px 0px 0px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 25px 0px 0px 0px;
     }
-}
+    }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+    @media (min-width: 768px) and (max-width: 1024px) {
     .elementor-4878 .elementor-element.elementor-element-b1f32fb>.elementor-element-populated {
-        padding: 0px 0px 0px 35px;
+    padding: 0px 0px 0px 35px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-dcbce22>.elementor-widget-container {
-        margin: -50px 0px 50px 0px !important;
+    margin: -50px 0px 50px 0px !important;
     }
 
     .elementor-element .elementor-element-dbbf342>.elementor-widget-container {
-        margin-bottom: -25px !important;
-        margin-left: 0px;
+    margin-bottom: -25px !important;
+    margin-left: 0px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-p7f37ge {
-        padding: 60px 30px 60px 30px;
+    padding: 60px 30px 60px 30px;
     }
 
     .elementor-widget-container p {
-        padding-right: 0px;
-        color: #150E1F !important;
+    padding-right: 0px;
+    color: #150E1F !important;
     }
 
     /* header*/
 
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
-        padding: 25px 10px 0px 0px;
-        margin-left: -60px;
+    padding: 25px 10px 0px 0px;
+    margin-left: -60px;
     }
 
     .wp-image-624 {
-        width: 100%;
-        height: 15.02%;
-        max-width: 150px !important;
+    width: 100%;
+    height: 15.02%;
+    max-width: 150px !important;
     }
 
     /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
-        font-size: 40px;
-        padding-left: 20px;
+    font-size: 40px;
+    padding-left: 20px;
     } */
 
     dl,
     ol,
     ul {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 20px;
     }
 
-    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
-        background-color: #fff !important;
+    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu
+    .hfe-creative-menu .parent-has-child {
+    background-color: #fff !important;
     }
 
     .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
-        font-family: "Helvetica", Sans-serif;
-        font-size: 10px;
-        margin-right: 15px;
-        font-weight: 400;
-        background-color: transparent;
-        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
-        border-style: none;
-        border-radius: 7px 7px 7px 7px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 10px;
+    margin-right: 15px;
+    font-weight: 400;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+    border-style: none;
+    border-radius: 7px 7px 7px 7px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
-        font-family: "Helvetica", Sans-serif;
-        font-size: 10px;
-        font-weight: 400;
-        background-color: transparent;
-        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
-        border-style: none;
-        border-radius: 7px 7px 7px 7px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+    border-style: none;
+    border-radius: 7px 7px 7px 7px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
-    .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-color: #FFFFFF;
+    .elementor-3007
+    .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
     }
-}
-</style>
+    }
+    </style>
+
 </html>
