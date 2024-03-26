@@ -5848,6 +5848,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-wrapper .elementor-progress-bar {
+    background-color: var(--e-global-color-1e1892c);
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
