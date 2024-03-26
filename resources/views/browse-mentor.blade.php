@@ -2181,7 +2181,8 @@
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}" {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
+                                    <option value="{{ $expert->name }}"
+                                        {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
                                         {{ $expert->name }}
                                     </option>
                                     @endforeach
@@ -2502,10 +2503,17 @@
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;background-color:#001E64;">View
                                                                         Profile</a>
+                                                                    @if(Auth::id() && auth()->user()->role_id == 3)
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;">Schedule
                                                                         Call</a>
+                                                                    @else
+                                                                    <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2645,10 +2653,17 @@
                                                                         class="btn btn-primary view_profile"
                                                                         style="margin-top:5px;background-color:#001E64;font-size:11px;">View
                                                                         Profile</a>
+                                                                    @if(Auth::id() && auth()->user()->role_id == 3)
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary schedule_call"
-                                                                        style="margin-top:5px;float: right;background-color:#001E64;font-size:11px;">Schedule
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
                                                                         Call</a>
+                                                                    @else
+                                                                    <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
