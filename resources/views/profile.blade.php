@@ -4162,7 +4162,7 @@
 
                                                     .elementor-progress-bar {
                                                         display: flex;
-                                                        background-color: #69727d;
+                                                        background-color: #001E64;
                                                         width: 0;
                                                         font-size: 11px;
                                                         height: 30px;
