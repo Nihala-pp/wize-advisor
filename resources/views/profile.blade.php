@@ -5848,9 +5848,18 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-.elementor-2372 .elementor-element.elementor-element-04525b6 .elementor-progress-wrapper .elementor-progress-bar {
+.elementor-2372 .elementor-element.elementor-element-7c40f05 .elementor-progress-wrapper .elementor-progress-bar {
     background-color: var(--e-global-color-1e1892c);
 }
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    border-radius: 2px;
+}
+
 
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
