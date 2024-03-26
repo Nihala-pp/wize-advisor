@@ -5878,13 +5878,13 @@ i.fas.fa-chevron-down {
     margin: -15px 0px 0px 0px;
 }
 
-.elementor-progress-wrapper {
+/* .elementor-progress-wrapper {
     position: relative;
     background-color: #001e64 !important;
     color: #fff !important;
     height: 100%;
     /* border-radius: 2px; */
-}
+/* } */ 
 
 h6,
 .entry-content h6 {
@@ -6012,13 +6012,13 @@ h6,
     color: #fff !important;
 } */
 
-.elementor-progress-wrapper {
+/* .elementor-progress-wrapper {
     position: relative;
     background-color: #eee;
     color: #fff !important;
     height: 100%;
     border-radius: 2px;
-}
+} */
 
 /* .elementor-progress-wrapper {
     position: relative;
