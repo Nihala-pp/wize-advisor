@@ -1829,7 +1829,7 @@
                                             <ul id="menu-1-28654d1" class="hfe-nav-menu">
                                                 <li id="menu-item-5475" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/elementor-5225/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
                                                         class="hfe-menu-item">How it works</a>
                                                 </li>
                                                 <li id="menu-item-26" itemprop="name"
