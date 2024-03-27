@@ -11,7 +11,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-@if(!empty($token && $id && $name))
+@if(!empty($token) && !empty($id) && !empty($name))
 <title> {{$name}} - Your Mentor for Building a Successful Startup </title>
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
