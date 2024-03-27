@@ -3,7 +3,7 @@
 namespace App\Listeners;
 
 use App\Models\User;
-use App\Notifications\CallApprovalUser;
+use App\Notifications\CallApprovedUserNotification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Notification;
@@ -25,6 +25,6 @@ class CallApprovalUserNotification
     {
         $user = User::where('role_id', 3)->get();
            
-        Notification::send($user, new CallApprovalUser($event->user));
+        Notification::send($user, new CallApprovedUserNotification($event->user));
     }
 }

@@ -9,7 +9,7 @@ use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Auth;
 
-class CallApprovalUser extends Notification
+class CallApprovedUserNotification extends Notification
 {
     use Queueable;
 

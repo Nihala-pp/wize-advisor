@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Mail\callApprovalMentor;
 use App\Models\ScheduledCall;
 use App\Models\Review;
+use App\Notifications\CallApprovedUserNotification;
 use App\Notifications\CallRejectedAdmin;
 use App\Notifications\CallRejectedUser;
 use App\Notifications\NewCallApprovedAdmin;
@@ -328,6 +329,7 @@ class MentorController extends Controller
 
             $admin = User::where('role_id', 1)->first();
             $admin->notify(new NewCallApprovedAdmin($schedule->mentor));
+            $schedule->user->notify(new CallApprovedUserNotification($schedule->mentor));
 
             $user_email = $schedule->user->email;
             $mentor_email = $schedule->mentor->email;
