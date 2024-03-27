@@ -52,7 +52,7 @@ class CallCompletedUser extends Notification
     public function toArray(object $notifiable): array
     {
         return [
-            'message' => "Your Call is requested with {$this->user->name}",
+            'message' => "Your Call with {$this->user->name} is complete! Share your feedback.",
             'mentor_id' => $this->user->id,
             'user_id' =>  Auth::id(),
         ];
