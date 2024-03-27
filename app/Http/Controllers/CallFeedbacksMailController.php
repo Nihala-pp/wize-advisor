@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\ScheduledCall;
+use App\Notifications\CallCompletedUser;
 use Exception;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Mail;
@@ -31,6 +32,7 @@ class CallFeedbacksMailController extends Controller
                     ];
 
                     Mail::to($completed_session->user->email)->send(new feedbackEmailUser($details));
+                    $completed_session->user->notify(new CallCompletedUser($completed_session->mentor));
                     Log::info('feedback mail Successfully send');
                 }
             }
