@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Blog-detail | wiseAdvizor - Startup mentorship platform</title>
+    <title> {{ \Illuminate\Support\Str::limit($blog->title,60) }} </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
