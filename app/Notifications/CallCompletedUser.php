@@ -9,7 +9,7 @@ use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 
-class CallRequestUser extends Notification
+class CallCompletedUser extends Notification
 {
     use Queueable;
 
