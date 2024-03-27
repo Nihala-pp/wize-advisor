@@ -54,7 +54,7 @@ class CallApprovalUser extends Notification
      {
          $user = Auth::user()->name;
          return [
-             'message' => " Your Call with  {$this->user->name} is approved",
+             'message' => "Your Call with  {$this->user->name} is approved",
              'mentor_id' => $this->user->id,
              'user_id' =>  Auth::id(),
          ];
