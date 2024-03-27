@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @if($token && $id && $name)
-<title> {{$name}} Your Mentor for Building a Successful Startup </title>
+<title> {{$name}} - Your Mentor for Building a Successful Startup </title>
 @else
 <title> Your Go-To Business Coach for Building a Successful Startup </title>
 @endif
