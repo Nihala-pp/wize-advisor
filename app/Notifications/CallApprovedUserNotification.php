@@ -52,7 +52,6 @@ class CallApprovedUserNotification extends Notification
    
      public function toArray(object $notifiable): array
      {
-         $user = Auth::user()->name;
          return [
              'message' => "Your Call with  {$this->user->name} is approved",
              'mentor_id' => $this->user->id,
