@@ -11,14 +11,14 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-@if(!empty($token) && !empty($id) && !empty($name))
-<title> {{$name}} - Your Mentor for Building a Successful Startup </title>
-<meta name="description"
-    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
-@else
+@if(is_null($token))
 <title> Your Go-To Business Coach for Building a Successful Startup </title>
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
+@else
+<title> {{$name}} - Your Mentor for Building a Successful Startup </title>
+<meta name="description"
+    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
 @endif
 <meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
