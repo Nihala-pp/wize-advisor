@@ -2,12 +2,11 @@
 
 namespace App\Listeners;
 
+use App\Notifications\CallRequestUser;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use App\Models\User;
-use App\Notifications\CallApprovedUserNotification;
-
-
+use Notification;
 
 class CallRequestUserNotification
 {
@@ -26,6 +25,6 @@ class CallRequestUserNotification
     {
         $user = User::where('role_id', 3)->get();
            
-        Notification::send($user, new CallApprovedUserNotification($event->user));
+        Notification::send($user, new CallRequestUser($event->user));
     }
 }
