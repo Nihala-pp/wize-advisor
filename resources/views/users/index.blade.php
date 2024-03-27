@@ -163,15 +163,17 @@
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
+                                                    @foreach($todolists as $todolist)
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                        <a class="dropdown-item" href="#">{{ $todolist->tasks }}</a>
                                                     </li>
-                                                    <li>
+                                                    <!-- <li>
                                                         <a class="dropdown-item" href="#">Another news</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
+                                                    </li> -->
+                                                    @endforeach
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
@@ -1147,4 +1149,5 @@ a:link {
 	margin: 8px 0px!important;
 } */
 </style>
+
 </html>
