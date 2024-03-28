@@ -2,8 +2,11 @@
 
 namespace App\Listeners;
 
+use App\Notifications\CallReminderUserDayBefore;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
+use Notification;
+use App\Models\User;
 
 class CallReminderUserDayBeforeNotification
 {
@@ -20,6 +23,8 @@ class CallReminderUserDayBeforeNotification
      */
     public function handle(object $event): void
     {
-        //
+        $user = User::where('role_id', 3)->get();
+           
+        Notification::send($user, new CallReminderUserDayBefore($event->user));
     }
 }
