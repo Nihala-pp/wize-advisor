@@ -91,12 +91,6 @@ class AuthController extends Controller
             } elseif (auth()->user()->role_id == 3) {
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
             }
-
-            // if (auth()->user()->name == 'Admin') {
-            // return redirect()->route('admin.dashboard')->withSuccess('You have Successfully loggedin');
-            // } else {
-            //     return redirect()->route('mentor.dashboard')->withSuccess('You have Successfully loggedin');
-            // }
         }
 
         return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
