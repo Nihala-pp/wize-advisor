@@ -18,7 +18,7 @@
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
 @else
-<title> {{$name}} - Your Mentor for Building a Successful Startup </title>
+<title> Your Mentor for Building a Successful Startup - {{$name}}  </title>
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
 @endif
