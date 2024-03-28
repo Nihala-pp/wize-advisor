@@ -25,10 +25,6 @@
        Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.
     @else
        Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today." @endif>
-<!-- <title> </title>
-<meta name="description"
-    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
-@endif -->
 <meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
 
