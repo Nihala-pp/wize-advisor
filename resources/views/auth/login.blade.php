@@ -12,6 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @if(is_null($name))
+{{ dd("hiiiiiiii"); }}
 <title> Your Go-To Business Coach for Building a Successful Startup </title>
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
