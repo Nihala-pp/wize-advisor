@@ -11,8 +11,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-@if(is_null($name))
-{{ dd("hiiiiiiii") }}
+@if($name !== NULL)
 <title> Your Go-To Business Coach for Building a Successful Startup </title>
 <title></title>
 <meta name="description"
