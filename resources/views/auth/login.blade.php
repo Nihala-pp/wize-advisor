@@ -14,9 +14,9 @@
 
 <title>
     @if($name !== NULL)
-    Your Mentor for Building a Successful Startup - {{$name}}
+       Your Mentor for Building a Successful Startup - {{$name}}
     @elseif($name == NULL)
-    Your Go-To Business Coach for Building a Successful Startup
+       Your Go-To Business Coach for Building a Successful Startup
     @endif
 </title>
 <meta name="description"
