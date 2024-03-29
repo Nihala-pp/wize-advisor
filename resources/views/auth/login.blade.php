@@ -11,7 +11,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  @if($name != "")
+  @if(!empty($name))
     <title>Your Mentor for Building a Successful Startup - {{$name }}</title>
   @endif
 <meta name="description" content="@if($name !== NULL) Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today. @else Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today. @endif ">
