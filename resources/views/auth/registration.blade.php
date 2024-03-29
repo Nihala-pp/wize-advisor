@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   @if(!empty($name))
-    <title>Join wiseAdvizor | Connect with - {{$name}}</title>
+    <title>Join wiseAdvizor | Connect with {{$name}}</title>
     <meta name="description" content="Join wiseAdvizor and gain access to {{$name}} offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
   @else
     <title>Join wiseAdvizor | Startup mentorship for your success</title>
