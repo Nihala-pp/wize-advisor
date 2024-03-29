@@ -4215,8 +4215,8 @@
                                                     }
                                                     </style>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 100%"
-                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">{{ $exp->company_name }}
+                                                        <div class="progress-bar" role="progressbar" style="width: 25%"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="25">{{ $exp->company_name }}
                                                         </div>
                                                     </div>
                                                     <!-- <div class="progress">
