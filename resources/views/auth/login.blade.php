@@ -13,6 +13,8 @@
 <html lang="en">
   @if(!empty($name))
     <title>Your Mentor for Building a Successful Startup - {{$name }}</title>
+  @else
+    <title>Your Go-To Business Coach for Building a Successful Startup</title>
   @endif
 <meta name="description" content="@if($name !== NULL) Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today. @else Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today. @endif ">
 <meta name="keywords" content="business guidance, building a startup, business coach">
