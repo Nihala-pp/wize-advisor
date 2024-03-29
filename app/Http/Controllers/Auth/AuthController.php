@@ -35,7 +35,7 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function registration($token = 'Null', $id = 'Null')
+    public function registration($token = Null, $id = Null)
     {
         $expertise = [
             '1' => 'Sales',
@@ -130,7 +130,7 @@ class AuthController extends Controller
 
             $request->session()->regenerate();
 
-            if (!($request->token == "Null")) {
+            if (!($request->token == Null)) {
                 return redirect()->route('schedule-call', [$request->mentor_id])->withSuccess('You have Successfully loggedin');
             } else {
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');

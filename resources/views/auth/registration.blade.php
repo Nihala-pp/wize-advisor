@@ -1135,8 +1135,8 @@ html body .animated {
                                 <div class="card-body signup-form">
                                     <form method="POST" action="{{ route('register.post') }}">
                                         @csrf
-                                        <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
-                                        <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
+                                        <input type="hidden" name="token" value="{{ $token ?: Null }}">
+                                        <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Name</label>
                                             <input id="name" type="text"
