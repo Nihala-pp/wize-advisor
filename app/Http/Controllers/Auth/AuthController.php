@@ -23,6 +23,8 @@ class AuthController extends Controller
      *
      * @return response()
      */
+
+     
     public function index($token = Null, $id = Null, $name = Null)
     {
         return view('auth.login', compact('token', 'id', 'name'));
