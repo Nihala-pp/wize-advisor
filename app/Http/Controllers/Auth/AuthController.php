@@ -37,6 +37,15 @@ class AuthController extends Controller
      */
     public function registration($token = Null, $id = Null)
     {
+
+        if(!empty($id))
+        {
+            $name = User::find($id)->name;
+        }
+        else {
+            $name = Null;
+        }
+        
         $expertise = [
             '1' => 'Sales',
             '2' => 'Marketing',
@@ -64,7 +73,7 @@ class AuthController extends Controller
 
         $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
 
-        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone'));
+        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone', 'name'));
     }
 
     /**
