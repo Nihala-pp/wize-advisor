@@ -5487,7 +5487,7 @@
         id="theplus-front-js-js" defer></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.22"
         id="hfe-frontend-js-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
+    <script src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3"
         id="elementor-frontend-modules-js"></script>
