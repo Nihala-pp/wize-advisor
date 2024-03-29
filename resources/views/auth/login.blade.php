@@ -67,9 +67,9 @@
                             <div class="card-body">
                                 <form method="POST" action="{{ route('login.post') }}">
                                     @csrf
-                                    <input type="hidden" name="token" value="{{ $token ?: 'Null' }}">
-                                    <input type="hidden" name="mentor_id" value="{{ $id ?: 'Null' }}">
-                                    <input type="hidden" name="mentor_name" value="{{ $name ?: 'Null' }}">
+                                    <input type="hidden" name="token" value="{{ $token ?: Null }}">
+                                    <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
+                                    <input type="hidden" name="mentor_name" value="{{ $name ?: Null }}">
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">{{ __('Email Address') }}</label>
                                         <input id="email" type="email"
