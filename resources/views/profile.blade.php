@@ -5851,6 +5851,23 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.progress {
+    --mdb-progress-height: 15px;
+    --mdb-progress-font-size: 0.60rem;
+    --mdb-progress-bg: #eee;
+    --mdb-progress-border-radius: 0.25rem;
+    --mdb-progress-box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    --mdb-progress-bar-color: #fff;
+    --mdb-progress-bar-bg: #001E64;
+    --mdb-progress-bar-transition: width 0.6s ease;
+    height: var(--mdb-progress-height);
+    font-size: var(--mdb-progress-font-size);
+    background-color: var(--mdb-progress-bg);
+    border-radius: var(--mdb-progress-border-radius);
+    box-shadow: var(--mdb-progress-box-shadow);
+}
+
 .elementor-2372 .elementor-element.elementor-element-7c40f05 .elementor-progress-wrapper .elementor-progress-bar {
     background-color: var(--e-global-color-1e1892c);
 }
