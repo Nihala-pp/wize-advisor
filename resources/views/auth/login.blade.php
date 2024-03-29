@@ -11,7 +11,9 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<title>@if($name !== NULL) Your Mentor for Building a Successful Startup - {{$name }}  @elseif(empty($name)) Your Go-To Business Coach for Building a Successful Startup @endif </title>
+  @if($name != "")
+    <title>Your Mentor for Building a Successful Startup - {{$name }}</title>
+  @endif
 <meta name="description" content="@if($name !== NULL) Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today. @else Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today. @endif ">
 <meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
