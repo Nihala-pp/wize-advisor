@@ -4214,7 +4214,15 @@
                                                         height: auto
                                                     }
                                                     </style>
-                                                    <div class="elementor-progress-wrapper" role="progressbar"
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                            <span
+                                                                class="elementor-progress-text">{{ $exp->company_name }}
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="elementor-progress-wrapper" role="progressbar"
                                                         aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                         aria-valuetext="100% (Mobile Premier League )">
                                                         <div class="elementor-progress-bar" data-max="100">
@@ -4222,7 +4230,7 @@
                                                                 class="elementor-progress-text">{{ $exp->company_name }}
                                                             </span>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -5884,7 +5892,7 @@ i.fas.fa-chevron-down {
     color: #fff !important;
     height: 100%;
     /* border-radius: 2px; */
-/* } */ 
+/* } */
 
 h6,
 .entry-content h6 {
