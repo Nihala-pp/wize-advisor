@@ -4275,14 +4275,21 @@
                                                 data-widget_type="progress.default">
                                                 <div class="elementor-widget-container">
 
-                                                    <div class="elementor-progress-wrapper" role="progressbar"
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                            aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            {{ $last_exp->company_name }}
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- <div class="elementor-progress-wrapper" role="progressbar"
                                                         aria-valuemin="0" aria-valuemax="100" aria-valuenow="69"
                                                         aria-valuetext="69% (Founder)">
                                                         <div class="elementor-progress-bar" data-max="69">
                                                             <span
                                                                 class="elementor-progress-text">{{ $last_exp->company_name }}</span>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -5851,13 +5858,12 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
 .progress {
     --mdb-progress-height: 15px;
     --mdb-progress-font-size: 0.60rem;
     --mdb-progress-bg: #eee;
     --mdb-progress-border-radius: 0.25rem;
-    --mdb-progress-box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    --mdb-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
     --mdb-progress-bar-color: #fff;
     --mdb-progress-bar-bg: #001E64;
     --mdb-progress-bar-transition: width 0.6s ease;
