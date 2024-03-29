@@ -1238,14 +1238,14 @@
         background-color: rgba(0, 0, 0, 0.8) !important;
     }
 
-    .lg-thumb-outer,
-    .lg-progress-bar {
+    /* .lg-thumb-outer, */
+    /* .lg-progress-bar {
         background-color: #444444 !important;
     }
 
     .lg-progress {
         background-color: #a90707 !important;
-    }
+    } */
 
     .lg-icon {
         color: #efefef !important;
