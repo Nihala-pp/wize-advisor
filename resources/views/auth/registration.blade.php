@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<title>Join wiseAdvizor | Startup mentorship for your success</title>
-<meta name="description"
-    content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+  @if(!empty($name))
+    <title>Join wiseAdvizor | Connect with - {{$name}}</title>
+    <meta name="description" content="Join wiseAdvizor and gain access to {{$name}} offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+  @else
+    <title>Join wiseAdvizor | Startup mentorship for your success</title>
+    <meta name="description" content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+  @endif
 <meta name="keywords" content="entrepreneur advice, startup mentors">
 @include('partials.header')
 <script>
