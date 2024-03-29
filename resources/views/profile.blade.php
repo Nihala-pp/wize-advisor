@@ -4215,27 +4215,11 @@
                                                     }
                                                     </style>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 25%"
-                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="25">{{ $exp->company_name }}
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                            70%
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" style="width: 100%"
-                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                                            <span
-                                                                class="elementor-progress-text">{{ $exp->company_name }}
-                                                            </span>
-                                                        </div>
-                                                    </div> -->
-                                                    <!-- <div class="elementor-progress-wrapper" role="progressbar"
-                                                        aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
-                                                        aria-valuetext="100% (Mobile Premier League )">
-                                                        <div class="elementor-progress-bar" data-max="100">
-                                                            <span
-                                                                class="elementor-progress-text">{{ $exp->company_name }}
-                                                            </span>
-                                                        </div>
-                                                    </div> -->
                                                 </div>
                                             </div>
                                         </div>
