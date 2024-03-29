@@ -4216,12 +4216,17 @@
                                                     </style>
                                                     <div class="progress">
                                                         <div class="progress-bar" role="progressbar" style="width: 100%"
+                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">{{ $exp->company_name }}
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%"
                                                             aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                                             <span
                                                                 class="elementor-progress-text">{{ $exp->company_name }}
                                                             </span>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                     <!-- <div class="elementor-progress-wrapper" role="progressbar"
                                                         aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"
                                                         aria-valuetext="100% (Mobile Premier League )">
