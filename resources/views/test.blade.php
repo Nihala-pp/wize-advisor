@@ -928,7 +928,7 @@
         b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
     }());
     </script>
-    <div id="wpadminbar" class="nojq nojs">
+    <!-- <div id="wpadminbar" class="nojq nojs">
         <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
             <ul id='wp-admin-bar-root-default' class="ab-top-menu">
                 <li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true"
@@ -1086,7 +1086,7 @@
         </div>
         <a class="screen-reader-shortcut"
             href="https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=4731e9c5f9">Log Out</a>
-    </div>
+    </div> -->
 
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">
@@ -3569,7 +3569,7 @@
                 id="elementor-admin-bar-js"></script>
             <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
                 id="hoverintent-js-js"></script>
-            <script id="admin-bar-js-before">
+            <!-- <script id="admin-bar-js-before">
             (function() {
                 function wpforms_admin_bar_menu_init() {
                     var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
@@ -3593,7 +3593,7 @@
                 };
                 document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
             }());
-            </script>
+            </script> -->
             <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
             </script>
             <script
@@ -3613,7 +3613,7 @@
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/wpforms-modern.min.js?ver=1.8.6.4"
                 id="wpforms-modern-js"></script>
-            <script>
+            <!-- <script>
             (function() {
                 function wpforms_js_error_loading() {
 
@@ -3657,7 +3657,7 @@
                     wpforms_js_error_loading();
                 }
             }());
-            </script>
+            </script> -->
             <script type="text/javascript">
             (function($) {
                 "use strict";
