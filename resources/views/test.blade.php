@@ -930,24 +930,6 @@
     </script>
 
     <div id="page" class="site">
-        <a class="skip-link screen-reader-text" href="#content">
-            Skip to content </a>
-
-
-        <header id="masthead" class="site-header has-title-and-tagline">
-
-
-
-            <div class="site-branding">
-
-
-                <p class="site-title"><a href="https://web.wiseadvizor.com/">WISE ADVIZOR</a></p>
-
-            </div><!-- .site-branding -->
-
-
-        </header><!-- #masthead -->
-
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
