@@ -1,59 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Browse Mentor &#8211; WISE ADVIZOR</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elementor #5668 &#8211; WISE ADVIZOR</title>
     <script>
-    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    var theplus_nonce = "92c4d641b6";
+    var theplus_ajax_url = "https://web.wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://web.wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_nonce = "45aa92a5e5";
+    </script>
+    <script>
+    var theplus_ajax_url = "https://web.wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://web.wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_nonce = "45aa92a5e5";
     </script>
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
-        href="https://wiseadvizor.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments
-     Feed" href="https://wiseadvizor.com/comments/feed/" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <script>
+    (function() {
+        var query = document.location.search;
 
-    <!-- Google Tag Manager -->
-    <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PK457VCB');
+        if (query && query.indexOf('preview=true') !== -1) {
+            window.name = 'wp-preview-5668';
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener('pagehide', function() {
+                window.name = '';
+            });
+        }
+    }());
     </script>
-    <!-- End Google Tag Manager -->
-    <script>
-    (function(h, o, t, j, a, r) {
-        h.hj = h.hj || function() {
-            (h.hj.q = h.hj.q || []).push(arguments)
-        };
-        h._hjSettings = {
-            hjid: 3668045,
-            hjsv: 6
-        };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
+        href="https://web.wiseadvizor.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
+        href="https://web.wiseadvizor.com/comments/feed/" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -61,7 +42,7 @@
         "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
         "svgExt": ".svg",
         "source": {
-            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"
+            "concatemoji": "https:\/\/web.wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"
         }
     };
     /*! This file is auto-generated */
@@ -95,7 +76,7 @@
                         n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                             "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                             "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                        );
+                            );
                 case "emoji":
                     return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
                         "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
@@ -171,13 +152,13 @@
         }))
     }((window, document), window._wpemojiSettings);
     </script>
-    <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
+    <link rel="preload" href="https://web.wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
         id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel='stylesheet' id='dashicons-css'
-            href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
+            href='https://web.wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
-        media='all' />
+    <link rel='stylesheet' id='admin-bar-css'
+        href='https://web.wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3' media='all' />
     <style id='admin-bar-inline-css'>
     @media screen {
         html {
@@ -198,12 +179,13 @@
     }
     </style>
     <link rel='stylesheet' id='elementor-icons-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.19.0' media='all' />
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.19.0'
+        media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.19.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.19.0'
         media='all' />
     <style id='wp-emoji-styles-inline-css'>
     img.wp-smiley,
@@ -220,7 +202,7 @@
     }
     </style>
     <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
+        href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
         media='all' />
     <style id='classic-theme-styles-inline-css'>
     /*! This file is auto-generated */
@@ -627,76 +609,77 @@
         line-height: 1.6;
     }
     </style>
-    <!-- <link rel='stylesheet' id='niso-carousel-fontello-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0'
+    <link rel='stylesheet' id='niso-carousel-fontello-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-owl-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-theme-default-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-animate-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-lightbox-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='niso-carousel-lightbox-theme-css'
-        href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0'
         media='all' />
     <link rel='stylesheet' id='hfe-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
-        media='all' /> -->
+        href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
+        media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0'
         media='all' />
     <link rel='stylesheet' id='swiper-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6'
         media='all' />
     <link rel='stylesheet' id='elementor-post-5-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1706785959' media='all' />
+        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1706785959' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
         media='all' />
     <link rel='stylesheet' id='font-awesome-5-all-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.19.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.19.0'
         media='all' />
     <link rel='stylesheet' id='font-awesome-4-shim-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.19.0'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.19.0'
         media='all' />
     <link rel='stylesheet' id='she-header-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10'
+        href='https://web.wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10'
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1706785961' media='all' />
-    <link rel='stylesheet' id='elementor-post-2772-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1707382605' media='all' />
+        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1706785961' media='all' />
     <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.24'
+        href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.24'
         media='all' />
-    <link rel='stylesheet' id='elementor-post-3007-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' media='all' />
+    <link rel='stylesheet' id='elementor-post-5668-css'
+        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-5668.css?ver=1711953395' media='all' />
     <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
+        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3'
+        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3'
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3'
+        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3'
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
+        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
         media='all' />
+    <link rel='stylesheet' id='theplus-front-css-css'
+        href='//web.wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1711953395' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/css/print.css?ver=2.0' media='print' />
+        href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
+        media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
-        href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.6.4'
+        href='https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.6.4'
         media='all' />
     <style id='wpforms-admin-bar-inline-css'>
     #wpadminbar .wpforms-menu-notification-counter,
@@ -706,49 +689,43 @@
     }
     </style>
     <link rel='stylesheet' id='wpr-text-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
+        href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
         media='all' />
     <link rel='stylesheet' id='wpr-addons-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.87'
+        href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.87'
         media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
-        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPlayfair+Display%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3'
+        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CShippori+Antique+B1%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-shared-0-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
-        media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
-        media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-regular-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
         media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    <script data-cfasync="false" src="https://web.wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    <script data-cfasync="false" src="https://web.wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.19.0"
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.19.0"
         id="font-awesome-4-shim-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.10"
+        src="https://web.wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.10"
         id="she-header-js"></script>
     <script id="elementor-pro-app-js-before">
     var elementorAppProConfig = {
-        "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
+        "baseUrl": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
         "site-editor": {
             "urls": {
-                "legacy_view": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
+                "legacy_view": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
             }
         },
         "kit-library": [],
@@ -756,20 +733,20 @@
         "import-export": []
     };
     </script>
-    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
+    <link rel="https://api.w.org/" href="https://web.wiseadvizor.com/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://web.wiseadvizor.com/wp-json/wp/v2/pages/5668" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://web.wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://wiseadvizor.com/browse-mentor/" />
-    <link rel='shortlink' href='https://wiseadvizor.com/?p=2772' />
+    <link rel="canonical" href="https://web.wiseadvizor.com/elementor-5668/" />
+    <link rel='shortlink' href='https://web.wiseadvizor.com/?p=5668' />
     <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fbrowse-mentor%2F" />
+        href="https://web.wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-5668%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fbrowse-mentor%2F&#038;format=xml" />
+        href="https://web.wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-5668%2F&#038;format=xml" />
     <style>
     #wpadminbar .theplus-purge-clear>.ab-item:before {
         content: '';
-        background-image: url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png) !important;
+        background-image: url(https://web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png) !important;
         background-size: 20px !important;
         background-position: center;
         width: 20px;
@@ -934,11 +911,10 @@
 
     }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.7 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
+    class="page-template page-template-elementor_header_footer page page-id-5668 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.7 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5668">
     <script>
     (function() {
         var request, b = document.body,
@@ -953,18 +929,18 @@
         b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
     }());
     </script>
-    <!-- <div id="wpadminbar" class="nojq nojs">
+    <div id="wpadminbar" class="nojq nojs">
         <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
             <ul id='wp-admin-bar-root-default' class="ab-top-menu">
                 <li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://wiseadvizor.com/wp-admin/about.php'><span class="ab-icon"
+                        href='https://web.wiseadvizor.com/wp-admin/about.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="screen-reader-text">About WordPress</span></a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-wp-logo-default' class="ab-submenu">
                             <li id='wp-admin-bar-about'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/about.php'>About WordPress</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/about.php'>About WordPress</a></li>
                             <li id='wp-admin-bar-contribute'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/contribute.php'>Get Involved</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/contribute.php'>Get Involved</a></li>
                         </ul>
                         <ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu">
                             <li id='wp-admin-bar-wporg'><a class='ab-item'
@@ -981,86 +957,86 @@
                     </div>
                 </li>
                 <li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://wiseadvizor.com/wp-admin/'>WISE ADVIZOR</a>
+                        href='https://web.wiseadvizor.com/wp-admin/'>WISE ADVIZOR</a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-site-name-default' class="ab-submenu">
                             <li id='wp-admin-bar-dashboard'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/'>Dashboard</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/'>Dashboard</a></li>
                         </ul>
                         <ul id='wp-admin-bar-appearance' class="ab-submenu">
                             <li id='wp-admin-bar-themes'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/themes.php'>Themes</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/themes.php'>Themes</a></li>
                             <li id='wp-admin-bar-widgets'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/widgets.php'>Widgets</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/widgets.php'>Widgets</a></li>
                             <li id='wp-admin-bar-menus'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/nav-menus.php'>Menus</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/nav-menus.php'>Menus</a></li>
                             <li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/themes.php?page=custom-background'>Background</a>
+                                    href='https://web.wiseadvizor.com/wp-admin/themes.php?page=custom-background'>Background</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item'
-                        href='https://wiseadvizor.com/wp-admin/customize.php?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fbrowse-mentor%2F'>Customize</a>
+                        href='https://web.wiseadvizor.com/wp-admin/customize.php?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-5668%2F%3Fpreview_id%3D5668%26preview_nonce%3D16c7cd0779%26preview%3Dtrue'>Customize</a>
                 </li>
                 <li id='wp-admin-bar-updates'><a class='ab-item'
-                        href='https://wiseadvizor.com/wp-admin/update-core.php'><span class="ab-icon"
-                            aria-hidden="true"></span><span class="ab-label" aria-hidden="true">6</span><span
-                            class="screen-reader-text updates-available-text">6 updates available</span></a></li>
+                        href='https://web.wiseadvizor.com/wp-admin/update-core.php'><span class="ab-icon"
+                            aria-hidden="true"></span><span class="ab-label" aria-hidden="true">13</span><span
+                            class="screen-reader-text updates-available-text">13 updates available</span></a></li>
                 <li id='wp-admin-bar-comments'><a class='ab-item'
-                        href='https://wiseadvizor.com/wp-admin/edit-comments.php'><span class="ab-icon"
+                        href='https://web.wiseadvizor.com/wp-admin/edit-comments.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0"
                             aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0
                             Comments in moderation</span></a></li>
                 <li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://wiseadvizor.com/wp-admin/post-new.php'><span class="ab-icon"
+                        href='https://web.wiseadvizor.com/wp-admin/post-new.php'><span class="ab-icon"
                             aria-hidden="true"></span><span class="ab-label">New</span></a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-new-content-default' class="ab-submenu">
                             <li id='wp-admin-bar-new-post'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/post-new.php'>Post</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php'>Post</a></li>
                             <li id='wp-admin-bar-new-media'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/media-new.php'>Media</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/media-new.php'>Media</a></li>
                             <li id='wp-admin-bar-new-page'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=page'>Page</a>
+                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php?post_type=page'>Page</a>
                             </li>
                             <li id='wp-admin-bar-new-e-landing-page'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=5a29513f16#library'>Landing
+                                    href='https://web.wiseadvizor.com/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=b32cbd820f#library'>Landing
                                     Page</a></li>
                             <li id='wp-admin-bar-new-elementor_library'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=elementor_library'>Template</a>
+                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php?post_type=elementor_library'>Template</a>
                             </li>
                             <li id='wp-admin-bar-new-sa_slider'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=sa_slider'>Slider</a>
+                                    href='https://web.wiseadvizor.com/wp-admin/post-new.php?post_type=sa_slider'>Slider</a>
                             </li>
                             <li id='wp-admin-bar-new-user'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/user-new.php'>User</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/user-new.php'>User</a></li>
                             <li id='wp-admin-bar-wpforms'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a>
+                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li id='wp-admin-bar-edit'><a class='ab-item'
-                        href='https://wiseadvizor.com/wp-admin/post.php?post=2772&#038;action=edit'>Edit Page</a>
+                        href='https://web.wiseadvizor.com/wp-admin/post.php?post=5668&#038;action=edit'>Edit Page</a>
                 </li>
                 <li id='wp-admin-bar-wpforms-menu' class="menupop"><a class='ab-item' aria-haspopup="true"
-                        href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>WPForms <div
-                            class="wp-core-ui wp-ui-notification wpforms-menu-notification-counter">6</div></a>
+                        href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>WPForms <div
+                            class="wp-core-ui wp-ui-notification wpforms-menu-notification-counter">4</div></a>
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-wpforms-menu-default' class="ab-submenu">
                             <li id='wp-admin-bar-wpforms-notifications'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>Notifications
+                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>Notifications
                                     <div class="wp-core-ui wp-ui-notification wpforms-menu-notification-indicator">
                                     </div></a></li>
                             <li id='wp-admin-bar-wpforms-forms'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>All
+                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>All
                                     Forms</a></li>
                             <li id='wp-admin-bar-wpforms-payments'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-payments'>Payments</a>
+                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-payments'>Payments</a>
                             </li>
                             <li id='wp-admin-bar-wpforms-add-new'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>Add
+                                    href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>Add
                                     New</a></li>
                             <li id='wp-admin-bar-wpforms-community'><a class='ab-item'
                                     href='https://www.facebook.com/groups/wpformsvip/' target='_blank'
@@ -1078,7 +1054,7 @@
             <ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu">
                 <li id='wp-admin-bar-search' class="admin-bar-search">
                     <div class="ab-item ab-empty-item" tabindex="-1">
-                        <form action="https://wiseadvizor.com/" method="get" id="adminbarsearch"><input
+                        <form action="https://web.wiseadvizor.com/" method="get" id="adminbarsearch"><input
                                 class="adminbar-input" name="s" id="adminbar-search" type="text" value=""
                                 maxlength="150" /><label for="adminbar-search"
                                 class="screen-reader-text">Search</label><input type="submit" class="adminbar-button"
@@ -1086,7 +1062,7 @@
                     </div>
                 </li>
                 <li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true"
-                        href='https://wiseadvizor.com/wp-admin/profile.php'>Howdy, <span class="display-name">WISE
+                        href='https://web.wiseadvizor.com/wp-admin/profile.php'>Howdy, <span class="display-name">WISE
                             ADVIZOR</span><img alt=''
                             src='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=26&#038;d=mm&#038;r=g'
                             srcset='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=52&#038;d=mm&#038;r=g 2x'
@@ -1094,15 +1070,15 @@
                     <div class="ab-sub-wrapper">
                         <ul id='wp-admin-bar-user-actions' class="ab-submenu">
                             <li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1"
-                                    href='https://wiseadvizor.com/wp-admin/profile.php'><img alt=''
+                                    href='https://web.wiseadvizor.com/wp-admin/profile.php'><img alt=''
                                         src='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=64&#038;d=mm&#038;r=g'
                                         srcset='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=128&#038;d=mm&#038;r=g 2x'
                                         class='avatar avatar-64 photo' height='64' width='64' decoding='async' /><span
                                         class='display-name'>WISE ADVIZOR</span></a></li>
                             <li id='wp-admin-bar-edit-profile'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-admin/profile.php'>Edit Profile</a></li>
+                                    href='https://web.wiseadvizor.com/wp-admin/profile.php'>Edit Profile</a></li>
                             <li id='wp-admin-bar-logout'><a class='ab-item'
-                                    href='https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1'>Log
+                                    href='https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=4731e9c5f9'>Log
                                     Out</a></li>
                         </ul>
                     </div>
@@ -1110,2037 +1086,1496 @@
             </ul>
         </div>
         <a class="screen-reader-shortcut"
-            href="https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d15c0b56b1">Log Out</a>
-    </div> -->
-
-    <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-        <!-- <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="wiseAdvizor"
-                rel="home">wiseAdvizor</a></p> -->
-        <div data-elementor-type="wp-post" data-elementor-id="3007" class="elementor elementor-3007">
-            <header
-                class="elementor-section elementor-top-section elementor-element elementor-element-cf19fcc elementor-section-full_width elementor-section-content-top she-header-yes elementor-hidden-mobile elementor-section-height-default elementor-section-height-default"
-                data-id="cf19fcc" data-element_type="section"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#FFFFFF&quot;,&quot;bottom_border&quot;:&quot;yes&quot;,&quot;custom_bottom_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;20&quot;,&quot;sizes&quot;:[]},&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;60&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
-                <div class="elementor-background-overlay"></div>
-                <div class="elementor-container elementor-column-gap-no">
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-31c72d6"
-                        data-id="31c72d6" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-4a940d6 elementor-widget elementor-widget-image"
-                                data-id="4a940d6" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <style>
-                                    /*! elementor - v3.14.0 - 26-06-2023 */
-                                    .elementor-widget-image {
-                                        text-align: center
-                                    }
-
-                                    .elementor-widget-image a {
-                                        display: inline-block
-                                    }
-
-                                    .elementor-widget-image a img[src$=".svg"] {
-                                        width: 48px
-                                    }
-
-                                    .elementor-widget-image img {
-                                        vertical-align: middle;
-                                        display: inline-block
-                                    }
-                                    </style> <a href="https:/wiseadvizor.com">
-                                        <img width="932" height="140"
-                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624"
-                                            alt="startup mentorship platform"
-                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
-                                            sizes="(max-width: 932px) 100vw, 932px"> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-60e4ec3"
-                        data-id="60e4ec3" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-359f243 hfe-nav-menu__align-center hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
-                                data-id="359f243" data-element_type="widget"
-                                data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                                data-widget_type="navigation-menu.default">
-                                <div class="elementor-widget-container">
-                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                        data-layout="horizontal">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
-                                            <span class="screen-reader-text">Menu</span>
-                                            <div class="hfe-nav-menu-icon">
-                                                <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
-                                            </div>
-                                        </div>
-                                        <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
-                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
-                                            data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
-                                            data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
-                                            data-full-width="yes">
-                                            <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
-                                                <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
-                                                        class="hfe-menu-item">How it works</a>
-                                                </li>
-                                                <li id="menu-item-28" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/faq" itemprop="url"
-                                                        class="hfe-menu-item">FAQ's</a>
-                                                </li>
-                                                <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                    <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
-                                                            class="hfe-menu-item">Resources<span
-                                                                class="hfe-menu-toggle hfe-menu-child-0"><i
-                                                                    class="fas fa-chevron-down"></i></span></a></div>
-                                                    <ul class="sub-menu">
-                                                        <li id="menu-item-24" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/community-posts/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a>
-                                                        </li>
-                                                        <li id="menu-item-25" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a>
-                                                        </li>
-                                                        <li id="menu-item-2842" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Blogs</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87489f"
-                        data-id="a87489f" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-4bc8cfa elementor-align-right elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="4bc8cfa" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('browseMentor') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentors</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-78270f3 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                data-id="78270f3" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
-                                        @if(Auth::id() && auth()->user()->role_id == 3)
-                                        <div class="d-flex align-items-center">
-                                            <div class="dropdown">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <i class="fas fa-bell fa-2xl"></i>
-                                                    <!-- <span
-                                                        class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuLink">
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                    id="navbarDropdownMenuAvatar" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    @if (Auth::user()->metaData && Auth::user()->metaData->profile_pic)
-                                                    <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                        class="rounded-circle" height="8" width="37"
-                                                        alt="Black and White Portrait of a Man" loading="lazy" />
-                                                    @else
-                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        class="rounded-circle" height="8" width="37">
-                                                    @endif
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuAvatar">
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                            Dashboard</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                            Profile</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.change-password') }}">Change
-                                                            Password</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.reviews.list') }}">My
-                                                            Reviews</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        @else
-                                        <a class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="{{ route('login') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
-                                            </span>
-                                        </a>
-                                        @endif
-                                        <!-- <a class="elementor-button elementor-button-link elementor-size-sm"
-											href="">
-											<span class="elementor-button-content-wrapper">
-												<span class="elementor-button-text">Sign In</span>
-											</span>
-										</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <header
-                class="elementor-section elementor-top-section elementor-element elementor-element-9adafe6 elementor-section-full_width elementor-section-content-top she-header-yes elementor-hidden-desktop elementor-hidden-tablet elementor-section-height-default elementor-section-height-default"
-                data-id="9adafe6" data-element_type="section"
-                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;transparent&quot;:&quot;yes&quot;,&quot;background_show&quot;:&quot;yes&quot;,&quot;background&quot;:&quot;#FFFFFF&quot;,&quot;bottom_border&quot;:&quot;yes&quot;,&quot;custom_bottom_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;20&quot;,&quot;sizes&quot;:[]},&quot;transparent_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;scroll_distance&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;60&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;scroll_distance_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_bottom_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
-                <div class="elementor-background-overlay"></div>
-                <div class="elementor-container elementor-column-gap-no">
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f871cda"
-                        data-id="f871cda" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-556f326 elementor-widget elementor-widget-image"
-                                data-id="556f326" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <a href="https://wiseadvizor.com">
-                                        <img width="932" height="140"
-                                            src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
-                                            class="attachment-large size-large wp-image-624"
-                                            alt="startup mentorship platform"
-                                            srcset="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png 932w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-300x45.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png 768w"
-                                            sizes="(max-width: 932px) 100vw, 932px"> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-094a417"
-                        data-id="094a417" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-b0aaaa9 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-right elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile hfe-nav-menu__theme-icon-no hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
-                                data-id="b0aaaa9" data-element_type="widget"
-                                data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                                data-widget_type="navigation-menu.default">
-                                <div class="elementor-widget-container">
-                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                        data-layout="horizontal" id="open_nav">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            <span class="screen-reader-text">Menu</span>
-                                            <div class="hfe-nav-menu-icon">
-                                                <i aria-hidden="false" class="fas fa-align-justify"></i>
-                                            </div>
-                                        </div>
-                                        <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
-                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow hfe-dropdown"
-                                            data-toggle-icon="<i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;></i>"
-                                            data-close-icon="<i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;></i>"
-                                            data-full-width="yes">
-                                            <ul id="menu-1-b0aaaa9" class="hfe-nav-menu">
-                                                <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
-                                                        class="hfe-menu-item">How it works</a>
-                                                </li>
-                                                <li id="menu-item-28" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/faq" itemprop="url"
-                                                        class="hfe-menu-item">FAQ's</a>
-                                                </li>
-                                                <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu parent-has-child">
-                                                    <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
-                                                            class="hfe-menu-item" aria-haspopup="true"
-                                                            aria-expanded="false">Resources<span
-                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div><button
-                                                        class="sub-menu-toggle" aria-expanded="false"
-                                                        onclick="twentytwentyoneExpandSubMenu(this)"
-                                                        style="position: absolute;"><span class="icon-plus"><svg
-                                                                class="svg-icon" width="18" height="18"
-                                                                aria-hidden="true" role="img" focusable="false"
-                                                                viewBox="0 0 24 24" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z"
-                                                                    fill="currentColor"></path>
-                                                            </svg></span><span class="icon-minus"><svg class="svg-icon"
-                                                                width="18" height="18" aria-hidden="true" role="img"
-                                                                focusable="false" viewBox="0 0 24 24" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                    d="M6 11h12v2H6z" fill="currentColor"></path>
-                                                            </svg></span><span class="screen-reader-text">Open
-                                                            menu</span></button>
-                                                    <ul class="sub-menu">
-                                                        <li id="menu-item-24" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/community-post/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a>
-                                                        </li>
-                                                        <li id="menu-item-25" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a>
-                                                        </li>
-                                                        <li id="menu-item-2842" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Blogs</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-5114" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="{{ route('browseMentor') }}" itemprop="url"
-                                                        class="hfe-menu-item">Browse Mentor</a>
-                                                </li>
-                                                <li id="menu-item-5136" itemprop="name"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/login" itemprop="url"
-                                                        class="hfe-menu-item">Sign In</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a2b9669"
-                        data-id="a2b9669" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-ee84ee1 hfe-submenu-animation-slide_up hfe-link-redirect-self_link hfe-nav-menu__align-left hfe-submenu-icon-arrow hfe-nav-menu__breakpoint-tablet elementor-widget elementor-widget-navigation-menu"
-                                data-id="ee84ee1" data-element_type="widget"
-                                data-settings="{&quot;padding_horizontal_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_menu_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;menu_row_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;dropdown_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;dropdown_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:&quot;1&quot;},&quot;width_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;220&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_horizontal_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;15&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;padding_vertical_dropdown_item_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;distance_from_menu_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_size_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;toggle_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                                data-widget_type="navigation-menu.default">
-                                <div class="elementor-widget-container">
-                                    <div class="hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal hfe-pointer__none"
-                                        data-layout="horizontal">
-                                        <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
-                                            <span class="screen-reader-text">Menu</span>
-                                            <div class="hfe-nav-menu-icon">
-                                                <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
-                                            </div>
-                                        </div>
-                                        <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
-                                            class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
-                                            data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
-                                            data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;far fa-window-close&quot;&gt;&lt;/i&gt;"
-                                            data-full-width="yes">
-                                            <ul id="menu-1-ee84ee1" class="hfe-nav-menu">
-                                                <li id="menu-item-29" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/how-it-works" itemprop="url"
-                                                        class="hfe-sub-menu-item">How it works
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-28" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/faq/" itemprop="url"
-                                                        class="hfe-sub-menu-item">FAQ'S</a>
-                                                </li>
-                                                <li id="menu-item-27" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                                    <div class="hfe-has-submenu-container"><a
-                                                            href="https://wiseadvizor.com/resources/" itemprop="url"
-                                                            class="hfe-menu-item">Resources<span
-                                                                class="hfe-menu-toggle sub-arrow hfe-menu-child-0"><i
-                                                                    class="fa"></i></span></a></div>
-                                                    <ul class="sub-menu">
-                                                        <li id="menu-item-24" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/community-posts/"
-                                                                itemprop="url" class="hfe-sub-menu-item">Community
-                                                                Post</a>
-                                                        </li>
-                                                        <li id="menu-item-25" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/libraries/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Libraries</a>
-                                                        </li>
-                                                        <li id="menu-item-2842" itemprop="name"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                            <a href="https://wiseadvizor.com/blogs/" itemprop="url"
-                                                                class="hfe-sub-menu-item">Blogs</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-5114" itemprop="name"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
-                                                        href="{{ route('browseMentor') }}">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Browse
-                                                                Mentors</span>
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li id="menu-item-5136" itemprop="name"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                    @if(Auth::id() && auth()->user()->role_id == 3)
-                                                    <div class="d-flex align-items-center">
-                                                        <div class="dropdown">
-                                                            <a class="text-reset me-3" href="#"
-                                                                id="navbarDropdownMenuLink" role="button"
-                                                                data-mdb-toggle="dropdown" aria-expanded="false">
-                                                                <i class="fas fa-bell fa-2xl"></i>
-                                                                <span
-                                                                    class="badge rounded-pill badge-notification bg-danger">1</span>
-                                                            </a>
-                                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                                aria-labelledby="navbarDropdownMenuLink">
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Some news</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Another news</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Something else
-                                                                        here</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="dropdown">
-                                                            <a class="d-flex align-items-center" href="#"
-                                                                id="navbarDropdownMenuAvatar" role="button"
-                                                                data-mdb-toggle="dropdown" aria-expanded="false">
-                                                                @if (Auth::user()->metaData &&
-                                                                Auth::user()->metaData->profile_pic)
-                                                                <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                                    class="rounded-circle" height="8" width="37"
-                                                                    alt="Black and White Portrait of a Man"
-                                                                    loading="lazy" />
-                                                                @else
-                                                                <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                                    class="rounded-circle" height="8" width="37">
-                                                                @endif
-                                                            </a>
-                                                            <ul class="dropdown-menu dropdown-menu-end"
-                                                                aria-labelledby="navbarDropdownMenuAvatar">
-                                                                <li>
-                                                                    <a class="dropdown-item"
-                                                                        href="{{ route('user.dashboard') }}">My
-                                                                        Dashboard</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="dropdown-item"
-                                                                        href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                                        Profile</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="dropdown-item"
-                                                                        href="{{ route('user.change-password') }}">Change
-                                                                        Password</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="dropdown-item"
-                                                                        href="{{ route('user.reviews.list') }}">My
-                                                                        Reviews</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a class="dropdown-item"
-                                                                        href="{{ route('logout') }}">Logout</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    @else
-                                                    <a class="elementor-button elementor-button-link elementor-size-xs"
-                                                        href="{{ route('login') }}">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Sign In</span>
-                                                        </span>
-                                                    </a>
-                                                    @endif
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a2b9669"
-                        data-id="a2b9669" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-aea4c40 elementor-widget__width-auto elementor-mobile-align-right elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                data-id="aea4c40" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="{{ route('browseMentor') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Browse Mentors</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-0a7faa7 elementor-align-right elementor-widget__width-auto elementor-mobile-align-left elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                data-id="0a7faa7" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
-                                        @if(Auth::id() && auth()->user()->role_id == 3)
-                                        <div class="d-flex align-items-center">
-                                            <div class="dropdown">
-                                                <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
-                                                    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false">
-                                                    <i class="fas fa-bell fa-2xl"></i>
-                                                    <span
-                                                        class="badge rounded-pill badge-notification bg-danger">1</span> -->
-                    <!-- </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuLink">
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle d-flex align-items-center" href="#"
-                                                    id="navbarDropdownMenuAvatar" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">
-                                                    @if (Auth::user()->metaData &&
-                                                    Auth::user()->metaData->profile_pic) -->
-                    <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                        class="rounded-circle" height="8" width="37"
-                                                        alt="Black and White Portrait of a Man" loading="lazy" />
-                                                    @else
-                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
-                                                        class="rounded-circle" height="8" width="37">
-                                                    @endif
-                                                </a>
-                                                <ul class="dropdown-menu dropdown-menu-end"
-                                                    aria-labelledby="navbarDropdownMenuAvatar">
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('user.dashboard') }}">My
-                                                            Dashboard</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.profile', [Auth::id()]) }}">My
-                                                            Profile</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.change-password') }}">Change -->
-                    <!-- Password</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item"
-                                                            href="{{ route('user.reviews.list') }}">My
-                                                            Reviews</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        @else
-                                        <a class="elementor-button elementor-button-link elementor-size-xs"
-                                            href="{{ route('login') }}">
-                                            <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">Sign In</span>
-                                            </span>
-                                        </a>
-                                        @endif -->
-                    <!-- </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            </header>
-            <section
-                class="elementor-section elementor-top-section elementor-element elementor-element-d847c98 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="d847c98" data-element_type="section">
-                <div class="elementor-container elementor-column-gap-default">
-                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d317bb"
-                        data-id="4d317bb" data-element_type="column">
-                        <div class="elementor-widget-wrap">
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </header>
-    <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-9bcde29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no para"
-            data-id="9bcde29" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55b12a5"
-                    data-id="55b12a5" data-element_type="column"
-                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-2ad683c elementor-widget elementor-widget-heading"
-                            data-id="2ad683c" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <style>
-                                /*! elementor - v3.19.0 - 29-01-2024 */
-                                .elementor-heading-title {
-                                    padding: 0;
-                                    margin: 0;
-                                    line-height: 1
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                    color: inherit;
-                                    font-size: inherit;
-                                    line-height: inherit
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                    font-size: 15px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                    font-size: 19px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                    font-size: 29px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                    font-size: 39px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                    font-size: 59px
-                                }
-                                </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Discover a world of
-                                    expertise: Explore mentors offering invaluable guidance. Find the perfect mentor to
-                                    elevate your journey and achieve your goals with confidence.
-                                </h2>
-                            </div>
-                        </div>
-                        <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
-                            data-id="7fd4600" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Skip the trial and error
-                                    approach! Browse our mentors and overcome obstacles with personalized guidance.
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-                <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29a38af"
-                    data-id="29a38af" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-e813b77 elementor-align-center elementor-widget elementor-widget-button"
-                            data-id="e813b77" data-element_type="widget" data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Browse Mentors</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano filter-section"
-            data-id="2aff472" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="container">
-                    <form class="filterForm">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <!-- <label>Select with Button Class</label> -->
-                                <select id="expertise" class="selectpicker" data-style="btn-info"
-                                    name="filters[expertise]">
-                                    <option value="">Expertise</option>
-                                    @foreach($expertise as $expert)
-                                    <option value="{{ $expert->name }}">
-                                        {{ $expert->name }}
-                                    </option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="text" placeholder="FILTER BY DATE" onfocus="(this.type='date')"
-                                    class="form-control selectpicker" id="date" name="filters[date]">
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
-                                <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
-                                    <option value="">Search by name</option>
-                                    @foreach($price as $pr)
-                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
-                                    @endforeach
-                                </select>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
-                                    <option value="">Sort by Price</option>
-                                    <option value="asc">ASC</option>
-                                    <option value="desc">DESC </option>
-                                </select>
-                            </div>
-                            <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <button class="btn btn-info apply_filters search">Apply To Search</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="lqdwygc" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <style>
-            /*! elementor - v3.14.0 - 26-06-2023 */
-            @charset "UTF-8";
-
-            .elementor-star-rating {
-                color: #ccd6df;
-                font-family: eicons;
-                display: inline-block
-            }
-
-            .elementor-star-rating i {
-                display: inline-block;
-                position: relative;
-                font-style: normal;
-                cursor: default;
-                font-size: 80%;
-            }
-
-            .elementor-star-rating i:before {
-                content: "\e934";
-                display: block;
-                font-size: inherit;
-                font-family: inherit;
-                position: absolute;
-                overflow: hidden;
-                color: #f0ad4e;
-                top: 0;
-                left: 0
-            }
-
-            .elementor-star-rating .elementor-star-empty:before {
-                content: none
-            }
-
-            .elementor-star-rating .elementor-star-1:before {
-                width: 10%
-            }
-
-            .elementor-star-rating .elementor-star-2:before {
-                width: 20%
-            }
-
-            .elementor-star-rating .elementor-star-3:before {
-                width: 30%
-            }
-
-            .elementor-star-rating .elementor-star-4:before {
-                width: 40%
-            }
-
-            .elementor-star-rating .elementor-star-5:before {
-                width: 50%
-            }
-
-            .elementor-star-rating .elementor-star-6:before {
-                width: 60%
-            }
-
-            .elementor-star-rating .elementor-star-7:before {
-                width: 70%
-            }
-
-            .elementor-star-rating .elementor-star-8:before {
-                width: 80%
-            }
-
-            .elementor-star-rating .elementor-star-9:before {
-                width: 90%
-            }
-
-            .elementor-star-rating__wrapper {
-                display: flex;
-                align-items: right
-            }
-
-            .elementor-star-rating__title {
-                margin-right: 10px
-            }
-
-            .elementor-star-rating--align-right .elementor-star-rating__wrapper {
-                text-align: right;
-                justify-content: flex-end
-            }
-
-            .elementor-star-rating--align-left .elementor-star-rating__wrapper {
-                text-align: left;
-                justify-content: flex-start
-            }
-
-            .elementor-star-rating--align-center .elementor-star-rating__wrapper {
-                text-align: center;
-                justify-content: center
-            }
-
-            .elementor-star-rating--align-justify .elementor-star-rating__title {
-                margin-right: auto
-            }
-
-            @media (max-width:1024px) {
-                .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
-                    text-align: right;
-                    justify-content: flex-end
-                }
-
-                .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
-                    text-align: left;
-                    justify-content: flex-start
-                }
-
-                .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
-                    text-align: center;
-                    justify-content: center
-                }
-
-                .elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
-                    margin-right: auto
-                }
-            }
-
-            @media (max-width:767px) {
-                .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
-                    text-align: right;
-                    justify-content: flex-end
-                }
-
-                .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
-                    text-align: right;
-                    justify-content: flex-start
-                }
-
-                .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
-                    text-align: right;
-                    justify-content: right
-                }
-
-                .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
-                    margin-right: auto
-                }
-            }
-
-            .last-star {
-                letter-spacing: 0
-            }
-
-            .elementor--star-style-star_unicode .elementor-star-rating {
-                font-family: Arial, Helvetica, sans-serif
-            }
-
-            .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
-                content: "★"
-            }
-            </style>
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="row elementor-hidden-mobile">
-                    @foreach($mentors as $mentor)
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
-                        data-id="6a69efe" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                                data-id="b4f3275" data-element_type="widget"
-                                data-widget_type="wpr-content-toggle.default">
-                                <div class="elementor-widget-container">
-                                    <div class="wpr-content-toggle">
-                                        <div class="wpr-switcher-container" data-active-switcher="1">
-                                            <!-- <div class="wpr-switcher-inner wpr-switcher-first">
-                                              <div class="wpr-switcher-label">Before</div>
-
-                                             </div> -->
-
-                                            <!-- <div class="wpr-switcher-outer"> -->
-                                            <!-- <div class="wpr-switcher-wrap">
-                                                <div class="wpr-switcher" data-switcher="1"></div>
-
-                                                <div class="wpr-switcher" data-switcher="2"></div>
-
-                                                <div class="wpr-switcher-bg"></div>
-                                            </div> -->
-                                            <!-- </div> -->
-
-                                            <!-- <div class="wpr-switcher-inner wpr-switcher-second">
-                                            <div class="wpr-switcher-label">After</div>
-
-                                            </div> -->
-                                        </div>
-                                        <div class="wpr-switcher-content-wrap">
-                                            <div class="wpr-switcher-content" data-switcher="1">
-                                                <div
-                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531"
-                                                                src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                alt="" width="221" height="221"
-                                                                srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                            style="color: #000000">{{ $mentor->name }}</span></h5>
-                                                    <p><span style="color: #000000">{{ $mentor->metaData->designation }},
-                                                            {{ $mentor->metaData->company }}</span><br />
-                                                        <span style="font-size:14px;color: #000000">
-                                                            @php
-                                                            $totalReviews = \App\Models\Review::where('mentor_id',
-                                                            $mentor->id)->get()->count();
-                                                            $totalSessions =
-                                                            \App\Models\ScheduledCall::where('mentor_id',
-                                                            $mentor->id)->where('status', 'Approved')->where('is_paid',
-                                                            1)->get()->count();
-                                                            echo $totalReviews;
-                                                            if($totalReviews > 1) {
-                                                            echo " Reviews / ".$totalSessions. " Sessions";
-                                                            }
-                                                            else {
-                                                            echo " Review / ".$totalSessions. " Sessions";
-                                                            }
-                                                            @endphp
-                                                        </span>
-                                                    </p>
-                                                    <div class="elementor-star-rating" title="5/5"
-                                                        itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating">
-                                                        <i class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i> <span
-                                                            itemprop="ratingValue"
-                                                            class="elementor-screen-only">5/5</span>
-                                                    </div>
-                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
-                                                    </p>
-                                                    <ul>
-                                                        @php
-                                                        $expertise = \App\Models\Expertise::where('mentor_id',
-                                                        $mentor->id)->take(4)->get();
-                                                        @endphp
-                                                        @foreach($expertise as $expert)
-                                                        <li class="expertise"><span
-                                                                style="color: #000000">{{ $expert->expertise }}</span>
-                                                        </li>
-                                                        @endforeach
-                                                    </ul>
-                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                        data-id="0e640ef" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <!-- <p>&nbsp </p> -->
-                                                            <p class="bio" style="float:left;"><span
-                                                                    style="color: #000000">
-                                                                    {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
-                                                            </p>
-                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                                data-id="a92b341" data-element_type="widget"
-                                                                data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container" style="">
-                                                                    <span class="slot"
-                                                                        style="font-size:14px;color: #000000"><strong>
-                                                                            Next Slot -
-                                                                            @php
-                                                                            $nextAvailability =
-                                                                            \App\Models\AvailableSchedule::where('mentor_id',
-                                                                            $mentor->id)
-                                                                            ->whereDate('date', '>', now())
-                                                                            ->where('is_booked', 0)
-                                                                            ->orderBy('date', 'asc')
-                                                                            ->first();
-                                                                            @endphp
-                                                                            @if(!empty($nextAvailability))
-                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                            @endif
-                                                                        </strong></span>
-                                                                    <span class="charge"
-                                                                        style="font-size:14px;float:right;color: #000000"><strong>
-                                                                            $
-                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                            / 30
-                                                                            Min</strong></span>
-                                                                </div>
-                                                                <div>
-                                                                </div>
-                                                                <div style="">
-                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
-                                                                        style="margin-top:5px;background-color:#001E64;">View
-                                                                        Profile</a>
-                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
-                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                        Call</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-                <div class="row elementor-hidden-desktop">
-                    @foreach($mentors as $mentor)
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
-                        data-id="6a69efe" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                                data-id="b4f3275" data-element_type="widget"
-                                data-widget_type="wpr-content-toggle.default">
-                                <div class="elementor-widget-container">
-                                    <div class="wpr-content-toggle">
-                                        <div class="wpr-switcher-container" data-active-switcher="1">
-                                        </div>
-                                        <div class="wpr-switcher-content-wrap">
-                                            <div class="wpr-switcher-content" data-switcher="1">
-                                                <div
-                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <div class="grid-container">
-                                                        <div class="grid-child">
-                                                            <h5><strong><img decoding="async"
-                                                                        class="alignleft wp-image-5531"
-                                                                        src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                        alt="" width="221" height="221"
-                                                                        srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                        sizes="(max-width: 221px) 100vw, 221px" /></strong>
-                                                            </h5>
-                                                        </div>
-
-                                                        <div class="grid-child green">
-                                                            <h5><span style="color: #000000">{{ $mentor->name }}</span>
-                                                            </h5>
-                                                            <p><span style="color: #000000">{{ $mentor->metaData->designation }},
-                                                                    {{ $mentor->metaData->company }}</span><br />
-                                                                <span style="font-size:10px;color: #000000">
-                                                                    @php
-                                                                    $totalReviews =
-                                                                    \App\Models\Review::where('mentor_id',
-                                                                    $mentor->id)->get()->count();
-                                                                    $totalSessions =
-                                                                    \App\Models\ScheduledCall::where('mentor_id',
-                                                                    $mentor->id)->where('status',
-                                                                    'Approved')->where('is_paid',
-                                                                    1)->get()->count();
-                                                                    echo $totalReviews;
-                                                                    if($totalReviews > 1) {
-                                                                    echo " Reviews / ".$totalSessions. " Sessions";
-                                                                    }
-                                                                    else {
-                                                                    echo " Review / ".$totalSessions. " Sessions";
-                                                                    }
-                                                                    @endphp
-                                                                </span>
-                                                            </p>
-                                                            <div class="elementor-star-rating" title="5/5"
-                                                                itemtype="http://schema.org/Rating" itemscope=""
-                                                                itemprop="reviewRating">
-                                                                <i class="elementor-star-full">&#xE934;</i><i
-                                                                    class="elementor-star-full">&#xE934;</i><i
-                                                                    class="elementor-star-full">&#xE934;</i><i
-                                                                    class="elementor-star-full">&#xE934;</i><i
-                                                                    class="elementor-star-full">&#xE934;</i> <span
-                                                                    itemprop="ratingValue"
-                                                                    class="elementor-screen-only">5/5</span>
-                                                            </div>
-                                                            <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                            <p><span
-                                                                    style="color: #000000"><strong>Expertise:</strong></span>
-                                                            </p>
-                                                            <ul>
-                                                                @php
-                                                                $expertise = \App\Models\Expertise::where('mentor_id',
-                                                                $mentor->id)->take(4)->get();
-                                                                @endphp
-                                                                @foreach($expertise as $expert)
-                                                                <li class="expertise"><span
-                                                                        style="color: #000000">{{ $expert->expertise }}</span>
-                                                                </li>
-                                                                @endforeach
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                        data-id="0e640ef" data-element_type="widget"
-                                                        data-widget_type="text-editor.default">
-                                                        <div class="elementor-widget-container">
-                                                            <!-- <p>&nbsp </p> -->
-                                                            <p class="bio" style="float:left;"><span
-                                                                    style="color: #000000">
-                                                                    {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
-                                                            </p>
-                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
-                                                                data-id="a92b341" data-element_type="widget"
-                                                                data-widget_type="heading.default">
-                                                                <div class="elementor-widget-container" style="">
-                                                                    <span class="slot"
-                                                                        style="font-size:11px;color: #000000"><strong>
-                                                                            Next Slot -
-                                                                            @php
-                                                                            $nextAvailability =
-                                                                            \App\Models\AvailableSchedule::where('mentor_id',
-                                                                            $mentor->id)
-                                                                            ->whereDate('date', '>', now())
-                                                                            ->where('is_booked', 0)
-                                                                            ->orderBy('date', 'asc')
-                                                                            ->first();
-                                                                            @endphp
-                                                                            @if(!empty($nextAvailability))
-                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                            @endif
-                                                                        </strong></span>
-                                                                    <span class="charge"
-                                                                        style="font-size:11px;float:right;color: #000000"><strong>
-                                                                            $
-                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                            / 30
-                                                                            Min</strong></span>
-                                                                </div>
-                                                                <div>
-                                                                </div>
-                                                                <div class="buttons" style="">
-                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
-                                                                        style="margin-top:5px;background-color:#001E64;font-size:11px;">View
-                                                                        Profile</a>
-                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
-                                                                        style="margin-top:5px;float: right;background-color:#001E64;font-size:11px;">Schedule
-                                                                        Call</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-            </div>
-        </section>
+            href="https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=4731e9c5f9">Log Out</a>
     </div>
-    <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
-        <div class='footer-width-fixer'>
-            <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
-                <footer
-                    class="elementor-section elementor-top-section elementor-element elementor-element-60f0ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                    data-id="60f0ea5" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a49692e"
-                            data-id="a49692e" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-dd4d324 elementor-button-align-stretch elementor-widget elementor-widget-form"
-                                    data-id="dd4d324" data-element_type="widget"
-                                    data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                    data-widget_type="form.default">
-                                    <div class="elementor-widget-container">
-                                        <style>
-                                        /*! elementor-pro - v3.8.2 - 21-11-2022 */
-                                        .elementor-button.elementor-hidden,
-                                        .elementor-hidden {
-                                            display: none
-                                        }
 
-                                        .e-form__step {
-                                            width: 100%
-                                        }
+    <div id="page" class="site">
+        <a class="skip-link screen-reader-text" href="#content">
+            Skip to content </a>
 
-                                        .e-form__step:not(.elementor-hidden) {
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -ms-flex-wrap: wrap;
-                                            flex-wrap: wrap
-                                        }
 
-                                        .e-form__buttons {
-                                            -ms-flex-wrap: wrap;
-                                            flex-wrap: wrap
-                                        }
+        <header id="masthead" class="site-header has-title-and-tagline">
 
-                                        .e-form__buttons,
-                                        .e-form__buttons__wrapper {
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex
-                                        }
 
-                                        .e-form__indicators {
-                                            -webkit-box-pack: justify;
-                                            -ms-flex-pack: justify;
-                                            justify-content: space-between;
-                                            -ms-flex-wrap: nowrap;
-                                            flex-wrap: nowrap;
-                                            font-size: 13px;
-                                            margin-bottom: var(--e-form-steps-indicators-spacing)
-                                        }
 
-                                        .e-form__indicators,
-                                        .e-form__indicators__indicator {
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -webkit-box-align: center;
-                                            -ms-flex-align: center;
-                                            align-items: center
-                                        }
+            <div class="site-branding">
 
-                                        .e-form__indicators__indicator {
-                                            -webkit-box-orient: vertical;
-                                            -webkit-box-direction: normal;
-                                            -ms-flex-direction: column;
-                                            flex-direction: column;
-                                            -webkit-box-pack: center;
-                                            -ms-flex-pack: center;
-                                            justify-content: center;
-                                            -ms-flex-preferred-size: 0;
-                                            flex-basis: 0;
-                                            padding: 0 var(--e-form-steps-divider-gap)
-                                        }
 
-                                        .e-form__indicators__indicator__progress {
-                                            width: 100%;
-                                            position: relative;
-                                            background-color: var(--e-form-steps-indicator-progress-background-color);
-                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                            overflow: hidden
-                                        }
+                <p class="site-title"><a href="https://web.wiseadvizor.com/">WISE ADVIZOR</a></p>
 
-                                        .e-form__indicators__indicator__progress__meter {
-                                            width: var(--e-form-steps-indicator-progress-meter-width, 0);
-                                            height: var(--e-form-steps-indicator-progress-height);
-                                            line-height: var(--e-form-steps-indicator-progress-height);
-                                            padding-right: 15px;
-                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                            background-color: var(--e-form-steps-indicator-progress-color);
-                                            color: var(--e-form-steps-indicator-progress-meter-color);
-                                            text-align: right;
-                                            -webkit-transition: width .1s linear;
-                                            -o-transition: width .1s linear;
-                                            transition: width .1s linear
-                                        }
+            </div><!-- .site-branding -->
 
-                                        .e-form__indicators__indicator:first-child {
-                                            padding-left: 0
-                                        }
 
-                                        .e-form__indicators__indicator:last-child {
-                                            padding-right: 0
-                                        }
+        </header><!-- #masthead -->
 
-                                        .e-form__indicators__indicator--state-inactive {
-                                            color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                        }
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+                    <div data-elementor-type="wp-page" data-elementor-id="5668" class="elementor elementor-5668">
+                        <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-355bdd2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="355bdd2" data-element_type="section"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6c5957f"
+                                    data-id="6c5957f" data-element_type="column"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-42d40cd elementor-widget elementor-widget-heading"
+                                            data-id="42d40cd" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor - v3.19.0 - 29-01-2024 */
+                                                .elementor-heading-title {
+                                                    padding: 0;
+                                                    margin: 0;
+                                                    line-height: 1
+                                                }
 
-                                        .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                            background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
-                                        }
+                                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                    color: inherit;
+                                                    font-size: inherit;
+                                                    line-height: inherit
+                                                }
 
-                                        .e-form__indicators__indicator--state-inactive object,
-                                        .e-form__indicators__indicator--state-inactive svg {
-                                            fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                        }
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                    font-size: 15px
+                                                }
 
-                                        .e-form__indicators__indicator--state-active {
-                                            color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
-                                            border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                        }
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                    font-size: 19px
+                                                }
 
-                                        .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                            background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                        }
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                    font-size: 29px
+                                                }
 
-                                        .e-form__indicators__indicator--state-active object,
-                                        .e-form__indicators__indicator--state-active svg {
-                                            fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
-                                        }
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                    font-size: 39px
+                                                }
 
-                                        .e-form__indicators__indicator--state-completed {
-                                            color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                        }
-
-                                        .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                            background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                        }
-
-                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
-                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                        }
-
-                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
-                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
-                                            background-color: initial
-                                        }
-
-                                        .e-form__indicators__indicator--state-completed object,
-                                        .e-form__indicators__indicator--state-completed svg {
-                                            fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                        }
-
-                                        .e-form__indicators__indicator__icon {
-                                            width: var(--e-form-steps-indicator-padding, 30px);
-                                            height: var(--e-form-steps-indicator-padding, 30px);
-                                            font-size: var(--e-form-steps-indicator-icon-size);
-                                            border-width: 1px;
-                                            border-style: solid;
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -webkit-box-pack: center;
-                                            -ms-flex-pack: center;
-                                            justify-content: center;
-                                            -webkit-box-align: center;
-                                            -ms-flex-align: center;
-                                            align-items: center;
-                                            overflow: hidden;
-                                            margin-bottom: 10px
-                                        }
-
-                                        .e-form__indicators__indicator__icon img,
-                                        .e-form__indicators__indicator__icon object,
-                                        .e-form__indicators__indicator__icon svg {
-                                            width: var(--e-form-steps-indicator-icon-size);
-                                            height: auto
-                                        }
-
-                                        .e-form__indicators__indicator__icon .e-font-icon-svg {
-                                            height: 1em
-                                        }
-
-                                        .e-form__indicators__indicator__number {
-                                            width: var(--e-form-steps-indicator-padding, 30px);
-                                            height: var(--e-form-steps-indicator-padding, 30px);
-                                            border-width: 1px;
-                                            border-style: solid;
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -webkit-box-pack: center;
-                                            -ms-flex-pack: center;
-                                            justify-content: center;
-                                            -webkit-box-align: center;
-                                            -ms-flex-align: center;
-                                            align-items: center;
-                                            margin-bottom: 10px
-                                        }
-
-                                        .e-form__indicators__indicator--shape-circle {
-                                            border-radius: 50%
-                                        }
-
-                                        .e-form__indicators__indicator--shape-square {
-                                            border-radius: 0
-                                        }
-
-                                        .e-form__indicators__indicator--shape-rounded {
-                                            border-radius: 5px
-                                        }
-
-                                        .e-form__indicators__indicator--shape-none {
-                                            border: 0
-                                        }
-
-                                        .e-form__indicators__indicator__label {
-                                            text-align: center
-                                        }
-
-                                        .e-form__indicators__indicator__separator {
-                                            width: 100%;
-                                            height: var(--e-form-steps-divider-width);
-                                            background-color: #c2cbd2
-                                        }
-
-                                        .e-form__indicators--type-icon,
-                                        .e-form__indicators--type-icon_text,
-                                        .e-form__indicators--type-number,
-                                        .e-form__indicators--type-number_text {
-                                            -webkit-box-align: start;
-                                            -ms-flex-align: start;
-                                            align-items: flex-start
-                                        }
-
-                                        .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
-                                        .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
-                                        .e-form__indicators--type-number .e-form__indicators__indicator__separator,
-                                        .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
-                                            margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
-                                        }
-
-                                        .elementor-field-type-hidden {
-                                            display: none
-                                        }
-
-                                        .elementor-field-type-html {
-                                            display: inline-block
-                                        }
-
-                                        .elementor-login .elementor-lost-password,
-                                        .elementor-login .elementor-remember-me {
-                                            font-size: .85em
-                                        }
-
-                                        .elementor-field-type-recaptcha_v3 .elementor-field-label {
-                                            display: none
-                                        }
-
-                                        .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
-                                            z-index: 1
-                                        }
-
-                                        .elementor-button .elementor-form-spinner {
-                                            -webkit-box-ordinal-group: 4;
-                                            -ms-flex-order: 3;
-                                            order: 3
-                                        }
-
-                                        .elementor-form .elementor-button>span {
-                                            display: -webkit-box;
-                                            display: -ms-flexbox;
-                                            display: flex;
-                                            -webkit-box-pack: center;
-                                            -ms-flex-pack: center;
-                                            justify-content: center;
-                                            -webkit-box-align: center;
-                                            -ms-flex-align: center;
-                                            align-items: center
-                                        }
-
-                                        .elementor-form .elementor-button .elementor-button-text {
-                                            white-space: normal;
-                                            -webkit-box-flex: 0;
-                                            -ms-flex-positive: 0;
-                                            flex-grow: 0
-                                        }
-
-                                        .elementor-form .elementor-button svg {
-                                            height: auto
-                                        }
-
-                                        .elementor-form .elementor-button .e-font-icon-svg {
-                                            height: 1em
-                                        }
-
-                                        .elementor-select-wrapper .select-caret-down-wrapper {
-                                            position: absolute;
-                                            top: 50%;
-                                            -webkit-transform: translateY(-50%);
-                                            -ms-transform: translateY(-50%);
-                                            transform: translateY(-50%);
-                                            inset-inline-end: 10px;
-                                            pointer-events: none;
-                                            font-size: 11px
-                                        }
-
-                                        .elementor-select-wrapper .select-caret-down-wrapper svg {
-                                            display: unset;
-                                            width: 1em;
-                                            aspect-ratio: unset;
-                                            fill: currentColor
-                                        }
-
-                                        .elementor-select-wrapper .select-caret-down-wrapper i {
-                                            font-size: 19px;
-                                            line-height: 2
-                                        }
-
-                                        .elementor-select-wrapper.remove-before:before {
-                                            content: "" !important
-                                        }
-                                        </style>
-                                        <form class="elementor-form" method="post" name="Subscribe Form">
-                                            <input type="hidden" name="post_id" value="32" />
-                                            <input type="hidden" name="form_id" value="dd4d324" />
-                                            <input type="hidden" name="referer_title" value="Browse Mentor" />
-
-                                            <input type="hidden" name="queried_id" value="2772" />
-
-                                            <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                                <div
-                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
-                                                    <label for="form-field-email" class="elementor-field-label">
-                                                        Subscribe to news updates </label>
-                                                    <input size="1" type="email" name="form_fields[email]"
-                                                        id="form-field-email"
-                                                        class="elementor-field elementor-size-md  elementor-field-textual"
-                                                        placeholder="Your email address" required="required"
-                                                        aria-required="true">
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                    font-size: 59px
+                                                }
+                                                </style>
+                                                <p class="elementor-heading-title elementor-size-default">Free online
+                                                    webinar</p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-36477d7 elementor-widget elementor-widget-heading"
+                                            data-id="36477d7" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">How to
+                                                    validate your business idea?</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-139df9d elementor-widget elementor-widget-heading"
+                                            data-id="139df9d" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">Host: Soha El
+                                                    Baklawy, Entrepreneur & Startup Mentor</h4>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-8f1739e elementor-widget elementor-widget-heading"
+                                            data-id="8f1739e" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <p class="elementor-heading-title elementor-size-default">When: 17th
+                                                    April 2024, 12:00PM IST</p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-a12b512 elementor-widget elementor-widget-wpr-countdown"
+                                            data-id="a12b512" data-element_type="widget"
+                                            data-widget_type="wpr-countdown.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="wpr-countdown-wrap elementor-clearfix" data-type="due-date"
+                                                    data-show-again="0" data-actions="[]" data-interval="1713355200">
+                                                    <div class="wpr-countdown-item"><span
+                                                            class="wpr-countdown-number wpr-countdown-days"
+                                                            data-item="days"></span><span class="wpr-countdown-label"
+                                                            data-text="{&quot;singular&quot;:&quot;Day&quot;,&quot;plural&quot;:&quot;Days&quot;}">Days</span>
+                                                    </div>
+                                                    <div class="wpr-countdown-item"><span
+                                                            class="wpr-countdown-number wpr-countdown-hours"
+                                                            data-item="hours"></span><span class="wpr-countdown-label"
+                                                            data-text="{&quot;singular&quot;:&quot;Hour&quot;,&quot;plural&quot;:&quot;Hours&quot;}">Hours</span>
+                                                    </div>
+                                                    <div class="wpr-countdown-item"><span
+                                                            class="wpr-countdown-number wpr-countdown-minutes"
+                                                            data-item="minutes"></span><span class="wpr-countdown-label"
+                                                            data-text="{&quot;singular&quot;:&quot;Minute&quot;,&quot;plural&quot;:&quot;Minutes&quot;}">Minutes</span>
+                                                    </div>
                                                 </div>
-                                                <div
-                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
-                                                    <button type="submit" class="elementor-button elementor-size-sm">
-                                                        <span>
-                                                            <span class=" elementor-button-icon">
-                                                            </span>
-                                                            <span class="elementor-button-text">SUBSCRIBE</span>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-69b8626 elementor-align-center elementor-widget elementor-widget-button"
+                                            data-id="69b8626" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="#">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Book your seat
+                                                                now</span>
                                                         </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-13e9ca2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                    data-id="13e9ca2" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c9b61e2"
-                                            data-id="c9b61e2" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b84e421 elementor-widget elementor-widget-heading"
-                                                    data-id="b84e421" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">How it
-                                                            Works</p>
-                                                    </div>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b1ed54d"
-                                            data-id="b1ed54d" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-7b6d864 elementor-widget elementor-widget-heading"
-                                                    data-id="7b6d864" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/privacy-policy/">Privacy
-                                                                Policy</a></p>
-                                                    </div>
-                                                </div>
+                                        <div class="elementor-element elementor-element-6635b3f elementor-widget elementor-widget-heading"
+                                            data-id="6635b3f" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <p class="elementor-heading-title elementor-size-default">10 Spots left
+                                                </p>
                                             </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c000038"
-                                            data-id="c000038" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading"
-                                                    data-id="aaf88ad" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/terms-and-conditions/">Terms
-                                                                & Conditions</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-bd39b49"
-                                            data-id="bd39b49" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b23aa07 elementor-widget elementor-widget-heading"
-                                                    data-id="b23aa07" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/community-guidelines/">Community
-                                                                Guidelines</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-2775f92"
-                                            data-id="2775f92" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-269f902 elementor-widget elementor-widget-heading"
-                                                    data-id="269f902" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/about-us/">About
-                                                                Us</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-12e052a"
-                                            data-id="12e052a" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-32f5614 elementor-widget elementor-widget-heading"
-                                                    data-id="32f5614" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/contact-us/">Contact
-                                                                Us</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-7c20640"
-                                            data-id="7c20640" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-159e6db elementor-widget elementor-widget-heading"
-                                                    data-id="159e6db" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/blogs/">FAQs</a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b37b831"
-                                            data-id="b37b831" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-5db6379 elementor-widget elementor-widget-heading"
-                                                    data-id="5db6379" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
-                                                                Mentors</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <div class="elementor-element elementor-element-6bd5898 elementor-widget__width-auto elementor-widget elementor-widget-copyright"
-                                    data-id="6bd5898" data-element_type="widget"
-                                    data-settings="{&quot;align&quot;:&quot;left&quot;}"
-                                    data-widget_type="copyright.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="hfe-copyright-wrapper">
-                                            <a href="https://wiseadvizor.com">
-                                                <span>Copyright © 2024 wiseAdvizor | Powered by IVY Investment
-                                                    LLC</span>
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-540d2d1 elementor-shape-circle elementor-grid-6 elementor-widget__width-auto elementor-grid-mobile-6 elementor-widget-mobile__width-initial elementor-widget elementor-widget-social-icons"
-                                    data-id="540d2d1" data-element_type="widget"
-                                    data-widget_type="social-icons.default">
-                                    <div class="elementor-widget-container">
-                                        <style>
-                                        /*! elementor - v3.19.0 - 29-01-2024 */
-                                        .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
-                                        .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
-                                        .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
-                                            line-height: 1;
-                                            font-size: 0
-                                        }
-
-                                        .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-                                            display: inline-grid
-                                        }
-
-                                        .elementor-widget-social-icons .elementor-grid {
-                                            grid-column-gap: var(--grid-column-gap, 5px);
-                                            grid-row-gap: var(--grid-row-gap, 5px);
-                                            grid-template-columns: var(--grid-template-columns);
-                                            justify-content: var(--justify-content, center);
-                                            justify-items: var(--justify-content, center)
-                                        }
-
-                                        .elementor-icon.elementor-social-icon {
-                                            font-size: var(--icon-size, 25px);
-                                            line-height: var(--icon-size, 25px);
-                                            width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
-                                            height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
-                                        }
-
-                                        .elementor-social-icon {
-                                            --e-social-icon-icon-color: #fff;
-                                            display: inline-flex;
-                                            background-color: #69727d;
-                                            align-items: center;
-                                            justify-content: center;
-                                            text-align: center;
-                                            cursor: pointer
-                                        }
-
-                                        .elementor-social-icon i {
-                                            color: var(--e-social-icon-icon-color)
-                                        }
-
-                                        .elementor-social-icon svg {
-                                            fill: var(--e-social-icon-icon-color)
-                                        }
-
-                                        .elementor-social-icon:last-child {
-                                            margin: 0
-                                        }
-
-                                        .elementor-social-icon:hover {
-                                            opacity: .9;
-                                            color: #fff
-                                        }
-
-                                        .elementor-social-icon-android {
-                                            background-color: #a4c639
-                                        }
-
-                                        .elementor-social-icon-apple {
-                                            background-color: #999
-                                        }
-
-                                        .elementor-social-icon-behance {
-                                            background-color: #1769ff
-                                        }
-
-                                        .elementor-social-icon-bitbucket {
-                                            background-color: #205081
-                                        }
-
-                                        .elementor-social-icon-codepen {
-                                            background-color: #000
-                                        }
-
-                                        .elementor-social-icon-delicious {
-                                            background-color: #39f
-                                        }
-
-                                        .elementor-social-icon-deviantart {
-                                            background-color: #05cc47
-                                        }
-
-                                        .elementor-social-icon-digg {
-                                            background-color: #005be2
-                                        }
-
-                                        .elementor-social-icon-dribbble {
-                                            background-color: #ea4c89
-                                        }
-
-                                        .elementor-social-icon-elementor {
-                                            background-color: #d30c5c
-                                        }
-
-                                        .elementor-social-icon-envelope {
-                                            background-color: #ea4335
-                                        }
-
-                                        .elementor-social-icon-facebook,
-                                        .elementor-social-icon-facebook-f {
-                                            background-color: #3b5998
-                                        }
-
-                                        .elementor-social-icon-flickr {
-                                            background-color: #0063dc
-                                        }
-
-                                        .elementor-social-icon-foursquare {
-                                            background-color: #2d5be3
-                                        }
-
-                                        .elementor-social-icon-free-code-camp,
-                                        .elementor-social-icon-freecodecamp {
-                                            background-color: #006400
-                                        }
-
-                                        .elementor-social-icon-github {
-                                            background-color: #333
-                                        }
-
-                                        .elementor-social-icon-gitlab {
-                                            background-color: #e24329
-                                        }
-
-                                        .elementor-social-icon-globe {
-                                            background-color: #69727d
-                                        }
-
-                                        .elementor-social-icon-google-plus,
-                                        .elementor-social-icon-google-plus-g {
-                                            background-color: #dd4b39
-                                        }
-
-                                        .elementor-social-icon-houzz {
-                                            background-color: #7ac142
-                                        }
-
-                                        .elementor-social-icon-instagram {
-                                            background-color: #262626
-                                        }
-
-                                        .elementor-social-icon-jsfiddle {
-                                            background-color: #487aa2
-                                        }
-
-                                        .elementor-social-icon-link {
-                                            background-color: #818a91
-                                        }
-
-                                        .elementor-social-icon-linkedin,
-                                        .elementor-social-icon-linkedin-in {
-                                            background-color: #0077b5
-                                        }
-
-                                        .elementor-social-icon-medium {
-                                            background-color: #00ab6b
-                                        }
-
-                                        .elementor-social-icon-meetup {
-                                            background-color: #ec1c40
-                                        }
-
-                                        .elementor-social-icon-mixcloud {
-                                            background-color: #273a4b
-                                        }
-
-                                        .elementor-social-icon-odnoklassniki {
-                                            background-color: #f4731c
-                                        }
-
-                                        .elementor-social-icon-pinterest {
-                                            background-color: #bd081c
-                                        }
-
-                                        .elementor-social-icon-product-hunt {
-                                            background-color: #da552f
-                                        }
-
-                                        .elementor-social-icon-reddit {
-                                            background-color: #ff4500
-                                        }
-
-                                        .elementor-social-icon-rss {
-                                            background-color: #f26522
-                                        }
-
-                                        .elementor-social-icon-shopping-cart {
-                                            background-color: #4caf50
-                                        }
-
-                                        .elementor-social-icon-skype {
-                                            background-color: #00aff0
-                                        }
-
-                                        .elementor-social-icon-slideshare {
-                                            background-color: #0077b5
-                                        }
-
-                                        .elementor-social-icon-snapchat {
-                                            background-color: #fffc00
-                                        }
-
-                                        .elementor-social-icon-soundcloud {
-                                            background-color: #f80
-                                        }
-
-                                        .elementor-social-icon-spotify {
-                                            background-color: #2ebd59
-                                        }
-
-                                        .elementor-social-icon-stack-overflow {
-                                            background-color: #fe7a15
-                                        }
-
-                                        .elementor-social-icon-steam {
-                                            background-color: #00adee
-                                        }
-
-                                        .elementor-social-icon-stumbleupon {
-                                            background-color: #eb4924
-                                        }
-
-                                        .elementor-social-icon-telegram {
-                                            background-color: #2ca5e0
-                                        }
-
-                                        .elementor-social-icon-thumb-tack {
-                                            background-color: #1aa1d8
-                                        }
-
-                                        .elementor-social-icon-tripadvisor {
-                                            background-color: #589442
-                                        }
-
-                                        .elementor-social-icon-tumblr {
-                                            background-color: #35465c
-                                        }
-
-                                        .elementor-social-icon-twitch {
-                                            background-color: #6441a5
-                                        }
-
-                                        .elementor-social-icon-twitter {
-                                            background-color: #1da1f2
-                                        }
-
-                                        .elementor-social-icon-viber {
-                                            background-color: #665cac
-                                        }
-
-                                        .elementor-social-icon-vimeo {
-                                            background-color: #1ab7ea
-                                        }
-
-                                        .elementor-social-icon-vk {
-                                            background-color: #45668e
-                                        }
-
-                                        .elementor-social-icon-weibo {
-                                            background-color: #dd2430
-                                        }
-
-                                        .elementor-social-icon-weixin {
-                                            background-color: #31a918
-                                        }
-
-                                        .elementor-social-icon-whatsapp {
-                                            background-color: #25d366
-                                        }
-
-                                        .elementor-social-icon-wordpress {
-                                            background-color: #21759b
-                                        }
-
-                                        .elementor-social-icon-xing {
-                                            background-color: #026466
-                                        }
-
-                                        .elementor-social-icon-yelp {
-                                            background-color: #af0606
-                                        }
-
-                                        .elementor-social-icon-youtube {
-                                            background-color: #cd201f
-                                        }
-
-                                        .elementor-social-icon-500px {
-                                            background-color: #0099e5
-                                        }
-
-                                        .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                            border-radius: 10%
-                                        }
-
-                                        .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                            border-radius: 50%
-                                        }
-                                        </style>
-                                        <div class="elementor-social-icons-wrapper elementor-grid">
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a96e0b3"
-                                                    href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
-                                                    target="_blank">
-                                                    <span class="elementor-screen-only">Facebook</span>
-                                                    <i class="fab fa-facebook"></i> </a>
-                                            </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-50885d5"
-                                                    href="https://twitter.com/WiseAdvizor" target="_blank">
-                                                    <span class="elementor-screen-only">Twitter</span>
-                                                    <i class="fab fa-twitter"></i> </a>
-                                            </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-39b2a58"
-                                                    href="https://www.youtube.com/@wiseAdvizor" target="_blank">
-                                                    <span class="elementor-screen-only">Youtube</span>
-                                                    <i class="fab fa-youtube"></i> </a>
-                                            </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-9d2b1b1"
-                                                    href="https://www.linkedin.com/company/wiseadvizor/"
-                                                    target="_blank">
-                                                    <span class="elementor-screen-only">Linkedin</span>
-                                                    <i class="fab fa-linkedin"></i> </a>
-                                            </span>
-                                            <span class="elementor-grid-item">
-                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
-                                                    target="_blank">
-                                                    <span class="elementor-screen-only">Instagram</span>
-                                                    <i class="fab fa-instagram"></i> </a>
-                                            </span>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e2217df"
+                                    data-id="e2217df" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-43093cf elementor-widget elementor-widget-image"
+                                            data-id="43093cf" data-element_type="widget"
+                                            data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor - v3.19.0 - 29-01-2024 */
+                                                .elementor-widget-image {
+                                                    text-align: center
+                                                }
+
+                                                .elementor-widget-image a {
+                                                    display: inline-block
+                                                }
+
+                                                .elementor-widget-image a img[src$=".svg"] {
+                                                    width: 48px
+                                                }
+
+                                                .elementor-widget-image img {
+                                                    vertical-align: middle;
+                                                    display: inline-block
+                                                }
+                                                </style> <img fetchpriority="high" decoding="async" width="594"
+                                                    height="632"
+                                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/03/sohas-pic-2023.png"
+                                                    class="attachment-large size-large wp-image-5671" alt=""
+                                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/03/sohas-pic-2023.png 594w, https://web.wiseadvizor.com/wp-content/uploads/2024/03/sohas-pic-2023-282x300.png 282w"
+                                                    sizes="(max-width: 594px) 100vw, 594px"
+                                                    style="width:100%;height:106.4%;max-width:594px" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
+                        <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-7824c66 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="7824c66" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3430f77"
+                                    data-id="3430f77" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-4948a4b9 elementor-widget elementor-widget-heading"
+                                            data-id="4948a4b9" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Is your
+                                                    startup idea brilliant... or just wishful thinking? <br><Br>
+                                                    Does your business really fill a market need.. or Are you just too
+                                                    in-love with your idea?
+                                                    <br>
+
+                                                    Many aspiring entrepreneurs get stuck at the validation stage, while
+                                                    other entrepreneurs doomly fail as a result of mismatch if their
+                                                    business concept has and real-world potential.
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-3a029543 elementor-widget elementor-widget-text-editor"
+                                            data-id="3a029543" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor - v3.19.0 - 29-01-2024 */
+                                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                    background-color: #69727d;
+                                                    color: #fff
+                                                }
+
+                                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                    color: #69727d;
+                                                    border: 3px solid;
+                                                    background-color: transparent
+                                                }
+
+                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                    margin-top: 8px
+                                                }
+
+                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                    width: 1em;
+                                                    height: 1em
+                                                }
+
+                                                .elementor-widget-text-editor .elementor-drop-cap {
+                                                    float: left;
+                                                    text-align: center;
+                                                    line-height: 1;
+                                                    font-size: 50px
+                                                }
+
+                                                .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                    display: inline-block
+                                                }
+                                                </style>
+                                                <p>During this stage, the entrepreneur evaluates the business idea to
+                                                    determine its viability and potential for success. This stage
+                                                    requires a lot of research, testing, and experimentation to ensure
+                                                    that the business idea is profitable. To emphasize the viability and
+                                                    potential of your startup. Reiterate the market need, your unique
+                                                    solution, and the value it brings to customers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-4399a714 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="4399a714" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-wide">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6f1fa09d"
+                                    data-id="6f1fa09d" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-754665b1 elementor-widget elementor-widget-heading"
+                                            data-id="754665b1" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">In this
+                                                    exclusive webinar, you'll learn :
+
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-eec5a83 elementor-widget elementor-widget-text-editor"
+                                            data-id="eec5a83" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>To enhance your startup&#8217;s viability: Develop the knowledge and
+                                                    tools to confidently evaluate your idea&#8217;s success potential
+                                                    via: </p>
+                                                <ul
+                                                    style="padding-left: calc(2 * var(--global--spacing-horizontal)); font-family: var(--list--font-family); max-width: var(--global--spacing-measure); font-size: 16px;">
+                                                    <li style="max-width: var(--global--spacing-measure);"><span
+                                                            style="max-width: var(--global--spacing-measure);">Easy ways
+                                                            for validating business ideas</span></li>
+                                                </ul>
+                                                <ul
+                                                    style="padding-left: calc(2 * var(--global--spacing-horizontal)); font-family: var(--list--font-family); max-width: var(--global--spacing-measure); font-size: 16px;">
+                                                    <li style="max-width: var(--global--spacing-measure);"><span
+                                                            style="max-width: var(--global--spacing-measure);">5 major
+                                                            steps of Business validation</span></li>
+                                                    <li style="max-width: var(--global--spacing-measure);"><span
+                                                            style="max-width: var(--global--spacing-measure);">How Lean
+                                                            Business model canvas helps with Business Validation</span>
+                                                    </li>
+                                                    <li style="max-width: var(--global--spacing-measure);"><span
+                                                            style="max-width: var(--global--spacing-measure); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif;">Brief
+                                                            on Market research, testing and MVP</span></li>
+                                                    <li style="max-width: var(--global--spacing-measure);">
+                                                        <h2
+                                                            style="color: #242424; letter-spacing: normal; font-size: 20px; font-family: Kanit, sans-serif; font-weight: 500; margin-bottom: 5px; line-height: 0.7em;">
+                                                            <span
+                                                                style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">Refining
+                                                                your value proposition: </span><span
+                                                                style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">enhancing
+                                                                product market fit</span></h2>
+                                                        <p> </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7a39da1"
+                                    data-id="7a39da1" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-7a86f3c elementor-widget elementor-widget-heading"
+                                            data-id="7a86f3c" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">This webinar
+                                                    is perfect for you if:</h4>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-5ce9ed3 elementor-widget elementor-widget-text-editor"
+                                            data-id="5ce9ed3" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <ul
+                                                    style="color: #242424; font-family: 'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;">
+                                                    <li
+                                                        style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
+                                                        <span
+                                                            style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You
+                                                            have a startup idea but are unsure if it&#8217;s
+                                                            viable.<br /></span></li>
+                                                    <li
+                                                        style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
+                                                        <span
+                                                            style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You&#8217;re
+                                                            struggling to identify your target audience and market
+                                                            demand.<br /></span></li>
+                                                    <li
+                                                        style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
+                                                        <span
+                                                            style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You
+                                                            need guidance on testing your product or service
+                                                            effectively.<br /></span></li>
+                                                    <li
+                                                        style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
+                                                        <span
+                                                            style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You
+                                                            want to learn how to articulate your value proposition and
+                                                            stand out from the competition.</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-c3ea9a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="c3ea9a2" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-89609e1"
+                                    data-id="89609e1" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-0f9d480 elementor-widget elementor-widget-heading"
+                                            data-id="0f9d480" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h3 class="elementor-heading-title elementor-size-default">About Soha
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-5c71ff6 elementor-widget elementor-widget-text-editor"
+                                            data-id="5c71ff6" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p><span style="color: #000000;"><strong>She has over 22 years of
+                                                            experience</strong> guiding aspiring entrepreneurs towards
+                                                        success. She&#8217;s the founder of Businessita, a platform
+                                                        dedicated to empowering women in business, and has a proven
+                                                        track record of helping startups thrive.</span></p>
+                                                <div class="elementor-element elementor-element-6b6a93e elementor-widget elementor-widget-text-editor"
+                                                    data-id="6b6a93e" data-element_type="widget"
+                                                    data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p><span style="color: #000000;">She is internationally
+                                                                recognized, having received multiple awards and being
+                                                                honored as one of the top 50 influential women in her
+                                                                field. As a mentor, trainer, and strategy &amp; startup
+                                                                advisor, she brings a wealth of experience and accolades
+                                                                to inspire and empower individuals and
+                                                                organizations.</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-6133575 elementor-widget elementor-widget-heading"
+                                            data-id="6133575" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <p class="elementor-heading-title elementor-size-default">Achievements:
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-7674a77 elementor-widget elementor-widget-text-editor"
+                                            data-id="7674a77" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <ul>
+                                                    <li>
+                                                        <div>Delivered 440+ consultation hour</div>
+                                                    </li>
+                                                    <li>
+                                                        <div>Delivered 700+ mentorship hours</div>
+                                                    </li>
+                                                    <li>
+                                                        <div>27 talks (Nationally and Internationally)</div>
+                                                    </li>
+                                                    <li>
+                                                        <div>26+ features (Nationally and Internationally)</div>
+                                                    </li>
+                                                    <li>
+                                                        <div>10+ jury (Nationally and internationally)</div>
+                                                    </li>
+                                                    <li>
+                                                        <div>Mentored 180+ Entrepreneur (Nationally and Internationally)
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div>Delivered 6+ Corporate Strategy and development
+                                                            consultations</div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0698e86"
+                                    data-id="0698e86" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-7553ce4 elementor-widget elementor-widget-heading"
+                                            data-id="7553ce4" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">Register here
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-1bb80e2 elementor-widget elementor-widget-wpforms"
+                                            data-id="1bb80e2" data-element_type="widget"
+                                            data-widget_type="wpforms.default">
+                                            <div class="elementor-widget-container">
+                                                <style id="wpforms-css-vars-root">
+                                                :root {
+                                                    --wpforms-field-border-radius: 3px;
+                                                    --wpforms-field-background-color: #ffffff;
+                                                    --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
+                                                    --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
+                                                    --wpforms-label-color: rgba(0, 0, 0, 0.85);
+                                                    --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
+                                                    --wpforms-label-error-color: #d63637;
+                                                    --wpforms-button-border-radius: 3px;
+                                                    --wpforms-button-background-color: #066aab;
+                                                    --wpforms-button-text-color: #ffffff;
+                                                    --wpforms-field-size-input-height: 43px;
+                                                    --wpforms-field-size-input-spacing: 15px;
+                                                    --wpforms-field-size-font-size: 16px;
+                                                    --wpforms-field-size-line-height: 19px;
+                                                    --wpforms-field-size-padding-h: 14px;
+                                                    --wpforms-field-size-checkbox-size: 16px;
+                                                    --wpforms-field-size-sublabel-spacing: 5px;
+                                                    --wpforms-field-size-icon-size: 1;
+                                                    --wpforms-label-size-font-size: 16px;
+                                                    --wpforms-label-size-line-height: 19px;
+                                                    --wpforms-label-size-sublabel-font-size: 14px;
+                                                    --wpforms-label-size-sublabel-line-height: 17px;
+                                                    --wpforms-button-size-font-size: 17px;
+                                                    --wpforms-button-size-height: 41px;
+                                                    --wpforms-button-size-padding-h: 15px;
+                                                    --wpforms-button-size-margin-top: 10px;
+
+                                                }
+                                                </style>
+                                                <style id="wpforms-css-vars-elementor-widget-1bb80e2">
+                                                .elementor-widget-wpforms.elementor-element-1bb80e2 {
+                                                    --wpforms-field-size-input-height: 43px;
+                                                    --wpforms-field-size-input-spacing: 15px;
+                                                    --wpforms-field-size-font-size: 16px;
+                                                    --wpforms-field-size-line-height: 19px;
+                                                    --wpforms-field-size-padding-h: 14px;
+                                                    --wpforms-field-size-checkbox-size: 16px;
+                                                    --wpforms-field-size-sublabel-spacing: 5px;
+                                                    --wpforms-field-size-icon-size: 1;
+                                                    --wpforms-label-size-font-size: 16px;
+                                                    --wpforms-label-size-line-height: 19px;
+                                                    --wpforms-label-size-sublabel-font-size: 14px;
+                                                    --wpforms-label-size-sublabel-line-height: 17px;
+                                                    --wpforms-button-size-font-size: 17px;
+                                                    --wpforms-button-size-height: 41px;
+                                                    --wpforms-button-size-padding-h: 15px;
+                                                    --wpforms-button-size-margin-top: 10px;
+
+                                                }
+                                                </style>
+                                                <div class="wpforms-container wpforms-container-full wpforms-render-modern"
+                                                    id="wpforms-5755">
+                                                    <form id="wpforms-form-5755"
+                                                        class="wpforms-validate wpforms-form wpforms-ajax-form"
+                                                        data-formid="5755" method="post" enctype="multipart/form-data"
+                                                        action="/elementor-5668/?preview_id=5668&#038;preview_nonce=16c7cd0779&#038;preview=true"
+                                                        data-token="5901c65353c1296c6816013e03975027"><noscript
+                                                            class="wpforms-error-noscript">Please enable JavaScript in
+                                                            your browser to complete this form.</noscript>
+                                                        <div class="wpforms-hidden" id="wpforms-error-noscript">Please
+                                                            enable JavaScript in your browser to complete this form.
+                                                        </div>
+                                                        <div class="wpforms-field-container">
+                                                            <div id="wpforms-5755-field_1-container"
+                                                                class="wpforms-field wpforms-field-name"
+                                                                data-field-id="1"><label class="wpforms-field-label"
+                                                                    for="wpforms-5755-field_1">Name <span
+                                                                        class="wpforms-required-label"
+                                                                        aria-hidden="true">*</span></label><input
+                                                                    type="text" id="wpforms-5755-field_1"
+                                                                    class="wpforms-field-medium wpforms-field-required"
+                                                                    name="wpforms[fields][1]"
+                                                                    aria-errormessage="wpforms-5755-field_1-error"
+                                                                    required></div>
+                                                            <div id="wpforms-5755-field_2-container"
+                                                                class="wpforms-field wpforms-field-email"
+                                                                data-field-id="2"><label class="wpforms-field-label"
+                                                                    for="wpforms-5755-field_2">Email <span
+                                                                        class="wpforms-required-label"
+                                                                        aria-hidden="true">*</span></label><input
+                                                                    type="email" id="wpforms-5755-field_2"
+                                                                    class="wpforms-field-medium wpforms-field-required"
+                                                                    name="wpforms[fields][2]" spellcheck="false"
+                                                                    aria-errormessage="wpforms-5755-field_2-error"
+                                                                    required></div>
+                                                            <div id="wpforms-5755-field_3-container"
+                                                                class="wpforms-field wpforms-field-text"
+                                                                data-field-id="3"><label class="wpforms-field-label"
+                                                                    for="wpforms-5755-field_3">LinkedIn
+                                                                    URL</label><input type="text"
+                                                                    id="wpforms-5755-field_3"
+                                                                    class="wpforms-field-medium"
+                                                                    name="wpforms[fields][3]"
+                                                                    aria-errormessage="wpforms-5755-field_3-error">
+                                                            </div>
+                                                            <div id="wpforms-5755-field_4-container"
+                                                                class="wpforms-field wpforms-field-text"
+                                                                data-field-id="4"><label class="wpforms-field-label"
+                                                                    for="wpforms-5755-field_4">As spots are limited, we
+                                                                    kindly ask you to confirm your availability for the
+                                                                    webinar. <span class="wpforms-required-label"
+                                                                        aria-hidden="true">*</span></label><input
+                                                                    type="text" id="wpforms-5755-field_4"
+                                                                    class="wpforms-field-medium wpforms-field-required"
+                                                                    name="wpforms[fields][4]"
+                                                                    aria-errormessage="wpforms-5755-field_4-error"
+                                                                    required></div>
+                                                        </div><!-- .wpforms-field-container -->
+                                                        <div class="wpforms-submit-container"><input type="hidden"
+                                                                name="wpforms[id]" value="5755"> <input type="hidden"
+                                                                name="wpforms[nonce]" value="3962e77a95" />
+                                                            <input type="hidden" name="wpforms[author]" value="1"><input
+                                                                type="hidden" name="wpforms[post_id]"
+                                                                value="5668"><button type="submit"
+                                                                name="wpforms[submit]" id="wpforms-submit-5755"
+                                                                class="wpforms-submit" data-alt-text="Sending..."
+                                                                data-submit-text="Submit" aria-live="assertive"
+                                                                value="wpforms-submit">Submit</button><img
+                                                                decoding="async"
+                                                                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg"
+                                                                class="wpforms-submit-spinner" style="display: none;"
+                                                                width="26" height="26" alt="Loading">
+                                                        </div>
+                                                    </form>
+                                                </div> <!-- .wpforms-container -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                            class="elementor-section elementor-top-section elementor-element elementor-element-448095a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="448095a" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ffc236"
+                                    data-id="6ffc236" data-element_type="column">
+                                    <div class="elementor-widget-wrap">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
-                </footer>
-            </div>
-        </div>
-    </footer>
-    <script>
-    document.body.classList.remove("no-js");
-    </script>
-    <!-- <script>
-    if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
-        document.body.classList.add('is-IE');
-    }
-    </script> -->
-    <!-- <script type="text/template" id="tmpl-elementor-templates-modal__header">
-        <div class="elementor-templates-modal__header__logo-area"></div>
+
+                    <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon"
+                        role="contentinfo">
+                        <div class='footer-width-fixer'>
+                            <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
+                                <footer
+                                    class="elementor-section elementor-top-section elementor-element elementor-element-60f0ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                    data-id="60f0ea5" data-element_type="section"
+                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                                    <div class="elementor-container elementor-column-gap-no">
+                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a49692e"
+                                            data-id="a49692e" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-dd4d324 elementor-button-align-stretch elementor-widget elementor-widget-form"
+                                                    data-id="dd4d324" data-element_type="widget"
+                                                    data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+                                                    data-widget_type="form.default">
+                                                    <div class="elementor-widget-container">
+                                                        <style>
+                                                        /*! elementor-pro - v3.8.2 - 21-11-2022 */
+                                                        .elementor-button.elementor-hidden,
+                                                        .elementor-hidden {
+                                                            display: none
+                                                        }
+
+                                                        .e-form__step {
+                                                            width: 100%
+                                                        }
+
+                                                        .e-form__step:not(.elementor-hidden) {
+                                                            display: -webkit-box;
+                                                            display: -ms-flexbox;
+                                                            display: flex;
+                                                            -ms-flex-wrap: wrap;
+                                                            flex-wrap: wrap
+                                                        }
+
+                                                        .e-form__buttons {
+                                                            -ms-flex-wrap: wrap;
+                                                            flex-wrap: wrap
+                                                        }
+
+                                                        .e-form__buttons,
+                                                        .e-form__buttons__wrapper {
+                                                            display: -webkit-box;
+                                                            display: -ms-flexbox;
+                                                            display: flex
+                                                        }
+
+                                                        .e-form__indicators {
+                                                            -webkit-box-pack: justify;
+                                                            -ms-flex-pack: justify;
+                                                            justify-content: space-between;
+                                                            -ms-flex-wrap: nowrap;
+                                                            flex-wrap: nowrap;
+                                                            font-size: 13px;
+                                                            margin-bottom: var(--e-form-steps-indicators-spacing)
+                                                        }
+
+                                                        .e-form__indicators,
+                                                        .e-form__indicators__indicator {
+                                                            display: -webkit-box;
+                                                            display: -ms-flexbox;
+                                                            display: flex;
+                                                            -webkit-box-align: center;
+                                                            -ms-flex-align: center;
+                                                            align-items: center
+                                                        }
+
+                                                        .e-form__indicators__indicator {
+                                                            -webkit-box-orient: vertical;
+                                                            -webkit-box-direction: normal;
+                                                            -ms-flex-direction: column;
+                                                            flex-direction: column;
+                                                            -webkit-box-pack: center;
+                                                            -ms-flex-pack: center;
+                                                            justify-content: center;
+                                                            -ms-flex-preferred-size: 0;
+                                                            flex-basis: 0;
+                                                            padding: 0 var(--e-form-steps-divider-gap)
+                                                        }
+
+                                                        .e-form__indicators__indicator__progress {
+                                                            width: 100%;
+                                                            position: relative;
+                                                            background-color: var(--e-form-steps-indicator-progress-background-color);
+                                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
+                                                            overflow: hidden
+                                                        }
+
+                                                        .e-form__indicators__indicator__progress__meter {
+                                                            width: var(--e-form-steps-indicator-progress-meter-width, 0);
+                                                            height: var(--e-form-steps-indicator-progress-height);
+                                                            line-height: var(--e-form-steps-indicator-progress-height);
+                                                            padding-right: 15px;
+                                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
+                                                            background-color: var(--e-form-steps-indicator-progress-color);
+                                                            color: var(--e-form-steps-indicator-progress-meter-color);
+                                                            text-align: right;
+                                                            -webkit-transition: width .1s linear;
+                                                            -o-transition: width .1s linear;
+                                                            transition: width .1s linear
+                                                        }
+
+                                                        .e-form__indicators__indicator:first-child {
+                                                            padding-left: 0
+                                                        }
+
+                                                        .e-form__indicators__indicator:last-child {
+                                                            padding-right: 0
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-inactive {
+                                                            color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                                            background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-inactive object,
+                                                        .e-form__indicators__indicator--state-inactive svg {
+                                                            fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-active {
+                                                            color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
+                                                            border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                                            background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-active object,
+                                                        .e-form__indicators__indicator--state-active svg {
+                                                            fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-completed {
+                                                            color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                                            background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
+                                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
+                                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
+                                                            background-color: initial
+                                                        }
+
+                                                        .e-form__indicators__indicator--state-completed object,
+                                                        .e-form__indicators__indicator--state-completed svg {
+                                                            fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
+                                                        }
+
+                                                        .e-form__indicators__indicator__icon {
+                                                            width: var(--e-form-steps-indicator-padding, 30px);
+                                                            height: var(--e-form-steps-indicator-padding, 30px);
+                                                            font-size: var(--e-form-steps-indicator-icon-size);
+                                                            border-width: 1px;
+                                                            border-style: solid;
+                                                            display: -webkit-box;
+                                                            display: -ms-flexbox;
+                                                            display: flex;
+                                                            -webkit-box-pack: center;
+                                                            -ms-flex-pack: center;
+                                                            justify-content: center;
+                                                            -webkit-box-align: center;
+                                                            -ms-flex-align: center;
+                                                            align-items: center;
+                                                            overflow: hidden;
+                                                            margin-bottom: 10px
+                                                        }
+
+                                                        .e-form__indicators__indicator__icon img,
+                                                        .e-form__indicators__indicator__icon object,
+                                                        .e-form__indicators__indicator__icon svg {
+                                                            width: var(--e-form-steps-indicator-icon-size);
+                                                            height: auto
+                                                        }
+
+                                                        .e-form__indicators__indicator__icon .e-font-icon-svg {
+                                                            height: 1em
+                                                        }
+
+                                                        .e-form__indicators__indicator__number {
+                                                            width: var(--e-form-steps-indicator-padding, 30px);
+                                                            height: var(--e-form-steps-indicator-padding, 30px);
+                                                            border-width: 1px;
+                                                            border-style: solid;
+                                                            display: -webkit-box;
+                                                            display: -ms-flexbox;
+                                                            display: flex;
+                                                            -webkit-box-pack: center;
+                                                            -ms-flex-pack: center;
+                                                            justify-content: center;
+                                                            -webkit-box-align: center;
+                                                            -ms-flex-align: center;
+                                                            align-items: center;
+                                                            margin-bottom: 10px
+                                                        }
+
+                                                        .e-form__indicators__indicator--shape-circle {
+                                                            border-radius: 50%
+                                                        }
+
+                                                        .e-form__indicators__indicator--shape-square {
+                                                            border-radius: 0
+                                                        }
+
+                                                        .e-form__indicators__indicator--shape-rounded {
+                                                            border-radius: 5px
+                                                        }
+
+                                                        .e-form__indicators__indicator--shape-none {
+                                                            border: 0
+                                                        }
+
+                                                        .e-form__indicators__indicator__label {
+                                                            text-align: center
+                                                        }
+
+                                                        .e-form__indicators__indicator__separator {
+                                                            width: 100%;
+                                                            height: var(--e-form-steps-divider-width);
+                                                            background-color: #c2cbd2
+                                                        }
+
+                                                        .e-form__indicators--type-icon,
+                                                        .e-form__indicators--type-icon_text,
+                                                        .e-form__indicators--type-number,
+                                                        .e-form__indicators--type-number_text {
+                                                            -webkit-box-align: start;
+                                                            -ms-flex-align: start;
+                                                            align-items: flex-start
+                                                        }
+
+                                                        .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
+                                                        .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
+                                                        .e-form__indicators--type-number .e-form__indicators__indicator__separator,
+                                                        .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
+                                                            margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
+                                                        }
+
+                                                        .elementor-field-type-hidden {
+                                                            display: none
+                                                        }
+
+                                                        .elementor-field-type-html {
+                                                            display: inline-block
+                                                        }
+
+                                                        .elementor-login .elementor-lost-password,
+                                                        .elementor-login .elementor-remember-me {
+                                                            font-size: .85em
+                                                        }
+
+                                                        .elementor-field-type-recaptcha_v3 .elementor-field-label {
+                                                            display: none
+                                                        }
+
+                                                        .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
+                                                            z-index: 1
+                                                        }
+
+                                                        .elementor-button .elementor-form-spinner {
+                                                            -webkit-box-ordinal-group: 4;
+                                                            -ms-flex-order: 3;
+                                                            order: 3
+                                                        }
+
+                                                        .elementor-form .elementor-button>span {
+                                                            display: -webkit-box;
+                                                            display: -ms-flexbox;
+                                                            display: flex;
+                                                            -webkit-box-pack: center;
+                                                            -ms-flex-pack: center;
+                                                            justify-content: center;
+                                                            -webkit-box-align: center;
+                                                            -ms-flex-align: center;
+                                                            align-items: center
+                                                        }
+
+                                                        .elementor-form .elementor-button .elementor-button-text {
+                                                            white-space: normal;
+                                                            -webkit-box-flex: 0;
+                                                            -ms-flex-positive: 0;
+                                                            flex-grow: 0
+                                                        }
+
+                                                        .elementor-form .elementor-button svg {
+                                                            height: auto
+                                                        }
+
+                                                        .elementor-form .elementor-button .e-font-icon-svg {
+                                                            height: 1em
+                                                        }
+
+                                                        .elementor-select-wrapper .select-caret-down-wrapper {
+                                                            position: absolute;
+                                                            top: 50%;
+                                                            -webkit-transform: translateY(-50%);
+                                                            -ms-transform: translateY(-50%);
+                                                            transform: translateY(-50%);
+                                                            inset-inline-end: 10px;
+                                                            pointer-events: none;
+                                                            font-size: 11px
+                                                        }
+
+                                                        .elementor-select-wrapper .select-caret-down-wrapper svg {
+                                                            display: unset;
+                                                            width: 1em;
+                                                            aspect-ratio: unset;
+                                                            fill: currentColor
+                                                        }
+
+                                                        .elementor-select-wrapper .select-caret-down-wrapper i {
+                                                            font-size: 19px;
+                                                            line-height: 2
+                                                        }
+
+                                                        .elementor-select-wrapper.remove-before:before {
+                                                            content: "" !important
+                                                        }
+                                                        </style>
+                                                        <form class="elementor-form" method="post"
+                                                            name="Subscribe Form">
+                                                            <input type="hidden" name="post_id" value="32" />
+                                                            <input type="hidden" name="form_id" value="dd4d324" />
+                                                            <input type="hidden" name="referer_title"
+                                                                value="Elementor #5668" />
+
+                                                            <input type="hidden" name="queried_id" value="5668" />
+
+                                                            <div
+                                                                class="elementor-form-fields-wrapper elementor-labels-above">
+                                                                <div
+                                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
+                                                                    <label for="form-field-email"
+                                                                        class="elementor-field-label">
+                                                                        Subscribe to news updates </label>
+                                                                    <input size="1" type="email"
+                                                                        name="form_fields[email]" id="form-field-email"
+                                                                        class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                        placeholder="Your email address"
+                                                                        required="required" aria-required="true">
+                                                                </div>
+                                                                <div
+                                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
+                                                                    <button type="submit"
+                                                                        class="elementor-button elementor-size-sm">
+                                                                        <span>
+                                                                            <span class=" elementor-button-icon">
+                                                                            </span>
+                                                                            <span
+                                                                                class="elementor-button-text">SUBSCRIBE</span>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <section
+                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-13e9ca2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                    data-id="13e9ca2" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c9b61e2"
+                                                            data-id="c9b61e2" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-b84e421 elementor-widget elementor-widget-heading"
+                                                                    data-id="b84e421" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            How it Works</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b1ed54d"
+                                                            data-id="b1ed54d" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-7b6d864 elementor-widget elementor-widget-heading"
+                                                                    data-id="7b6d864" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/privacy-policy/">Privacy
+                                                                                Policy</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c000038"
+                                                            data-id="c000038" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading"
+                                                                    data-id="aaf88ad" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/terms-and-conditions/">Terms
+                                                                                & Conditions</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-bd39b49"
+                                                            data-id="bd39b49" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-b23aa07 elementor-widget elementor-widget-heading"
+                                                                    data-id="b23aa07" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/community-guidelines/">Community
+                                                                                Guidelines</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-2775f92"
+                                                            data-id="2775f92" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-269f902 elementor-widget elementor-widget-heading"
+                                                                    data-id="269f902" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/about-us/">About
+                                                                                Us</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-12e052a"
+                                                            data-id="12e052a" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-32f5614 elementor-widget elementor-widget-heading"
+                                                                    data-id="32f5614" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/contact-us/">Contact
+                                                                                Us</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-7c20640"
+                                                            data-id="7c20640" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-159e6db elementor-widget elementor-widget-heading"
+                                                                    data-id="159e6db" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/blogs/">FAQs</a>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b37b831"
+                                                            data-id="b37b831" data-element_type="column">
+                                                            <div
+                                                                class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-5db6379 elementor-widget elementor-widget-heading"
+                                                                    data-id="5db6379" data-element_type="widget"
+                                                                    data-widget_type="heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <p
+                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            <a
+                                                                                href="https://web.pransainvestment.ca/browse-mentor/">Browse
+                                                                                Mentors</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <div class="elementor-element elementor-element-6bd5898 elementor-widget__width-auto elementor-widget elementor-widget-copyright"
+                                                    data-id="6bd5898" data-element_type="widget"
+                                                    data-settings="{&quot;align&quot;:&quot;left&quot;}"
+                                                    data-widget_type="copyright.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="hfe-copyright-wrapper">
+                                                            <a href="https://wiseadvizor.com">
+                                                                <span>Copyright © 2024 wiseAdvizor | Powered by IVY
+                                                                    Investment LLC</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-540d2d1 elementor-shape-circle elementor-grid-6 elementor-widget__width-auto elementor-grid-mobile-6 elementor-widget-mobile__width-initial elementor-widget elementor-widget-social-icons"
+                                                    data-id="540d2d1" data-element_type="widget"
+                                                    data-widget_type="social-icons.default">
+                                                    <div class="elementor-widget-container">
+                                                        <style>
+                                                        /*! elementor - v3.19.0 - 29-01-2024 */
+                                                        .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+                                                        .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+                                                        .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+                                                            line-height: 1;
+                                                            font-size: 0
+                                                        }
+
+                                                        .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+                                                            display: inline-grid
+                                                        }
+
+                                                        .elementor-widget-social-icons .elementor-grid {
+                                                            grid-column-gap: var(--grid-column-gap, 5px);
+                                                            grid-row-gap: var(--grid-row-gap, 5px);
+                                                            grid-template-columns: var(--grid-template-columns);
+                                                            justify-content: var(--justify-content, center);
+                                                            justify-items: var(--justify-content, center)
+                                                        }
+
+                                                        .elementor-icon.elementor-social-icon {
+                                                            font-size: var(--icon-size, 25px);
+                                                            line-height: var(--icon-size, 25px);
+                                                            width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
+                                                            height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+                                                        }
+
+                                                        .elementor-social-icon {
+                                                            --e-social-icon-icon-color: #fff;
+                                                            display: inline-flex;
+                                                            background-color: #69727d;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            text-align: center;
+                                                            cursor: pointer
+                                                        }
+
+                                                        .elementor-social-icon i {
+                                                            color: var(--e-social-icon-icon-color)
+                                                        }
+
+                                                        .elementor-social-icon svg {
+                                                            fill: var(--e-social-icon-icon-color)
+                                                        }
+
+                                                        .elementor-social-icon:last-child {
+                                                            margin: 0
+                                                        }
+
+                                                        .elementor-social-icon:hover {
+                                                            opacity: .9;
+                                                            color: #fff
+                                                        }
+
+                                                        .elementor-social-icon-android {
+                                                            background-color: #a4c639
+                                                        }
+
+                                                        .elementor-social-icon-apple {
+                                                            background-color: #999
+                                                        }
+
+                                                        .elementor-social-icon-behance {
+                                                            background-color: #1769ff
+                                                        }
+
+                                                        .elementor-social-icon-bitbucket {
+                                                            background-color: #205081
+                                                        }
+
+                                                        .elementor-social-icon-codepen {
+                                                            background-color: #000
+                                                        }
+
+                                                        .elementor-social-icon-delicious {
+                                                            background-color: #39f
+                                                        }
+
+                                                        .elementor-social-icon-deviantart {
+                                                            background-color: #05cc47
+                                                        }
+
+                                                        .elementor-social-icon-digg {
+                                                            background-color: #005be2
+                                                        }
+
+                                                        .elementor-social-icon-dribbble {
+                                                            background-color: #ea4c89
+                                                        }
+
+                                                        .elementor-social-icon-elementor {
+                                                            background-color: #d30c5c
+                                                        }
+
+                                                        .elementor-social-icon-envelope {
+                                                            background-color: #ea4335
+                                                        }
+
+                                                        .elementor-social-icon-facebook,
+                                                        .elementor-social-icon-facebook-f {
+                                                            background-color: #3b5998
+                                                        }
+
+                                                        .elementor-social-icon-flickr {
+                                                            background-color: #0063dc
+                                                        }
+
+                                                        .elementor-social-icon-foursquare {
+                                                            background-color: #2d5be3
+                                                        }
+
+                                                        .elementor-social-icon-free-code-camp,
+                                                        .elementor-social-icon-freecodecamp {
+                                                            background-color: #006400
+                                                        }
+
+                                                        .elementor-social-icon-github {
+                                                            background-color: #333
+                                                        }
+
+                                                        .elementor-social-icon-gitlab {
+                                                            background-color: #e24329
+                                                        }
+
+                                                        .elementor-social-icon-globe {
+                                                            background-color: #69727d
+                                                        }
+
+                                                        .elementor-social-icon-google-plus,
+                                                        .elementor-social-icon-google-plus-g {
+                                                            background-color: #dd4b39
+                                                        }
+
+                                                        .elementor-social-icon-houzz {
+                                                            background-color: #7ac142
+                                                        }
+
+                                                        .elementor-social-icon-instagram {
+                                                            background-color: #262626
+                                                        }
+
+                                                        .elementor-social-icon-jsfiddle {
+                                                            background-color: #487aa2
+                                                        }
+
+                                                        .elementor-social-icon-link {
+                                                            background-color: #818a91
+                                                        }
+
+                                                        .elementor-social-icon-linkedin,
+                                                        .elementor-social-icon-linkedin-in {
+                                                            background-color: #0077b5
+                                                        }
+
+                                                        .elementor-social-icon-medium {
+                                                            background-color: #00ab6b
+                                                        }
+
+                                                        .elementor-social-icon-meetup {
+                                                            background-color: #ec1c40
+                                                        }
+
+                                                        .elementor-social-icon-mixcloud {
+                                                            background-color: #273a4b
+                                                        }
+
+                                                        .elementor-social-icon-odnoklassniki {
+                                                            background-color: #f4731c
+                                                        }
+
+                                                        .elementor-social-icon-pinterest {
+                                                            background-color: #bd081c
+                                                        }
+
+                                                        .elementor-social-icon-product-hunt {
+                                                            background-color: #da552f
+                                                        }
+
+                                                        .elementor-social-icon-reddit {
+                                                            background-color: #ff4500
+                                                        }
+
+                                                        .elementor-social-icon-rss {
+                                                            background-color: #f26522
+                                                        }
+
+                                                        .elementor-social-icon-shopping-cart {
+                                                            background-color: #4caf50
+                                                        }
+
+                                                        .elementor-social-icon-skype {
+                                                            background-color: #00aff0
+                                                        }
+
+                                                        .elementor-social-icon-slideshare {
+                                                            background-color: #0077b5
+                                                        }
+
+                                                        .elementor-social-icon-snapchat {
+                                                            background-color: #fffc00
+                                                        }
+
+                                                        .elementor-social-icon-soundcloud {
+                                                            background-color: #f80
+                                                        }
+
+                                                        .elementor-social-icon-spotify {
+                                                            background-color: #2ebd59
+                                                        }
+
+                                                        .elementor-social-icon-stack-overflow {
+                                                            background-color: #fe7a15
+                                                        }
+
+                                                        .elementor-social-icon-steam {
+                                                            background-color: #00adee
+                                                        }
+
+                                                        .elementor-social-icon-stumbleupon {
+                                                            background-color: #eb4924
+                                                        }
+
+                                                        .elementor-social-icon-telegram {
+                                                            background-color: #2ca5e0
+                                                        }
+
+                                                        .elementor-social-icon-thumb-tack {
+                                                            background-color: #1aa1d8
+                                                        }
+
+                                                        .elementor-social-icon-tripadvisor {
+                                                            background-color: #589442
+                                                        }
+
+                                                        .elementor-social-icon-tumblr {
+                                                            background-color: #35465c
+                                                        }
+
+                                                        .elementor-social-icon-twitch {
+                                                            background-color: #6441a5
+                                                        }
+
+                                                        .elementor-social-icon-twitter {
+                                                            background-color: #1da1f2
+                                                        }
+
+                                                        .elementor-social-icon-viber {
+                                                            background-color: #665cac
+                                                        }
+
+                                                        .elementor-social-icon-vimeo {
+                                                            background-color: #1ab7ea
+                                                        }
+
+                                                        .elementor-social-icon-vk {
+                                                            background-color: #45668e
+                                                        }
+
+                                                        .elementor-social-icon-weibo {
+                                                            background-color: #dd2430
+                                                        }
+
+                                                        .elementor-social-icon-weixin {
+                                                            background-color: #31a918
+                                                        }
+
+                                                        .elementor-social-icon-whatsapp {
+                                                            background-color: #25d366
+                                                        }
+
+                                                        .elementor-social-icon-wordpress {
+                                                            background-color: #21759b
+                                                        }
+
+                                                        .elementor-social-icon-xing {
+                                                            background-color: #026466
+                                                        }
+
+                                                        .elementor-social-icon-yelp {
+                                                            background-color: #af0606
+                                                        }
+
+                                                        .elementor-social-icon-youtube {
+                                                            background-color: #cd201f
+                                                        }
+
+                                                        .elementor-social-icon-500px {
+                                                            background-color: #0099e5
+                                                        }
+
+                                                        .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+                                                            border-radius: 10%
+                                                        }
+
+                                                        .elementor-shape-circle .elementor-icon.elementor-social-icon {
+                                                            border-radius: 50%
+                                                        }
+                                                        </style>
+                                                        <div class="elementor-social-icons-wrapper elementor-grid">
+                                                            <span class="elementor-grid-item">
+                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a96e0b3"
+                                                                    href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
+                                                                    target="_blank">
+                                                                    <span class="elementor-screen-only">Facebook</span>
+                                                                    <i class="fab fa-facebook"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-50885d5"
+                                                                    href="https://twitter.com/WiseAdvizor"
+                                                                    target="_blank">
+                                                                    <span class="elementor-screen-only">Twitter</span>
+                                                                    <i class="fab fa-twitter"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-39b2a58"
+                                                                    href="https://www.youtube.com/@wiseAdvizor"
+                                                                    target="_blank">
+                                                                    <span class="elementor-screen-only">Youtube</span>
+                                                                    <i class="fab fa-youtube"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-9d2b1b1"
+                                                                    href="https://www.linkedin.com/company/wiseadvizor/"
+                                                                    target="_blank">
+                                                                    <span class="elementor-screen-only">Linkedin</span>
+                                                                    <i class="fab fa-linkedin"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
+                                                                    target="_blank">
+                                                                    <span class="elementor-screen-only">Instagram</span>
+                                                                    <i class="fab fa-instagram"></i> </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </footer>
+            </div><!-- #page -->
+            <script>
+            document.body.classList.remove("no-js");
+            </script>
+            <script>
+            if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
+                document.body.classList.add('is-IE');
+            }
+            </script>
+            <script type="text/template" id="tmpl-elementor-templates-modal__header">
+                <div class="elementor-templates-modal__header__logo-area"></div>
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
 		<# if ( closeType ) { #>
-			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close-- elementor-templates-modal__header__item">
+			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
 				<# if ( 'skip' === closeType ) { #>
 				<span>Skip</span>
 				<# } #>
@@ -3150,1930 +2585,1198 @@
 		<# } #>
 		<div id="elementor-template-library-header-tools"></div>
 	</div>
-</script> -->
+</script>
 
-    <!-- <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
-        <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
+            <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
+                <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
 		<i class="eicon-elementor"></i>
 	</span>
-	<span class="elementor-templates-modal__header__logo__title"></span>
+	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
 </script>
-    <script type="text/template" id="tmpl-elementor-finder">
-        <div id="elementor-finder__search">
+            <script type="text/template" id="tmpl-elementor-finder">
+                <div id="elementor-finder__search">
 		<i class="eicon-search" aria-hidden="true"></i>
 		<input id="elementor-finder__search__input" placeholder="Type to find anything in Elementor" autocomplete="off">
 	</div>
 	<div id="elementor-finder__content"></div>
 </script>
 
-    <script type="text/template" id="tmpl-elementor-finder-results-container">
-        <div id="elementor-finder__no-results">No Results Found</div>
+            <script type="text/template" id="tmpl-elementor-finder-results-container">
+                <div id="elementor-finder__no-results">No Results Found</div>
 	<div id="elementor-finder__results"></div>
 </script>
 
-    <script type="text/template" id="tmpl-elementor-finder__results__category">
-        <div class="elementor-finder__results__category__title"></div>
+            <script type="text/template" id="tmpl-elementor-finder__results__category">
+                <div class="elementor-finder__results__category__title">{{{ title }}}</div>
 	<div class="elementor-finder__results__category__items"></div>
 </script>
 
-    <script type="text/template" id="tmpl-elementor-finder__results__item">
-        <a href="" class="elementor-finder__results__item__link">
+            <script type="text/template" id="tmpl-elementor-finder__results__item">
+                <a href="{{ url }}" class="elementor-finder__results__item__link">
 		<div class="elementor-finder__results__item__icon">
-			<i class="eicon-" aria-hidden="true"></i>
+			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
 		</div>
-		<div class="elementor-finder__results__item__title"></div>
+		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
 		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- </div>
+			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
 		<# } #>
 
 		<# if ( lock ) { #>
-		<div class="elementor-finder__results__item__badge"><i class=""></i></div>
+		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
 		<# } #>
 	</a>
 	<# if ( actions.length ) { #>
 		<div class="elementor-finder__results__item__actions">
 		<# jQuery.each( actions, function() { #>
-			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--" href="" target="_blank">
-				<i class="eicon-"></i>
+			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
+				<i class="eicon-{{{ this.icon }}}"></i>
 			</a>
 		<# } ); #>
 		</div>
 	<# } #>
-</script> -->
-    <link rel='stylesheet' id='wpr-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.87'
-        media='all' />
-    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
-        id="niso-carousel-owl.min-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
-        id="jquery.mousewheel.min-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
-        id="niso-carousel-lightbox.min-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
-        id="wp-polyfill-inert-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
-        id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
-        id="wp-dom-ready-js"></script>
-    <script id="starter-templates-zip-preview-js-extra">
-    var starter_templates_zip_preview = {
-        "AstColorPaletteVarPrefix": "--ast-global-",
-        "AstEleColorPaletteVarPrefix": "--ast-global-"
-    };
-    </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=06758d4d807d9d22c6ea"
-        id="starter-templates-zip-preview-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
-    </script>
-    <script id="qi-addons-for-elementor-script-js-extra">
-    var qodefQiAddonsGlobal = {
-        "vars": {
-            "adminBarHeight": 32,
-            "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
-            "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
-            "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.4.3"
-        id="qi-addons-for-elementor-script-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
-        id="wpr-particles-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-        id="wpr-jarallax-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
-        id="wpr-parallax-hover-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.3.5"
-        id="plus-purge-js-js"></script>
-    <script id="twenty-twenty-one-ie11-polyfills-js-after">
-    (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
-    document.write(
-        '<script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
-        'ipt>');
-    </script>
-    <script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
-        id="twenty-twenty-one-responsive-embeds-script-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
-        id="jquery-ui-draggable-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
-        id="backbone-marionette-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
-        id="backbone-radio-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.19.0"
-        id="elementor-common-modules-js"></script>
-    <script id="elementor-web-cli-js-before">
-    var elementorWebCliConfig = {
-        "isDebug": false,
-        "urls": {
-            "rest": "https:\/\/wiseadvizor.com\/wp-json\/",
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "nonce": "987496950c",
-        "version": "3.19.0"
-    };
-    var elementorWebCliConfig = {
-        "isDebug": false,
-        "urls": {
-            "rest": "https:\/\/wiseadvizor.com\/wp-json\/",
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "nonce": "987496950c",
-        "version": "3.19.0"
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.19.0"
-        id="elementor-web-cli-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
-        id="elementor-dialog-js"></script>
-    <script id="wp-api-request-js-extra">
-    var wpApiSettings = {
-        "root": "https:\/\/wiseadvizor.com\/wp-json\/",
-        "nonce": "987496950c",
-        "versionString": "wp\/v2\/"
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
-    </script>
-    <script id="elementor-dev-tools-js-before">
-    var elementorDevToolsConfig = {
-        "isDebug": false,
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "deprecation": {
-            "soft_notices": [],
-            "soft_version_count": 4,
-            "hard_version_count": 8,
-            "current_version": "3.19.0"
-        }
-    };
-    var elementorDevToolsConfig = {
-        "isDebug": false,
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "deprecation": {
-            "soft_notices": [],
-            "soft_version_count": 4,
-            "hard_version_count": 8,
-            "current_version": "3.19.0"
-        }
-    };
-    var elementorDevToolsConfig = {
-        "isDebug": false,
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "deprecation": {
-            "soft_notices": [],
-            "soft_version_count": 4,
-            "hard_version_count": 8,
-            "current_version": "3.19.0"
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.19.0"
-        id="elementor-dev-tools-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
-    </script>
-    <script id="wp-i18n-js-after">
-    wp.i18n.setLocaleData({
-        'text direction\u0004ltr': ['ltr']
-    });
-    </script>
-    <script id="elementor-common-js-before">
-    var elementorCommonConfig = {
-        "version": "3.19.0",
-        "isRTL": false,
-        "isDebug": false,
-        "isElementorDebug": false,
-        "activeModules": ["ajax", "finder", "connect", "event-tracker"],
-        "experimentalFeatures": {
-            "e_optimized_assets_loading": true,
-            "e_optimized_css_loading": true,
-            "additional_custom_breakpoints": true,
-            "theme_builder_v2": true,
-            "block_editor_assets_optimize": true,
-            "ai-layout": true,
-            "landing-pages": true,
-            "e_image_loading_optimization": true,
-            "e_global_styleguide": true,
-            "page-transitions": true,
-            "notes": true,
-            "form-submissions": true,
-            "e_scroll_snap": true
-        },
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
-            "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
-        },
-        "filesUpload": {
-            "unfilteredFiles": true
-        },
-        "library_connect": {
-            "is_connected": true,
-            "subscription_plans": {
-                "free": {
-                    "label": null,
-                    "promotion_url": null,
-                    "color": null
-                },
-                "essential": {
-                    "label": "Pro",
-                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                    "color": "#92003B"
-                },
-                "essential-oct2023": {
-                    "label": "Advanced",
-                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                    "color": "#92003B"
-                },
-                "advanced": {
-                    "label": "Advanced",
-                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                    "color": "#92003B"
-                },
-                "expert": {
-                    "label": "Expert",
-                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                    "color": "#92003B"
-                },
-                "agency": {
-                    "label": "Agency",
-                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                    "color": "#92003B"
+</script>
+            <link rel='stylesheet' id='wpforms-modern-full-css'
+                href='https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?ver=1.8.6.4'
+                media='all' />
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0"
+                id="niso-carousel-owl.min-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
+                id="jquery.mousewheel.min-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
+                id="niso-carousel-lightbox.min-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+                id="wp-polyfill-inert-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
+                id="regenerator-runtime-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+                id="wp-polyfill-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
+                id="wp-dom-ready-js"></script>
+            <script id="starter-templates-zip-preview-js-extra">
+            var starter_templates_zip_preview = {
+                "AstColorPaletteVarPrefix": "--ast-global-",
+                "AstEleColorPaletteVarPrefix": "--ast-global-"
+            };
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=06758d4d807d9d22c6ea"
+                id="starter-templates-zip-preview-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
+                id="jquery-ui-core-js"></script>
+            <script id="qi-addons-for-elementor-script-js-extra">
+            var qodefQiAddonsGlobal = {
+                "vars": {
+                    "adminBarHeight": 32,
+                    "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
+                    "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
+                    "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
                 }
-            },
-            "base_access_level": 0,
-            "base_access_tier": "free",
-            "current_access_level": 0,
-            "current_access_tier": "free"
-        },
-        "ajax": {
-            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-            "nonce": "d66fef40e9"
-        },
-        "finder": {
-            "data": {
-                "edit": {
-                    "title": "Edit",
-                    "dynamic": true,
-                    "name": "edit"
+            };
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.4.3"
+                id="qi-addons-for-elementor-script-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+                id="wpr-particles-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
+                id="wpr-jarallax-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
+                id="wpr-parallax-hover-js"></script>
+            <script
+                src="//web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.3.5"
+                id="plus-purge-js-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2"
+                id="jquery-ui-mouse-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2"
+                id="jquery-ui-slider-js"></script>
+            <script src="//web.wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1711953395"
+                id="theplus-front-js-js" defer></script>
+            <script id="twenty-twenty-one-ie11-polyfills-js-after">
+            (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
+            document.write(
+                '<script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
+                'ipt>');
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
+                id="twenty-twenty-one-responsive-embeds-script-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
+                id="jquery-ui-draggable-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js">
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js">
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
+                id="backbone-marionette-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
+                id="backbone-radio-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.19.0"
+                id="elementor-common-modules-js"></script>
+            <script id="elementor-web-cli-js-before">
+            var elementorWebCliConfig = {
+                "isDebug": false,
+                "urls": {
+                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
                 },
-                "general": {
-                    "title": "General",
-                    "dynamic": false,
-                    "items": {
-                        "saved-templates": {
-                            "title": "Saved Templates",
-                            "icon": "library-save",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library",
-                            "keywords": ["template", "section", "page", "library"]
-                        },
-                        "system-info": {
-                            "title": "System Info",
-                            "icon": "info-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-system-info",
-                            "keywords": ["system", "info", "environment", "elementor"]
-                        },
-                        "role-manager": {
-                            "title": "Role Manager",
-                            "icon": "person",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-role-manager",
-                            "keywords": ["role", "manager", "user", "elementor"]
-                        },
-                        "knowledge-base": {
-                            "title": "Knowledge Base",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=go_knowledge_base_site",
-                            "keywords": ["help", "knowledge", "docs", "elementor"]
-                        },
-                        "theme-builder": {
-                            "title": "Theme Builder",
-                            "icon": "library-save",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor",
-                            "keywords": ["template", "header", "footer", "single", "archive", "search", "404",
-                                "library"
-                            ]
-                        },
-                        "kit-library": {
-                            "title": "Kit Library",
-                            "icon": "kit-parts",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/kit-library",
-                            "keywords": ["kit library", "kit", "library", "site parts", "parts", "assets",
-                                "templates"
-                            ]
-                        },
-                        "popups": {
-                            "title": "Popups",
-                            "icon": "library-save",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup",
-                            "keywords": ["template", "popup", "library"]
-                        }
-                    },
-                    "name": "general"
+                "nonce": "ed3fb9d5db",
+                "version": "3.19.0"
+            };
+            var elementorWebCliConfig = {
+                "isDebug": false,
+                "urls": {
+                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
                 },
-                "create": {
-                    "title": "Create",
-                    "dynamic": false,
-                    "items": {
-                        "page": {
-                            "title": "Add New Page Template",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=5a29513f16",
-                            "keywords": ["Add New Page Template", "post", "page", "template", "new", "create"]
-                        },
-                        "section": {
-                            "title": "Add New Section",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=section",
-                            "keywords": ["Add New Section", "post", "page", "template", "new", "create"]
-                        },
-                        "wp-post": {
-                            "title": "Add New Post",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=5a29513f16",
-                            "keywords": ["Add New Post", "post", "page", "template", "new", "create"]
-                        },
-                        "wp-page": {
-                            "title": "Add New Page",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=5a29513f16",
-                            "keywords": ["Add New Page", "post", "page", "template", "new", "create"]
-                        },
-                        "wpr-theme-builder": {
-                            "title": "Add New WPR Theme Builder",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=5a29513f16",
-                            "keywords": ["Add New WPR Theme Builder", "post", "page", "template", "new", "create"]
-                        },
-                        "wpr-popups": {
-                            "title": "Add New WPR Popup",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=5a29513f16",
-                            "keywords": ["Add New WPR Popup", "post", "page", "template", "new", "create"]
-                        },
-                        "landing-page": {
-                            "title": "Add New Landing Page",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=5a29513f16#library",
-                            "keywords": ["Add New Landing Page", "post", "page", "template", "new", "create"]
-                        },
-                        "popup": {
-                            "title": "Add New Popup",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=popup",
-                            "keywords": ["Add New Popup", "post", "page", "template", "new", "create"]
-                        },
-                        "header": {
-                            "title": "Add New Header",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=header",
-                            "keywords": ["Add New Header", "post", "page", "template", "new", "create"]
-                        },
-                        "footer": {
-                            "title": "Add New Footer",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=footer",
-                            "keywords": ["Add New Footer", "post", "page", "template", "new", "create"]
-                        },
-                        "single": {
-                            "title": "Add New Single",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=single",
-                            "keywords": ["Add New Single", "post", "page", "template", "new", "create"]
-                        },
-                        "single-post": {
-                            "title": "Add New Single Post",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=single-post",
-                            "keywords": ["Add New Single Post", "post", "page", "template", "new", "create"]
-                        },
-                        "single-page": {
-                            "title": "Add New Single Page",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=single-page&_elementor_template_sub_type=page",
-                            "keywords": ["Add New Single Page", "post", "page", "template", "new", "create"]
-                        },
-                        "archive": {
-                            "title": "Add New Archive",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=archive",
-                            "keywords": ["Add New Archive", "post", "page", "template", "new", "create"]
-                        },
-                        "search-results": {
-                            "title": "Add New Search Results",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=search-results&_elementor_template_sub_type=search",
-                            "keywords": ["Add New Search Results", "post", "page", "template", "new", "create"]
-                        },
-                        "error-404": {
-                            "title": "Add New Error 404",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=5a29513f16&template_type=error-404&_elementor_template_sub_type=not_found404",
-                            "keywords": ["Add New Error 404", "post", "page", "template", "new", "create"]
-                        },
-                        "code_snippet": {
-                            "title": "Add New Custom Code",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/post-new.php?post_type=elementor_snippet",
-                            "keywords": ["Add New Custom Code", "post", "page", "template", "new", "create"]
-                        },
-                        "wpr_templates": {
-                            "title": "Add New Royal Templates",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=5a29513f16",
-                            "keywords": ["Add New Royal Templates", "post", "page", "template", "new", "create"]
-                        },
-                        "elementor-hf": {
-                            "title": "Add New Elementor Header & Footer Builder",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=5a29513f16",
-                            "keywords": ["Add New Elementor Header & Footer Builder", "post", "page", "template",
-                                "new", "create"
-                            ]
-                        },
-                        "wpr_mega_menu": {
-                            "title": "Add New Royal Mega Menu",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=5a29513f16",
-                            "keywords": ["Add New Royal Mega Menu", "post", "page", "template", "new", "create"]
-                        },
-                        "theme-template": {
-                            "title": "Add New Theme Template",
-                            "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor\/add-new",
-                            "keywords": ["template", "theme", "new", "create"]
-                        }
-                    },
-                    "name": "create"
+                "nonce": "ed3fb9d5db",
+                "version": "3.19.0"
+            };
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.19.0"
+                id="elementor-web-cli-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+                id="elementor-dialog-js"></script>
+            <script id="wp-api-request-js-extra">
+            var wpApiSettings = {
+                "root": "https:\/\/web.wiseadvizor.com\/wp-json\/",
+                "nonce": "ed3fb9d5db",
+                "versionString": "wp\/v2\/"
+            };
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3"
+                id="wp-api-request-js"></script>
+            <script id="elementor-dev-tools-js-before">
+            var elementorDevToolsConfig = {
+                "isDebug": false,
+                "urls": {
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
                 },
-                "site": {
-                    "title": "Site",
-                    "dynamic": false,
-                    "items": {
-                        "homepage": {
-                            "title": "Homepage",
-                            "url": "https:\/\/wiseadvizor.com",
-                            "icon": "home-heart",
-                            "keywords": ["home", "page"]
-                        },
-                        "wordpress-dashboard": {
-                            "title": "Dashboard",
-                            "icon": "dashboard",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/",
-                            "keywords": ["dashboard", "wordpress"]
-                        },
-                        "wordpress-menus": {
-                            "title": "Menus",
-                            "icon": "wordpress",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/nav-menus.php",
-                            "keywords": ["menu", "wordpress"]
-                        },
-                        "wordpress-themes": {
-                            "title": "Themes",
-                            "icon": "wordpress",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/themes.php",
-                            "keywords": ["themes", "wordpress"]
-                        },
-                        "wordpress-customizer": {
-                            "title": "Customizer",
-                            "icon": "wordpress",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/customize.php",
-                            "keywords": ["customizer", "wordpress"]
-                        },
-                        "wordpress-plugins": {
-                            "title": "Plugins",
-                            "icon": "wordpress",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/plugins.php",
-                            "keywords": ["plugins", "wordpress"]
-                        },
-                        "wordpress-users": {
-                            "title": "Users",
-                            "icon": "wordpress",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/users.php",
-                            "keywords": ["users", "profile", "wordpress"]
-                        },
-                        "apps": {
-                            "title": "Apps",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-apps",
-                            "icon": "apps",
-                            "keywords": ["apps", "addon", "plugin", "extension", "integration"]
-                        }
-                    },
-                    "name": "site"
+                "deprecation": {
+                    "soft_notices": [],
+                    "soft_version_count": 4,
+                    "hard_version_count": 8,
+                    "current_version": "3.19.0"
+                }
+            };
+            var elementorDevToolsConfig = {
+                "isDebug": false,
+                "urls": {
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
                 },
-                "settings": {
-                    "title": "Settings",
-                    "dynamic": false,
-                    "items": {
-                        "general-settings": {
-                            "title": "General Settings",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor",
-                            "keywords": ["general", "settings", "elementor"]
+                "deprecation": {
+                    "soft_notices": [],
+                    "soft_version_count": 4,
+                    "hard_version_count": 8,
+                    "current_version": "3.19.0"
+                }
+            };
+            var elementorDevToolsConfig = {
+                "isDebug": false,
+                "urls": {
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+                },
+                "deprecation": {
+                    "soft_notices": [],
+                    "soft_version_count": 4,
+                    "hard_version_count": 8,
+                    "current_version": "3.19.0"
+                }
+            };
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.19.0"
+                id="elementor-dev-tools-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
+                id="wp-hooks-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef"
+                id="wp-i18n-js"></script>
+            <script id="wp-i18n-js-after">
+            wp.i18n.setLocaleData({
+                'text direction\u0004ltr': ['ltr']
+            });
+            </script>
+            <script id="elementor-common-js-before">
+            var elementorCommonConfig = {
+                "version": "3.19.0",
+                "isRTL": false,
+                "isDebug": false,
+                "isElementorDebug": false,
+                "activeModules": ["ajax", "finder", "connect", "event-tracker"],
+                "experimentalFeatures": {
+                    "e_optimized_assets_loading": true,
+                    "e_optimized_css_loading": true,
+                    "additional_custom_breakpoints": true,
+                    "theme_builder_v2": true,
+                    "block_editor_assets_optimize": true,
+                    "ai-layout": true,
+                    "landing-pages": true,
+                    "e_image_loading_optimization": true,
+                    "e_global_styleguide": true,
+                    "page-transitions": true,
+                    "notes": true,
+                    "form-submissions": true,
+                    "e_scroll_snap": true
+                },
+                "urls": {
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
+                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
+                },
+                "filesUpload": {
+                    "unfilteredFiles": true
+                },
+                "library_connect": {
+                    "is_connected": true,
+                    "subscription_plans": {
+                        "free": {
+                            "label": null,
+                            "promotion_url": null,
+                            "color": null
+                        },
+                        "essential": {
+                            "label": "Pro",
+                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                            "color": "#92003B"
+                        },
+                        "essential-oct2023": {
+                            "label": "Advanced",
+                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                            "color": "#92003B"
                         },
                         "advanced": {
-                            "title": "Advanced",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-advanced",
-                            "keywords": ["advanced", "settings", "elementor"]
+                            "label": "Advanced",
+                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                            "color": "#92003B"
                         },
-                        "experiments": {
-                            "title": "Experiments",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
-                            "keywords": ["settings", "elementor", "experiments"]
+                        "expert": {
+                            "label": "Expert",
+                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                            "color": "#92003B"
                         },
-                        "features": {
-                            "title": "Features",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
-                            "keywords": ["settings", "elementor", "features"]
-                        },
-                        "element-manager": {
-                            "title": "Element Manager",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-element-manager",
-                            "keywords": ["settings", "elements", "widgets", "manager"]
-                        },
-                        "custom-fonts": {
-                            "title": "Custom Fonts",
-                            "icon": "typography",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_font",
-                            "keywords": ["custom", "fonts", "elementor"]
-                        },
-                        "custom-icons": {
-                            "title": "Custom Icons",
-                            "icon": "favorite",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_icons",
-                            "keywords": ["custom", "icons", "elementor"]
+                        "agency": {
+                            "label": "Agency",
+                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                            "color": "#92003B"
                         }
                     },
-                    "name": "settings"
+                    "base_access_level": 0,
+                    "base_access_tier": "free",
+                    "current_access_level": 0,
+                    "current_access_tier": "free"
                 },
-                "tools": {
-                    "title": "Tools",
-                    "dynamic": false,
-                    "items": {
+                "ajax": {
+                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+                    "nonce": "3835e7b050"
+                },
+                "finder": {
+                    "data": {
+                        "edit": {
+                            "title": "Edit",
+                            "dynamic": true,
+                            "name": "edit"
+                        },
+                        "general": {
+                            "title": "General",
+                            "dynamic": false,
+                            "items": {
+                                "saved-templates": {
+                                    "title": "Saved Templates",
+                                    "icon": "library-save",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library",
+                                    "keywords": ["template", "section", "page", "library"]
+                                },
+                                "system-info": {
+                                    "title": "System Info",
+                                    "icon": "info-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-system-info",
+                                    "keywords": ["system", "info", "environment", "elementor"]
+                                },
+                                "role-manager": {
+                                    "title": "Role Manager",
+                                    "icon": "person",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-role-manager",
+                                    "keywords": ["role", "manager", "user", "elementor"]
+                                },
+                                "knowledge-base": {
+                                    "title": "Knowledge Base",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=go_knowledge_base_site",
+                                    "keywords": ["help", "knowledge", "docs", "elementor"]
+                                },
+                                "theme-builder": {
+                                    "title": "Theme Builder",
+                                    "icon": "library-save",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor",
+                                    "keywords": ["template", "header", "footer", "single", "archive", "search",
+                                        "404", "library"
+                                    ]
+                                },
+                                "kit-library": {
+                                    "title": "Kit Library",
+                                    "icon": "kit-parts",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/kit-library",
+                                    "keywords": ["kit library", "kit", "library", "site parts", "parts", "assets",
+                                        "templates"
+                                    ]
+                                },
+                                "popups": {
+                                    "title": "Popups",
+                                    "icon": "library-save",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup",
+                                    "keywords": ["template", "popup", "library"]
+                                }
+                            },
+                            "name": "general"
+                        },
+                        "create": {
+                            "title": "Create",
+                            "dynamic": false,
+                            "items": {
+                                "page": {
+                                    "title": "Add New Page Template",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New Page Template", "post", "page", "template", "new",
+                                        "create"
+                                    ]
+                                },
+                                "section": {
+                                    "title": "Add New Section",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=section",
+                                    "keywords": ["Add New Section", "post", "page", "template", "new", "create"]
+                                },
+                                "wp-post": {
+                                    "title": "Add New Post",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New Post", "post", "page", "template", "new", "create"]
+                                },
+                                "wp-page": {
+                                    "title": "Add New Page",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New Page", "post", "page", "template", "new", "create"]
+                                },
+                                "wpr-theme-builder": {
+                                    "title": "Add New WPR Theme Builder",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New WPR Theme Builder", "post", "page", "template", "new",
+                                        "create"
+                                    ]
+                                },
+                                "wpr-popups": {
+                                    "title": "Add New WPR Popup",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New WPR Popup", "post", "page", "template", "new", "create"]
+                                },
+                                "landing-page": {
+                                    "title": "Add New Landing Page",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=b32cbd820f#library",
+                                    "keywords": ["Add New Landing Page", "post", "page", "template", "new",
+                                        "create"]
+                                },
+                                "popup": {
+                                    "title": "Add New Popup",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=popup",
+                                    "keywords": ["Add New Popup", "post", "page", "template", "new", "create"]
+                                },
+                                "header": {
+                                    "title": "Add New Header",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=header",
+                                    "keywords": ["Add New Header", "post", "page", "template", "new", "create"]
+                                },
+                                "footer": {
+                                    "title": "Add New Footer",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=footer",
+                                    "keywords": ["Add New Footer", "post", "page", "template", "new", "create"]
+                                },
+                                "single": {
+                                    "title": "Add New Single",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=single",
+                                    "keywords": ["Add New Single", "post", "page", "template", "new", "create"]
+                                },
+                                "single-post": {
+                                    "title": "Add New Single Post",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=single-post",
+                                    "keywords": ["Add New Single Post", "post", "page", "template", "new", "create"]
+                                },
+                                "single-page": {
+                                    "title": "Add New Single Page",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=single-page&_elementor_template_sub_type=page",
+                                    "keywords": ["Add New Single Page", "post", "page", "template", "new", "create"]
+                                },
+                                "archive": {
+                                    "title": "Add New Archive",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=archive",
+                                    "keywords": ["Add New Archive", "post", "page", "template", "new", "create"]
+                                },
+                                "search-results": {
+                                    "title": "Add New Search Results",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=search-results&_elementor_template_sub_type=search",
+                                    "keywords": ["Add New Search Results", "post", "page", "template", "new",
+                                        "create"
+                                    ]
+                                },
+                                "error-404": {
+                                    "title": "Add New Error 404",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=b32cbd820f&template_type=error-404&_elementor_template_sub_type=not_found404",
+                                    "keywords": ["Add New Error 404", "post", "page", "template", "new", "create"]
+                                },
+                                "code_snippet": {
+                                    "title": "Add New Custom Code",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/post-new.php?post_type=elementor_snippet",
+                                    "keywords": ["Add New Custom Code", "post", "page", "template", "new", "create"]
+                                },
+                                "wpr_templates": {
+                                    "title": "Add New Royal Templates",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New Royal Templates", "post", "page", "template", "new",
+                                        "create"
+                                    ]
+                                },
+                                "elementor-hf": {
+                                    "title": "Add New Elementor Header & Footer Builder",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New Elementor Header & Footer Builder", "post", "page",
+                                        "template", "new", "create"
+                                    ]
+                                },
+                                "wpr_mega_menu": {
+                                    "title": "Add New Royal Mega Menu",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=b32cbd820f",
+                                    "keywords": ["Add New Royal Mega Menu", "post", "page", "template", "new",
+                                        "create"
+                                    ]
+                                },
+                                "theme-template": {
+                                    "title": "Add New Theme Template",
+                                    "icon": "plus-circle-o",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor\/add-new",
+                                    "keywords": ["template", "theme", "new", "create"]
+                                }
+                            },
+                            "name": "create"
+                        },
+                        "site": {
+                            "title": "Site",
+                            "dynamic": false,
+                            "items": {
+                                "homepage": {
+                                    "title": "Homepage",
+                                    "url": "https:\/\/web.wiseadvizor.com",
+                                    "icon": "home-heart",
+                                    "keywords": ["home", "page"]
+                                },
+                                "wordpress-dashboard": {
+                                    "title": "Dashboard",
+                                    "icon": "dashboard",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
+                                    "keywords": ["dashboard", "wordpress"]
+                                },
+                                "wordpress-menus": {
+                                    "title": "Menus",
+                                    "icon": "wordpress",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/nav-menus.php",
+                                    "keywords": ["menu", "wordpress"]
+                                },
+                                "wordpress-themes": {
+                                    "title": "Themes",
+                                    "icon": "wordpress",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/themes.php",
+                                    "keywords": ["themes", "wordpress"]
+                                },
+                                "wordpress-customizer": {
+                                    "title": "Customizer",
+                                    "icon": "wordpress",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/customize.php",
+                                    "keywords": ["customizer", "wordpress"]
+                                },
+                                "wordpress-plugins": {
+                                    "title": "Plugins",
+                                    "icon": "wordpress",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/plugins.php",
+                                    "keywords": ["plugins", "wordpress"]
+                                },
+                                "wordpress-users": {
+                                    "title": "Users",
+                                    "icon": "wordpress",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/users.php",
+                                    "keywords": ["users", "profile", "wordpress"]
+                                },
+                                "apps": {
+                                    "title": "Apps",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-apps",
+                                    "icon": "apps",
+                                    "keywords": ["apps", "addon", "plugin", "extension", "integration"]
+                                }
+                            },
+                            "name": "site"
+                        },
+                        "settings": {
+                            "title": "Settings",
+                            "dynamic": false,
+                            "items": {
+                                "general-settings": {
+                                    "title": "General Settings",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor",
+                                    "keywords": ["general", "settings", "elementor"]
+                                },
+                                "advanced": {
+                                    "title": "Advanced",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-advanced",
+                                    "keywords": ["advanced", "settings", "elementor"]
+                                },
+                                "experiments": {
+                                    "title": "Experiments",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
+                                    "keywords": ["settings", "elementor", "experiments"]
+                                },
+                                "features": {
+                                    "title": "Features",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
+                                    "keywords": ["settings", "elementor", "features"]
+                                },
+                                "element-manager": {
+                                    "title": "Element Manager",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-element-manager",
+                                    "keywords": ["settings", "elements", "widgets", "manager"]
+                                },
+                                "custom-fonts": {
+                                    "title": "Custom Fonts",
+                                    "icon": "typography",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_font",
+                                    "keywords": ["custom", "fonts", "elementor"]
+                                },
+                                "custom-icons": {
+                                    "title": "Custom Icons",
+                                    "icon": "favorite",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_icons",
+                                    "keywords": ["custom", "icons", "elementor"]
+                                }
+                            },
+                            "name": "settings"
+                        },
                         "tools": {
                             "title": "Tools",
-                            "icon": "tools",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools",
-                            "keywords": ["tools", "regenerate css", "safe mode", "debug bar", "sync library",
-                                "elementor"
-                            ]
-                        },
-                        "replace-url": {
-                            "title": "Replace URL",
-                            "icon": "tools",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url",
-                            "keywords": ["tools", "replace url", "domain", "elementor"]
-                        },
-                        "maintenance-mode": {
-                            "title": "Maintenance Mode",
-                            "icon": "tools",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode",
-                            "keywords": ["tools", "maintenance", "coming soon", "elementor"]
-                        },
-                        "import-export": {
-                            "title": "Import Export",
-                            "icon": "import-export",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit",
-                            "keywords": ["tools", "import export", "import", "export", "kit"]
-                        },
-                        "version-control": {
-                            "title": "Version Control",
-                            "icon": "time-line",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-versions",
-                            "keywords": ["tools", "version", "control", "rollback", "beta", "elementor"]
+                            "dynamic": false,
+                            "items": {
+                                "tools": {
+                                    "title": "Tools",
+                                    "icon": "tools",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools",
+                                    "keywords": ["tools", "regenerate css", "safe mode", "debug bar",
+                                        "sync library", "elementor"
+                                    ]
+                                },
+                                "replace-url": {
+                                    "title": "Replace URL",
+                                    "icon": "tools",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url",
+                                    "keywords": ["tools", "replace url", "domain", "elementor"]
+                                },
+                                "maintenance-mode": {
+                                    "title": "Maintenance Mode",
+                                    "icon": "tools",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode",
+                                    "keywords": ["tools", "maintenance", "coming soon", "elementor"]
+                                },
+                                "import-export": {
+                                    "title": "Import Export",
+                                    "icon": "import-export",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit",
+                                    "keywords": ["tools", "import export", "import", "export", "kit"]
+                                },
+                                "version-control": {
+                                    "title": "Version Control",
+                                    "icon": "time-line",
+                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-versions",
+                                    "keywords": ["tools", "version", "control", "rollback", "beta", "elementor"]
+                                }
+                            },
+                            "name": "tools"
                         }
-                    },
-                    "name": "tools"
+                    }
+                },
+                "connect": [],
+                "event-tracker": {
+                    "isUserDataShared": true
                 }
+            };
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.19.0"
+                id="elementor-common-js"></script>
+            <script id="elementor-app-loader-js-before">
+            var elementorAppConfig = {
+                "menu_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor",
+                "assets_url": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
+                "pages_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=page",
+                "return_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
+                "hasPro": true,
+                "admin_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
+                "login_url": "https:\/\/web.wiseadvizor.com\/wp-login.php",
+                "base_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0",
+                "site-editor": [],
+                "import-export": [],
+                "kit-library": [],
+                "onboarding": []
+            };
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.19.0"
+                id="elementor-app-loader-js"></script>
+            <script id="tpgb-admin-bar-js-before">
+            var TpgbAdminbar = {
+                "tpgb_edit_template": []
             }
-        },
-        "connect": [],
-        "event-tracker": {
-            "isUserDataShared": true
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.19.0"
-        id="elementor-common-js"></script>
-    <script id="elementor-app-loader-js-before">
-    var elementorAppConfig = {
-        "menu_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor",
-        "assets_url": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
-        "pages_url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=page",
-        "return_url": "https:\/\/wiseadvizor.com\/wp-admin\/",
-        "hasPro": true,
-        "admin_url": "https:\/\/wiseadvizor.com\/wp-admin\/",
-        "login_url": "https:\/\/wiseadvizor.com\/wp-login.php",
-        "base_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0",
-        "site-editor": [],
-        "import-export": [],
-        "kit-library": [],
-        "onboarding": []
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.19.0"
-        id="elementor-app-loader-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.24"
-        id="hfe-frontend-js-js"></script>
-    <script id="tpgb-admin-bar-js-before">
-    var TpgbAdminbar = {
-        "tpgb_edit_template": []
-    }
-    </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.4"
-        id="tpgb-admin-bar-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.0"
-        id="elementor-webpack-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.0"
-        id="elementor-frontend-modules-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-        id="elementor-waypoints-js"></script>
-    <script id="elementor-frontend-js-before">
-    var elementorFrontendConfig = {
-        "environmentMode": {
-            "edit": false,
-            "wpPreview": false,
-            "isScriptDebug": false
-        },
-        "i18n": {
-            "shareOnFacebook": "Share on Facebook",
-            "shareOnTwitter": "Share on Twitter",
-            "pinIt": "Pin it",
-            "download": "Download",
-            "downloadImage": "Download image",
-            "fullscreen": "Fullscreen",
-            "zoom": "Zoom",
-            "share": "Share",
-            "playVideo": "Play Video",
-            "previous": "Previous",
-            "next": "Next",
-            "close": "Close",
-            "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
-            "a11yCarouselPrevSlideMessage": "Previous slide",
-            "a11yCarouselNextSlideMessage": "Next slide",
-            "a11yCarouselFirstSlideMessage": "This is the first slide",
-            "a11yCarouselLastSlideMessage": "This is the last slide",
-            "a11yCarouselPaginationBulletMessage": "Go to slide"
-        },
-        "is_rtl": false,
-        "breakpoints": {
-            "xs": 0,
-            "sm": 480,
-            "md": 768,
-            "lg": 1025,
-            "xl": 1440,
-            "xxl": 1600
-        },
-        "responsive": {
-            "breakpoints": {
-                "mobile": {
-                    "label": "Mobile Portrait",
-                    "value": 767,
-                    "default_value": 767,
-                    "direction": "max",
-                    "is_enabled": true
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.4"
+                id="tpgb-admin-bar-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.0"
+                id="elementor-webpack-runtime-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.0"
+                id="elementor-frontend-modules-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+                id="elementor-waypoints-js"></script>
+            <script id="elementor-frontend-js-before">
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": true,
+                    "isScriptDebug": false
                 },
-                "mobile_extra": {
-                    "label": "Mobile Landscape",
-                    "value": 880,
-                    "default_value": 880,
-                    "direction": "max",
-                    "is_enabled": false
+                "i18n": {
+                    "shareOnFacebook": "Share on Facebook",
+                    "shareOnTwitter": "Share on Twitter",
+                    "pinIt": "Pin it",
+                    "download": "Download",
+                    "downloadImage": "Download image",
+                    "fullscreen": "Fullscreen",
+                    "zoom": "Zoom",
+                    "share": "Share",
+                    "playVideo": "Play Video",
+                    "previous": "Previous",
+                    "next": "Next",
+                    "close": "Close",
+                    "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+                    "a11yCarouselPrevSlideMessage": "Previous slide",
+                    "a11yCarouselNextSlideMessage": "Next slide",
+                    "a11yCarouselFirstSlideMessage": "This is the first slide",
+                    "a11yCarouselLastSlideMessage": "This is the last slide",
+                    "a11yCarouselPaginationBulletMessage": "Go to slide"
                 },
-                "tablet": {
-                    "label": "Tablet Portrait",
-                    "value": 1024,
-                    "default_value": 1024,
-                    "direction": "max",
-                    "is_enabled": true
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
                 },
-                "tablet_extra": {
-                    "label": "Tablet Landscape",
-                    "value": 1200,
-                    "default_value": 1200,
-                    "direction": "max",
-                    "is_enabled": false
+                "responsive": {
+                    "breakpoints": {
+                        "mobile": {
+                            "label": "Mobile Portrait",
+                            "value": 767,
+                            "default_value": 767,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "mobile_extra": {
+                            "label": "Mobile Landscape",
+                            "value": 880,
+                            "default_value": 880,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "tablet": {
+                            "label": "Tablet Portrait",
+                            "value": 1024,
+                            "default_value": 1024,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet_extra": {
+                            "label": "Tablet Landscape",
+                            "value": 1200,
+                            "default_value": 1200,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "laptop": {
+                            "label": "Laptop",
+                            "value": 1366,
+                            "default_value": 1366,
+                            "direction": "max",
+                            "is_enabled": false
+                        },
+                        "widescreen": {
+                            "label": "Widescreen",
+                            "value": 2400,
+                            "default_value": 2400,
+                            "direction": "min",
+                            "is_enabled": false
+                        }
+                    }
                 },
-                "laptop": {
-                    "label": "Laptop",
-                    "value": 1366,
-                    "default_value": 1366,
-                    "direction": "max",
-                    "is_enabled": false
+                "version": "3.19.0",
+                "is_static": false,
+                "experimentalFeatures": {
+                    "e_optimized_assets_loading": true,
+                    "e_optimized_css_loading": true,
+                    "additional_custom_breakpoints": true,
+                    "theme_builder_v2": true,
+                    "block_editor_assets_optimize": true,
+                    "ai-layout": true,
+                    "landing-pages": true,
+                    "e_image_loading_optimization": true,
+                    "e_global_styleguide": true,
+                    "page-transitions": true,
+                    "notes": true,
+                    "form-submissions": true,
+                    "e_scroll_snap": true
                 },
-                "widescreen": {
-                    "label": "Widescreen",
-                    "value": 2400,
-                    "default_value": 2400,
-                    "direction": "min",
-                    "is_enabled": false
+                "urls": {
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+                },
+                "swiperClass": "swiper-container",
+                "settings": {
+                    "page": [],
+                    "editorPreferences": []
+                },
+                "kit": {
+                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                    "global_image_lightbox": "yes",
+                    "lightbox_enable_counter": "yes",
+                    "lightbox_enable_fullscreen": "yes",
+                    "lightbox_enable_zoom": "yes",
+                    "lightbox_enable_share": "yes",
+                    "lightbox_title_src": "title",
+                    "lightbox_description_src": "description"
+                },
+                "post": {
+                    "id": 5668,
+                    "title": "Elementor%20%235668%20%E2%80%93%20WISE%20ADVIZOR",
+                    "excerpt": "",
+                    "featuredImage": false
+                },
+                "user": {
+                    "roles": ["administrator"]
                 }
-            }
-        },
-        "version": "3.19.0",
-        "is_static": false,
-        "experimentalFeatures": {
-            "e_optimized_assets_loading": true,
-            "e_optimized_css_loading": true,
-            "additional_custom_breakpoints": true,
-            "theme_builder_v2": true,
-            "block_editor_assets_optimize": true,
-            "ai-layout": true,
-            "landing-pages": true,
-            "e_image_loading_optimization": true,
-            "e_global_styleguide": true,
-            "page-transitions": true,
-            "notes": true,
-            "form-submissions": true,
-            "e_scroll_snap": true
-        },
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "swiperClass": "swiper-container",
-        "settings": {
-            "page": [],
-            "editorPreferences": []
-        },
-        "kit": {
-            "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
-            "global_image_lightbox": "yes",
-            "lightbox_enable_counter": "yes",
-            "lightbox_enable_fullscreen": "yes",
-            "lightbox_enable_zoom": "yes",
-            "lightbox_enable_share": "yes",
-            "lightbox_title_src": "title",
-            "lightbox_description_src": "description"
-        },
-        "post": {
-            "id": 2772,
-            "title": "Browse%20Mentor%20%E2%80%93%20WISE%20ADVIZOR",
-            "excerpt": "",
-            "featuredImage": false
-        },
-        "user": {
-            "roles": ["administrator"]
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.0"
-        id="elementor-frontend-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
-        id="qi-addons-for-elementor-elementor-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
-        id="elementor-pro-webpack-runtime-js"></script>
-    <script id="elementor-pro-frontend-js-before">
-    var ElementorProFrontendConfig = {
-        "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "nonce": "21c3a7e14f",
-        "urls": {
-            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-            "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
-        },
-        "shareButtonsNetworks": {
-            "facebook": {
-                "title": "Facebook",
-                "has_counter": true
-            },
-            "twitter": {
-                "title": "Twitter"
-            },
-            "linkedin": {
-                "title": "LinkedIn",
-                "has_counter": true
-            },
-            "pinterest": {
-                "title": "Pinterest",
-                "has_counter": true
-            },
-            "reddit": {
-                "title": "Reddit",
-                "has_counter": true
-            },
-            "vk": {
-                "title": "VK",
-                "has_counter": true
-            },
-            "odnoklassniki": {
-                "title": "OK",
-                "has_counter": true
-            },
-            "tumblr": {
-                "title": "Tumblr"
-            },
-            "digg": {
-                "title": "Digg"
-            },
-            "skype": {
-                "title": "Skype"
-            },
-            "stumbleupon": {
-                "title": "StumbleUpon",
-                "has_counter": true
-            },
-            "mix": {
-                "title": "Mix"
-            },
-            "telegram": {
-                "title": "Telegram"
-            },
-            "pocket": {
-                "title": "Pocket",
-                "has_counter": true
-            },
-            "xing": {
-                "title": "XING",
-                "has_counter": true
-            },
-            "whatsapp": {
-                "title": "WhatsApp"
-            },
-            "email": {
-                "title": "Email"
-            },
-            "print": {
-                "title": "Print"
-            }
-        },
-        "facebook_sdk": {
-            "lang": "en_US",
-            "app_id": ""
-        },
-        "lottie": {
-            "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
-        id="elementor-pro-frontend-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
-        id="pro-elements-handlers-js"></script>
-    <script id="wpr-addons-js-js-extra">
-    var WprConfig = {
-        "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "resturl": "https:\/\/web.wiseadvizor.com\/wp-json\/wpraddons\/v1",
-        "nonce": "e6191b117a",
-        "addedToCartText": "was added to cart",
-        "viewCart": "View Cart",
-        "comparePageID": "",
-        "comparePageURL": "https:\/\/web.wiseadvizor.com\/browse-mentor\/",
-        "wishlistPageID": "",
-        "wishlistPageURL": "https:\/\/web.wiseadvizor.com\/browse-mentor\/",
-        "chooseQuantityText": "Please select the required number of items.",
-        "site_key": "",
-        "is_admin": "1",
-        "input_empty": "Please fill out this field",
-        "select_empty": "Nothing selected",
-        "file_empty": "Please upload a file",
-        "recaptcha_error": "Recaptcha Error"
-    };
-    </script>
-    <script data-cfasync="false"
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
-        id="wpr-addons-js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
-        id="wpr-modal-popups-js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.8.2"
-        id="e-sticky-js"></script>
-    <script id="wp-util-js-extra">
-    var _wpUtilSettings = {
-        "ajax": {
-            "url": "\/wp-admin\/admin-ajax.php"
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
-    <script id="wpforms-elementor-js-extra">
-    var wpformsElementorVars = {
-        "captcha_provider": "recaptcha",
-        "recaptcha_type": "v2"
-    };
-    </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4"
-        id="wpforms-elementor-js"></script>
-    <script id="elementor-admin-bar-js-before">
-    var elementorAdminBarConfig = {
-        "elementor_edit_page": {
-            "id": "elementor_edit_page",
-            "title": "Edit with Elementor",
-            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=2772&action=elementor",
-            "children": {
-                "3007": {
-                    "id": "elementor_edit_doc_3007",
-                    "title": "Header New",
-                    "sub_title": "Post",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=3007&action=elementor"
+            };
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.0"
+                id="elementor-frontend-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
+                id="qi-addons-for-elementor-elementor-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
+                id="elementor-pro-webpack-runtime-js"></script>
+            <script id="elementor-pro-frontend-js-before">
+            var ElementorProFrontendConfig = {
+                "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+                "nonce": "210ab3198a",
+                "urls": {
+                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
+                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
                 },
-                "32": {
-                    "id": "elementor_edit_doc_32",
-                    "title": "Footer",
-                    "sub_title": "Post",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=32&action=elementor"
+                "shareButtonsNetworks": {
+                    "facebook": {
+                        "title": "Facebook",
+                        "has_counter": true
+                    },
+                    "twitter": {
+                        "title": "Twitter"
+                    },
+                    "linkedin": {
+                        "title": "LinkedIn",
+                        "has_counter": true
+                    },
+                    "pinterest": {
+                        "title": "Pinterest",
+                        "has_counter": true
+                    },
+                    "reddit": {
+                        "title": "Reddit",
+                        "has_counter": true
+                    },
+                    "vk": {
+                        "title": "VK",
+                        "has_counter": true
+                    },
+                    "odnoklassniki": {
+                        "title": "OK",
+                        "has_counter": true
+                    },
+                    "tumblr": {
+                        "title": "Tumblr"
+                    },
+                    "digg": {
+                        "title": "Digg"
+                    },
+                    "skype": {
+                        "title": "Skype"
+                    },
+                    "stumbleupon": {
+                        "title": "StumbleUpon",
+                        "has_counter": true
+                    },
+                    "mix": {
+                        "title": "Mix"
+                    },
+                    "telegram": {
+                        "title": "Telegram"
+                    },
+                    "pocket": {
+                        "title": "Pocket",
+                        "has_counter": true
+                    },
+                    "xing": {
+                        "title": "XING",
+                        "has_counter": true
+                    },
+                    "whatsapp": {
+                        "title": "WhatsApp"
+                    },
+                    "email": {
+                        "title": "Email"
+                    },
+                    "print": {
+                        "title": "Print"
+                    }
                 },
-                "3008": {
-                    "id": "elementor_site_settings",
-                    "title": "Site Settings",
-                    "sub_title": "Site",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=2772&action=elementor&active-document=5",
-                    "class": "elementor-site-settings",
-                    "parent_class": "elementor-second-section"
+                "facebook_sdk": {
+                    "lang": "en_US",
+                    "app_id": ""
                 },
-                "3009": {
-                    "id": "elementor_app_site_editor",
-                    "title": "Theme Builder",
-                    "sub_title": "Site",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor",
-                    "class": "elementor-app-link",
-                    "parent_class": "elementor-second-section"
+                "lottie": {
+                    "defaultAnimationUrl": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
                 }
-            }
-        }
-    };
-    </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.19.0"
-        id="elementor-admin-bar-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
-    </script>
-    <!-- <script id="admin-bar-js-before">
-    (function() {
-        function wpforms_admin_bar_menu_init() {
-            var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
-                notifications = document.getElementById('wp-admin-bar-wpforms-notifications');
-
-            if (!template) {
-                return;
-            }
-
-            if (!notifications) {
-                var menu = document.getElementById('wp-admin-bar-wpforms-menu-default');
-
-                if (!menu) {
-                    return;
+            };
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+                id="elementor-pro-frontend-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+                id="pro-elements-handlers-js"></script>
+            <script id="wpr-addons-js-js-extra">
+            var WprConfig = {
+                "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+                "resturl": "https:\/\/web.wiseadvizor.com\/wp-json\/wpraddons\/v1",
+                "nonce": "c98943252d",
+                "addedToCartText": "was added to cart",
+                "viewCart": "View Cart",
+                "comparePageID": "",
+                "comparePageURL": "https:\/\/web.wiseadvizor.com\/elementor-5668\/",
+                "wishlistPageID": "",
+                "wishlistPageURL": "https:\/\/web.wiseadvizor.com\/elementor-5668\/",
+                "chooseQuantityText": "Please select the required number of items.",
+                "site_key": "",
+                "is_admin": "1",
+                "input_empty": "Please fill out this field",
+                "select_empty": "Nothing selected",
+                "file_empty": "Please upload a file",
+                "recaptcha_error": "Recaptcha Error"
+            };
+            </script>
+            <script data-cfasync="false"
+                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
+                id="wpr-addons-js-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
+                id="wpr-modal-popups-js-js"></script>
+            <script id="wp-util-js-extra">
+            var _wpUtilSettings = {
+                "ajax": {
+                    "url": "\/wp-admin\/admin-ajax.php"
                 }
-
-                menu.insertAdjacentHTML('afterBegin', template.innerHTML);
-            } else {
-                notifications.insertAdjacentHTML('afterend', template.innerHTML);
-            }
-        };
-        document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
-    }());
-    </script> -->
-    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
-    <script type="text/javascript">
-    (function($) {
-        "use strict";
-        $(document).ready(function() {
-            $('#niso-carousel-952.owl-carousel').owlCarousel({
-                //Multiple carousel settings
-                items: 4,
-                loop: true,
-                autoplay: true,
-                autoplaySpeed: 300,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                slideBy: 1,
-                smartSpeed: 250,
-                nav: false,
-                dots: true,
-                dotsSpeed: 250,
-                mouseDrag: true,
-                touchDrag: true,
-                pullDrag: true,
-                freeDrag: false,
-                center: false,
-                stagePadding: 0,
-                startPosition: 0,
-                lazyLoad: false,
-                rtl: false,
-                video: false,
-                autoHeight: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    600: {
-                        items: 2,
-                    },
-                    960: {
-                        items: 3,
-                    },
-                    1300: {
-                        items: 4,
+            };
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
+            <script id="wpforms-elementor-js-extra">
+            var wpformsElementorVars = {
+                "captcha_provider": "recaptcha",
+                "recaptcha_type": "v2"
+            };
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4"
+                id="wpforms-elementor-js"></script>
+            <script id="elementor-admin-bar-js-before">
+            var elementorAdminBarConfig = {
+                "elementor_edit_page": {
+                    "id": "elementor_edit_page",
+                    "title": "Edit with Elementor",
+                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=5668&action=elementor",
+                    "children": {
+                        "32": {
+                            "id": "elementor_edit_doc_32",
+                            "title": "Footer",
+                            "sub_title": "Post",
+                            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=32&action=elementor"
+                        },
+                        "33": {
+                            "id": "elementor_site_settings",
+                            "title": "Site Settings",
+                            "sub_title": "Site",
+                            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=5668&action=elementor&active-document=5",
+                            "class": "elementor-site-settings",
+                            "parent_class": "elementor-second-section"
+                        },
+                        "34": {
+                            "id": "elementor_app_site_editor",
+                            "title": "Theme Builder",
+                            "sub_title": "Site",
+                            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.19.0#\/site-editor",
+                            "class": "elementor-app-link",
+                            "parent_class": "elementor-second-section"
+                        }
                     }
                 }
-            });
-        });
-    }(jQuery));
-    </script>
-    <script>
-    $('.apply_filters').on('click', function() {
-        var form = $('.filterForm').serialize();
+            };
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.19.0"
+                id="elementor-admin-bar-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
+                id="hoverintent-js-js"></script>
+            <script id="admin-bar-js-before">
+            (function() {
+                function wpforms_admin_bar_menu_init() {
+                    var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
+                        notifications = document.getElementById('wp-admin-bar-wpforms-notifications');
 
-        return $.ajax({
-            type: 'GET',
-            url: "{{ route('browseMentor') }}",
-            data: {
-                form,
-                "_token": "{{ csrf_token() }}",
-            },
-            success: function(response) {
-                $('.mentors').html(response);
-                $('.mentorsList').hide();
+                    if (!template) {
+                        return;
+                    }
+
+                    if (!notifications) {
+                        var menu = document.getElementById('wp-admin-bar-wpforms-menu-default');
+
+                        if (!menu) {
+                            return;
+                        }
+
+                        menu.insertAdjacentHTML('afterBegin', template.innerHTML);
+                    } else {
+                        notifications.insertAdjacentHTML('afterend', template.innerHTML);
+                    }
+                };
+                document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
+            }());
+            </script>
+            <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
+            </script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.19.5"
+                id="wpforms-validation-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?ver=1.1.2"
+                id="wpforms-mailcheck-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?ver=1.0.0"
+                id="wpforms-punycode-js"></script>
+            <script src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/utils.min.js?ver=1.8.6.4"
+                id="wpforms-generic-utils-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js?ver=1.8.6.4"
+                id="wpforms-js"></script>
+            <script
+                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/wpforms-modern.min.js?ver=1.8.6.4"
+                id="wpforms-modern-js"></script>
+            <script>
+            (function() {
+                function wpforms_js_error_loading() {
+
+                    if (typeof window.wpforms !== 'undefined') {
+                        return;
+                    }
+
+                    const forms = document.querySelectorAll('.wpforms-form');
+
+                    if (!forms.length) {
+                        return;
+                    }
+
+                    const error = document.createElement('div');
+
+                    error.classList.add('wpforms-error-container');
+                    error.setAttribute('role', 'alert');
+                    error.innerHTML =
+                        'Heads up! WPForms has detected an issue with JavaScript on this page. JavaScript is required for this form to work properly, so this form may not work as expected. See our <a href="https://wpforms.com/docs/getting-support-wpforms/" target="_blank" rel="noopener noreferrer">troubleshooting guide</a> to learn more or contact support.<p>This message is only displayed to site administrators.</p>';
+
+                    forms.forEach(function(form) {
+
+                        if (form.querySelector('.wpforms-error-container')) {
+                            return;
+                        }
+
+                        const formError = error.cloneNode(true),
+                            formErrorId = form.id + '-error';
+
+                        formError.setAttribute('id', formErrorId);
+
+                        form.insertBefore(formError, form.firstChild);
+                        form.setAttribute('aria-invalid', 'true');
+                        form.setAttribute('aria-errormessage', formErrorId);
+                    });
+                }
+
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', wpforms_js_error_loading);
+                } else {
+                    wpforms_js_error_loading();
+                }
+            }());
+            </script>
+            <script type="text/javascript">
+            (function($) {
+                "use strict";
+                $(document).ready(function() {
+                    $('#niso-carousel-952.owl-carousel').owlCarousel({
+                        //Multiple carousel settings
+                        items: 4,
+                        loop: true,
+                        autoplay: true,
+                        autoplaySpeed: 300,
+                        autoplayTimeout: 3000,
+                        autoplayHoverPause: true,
+                        slideBy: 1,
+                        smartSpeed: 250,
+                        nav: false,
+                        dots: true,
+                        dotsSpeed: 250,
+                        mouseDrag: true,
+                        touchDrag: true,
+                        pullDrag: true,
+                        freeDrag: false,
+                        center: false,
+                        stagePadding: 0,
+                        startPosition: 0,
+                        lazyLoad: false,
+                        rtl: false,
+                        video: false,
+                        autoHeight: false,
+                        responsive: {
+                            0: {
+                                items: 1,
+                                nav: false
+                            },
+                            600: {
+                                items: 2,
+                            },
+                            960: {
+                                items: 3,
+                            },
+                            1300: {
+                                items: 4,
+                            }
+                        }
+                    });
+                });
+            }(jQuery));
+            </script>
+            <script type='text/javascript'>
+            /* <![CDATA[ */
+            var wpforms_settings = {
+                "val_required": "This field is required.",
+                "val_email": "Please enter a valid email address.",
+                "val_email_suggestion": "Did you mean {suggestion}?",
+                "val_email_suggestion_title": "Click to accept this suggestion.",
+                "val_email_restricted": "This email address is not allowed.",
+                "val_number": "Please enter a valid number.",
+                "val_number_positive": "Please enter a valid positive number.",
+                "val_minimum_price": "Amount entered is less than the required minimum.",
+                "val_confirm": "Field values do not match.",
+                "val_checklimit": "You have exceeded the number of allowed selections: {#}.",
+                "val_limit_characters": "{count} of {limit} max characters.",
+                "val_limit_words": "{count} of {limit} max words.",
+                "val_recaptcha_fail_msg": "Google reCAPTCHA verification failed, please try again later.",
+                "val_turnstile_fail_msg": "Cloudflare Turnstile verification failed, please try again later.",
+                "val_inputmask_incomplete": "Please fill out the field in required format.",
+                "uuid_cookie": "",
+                "locale": "en",
+                "wpforms_plugin_url": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/wpforms-lite\/",
+                "gdpr": "",
+                "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+                "mailcheck_enabled": "1",
+                "mailcheck_domains": [],
+                "mailcheck_toplevel_domains": ["dev"],
+                "is_ssl": "1",
+                "page_title": "Elementor #5668",
+                "page_id": "5668",
+                "currency_code": "USD",
+                "currency_thousands": ",",
+                "currency_decimals": "2",
+                "currency_decimal": ".",
+                "currency_symbol": "$",
+                "currency_symbol_pos": "left",
+                "val_requiredpayment": "Payment is required.",
+                "val_creditcard": "Please enter a valid credit card number.",
+                "css_vars": ["field-border-radius", "field-background-color", "field-border-color",
+                    "field-text-color", "label-color", "label-sublabel-color", "label-error-color",
+                    "button-border-radius", "button-background-color", "button-text-color",
+                    "field-size-input-height", "field-size-input-spacing", "field-size-font-size",
+                    "field-size-line-height", "field-size-padding-h", "field-size-checkbox-size",
+                    "field-size-sublabel-spacing", "field-size-icon-size", "label-size-font-size",
+                    "label-size-line-height", "label-size-sublabel-font-size",
+                    "label-size-sublabel-line-height", "button-size-font-size", "button-size-height",
+                    "button-size-padding-h", "button-size-margin-top"
+                ],
+                "isModernMarkupEnabled": "1",
+                "formErrorMessagePrefix": "Form error message",
+                "errorMessagePrefix": "Error message",
+                "submitBtnDisabled": "Submit button is disabled during form submission."
             }
-        });
-    });
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+            /* ]]> */
+            </script>
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11325588607');
-    </script>
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-    (function() {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/65046147b1aaa13b7a770b04/1hacho0lm';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+            <script type="text/html" id="tmpl-wpforms-admin-menubar-data">
+            <li id="wp-admin-bar-wpforms-form-id-5755"
+                class="menupop wpforms-menu-form wpforms-menu-form-notifications wpforms-menu-form-last">
+                <div class="ab-item ab-empty-item" aria-haspopup="true"><span class="wp-admin-bar-arrow"
+                        aria-hidden="true"></span>Register here</div>
+                <div class="ab-sub-wrapper">
+                    <ul id="wp-admin-bar-wpforms-form-id-5755-default" class="ab-submenu">
+                        <li id="wp-admin-bar-wpforms-form-id-5755-edit">
+                            <a class="ab-item"
+                                href="https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder&#038;view=fields&#038;form_id=5755">Edit
+                                Form</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            </script>
 </body>
-<style>
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
 
-.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #fff !important;
-    font-family: "Roboto", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.para {
-    background-color: #001E64 !important;
-}
-
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:active,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:focus,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:hover,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:active,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:focus,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:hover,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:active,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:focus,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:hover,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:active,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:focus,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:hover,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:active,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:focus,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:hover,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus,
-.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
-    color: rgba(255, 255, 255, .5);
-    background-color: #54b4d3 !important;
-}
-
-.bio {
-    margin-top: -15px;
-    font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #343F5A;
-    font-family: "Roboto", Sans-serif;
-    font-size: 23px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 30px;
-}
-
-.selectpicker {
-    background-color: #54b4d3 !important;
-    color: #fff !important;
-}
-
-.filter-section {
-    background-color: #F3EEF5;
-}
-
-a {
-    text-transform: capitalize !important;
-}
-
-.btn.btn-primary {
-    background-color: #001E64 !important;
-}
-
-.expertise {
-    font-size: 14px;
-}
-
-.bio {
-    margin-top: -15px;
-    font-size: 14px;
-    padding-top: 5px;
-}
-
-span.slot {
-    padding-bottom: 15px !important;
-}
-
-< !-- .next_availability {
-    padding-right: 95px;
-}
-
-.schedule-call {
-    margin-left:
-        70px;
-}
-
--->.wp-image-5531 {
-    border-radius:
-        10px !important;
-}
-
-i.fas.fa-chevron-down {
-    margin-top:
-        -15px !important;
-    padding-left:
-        10px !important;
-    font-size:
-        9px !important;
-    font-family:
-        "FontAwesome 5 Free"
-         !important;
-    font-weight:
-        900 !important;
-}
-
-.mobile-display {
-    visibility: hidden;
-}
-
-
-@media screen and (max-device-width: 480px) and (min-width: 410px) {
-    div.d-grid.gap-2.col-6.butto {
-        padding-left:
-            75px;
-        text-align:
-            center !important;
-    }
-
-    .card {
-        width:
-            15rem;
-    }
-
-    .elementor-star-rating__wrapper {
-        padding-left:
-            118px;
-    }
-
-    /*
-input#date.form-control.selectpicker
-{
-padding-left:
-20px;
-padding-top:
-10px;
-*/
-    /*
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-100%
- !important;
-width:
-200%
- !important;
-font-size:
-0.75rem
- !important;
-*/
-    /*
-}
-*/
-    /*
-.datefilter
-{
-/*
-padding-top:
-20px;
-*/
-    /*
-margin-bottom:
-10px;
-*/
-    /*
-}
-*/
-    .filters {
-        margin-left:
-            95px;
-        margin-right:
-            50px;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
-        color:
-            white !important;
-    }
-
-    .price {
-        padding-left:
-            100px !important;
-    }
-}
-
-@media screen and (max-width: 400px) and (min-width: 320px) {
-
-    /*
-#date
-{
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-140%
- !important;
-width:
-75%
- !important;
-FONT-VARIANT:
-JIS78;
-/*
-padding-left:
-20px
- !important;
-*/
-    /*
-}
-*/
-    .selectpicker {
-        font-size:
-            10px;
-    }
-
-    .datefilter {
-        margin-bottom:
-            10px;
-    }
-
-    .filters {
-        padding-left:
-            50px;
-    }
-
-    .butto {
-        /*
-/*
-margin-left:50px;
-*/
-        padding-left:
-            25px;
-    }
-}
-
-@media screen and (max-width: 1280px),
-screen and (min-width: 1024px) {
-
-    input[type="date"]:not(.has-value):before {
-        color:
-            lightgray;
-        content:
-            attr(placeholder);
-    }
-
-    ::placeholder {
-        /*
-margin-top:
-15px
- !important;
-*/
-        color:
-            #fff !important;
-        opacity:
-            1 !important;
-    }
-
-    ::-ms-input-placeholder {
-        /*
-margin-top:
-15px
- !important;
-*/
-        color:
-            #fff !important;
-        opacity:
-            1 !important;
-    }
-
-    ::-webkit-calendar-picker-indicator {
-        filter:
-            invert(1);
-    }
-
-    div.d-grid.gap-2.col-6.butto {
-        padding-left:
-            80px;
-        /*
-text-align:
-right !important;
-*/
-    }
-
-    #date {
-        width: 220px;
-        height: 36px;
-        background-color: #54b4d3;
-        color: #fff;
-        font-weight: 200px;
-        border-color: #54b4d3 !important;
-        border-radius: 5px;
-        font-size: 0.75rem !important;
-        padding-left: 20px;
-    }
-
-    .card {
-        width:
-            22rem !important;
-    }
-
-    .elementor-star-rating__wrapper {
-        padding-left:
-            115px;
-        display:
-            flex;
-        /*
-align-items:
-right;
-*/
-    }
-
-    .price {
-        padding-left:
-            100px;
-        display:
-            flex;
-        align-items:
-            center;
-    }
-
-    .name {
-        margin-top:
-            15px;
-    }
-
-    input[type="date"]::before {
-        padding-right:
-            16px !important;
-        padding-top:
-            0px;
-        padding-left:
-            16px !important;
-        color:
-            #ffff;
-        content:
-            attr(placeholder);
-    }
-
-    input[type="date"] {
-        padding-right:
-            16px !important;
-        padding-left:
-            5px !important;
-        /*
-padding-top:
-16px
- !important;
-*/
-        color:
-            #54b4d3 !important;
-    }
-
-    input[type="date"]:focus,
-    input[type="date"]:valid {
-        padding-right:
-            16px !important;
-        /*
-padding-left:
-16px
- !important;
-*/
-        /*
-padding-top:
-25px
- !important;
-*/
-        color:
-            #ffff !important;
-    }
-
-    input[type="date"]:focus::before,
-    input[type="date"]:valid::before {
-        padding-right:
-            16px !important;
-        padding-left:
-            16px !important;
-        /*
-padding-top:
-25px
- !important;
-*/
-        content:
-            ""
-             !important;
-    }
-
-    .search {
-        width:
-            130%;
-        text-align:
-            left;
-        background-color:
-            #000;
-        /*
-margin-left:
-125px
- !important;
-*/
-    }
-}
-
-.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #343F5A;
-    font-family: "Roboto", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.card-deck .card {
-    margin-bottom:
-        50px;
-}
-
-/*
-.browseMentor
-{
-padding-right:
-20px;
-}
-*/
-i.fas.fa-bell.fa-2xl {
-    font-size:
-        32px !important;
-}
-
-@media (min-width: 768px) {
-    .elementor-2772 .elementor-element.elementor-element-55b12a5 {
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 767px) {
-
-
-    ul,
-    ol {
-        font-family: var(--list--font-family);
-        margin: 0;
-        padding-left: 0px !important;
-    }
-
-    .elementor-widget-text-editor .buttons {
-        font-size: 11px !important;
-    }
-
-    .bio {
-        margin-top: 5px;
-        font-size: 10px;
-        padding-top: 0px;
-    }
-
-    .desktop-display {
-        display: none;
-    }
-
-    .grid-child h5 {
-        font-size: 11px;
-    }
-
-    .grid-child p {
-        font-size: 10px;
-    }
-
-    .expertise {
-        font-size: 10px !important;
-    }
-
-    .mobile-display {
-        visibility: visible;
-    }
-
-    .elementor-star-rating {
-        font-size: 9px;
-    }
-
-    .wp-image-5531 {
-        height: auto;
-        max-width: 100% !important;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-    }
-
-    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-        padding: 75px 5px 75px 5px;
-    }
-
-    .search {
-        width:
-            55% !important;
-        text-align:
-            left;
-        background-color:
-            #000;
-        /*
-margin-left:
-125px
- !important;
-*/
-    }
-
-    .elementor-star-rating__wrapper {
-        padding-left:
-            120px;
-        display:
-            flex;
-    }
-
-    ::placeholder {
-        padding-top:
-            15px !important;
-        color:
-            #fff !important;
-        opacity:
-            1 !important;
-    }
-
-    ::-ms-input-placeholder {
-        padding-top:
-            15px !important;
-        color:
-            #fff !important;
-        opacity:
-            1 !important;
-    }
-
-    ::-webkit-calendar-picker-indicator {
-        filter:
-            invert(1);
-    }
-
-    input[type="date"] {
-        padding-right:
-            16px !important;
-        padding-left:
-            5px !important;
-        padding-top:
-            16px !important;
-        /*
-padding-bottom:
-16px
- !important;
-*/
-        color:
-            #fff !important;
-        font-size:
-            12px !important;
-    }
-
-    input[type="date"]::before {
-        padding-right:
-            16px !important;
-        margin-top:
-            10px !important;
-        padding-left:
-            16px !important;
-        color:
-            #ffff !important;
-        content:
-            attr(placeholder);
-    }
-
-    input[type="date"]:focus,
-    input[type="date"]:valid {
-        padding-right:
-            16px !important;
-        /*
-padding-left:
-16px
- !important;
-*/
-        /*
-padding-top:
-25px
- !important;
-*/
-        color:
-            #ffff !important;
-    }
-
-    input[type="date"]:focus::before,
-    input[type="date"]:valid::before {
-        padding-right:
-            16px !important;
-        padding-left:
-            16px !important;
-        /*
-padding-top:
-25px
- !important;
-*/
-        content:
-            ""
-             !important;
-    }
-
-    /* .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-        padding:
-            75px 45px 75px 12px;
-    } */
-
-    .elementor-3007 .elementor-element.elementor-element-b97627d {
-        width:
-            30%;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
-        width:
-            50%;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-094a417 {
-        width:
-            20%;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-        background-color:
-            #fff;
-        color:
-            #001E64 !important;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-        padding:
-            0px 0px 0px 35px;
-        margin-top:
-            45px;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
-        padding:
-            0px 0px 0px 10px;
-        margin-top:
-            -20px;
-    }
-
-    .elementor-button.elementor-size-xs {
-        font-size:
-            12px;
-        padding:
-            10px 20px;
-        border-radius:
-            7px;
-        margin:
-            10px;
-    }
-
-    .elementor-button {
-        display:
-            inline-block;
-        line-height:
-            1;
-        background-color:
-            #001E64;
-        /*
-font-size:
-15px;
-*/
-        /*
-padding:
-12px
-24px;
-*/
-        /*
-border-radius:
-3px;
-*/
-        /*
-color:
-#fff;
-*/
-        fill:
-            #fff;
-        text-align:
-            center;
-        transition:
-            all .3s;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-f871cda {
-        width:
-            30%;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-094a417 {
-        width:
-            50%;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
-        width:
-            20%;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding:
-            0px 0px 0px 30px;
-        margin-top:
-            45px;
-    }
-
-    #menu-item-5136 {
-        font-size:
-            8px;
-    }
-
-    i.fas.fa-bell.fa-2xl {
-        font-size:
-            27px !important;
-        color:
-            #000;
-        padding-left:
-            10px;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-556f326 img {
-        width:
-            200%;
-        /*
-max-width:
-120%;
-*/
-        height:
-            80px;
-        object-fit:
-            contain;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
-        margin:
-            -40px 0px 0px 0px;
-        padding:
-            20px 0px 0px 0px;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-556f326 img {
-        width:
-            92%;
-        /*
-max-width:
-120%;
-*/
-        height:
-            80px;
-        object-fit:
-            contain;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
-        padding:
-            20px 0px 0px 0px;
-    }
-
-    .rounded-circle {
-        margin-top:
-            10px;
-        margin-bottom:
-            10px;
-        height:
-            auto;
-        max-width:
-            100%;
-        border:
-            none;
-        border-radius:
-            0;
-        box-shadow:
-            none;
-    }
-
-    .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap {
-        background-color: #FFFFFF;
-        border-style: none;
-        border-radius: 20px 20px 20px 20px;
-    }
-}
-
-@media (max-width: 320px) {}
-
-@media (max-width: 280px) {
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding:
-            0px 0px 0px 20px;
-        margin-top:
-            45px;
-    }
-}
-
-@media (max-width: 360px) {}
-
-@media (max-width: 375px) {
-    .filters {
-        padding-left:
-            75px;
-    }
-
-    .card {
-        width:
-            18.5rem !important;
-    }
-}
-
-@media (min-width: 540px) {}
-</style>
 </html>
