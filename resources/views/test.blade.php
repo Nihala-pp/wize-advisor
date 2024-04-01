@@ -913,7 +913,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_header_footer page page-id-5668 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.7 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5668">
+    class="page-template page-template-elementor_header_footer page page-id-5668 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.7 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5668">
     <script>
     (function() {
         var request, b = document.body,
