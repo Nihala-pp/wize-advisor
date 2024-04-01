@@ -9,13 +9,8 @@
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
     var theplus_nonce = "45aa92a5e5";
     </script>
-    <script>
-    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    var theplus_nonce = "45aa92a5e5";
-    </script>
     <meta name='robots' content='max-image-preview:large' />
-    <script>
+    <!-- <script>
     (function() {
         var query = document.location.search;
 
@@ -29,7 +24,7 @@
             });
         }
     }());
-    </script>
+    </script> -->
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
