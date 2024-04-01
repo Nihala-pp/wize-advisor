@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -2570,7 +2569,7 @@
                 document.body.classList.add('is-IE');
             }
             </script>
-            <script type="text/template" id="tmpl-elementor-templates-modal__header">
+            <!-- <script type="text/template" id="tmpl-elementor-templates-modal__header">
                 <div class="elementor-templates-modal__header__logo-area"></div>
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
@@ -2609,9 +2608,9 @@
             <script type="text/template" id="tmpl-elementor-finder__results__category">
                 <div class="elementor-finder__results__category__title">{{{ title }}}</div>
 	<div class="elementor-finder__results__category__items"></div>
-</script>
+</script> -->
 
-            <script type="text/template" id="tmpl-elementor-finder__results__item">
+            <!-- <script type="text/template" id="tmpl-elementor-finder__results__item">
                 <a href="{{ url }}" class="elementor-finder__results__item__link">
 		<div class="elementor-finder__results__item__icon">
 			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
@@ -2634,7 +2633,7 @@
 		<# } ); #>
 		</div>
 	<# } #>
-</script>
+</script> -->
             <link rel='stylesheet' id='wpforms-modern-full-css'
                 href='https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?ver=1.8.6.4'
                 media='all' />
@@ -2697,12 +2696,12 @@
                 id="jquery-ui-slider-js"></script>
             <script src="//web.wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1711953395"
                 id="theplus-front-js-js" defer></script>
-            <script id="twenty-twenty-one-ie11-polyfills-js-after">
+            <!-- <script id="twenty-twenty-one-ie11-polyfills-js-after">
             (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
             document.write(
                 '<script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
                 'ipt>');
-            </script>
+            </script> -->
             <script
                 src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
                 id="twenty-twenty-one-responsive-embeds-script-js"></script>
