@@ -1167,7 +1167,7 @@
                             class="elementor-section elementor-top-section elementor-element elementor-element-4399a714 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             style="background-color:#F3EEF5;" data-id="4399a714" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-wide">
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6f1fa09d"
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6f1fa09d border-right"
                                     data-id="6f1fa09d" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-754665b1 elementor-widget elementor-widget-heading"
