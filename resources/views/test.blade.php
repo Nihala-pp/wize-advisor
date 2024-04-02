@@ -1799,7 +1799,7 @@
 
                                                     <div class="elementor-form-fields-wrapper elementor-labels-">
                                                         <div
-                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required" style="margin-bottom:10px;">
+                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required" style="margin-bottom:10px;margin-right:10px;">
                                                             <input size="1" type="text" name="firstname"
                                                                 id="form-field-firstname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
@@ -1815,7 +1815,7 @@
                                                                 aria-required="true">
                                                         </div>
                                                         <div
-                                                            class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required mb-2" style="margin-bottom:10px;">
+                                                            class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required mb-2" style="margin-bottom:10px;margin-right:10px;">
                                                             <input type="number" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
