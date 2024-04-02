@@ -30,6 +30,8 @@
         href="https://web.wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://web.wiseadvizor.com/comments/feed/" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1221,8 +1223,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex bd-h-48">
-                                    <!-- bd-h-48: height is 192px -->
+                                <div class="d-flex" style="height: 200px;">
                                     <div class="vr"></div>
                                 </div>
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7a39da1"
@@ -1916,6 +1917,9 @@
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
                 id="jquery.mousewheel.min-js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
                 id="niso-carousel-lightbox.min-js"></script>
