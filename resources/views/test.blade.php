@@ -1799,7 +1799,7 @@
 
                                                     <div class="elementor-form-fields-wrapper elementor-labels-">
                                                         <div
-                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required mb-2">
                                                             <input size="1" type="text" name="firstname"
                                                                 id="form-field-firstname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
@@ -1807,7 +1807,7 @@
                                                                 aria-required="true">
                                                         </div>
                                                         <div
-                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required mb-2">
                                                             <input size="1" type="text" name="lastname"
                                                                 id="form-field-lastname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
@@ -1815,14 +1815,14 @@
                                                                 aria-required="true">
                                                         </div>
                                                         <div
-                                                            class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required mb-2">
                                                             <input type="number" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="LinkedIn" aria-required="true">
                                                         </div>
                                                         <div
-                                                            class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required mb-2">
                                                             <input size="1" type="email" name="email"
                                                                 id="form-field-email"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
@@ -1830,7 +1830,7 @@
                                                                 aria-required="true">
                                                         </div>
                                                         <div
-                                                            class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
+                                                            class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required mb-2">
                                                             <textarea
                                                                 class="elementor-field-textual elementor-field  elementor-size-md"
                                                                 name="message" id="form-field-message" rows="4"
@@ -1838,7 +1838,7 @@
                                                                 required="required" aria-required="true"></textarea>
                                                         </div>
                                                         <div
-                                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
+                                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100 mb-2">
                                                             <div class="elementor-field" id="form-field-field_6ff1b74">
                                                                 <!-- <div class="elementor-g-recaptcha"> -->
                                                                 <!-- <strong>ReCaptcha:</strong> -->
