@@ -1108,7 +1108,6 @@
                                                     Does your business really fill a market need.. or Are you just too
                                                     in-love with your idea?
                                                     <br>
-
                                                     Many aspiring entrepreneurs get stuck at the validation stage, while
                                                     other entrepreneurs doomly fail as a result of mismatch if their
                                                     business concept has and real-world potential.
@@ -3048,7 +3047,7 @@
             </script>
 </body>
 <style>
-    .elementor-13 .elementor-element.elementor-element-eb47b46 > .elementor-element-populated {
+    .elementor-5668 .elementor-element.elementor-element-0698e86 > .elementor-element-populated {
     box-shadow: 0px 0px 45px 0px rgba(213, 191.23695652173913, 191.23695652173913, 0.5);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     text-align: left;
