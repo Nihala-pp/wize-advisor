@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -70,7 +71,7 @@
                         n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                             "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                             "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                            );
+                        );
                 case "emoji":
                     return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
                         "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
@@ -1092,8 +1093,8 @@
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-7824c66 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" style="background-color:#6458D4"
-                            data-id="7824c66" data-element_type="section">
+                            class="elementor-section elementor-top-section elementor-element elementor-element-7824c66 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            style="background-color:#6458D4" data-id="7824c66" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3430f77"
                                     data-id="3430f77" data-element_type="column">
@@ -1164,8 +1165,8 @@
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-4399a714 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" style="background-color:#F3EEF5;"
-                            data-id="4399a714" data-element_type="section">
+                            class="elementor-section elementor-top-section elementor-element elementor-element-4399a714 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            style="background-color:#F3EEF5;" data-id="4399a714" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-wide">
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6f1fa09d"
                                     data-id="6f1fa09d" data-element_type="column">
@@ -1212,7 +1213,8 @@
                                                                 style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">Refining
                                                                 your value proposition: </span><span
                                                                 style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">enhancing
-                                                                product market fit</span></h2>
+                                                                product market fit</span>
+                                                        </h2>
                                                         <p> </p>
                                                     </li>
                                                 </ul>
@@ -1243,25 +1245,29 @@
                                                         <span
                                                             style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You
                                                             have a startup idea but are unsure if it&#8217;s
-                                                            viable.<br /></span></li>
+                                                            viable.<br /></span>
+                                                    </li>
                                                     <li
                                                         style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
                                                         <span
                                                             style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You&#8217;re
                                                             struggling to identify your target audience and market
-                                                            demand.<br /></span></li>
+                                                            demand.<br /></span>
+                                                    </li>
                                                     <li
                                                         style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
                                                         <span
                                                             style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You
                                                             need guidance on testing your product or service
-                                                            effectively.<br /></span></li>
+                                                            effectively.<br /></span>
+                                                    </li>
                                                     <li
                                                         style="color: black !important; font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; margin-left: 15px;">
                                                         <span
                                                             style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12pt; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit;">You
                                                             want to learn how to articulate your value proposition and
-                                                            stand out from the competition.</span></li>
+                                                            stand out from the competition.</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1418,78 +1424,97 @@
                                                 </style>
                                                 <div class="wpforms-container wpforms-container-full wpforms-render-modern"
                                                     id="wpforms-5755">
-                                                    <form id="wpforms-form-5755"
-                                                        class="wpforms-validate wpforms-form wpforms-ajax-form"
-                                                        data-formid="5755" method="post" enctype="multipart/form-data"
-                                                        action="/elementor-5668/?preview_id=5668&#038;preview_nonce=16c7cd0779&#038;preview=true"
-                                                        data-token="5901c65353c1296c6816013e03975027"><noscript
-                                                            class="wpforms-error-noscript">Please enable JavaScript in
-                                                            your browser to complete this form.</noscript>
-                                                        <div class="wpforms-hidden" id="wpforms-error-noscript">Please
-                                                            enable JavaScript in your browser to complete this form.
-                                                        </div>
-                                                        <div class="wpforms-field-container">
-                                                            <div id="wpforms-5755-field_1-container"
-                                                                class="wpforms-field wpforms-field-name"
-                                                                data-field-id="1"><label class="wpforms-field-label"
-                                                                    for="wpforms-5755-field_1">Name <span
-                                                                        class="wpforms-required-label"
-                                                                        aria-hidden="true">*</span></label><input
-                                                                    type="text" id="wpforms-5755-field_1"
-                                                                    class="wpforms-field-medium wpforms-field-required"
-                                                                    name="wpforms[fields][1]"
-                                                                    aria-errormessage="wpforms-5755-field_1-error"
-                                                                    required></div>
-                                                            <div id="wpforms-5755-field_2-container"
-                                                                class="wpforms-field wpforms-field-email"
-                                                                data-field-id="2"><label class="wpforms-field-label"
-                                                                    for="wpforms-5755-field_2">Email <span
-                                                                        class="wpforms-required-label"
-                                                                        aria-hidden="true">*</span></label><input
-                                                                    type="email" id="wpforms-5755-field_2"
-                                                                    class="wpforms-field-medium wpforms-field-required"
-                                                                    name="wpforms[fields][2]" spellcheck="false"
-                                                                    aria-errormessage="wpforms-5755-field_2-error"
-                                                                    required></div>
-                                                            <div id="wpforms-5755-field_3-container"
-                                                                class="wpforms-field wpforms-field-text"
-                                                                data-field-id="3"><label class="wpforms-field-label"
-                                                                    for="wpforms-5755-field_3">LinkedIn
-                                                                    URL</label><input type="text"
-                                                                    id="wpforms-5755-field_3"
-                                                                    class="wpforms-field-medium"
-                                                                    name="wpforms[fields][3]"
-                                                                    aria-errormessage="wpforms-5755-field_3-error">
+                                                    <div class="card" style="width: 18rem;">
+                                                        <form id="wpforms-form-5755"
+                                                            class="wpforms-validate wpforms-form wpforms-ajax-form"
+                                                            data-formid="5755" method="post"
+                                                            enctype="multipart/form-data"
+                                                            action="/elementor-5668/?preview_id=5668&#038;preview_nonce=16c7cd0779&#038;preview=true"
+                                                            data-token="5901c65353c1296c6816013e03975027"><noscript
+                                                                class="wpforms-error-noscript">Please enable JavaScript
+                                                                in
+                                                                your browser to complete this form.</noscript>
+                                                            <div class="wpforms-hidden" id="wpforms-error-noscript">
+                                                                Please
+                                                                enable JavaScript in your browser to complete this form.
                                                             </div>
-                                                            <div id="wpforms-5755-field_4-container"
-                                                                class="wpforms-field wpforms-field-text"
-                                                                data-field-id="4"><label class="wpforms-field-label"
-                                                                    for="wpforms-5755-field_4">As spots are limited, we
-                                                                    kindly ask you to confirm your availability for the
-                                                                    webinar. <span class="wpforms-required-label"
-                                                                        aria-hidden="true">*</span></label><input
-                                                                    type="text" id="wpforms-5755-field_4"
-                                                                    class="wpforms-field-medium wpforms-field-required"
-                                                                    name="wpforms[fields][4]"
-                                                                    aria-errormessage="wpforms-5755-field_4-error"
-                                                                    required></div>
-                                                        </div><!-- .wpforms-field-container -->
-                                                        <div class="wpforms-submit-container"><input type="hidden"
-                                                                name="wpforms[id]" value="5755"> <input type="hidden"
-                                                                name="wpforms[nonce]" value="3962e77a95" />
-                                                            <input type="hidden" name="wpforms[author]" value="1"><input
-                                                                type="hidden" name="wpforms[post_id]"
-                                                                value="5668"><button type="submit"
-                                                                name="wpforms[submit]" id="wpforms-submit-5755"
-                                                                class="wpforms-submit" data-alt-text="Sending..."
-                                                                data-submit-text="Submit" aria-live="assertive"
-                                                                value="wpforms-submit">Submit</button><img
-                                                                decoding="async"
-                                                                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg"
-                                                                class="wpforms-submit-spinner" style="display: none;"
-                                                                width="26" height="26" alt="Loading">
-                                                        </div>
-                                                    </form>
+                                                            <div class="card-body">
+                                                                <div class="wpforms-field-container">
+                                                                    <div id="wpforms-5755-field_1-container"
+                                                                        class="wpforms-field wpforms-field-name"
+                                                                        data-field-id="1"><label
+                                                                            class="wpforms-field-label"
+                                                                            for="wpforms-5755-field_1">Name <span
+                                                                                class="wpforms-required-label"
+                                                                                aria-hidden="true">*</span></label><input
+                                                                            type="text" id="wpforms-5755-field_1"
+                                                                            class="wpforms-field-medium wpforms-field-required"
+                                                                            name="wpforms[fields][1]"
+                                                                            aria-errormessage="wpforms-5755-field_1-error"
+                                                                            required></div>
+                                                                    <div id="wpforms-5755-field_2-container"
+                                                                        class="wpforms-field wpforms-field-email"
+                                                                        data-field-id="2"><label
+                                                                            class="wpforms-field-label"
+                                                                            for="wpforms-5755-field_2">Email <span
+                                                                                class="wpforms-required-label"
+                                                                                aria-hidden="true">*</span></label><input
+                                                                            type="email" id="wpforms-5755-field_2"
+                                                                            class="wpforms-field-medium wpforms-field-required"
+                                                                            name="wpforms[fields][2]" spellcheck="false"
+                                                                            aria-errormessage="wpforms-5755-field_2-error"
+                                                                            required></div>
+                                                                    <div id="wpforms-5755-field_3-container"
+                                                                        class="wpforms-field wpforms-field-text"
+                                                                        data-field-id="3"><label
+                                                                            class="wpforms-field-label"
+                                                                            for="wpforms-5755-field_3">LinkedIn
+                                                                            URL</label><input type="text"
+                                                                            id="wpforms-5755-field_3"
+                                                                            class="wpforms-field-medium"
+                                                                            name="wpforms[fields][3]"
+                                                                            aria-errormessage="wpforms-5755-field_3-error">
+                                                                    </div>
+                                                                    <div id="wpforms-5755-field_4-container"
+                                                                        class="wpforms-field wpforms-field-text"
+                                                                        data-field-id="4"><label
+                                                                            class="wpforms-field-label"
+                                                                            for="wpforms-5755-field_4">As spots are
+                                                                            limited,
+                                                                            we
+                                                                            kindly ask you to confirm your availability
+                                                                            for
+                                                                            the
+                                                                            webinar. <span
+                                                                                class="wpforms-required-label"
+                                                                                aria-hidden="true">*</span></label><input
+                                                                            type="text" id="wpforms-5755-field_4"
+                                                                            class="wpforms-field-medium wpforms-field-required"
+                                                                            name="wpforms[fields][4]"
+                                                                            aria-errormessage="wpforms-5755-field_4-error"
+                                                                            required></div>
+                                                                </div><!-- .wpforms-field-container -->
+                                                                <div class="wpforms-submit-container"><input
+                                                                        type="hidden" name="wpforms[id]" value="5755">
+                                                                    <input type="hidden" name="wpforms[nonce]"
+                                                                        value="3962e77a95" />
+                                                                    <input type="hidden" name="wpforms[author]"
+                                                                        value="1"><input type="hidden"
+                                                                        name="wpforms[post_id]" value="5668"><button
+                                                                        type="submit" name="wpforms[submit]"
+                                                                        id="wpforms-submit-5755" class="wpforms-submit"
+                                                                        data-alt-text="Sending..."
+                                                                        data-submit-text="Submit" aria-live="assertive"
+                                                                        value="wpforms-submit">Submit</button><img
+                                                                        decoding="async"
+                                                                        src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg"
+                                                                        class="wpforms-submit-spinner"
+                                                                        style="display: none;" width="26" height="26"
+                                                                        alt="Loading">
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
                                                 </div> <!-- .wpforms-container -->
                                             </div>
                                         </div>
@@ -1867,7 +1892,8 @@
                                     "icon": "plus-circle-o",
                                     "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=b32cbd820f#library",
                                     "keywords": ["Add New Landing Page", "post", "page", "template", "new",
-                                        "create"]
+                                        "create"
+                                    ]
                                 },
                                 "popup": {
                                     "title": "Add New Popup",
@@ -2661,4 +2687,5 @@
             </li>
             </script>
 </body>
+
 </html>
