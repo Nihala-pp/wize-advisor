@@ -1361,8 +1361,8 @@
                                             data-id="080f3cc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default" style="color: #000000;">Register
-                                                </h5>
+                                                <h3 class="elementor-heading-title elementor-size-default" style="color: #000000;">Register Here
+                                                </h3>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-79eef3b elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
