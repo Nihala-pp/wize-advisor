@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -1820,8 +1819,7 @@
                                                             <input type="number" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
-                                                                placeholder="Mobile Number" aria-required="true"
-                                                                title="Mobile Number should only contains numbers. eg[0-9]">
+                                                                placeholder="LinkedIn" aria-required="true">
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
@@ -1836,7 +1834,7 @@
                                                             <textarea
                                                                 class="elementor-field-textual elementor-field  elementor-size-md"
                                                                 name="message" id="form-field-message" rows="4"
-                                                                placeholder="Message" required="required"
+                                                                placeholder="As spots are limited, we kindly ask you to confirm your availability for the webinar." required="required"
                                                                 aria-required="true"></textarea>
                                                         </div>
                                                         <div
