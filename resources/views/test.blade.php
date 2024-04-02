@@ -1795,7 +1795,7 @@
                                                 }
                                                 </style>
                                                 <form class="elementor-form" method="post" name="New Form"
-                                                    action="{{ route('contact.save') }}">
+                                                    action="{{ route('webinar.save') }}">
                                                     @csrf
                                                     <input type="hidden" name="post_id" value="13">
                                                     <input type="hidden" name="form_id" value="3a54ca2">

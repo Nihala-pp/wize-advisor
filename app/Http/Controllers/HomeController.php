@@ -13,6 +13,7 @@ use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\Review;
 use App\Models\UserFaq;
+use App\Models\Webinar;
 use App\Notifications\CallRejectedAdmin;
 use App\Notifications\NewCallRequest;
 use App\Notifications\NewCallRequestAdmin;
@@ -94,7 +95,7 @@ class HomeController extends Controller
     }
   }
 
-  public function profile($id, $name=null)
+  public function profile($id, $name = null)
   {
     $data = User::find($id);
     $expertise = Expertise::where('mentor_id', $id)->get();
@@ -196,8 +197,8 @@ class HomeController extends Controller
           if ($filters['name'])
             $query->where('name', $filters['name']);
 
-          if($filters['sort_by'])
-          $query->orderBy('price', $filters['sort_by']);
+          if ($filters['sort_by'])
+            $query->orderBy('price', $filters['sort_by']);
         })
         // ->orderBy('price', $sortby)
         ->get();
@@ -290,11 +291,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -704,8 +705,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
           if ($filters['name'])
             $query->where('name', $filters['name']);
 
-          if($filters['sort_by'])
-          $query->orderBy('price', $filters['sort_by']);
+          if ($filters['sort_by'])
+            $query->orderBy('price', $filters['sort_by']);
         })
         // ->orderBy('price', $sortby)
         ->get();
@@ -881,16 +882,44 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function subscriptionList(Request $request)
   {
-      SubscriptionList::create([
-       'email_id' => $request->email
-      ]);
-      
-      ?>
-<script type="text/javascript">
-alert("Subscribed to the newsletter!");
-window.location.href = "https://wiseadvizor.com";
-</script>
-<?php
+    SubscriptionList::create([
+      'email_id' => $request->email
+    ]);
+
+    ?>
+    <script type="text/javascript">
+      alert("Subscribed to the newsletter!");
+      window.location.href = "https://wiseadvizor.com";
+    </script>
+    <?php
+  }
+
+  public function saveWebinar(Request $request)
+  {
+    $request->validate([
+      'first_name' => 'required',
+      'last_name' => 'required',
+      'email' => 'required|email',
+      'message' => 'required',
+    ]);
+
+    $email = 'info@wiseadvizor.com';
+
+    $details = Webinar::create([
+      'firstname' => $request->first_name,
+      'lastname' => $request->last_name,
+      'email' => $request->email,
+      'message' => $request->message,
+    ]);
+
+    Mail::to($email)->send(new askQuestionMail($details));
+
+    ?>
+    <script type="text/javascript">
+      alert("Your slot registration has been submitted!");
+      window.location.href = "https://learning.wiseadvizor.com";
+    </script>
+    <?php
   }
 
   public function ask_question(Request $request)
@@ -914,10 +943,10 @@ window.location.href = "https://wiseadvizor.com";
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-<script type="text/javascript">
-alert("Your query has been submitted!");
-window.location.href = "https://wiseadvizor.com/faq";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Your query has been submitted!");
+      window.location.href = "https://wiseadvizor.com/faq";
+    </script>
+    <?php
   }
 }
