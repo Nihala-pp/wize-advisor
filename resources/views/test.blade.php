@@ -1223,7 +1223,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex" style="height: 250px;">
+                                <div class="d-flex" style="height: 255px;">
                                     <div class="vr"></div>
                                 </div>
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7a39da1"
