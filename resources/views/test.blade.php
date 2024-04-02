@@ -3055,5 +3055,14 @@
     --e-column-margin-right: 25px;
     --e-column-margin-left: 25px;
     padding: 25px 25px 0px 25px;
+    }
+
+    .elementor-5668 .elementor-element.elementor-element-7a86f3c .elementor-heading-title {
+    color: #00092A;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 40px;
+}
 </style>
 </html>
