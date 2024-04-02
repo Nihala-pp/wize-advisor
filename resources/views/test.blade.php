@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -1834,8 +1835,8 @@
                                                             <textarea
                                                                 class="elementor-field-textual elementor-field  elementor-size-md"
                                                                 name="message" id="form-field-message" rows="4"
-                                                                placeholder="As spots are limited, we kindly ask you to confirm your availability for the webinar." required="required"
-                                                                aria-required="true"></textarea>
+                                                                placeholder="As spots are limited, we kindly ask you to confirm your availability for the webinar."
+                                                                required="required" aria-required="true"></textarea>
                                                         </div>
                                                         <div
                                                             class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
@@ -1869,7 +1870,7 @@
                                                                     <span class=" elementor-button-icon">
                                                                     </span>
                                                                     <span class="elementor-button-text">Submit
-                                                                        </span>
+                                                                    </span>
                                                                 </span>
                                                             </button>
                                                         </div>
@@ -3046,5 +3047,15 @@
             </li>
             </script>
 </body>
-
+<style>
+    .elementor-13 .elementor-element.elementor-element-eb47b46 > .elementor-element-populated {
+    box-shadow: 0px 0px 45px 0px rgba(213, 191.23695652173913, 191.23695652173913, 0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    text-align: left;
+    margin: 0px 25px 0px 25px;
+    --e-column-margin-right: 25px;
+    --e-column-margin-left: 25px;
+    padding: 0px 0px 0px 0px;
+}
+</style>
 </html>
