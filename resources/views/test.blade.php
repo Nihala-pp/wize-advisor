@@ -1221,7 +1221,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vr"></div>
+                                <div class="d-flex bd-h-48">
+                                    <!-- bd-h-48: height is 192px -->
+                                    <div class="vr"></div>
+                                </div>
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7a39da1"
                                     data-id="7a39da1" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -1361,7 +1364,9 @@
                                             data-id="080f3cc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default" style="color: #000000;font-family:Poppins, Sans-serif;">Register Here
+                                                <h4 class="elementor-heading-title elementor-size-default"
+                                                    style="color: #000000;font-family:Poppins, Sans-serif;">Register
+                                                    Here
                                                 </h4>
                                             </div>
                                         </div>
@@ -1798,47 +1803,47 @@
                                                     <input type="hidden" name="queried_id" value="13">
 
                                                     <div class="elementor-form-fields-wrapper elementor-labels-">
-                                                        <div
-                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required" style="margin-bottom:10px;padding-right:10px;">
+                                                        <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required"
+                                                            style="margin-bottom:10px;padding-right:10px;">
                                                             <input size="1" type="text" name="firstname"
                                                                 id="form-field-firstname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="First Name" required="required"
                                                                 aria-required="true">
                                                         </div>
-                                                        <div
-                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required" style="margin-bottom:10px;">
+                                                        <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required"
+                                                            style="margin-bottom:10px;">
                                                             <input size="1" type="text" name="lastname"
                                                                 id="form-field-lastname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Last Name" required="required"
                                                                 aria-required="true">
                                                         </div>
-                                                        <div
-                                                            class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required mb-2" style="margin-bottom:10px;padding-right:10px;">
+                                                        <div class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required mb-2"
+                                                            style="margin-bottom:10px;padding-right:10px;">
                                                             <input type="number" name="mobilenumber"
                                                                 id="form-field-mobilenumber"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="LinkedIn" aria-required="true">
                                                         </div>
-                                                        <div
-                                                            class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required mb-2" style="margin-bottom:10px;">
+                                                        <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required mb-2"
+                                                            style="margin-bottom:10px;">
                                                             <input size="1" type="email" name="email"
                                                                 id="form-field-email"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
                                                                 placeholder="Email" required="required"
                                                                 aria-required="true">
                                                         </div>
-                                                        <div
-                                                            class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required mb-2" style="margin-bottom:10px;">
+                                                        <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required mb-2"
+                                                            style="margin-bottom:10px;">
                                                             <textarea
                                                                 class="elementor-field-textual elementor-field  elementor-size-md"
                                                                 name="message" id="form-field-message" rows="4"
                                                                 placeholder="As spots are limited, we kindly ask you to confirm your availability for the webinar."
                                                                 required="required" aria-required="true"></textarea>
                                                         </div>
-                                                        <div
-                                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100 mb-2" style="margin-bottom:10px;">
+                                                        <div class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100 mb-2"
+                                                            style="margin-bottom:10px;">
                                                             <div class="elementor-field" id="form-field-field_6ff1b74">
                                                                 <!-- <div class="elementor-g-recaptcha"> -->
                                                                 <!-- <strong>ReCaptcha:</strong> -->
@@ -3047,7 +3052,7 @@
             </script>
 </body>
 <style>
-    .elementor-5668 .elementor-element.elementor-element-0698e86 > .elementor-element-populated {
+.elementor-5668 .elementor-element.elementor-element-0698e86>.elementor-element-populated {
     box-shadow: 0px 0px 45px 0px rgba(213, 191.23695652173913, 191.23695652173913, 0.5);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     text-align: left;
@@ -3055,9 +3060,9 @@
     --e-column-margin-right: 25px;
     --e-column-margin-left: 25px;
     padding: 25px 25px 0px 25px;
-    }
+}
 
-    .elementor-5668 .elementor-element.elementor-element-7a86f3c .elementor-heading-title {
+.elementor-5668 .elementor-element.elementor-element-7a86f3c .elementor-heading-title {
     color: #00092A;
     font-family: "Poppins", Sans-serif;
     font-size: 20px;
@@ -3065,4 +3070,5 @@
     padding-left: 40px;
 }
 </style>
+
 </html>
