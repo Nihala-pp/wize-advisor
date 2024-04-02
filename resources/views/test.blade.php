@@ -1092,7 +1092,7 @@
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-7824c66 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            class="elementor-section elementor-top-section elementor-element elementor-element-7824c66 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" style="background-color:#6458D4"
                             data-id="7824c66" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3430f77"
@@ -1164,7 +1164,7 @@
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-4399a714 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            class="elementor-section elementor-top-section elementor-element elementor-element-4399a714 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" style="background-color:#F3EEF5;"
                             data-id="4399a714" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-wide">
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6f1fa09d"
@@ -1360,7 +1360,7 @@
                                                 </h4>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-1bb80e2 elementor-widget elementor-widget-wpforms"
+                                        <div class="elementor-element elementor-element-1bb80e2 elementor-widget elementor-widget-wpforms card"
                                             data-id="1bb80e2" data-element_type="widget"
                                             data-widget_type="wpforms.default">
                                             <div class="elementor-widget-container">
