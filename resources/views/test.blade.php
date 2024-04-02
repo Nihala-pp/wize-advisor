@@ -3054,7 +3054,6 @@
     margin: 0px 25px 0px 25px;
     --e-column-margin-right: 25px;
     --e-column-margin-left: 25px;
-    padding: 0px 0px 0px 0px;
-}
+    padding: 25px 25px 0px 25px;
 </style>
 </html>
