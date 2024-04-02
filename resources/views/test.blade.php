@@ -1358,164 +1358,525 @@
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0698e86"
                                     data-id="0698e86" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-7553ce4 elementor-widget elementor-widget-heading"
-                                            data-id="7553ce4" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-080f3cc elementor-widget elementor-widget-heading"
+                                            data-id="080f3cc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Register here
-                                                </h4>
+                                                <h5 class="elementor-heading-title elementor-size-default">Get In Touch
+                                                </h5>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-1bb80e2 elementor-widget elementor-widget-wpforms card"
-                                            data-id="1bb80e2" data-element_type="widget"
-                                            data-widget_type="wpforms.default">
+                                        <div class="elementor-element elementor-element-79eef3b elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                            data-id="79eef3b" data-element_type="widget"
+                                            data-widget_type="divider.default">
                                             <div class="elementor-widget-container">
-                                                <style id="wpforms-css-vars-root">
-                                                :root {
-                                                    --wpforms-field-border-radius: 3px;
-                                                    --wpforms-field-background-color: #ffffff;
-                                                    --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
-                                                    --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
-                                                    --wpforms-label-color: rgba(0, 0, 0, 0.85);
-                                                    --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
-                                                    --wpforms-label-error-color: #d63637;
-                                                    --wpforms-button-border-radius: 3px;
-                                                    --wpforms-button-background-color: #066aab;
-                                                    --wpforms-button-text-color: #ffffff;
-                                                    --wpforms-field-size-input-height: 43px;
-                                                    --wpforms-field-size-input-spacing: 15px;
-                                                    --wpforms-field-size-font-size: 16px;
-                                                    --wpforms-field-size-line-height: 19px;
-                                                    --wpforms-field-size-padding-h: 14px;
-                                                    --wpforms-field-size-checkbox-size: 16px;
-                                                    --wpforms-field-size-sublabel-spacing: 5px;
-                                                    --wpforms-field-size-icon-size: 1;
-                                                    --wpforms-label-size-font-size: 16px;
-                                                    --wpforms-label-size-line-height: 19px;
-                                                    --wpforms-label-size-sublabel-font-size: 14px;
-                                                    --wpforms-label-size-sublabel-line-height: 17px;
-                                                    --wpforms-button-size-font-size: 17px;
-                                                    --wpforms-button-size-height: 41px;
-                                                    --wpforms-button-size-padding-h: 15px;
-                                                    --wpforms-button-size-margin-top: 10px;
+                                                <style>
+                                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                                .elementor-widget-divider {
+                                                    --divider-border-style: none;
+                                                    --divider-border-width: 1px;
+                                                    --divider-color: #0c0d0e;
+                                                    --divider-icon-size: 20px;
+                                                    --divider-element-spacing: 10px;
+                                                    --divider-pattern-height: 24px;
+                                                    --divider-pattern-size: 20px;
+                                                    --divider-pattern-url: none;
+                                                    --divider-pattern-repeat: repeat-x
+                                                }
 
+                                                .elementor-widget-divider .elementor-divider {
+                                                    display: flex
+                                                }
+
+                                                .elementor-widget-divider .elementor-divider__text {
+                                                    font-size: 15px;
+                                                    line-height: 1;
+                                                    max-width: 95%
+                                                }
+
+                                                .elementor-widget-divider .elementor-divider__element {
+                                                    margin: 0 var(--divider-element-spacing);
+                                                    flex-shrink: 0
+                                                }
+
+                                                .elementor-widget-divider .elementor-icon {
+                                                    font-size: var(--divider-icon-size)
+                                                }
+
+                                                .elementor-widget-divider .elementor-divider-separator {
+                                                    display: flex;
+                                                    margin: 0;
+                                                    direction: ltr
+                                                }
+
+                                                .elementor-widget-divider--view-line_icon .elementor-divider-separator,
+                                                .elementor-widget-divider--view-line_text .elementor-divider-separator {
+                                                    align-items: center
+                                                }
+
+                                                .elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+                                                .elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+                                                .elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+                                                .elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+                                                    display: block;
+                                                    content: "";
+                                                    border-bottom: 0;
+                                                    flex-grow: 1;
+                                                    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+                                                }
+
+                                                .elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+                                                    flex-grow: 0;
+                                                    flex-shrink: 100
+                                                }
+
+                                                .elementor-widget-divider--element-align-left .elementor-divider-separator:before {
+                                                    content: none
+                                                }
+
+                                                .elementor-widget-divider--element-align-left .elementor-divider__element {
+                                                    margin-left: 0
+                                                }
+
+                                                .elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+                                                    flex-grow: 0;
+                                                    flex-shrink: 100
+                                                }
+
+                                                .elementor-widget-divider--element-align-right .elementor-divider-separator:after {
+                                                    content: none
+                                                }
+
+                                                .elementor-widget-divider--element-align-right .elementor-divider__element {
+                                                    margin-right: 0
+                                                }
+
+                                                .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+                                                    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+                                                }
+
+                                                .elementor-widget-divider--separator-type-pattern {
+                                                    --divider-border-style: none
+                                                }
+
+                                                .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
+                                                .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
+                                                .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
+                                                .elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
+                                                    width: 100%;
+                                                    min-height: var(--divider-pattern-height);
+                                                    -webkit-mask-size: var(--divider-pattern-size) 100%;
+                                                    mask-size: var(--divider-pattern-size) 100%;
+                                                    -webkit-mask-repeat: var(--divider-pattern-repeat);
+                                                    mask-repeat: var(--divider-pattern-repeat);
+                                                    background-color: var(--divider-color);
+                                                    -webkit-mask-image: var(--divider-pattern-url);
+                                                    mask-image: var(--divider-pattern-url)
+                                                }
+
+                                                .elementor-widget-divider--no-spacing {
+                                                    --divider-pattern-size: auto
+                                                }
+
+                                                .elementor-widget-divider--bg-round {
+                                                    --divider-pattern-repeat: round
+                                                }
+
+                                                .rtl .elementor-widget-divider .elementor-divider__text {
+                                                    direction: rtl
+                                                }
+
+                                                .e-con-inner>.elementor-widget-divider,
+                                                .e-con>.elementor-widget-divider {
+                                                    width: var(--container-widget-width, 100%);
+                                                    --flex-grow: var(--container-widget-flex-grow)
                                                 }
                                                 </style>
-                                                <style id="wpforms-css-vars-elementor-widget-1bb80e2">
-                                                .elementor-widget-wpforms.elementor-element-1bb80e2 {
-                                                    --wpforms-field-size-input-height: 43px;
-                                                    --wpforms-field-size-input-spacing: 15px;
-                                                    --wpforms-field-size-font-size: 16px;
-                                                    --wpforms-field-size-line-height: 19px;
-                                                    --wpforms-field-size-padding-h: 14px;
-                                                    --wpforms-field-size-checkbox-size: 16px;
-                                                    --wpforms-field-size-sublabel-spacing: 5px;
-                                                    --wpforms-field-size-icon-size: 1;
-                                                    --wpforms-label-size-font-size: 16px;
-                                                    --wpforms-label-size-line-height: 19px;
-                                                    --wpforms-label-size-sublabel-font-size: 14px;
-                                                    --wpforms-label-size-sublabel-line-height: 17px;
-                                                    --wpforms-button-size-font-size: 17px;
-                                                    --wpforms-button-size-height: 41px;
-                                                    --wpforms-button-size-padding-h: 15px;
-                                                    --wpforms-button-size-margin-top: 10px;
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-3a54ca2 elementor-button-align-stretch elementor-widget elementor-widget-form"
+                                            data-id="3a54ca2" data-element_type="widget"
+                                            data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+                                            data-widget_type="form.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor-pro - v3.5.0 - 01-11-2021 */
+                                                .elementor-button.elementor-hidden,
+                                                .elementor-hidden {
+                                                    display: none
+                                                }
 
+                                                .e-form__step {
+                                                    width: 100%
+                                                }
+
+                                                .e-form__step:not(.elementor-hidden) {
+                                                    display: -webkit-box;
+                                                    display: -ms-flexbox;
+                                                    display: flex;
+                                                    -ms-flex-wrap: wrap;
+                                                    flex-wrap: wrap
+                                                }
+
+                                                .e-form__buttons {
+                                                    -ms-flex-wrap: wrap;
+                                                    flex-wrap: wrap
+                                                }
+
+                                                .e-form__buttons,
+                                                .e-form__buttons__wrapper {
+                                                    display: -webkit-box;
+                                                    display: -ms-flexbox;
+                                                    display: flex
+                                                }
+
+                                                .e-form__indicators {
+                                                    -webkit-box-pack: justify;
+                                                    -ms-flex-pack: justify;
+                                                    justify-content: space-between;
+                                                    -ms-flex-wrap: nowrap;
+                                                    flex-wrap: nowrap;
+                                                    font-size: 13px;
+                                                    margin-bottom: var(--e-form-steps-indicators-spacing)
+                                                }
+
+                                                .e-form__indicators,
+                                                .e-form__indicators__indicator {
+                                                    display: -webkit-box;
+                                                    display: -ms-flexbox;
+                                                    display: flex;
+                                                    -webkit-box-align: center;
+                                                    -ms-flex-align: center;
+                                                    align-items: center
+                                                }
+
+                                                .e-form__indicators__indicator {
+                                                    -webkit-box-orient: vertical;
+                                                    -webkit-box-direction: normal;
+                                                    -ms-flex-direction: column;
+                                                    flex-direction: column;
+                                                    -webkit-box-pack: center;
+                                                    -ms-flex-pack: center;
+                                                    justify-content: center;
+                                                    -ms-flex-preferred-size: 0;
+                                                    flex-basis: 0;
+                                                    padding: 0 var(--e-form-steps-divider-gap)
+                                                }
+
+                                                .e-form__indicators__indicator__progress {
+                                                    width: 100%;
+                                                    position: relative;
+                                                    background-color: var(--e-form-steps-indicator-progress-background-color);
+                                                    border-radius: var(--e-form-steps-indicator-progress-border-radius);
+                                                    overflow: hidden
+                                                }
+
+                                                .e-form__indicators__indicator__progress__meter {
+                                                    width: var(--e-form-steps-indicator-progress-meter-width, 0);
+                                                    height: var(--e-form-steps-indicator-progress-height);
+                                                    line-height: var(--e-form-steps-indicator-progress-height);
+                                                    padding-right: 15px;
+                                                    border-radius: var(--e-form-steps-indicator-progress-border-radius);
+                                                    background-color: var(--e-form-steps-indicator-progress-color);
+                                                    color: var(--e-form-steps-indicator-progress-meter-color);
+                                                    text-align: right;
+                                                    -webkit-transition: width .1s linear;
+                                                    -o-transition: width .1s linear;
+                                                    transition: width .1s linear
+                                                }
+
+                                                .e-form__indicators__indicator:first-child {
+                                                    padding-left: 0
+                                                }
+
+                                                .e-form__indicators__indicator:last-child {
+                                                    padding-right: 0
+                                                }
+
+                                                .e-form__indicators__indicator--state-inactive {
+                                                    color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
+                                                }
+
+                                                .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                                    background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
+                                                }
+
+                                                .e-form__indicators__indicator--state-inactive object,
+                                                .e-form__indicators__indicator--state-inactive svg {
+                                                    fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
+                                                }
+
+                                                .e-form__indicators__indicator--state-active {
+                                                    color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
+                                                    border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
+                                                }
+
+                                                .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                                    background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
+                                                }
+
+                                                .e-form__indicators__indicator--state-active object,
+                                                .e-form__indicators__indicator--state-active svg {
+                                                    fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
+                                                }
+
+                                                .e-form__indicators__indicator--state-completed {
+                                                    color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
+                                                }
+
+                                                .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                                    background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
+                                                }
+
+                                                .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
+                                                    color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
+                                                }
+
+                                                .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
+                                                    color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
+                                                    background-color: initial
+                                                }
+
+                                                .e-form__indicators__indicator--state-completed object,
+                                                .e-form__indicators__indicator--state-completed svg {
+                                                    fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
+                                                }
+
+                                                .e-form__indicators__indicator__icon {
+                                                    width: var(--e-form-steps-indicator-padding, 30px);
+                                                    height: var(--e-form-steps-indicator-padding, 30px);
+                                                    font-size: var(--e-form-steps-indicator-icon-size);
+                                                    border-width: 1px;
+                                                    border-style: solid;
+                                                    display: -webkit-box;
+                                                    display: -ms-flexbox;
+                                                    display: flex;
+                                                    -webkit-box-pack: center;
+                                                    -ms-flex-pack: center;
+                                                    justify-content: center;
+                                                    -webkit-box-align: center;
+                                                    -ms-flex-align: center;
+                                                    align-items: center;
+                                                    overflow: hidden;
+                                                    margin-bottom: 10px
+                                                }
+
+                                                .e-form__indicators__indicator__icon img,
+                                                .e-form__indicators__indicator__icon object,
+                                                .e-form__indicators__indicator__icon svg {
+                                                    width: var(--e-form-steps-indicator-icon-size);
+                                                    height: auto
+                                                }
+
+                                                .e-form__indicators__indicator__icon .e-font-icon-svg {
+                                                    height: 1em
+                                                }
+
+                                                .e-form__indicators__indicator__number {
+                                                    width: var(--e-form-steps-indicator-padding, 30px);
+                                                    height: var(--e-form-steps-indicator-padding, 30px);
+                                                    border-width: 1px;
+                                                    border-style: solid;
+                                                    display: -webkit-box;
+                                                    display: -ms-flexbox;
+                                                    display: flex;
+                                                    -webkit-box-pack: center;
+                                                    -ms-flex-pack: center;
+                                                    justify-content: center;
+                                                    -webkit-box-align: center;
+                                                    -ms-flex-align: center;
+                                                    align-items: center;
+                                                    margin-bottom: 10px
+                                                }
+
+                                                .e-form__indicators__indicator--shape-circle {
+                                                    border-radius: 50%
+                                                }
+
+                                                .e-form__indicators__indicator--shape-square {
+                                                    border-radius: 0
+                                                }
+
+                                                .e-form__indicators__indicator--shape-rounded {
+                                                    border-radius: 5px
+                                                }
+
+                                                .e-form__indicators__indicator--shape-none {
+                                                    border: 0
+                                                }
+
+                                                .e-form__indicators__indicator__label {
+                                                    text-align: center
+                                                }
+
+                                                .e-form__indicators__indicator__separator {
+                                                    width: 100%;
+                                                    height: var(--e-form-steps-divider-width);
+                                                    background-color: #c2cbd2
+                                                }
+
+                                                .e-form__indicators--type-icon,
+                                                .e-form__indicators--type-icon_text,
+                                                .e-form__indicators--type-number,
+                                                .e-form__indicators--type-number_text {
+                                                    -webkit-box-align: start;
+                                                    -ms-flex-align: start;
+                                                    align-items: flex-start
+                                                }
+
+                                                .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
+                                                .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
+                                                .e-form__indicators--type-number .e-form__indicators__indicator__separator,
+                                                .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
+                                                    margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
+                                                }
+
+                                                .elementor-field-type-hidden {
+                                                    display: none
+                                                }
+
+                                                .elementor-field-type-html {
+                                                    display: inline-block
+                                                }
+
+                                                .elementor-login .elementor-lost-password,
+                                                .elementor-login .elementor-remember-me {
+                                                    font-size: .85em
+                                                }
+
+                                                .elementor-field-type-recaptcha_v3 .elementor-field-label {
+                                                    display: none
+                                                }
+
+                                                .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
+                                                    z-index: 1
+                                                }
+
+                                                .elementor-button .elementor-form-spinner {
+                                                    -webkit-box-ordinal-group: 4;
+                                                    -ms-flex-order: 3;
+                                                    order: 3
+                                                }
+
+                                                .elementor-form .elementor-button>span {
+                                                    display: -webkit-box;
+                                                    display: -ms-flexbox;
+                                                    display: flex;
+                                                    -webkit-box-pack: center;
+                                                    -ms-flex-pack: center;
+                                                    justify-content: center;
+                                                    -webkit-box-align: center;
+                                                    -ms-flex-align: center;
+                                                    align-items: center
+                                                }
+
+                                                .elementor-form .elementor-button .elementor-button-text {
+                                                    white-space: normal;
+                                                    -webkit-box-flex: 0;
+                                                    -ms-flex-positive: 0;
+                                                    flex-grow: 0
+                                                }
+
+                                                .elementor-form .elementor-button svg {
+                                                    height: auto
+                                                }
+
+                                                .elementor-form .elementor-button .e-font-icon-svg {
+                                                    height: 1em
                                                 }
                                                 </style>
-                                                <div class="wpforms-container wpforms-container-full wpforms-render-modern"
-                                                    id="wpforms-5755">
-                                                    <div class="card" style="width: 18rem;">
-                                                        <form id="wpforms-form-5755"
-                                                            class="wpforms-validate wpforms-form wpforms-ajax-form"
-                                                            data-formid="5755" method="post"
-                                                            enctype="multipart/form-data"
-                                                            action="/elementor-5668/?preview_id=5668&#038;preview_nonce=16c7cd0779&#038;preview=true"
-                                                            data-token="5901c65353c1296c6816013e03975027"><noscript
-                                                                class="wpforms-error-noscript">Please enable JavaScript
-                                                                in
-                                                                your browser to complete this form.</noscript>
-                                                            <div class="wpforms-hidden" id="wpforms-error-noscript">
-                                                                Please
-                                                                enable JavaScript in your browser to complete this form.
-                                                            </div>
-                                                            <div class="card-body">
-                                                                <div class="wpforms-field-container">
-                                                                    <div id="wpforms-5755-field_1-container"
-                                                                        class="wpforms-field wpforms-field-name"
-                                                                        data-field-id="1"><label
-                                                                            class="wpforms-field-label"
-                                                                            for="wpforms-5755-field_1">Name <span
-                                                                                class="wpforms-required-label"
-                                                                                aria-hidden="true">*</span></label><input
-                                                                            type="text" id="wpforms-5755-field_1"
-                                                                            class="wpforms-field-medium wpforms-field-required"
-                                                                            name="wpforms[fields][1]"
-                                                                            aria-errormessage="wpforms-5755-field_1-error"
-                                                                            required></div>
-                                                                    <div id="wpforms-5755-field_2-container"
-                                                                        class="wpforms-field wpforms-field-email"
-                                                                        data-field-id="2"><label
-                                                                            class="wpforms-field-label"
-                                                                            for="wpforms-5755-field_2">Email <span
-                                                                                class="wpforms-required-label"
-                                                                                aria-hidden="true">*</span></label><input
-                                                                            type="email" id="wpforms-5755-field_2"
-                                                                            class="wpforms-field-medium wpforms-field-required"
-                                                                            name="wpforms[fields][2]" spellcheck="false"
-                                                                            aria-errormessage="wpforms-5755-field_2-error"
-                                                                            required></div>
-                                                                    <div id="wpforms-5755-field_3-container"
-                                                                        class="wpforms-field wpforms-field-text"
-                                                                        data-field-id="3"><label
-                                                                            class="wpforms-field-label"
-                                                                            for="wpforms-5755-field_3">LinkedIn
-                                                                            URL</label><input type="text"
-                                                                            id="wpforms-5755-field_3"
-                                                                            class="wpforms-field-medium"
-                                                                            name="wpforms[fields][3]"
-                                                                            aria-errormessage="wpforms-5755-field_3-error">
-                                                                    </div>
-                                                                    <div id="wpforms-5755-field_4-container"
-                                                                        class="wpforms-field wpforms-field-text"
-                                                                        data-field-id="4"><label
-                                                                            class="wpforms-field-label"
-                                                                            for="wpforms-5755-field_4">As spots are
-                                                                            limited,
-                                                                            we
-                                                                            kindly ask you to confirm your availability
-                                                                            for
-                                                                            the
-                                                                            webinar. <span
-                                                                                class="wpforms-required-label"
-                                                                                aria-hidden="true">*</span></label><input
-                                                                            type="text" id="wpforms-5755-field_4"
-                                                                            class="wpforms-field-medium wpforms-field-required"
-                                                                            name="wpforms[fields][4]"
-                                                                            aria-errormessage="wpforms-5755-field_4-error"
-                                                                            required></div>
-                                                                </div><!-- .wpforms-field-container -->
-                                                                <div class="wpforms-submit-container"><input
-                                                                        type="hidden" name="wpforms[id]" value="5755">
-                                                                    <input type="hidden" name="wpforms[nonce]"
-                                                                        value="3962e77a95" />
-                                                                    <input type="hidden" name="wpforms[author]"
-                                                                        value="1"><input type="hidden"
-                                                                        name="wpforms[post_id]" value="5668"><button
-                                                                        type="submit" name="wpforms[submit]"
-                                                                        id="wpforms-submit-5755" class="wpforms-submit"
-                                                                        data-alt-text="Sending..."
-                                                                        data-submit-text="Submit" aria-live="assertive"
-                                                                        value="wpforms-submit">Submit</button><img
-                                                                        decoding="async"
-                                                                        src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg"
-                                                                        class="wpforms-submit-spinner"
-                                                                        style="display: none;" width="26" height="26"
-                                                                        alt="Loading">
+                                                <form class="elementor-form" method="post" name="New Form"
+                                                    action="{{ route('contact.save') }}">
+                                                    @csrf
+                                                    <input type="hidden" name="post_id" value="13">
+                                                    <input type="hidden" name="form_id" value="3a54ca2">
+                                                    <input type="hidden" name="referer_title" value="Contact Us">
+
+                                                    <input type="hidden" name="queried_id" value="13">
+
+                                                    <div class="elementor-form-fields-wrapper elementor-labels-">
+                                                        <div
+                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            <input size="1" type="text" name="firstname"
+                                                                id="form-field-firstname"
+                                                                class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                placeholder="First Name" required="required"
+                                                                aria-required="true">
+                                                        </div>
+                                                        <div
+                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-lastname elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            <input size="1" type="text" name="lastname"
+                                                                id="form-field-lastname"
+                                                                class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                placeholder="Last Name" required="required"
+                                                                aria-required="true">
+                                                        </div>
+                                                        <div
+                                                            class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-mobilenumber elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            <input type="number" name="mobilenumber"
+                                                                id="form-field-mobilenumber"
+                                                                class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                placeholder="Mobile Number" aria-required="true"
+                                                                title="Mobile Number should only contains numbers. eg[0-9]">
+                                                        </div>
+                                                        <div
+                                                            class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-sm-50 elementor-field-required">
+                                                            <input size="1" type="email" name="email"
+                                                                id="form-field-email"
+                                                                class="elementor-field elementor-size-md  elementor-field-textual"
+                                                                placeholder="Email" required="required"
+                                                                aria-required="true">
+                                                        </div>
+                                                        <div
+                                                            class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
+                                                            <textarea
+                                                                class="elementor-field-textual elementor-field  elementor-size-md"
+                                                                name="message" id="form-field-message" rows="4"
+                                                                placeholder="Message" required="required"
+                                                                aria-required="true"></textarea>
+                                                        </div>
+                                                        <div
+                                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
+                                                            <div class="elementor-field" id="form-field-field_6ff1b74">
+                                                                <!-- <div class="elementor-g-recaptcha"> -->
+                                                                <!-- <strong>ReCaptcha:</strong> -->
+                                                                <div class="g-recaptcha"
+                                                                    data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
                                                                 </div>
+                                                                @if ($errors->has('g-recaptcha-response'))
+                                                                <span
+                                                                    class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                                                @endif
+                                                                <!-- </div> -->
                                                             </div>
-                                                        </form>
+                                                        </div>
+                                                        <!-- <div
+                                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
+                                                            <div class="elementor-field" id="form-field-field_6ff1b74">
+                                                                <div class="elementor-g-recaptcha"
+                                                                    data-sitekey="6LfPgL4mAAAAAERvwHh18CwnF_WM9VlCt_n3HU53"
+                                                                    data-type="v2_checkbox" data-theme="light"
+                                                                    data-size="normal"></div>
+                                                            </div>
+                                                        </div> -->
+                                                        <div
+                                                            class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                                                            <button type="submit"
+                                                                class="elementor-button elementor-size-sm">
+                                                                <span>
+                                                                    <span class=" elementor-button-icon">
+                                                                    </span>
+                                                                    <span class="elementor-button-text">Talk to
+                                                                        Us</span>
+                                                                </span>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </div> <!-- .wpforms-container -->
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
