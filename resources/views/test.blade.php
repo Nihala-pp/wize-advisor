@@ -1361,7 +1361,7 @@
                                             data-id="080f3cc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h5 class="elementor-heading-title elementor-size-default">Get In Touch
+                                                <h5 class="elementor-heading-title elementor-size-default">Register
                                                 </h5>
                                             </div>
                                         </div>
