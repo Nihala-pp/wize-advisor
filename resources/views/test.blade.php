@@ -30,7 +30,7 @@
         href="https://web.wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://web.wiseadvizor.com/comments/feed/" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
     <script>
     window._wpemojiSettings = {
@@ -2888,9 +2888,9 @@
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/wpforms-modern.min.js?ver=1.8.6.4"
                 id="wpforms-modern-js"></script>
-            <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script> -->
+                crossorigin="anonymous"></script>
             <!-- <script>
             (function() {
                 function wpforms_js_error_loading() {
