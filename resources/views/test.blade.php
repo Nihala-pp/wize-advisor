@@ -1917,9 +1917,6 @@
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0"
                 id="jquery.mousewheel.min-js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script>
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0"
                 id="niso-carousel-lightbox.min-js"></script>
@@ -2891,6 +2888,9 @@
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/wpforms-modern.min.js?ver=1.8.6.4"
                 id="wpforms-modern-js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
             <!-- <script>
             (function() {
                 function wpforms_js_error_loading() {
