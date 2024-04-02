@@ -1799,7 +1799,7 @@
 
                                                     <div class="elementor-form-fields-wrapper elementor-labels-">
                                                         <div
-                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required mb-2">
+                                                            class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-firstname elementor-col-50 elementor-sm-50 elementor-field-required" style="margin-bottom:10px;">
                                                             <input size="1" type="text" name="firstname"
                                                                 id="form-field-firstname"
                                                                 class="elementor-field elementor-size-md  elementor-field-textual"
