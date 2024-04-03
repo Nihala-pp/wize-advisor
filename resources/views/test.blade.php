@@ -1037,7 +1037,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
+                                                        href="#register_here">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-text">Book your seat
                                                                 now</span>
@@ -1794,7 +1794,7 @@
                                                     height: 1em
                                                 }
                                                 </style>
-                                                <form class="elementor-form" method="post" name="New Form"
+                                                <form id="register_here" class="elementor-form" method="post" name="New Form"
                                                     action="{{ route('webinar.save') }}">
                                                     @csrf
                                                     <input type="hidden" name="post_id" value="13">
