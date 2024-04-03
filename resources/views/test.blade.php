@@ -3073,6 +3073,12 @@
     font-weight: 500;
     padding-left: 40px;
 }
+
+.elementor-5668 .elementor-element.elementor-element-355bdd2:not(.elementor-motion-effects-element-type-background),
+.elementor-5668 .elementor-element.elementor-element-355bdd2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #131212;
+    margin-top: -62px;
+}
 </style>
 
 </html>
