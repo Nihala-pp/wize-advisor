@@ -3079,6 +3079,10 @@
     background-color: #131212;
     margin-top: -62px;
 }
-</style>
 
+.elementor-5668 .elementor-element.elementor-element-eec5a83 ul li {
+    font-size:16px;
+    font-family:var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+}
+</style>
 </html>
