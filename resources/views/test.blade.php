@@ -3080,7 +3080,7 @@
     margin-top: -62px;
 }
 
-.elementor-5668 .elementor-element.elementor-element-eec5a83 ul li {
+.elementor-5668 .elementor-element.elementor-element-eec5a83> ul >li {
     font-size:16px;
     font-family:var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
 }
