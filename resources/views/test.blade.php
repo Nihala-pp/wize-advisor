@@ -1794,8 +1794,8 @@
                                                     height: 1em
                                                 }
                                                 </style>
-                                                <form id="register_here" class="elementor-form" method="post" name="New Form"
-                                                    action="{{ route('webinar.save') }}">
+                                                <form id="register_here" class="elementor-form" method="post"
+                                                    name="New Form" action="{{ route('webinar.save') }}">
                                                     @csrf
                                                     <input type="hidden" name="post_id" value="13">
                                                     <input type="hidden" name="form_id" value="3a54ca2">
@@ -3080,9 +3080,29 @@
     margin-top: -62px;
 }
 
-.elementor-5668 .elementor-element.elementor-element-eec5a83> ul >li {
-    font-size:16px;
-    font-family:var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+.elementor-5668 .elementor-element.elementor-element-eec5a83>ul>li {
+    font-size: 16px;
+    font-family: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+}
+
+@media (max-width: 767px) {
+
+    .elementor-5668 .elementor-element.elementor-element-355bdd2:not(.elementor-motion-effects-element-type-background),
+    .elementor-5668 .elementor-element.elementor-element-355bdd2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #131212;
+        margin-top: -78px;
+    }
+
+    .elementor-5668 .elementor-element.elementor-element-3a029543 {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: justify;
+}
 }
 </style>
+
 </html>
