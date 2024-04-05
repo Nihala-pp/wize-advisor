@@ -11,13 +11,15 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  @if(!empty($name))
-    <title>Your Mentor for Building a Successful Startup - {{$name}}</title>
-    <meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
-  @else
-    <title>Your Go-To Business Coach for Building a Successful Startup</title>
-    <meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
-  @endif
+@if(!empty($name))
+<title>Your Mentor for Building a Successful Startup - {{$name}}</title>
+<meta name="description"
+    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
+@else
+<title>Your Go-To Business Coach for Building a Successful Startup</title>
+<meta name="description"
+    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
+@endif
 <meta name="keywords" content="business guidance, building a startup, business coach">
 @include('partials.header')
 
@@ -38,7 +40,8 @@
                         <div class="card z-index-0 fadeIn3 fadeInBottom">
                             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                 <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
-                                    <h1 class="text-white font-weight-bolder text-center mt-2 mb-0">{{ __('Connect with Startup Mentors: Login to wiseAdvizor') }}
+                                    <h1 class="text-white font-weight-bolder text-center mt-2 mb-0">
+                                        {{ __('Connect with Startup Mentors : Login to wiseAdvizor') }}
                                     </h1>
                                     <!-- <div class="row mt-3"> -->
                                     <!-- <div class="col-2 text-center ms-auto"> -->
@@ -169,6 +172,11 @@
     h1 {
         font-size: 17px !important;
     }
+
+    .font-weight-bolder {
+        font-weight: 700 !important;
+        font-size: 17px;
+    }
 }
 
 @media only screen (max-width: 767px) {
@@ -179,6 +187,11 @@
     h1 {
         font-size: 17px !important;
     }
+
+    .font-weight-bolder {
+        font-weight: 700 !important;
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -188,6 +201,11 @@
 
     h1 {
         font-size: 17px !important;
+    }
+
+    .font-weight-bolder {
+        font-weight: 700 !important;
+        font-size: 17px;
     }
 }
 </style>
