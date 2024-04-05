@@ -7,7 +7,7 @@
 <title>Become a Mentor| Ignite Business Growth Today - wiseAdvizor</title>
 <meta name="description"
     content="Be a mentor on wiseAdvizor, help entrepreneurs on their business growth. Share your expertise, guide them in crafting their startup stories.">
-<meta name="keywords" content="business growth, startup stories">
+<meta name="keywords" content="business growth, startup stories, Become a Mentor">
 <link rel="canonical" href="https://wiseadvizor.com/be-a-mentor">
 
 <body
@@ -20,7 +20,8 @@
                     <div class="card">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h1 class="text-white text-capitalize ps-3">Be A Mentor</h1>
+                                <h1 class="text-white text-capitalize ps-3">Empower Startups: Become a Mentor on
+                                    wiseAdvizor</h1>
                             </div>
                         </div>
                         <div class="card-body">
@@ -1504,16 +1505,28 @@ i.fas.fa-bell.fa-2xl {
     padding-left: 5px;
 }
 
+h1 {
+    font-size: 17px !important;
+}
+
 @media(max-width:480px) {
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
         color: white !important;
     }
+
+    h1 {
+        font-size: 17px !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     /* header*/
+
+    h1 {
+        font-size: 17px !important;
+    }
 
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
