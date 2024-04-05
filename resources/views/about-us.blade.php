@@ -7,7 +7,7 @@
     <title>Mentorship for New Ventures: Explore Easy Start-Up Ideas</title>
     <meta name="description"
         content="Find the ideal mentor to kickstart your career and explore a range of easy-to-start businesses on our website. Start your entrepreneurial journey with ease.">
-    <meta name="keywords" content="easy businesses to start, i need a mentor for my career">
+    <meta name="keywords" content="easy businesses to start, i need a mentor for my career, Startup Growth">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
@@ -2051,7 +2051,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">About Us</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">Accelerate Startup Growth : Expert Mentorship on wiseAdvizor</h1>
                             </div>
                         </div>
                     </div>
@@ -4272,6 +4272,10 @@ i.fas.fa-bell.fa-2xl {
         /* margin-left:20px !important; */
         padding-right: 20px !important;
     }
+
+    h1 {
+        font-size:17px;
+    }
 }
 
 /* .elementor-3007 .elementor-element.elementor-element-556f326 img {
@@ -4362,6 +4366,10 @@ i.fas.fa-bell.fa-2xl {
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
+
+    h1 {
+        font-size:17px;
+    }
 }
 
 @media (max-width: 320px) {}
@@ -4370,6 +4378,10 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 20px;
         margin-top: 60px;
+    }
+
+    h1 {
+        font-size:17px;
     }
 }
 
@@ -4512,7 +4524,10 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
     }
+
+    h1 {
+        font-size:17px;
+    }
 }
 </style>
-
 </html>
