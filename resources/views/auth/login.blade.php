@@ -185,5 +185,9 @@
     .loginForm {
         padding-left: 0px;
     }
+
+    h1 {
+        font-size: 17px !important;
+    }
 }
 </style>
