@@ -4213,6 +4213,10 @@ i.fas.fa-bell.fa-2xl {
     color: #001E64 !important;
 }
 
+h1 {
+    font-size:17px;
+}
+
 /* .d-flex {
     margin-left: 10px;
     display: -webkit-box !important;
