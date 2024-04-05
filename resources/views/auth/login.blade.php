@@ -175,7 +175,7 @@
 
     .font-weight-bolder {
         font-weight: 700 !important;
-        font-size: 17px;
+        font-size: 17px !important;
     }
 }
 
@@ -190,7 +190,7 @@
 
     .font-weight-bolder {
         font-weight: 700 !important;
-        font-size: 17px;
+        font-size: 17px !important;
     }
 }
 
@@ -205,7 +205,7 @@
 
     .font-weight-bolder {
         font-weight: 700 !important;
-        font-size: 17px;
+        font-size: 17px !important;
     }
 }
 </style>
