@@ -1663,7 +1663,9 @@
                                 width="100" height="100">
                         </a>
                     </div>
-                    <div class="card_carousel_title"><h1> {{ $mentor ?  $mentor->name : '' }} : Startup mentor on wiseAdvizor </h1></div>
+                    <div class="card_carousel_title">
+                        <h1> {{ $mentor ?  $mentor->name : '' }} : Startup mentor on wiseAdvizor </h1>
+                    </div>
                     <h5 class="card-title">30 Min Meeting</h5>
                     <!-- <i class="fab fa-time"> 30 Min</i> -->
                     <form name="scheduleCallForm" method="POST" enctype="multipart/form-data" class="scheduleCallForm"
@@ -3263,6 +3265,10 @@
     </script>
 </body>
 <style>
+h1 {
+    font-size: 17px;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
@@ -3343,6 +3349,11 @@ i.fas.fa-bell.fa-2xl {
 } */
 
 @media(max-width:480px) {
+
+    h1 {
+        font-size: 17px;
+    }
+
     /* .rounded-circle {
         height: 40px !important;
         width: 40px !important;
@@ -3360,6 +3371,10 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:767px) {
+
+    h1 {
+        font-size: 17px;
+    }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
@@ -3487,6 +3502,11 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 360px) {
+
+    h1 {
+        font-size: 17px;
+    }
+
     .avail h4 {
         margin-left: 15px;
         /* font-family: "Helvetica", Sans-serif; */
@@ -3496,6 +3516,11 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 375px) {
+
+    h1 {
+        font-size: 17px;
+    }
+
     .avail h4 {
         margin-left: 5px;
         font-family: "Helvetica", Sans-serif;
@@ -3606,9 +3631,17 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
     }
+
+    h1 {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 820px) {
+    h1 {
+        font-size: 17px;
+    }
+
     .avail h4 {
         font-family: "Helvetica", Sans-serif;
         font-size: 11px !important;
