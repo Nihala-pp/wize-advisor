@@ -6287,6 +6287,12 @@ li {
 .elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
     background-color: #ffff;
 }
+
+.elementor-4878 .elementor-element.elementor-element-c8cd16f .elementor-heading-title {
+    font-size: 20px;
+    color: #002D5B;
+    line-height: 1.3em;
+}
 </style>
 <style>
 /* .main-data-wrp p a { */
