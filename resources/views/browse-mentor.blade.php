@@ -2133,6 +2133,7 @@
                                     font-size: 59px
                                 }
                                 </style>
+                                <h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>
                                 <h2 class="elementor-heading-title elementor-size-default">Discover a world of
                                     expertise: Explore mentors offering invaluable guidance. Find the perfect mentor
                                     to
