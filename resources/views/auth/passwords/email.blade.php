@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Forgot Password| Start Your Own Business Today - wiseAdvizor</title>
-<meta name="description" content="Unlock a world of business opportunities with our website, offering valuable entrepreneur advice and inspiring ideas to fuel your start-up journey.">
+<meta name="description"
+    content="Unlock a world of business opportunities with our website, offering valuable entrepreneur advice and inspiring ideas to fuel your start-up journey.">
 <meta name="keywords" content="entrepreneur advice, ideas of business, start your own business">
 @include('partials.header')
 
@@ -80,5 +81,11 @@
         </div>
     </main>
 </body>
+<style>
+.font-weight-bolder {
+    font-weight: 700 !important;
+    font-size: 17px !important;;
+}
+</style>
 
 </html>
