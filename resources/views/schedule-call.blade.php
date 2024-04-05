@@ -6,7 +6,7 @@
     <title>Connect with Professional Mentor {{ $mentor->name }}</title>
     <meta name="description"
         content="Get professional mentoring from highly accomplished mentor {{ $mentor->name }} at wiseAdvizor. Discover her expertise and see what her mentees have to say.">
-    <meta name="keywords" content="professional mentor, my mentor">
+    <meta name="keywords" content="professional mentor, my mentor, Find a mentor">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
