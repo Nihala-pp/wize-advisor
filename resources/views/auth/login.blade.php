@@ -20,7 +20,7 @@
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
 @endif
-<meta name="keywords" content="business guidance, building a startup, business coach">
+<meta name="keywords" content="business guidance, building a startup, business coach, Startup mentors">
 @include('partials.header')
 
 <body class="bg-gray-200">
