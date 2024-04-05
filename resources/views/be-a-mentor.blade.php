@@ -1507,6 +1507,7 @@ i.fas.fa-bell.fa-2xl {
 
 h1 {
     font-size: 17px !important;
+    text-align: center;
 }
 
 @media(max-width:480px) {
@@ -1518,6 +1519,7 @@ h1 {
 
     h1 {
         font-size: 17px !important;
+        text-align: center;
     }
 }
 
@@ -1526,6 +1528,7 @@ h1 {
 
     h1 {
         font-size: 17px !important;
+        text-align: center;
     }
 
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
