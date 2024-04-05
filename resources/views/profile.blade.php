@@ -6,7 +6,7 @@
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
     <meta name="description"
         content="Looking for a mentor Unlock startup growth strategies with {{ $data->name }} on wiseAdvizor.">
-    <meta name="keywords" content="Looking for a mentor, startup growth">
+    <meta name="keywords" content="Looking for a mentor, startup growth, Startup mentor ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -2016,9 +2016,9 @@
 
                                     }
                                     </style>
-                                    <h3 class="elementor-heading-title elementor-size-default name">Hi! I am
-                                        {{ $data->name }}
-                                    </h3>
+                                    <h1 class="elementor-heading-title elementor-size-default name">Hi! I am
+                                        {{ $data->name }} : Startup mentor on wiseAdvizor
+                                    </h1>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="ideas of business"
