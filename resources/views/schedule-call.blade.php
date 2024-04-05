@@ -1663,7 +1663,7 @@
                                 width="100" height="100">
                         </a>
                     </div>
-                    <div class="card_carousel_title"> {{ $mentor ?  $mentor->name : '' }}</div>
+                    <div class="card_carousel_title"><h1> {{ $mentor ?  $mentor->name : '' }} : Startup mentor on wiseAdvizor </h1></div>
                     <h5 class="card-title">30 Min Meeting</h5>
                     <!-- <i class="fab fa-time"> 30 Min</i> -->
                     <form name="scheduleCallForm" method="POST" enctype="multipart/form-data" class="scheduleCallForm"
