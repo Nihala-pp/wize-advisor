@@ -4214,7 +4214,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 h1 {
-    font-size:17px;
+    font-size:27px;
 }
 
 /* .d-flex {
