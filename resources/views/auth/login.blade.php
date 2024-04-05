@@ -164,6 +164,10 @@
 
 </html>
 <style>
+h1 {
+    font-size: 17px !important;
+}
+
 @media only screen (max-width: 1280px) {
     .loginForm {
         padding-left: 750px;
