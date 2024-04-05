@@ -3267,7 +3267,7 @@
 <style>
 h1 {
     font-size: 17px;
-    font-family: helvetica !important;
+    font-family: "Helvetica", Sans-serif !important;
 }
 
 i.fas.fa-chevron-down {
@@ -3353,7 +3353,7 @@ i.fas.fa-bell.fa-2xl {
 
     h1 {
         font-size: 17px;
-        font-family: helvetica !important;
+        font-family: "Helvetica", Sans-serif !important;
     }
 
     /* .rounded-circle {
@@ -3376,7 +3376,7 @@ i.fas.fa-bell.fa-2xl {
 
     h1 {
         font-size: 17px;
-        font-family: helvetica !important;
+        font-family: "Helvetica", Sans-serif !important;
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
@@ -3508,7 +3508,7 @@ i.fas.fa-bell.fa-2xl {
 
     h1 {
         font-size: 17px;
-        font-family: helvetica !important;
+        font-family: "Helvetica", Sans-serif !important;
     }
 
     .avail h4 {
@@ -3523,7 +3523,7 @@ i.fas.fa-bell.fa-2xl {
 
     h1 {
         font-size: 17px;
-        font-family: "Helvetica" !important;
+        font-family: "Helvetica", Sans-serif !important;
     }
 
     .avail h4 {
@@ -3639,12 +3639,14 @@ i.fas.fa-bell.fa-2xl {
 
     h1 {
         font-size: 17px;
+        font-family: "Helvetica", Sans-serif !important;
     }
 }
 
 @media screen and (max-width: 820px) {
     h1 {
         font-size: 17px;
+        font-family: "Helvetica", Sans-serif !important;
     }
 
     .avail h4 {
