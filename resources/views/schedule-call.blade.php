@@ -1664,7 +1664,7 @@
                         </a>
                     </div>
                     <div class="card_carousel_title">
-                        <h1> {{ $mentor ?  $mentor->name : '' }} : Startup mentor on wiseAdvizor </h1>
+                        <h1> {{ $mentor ?  $mentor->name : '' }} </h1>
                     </div>
                     <h5 class="card-title">30 Min Meeting</h5>
                     <!-- <i class="fab fa-time"> 30 Min</i> -->
