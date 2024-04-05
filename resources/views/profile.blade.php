@@ -2017,7 +2017,7 @@
                                     }
                                     </style>
                                     <h1 class="elementor-heading-title elementor-size-default name">Hi! I am
-                                        {{ $data->name }} : Startup mentor on wiseAdvizor
+                                        {{ $data->name }} :<br/> Startup mentor on wiseAdvizor
                                     </h1>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
