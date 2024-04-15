@@ -2030,7 +2030,7 @@
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
                                     <h1 class="elementor-heading-title elementor-size-default name">Hi! I am
-                                        {{ $data->name }} : Startup mentor on wiseAdvizor
+                                        {{ $data->name }} 
                                     </h1>
                                 </div>
                             </div>
