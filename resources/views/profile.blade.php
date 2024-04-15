@@ -5927,7 +5927,12 @@ h3,
 
 .elementor-widget-heading .elementor-heading-title {
     color: #150E1F;
-    text-transform: capitalize !important;
+    /* text-transform: capitalize !important; */
+}
+
+.elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
+    font-family: "Roboto", Sans-serif;
+        text-transform: capitalize !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-0e640ef {
