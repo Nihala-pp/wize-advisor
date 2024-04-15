@@ -6683,7 +6683,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .name {
         font-size: 23px;
         margin-top: 50px !important;
-        text-transform: bold !important;
+        text-transform: capitalize !important;
         color: #002D5B !important;
         font-weight: BOLD !important;
     }
