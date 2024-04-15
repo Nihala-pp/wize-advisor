@@ -2016,7 +2016,7 @@
 
                                     }
                                     </style>
-                                    <h1 class="elementor-heading-title elementor-size-default name">Hi! I am {{ $data->name }}
+                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I am {{ $data->name }}
                                     </h1>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
@@ -2028,7 +2028,7 @@
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default name">Hi! I am {{ $data->name }} 
+                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I am {{ $data->name }} 
                                     </h1>
                                 </div>
                             </div>
