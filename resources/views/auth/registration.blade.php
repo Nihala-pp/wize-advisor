@@ -183,9 +183,9 @@ img.emoji {
     padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
+<!-- <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
     href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
-    media='all' />
+    media='all' /> -->
 <style id='classic-theme-styles-inline-css'>
 /*! This file is auto-generated */
 .wp-block-button__link {
