@@ -2306,7 +2306,7 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="618"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.png"
-                                    class="attachment-medium_large size-medium_large wp-image-5466" alt=""
+                                    class="attachment-medium_large size-medium_large wp-image-5466" alt="Startup Mentors"
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-300x247.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1.png 864w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:82.41%;max-width:864px" />
@@ -2651,7 +2651,7 @@
                                                     <figure class="elementor-image-box-img"><img decoding="async"
                                                             width="443" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.png"
-                                                            class="attachment-full size-full wp-image-5291" alt=""
+                                                            class="attachment-full size-full wp-image-5291" alt="startup success"
                                                             style="width:100%;height:112.87%;max-width:443px"
                                                             srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.png 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16-266x300.png 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
@@ -2681,7 +2681,7 @@
                                                     <figure class="elementor-image-box-img"><img loading="lazy"
                                                             decoding="async" width="443" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.png"
-                                                            class="attachment-full size-full wp-image-5292" alt=""
+                                                            class="attachment-full size-full wp-image-5292" alt="business coach"
                                                             style="width:100%;height:112.87%;max-width:443px"
                                                             srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.png 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14-266x300.png 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
@@ -2711,7 +2711,7 @@
                                                     <figure class="elementor-image-box-img"><img loading="lazy"
                                                             decoding="async" width="442" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.png"
-                                                            class="attachment-full size-full wp-image-5293" alt=""
+                                                            class="attachment-full size-full wp-image-5293" alt="Networking"
                                                             style="width:100%;height:113.12%;max-width:442px"
                                                             srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.png 442w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15-265x300.png 265w"
                                                             sizes="(max-width: 442px) 100vw, 442px" /></figure>
