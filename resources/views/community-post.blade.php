@@ -12,7 +12,7 @@
     <meta name="robots" content="max-image-preview:large">
     <title>Get entrepreneur advice & tips for budding entrepreneurs</title>
     <meta name="description"
-        content="Unlock valuable entrepreneur advice and discover the best business to start on our website. Unlock your success by setting clear goals and finding the perfect mentor to guide you">
+        content="Unlock valuable entrepreneur advice & discover the best business to start by setting clear goals & finding the perfect mentor.">
     <meta name="keywords" content="entrepreneur advice, best business to start">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
