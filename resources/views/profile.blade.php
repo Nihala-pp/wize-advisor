@@ -11,8 +11,7 @@
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    https: //wiseadvizor.com/profile/
-        var theplus_nonce = "51391c8c76";
+    var theplus_nonce = "51391c8c76";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
