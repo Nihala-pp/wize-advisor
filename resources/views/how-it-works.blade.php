@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Connect with Startup Mentors Here - Ignite Your Success Now</title>
     <meta name="description"
-        content="Unlock the secrets to startup success - your one-stop platform for connecting with experienced entrepreneurs and industry leaders. Find a mentor and accelerate your business growth today.">
+        content="Unlock the secrets to startup success - your platform for connecting with experienced entrepreneurs and industry leaders.">
     <meta name="keywords" content="startup success, find a mentor, business growth">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";

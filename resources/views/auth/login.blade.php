@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @if(!empty($name))
-<title>Your Mentor for Building a Successful Startup - {{$name}}</title>
+<title>Connect 1:1 Mentorship - {{$name}}</title>
 <meta name="description"
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
 @else
@@ -115,7 +115,13 @@
                                         <p class="mb-2 text-sm mx-auto">
                                             Don't have an account?
                                             <a href="{{ route('register', [$token, $id]) }}"
-                                                class="text-primary text-gradient font-weight-bold">Sign Up</a>
+                                                class="text-primary text-gradient font-weight-bold">
+                                                @if(!empty($name))
+                                                  Register Here!
+                                                @else
+                                                  Create New Account
+                                                @endif
+                                                </a>
                                         </p>
                                     </div>
                                     <p class="mt-4 text-sm text-center">
@@ -135,12 +141,11 @@
                     <div class="row align-items-center justify-content-lg-between">
                         <div class="col-12 col-md-6 my-auto">
                             <div class="copyright text-center text-sm text-white text-lg-start">
-                                © <script>
+                               Copyright © <script>
                                 document.write(new Date().getFullYear())
-                                </script>,
-                                made with <i class="fa fa-heart" aria-hidden="true"></i> by
+                                </script> , wiseAdvizor | 
+                                Powered by
                                 <a href="" class="font-weight-bold text-white" target="_blank">IVY Investment LLC</a>
-                                for a better web.
                             </div>
                         </div>
                     </div>
