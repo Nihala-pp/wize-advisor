@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
     <meta name="description"
-        content="wiseAdvizor is a platform that bridges the gap between mentors and learners through 1:1 mentorship. Get expert guidance on your business journey, from refining your startup idea to mastering startup strategy.">
+        content="wiseAdvizor is a platform that bridges the gap between mentors and learners through 1:1 mentorship. Kick start your career now.">
     <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
