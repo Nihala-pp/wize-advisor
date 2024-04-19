@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> {{ \Illuminate\Support\Str::limit($blog->title,60) }} </title>
+    <title> {{ str_limit(strip_tags($blog->title), 50) }}
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -3596,10 +3597,10 @@ img.rounded-circle {
         margin-bottom: 0px;
     }
 
-    
-     /* header*/
 
-     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+    /* header*/
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
         margin-left: -60px;
     }
