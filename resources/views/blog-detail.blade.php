@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title> {{ Illuminate\Support\Str::limit(strip_tags($blog->title), 50) }} </title>
+    <meta name="description"
+        content="{{ Illuminate\Support\Str::limit(strip_tags($blog->intro), 120) }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
