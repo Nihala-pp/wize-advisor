@@ -2146,11 +2146,7 @@
                                 }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
-                                <h1 class="elementor-heading-title elementor-size-default">Find a mentor for your
-                                    startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering
-                                    invaluable guidance.Find the perfect mentor to elevate your journey and achieve your
-                                    goals with confidence.
-                                </h1>
+                                <div class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering invaluable guidance.Find the perfect mentor to elevate your journey and achieve your goals with confidence.</div>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
@@ -4114,9 +4110,11 @@
 </body>
 <style>
 
-.elementor-2772 .elementor-element.elementor-element-2ad683c > .elementor-widget-container {
-    padding: 10px 0px 0px 0px;
-    margin-left: 360px;
+.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 span.charge {
