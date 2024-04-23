@@ -2557,9 +2557,9 @@
                         <div class="elementor-element elementor-element-6398a653 elementor-widget elementor-widget-heading"
                             data-id="6398a653" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Ready to Ignite Your Startup?
+                                <h1 class="elementor-heading-title elementor-size-default">Ready to Ignite Your Startup?
 
-                                </h2>
+                                </h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-7d7eb18a elementor-widget elementor-widget-text-editor"
