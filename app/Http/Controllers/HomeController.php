@@ -120,7 +120,7 @@ class HomeController extends Controller
     return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions'));
   }
 
-  public function browseMentor(Request $request)
+  public function browseMentor(Request $request, $expertise_name = NULL)
   {
     $filters = $request['filters'];
     // dd($filters['expertise']);
@@ -203,7 +203,19 @@ class HomeController extends Controller
         // ->orderBy('price', $sortby)
         ->get();
       // ->sortByDesc('metaData.price_per_call');
-    } else {
+    } 
+    elseif(!empty($expertise_name))
+    {
+         $mentors = User::with(['expertise'])
+        ->where('role_id', 2)
+        ->WhereNull('status')
+        ->whereHas('expertise', function ($query) use ($expertise_name) {
+          /** @var Builder $query */
+          if (!empty($expertise_name))
+            $query->where('expertise', 'LIKE', '%' . $expertise_name . '%');
+        })->get();
+    }
+    else {
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
 
@@ -212,9 +224,9 @@ class HomeController extends Controller
     $expertise = ExpertiseList::get();
 
     if (!empty($filters)) {
-      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'filters'));
+      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'expertise_name', 'filters'));
     } else {
-      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'price'));
+      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'expertise_name', 'price'));
     }
   }
 

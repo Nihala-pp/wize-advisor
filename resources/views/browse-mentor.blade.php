@@ -2,9 +2,14 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Find a Mentor and Get Expert Entrepreneur Advice Today</title>
-    <meta name="description"
-        content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips.">
+     @if(!empty($expertise_name))
+        <title>Find a Mentor and Get {{ $expertise_name }} Advice Today</title>
+        <meta name="description"
+        content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for {{ $expertise_name }} advice">
+     @else
+        <title>Find a Mentor and Get Expert Entrepreneur Advice Today</title>
+        <meta name="description" content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips.">     
+     @endif
     <meta name="keywords"
         content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,10 +108,10 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                        "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
             }
             return !1
         }
@@ -2133,12 +2138,9 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>
-                                <h2 class="elementor-heading-title elementor-size-default">Discover a world of
-                                    expertise: Explore mentors offering invaluable guidance. Find the perfect mentor
-                                    to
-                                    elevate your journey and achieve your goals with confidence.
-                                </h2>
+                                <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
+                                <h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering invaluable guidance.Find the perfect mentor to elevate your journey and achieve your goals with confidence.
+                                </h1>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
@@ -2371,7 +2373,7 @@
             }
 
             .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
-                content: "★"
+                content: "РўЁ"
             }
             </style>
             <div class="elementor-container elementor-column-gap-no">
@@ -3154,7 +3156,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © <script>
+                                                <span>Copyright ┬Е <script>
                                                     document.write(new Date().getFullYear())
                                                     </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
@@ -4290,8 +4292,8 @@ margin-bottom:
 }
 */
     .filters {
-        margin-left:
-            95px;
+        /*margin-left:*/
+        /*    95px;*/
         margin-right:
             50px;
     }
@@ -4349,7 +4351,7 @@ padding-left:
 
     .filters {
         padding-left:
-            50px;
+            30px;
     }
 
     .butto {
@@ -4752,7 +4754,7 @@ i.fas.fa-bell.fa-2xl {
 
     .filter-section {
         background-color: #F3EEF5;
-        padding-left: 110px;
+        padding-left: 90px;
     }
 
     .search {
@@ -4780,7 +4782,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .search {
-        width: 55% !important;
+        width: 70% !important;
         text-align: left;
         /* background-color: #000; */
         /* margin-left: 125px

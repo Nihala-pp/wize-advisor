@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <title>FAQ | Get Answers to Your Startup Growth Questions</title>
     <meta name="description"
-        content="Take your startup growth to the next level with wiseAdvizor's expert mentorship. From shaping your startup idea to refining business strategies, we'll guide you towards business success.">
+        content="Take your startup growth to the next level with wiseAdvizor. From shaping your startup idea to refining business strategies.">
     <meta name="keywords" content="startup growth, business success, startup idea">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -59,10 +59,10 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                        "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
             }
             return !1
         }
@@ -2249,7 +2249,7 @@
                                                 providing guidance in additional areas, you can include them in your
                                                 mentor profile. However, we recommend prioritizing your core expertise
                                                 to offer the most valuable and targeted mentorship.</p>
-                                            <p data-renderer-start-pos="1703"> </p>
+                                            <p data-renderer-start-pos="1703">┬а</p>
                                         </div>
                                     </div>
                                     <div class="elementor-accordion-item">
@@ -3419,7 +3419,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © <script>
+                                                <span>Copyright ┬Е <script>
                                                     document.write(new Date().getFullYear())
                                                     </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>

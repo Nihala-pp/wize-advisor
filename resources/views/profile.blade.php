@@ -80,10 +80,10 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                        "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
             }
             return !1
         }
@@ -3965,7 +3965,7 @@
                                                 $icon = \App\Models\ExpertiseList::where('name',
                                                 $expert->expertise)->first();
                                                 @endphp
-                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}"
+                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}" alt="{{ $icon->name }}"
                                                     height="40" width="40">
                                                 <!-- <i aria-hidden="true" class="fas fa-star"></i> -->
                                             </span>
@@ -5053,7 +5053,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © <script>
+                                                <span>Copyright ┬Е <script>
                                                     document.write(new Date().getFullYear())
                                                     </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
@@ -6670,6 +6670,9 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin: 0px 0px 0px 0px;
     }
 
+   .elementor-4878 .elementor-element.elementor-element-576c4f2 {
+    margin-top:70px;
+   }
     .elementor-4878 .elementor-element.elementor-element-dc63cc3 {
         text-align: center;
         margin-top: -5px;
