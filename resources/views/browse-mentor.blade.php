@@ -4110,6 +4110,10 @@
 </body>
 <style>
 
+.elementor-2772 .elementor-element.elementor-element-2ad683c {
+    text-align: center;
+}
+
 .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #FFFFFF;
     font-family: "Helvetica", Sans-serif;
