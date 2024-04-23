@@ -2479,7 +2479,7 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
                                                                     <span class="slot"
-                                                                        style="font-size:14px;color: #000000"><strong>
+                                                                        style="font-size:14px;color: #000000">
                                                                             Next Slot -
                                                                             @php
                                                                             $nextAvailability =
@@ -2493,7 +2493,7 @@
                                                                             @if(!empty($nextAvailability))
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
                                                                             @endif
-                                                                        </strong></span>
+                                                                        </span>
                                                                     <span class="charge"
                                                                         style="font-size:14px;float:right;color: #000000"><strong>
                                                                             $
@@ -4197,6 +4197,7 @@ a {
 }
 
 span.slot {
+    font-weight:bold;
     padding-bottom: 15px !important;
 }
 
@@ -4730,6 +4731,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     span.slot {
+        font-weight:bold;
         font-size: 10px !important;
     }
 
