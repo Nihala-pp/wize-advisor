@@ -3438,6 +3438,10 @@
     padding-right: 20px;
 } */
 
+h4 {
+    font-size:15px;
+}
+
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     color: #000;
