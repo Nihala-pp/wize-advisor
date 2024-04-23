@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
-     @if(!empty($expertise_name))
-        <title>Find a Mentor and Get {{ $expertise_name }} Advice Today</title>
-        <meta name="description"
+    @if(!empty($expertise_name))
+    <title>Find a Mentor and Get {{ $expertise_name }} Advice Today</title>
+    <meta name="description"
         content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for {{ $expertise_name }} advice">
-     @else
-        <title>Find a Mentor and Get Expert Entrepreneur Advice Today</title>
-        <meta name="description" content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips.">     
-     @endif
+    @else
+    <title>Find a Mentor and Get Expert Entrepreneur Advice Today</title>
+    <meta name="description"
+        content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips.">
+    @endif
     <meta name="keywords"
         content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,7 +110,8 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
+                        "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
                         "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
                     return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
@@ -1155,7 +1158,7 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
     @php
-      $expert_coloumn =  $expertise_name ? $expertise_name : NULL;
+    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
     @endphp
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
@@ -2139,7 +2142,10 @@
                                 }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
-                                <h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering invaluable guidance.Find the perfect mentor to elevate your journey and achieve your goals with confidence.
+                                <h1 class="elementor-heading-title elementor-size-default">Find a mentor for your
+                                    startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering
+                                    invaluable guidance.Find the perfect mentor to elevate your journey and achieve your
+                                    goals with confidence.
                                 </h1>
                             </div>
                         </div>
@@ -2480,26 +2486,26 @@
                                                                 <div class="elementor-widget-container" style="">
                                                                     <span class="slot"
                                                                         style="font-size:14px;color: #000000">
-                                                                            Next Slot -
-                                                                            @php
-                                                                            $nextAvailability =
-                                                                            \App\Models\AvailableSchedule::where('mentor_id',
-                                                                            $mentor->id)
-                                                                            ->whereDate('date', '>', now())
-                                                                            ->where('is_booked', 0)
-                                                                            ->orderBy('date', 'asc')
-                                                                            ->first();
-                                                                            @endphp
-                                                                            @if(!empty($nextAvailability))
-                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                            @endif
-                                                                        </span>
+                                                                        Next Slot -
+                                                                        @php
+                                                                        $nextAvailability =
+                                                                        \App\Models\AvailableSchedule::where('mentor_id',
+                                                                        $mentor->id)
+                                                                        ->whereDate('date', '>', now())
+                                                                        ->where('is_booked', 0)
+                                                                        ->orderBy('date', 'asc')
+                                                                        ->first();
+                                                                        @endphp
+                                                                        @if(!empty($nextAvailability))
+                                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
+                                                                        @endif
+                                                                    </span>
                                                                     <span class="charge"
                                                                         style="font-size:14px;float:right;color: #000000">
-                                                                            $
-                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                            / 30
-                                                                            Min</span>
+                                                                        $
+                                                                        {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                        / 30
+                                                                        Min</span>
                                                                 </div>
                                                                 <div>
                                                                 </div>
@@ -4103,8 +4109,12 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+span.charge {
+    font-weight: bold;
+}
+
 .exp {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .grid-container {
@@ -4197,7 +4207,7 @@ a {
 }
 
 span.slot {
-    font-weight:bold;
+    font-weight: bold;
     padding-bottom: 15px !important;
 }
 
@@ -4731,12 +4741,12 @@ i.fas.fa-bell.fa-2xl {
     }
 
     span.slot {
-        font-weight:bold;
+        font-weight: bold;
         font-size: 10px !important;
     }
 
     span.charge {
-        font-weight:bold;
+        font-weight: bold;
         font-size: 10px !important;
     }
 
