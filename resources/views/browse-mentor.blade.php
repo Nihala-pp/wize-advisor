@@ -4143,13 +4143,13 @@ span.charge {
     grid-gap: 20px;
 }
 
-.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #fff !important;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-}
+} */
 
 .para {
     background-color: #001E64 !important;
@@ -4190,14 +4190,14 @@ span.charge {
     padding-bottom: 10px;
 }
 
-.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #343F5A;
     font-family: "Roboto", Sans-serif;
     font-size: 23px;
     font-weight: 600;
     text-align: center;
     line-height: 30px;
-}
+} */
 
 .selectpicker {
     background-color: #54b4d3 !important;
@@ -4583,13 +4583,13 @@ margin-left:
     }
 }
 
-.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #343F5A;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-}
+} */
 
 .card-deck .card {
     margin-bottom:
@@ -5135,13 +5135,11 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-    .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-        /* color: #343F5A; */
+    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
         font-family: "Roboto", Sans-serif;
         font-size: 18px;
         font-weight: 600;
-        /* text-align: center; */
-    }
+    } */
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding:
