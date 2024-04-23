@@ -2029,7 +2029,7 @@
                         <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
                             data-id="34a10af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h4>
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $blog->title }}</h1>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
