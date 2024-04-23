@@ -2146,7 +2146,10 @@
                                 }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
-                                <div class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering invaluable guidance.Find the perfect mentor to elevate your journey and achieve your goals with confidence.</div>
+                                <div class="elementor-heading-title elementor-size-default">Find a mentor for your
+                                    startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering
+                                    invaluable guidance.Find the perfect mentor to elevate your journey and achieve your
+                                    goals with confidence.</div>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
@@ -4109,6 +4112,9 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.elementor-2772 .elementor-element.elementor-element-55b12a5 {
+    width: 100%;
+}
 
 .elementor-2772 .elementor-element.elementor-element-2ad683c {
     text-align: center;
@@ -4121,7 +4127,7 @@
     font-weight: 700;
 }
 
-.elementor-2772 .elementor-element.elementor-element-55b12a5 > .elementor-element-populated {
+.elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin: 0px 130px 0px 100px;
     --e-column-margin-right: 130px;
