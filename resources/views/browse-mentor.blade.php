@@ -2495,11 +2495,11 @@
                                                                             @endif
                                                                         </span>
                                                                     <span class="charge"
-                                                                        style="font-size:14px;float:right;color: #000000"><strong>
+                                                                        style="font-size:14px;float:right;color: #000000">
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
-                                                                            Min</strong></span>
+                                                                            Min</span>
                                                                 </div>
                                                                 <div>
                                                                 </div>
@@ -4736,6 +4736,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     span.charge {
+        font-weight:bold;
         font-size: 10px !important;
     }
 
