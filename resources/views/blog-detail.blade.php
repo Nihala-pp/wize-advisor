@@ -3439,7 +3439,7 @@
 } */
 
 h1 {
-    font-size:32px;
+    font-size:25px;
 }
 
 i.fas.fa-bell.fa-2xl {
