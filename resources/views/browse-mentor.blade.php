@@ -2452,7 +2452,7 @@
                                                             class="elementor-screen-only">5/5</span>
                                                     </div>
                                                     <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                    <p><span style="color: #000000">Expertise:</span>
                                                     </p>
                                                     <ul>
                                                         @php
