@@ -4104,7 +4104,7 @@
 </body>
 <style>
 .exp {
-    font-weight:500px;
+    font-weight:bold;
 }
 
 .grid-container {
