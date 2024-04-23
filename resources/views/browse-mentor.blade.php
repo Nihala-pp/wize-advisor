@@ -2452,7 +2452,7 @@
                                                             class="elementor-screen-only">5/5</span>
                                                     </div>
                                                     <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000">Expertise:</span>
+                                                    <p><span class="exp" style="color: #000000">Expertise:</span>
                                                     </p>
                                                     <ul>
                                                         @php
@@ -4103,6 +4103,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.exp {
+    font-weight:500px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
