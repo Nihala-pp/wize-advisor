@@ -1510,7 +1510,7 @@
                                                 </li>
                                                 <li id="menu-item-5114" itemprop="name"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                    <a href="https://wiseadvizor.com/BrowseMentors/" itemprop="url"
+                                                    <a href="https://wiseadvizor.com/BrowseMentors" itemprop="url"
                                                         class="hfe-menu-item">Browse Mentor</a>
                                                 </li>
                                                 <li id="menu-item-5136" itemprop="name"
