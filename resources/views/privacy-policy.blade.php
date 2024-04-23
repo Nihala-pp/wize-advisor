@@ -2027,7 +2027,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Privacy Policy</h2>
+                                <h1 class="elementor-heading-title elementor-size-default">Privacy Policy</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-2efd286 elementor-widget elementor-widget-text-editor"
