@@ -1990,7 +1990,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Community Guidelines</h2>
+                                <h1 class="elementor-heading-title elementor-size-default">Community Guidelines</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-4fddd51 elementor-widget elementor-widget-text-editor"
