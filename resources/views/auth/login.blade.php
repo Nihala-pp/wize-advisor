@@ -116,11 +116,11 @@
                                             <a href="{{ route('register', [$token, $id]) }}"
                                                 class="text-primary text-gradient font-weight-bold">
                                                 @if(!empty($name))
-                                                  Register Here!
+                                                  Register Here!<span class="text">Schedule call with {{ $name }}</span>
                                                 @else
                                                   Create New Account
                                                 @endif
-                                                </a>
+                                            </a>
                                         </p>
                                     </div>
                                     <p class="mt-4 text-sm text-center">
@@ -172,6 +172,10 @@
 
 </html>
 <style>
+.text {
+  display:hidden;
+}
+
 h1 {
     font-size: 17px !important;
 }
