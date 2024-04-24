@@ -4806,6 +4806,7 @@ i.fas.fa-bell.fa-2xl {
         /* background-color: #000; */
     }
 
+
     /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         margin-top: -47px;
@@ -5135,6 +5136,21 @@ i.fas.fa-bell.fa-2xl {
         background-color: #FFFFFF;
         border-style: none;
         border-radius: 20px 20px 20px 20px;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-55b12a5 {
+        width: 100%;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-2ad683c {
+        text-align: left;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
     }
 }
 
