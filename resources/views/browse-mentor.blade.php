@@ -4792,7 +4792,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
     .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #F3EEF5;
-        padding-left: 200px;
+        /* padding-left: 200px; */
     }
 
     .filter-section {
