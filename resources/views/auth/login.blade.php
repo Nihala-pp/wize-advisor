@@ -118,7 +118,7 @@
                                                 @if(!empty($name))
                                                 <span>Register Here!</span><span class="text">Schedule call with {{ $name }}</span>
                                                 @else
-                                                  Create New Account
+                                                <span>Create New Account</span>
                                                 @endif
                                             </a>
                                         </p>
