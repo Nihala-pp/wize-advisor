@@ -116,9 +116,9 @@
                                             <a href="{{ route('register', [$token, $id]) }}"
                                                 class="text-primary text-gradient font-weight-bold">
                                                 @if(!empty($name))
-                                                <span>Register Here!</span><span class="text">Schedule call with {{ $name }}</span>
+                                                Register Here!<span class="text">Schedule call with {{ $name }}</span>
                                                 @else
-                                                <span>Create New Account</span>
+                                                Create New Account
                                                 @endif
                                             </a>
                                         </p>
@@ -173,7 +173,7 @@
 </html>
 <style>
 .text {
-  display:hidden;
+  display:none !important;
 }
 
 h1 {
