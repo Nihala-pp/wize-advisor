@@ -5155,7 +5155,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin: 0px 130px 0px 100px;
+        margin: 0px 0px 0px 0px;
         /* --e-column-margin-right: 130px;
         --e-column-margin-left: 100px; */
         padding: 75px 0px 25px 0px;
