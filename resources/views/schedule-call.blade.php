@@ -3420,7 +3420,7 @@ i.fas.fa-bell.fa-2xl {
     } */
 
     .events-container {
-        padding-left: 40px !important;
+        padding-left: 0px !important;
         padding-top: 10px !important;
     }
 
@@ -3519,7 +3519,7 @@ i.fas.fa-bell.fa-2xl {
     .event-card {
         margin: 0;
         background: #e6e6e6;
-        margin-left: -19px;
+        /* margin-left: -19px; */
     }
 }
 
