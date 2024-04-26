@@ -982,10 +982,10 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     color: #3b71ca !important;
 }
 
-a {
+/* a {
     font-size: 12px;
     padding-left: 27px;
-}
+} */
 
 /* .mentor_name {
     margin-right: 20px !important;
@@ -1117,6 +1117,8 @@ a:hover {
 }
 
 a:link {
+    font-size: 12px;
+    padding-left: 27px;
     text-decoration: none;
 }
 
