@@ -153,7 +153,11 @@
                             'X-CSRF-TOKEN': '{{ csrf_token() }}'
                         },
                         data: {
-                            "order_no": {{ $order_no }},
+                            "order_no": {
+                                {
+                                    $order_no
+                                }
+                            },
                             "call_id": call_id,
                             'coupon': coupon,
                             'mentor_id': mentor_id
@@ -516,6 +520,13 @@ img.rounded-circle {
 @media (max-width: 375px) {}
 
 @media (min-width: 540px) {}
+
+@media (max-width: 1280px) {
+    .card {
+        /* border: 0; */
+        margin-left: 210px;
+    }
+}
 
 #paypal_button_container {
     padding-left: 75px;

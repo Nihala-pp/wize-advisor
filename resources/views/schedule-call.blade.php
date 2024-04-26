@@ -3708,6 +3708,10 @@ i.fas.fa-bell.fa-2xl {
         /* padding-right: 90px; */
     }
 }
+
+@media screen and (max-width: 1280) {
+    
+}
 </style>
 
 </html>
