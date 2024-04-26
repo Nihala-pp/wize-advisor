@@ -531,7 +531,7 @@ img.rounded-circle {
 @media (min-width: 1281px) {
     .card {
         /* border: 0; */
-        margin-left: 210px;
+        margin-left: 250px;
     }
 }
 
