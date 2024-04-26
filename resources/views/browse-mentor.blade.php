@@ -4124,6 +4124,7 @@
     font-family: "Helvetica", Sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 25px;
 }
 
 .elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
