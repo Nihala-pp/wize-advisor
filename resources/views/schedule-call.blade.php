@@ -3345,6 +3345,10 @@ i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
 }
 
+.payNow {
+    margin-top: -50px !important;
+}
+
 /* .timeslot:active{
     background-color:#007BFF;
 } */
