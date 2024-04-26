@@ -3519,6 +3519,7 @@ i.fas.fa-bell.fa-2xl {
     .event-card {
         margin: 0;
         background: #e6e6e6;
+        margin-left: 0px;
         /* margin-left: -19px; */
     }
 }
