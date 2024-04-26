@@ -1137,6 +1137,10 @@ a:link {
     border-radius: 7px 7px 7px 7px !important;
 }
 
+.text-lg-start {
+    font-size:18px;
+}
+
 /* #navbarDropdownMenuLink {
         z-index: 999999 !important;
     } */
