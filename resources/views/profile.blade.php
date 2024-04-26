@@ -2015,7 +2015,8 @@
 
                                     }
                                     </style>
-                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I {{ strtolower('am') }} {{ $data->name }}
+                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I
+                                        {{ strtolower('am') }} {{ $data->name }}
                                     </h1>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
@@ -2027,7 +2028,8 @@
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I {{ strtolower('am') }} {{ $data->name }} 
+                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I
+                                        {{ strtolower('am') }} {{ $data->name }}
                                     </h1>
                                 </div>
                             </div>
@@ -3965,8 +3967,8 @@
                                                 $icon = \App\Models\ExpertiseList::where('name',
                                                 $expert->expertise)->first();
                                                 @endphp
-                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}" alt="{{ $icon->name }}"
-                                                    height="40" width="40">
+                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}"
+                                                    alt="{{ $icon->name }}" height="40" width="40">
                                                 <!-- <i aria-hidden="true" class="fas fa-star"></i> -->
                                             </span>
                                         </div>
@@ -5931,7 +5933,7 @@ h3,
 
 .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
     font-family: "Roboto", Sans-serif;
-        text-transform: capitalize !important;
+    text-transform: capitalize !important;
 }
 
 .elementor-4878 .elementor-element.elementor-element-0e640ef {
@@ -6076,6 +6078,22 @@ h6,
 .elementor-4878 .elementor-element.elementor-element-a92b341 {
     margin-top: -25px;
 }
+
+.elementor-4878 .elementor-element.elementor-element-4971126 .elementor-heading-title {
+    font-size: 12px;
+    text-transform: capitalize !important;
+}
+
+.elementor-4878 .elementor-element.elementor-element-0b592cc .elementor-heading-title {
+    text-transform: capitalize !important;
+    font-size: 12px;
+}
+
+.elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
+    font-size: 12px;
+    text-transform: capitalize !important;
+}
+
 
 .lang {
     margin-top: 10px !important;
@@ -6670,9 +6688,10 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
         margin: 0px 0px 0px 0px;
     }
 
-   .elementor-4878 .elementor-element.elementor-element-576c4f2 {
-    margin-top:70px;
-   }
+    .elementor-4878 .elementor-element.elementor-element-576c4f2 {
+        margin-top: 70px;
+    }
+
     .elementor-4878 .elementor-element.elementor-element-dc63cc3 {
         text-align: center;
         margin-top: -5px;
@@ -6702,17 +6721,17 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-4971126 .elementor-heading-title {
         font-size: 12px;
-        text-transform: capitalize !important;    
+        text-transform: capitalize !important;
     }
 
     .elementor-4878 .elementor-element.elementor-element-0b592cc .elementor-heading-title {
-        text-transform: capitalize !important;    
+        text-transform: capitalize !important;
         font-size: 12px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
         font-size: 12px;
-        text-transform: capitalize !important;    
+        text-transform: capitalize !important;
     }
 
     .lang {
