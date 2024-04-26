@@ -6079,7 +6079,7 @@ h6,
 
 .lang {
     margin-top: 10px !important;
-    /* padding-left: 20px; */
+    padding-left: 0px;
 }
 
 .time {
