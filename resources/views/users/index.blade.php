@@ -1137,7 +1137,7 @@ a:link {
     border-radius: 7px 7px 7px 7px !important;
 }
 
-.text-lg-start {
+a.font-weight-bold.text-white {
     font-size:18px;
 }
 
