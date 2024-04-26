@@ -521,7 +521,14 @@ img.rounded-circle {
 
 @media (min-width: 540px) {}
 
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
+    .card {
+        /* border: 0; */
+        margin-left: 210px;
+    }
+}
+
+@media (min-width: 1281px) {
     .card {
         /* border: 0; */
         margin-left: 210px;
