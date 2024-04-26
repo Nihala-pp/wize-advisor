@@ -982,11 +982,6 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     color: #3b71ca !important;
 }
 
-/* a {
-    font-size: 12px;
-    padding-left: 27px;
-} */
-
 /* .mentor_name {
     margin-right: 20px !important;
     font-size: 12px !important;
