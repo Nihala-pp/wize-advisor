@@ -112,6 +112,9 @@ class HomeController extends Controller
 
     $totalReviews = Review::where('mentor_id', $data->id)->get()->count();
     $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
+
+    $notifications = auth()->user()->unreadNotifications;
+
     // $expertise = [
 
 
@@ -223,6 +226,9 @@ class HomeController extends Controller
     $slot = AvailableSchedule::where('date', '>=', now())->get();
     $expertise = ExpertiseList::get();
 
+    $notifications = auth()->user()->unreadNotifications;
+
+
     if (!empty($filters)) {
       return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'expertise_name', 'filters'));
     } else {
@@ -266,6 +272,8 @@ class HomeController extends Controller
 
   public function addMentor()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     if (!(Auth::id() && auth()->user()->role_id == 3)) {
       return view('be-a-mentor');
     }
@@ -328,6 +336,9 @@ class HomeController extends Controller
 
     $client_id = env('PAYPAL_LIVE_CLIENT');
 
+    $notifications = auth()->user()->unreadNotifications;
+
+
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
@@ -337,6 +348,9 @@ class HomeController extends Controller
 
   public function howitWorks()
   {
+
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('how-it-works');
   }
 
@@ -543,11 +557,15 @@ class HomeController extends Controller
 
   public function termsConditions()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('terms-conditions');
   }
 
   public function privacyPolicy()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('privacy-policy');
   }
 
@@ -579,12 +597,16 @@ class HomeController extends Controller
 
   public function resources()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('resources');
   }
 
   public function blogs()
   {
     $blogs = Blogs::get();
+    $notifications = auth()->user()->unreadNotifications;
+
 
     return view('blogs', compact('blogs'));
   }
@@ -592,6 +614,8 @@ class HomeController extends Controller
   public function blogDetailPage($id)
   {
     $blog = Blogs::find($id);
+    $notifications = auth()->user()->unreadNotifications;
+
 
     return view('blog-detail', compact('blog'));
   }
@@ -600,27 +624,37 @@ class HomeController extends Controller
   {
     $userFaq = UserFaq::get();
     $mentors_faq = MentorsFaq::get();
+    $notifications = auth()->user()->unreadNotifications;
+
 
     return view('faq', compact('userFaq', 'mentors_faq'));
   }
 
   public function communityGuidelines()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('community-guidelines');
   }
 
   public function libraries()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('libraries');
   }
 
   public function communityPosts()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('community-post');
   }
 
   public function aboutUs()
   {
+    $notifications = auth()->user()->unreadNotifications;
+
     return view('about-us');
   }
 
