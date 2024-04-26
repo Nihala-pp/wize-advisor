@@ -1224,15 +1224,27 @@
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
+                                                    @forelse($notifications as $notification)
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                        <a class="dropdown-item"
+                                                            href="#">{{ $notification->data['message'] }}</a>
                                                     </li>
+                                                    @empty
                                                     <li>
+                                                        <a class="dropdown-item" href="#">There are no new
+                                                            notifications</a>
+                                                    </li>
+                                                    <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                    <!-- <li>
                                                         <a class="dropdown-item" href="#">Another news</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
+                                                    </li> -->
+                                                    @endforelse
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
@@ -1496,16 +1508,27 @@
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu-end"
                                                                 aria-labelledby="navbarDropdownMenuLink">
+                                                                @forelse($notifications as $notification)
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Some news</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="#">{{ $notification->data['message'] }}</a>
                                                                 </li>
+                                                                @empty
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Another news</a>
+                                                                    <a class="dropdown-item" href="#">There are no new
+                                                                        notifications</a>
                                                                 </li>
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Something else
-                                                                        here</a>
-                                                                </li>
+                                                                <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                                <!-- <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li> -->
+                                                                @endforelse
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
@@ -2306,7 +2329,8 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="618"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.png"
-                                    class="attachment-medium_large size-medium_large wp-image-5466" alt="Startup Mentors"
+                                    class="attachment-medium_large size-medium_large wp-image-5466"
+                                    alt="Startup Mentors"
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-300x247.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1.png 864w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:82.41%;max-width:864px" />
@@ -2406,7 +2430,8 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                          <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png" alt="business coach" width="40px" height="40px">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png"
+                                                        alt="business coach" width="40px" height="40px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -2423,8 +2448,8 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/browse.png" alt="browse mentors"
-                                                        width="20px" height="20px">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/browse.png"
+                                                        alt="browse mentors" width="20px" height="20px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -2440,8 +2465,8 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/profile.png" alt="business growth"
-                                                        width="20px" height="20px">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/profile.png"
+                                                        alt="business growth" width="20px" height="20px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -2457,8 +2482,8 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/calendar.png" alt="schedule call"
-                                                        width="15px" height="15px" class="calender">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/calendar.png"
+                                                        alt="schedule call" width="15px" height="15px" class="calender">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -2474,8 +2499,9 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png" alt="online meeting"
-                                                        width="10px" height="10px" class="join_session">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
+                                                        alt="online meeting" width="10px" height="10px"
+                                                        class="join_session">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -2492,8 +2518,8 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.png" alt="review"
-                                                        width="20px" height="20px" class="feedback">
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.png"
+                                                        alt="review" width="20px" height="20px" class="feedback">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
                                             </div>
@@ -2650,7 +2676,8 @@
                                                     <figure class="elementor-image-box-img"><img decoding="async"
                                                             width="443" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.png"
-                                                            class="attachment-full size-full wp-image-5291" alt="startup success"
+                                                            class="attachment-full size-full wp-image-5291"
+                                                            alt="startup success"
                                                             style="width:100%;height:112.87%;max-width:443px"
                                                             srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.png 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16-266x300.png 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
@@ -2680,7 +2707,8 @@
                                                     <figure class="elementor-image-box-img"><img loading="lazy"
                                                             decoding="async" width="443" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.png"
-                                                            class="attachment-full size-full wp-image-5292" alt="business coach"
+                                                            class="attachment-full size-full wp-image-5292"
+                                                            alt="business coach"
                                                             style="width:100%;height:112.87%;max-width:443px"
                                                             srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.png 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14-266x300.png 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
@@ -2710,7 +2738,8 @@
                                                     <figure class="elementor-image-box-img"><img loading="lazy"
                                                             decoding="async" width="442" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.png"
-                                                            class="attachment-full size-full wp-image-5293" alt="Networking"
+                                                            class="attachment-full size-full wp-image-5293"
+                                                            alt="Networking"
                                                             style="width:100%;height:113.12%;max-width:442px"
                                                             srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.png 442w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15-265x300.png 265w"
                                                             sizes="(max-width: 442px) 100vw, 442px" /></figure>

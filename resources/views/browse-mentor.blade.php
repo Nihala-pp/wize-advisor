@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     @if(!empty($expertise_name))
@@ -1639,15 +1640,27 @@
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
+                                                    @forelse($notifications as $notification)
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                        <a class="dropdown-item"
+                                                            href="#">{{ $notification->data['message'] }}</a>
                                                     </li>
+                                                    @empty
                                                     <li>
+                                                        <a class="dropdown-item" href="#">There are no new
+                                                            notifications</a>
+                                                    </li>
+                                                    <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                    <!-- <li>
                                                         <a class="dropdown-item" href="#">Another news</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
+                                                    </li> -->
+                                                    @endforelse
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
@@ -1912,16 +1925,27 @@
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu-end"
                                                                 aria-labelledby="navbarDropdownMenuLink">
+                                                                @forelse($notifications as $notification)
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Some news</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="#">{{ $notification->data['message'] }}</a>
                                                                 </li>
+                                                                @empty
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Another news</a>
+                                                                    <a class="dropdown-item" href="#">There are no new
+                                                                        notifications</a>
                                                                 </li>
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Something else
-                                                                        here</a>
-                                                                </li>
+                                                                <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                                <!-- <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li> -->
+                                                                @endforelse
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
@@ -2147,7 +2171,8 @@
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
                                 <div class="elementor-heading-title elementor-size-default">Find a mentor for your
                                     startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
-                                    invaluable guidance. Find the perfect mentor to elevate your journey and achieve your
+                                    invaluable guidance. Find the perfect mentor to elevate your journey and achieve
+                                    your
                                     goals with confidence.</div>
                             </div>
                         </div>
@@ -2571,7 +2596,8 @@
                                                         <div class="grid-child green">
                                                             <h5><span style="color: #000000">{{ $mentor->name }}</span>
                                                             </h5>
-                                                            <p><span style="color: #000000"><abbr title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
+                                                            <p><span style="color: #000000"><abbr
+                                                                        title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
                                                                     {{ $mentor->metaData->company }}</span><br />
                                                                 <span style="font-size:10px;color: #000000">
                                                                     @php

@@ -1318,15 +1318,27 @@
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
+                                                    @forelse($notifications as $notification)
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                        <a class="dropdown-item"
+                                                            href="#">{{ $notification->data['message'] }}</a>
                                                     </li>
+                                                    @empty
                                                     <li>
+                                                        <a class="dropdown-item" href="#">There are no new
+                                                            notifications</a>
+                                                    </li>
+                                                    <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                    <!-- <li>
                                                         <a class="dropdown-item" href="#">Another news</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
+                                                    </li> -->
+                                                    @endforelse
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
@@ -1585,16 +1597,27 @@
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu-end"
                                                                 aria-labelledby="navbarDropdownMenuLink">
+                                                                @forelse($notifications as $notification)
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Some news</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="#">{{ $notification->data['message'] }}</a>
                                                                 </li>
+                                                                @empty
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Another news</a>
+                                                                    <a class="dropdown-item" href="#">There are no new
+                                                                        notifications</a>
                                                                 </li>
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Something else
-                                                                        here</a>
-                                                                </li>
+                                                                <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                                <!-- <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li> -->
+                                                                @endforelse
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
@@ -1924,15 +1947,27 @@
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
+                                                    @forelse($notifications as $notification)
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                        <a class="dropdown-item"
+                                                            href="#">{{ $notification->data['message'] }}</a>
                                                     </li>
+                                                    @empty
                                                     <li>
+                                                        <a class="dropdown-item" href="#">There are no new
+                                                            notifications</a>
+                                                    </li>
+                                                    <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                    <!-- <li>
                                                         <a class="dropdown-item" href="#">Another news</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
+                                                    </li> -->
+                                                    @endforelse
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
@@ -2051,7 +2086,8 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">Accelerate Startup Growth : Expert Mentorship on wiseAdvizor</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">Accelerate Startup Growth :
+                                    Expert Mentorship on wiseAdvizor</h1>
                             </div>
                         </div>
                     </div>
@@ -4214,7 +4250,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 h1 {
-    font-size:35px;
+    font-size: 35px;
 }
 
 /* .d-flex {
@@ -4278,7 +4314,7 @@ h1 {
     }
 
     h1 {
-        font-size:17px;
+        font-size: 17px;
     }
 }
 
@@ -4372,7 +4408,7 @@ h1 {
     }
 
     h1 {
-        font-size:17px;
+        font-size: 17px;
     }
 }
 
@@ -4385,7 +4421,7 @@ h1 {
     }
 
     h1 {
-        font-size:17px;
+        font-size: 17px;
     }
 }
 
@@ -4530,8 +4566,9 @@ h1 {
     }
 
     h1 {
-        font-size:17px;
+        font-size: 17px;
     }
 }
 </style>
+
 </html>

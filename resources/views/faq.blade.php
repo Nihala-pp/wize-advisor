@@ -59,7 +59,8 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
+                        "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
                         "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
                     return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
@@ -1339,15 +1340,27 @@
                                                 </a>
                                                 <ul class="dropdown-menu dropdown-menu-end"
                                                     aria-labelledby="navbarDropdownMenuLink">
+                                                    @forelse($notifications as $notification)
                                                     <li>
-                                                        <a class="dropdown-item" href="#">Some news</a>
+                                                        <a class="dropdown-item"
+                                                            href="#">{{ $notification->data['message'] }}</a>
                                                     </li>
+                                                    @empty
                                                     <li>
+                                                        <a class="dropdown-item" href="#">There are no new
+                                                            notifications</a>
+                                                    </li>
+                                                    <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                    <!-- <li>
                                                         <a class="dropdown-item" href="#">Another news</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
+                                                    </li> -->
+                                                    @endforelse
                                                 </ul>
                                             </div>
                                             <div class="dropdown">
@@ -1609,16 +1622,27 @@
                                                             </a>
                                                             <ul class="dropdown-menu dropdown-menu-end"
                                                                 aria-labelledby="navbarDropdownMenuLink">
+                                                                @forelse($notifications as $notification)
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Some news</a>
+                                                                    <a class="dropdown-item"
+                                                                        href="#">{{ $notification->data['message'] }}</a>
                                                                 </li>
+                                                                @empty
                                                                 <li>
-                                                                    <a class="dropdown-item" href="#">Another news</a>
+                                                                    <a class="dropdown-item" href="#">There are no new
+                                                                        notifications</a>
                                                                 </li>
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#">Something else
-                                                                        here</a>
-                                                                </li>
+                                                                <!-- <div class="alert alert-info notification">
+                                                        <span><b> There are no new notifications </b>
+                                                        </span>sd
+                                                    </div> -->
+                                                                <!-- <li>
+                                                        <a class="dropdown-item" href="#">Another news</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </li> -->
+                                                                @endforelse
                                                             </ul>
                                                         </div>
                                                         <div class="dropdown">
