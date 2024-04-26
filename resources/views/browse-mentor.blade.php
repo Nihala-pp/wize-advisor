@@ -2146,8 +2146,8 @@
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
                                 <div class="elementor-heading-title elementor-size-default">Find a mentor for your
-                                    startup on wiseAdvizor.Discover a world of expertise: Explore mentors offering
-                                    invaluable guidance.Find the perfect mentor to elevate your journey and achieve your
+                                    startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
+                                    invaluable guidance. Find the perfect mentor to elevate your journey and achieve your
                                     goals with confidence.</div>
                             </div>
                         </div>
