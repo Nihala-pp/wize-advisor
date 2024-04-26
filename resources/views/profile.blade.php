@@ -6702,14 +6702,17 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-4971126 .elementor-heading-title {
         font-size: 12px;
+        text-transform: capitalize !important;    
     }
 
     .elementor-4878 .elementor-element.elementor-element-0b592cc .elementor-heading-title {
+        text-transform: capitalize !important;    
         font-size: 12px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
         font-size: 12px;
+        text-transform: capitalize !important;    
     }
 
     .lang {
