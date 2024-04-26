@@ -120,7 +120,7 @@ class HomeController extends Controller
 
     // dd($achievements);
 
-    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions'));
+    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions', 'notifications'));
   }
 
   public function browseMentor(Request $request, $expertise_name = NULL)
@@ -230,9 +230,9 @@ class HomeController extends Controller
 
 
     if (!empty($filters)) {
-      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'expertise_name', 'filters'));
+      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'expertise_name', 'filters', 'notifications'));
     } else {
-      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'expertise_name', 'price'));
+      return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'expertise_name', 'price', 'notifications'));
     }
   }
 
@@ -275,13 +275,15 @@ class HomeController extends Controller
     $notifications = auth()->user()->unreadNotifications;
 
     if (!(Auth::id() && auth()->user()->role_id == 3)) {
-      return view('be-a-mentor');
+      return view('be-a-mentor', compact('notifications'));
     }
   }
 
   public function contactUs()
   {
-    return view('contact-us');
+    $notifications = auth()->user()->unreadNotifications;
+
+    return view('contact-us', compact('notifications'));
   }
 
   public function addMentorRequest(Request $request)
@@ -342,7 +344,7 @@ class HomeController extends Controller
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
-    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'client_id'));
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'client_id', 'notifications'));
     // } 
   }
 
@@ -351,7 +353,7 @@ class HomeController extends Controller
 
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('how-it-works');
+    return view('how-it-works', compact('notifications'));
   }
 
   public function addScheduleRequest(Request $request)
@@ -414,6 +416,8 @@ class HomeController extends Controller
 
     $client_id = env('PAYPAL_SANDBOX_CLIENT');
 
+    $notifications = auth()->user()->unreadNotifications;
+
     // $gateway = new \Braintree\Gateway([
     //   'environment' => env("BRAINTREE_ENV"),
     //   'merchantId' => env("BRAINTREE_MERCHANT_ID"),
@@ -423,7 +427,7 @@ class HomeController extends Controller
 
     // $clientToken = $gateway->clientToken()->generate();
 
-    return view('payment', compact('call_data', 'client_id'));
+    return view('payment', compact('call_data', 'client_id', 'notifications'));
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
@@ -526,11 +530,14 @@ class HomeController extends Controller
       $mentor->notify(new NewCallRequest($user));
       $admin->notify(new NewCallRequestAdmin($user));
 
-      return view('success', compact('details', 'mentor'));
+      $notifications = auth()->user()->unreadNotifications;
+
+
+      return view('success', compact('details', 'mentor', 'notifications'));
 
     } catch (Exception $e) {
       if (451 == $e->getCode()) {
-        return view('success', compact('details', 'mentor'));
+        return view('success', compact('details', 'mentor', 'notifications'));
       }
     }
 
@@ -559,14 +566,14 @@ class HomeController extends Controller
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('terms-conditions');
+    return view('terms-conditions', compact( 'notifications'));
   }
 
   public function privacyPolicy()
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('privacy-policy');
+    return view('privacy-policy', compact( 'notifications'));
   }
 
   public function saveContact(Request $request)
@@ -599,7 +606,7 @@ class HomeController extends Controller
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('resources');
+    return view('resources', compact( 'notifications'));
   }
 
   public function blogs()
@@ -608,7 +615,7 @@ class HomeController extends Controller
     $notifications = auth()->user()->unreadNotifications;
 
 
-    return view('blogs', compact('blogs'));
+    return view('blogs', compact('blogs', 'notifications'));
   }
 
   public function blogDetailPage($id)
@@ -617,7 +624,7 @@ class HomeController extends Controller
     $notifications = auth()->user()->unreadNotifications;
 
 
-    return view('blog-detail', compact('blog'));
+    return view('blog-detail', compact('blog', 'notifications'));
   }
 
   public function faq()
@@ -627,35 +634,35 @@ class HomeController extends Controller
     $notifications = auth()->user()->unreadNotifications;
 
 
-    return view('faq', compact('userFaq', 'mentors_faq'));
+    return view('faq', compact('userFaq', 'mentors_faq', 'notifications'));
   }
 
   public function communityGuidelines()
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('community-guidelines');
+    return view('community-guidelines', compact('notifications'));
   }
 
   public function libraries()
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('libraries');
+    return view('libraries', compact('notifications'));
   }
 
   public function communityPosts()
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('community-post');
+    return view('community-post', compact('notifications'));
   }
 
   public function aboutUs()
   {
     $notifications = auth()->user()->unreadNotifications;
 
-    return view('about-us');
+    return view('about-us', compact('notifications'));
   }
 
   public function getDateAvailability(Request $request)
