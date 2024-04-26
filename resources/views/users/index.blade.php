@@ -1138,7 +1138,8 @@ a:link {
 }
 
 a.font-weight-bold.text-white {
-    font-size:18px;
+    font-size:17px;
+    margin-left: -25px;
 }
 
 /* #navbarDropdownMenuLink {
