@@ -262,12 +262,6 @@
 
 .coupon_code {}
 
-.input-group {
-    width: 40%;
-    margin-left: 275px;
-    transition: all .1s linear;
-    box-shadow: none;
-}
 
 .card {
     /* border: 0; */
@@ -526,12 +520,26 @@ img.rounded-circle {
         /* border: 0; */
         margin-left: 210px;
     }
+
+    .input-group {
+        width: 40%;
+        margin-left: 225px;
+        transition: all .1s linear;
+        box-shadow: none;
+    }
 }
 
 @media (min-width: 1281px) {
     .card {
         /* border: 0; */
         margin-left: 250px;
+    }
+
+    .input-group {
+        width: 40%;
+        margin-left: 275px;
+        transition: all .1s linear;
+        box-shadow: none;
     }
 }
 
