@@ -3696,7 +3696,7 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-@media screen and (max-width: 820px) {
+@media screen (min-width:  768px) and (max-width: 820px) {
     h1 {
         font-size: 17px;
         font-family: "Helvetica", Sans-serif !important;
