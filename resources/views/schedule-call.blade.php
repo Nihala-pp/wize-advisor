@@ -3511,7 +3511,7 @@ i.fas.fa-bell.fa-2xl {
 
     .event-name {
         padding-right: 0;
-        text-align: left;
+        text-align: center !important;        
         font-weight: bold;
         margin-left: -10px;
     }
@@ -3545,11 +3545,6 @@ i.fas.fa-bell.fa-2xl {
         border: solid #007bff !important;
         margin-left: 0px;
         margin-right: 0px;
-    }
-
-    .event-name {
-        text-align: center !important;
-        font-weight: bold;
     }
 }
 
