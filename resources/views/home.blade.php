@@ -5149,7 +5149,7 @@
                                     margin-left: auto
                                 }
                                 </style>
-                                <blockquote class="elementor-blockquote">
+                                <!-- <blockquote class="elementor-blockquote"> -->
                                     <p class="elementor-blockquote__content">
                                         Mentoring is vital for startups as it provides expert guidance,
                                         networking
@@ -5161,7 +5161,7 @@
                                         <cite class="elementor-blockquote__author">Deep Shikha </br>
                                             Managing Director</cite>
                                     </footer>
-                                </blockquote>
+                                <!-- </blockquote> -->
                             </div>
                         </div>
                         <!-- <section
