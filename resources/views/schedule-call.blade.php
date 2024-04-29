@@ -3534,7 +3534,7 @@ i.fas.fa-bell.fa-2xl {
         border-bottom-right-radius: 3px;
         /* border-top-right-radius: 3px; */
         padding-left: 35px !important;
-        padding-right:0px;
+        padding-right: 0px;
     }
 
     .event-card {
@@ -3545,6 +3545,11 @@ i.fas.fa-bell.fa-2xl {
         border: solid #007bff !important;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .event-name {
+        text-align: center !important;
+        font-weight: bold;
     }
 }
 
