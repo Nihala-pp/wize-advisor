@@ -5903,7 +5903,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright ┬Е <script>
+                                                <span>Copyright © <script>
                                                     document.write(new Date().getFullYear())
                                                     </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
