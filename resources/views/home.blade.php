@@ -7120,6 +7120,21 @@ i.fas.fa-chevron-down {
     margin-top: 100px;
 }
 
+.elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__content {
+    color: var( --e-global-color-1e1892c );
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    margin-top: 34px;
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__author {
+    text-align: center;
+    color: var( --e-global-color-1e1892c );
+    font-family: "Helvetica", Sans-serif;
+}
+
 @media (max-width: 767px) {
 
     .elementor-button.elementor-size-xs {
