@@ -113,8 +113,12 @@ class HomeController extends Controller
     $totalReviews = Review::where('mentor_id', $data->id)->get()->count();
     $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
 
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
     // $expertise = [
 
 
@@ -226,8 +230,12 @@ class HomeController extends Controller
     $slot = AvailableSchedule::where('date', '>=', now())->get();
     $expertise = ExpertiseList::get();
 
-    $notifications = auth()->user()->unreadNotifications;
-
+     if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     if (!empty($filters)) {
       return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'expertise_name', 'filters', 'notifications'));
@@ -272,7 +280,12 @@ class HomeController extends Controller
 
   public function addMentor()
   {
-    $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     if (!(Auth::id() && auth()->user()->role_id == 3)) {
       return view('be-a-mentor', compact('notifications'));
@@ -281,7 +294,12 @@ class HomeController extends Controller
 
   public function contactUs()
   {
-    $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     return view('contact-us', compact('notifications'));
   }
@@ -338,7 +356,12 @@ class HomeController extends Controller
 
     $client_id = env('PAYPAL_LIVE_CLIENT');
 
-    $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
 
     // $user = User::find($email);
@@ -351,8 +374,13 @@ class HomeController extends Controller
   public function howitWorks()
   {
 
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
     return view('how-it-works', compact('notifications'));
   }
 
@@ -416,8 +444,12 @@ class HomeController extends Controller
 
     $client_id = env('PAYPAL_SANDBOX_CLIENT');
 
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
     // $gateway = new \Braintree\Gateway([
     //   'environment' => env("BRAINTREE_ENV"),
     //   'merchantId' => env("BRAINTREE_MERCHANT_ID"),
@@ -530,8 +562,12 @@ class HomeController extends Controller
       $mentor->notify(new NewCallRequest($user));
       $admin->notify(new NewCallRequestAdmin($user));
 
-      $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
       return view('success', compact('details', 'mentor', 'notifications'));
 
@@ -564,15 +600,25 @@ class HomeController extends Controller
 
   public function termsConditions()
   {
-    $notifications = auth()->user()->unreadNotifications;
+     if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     return view('terms-conditions', compact( 'notifications'));
   }
 
   public function privacyPolicy()
   {
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
     return view('privacy-policy', compact( 'notifications'));
   }
 
@@ -604,16 +650,26 @@ class HomeController extends Controller
 
   public function resources()
   {
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
     return view('resources', compact( 'notifications'));
   }
 
   public function blogs()
   {
     $blogs = Blogs::get();
-    $notifications = auth()->user()->unreadNotifications;
-
+    
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     return view('blogs', compact('blogs', 'notifications'));
   }
@@ -621,8 +677,13 @@ class HomeController extends Controller
   public function blogDetailPage($id)
   {
     $blog = Blogs::find($id);
-    $notifications = auth()->user()->unreadNotifications;
-
+    
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     return view('blog-detail', compact('blog', 'notifications'));
   }
@@ -631,37 +692,63 @@ class HomeController extends Controller
   {
     $userFaq = UserFaq::get();
     $mentors_faq = MentorsFaq::get();
-    $notifications = auth()->user()->unreadNotifications;
-
+    
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
 
     return view('faq', compact('userFaq', 'mentors_faq', 'notifications'));
   }
 
   public function communityGuidelines()
   {
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
     return view('community-guidelines', compact('notifications'));
   }
 
   public function libraries()
   {
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
     return view('libraries', compact('notifications'));
   }
 
   public function communityPosts()
   {
-    $notifications = auth()->user()->unreadNotifications;
-
+     if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
     return view('community-post', compact('notifications'));
   }
 
   public function aboutUs()
   {
-    $notifications = auth()->user()->unreadNotifications;
-
+    if (Auth::id() && auth()->user()->role_id == 3) {    
+         $notifications = auth()->user()->unreadNotifications;
+    }
+    else {
+         $notifications = '';
+    }
+    
+    
     return view('about-us', compact('notifications'));
   }
 

@@ -80,10 +80,10 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                        "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
             }
             return !1
         }
@@ -2084,9 +2084,7 @@
                                                 }
                                                 </style>
                                                 <h1 class="elementor-heading-title elementor-size-default">
-                                                    Unlock
-                                                    Your
-                                                    Potential</h1>
+                                                    Fast Track Your Startup Success</h1>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-ca8bffa elementor-widget elementor-widget-heading"
@@ -2101,9 +2099,8 @@
                                             data-id="9ecb7fe" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">We're
-                                                    excited to bring you a transformative mentorship experience designed
-                                                    to empower startups and fuel their growth. </p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                          Book a 1:1 call with a proven startup mentor and get the guidance you need to achieve explosive growth, overcome critical hurdles, and build a thriving business. </p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
@@ -3841,7 +3838,7 @@
                                 }
 
                                 .elementor-blockquote--skin-quotation .elementor-blockquote:before {
-                                    content: "“";
+                                    content: "Рђю";
                                     font-size: 100px;
                                     color: #e6e9ec;
                                     font-family: Times New Roman, Times, serif;
@@ -5102,7 +5099,7 @@
                                 }
 
                                 .elementor-blockquote--skin-quotation .elementor-blockquote:before {
-                                    content: "“";
+                                    content: "Рђю";
                                     font-size: 100px;
                                     color: #e6e9ec;
                                     font-family: Times New Roman, Times, serif;
@@ -5906,7 +5903,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © <script>
+                                                <span>Copyright ┬Е <script>
                                                     document.write(new Date().getFullYear())
                                                     </script>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
