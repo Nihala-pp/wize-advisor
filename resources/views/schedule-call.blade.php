@@ -3411,9 +3411,9 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 20px 10px 100px;
     }
 
-    .avail h4 b {
+    /* .avail h4 b {
         padding-left: 25px;
-    }
+    } */
 
     /* .avail h4 b {
         padding-left: 10px;
@@ -3521,6 +3521,30 @@ i.fas.fa-bell.fa-2xl {
         background: #e6e6e6;
         margin-left: 0px;
         /* margin-left: -19px; */
+    }
+
+    .events-container {
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        float: right;
+        margin: 0px auto;
+        display: inline-block;
+        padding: 0px;
+        border-bottom-right-radius: 3px;
+        /* border-top-right-radius: 3px; */
+        padding-left: 35px !important;
+        /* padding-right: 90px; */
+    }
+
+    .event-card {
+        /* padding: 0px 0px; */
+        max-width: 100%;
+        display: block;
+        background: #fff;
+        border: solid #007bff !important;
+        /* margin-left: 100px; */
+        /* margin-right: 150px; */
     }
 }
 
