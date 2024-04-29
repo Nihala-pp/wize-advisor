@@ -3533,7 +3533,7 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px;
         border-bottom-right-radius: 3px;
         /* border-top-right-radius: 3px; */
-        padding-left: 25px !important;
+        padding-left: 15px !important;
         padding-right: 0px;
     }
 
