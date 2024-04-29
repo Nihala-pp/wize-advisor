@@ -2227,8 +2227,8 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" placeholder="FILTER BY DATE"
-                                    class="form-control selectpicker" id="date" name="filters[date]">
+                                <input type="date" placeholder="FILTER BY DATE" class="form-control selectpicker"
+                                    id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
@@ -4965,6 +4965,15 @@ i.fas.fa-bell.fa-2xl {
     }
 
     input[type="date"] {
+        /* padding-right: 16px !important; */
+        padding-left: 20px !important;
+        padding-top: 5px !important;
+        /* color: #fff !important; */
+        /* font-size: 15px !important; */
+        padding-bottom: 25px;
+    }
+
+    /* input[type="date"] {
         padding-right:
             16px !important;
         padding-left:
@@ -4975,7 +4984,7 @@ i.fas.fa-bell.fa-2xl {
             #fff !important;
         font-size:
             12px !important;
-    }
+    } */
 
     input[type="date"]::before {
         padding-right:
