@@ -4968,8 +4968,8 @@ i.fas.fa-bell.fa-2xl {
         /* padding-right: 16px !important; */
         padding-left: 20px !important;
         padding-top: 5px !important;
-        /* color: #fff !important; */
-        /* font-size: 15px !important; */
+        color: #fff !important;
+        font-size: 15px !important;
         padding-bottom: 25px;
     }
 
