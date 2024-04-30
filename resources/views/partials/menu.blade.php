@@ -326,10 +326,6 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id() && auth()->user()->role_id == 3)
-
-                                    @php
-                                    $notifications = auth()->user()->unreadNotifications;
-                                    @endphp
                                     <div class="d-flex align-items-center">
                                         <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
@@ -341,6 +337,9 @@
                                             </a>
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuLink">
+                                                @php
+                                                $notifications = auth()->user()->unreadNotifications;
+                                                @endphp
                                                 @forelse($notifications as $notification)
                                                 <li>
                                                     <a class="dropdown-item"
