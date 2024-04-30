@@ -115,6 +115,10 @@ class AuthController extends Controller
      */
     public function postRegistration(Request $request)
     {
+        $request->validate([
+            'g-recaptcha-response' => ['required', new ReCaptcha]
+        ]);
+        
         $credentials = $request->validate([
             'email' => 'required|email|unique:users',
             'password' => [
@@ -125,8 +129,7 @@ class AuthController extends Controller
                     ->mixedCase()
                     ->numbers()
                     ->symbols()
-            ],
-            'g-recaptcha-response' => ['required', new ReCaptcha]
+            ]
         ]);
 
         $data = $request->all();
@@ -174,8 +177,7 @@ class AuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'role_id' => 3,
-            'g-recaptcha-response' => $data['g-recaptcha-response']
+            'role_id' => 3
         ]);
 
         UserMeta::create([
