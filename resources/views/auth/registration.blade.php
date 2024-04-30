@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  @if(!empty($name))
-    <title>Join wiseAdvizor | Connect with {{$name}}</title>
-    <meta name="description" content="Join wiseAdvizor and gain access to {{$name}} offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
-  @else
-    <title>Join wiseAdvizor | Startup mentorship for your success</title>
-    <meta name="description" content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
-  @endif
+@if(!empty($name))
+<title>Join wiseAdvizor | Connect with {{$name}}</title>
+<meta name="description"
+    content="Join wiseAdvizor and gain access to {{$name}} offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+@else
+<title>Join wiseAdvizor | Startup mentorship for your success</title>
+<meta name="description"
+    content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
+@endif
 <meta name="keywords" content="entrepreneur advice, startup mentors">
 @include('partials.header')
 <script>
@@ -1237,6 +1239,21 @@ html body .animated {
                                                 <strong>{{ $message }}</strong>
                                             </span>
                                             @enderror
+                                        </div>
+                                        <div
+                                            class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
+                                            <div class="elementor-field" id="form-field-field_6ff1b74">
+                                                <!-- <div class="elementor-g-recaptcha"> -->
+                                                <!-- <strong>ReCaptcha:</strong> -->
+                                                <div class="g-recaptcha"
+                                                    data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
+                                                </div>
+                                                @if ($errors->has('g-recaptcha-response'))
+                                                <span
+                                                    class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                                @endif
+                                                <!-- </div> -->
+                                            </div>
                                         </div>
                                         <div class="text-center">
                                             <button type="submit"
