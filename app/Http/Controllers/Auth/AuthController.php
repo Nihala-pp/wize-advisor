@@ -14,6 +14,7 @@ use App\Models\User;
 use App\Models\UserMeta;
 use App\Models\AvailableSchedule;
 use Hash;
+use App\Rules\ReCaptcha;
 use Illuminate\Validation\Rules\Password;
 
 class AuthController extends Controller
@@ -125,6 +126,7 @@ class AuthController extends Controller
                     ->numbers()
                     ->symbols()
             ],
+            'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
 
         $data = $request->all();
