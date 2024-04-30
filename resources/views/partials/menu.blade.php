@@ -140,6 +140,9 @@
                                             </a>
                                             <ul class="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="navbarDropdownMenuLink">
+                                                @php
+                                                $notifications = auth()->user()->unreadNotifications;
+                                                @endphp
                                                 @forelse($notifications as $notification)
                                                 <li>
                                                     <a class="dropdown-item"
