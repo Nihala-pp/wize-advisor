@@ -1138,8 +1138,13 @@ a:link {
 }
 
 a.font-weight-bold.text-white {
-    font-size:17px;
+    font-size:13px;
     margin-left: -25px;
+}
+
+div.copyright.text-center.text-sm.text-white.text-lg-start
+{
+    font-size:13px;
 }
 
 /* #navbarDropdownMenuLink {
