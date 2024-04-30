@@ -175,7 +175,7 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'role_id' => 3,
-            'g-recaptcha-response' => new ReCaptcha
+            'g-recaptcha-response' => $data['g-recaptcha-response']
         ]);
 
         UserMeta::create([
