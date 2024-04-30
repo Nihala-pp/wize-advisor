@@ -326,6 +326,10 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     @if(Auth::id() && auth()->user()->role_id == 3)
+
+                                    @php
+                                    $notifications = auth()->user()->unreadNotifications;
+                                    @endphp
                                     <div class="d-flex align-items-center">
                                         <div class="dropdown">
                                             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#"
