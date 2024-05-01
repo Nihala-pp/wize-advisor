@@ -1365,7 +1365,8 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+    @include('partials.header-common')
+    <!-- <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
         <p class="main-title bhf-hidden" itemprop="headline"><a href="https://wiseadvizor.com/" title="wiseAdvizor"
                 rel="home">wiseAdvizor</a></p>
         <div data-elementor-type="wp-post" data-elementor-id="30" class="elementor elementor-30">
@@ -2018,7 +2019,7 @@
                     </div>
                 </div>
         </div>
-    </header>
+    </header> -->
 
     <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
         <section
@@ -7028,7 +7029,7 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-    
+
 .elementor-30 .elementor-element.elementor-element-7527857:not(.elementor-motion-effects-element-type-background), .elementor-30 .elementor-element.elementor-element-7527857 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: transparent;
     /* background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%); */
