@@ -3555,7 +3555,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     button.btn.btn-outline-primary.btn-lg.btn-block.event-card.timeslot {
-        padding-left: 35px !important;
+        margin-left: 40px !important;
     }
 }
 
