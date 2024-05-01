@@ -4506,7 +4506,7 @@ right !important;
         border-color: #54b4d3 !important;
         border-radius: 5px;
         font-size: 0.75rem !important;
-        padding-left: 20px;
+        padding-left: 20px !important;
         padding-bottom: 20px;
         padding-top: 0px;
     }
