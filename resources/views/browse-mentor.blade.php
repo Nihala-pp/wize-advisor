@@ -4868,7 +4868,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     body {
-        color: #fff;
+        color: #fff !important;
         /* max-width: 100%; */
     }
 
