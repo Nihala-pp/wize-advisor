@@ -3533,7 +3533,7 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px;
         border-bottom-right-radius: 3px;
         /* border-top-right-radius: 3px; */
-        padding-left: 65px !important;
+        padding-left: 5px !important;
         padding-right: 0px;
     }
 
@@ -3552,6 +3552,10 @@ i.fas.fa-bell.fa-2xl {
         font-family: "Helvetica", Sans-serif;
         font-size: 16px !important;
         font-weight: 300;
+    }
+
+    button.btn.btn-outline-primary.btn-lg.btn-block.event-card.timeslot {
+        padding-left: 35px !important;
     }
 }
 
