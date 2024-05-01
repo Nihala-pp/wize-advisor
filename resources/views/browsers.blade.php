@@ -4424,7 +4424,7 @@ right !important;
         font-size: 0.75rem !important;
         padding-left: 20px !important;
         padding-bottom: 20px;
-        padding-top: 0px;
+        padding-top: 10px;
     }
 
     .card {
