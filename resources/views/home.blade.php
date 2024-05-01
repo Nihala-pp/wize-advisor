@@ -6380,8 +6380,8 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-.elementor-30 .elementor-element.elementor-element-7527857:not(.elementor-motion-effects-element-type-background),
-.elementor-30 .elementor-element.elementor-element-7527857>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+.elementor-3007 .elementor-element.elementor-element-7527857:not(.elementor-motion-effects-element-type-background),
+.elementor-3007 .elementor-element.elementor-element-7527857>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
     /* background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%); */
 }
