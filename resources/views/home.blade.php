@@ -6384,6 +6384,19 @@
     background-color: transparent !important;
 }
 
+.elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-9a6781f > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    margin-top: -90px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%);
+}
+
+.elementor-8 .elementor-element.elementor-element-bcb7070 img {
+    width: 130%;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 80px;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
