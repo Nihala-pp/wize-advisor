@@ -4423,7 +4423,7 @@ right !important;
         border-radius: 5px;
         font-size: 0.75rem !important;
         padding-left: 20px !important;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         padding-top: 10px;
     }
 
