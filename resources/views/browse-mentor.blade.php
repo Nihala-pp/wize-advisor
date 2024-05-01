@@ -4501,7 +4501,7 @@ right !important;
         width: 220px;
         height: 36px;
         background-color: #54b4d3;
-        color: #fff;
+        color: #fff !important;
         font-weight: 200px;
         border-color: #54b4d3 !important;
         border-radius: 5px;
@@ -4547,7 +4547,7 @@ right;
         padding-left:
             16px !important;
         color:
-            #ffff;
+            #fff !important;
         content:
             attr(placeholder);
     }
@@ -4581,7 +4581,7 @@ padding-top:
  !important;
 */
         color:
-            #ffff !important;
+            #fff !important;
     }
 
     input[type="date"]:focus::before,
@@ -4994,7 +4994,7 @@ i.fas.fa-bell.fa-2xl {
         padding-left:
             16px !important;
         color:
-            #ffff !important;
+            #fff !important;
         content:
             attr(placeholder);
     }
@@ -5004,7 +5004,7 @@ i.fas.fa-bell.fa-2xl {
         padding-right:
             16px !important;
         color:
-            #ffff !important;
+            #fff !important;
     }
 
     input[type="date"]:focus::before,
