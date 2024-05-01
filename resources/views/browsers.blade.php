@@ -4354,6 +4354,20 @@ padding-left:
             50px;
     }
 
+    #date {
+        width: 220px;
+        height: 36px;
+        background-color: #54b4d3;
+        color: #fff !important;        
+        font-weight: 200px;
+        border-color: #54b4d3 !important;
+        border-radius: 5px;
+        font-size: 0.75rem !important;
+        padding-left: 20px !important;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
     .butto {
         /*
 /*
