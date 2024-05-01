@@ -3511,7 +3511,7 @@ i.fas.fa-bell.fa-2xl {
 
     .event-name {
         padding-right: 0;
-        text-align: center !important;        
+        text-align: center !important;
         font-weight: bold;
         /* margin-left: -10px; */
     }
@@ -3533,7 +3533,7 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px;
         border-bottom-right-radius: 3px;
         /* border-top-right-radius: 3px; */
-        padding-left: 5px !important;
+        padding-left: 65px !important;
         padding-right: 0px;
     }
 
@@ -3545,6 +3545,13 @@ i.fas.fa-bell.fa-2xl {
         border: solid #007bff !important;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .avail h4 {
+        margin-left: 30px;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 16px !important;
+        font-weight: 300;
     }
 }
 
@@ -3589,7 +3596,7 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 540px) {}
 
-@media screen (min-width:  768px) and (max-width: 1024px) {
+@media screen (min-width: 768px) and (max-width: 1024px) {
 
     .event-card {
         padding: 0px 0px;
@@ -3696,7 +3703,7 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
-@media screen (min-width:  768px) and (max-width: 820px) {
+@media screen (min-width: 768px) and (max-width: 820px) {
     h1 {
         font-size: 17px;
         font-family: "Helvetica", Sans-serif !important;
