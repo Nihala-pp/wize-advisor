@@ -80,7 +80,8 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e, "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
+                        "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
                         "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
                     return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
@@ -1193,6 +1194,8 @@
     <link rel="stylesheet" id="hfe-widgets-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
         media="all">
+    <link rel='stylesheet' id='elementor-post-3007-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' media='all' />
     <link rel="stylesheet" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
@@ -1366,7 +1369,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     @include('partials.header-common')
-    
+
     <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
@@ -1447,7 +1450,9 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                          Book a 1:1 call with a proven startup mentor and get the guidance you need to achieve explosive growth, overcome critical hurdles, and build a thriving business. </p>
+                                                    Book a 1:1 call with a proven startup mentor and get the guidance
+                                                    you need to achieve explosive growth, overcome critical hurdles, and
+                                                    build a thriving business. </p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
@@ -4497,17 +4502,17 @@
                                 }
                                 </style>
                                 <!-- <blockquote class="elementor-blockquote"> -->
-                                    <p class="elementor-blockquote__content">
-                                        Mentoring is vital for startups as it provides expert guidance,
-                                        networking
-                                        opportunities, and experience-based learning, empowering them to
-                                        navigate
-                                        challenges and thrive in the competitive business landscape.
-                                    </p>
-                                    <footer>
-                                        <cite class="elementor-blockquote__author">Deep Shikha </br>
-                                            Managing Director</cite>
-                                    </footer>
+                                <p class="elementor-blockquote__content">
+                                    Mentoring is vital for startups as it provides expert guidance,
+                                    networking
+                                    opportunities, and experience-based learning, empowering them to
+                                    navigate
+                                    challenges and thrive in the competitive business landscape.
+                                </p>
+                                <footer>
+                                    <cite class="elementor-blockquote__author">Deep Shikha </br>
+                                        Managing Director</cite>
+                                </footer>
                                 <!-- </blockquote> -->
                             </div>
                         </div>
@@ -6375,8 +6380,8 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
-.elementor-30 .elementor-element.elementor-element-7527857:not(.elementor-motion-effects-element-type-background), .elementor-30 .elementor-element.elementor-element-7527857 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-30 .elementor-element.elementor-element-7527857:not(.elementor-motion-effects-element-type-background),
+.elementor-30 .elementor-element.elementor-element-7527857>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent;
     /* background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%); */
 }
@@ -6474,7 +6479,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__content {
-    color: var( --e-global-color-1e1892c );
+    color: var(--e-global-color-1e1892c);
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
     text-transform: none;
@@ -6484,7 +6489,7 @@ i.fas.fa-chevron-down {
 
 .elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__author {
     text-align: center;
-    color: var( --e-global-color-1e1892c );
+    color: var(--e-global-color-1e1892c);
     font-family: "Helvetica", Sans-serif;
 }
 
