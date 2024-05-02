@@ -6542,11 +6542,11 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
-.elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    margin-top: -90px;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%);
-}
+    .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        margin-top: -90px;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%);
+    }
 
     /*  --------------- */
 
