@@ -613,7 +613,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
     /*** header new */
 
-    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+    /* .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
         margin-left: -60px;
     }
@@ -637,7 +637,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
         border-style: none;
         border-radius: 7px 7px 7px 7px;
-    }
+    } */
 
     /**********                                     */
 }
