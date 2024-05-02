@@ -6380,11 +6380,13 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-.elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background), .elementor-3007 .elementor-element.elementor-element-cf19fcc > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
+.elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent !important;
 }
 
-.elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-9a6781f > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
+.elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     margin-top: -90px;
     background-color: transparent;
     background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%);
@@ -6506,6 +6508,28 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    /* header new */
+
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
+
+
+    /*  --------------- */
+    
     .elementor-button.elementor-size-xs {
         font-size: 12px;
         padding: 10px 20px;
