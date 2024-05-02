@@ -6882,6 +6882,13 @@ i.fas.fa-chevron-down {
         padding: 0px 0px 0px 10px;
         margin-top: -20px;
     }
+
+    /* header new */
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 360px) {
