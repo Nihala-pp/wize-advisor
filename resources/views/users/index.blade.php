@@ -722,7 +722,7 @@ a:hover {
 
 a.font-weight-bold.text-white {
     font-size: 13px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
 }
 
 div.copyright.text-center.text-sm.text-white.text-lg-start {
