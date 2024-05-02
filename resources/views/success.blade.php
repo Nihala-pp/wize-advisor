@@ -8,7 +8,8 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
-    @include('partials.menu')
+    @include('partials.header-common')
+    
     <div class="card text-center mt-5">
         <div class="card-header mt-5 scheduled">
            <h1> Successfully Scheduled </h1>

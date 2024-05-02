@@ -3,7 +3,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13 success">
-    @include('partials.menu')
+    @include('partials.header-common')
     <form id="payment-form">
         <div class="col-md-8 card mt-5 mb-5">
             <div class="py-12">
