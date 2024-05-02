@@ -6510,6 +6510,11 @@ i.fas.fa-chevron-down {
 
     /* header new */
 
+    .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: transparent !important;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
@@ -7098,7 +7103,7 @@ i.fas.fa-chevron-down {
         border-style: none;
         border-radius: 7px 7px 7px 7px;
     }
-   
+
     /**********                                     */
 
     .elementor-30 .elementor-element.elementor-element-ae81400 .elementor-button {
