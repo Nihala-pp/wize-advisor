@@ -694,11 +694,11 @@ a:hover {
     text-decoration: none;
 }
 
-/* a:link {
+a:link {
     font-size: 12px;
-    padding-left: 27px;
+    /* padding-left: 27px; */
     text-decoration: none;
-} */
+}
 
 .mentor {
     font-family: "Helvetica", Sans-serif;
@@ -722,6 +722,7 @@ a:hover {
 
 a.font-weight-bold.text-white {
     font-size: 13px;
+    text-decoration: none;
     /* margin-left: -25px; */
 }
 
