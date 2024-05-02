@@ -610,6 +610,36 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         margin-left: 20px !important;
         font-size: 12px !important;
     }
+
+    /*** header new */
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+        padding: 25px 10px 0px 0px;
+        margin-left: -60px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        margin-right: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
+
+    /**********                                     */
 }
 
 @media (min-width: 768px) and (max-width: 820px) {
@@ -674,6 +704,36 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
     }
+
+    /*** header new */
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+        padding: 25px 10px 0px 0px;
+        margin-left: -60px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        margin-right: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
+
+    /**********                                     */
 }
 
 .center {
