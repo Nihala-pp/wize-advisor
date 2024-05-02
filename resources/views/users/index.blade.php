@@ -755,7 +755,7 @@ a:hover {
 }
 
 a:link {
-    font-size: 12px;
+    /* font-size: 12px; */
     /* padding-left: 27px; */
     text-decoration: none;
 }
