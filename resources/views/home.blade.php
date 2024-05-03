@@ -6548,6 +6548,11 @@ i.fas.fa-chevron-down {
         background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%);
     }
 
+    .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: transparent;
+    }
+
     /*  --------------- */
 
     .elementor-button.elementor-size-xs {
