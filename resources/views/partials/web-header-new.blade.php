@@ -1214,9 +1214,9 @@
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script> -->
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
-    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
+    </script> -->
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.14.1"
         id="font-awesome-4-shim-js"></script>
