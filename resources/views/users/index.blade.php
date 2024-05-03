@@ -673,7 +673,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     .rounded-circle {
         height: 25px !important;
         width: 25px !important;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     /* header*/
