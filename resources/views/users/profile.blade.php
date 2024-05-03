@@ -4,6 +4,7 @@
 
 @include('partials.web-header-new')
 @include('partials.header')
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     @include('partials.header-common')
@@ -132,7 +133,14 @@
     <!--   Core JS Files   -->
 </body>
 <style>
-    @media(max-width:480px) {
+i.fas.fa-chevron-down {
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    padding-left: 10px;
+}
+
+@media(max-width:480px) {
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
@@ -159,6 +167,6 @@
         color: #001E64 !important;
     }
 }
-
 </style>
+
 </html>
