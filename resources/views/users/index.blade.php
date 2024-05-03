@@ -671,8 +671,8 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .rounded-circle {
-        height: 25px !important;
-        width: 25px !important;
+        height: 35px !important;
+        width: 35px !important;
         /* margin-right: 20px; */
     }
 
