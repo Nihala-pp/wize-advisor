@@ -462,7 +462,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script> -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     $(document).ready(function() {
 
         $('#offer_modal').modal('show');
@@ -473,7 +473,7 @@
 
         });
     });
-    </script>
+    </script> -->
 </body>
 <style>
 .avat2023-07-05 {
