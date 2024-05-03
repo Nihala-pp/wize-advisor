@@ -1,50 +1,32 @@
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('public/assets/img/apple-icon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <title>wiseAdvizor </title>
-    <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-    <!-- Nucleo Icons -->
-    <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
-    <!-- Font Awesome Icons -->
-    <!-- <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script> -->
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-    <!-- CSS Files -->
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <!-- <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/') }}"> -->
-    <!-- <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}"> -->
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" /> -->
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>wiseAdvizor</title> -->
+    <meta charset="UTF-8">
+    <title>Dashboard &#8211; wiseAdvizor</title>
+    <meta name="keywords"
+        content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    var theplus_nonce = "d4a31829e8";
+    var theplus_nonce = "e7ae24e787";
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="https://wiseadvizor.com/feed/">
+        href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/">
+        href="{{ asset('public/comments/feed/') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <!-- <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+        rel='stylesheet'> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
+    <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
+    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
+    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
 
     <!-- Google Tag Manager -->
     <script>
@@ -1164,6 +1146,14 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
+    @php
+    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
+    @endphp
+    @if(!empty($expert_coloumn))
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    @else
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
+    @endif
     <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F">
