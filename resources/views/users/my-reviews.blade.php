@@ -63,6 +63,13 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script> -->
 </body>
 <style>
+i.fas.fa-chevron-down {
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    padding-left: 10px;
+}
+
 .testimonial-card .card-up {
     height: 120px;
     overflow: hidden;
@@ -168,4 +175,5 @@
     }
 }
 </style>
+
 </html>
