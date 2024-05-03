@@ -6553,6 +6553,11 @@ i.fas.fa-chevron-down {
         background-color: transparent;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .hfe-nav-menu-icon {
+        background-color: transparent;
+        padding: 0.35em;
+    }
+
     /*  --------------- */
 
     .elementor-button.elementor-size-xs {
