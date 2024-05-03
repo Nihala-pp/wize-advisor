@@ -626,7 +626,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1025px) {
     .rounded-circle {
         height: 40px !important;
         width: 40px !important;
@@ -669,7 +669,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     /**********                                     */
 }
 
-@media (min-width: 768px) and (max-width: 820px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .rounded-circle {
         height: 25px !important;
         width: 25px !important;
@@ -678,16 +678,16 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 
     /* header*/
 
-    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+    /* .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
         margin-left: -60px;
-    }
+    } */
 
-    .wp-image-624 {
+    /* .wp-image-624 {
         width: 100%;
         height: 15.02%;
         max-width: 150px !important;
-    }
+    } */
 
     /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
         font-size: 40px;
@@ -706,7 +706,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
         background-color: #fff !important;
     }
 
-    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+    /* .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
         font-family: "Helvetica", Sans-serif;
         font-size: 10px;
         margin-right: 15px;
@@ -730,7 +730,7 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
     .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
-    }
+    } */
 
     /*** header new */
 
