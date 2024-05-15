@@ -139,7 +139,7 @@ class PaymentController extends Controller
     public function redeem(Request $request)
     {
         $mentor = UserMeta::where('user_id', $request->mentor_id)->first();
-        $voucher = Voucher::where('name', $request->coupon)->first();
+        $voucher = Voucher::where('name', $request->coupon)->where('mentor_id', $request->mentor_id)->first();
 
         if($voucher->discount_type == "fixed") {
             $price =  $mentor->price_per_call - $voucher->discount_value;
