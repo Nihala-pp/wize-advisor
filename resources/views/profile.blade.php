@@ -6015,6 +6015,22 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
 @media screen and (max-width: 767px) {
 
+    .elementor-button .elementor-button-link .elementor-size-xs {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        margin: 10px;
+        /* border: 25px; */
+        font-size: 15px;
+        padding: 12px 24px;
+        /* padding: 10px !important; */
+        border-radius: 8px !important;
+        color: #fff;
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+    }
+
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
