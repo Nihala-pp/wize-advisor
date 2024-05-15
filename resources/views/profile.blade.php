@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
@@ -6726,9 +6725,9 @@ ed {
 }
 
 i.fas.fa-bell.fa-2xl {
-    font-size: 27px !important;
+    font-size: 32px !important;
     color: #000;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .rounded-circle {
