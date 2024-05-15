@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
@@ -1341,7 +1342,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-   
+
     @include('partials.header-common')
 
     <div class="entry-content clear" itemprop="text">
@@ -5262,6 +5263,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.elementor-3007 .elementor-element.elementor-element-78270f3>.elementor-widget-container {
+    padding: 15px 0px 0px 0px;
+}
+
 .progress {
     --mdb-progress-height: 15px;
     --mdb-progress-font-size: 0.60rem;
