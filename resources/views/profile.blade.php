@@ -6727,7 +6727,7 @@ ed {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     color: #000;
-    /* padding-left: 10px; */
+    padding-left: 0px;
 }
 
 .rounded-circle {
