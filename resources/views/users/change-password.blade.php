@@ -3,9 +3,6 @@
 @php header('Access-Control-Allow-Origin: *'); @endphp
 
 @include('partials.web-header-new')
-<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'>
-
-<link id="pagestyle"href="{{ asset('public/assets/css/material-dashboard.css?v=3.0.0') }}"rel="stylesheet"/><link rel="stylesheet"href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
