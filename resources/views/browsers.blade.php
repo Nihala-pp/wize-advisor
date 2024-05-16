@@ -104,10 +104,11 @@
         function u(e, t, n) {
             switch (t) {
                 case "flag":
-                    return n(e, "🏳️‍⚧️", "🏳️​⚧️") ? !1 : !n(e, "🇺🇳", "🇺​🇳") && !n(e, "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                        "🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
+                        "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
                 case "emoji":
-                    return !n(e, "🫱🏻‍🫲🏿", "🫱🏻​🫲🏿")
+                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
             }
             return !1
         }
@@ -492,11 +493,11 @@
         --wp--custom--typography--line-height--normal: 1.6;
     }
 
-    body {
+    /* body {
         margin: 0;
         --wp--style--global--content-size: 650px;
         --wp--style--global--wide-size: 1000px;
-    }
+    } */
 
     .wp-site-blocks>.alignleft {
         float: left;
@@ -1150,7 +1151,14 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
-    <link rel="canonical" href="https://wiseadvizor.com/browse-mentor/">
+    @php
+    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
+    @endphp
+    @if(!empty($expert_coloumn))
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    @else
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
+    @endif
     <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F">
@@ -3276,19 +3284,19 @@
         }
     };
     </script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2') }}"
         id="elementor-pro-frontend-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2') }}"
         id="pro-elements-handlers-js"></script>
+    <!-- <script
+            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
+            id="e-sticky-js"></script> -->
     <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
         id="wpr-addons-js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
         id="wpr-modal-popups-js-js"></script>
-    <!-- <script
-            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-            id="e-sticky-js"></script> -->
     <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4') }}" id="underscore-js"></script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
@@ -3309,8 +3317,8 @@
         id="wpforms-elementor-js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+        </script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -3327,7 +3335,7 @@
     </script>
     <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}">
         </script> -->
-        <script type="text/javascript">
+    <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
 
