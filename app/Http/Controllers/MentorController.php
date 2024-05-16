@@ -336,11 +336,11 @@ class MentorController extends Controller
 
             Mail::to($user_email)->send(new CallApprovalUser($schedule));
 
-            // $mentor_availability = AvailableSchedule::where('call_id', $schedule->id)->first();
+            $mentor_availability = AvailableSchedule::where('call_id', $schedule->id)->first();
 
-            dd($schedule);
+            // dd($schedule);
 
-            Mail::to($mentor_email)->send(new callApprovalMentor($schedule));
+            Mail::to($mentor_email)->send(new callApprovalMentor($mentor_availability));
 
 
             // $mentor_timezone = AvailableSchedule::where('mentor_id', $schedule->mentor->id)->where('date', $schedule->date)->first();
