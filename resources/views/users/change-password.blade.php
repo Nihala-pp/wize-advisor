@@ -3,6 +3,8 @@
 @php header('Access-Control-Allow-Origin: *'); @endphp
 
 @include('partials.web-header-new')
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet'>
+
 <!-- <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}"> -->
 <!-- <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}"> -->
 
