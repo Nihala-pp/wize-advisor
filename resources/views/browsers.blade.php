@@ -1514,6 +1514,7 @@
                                     line-height: inherit
                                 }
 
+
                                 .elementor-widget-heading .elementor-heading-title.elementor-size-small {
                                     font-size: 15px
                                 }
@@ -1534,11 +1535,12 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Discover a world of
-                                    expertise: Explore mentors offering invaluable guidance. Find the perfect mentor
-                                    to
-                                    elevate your journey and achieve your goals with confidence.
-                                </h2>
+                                <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
+                                <div class="elementor-heading-title elementor-size-default">Find a mentor for your
+                                    startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
+                                    invaluable guidance. Find the perfect mentor to elevate your journey and achieve
+                                    your
+                                    goals with confidence.</div>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
@@ -1585,32 +1587,29 @@
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
                                     <option value="{{ $expert->name }}"
-                                        {{ $filters['expertise'] == $expert->name ? 'selected' : '' }}>
+                                        {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
                                         {{ $expert->name }}
                                     </option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" class="form-control selectpicker" id="date" name="filters[date]"
-                                    value="{{ $filters['date'] ?? '' }}">
+                                <input type="date" class="form-control selectpicker"
+                                    id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
-                                    <option value="{{ $pr->name }}"
-                                        {{ $filters['name'] == $pr->name ? 'selected' : '' }}>{{ $pr->name }}</option>
+                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
-                                    <option value="asc" {{ $filters['sort_by'] == "asc" ? 'selected' : '' }}>ASC
-                                    </option>
-                                    <option value="desc" {{ $filters['sort_by'] == "desc" ? 'selected' : '' }}>DESC
-                                    </option>
+                                    <option value="asc">ASC</option>
+                                    <option value="desc">DESC </option>
                                 </select>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
