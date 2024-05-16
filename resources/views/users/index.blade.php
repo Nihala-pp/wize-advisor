@@ -566,11 +566,15 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
 } */
 
 @media (max-width:480px) {
+
     /* .rounded-circle {
         height: 40px !important;
         width: 40px !important;
         border-radius: 60%!important;
     } */
+    #menu-item-5136 {
+        font-size: 8px;
+    }
 
     .elementor-button {
         display: inline-block;
