@@ -5267,6 +5267,17 @@
     padding: 15px 0px 0px 0px;
 }
 
+.elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var( --e-global-color-1e1892c ) 0%, var( --e-global-color-1e1892c ) 100%);
+    border-style: none;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 10px;
+}
+
 .progress {
     --mdb-progress-height: 15px;
     --mdb-progress-font-size: 0.60rem;
