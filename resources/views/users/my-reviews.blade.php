@@ -173,6 +173,32 @@ i.fas.fa-chevron-down {
         background-color: #fff;
         color: #001E64 !important;
     }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        color: black !important;
+        font-size: 27px !important;
+    }
+
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        font-size: 15px;
+        padding: 12px 24px;
+        border-radius: 7px !important;
+        color: #fff;
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+        margin: 15px;
+    }
 }
 </style>
 
