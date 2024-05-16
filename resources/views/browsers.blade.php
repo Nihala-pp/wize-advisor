@@ -1250,7 +1250,6 @@
 
     }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
 
 <body
@@ -1775,7 +1774,7 @@
             }
 
             .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
-                content: "★"
+                content: "РўЁ"
             }
             </style>
             <div class="elementor-container elementor-column-gap-no">
@@ -1816,9 +1815,10 @@
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                     <h5><strong><img decoding="async" class="alignleft wp-image-5531"
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                alt="" width="221" height="221"
+                                                                alt="expert mentorship" width="221" height="221"
                                                                 srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                                 sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            class="mentor_name"
                                                             style="color: #000000">{{ $mentor->name }}</span></h5>
                                                     <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
                                                             {{ $mentor->metaData->company }}</span><br />
@@ -1853,7 +1853,7 @@
                                                             class="elementor-screen-only">5/5</span>
                                                     </div>
                                                     <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                    <p><span style="color: #000000"><strong>Expertise:</strong></span>
+                                                    <p><span class="exp" style="color: #000000">Expertise:</span>
                                                     </p>
                                                     <ul>
                                                         @php
@@ -1880,27 +1880,27 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
                                                                     <span class="slot"
-                                                                        style="font-size:14px;color: #000000"><strong>
-                                                                            Next Slot -
-                                                                            @php
-                                                                            $nextAvailability =
-                                                                            \App\Models\AvailableSchedule::where('mentor_id',
-                                                                            $mentor->id)
-                                                                            ->whereDate('date', '>', now())
-                                                                            ->where('is_booked', 0)
-                                                                            ->orderBy('date', 'asc')
-                                                                            ->first();
-                                                                            @endphp
-                                                                            @if(!empty($nextAvailability))
-                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                            @endif
-                                                                        </strong></span>
+                                                                        style="font-size:14px;color: #000000">
+                                                                        Next Slot -
+                                                                        @php
+                                                                        $nextAvailability =
+                                                                        \App\Models\AvailableSchedule::where('mentor_id',
+                                                                        $mentor->id)
+                                                                        ->whereDate('date', '>', now())
+                                                                        ->where('is_booked', 0)
+                                                                        ->orderBy('date', 'asc')
+                                                                        ->first();
+                                                                        @endphp
+                                                                        @if(!empty($nextAvailability))
+                                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
+                                                                        @endif
+                                                                    </span>
                                                                     <span class="charge"
-                                                                        style="font-size:14px;float:right;color: #000000"><strong>
-                                                                            $
-                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                            / 30
-                                                                            Min</strong></span>
+                                                                        style="font-size:14px;float:right;color: #000000">
+                                                                        $
+                                                                        {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                        / 30
+                                                                        Min</span>
                                                                 </div>
                                                                 <div>
                                                                 </div>
@@ -1909,10 +1909,17 @@
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;background-color:#001E64;">View
                                                                         Profile</a>
+                                                                    @if(Auth::id() && auth()->user()->role_id == 3)
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;">Schedule
                                                                         Call</a>
+                                                                    @else
+                                                                    <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1927,7 +1934,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="row elementor-hidden-desktop filter_result">
+                <div class="row elementor-hidden-desktop elementor-hidden-tablet filter_result">
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
@@ -1948,7 +1955,7 @@
                                                             <h5><strong><img decoding="async"
                                                                         class="alignleft wp-image-5531"
                                                                         src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                        alt="" width="221" height="221"
+                                                                        alt="Business Strategy" width="221" height="221"
                                                                         srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                                         sizes="(max-width: 221px) 100vw, 221px" /></strong>
                                                             </h5>
@@ -1957,7 +1964,8 @@
                                                         <div class="grid-child green">
                                                             <h5><span style="color: #000000">{{ $mentor->name }}</span>
                                                             </h5>
-                                                            <p><span style="color: #000000">{{ $mentor->metaData->designation }},
+                                                            <p><span style="color: #000000"><abbr
+                                                                        title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
                                                                     {{ $mentor->metaData->company }}</span><br />
                                                                 <span style="font-size:10px;color: #000000">
                                                                     @php
@@ -1991,10 +1999,10 @@
                                                                     class="elementor-screen-only">5/5</span>
                                                             </div>
                                                             <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                            <p><span
+                                                            <p class="exp-heading"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
-                                                            <ul>
+                                                            <ul class="list-expert">
                                                                 @php
                                                                 $expertise =
                                                                 \App\Models\Expertise::where('mentor_id',
@@ -2049,13 +2057,20 @@
                                                                 </div>
                                                                 <div class="buttons" style="">
                                                                     <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                        class="btn btn-primary"
+                                                                        class="btn btn-primary view_profile"
                                                                         style="margin-top:5px;background-color:#001E64;font-size:11px;">View
                                                                         Profile</a>
+                                                                    @if(Auth::id() && auth()->user()->role_id == 3)
                                                                     <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
-                                                                        style="margin-top:5px;float: right;background-color:#001E64;font-size:11px;">Schedule
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
                                                                         Call</a>
+                                                                    @else
+                                                                    <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
