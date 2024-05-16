@@ -574,6 +574,14 @@ th.text-uppercase.text-secondary.text-xxs.font-weight-bolder.opacity-7 {
     } */
     #menu-item-5136 {
         font-size: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        color: black !important;
+        font-size: 27px !important;
     }
 
     .elementor-button {
