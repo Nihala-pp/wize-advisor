@@ -1786,8 +1786,17 @@
             </style>
             <div class="elementor-container elementor-column-gap-no">
                 <div class="row elementor-hidden-mobile filter_result">
+                    @php
+                      if($mentors->count() == 1)
+                      {
+                          $class_name = 'one-width';
+                      }
+                      else {
+                          $class_name = '';
+                      }
+                    @endphp
                     @foreach($mentors as $mentor)
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe {{ $class_name }}"
                         data-id="6a69efe" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
@@ -3812,6 +3821,10 @@ margin-left:50px;
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
+
+    .one-width {
+        width: 100%;
+    }
 
     .elementor-2772 .elementor-element.elementor-element-9bcde29 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
