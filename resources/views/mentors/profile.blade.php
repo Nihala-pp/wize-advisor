@@ -2,12 +2,13 @@
 <html lang="en">
 
 @include('partials.header')
+
 <body class="g-sidenav-show bg-gray-200">
     @include('mentors.sidebar')
-    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mb-3 mt-3">       
-         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3 mb-3" id="navbarBlur"
-            navbar-scroll="true">
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg mb-3 mt-3">
+        <!-- Navbar -->
+        <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl navbar-blur mt-3 mb-3"
+            id="navbarBlur" navbar-scroll="true">
             <div class="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
@@ -279,14 +280,12 @@
                                         <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                 class="text-dark">Expertise:</strong> &nbsp;
                                             @php
-                                            $expertise = $profile->metaData ? $profile->metaData->expertise : '';
+                                            $expertise = \App\Models\Expertise::where('mentor_id',
+                                            $mentor->id)->take(4)->get();
                                             @endphp
-
-                                            @if(!empty($expertise))
-                                            @foreach(json_decode($expertise) as $expert)
-                                            {{ $expert }}
+                                            @foreach($expertise as $expert)
+                                            {{ $expert->expertise }}
                                             @endforeach
-                                            @endif
                                         </li>
                                         <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                 class="text-dark">Industry:</strong> &nbsp;
@@ -712,8 +711,8 @@
             </div>
         </div>
         @include('partials.footer')
-    </div>
-</main>
+        </div>
+    </main>
     <!--   Core JS Files   -->
     <script type="text/javascript">
     $(document).ready(function() {
