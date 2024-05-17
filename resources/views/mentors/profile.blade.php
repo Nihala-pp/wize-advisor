@@ -268,9 +268,9 @@
                                         <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong
                                                 class="text-dark">Full Name:</strong> &nbsp; {{ $profile->name ?: '' }}
                                         </li>
-                                        <li class="list-group-item border-0 ps-0 text-sm"><strong
+                                        <!-- <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                 class="text-dark">Mobile:</strong> &nbsp;
-                                            {{ $profile->metaData ? $profile->metaData->mobile : '' }}</li>
+                                            {{ $profile->metaData ? $profile->metaData->mobile : '' }}</li> -->
                                         <li class="list-group-item border-0 ps-0 text-sm"><strong
                                                 class="text-dark">Email:</strong> &nbsp; {{ $profile->email ?: '' }}
                                         </li>
