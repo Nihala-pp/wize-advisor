@@ -304,10 +304,7 @@
                                             @php
                                             $language = $profile->metaData ? $profile->metaData->language : '';
                                             @endphp
-
-                                            @if(!empty($language))
-                                            {{ json_decode($language) }}
-                                            @endif
+                                            {{ $language }}
                                         </li>
                                         <li class="list-group-item border-0 ps-0 pb-0">
                                             <strong class="text-dark text-sm">Social:</strong> &nbsp;
