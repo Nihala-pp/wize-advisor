@@ -3521,7 +3521,7 @@
 </body>
 <style>
 .one-width {
-    width: 100% !importante;
+    width: 100% !important;
 }
 
 .elementor-2772 .elementor-element.elementor-element-55b12a5 {
