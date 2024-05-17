@@ -3823,7 +3823,7 @@ margin-left:50px;
 screen and (min-width: 1024px) {
 
     .one-width {
-        width: 100%;
+        width: 100% !importante;
     }
 
     .elementor-2772 .elementor-element.elementor-element-9bcde29 {
