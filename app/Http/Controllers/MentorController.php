@@ -42,8 +42,9 @@ class MentorController extends Controller
         $total_calls_scheduled = ScheduledCall::where('mentor_id', Auth::id())->where('is_paid', 1)->get()->count();
         $total_calls_approved = ScheduledCall::where('mentor_id', Auth::id())->where('is_paid', 1)->where('status', 'Approved')->get()->count();
         $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('is_paid', 1)->where('status', 'Rejected')->get()->count();
-        $mentor_call_price = UserMeta::where('user_id', Auth::id())->first()->price_per_call;
-        $total_earning = $total_calls_approved * $mentor_call_price;
+        $mentor_call_price = ScheduledCall::where('mentor_id', Auth::id())->sum('price');
+        $commission = auth()->user()->metaData->commission;
+        $total_earning = $mentor_call_price -  $commission * $total_calls_approved;
         $scheduled_calls = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
         $notifications = auth()->user()->unreadNotifications;
 
