@@ -3364,8 +3364,8 @@
                         "_token": "{{ csrf_token() }}",
                     },
                     success: function(response) {
-                        $('.filter_result').html(response);
-                        $('.mentorsList').hide();
+                        // $('.filter_result').html(response);
+                        // $('.mentorsList').hide();
                     }
                 });
             });
