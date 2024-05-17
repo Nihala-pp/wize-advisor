@@ -284,7 +284,7 @@
                                             $profile->id)->get();
                                             @endphp
                                             @foreach($expertise as $expert)
-                                            {{ $expert->expertise }}
+                                            {{ $expert->expertise }},
                                             @endforeach
                                         </li>
                                         <li class="list-group-item border-0 ps-0 text-sm"><strong
