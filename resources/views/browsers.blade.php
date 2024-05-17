@@ -1492,7 +1492,7 @@
             </filter>
         </defs>
     </svg> -->
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
@@ -1602,8 +1602,7 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" class="form-control selectpicker"
-                                    id="date" name="filters[date]">
+                                <input type="date" class="form-control selectpicker" id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
@@ -1787,13 +1786,13 @@
             <div class="elementor-container elementor-column-gap-no">
                 <div class="row elementor-hidden-mobile filter_result">
                     @php
-                      if($mentors->count() == 1)
-                      {
-                          $class_name = 'one-width';
-                      }
-                      else {
-                          $class_name = '';
-                      }
+                    if($mentors->count() == 1)
+                    {
+                    $class_name = 'one-width';
+                    }
+                    else {
+                    $class_name = '';
+                    }
                     @endphp
                     @foreach($mentors as $mentor)
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe {{ $class_name }}"
@@ -3521,6 +3520,10 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+.one-width {
+    width: 100% !importante;
+}
+
 .elementor-2772 .elementor-element.elementor-element-55b12a5 {
     width: 100%;
 }
