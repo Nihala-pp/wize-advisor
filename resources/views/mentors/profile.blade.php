@@ -281,7 +281,7 @@
                                                 class="text-dark">Expertise:</strong> &nbsp;
                                             @php
                                             $expertise = \App\Models\Expertise::where('mentor_id',
-                                            $mentor->id)->take(4)->get();
+                                            $mentor->id)->get();
                                             @endphp
                                             @foreach($expertise as $expert)
                                             {{ $expert->expertise }}
