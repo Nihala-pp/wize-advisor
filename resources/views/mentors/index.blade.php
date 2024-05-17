@@ -328,7 +328,7 @@
                             </div>
                             <div class="text-end pt-1">
                                 <p class="text-sm mb-0 text-capitalize">Total Earnings</p>
-                                <h4 class="mb-0">${{ $total_earning }}</h4>
+                                <h4 class="mb-0">$0</h4>
                             </div>
                         </div>
                         <hr class="dark horizontal my-0">
