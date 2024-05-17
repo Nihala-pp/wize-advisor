@@ -306,9 +306,7 @@
                                             @endphp
 
                                             @if(!empty($language))
-                                            @foreach(json_decode($language) as $lang)
-                                            {{ $lang }}
-                                            @endforeach
+                                            {{ json_decode($language) }}
                                             @endif
                                         </li>
                                         <li class="list-group-item border-0 ps-0 pb-0">
