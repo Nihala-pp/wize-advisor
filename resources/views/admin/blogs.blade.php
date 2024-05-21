@@ -167,7 +167,7 @@
                                         <a class="d-block shadow-xl border-radius-xl">
                                             <img decoding="async" width="200" height="200"
                                                 src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
-                                                class="attachment-full size-full wp-image-2739" alt=""
+                                                class="attachment-full size-full wp-image-2739" alt="blog"
                                                 srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
                                                 sizes="(max-width: 370px) 100vw, 370px">
                                         </a>

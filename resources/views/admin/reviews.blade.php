@@ -39,7 +39,7 @@
                         <li class="nav-item d-flex align-items-center">
                             <a href="javascript:;" class="nav-link text-body font-weight-bold px-0">
                                 <img src="{{ asset('public/assets/img/user-avatar.png') }}"
-                                    class="avatar avatar-sm me-3" alt="xd">
+                                    class="avatar avatar-sm me-3" alt="wiseAdvizor_review">
                                 <span class="d-sm-inline d-none">Admin</span>
                             </a>
                         </li>

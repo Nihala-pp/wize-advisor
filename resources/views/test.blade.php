@@ -1084,7 +1084,7 @@
                                                 </style> <img fetchpriority="high" decoding="async" width="594"
                                                     height="632"
                                                     src="https://learning.wiseadvizor.com/wp-content/uploads/2024/03/sohas-pic-2023.png"
-                                                    class="attachment-large size-large wp-image-5671" alt=""
+                                                    class="attachment-large size-large wp-image-5671" alt="logo"
                                                     srcset="https://learning.wiseadvizor.com/wp-content/uploads/2024/03/sohas-pic-2023.png 594w, https://learning.wiseadvizor.com/wp-content/uploads/2024/03/sohas-pic-2023-282x300.png 282w"
                                                     sizes="(max-width: 594px) 100vw, 594px"
                                                     style="width:100%;height:106.4%;max-width:594px" />

@@ -1706,7 +1706,7 @@
                                                                                 href="https://www.linkedin.com/in/ankur-sharma-711b2649/">
                                                                                 <img decoding="async"
                                                                                     src="https://wiseadvizor.com/public/wp-content/uploads/2023/06/linkedin.png"
-                                                                                    alt="shikha" width="150"
+                                                                                    alt="Ankur" width="150"
                                                                                     height="150">
                                                                             </a>
                                                                         </div>
