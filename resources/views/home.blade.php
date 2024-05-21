@@ -1384,7 +1384,7 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="360" height="360"
                                     src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.gif') }}"
-                                    class="attachment-full size-full wp-image-2588" alt="define mentorship">
+                                    class="attachment-full size-full wp-image-2588" alt="define mentorship" format="webp">
                             </div>
                         </div>
                         <section
@@ -1564,7 +1564,7 @@
                                             <div class="wpr-flip-box-image">
 
                                                 <img decoding="async" alt="business coach"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png">
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png" format="webp">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
@@ -1616,7 +1616,7 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="types of mentoring"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png">
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png" format="webp">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Professionals</h3>
@@ -1667,7 +1667,7 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="growth mentor"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.png">
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.png" format="webp">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
@@ -1837,7 +1837,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
-                                                            alt="online mentoring" width="50" height="50">
+                                                            alt="online mentoring" width="50" height="50" format="webp">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Sales']) }}">
@@ -1853,7 +1853,7 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
-                                                            alt="business build" width="50" height="50">
+                                                            alt="business build" width="50" height="50" format="webp">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Idea Validation']) }}">
@@ -2247,7 +2247,7 @@
                                                                                                             decoding="async"
                                                                                                             srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                                                             600w
-                                                                                                            sizes="(max-width: 300px) 100vw, 300px">
+                                                                                                            sizes="(max-width: 300px) 100vw, 300px" format="webp">
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <h5
@@ -3538,7 +3538,7 @@
                                                     src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
                                                     alt="looking for a mentor" srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px" format="webp">
                                                 <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
                                                     class="rounded-circle" height="8" width="37"
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
@@ -3547,7 +3547,7 @@
                                                     src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
                                                     alt="mentorship portal" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
+                                                    450w" sizes="(max-width: 150px) 100vw, 150px" format="webp">
                                                 @endif
                                             </div>
                                         </div>
