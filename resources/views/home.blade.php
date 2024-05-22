@@ -5746,7 +5746,7 @@
     </script>
     <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
         id="theplus-front-js-js" defer></script>
-    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script
         src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
