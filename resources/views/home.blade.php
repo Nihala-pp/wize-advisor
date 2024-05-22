@@ -5690,7 +5690,7 @@
     <link rel="stylesheet" id="owl_animate_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0') }}" media="all">
     <link rel="stylesheet" id="lightgallery_css-css"
-        href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.css?ver=2.5.0') }}"
+        href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.min.css?ver=2.5.0') }}"
         media="all">
     <link rel="stylesheet" id="lightgallery_bundle_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0') }}"
