@@ -1044,28 +1044,28 @@
     }
     </style>
     <link rel="stylesheet" id="niso-carousel-fontello-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-carousel-owl-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-theme-default-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-animate-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.css?ver=1.3.18"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0"
         media="all">
     <link rel="stylesheet" id="hfe-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.14"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
         media="all">
     <link rel="stylesheet" id="elementor-icons-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
@@ -1079,14 +1079,14 @@
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
     <link rel="stylesheet" id="she-header-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">
     <link rel="stylesheet" id="elementor-post-2772-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
         media="all">
     <link rel="stylesheet" id="elementor-post-3007-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1699609169" media="all">
@@ -1108,7 +1108,7 @@
     <link rel="stylesheet" id="theplus-front-css-css"
         href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364619" media="all">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
+        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" media="all">
     <link rel='stylesheet' id='wpr-text-animations-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
         media='all' />
@@ -1145,7 +1145,7 @@
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.5"
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
         id="she-header-js"></script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
@@ -3045,7 +3045,7 @@
         <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
             id="theplus-front-js-js" defer></script> -->
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
         id="wpr-particles-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
@@ -3053,7 +3053,7 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
         id="wpr-parallax-hover-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
         id="elementor-webpack-runtime-js"></script>
