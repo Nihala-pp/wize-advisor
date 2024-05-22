@@ -1192,7 +1192,7 @@
     <link rel="stylesheet" id="elementor-post-8-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
         media="all">
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' media='all' />
