@@ -5714,7 +5714,7 @@
     <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js') }}">
     </script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
         id="wpr-particles-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
