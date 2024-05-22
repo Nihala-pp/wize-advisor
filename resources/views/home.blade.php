@@ -5682,7 +5682,7 @@
     <link rel="stylesheet" id="uc_ac_assets_file_style_css_13102-css"
         href="{{ asset('public/wp-content/uploads/ac_assets/bubble_float/style.min.css?ver=1.5.75') }}" media="all">
     <link rel="stylesheet" id="owl_carousel_css-css"
-        href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.css?ver=2.2.1.1') }}"
+        href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}"
         media="all">
     <link rel="stylesheet" id="owl_theme_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}"
