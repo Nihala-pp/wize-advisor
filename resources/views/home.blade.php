@@ -2895,7 +2895,7 @@
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
                                 <link id="owl-carousel-css"
-                                    href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.css') }}"
+                                    href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
                                     type="text/css" rel="stylesheet">
 
                                 <style type="text/css">
