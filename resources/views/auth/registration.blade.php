@@ -655,10 +655,10 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
     media='all' />
-<link rel='stylesheet' id='twenty-twenty-one-style-css'
+<!-- <link rel='stylesheet' id='twenty-twenty-one-style-css'
     href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
 <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-    href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
+    href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' /> -->
 <link rel='stylesheet' id='wpforms-admin-bar-css'
     href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.6.4'
     media='all' />
