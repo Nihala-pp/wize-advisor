@@ -3519,8 +3519,9 @@
 </body>
 <style>
 
-.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item:first-letter  {
-    text-transform: uppercase !important;
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item:first-letter {
+    text-transform: uppercase;
 }
 
 .elementor-2772 .elementor-element.elementor-element-55b12a5 {
