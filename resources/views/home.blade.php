@@ -1383,7 +1383,7 @@
                             data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img rel="preload" fetchpriority="high" width="360" height="360"
-                                    src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.gif') }}"
+                                    src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.webp') }}"
                                     class="attachment-full size-full wp-image-2588" alt="define mentorship"  type="image/webp">
                             </div>
                         </div>
