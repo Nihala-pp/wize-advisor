@@ -6428,6 +6428,10 @@
     margin-top: 80px;
 }
 
+.elementor-8 .elementor-section .elementor-top-section .elementor-element .elementor-element-b513049 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default {
+  visibility: hidden;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
