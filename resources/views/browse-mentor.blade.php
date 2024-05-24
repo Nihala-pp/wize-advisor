@@ -1498,7 +1498,7 @@
             </filter>
         </defs>
     </svg> -->
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
@@ -1608,8 +1608,7 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
-                                <input type="date" class="form-control selectpicker"
-                                    id="date" name="filters[date]">
+                                <input type="date" class="form-control selectpicker" id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
@@ -3518,11 +3517,6 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
-a.how-it-works:first-letter {
-    text-transform: uppercase !important;
-}
-
 .elementor-2772 .elementor-element.elementor-element-55b12a5 {
     width: 100%;
 }
@@ -3823,6 +3817,10 @@ margin-left:50px;
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
+
+    a.how-it-works:first-letter {
+        text-transform: uppercase !important;
+    }
 
     .elementor-2772 .elementor-element.elementor-element-9bcde29 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
