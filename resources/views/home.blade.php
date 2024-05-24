@@ -1384,7 +1384,8 @@
                             <div class="elementor-widget-container">
                                 <img rel="preload" fetchpriority="high" as="image" width="360" height="360"
                                     src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.webp') }}"
-                                    class="attachment-full size-full wp-image-2588" alt="define mentorship"  type="image/webp">
+                                    class="attachment-full size-full wp-image-2588" alt="define mentorship"
+                                    type="image/webp">
                             </div>
                         </div>
                         <section
@@ -1564,7 +1565,8 @@
                                             <div class="wpr-flip-box-image">
 
                                                 <img decoding="async" alt="business coach"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png" type="image/webp">
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png"
+                                                    type="image/webp">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
@@ -1616,7 +1618,8 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="types of mentoring"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png" type="image/webp">
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png"
+                                                    type="image/webp">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Professionals</h3>
@@ -1667,7 +1670,8 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="growth mentor"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.png" type="image/webp">
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.png"
+                                                    type="image/webp">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
@@ -1821,7 +1825,8 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Browse Mentors by Expertise </h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Browse Mentors by Expertise
+                                </h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-a252efb elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
@@ -1837,7 +1842,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
-                                                            alt="online mentoring" width="50" height="50" type="image/webp">
+                                                            alt="online mentoring" width="50" height="50"
+                                                            type="image/webp">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Sales']) }}">
@@ -1853,7 +1859,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
-                                                            alt="business build" width="50" height="50" type="image/webp">
+                                                            alt="business build" width="50" height="50"
+                                                            type="image/webp">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Idea Validation']) }}">
@@ -2247,7 +2254,8 @@
                                                                                                             decoding="async"
                                                                                                             srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                                                             600w
-                                                                                                            sizes="(max-width: 300px) 100vw, 300px" type="image/webp">
+                                                                                                            sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                            type="image/webp">
                                                                                                     </div>
                                                                                                 </div>
                                                                                                 <h5
@@ -6116,6 +6124,13 @@
     });
     </script>
     <style>
+    .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
+        color: #330252;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
     .unlimited-elements-background-overlay {
         img position: absolute;
         top: 0px;
