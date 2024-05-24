@@ -3514,7 +3514,7 @@
                         <div class="elementor-element elementor-element-4e4b0af elementor-widget elementor-widget-heading"
                             data-id="4e4b0af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">What Our Mentees Say
+                                <h2 class="elementor-heading-title elementor-size-default">What Mentees Say
                                 </h2>
                             </div>
                         </div>
@@ -6126,6 +6126,20 @@
     <style>
     .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
         color: #330252;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-5a907eb .elementor-heading-title {
+        color: #330252;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
+        color: #FFFFFF;
         font-family: "Helvetica", Sans-serif;
         font-weight: 600;
         font-size: 40px;
