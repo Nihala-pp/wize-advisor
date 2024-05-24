@@ -1226,3 +1226,9 @@
         </section>
     </div>
 </header>
+<style>
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
+    color: #001E64;
+}
+</style>
