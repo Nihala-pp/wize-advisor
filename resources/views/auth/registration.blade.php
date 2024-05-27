@@ -612,7 +612,7 @@ body .is-layout-grid>* {
     href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0'
     media='all' />
 <link rel='stylesheet' id='niso-carousel-lightbox-theme-css'
-    href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0'
+    href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0'
     media='all' />
 <link rel='stylesheet' id='hfe-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
