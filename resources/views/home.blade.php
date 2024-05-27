@@ -527,6 +527,9 @@
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954" as="style"
         id="plus-global-css" media="all" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
+    </noscript>
     <style id="global-styles-inline-css">
     body {
         --wp--preset--color--black: #000000;
