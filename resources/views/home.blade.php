@@ -2659,15 +2659,17 @@
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
-        as="style" id="niso-carousel-fontello-css" media="all" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet"
-            href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
-            as="style" id="niso-carousel-fontello-css" media="all">
+            href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0">
     </noscript>
-    <link rel="stylesheet" id="niso-carousel-owl-css"
+    <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0"
-        media="all">
+        as="style" id="niso-carousel-owl-css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0">
+    </noscript>
     <link rel="stylesheet" id="niso-theme-default-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0"
         media="all">
