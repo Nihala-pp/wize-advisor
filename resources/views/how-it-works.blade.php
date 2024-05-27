@@ -708,7 +708,7 @@
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.19.0"
         id="font-awesome-4-shim-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.10"
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.10"
         id="she-header-js"></script>
     <script id="elementor-pro-app-js-before">
     var elementorAppProConfig = {
