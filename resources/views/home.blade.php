@@ -528,7 +528,8 @@
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954" as="style"
         id="plus-global-css" media="all" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
+        <link rel="stylesheet"
+            href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
     </noscript>
     <style id="global-styles-inline-css">
     body {
@@ -1150,9 +1151,14 @@
         z-index: 100000;
     }
     </style>
-    <link rel="stylesheet" id="niso-carousel-fontello-css"
+    <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
-        media="all">
+        as="style" id="niso-carousel-fontello-css" media="all" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
+            as="style" id="niso-carousel-fontello-css" media="all">
+    </noscript>
     <link rel="stylesheet" id="niso-carousel-owl-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0"
         media="all">
