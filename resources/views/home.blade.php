@@ -2730,9 +2730,13 @@
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">
     <link rel="stylesheet" id="elementor-post-8-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637" media="all">
-    <link rel="stylesheet" id="hfe-widgets-style-css"
+    <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
-        media="all">
+        as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14">
+    </noscript>
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' media='all' />
     <link rel="stylesheet" id="elementor-post-30-css"
@@ -2745,11 +2749,20 @@
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
         media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
+    <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
-        media="all">
-    <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637" media="all">
+        as="style" id="qi-addons-for-elementor-style-css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1">
+    </noscript>
+    <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637"
+        as="style" id="theplus-front-css-css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637">
+    </noscript>
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
