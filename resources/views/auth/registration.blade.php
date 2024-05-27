@@ -615,7 +615,7 @@ body .is-layout-grid>* {
     href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0'
     media='all' />
 <link rel='stylesheet' id='hfe-style-css'
-    href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.24'
+    href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.24'
     media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0'
