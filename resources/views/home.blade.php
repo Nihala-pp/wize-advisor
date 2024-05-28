@@ -23,7 +23,6 @@
     <noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css">
     </noscript>
-    <link rel="preload" as="script" href="critical.js">
     <style>
     *,
     ::after,
