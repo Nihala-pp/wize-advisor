@@ -825,45 +825,45 @@ class HomeController extends Controller
 
     // return view('test', compact('mentors', 'slot', 'expertise', 'price'));
 
-    if (!empty($filters)) {
-      $sortby = $filters['sort_by'] ?? 'asc';
-      $mentors = User::with(['expertise', 'availability'])
-        ->where('role_id', 2)
-        ->WhereNull('status')
-        ->whereHas('expertise', function ($query) use ($filters) {
-          /** @var Builder $query */
-          if ($filters['expertise'])
-            $query->where('expertise', 'LIKE', '%' . $filters['expertise'] . '%');
-        })
-        ->whereHas('availability', function ($query) use ($filters) {
-          /** @var Builder $query */
-          if ($filters['date'])
-            $query->whereDate('date', '=', $filters['date']);
-        })
-        ->when((!empty($filters)), function ($query) use ($filters) {
-          /** @var Builder $query */
-          if ($filters['name'])
-            $query->where('name', $filters['name']);
+    // if (!empty($filters)) {
+    //   $sortby = $filters['sort_by'] ?? 'asc';
+    //   $mentors = User::with(['expertise', 'availability'])
+    //     ->where('role_id', 2)
+    //     ->WhereNull('status')
+    //     ->whereHas('expertise', function ($query) use ($filters) {
+    //       /** @var Builder $query */
+    //       if ($filters['expertise'])
+    //         $query->where('expertise', 'LIKE', '%' . $filters['expertise'] . '%');
+    //     })
+    //     ->whereHas('availability', function ($query) use ($filters) {
+    //       /** @var Builder $query */
+    //       if ($filters['date'])
+    //         $query->whereDate('date', '=', $filters['date']);
+    //     })
+    //     ->when((!empty($filters)), function ($query) use ($filters) {
+    //       /** @var Builder $query */
+    //       if ($filters['name'])
+    //         $query->where('name', $filters['name']);
 
-          if ($filters['sort_by'])
-            $query->orderBy('price', $filters['sort_by']);
-        })
-        // ->orderBy('price', $sortby)
-        ->get();
-      // ->sortByDesc('metaData.price_per_call');
-    } else {
-      $mentors = User::where('role_id', 2)->whereNull('status')->get();
-    }
+    //       if ($filters['sort_by'])
+    //         $query->orderBy('price', $filters['sort_by']);
+    //     })
+    //     // ->orderBy('price', $sortby)
+    //     ->get();
+    //   // ->sortByDesc('metaData.price_per_call');
+    // } else {
+    //   $mentors = User::where('role_id', 2)->whereNull('status')->get();
+    // }
 
-    $price = User::where('role_id', 2)->whereNull('status')->get();
-    $slot = AvailableSchedule::where('date', '>=', now())->get();
-    $expertise = ExpertiseList::get();
+    // $price = User::where('role_id', 2)->whereNull('status')->get();
+    // $slot = AvailableSchedule::where('date', '>=', now())->get();
+    // $expertise = ExpertiseList::get();
 
-    if (!empty($filters)) {
-      return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'filters'));
-    } else {
-      return view('test', compact('mentors', 'slot', 'expertise', 'price'));
-    }
+    // if (!empty($filters)) {
+    //   return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'filters'));
+    // } else {
+    //   return view('test', compact('mentors', 'slot', 'expertise', 'price'));
+    // }
   }
 
   public function completedCalls()
