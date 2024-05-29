@@ -773,7 +773,7 @@ class HomeController extends Controller
   public function test()
   {
 
-    $password = Hash::make('Ankur@123!*');
+    $password = Hash::make('Nevra@123!*');
     dd($password);
 
     // $filters = $request['filters'];
