@@ -206,7 +206,7 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData && $upcoming_session->user->metaData->profile_pic ? $upcoming_session->user->metaData->profile_pic : 'blank-profile-picture.png' }}"
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $upcoming_session->user->metaData && $upcoming_session->user->metaData->profile_pic ? $upcoming_session->user->metaData->profile_pic : 'blank-profile-picture.webp' }}"
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
@@ -319,7 +319,7 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData && $requested_session->user->metaData->profile_pic ? $requested_session->user->metaData->profile_pic : 'blank-profile-picture.png' }}"
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $requested_session->user->metaData && $requested_session->user->metaData->profile_pic ? $requested_session->user->metaData->profile_pic : 'blank-profile-picture.webp' }}"
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">
@@ -449,7 +449,7 @@
                                             <td>
                                                 <div class="d-flex px-2 py-1">
                                                     <div>
-                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData && $completed_session->user->metaData->profile_pic ? $completed_session->user->metaData->profile_pic : 'blank-profile-picture.png' }}"
+                                                        <img src="{{ asset('public/assets/img/').'/' }}{{ $completed_session->user->metaData && $completed_session->user->metaData->profile_pic ? $completed_session->user->metaData->profile_pic : 'blank-profile-picture.webp' }}"
                                                             class="avatar avatar-sm me-3" alt="xd">
                                                     </div>
                                                     <div class="d-flex flex-column justify-content-center">

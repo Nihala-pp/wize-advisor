@@ -1586,7 +1586,7 @@
                                                         class="rounded-circle" height="8" width="75"
                                                         alt="Black and White Portrait of a Man" loading="lazy">
                                                     @else
-                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                         height="100px;" width="100px;" class="rounded-circle">
                                                     @endif
                                                 </a>

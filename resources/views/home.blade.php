@@ -3127,7 +3127,7 @@
                                             <div class="wpr-flip-box-image">
 
                                                 <img decoding="async" alt="business coach"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.png"
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.webp"
                                                     type="image/webp">
                                             </div>
 
@@ -3232,7 +3232,7 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="growth mentor"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.png"
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.webp"
                                                     type="image/webp">
                                             </div>
 
@@ -5114,9 +5114,9 @@
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="mentorship portal" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="mentorship portal" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px" type="image/webp">
                                                 @endif
                                             </div>
@@ -5172,9 +5172,9 @@
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5274,9 +5274,9 @@
                                                     srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5329,9 +5329,9 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5391,9 +5391,9 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5445,9 +5445,9 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5501,9 +5501,9 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5556,9 +5556,9 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}
+                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                                     450w" sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5620,10 +5620,10 @@
                                                     alt="Black and White Portrait of a Man" loading="lazy" /> -->
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
                                                     alt="user-avatar"
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>
@@ -5687,10 +5687,10 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-601"
                                                     alt="user-avatar"
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.png') }}, {{ asset('public/assets/img/blank-profile-picture.png') }} 300w, {{ asset('public/assets/img/blank-profile-picture.png') }} {{ asset('public/assets/img/blank-profile-picture.png') }} 600w, {{ asset('public/assets/img/blank-profile-picture.png') }} 500w, {{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @endif
                                             </div>

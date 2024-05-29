@@ -100,7 +100,7 @@
                                         <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
                                             height="50px;" width="50px;">
                                         @else
-                                        <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                             height="50px;" width="50px;">
                                         @endif
                                         <input type="file" name="profile_pic" class="form-control"

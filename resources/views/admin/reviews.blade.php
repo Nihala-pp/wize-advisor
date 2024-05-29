@@ -164,7 +164,7 @@
                                     <img src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                         class="rounded-circle img-fluid" />
                                     @else
-                                    <img src="{{ asset('public/assets/img/blank-profile-picture.png') }}"
+                                    <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                         class="rounded-circle img-fluid" />
                                     @endif
                                 </div>
