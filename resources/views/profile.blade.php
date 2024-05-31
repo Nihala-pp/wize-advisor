@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
@@ -18,7 +17,7 @@
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
     <meta name="description"
         content="Looking for a mentor Unlock startup growth strategies with {{ $data->name }} on wiseAdvizor.">
-    <meta name="keywords" content="Looking for a mentor, startup growth, Startup mentor ">
+    <meta name="keywords" content="Looking for a mentor, startup growth, Startup mentor">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
