@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -75,18 +87,7 @@
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11325588607');
-    </script>
     <style>
     img.wp-smiley,
     img.emoji {
@@ -1122,7 +1123,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-22 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5">
-    
+
     @include('partials.header-common')
 
     <div class="entry-content clear" itemprop="text">

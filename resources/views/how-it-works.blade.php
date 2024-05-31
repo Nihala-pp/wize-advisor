@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <title>Connect with Startup Mentors Here - Ignite Your Success Now</title>
     <meta name="description"
@@ -3833,4 +3845,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>

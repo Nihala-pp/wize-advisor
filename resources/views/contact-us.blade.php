@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <title>Top Mentoring Organizations : One-on-One Mentoring Programs</title>
     <meta name="description"
@@ -93,7 +105,7 @@
     }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -103,7 +115,7 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-11325588607');
-    </script>
+    </script> -->
     <style>
     img.wp-smiley,
     img.emoji {
@@ -1404,7 +1416,7 @@
             </filter>
         </defs>
     </svg> -->
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="13" class="elementor elementor-13">

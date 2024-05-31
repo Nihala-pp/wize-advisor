@@ -1,4 +1,16 @@
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <title>FAQ | Get Answers to Your Startup Growth Questions</title>
     <meta name="description"
@@ -1198,7 +1210,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-18 page-parent wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-18">
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="18" class="elementor elementor-18">
@@ -3387,18 +3399,6 @@
             });
         });
     }(jQuery));
-    </script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11325588607');
     </script>
 
     <script type="text/javascript">

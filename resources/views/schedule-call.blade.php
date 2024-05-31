@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="utf-8">
     <title>Connect with Professional Mentor {{ $mentor->name }}</title>
     <meta name="description"
@@ -1239,8 +1251,8 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 payment-page">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
 
     @include('partials.header-common')

@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <title>Community Guidelines| Setting Effective Mentor-Mentee Goals</title>
     <meta name="description"
@@ -72,18 +84,6 @@
             })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HZW2R3J0M"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-1HZW2R3J0M');
     </script>
     <style>
     img.wp-smiley,
@@ -1348,7 +1348,7 @@
             </filter>
         </defs>
     </svg> -->
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="2942" class="elementor elementor-2942">

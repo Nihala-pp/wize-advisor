@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
     <meta name="description"
@@ -1339,8 +1351,8 @@
 <body
     class="page-template page-template-elementor_canvas page page-id-2372 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.6 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4878">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
 
     @include('partials.header-common')
@@ -5272,7 +5284,7 @@
     font-size: 14px;
     font-weight: 400;
     background-color: transparent;
-    background-image: linear-gradient(90deg, var( --e-global-color-1e1892c ) 0%, var( --e-global-color-1e1892c ) 100%);
+    background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
     border-style: none;
     border-radius: 7px 7px 7px 7px;
     margin-top: 10px;
@@ -6026,7 +6038,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
 @media screen and (max-width: 767px) {
 
-   li > .elementor-button .elementor-button-link .elementor-size-xs {
+    li>.elementor-button .elementor-button-link .elementor-size-xs {
         display: inline-block;
         line-height: 1;
         background-color: #001E64;
