@@ -2,6 +2,18 @@
 <html lang="en-US">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
     <meta name="description"
@@ -1196,7 +1208,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-2650 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2650">
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="2650" class="elementor elementor-2650">
@@ -2784,18 +2796,6 @@
 
         });
     }(jQuery));
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11325588607');
     </script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
