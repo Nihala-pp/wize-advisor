@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>FAQ &#8211; WISE ADVIZOR</title>
@@ -906,7 +907,7 @@
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
                                                             <a href="https://wiseadvizor.com/blog-categories">Read
-                                                            more</a>
+                                                                more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -921,7 +922,7 @@
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
                                                             <a href="https://wiseadvizor.com/blog-categories">Read
-                                                            more</a>
+                                                                more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -936,7 +937,7 @@
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
                                                             <a href="https://wiseadvizor.com/blog-categories">Read
-                                                            more</a>
+                                                                more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1014,9 +1015,9 @@
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                                         href="#">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <a href="https://wiseadvizor.com/blog-categories"><span
-                                                                    class="elementor-button-text">Startup
-                                                                    Tips</span></a>
+                                                            <span class="elementor-button-text"> <a
+                                                                    href="https://wiseadvizor.com/blog-categories">Startup
+                                                                    Tips</a></span>
                                                         </span>
                                                     </a>
                                                 </div>
