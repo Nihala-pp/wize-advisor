@@ -906,7 +906,7 @@
                                                         <div class="elementor-slide-description">{{ Str::of(strip_tags($featured_blog->description))->words(10, ' ....') }}</div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="{{ route('blog-detail', [$featured_blog->id]) }}">Read
+                                                            <a href="{{ route('blogDetail', [$featured_blog->id]) }}">Read
                                                                 more</a>
                                                         </div>
                                                     </div>

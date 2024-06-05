@@ -1105,8 +1105,10 @@ window.location.href = "https://wiseadvizor.com/faq";
       return view('categories');
   }
 
-  public function blogDetail()
+  public function blogDetail($id)
   {
-     return view('blog-detail-sample');
+    $selectedBlog = Blogs::find($id);
+
+     return view('blog-detail-sample', compact('selectedBlog'));
   }
 }
