@@ -1218,98 +1218,104 @@
             data-id="b93782d" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                @foreach($blogs as $blog)
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
-                    data-id="ad9b3c4" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
-                            data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
+                <div class="row">
+                    @foreach($blogs as $blog)
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
+                        data-id="ad9b3c4" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
+                                data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img fetchpriority="high" decoding="async" width="750" height="375"
+                                        src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
+                                        class="attachment-large size-large wp-image-6398" alt=""
+                                        srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
+                                        sizes="(max-width: 750px) 100vw, 750px"
+                                        style="width:100%;height:50%;max-width:2400px" />
+                                </div>
                             </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-1b9ae25 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="1b9ae25" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-175a172"
-                                    data-id="175a172" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-8acd220 elementor-widget elementor-widget-heading"
-                                            data-id="8acd220" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">{{ $blog->category->name ?? '' }}</h6>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-1b9ae25 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                data-id="1b9ae25" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-175a172"
+                                        data-id="175a172" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-8acd220 elementor-widget elementor-widget-heading"
+                                                data-id="8acd220" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {{ $blog->category->name ?? '' }}</h6>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-b12b619 elementor-widget elementor-widget-heading"
-                                            data-id="b12b619" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default"><a
-                                                        href="{{ route('blogDetail', [$blog->id]) }}">{{ $blog->title }}</a></h4>
+                                            <div class="elementor-element elementor-element-b12b619 elementor-widget elementor-widget-heading"
+                                                data-id="b12b619" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h4 class="elementor-heading-title elementor-size-default"><a
+                                                            href="{{ route('blogDetail', [$blog->id]) }}">{{ $blog->title }}</a>
+                                                    </h4>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d68302a elementor-widget elementor-widget-text-editor"
-                                            data-id="d68302a" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                                    background-color: #69727d;
-                                                    color: #fff
-                                                }
+                                            <div class="elementor-element elementor-element-d68302a elementor-widget elementor-widget-text-editor"
+                                                data-id="d68302a" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <style>
+                                                    /*! elementor - v3.21.0 - 20-05-2024 */
+                                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                        background-color: #69727d;
+                                                        color: #fff
+                                                    }
 
-                                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                                    color: #69727d;
-                                                    border: 3px solid;
-                                                    background-color: transparent
-                                                }
+                                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                        color: #69727d;
+                                                        border: 3px solid;
+                                                        background-color: transparent
+                                                    }
 
-                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                                    margin-top: 8px
-                                                }
+                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                        margin-top: 8px
+                                                    }
 
-                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                                    width: 1em;
-                                                    height: 1em
-                                                }
+                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                        width: 1em;
+                                                        height: 1em
+                                                    }
 
-                                                .elementor-widget-text-editor .elementor-drop-cap {
-                                                    float: left;
-                                                    text-align: center;
-                                                    line-height: 1;
-                                                    font-size: 50px
-                                                }
+                                                    .elementor-widget-text-editor .elementor-drop-cap {
+                                                        float: left;
+                                                        text-align: center;
+                                                        line-height: 1;
+                                                        font-size: 50px
+                                                    }
 
-                                                .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                                    display: inline-block
-                                                }
-                                                </style>
-                                                <p>{{ Str::of(strip_tags($blog->description))->words(18, ' ....') }}</p>
+                                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                        display: inline-block
+                                                    }
+                                                    </style>
+                                                    <p>{{ Str::of(strip_tags($blog->description))->words(18, ' ....') }}
+                                                    </p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-226ee96 elementor-widget elementor-widget-heading"
-                                            data-id="226ee96" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $blog->author_name ?? '' }}
-                                                     | {{ $blog->time_to_read ?? '' }} read</p>
+                                            <div class="elementor-element elementor-element-226ee96 elementor-widget elementor-widget-heading"
+                                                data-id="226ee96" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">
+                                                        {{ $blog->author_name ?? '' }}
+                                                        | {{ $blog->time_to_read ?? '' }} read</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+                        </div>
                     </div>
+                    @endforeach
                 </div>
-                @endforeach
                 <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
                     data-id="d8d615f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
