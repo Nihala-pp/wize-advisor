@@ -1220,7 +1220,7 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="row">
                     @foreach($blogs as $blog)
-                    <div class="col-xl-4 col-md-4 mb-xl-0 mb-4">
+                    <div class="col-md-4">
                         <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
                             data-id="ad9b3c4" data-element_type="row"> -->
                             <div class="elementor-widget-wrap elementor-element-populated">
