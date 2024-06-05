@@ -1013,12 +1013,10 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
+                                                        href="https://wiseadvizor.com/blog-categories">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-text">Startup
-                                                                    Tips</span>
-																	<a
-                                                                    href="https://wiseadvizor.com/blog-categories"></a>
+                                                                Tips</span>
                                                         </span>
                                                     </a>
                                                 </div>
