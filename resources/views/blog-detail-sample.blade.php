@@ -1097,7 +1097,7 @@
                                             data-id="9f5ff1a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Str::of(strip_tags($related_post->description))->words(15, ' ....') }}</p>
+                                                <p>{{ Str::of(strip_tags($related_post->description))->words(18, ' ....') }}</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-396fad8 elementor-widget elementor-widget-heading"
