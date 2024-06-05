@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Blog-detail &#8211; WISE ADVIZOR</title>
@@ -24,8 +25,8 @@
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <link rel='stylesheet' id='admin-bar-css'
-        href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3' media='all' />
+    <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
+        media='all' />
     <style id='admin-bar-inline-css'>
     @media screen {
         html {
@@ -49,8 +50,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6'
-        media='all' />
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
@@ -496,8 +496,7 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
-        media='print' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
         media='all' />
@@ -773,13 +772,15 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h6 class="elementor-heading-title elementor-size-default">{{ $selectedBlog->category->name }}</h6>
+                                <h6 class="elementor-heading-title elementor-size-default">
+                                    {{ $selectedBlog->category->name }}</h6>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-91bb32d elementor-widget elementor-widget-heading"
                             data-id="91bb32d" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">{{ $selectedBlog->title }}</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $selectedBlog->title }}
+                                </h1>
                             </div>
                         </div>
                         <section
@@ -828,8 +829,11 @@
                                             data-id="0859462" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $selectedBlog->author_name }}
-                                                    | {{ Carbon\Carbon::parse($selectedBlog->created_at)->format('jS F\\, Y') }} | {{ $selectedBlog->time_to_read }} read</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    {{ $selectedBlog->author_name }}
+                                                    |
+                                                    {{ Carbon\Carbon::parse($selectedBlog->created_at)->format('jS F\\, Y') }}
+                                                    | {{ $selectedBlog->time_to_read }} read</p>
                                             </div>
                                         </div>
                                     </div>
@@ -966,7 +970,7 @@
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ea06128"
                     data-id="ea06128" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
+                        <!-- <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
                             data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <p class="elementor-heading-title elementor-size-default">Embarking on a startup journey
@@ -975,7 +979,7 @@
                                     mentorship becomes invaluable. In this blog, we will explore the power of mentorship
                                     and how wiseAdvizor can transform your startup journey</p>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
                             data-id="34a10af" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
@@ -986,91 +990,12 @@
                             data-id="dc0f3cb" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <ol>
-                                    <li>Experience and Expertise: Mentors bring years of industry experience and
-                                        expertise to the table. They have faced similar challenges, made mistakes, and
-                                        learned valuable lessons along the way. Through their guidance, you can avoid
-                                        common pitfalls and accelerate your startup&#8217;s growth.</li>
+                                    @php
+                                    $text = str_ireplace("<br />", "\r\n", $selectedBlog->description);
+                                    echo $text;
+                                    @endphp
                                 </ol>
                                 <p> </p>
-                                <ol start="2">
-                                    <li>Networking Opportunities: Mentors have extensive networks of professionals,
-                                        mentors, entrepreneurs, investors, and industry contacts. Through their
-                                        connections, you gain access to potential partners, customers, and resources
-                                        that can fuel your startup&#8217;s success.</li>
-                                </ol>
-                                <p> </p>
-                                <ol start="3">
-                                    <li>Accountability and Support: A mentor provides feedback and support, pushing you
-                                        to set and achieve meaningful goals. They offer a sounding board for your ideas,
-                                        challenge your assumptions, and provide honest feedback to help you make better
-                                        decisions.</li>
-                                </ol>
-                                <p> </p>
-                                <ol start="4">
-                                    <li>Professional Development: Mentorship goes beyond business strategies. It also
-                                        focuses on professional development. Mentors can help you enhance your
-                                        leadership skills, improve communication, and cultivate a growth mindset.</li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-a7e51b2 elementor-widget elementor-widget-heading"
-                            data-id="a7e51b2" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h3 class="elementor-heading-title elementor-size-default">wiseAdvizor's Unique Approach
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-63d8d34 elementor-widget elementor-widget-text-editor"
-                            data-id="63d8d34" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <ol start="3">
-                                    <li>Tailored Mentor-Matching: wiseAdvizor matches you with mentors who align with
-                                        your specific industry, expertise, and needs. You can browse mentors based on
-                                        expertise, language, reviews from other mentees and many other factors. This
-                                        approach ensures that you receive guidance and insights tailored to your
-                                        startup&#8217;s unique challenges.</li>
-                                </ol>
-                                <p> </p>
-                                <ol start="3">
-                                    <li>Diverse Mentor Network: wiseAdvizor has a diverse network of mentors from
-                                        various industries, ensuring you can find someone with the right background and
-                                        experience to support your journey.</li>
-                                </ol>
-                                <p> </p>
-                                <ol start="3">
-                                    <li>Resources and Workshops: In addition to one-on-one mentorship, wiseAdvizor
-                                        offers valuable resources, educational content, and workshops to enhance your
-                                        knowledge and skills across various aspects of entrepreneurship.</li>
-                                </ol>
-                                <ol>
-                                    <li style="list-style-type: none;"> </li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-e3ec3aa elementor-widget elementor-widget-heading"
-                            data-id="e3ec3aa" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h5 class="elementor-heading-title elementor-size-default">Conclusion
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-1d99bcc elementor-widget elementor-widget-text-editor"
-                            data-id="1d99bcc" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>Mentorship is a game-changer for startups, and wiseAdvizor provides a transformative
-                                    platform to connect entrepreneurs with experienced mentors. By leveraging the power
-                                    of mentorship, you can navigate challenges, seize opportunities, and accelerate your
-                                    startup&#8217;s success. Don&#8217;t underestimate the impact that a mentor can have
-                                    on your entrepreneurial journey. Embrace wiseAdvizor and unlock the full potential
-                                    of your startup today.</p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-b56ae5d elementor-widget elementor-widget-text-editor"
-                            data-id="b56ae5d" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>Remember, success is not a solo endeavor. Let wiseAdvizor be your trusted partner in
-                                    your entrepreneurial adventure, guiding you towards a brighter and more prosperous
-                                    future.</p>
                             </div>
                         </div>
                     </div>
@@ -1132,6 +1057,7 @@
             data-id="069db09" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
+                @foreach ($related_posts as $related_post)
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
                     data-id="99a7c4c" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -1157,32 +1083,29 @@
                                             data-id="15c3afc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
+                                                <h6 class="elementor-heading-title elementor-size-default">{{ $related_post->category->name }}</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
                                             data-id="1419ff0" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">{{ $related_post->title }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-9f5ff1a elementor-widget elementor-widget-text-editor"
                                             data-id="9f5ff1a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                <p>{{ strip_tags($related_post->description) }}</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-396fad8 elementor-widget elementor-widget-heading"
                                             data-id="396fad8" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | |4 min read</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ $related_post->author_name }}
+                                                     |{{ $related_post->time_to_read }} read</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1191,7 +1114,8 @@
                         </section>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-239d9b0"
+                @endforeach
+                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-239d9b0"
                     data-id="239d9b0" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-f75921d elementor-widget elementor-widget-image"
@@ -1308,7 +1232,7 @@
                             </div>
                         </section>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
     </div>
@@ -2164,8 +2088,8 @@
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
         id="wp-dom-ready-js"></script>
     <script id="starter-templates-zip-preview-js-extra">
@@ -2206,8 +2130,8 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
-        id="wp-hooks-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
@@ -2894,8 +2818,7 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3117,8 +3040,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
@@ -3199,8 +3121,7 @@
         }
     };
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
