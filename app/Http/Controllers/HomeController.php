@@ -1096,4 +1096,9 @@ class HomeController extends Controller
     </script>
     <?php
   }
+
+  public function blogCategories()
+  {
+      return view('categories');
+  }
 }

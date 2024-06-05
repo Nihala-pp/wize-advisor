@@ -115,6 +115,7 @@ Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
 Route::get('/to-do-task',[ToDOController::class, 'index']);
 
 Route::get('blog-test', [HomeController::class, 'blogSample'])->name('blogSample');
+Route::get('blog-categories', [HomeController::class, 'blogCategories'])->name('blogCategories');
 
 Route::post('/coupon/redeem',[PaymentController::class, 'redeem'])->name('coupon.redeem');
 Route::post('/payment/paypal/createTransaction',[PaymentController::class, 'payWithpaypal']);
