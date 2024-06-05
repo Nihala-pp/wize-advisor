@@ -902,8 +902,11 @@
                                                 <div class="swiper-slide-bg"></div>
                                                 <div class="swiper-slide-inner">
                                                     <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">{{ $featured_blog->title }}</div>
-                                                        <div class="elementor-slide-description">{{ Str::of(strip_tags($featured_blog->description))->words(10, ' ....') }}</div>
+                                                        <div class="elementor-slide-heading">{{ $featured_blog->title }}
+                                                        </div>
+                                                        <div class="elementor-slide-description">
+                                                            {{ Str::of(strip_tags($featured_blog->description))->words(10, ' ....') }}
+                                                        </div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
                                                             <a href="{{ route('blogDetail', [$featured_blog->id]) }}">Read
@@ -1215,6 +1218,7 @@
             data-id="b93782d" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
+                @foreach($blogs as $blog)
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
                     data-id="ad9b3c4" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -1240,8 +1244,7 @@
                                             data-id="8acd220" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
+                                                <h6 class="elementor-heading-title elementor-size-default">{{ $blog->category->name }}</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-b12b619 elementor-widget elementor-widget-heading"
@@ -1249,8 +1252,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default"><a
-                                                        href="https://wiseadvizor.com/blog-detail-sample">Best business
-                                                        process management software in 2024</a></h4>
+                                                        href="{{ route('blogDetail', [$blog->id]) }}">{{ $blog->title }}</a></h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-d68302a elementor-widget elementor-widget-text-editor"
@@ -1290,16 +1292,15 @@
                                                     display: inline-block
                                                 }
                                                 </style>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                                <p>{{ Str::of(strip_tags($blog->description))->words(18, ' ....') }}</p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-226ee96 elementor-widget elementor-widget-heading"
                                             data-id="226ee96" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | |4 min read</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ $related_post->author_name }}
+                                                     | {{ $related_post->time_to_read }} read</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1308,7 +1309,8 @@
                         </section>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
+                @endforeach
+                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
                     data-id="d8d615f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-0f8a834 elementor-widget elementor-widget-image"
@@ -1425,9 +1427,9 @@
                             </div>
                         </section>
                     </div>
-                </div>
+                </div> -->
             </div>
-        </section>
+            <!-- </section>
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-346729f elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="346729f" data-element_type="section"
@@ -1795,7 +1797,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
         <div class='footer-width-fixer'>
