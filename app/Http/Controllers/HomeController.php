@@ -773,8 +773,8 @@ class HomeController extends Controller
   public function test()
   {
 
-    $password = Hash::make('Nevra@123!*');
-    dd($password);
+    // $password = Hash::make('Nevra@123!*');
+    // dd($password);
 
     // $filters = $request['filters'];
 
@@ -864,6 +864,8 @@ class HomeController extends Controller
     // } else {
     //   return view('test', compact('mentors', 'slot', 'expertise', 'price'));
     // }
+
+    return view('test');
   }
 
   public function completedCalls()
