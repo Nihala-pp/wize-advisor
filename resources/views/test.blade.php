@@ -905,8 +905,8 @@
                                                             amet consectetur adipiscing elit dolor</div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories"></a>Read
-                                                            more
+                                                            <a href="https://wiseadvizor.com/blog-categories">Read
+                                                            more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -920,8 +920,8 @@
                                                             amet consectetur adipiscing elit dolor</div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories"></a>Read
-                                                            more
+                                                            <a href="https://wiseadvizor.com/blog-categories">Read
+                                                            more</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -935,8 +935,8 @@
                                                             amet consectetur adipiscing elit dolor</div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories"></a>Read
-                                                            more
+                                                            <a href="https://wiseadvizor.com/blog-categories">Read
+                                                            more</a>
                                                         </div>
                                                     </div>
                                                 </div>
