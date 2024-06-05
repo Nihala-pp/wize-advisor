@@ -478,7 +478,7 @@
     <link rel='stylesheet' id='elementor-global-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' />
     <link rel='stylesheet' id='elementor-post-4349-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4349.css?ver=1717511569' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717511569' media='all' />
     <link rel='stylesheet' id='elementor-post-32-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
