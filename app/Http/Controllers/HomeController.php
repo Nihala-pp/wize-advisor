@@ -865,7 +865,7 @@ class HomeController extends Controller
     //   return view('test', compact('mentors', 'slot', 'expertise', 'price'));
     // }
 
-    return view('test');
+    // return view('test');
   }
 
   public function blogSample()
