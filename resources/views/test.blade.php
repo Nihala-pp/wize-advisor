@@ -1299,7 +1299,7 @@
                                             data-id="226ee96" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $blog->author_name }}
+                                                <p class="elementor-heading-title elementor-size-default">{{ $blog->author_name ?: '' }}
                                                      | {{ $blog->time_to_read }} read</p>
                                             </div>
                                         </div>
