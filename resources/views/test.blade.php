@@ -1244,7 +1244,7 @@
                                             data-id="8acd220" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">{{ $blog->category->name }}</h6>
+                                                <h6 class="elementor-heading-title elementor-size-default">{{ $blog->category->name ?? '' }}</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-b12b619 elementor-widget elementor-widget-heading"
@@ -1299,8 +1299,8 @@
                                             data-id="226ee96" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $blog->author_name ?: '' }}
-                                                     | {{ $blog->time_to_read }} read</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ $blog->author_name ?? '' }}
+                                                     | {{ $blog->time_to_read ?? '' }} read</p>
                                             </div>
                                         </div>
                                     </div>
