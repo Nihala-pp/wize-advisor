@@ -773,14 +773,13 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h6 class="elementor-heading-title elementor-size-default">Work management</h6>
+                                <h6 class="elementor-heading-title elementor-size-default">{{ $selectedBlog->category->name }}</h6>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-91bb32d elementor-widget elementor-widget-heading"
                             data-id="91bb32d" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">Best business process
-                                    management software in 2024</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $selectedBlog->title }}</h1>
                             </div>
                         </div>
                         <section
@@ -829,8 +828,8 @@
                                             data-id="0859462" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | Jan 31, 2024 | 4 min read</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ $selectedBlog->author_name }}
+                                                    | {{ Carbon\Carbon::parse($selectedBlog->created_at)->format('jS F\\, Y') }} | {{ $selectedBlog->time_to_read }} read</p>
                                             </div>
                                         </div>
                                     </div>
