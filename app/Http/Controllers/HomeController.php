@@ -1101,4 +1101,9 @@ class HomeController extends Controller
   {
       return view('categories');
   }
+
+  public function blogDetail()
+  {
+     return view('blog-detail-sample');
+  }
 }

@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
-    <title>FAQ &#8211; WISE ADVIZOR</title>
+    <title>Blog-detail &#8211; WISE ADVIZOR</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/" />
@@ -25,8 +24,8 @@
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
-        media='all' />
+    <link rel='stylesheet' id='admin-bar-css'
+        href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3' media='all' />
     <style id='admin-bar-inline-css'>
     @media screen {
         html {
@@ -50,7 +49,8 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6'
+        media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
@@ -71,6 +71,24 @@
     <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
         media='all' />
+    <style id='classic-theme-styles-inline-css'>
+    /*! This file is auto-generated */
+    .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em
+    }
+
+    .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none
+    }
+    </style>
     <style id='global-styles-inline-css'>
     body {
         --wp--preset--color--black: #000000;
@@ -477,13 +495,8 @@
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' />
-    <link rel='stylesheet' id='elementor-post-2651-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' />
-    <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-3007-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1717402369' media='all' />
+    <link rel='stylesheet' id='elementor-post-4349-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4349.css?ver=1717511569' media='all' />
     <link rel='stylesheet' id='elementor-post-32-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
@@ -501,10 +514,18 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
+        media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
         media='all' />
+    <style id='wpforms-admin-bar-inline-css'>
+    #wpadminbar .wpforms-menu-notification-counter,
+    #wpadminbar .wpforms-menu-notification-indicator {
+        background-color: #d63638 !important;
+        color: #ffffff !important;
+    }
+    </style>
     <link rel='stylesheet' id='wpr-text-animations-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.975'
         media='all' />
@@ -519,12 +540,6 @@
         media='all' />
     <link rel='stylesheet' id='elementor-icons-shared-0-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
-        media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
-        media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-regular-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-brands-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
@@ -557,15 +572,15 @@
     };
     </script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2650" />
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/4349" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://wiseadvizor.com/faq/" />
-    <link rel='shortlink' href='https://wiseadvizor.com/?p=2650' />
+    <link rel="canonical" href="https://wiseadvizor.com/blogs/blog-detail/" />
+    <link rel='shortlink' href='https://wiseadvizor.com/?p=4349' />
     <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Ffaq%2F" />
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fblogs%2Fblog-detail%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Ffaq%2F&#038;format=xml" />
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fblogs%2Fblog-detail%2F&#038;format=xml" />
     <style>
     #wpadminbar .theplus-purge-clear>.ab-item:before {
         content: '';
@@ -736,232 +751,237 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-2650 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2650">
-    <div data-elementor-type="wp-page" data-elementor-id="2650" class="elementor elementor-2650">
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-f44cc65 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="f44cc65" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d1038b"
-                    data-id="3d1038b" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-df08494 elementor--h-position-left elementor-pagination-position-inside elementor-widget elementor-widget-slides"
-                            data-id="df08494" data-element_type="widget"
-                            data-settings="{&quot;navigation&quot;:&quot;dots&quot;,&quot;transition&quot;:&quot;slide&quot;,&quot;transition_speed&quot;:500}"
-                            data-widget_type="slides.default">
-                            <div class="elementor-widget-container">
-                                <style>
-                                /*! elementor-pro - v3.8.2 - 21-11-2022 */
-                                .elementor-slides .swiper-slide-bg {
-                                    background-size: cover;
-                                    background-position: 50%;
-                                    background-repeat: no-repeat;
-                                    min-width: 100%;
-                                    min-height: 100%
-                                }
+    class="page-template page-template-elementor_canvas page page-id-4349 page-child parent-pageid-18 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4349">
+    <script>
+    (function() {
+        var request, b = document.body,
+            c = 'className',
+            cs = 'customize-support',
+            rcs = new RegExp('(^|\\s+)(no-)?' + cs + '(\\s+|$)');
 
-                                .elementor-slides .swiper-slide-inner {
-                                    background-repeat: no-repeat;
-                                    background-position: 50%;
-                                    position: absolute;
-                                    top: 0;
-                                    left: 0;
-                                    bottom: 0;
-                                    right: 0;
-                                    padding: 50px;
-                                    margin: auto
-                                }
+        request = true;
 
-                                .elementor-slides .swiper-slide-inner,
-                                .elementor-slides .swiper-slide-inner:hover {
-                                    color: #fff;
-                                    display: -webkit-box;
-                                    display: -ms-flexbox;
-                                    display: flex
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-background-overlay {
-                                    position: absolute;
-                                    z-index: 0;
-                                    top: 0;
-                                    bottom: 0;
-                                    left: 0;
-                                    right: 0
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-slide-content {
-                                    position: relative;
-                                    z-index: 1;
-                                    width: 100%
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-slide-heading {
-                                    font-size: 35px;
-                                    font-weight: 700;
-                                    line-height: 1
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-slide-description {
-                                    font-size: 17px;
-                                    line-height: 1.4
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-slide-description:not(:last-child),
-                                .elementor-slides .swiper-slide-inner .elementor-slide-heading:not(:last-child) {
-                                    margin-bottom: 30px
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-slide-button {
-                                    border: 2px solid #fff;
-                                    color: #fff;
-                                    background: transparent;
-                                    display: inline-block
-                                }
-
-                                .elementor-slides .swiper-slide-inner .elementor-slide-button,
-                                .elementor-slides .swiper-slide-inner .elementor-slide-button:hover {
-                                    background: transparent;
-                                    color: inherit;
-                                    text-decoration: none
-                                }
-
-                                .elementor--v-position-top .swiper-slide-inner {
-                                    -webkit-box-align: start;
-                                    -ms-flex-align: start;
-                                    align-items: flex-start
-                                }
-
-                                .elementor--v-position-bottom .swiper-slide-inner {
-                                    -webkit-box-align: end;
-                                    -ms-flex-align: end;
-                                    align-items: flex-end
-                                }
-
-                                .elementor--v-position-middle .swiper-slide-inner {
-                                    -webkit-box-align: center;
-                                    -ms-flex-align: center;
-                                    align-items: center
-                                }
-
-                                .elementor--h-position-left .swiper-slide-inner {
-                                    -webkit-box-pack: start;
-                                    -ms-flex-pack: start;
-                                    justify-content: flex-start
-                                }
-
-                                .elementor--h-position-right .swiper-slide-inner {
-                                    -webkit-box-pack: end;
-                                    -ms-flex-pack: end;
-                                    justify-content: flex-end
-                                }
-
-                                .elementor--h-position-center .swiper-slide-inner {
-                                    -webkit-box-pack: center;
-                                    -ms-flex-pack: center;
-                                    justify-content: center
-                                }
-
-                                body.rtl .elementor-widget-slides .elementor-swiper-button-next {
-                                    left: 10px;
-                                    right: auto
-                                }
-
-                                body.rtl .elementor-widget-slides .elementor-swiper-button-prev {
-                                    right: 10px;
-                                    left: auto
-                                }
-
-                                .elementor-slides-wrapper div:not(.swiper-slide)>.swiper-slide-inner {
-                                    display: none
-                                }
-
-                                @media (max-width:767px) {
-                                    .elementor-slides .swiper-slide-inner {
-                                        padding: 30px
-                                    }
-
-                                    .elementor-slides .swiper-slide-inner .elementor-slide-heading {
-                                        font-size: 23px;
-                                        line-height: 1;
-                                        margin-bottom: 15px
-                                    }
-
-                                    .elementor-slides .swiper-slide-inner .elementor-slide-description {
-                                        font-size: 13px;
-                                        line-height: 1.4;
-                                        margin-bottom: 15px
-                                    }
-                                }
-                                </style>
-                                <div class="elementor-swiper">
-                                    <div class="elementor-slides-wrapper elementor-main-swiper swiper-container"
-                                        dir="ltr" data-animation="fadeInUp">
-                                        <div class="swiper-wrapper elementor-slides">
-                                            <div class="elementor-repeater-item-31a3e7d swiper-slide">
-                                                <div class="swiper-slide-bg"></div>
-                                                <div class="swiper-slide-inner">
-                                                    <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">Slide 1 Heading</div>
-                                                        <div class="elementor-slide-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipiscing elit dolor</div>
-                                                        <div
-                                                            class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories">Read
-                                                                more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-repeater-item-7e1fdd2 swiper-slide">
-                                                <div class="swiper-slide-bg"></div>
-                                                <div class="swiper-slide-inner">
-                                                    <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">Slide 2 Heading</div>
-                                                        <div class="elementor-slide-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipiscing elit dolor</div>
-                                                        <div
-                                                            class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories">Read
-                                                                more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-repeater-item-37615af swiper-slide">
-                                                <div class="swiper-slide-bg"></div>
-                                                <div class="swiper-slide-inner">
-                                                    <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">Slide 3 Heading</div>
-                                                        <div class="elementor-slide-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipiscing elit dolor</div>
-                                                        <div
-                                                            class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories">Read
-                                                                more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        b[c] = b[c].replace(rcs, ' ');
+        // The customizer requires postMessage and CORS (if the site is cross domain).
+        b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
+    }());
+    </script>
+    <div id="wpadminbar" class="nojq nojs">
+        <div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+            <ul id='wp-admin-bar-root-default' class="ab-top-menu">
+                <li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true"
+                        href='https://wiseadvizor.com/wp-admin/about.php'><span class="ab-icon"
+                            aria-hidden="true"></span><span class="screen-reader-text">About WordPress</span></a>
+                    <div class="ab-sub-wrapper">
+                        <ul id='wp-admin-bar-wp-logo-default' class="ab-submenu">
+                            <li id='wp-admin-bar-about'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/about.php'>About WordPress</a></li>
+                            <li id='wp-admin-bar-contribute'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/contribute.php'>Get Involved</a></li>
+                        </ul>
+                        <ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu">
+                            <li id='wp-admin-bar-wporg'><a class='ab-item'
+                                    href='https://wordpress.org/'>WordPress.org</a></li>
+                            <li id='wp-admin-bar-documentation'><a class='ab-item'
+                                    href='https://wordpress.org/documentation/'>Documentation</a></li>
+                            <li id='wp-admin-bar-learn'><a class='ab-item' href='https://learn.wordpress.org/'>Learn
+                                    WordPress</a></li>
+                            <li id='wp-admin-bar-support-forums'><a class='ab-item'
+                                    href='https://wordpress.org/support/forums/'>Support</a></li>
+                            <li id='wp-admin-bar-feedback'><a class='ab-item'
+                                    href='https://wordpress.org/support/forum/requests-and-feedback'>Feedback</a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </section>
+                </li>
+                <li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true"
+                        href='https://wiseadvizor.com/wp-admin/'>WISE ADVIZOR</a>
+                    <div class="ab-sub-wrapper">
+                        <ul id='wp-admin-bar-site-name-default' class="ab-submenu">
+                            <li id='wp-admin-bar-dashboard'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/'>Dashboard</a></li>
+                        </ul>
+                        <ul id='wp-admin-bar-appearance' class="ab-submenu">
+                            <li id='wp-admin-bar-themes'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/themes.php'>Themes</a></li>
+                            <li id='wp-admin-bar-widgets'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/widgets.php'>Widgets</a></li>
+                            <li id='wp-admin-bar-menus'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/nav-menus.php'>Menus</a></li>
+                            <li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/themes.php?page=custom-background'>Background</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item'
+                        href='https://wiseadvizor.com/wp-admin/customize.php?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fblogs%2Fblog-detail%2F'>Customize</a>
+                </li>
+                <li id='wp-admin-bar-updates'><a class='ab-item'
+                        href='https://wiseadvizor.com/wp-admin/update-core.php'><span class="ab-icon"
+                            aria-hidden="true"></span><span class="ab-label" aria-hidden="true">11</span><span
+                            class="screen-reader-text updates-available-text">11 updates available</span></a></li>
+                <li id='wp-admin-bar-comments'><a class='ab-item'
+                        href='https://wiseadvizor.com/wp-admin/edit-comments.php'><span class="ab-icon"
+                            aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0"
+                            aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0
+                            Comments in moderation</span></a></li>
+                <li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true"
+                        href='https://wiseadvizor.com/wp-admin/post-new.php'><span class="ab-icon"
+                            aria-hidden="true"></span><span class="ab-label">New</span></a>
+                    <div class="ab-sub-wrapper">
+                        <ul id='wp-admin-bar-new-content-default' class="ab-submenu">
+                            <li id='wp-admin-bar-new-post'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php'>Post</a></li>
+                            <li id='wp-admin-bar-new-media'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/media-new.php'>Media</a></li>
+                            <li id='wp-admin-bar-new-page'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=page'>Page</a>
+                            </li>
+                            <li id='wp-admin-bar-new-e-landing-page'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=a37c47ee6a#library'>Landing
+                                    Page</a></li>
+                            <li id='wp-admin-bar-new-elementor_library'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/post-new.php?post_type=elementor_library'>Template</a>
+                            </li>
+                            <li id='wp-admin-bar-new-user'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/user-new.php'>User</a></li>
+                            <li id='wp-admin-bar-wpforms'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id='wp-admin-bar-edit'><a class='ab-item'
+                        href='https://wiseadvizor.com/wp-admin/post.php?post=4349&#038;action=edit'>Edit Page</a>
+                </li>
+                <li id='wp-admin-bar-elementor_inspector' class="menupop">
+                    <div class="ab-item ab-empty-item" aria-haspopup="true">Elementor Debugger</div>
+                    <div class="ab-sub-wrapper">
+                        <ul id='wp-admin-bar-elementor_inspector-default' class="ab-submenu">
+                            <li id='wp-admin-bar-elementor_inspector_pagetemplate' class="menupop">
+                                <div class="ab-item ab-empty-item" aria-haspopup="true"><span class="wp-admin-bar-arrow"
+                                        aria-hidden="true"></span>Page Template</div>
+                                <div class="ab-sub-wrapper">
+                                    <ul id='wp-admin-bar-elementor_inspector_pagetemplate-default' class="ab-submenu">
+                                        <li id='wp-admin-bar-elementor_inspector_log_pagetemplate_0'><a class='ab-item'
+                                                href='https://wiseadvizor.com/wp-admin/post.php?post=4349&#038;action=elementor'
+                                                target='_blank'>Elementor - canvas.php</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id='wp-admin-bar-elementor_inspector_theme' class="menupop">
+                                <div class="ab-item ab-empty-item" aria-haspopup="true"><span class="wp-admin-bar-arrow"
+                                        aria-hidden="true"></span>Theme</div>
+                                <div class="ab-sub-wrapper">
+                                    <ul id='wp-admin-bar-elementor_inspector_theme-default' class="ab-submenu">
+                                        <li id='wp-admin-bar-elementor_inspector_log_theme_0'>
+                                            <div class="ab-item ab-empty-item" target='_blank'>Template File: WP Page
+                                                Template > Elementor - canvas.php</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id='wp-admin-bar-wpforms-menu' class="menupop"><a class='ab-item' aria-haspopup="true"
+                        href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>WPForms <div
+                            class="wp-core-ui wp-ui-notification wpforms-menu-notification-counter">4</div></a>
+                    <div class="ab-sub-wrapper">
+                        <ul id='wp-admin-bar-wpforms-menu-default' class="ab-submenu">
+                            <li id='wp-admin-bar-wpforms-notifications'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>Notifications
+                                    <div class="wp-core-ui wp-ui-notification wpforms-menu-notification-indicator">
+                                    </div></a></li>
+                            <li id='wp-admin-bar-wpforms-forms'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>All
+                                    Forms</a></li>
+                            <li id='wp-admin-bar-wpforms-payments'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-payments'>Payments</a>
+                            </li>
+                            <li id='wp-admin-bar-wpforms-add-new'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/admin.php?page=wpforms-builder'>Add
+                                    New</a></li>
+                            <li id='wp-admin-bar-wpforms-community'><a class='ab-item'
+                                    href='https://www.facebook.com/groups/wpformsvip/' target='_blank'
+                                    rel='noopener noreferrer'>Community</a></li>
+                            <li id='wp-admin-bar-wpforms-help-docs'><a class='ab-item'
+                                    href='https://wpforms.com/docs/?utm_campaign=liteplugin&#038;utm_medium=admin-bar&#038;utm_source=WordPress&#038;utm_content=Documentation'
+                                    target='_blank' rel='noopener noreferrer'>Help Docs</a></li>
+                            <li id='wp-admin-bar-wpforms-upgrade'><a class='ab-item'
+                                    href='https://wpforms.com/lite-upgrade/?utm_campaign=liteplugin&#038;utm_source=WordPress&#038;utm_medium=admin-bar&#038;utm_content=Upgrade%20to%20Pro&#038;utm_locale=en_US'
+                                    target='_blank' rel='noopener noreferrer'>Upgrade to Pro</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu">
+                <li id='wp-admin-bar-search' class="admin-bar-search">
+                    <div class="ab-item ab-empty-item" tabindex="-1">
+                        <form action="https://wiseadvizor.com/" method="get" id="adminbarsearch"><input
+                                class="adminbar-input" name="s" id="adminbar-search" type="text" value=""
+                                maxlength="150" /><label for="adminbar-search"
+                                class="screen-reader-text">Search</label><input type="submit" class="adminbar-button"
+                                value="Search" /></form>
+                    </div>
+                </li>
+                <li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true"
+                        href='https://wiseadvizor.com/wp-admin/profile.php'>Howdy, <span class="display-name">WISE
+                            ADVIZOR</span><img alt=''
+                            src='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=26&#038;d=mm&#038;r=g'
+                            srcset='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=52&#038;d=mm&#038;r=g 2x'
+                            class='avatar avatar-26 photo' height='26' width='26' decoding='async' /></a>
+                    <div class="ab-sub-wrapper">
+                        <ul id='wp-admin-bar-user-actions' class="ab-submenu">
+                            <li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1"
+                                    href='https://wiseadvizor.com/wp-admin/profile.php'><img alt=''
+                                        src='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=64&#038;d=mm&#038;r=g'
+                                        srcset='https://secure.gravatar.com/avatar/a8726c7255505df5fe7e481fccd93c50?s=128&#038;d=mm&#038;r=g 2x'
+                                        class='avatar avatar-64 photo' height='64' width='64' decoding='async' /><span
+                                        class='display-name'>WISE ADVIZOR</span></a></li>
+                            <li id='wp-admin-bar-edit-profile'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-admin/profile.php'>Edit Profile</a></li>
+                            <li id='wp-admin-bar-logout'><a class='ab-item'
+                                    href='https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=33a69251fb'>Log
+                                    Out</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id='wp-admin-bar-zip-ai-assistant'><a class='ab-item' href=''><span class="ab-icon"
+                            aria-hidden="true" style="margin: 0">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"
+                                focusable="false">
+                                <path
+                                    d="M9.8132 15.9038L9 18.75L8.1868 15.9038C7.75968 14.4089 6.59112 13.2403 5.09619 12.8132L2.25 12L5.09619 11.1868C6.59113 10.7597 7.75968 9.59112 8.1868 8.09619L9 5.25L9.8132 8.09619C10.2403 9.59113 11.4089 10.7597 12.9038 11.1868L15.75 12L12.9038 12.8132C11.4089 13.2403 10.2403 14.4089 9.8132 15.9038Z"
+                                    stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path
+                                    d="M16.8942 20.5673L16.5 21.75L16.1058 20.5673C15.8818 19.8954 15.3546 19.3682 14.6827 19.1442L13.5 18.75L14.6827 18.3558C15.3546 18.1318 15.8818 17.6046 16.1058 16.9327L16.5 15.75L16.8942 16.9327C17.1182 17.6046 17.6454 18.1318 18.3173 18.3558L19.5 18.75L18.3173 19.1442C17.6454 19.3682 17.1182 19.8954 16.8942 20.5673Z"
+                                    stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path
+                                    d="M18.2589 8.71454L18 9.75L17.7411 8.71454C17.4388 7.50533 16.4947 6.56117 15.2855 6.25887L14.25 6L15.2855 5.74113C16.4947 5.43883 17.4388 4.49467 17.7411 3.28546L18 2.25L18.2589 3.28546C18.5612 4.49467 19.5053 5.43883 20.7145 5.74113L21.75 6L20.7145 6.25887C19.5053 6.56117 18.5612 7.50532 18.2589 8.71454Z"
+                                    stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </svg>
+                        </span></a></li>
+            </ul>
+        </div>
+        <a class="screen-reader-shortcut"
+            href="https://wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=33a69251fb">Log Out</a>
+    </div>
+
+    <div data-elementor-type="wp-page" data-elementor-id="4349" class="elementor elementor-4349">
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-2a6c58c elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="2a6c58c" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c9d8740"
-                    data-id="c9d8740" data-element_type="column">
+            class="elementor-section elementor-top-section elementor-element elementor-element-0f115b9 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="0f115b9" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0e6c534"
+                    data-id="0e6c534" data-element_type="column"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-78d6498 elementor-widget elementor-widget-heading"
-                            data-id="78d6498" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-ef65d19 elementor-widget elementor-widget-heading"
+                            data-id="ef65d19" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <style>
                                 /*! elementor - v3.21.0 - 20-05-2024 */
@@ -997,205 +1017,86 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h2 class="elementor-heading-title elementor-size-default">Categories</h2>
+                                <h6 class="elementor-heading-title elementor-size-default">Work management</h6>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-91bb32d elementor-widget elementor-widget-heading"
+                            data-id="91bb32d" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h1 class="elementor-heading-title elementor-size-default">Best business process
+                                    management software in 2024</h1>
                             </div>
                         </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-9cbb325 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="9cbb325" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-1b9d7e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="1b9d7e5" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-1142a40"
-                                    data-id="1142a40" data-element_type="column">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6d74cde"
+                                    data-id="6d74cde" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-fe034a8 elementor-widget elementor-widget-button"
-                                            data-id="fe034a8" data-element_type="widget"
-                                            data-widget_type="button.default">
+                                        <div class="elementor-element elementor-element-4af5308 elementor-widget__width-initial elementor-widget elementor-widget-image"
+                                            data-id="4af5308" data-element_type="widget"
+                                            data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="https://wiseadvizor.com/blog-categories">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Startup
-                                                                Tips</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                <style>
+                                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                                .elementor-widget-image {
+                                                    text-align: center
+                                                }
+
+                                                .elementor-widget-image a {
+                                                    display: inline-block
+                                                }
+
+                                                .elementor-widget-image a img[src$=".svg"] {
+                                                    width: 48px
+                                                }
+
+                                                .elementor-widget-image img {
+                                                    vertical-align: middle;
+                                                    display: inline-block
+                                                }
+                                                </style> <img decoding="async" width="150" height="150"
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-150x150.jpg"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-5883" alt=""
+                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-150x150.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-700x700.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-650x650.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-1300x1300.jpg 1300w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3.jpg 98w"
+                                                    sizes="(max-width: 150px) 100vw, 150px"
+                                                    style="width:100%;height:100%;max-width:98px" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-cc04b52"
-                                    data-id="cc04b52" data-element_type="column">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-62c0ee5"
+                                    data-id="62c0ee5" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-805d795 elementor-widget elementor-widget-button"
-                                            data-id="805d795" data-element_type="widget"
-                                            data-widget_type="button.default">
+                                        <div class="elementor-element elementor-element-0859462 elementor-widget elementor-widget-heading"
+                                            data-id="0859462" data-element_type="widget"
+                                            data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Career Advice</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
+                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
+                                                    | Jan 31, 2024 | 4 min read</p>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-111a3ed"
-                                    data-id="111a3ed" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-653229f elementor-widget elementor-widget-button"
-                                            data-id="653229f" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Mentorship</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-3327ccd"
-                                    data-id="3327ccd" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-ef4c6ec elementor-widget elementor-widget-button"
-                                            data-id="ef4c6ec" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Mentorship</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-7ff7015"
-                                    data-id="7ff7015" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-de4bf21 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="de4bf21" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-0394c6e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="0394c6e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-37eba48"
-                                    data-id="37eba48" data-element_type="column">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6328a06"
+                                    data-id="6328a06" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-86b0ca6 elementor-widget elementor-widget-button"
-                                            data-id="86b0ca6" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-1abaa4f elementor-widget elementor-widget-button"
+                                            data-id="1abaa4f" data-element_type="widget"
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
+                                                        href="https://wiseadvizor.com/registration">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Business Strategy</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1b792ec elementor-widget elementor-widget-button"
-                                            data-id="1b792ec" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Marketing</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-63d2126"
-                                    data-id="63d2126" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-991b9f3 elementor-widget elementor-widget-button"
-                                            data-id="991b9f3" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Business Strategy</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-c299cae"
-                                    data-id="c299cae" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-a36cd62 elementor-widget elementor-widget-button"
-                                            data-id="a36cd62" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Personal
-                                                                Development</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-ff5b36d"
-                                    data-id="ff5b36d" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-d7d0f86 elementor-widget elementor-widget-button"
-                                            data-id="d7d0f86" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Startup Funding</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-74fef0b"
-                                    data-id="74fef0b" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-b2b4ea2 elementor-widget elementor-widget-button"
-                                            data-id="b2b4ea2" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Personal
-                                                                Development</span>
+                                                            <span class="elementor-button-text">Get Started</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1207,52 +1108,44 @@
                         </section>
                     </div>
                 </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2ec9ece"
+                    data-id="2ec9ece" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-476b628 elementor-widget elementor-widget-image"
+                            data-id="476b628" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img fetchpriority="high" decoding="async" width="767" height="384"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1.webp"
+                                    class="attachment-full size-full wp-image-6396" alt=""
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1.webp 767w, https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1-1300x650.webp 1300w"
+                                    sizes="(max-width: 767px) 100vw, 767px"
+                                    style="width:100%;height:50.07%;max-width:767px" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-b93782d elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="b93782d" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-344d6d6 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="344d6d6" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
-                    data-id="ad9b3c4" data-element_type="column">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c225fe8"
+                    data-id="c225fe8" data-element_type="column"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
-                            data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-1b9ae25 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="1b9ae25" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-cde1c51 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="cde1c51" data-element_type="section"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-175a172"
-                                    data-id="175a172" data-element_type="column">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590725"
+                                    data-id="9590725" data-element_type="column"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-8acd220 elementor-widget elementor-widget-heading"
-                                            data-id="8acd220" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-b12b619 elementor-widget elementor-widget-heading"
-                                            data-id="b12b619" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default"><a href="https://wiseadvizor.com/blog-detail-sample">Best business
-                                                    process management software in 2024</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d68302a elementor-widget elementor-widget-text-editor"
-                                            data-id="d68302a" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-ede275a elementor-widget elementor-widget-text-editor"
+                                            data-id="ede275a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <style>
@@ -1288,12 +1181,249 @@
                                                     display: inline-block
                                                 }
                                                 </style>
+                                                <p></p>
+                                                <div>Level up your startup with personalized advice from the
+                                                    world&#8217;s top startup mentors. Overcome roadblocks, gain fresh
+                                                    perspectives, and propel your business forward with 1:1 coaching
+                                                    calls tailored to your specific challenges.<br></div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-617417d elementor-align-justify elementor-widget elementor-widget-button"
+                                            data-id="617417d" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="https://wiseadvizor.com/BrowseMentors">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Find a mentor</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ea06128"
+                    data-id="ea06128" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
+                            data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default">Embarking on a startup journey
+                                    can be both exhilarating and challenging. As an entrepreneur, you're faced with
+                                    numerous decisions, uncertainties, and hurdles along the way. That's where
+                                    mentorship becomes invaluable. In this blog, we will explore the power of mentorship
+                                    and how wiseAdvizor can transform your startup journey</p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
+                            data-id="34a10af" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">The Impact of Mentorship</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-dc0f3cb elementor-widget elementor-widget-text-editor"
+                            data-id="dc0f3cb" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <ol>
+                                    <li>Experience and Expertise: Mentors bring years of industry experience and
+                                        expertise to the table. They have faced similar challenges, made mistakes, and
+                                        learned valuable lessons along the way. Through their guidance, you can avoid
+                                        common pitfalls and accelerate your startup&#8217;s growth.</li>
+                                </ol>
+                                <p> </p>
+                                <ol start="2">
+                                    <li>Networking Opportunities: Mentors have extensive networks of professionals,
+                                        mentors, entrepreneurs, investors, and industry contacts. Through their
+                                        connections, you gain access to potential partners, customers, and resources
+                                        that can fuel your startup&#8217;s success.</li>
+                                </ol>
+                                <p> </p>
+                                <ol start="3">
+                                    <li>Accountability and Support: A mentor provides feedback and support, pushing you
+                                        to set and achieve meaningful goals. They offer a sounding board for your ideas,
+                                        challenge your assumptions, and provide honest feedback to help you make better
+                                        decisions.</li>
+                                </ol>
+                                <p> </p>
+                                <ol start="4">
+                                    <li>Professional Development: Mentorship goes beyond business strategies. It also
+                                        focuses on professional development. Mentors can help you enhance your
+                                        leadership skills, improve communication, and cultivate a growth mindset.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-a7e51b2 elementor-widget elementor-widget-heading"
+                            data-id="a7e51b2" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h3 class="elementor-heading-title elementor-size-default">wiseAdvizor's Unique Approach
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-63d8d34 elementor-widget elementor-widget-text-editor"
+                            data-id="63d8d34" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <ol start="3">
+                                    <li>Tailored Mentor-Matching: wiseAdvizor matches you with mentors who align with
+                                        your specific industry, expertise, and needs. You can browse mentors based on
+                                        expertise, language, reviews from other mentees and many other factors. This
+                                        approach ensures that you receive guidance and insights tailored to your
+                                        startup&#8217;s unique challenges.</li>
+                                </ol>
+                                <p> </p>
+                                <ol start="3">
+                                    <li>Diverse Mentor Network: wiseAdvizor has a diverse network of mentors from
+                                        various industries, ensuring you can find someone with the right background and
+                                        experience to support your journey.</li>
+                                </ol>
+                                <p> </p>
+                                <ol start="3">
+                                    <li>Resources and Workshops: In addition to one-on-one mentorship, wiseAdvizor
+                                        offers valuable resources, educational content, and workshops to enhance your
+                                        knowledge and skills across various aspects of entrepreneurship.</li>
+                                </ol>
+                                <ol>
+                                    <li style="list-style-type: none;"> </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-e3ec3aa elementor-widget elementor-widget-heading"
+                            data-id="e3ec3aa" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h5 class="elementor-heading-title elementor-size-default">Conclusion
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-1d99bcc elementor-widget elementor-widget-text-editor"
+                            data-id="1d99bcc" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Mentorship is a game-changer for startups, and wiseAdvizor provides a transformative
+                                    platform to connect entrepreneurs with experienced mentors. By leveraging the power
+                                    of mentorship, you can navigate challenges, seize opportunities, and accelerate your
+                                    startup&#8217;s success. Don&#8217;t underestimate the impact that a mentor can have
+                                    on your entrepreneurial journey. Embrace wiseAdvizor and unlock the full potential
+                                    of your startup today.</p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-b56ae5d elementor-widget elementor-widget-text-editor"
+                            data-id="b56ae5d" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Remember, success is not a solo endeavor. Let wiseAdvizor be your trusted partner in
+                                    your entrepreneurial adventure, guiding you towards a brighter and more prosperous
+                                    future.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-eb20226 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="eb20226" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d86f4d9"
+                    data-id="d86f4d9" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-180860c elementor-widget elementor-widget-heading"
+                            data-id="180860c" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h4 class="elementor-heading-title elementor-size-default">Studies show startups with
+                                    mentors achieve growth milestones 2.3 times quicker.</h4>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-4c2a6e2 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="4c2a6e2" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="https://wiseadvizor.com/registration">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Get Started</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-ce66eaa elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="ce66eaa" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-abb4fef"
+                    data-id="abb4fef" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-ae08175 elementor-widget elementor-widget-heading"
+                            data-id="ae08175" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default">Related Posts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-069db09 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="069db09" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
+                    data-id="99a7c4c" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-6047abf elementor-widget elementor-widget-image"
+                            data-id="6047abf" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" width="750" height="375"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
+                                    class="attachment-large size-large wp-image-6398" alt=""
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
+                                    sizes="(max-width: 750px) 100vw, 750px"
+                                    style="width:100%;height:50%;max-width:2400px" />
+                            </div>
+                        </div>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-7003ef1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="7003ef1" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8589e92"
+                                    data-id="8589e92" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-15c3afc elementor-widget elementor-widget-heading"
+                                            data-id="15c3afc" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h6 class="elementor-heading-title elementor-size-default">Work
+                                                    management</h6>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
+                                            data-id="1419ff0" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">Best business
+                                                    process management software in 2024</h4>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-9f5ff1a elementor-widget elementor-widget-text-editor"
+                                            data-id="9f5ff1a" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                                                     tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-226ee96 elementor-widget elementor-widget-heading"
-                                            data-id="226ee96" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-396fad8 elementor-widget elementor-widget-heading"
+                                            data-id="396fad8" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">Rebecca Noori
@@ -1306,13 +1436,13 @@
                         </section>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
-                    data-id="d8d615f" data-element_type="column">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-239d9b0"
+                    data-id="239d9b0" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-0f8a834 elementor-widget elementor-widget-image"
-                            data-id="0f8a834" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-element elementor-element-f75921d elementor-widget elementor-widget-image"
+                            data-id="f75921d" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
+                                <img decoding="async" width="750" height="375"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
                                     class="attachment-large size-large wp-image-6398" alt=""
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
@@ -1321,38 +1451,38 @@
                             </div>
                         </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-2017f1e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="2017f1e" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-71d9594 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="71d9594" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-81b0375"
-                                    data-id="81b0375" data-element_type="column">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a447b04"
+                                    data-id="a447b04" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-bc4b5e3 elementor-widget elementor-widget-heading"
-                                            data-id="bc4b5e3" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-3f370dd elementor-widget elementor-widget-heading"
+                                            data-id="3f370dd" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">Work
                                                     management</h6>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-84492b7 elementor-widget elementor-widget-heading"
-                                            data-id="84492b7" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-62b51df elementor-widget elementor-widget-heading"
+                                            data-id="62b51df" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">Best business
                                                     process management software in 2024</h4>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-767d429 elementor-widget elementor-widget-text-editor"
-                                            data-id="767d429" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-e47a817 elementor-widget elementor-widget-text-editor"
+                                            data-id="e47a817" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                                                     tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-3751f58 elementor-widget elementor-widget-heading"
-                                            data-id="3751f58" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-83f4aa0 elementor-widget elementor-widget-heading"
+                                            data-id="83f4aa0" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">Rebecca Noori
@@ -1365,13 +1495,13 @@
                         </section>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ec0a2d1"
-                    data-id="ec0a2d1" data-element_type="column">
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6aff601"
+                    data-id="6aff601" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-dd9630a elementor-widget elementor-widget-image"
-                            data-id="dd9630a" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-element elementor-element-f9fbfc2 elementor-widget elementor-widget-image"
+                            data-id="f9fbfc2" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
+                                <img decoding="async" width="750" height="375"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
                                     class="attachment-large size-large wp-image-6398" alt=""
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
@@ -1380,406 +1510,38 @@
                             </div>
                         </div>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-eca0e3b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="eca0e3b" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-6518f1e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="6518f1e" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-559014c"
-                                    data-id="559014c" data-element_type="column">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-95c6121"
+                                    data-id="95c6121" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-0c0daf6 elementor-widget elementor-widget-heading"
-                                            data-id="0c0daf6" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-6c26013 elementor-widget elementor-widget-heading"
+                                            data-id="6c26013" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">Work
                                                     management</h6>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-351fe2d elementor-widget elementor-widget-heading"
-                                            data-id="351fe2d" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-87e654f elementor-widget elementor-widget-heading"
+                                            data-id="87e654f" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">Best business
                                                     process management software in 2024</h4>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-fcf8d18 elementor-widget elementor-widget-text-editor"
-                                            data-id="fcf8d18" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-fc0b0a2 elementor-widget elementor-widget-text-editor"
+                                            data-id="fc0b0a2" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                                                     tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-53659f3 elementor-widget elementor-widget-heading"
-                                            data-id="53659f3" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-346729f elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="346729f" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-dba7048"
-                    data-id="dba7048" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6608731 elementor-widget elementor-widget-image"
-                            data-id="6608731" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-5b1547c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="5b1547c" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-251e943"
-                                    data-id="251e943" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-084ed2e elementor-widget elementor-widget-heading"
-                                            data-id="084ed2e" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-dbef97e elementor-widget elementor-widget-heading"
-                                            data-id="dbef97e" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-eef6de7 elementor-widget elementor-widget-text-editor"
-                                            data-id="eef6de7" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d92775d elementor-widget elementor-widget-heading"
-                                            data-id="d92775d" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-eef9d5b"
-                    data-id="eef9d5b" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-f12ced8 elementor-widget elementor-widget-image"
-                            data-id="f12ced8" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-e1b0a3f elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="e1b0a3f" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d3b7518"
-                                    data-id="d3b7518" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-f642118 elementor-widget elementor-widget-heading"
-                                            data-id="f642118" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-c7148fc elementor-widget elementor-widget-heading"
-                                            data-id="c7148fc" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-bbb9c51 elementor-widget elementor-widget-text-editor"
-                                            data-id="bbb9c51" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-17ecb8d elementor-widget elementor-widget-heading"
-                                            data-id="17ecb8d" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8f31084"
-                    data-id="8f31084" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-372b455 elementor-widget elementor-widget-image"
-                            data-id="372b455" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-49cde5e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="49cde5e" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ddccd94"
-                                    data-id="ddccd94" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-3faffb5 elementor-widget elementor-widget-heading"
-                                            data-id="3faffb5" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-86eeecc elementor-widget elementor-widget-heading"
-                                            data-id="86eeecc" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-723e83f elementor-widget elementor-widget-text-editor"
-                                            data-id="723e83f" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-e056ef6 elementor-widget elementor-widget-heading"
-                                            data-id="e056ef6" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-7972e0d elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="7972e0d" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-09431d0"
-                    data-id="09431d0" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-3a51ea9 elementor-widget elementor-widget-image"
-                            data-id="3a51ea9" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-8d23b57 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="8d23b57" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9b859a5"
-                                    data-id="9b859a5" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-3032064 elementor-widget elementor-widget-heading"
-                                            data-id="3032064" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-503905f elementor-widget elementor-widget-heading"
-                                            data-id="503905f" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-8a50d7d elementor-widget elementor-widget-text-editor"
-                                            data-id="8a50d7d" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-a47e40f elementor-widget elementor-widget-heading"
-                                            data-id="a47e40f" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2917d60"
-                    data-id="2917d60" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-bd5b106 elementor-widget elementor-widget-image"
-                            data-id="bd5b106" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-5b22619 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="5b22619" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e17e960"
-                                    data-id="e17e960" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-d340a0d elementor-widget elementor-widget-heading"
-                                            data-id="d340a0d" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-7df7589 elementor-widget elementor-widget-heading"
-                                            data-id="7df7589" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1d9afb6 elementor-widget elementor-widget-text-editor"
-                                            data-id="1d9afb6" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-bd441db elementor-widget elementor-widget-heading"
-                                            data-id="bd441db" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bbb2c83"
-                    data-id="bbb2c83" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-a4ed094 elementor-widget elementor-widget-image"
-                            data-id="a4ed094" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-ec9a33e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="ec9a33e" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-0277d29"
-                                    data-id="0277d29" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-ec871c0 elementor-widget elementor-widget-heading"
-                                            data-id="ec871c0" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-a953a88 elementor-widget elementor-widget-heading"
-                                            data-id="a953a88" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-378aaae elementor-widget elementor-widget-text-editor"
-                                            data-id="378aaae" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1becb70 elementor-widget elementor-widget-heading"
-                                            data-id="1becb70" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-9aa895c elementor-widget elementor-widget-heading"
+                                            data-id="9aa895c" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">Rebecca Noori
@@ -2127,9 +1889,9 @@
                                         <form class="elementor-form" method="post" name="Subscribe Form">
                                             <input type="hidden" name="post_id" value="32" />
                                             <input type="hidden" name="form_id" value="dd4d324" />
-                                            <input type="hidden" name="referer_title" value="FAQ" />
+                                            <input type="hidden" name="referer_title" value="Blog-detail" />
 
-                                            <input type="hidden" name="queried_id" value="2650" />
+                                            <input type="hidden" name="queried_id" value="4349" />
 
                                             <div class="elementor-form-fields-wrapper elementor-labels-above">
                                                 <div
@@ -2654,18 +2416,76 @@
         <div class="elementor-templates-modal__header__logo-area"></div>
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
+		<# if ( closeType ) { #>
+			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
+				<# if ( 'skip' === closeType ) { #>
+				<span>Skip</span>
+				<# } #>
+				<i class="eicon-close" aria-hidden="true"></i>
+				<span class="elementor-screen-only">Close</span>
+			</div>
+		<# } #>
 		<div id="elementor-template-library-header-tools"></div>
 	</div>
 </script>
-    <link rel='stylesheet' id='e-animations-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.21.6'
+
+    <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
+        <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
+		<i class="eicon-elementor"></i>
+	</span>
+	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
+</script>
+    <script type="text/template" id="tmpl-elementor-finder">
+        <div id="elementor-finder__search">
+		<i class="eicon-search" aria-hidden="true"></i>
+		<input id="elementor-finder__search__input" placeholder="Type to find anything in Elementor" autocomplete="off">
+	</div>
+	<div id="elementor-finder__content"></div>
+</script>
+
+    <script type="text/template" id="tmpl-elementor-finder-results-container">
+        <div id="elementor-finder__no-results">No Results Found</div>
+	<div id="elementor-finder__results"></div>
+</script>
+
+    <script type="text/template" id="tmpl-elementor-finder__results__category">
+        <div class="elementor-finder__results__category__title">{{{ title }}}</div>
+	<div class="elementor-finder__results__category__items"></div>
+</script>
+
+    <script type="text/template" id="tmpl-elementor-finder__results__item">
+        <a href="{{ url }}" class="elementor-finder__results__item__link">
+		<div class="elementor-finder__results__item__icon">
+			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
+		</div>
+		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
+		<# if ( description ) { #>
+			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
+		<# } #>
+
+		<# if ( lock ) { #>
+		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
+		<# } #>
+	</a>
+	<# if ( actions.length ) { #>
+		<div class="elementor-finder__results__item__actions">
+		<# jQuery.each( actions, function() { #>
+			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
+				<i class="eicon-{{{ this.icon }}}"></i>
+			</a>
+		<# } ); #>
+		</div>
+	<# } #>
+</script>
+    <link rel='stylesheet' id='hfe-widgets-style-css'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
         media='all' />
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
-    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+        id="wp-polyfill-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
         id="wp-dom-ready-js"></script>
     <script id="starter-templates-zip-preview-js-extra">
@@ -2706,8 +2526,8 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
-    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
+        id="wp-hooks-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
@@ -2721,7 +2541,7 @@
         id="wp-api-fetch-js"></script>
     <script id="wp-api-fetch-js-after">
     wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://wiseadvizor.com/wp-json/"));
-    wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("8534adba64");
+    wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("57a7cdee92");
     wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
     wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
     wp.apiFetch.nonceEndpoint = "https://wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
@@ -2744,7 +2564,8 @@
         id="wp-priority-queue-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
         id="wp-compose-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
+    </script>
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
@@ -2846,10 +2667,10 @@
     <script id="zip-ai-sidebar-js-extra">
     var zip_ai_react = {
         "ajax_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "ajax_nonce": "17ffe2f5c6",
-        "admin_nonce": "b8e46cdb70",
-        "current_post_id": "2650",
-        "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fweb.wiseadvizor.com%2Fwp-admin%2F%3Fnonce%3Da57b05edb1%26scs-authorize%3Dtrue",
+        "ajax_nonce": "1a1def056b",
+        "admin_nonce": "c2296213a4",
+        "current_post_id": "4349",
+        "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fweb.wiseadvizor.com%2Fwp-admin%2F%3Fnonce%3D24ef695c9a%26scs-authorize%3Dtrue",
         "is_authorized": "",
         "is_ai_assistant_enabled": "1",
         "is_customize_preview": "",
@@ -2889,7 +2710,7 @@
             "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
             "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
-        "nonce": "8534adba64",
+        "nonce": "57a7cdee92",
         "version": "3.21.6"
     };
     var elementorWebCliConfig = {
@@ -2898,7 +2719,7 @@
             "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
             "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
-        "nonce": "8534adba64",
+        "nonce": "57a7cdee92",
         "version": "3.21.6"
     };
     </script>
@@ -2909,11 +2730,12 @@
     <script id="wp-api-request-js-extra">
     var wpApiSettings = {
         "root": "https:\/\/web.wiseadvizor.com\/wp-json\/",
-        "nonce": "8534adba64",
+        "nonce": "57a7cdee92",
         "versionString": "wp\/v2\/"
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
+    </script>
     <script id="elementor-dev-tools-js-before">
     var elementorDevToolsConfig = {
         "isDebug": true,
@@ -3024,7 +2846,7 @@
         },
         "ajax": {
             "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-            "nonce": "4aa0a57e29"
+            "nonce": "aeb1f15428"
         },
         "finder": {
             "data": {
@@ -3092,97 +2914,97 @@
                         "page": {
                             "title": "Add New Page Template",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New Page Template", "post", "page", "template", "new", "create"]
                         },
                         "section": {
                             "title": "Add New Section",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=section",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=section",
                             "keywords": ["Add New Section", "post", "page", "template", "new", "create"]
                         },
                         "wp-post": {
                             "title": "Add New Post",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New Post", "post", "page", "template", "new", "create"]
                         },
                         "wp-page": {
                             "title": "Add New Page",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New Page", "post", "page", "template", "new", "create"]
                         },
                         "wpr-theme-builder": {
                             "title": "Add New WPR Theme Builder",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New WPR Theme Builder", "post", "page", "template", "new", "create"]
                         },
                         "wpr-popups": {
                             "title": "Add New WPR Popup",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New WPR Popup", "post", "page", "template", "new", "create"]
                         },
                         "landing-page": {
                             "title": "Add New Landing Page",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=f0aec7bb16#library",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=a37c47ee6a#library",
                             "keywords": ["Add New Landing Page", "post", "page", "template", "new", "create"]
                         },
                         "popup": {
                             "title": "Add New Popup",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=popup",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=popup",
                             "keywords": ["Add New Popup", "post", "page", "template", "new", "create"]
                         },
                         "header": {
                             "title": "Add New Header",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=header",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=header",
                             "keywords": ["Add New Header", "post", "page", "template", "new", "create"]
                         },
                         "footer": {
                             "title": "Add New Footer",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=footer",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=footer",
                             "keywords": ["Add New Footer", "post", "page", "template", "new", "create"]
                         },
                         "single": {
                             "title": "Add New Single",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=single",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=single",
                             "keywords": ["Add New Single", "post", "page", "template", "new", "create"]
                         },
                         "single-post": {
                             "title": "Add New Single Post",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=single-post",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=single-post",
                             "keywords": ["Add New Single Post", "post", "page", "template", "new", "create"]
                         },
                         "single-page": {
                             "title": "Add New Single Page",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=single-page&_elementor_template_sub_type=page",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=single-page&_elementor_template_sub_type=page",
                             "keywords": ["Add New Single Page", "post", "page", "template", "new", "create"]
                         },
                         "archive": {
                             "title": "Add New Archive",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=archive",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=archive",
                             "keywords": ["Add New Archive", "post", "page", "template", "new", "create"]
                         },
                         "search-results": {
                             "title": "Add New Search Results",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=search-results&_elementor_template_sub_type=search",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=search-results&_elementor_template_sub_type=search",
                             "keywords": ["Add New Search Results", "post", "page", "template", "new", "create"]
                         },
                         "error-404": {
                             "title": "Add New Error 404",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=error-404&_elementor_template_sub_type=not_found404",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=error-404&_elementor_template_sub_type=not_found404",
                             "keywords": ["Add New Error 404", "post", "page", "template", "new", "create"]
                         },
                         "code_snippet": {
@@ -3194,13 +3016,13 @@
                         "wpr_templates": {
                             "title": "Add New Royal Templates",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New Royal Templates", "post", "page", "template", "new", "create"]
                         },
                         "elementor-hf": {
                             "title": "Add New Elementor Header &amp; Footer Builder",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New Elementor Header &amp; Footer Builder", "post", "page",
                                 "template", "new", "create"
                             ]
@@ -3208,7 +3030,7 @@
                         "wpr_mega_menu": {
                             "title": "Add New Royal Mega Menu",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=f0aec7bb16",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=a37c47ee6a",
                             "keywords": ["Add New Royal Mega Menu", "post", "page", "template", "new", "create"]
                         },
                         "theme-template": {
@@ -3389,9 +3211,6 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
         id="elementor-app-loader-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.33"
-        id="hfe-frontend-js-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
         "tpgb_edit_template": []
@@ -3404,7 +3223,8 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3524,8 +3344,8 @@
             "lightbox_description_src": "description"
         },
         "post": {
-            "id": 2650,
-            "title": "FAQ%20%E2%80%93%20WISE%20ADVIZOR",
+            "id": 4349,
+            "title": "Blog-detail%20%E2%80%93%20WISE%20ADVIZOR",
             "excerpt": "",
             "featuredImage": false
         },
@@ -3545,7 +3365,7 @@
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
         "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "nonce": "682f8d53d0",
+        "nonce": "6871a6bb83",
         "urls": {
             "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
             "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
@@ -3626,19 +3446,20 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
         "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
         "resturl": "https:\/\/web.wiseadvizor.com\/wp-json\/wpraddons\/v1",
-        "nonce": "91860fdb37",
+        "nonce": "c26142c407",
         "addedToCartText": "was added to cart",
         "viewCart": "View Cart",
         "comparePageID": "",
-        "comparePageURL": "https:\/\/web.wiseadvizor.com\/faq\/",
+        "comparePageURL": "https:\/\/web.wiseadvizor.com\/blogs\/blog-detail\/",
         "wishlistPageID": "",
-        "wishlistPageURL": "https:\/\/web.wiseadvizor.com\/faq\/",
+        "wishlistPageURL": "https:\/\/web.wiseadvizor.com\/blogs\/blog-detail\/",
         "chooseQuantityText": "Please select the required number of items.",
         "site_key": "",
         "is_admin": "1",
@@ -3679,29 +3500,23 @@
         "elementor_edit_page": {
             "id": "elementor_edit_page",
             "title": "Edit with Elementor",
-            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=2650&action=elementor",
+            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=4349&action=elementor",
             "children": {
-                "3007": {
-                    "id": "elementor_edit_doc_3007",
-                    "title": "Header New",
-                    "sub_title": "Post",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=3007&action=elementor"
-                },
                 "32": {
                     "id": "elementor_edit_doc_32",
                     "title": "Footer",
                     "sub_title": "Post",
                     "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=32&action=elementor"
                 },
-                "3008": {
+                "33": {
                     "id": "elementor_site_settings",
                     "title": "Site Settings",
                     "sub_title": "Site",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=2650&action=elementor&active-document=5",
+                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=4349&action=elementor&active-document=5",
                     "class": "elementor-site-settings",
                     "parent_class": "elementor-second-section"
                 },
-                "3009": {
+                "34": {
                     "id": "elementor_app_site_editor",
                     "title": "Theme Builder",
                     "sub_title": "Site",
@@ -3713,7 +3528,8 @@
         }
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
