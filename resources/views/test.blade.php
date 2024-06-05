@@ -897,22 +897,23 @@
                                     <div class="elementor-slides-wrapper elementor-main-swiper swiper-container"
                                         dir="ltr" data-animation="fadeInUp">
                                         <div class="swiper-wrapper elementor-slides">
+                                            @foreach ($featured_blogs as $featured_blog)
                                             <div class="elementor-repeater-item-31a3e7d swiper-slide">
                                                 <div class="swiper-slide-bg"></div>
                                                 <div class="swiper-slide-inner">
                                                     <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">Slide 1 Heading</div>
-                                                        <div class="elementor-slide-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipiscing elit dolor</div>
+                                                        <div class="elementor-slide-heading">{{ $featured_blog->title }}</div>
+                                                        <div class="elementor-slide-description">{{ Str::of($featured_blog->description)->words(9, ' ....') }}</div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories">Read
+                                                            <a href="{{ route('blog-detail', [$featured_blog->id]) }}">Read
                                                                 more</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="elementor-repeater-item-7e1fdd2 swiper-slide">
+                                            @endforeach
+                                            <!-- <div class="elementor-repeater-item-7e1fdd2 swiper-slide">
                                                 <div class="swiper-slide-bg"></div>
                                                 <div class="swiper-slide-inner">
                                                     <div class="swiper-slide-contents">
@@ -941,7 +942,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
@@ -1247,8 +1248,9 @@
                                             data-id="b12b619" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default"><a href="https://wiseadvizor.com/blog-detail-sample">Best business
-                                                    process management software in 2024</a></h4>
+                                                <h4 class="elementor-heading-title elementor-size-default"><a
+                                                        href="https://wiseadvizor.com/blog-detail-sample">Best business
+                                                        process management software in 2024</a></h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-d68302a elementor-widget elementor-widget-text-editor"
