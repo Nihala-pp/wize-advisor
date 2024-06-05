@@ -868,6 +868,11 @@ class HomeController extends Controller
     return view('test');
   }
 
+  public function blogSample()
+  {
+       return view('test');
+  }
+
   public function completedCalls()
   {
 
