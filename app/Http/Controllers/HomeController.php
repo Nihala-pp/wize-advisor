@@ -331,11 +331,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-      alert("Be a Mentor Requested Successfully!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfully!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
@@ -870,7 +870,9 @@ class HomeController extends Controller
 
   public function blogSample()
   {
-       return view('test');
+    $blogs = Blogs::get();
+
+     return view('test', compact('blogs'));
   }
 
   public function completedCalls()
@@ -1034,11 +1036,11 @@ class HomeController extends Controller
     ]);
 
     ?>
-    <script type="text/javascript">
-      alert("Subscribed to the newsletter!");
-      window.location.href = "https://wiseadvizor.com";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Subscribed to the newsletter!");
+window.location.href = "https://wiseadvizor.com";
+</script>
+<?php
   }
 
   public function saveWebinar(Request $request)
@@ -1062,11 +1064,11 @@ class HomeController extends Controller
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-    <script type="text/javascript">
-      alert("Your slot registration has been submitted!");
-      window.location.href = "https://learning.wiseadvizor.com";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Your slot registration has been submitted!");
+window.location.href = "https://learning.wiseadvizor.com";
+</script>
+<?php
   }
 
   public function ask_question(Request $request)
@@ -1090,11 +1092,11 @@ class HomeController extends Controller
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-    <script type="text/javascript">
-      alert("Your query has been submitted!");
-      window.location.href = "https://wiseadvizor.com/faq";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Your query has been submitted!");
+window.location.href = "https://wiseadvizor.com/faq";
+</script>
+<?php
   }
 
   public function blogCategories()
