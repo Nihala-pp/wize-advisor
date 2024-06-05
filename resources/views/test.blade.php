@@ -1299,8 +1299,8 @@
                                             data-id="226ee96" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $related_post->author_name }}
-                                                     | {{ $related_post->time_to_read }} read</p>
+                                                <p class="elementor-heading-title elementor-size-default">{{ $blog->author_name }}
+                                                     | {{ $blog->time_to_read }} read</p>
                                             </div>
                                         </div>
                                     </div>
