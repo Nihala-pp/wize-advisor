@@ -903,7 +903,7 @@
                                                 <div class="swiper-slide-inner">
                                                     <div class="swiper-slide-contents">
                                                         <div class="elementor-slide-heading">{{ $featured_blog->title }}</div>
-                                                        <div class="elementor-slide-description">{{ Str::of(strip_tags($featured_blog->description))->words(9, ' ....') }}</div>
+                                                        <div class="elementor-slide-description">{{ Str::of(strip_tags($featured_blog->description))->words(10, ' ....') }}</div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
                                                             <a href="{{ route('blog-detail', [$featured_blog->id]) }}">Read
