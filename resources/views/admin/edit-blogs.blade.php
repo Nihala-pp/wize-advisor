@@ -184,7 +184,7 @@
                                     <label>Category</label>
                                     <select class="select form-control" name="category_id" required>
                                         @foreach ($category as $cat)
-                                        <option value="{{ $cat->id }}">
+                                        <option value="{{ $cat->id }}" {{ $blogs->category_id == $cat->id  ? 'selected' : '' }}>
                                             {{ $cat->name }}
                                         </option>
                                         @endforeach
@@ -192,11 +192,11 @@
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Author Name</label>
-                                    <input type="text" name="author_name" class="form-control">
+                                    <input type="text" name="author_name" class="form-control" value="{{ $blogs->author_name ?? '' }}">
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Time to read</label>
-                                    <input type="number" name="time_to_read" class="form-control">
+                                    <input type="number" name="time_to_read" class="form-control" value="{{ $blogs->time_to_read ?? '' }}">
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Featured Image</label>
