@@ -172,13 +172,35 @@
                                     <label>Title</label>
                                     <input type="text" name="title" class="form-control" value="{{ $blogs->title ?? '' }}">
                                 </div>
-                                <div class="input-group input-group-static mb-4">
+                                <!-- <div class="input-group input-group-static mb-4">
                                     <label>Introduction</label>
                                     <textarea id="summernote_1" name="introduction" class="form-control">{{ $blogs->intro ?? '' }}</textarea>
-                                </div>
+                                </div> -->
                                 <div class="input-group input-group-static mb-4">
                                     <label>Description</label>
                                     <textarea id="summernote" name="description" class="form-control">{{ $blogs->description ?? '' }}</textarea>
+                                </div>
+                                <div class="input-group input-group-static mb-4">
+                                    <label>Category</label>
+                                    <select class="select form-control" name="category_id" required>
+                                        @foreach ($category as $cat)
+                                        <option value="{{ $cat->id }}">
+                                            {{ $cat->name }}
+                                        </option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                                <div class="input-group input-group-static mb-4">
+                                    <label>Author Name</label>
+                                    <input type="text" name="author_name" class="form-control">
+                                </div>
+                                <div class="input-group input-group-static mb-4">
+                                    <label>Time to read</label>
+                                    <input type="number" name="time_to_read" class="form-control">
+                                </div>
+                                <div class="input-group input-group-static mb-4">
+                                    <label>Featured Image</label>
+                                    <input type="file" name="featured_image" class="form-control">
                                 </div>
                                 <div class="input-group input-group-static mb-4">
                                     <label>Image</label>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Mail\CredentialEmail;
 use App\Mail\TaskCreationMail;
+use App\Models\BlogCategories;
 use App\Models\Blogs;
 use App\Models\Expertise;
 use App\Models\ExpertiseList;
@@ -455,8 +456,9 @@ class AdminController extends Controller
     public function blogs()
     {
         $blogs = Blogs::get();
+        $category = BlogCategories::get();
 
-        return view('admin.blogs', compact('blogs'));
+        return view('admin.blogs', compact('blogs', 'category'));
     }
 
     public function saveBlogs(Request $request)
