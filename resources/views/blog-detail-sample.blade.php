@@ -874,9 +874,9 @@
                             data-id="476b628" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="767" height="384"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1.webp"
+                                    src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}"
                                     class="attachment-full size-full wp-image-6396" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1.webp 767w, https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Idea_Light-Yellow-1-1300x650.webp 1300w"
+                                    srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 767w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 1300w"
                                     sizes="(max-width: 767px) 100vw, 767px"
                                     style="width:100%;height:50.07%;max-width:767px" />
                             </div>
