@@ -833,7 +833,7 @@
                                                     {{ $selectedBlog->author_name }}
                                                     |
                                                     {{ Carbon\Carbon::parse($selectedBlog->created_at)->format('jS F\\, Y') }}
-                                                    | {{ $selectedBlog->time_to_read }} read</p>
+                                                    | {{ $selectedBlog->time_to_read }} min read</p>
                                             </div>
                                         </div>
                                     </div>
