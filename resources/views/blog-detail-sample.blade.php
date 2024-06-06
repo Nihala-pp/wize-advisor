@@ -1109,7 +1109,7 @@
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
                                                     {{ $related_post->author_name }}
-                                                    | {{ $related_post->time_to_read }} read</p>
+                                                    | {{ $related_post->time_to_read }} min read</p>
                                             </div>
                                         </div>
                                     </div>
