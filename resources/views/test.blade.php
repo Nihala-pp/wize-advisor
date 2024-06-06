@@ -1221,8 +1221,8 @@
                 <div class="row row row-cols-1 row-cols-md-2 g-4">
                     @foreach($blogs as $blog)
                     <div class="col">
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
-                            data-id="ad9b3c4" data-element_type="row">
+                        <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
+                            data-id="ad9b3c4" data-element_type="row"> -->
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
                                     data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
@@ -1316,7 +1316,7 @@
                                     </div>
                                 </section>
                             </div>
-                        </div>
+                        <!-- </div> -->
                     </div>
                     @endforeach
                 </div>
