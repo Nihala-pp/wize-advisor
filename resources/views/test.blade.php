@@ -1299,7 +1299,7 @@
                                                         display: inline-block
                                                     }
                                                     </style>
-                                                    <p>{{ Str::of(strip_tags($blog->description))->words(15, ' ....') }}
+                                                    <p>{{ Str::of(strip_tags($blog->description))->words(14, ' ....') }}
                                                     </p>
                                                 </div>
                                             </div>
