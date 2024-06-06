@@ -872,6 +872,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
   {
     $blogs = Blogs::get();
     $featured_blogs = Blogs::where('is_featured',1)->latest()->take(3)->get();
+    $section1 = 
     
      return view('test', compact('blogs','featured_blogs'));
   }
