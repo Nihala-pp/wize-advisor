@@ -1213,13 +1213,13 @@
                 </div>
             </div>
         </section>
+      @foreach($blogs as $blog)
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b93782d elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="b93782d" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="row">
-                    @foreach($blogs as $blog)
                       <!-- <div class="col-xl-4 col-md-4 mb-xl-0 mb-4"> -->
                         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
                             data-id="ad9b3c4" data-element_type="column">
@@ -1316,7 +1316,6 @@
                             </div>
                         </div>
                        <!-- </div> -->
-                    @endforeach
                 </div>
                 <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
                     data-id="d8d615f" data-element_type="column">
@@ -1437,8 +1436,9 @@
                     </div>
                 </div> -->
             </div>
-            <!-- </section>
-        <section
+        </section>
+      @endforech
+          <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-346729f elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="346729f" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
