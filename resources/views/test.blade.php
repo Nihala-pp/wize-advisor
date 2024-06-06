@@ -1315,9 +1315,9 @@
                                 </section>
                             </div>
                         </div>
-                       </div>
+                       <!-- </div> -->
                     @endforeach
-                <!-- </div> -->
+                </div>
                 <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
                     data-id="d8d615f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
