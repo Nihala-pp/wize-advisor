@@ -466,12 +466,19 @@ class AdminController extends Controller
         $pro_pic = time() . '.' . $request->image->getClientOriginalExtension();
         $request->image->move(public_path('wp-content/uploads/2023/07'), $pro_pic);
 
+        $featured = time() . '.' . $request->featured_image->getClientOriginalExtension();
+        $request->featured_image->move(public_path('wp-content/uploads/2024/06'), $featured);
+
         Blogs::updateOrCreate(
             ['id' => $request->row_id],
             [
                 'user_id' => Auth::id(),
                 'title' => $request->title,
-                'intro' => $request->introduction,
+                // 'intro' => $request->introduction,
+                'featured_image' => $featured,
+                'author_name' => $request->author_name,
+                'time_to_read' => $request->time_to_read,
+                'category_id' => $request->category_id,
                 'description' => $request->description,
                 'image' => $pro_pic,
             ]
