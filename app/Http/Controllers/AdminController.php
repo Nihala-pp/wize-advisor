@@ -500,8 +500,9 @@ class AdminController extends Controller
     public function editBlogs($id)
     {
         $blogs = Blogs::find($id);
+        $category = BlogCategories::get();
 
-        return view('admin.edit-blogs', compact('blogs'));
+        return view('admin.edit-blogs', compact('blogs', 'category'));
     }
 
     public function approveReviews(Request $request)
