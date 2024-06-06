@@ -1218,7 +1218,7 @@
             data-id="b93782d" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="row">
+                < class="row">
                     @foreach($blogs as $blog)
                     <div class="col-md-4 col-sm-4 col-xs-4">
                         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ad9b3c4"
@@ -1316,11 +1316,12 @@
                                     </div>
                                 </section>
                             </div>
-                        </div </div>
+                        </div>
                     </div>
-                    @endforeach
-                </div>
-                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
+            </div>
+            @endforeach
+    </div>
+    <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
                     data-id="d8d615f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div 34class="elementor-element elementor-element-0f8a834 elementor-widget elementor-widget-image"
@@ -1438,9 +1439,9 @@
                         </section>
                     </div>
                 </div> -->
-            </div>
-        </section>
-        <!-- <section
+    </div>
+    </section>
+    <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-346729f elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="346729f" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
