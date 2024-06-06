@@ -1083,29 +1083,33 @@
                                             data-id="15c3afc" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">{{ $related_post->category->name }}</h6>
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                    {{ $related_post->category->name }}</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
                                             data-id="1419ff0" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">{{ $related_post->title }}</h4>
+                                                <h4 class="elementor-heading-title elementor-size-default">
+                                                    {{ $related_post->title }}</h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-9f5ff1a elementor-widget elementor-widget-text-editor"
                                             data-id="9f5ff1a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Str::of(strip_tags($related_post->description))->words(18, ' ....') }}</p>
+                                                <p>{{ Str::of(strip_tags($related_post->description))->words(18, ' ....') }}
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-396fad8 elementor-widget elementor-widget-heading"
                                             data-id="396fad8" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">{{ $related_post->author_name }}
-                                                     | {{ $related_post->time_to_read }} read</p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    {{ $related_post->author_name }}
+                                                    | {{ $related_post->time_to_read }} read</p>
                                             </div>
                                         </div>
                                     </div>
@@ -3154,3 +3158,13 @@
 </body>
 
 </html>
+<style>
+.elementor-4349 .elementor-element.elementor-element-dc0f3cb {
+    margin-top: 35px;
+    text-align: left;
+    color: #000000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+</style>
