@@ -1222,7 +1222,7 @@
                     @foreach($blogs as $blog)
                       <!-- <div class="col-xl-4 col-md-4 mb-xl-0 mb-4"> -->
                         <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
-                            data-id="ad9b3c4" data-element_type="row">
+                            data-id="ad9b3c4" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
                                     data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
