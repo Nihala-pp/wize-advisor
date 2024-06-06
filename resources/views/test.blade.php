@@ -1218,9 +1218,9 @@
             data-id="b93782d" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                @foreach($blogs as $blog)
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-4">
+                    @foreach($blogs as $blog)
+                    <div class="col-md-4 col-sm-8 col-xs-12">
                         <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ad9b3c4"
                             data-id="ad9b3c4" data-element_type="row">
                             <div class="elementor-widget-wrap elementor-element-populated">
@@ -1318,8 +1318,8 @@
                             </div>
                         </div </div>
                     </div>
+                    @endforeach
                 </div>
-                @endforeach
                 <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d8d615f"
                     data-id="d8d615f" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
