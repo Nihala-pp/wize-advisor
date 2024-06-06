@@ -813,9 +813,9 @@
                                                     display: inline-block
                                                 }
                                                 </style> <img decoding="async" width="150" height="150"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-150x150.jpg"
+                                                    src="{{ asset('wp-content/uploads/2024/05/BluePNG.png') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-5883" alt=""
-                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-150x150.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-700x700.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-650x650.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3-1300x1300.jpg 1300w, https://wiseadvizor.com/wp-content/uploads/2024/05/8_About_Business_Consulting_Company-Testimonials_3.jpg 98w"
+                                                    srcset="{{ asset('wp-content/uploads/2024/05/BluePNG.png') }} 150w, {{ asset('wp-content/uploads/2024/05/BluePNG.png') }} 700w, {{ asset('wp-content/uploads/2024/05/BluePNG.png') }} 650w, {{ asset('wp-content/uploads/2024/05/BluePNG.png') }} 1300w, {{ asset('wp-content/uploads/2024/05/BluePNG.png') }} 98w"
                                                     sizes="(max-width: 150px) 100vw, 150px"
                                                     style="width:100%;height:100%;max-width:98px" />
                                             </div>
