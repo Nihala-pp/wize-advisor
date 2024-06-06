@@ -1220,7 +1220,7 @@
             data-id="b93782d" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="row row row-cols-1 row-cols-md-2 g-4">
+                <div class="row row row-cols-1 row-cols-md-3 g-4">
                     @foreach($blogs as $blog)
                     <div class="col">
                         <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ad9b3c4"
@@ -1309,7 +1309,7 @@
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
                                                         {{ $blog->author_name ?? '' }}
-                                                        | {{ $blog->time_to_read ?? '' }} read
+                                                        | {{ $blog->time_to_read ?? '' }} min read
                                                     </p>
                                                 </div>
                                             </div>
