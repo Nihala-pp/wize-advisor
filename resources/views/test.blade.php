@@ -1230,7 +1230,7 @@
                                 data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
                                     <img fetchpriority="high" decoding="async" width="750" height="375"
-                                        src="https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
+                                        src="https://wiseadvizor.com/public/wp-content/uploads/2024/06/".{{ }}
                                         class="attachment-large size-large wp-image-6398" alt=""
                                         srcset="https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/public/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
                                         sizes="(max-width: 750px) 100vw, 750px"
