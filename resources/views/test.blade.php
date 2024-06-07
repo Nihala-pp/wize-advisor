@@ -1020,7 +1020,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="https://wiseadvizor.com/blog-categories">
+                                                        href="{{ route('blogCategories', [ $category->id ]) }}">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-text">{{ $category->name }}</span>
                                                         </span>
