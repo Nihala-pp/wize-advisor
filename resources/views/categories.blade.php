@@ -714,136 +714,136 @@
                 <div class="row row row-cols-1 row-cols-md-3 g-4">
                     @foreach($blogs as $blog)
                     <div class="col">
-                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9fc6753"
-                            data-id="9fc6753" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-d406f39 elementor-widget elementor-widget-image"
-                                    data-id="d406f39" data-element_type="widget" data-widget_type="image.default">
-                                    <div class="elementor-widget-container">
-                                        <img fetchpriority="high" decoding="async" width="750" height="375"
-                                            src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                            class="attachment-large size-large wp-image-6398" alt=""
-                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                            sizes="(max-width: 750px) 100vw, 750px"
-                                            style="width:100%;height:50%;max-width:2400px" />
-                                    </div>
+                        <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9fc6753" -->
+                        <!-- data-id="9fc6753" data-element_type="column"> -->
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-d406f39 elementor-widget elementor-widget-image"
+                                data-id="d406f39" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img fetchpriority="high" decoding="async" width="750" height="375"
+                                        src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
+                                        class="attachment-large size-large wp-image-6398" alt=""
+                                        srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
+                                        sizes="(max-width: 750px) 100vw, 750px"
+                                        style="width:100%;height:50%;max-width:2400px" />
                                 </div>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-d984a72 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                    data-id="d984a72" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-42f78e9"
-                                            data-id="42f78e9" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-51ab099 elementor-widget elementor-widget-heading"
-                                                    data-id="51ab099" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                        /*! elementor - v3.21.0 - 20-05-2024 */
-                                                        .elementor-heading-title {
-                                                            padding: 0;
-                                                            margin: 0;
-                                                            line-height: 1
-                                                        }
+                            </div>
+                            <section
+                                class="elementor-section elementor-inner-section elementor-element elementor-element-d984a72 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                data-id="d984a72" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-42f78e9"
+                                        data-id="42f78e9" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-51ab099 elementor-widget elementor-widget-heading"
+                                                data-id="51ab099" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <style>
+                                                    /*! elementor - v3.21.0 - 20-05-2024 */
+                                                    .elementor-heading-title {
+                                                        padding: 0;
+                                                        margin: 0;
+                                                        line-height: 1
+                                                    }
 
-                                                        .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                            color: inherit;
-                                                            font-size: inherit;
-                                                            line-height: inherit
-                                                        }
+                                                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                        color: inherit;
+                                                        font-size: inherit;
+                                                        line-height: inherit
+                                                    }
 
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                            font-size: 15px
-                                                        }
+                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                        font-size: 15px
+                                                    }
 
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                            font-size: 19px
-                                                        }
+                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                        font-size: 19px
+                                                    }
 
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                            font-size: 29px
-                                                        }
+                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                        font-size: 29px
+                                                    }
 
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                            font-size: 39px
-                                                        }
+                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                        font-size: 39px
+                                                    }
 
-                                                        .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                            font-size: 59px
-                                                        }
-                                                        </style>
-                                                        <h6 class="elementor-heading-title elementor-size-default">Work
-                                                            management</h6>
-                                                    </div>
+                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                        font-size: 59px
+                                                    }
+                                                    </style>
+                                                    <h6 class="elementor-heading-title elementor-size-default">Work
+                                                        management</h6>
                                                 </div>
-                                                <div class="elementor-element elementor-element-553eb28 elementor-widget elementor-widget-heading"
-                                                    data-id="553eb28" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <h4 class="elementor-heading-title elementor-size-default">Best
-                                                            business
-                                                            process management software in 2024</h4>
-                                                    </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-553eb28 elementor-widget elementor-widget-heading"
+                                                data-id="553eb28" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h4 class="elementor-heading-title elementor-size-default">Best
+                                                        business
+                                                        process management software in 2024</h4>
                                                 </div>
-                                                <div class="elementor-element elementor-element-8e68af1 elementor-widget elementor-widget-text-editor"
-                                                    data-id="8e68af1" data-element_type="widget"
-                                                    data-widget_type="text-editor.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                        /*! elementor - v3.21.0 - 20-05-2024 */
-                                                        .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                                            background-color: #69727d;
-                                                            color: #fff
-                                                        }
+                                            </div>
+                                            <div class="elementor-element elementor-element-8e68af1 elementor-widget elementor-widget-text-editor"
+                                                data-id="8e68af1" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <style>
+                                                    /*! elementor - v3.21.0 - 20-05-2024 */
+                                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                        background-color: #69727d;
+                                                        color: #fff
+                                                    }
 
-                                                        .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                                            color: #69727d;
-                                                            border: 3px solid;
-                                                            background-color: transparent
-                                                        }
+                                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                        color: #69727d;
+                                                        border: 3px solid;
+                                                        background-color: transparent
+                                                    }
 
-                                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                                            margin-top: 8px
-                                                        }
+                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                        margin-top: 8px
+                                                    }
 
-                                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                                            width: 1em;
-                                                            height: 1em
-                                                        }
+                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                        width: 1em;
+                                                        height: 1em
+                                                    }
 
-                                                        .elementor-widget-text-editor .elementor-drop-cap {
-                                                            float: left;
-                                                            text-align: center;
-                                                            line-height: 1;
-                                                            font-size: 50px
-                                                        }
+                                                    .elementor-widget-text-editor .elementor-drop-cap {
+                                                        float: left;
+                                                        text-align: center;
+                                                        line-height: 1;
+                                                        font-size: 50px
+                                                    }
 
-                                                        .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                                            display: inline-block
-                                                        }
-                                                        </style>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                                            elit
-                                                            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                                        </p>
-                                                    </div>
+                                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                        display: inline-block
+                                                    }
+                                                    </style>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                                                        elit
+                                                        tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                                    </p>
                                                 </div>
-                                                <div class="elementor-element elementor-element-261e8bf elementor-widget elementor-widget-heading"
-                                                    data-id="261e8bf" data-element_type="widget"
-                                                    data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">
-                                                            Rebecca Noori
-                                                            | 4 min read</p>
-                                                    </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-261e8bf elementor-widget elementor-widget-heading"
+                                                data-id="261e8bf" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <p class="elementor-heading-title elementor-size-default">
+                                                        Rebecca Noori
+                                                        | 4 min read</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </section>
-                            </div>
+                                </div>
+                            </section>
                         </div>
+                        <!-- </div> -->
                     </div>
                     @endforeach
                 </div>
@@ -3063,4 +3063,5 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
+
 </html>
