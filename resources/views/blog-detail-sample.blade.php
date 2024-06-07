@@ -1084,7 +1084,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $related_post->category->name }}</h6>
+                                                <a href="{{ route('blogCategories', [$related_post->category_id, $related_post->category->name]) }}">{{ $related_post->category->name }}</a></h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
