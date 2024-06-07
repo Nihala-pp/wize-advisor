@@ -3793,4 +3793,11 @@
     margin-top: 20px;
     border-radius: 5px 5px 0px 0px;
 }
+
+.ehf-header #masthead {
+    margin-top: -35px;
+    z-index: 99;
+    position: relative;
+}
+
 </style>
