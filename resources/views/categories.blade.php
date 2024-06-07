@@ -3185,6 +3185,42 @@ i.fas.fa-chevron-down {
     font-weight: 900 !important;
 }
 
+.elementor-6547 .elementor-element.elementor-element-50044cd:not(.elementor-motion-effects-element-type-background), .elementor-6547 .elementor-element.elementor-element-50044cd > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #ECEFF8;
+}
+
+.elementor-6547 .elementor-element.elementor-element-50044cd {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px 0px 45px 0px;
+}
+
+.elementor-6547 .elementor-element.elementor-element-50044cd > .elementor-container {
+    max-width: 720px;
+}
+
+.elementor-6547 .elementor-element.elementor-element-4dd043d {
+    text-align: center;
+}
+
+.elementor-6547 .elementor-element.elementor-element-f6d703c {
+    text-align: center;
+    color: #323338;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.elementor-6547 .elementor-element.elementor-element-4dd043d .elementor-heading-title {
+    color: #323338;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 48px;
+}
+
 @media (max-width: 767px) {
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
