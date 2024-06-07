@@ -3813,6 +3813,16 @@ i.fas.fa-chevron-down {
     font-weight: 900 !important;
 }
 
+.elementor-2650 .elementor-element.elementor-element-df08494 .swiper-slide-inner .elementor-slide-heading:not(:last-child) {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.elementor-2650 .elementor-element.elementor-element-df08494 .swiper-slide-inner .elementor-slide-description:not(:last-child) {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
 @media (max-width: 767px) {
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
