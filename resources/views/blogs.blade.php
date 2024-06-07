@@ -3830,6 +3830,22 @@ i.fas.fa-chevron-down {
         margin-top: 60px;
     }
 
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
     #menu-item-5136 {
         font-size: 8px;
         /* padding-left: 15px; */
@@ -3843,12 +3859,17 @@ i.fas.fa-chevron-down {
         background-color: #fff;
         color: #001E64 !important;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
         margin-left: -60px;
+    }
+
+    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
+        background-color: #fff !important;
     }
 
     .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
@@ -3872,5 +3893,14 @@ i.fas.fa-chevron-down {
         border-radius: 7px 7px 7px 7px;
     }
 
+
+
+}
+
+@media (max-width: 280px) {
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
 }
 </style>
