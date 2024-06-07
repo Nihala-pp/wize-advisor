@@ -663,7 +663,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function blogs()
   {
-    $blogs = Blogs::get();
     
     if (Auth::id() && auth()->user()->role_id == 3) {    
          $notifications = auth()->user()->unreadNotifications;
@@ -672,7 +671,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
          $notifications = '';
     }
 
-    return view('blogs', compact('blogs', 'notifications'));
+    $blogs = Blogs::where('deleted_at', '=' , null)->get();
+    $featured_blogs = Blogs::where('is_featured', 1)->latest()->take(3)->get();
+    $categories = BlogCategories::get();
+    
+    return view('blogs', compact('blogs','featured_blogs','categories','notifications'));
   }
 
   public function blogDetailPage($id)
