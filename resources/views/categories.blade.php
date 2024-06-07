@@ -3178,9 +3178,6 @@ i.fas.fa-chevron-down {
         border-style: none;
         border-radius: 7px 7px 7px 7px;
     }
-
-
-
 }
 
 @media (max-width: 280px) {
