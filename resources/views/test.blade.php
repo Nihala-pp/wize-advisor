@@ -1030,7 +1030,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-cc04b52"
+                                <!-- <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-cc04b52"
                                     data-id="cc04b52" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-805d795 elementor-widget elementor-widget-button"
@@ -1091,10 +1091,10 @@
                                     data-id="7ff7015" data-element_type="column">
                                     <div class="elementor-widget-wrap">
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </section>
-                        <section
+                        <!-- <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-de4bf21 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="de4bf21" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
@@ -1210,7 +1210,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> -->
                     </div>
                 </div>
             </div>
