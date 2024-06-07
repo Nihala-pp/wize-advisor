@@ -1022,8 +1022,7 @@
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                                         href="https://wiseadvizor.com/blog-categories">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Startup
-                                                                Tips</span>
+                                                            <span class="elementor-button-text">{{ $category->name }}</span>
                                                         </span>
                                                     </a>
                                                 </div>
