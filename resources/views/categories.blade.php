@@ -710,6 +710,99 @@
     @include('partials.header-common')
     <div data-elementor-type="wp-page" data-elementor-id="6547" class="elementor elementor-6547">
         <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-50044cd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="50044cd" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-06925fb"
+                    data-id="06925fb" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-4dd043d elementor-widget elementor-widget-heading"
+                            data-id="4dd043d" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
+                                </style>
+                                <h1 class="elementor-heading-title elementor-size-default">Product management</h1>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-f6d703c elementor-widget elementor-widget-text-editor"
+                            data-id="f6d703c" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                    background-color: #69727d;
+                                    color: #fff
+                                }
+
+                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                    color: #69727d;
+                                    border: 3px solid;
+                                    background-color: transparent
+                                }
+
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                    margin-top: 8px
+                                }
+
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                    width: 1em;
+                                    height: 1em
+                                }
+
+                                .elementor-widget-text-editor .elementor-drop-cap {
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 1;
+                                    font-size: 50px
+                                }
+
+                                .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                    display: inline-block
+                                }
+                                </style>
+                                <p>Dive into our collection of actionable startup growth hacks, practical guides, and
+                                    insightful industry trends to launch and scale your dream startup towards success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9977ca6 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="9977ca6" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
