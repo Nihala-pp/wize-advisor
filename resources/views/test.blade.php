@@ -911,7 +911,8 @@
                                                         </div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="{{ route('blogDetail', [$featured_blog->id, $featured_blog->title]) }}">Read
+                                                            <a
+                                                                href="{{ route('blogDetail', [$featured_blog->id, $featured_blog->title]) }}">Read
                                                                 more</a>
                                                         </div>
                                                     </div>
@@ -1022,7 +1023,8 @@
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                                         href="{{ route('blogCategories', [ $category->id , $category->name]) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">{{ $category->name }}</span>
+                                                            <span
+                                                                class="elementor-button-text">{{ $category->name }}</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1249,8 +1251,8 @@
                                                 data-id="8acd220" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">
-                                                        {{ $blog->category->name ?? '' }}
+                                                    <h6 class="elementor-heading-title elementor-size-default"><a
+                                                            href="{{ route('blogCategories', [$blog->category_id, $blog->category->name]) }}">{{ $blog->category->name ?? '' }}</a>
                                                     </h6>
                                                 </div>
                                             </div>
