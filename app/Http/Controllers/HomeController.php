@@ -7,6 +7,7 @@ use App\Mail\RejectedCallMail;
 use App\Mail\RejectedCallUserMail;
 use App\Mail\updateSessionMail;
 use App\Models\Article;
+use App\Models\BlogCategories;
 use App\Models\Blogs;
 use App\Models\ExpertiseList;
 use App\Models\MentorAchievements;
@@ -872,13 +873,14 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
   {
     $blogs = Blogs::where('deleted_at', '=' , null)->get();
     $featured_blogs = Blogs::where('is_featured', 1)->latest()->take(3)->get();
+    $categories = BlogCategories::get();
     
-     return view('test', compact('blogs','featured_blogs'));
+     return view('test', compact('blogs','featured_blogs','categories'));
   }
 
   public function completedCalls()
   {
-
+ 
   }
 
   public function callFeedBack()
@@ -1102,7 +1104,9 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function blogCategories()
   {
-      return view('categories');
+      $categories = BlogCategories::get();
+
+      return view('categories', compact('categories'));
   }
 
   public function blogDetail($id)
