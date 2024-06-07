@@ -9,6 +9,8 @@
         href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/" />
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -721,7 +723,7 @@
                             <div class="elementor-element elementor-element-d406f39 elementor-widget elementor-widget-image"
                                 data-id="d406f39" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="375"
+                                    <img fetchpriority="high" decoding="async" width="750" height="375"
                                         src="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }}"
                                         class="attachment-large size-large wp-image-6398" alt=""
                                         srcset="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 768w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1300w"
@@ -774,14 +776,15 @@
                                                         font-size: 59px
                                                     }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">{{ $blog->category->name ?? '' }}</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        {{ $blog->category->name ?? '' }}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-553eb28 elementor-widget elementor-widget-heading"
                                                 data-id="553eb28" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h4 class="elementor-heading-title elementor-size-default"><a 
+                                                    <h4 class="elementor-heading-title elementor-size-default"><a
                                                             href="{{ route('blogDetail', [$blog->id, $blog->title]) }}">{{ $blog->title ?? '' }}</a>
                                                     </h4>
                                                 </div>
@@ -832,8 +835,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                       {{ $blog->author_name ?? '' }}
-                                                    |     {{ $blog->time_to_read ?? '' }} min read
+                                                        {{ $blog->author_name ?? '' }}
+                                                        | {{ $blog->time_to_read ?? '' }} min read
                                                     </p>
                                                 </div>
                                             </div>
@@ -3060,6 +3063,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
 

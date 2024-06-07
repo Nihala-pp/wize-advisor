@@ -22,6 +22,8 @@
         href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/" />
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -1098,7 +1100,9 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                <a href="{{ route('blogCategories', [$related_post->category_id, $related_post->category->name]) }}">{{ $related_post->category->name }}</a></h6>
+                                                    <a
+                                                        href="{{ route('blogCategories', [$related_post->category_id, $related_post->category->name]) }}">{{ $related_post->category->name }}</a>
+                                                </h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
@@ -1106,7 +1110,10 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">
-                                                <a href="{{ route('blogDetail', [$related_post->id, $related_post->title]) }}"> {{ $related_post->title }}</a></h4>
+                                                    <a
+                                                        href="{{ route('blogDetail', [$related_post->id, $related_post->title]) }}">
+                                                        {{ $related_post->title }}</a>
+                                                </h4>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-9f5ff1a elementor-widget elementor-widget-text-editor"
@@ -3143,6 +3150,7 @@
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
@@ -3170,6 +3178,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
+
 </html>
 <style>
 .elementor-4349 .elementor-element.elementor-element-dc0f3cb {
