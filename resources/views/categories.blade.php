@@ -2,8 +2,8 @@
 <html lang="en-US">
 
 <head>
-     <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -1630,8 +1630,9 @@
                                                     data-id="b84e421" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">How it
-                                                            Works</p>
+                                                        <p class="elementor-heading-title elementor-size-default"><a
+                                                                href="https://wiseadvizor.com/how-it-works">How it
+                                                                Works</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3170,6 +3171,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
+
 </html>
 <style>
 .elementor-6547 .elementor-element.elementor-element-d406f39 img {
@@ -3195,7 +3197,8 @@ i.fas.fa-chevron-down {
     font-weight: 900 !important;
 }
 
-.elementor-6547 .elementor-element.elementor-element-50044cd:not(.elementor-motion-effects-element-type-background), .elementor-6547 .elementor-element.elementor-element-50044cd > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-6547 .elementor-element.elementor-element-50044cd:not(.elementor-motion-effects-element-type-background),
+.elementor-6547 .elementor-element.elementor-element-50044cd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #ECEFF8;
 }
 
@@ -3206,7 +3209,7 @@ i.fas.fa-chevron-down {
     padding: 30px 0px 45px 0px;
 }
 
-.elementor-6547 .elementor-element.elementor-element-50044cd > .elementor-container {
+.elementor-6547 .elementor-element.elementor-element-50044cd>.elementor-container {
     max-width: 720px;
 }
 
