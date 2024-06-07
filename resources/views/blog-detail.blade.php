@@ -18,8 +18,7 @@
     <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 50) }} </title>
     <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor"
-        href="https://wiseadvizor.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor" href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor"
         href="https://wiseadvizor.com/comments/feed/" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
@@ -570,6 +569,8 @@
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fblogs%2Fblog-detail%2F" />
     <link rel="alternate" type="text/xml+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fblogs%2Fblog-detail%2F&#038;format=xml" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
     #wpadminbar .theplus-purge-clear>.ab-item:before {
         content: '';
@@ -3178,7 +3179,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
 
