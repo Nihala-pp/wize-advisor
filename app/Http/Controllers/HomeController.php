@@ -1118,6 +1118,6 @@ window.location.href = "https://wiseadvizor.com/faq";
 
     $related_posts = Blogs::where('id', '!=', $id)->latest()->take(3)->get();
 
-     return view('blog-detail-sample', compact('selectedBlog', 'related_posts'));
+     return view('blog-detail', compact('selectedBlog', 'related_posts'));
   }
 }
