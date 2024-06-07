@@ -3065,3 +3065,9 @@
 </body>
 
 </html>
+<style>
+.elementor-6547 .elementor-element.elementor-element-d406f39 img {
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 20px;
+}
+</style>
