@@ -720,10 +720,10 @@
                             <div class="elementor-element elementor-element-d406f39 elementor-widget elementor-widget-image"
                                 data-id="d406f39" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <img fetchpriority="high" decoding="async" width="750" height="375"
-                                        src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
+                                <img fetchpriority="high" decoding="async" width="750" height="375"
+                                        src="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }}"
                                         class="attachment-large size-large wp-image-6398" alt=""
-                                        srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
+                                        srcset="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 768w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1300w"
                                         sizes="(max-width: 750px) 100vw, 750px"
                                         style="width:100%;height:50%;max-width:2400px" />
                                 </div>
@@ -773,17 +773,16 @@
                                                         font-size: 59px
                                                     }
                                                     </style>
-                                                    <h6 class="elementor-heading-title elementor-size-default">Work
-                                                        management</h6>
+                                                    <h6 class="elementor-heading-title elementor-size-default">{{ $blog->category->name ?? '' }}</h6>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-553eb28 elementor-widget elementor-widget-heading"
                                                 data-id="553eb28" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h4 class="elementor-heading-title elementor-size-default">Best
-                                                        business
-                                                        process management software in 2024</h4>
+                                                    <h4 class="elementor-heading-title elementor-size-default"><a 
+                                                            href="{{ route('blogDetail', [$blog->id, $blog->title]) }}">{{ $blog->title ?? '' }}</a>
+                                                    </h4>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-8e68af1 elementor-widget elementor-widget-text-editor"
@@ -823,9 +822,7 @@
                                                         display: inline-block
                                                     }
                                                     </style>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                                        elit
-                                                        tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                                    <p>{{ Str::of(strip_tags($blog->description))->words(18, ' ....') }}
                                                     </p>
                                                 </div>
                                             </div>
@@ -834,8 +831,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        Rebecca Noori
-                                                        | 4 min read</p>
+                                                       {{ $blog->author_name ?? '' }}
+                                                    |     {{ $blog->time_to_read ?? '' }} min read
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
