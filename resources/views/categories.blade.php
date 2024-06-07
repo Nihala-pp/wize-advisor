@@ -3069,4 +3069,124 @@
     border-radius: 5px 5px 0px 0px;
     margin-top: 20px;
 }
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+}
+
+.ehf-header #masthead {
+    margin-top: -35px;
+    z-index: 99;
+    position: relative;
+}
+
+i.fas.fa-chevron-down {
+    margin-top: -30px;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+@media (max-width: 767px) {
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        /* padding-left: 15px; */
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu a.hfe-sub-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .elementor-menu-toggle:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
+        color: #001E64;
+    }
+
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+        padding: 25px 10px 0px 0px;
+        margin-left: -60px;
+    }
+
+    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
+        background-color: #fff !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        margin-right: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
+
+
+
+}
+
+@media (max-width: 280px) {
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
+}
 </style>
