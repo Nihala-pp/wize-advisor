@@ -911,7 +911,7 @@
                                                         </div>
                                                         <div
                                                             class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="{{ route('blogDetail', [$featured_blog->id]) }}">Read
+                                                            <a href="{{ route('blogDetail', [$featured_blog->id, $featured_blog->name]) }}">Read
                                                                 more</a>
                                                         </div>
                                                     </div>
@@ -1259,7 +1259,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default"><a
-                                                            href="{{ route('blogDetail', [$blog->id]) }}">{{ $blog->title }}</a>
+                                                            href="{{ route('blogDetail', [$blog->id, $blog->name]) }}">{{ $blog->title }}</a>
                                                     </h4>
                                                 </div>
                                             </div>

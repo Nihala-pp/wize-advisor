@@ -1109,7 +1109,7 @@ window.location.href = "https://wiseadvizor.com/faq";
       return view('categories', compact('blogs'));
   }
 
-  public function blogDetail($id)
+  public function blogDetail($id, $name)
   {
     $selectedBlog = Blogs::find($id);
 
