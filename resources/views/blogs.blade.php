@@ -3800,4 +3800,11 @@
     position: relative;
 }
 
+i.fas.fa-chevron-down {
+    margin-top: -30px;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
 </style>
