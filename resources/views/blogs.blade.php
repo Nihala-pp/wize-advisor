@@ -2205,8 +2205,9 @@
                                                     data-id="b84e421" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">How it
-                                                            Works</p>
+                                                        <p class="elementor-heading-title elementor-size-default"><a
+                                                                href="https://wiseadvizor.com/how-it-works">How it
+                                                            Works</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2219,7 +2220,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/privacy-policy/">Privacy
+                                                                href="https://wiseadvizor.com/privacy-policy/">Privacy
                                                                 Policy</a></p>
                                                     </div>
                                                 </div>
@@ -2233,7 +2234,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/terms-and-conditions/">Terms
+                                                                href="https://wiseadvizor.com/terms-and-conditions/">Terms
                                                                 & Conditions</a></p>
                                                     </div>
                                                 </div>
@@ -2247,7 +2248,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/community-guidelines/">Community
+                                                                href="https://wiseadvizor.com/community-guidelines/">Community
                                                                 Guidelines</a></p>
                                                     </div>
                                                 </div>
@@ -2261,7 +2262,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/about-us/">About
+                                                                href="https://wiseadvizor.com/about-us/">About
                                                                 Us</a></p>
                                                     </div>
                                                 </div>
@@ -2275,7 +2276,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/contact-us/">Contact
+                                                                href="https://wiseadvizor.com/contact-us/">Contact
                                                                 Us</a></p>
                                                     </div>
                                                 </div>
@@ -2289,7 +2290,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/blogs/">FAQs</a>
+                                                                href="https://wiseadvizor.com/blogs/">FAQs</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -2303,7 +2304,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://https://wiseadvizor.com/browse-mentor/">Browse
+                                                                href="https://wiseadvizor.com/browse-mentor/">Browse
                                                                 Mentors</a></p>
                                                     </div>
                                                 </div>
