@@ -1104,9 +1104,9 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function blogCategories($id)
   {
-      $categories = Blogs::where('category_id', $id)->get();
+      $blogs = Blogs::where('category_id', $id)->get();
 
-      return view('categories', compact('categories'));
+      return view('categories', compact('blogs'));
   }
 
   public function blogDetail($id)
