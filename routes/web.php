@@ -96,7 +96,7 @@ Route::get('about-us', [HomeController::class, 'aboutUs'])->name('aboutUs');
 Route::get('contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
 Route::get('libraries', [HomeController::class, 'libraries'])->name('libraries');
 Route::post('contact-us/save', [HomeController::class, 'saveContact'])->name('contact.save');
-Route::get('blogs/{id?}', [HomeController::class, 'blogDetailPage'])->name('blog-detail');
+// Route::get('blogs/{id?}', [HomeController::class, 'blogDetailPage'])->name('blog-detail');
 Route::get('how-it-works', [HomeController::class, 'howitWorks'])->name('howitWorks');
 Route::post('question', [HomeController::class, 'ask_question'])->name('askQuestion');
 Route::post('subscribe',[HomeController::class, 'subscriptionList'])->name('subscribe');
@@ -114,7 +114,7 @@ Route::get('/feedbackmail',[CallFeedbacksMailController::class, 'index']);
 Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
 Route::get('/to-do-task',[ToDOController::class, 'index']);
 
-Route::get('blog-test', [HomeController::class, 'blogSample'])->name('blogSample');
+// Route::get('blog-test', [HomeController::class, 'blogSample'])->name('blogSample');
 Route::get('categories/{id?}/{name?}', [HomeController::class, 'blogCategories'])->name('blogCategories');
 Route::get('blogs/{id?}/{name?}', [HomeController::class, 'blogDetail'])->name('blogDetail');
 
