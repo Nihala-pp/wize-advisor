@@ -15,7 +15,7 @@
     gtag('config', 'G-QC47PPTD6T');
     </script>
     <meta charset="UTF-8">
-    <title>Categories &#8211; WISE ADVIZOR</title>
+    <title>{{ $category->name }} | wiseAdvizor Blog</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/" />
