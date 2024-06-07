@@ -174,7 +174,7 @@
                                     </div>
                                     <div class="card-body p-3 mb-4">
                                         <p class="mb-0 text-sm"></p>
-                                        <a href="{{ route('blog-detail', [ $blog->id ]) }}">
+                                        <a href="{{ route('blogDetail', [ $blog->id , $blog->name]) }}">
                                             <h5>
                                                 {{ $blog->title  }}
                                             </h5>
