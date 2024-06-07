@@ -1108,8 +1108,9 @@ window.location.href = "https://wiseadvizor.com/faq";
   public function blogCategories($id, $name)
   {
       $blogs = Blogs::where('category_id', $id)->where('deleted_at', null)->get();
+      $category = BlogCategories::find($id);
 
-      return view('categories', compact('blogs'));
+      return view('categories', compact('blogs', 'category'));
   }
 
   public function blogDetail($id, $name)

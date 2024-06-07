@@ -754,7 +754,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">Product management</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $category->name }}</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-f6d703c elementor-widget elementor-widget-text-editor"
@@ -793,8 +793,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>Dive into our collection of actionable startup growth hacks, practical guides, and
-                                    insightful industry trends to launch and scale your dream startup towards success.
+                                <p>{{ $category->description }}
                                 </p>
                             </div>
                         </div>
