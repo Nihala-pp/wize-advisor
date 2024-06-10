@@ -3197,6 +3197,12 @@
     font-weight: 400;
 }
 
+.elementor-4349 .elementor-element.elementor-element-344d6d6:not(.elementor-motion-effects-element-type-background),
+.elementor-4349 .elementor-element.elementor-element-344d6d6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
 .elementor-4349 .elementor-element.elementor-element-9590725:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-4349 .elementor-element.elementor-element-9590725>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #6161ff;
