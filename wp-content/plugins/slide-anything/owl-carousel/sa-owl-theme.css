@@ -220,7 +220,7 @@
 /* HERO SLIDER (SA PRO) */
 .white .sa_hero_slider,
 .black .sa_hero_slider {
-	height:100vh !important;
+	/* height:100vh !important; */
 }
 .white .sa_hero_slider .owl-stage-outer,
 .black .sa_hero_slider .owl-stage-outer,
