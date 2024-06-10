@@ -4557,6 +4557,17 @@ i.fas.fa-chevron-down {
         margin-top: 60px;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .hfe-nav-menu-icon {
+        background-color: transparent;
+        padding: 0.35em;
+    }
+
+
+    .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: transparent !important;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
@@ -4565,6 +4576,7 @@ i.fas.fa-chevron-down {
         background-color: #fff;
         color: #001E64 !important;
     }
+
 
     .elementor-2650 .elementor-element.elementor-element-fe034a8 .elementor-button {
         font-size: 7px;
