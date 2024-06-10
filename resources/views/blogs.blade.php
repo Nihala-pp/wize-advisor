@@ -4506,7 +4506,8 @@
 
 </html>
 <style>
-html,body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -4556,6 +4557,21 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-top: 10px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width: 200%;
+        max-width: 120%;
+        height: 80px;
+        object-fit: contain;
+        margin-top: 10px;
+    }
 
     .elementor-button.elementor-size-xs {
         font-size: 12px;
