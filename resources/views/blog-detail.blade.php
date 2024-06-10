@@ -3239,6 +3239,28 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
+
+    .elementor-4349 .elementor-element.elementor-element-62c0ee5 {
+        width: 85.562%;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-6d74cde {
+        width: 14.438%;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
+        color: #181B34;
+        font-family: "Poppins", Sans-serif;
+        font-size: 10px !important;
+        font-weight: 400;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+        width: 15% !important;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: -150px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
