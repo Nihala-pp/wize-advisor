@@ -3247,6 +3247,14 @@ i.fas.fa-chevron-down {
         font-weight: 400;
     }
 
+    .elementor-4349 .elementor-element.elementor-element-62c0ee5 {
+        width: 75%;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-6d74cde {
+        width: 25%;
+    }
+
     .elementor-4349 .elementor-element.elementor-element-4af5308 img {
         width: 25% !important;
         border-radius: 100px 100px 100px 100px;
