@@ -3188,7 +3188,6 @@
 
 </html>
 <style>
-
 .elementor-4349 .elementor-element.elementor-element-15c3afc .elementor-heading-title {
     color: #6161ff;
     font-family: "Poppins", Sans-serif;
@@ -3240,6 +3239,12 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+        width: 40% !important;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: -25px;
+    }
+
     .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
         color: #181B34;
         font-family: "Poppins", Sans-serif;
@@ -3253,12 +3258,6 @@ i.fas.fa-chevron-down {
 
     .elementor-4349 .elementor-element.elementor-element-6d74cde {
         width: 25%;
-    }
-
-    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
-        width: 25% !important;
-        border-radius: 100px 100px 100px 100px;
-        margin-left: -150px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-f871cda {
