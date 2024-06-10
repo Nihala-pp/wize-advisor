@@ -4552,6 +4552,12 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+        width: 15% !important;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: -150px;
+    }
+
     /* .elementor-2650 .elementor-element.elementor-element-1142a40 {
         width: 50%;
     } */
