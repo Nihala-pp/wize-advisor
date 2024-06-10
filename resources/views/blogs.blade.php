@@ -4557,7 +4557,8 @@ i.fas.fa-chevron-down {
         padding: 10px 20px;
         border-radius: 7px;
         margin: 10px;
-        color: #001E64 !important;
+        color: #fff !important;
+        background-color: #001E64;
     }
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
