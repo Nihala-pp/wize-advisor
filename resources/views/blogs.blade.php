@@ -4552,6 +4552,10 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-2650 .elementor-element.elementor-element-1142a40 {
+        width: 50%;
+    }
+
     .elementor-7012 .elementor-element.elementor-element-258ff750 .elementor-heading-title {
         color: #323338;
         font-family: "Helvetica", Sans-serif;
