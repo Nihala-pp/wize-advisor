@@ -919,7 +919,8 @@
                                                                                             class="elementor-widget-container">
                                                                                             <h1
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                {{ $featured_blog2->title }}</h1>
+                                                                                                {{ $featured_blog2->title }}
+                                                                                            </h1>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-37811c8f elementor-widget elementor-widget-text-editor"
@@ -1046,7 +1047,8 @@
                                                                                             </style>
                                                                                             <h1
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                {{ $featured_blog3->title }}</h1>
+                                                                                                {{ $featured_blog3->title }}
+                                                                                            </h1>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-5fe462db elementor-widget elementor-widget-text-editor"
@@ -4507,6 +4509,10 @@
 .elementor-2650 .elementor-element.elementor-element-0836d4a img {
     margin-top: 20px;
     border-radius: 5px 5px 0px 0px;
+}
+
+.owl-dots {
+    margin-top: -20px;
 }
 
 i.fas.fa-bell.fa-2xl {
