@@ -3188,6 +3188,14 @@
 
 </html>
 <style>
+
+.elementor-4349 .elementor-element.elementor-element-15c3afc .elementor-heading-title {
+    color: #6161ff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .elementor-4349 .elementor-element.elementor-element-dc0f3cb {
     margin-top: 35px;
     text-align: left;
