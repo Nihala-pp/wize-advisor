@@ -4560,10 +4560,17 @@ i.fas.fa-chevron-down {
     width: 33% !important;
 }
 
+.elementor-2650 .elementor-element.elementor-element-1b9ae25 {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 0px;
+}
+
 .elementor-2650 .elementor-element.elementor-element-0836d4a img {
     /* margin-top: 20px; */
     border-radius: 5px 5px 0px 0px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
     .elementor-2650 .elementor-element.elementor-element-fe034a8 .elementor-button {
