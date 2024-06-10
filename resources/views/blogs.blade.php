@@ -825,7 +825,7 @@
                                                                                             class="elementor-widget-container">
                                                                                             <h1
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                {{ $featured_blog->title }}
+                                                                                                {{ $featured_blog1->title }}
                                                                                             </h1>
                                                                                         </div>
                                                                                     </div>
@@ -835,7 +835,7 @@
                                                                                         data-widget_type="text-editor.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <p>{{ Str::of(strip_tags($featured_blog->description))->words(10, ' ....') }}
+                                                                                            <p>{{ Str::of(strip_tags($featured_blog1->description))->words(10, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
@@ -848,7 +848,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog->id, $featured_blog->title]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog1->id, $featured_blog1->title]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -893,7 +893,7 @@
                                                             <p></p>
                                                         </div>
                                                     </div>
-                                                    <!-- <div class="owl-item cloned" style="width: 1519.2px;">
+                                                    <div class="owl-item cloned" style="width: 1519.2px;">
                                                         <div id="slider_7004_slide03" class="sa_hover_container"
                                                             style="padding:5% 5%; margin:0px 0%; ">
                                                             <p> </p>
@@ -919,7 +919,7 @@
                                                                                             class="elementor-widget-container">
                                                                                             <h1
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                Slide 1 Heading</h1>
+                                                                                                {{ $featured_blog2->title }}</h1>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-37811c8f elementor-widget elementor-widget-text-editor"
@@ -928,12 +928,7 @@
                                                                                         data-widget_type="text-editor.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <p>Lorem ipsum dolor sit
-                                                                                                amet, consectetur
-                                                                                                adipiscing elit. Ut elit
-                                                                                                tellus, luctus nec
-                                                                                                ullamcorper mattis,
-                                                                                                pulvinar dapibus leo.
+                                                                                            <p>{{ Str::of(strip_tags($featured_blog2->description))->words(10, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
@@ -946,7 +941,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="#">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog2->id, $featured_blog2->title]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -1051,7 +1046,7 @@
                                                                                             </style>
                                                                                             <h1
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                Slide 1 Heading</h1>
+                                                                                                {{ $featured_blog3->title }}</h1>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-5fe462db elementor-widget elementor-widget-text-editor"
@@ -1093,12 +1088,7 @@
                                                                                                 display: inline-block
                                                                                             }
                                                                                             </style>
-                                                                                            <p>Lorem ipsum dolor sit
-                                                                                                amet, consectetur
-                                                                                                adipiscing elit. Ut elit
-                                                                                                tellus, luctus nec
-                                                                                                ullamcorper mattis,
-                                                                                                pulvinar dapibus leo.
+                                                                                            <p>{{ Str::of(strip_tags($featured_blog3->description))->words(10, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
@@ -1111,7 +1101,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="#">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, $featured_blog3->title]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -1156,7 +1146,7 @@
                                                             <p></p>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item" style="width: 1519.2px;">
+                                                    <!-- <div class="owl-item" style="width: 1519.2px;">
                                                         <div id="slider_7004_slide02" class="sa_hover_container"
                                                             style="padding:5% 5%; margin:0px 0%; ">
                                                             <p> </p>
