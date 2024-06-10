@@ -3242,7 +3242,7 @@ i.fas.fa-chevron-down {
     .elementor-4349 .elementor-element.elementor-element-7003ef1 {
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
         margin-top: -20px;
-        /* margin-bottom: -20px; */
+        margin-bottom: 0px;
         padding: 15px 0px 15px 0px;
     }
 
