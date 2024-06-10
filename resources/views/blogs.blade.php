@@ -895,7 +895,7 @@
                                                     </div>
                                                     <div class="owl-item cloned" style="width: 1519.2px;">
                                                         <div id="slider_7004_slide03" class="sa_hover_container"
-                                                            style="padding:5% 5%; margin:0px 0%; ">
+                                                            style="/* padding:5% 5%; *//* margin:0px 0%; */">
                                                             <p> </p>
                                                             <div data-elementor-type="section" data-elementor-id="7012"
                                                                 class="elementor elementor-7012">
