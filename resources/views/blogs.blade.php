@@ -986,7 +986,7 @@
                                                             <p></p>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active" style="width: 1519.2px;">
+                                                    <div class="owl-item" style="width: 1519.2px;">
                                                         <div id="slider_7004_slide01" class="sa_hover_container"
                                                             style="/* padding:5% 5%; *//* margin:0px 0%; */">
                                                             <p> </p>
