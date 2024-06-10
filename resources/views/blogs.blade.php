@@ -811,6 +811,7 @@
                                                                         data-id="212f70bf" data-element_type="section">
                                                                         <div
                                                                             class="elementor-container elementor-column-gap-default">
+                                                                            @foreach ($featured_blogs as $featured_blog)                                                                            
                                                                             <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5136508a"
                                                                                 data-id="5136508a"
                                                                                 data-element_type="column"
@@ -825,7 +826,8 @@
                                                                                             class="elementor-widget-container">
                                                                                             <h1
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                Slide 1 Heading</h1>
+                                                                                                {{ $featured_blog->title }}
+                                                                                            </h1>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-7b1a808e elementor-widget elementor-widget-text-editor"
@@ -834,12 +836,7 @@
                                                                                         data-widget_type="text-editor.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <p>Lorem ipsum dolor sit
-                                                                                                amet, consectetur
-                                                                                                adipiscing elit. Ut elit
-                                                                                                tellus, luctus nec
-                                                                                                ullamcorper mattis,
-                                                                                                pulvinar dapibus leo.
+                                                                                            <p>{{ Str::of(strip_tags($featured_blog->description))->words(10, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
@@ -852,7 +849,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="#">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog->id, $featured_blog->title]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -890,6 +887,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
+                                                                            @endforeach
                                                                         </div>
                                                                     </section>
                                                                 </div>
@@ -897,7 +895,7 @@
                                                             <p></p>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item cloned" style="width: 1519.2px;">
+                                                    <!-- <div class="owl-item cloned" style="width: 1519.2px;">
                                                         <div id="slider_7004_slide03" class="sa_hover_container"
                                                             style="padding:5% 5%; margin:0px 0%; ">
                                                             <p> </p>
@@ -1618,7 +1616,7 @@
                                                             </div>
                                                             <p></p>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                             <div class="owl-nav disabled"><button type="button" role="presentation"
