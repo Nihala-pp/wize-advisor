@@ -4506,6 +4506,12 @@
 
 </html>
 <style>
+body {
+    margin: 0;
+    --wp--style--global--content-size: 650px;
+    --wp--style--global--wide-size: 1000px;
+}
+
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
     font-family: "Poppins", Sans-serif;
