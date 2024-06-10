@@ -546,6 +546,21 @@
     <link rel='stylesheet' id='elementor-icons-fa-brands-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
         media='all' />
+    <link rel='stylesheet' id='owl_carousel_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.css?ver=2.2.1.1'
+        media='all' />
+    <link rel='stylesheet' id='owl_theme_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0'
+        media='all' />
+    <link rel='stylesheet' id='owl_animate_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0'
+        media='all' />
+    <link rel='stylesheet' id='lightgallery_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.css?ver=2.5.0'
+        media='all' />
+    <link rel='stylesheet' id='lightgallery_bundle_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0'
+        media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -859,10 +874,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -957,10 +972,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -1122,10 +1137,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -1220,10 +1235,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -1318,10 +1333,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -1483,10 +1498,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -1581,10 +1596,10 @@
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
                                                                                                 class="attachment-full size-full wp-image-6996"
                                                                                                 alt=""
-                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
@@ -4259,6 +4274,28 @@
         id="elementor-app-loader-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.33"
         id="hfe-frontend-js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1"
+        id="owl_carousel_js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13"
+        id="mousewheel_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8"
+        id="owl_thumbs_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0"
+        id="lightgallery_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0"
+        id="lightgallery_video_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0"
+        id="lightgallery_zoom_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0"
+        id="lightgallery_autoplay_js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1"
+        id="vimeo_player_js-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
