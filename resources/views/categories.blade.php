@@ -3249,6 +3249,16 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
+
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+        color: #fff !important;
+        background-color: #001E64;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
