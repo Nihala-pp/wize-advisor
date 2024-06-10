@@ -4555,11 +4555,18 @@ i.fas.fa-chevron-down {
     /* .elementor-2650 .elementor-element.elementor-element-1142a40 {
         width: 50%;
     } */
+    .elementor-4349 .elementor-element.elementor-element-62c0ee5 {
+        width: 85.562%;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-6d74cde {
+        width: 14.438%;
+    }
 
     .attachment-thumbnail .size-thumbnail .wp-image-5883 {
-            width: 25%;
-            height: 25%;
-            max-width: 25px;
+        width: 25%;
+        height: 25%;
+        max-width: 25px;
     }
 
     .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
