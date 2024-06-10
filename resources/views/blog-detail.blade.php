@@ -3250,6 +3250,7 @@ i.fas.fa-chevron-down {
         font-family: "Poppins", Sans-serif;
         font-size: 10px !important;
         font-weight: 400;
+        margin-top: -5px;
     }
 
     .elementor-4349 .elementor-element.elementor-element-62c0ee5>.elementor-element-populated {
