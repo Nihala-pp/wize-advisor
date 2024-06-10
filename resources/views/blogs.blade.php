@@ -4564,6 +4564,15 @@ i.fas.fa-chevron-down {
         margin-bottom: 25px;
     }
 
+    .elementor-7009 .elementor-element.elementor-element-4b3bd180 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        background-color: #323338;
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
     .elementor-7012 .elementor-element.elementor-element-142649a2 .elementor-button {
         font-family: "Helvetica", Sans-serif;
         font-size: 0.875rem;
