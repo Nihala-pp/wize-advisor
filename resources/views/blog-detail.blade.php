@@ -3196,6 +3196,10 @@
     font-weight: 500;
 }
 
+.elementor-4349 .elementor-element.elementor-element-1419ff0 .elementor-heading-title:hover {
+    color: #6161ff;
+}
+
 .elementor-4349 .elementor-element.elementor-element-dc0f3cb {
     margin-top: 35px;
     text-align: left;
