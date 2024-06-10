@@ -4506,7 +4506,6 @@
 
 </html>
 <style>
-
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
     font-family: "Poppins", Sans-serif;
@@ -4554,6 +4553,24 @@ i.fas.fa-chevron-down {
 @media (max-width: 767px) {
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
+    }
+
+    .elementor-7005 .elementor-element.elementor-element-49483851 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        background-color: #323338;
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .elementor-7009 .elementor-element.elementor-element-29492627 .elementor-heading-title {
+        color: #323338;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        margin-top: 25px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-094a417 {
