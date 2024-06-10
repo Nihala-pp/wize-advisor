@@ -806,10 +806,10 @@
                                                             <div data-elementor-type="section" data-elementor-id="7009"
                                                                 class="elementor elementor-7009">
                                                                 <div class="elementor-section-wrap">
+                                                                @foreach ($featured_blogs as $featured_blog)
                                                                     <section
                                                                         class="elementor-section elementor-top-section elementor-element elementor-element-212f70bf elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                                                                         data-id="212f70bf" data-element_type="section">
-                                                                        @foreach ($featured_blogs as $featured_blog)
                                                                         <div
                                                                             class="elementor-container elementor-column-gap-default">
                                                                             <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5136508a"
@@ -888,8 +888,8 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        @endforeach
                                                                     </section>
+                                                                    @endforeach
                                                                 </div>
                                                             </div>
                                                             <p></p>
