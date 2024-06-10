@@ -561,6 +561,12 @@
     <link rel='stylesheet' id='lightgallery_bundle_css-css'
         href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0'
         media='all' />
+    <link rel='stylesheet' id='elementor-post-7005-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7009-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7009.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7012-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7012.css?ver=1717773569' media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -4274,16 +4280,14 @@
         id="elementor-app-loader-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.33"
         id="hfe-frontend-js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1"
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1"
         id="owl_carousel_js-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13"
         id="mousewheel_js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8"
         id="owl_thumbs_js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0"
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0"
         id="lightgallery_js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0"
