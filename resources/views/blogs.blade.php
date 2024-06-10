@@ -4506,6 +4506,18 @@
 
 </html>
 <style>
+
+.elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
+    color: #6161ff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
+    color: #6161ff;
+}
+
 .elementor-2650 .elementor-element.elementor-element-0836d4a img {
     margin-top: 20px;
     border-radius: 5px 5px 0px 0px;
