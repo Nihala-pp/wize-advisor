@@ -760,6 +760,912 @@
     @include('partials.header-common')
     <div data-elementor-type="wp-page" data-elementor-id="2650" class="elementor elementor-2650">
         <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-5d54753 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="5d54753" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bd0eb09"
+                    data-id="bd0eb09" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-55f323a elementor-widget elementor-widget-shortcode"
+                            data-id="55f323a" data-element_type="widget" data-widget_type="shortcode.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-shortocde">
+                                    <div class="white"
+                                        style="background:rgba(0,0,0,0); border:solid 0px rgba(0,0,0,0); border-radius:0px; padding:0px 0px 0px 0px;">
+                                        <div id="slider_7004"
+                                            class="owl-carousel sa_owl_theme owl-pagination-true autohide-arrows sa_hero_slider owl-loaded"
+                                            data-slider-id="slider_7004" style="visibility: visible;">
+                                            <div class="owl-stage-outer owl-height" style="height: 297.6px;">
+                                                <div class="owl-stage"
+                                                    style="transform: translate3d(-3038px, 0px, 0px); transition: all 0.2s ease 0s; width: 10635px;">
+                                                    <div class="owl-item cloned" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide02" class="sa_hover_container"
+                                                            style="/* padding:5% 5%; *//* margin:0px 0%; */">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7009"
+                                                                class="elementor elementor-7009">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-212f70bf elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="212f70bf" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5136508a"
+                                                                                data-id="5136508a"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-29492627 elementor-widget elementor-widget-heading"
+                                                                                        data-id="29492627"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-7b1a808e elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="7b1a808e"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-4b3bd180 elementor-widget elementor-widget-button"
+                                                                                        data-id="4b3bd180"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69a570b5"
+                                                                                data-id="69a570b5"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-313cf0a1 elementor-widget elementor-widget-image"
+                                                                                        data-id="313cf0a1"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide03" class="sa_hover_container"
+                                                            style="padding:5% 5%; margin:0px 0%; ">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7012"
+                                                                class="elementor elementor-7012">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-66b0af7a elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="66b0af7a" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4fb7497f"
+                                                                                data-id="4fb7497f"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-258ff750 elementor-widget elementor-widget-heading"
+                                                                                        data-id="258ff750"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-37811c8f elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="37811c8f"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-142649a2 elementor-widget elementor-widget-button"
+                                                                                        data-id="142649a2"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18ee5bf7"
+                                                                                data-id="18ee5bf7"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-5cbc5760 elementor-widget elementor-widget-image"
+                                                                                        data-id="5cbc5760"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide01" class="sa_hover_container"
+                                                            style="/* padding:5% 5%; *//* margin:0px 0%; */">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7005"
+                                                                class="elementor elementor-7005">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-aec2bbb elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="aec2bbb" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-23571d51"
+                                                                                data-id="23571d51"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-114d5cfa elementor-widget elementor-widget-heading"
+                                                                                        data-id="114d5cfa"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <style>
+                                                                                            /*! elementor - v3.21.0 - 20-05-2024 */
+                                                                                            .elementor-heading-title {
+                                                                                                padding: 0;
+                                                                                                margin: 0;
+                                                                                                line-height: 1
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                                                                color: inherit;
+                                                                                                font-size: inherit;
+                                                                                                line-height: inherit
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                                                                font-size: 15px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                                                                font-size: 19px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                                                                font-size: 29px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                                                                font-size: 39px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                                                                font-size: 59px
+                                                                                            }
+                                                                                            </style>
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-5fe462db elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="5fe462db"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <style>
+                                                                                            /*! elementor - v3.21.0 - 20-05-2024 */
+                                                                                            .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                                                                background-color: #69727d;
+                                                                                                color: #fff
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                                                                color: #69727d;
+                                                                                                border: 3px solid;
+                                                                                                background-color: transparent
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                                                                margin-top: 8px
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                                                                width: 1em;
+                                                                                                height: 1em
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor .elementor-drop-cap {
+                                                                                                float: left;
+                                                                                                text-align: center;
+                                                                                                line-height: 1;
+                                                                                                font-size: 50px
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                                                                display: inline-block
+                                                                                            }
+                                                                                            </style>
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-49483851 elementor-widget elementor-widget-button"
+                                                                                        data-id="49483851"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4056c43b"
+                                                                                data-id="4056c43b"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-2bef9441 elementor-widget elementor-widget-image"
+                                                                                        data-id="2bef9441"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide02" class="sa_hover_container"
+                                                            style="padding:5% 5%; margin:0px 0%; ">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7009"
+                                                                class="elementor elementor-7009">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-212f70bf elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="212f70bf" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5136508a"
+                                                                                data-id="5136508a"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-29492627 elementor-widget elementor-widget-heading"
+                                                                                        data-id="29492627"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-7b1a808e elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="7b1a808e"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-4b3bd180 elementor-widget elementor-widget-button"
+                                                                                        data-id="4b3bd180"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69a570b5"
+                                                                                data-id="69a570b5"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-313cf0a1 elementor-widget elementor-widget-image"
+                                                                                        data-id="313cf0a1"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide03" class="sa_hover_container"
+                                                            style="padding:5% 5%; margin:0px 0%; ">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7012"
+                                                                class="elementor elementor-7012">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-66b0af7a elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="66b0af7a" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4fb7497f"
+                                                                                data-id="4fb7497f"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-258ff750 elementor-widget elementor-widget-heading"
+                                                                                        data-id="258ff750"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-37811c8f elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="37811c8f"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-142649a2 elementor-widget elementor-widget-button"
+                                                                                        data-id="142649a2"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18ee5bf7"
+                                                                                data-id="18ee5bf7"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-5cbc5760 elementor-widget elementor-widget-image"
+                                                                                        data-id="5cbc5760"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide01" class="sa_hover_container"
+                                                            style="padding:5% 5%; margin:0px 0%; ">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7005"
+                                                                class="elementor elementor-7005">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-aec2bbb elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="aec2bbb" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-23571d51"
+                                                                                data-id="23571d51"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-114d5cfa elementor-widget elementor-widget-heading"
+                                                                                        data-id="114d5cfa"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <style>
+                                                                                            /*! elementor - v3.21.0 - 20-05-2024 */
+                                                                                            .elementor-heading-title {
+                                                                                                padding: 0;
+                                                                                                margin: 0;
+                                                                                                line-height: 1
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                                                                color: inherit;
+                                                                                                font-size: inherit;
+                                                                                                line-height: inherit
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                                                                font-size: 15px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                                                                font-size: 19px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                                                                font-size: 29px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                                                                font-size: 39px
+                                                                                            }
+
+                                                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                                                                font-size: 59px
+                                                                                            }
+                                                                                            </style>
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-5fe462db elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="5fe462db"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <style>
+                                                                                            /*! elementor - v3.21.0 - 20-05-2024 */
+                                                                                            .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                                                                background-color: #69727d;
+                                                                                                color: #fff
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                                                                color: #69727d;
+                                                                                                border: 3px solid;
+                                                                                                background-color: transparent
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                                                                margin-top: 8px
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                                                                width: 1em;
+                                                                                                height: 1em
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor .elementor-drop-cap {
+                                                                                                float: left;
+                                                                                                text-align: center;
+                                                                                                line-height: 1;
+                                                                                                font-size: 50px
+                                                                                            }
+
+                                                                                            .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                                                                display: inline-block
+                                                                                            }
+                                                                                            </style>
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-49483851 elementor-widget elementor-widget-button"
+                                                                                        data-id="49483851"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4056c43b"
+                                                                                data-id="4056c43b"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-2bef9441 elementor-widget elementor-widget-image"
+                                                                                        data-id="2bef9441"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item cloned" style="width: 1519.2px;">
+                                                        <div id="slider_7004_slide02" class="sa_hover_container"
+                                                            style="padding:5% 5%; margin:0px 0%; ">
+                                                            <p> </p>
+                                                            <div data-elementor-type="section" data-elementor-id="7009"
+                                                                class="elementor elementor-7009">
+                                                                <div class="elementor-section-wrap">
+                                                                    <section
+                                                                        class="elementor-section elementor-top-section elementor-element elementor-element-212f70bf elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                                                        data-id="212f70bf" data-element_type="section">
+                                                                        <div
+                                                                            class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5136508a"
+                                                                                data-id="5136508a"
+                                                                                data-element_type="column"
+                                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-29492627 elementor-widget elementor-widget-heading"
+                                                                                        data-id="29492627"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="heading.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <h1
+                                                                                                class="elementor-heading-title elementor-size-default">
+                                                                                                Slide 1 Heading</h1>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-7b1a808e elementor-widget elementor-widget-text-editor"
+                                                                                        data-id="7b1a808e"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="text-editor.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <p>Lorem ipsum dolor sit
+                                                                                                amet, consectetur
+                                                                                                adipiscing elit. Ut elit
+                                                                                                tellus, luctus nec
+                                                                                                ullamcorper mattis,
+                                                                                                pulvinar dapibus leo.
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="elementor-element elementor-element-4b3bd180 elementor-widget elementor-widget-button"
+                                                                                        data-id="4b3bd180"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="button.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <div
+                                                                                                class="elementor-button-wrapper">
+                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                                                                    href="#">
+                                                                                                    <span
+                                                                                                        class="elementor-button-content-wrapper">
+                                                                                                        <span
+                                                                                                            class="elementor-button-text">Read
+                                                                                                            more</span>
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69a570b5"
+                                                                                data-id="69a570b5"
+                                                                                data-element_type="column">
+                                                                                <div
+                                                                                    class="elementor-widget-wrap elementor-element-populated">
+                                                                                    <div class="elementor-element elementor-element-313cf0a1 elementor-widget elementor-widget-image"
+                                                                                        data-id="313cf0a1"
+                                                                                        data-element_type="widget"
+                                                                                        data-widget_type="image.default">
+                                                                                        <div
+                                                                                            class="elementor-widget-container">
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
+                                                                                                width="2560"
+                                                                                                height="1439"
+                                                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp"
+                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                alt=""
+                                                                                                srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-scaled.webp 2560w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-300x169.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1024x576.webp 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-768x432.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1536x864.webp 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-2048x1151.webp 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/06/Untitled-design-2024-06-06T120644.186-1568x882.webp 1568w"
+                                                                                                sizes="(max-width: 2560px) 100vw, 2560px"
+                                                                                                style="width:100%;height:56.21%;max-width:2560px">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                            <p></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="owl-nav disabled"><button type="button" role="presentation"
+                                                    class="owl-prev">Previous</button><button type="button"
+                                                    role="presentation" class="owl-next">Next</button></div>
+                                            <div class="owl-dots"><button role="button" class="owl-dot active"
+                                                    fdprocessedid="rya3f"><span></span></button><button role="button"
+                                                    class="owl-dot" fdprocessedid="mz4bfm"><span></span></button><button
+                                                    role="button" class="owl-dot"
+                                                    fdprocessedid="3urqxh"><span></span></button></div>
+                                            <div class="owl-thumbs"></div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">
+                                    jQuery(document).ready(function() {
+                                        jQuery('#slider_7004').owlCarousel({
+                                            items: 1,
+                                            smartSpeed: 200,
+                                            autoplay: true,
+                                            autoplayTimeout: 5000,
+                                            autoplayHoverPause: true,
+                                            smartSpeed: 200,
+                                            fluidSpeed: 200,
+                                            autoplaySpeed: 200,
+                                            navSpeed: 200,
+                                            dotsSpeed: 200,
+                                            loop: true,
+                                            nav: false,
+                                            navText: ['Previous', 'Next'],
+                                            dots: true,
+                                            responsiveRefreshRate: 200,
+                                            slideBy: 1,
+                                            mergeFit: true,
+                                            autoHeight: true,
+                                            mouseDrag: false,
+                                            touchDrag: false
+                                        });
+                                        jQuery('#slider_7004').css('visibility', 'visible');
+                                        var owl_goto = jQuery('#slider_7004');
+                                        jQuery('.slider_7004_goto1').click(function(event) {
+                                            owl_goto.trigger('to.owl.carousel', 0);
+                                        });
+                                        jQuery('.slider_7004_goto2').click(function(event) {
+                                            owl_goto.trigger('to.owl.carousel', 1);
+                                        });
+                                        jQuery('.slider_7004_goto3').click(function(event) {
+                                            owl_goto.trigger('to.owl.carousel', 2);
+                                        });
+                                        var resize_7004 = jQuery('.owl-carousel');
+                                        resize_7004.on('initialized.owl.carousel', function(e) {
+                                            if (typeof(Event) === 'function') {
+                                                window.dispatchEvent(new Event('resize'));
+                                            } else {
+                                                var evt = window.document.createEvent('UIEvents');
+                                                evt.initUIEvent('resize', true, false, window, 0);
+                                                window.dispatchEvent(evt);
+                                            }
+                                        });
+                                    });
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-f44cc65 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="f44cc65" data-element_type="section">
             <div class="elementor-container elementor-column-gap-no">
@@ -938,36 +1844,6 @@
                                                 </div>
                                             </div>
                                             @endforeach
-                                            <!-- <div class="elementor-repeater-item-7e1fdd2 swiper-slide">
-                                                <div class="swiper-slide-bg"></div>
-                                                <div class="swiper-slide-inner">
-                                                    <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">Slide 2 Heading</div>
-                                                        <div class="elementor-slide-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipiscing elit dolor</div>
-                                                        <div
-                                                            class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories">Read
-                                                                more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-repeater-item-37615af swiper-slide">
-                                                <div class="swiper-slide-bg"></div>
-                                                <div class="swiper-slide-inner">
-                                                    <div class="swiper-slide-contents">
-                                                        <div class="elementor-slide-heading">Slide 3 Heading</div>
-                                                        <div class="elementor-slide-description">Lorem ipsum dolor sit
-                                                            amet consectetur adipiscing elit dolor</div>
-                                                        <div
-                                                            class="elementor-button elementor-slide-button elementor-size-sm">
-                                                            <a href="https://wiseadvizor.com/blog-categories">Read
-                                                                more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> -->
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
@@ -977,7 +1853,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-2a6c58c elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="2a6c58c" data-element_type="section"
@@ -2207,7 +3083,7 @@
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
                                                                 href="https://wiseadvizor.com/how-it-works">How it
-                                                            Works</a></p>
+                                                                Works</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3759,7 +4635,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
