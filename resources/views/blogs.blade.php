@@ -4603,6 +4603,7 @@ i.fas.fa-chevron-down {
 
     .elementor-2650 .elementor-element.elementor-element-1142a40 {
         width: 40% !important;
+        margin-right:20px;
     }
 
     .elementor-2650 .elementor-element.elementor-element-1b9ae25 {
