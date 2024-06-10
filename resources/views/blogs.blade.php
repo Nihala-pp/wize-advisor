@@ -4556,22 +4556,39 @@ i.fas.fa-chevron-down {
         width: 50%;
     } */
 
+    .attachment-thumbnail .size-thumbnail .wp-image-5883 {
+            width: 25%;
+            height: 25%;
+            max-width: 25px;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
+        font-size: 10px;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
+        color: #181B34;
+        font-family: "Poppins", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
     .elementor-2650 .elementor-element.elementor-element-1142a40 {
-    width: 33% !important;
-}
+        width: 33% !important;
+    }
 
-.elementor-2650 .elementor-element.elementor-element-1b9ae25 {
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    margin-top: -20px;
-    margin-bottom: -10px;
-    padding: 15px 0px 15px 0px;
-}
+    .elementor-2650 .elementor-element.elementor-element-1b9ae25 {
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+        margin-top: -20px;
+        margin-bottom: -10px;
+        padding: 15px 0px 15px 0px;
+    }
 
-.elementor-2650 .elementor-element.elementor-element-0836d4a img {
-    /* margin-top: 20px; */
-    border-radius: 5px 5px 0px 0px;
-    /* margin-bottom: 10px; */
-}
+    .elementor-2650 .elementor-element.elementor-element-0836d4a img {
+        /* margin-top: 20px; */
+        border-radius: 5px 5px 0px 0px;
+        /* margin-bottom: 10px; */
+    }
 
     .elementor-2650 .elementor-element.elementor-element-fe034a8 .elementor-button {
         font-size: 8px;
