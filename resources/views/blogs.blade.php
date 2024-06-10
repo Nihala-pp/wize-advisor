@@ -4506,10 +4506,10 @@
 
 </html>
 <style>
+html,
 body {
-    margin: 0;
-    --wp--style--global--content-size: 650px;
-    --wp--style--global--wide-size: 1000px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
