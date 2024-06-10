@@ -4567,6 +4567,12 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-2650 .elementor-element.elementor-element-fe034a8 .elementor-button {
+        font-size: 6px;
+        border-radius: 75px 75px 75px 75px;
+        margin-bottom: 10px;
+    }
+
     .elementor-4349 .elementor-element.elementor-element-4af5308 img {
         width: 15% !important;
         border-radius: 100px 100px 100px 100px;
@@ -4603,7 +4609,7 @@ i.fas.fa-chevron-down {
 
     .elementor-2650 .elementor-element.elementor-element-1142a40 {
         width: 40% !important;
-        margin-right:20px;
+        margin-right: 20px;
     }
 
     .elementor-2650 .elementor-element.elementor-element-1b9ae25 {
