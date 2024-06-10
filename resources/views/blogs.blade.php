@@ -4551,6 +4551,25 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
+
+    .elementor-7012 .elementor-element.elementor-element-258ff750 .elementor-heading-title {
+        color: #323338;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        margin-top: 25px;
+    }
+
+    .elementor-7005 .elementor-element.elementor-element-114d5cfa .elementor-heading-title {
+        color: #323338;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        margin-top: 25px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
     }
