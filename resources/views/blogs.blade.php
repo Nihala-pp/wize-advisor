@@ -4552,6 +4552,13 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding: 0px 0px 0px 30px;
         margin-top: 60px;
