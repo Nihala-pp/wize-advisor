@@ -4563,13 +4563,13 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
     .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
         color: #181B34;
         font-family: "Poppins", Sans-serif;
-        font-size: 10px;
+        font-size: 10px !important;
         font-weight: 400;
     }
 
