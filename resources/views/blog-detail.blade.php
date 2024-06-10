@@ -3252,6 +3252,16 @@ i.fas.fa-chevron-down {
         font-weight: 400;
     }
 
+    .elementor-4349 .elementor-element.elementor-element-62c0ee5>.elementor-element-populated {
+        margin: 0px 0px 15px -35px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 25px;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
+        font-size: 10px;
+    }
+
     .elementor-4349 .elementor-element.elementor-element-62c0ee5 {
         width: 75%;
     }
