@@ -3240,14 +3240,6 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
-    .elementor-4349 .elementor-element.elementor-element-62c0ee5 {
-        width: 85.562%;
-    }
-
-    .elementor-4349 .elementor-element.elementor-element-6d74cde {
-        width: 14.438%;
-    }
-
     .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
         color: #181B34;
         font-family: "Poppins", Sans-serif;
@@ -3256,7 +3248,7 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-4349 .elementor-element.elementor-element-4af5308 img {
-        width: 15% !important;
+        width: 25% !important;
         border-radius: 100px 100px 100px 100px;
         margin-left: -150px;
     }
