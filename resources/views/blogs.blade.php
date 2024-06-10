@@ -806,7 +806,6 @@
                                                             <div data-elementor-type="section" data-elementor-id="7009"
                                                                 class="elementor elementor-7009">
                                                                 <div class="elementor-section-wrap">
-                                                                @foreach ($featured_blogs as $featured_blog)
                                                                     <section
                                                                         class="elementor-section elementor-top-section elementor-element elementor-element-212f70bf elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                                                                         data-id="212f70bf" data-element_type="section">
@@ -889,7 +888,6 @@
                                                                             </div>
                                                                         </div>
                                                                     </section>
-                                                                    @endforeach
                                                                 </div>
                                                             </div>
                                                             <p></p>

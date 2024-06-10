@@ -672,10 +672,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     }
 
     $blogs = Blogs::where('deleted_at', '=' , null)->get();
-    $featured_blogs = Blogs::where('is_featured', 1)->latest()->take(3)->get();
+    $featured_blog1 = Blogs::where('is_featured', 1)->latest()->first();
+    $featured_blog2 = Blogs::where('id', '!=' , $featured_blog1->id)->where('is_featured', 1)->latest()->first();
+    $featured_blog3 = Blogs::where('id', '!=' , $featured_blog2->id)->where('is_featured', 1)->latest()->first();
     $categories = BlogCategories::get();
     
-    return view('blogs', compact('blogs','featured_blogs','categories','notifications'));
+    return view('blogs', compact('blogs','featured_blog1','featured_blog2','featured_blog3','categories','notifications'));
   }
 
   public function blogDetailPage($id)
