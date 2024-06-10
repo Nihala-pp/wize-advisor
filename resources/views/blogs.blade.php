@@ -4555,6 +4555,24 @@ i.fas.fa-chevron-down {
         width: 30%;
     }
 
+    .elementor-7012 .elementor-element.elementor-element-142649a2 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        background-color: #323338;
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .elementor-7012 .elementor-element.elementor-element-142649a2 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 0.875rem;
+        font-weight: 500;
+        background-color: #323338;
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 25px;
+    }
+
     .elementor-7005 .elementor-element.elementor-element-49483851 .elementor-button {
         font-family: "Helvetica", Sans-serif;
         font-size: 0.875rem;
