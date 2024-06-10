@@ -4556,6 +4556,12 @@ i.fas.fa-chevron-down {
         width: 50%;
     }
 
+    .elementor-2650 .elementor-element.elementor-element-fe034a8 .elementor-button {
+        font-size: 8px;
+        border-radius: 75px 75px 75px 75px;
+        margin-bottom: 10px;
+    }
+
     .elementor-7012 .elementor-element.elementor-element-258ff750 .elementor-heading-title {
         color: #323338;
         font-family: "Helvetica", Sans-serif;
