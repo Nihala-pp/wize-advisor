@@ -4551,6 +4551,13 @@ i.fas.fa-chevron-down {
 }
 
 @media(max-width: 480px) {
+    .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
+        color: #181B34;
+        font-family: "Poppins", Sans-serif;
+        font-size: 10px !important;
+        font-weight: 400;
+    }
+
     .elementor-4349 .elementor-element.elementor-element-4af5308 img {
         width: 15% !important;
         border-radius: 100px 100px 100px 100px;
