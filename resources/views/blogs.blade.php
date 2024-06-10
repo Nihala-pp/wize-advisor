@@ -4550,6 +4550,14 @@ i.fas.fa-chevron-down {
     font-size: 15px;
 }
 
+@media(max-width: 480px) {
+    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+        width: 15% !important;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: -150px;
+    }
+}
+
 @media (max-width: 767px) {
 
     .elementor-4349 .elementor-element.elementor-element-4af5308 img {
