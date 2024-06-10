@@ -4568,7 +4568,7 @@ i.fas.fa-chevron-down {
 @media (max-width: 767px) {
 
     .elementor-2650 .elementor-element.elementor-element-fe034a8 .elementor-button {
-        font-size: 6px;
+        font-size: 7px;
         border-radius: 75px 75px 75px 75px;
         margin-bottom: 10px;
     }
