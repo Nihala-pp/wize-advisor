@@ -4515,6 +4515,11 @@ body {
     overflow-x: hidden;
 }
 
+section.elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no
+{
+    margin-left: -45px;
+}
+
 .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
     color: #181B34;
     font-family: "Poppins", Sans-serif;
