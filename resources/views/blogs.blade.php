@@ -4392,10 +4392,6 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
-    /* .elementor-3007 .elementor-element.elementor-element-ee84ee1 div.hfe-nav-menu-icon {
-        color: #001E64;
-        margin-top: 7px;
-    } */
     i.far.fa-window-close {
         margin-top: 7px;
     }
