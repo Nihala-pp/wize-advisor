@@ -2356,7 +2356,7 @@
         "versionString": "wp\/v2\/"
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
     </script>
     <script id="elementor-dev-tools-js-before">
     var elementorDevToolsConfig = {
@@ -2832,7 +2832,7 @@
     };
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
-        id="elementor-app-loader-js"></script>
+        id="elementor-app-loader-js"></script> -->
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
         "tpgb_edit_template": []
