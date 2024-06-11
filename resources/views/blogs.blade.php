@@ -1679,7 +1679,8 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-9cbb325 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="9cbb325" data-element_type="section" style="margin-left: -45px;">
                             @foreach ($categories as $category)
-                              <a href="{{ route('blogCategories', [ $category->id , $category->name]) }}" class="badge badge-dark">{{ $category->name }}</a>
+                            <a href="{{ route('blogCategories', [ $category->id , $category->name]) }}"
+                                class="badge badge-dark">{{ $category->name }}</a>
                             @endforeach
                         </section>
                     </div>
@@ -4312,8 +4313,7 @@ body {
     overflow-x: hidden;
 }
 
-.elementor-2650 .elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no
-{
+.elementor-2650 .elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     margin-left: -45px !important;
 }
 
@@ -4392,15 +4392,25 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-2650 .elementor-element.elementor-element-2a6c58c {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 50px 0px 0px 95px;
+        /* margin-left: 0px !important; */
+    }
+
+    .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
+        color: #323338;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: -48px;
+    }
+
     .fa,
     .fas {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         margin-top: 10px;
-    }
-
-    .elementor-widget-wrap>.elementor-element {
-    /* width: 100%; */
     }
 
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
