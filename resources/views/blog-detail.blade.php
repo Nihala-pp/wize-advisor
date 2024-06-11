@@ -2300,9 +2300,9 @@
         "zip_ai_assistant_options": ""
     };
     </script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.js?ver=195428426d8559d53d29"
-        id="zip-ai-sidebar-js"></script>
+        id="zip-ai-sidebar-js"></script> -->
     <script id="twenty-twenty-one-ie11-polyfills-js-after">
     (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
     document.write(
