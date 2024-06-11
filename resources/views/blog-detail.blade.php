@@ -472,7 +472,7 @@
         line-height: 1.6;
     }
     </style>
-    <!-- <link rel='stylesheet' id='hfe-style-css'
+     <link rel='stylesheet' id='hfe-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.33'
         media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
@@ -480,7 +480,7 @@
         media='all' />
     <link rel='stylesheet' id='swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
-        media='all' /> -->
+        media='all' />
     <link rel='stylesheet' id='elementor-post-5-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1716892156' media='all' />
     <link rel='stylesheet' id='elementor-pro-css'
@@ -488,15 +488,15 @@
         media='all' />
     <link rel='stylesheet' id='she-header-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.11'
-        media='all' />6
-    <link rel='stylesheet' id='elementor-global-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' />
+        media='all' />
+    <!-- <link rel='stylesheet' id='elementor-global-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' /> -->
     <link rel='stylesheet' id='elementor-post-4349-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717511569' media='all' />
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1717402369' media='all' />
-    <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' />
+    <!-- <link rel='stylesheet' id='elementor-post-32-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' /> -->
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
         media='all' />
