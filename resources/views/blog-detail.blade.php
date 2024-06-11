@@ -34,13 +34,13 @@
         }
     };
     </script>
-    <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
+    <!-- <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
         id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
     <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
-        media='all' />
+        media='all' /> -->
     <style id='admin-bar-inline-css'>
     @media screen {
         html {
