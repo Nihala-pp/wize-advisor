@@ -4515,8 +4515,8 @@ body {
     overflow-x: hidden;
 }
 
-a.badge .badge-dark:hover {
-    color:#fff;
+.elementor-2650 > a.badge .badge-dark:hover {
+    color:#fff !important;
 }
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
