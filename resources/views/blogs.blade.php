@@ -4515,6 +4515,10 @@ body {
     overflow-x: hidden;
 }
 
+a.badge .badge-dark:hover {
+    color:#fff;
+}
+
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
     font-family: "Poppins", Sans-serif;
