@@ -1677,211 +1677,12 @@
                         </div>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-9cbb325 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="9cbb325" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                @foreach ($categories as $category)
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1142a40"
-                                    data-id="1142a40" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-fe034a8 elementor-widget elementor-widget-button"
-                                            data-id="fe034a8" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('blogCategories', [ $category->id , $category->name]) }}">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span
-                                                                class="elementor-button-text">{{ $category->name }}</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                @endforeach
-                                <!-- <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-cc04b52"
-                                    data-id="cc04b52" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-805d795 elementor-widget elementor-widget-button"
-                                            data-id="805d795" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Career Advice</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-111a3ed"
-                                    data-id="111a3ed" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-653229f elementor-widget elementor-widget-button"
-                                            data-id="653229f" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Mentorship</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-3327ccd"
-                                    data-id="3327ccd" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-ef4c6ec elementor-widget elementor-widget-button"
-                                            data-id="ef4c6ec" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Mentorship</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-7ff7015"
-                                    data-id="7ff7015" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div> -->
-                            </div>
+                            data-id="9cbb325" data-element_type="section" style="margin-left: -45px;">
+                            @foreach ($categories as $category)
+                            <a href="{{ route('blogCategories', [ $category->id , $category->name]) }}"
+                                class="badge badge-dark">{{ $category->name }}</a>
+                            @endforeach
                         </section>
-                        <!-- <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-de4bf21 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="de4bf21" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-37eba48"
-                                    data-id="37eba48" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-86b0ca6 elementor-widget elementor-widget-button"
-                                            data-id="86b0ca6" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Business Strategy</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1b792ec elementor-widget elementor-widget-button"
-                                            data-id="1b792ec" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Marketing</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-63d2126"
-                                    data-id="63d2126" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-991b9f3 elementor-widget elementor-widget-button"
-                                            data-id="991b9f3" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Business Strategy</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-c299cae"
-                                    data-id="c299cae" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-a36cd62 elementor-widget elementor-widget-button"
-                                            data-id="a36cd62" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Personal
-                                                                Development</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-ff5b36d"
-                                    data-id="ff5b36d" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-d7d0f86 elementor-widget elementor-widget-button"
-                                            data-id="d7d0f86" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Startup Funding</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-74fef0b"
-                                    data-id="74fef0b" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-b2b4ea2 elementor-widget elementor-widget-button"
-                                            data-id="b2b4ea2" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="#">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Personal
-                                                                Development</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section> -->
                     </div>
                 </div>
             </div>
@@ -3380,7 +3181,7 @@
     <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.7.1"
         id="qi-addons-for-elementor-script-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
         id="wpr-particles-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
@@ -4503,18 +4304,50 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
-
 </html>
 <style>
 html,
 body {
-    max-width: 100%;
+    /* max-width: 100%; */
     overflow-x: hidden;
 }
 
+.elementor-2650 .elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
+    margin-left: -45px !important;
+}
+
+.elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
+    color: #323338;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -60px;
+}
+
+.elementor-2650 .elementor-element.elementor-element-b93782d {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px 50px 50px 50px;
+}
+
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
-    font-family: "Poppins", Sans-serif;
+    font-family: "poppins", "Sans-serif";
     font-size: 16px;
     font-weight: 500;
 }
@@ -4558,11 +4391,35 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    i.far.fa-window-close {
+        margin-top: 7px;
+    }
+    
+    .elementor-2650 .elementor-element.elementor-element-2a6c58c {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 50px 0px 0px 95px;
+        /* margin-left: 0px !important; */
+    }
+
+    .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
+        color: #6161ff;
+    }
+
+
+    .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
+        color: #323338;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: -48px;
+    }
+
     .fa,
     .fas {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        margin-top: 10px;
+        margin-top: 7px;
+        margin-bottom: -30px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
@@ -4570,7 +4427,8 @@ i.fas.fa-chevron-down {
         max-width: 120%;
         height: 80px;
         object-fit: contain;
-        margin-top: 10px;
+        margin-top: 7px;
+        margin-bottom: -20px;
     }
 
     .elementor-button.elementor-size-xs {
@@ -4790,6 +4648,10 @@ i.fas.fa-chevron-down {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
         color: #001E64 !important;
+    }
+
+    .hfe-nav-menu__toggle .elementor-clickable .hfe-active-menu .hfe-active-menu-full-width {
+
     }
 
 }
