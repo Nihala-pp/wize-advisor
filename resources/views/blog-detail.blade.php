@@ -2127,7 +2127,7 @@
     </script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=06758d4d807d9d22c6ea"
-        id="starter-templates-zip-preview-js"></script> -->
+        id="starter-templates-zip-preview-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
     </script>
     <script id="qi-addons-for-elementor-script-js-extra">
@@ -2140,8 +2140,8 @@
         }
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.7.1"
-        id="qi-addons-for-elementor-script-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.7.1"
+        id="qi-addons-for-elementor-script-js"></script> -->
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
         id="wpr-particles-js"></script>
