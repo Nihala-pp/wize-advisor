@@ -4559,7 +4559,7 @@ body {
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Helvetica", "Sans-serif";
     font-size: 16px;
     font-weight: 500;
 }
