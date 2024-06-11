@@ -4398,6 +4398,11 @@ i.fas.fa-chevron-down {
         /* margin-left: 0px !important; */
     }
 
+    .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
+        color: #6161ff;
+    }
+
+
     .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
         color: #323338;
         font-family: "Helvetica", Sans-serif;
