@@ -2125,11 +2125,11 @@
         "AstEleColorPaletteVarPrefix": "--ast-global-"
     };
     </script>
-    <!-- <script
+    <script
         src="https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=06758d4d807d9d22c6ea"
         id="starter-templates-zip-preview-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
-    </script> -->
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    </script>
     <script id="qi-addons-for-elementor-script-js-extra">
     var qodefQiAddonsGlobal = {
         "vars": {
