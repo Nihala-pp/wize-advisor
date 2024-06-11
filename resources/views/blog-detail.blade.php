@@ -3122,13 +3122,19 @@
             "title": "Edit with Elementor",
             "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=4349&action=elementor",
             "children": {
+                "3007": {
+                    "id": "elementor_edit_doc_3007",
+                    "title": "Header New",
+                    "sub_title": "Post",
+                    "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=3007&action=elementor"
+                },
                 "32": {
                     "id": "elementor_edit_doc_32",
                     "title": "Footer",
                     "sub_title": "Post",
                     "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=32&action=elementor"
                 },
-                "33": {
+                "3008": {
                     "id": "elementor_site_settings",
                     "title": "Site Settings",
                     "sub_title": "Site",
@@ -3136,7 +3142,7 @@
                     "class": "elementor-site-settings",
                     "parent_class": "elementor-second-section"
                 },
-                "34": {
+                "3009": {
                     "id": "elementor_app_site_editor",
                     "title": "Theme Builder",
                     "sub_title": "Site",
