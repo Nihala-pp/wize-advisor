@@ -595,11 +595,11 @@
     };
     </script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2650" />
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/4349" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
     <link rel="canonical" href="https://wiseadvizor.com/blogs/" />
-    <link rel='shortlink' href='https://wiseadvizor.com/?p=2650' />
+    <link rel='shortlink' href='https://wiseadvizor.com/?p=4349' />
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F" />
     <link rel="alternate" type="text/xml+oembed"
@@ -2351,7 +2351,7 @@
         "ajax_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
         "ajax_nonce": "17ffe2f5c6",
         "admin_nonce": "b8e46cdb70",
-        "current_post_id": "2650",
+        "current_post_id": "4349",
         "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fhttps://wiseadvizor.com%2Fwp-admin%2F%3Fnonce%3Da57b05edb1%26scs-authorize%3Dtrue",
         "is_authorized": "",
         "is_ai_assistant_enabled": "1",
@@ -3047,7 +3047,7 @@
             "lightbox_description_src": "description"
         },
         "post": {
-            "id": 2650,
+            "id": 4349,
             "title": "FAQ%20%E2%80%93%20WISE%20ADVIZOR",
             "excerpt": "",
             "featuredImage": false
@@ -3202,7 +3202,7 @@
         "elementor_edit_page": {
             "id": "elementor_edit_page",
             "title": "Edit with Elementor",
-            "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=2650&action=elementor",
+            "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=4349&action=elementor",
             "children": {
                 "3007": {
                     "id": "elementor_edit_doc_3007",
@@ -3220,7 +3220,7 @@
                     "id": "elementor_site_settings",
                     "title": "Site Settings",
                     "sub_title": "Site",
-                    "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=2650&action=elementor&active-document=5",
+                    "href": "https:\/\/wiseadvizor.com\/wp-admin\/post.php?post=4349&action=elementor&active-document=5",
                     "class": "elementor-site-settings",
                     "parent_class": "elementor-second-section"
                 },
