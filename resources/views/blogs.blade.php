@@ -4523,6 +4523,21 @@ body {
     margin-left: -10px;
 }
 
+.elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
+    color: #323338;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -60px;
+}
+
+.elementor-2650 .elementor-element.elementor-element-b93782d {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px 50px 50px 50px;
+}
+
 .badge {
     display: inline-block;
     padding: .35em .65em;
