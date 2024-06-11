@@ -1678,7 +1678,15 @@
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-9cbb325 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="9cbb325" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
+                            <a href="#" class="badge badge-primary">Primary</a>
+                            <a href="#" class="badge badge-secondary">Secondary</a>
+                            <a href="#" class="badge badge-success">Success</a>
+                            <a href="#" class="badge badge-danger">Danger</a>
+                            <a href="#" class="badge badge-warning">Warning</a>
+                            <a href="#" class="badge badge-info">Info</a>
+                            <a href="#" class="badge badge-light">Light</a>
+                            <a href="#" class="badge badge-dark">Dark</a>
+                            <!-- <div class="elementor-container elementor-column-gap-default">
                                 @foreach ($categories as $category)
                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1142a40"
                                     data-id="1142a40" data-element_type="column">
@@ -1763,7 +1771,7 @@
                                     <div class="elementor-widget-wrap">
                                     </div>
                                 </div> -->
-                            </div>
+                            <!-- </div> -->
                         </section>
                         <!-- <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-de4bf21 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
