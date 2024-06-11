@@ -489,15 +489,15 @@
     <link rel='stylesheet' id='she-header-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.11'
         media='all' />
-    <!-- <link rel='stylesheet' id='elementor-global-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' /> -->
+    <link rel='stylesheet' id='elementor-global-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' /> 
     <link rel='stylesheet' id='elementor-post-4349-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717511569' media='all' />
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1717402369' media='all' />
-    <!-- <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' /> -->
-    <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
+    <link rel='stylesheet' id='elementor-post-32-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' />
+    <!-- <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
@@ -505,7 +505,7 @@
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
-        media='all' />
+        media='all' /> -->
     <link rel='stylesheet' id='zip-ai-sidebar-css'
         href='https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.css?ver=1.1.6'
         media='all' />
