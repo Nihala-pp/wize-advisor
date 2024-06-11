@@ -1677,7 +1677,7 @@
                         </div>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-9cbb325 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="9cbb325" data-element_type="section">
+                            data-id="9cbb325" data-element_type="section" style="margin-left: -45px;">
                             @foreach ($categories as $category)
                               <a href="{{ route('blogCategories', [ $category->id , $category->name]) }}" class="badge badge-dark">{{ $category->name }}</a>
                             @endforeach
