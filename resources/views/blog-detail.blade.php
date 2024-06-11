@@ -494,8 +494,8 @@
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' />
-    <link rel='stylesheet' id='elementor-post-2651-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' />
+    <link rel='stylesheet' id='elementor-post-4349-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4349.css?ver=1717513898' media='all' />
     <link rel='stylesheet' id='hfe-widgets-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
         media='all' />
