@@ -4515,9 +4515,19 @@ body {
     overflow-x: hidden;
 }
 
-.elementor-2650 > a.badge .badge-dark:hover {
-    color:#fff !important;
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
 }
+
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
