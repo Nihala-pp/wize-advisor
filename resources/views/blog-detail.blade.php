@@ -531,9 +531,9 @@
      <link rel='stylesheet' id='elementor-icons-shared-0-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
         media='all' />
-    <!-- <link rel='stylesheet' id='elementor-icons-fa-brands-css'
+    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
-        media='all' /> -->
+        media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -2108,9 +2108,9 @@
             </div>
         </div>
     </footer>
-    <link rel='stylesheet' id='hfe-widgets-style-css'
+    <!-- <link rel='stylesheet' id='hfe-widgets-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
-        media='all' />
+        media='all' /> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
      <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
