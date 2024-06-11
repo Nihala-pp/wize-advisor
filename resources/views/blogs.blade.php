@@ -4521,16 +4521,8 @@ body {
 }
 
 .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
-    color: #181B34;
-    font-family: "Poppins", Sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: -10px;
-}
-
-.elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
     color: #323338;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin-left: -60px;
