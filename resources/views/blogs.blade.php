@@ -4392,6 +4392,11 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 div.hfe-nav-menu-icon {
+        color: #001E64;
+        margin-top: 7px;
+    }
+
     .elementor-2650 .elementor-element.elementor-element-2a6c58c {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         padding: 50px 0px 0px 95px;
