@@ -2345,10 +2345,10 @@
         "version": "3.21.6"
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
+    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
         id="elementor-web-cli-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
-        id="elementor-dialog-js"></script>
+        id="elementor-dialog-js"></script> -->
     <script id="wp-api-request-js-extra">
     var wpApiSettings = {
         "root": "https:\/\/wiseadvizor.com\/wp-json\/",
