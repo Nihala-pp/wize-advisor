@@ -2218,8 +2218,8 @@
         }
     });
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
+    </script> -->
     <script id="wp-date-js-after">
     wp.date.setSettings({
         "l10n": {
@@ -2267,7 +2267,7 @@
         }
     });
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
         id="wp-html-entities-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
         id="wp-primitives-js"></script>
@@ -2276,7 +2276,7 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"
         id="wp-redux-routine-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
-    </script>
+    </script> -->
 
     <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
         id="wp-rich-text-js"></script>
