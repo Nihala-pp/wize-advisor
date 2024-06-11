@@ -3065,10 +3065,10 @@
         }
     };
     </script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
-        id="pro-elements-handlers-js"></script>
+        id="pro-elements-handlers-js"></script> -->
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
