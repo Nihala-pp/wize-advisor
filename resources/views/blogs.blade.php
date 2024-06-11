@@ -4397,6 +4397,10 @@ i.fas.fa-chevron-down {
         margin-top: 7px;
     }
 
+    /* .hfe-nav-menu__toggle .elementor-clickable .hfe-active-menu .hfe-active-menu-full-width {
+        margin-top: 7px;
+    } */
+
     .elementor-2650 .elementor-element.elementor-element-2a6c58c {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         padding: 50px 0px 0px 95px;
@@ -4650,6 +4654,10 @@ i.fas.fa-chevron-down {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
         color: #001E64 !important;
+    }
+
+    .hfe-nav-menu__toggle .elementor-clickable .hfe-active-menu .hfe-active-menu-full-width {
+
     }
 
 }
