@@ -3154,12 +3154,12 @@
         }
     };
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+      <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
-    <script id="admin-bar-js-before"> -->
+    <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
             var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
@@ -3184,7 +3184,7 @@
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script> -->
+<script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
 
 </html>
