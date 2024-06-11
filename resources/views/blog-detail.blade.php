@@ -3089,7 +3089,7 @@
         "recaptcha_error": "Recaptcha Error"
     };
     </script>
-    <script data-cfasync="false"
+    <!-- <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.975"
         id="wpr-addons-js-js"></script>
     <script
@@ -3097,7 +3097,7 @@
         id="wpr-modal-popups-js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.8.2"
-        id="e-sticky-js"></script>
+        id="e-sticky-js"></script> -->
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
         "ajax": {
