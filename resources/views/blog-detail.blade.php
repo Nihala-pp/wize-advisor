@@ -2278,14 +2278,14 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
     </script> -->
 
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
         id="wp-rich-text-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/warning.min.js?ver=122829a085511691f14d"
         id="wp-warning-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/components.min.js?ver=387d6480ace3103ccd8b"
         id="wp-components-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
-        id="wp-plugins-js"></script>
+        id="wp-plugins-js"></script> -->
     <script id="zip-ai-sidebar-js-extra">
     var zip_ai_react = {
         "ajax_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
