@@ -3242,7 +3242,7 @@ i.fas.fa-chevron-down {
 
     .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
         font-size: 10px;
-        margin-left: -6px;
+        margin-left: -8px;
     }
 
     .elementor-button.elementor-size-xs {
