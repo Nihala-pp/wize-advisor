@@ -2177,7 +2177,7 @@
     wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
     wp.apiFetch.nonceEndpoint = "https://wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
         id="wp-deprecated-js"></script>
@@ -2196,7 +2196,7 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
         id="wp-compose-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
-    </script>
+    </script> -->
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
