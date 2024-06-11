@@ -4309,7 +4309,7 @@
 <style>
 html,
 body {
-    max-width: 100%;
+    /* max-width: 100%; */
     overflow-x: hidden;
 }
 
@@ -4415,7 +4415,7 @@ i.fas.fa-chevron-down {
     .fas {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        margin-top: 10px;
+        margin-top: 7px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
