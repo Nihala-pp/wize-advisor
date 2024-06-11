@@ -3343,7 +3343,6 @@ i.fas.fa-chevron-down {
         background-color: #fff;
         color: #001E64 !important;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
