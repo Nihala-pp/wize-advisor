@@ -2115,8 +2115,8 @@
         id="wp-polyfill-inert-js"></script>
      <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
-    </script> -->
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
         id="wp-dom-ready-js"></script>
     <script id="starter-templates-zip-preview-js-extra">
