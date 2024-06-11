@@ -2154,19 +2154,19 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.5.3"
         id="plus-purge-js-js"></script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script> -->
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
-    </script> -->
+    </script>
     <script id="wp-i18n-js-after">
     wp.i18n.setLocaleData({
         'text direction\u0004ltr': ['ltr']
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/url.min.js?ver=b4979979018b684be209" id="wp-url-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/url.min.js?ver=b4979979018b684be209" id="wp-url-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
         id="wp-api-fetch-js"></script> -->
@@ -2177,7 +2177,7 @@
     wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
     wp.apiFetch.nonceEndpoint = "https://wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
         id="wp-deprecated-js"></script>
@@ -2196,7 +2196,7 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
         id="wp-compose-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
-    </script> -->
+    </script>
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
@@ -2218,8 +2218,8 @@
         }
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
-    </script> -->
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
+    </script>
     <script id="wp-date-js-after">
     wp.date.setSettings({
         "l10n": {
@@ -2267,7 +2267,7 @@
         }
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
         id="wp-html-entities-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
         id="wp-primitives-js"></script>
@@ -2276,16 +2276,16 @@
     <script src="https://wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"
         id="wp-redux-routine-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
-    </script> -->
+    </script>
 
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
         id="wp-rich-text-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/warning.min.js?ver=122829a085511691f14d"
         id="wp-warning-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/components.min.js?ver=387d6480ace3103ccd8b"
         id="wp-components-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
-        id="wp-plugins-js"></script> -->
+        id="wp-plugins-js"></script>
     <script id="zip-ai-sidebar-js-extra">
     var zip_ai_react = {
         "ajax_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -2300,16 +2300,16 @@
         "zip_ai_assistant_options": ""
     };
     </script>
-    <!-- <script
+    <script
         src="https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.js?ver=195428426d8559d53d29"
-        id="zip-ai-sidebar-js"></script> -->
+        id="zip-ai-sidebar-js"></script>
     <script id="twenty-twenty-one-ie11-polyfills-js-after">
     (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
     document.write(
         '<script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
         'ipt>');
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
+    <script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
         id="twenty-twenty-one-responsive-embeds-script-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
@@ -2317,14 +2317,14 @@
         id="jquery-ui-draggable-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js"></script> -->
-    <!-- <script
+     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
         id="backbone-marionette-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
         id="backbone-radio-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.21.6"
-        id="elementor-common-modules-js"></script> -->
+        id="elementor-common-modules-js"></script> 
     <script id="elementor-web-cli-js-before">
     var elementorWebCliConfig = {
         "isDebug": true,
@@ -2345,10 +2345,10 @@
         "version": "3.21.6"
     };
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
+     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
         id="elementor-web-cli-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
-        id="elementor-dialog-js"></script> -->
+        id="elementor-dialog-js"></script> 
     <script id="wp-api-request-js-extra">
     var wpApiSettings = {
         "root": "https:\/\/wiseadvizor.com\/wp-json\/",
@@ -2356,7 +2356,7 @@
         "versionString": "wp\/v2\/"
     };
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
+     <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
     </script>
     <script id="elementor-dev-tools-js-before">
     var elementorDevToolsConfig = {
@@ -2832,13 +2832,13 @@
     };
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
-        id="elementor-app-loader-js"></script> -->
+        id="elementor-app-loader-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
         "tpgb_edit_template": []
     }
     </script>
-    <!-- <script
+    <script
         src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.9"
         id="tpgb-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.6"
@@ -2846,7 +2846,7 @@
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-        id="elementor-waypoints-js"></script> -->
+        id="elementor-waypoints-js"></script> 
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
@@ -2975,14 +2975,14 @@
         }
     };
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.6"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.6"
         id="elementor-frontend-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
-        id="elementor-pro-webpack-runtime-js"></script> -->
+        id="elementor-pro-webpack-runtime-js"></script> 
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -3065,10 +3065,10 @@
         }
     };
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
-        id="pro-elements-handlers-js"></script> -->
+        id="pro-elements-handlers-js"></script> 
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -3089,7 +3089,7 @@
         "recaptcha_error": "Recaptcha Error"
     };
     </script>
-    <!-- <script data-cfasync="false"
+    <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.975"
         id="wpr-addons-js-js"></script>
     <script
@@ -3097,7 +3097,7 @@
         id="wpr-modal-popups-js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.8.2"
-        id="e-sticky-js"></script> -->
+        id="e-sticky-js"></script> 
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
         "ajax": {
@@ -3105,7 +3105,7 @@
         }
     };
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script> -->
+    <script src="https://wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
     <script id="wpforms-elementor-js-extra">
     var wpformsElementorVars = {
         "captcha_provider": "recaptcha",
