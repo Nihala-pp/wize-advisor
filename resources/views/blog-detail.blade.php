@@ -2838,7 +2838,7 @@
         "tpgb_edit_template": []
     }
     </script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.9"
         id="tpgb-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.6"
@@ -2846,7 +2846,7 @@
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-        id="elementor-waypoints-js"></script>
+        id="elementor-waypoints-js"></script> -->
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
