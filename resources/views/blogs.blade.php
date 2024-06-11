@@ -4416,6 +4416,7 @@ i.fas.fa-chevron-down {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         margin-top: 7px;
+        margin-bottom: -30px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
@@ -4423,7 +4424,8 @@ i.fas.fa-chevron-down {
         max-width: 120%;
         height: 80px;
         object-fit: contain;
-        margin-top: 10px;
+        margin-top: 7px;
+        margin-bottom: -20px;
     }
 
     .elementor-button.elementor-size-xs {
