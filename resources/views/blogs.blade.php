@@ -4602,6 +4602,10 @@ i.fas.fa-chevron-down {
         margin-top: 10px;
     }
 
+    .elementor-widget-wrap>.elementor-element {
+    /* width: 100%; */
+    }
+
     .elementor-3007 .elementor-element.elementor-element-556f326 img {
         width: 200%;
         max-width: 120%;
