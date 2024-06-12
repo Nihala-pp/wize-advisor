@@ -4391,9 +4391,9 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
-    i.far.fa-window-close {
+    /* i.far.fa-window-close {
         margin-top: 7px;
-    }
+    } */
     
     .elementor-2650 .elementor-element.elementor-element-2a6c58c {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -4414,7 +4414,7 @@ i.fas.fa-chevron-down {
         margin-left: -48px;
     }
 
-    .fa,
+    /* .fa,
     .fas {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
@@ -4429,7 +4429,7 @@ i.fas.fa-chevron-down {
         object-fit: contain;
         margin-top: 7px;
         margin-bottom: -20px;
-    }
+    } */
 
     .elementor-button.elementor-size-xs {
         font-size: 12px;
