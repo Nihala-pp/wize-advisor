@@ -4391,7 +4391,7 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
-    body { 
+    element  { 
         max-width: 100vw; 
         overflow-x: hidden !important; 
     }
