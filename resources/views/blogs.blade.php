@@ -4396,10 +4396,6 @@ i.fas.fa-chevron-down {
         overflow-x: hidden; 
     }
 
-    /* i.far.fa-window-close {
-        margin-top: 7px;
-    } */
-    
     .elementor-2650 .elementor-element.elementor-element-2a6c58c {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         padding: 50px 0px 0px 95px;
