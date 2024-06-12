@@ -4522,7 +4522,8 @@ i.fas.fa-chevron-down {
         font-size: 2.5rem;
         font-weight: 600;
         line-height: 2.75rem;
-        margin-top: 25px;
+        margin-top: 30px;
+        padding-top: 20px;
     }
 
     .elementor-7005 .elementor-element.elementor-element-114d5cfa .elementor-heading-title {
@@ -4531,7 +4532,8 @@ i.fas.fa-chevron-down {
         font-size: 2.5rem;
         font-weight: 600;
         line-height: 2.75rem;
-        margin-top: 25px;
+        margin-top: 30px;
+        padding-top: 20px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-f871cda {
@@ -4580,8 +4582,8 @@ i.fas.fa-chevron-down {
         font-size: 2.5rem;
         font-weight: 600;
         line-height: 2.75rem;
-        margin-top: 25px;
-    }
+        margin-top: 30px;
+        padding-top: 20px;    }
 
     .elementor-3007 .elementor-element.elementor-element-094a417 {
         width: 50%;
@@ -4636,7 +4638,18 @@ i.fas.fa-chevron-down {
         color: #001E64 !important;
     }
 
-    .hfe-nav-menu__toggle .elementor-clickable .hfe-active-menu .hfe-active-menu-full-width {}
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .ehf-header #masthead {
+        margin-top: -45px;
+        z-index: 99;
+        position: relative;
+        margin-bottom: -40px;
+    }
+
 
 }
 
