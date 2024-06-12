@@ -4256,51 +4256,57 @@
     }());
     </script>
     <script type="text/javascript">
-    jQuery(document).ready(function()
+    jQuery(document).ready(function() {
 
-    var scrollEventHandler = function() {
-        window.scroll(0, window.pageYOffset)
-    }
-
-    window.addEventListener("scroll", scrollEventHandler, false);
-
-    jQuery('#slider_7004').owlCarousel({
-        items: 1,
-        smartSpeed: 200,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        smartSpeed: 200,
-        fluidSpeed: 200,
-        autoplaySpeed: 200,
-        navSpeed: 200,
-        dotsSpeed: 200,
-        loop: true,
-        nav: false,
-        navText: ['Previous', 'Next'],
-        dots: true,
-        responsiveRefreshRate: 200,
-        slideBy: 1,
-        mergeFit: true,
-        autoHeight: true,
-        mouseDrag: false,
-        touchDrag: false
-    }); jQuery('#slider_7004').css('visibility', 'visible');
-    var owl_goto = jQuery('#slider_7004'); jQuery('.slider_7004_goto1').click(function(event) {
-        owl_goto.trigger('to.owl.carousel', 0);
-    }); jQuery('.slider_7004_goto2').click(function(event) {
-        owl_goto.trigger('to.owl.carousel', 1);
-    }); jQuery('.slider_7004_goto3').click(function(event) {
-        owl_goto.trigger('to.owl.carousel', 2);
-    });
-    var resize_7004 = jQuery('.owl-carousel'); resize_7004.on('initialized.owl.carousel', function(e) {
-        if (typeof(Event) === 'function') {
-            window.dispatchEvent(new Event('resize'));
-        } else {
-            var evt = window.document.createEvent('UIEvents');
-            evt.initUIEvent('resize', true, false, window, 0);
-            window.dispatchEvent(evt);
+        var scrollEventHandler = function() {
+            window.scroll(0, window.pageYOffset)
         }
+
+        window.addEventListener("scroll", scrollEventHandler, false);
+
+        jQuery('#slider_7004').owlCarousel({
+            items: 1,
+            smartSpeed: 200,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            smartSpeed: 200,
+            fluidSpeed: 200,
+            autoplaySpeed: 200,
+            navSpeed: 200,
+            dotsSpeed: 200,
+            loop: true,
+            nav: false,
+            navText: ['Previous', 'Next'],
+            dots: true,
+            responsiveRefreshRate: 200,
+            slideBy: 1,
+            mergeFit: true,
+            autoHeight: true,
+            mouseDrag: false,
+            touchDrag: false
+        });
+        jQuery('#slider_7004').css('visibility', 'visible');
+        var owl_goto = jQuery('#slider_7004');
+        jQuery('.slider_7004_goto1').click(function(event) {
+            owl_goto.trigger('to.owl.carousel', 0);
+        });
+        jQuery('.slider_7004_goto2').click(function(event) {
+            owl_goto.trigger('to.owl.carousel', 1);
+        });
+        jQuery('.slider_7004_goto3').click(function(event) {
+            owl_goto.trigger('to.owl.carousel', 2);
+        });
+        var resize_7004 = jQuery('.owl-carousel');
+        resize_7004.on('initialized.owl.carousel', function(e) {
+            if (typeof(Event) === 'function') {
+                window.dispatchEvent(new Event('resize'));
+            } else {
+                var evt = window.document.createEvent('UIEvents');
+                evt.initUIEvent('resize', true, false, window, 0);
+                window.dispatchEvent(evt);
+            }
+        });
     });
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
@@ -4308,11 +4314,6 @@
 
 </html>
 <style>
-/* html,
-body {
-    overflow-x: hidden;
-} */
-
 .elementor-2650 .elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     margin-left: -45px !important;
 }
