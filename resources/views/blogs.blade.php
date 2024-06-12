@@ -4391,6 +4391,10 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    body { 
+        overflow-y: scroll; overflow-x: hidden; 
+    }
+
     /* i.far.fa-window-close {
         margin-top: 7px;
     } */
