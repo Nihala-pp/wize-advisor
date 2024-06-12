@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
@@ -15,11 +14,14 @@
     gtag('config', 'G-QC47PPTD6T');
     </script>
     <meta charset="UTF-8">
-    <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 50) }} </title>
-    <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
+    <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
+    <meta name="description"
+        content="wiseAdvizor is a platform that bridges the gap between mentors and learners through 1:1 mentorship. Kick start your career now.">
+    <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor" href="https://wiseadvizor.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor"
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
+        href="https://wiseadvizor.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
@@ -60,14 +62,14 @@
         }
     }
     </style>
-     <link rel='stylesheet' id='elementor-icons-css'
+    <link rel='stylesheet' id='elementor-icons-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' /> 
+        media='all' />
     <style id='wp-emoji-styles-inline-css'>
     img.wp-smiley,
     img.emoji {
@@ -83,7 +85,7 @@
     }
     </style>
     <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.min.css?ver=2.0'
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
         media='all' />
     <style id='global-styles-inline-css'>
     body {
@@ -472,8 +474,8 @@
         line-height: 1.6;
     }
     </style>
-     <link rel='stylesheet' id='hfe-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.33'
+    <link rel='stylesheet' id='hfe-style-css'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.33'
         media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.21.6'
@@ -487,17 +489,20 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
         media='all' />
     <link rel='stylesheet' id='she-header-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.11'
+        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.11'
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' /> 
-    <link rel='stylesheet' id='elementor-post-4349-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717511569' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' />
+    <link rel='stylesheet' id='post-4349-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717513898' media='all' />
+    <link rel='stylesheet' id='hfe-widgets-style-css'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+        media='all' />
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1717402369' media='all' />
     <link rel='stylesheet' id='elementor-post-32-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1716892157' media='all' />
-     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
+    <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
@@ -522,38 +527,65 @@
     <link rel='stylesheet' id='wpr-addons-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975'
         media='all' />
-     <link rel='stylesheet' id='font-awesome-5-all-css'
+    <link rel='stylesheet' id='font-awesome-5-all-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.975'
         media='all' />
     <link rel='stylesheet' id='google-fonts-1-css'
         href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3'
         media='all' />
-     <link rel='stylesheet' id='elementor-icons-shared-0-css'
+    <link rel='stylesheet' id='elementor-icons-shared-0-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-regular-css'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3'
         media='all' />
     <link rel='stylesheet' id='elementor-icons-fa-brands-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
         media='all' />
+    <link rel='stylesheet' id='owl_carousel_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.css?ver=2.2.1.1'
+        media='all' />
+    <link rel='stylesheet' id='owl_theme_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0'
+        media='all' />
+    <link rel='stylesheet' id='owl_animate_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0'
+        media='all' />
+    <link rel='stylesheet' id='lightgallery_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.css?ver=2.5.0'
+        media='all' />
+    <link rel='stylesheet' id='lightgallery_bundle_css-css'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-7005-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7009-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7009.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7012-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7012.css?ver=1717773569' media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "https:\/\/https://wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script> 
+        id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script> 
+        id="jquery-migrate-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.11"
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
         id="she-header-js"></script>
     <script id="elementor-pro-app-js-before">
     var elementorAppProConfig = {
-        "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
+        "baseUrl": "https:\/\/https://wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
         "site-editor": {
             "urls": {
-                "legacy_view": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
+                "legacy_view": "https:\/\/https://wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
             }
         },
         "kit-library": [],
@@ -562,15 +594,17 @@
     };
     </script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/4349" />
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2650" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}">
-    <link rel='shortlink' href='https://wiseadvizor.com/?p=4349' />
+    <link rel="canonical" href="https://wiseadvizor.com/blogs/" />
+    <link rel='shortlink' href='https://wiseadvizor.com/?p=2650' />
     <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fblogs%2Fblog-detail%2F" />
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fblogs%2Fblog-detail%2F&#038;format=xml" />
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F&#038;format=xml" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
     #wpadminbar .theplus-purge-clear>.ab-item:before {
         content: '';
@@ -739,7 +773,6 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-4349 page-child parent-pageid-18 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4349">
     @include('partials.header-common')
