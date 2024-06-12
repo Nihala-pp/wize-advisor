@@ -3497,6 +3497,13 @@ i.fas.fa-chevron-down {
         margin: -35px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
+
+    .ehf-header #masthead {
+        margin-top: -45px;
+        z-index: 99;
+        position: relative;
+        /* margin-bottom: -70px; */
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
