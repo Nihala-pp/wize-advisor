@@ -3492,6 +3492,11 @@ i.fas.fa-chevron-down {
         background-color: #fff;
         color: #001E64 !important;
     }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
