@@ -3271,6 +3271,13 @@
     </script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
+
+        var scrollEventHandler = function() {
+            window.scroll(0, window.pageYOffset)
+        }
+
+        window.addEventListener("scroll", scrollEventHandler, false);
+
         jQuery('#slider_7004').owlCarousel({
             items: 1,
             smartSpeed: 200,
