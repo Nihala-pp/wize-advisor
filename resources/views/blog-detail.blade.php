@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
@@ -594,11 +595,11 @@
     };
     </script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2650" />
+    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/4349" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
     <link rel="canonical" href="https://wiseadvizor.com/blogs/" />
-    <link rel='shortlink' href='https://wiseadvizor.com/?p=2650' />
+    <link rel='shortlink' href='https://wiseadvizor.com/?p=4349' />
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F" />
     <link rel="alternate" type="text/xml+oembed"
@@ -773,6 +774,7 @@
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-4349 page-child parent-pageid-18 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4349">
     @include('partials.header-common')
@@ -2141,12 +2143,29 @@
             </div>
         </div>
     </footer>
-    <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+    <div id="zip-ai-sidebar-admin-trigger"></div>
+    <div id="zip-ai-sidebar"></div>
+    <script>
+    document.body.classList.remove("no-js");
+    </script>
+    <script>
+    if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
+        document.body.classList.add('is-IE');
+    }
+    </script>
+    <script type="text/template" id="tmpl-elementor-templates-modal__header">
+        <div class="elementor-templates-modal__header__logo-area"></div>
+	<div class="elementor-templates-modal__header__menu-area"></div>
+	<div class="elementor-templates-modal__header__items-area">
+		<div id="elementor-template-library-header-tools"></div>
+	</div>
+</script>
+    <link rel='stylesheet' id='e-animations-css'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.21.6'
         media='all' />
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
-     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
     </script>
@@ -2176,7 +2195,7 @@
     <script src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.7.1"
         id="qi-addons-for-elementor-script-js"></script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
         id="wpr-particles-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
@@ -2205,7 +2224,7 @@
         id="wp-api-fetch-js"></script>
     <script id="wp-api-fetch-js-after">
     wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://wiseadvizor.com/wp-json/"));
-    wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("57a7cdee92");
+    wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("8534adba64");
     wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
     wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
     wp.apiFetch.nonceEndpoint = "https://wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
@@ -2228,8 +2247,7 @@
         id="wp-priority-queue-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
         id="wp-compose-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
-    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js"></script>
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
@@ -2310,7 +2328,16 @@
         id="wp-redux-routine-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
     </script>
-
+    <script id="wp-data-js-after">
+    (function() {
+        var userId = 1;
+        var storageKey = "WP_DATA_USER_" + userId;
+        wp.data
+            .use(wp.data.plugins.persistence, {
+                storageKey: storageKey
+            });
+    })();
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
         id="wp-rich-text-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/warning.min.js?ver=122829a085511691f14d"
@@ -2322,10 +2349,10 @@
     <script id="zip-ai-sidebar-js-extra">
     var zip_ai_react = {
         "ajax_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "ajax_nonce": "1a1def056b",
-        "admin_nonce": "c2296213a4",
+        "ajax_nonce": "17ffe2f5c6",
+        "admin_nonce": "b8e46cdb70",
         "current_post_id": "4349",
-        "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fwiseadvizor.com%2Fwp-admin%2F%3Fnonce%3D24ef695c9a%26scs-authorize%3Dtrue",
+        "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fhttps://wiseadvizor.com%2Fwp-admin%2F%3Fnonce%3Da57b05edb1%26scs-authorize%3Dtrue",
         "is_authorized": "",
         "is_ai_assistant_enabled": "1",
         "is_customize_preview": "",
@@ -2350,14 +2377,14 @@
         id="jquery-ui-draggable-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js"></script>
-     <script
+    <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
         id="backbone-marionette-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
         id="backbone-radio-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.21.6"
-        id="elementor-common-modules-js"></script> 
+        id="elementor-common-modules-js"></script>
     <script id="elementor-web-cli-js-before">
     var elementorWebCliConfig = {
         "isDebug": true,
@@ -2365,7 +2392,7 @@
             "rest": "https:\/\/wiseadvizor.com\/wp-json\/",
             "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
-        "nonce": "57a7cdee92",
+        "nonce": "8534adba64",
         "version": "3.21.6"
     };
     var elementorWebCliConfig = {
@@ -2374,23 +2401,22 @@
             "rest": "https:\/\/wiseadvizor.com\/wp-json\/",
             "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
         },
-        "nonce": "57a7cdee92",
+        "nonce": "8534adba64",
         "version": "3.21.6"
     };
     </script>
-     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
         id="elementor-web-cli-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
-        id="elementor-dialog-js"></script> 
+        id="elementor-dialog-js"></script>
     <script id="wp-api-request-js-extra">
     var wpApiSettings = {
         "root": "https:\/\/wiseadvizor.com\/wp-json\/",
-        "nonce": "57a7cdee92",
+        "nonce": "8534adba64",
         "versionString": "wp\/v2\/"
     };
     </script>
-     <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
-    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js"></script>
     <script id="elementor-dev-tools-js-before">
     var elementorDevToolsConfig = {
         "isDebug": true,
@@ -2501,7 +2527,7 @@
         },
         "ajax": {
             "url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-            "nonce": "aeb1f15428"
+            "nonce": "4aa0a57e29"
         },
         "finder": {
             "data": {
@@ -2569,97 +2595,97 @@
                         "page": {
                             "title": "Add New Page Template",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New Page Template", "post", "page", "template", "new", "create"]
                         },
                         "section": {
                             "title": "Add New Section",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=section",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=section",
                             "keywords": ["Add New Section", "post", "page", "template", "new", "create"]
                         },
                         "wp-post": {
                             "title": "Add New Post",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New Post", "post", "page", "template", "new", "create"]
                         },
                         "wp-page": {
                             "title": "Add New Page",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New Page", "post", "page", "template", "new", "create"]
                         },
                         "wpr-theme-builder": {
                             "title": "Add New WPR Theme Builder",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New WPR Theme Builder", "post", "page", "template", "new", "create"]
                         },
                         "wpr-popups": {
                             "title": "Add New WPR Popup",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New WPR Popup", "post", "page", "template", "new", "create"]
                         },
                         "landing-page": {
                             "title": "Add New Landing Page",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=a37c47ee6a#library",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=f0aec7bb16#library",
                             "keywords": ["Add New Landing Page", "post", "page", "template", "new", "create"]
                         },
                         "popup": {
                             "title": "Add New Popup",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=popup",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=popup",
                             "keywords": ["Add New Popup", "post", "page", "template", "new", "create"]
                         },
                         "header": {
                             "title": "Add New Header",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=header",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=header",
                             "keywords": ["Add New Header", "post", "page", "template", "new", "create"]
                         },
                         "footer": {
                             "title": "Add New Footer",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=footer",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=footer",
                             "keywords": ["Add New Footer", "post", "page", "template", "new", "create"]
                         },
                         "single": {
                             "title": "Add New Single",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=single",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=single",
                             "keywords": ["Add New Single", "post", "page", "template", "new", "create"]
                         },
                         "single-post": {
                             "title": "Add New Single Post",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=single-post",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=single-post",
                             "keywords": ["Add New Single Post", "post", "page", "template", "new", "create"]
                         },
                         "single-page": {
                             "title": "Add New Single Page",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=single-page&_elementor_template_sub_type=page",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=single-page&_elementor_template_sub_type=page",
                             "keywords": ["Add New Single Page", "post", "page", "template", "new", "create"]
                         },
                         "archive": {
                             "title": "Add New Archive",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=archive",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=archive",
                             "keywords": ["Add New Archive", "post", "page", "template", "new", "create"]
                         },
                         "search-results": {
                             "title": "Add New Search Results",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=search-results&_elementor_template_sub_type=search",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=search-results&_elementor_template_sub_type=search",
                             "keywords": ["Add New Search Results", "post", "page", "template", "new", "create"]
                         },
                         "error-404": {
                             "title": "Add New Error 404",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=a37c47ee6a&template_type=error-404&_elementor_template_sub_type=not_found404",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=f0aec7bb16&template_type=error-404&_elementor_template_sub_type=not_found404",
                             "keywords": ["Add New Error 404", "post", "page", "template", "new", "create"]
                         },
                         "code_snippet": {
@@ -2671,13 +2697,13 @@
                         "wpr_templates": {
                             "title": "Add New Royal Templates",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New Royal Templates", "post", "page", "template", "new", "create"]
                         },
                         "elementor-hf": {
                             "title": "Add New Elementor Header &amp; Footer Builder",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New Elementor Header &amp; Footer Builder", "post", "page",
                                 "template", "new", "create"
                             ]
@@ -2685,7 +2711,7 @@
                         "wpr_mega_menu": {
                             "title": "Add New Royal Mega Menu",
                             "icon": "plus-circle-o",
-                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=a37c47ee6a",
+                            "url": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=f0aec7bb16",
                             "keywords": ["Add New Royal Mega Menu", "post", "page", "template", "new", "create"]
                         },
                         "theme-template": {
@@ -2866,6 +2892,29 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
         id="elementor-app-loader-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.33"
+        id="hfe-frontend-js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1"
+        id="owl_carousel_js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13"
+        id="mousewheel_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8"
+        id="owl_thumbs_js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0"
+        id="lightgallery_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0"
+        id="lightgallery_video_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0"
+        id="lightgallery_zoom_js-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0"
+        id="lightgallery_autoplay_js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1"
+        id="vimeo_player_js-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
         "tpgb_edit_template": []
@@ -2879,7 +2928,7 @@
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-        id="elementor-waypoints-js"></script> 
+        id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
@@ -2999,7 +3048,7 @@
         },
         "post": {
             "id": 4349,
-            "title": "Blog-detail%20%E2%80%93%20WISE%20ADVIZOR",
+            "title": "FAQ%20%E2%80%93%20WISE%20ADVIZOR",
             "excerpt": "",
             "featuredImage": false
         },
@@ -3015,11 +3064,11 @@
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
-        id="elementor-pro-webpack-runtime-js"></script> 
+        id="elementor-pro-webpack-runtime-js"></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "nonce": "6871a6bb83",
+        "nonce": "682f8d53d0",
         "urls": {
             "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
             "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
@@ -3101,18 +3150,18 @@
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
-        id="pro-elements-handlers-js"></script> 
+        id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
         "resturl": "https:\/\/wiseadvizor.com\/wp-json\/wpraddons\/v1",
-        "nonce": "c26142c407",
+        "nonce": "91860fdb37",
         "addedToCartText": "was added to cart",
         "viewCart": "View Cart",
         "comparePageID": "",
-        "comparePageURL": "https:\/\/wiseadvizor.com\/blogs\/blog-detail\/",
+        "comparePageURL": "https:\/\/wiseadvizor.com\/faq\/",
         "wishlistPageID": "",
-        "wishlistPageURL": "https:\/\/wiseadvizor.com\/blogs\/blog-detail\/",
+        "wishlistPageURL": "https:\/\/wiseadvizor.com\/faq\/",
         "chooseQuantityText": "Please select the required number of items.",
         "site_key": "",
         "is_admin": "1",
@@ -3130,7 +3179,7 @@
         id="wpr-modal-popups-js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.8.2"
-        id="e-sticky-js"></script> 
+        id="e-sticky-js"></script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
         "ajax": {
@@ -3187,11 +3236,14 @@
         }
     };
     </script>
-      <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
     <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
@@ -3217,7 +3269,54 @@
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
     </script>
-<script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('#slider_7004').owlCarousel({
+            items: 1,
+            smartSpeed: 200,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            smartSpeed: 200,
+            fluidSpeed: 200,
+            autoplaySpeed: 200,
+            navSpeed: 200,
+            dotsSpeed: 200,
+            loop: true,
+            nav: false,
+            navText: ['Previous', 'Next'],
+            dots: true,
+            responsiveRefreshRate: 200,
+            slideBy: 1,
+            mergeFit: true,
+            autoHeight: true,
+            mouseDrag: false,
+            touchDrag: false
+        });
+        jQuery('#slider_7004').css('visibility', 'visible');
+        var owl_goto = jQuery('#slider_7004');
+        jQuery('.slider_7004_goto1').click(function(event) {
+            owl_goto.trigger('to.owl.carousel', 0);
+        });
+        jQuery('.slider_7004_goto2').click(function(event) {
+            owl_goto.trigger('to.owl.carousel', 1);
+        });
+        jQuery('.slider_7004_goto3').click(function(event) {
+            owl_goto.trigger('to.owl.carousel', 2);
+        });
+        var resize_7004 = jQuery('.owl-carousel');
+        resize_7004.on('initialized.owl.carousel', function(e) {
+            if (typeof(Event) === 'function') {
+                window.dispatchEvent(new Event('resize'));
+            } else {
+                var evt = window.document.createEvent('UIEvents');
+                evt.initUIEvent('resize', true, false, window, 0);
+                window.dispatchEvent(evt);
+            }
+        });
+    });
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
 
 </html>
