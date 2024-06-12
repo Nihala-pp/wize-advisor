@@ -4393,7 +4393,7 @@ i.fas.fa-chevron-down {
 
     body { 
         overflow-y: scroll; 
-        overflow-x: hidden; 
+        overflow-x: hidden !important; 
     }
 
     .elementor-2650 .elementor-element.elementor-element-2a6c58c {
