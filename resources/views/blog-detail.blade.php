@@ -15,9 +15,8 @@
     gtag('config', 'G-QC47PPTD6T');
     </script>
     <meta charset="UTF-8">
-    <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
-    <meta name="description"
-        content="wiseAdvizor is a platform that bridges the gap between mentors and learners through 1:1 mentorship. Kick start your career now.">
+    <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 50) }} </title>
+    <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
     <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
@@ -598,7 +597,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/4349" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://wiseadvizor.com/blogs/" />
+    <link rel="canonical" href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}">
     <link rel='shortlink' href='https://wiseadvizor.com/?p=4349' />
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F" />
