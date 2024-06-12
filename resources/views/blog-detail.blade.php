@@ -3376,28 +3376,6 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
-
-    /* i.far.fa-window-close {
-        margin-top: 7px;
-    }
-
-    .fa,
-    .fas {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        margin-top: 7px;
-        margin-bottom: -30px;
-    } */
-
-    /* .elementor-3007 .elementor-element.elementor-element-556f326 img {
-        width: 200%;
-        max-width: 120%;
-        height: 80px;
-        object-fit: contain;
-        margin-top: 7px;
-        margin-bottom: -20px;
-    } */
-
     .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
         font-size: 10px;
         margin-left: -8px;
