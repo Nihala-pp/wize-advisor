@@ -3321,6 +3321,12 @@
 
 </html>
 <style>
+html,
+body {
+    /* max-width: 100%; */
+    overflow-x: hidden;
+}
+
 .elementor-4349 .elementor-element.elementor-element-15c3afc .elementor-heading-title {
     color: #6161ff;
     font-family: "Poppins", Sans-serif;
