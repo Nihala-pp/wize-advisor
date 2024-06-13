@@ -2141,9 +2141,9 @@ html body .animated {
         "recaptcha_type": "v2"
     };
     </script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4"
-        id="wpforms-elementor-js"></script>
+        id="wpforms-elementor-js"></script> -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <script id="elementor-admin-bar-js-before">
