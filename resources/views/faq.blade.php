@@ -1046,7 +1046,7 @@
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
     <link rel="stylesheet" id="she-header-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">

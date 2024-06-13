@@ -1006,7 +1006,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.14.1"
         media="all">
     <link rel="stylesheet" id="she-header-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.5"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
         media="all">
     <link rel="stylesheet" id="elementor-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1688377904" media="all">

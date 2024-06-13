@@ -490,7 +490,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
         media='all' />
     <link rel='stylesheet' id='she-header-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.11'
+        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.11'
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1716892157' media='all' />
