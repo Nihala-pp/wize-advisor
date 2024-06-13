@@ -7107,10 +7107,10 @@
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js') }}">
     </script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1" id="elementor-frontend-modules-js') }}">
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js') }}">
     </script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js') }}">
+        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js') }}">
     </script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -7348,7 +7348,7 @@
     <script
         src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
         id="e-sticky-js"></script>
-    <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js') }}">
+    <script src="{{ asset('public/wp-includes/js/underscore.min.js" id="underscore-js') }}">
     </script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
