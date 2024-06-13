@@ -15,7 +15,7 @@
     gtag('config', 'G-QC47PPTD6T');
     </script>
     <meta charset="utf-8">
-    <title>Connect with Professional Mentor {{ $mentor->name }}</title>
+    <title>Connect with Professional Mentor{{ $mentor->name }}</title>
     <meta name="description"
         content="Get professional mentoring from highly accomplished mentor {{ $mentor->name }} at wiseAdvizor. Discover her expertise and see what her mentees have to say.">
     <meta name="keywords" content="professional mentor, my mentor, Find a mentor, Startup mentor">
