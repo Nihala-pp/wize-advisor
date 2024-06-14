@@ -31,8 +31,9 @@
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
         content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-    <meta name="twitter:url"
-        content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta name="twitter:url" content="https://wiseadvizor.com">
+    <meta name="twitter:image"
+        url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
