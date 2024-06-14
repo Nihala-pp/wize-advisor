@@ -3419,7 +3419,7 @@
                                                             type="image/webp">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', [Str::slug('Sales')]) }}">
+                                                <a href="{{ route('browseMentor', ['Sales']) }}">
                                                     <h5 class="qodef-e-title">
                                                         Sales
                                                     </h5>
@@ -3436,7 +3436,7 @@
                                                             type="image/webp">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', [Str::slug('Idea Validation')]) }}">
+                                                <a href="{{ route('browseMentor', [str_replace('%20', '', 'Idea Validation')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Idea Validation
                                                     </h5>
@@ -3511,7 +3511,7 @@
                                                             alt="goals for a mentorship" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', [Str::slug('Fund raising')]) }}">
+                                                <a href="{{ route('browseMentor', [str_replace('%20', '', 'Fund raising')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Fund raising
                                                     </h5>
