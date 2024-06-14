@@ -3419,7 +3419,7 @@
                                                             type="image/webp">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Sales']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Sales')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Sales
                                                     </h5>
@@ -3436,7 +3436,7 @@
                                                             type="image/webp">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Idea Validation']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Idea Validation')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Idea Validation
                                                     </h5>
@@ -3452,7 +3452,7 @@
                                                             alt="project manager mentor" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['product-market-fit']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('product-market-fit')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Product Market
                                                     </h5>
@@ -3511,7 +3511,7 @@
                                                             alt="goals for a mentorship" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Fund raising']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Fund raising')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Fund raising
                                                     </h5>
@@ -3542,7 +3542,7 @@
                                                             alt="business tips" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Business Strategy']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Business Strategy')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Business Strategy
                                                     </h5>
@@ -3558,7 +3558,7 @@
                                                             alt="cheapest business to start" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Pricing Strategy']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Pricing Strategy')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Pricing Strategy
                                                     </h5>
@@ -3574,7 +3574,7 @@
                                                             alt="start up business" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Social Media']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Social Media')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Social Media
                                                     </h5>
@@ -3601,7 +3601,7 @@
                                                             alt="marketing mentor" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Content creation']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Content creation')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Content creation </h5>
                                                 </a>
@@ -3631,7 +3631,7 @@
                                                             alt="peer mentoring" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Operations and logistics']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Operations and logistics')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Operations </h5>
                                                 </a>
@@ -3646,7 +3646,7 @@
                                                             alt="looking for a mentor" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Risk Management']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Risk Management')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Risk Management </h5>
                                                 </a>
@@ -3661,7 +3661,7 @@
                                                             alt="mentors near me" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Ads Strategy']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Ads Strategy')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Ads Strategy </h5>
                                                 </a>
@@ -3687,7 +3687,7 @@
                                                             alt="looking for a mentor" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Brand Building']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Brand Building')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Brand Building </h5>
                                                 </a>
@@ -3717,7 +3717,7 @@
                                                             alt="Valuation" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Startup valuation']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Startup valuation')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Startup Valuation </h5>
                                                 </a>
@@ -3747,7 +3747,7 @@
                                                             alt="good ideas for business" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Email Marketing']) }}">
+                                                <a href="{{ route('browseMentor', [Str::slug('Email Marketing')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Email marketing </h5>
                                                 </a>
