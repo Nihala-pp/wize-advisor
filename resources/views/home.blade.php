@@ -19,6 +19,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
         content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta property="og:title" content="Add title here">
+    <meta property="og:description" content="Add description here">
+    <meta property="og:image" content="https://wiseadvizor.com/og-image.png">
+    <meta property="og:url" content="https://wiseadvizor.com">
+    <meta name="twitter:title" content="Add title here">
+    <meta name="twitter:description" content="Add description here">
+    <meta name="twitter:url" content="https://wiseadvizor.com/twitter-image.png">
+    <meta name="twitter:card" content="summary">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
@@ -7103,14 +7111,11 @@
     <script
         src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2') }}"
         id="packery-js"></script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
-    <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
     </script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
