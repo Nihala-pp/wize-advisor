@@ -44,8 +44,8 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/">
+    <!-- <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+        href="https://wiseadvizor.com/comments/feed/"> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- <link rel='stylesheet' id='elementor-post-5607-css'
