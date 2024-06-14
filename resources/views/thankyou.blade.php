@@ -2,8 +2,9 @@
 <html>
 <!DOCTYPE html>
 <html lang="en-US">
-    wedwrewregywegwrghyerewrgby
-    wsedwduhewr
+wedwrewregywegwrghyerewrgby
+wsedwduhewr
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
@@ -121,6 +122,16 @@
             })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
                 .wpemoji)))
     }(window, document, window._wpemojiSettings);
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Startup Mentorship Platform",
+        "name": "wiseAdvizor",
+        "description": "Connect 1:1 with successful entrepreneurs and industry leaders who’ve walked the path before you.",
+        "url": "https://wiseadvizor.com",
+        "logo": "https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
+    }
     </script>
     <style>
     img.wp-smiley,
