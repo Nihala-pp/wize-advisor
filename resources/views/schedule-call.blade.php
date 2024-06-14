@@ -19,6 +19,24 @@
     <meta name="description"
         content="Get professional mentoring from highly accomplished mentor {{ $mentor->name }} at wiseAdvizor. Discover her expertise and see what her mentees have to say.">
     <meta name="keywords" content="professional mentor, my mentor, Find a mentor, Startup mentor">
+    <meta name="description"
+        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+    <meta property="og:description"
+        content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+    <meta property="og:image"
+        content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta property="og:url" content="https://wiseadvizor.com">
+    <meta property="og:site_name" content="wiseAdvizor" />
+    <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+    <meta name="twitter:description"
+        content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+    <meta name="twitter:url" content="https://wiseadvizor.com">
+    <meta name="twitter:image"
+        url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">

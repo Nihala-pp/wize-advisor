@@ -20,6 +20,24 @@
     <meta name="description"
         content="Find the ideal mentor to kickstart your career and explore a range of easy-to-start businesses on our website. Start your entrepreneurial journey with ease.">
     <meta name="keywords" content="easy businesses to start, i need a mentor for my career, Startup Growth">
+    <meta name="description"
+        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+    <meta property="og:description"
+        content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+    <meta property="og:image"
+        content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta property="og:url" content="https://wiseadvizor.com">
+    <meta property="og:site_name" content="wiseAdvizor" />
+    <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+    <meta name="twitter:description"
+        content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+    <meta name="twitter:url" content="https://wiseadvizor.com">
+    <meta name="twitter:image"
+        url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta name="twitter:card" content="summary_large_image">
     <script>
     var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
