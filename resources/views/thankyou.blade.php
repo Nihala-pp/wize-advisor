@@ -130,7 +130,14 @@ wsedwduhewr
         "name": "wiseAdvizor",
         "description": "Connect 1:1 with successful entrepreneurs and industry leaders who’ve walked the path before you.",
         "url": "https://wiseadvizor.com",
-        "logo": "https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
+        "logo": "https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png",
+        "sameAs": [
+            "https://www.instagram.com/wiseadvizor/",
+            "https://www.facebook.com/people/WiseAdvizor/100092527332364/",
+            "https://www.linkedin.com/company/wiseadvizor/",
+            "https://www.youtube.com/@wiseAdvizor",
+            "https://x.com/WiseAdvizor"
+        ]
     }
     </script>
     <style>
