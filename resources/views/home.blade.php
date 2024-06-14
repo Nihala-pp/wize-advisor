@@ -2830,10 +2830,10 @@
     <meta name="generator" content="WordPress 6.4.1">
     <link rel="canonical" href="https://wiseadvizor.com/">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=8">
-    <link rel="alternate" type="application/json+oembed"
+    <!-- <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fhome%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fhome%2F#038;format=xml">
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fhome%2F#038;format=xml"> -->
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style id="wp-fonts-local">
