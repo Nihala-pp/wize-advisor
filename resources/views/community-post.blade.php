@@ -46,7 +46,7 @@
     <meta name="keywords" content="entrepreneur advice, best business to start">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="https://wiseadvizor.com/feed/">
+        href="https://wiseadvizor.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
