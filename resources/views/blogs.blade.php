@@ -40,8 +40,8 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com" />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
+        href="https://wiseadvizor.com/comments/feed/" /> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <script>
