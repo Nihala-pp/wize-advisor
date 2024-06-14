@@ -7107,10 +7107,10 @@
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js') }}">
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js') }}">
+        src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
     </script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
