@@ -3511,7 +3511,7 @@
                                                             alt="goals for a mentorship" width="50" height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', [str_replace('%20', ' ', 'Fund raising')]) }}">
+                                                <a href="{{ route('browseMentor', [urldecode('//'.'Fund raising')]) }}">
                                                     <h5 class="qodef-e-title">
                                                         Fund raising
                                                     </h5>
