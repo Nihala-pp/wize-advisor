@@ -7348,7 +7348,7 @@
     <script
         src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
         id="e-sticky-js"></script>
-    <script src="{{ asset('public/wp-includes/js/underscore.min.js" id="underscore-js') }}">
+    <script src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
     </script>
     <script id="wp-util-js-extra">
     var _wpUtilSettings = {
