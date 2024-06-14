@@ -7104,7 +7104,7 @@
         src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2') }}"
         id="packery-js"></script>
     <script
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js') }}">
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
     <script
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js') }}">
