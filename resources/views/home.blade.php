@@ -6935,6 +6935,7 @@
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
+                                                    href="https://www.instagram.com/wiseadvizor/"
                                                     target="_blank">
                                                     <span class="elementor-screen-only">Instagram</span>
                                                     <i class="fab fa-instagram"></i> </a>

@@ -3133,7 +3133,7 @@
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
-                                                    target="_blank">
+                                                    href="https://www.instagram.com/wiseadvizor/" target="_blank">
                                                     <span class="elementor-screen-only">Instagram</span>
                                                     <i class="fab fa-instagram"></i> </a>
                                             </span>
@@ -4601,7 +4601,8 @@ i.fas.fa-chevron-down {
         font-weight: 600;
         line-height: 2.75rem;
         margin-top: 30px;
-        padding-top: 20px;    }
+        padding-top: 20px;
+    }
 
     .elementor-3007 .elementor-element.elementor-element-094a417 {
         width: 50%;
