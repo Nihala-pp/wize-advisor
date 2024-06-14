@@ -759,10 +759,10 @@
     <meta name="generator" content="WordPress 6.4.3" />
     <link rel="canonical" href="https://wiseadvizor.com/how-it-works" />
     <link rel='shortlink' href='https://wiseadvizor.com/?p=5225' />
-    <link rel="alternate" type="application/json+oembed"
+    <!-- <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-5225%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-5225%2F&#038;format=xml" />
+        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-5225%2F&#038;format=xml" /> -->
     <style>
     #wpadminbar .theplus-purge-clear>.ab-item:before {
         content: '';
