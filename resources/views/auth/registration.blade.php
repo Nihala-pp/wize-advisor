@@ -1170,9 +1170,9 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <span>
-                                                – Must be at least 8 characters
-                                                – Must include one lowercase character
-                                                – Must include one uppercase character
+                                                – Must be at least 8 characters <br/>
+                                                – Must include one lowercase character <br/>
+                                                – Must include one uppercase character <br/>
                                             </span>
                                             <label class="">Password</label>
                                             <input id="password" type="password"
