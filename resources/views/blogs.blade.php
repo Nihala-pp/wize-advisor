@@ -896,7 +896,7 @@
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996"
-                                                                                                alt=""
+                                                                                                alt="business journey"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
@@ -990,7 +990,7 @@
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996"
-                                                                                                alt=""
+                                                                                                alt="mentorship"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
@@ -1151,7 +1151,7 @@
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996"
-                                                                                                alt=""
+                                                                                                alt="startup strategy"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
@@ -2758,7 +2758,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/blogs/">FAQs</a>
+                                                                href="https://wiseadvizor.com/faq/">FAQs</a>
                                                         </p>
                                                     </div>
                                                 </div>
