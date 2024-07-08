@@ -1190,18 +1190,18 @@ html body .animated {
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
-                                        <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                        <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Company Name</label>
                                             <input type="text" class="form-control" name="company_name">
-                                        </div>
+                                        </div> -->
                                         <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation">
                                     </div>  -->
-                                        <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                        <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">LinkedIn Url</label>
                                             <input type="url" class="form-control" name="linked_in">
-                                        </div>
+                                        </div> -->
                                         <div class="mb-1">
                                             <label class="form-label time">Timezone</label>
                                             <select name="timezone"
