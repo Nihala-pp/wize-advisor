@@ -1169,6 +1169,11 @@ html body .animated {
                                             @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            <span>
+                                                – Must be at least 8 characters
+                                                – Must include one lowercase character
+                                                – Must include one uppercase character
+                                            </span>
                                             <label class="">Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
