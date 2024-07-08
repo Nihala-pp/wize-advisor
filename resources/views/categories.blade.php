@@ -589,7 +589,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/6547" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://wiseadvizor.com/catgories/{{ $category->id }}/{{ $category->name }}" />
+    <link rel="canonical" href="https://wiseadvizor.com/categories/{{ $category->id }}/{{ $category->name }}" />
     <link rel='shortlink' href='https://wiseadvizor.com/?p=6547' />
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fcatgories%2F" />
@@ -3102,9 +3102,9 @@
         "addedToCartText": "was added to cart",
         "viewCart": "View Cart",
         "comparePageID": "",
-        "comparePageURL": "https:\/\/wiseadvizor.com\/catgories\/",
+        "comparePageURL": "https:\/\/wiseadvizor.com\/categories\/",
         "wishlistPageID": "",
-        "wishlistPageURL": "https:\/\/wiseadvizor.com\/catgories\/",
+        "wishlistPageURL": "https:\/\/wiseadvizor.com\/categories\/",
         "chooseQuantityText": "Please select the required number of items.",
         "site_key": "",
         "is_admin": "1",
