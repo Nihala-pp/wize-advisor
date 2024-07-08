@@ -1169,7 +1169,7 @@ html body .animated {
                                             @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                            <span class="invalid-feedback" role="alert">
+                                            <span class="" role="alert">
                                                 – Must be at least 8 characters <br/>
                                                 – Must include one lowercase character <br/>
                                                 – Must include one uppercase character <br/>
