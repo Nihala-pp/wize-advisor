@@ -22,7 +22,7 @@
     var theplus_nonce = "41e9834823";
     </script>
     <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+        content="wiseAdvizor: Discover valuable startup tips and insights shared by mentors and mentees on our online mentorship platform's community posts.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
