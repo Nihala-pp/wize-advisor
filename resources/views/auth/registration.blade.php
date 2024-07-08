@@ -1001,8 +1001,7 @@ html body .animated {
                                                 Expert Guidance​​ </span>
                                         </div>
                                         <p class="elementor-icon-box-description">
-                                            Tap into the wisdom of seasoned mentors who offer valuable insights and
-                                            guidance honed through years of experience in your industry. </p>
+                                            Get insights and advice from experienced mentors in your industry. </p>
                                     </div>
                                 </div>
                             </div>
@@ -1031,8 +1030,8 @@ html body .animated {
                                                 Tailored Strategies </span>
                                         </div>
                                         <p class="elementor-icon-box-description">
-                                            Receive personalized strategies and actionable advice designed to address
-                                            your unique challenges and propel your career or business forward. </p>
+                                            Receive personalized advice to deal with your challenges and advance
+                                            your career or business. </p>
                                     </div>
                                 </div>
                             </div>
@@ -1061,8 +1060,7 @@ html body .animated {
                                                 Confidence and Clarity </span>
                                         </div>
                                         <p class="elementor-icon-box-description">
-                                            Gain the confidence and clarity you need to make informed decisions,
-                                            overcome obstacles, and achieve your goals with clarity and purpose. </p>
+                                            Make informed decisions with confidence and achieve your goals. </p>
                                     </div>
                                 </div>
                             </div>
@@ -1091,9 +1089,8 @@ html body .animated {
                                                 Networking Opportunities </span>
                                         </div>
                                         <p class="elementor-icon-box-description">
-                                            Connect with a diverse network of professionals, entrepreneurs, and industry
-                                            experts, fostering meaningful relationships that open doors to new
-                                            opportunities and collaborations. </p>
+                                            Connect with professionals, entrepreneurs, and industry experts for
+                                            new opportunities and collaborations </p>
                                     </div>
                                 </div>
                             </div>
