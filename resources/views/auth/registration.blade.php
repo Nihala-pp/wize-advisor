@@ -1169,7 +1169,6 @@ html body .animated {
                                             @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                            
                                             <label class="">Password</label> <br/>
                                             <span class="" role="alert">
                                                 – Must be at least 8 characters <br/>
