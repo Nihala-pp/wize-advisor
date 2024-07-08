@@ -1169,12 +1169,13 @@ html body .animated {
                                             @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
+                                            
+                                            <label class="">Password</label>
                                             <span class="" role="alert">
                                                 – Must be at least 8 characters <br/>
                                                 – Must include one lowercase character <br/>
                                                 – Must include one uppercase character <br/>
                                             </span>
-                                            <label class="">Password</label>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password" required autocomplete="current-password">
