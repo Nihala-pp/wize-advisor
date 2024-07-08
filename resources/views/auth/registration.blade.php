@@ -1173,7 +1173,7 @@ html body .animated {
                                             <span class="" role="alert"><br />
                                                 – Must be atleast 8 characters <br />
                                                 – Must include one lowercase character <br />
-                                                – Must include one uppercase character <br />
+                                                – Must include one uppercase character
                                             </span>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
