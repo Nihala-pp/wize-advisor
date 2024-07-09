@@ -119,21 +119,7 @@ class AuthController extends Controller
             'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
 
-        $credentials = Validator::make($request->all(), [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => [
-                    'required',
-                    'confirmed',
-                    Password::min(8)
-                        ->letters()
-                        ->mixedCase()
-                ]
-        ]);
-
-        if($credentials->fails()){
-            dd($credentials->fails());
-        }
+        $credentials = $this->validator($request->all())->validate();
 
         // dd($credentials);
 
@@ -269,5 +255,20 @@ class AuthController extends Controller
         Auth::login($newuser);
 
         return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
+    }
+
+    protected function validator(array $data)
+    {
+        return Validator::make($data, [
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => [
+                    'required',
+                    'confirmed',
+                    Password::min(8)
+                        ->letters()
+                        ->mixedCase()
+                ]
+        ]);
     }
 }
