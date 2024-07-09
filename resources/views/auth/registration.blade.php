@@ -1187,9 +1187,8 @@ html body .animated {
                                                 – Must include one lowercase character <br />
                                                 – Must include one uppercase character
                                             </span> -->
-                                            <input id="password" type="password"
-                                                class="form-control"
-                                                name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
+                                            <input id="password" type="password" class="form-control" name="password"
+                                                pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
                                                 title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
                                                 required autocomplete="current-password">
                                             <!-- @error('password')
@@ -1200,8 +1199,7 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
-                                            <input id="password-confirm" type="password"
-                                                class="form-control"
+                                            <input id="password-confirm" type="password" class="form-control"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
                                         <span></span>
@@ -2199,6 +2197,13 @@ html body .animated {
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
 
+        function validatePassword() {
+            if (password.value != confirm_password.value) {
+                confirm_password.setCustomValidity("Passwords Don't Match");
+            } else {
+                confirm_password.setCustomValidity('');
+            }
+        }
 
         // var myInput = document.getElementById("password");
         var letter = document.getElementById("letter");
@@ -2247,14 +2252,6 @@ html body .animated {
             }
         }
     });
-
-    function validatePassword() {
-        if (password.value != confirm_password.value) {
-            confirm_password.setCustomValidity("Passwords Don't Match");
-        } else {
-            confirm_password.setCustomValidity('');
-        }
-    }
     </script>
 </body>
 
