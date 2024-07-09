@@ -1189,7 +1189,7 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
-                                            <input id="password" type="password"
+                                            <input id="password-confirm" type="password"
                                                 class="form-control"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
