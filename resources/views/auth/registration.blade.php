@@ -1164,7 +1164,7 @@ html body .animated {
                                             <label class="">Email</label>
                                             <input id="email" type="email"
                                                 class="form-control @error('email') is-invalid @enderror" name="email"
-                                                value="{{ old('email') }}" required autocomplete="email">
+                                                value="{{ old('email') }}" required>
 
                                             @error('email')
                                             <span class="invalid-feedback" role="alert">
