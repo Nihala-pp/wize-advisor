@@ -1155,7 +1155,7 @@ html body .animated {
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @if($errors->has('name'))
-                                            <p class="alert alert-success">{{ $message}}</p>
+                                            <p class="alert alert-success">{{ $errors->first('name') }}</p>
                                             @endif
 
                                             <!-- @error('name')
