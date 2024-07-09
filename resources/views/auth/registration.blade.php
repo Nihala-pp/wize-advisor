@@ -2440,15 +2440,15 @@ input[type=submit] {
 }
 
 /* Style the container for inputs */
-.container {
+/* .container {
     background-color: #f1f1f1;
     padding: 20px;
-}
+} */
 
 /* The message box is shown when the user clicks on the password field */
 #message {
     display: none;
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
     color: #000;
     position: relative;
     padding: 20px;
@@ -2457,7 +2457,7 @@ input[type=submit] {
 
 #message p {
     padding: 10px 35px;
-    font-size: 18px;
+    font-size: 10px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
