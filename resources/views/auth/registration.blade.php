@@ -2196,11 +2196,10 @@ html body .animated {
     password.onchange = validatePassword;
     confirm_password.onkeyup = validatePassword;
     </script>
-    <script>
-    var myInput = document.getElementById("psw");
+    <script type="text/javascript">
+    var myInput = document.getElementById("password");
     var letter = document.getElementById("letter");
     var capital = document.getElementById("capital");
-    var number = document.getElementById("number");
     var length = document.getElementById("length");
 
     // When the user clicks on the password field, show the message box
