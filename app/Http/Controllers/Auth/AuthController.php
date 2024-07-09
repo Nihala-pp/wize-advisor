@@ -262,7 +262,7 @@ class AuthController extends Controller
                     Password::min(8)
                         ->letters()
                         ->mixedCase()
-                ]
+               ]
         ]);
     }
 }
