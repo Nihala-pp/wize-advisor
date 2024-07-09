@@ -1176,8 +1176,10 @@ html body .animated {
                                             <label class="">Password</label> <br />
                                             <div id="message">
                                                 <h3>Password must contain the following:</h3>
-                                                <p id="letter" class="invalid">Must include one <b>lowercase</b> character</p>
-                                                <p id="capital" class="invalid">Must include one <b>capital (uppercase)</b> character</p>
+                                                <p id="letter" class="invalid">Must include one <b>lowercase</b>
+                                                    character</p>
+                                                <p id="capital" class="invalid">Must include one <b>capital
+                                                        (uppercase)</b> character</p>
                                                 <p id="length" class="invalid">Must be atleast <b>8 characters</b></p>
                                             </div>
                                             <!-- <span class="" role="alert"><br />
@@ -1187,7 +1189,9 @@ html body .animated {
                                             </span> -->
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
-                                                name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8}" title="Must contain at least one uppercase and lowercase letter, and at least 8 or more characters" required autocomplete="current-password">
+                                                name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
+                                                title="Must contain at least one uppercase and lowercase letter, and at least 8 or more characters"
+                                                required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -2137,7 +2141,13 @@ html body .animated {
     <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4"
         id="wpforms-elementor-js"></script> -->
-    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+    <script id="wpforms-elementor-js-extra">
+    var wpformsElementorVars = {
+        "captcha_provider": "recaptcha",
+        "recaptcha_type": "v2"
+    };
+    </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <!-- <script id="elementor-admin-bar-js-before">
     var elementorAdminBarConfig = {
@@ -2415,61 +2425,61 @@ html body .animated {
 <style>
 /* Style all input fields */
 input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+    background-color: #04AA6D;
+    color: white;
 }
 
 /* Style the container for inputs */
 .container {
-  background-color: #f1f1f1;
-  padding: 20px;
+    background-color: #f1f1f1;
+    padding: 20px;
 }
 
 /* The message box is shown when the user clicks on the password field */
 #message {
-  display:none;
-  background: #f1f1f1;
-  color: #000;
-  position: relative;
-  padding: 20px;
-  margin-top: 10px;
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 #message p {
-  padding: 10px 35px;
-  font-size: 18px;
+    padding: 10px 35px;
+    font-size: 18px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
 .valid {
-  color: green;
+    color: green;
 }
 
 .valid:before {
-  position: relative;
-  left: -35px;
-  content: "✔";
+    position: relative;
+    left: -35px;
+    content: "✔";
 }
 
 /* Add a red text color and an "x" when the requirements are wrong */
 .invalid {
-  color: red;
+    color: red;
 }
 
 .invalid:before {
-  position: relative;
-  left: -35px;
-  content: "✖";
+    position: relative;
+    left: -35px;
+    content: "✖";
 }
 </style>
