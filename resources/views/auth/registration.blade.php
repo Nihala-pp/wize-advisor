@@ -1176,11 +1176,11 @@ html body .animated {
                                             <label class="">Password</label> <br />
                                             <div id="message">
                                                 <h6 style="padding-top:10px;">Password must contain the following:</h6>
-                                                <span id="letter" class="invalid">Must include one <b>lowercase</b>
-                                                    character</span>
-                                                <span id="capital" class="invalid">Must include one <b>capital
-                                                        (uppercase)</b> character</span>
-                                                <span id="length" class="invalid">Must be atleast <b>8 characters</b></span>
+                                                <p id="letter" class="invalid">Must include one <b>lowercase</b>
+                                                    character</p>
+                                                <p id="capital" class="invalid">Must include one <b>capital
+                                                        (uppercase)</b> character</p>
+                                                <p id="length" class="invalid">Must be atleast <b>8 characters</b></p>
                                             </div>
                                             <!-- <span class="" role="alert"><br />
                                                 – Must be atleast 8 characters <br />
@@ -2455,7 +2455,7 @@ html body .animated {
     margin-top: 10px;
 }
 
-#message span {
+#message p {
     /* padding: 5px 10px; */
     font-size: 10px;
 }
