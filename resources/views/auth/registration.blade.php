@@ -1258,7 +1258,7 @@ html body .animated {
                                                 <!-- </div> -->
                                             </div>
                                         </div>
-                                        <div class="text-center">q
+                                        <div class="text-center">
                                             <button type="submit"
                                                 class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0"
                                                 style="background-color:#001E64;">Sign
