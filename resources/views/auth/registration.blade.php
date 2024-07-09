@@ -1147,7 +1147,7 @@ html body .animated {
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Name</label>
                                             <input id="name" type="text"
-                                                class="form-control @error('name') is-invalid @enderror" name="name"
+                                                class="form-control" name="name"
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @if($errors->has('name'))
