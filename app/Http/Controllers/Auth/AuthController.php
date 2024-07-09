@@ -119,7 +119,7 @@ class AuthController extends Controller
             'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
 
-        $credentials =  $request->validate([
+        $credentials = Validator::make($request->all(), [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => [
@@ -131,8 +131,8 @@ class AuthController extends Controller
                 ]
         ]);
 
-        if($request->password) {
-            
+        if($credentials->fails()){
+            dd($credentials->fails());
         }
 
         // dd($credentials);
