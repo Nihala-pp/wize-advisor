@@ -1174,14 +1174,21 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Password</label> <br />
-                                            <span class="" role="alert"><br />
+
+                                            <div id="message">
+                                                <h3>Password must contain the following:</h3>
+                                                <p id="letter" class="invalid">Must include one <b>lowercase</b> character</p>
+                                                <p id="capital" class="invalid">Must include one <b>capital (uppercase)</b> character</p>
+                                                <p id="length" class="invalid">Must be atleast <b>8 characters</b></p>
+                                            </div>
+                                            <!-- <span class="" role="alert"><br />
                                                 – Must be atleast 8 characters <br />
                                                 – Must include one lowercase character <br />
                                                 – Must include one uppercase character
-                                            </span>
+                                            </span> -->
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
-                                                name="password"  required autocomplete="current-password">
+                                                name="password" required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -2177,7 +2184,7 @@ html body .animated {
         id="jquery-migrate-js"></script>
     <script type="text/javascript">
     var password = document.getElementById("password");
-      var  confirm_password = document.getElementById("password-confirm");
+    var confirm_password = document.getElementById("password-confirm");
 
     function validatePassword() {
         if (password.value != confirm_password.value) {
@@ -2189,21 +2196,55 @@ html body .animated {
 
     password.onchange = validatePassword;
     confirm_password.onkeyup = validatePassword;
+    </script>
+    <script>
+    var myInput = document.getElementById("psw");
+    var letter = document.getElementById("letter");
+    var capital = document.getElementById("capital");
+    var number = document.getElementById("number");
+    var length = document.getElementById("length");
 
+    // When the user clicks on the password field, show the message box
+    myInput.onfocus = function() {
+        document.getElementById("message").style.display = "block";
+    }
 
-    var y = document.getElementById("password").value;
-if (y.length < 8) {
-    alert("Your password needs a minimum of 8 characters")
-    return false;
-}
-if (y.search(/[a-z]/) < 1) {
-    alert("Your password needs a lower case letter")
-    return false;
-}
-if (y.search(/[A-Z]/) < 1) {
-    alert("Your password needs an uppser case letter")
-    return false;
-}
+    // When the user clicks outside of the password field, hide the message box
+    myInput.onblur = function() {
+        document.getElementById("message").style.display = "none";
+    }
+
+    // When the user starts to type something inside the password field
+    myInput.onkeyup = function() {
+        // Validate lowercase letters
+        var lowerCaseLetters = /[a-z]/g;
+        if (myInput.value.match(lowerCaseLetters)) {
+            letter.classList.remove("invalid");
+            letter.classList.add("valid");
+        } else {
+            letter.classList.remove("valid");
+            letter.classList.add("invalid");
+        }
+
+        // Validate capital letters
+        var upperCaseLetters = /[A-Z]/g;
+        if (myInput.value.match(upperCaseLetters)) {
+            capital.classList.remove("invalid");
+            capital.classList.add("valid");
+        } else {
+            capital.classList.remove("valid");
+            capital.classList.add("invalid");
+        }
+
+        // Validate length
+        if (myInput.value.length >= 8) {
+            length.classList.remove("invalid");
+            length.classList.add("valid");
+        } else {
+            length.classList.remove("valid");
+            length.classList.add("invalid");
+        }
+    }
     </script>
 </body>
 
@@ -2372,4 +2413,65 @@ if (y.search(/[A-Z]/) < 1) {
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {}
+</style>
+<style>
+/* Style all input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
 </style>
