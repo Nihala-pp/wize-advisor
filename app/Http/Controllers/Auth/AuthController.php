@@ -133,7 +133,7 @@ class AuthController extends Controller
             ]
         ]);
 
-        dd($credentials);
+        // dd($credentials);
         
         // $credentials = $request->validate([
         //     'email' => 'required|email|unique:users',
