@@ -1144,14 +1144,18 @@ html body .animated {
                                         @csrf
                                         <input type="hidden" name="token" value="{{ $token ?: Null }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
+                                        @if ($errors->any())
+                                        @foreach ($errors->all() as $error)
+                                        <div>{{$error}}</div>
+                                        @endforeach
+                                        @endif
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Name</label>
-                                            <input id="name" type="text"
-                                                class="form-control" name="name"
+                                            <input id="name" type="text" class="form-control" name="name"
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @if($errors->has('name'))
-                                            <p class="alert alert-success">{{ $errors->first('name') }}</p>
+                                            <p class="alert alert-danger">{{ $errors->first('name') }}</p>
                                             @endif
 
                                             <!-- @error('name')
