@@ -2192,19 +2192,8 @@ html body .animated {
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script type="text/javascript">
-
-    </script>
-    <script type="text/javascript">
     var password = document.getElementById("password");
     var confirm_password = document.getElementById("password-confirm");
-
-    function validatePassword() {
-        if (password.value != confirm_password.value) {
-            confirm_password.setCustomValidity("Passwords Don't Match");
-        } else {
-            confirm_password.setCustomValidity('');
-        }
-    }
 
     password.onchange = validatePassword;
     confirm_password.onkeyup = validatePassword;
