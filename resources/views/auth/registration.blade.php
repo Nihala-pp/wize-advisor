@@ -1181,7 +1181,7 @@ html body .animated {
                                             </span>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
-                                                name="password" required autocomplete="current-password">
+                                                name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{8,}$" required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
