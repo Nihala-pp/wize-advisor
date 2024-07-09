@@ -1155,7 +1155,7 @@ html body .animated {
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @error('email')
-                                            <p class="alert alert-success">{{ $error('name') }}</p>
+                                            <p class="alert alert-success">{{ $error('email') }}</p>
                                             @endif
 
                                             <!-- @error('name')
