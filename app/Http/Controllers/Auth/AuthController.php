@@ -161,9 +161,7 @@ class AuthController extends Controller
             } else {
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
             }
-        } else {
-            return redirect('/registration');
-        }
+        } 
     }
 
     /**
