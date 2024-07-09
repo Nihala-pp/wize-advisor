@@ -121,6 +121,8 @@ class AuthController extends Controller
 
         $credentials = $this->validator($request->all())->validate();
 
+        dd($credentials);
+
         // dd($credentials);
 
         // $credentials = $request->validate([
