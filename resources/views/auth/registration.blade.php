@@ -1190,7 +1190,7 @@ html body .animated {
                                             <input id="password" type="password" class="form-control" name="password"
                                                 pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
                                                 title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
-                                                required autocomplete="current-password">
+                                                required>
                                             <!-- @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -1200,7 +1200,7 @@ html body .animated {
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
                                             <input id="password-confirm" type="password" class="form-control"
-                                                name="password_confirmation" required autocomplete="current-password">
+                                                name="password_confirmation" required>
                                         </div>
                                         <span></span>
                                         <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
