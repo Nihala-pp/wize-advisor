@@ -1190,7 +1190,7 @@ html body .animated {
                                             <input id="password" type="password"
                                                 class="form-control"
                                                 name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
-                                                title="Must contain at least one uppercase and lowercase letter, and at least 8 or more characters"
+                                                title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
                                                 required autocomplete="current-password">
                                             <!-- @error('password')
                                             <span class="invalid-feedback" role="alert">
