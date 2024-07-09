@@ -2192,59 +2192,61 @@ html body .animated {
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script type="text/javascript">
-    var password = document.getElementById("password");
-    var confirm_password = document.getElementById("password-confirm");
+    $(function() {
+        var password = document.getElementById("password");
+        var confirm_password = document.getElementById("password-confirm");
 
-    password.onchange = validatePassword;
-    confirm_password.onkeyup = validatePassword;
+        password.onchange = validatePassword;
+        confirm_password.onkeyup = validatePassword;
 
 
-    // var myInput = document.getElementById("password");
-    var letter = document.getElementById("letter");
-    var capital = document.getElementById("capital");
-    var length = document.getElementById("length");
+        // var myInput = document.getElementById("password");
+        var letter = document.getElementById("letter");
+        var capital = document.getElementById("capital");
+        var length = document.getElementById("length");
 
-    // When the user clicks on the password field, show the message box
-    password.onfocus = function() {
-        document.getElementById("message").style.display = "block";
-    }
-
-    // When the user clicks outside of the password field, hide the message box
-    password.onblur = function() {
-        document.getElementById("message").style.display = "none";
-    }
-
-    // When the user starts to type something inside the password field
-    password.onkeyup = function() {
-        // Validate lowercase letters
-        var lowerCaseLetters = /[a-z]/g;
-        if (password.value.match(lowerCaseLetters)) {
-            letter.classList.remove("invalid");
-            letter.classList.add("valid");
-        } else {
-            letter.classList.remove("valid");
-            letter.classList.add("invalid");
+        // When the user clicks on the password field, show the message box
+        password.onfocus = function() {
+            document.getElementById("message").style.display = "block";
         }
 
-        // Validate capital letters
-        var upperCaseLetters = /[A-Z]/g;
-        if (password.value.match(upperCaseLetters)) {
-            capital.classList.remove("invalid");
-            capital.classList.add("valid");
-        } else {
-            capital.classList.remove("valid");
-            capital.classList.add("invalid");
+        // When the user clicks outside of the password field, hide the message box
+        password.onblur = function() {
+            document.getElementById("message").style.display = "none";
         }
 
-        // Validate length
-        if (password.value.length >= 8) {
-            length.classList.remove("invalid");
-            length.classList.add("valid");
-        } else {
-            length.classList.remove("valid");
-            length.classList.add("invalid");
+        // When the user starts to type something inside the password field
+        password.onkeyup = function() {
+            // Validate lowercase letters
+            var lowerCaseLetters = /[a-z]/g;
+            if (password.value.match(lowerCaseLetters)) {
+                letter.classList.remove("invalid");
+                letter.classList.add("valid");
+            } else {
+                letter.classList.remove("valid");
+                letter.classList.add("invalid");
+            }
+
+            // Validate capital letters
+            var upperCaseLetters = /[A-Z]/g;
+            if (password.value.match(upperCaseLetters)) {
+                capital.classList.remove("invalid");
+                capital.classList.add("valid");
+            } else {
+                capital.classList.remove("valid");
+                capital.classList.add("invalid");
+            }
+
+            // Validate length
+            if (password.value.length >= 8) {
+                length.classList.remove("invalid");
+                length.classList.add("valid");
+            } else {
+                length.classList.remove("valid");
+                length.classList.add("invalid");
+            }
         }
-    }
+    });
     </script>
 </body>
 
