@@ -2451,7 +2451,7 @@ html body .animated {
     /* background: #f1f1f1; */
     color: #000;
     position: relative;
-    padding: 5px;
+    /* padding: 5px; */
     margin-top: 10px;
 }
 
