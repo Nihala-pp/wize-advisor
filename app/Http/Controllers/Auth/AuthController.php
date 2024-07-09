@@ -41,14 +41,12 @@ class AuthController extends Controller
     public function registration($token = Null, $id = Null)
     {
 
-        if(!empty($id))
-        {
+        if (!empty($id)) {
             $name = User::find($id)->name;
-        }
-        else {
+        } else {
             $name = Null;
         }
-        
+
         $expertise = [
             '1' => 'Sales',
             '2' => 'Marketing',
@@ -125,16 +123,16 @@ class AuthController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => [
-                'required',
-                'confirmed',
-                Password::min(8)
-                    ->letters()
-                    ->mixedCase()
-            ]
+                    'required',
+                    'confirmed',
+                    Password::min(8)
+                        ->letters()
+                        ->mixedCase()
+                ]
         ]);
 
         // dd($credentials);
-        
+
         // $credentials = $request->validate([
         //     'email' => 'required|email|unique:users',
         //     'password' => [
@@ -150,7 +148,7 @@ class AuthController extends Controller
         $check = $this->create($data);
         $admin = User::find(1);
         $user = User::find($check);
-        
+
         Mail::to($request->email)->send(new WelcomeEmailUser($data));
         $admin->notify(new SignupAdmin($user));
 
@@ -163,11 +161,10 @@ class AuthController extends Controller
             } else {
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
             }
-        }
-        else {
+        } else {
             return redirect('/registration');
-        } 
         }
+    }
 
     /**
      * Write code on Method
