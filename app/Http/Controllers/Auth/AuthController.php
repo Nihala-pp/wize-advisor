@@ -119,22 +119,16 @@ class AuthController extends Controller
             'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
 
-        $credentials = $this->validator($request->all())->validate();
-
-        dd($credentials);
-
-        // dd($credentials);
-
-        // $credentials = $request->validate([
-        //     'email' => 'required|email|unique:users',
-        //     'password' => [
-        //         'required',
-        //         'confirmed',
-        //         Password::min(8)
-        //             ->letters()
-        //             ->mixedCase()
-        //     ]
-        // ]);
+        $credentials = $request->validate([
+            'email' => 'required|email|unique:users',
+            'password' => [
+                'required',
+                'confirmed',
+                Password::min(8)
+                    ->letters()
+                    ->mixedCase()
+            ]
+        ]);
 
         $data = $request->all();
         $check = $this->create($data);
