@@ -1151,7 +1151,7 @@ html body .animated {
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @error('name')
-                                            <span class="invalid-feedback" role="alert">
+                                            <span class="alert alert-danger" role="alert">
                                                 <strong>{{ $message }}</strong>
                                             </span>
                                             @enderror
