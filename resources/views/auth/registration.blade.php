@@ -1187,7 +1187,7 @@ html body .animated {
                                             </span> -->
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
-                                                name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required autocomplete="current-password">
+                                                name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8}" title="Must contain at least one uppercase and lowercase letter, and at least 8 or more characters" required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
