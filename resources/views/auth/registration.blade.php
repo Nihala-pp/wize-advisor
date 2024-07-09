@@ -1174,7 +1174,6 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Password</label> <br />
-
                                             <div id="message">
                                                 <h3>Password must contain the following:</h3>
                                                 <p id="letter" class="invalid">Must include one <b>lowercase</b> character</p>
@@ -1188,7 +1187,7 @@ html body .animated {
                                             </span> -->
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
-                                                name="password" required autocomplete="current-password">
+                                                name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
