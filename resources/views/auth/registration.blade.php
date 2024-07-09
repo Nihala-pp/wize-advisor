@@ -1150,11 +1150,15 @@ html body .animated {
                                                 class="form-control @error('name') is-invalid @enderror" name="name"
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                            @error('name')
+                                            @if($errors->has('name'))
+                                            <p class="alert alert-success">{{ $errors->first('name') }}</p>
+                                            @endif
+
+                                            <!-- @error('name')
                                             <span class="alert alert-danger" role="alert">
                                                 <strong>{{ $message }}</strong>
                                             </span>
-                                            @enderror
+                                            @enderror -->
                                         </div>
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Email</label>
