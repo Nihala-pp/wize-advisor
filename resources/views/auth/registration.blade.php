@@ -1154,8 +1154,8 @@ html body .animated {
                                             <input id="name" type="text" class="form-control" name="name"
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                            @if($errors->has('name'))
-                                            <p class="alert alert-success">{{ $errors->first('name') }}</p>
+                                            @error('email')
+                                            <p class="alert alert-success">{{ $error('name') }}</p>
                                             @endif
 
                                             <!-- @error('name')
