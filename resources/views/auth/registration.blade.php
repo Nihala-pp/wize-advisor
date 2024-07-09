@@ -2111,26 +2111,6 @@ html body .animated {
         id="elementor-pro-frontend-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
-    <script id="wpr-addons-js-js-extra">
-    var WprConfig = {
-        "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "resturl": "https:\/\/wiseadvizor.com\/wp-json\/wpraddons\/v1",
-        "nonce": "55af9a8867",
-        "addedToCartText": "was added to cart",
-        "viewCart": "View Cart",
-        "comparePageID": "",
-        "comparePageURL": "https:\/\/wiseadvizor.com\/signup\/",
-        "wishlistPageID": "",
-        "wishlistPageURL": "https:\/\/wiseadvizor.com\/signup\/",
-        "chooseQuantityText": "Please select the required number of items.",
-        "site_key": "",
-        "is_admin": "1",
-        "input_empty": "Please fill out this field",
-        "select_empty": "Nothing selected",
-        "file_empty": "Please upload a file",
-        "recaptcha_error": "Recaptcha Error"
-    };
-    </script>
     <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
         id="wpr-addons-js-js"></script>
@@ -2193,79 +2173,7 @@ html body .animated {
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
-    <script id="admin-bar-js-before">
-    (function() {
-        function wpforms_admin_bar_menu_init() {
-            var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
-                notifications = document.getElementById('wp-admin-bar-wpforms-notifications');
-
-            if (!template) {
-                return;
-            }
-
-            if (!notifications) {
-                var menu = document.getElementById('wp-admin-bar-wpforms-menu-default');
-
-                if (!menu) {
-                    return;
-                }
-
-                menu.insertAdjacentHTML('afterBegin', template.innerHTML);
-            } else {
-                notifications.insertAdjacentHTML('afterend', template.innerHTML);
-            }
-        };
-        document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
-    }());
-    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
-    <script type="text/javascript">
-    (function($) {
-        "use strict";
-        $(document).ready(function() {
-            $('#niso-carousel-952.owl-carousel').owlCarousel({
-                //Multiple carousel settings
-                items: 4,
-                loop: true,
-                autoplay: true,
-                autoplaySpeed: 300,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                slideBy: 1,
-                smartSpeed: 250,
-                nav: false,
-                dots: true,
-                dotsSpeed: 250,
-                mouseDrag: true,
-                touchDrag: true,
-                pullDrag: true,
-                freeDrag: false,
-                center: false,
-                stagePadding: 0,
-                startPosition: 0,
-                lazyLoad: false,
-                rtl: false,
-                video: false,
-                autoHeight: false,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    600: {
-                        items: 2,
-                    },
-                    960: {
-                        items: 3,
-                    },
-                    1300: {
-                        items: 4,
-                    }
-                }
-            });
-        });
-    }(jQuery));
-    </script>
 </body>
 
 </html>
