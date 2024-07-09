@@ -593,7 +593,7 @@ body .is-layout-grid>* {
     line-height: 1.6;
 }
 </style>
-<!-- <link rel='stylesheet' id='niso-carousel-fontello-css'
+<link rel='stylesheet' id='niso-carousel-fontello-css'
     href='https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0'
     media='all' />
 <link rel='stylesheet' id='niso-carousel-owl-css'
@@ -639,6 +639,8 @@ body .is-layout-grid>* {
     media='all' />
 <link rel='stylesheet' id='elementor-global-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1706785961' media='all' />
+<link rel='stylesheet' id='elementor-post-5595-css'
+    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5595.css?ver=1707730167' media='all' />
 <link rel='stylesheet' id='hfe-widgets-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.24'
     media='all' />
@@ -652,17 +654,14 @@ body .is-layout-grid>* {
     media='all' />
 <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
-    media='all' /> -->
+    media='all' />
 <!-- <link rel='stylesheet' id='twenty-twenty-one-style-css'
     href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
 <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
     href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' /> -->
-<!-- <link rel='stylesheet' id='wpforms-admin-bar-css'
+<link rel='stylesheet' id='wpforms-admin-bar-css'
     href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.6.4'
-    media='all' /> -->
-
-<link rel='stylesheet' id='elementor-post-5595-css'
-    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5595.css?ver=1707730167' media='all' />
+    media='all' />
 <style id='wpforms-admin-bar-inline-css'>
 #wpadminbar .wpforms-menu-notification-counter,
 #wpadminbar .wpforms-menu-notification-indicator {
@@ -670,7 +669,7 @@ body .is-layout-grid>* {
     color: #ffffff !important;
 }
 </style>
-<!-- <link rel='stylesheet' id='wpr-text-animations-css-css'
+<link rel='stylesheet' id='wpr-text-animations-css-css'
     href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
     media='all' />
 <link rel='stylesheet' id='wpr-addons-css-css'
@@ -688,7 +687,7 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='elementor-icons-fa-brands-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
     media='all' />
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> -->
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <!-- <script id="jquery-core-js-extra">
 var tpgb_load = {
     "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
