@@ -2423,7 +2423,7 @@ html body .animated {
 </style>
 <style>
 /* Style all input fields */
-input {
+/* input {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -2431,13 +2431,13 @@ input {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-}
+} */
 
 /* Style the submit button */
-input[type=submit] {
+/* input[type=submit] {
     background-color: #04AA6D;
     color: white;
-}
+} */
 
 /* Style the container for inputs */
 /* .container {
@@ -2451,12 +2451,12 @@ input[type=submit] {
     /* background: #f1f1f1; */
     color: #000;
     position: relative;
-    padding: 20px;
+    padding: 5px;
     margin-top: 10px;
 }
 
 #message p {
-    padding: 10px 35px;
+    padding: 5px 10px;
     font-size: 10px;
 }
 
