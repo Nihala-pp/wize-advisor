@@ -1175,7 +1175,7 @@ html body .animated {
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Password</label> <br />
                                             <div id="message">
-                                                <h6>Password must contain the following:</h6>
+                                                <h6 style="padding-top:5px;">Password must contain the following:</h6>
                                                 <p id="letter" class="invalid">Must include one <b>lowercase</b>
                                                     character</p>
                                                 <p id="capital" class="invalid">Must include one <b>capital
