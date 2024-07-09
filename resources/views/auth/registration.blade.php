@@ -2229,7 +2229,7 @@ html body .animated {
     password.onkeyup = function() {
         // Validate lowercase letters
         var lowerCaseLetters = /[a-z]/g;
-        if (myInput.value.match(lowerCaseLetters)) {
+        if (password.value.match(lowerCaseLetters)) {
             letter.classList.remove("invalid");
             letter.classList.add("valid");
         } else {
@@ -2239,7 +2239,7 @@ html body .animated {
 
         // Validate capital letters
         var upperCaseLetters = /[A-Z]/g;
-        if (myInput.value.match(upperCaseLetters)) {
+        if (password.value.match(upperCaseLetters)) {
             capital.classList.remove("invalid");
             capital.classList.add("valid");
         } else {
@@ -2248,7 +2248,7 @@ html body .animated {
         }
 
         // Validate length
-        if (myInput.value.length >= 8) {
+        if (password.value.length >= 8) {
             length.classList.remove("invalid");
             length.classList.add("valid");
         } else {
