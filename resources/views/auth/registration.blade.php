@@ -1155,7 +1155,7 @@ html body .animated {
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @if($errors->has('name'))
-                                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                                            <p class="alert alert-danger">{{ $errors->first('name') }}</p>
                                             @endif
 
                                             <!-- @error('name')
@@ -1166,12 +1166,15 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Email</label>
-                                            <input id="email" type="email" class="form-control" name="email"
+                                            <input id="email" type="email"
+                                                class="form-control @error('email') is-invalid @enderror" name="email"
                                                 value="{{ old('email') }}" required autocomplete="email">
 
-                                            @if($errors->has('email'))
-                                            <span class="text-danger">{{ $errors->first('email') }}</span>
-                                            @endif
+                                            @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Password</label> <br />
@@ -1180,17 +1183,19 @@ html body .animated {
                                                 – Must include one lowercase character <br />
                                                 – Must include one uppercase character
                                             </span>
-                                            <input id="password" type="password" class="form-control" name="password"
-                                                required autocomplete="current-password">
-                                            @if($errors->has('password'))
-                                            <span
-                                            class="text-danger">{{ $errors->first('password') }}</span>
-                                            @endif
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password" required autocomplete="current-password">
+                                            @error('password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
-                                            <input id="password-confirm" type="password"
-                                                class="form-control"
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
                                         <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
@@ -1208,21 +1213,22 @@ html body .animated {
                                         <div class="mb-1">
                                             <label class="form-label time">Timezone</label>
                                             <select name="timezone"
-                                                class="timezone select2 form-control"
+                                                class="timezone select2 form-control @error('timezone') is-invalid @enderror"
                                                 required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
                                                 <option value="{{ $time }}">{{ $time }}</option>
                                                 @endforeach
                                             </select>
-                                            @if($errors->has('timezone'))
-                                            <span
-                                            class="text-danger">{{ $errors->first('timezone') }}</span>
-                                            @endif
+                                            @error('timezone')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div class="mb-0">
                                             <label class="form-label">Expertise you are looking for?</label></br>
-                                            <select class="select form-control"
+                                            <select class="select form-control @error('expert') is-invalid @enderror"
                                                 multiple data-mdb-clear-button="true" name="expert[]" required>
                                                 @foreach($expertise as $key => $expert)
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
@@ -1231,17 +1237,18 @@ html body .animated {
                                         </div>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
                                             <input
-                                                class="form-check-input"
+                                                class="form-check-input @error('terms_condition') is-invalid @enderror"
                                                 type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
                                                 required>
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 I agree the <a href="{{ route('termsConditions') }}"
                                                     class="text-dark font-weight-bolder">Terms and Conditions</a>
                                             </label>
-                                            @if($errors->has('terms_condition'))
-                                            <span
-                                            class="text-danger">{{ $errors->first('terms_condition') }}</span>
-                                            @endif
+                                            @error('terms_condition')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div
                                             class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
