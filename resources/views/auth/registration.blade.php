@@ -2192,6 +2192,9 @@ html body .animated {
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script type="text/javascript">
+
+    </script>
+    <script type="text/javascript">
     var password = document.getElementById("password");
     var confirm_password = document.getElementById("password-confirm");
 
@@ -2205,25 +2208,25 @@ html body .animated {
 
     password.onchange = validatePassword;
     confirm_password.onkeyup = validatePassword;
-    </script>
-    <script type="text/javascript">
-    var myInput = document.getElementById("password");
+
+
+    // var myInput = document.getElementById("password");
     var letter = document.getElementById("letter");
     var capital = document.getElementById("capital");
     var length = document.getElementById("length");
 
     // When the user clicks on the password field, show the message box
-    myInput.onfocus = function() {
+    password.onfocus = function() {
         document.getElementById("message").style.display = "block";
     }
 
     // When the user clicks outside of the password field, hide the message box
-    myInput.onblur = function() {
+    password.onblur = function() {
         document.getElementById("message").style.display = "none";
     }
 
     // When the user starts to type something inside the password field
-    myInput.onkeyup = function() {
+    password.onkeyup = function() {
         // Validate lowercase letters
         var lowerCaseLetters = /[a-z]/g;
         if (myInput.value.match(lowerCaseLetters)) {
