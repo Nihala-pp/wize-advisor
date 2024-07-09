@@ -1198,6 +1198,8 @@ html body .animated {
                                                 class="form-control @error('password') is-invalid @enderror"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
+
+                                        <span></span>
                                         <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Company Name</label>
                                             <input type="text" class="form-control" name="company_name">

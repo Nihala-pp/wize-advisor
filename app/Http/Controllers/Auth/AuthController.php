@@ -131,6 +131,10 @@ class AuthController extends Controller
                 ]
         ]);
 
+        if($request->password) {
+            
+        }
+
         // dd($credentials);
 
         // $credentials = $request->validate([
