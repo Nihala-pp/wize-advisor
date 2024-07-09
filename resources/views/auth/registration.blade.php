@@ -1188,20 +1188,20 @@ html body .animated {
                                                 – Must include one uppercase character
                                             </span> -->
                                             <input id="password" type="password"
-                                                class="form-control @error('password') is-invalid @enderror"
+                                                class="form-control"
                                                 name="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
                                                 title="Must contain at least one uppercase and lowercase letter, and at least 8 or more characters"
                                                 required autocomplete="current-password">
-                                            @error('password')
+                                            <!-- @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
                                             </span>
-                                            @enderror
+                                            @enderror -->
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
                                             <input id="password-confirm" type="password"
-                                                class="form-control @error('password') is-invalid @enderror"
+                                                class="form-control"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
                                         <span></span>
