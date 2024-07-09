@@ -1155,7 +1155,7 @@ html body .animated {
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @if($errors->has('name'))
-                                            <p class="alert alert-danger">{{ $errors->first('name') }}</p>
+                                            <p class="alert alert-success">{{ $errors->first('name') }}</p>
                                             @endif
 
                                             <!-- @error('name')
@@ -1166,15 +1166,12 @@ html body .animated {
                                         </div>
                                         <div class="input-group input-group-static mb-0" style="padding-left:5px;">
                                             <label class="">Email</label>
-                                            <input id="email" type="email"
-                                                class="form-control @error('email') is-invalid @enderror" name="email"
+                                            <input id="email" type="email" class="form-control" name="email"
                                                 value="{{ old('email') }}" required autocomplete="email">
 
-                                            @error('email')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
+                                            @if($errors->has('email'))
+                                            <p class="alert alert-success">{{ $errors->first('email') }}</p>
+                                            @endif
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Password</label> <br />
@@ -1183,19 +1180,16 @@ html body .animated {
                                                 – Must include one lowercase character <br />
                                                 – Must include one uppercase character
                                             </span>
-                                            <input id="password" type="password"
-                                                class="form-control @error('password') is-invalid @enderror"
-                                                name="password" required autocomplete="current-password">
-                                            @error('password')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
+                                            <input id="password" type="password" class="form-control" name="password"
+                                                required autocomplete="current-password">
+                                            @if($errors->has('password'))
+                                            <p class="alert alert-success">{{ $errors->first('password') }}</p>
+                                            @endif
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
                                             <label class="">Confirm Password</label>
                                             <input id="password" type="password"
-                                                class="form-control @error('password') is-invalid @enderror"
+                                                class="form-control"
                                                 name="password_confirmation" required autocomplete="current-password">
                                         </div>
                                         <!-- <div class="input-group input-group-static mb-1" style="padding-left:5px;">
@@ -1213,22 +1207,20 @@ html body .animated {
                                         <div class="mb-1">
                                             <label class="form-label time">Timezone</label>
                                             <select name="timezone"
-                                                class="timezone select2 form-control @error('timezone') is-invalid @enderror"
+                                                class="timezone select2 form-control"
                                                 required>
                                                 <option value="">Choose Your Timezone</option>
                                                 @foreach($timezone as $zone => $time)
                                                 <option value="{{ $time }}">{{ $time }}</option>
                                                 @endforeach
                                             </select>
-                                            @error('timezone')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
+                                            @if($errors->has('timezone'))
+                                            <p class="alert alert-success">{{ $errors->first('timezone') }}</p>
+                                            @endif
                                         </div>
                                         <div class="mb-0">
                                             <label class="form-label">Expertise you are looking for?</label></br>
-                                            <select class="select form-control @error('expert') is-invalid @enderror"
+                                            <select class="select form-control"
                                                 multiple data-mdb-clear-button="true" name="expert[]" required>
                                                 @foreach($expertise as $key => $expert)
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
@@ -1237,18 +1229,16 @@ html body .animated {
                                         </div>
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
                                             <input
-                                                class="form-check-input @error('terms_condition') is-invalid @enderror"
+                                                class="form-check-input"
                                                 type="checkbox" name="terms_condition" value="1" id="flexCheckDefault"
                                                 required>
                                             <label class="form-check-label" for="flexCheckDefault">
                                                 I agree the <a href="{{ route('termsConditions') }}"
                                                     class="text-dark font-weight-bolder">Terms and Conditions</a>
                                             </label>
-                                            @error('terms_condition')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                            @enderror
+                                            @if($errors->has('terms_condition'))
+                                            <p class="alert alert-success">{{ $errors->first('terms_condition') }}</p>
+                                            @endif
                                         </div>
                                         <div
                                             class="elementor-field-type-recaptcha elementor-field-group elementor-column elementor-field-group-field_6ff1b74 elementor-col-100">
@@ -1265,7 +1255,7 @@ html body .animated {
                                                 <!-- </div> -->
                                             </div>
                                         </div>
-                                        <div class="text-center">
+                                        <div class="text-center">q
                                             <button type="submit"
                                                 class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0"
                                                 style="background-color:#001E64;">Sign
