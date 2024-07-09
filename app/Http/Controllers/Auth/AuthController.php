@@ -134,7 +134,7 @@ class AuthController extends Controller
         ]);
 
         if ($credentials->fails()) {
-            return redirect()->route('register');
+            return redirect('/registration');
         }
 
         // dd($credentials);
