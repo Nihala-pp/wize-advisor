@@ -132,6 +132,8 @@ class AuthController extends Controller
                     ->mixedCase()
             ]
         ]);
+
+        dd($credentials);
         
         // $credentials = $request->validate([
         //     'email' => 'required|email|unique:users',
