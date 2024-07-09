@@ -1181,7 +1181,7 @@ html body .animated {
                                             </span>
                                             <input id="password" type="password"
                                                 class="form-control @error('password') is-invalid @enderror"
-                                                name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{8,}$" required autocomplete="current-password">
+                                                name="password"  required autocomplete="current-password">
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -2189,6 +2189,21 @@ html body .animated {
 
     password.onchange = validatePassword;
     confirm_password.onkeyup = validatePassword;
+
+
+    var y = document.getElementById("password").value;
+if (y.length < 8) {
+    alert("Your password needs a minimum of 8 characters")
+    return false;
+}
+if (y.search(/[a-z]/) < 1) {
+    alert("Your password needs a lower case letter")
+    return false;
+}
+if (y.search(/[A-Z]/) < 1) {
+    alert("Your password needs an uppser case letter")
+    return false;
+}
     </script>
 </body>
 
