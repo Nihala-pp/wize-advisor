@@ -133,10 +133,6 @@ class AuthController extends Controller
             ]
         ]);
 
-        if ($credentials->fails()) {
-            return redirect('/registration');
-        }
-
         // dd($credentials);
         
         // $credentials = $request->validate([
@@ -168,7 +164,10 @@ class AuthController extends Controller
                 return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
             }
         }
-    }
+        else {
+            return redirect('/registration');
+        } 
+        }
 
     /**
      * Write code on Method
