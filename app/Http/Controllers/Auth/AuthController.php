@@ -16,6 +16,8 @@ use App\Models\AvailableSchedule;
 use Hash;
 use App\Rules\ReCaptcha;
 use Illuminate\Validation\Rules\Password;
+use Illuminate\Support\Facades\Validator;
+
 
 class AuthController extends Controller
 {
@@ -118,19 +120,29 @@ class AuthController extends Controller
         $request->validate([
             'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
-        
-        $credentials = $request->validate([
-            'email' => 'required|email|unique:users',
+
+         Validator::make($request->validate, [
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => [
                 'required',
                 'confirmed',
                 Password::min(8)
                     ->letters()
                     ->mixedCase()
-                    ->numbers()
-                    ->symbols()
             ]
         ]);
+        
+        // $credentials = $request->validate([
+        //     'email' => 'required|email|unique:users',
+        //     'password' => [
+        //         'required',
+        //         'confirmed',
+        //         Password::min(8)
+        //             ->letters()
+        //             ->mixedCase()
+        //     ]
+        // ]);
 
         $data = $request->all();
         $check = $this->create($data);
