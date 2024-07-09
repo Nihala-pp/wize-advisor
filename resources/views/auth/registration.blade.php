@@ -1155,7 +1155,7 @@ html body .animated {
                                                 value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                             @if($errors->has('name'))
-                                            <p class="alert alert-success">{{ $errors->first('name') }}</p>
+                                            <span class="text-danger">{{ $errors->first('name') }}</span>
                                             @endif
 
                                             <!-- @error('name')
@@ -1170,7 +1170,7 @@ html body .animated {
                                                 value="{{ old('email') }}" required autocomplete="email">
 
                                             @if($errors->has('email'))
-                                            <p class="alert alert-success">{{ $errors->first('email') }}</p>
+                                            <span class="text-danger">{{ $errors->first('email') }}</span>
                                             @endif
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
@@ -1183,7 +1183,8 @@ html body .animated {
                                             <input id="password" type="password" class="form-control" name="password"
                                                 required autocomplete="current-password">
                                             @if($errors->has('password'))
-                                            <p class="alert alert-success">{{ $errors->first('password') }}</p>
+                                            <span
+                                            class="text-danger">{{ $errors->first('password') }}</span>
                                             @endif
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
@@ -1215,7 +1216,8 @@ html body .animated {
                                                 @endforeach
                                             </select>
                                             @if($errors->has('timezone'))
-                                            <p class="alert alert-success">{{ $errors->first('timezone') }}</p>
+                                            <span
+                                            class="text-danger">{{ $errors->first('timezone') }}</span>
                                             @endif
                                         </div>
                                         <div class="mb-0">
@@ -1237,7 +1239,8 @@ html body .animated {
                                                     class="text-dark font-weight-bolder">Terms and Conditions</a>
                                             </label>
                                             @if($errors->has('terms_condition'))
-                                            <p class="alert alert-success">{{ $errors->first('terms_condition') }}</p>
+                                            <span
+                                            class="text-danger">{{ $errors->first('terms_condition') }}</span>
                                             @endif
                                         </div>
                                         <div
