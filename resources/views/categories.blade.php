@@ -907,7 +907,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default"><a
-                                                            href="{{ route('blogDetail', [$blog->id, $blog->title]) }}">{{ $blog->title ?? '' }}</a>
+                                                            href="{{ route('blogDetail', [$blog->id, Str::slug($blog->title)]) }}">{{ $blog->title ?? '' }}</a>
                                                     </h4>
                                                 </div>
                                             </div>
