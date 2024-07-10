@@ -2192,7 +2192,7 @@ html body .animated {
     <script type="text/javascript">
     $(function() {
         validate_pass();
-        
+
         var password = document.getElementById("password");
         var confirm_password = document.getElementById("password-confirm");
 
