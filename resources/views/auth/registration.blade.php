@@ -1231,7 +1231,7 @@ html body .animated {
                                             </span>
                                             @enderror
                                         </div>
-                                        <div class="mb-0">
+                                        <!-- <div class="mb-0">
                                             <label class="form-label">Expertise you are looking for?</label></br>
                                             <select class="select form-control @error('expert') is-invalid @enderror"
                                                 multiple data-mdb-clear-button="true" name="expert[]" required>
@@ -1239,7 +1239,7 @@ html body .animated {
                                                 <option value="{{ $expert }}">{{ $expert }}</option>
                                                 @endforeach
                                             </select>
-                                        </div>
+                                        </div> -->
                                         <div class="form-check form-check-info text-start ps-0 mt-3">
                                             <input
                                                 class="form-check-input @error('terms_condition') is-invalid @enderror"
