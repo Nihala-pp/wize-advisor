@@ -2469,7 +2469,7 @@ html body .animated {
 #message p {
     /* padding: 5px 10px; */
     font-size: 10px;
-    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
