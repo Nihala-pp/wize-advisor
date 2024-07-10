@@ -960,7 +960,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog2->id, $featured_blog2->title]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog2->id, str_replace("%20","-",$featured_blog2->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -1121,7 +1121,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, $featured_blog3->title]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, str_replace("%20","-",$featured_blog3->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
