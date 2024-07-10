@@ -7661,9 +7661,10 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
-
-            $('#offer_modal').modal('show');
-
+            setTimeout(function() {
+                $('#offer_modal').modal('show');
+            }, 5000);
+            
             $('.close').on('click', function() {
 
                 $('#offer_modal').modal('hide');
