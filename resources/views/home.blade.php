@@ -7661,7 +7661,7 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
-            setTimeout(popup, 600000);
+            setTimeout(popup, 5000);
             // setTimeout(function() {
             //     $('#offer_modal').modal('show');
             // }, 600000);
