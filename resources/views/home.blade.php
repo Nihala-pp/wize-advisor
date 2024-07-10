@@ -3582,7 +3582,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-e496a5a elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
+                        <!-- <div class="elementor-element elementor-element-e496a5a elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
                             data-id="e496a5a" data-element_type="widget"
                             data-widget_type="qi_addons_for_elementor_clients_slider.default">
                             <div class="elementor-widget-container">
@@ -3753,7 +3753,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
