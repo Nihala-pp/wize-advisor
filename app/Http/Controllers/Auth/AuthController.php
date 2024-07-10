@@ -181,7 +181,7 @@ class AuthController extends Controller
         UserMeta::create([
             'user_id' => $user['id'],
             // 'designation' => $data['designation'],
-            'expertise' => json_encode($data['expert']),
+            // 'expertise' => json_encode($data['expert']),
             'timezone' => $data['timezone']
         ]);
 
