@@ -42,8 +42,7 @@
     </script>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor"
-        href="https://wiseadvizor.com">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor" href="https://wiseadvizor.com">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
@@ -6932,8 +6931,7 @@
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
-                                                    href="https://www.instagram.com/wiseadvizor/"
-                                                    target="_blank">
+                                                    href="https://www.instagram.com/wiseadvizor/" target="_blank">
                                                     <span class="elementor-screen-only">Instagram</span>
                                                     <i class="fab fa-instagram"></i> </a>
                                             </span>
@@ -7916,6 +7914,13 @@ i.fas.fa-chevron-down {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .hfe-nav-menu-icon {
         background-color: transparent;
         padding: 0.35em;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
+        color: #330252;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+        font-size: 36px;
     }
 
     /*  --------------- */
