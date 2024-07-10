@@ -2470,7 +2470,7 @@ html body .animated {
     /* padding: 5px 10px; */
     font-size: 10px;
     margin-bottom: -5px;
-    padding-left:35px;
+    padding-left:25px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
