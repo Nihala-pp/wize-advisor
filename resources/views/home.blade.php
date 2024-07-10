@@ -7673,18 +7673,6 @@
             }
 
             setTimeout(popup, 10000);
-            // setTimeout(function() {
-            //     $('#offer_modal').modal('show');
-            // }, 600000);
-
-            // $('.close').on('click', function() {
-
-            //     $('#offer_modal').modal('hide');
-
-            // });
-
-
-            // $('.offer_modal').click();
 
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
