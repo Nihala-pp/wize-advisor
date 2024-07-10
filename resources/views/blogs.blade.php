@@ -866,7 +866,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog1->id, Str::slug($featured_blog1->title)]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog1->id, str_replace("%20","-",$featured_blog1->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
