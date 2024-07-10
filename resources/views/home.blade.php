@@ -7716,6 +7716,16 @@
             });
         });
     }(jQuery));
+
+    function popup() {
+        $('#offer_modal').modal('show');
+
+        $('.close').on('click', function() {
+
+            $('#offer_modal').modal('hide');
+
+        });
+    }
     </script>
 
     <!--Start of Tawk.to Script-->
