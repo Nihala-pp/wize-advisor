@@ -1154,7 +1154,7 @@
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
                                                     <a
-                                                        href="{{ route('blogCategories', [$related_post->category_id, $related_post->category->name]) }}">{{ $related_post->category->name }}</a>
+                                                        href="{{ route('blogCategories', [$related_post->category_id, Str::slug($related_post->category->name)]) }}">{{ $related_post->category->name }}</a>
                                                 </h6>
                                             </div>
                                         </div>
