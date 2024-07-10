@@ -35,24 +35,24 @@ class UserController extends Controller
     $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
-    $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
+    // $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
     // dd($expertise);
     $notifications = auth()->user()->unreadNotifications;
       
-    foreach($expertise as $expert) {
-      $suggested_mentors = User::with(['expertise', 'availability'])
-      ->where('role_id', 2)
-      ->WhereNull('status')
-      ->whereHas('expertise', function ($query) use ($expert) {
-        /** @var Builder $query */
-        if ($expert)
-          $query->where('expertise', 'LIKE', '%' . $expert . '%');
-      })
-      ->get();
-    }
+    // foreach($expertise as $expert) {
+    //   $suggested_mentors = User::with(['expertise', 'availability'])
+    //   ->where('role_id', 2)
+    //   ->WhereNull('status')
+    //   ->whereHas('expertise', function ($query) use ($expert) {
+    //     /** @var Builder $query */
+    //     if ($expert)
+    //       $query->where('expertise', 'LIKE', '%' . $expert . '%');
+    //   })
+    //   ->get();
+    // }
         
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
-      return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'suggested_mentors', 'notifications'));
+      return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications'));
     } else {
       return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
     }

@@ -317,7 +317,7 @@
             <!--====================================================
                            Suggested Mentors
     ======================================================-->
-            <div class="container-fluid py-4 req">
+            <!-- <div class="container-fluid py-4 req">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
                         <div class="card">
@@ -343,10 +343,10 @@
                                                 <th
                                                     class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                                 </th>
-                                                <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
+                                                <! <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
                                                 <!-- <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th> -->
 
-                                            </tr>
+                                            <!-- </tr>
                                         </thead>
                                         <tbody>
                                             @foreach($suggested_mentors as $suggested_mentor)
@@ -404,7 +404,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --> 
             <div class="modal" tabindex="-1" role="dialog" id="offer_modal" style="display:none">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
