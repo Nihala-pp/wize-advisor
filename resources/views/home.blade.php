@@ -7671,8 +7671,8 @@
 
                 });
             }
-            
-            setTimeout(popup, 5000);
+
+            setTimeout(popup, 8000);
             // setTimeout(function() {
             //     $('#offer_modal').modal('show');
             // }, 600000);
