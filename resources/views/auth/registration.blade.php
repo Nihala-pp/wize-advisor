@@ -2191,6 +2191,8 @@ html body .animated {
         id="jquery-migrate-js"></script>
     <script type="text/javascript">
     $(function() {
+        validate_pass();
+        
         var password = document.getElementById("password");
         var confirm_password = document.getElementById("password-confirm");
 
@@ -2204,8 +2206,6 @@ html body .animated {
                 confirm_password.setCustomValidity('');
             }
         }
-        
-        validate_pass();
     });
 
     function validate_pass() {
