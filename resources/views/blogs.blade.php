@@ -1739,7 +1739,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h6 class="elementor-heading-title elementor-size-default"><a
-                                                            href="{{ route('blogCategories', [$blog->category_id, $blog->category->name]) }}">{{ $blog->category->name ?? '' }}</a>
+                                                            href="{{ route('blogCategories', [$blog->category_id, Str::slug($blog->category->name)]) }}">{{ $blog->category->name ?? '' }}</a>
                                                     </h6>
                                                 </div>
                                             </div>
