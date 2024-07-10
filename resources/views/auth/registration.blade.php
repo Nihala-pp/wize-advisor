@@ -1180,7 +1180,7 @@ html body .animated {
                                                 – Must include one uppercase character
                                             </span> -->
                                             <input id="password" type="password" class="form-control" name="password"
-                                                pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
+                                                pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                                 title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
                                                 required>
                                                 <div id="message">
