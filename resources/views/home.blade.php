@@ -7661,6 +7661,17 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
+
+            function popup() {
+                $('#offer_modal').modal('show');
+
+                $('.close').on('click', function() {
+
+                    $('#offer_modal').modal('hide');
+
+                });
+            }
+            
             setTimeout(popup, 5000);
             // setTimeout(function() {
             //     $('#offer_modal').modal('show');
@@ -7717,16 +7728,6 @@
             });
         });
     }(jQuery));
-
-    function popup() {
-        $('#offer_modal').modal('show');
-
-        $('.close').on('click', function() {
-
-            $('#offer_modal').modal('hide');
-
-        });
-    }
     </script>
 
     <!--Start of Tawk.to Script-->
