@@ -2208,7 +2208,7 @@ html body .animated {
         }
     });
 
-    function validate_pass() {
+       function validate_pass() {
 
         // var myInput = document.getElementById("password");
         var letter = document.getElementById("letter");
