@@ -866,7 +866,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog1->id, str_replace("%20","-",$featured_blog1->title)]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog1->id, Str::slug($featured_blog1->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -960,7 +960,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog2->id, str_replace("%20","-",$featured_blog2->title)]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog2->id, Str::slug($featured_blog2->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -1121,7 +1121,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, str_replace("%20","-",$featured_blog3->title)]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, Str::slug($featured_blog3->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -1748,7 +1748,7 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default"><a
-                                                            href="{{ route('blogDetail', [$blog->id, $blog->title]) }}">{{ $blog->title }}</a>
+                                                            href="{{ route('blogDetail', [$blog->id, Str::slug($blog->title)]) }}">{{ $blog->title }}</a>
                                                     </h4>
                                                 </div>
                                             </div>
