@@ -7937,6 +7937,10 @@ i.fas.fa-chevron-down {
         font-size: 36px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-c6fda76 {
+        padding: 0px 0px 45px 0px;
+    }
+
     /*  --------------- */
 
     .elementor-button.elementor-size-xs {
