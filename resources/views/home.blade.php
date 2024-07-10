@@ -7661,15 +7661,16 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
-            setTimeout(function() {
-                $('#offer_modal').modal('show');
-            }, 600000);
+            setTimeout(popup, 600000);
+            // setTimeout(function() {
+            //     $('#offer_modal').modal('show');
+            // }, 600000);
 
-            $('.close').on('click', function() {
+            // $('.close').on('click', function() {
 
-                $('#offer_modal').modal('hide');
+            //     $('#offer_modal').modal('hide');
 
-            });
+            // });
 
 
             // $('.offer_modal').click();
