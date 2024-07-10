@@ -7672,7 +7672,7 @@
                 });
             }
 
-            setTimeout(popup, 8000);
+            setTimeout(popup, 10000);
             // setTimeout(function() {
             //     $('#offer_modal').modal('show');
             // }, 600000);
