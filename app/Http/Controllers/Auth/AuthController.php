@@ -241,7 +241,7 @@ class AuthController extends Controller
             'user_id' => $newuser->id,
             'company' => $request->company_name,
             'designation' => $request->designation,
-            'expertise' => json_encode($request->expert),
+            // 'expertise' => json_encode($request->expert),
             'social_linked_in' => $request->linked_in,
             'timezone' => $request->timezone
         ]);
