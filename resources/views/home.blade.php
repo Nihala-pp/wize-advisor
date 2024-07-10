@@ -7941,6 +7941,10 @@ i.fas.fa-chevron-down {
         padding: 0px 0px 45px 0px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-dcb8db5 {
+        padding: 40px 25px 0px 25px;
+    }
+
     /*  --------------- */
 
     .elementor-button.elementor-size-xs {
