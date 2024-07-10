@@ -7663,8 +7663,8 @@
         $(document).ready(function() {
             setTimeout(function() {
                 $('#offer_modal').modal('show');
-            }, 5000);
-            
+            }, 600000);
+
             $('.close').on('click', function() {
 
                 $('#offer_modal').modal('hide');
