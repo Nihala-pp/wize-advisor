@@ -7930,6 +7930,13 @@ i.fas.fa-chevron-down {
         font-size: 36px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
+        /* color: #FFFFFF; */
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+    }
+
     /*  --------------- */
 
     .elementor-button.elementor-size-xs {
