@@ -2470,7 +2470,7 @@ html body .animated {
     /* padding: 5px 10px; */
     font-size: 10px;
     margin-bottom: -5px;
-    padding-left:15px;
+    padding-left:35px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
@@ -2491,7 +2491,7 @@ html body .animated {
 
 .invalid:before {
     position: relative;
-    left: 15px;
+    left: -5px;
     content: "✖";
 }
 </style>
