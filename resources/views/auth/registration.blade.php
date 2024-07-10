@@ -2463,7 +2463,7 @@ html body .animated {
     color: #000;
     position: relative;
     /* padding: 5px; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 #message p {
