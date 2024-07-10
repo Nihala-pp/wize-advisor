@@ -2268,12 +2268,12 @@ html body .animated {
     border-bottom-right-radius: 0;
 }
 
-/* .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
     margin-bottom: 16px;
     margin-left: -1px;
     /* border-bottom-left-radius: 0; */
     font-size: 12px;
-} */
+}
 
 .elementor-5595 .elementor-element.elementor-element-56e8bbb>.elementor-element-populated {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
