@@ -1173,15 +1173,7 @@ html body .animated {
                                             @enderror
                                         </div>
                                         <div class="input-group input-group-static mb-1" style="padding-left:5px;">
-                                            <label class="">Password</label> <br />
-                                            <div id="message">
-                                                <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
-                                                <p style="margin-top:10px;" id="letter" class="invalid">Must include one <b>lowercase</b>
-                                                    character</p>
-                                                <p id="capital" class="invalid">Must include one <b>capital
-                                                        (uppercase)</b> character</p>
-                                                <p id="length" class="invalid">Must be atleast <b>8 characters</b></p>
-                                            </div>
+                                            <label class="">Password</label>
                                             <!-- <span class="" role="alert"><br />
                                                 – Must be atleast 8 characters <br />
                                                 – Must include one lowercase character <br />
@@ -1191,6 +1183,14 @@ html body .animated {
                                                 pattern="(?=.*[a-z])(?=.*[A-Z]).{8}"
                                                 title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
                                                 required>
+                                                <div id="message">
+                                                <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
+                                                <p style="margin-top:10px;" id="letter" class="invalid">Must include one <b>lowercase</b>
+                                                    character</p>
+                                                <p id="capital" class="invalid">Must include one <b>capital
+                                                        (uppercase)</b> character</p>
+                                                <p id="length" class="invalid">Must be atleast <b>8 characters</b></p>
+                                            </div>
                                             <!-- @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
