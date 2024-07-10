@@ -2204,6 +2204,11 @@ html body .animated {
                 confirm_password.setCustomValidity('');
             }
         }
+        
+        validate_pass();
+    });
+
+    function validate_pass() {
 
         // var myInput = document.getElementById("password");
         var letter = document.getElementById("letter");
@@ -2251,7 +2256,7 @@ html body .animated {
                 length.classList.add("invalid");
             }
         }
-    });
+    }
     </script>
 </body>
 
