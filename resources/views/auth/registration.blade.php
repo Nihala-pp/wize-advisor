@@ -2490,7 +2490,7 @@ html body .animated {
 
 .invalid:before {
     position: relative;
-    left: -35px;
+    left: -25px;
     content: "✖";
 }
 </style>
