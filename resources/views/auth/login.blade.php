@@ -20,7 +20,11 @@
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
 @endif
 <meta name="keywords" content="business guidance, building a startup, business coach, Startup mentors">
+@if($id && $token)
+<link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
+@else
 <link rel="canonical" href="https://wiseadvizor.com/login">
+@endif
 @include('partials.header')
 
 <body class="bg-gray-200">
