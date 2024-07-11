@@ -4,6 +4,7 @@
 <meta name="description"
     content="Unlock a world of business opportunities with our website, offering valuable entrepreneur advice and inspiring ideas to fuel your start-up journey.">
 <meta name="keywords" content="entrepreneur advice, ideas of business, start your own business">
+<link rel="canonical" href="https://wiseadvizor.com/forgot-password">
 @include('partials.header')
 
 <body class="bg-gray-200">
