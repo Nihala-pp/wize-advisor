@@ -126,6 +126,7 @@ Route::post('/order/cancel',[PaymentController::class, 'cancel_order'])->name('o
 //stripe payment gateway
 
 Route::post('/checkout',[PaymentController::class, 'checkout'])->name('checkout');
+Route::post('/success',[PaymentController::class, 'success'])->name('success-test');
 Route::post('/cancel',[PaymentController::class, 'cancel'])->name('cancel');
 
 
