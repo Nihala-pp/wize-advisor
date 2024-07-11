@@ -1174,7 +1174,7 @@
     $expert_coloumn = $expertise_name ? $expertise_name : NULL;
     @endphp
     @if(!empty($expert_coloumn))
-    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors?{{$expert_coloumn}}">
     @else
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
     @endif
