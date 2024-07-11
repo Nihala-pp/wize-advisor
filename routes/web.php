@@ -65,7 +65,6 @@ Route::post('/reset-password', [ForgotPasswordController::class, 'updatePassword
 Route::get('/reload-captcha', [CaptchaServiceController::class, 'reloadCaptcha']);
 Route::get('/reload-captcha', [payWithpaypal::class, 'reloadCaptcha']);
 
-
 // Route::get('/sign-up', 'signup')->name('sign-up');
 
 // Route::get('forget-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
@@ -123,6 +122,13 @@ Route::post('/payment/paypal/createTransaction',[PaymentController::class, 'payW
 Route::post('/payment/paypal/capture/{orderid}',[PaymentController::class, 'getPaymentStatus']);
 Route::post('/cancel/{order_no}', 'PaymentController@orderCancel');
 Route::post('/order/cancel',[PaymentController::class, 'cancel_order'])->name('order.cancel');
+
+//stripe payment gateway
+
+Route::post('/checkout',[PaymentController::class, 'checkout'])->name('checkout');
+Route::post('/cancel',[PaymentController::class, 'cancel'])->name('cancel');
+
+
 
 Route::controller(AdminController::class)
     ->as('admin.')

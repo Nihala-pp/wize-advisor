@@ -446,7 +446,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $client_id = env('PAYPAL_SANDBOX_CLIENT');
 
     if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+        $notifications = auth()->user()->unreadNotifications;
     }
     else {
          $notifications = '';
@@ -460,7 +460,14 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     // $clientToken = $gateway->clientToken()->generate();
 
-    return view('payment', compact('call_data', 'client_id', 'notifications'));
+    if($data['mentor'] == 143)
+    {
+       return view('test-gateway',  compact('call_data'));
+    }
+    else {
+       return view('payment', compact('call_data', 'client_id', 'notifications'));
+    }
+
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
@@ -1122,5 +1129,13 @@ window.location.href = "https://wiseadvizor.com/faq";
     $related_posts = Blogs::where('id', '!=', $id)->latest()->take(3)->get();
 
      return view('blog-detail', compact('selectedBlog', 'related_posts'));
+  }
+
+  public function test_gateway()
+  {
+      
+    
+    
+       return view('test-gateway');
   }
 }

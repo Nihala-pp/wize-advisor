@@ -23,6 +23,7 @@ use Session;
 use URL;
 use Log;
 use DB;
+require_once '../vendor/autoload.php';
 
 class PaymentController extends Controller
 {
@@ -149,5 +150,35 @@ class PaymentController extends Controller
         }
 
         return response()->json('$ '.$price);
+    }
+
+
+    public function checkout(Request $request)
+    {
+        $clientSecret = env('STRIPE_SECRET_KEY');
+
+        \Stripe\Stripe::setApiKey($clientSecret);
+           header('Content-Type: application/json');
+
+        $YOUR_DOMAIN = 'https://wiseadvizor.com';
+
+        $checkout_session = \Stripe\Checkout\Session::create([
+          'line_items' => [[
+             # Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
+          'price' => $request->price,
+          'quantity' => 1,
+        ]],
+        'mode' => 'payment',
+        'success_url' => route('success'),
+        'cancel_url' => route('cancel'),
+        ]);
+
+       header("HTTP/1.1 303 See Other");
+       header("Location: " . $checkout_session->url);
+    }
+
+    public function cancel()
+    {
+
     }
 }
