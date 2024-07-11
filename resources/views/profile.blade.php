@@ -1182,7 +1182,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2372">
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.2">
-    <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ $data->name }}">
+    <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <link rel="shortlink" href="https://wiseadvizor.com/?p=4878">
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fprofile%2F">
