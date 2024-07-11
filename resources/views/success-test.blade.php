@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Thanks for your order!</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{{ asset('public/assets/css/checkout.css') }}">
 </head>
 <body>
   <section>

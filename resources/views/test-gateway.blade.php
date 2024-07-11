@@ -3,7 +3,7 @@
 
 <head>
     <title>Test Stripe</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/checkout.css') }}">
     <script src="https://js.stripe.com/v3/"></script>
 </head>
 
