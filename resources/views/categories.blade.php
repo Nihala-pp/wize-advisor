@@ -17,7 +17,7 @@
     <meta charset="UTF-8">
     <title>{{ $category->name }} | wiseAdvizor Blog</title>
     <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+        content="wiseAdvizor: Discover diverse categories of {{ $category->name }} blogs on our platform dedicated to online startup mentorship. Find expert advice and resources to grow your business.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
