@@ -16,11 +16,12 @@
     </script>
     <meta charset="UTF-8">
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
+    Looking for a mentor? Discover startup growth strategies with Soha El-Baklawy on WiseAdvizor
     <meta name="description"
-        content="Looking for a mentor Unlock startup growth strategies with {{ $data->name }} on wiseAdvizor.">
-    <meta name="keywords" content="Looking for a mentor, startup growth, Startup mentor">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+        content="Looking for a mentor ? Discover startup growth strategies with {{ $data->name }} on wiseAdvizor.">
+    <meta name="keywords" content="{{ $data->keyword }}, startup growth, Startup mentor">
+    <!-- <meta name="description"
+        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey."> -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
