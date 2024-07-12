@@ -18,7 +18,7 @@
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
     <meta name="description"
         content="Looking for a mentor ? Discover startup growth strategies with {{ $data->name }} on wiseAdvizor.">
-    <meta name="keywords" content="{{ $data->keyword }}, startup growth, Startup mentor">
+    <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
     <!-- <meta name="description"
         content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey."> -->
     <meta property="og:locale" content="en_US" />
