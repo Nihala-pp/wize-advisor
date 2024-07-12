@@ -15,7 +15,7 @@
     gtag('config', 'G-QC47PPTD6T');
     </script>
     <meta charset="UTF-8">
-    <title>Connect with Startup Mentors Here - Ignite Your Success Now</title>
+    <title>Connect with Startup Mentors - Ignite Your Startup Success Now</title>
     <meta name="description"
         content="Unlock the secrets to startup success - your platform for connecting with experienced entrepreneurs and industry leaders.">
     <meta name="keywords" content="startup success, find a mentor, business growth">
@@ -1598,7 +1598,7 @@
                             data-id="4937a55" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">Getting a mentor is your
-                                    shortcut is success!</h2>
+                                    shortcut to success!</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-904c4b6 elementor-widget elementor-widget-heading"
