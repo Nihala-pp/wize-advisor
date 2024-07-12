@@ -16,7 +16,6 @@
     </script>
     <meta charset="UTF-8">
     <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
-    Looking for a mentor? Discover startup growth strategies with Soha El-Baklawy on WiseAdvizor
     <meta name="description"
         content="Looking for a mentor ? Discover startup growth strategies with {{ $data->name }} on wiseAdvizor.">
     <meta name="keywords" content="{{ $data->keyword }}, startup growth, Startup mentor">
