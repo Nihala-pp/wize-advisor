@@ -1085,8 +1085,7 @@ html body .animated {
                                                 Networking Opportunities </span>
                                         </div>
                                         <p class="elementor-icon-box-description">
-                                            Connect with professionals, entrepreneurs, and industry experts for
-                                            new opportunities and collaborations </p>
+                                        Connect with professionals, entrepreneurs, startup mentors and industry experts for new opportunities and collaborations. </p>
                                     </div>
                                 </div>
                             </div>
