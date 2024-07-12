@@ -896,7 +896,7 @@
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996"
-                                                                                                alt="business journey"
+                                                                                                alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
@@ -990,7 +990,7 @@
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996"
-                                                                                                alt="mentorship"
+                                                                                                alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
@@ -1151,7 +1151,7 @@
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996"
-                                                                                                alt="startup strategy"
+                                                                                                alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
@@ -1721,7 +1721,7 @@
                                 <div class="elementor-widget-container">
                                     <img fetchpriority="high" decoding="async" width="750" height="375"
                                         src="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }}"
-                                        class="attachment-large size-large wp-image-6398" alt="startup strategy"
+                                        class="attachment-large size-large wp-image-6398" alt="digital marketing strategies"
                                         srcset="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 768w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1300w"
                                         sizes="(max-width: 750px) 100vw, 750px"
                                         style="width:100%;height:50%;max-width:2400px" />
