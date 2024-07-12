@@ -883,7 +883,7 @@
                                                 }
                                                 </style> <img decoding="async" width="150" height="150"
                                                     src="{{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-5883" alt=""
+                                                    class="attachment-thumbnail size-thumbnail wp-image-5883" alt="startup success"
                                                     srcset="{{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 150w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 700w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 650w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 1300w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 98w"
                                                     sizes="(max-width: 150px) 100vw, 150px"
                                                     style="width:100%;height:100%;max-width:98px" />
@@ -944,7 +944,7 @@
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="967" height="384"
                                     src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}"
-                                    class="attachment-full size-full wp-image-6396" alt=""
+                                    class="attachment-full size-full wp-image-6396" alt="{{ $selectedBlog->title }}"
                                     srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 967w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 1300w"
                                     sizes="(max-width: 967px) 100vw, 967px"
                                     style="width:100%;height:50.07%;max-width:967px" />
@@ -1135,7 +1135,7 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="375"
                                     src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }}"
-                                    class="attachment-large size-large wp-image-6398" alt=""
+                                    class="attachment-large size-large wp-image-6398" alt="{{ $related_post->title }}"
                                     srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1568w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:50%;max-width:2400px" />
