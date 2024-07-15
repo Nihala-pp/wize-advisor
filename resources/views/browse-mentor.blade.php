@@ -3376,7 +3376,7 @@
 
                 return $.ajax({
                     type: 'GET',
-                    url: "{{ route('browseMentor') }}",
+                    url: "{{ str::slug(route('browseMentor')) }}",
                     data: {
                         form,
                         "_token": "{{ csrf_token() }}",
