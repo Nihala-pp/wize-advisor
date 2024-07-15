@@ -14,6 +14,9 @@
 @if(!empty($name))
 <title>Connect 1:1 Mentorship - {{$name}}</title>
 <meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
+@elseif(!empty($token))
+<title>Connect 1:1 Mentorship - {{$token}}</title>
+<meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. {{$token}} today.">
 @else
 <title>Your Go-To Business Coach for Building a Successful Startup</title>
 <meta name="description"
