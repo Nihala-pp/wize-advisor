@@ -45,7 +45,7 @@
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
     var theplus_nonce = "e7ae24e787";
     </script>
-w   <link rel="dns-prefetch" href="//fonts.googleapis.com">
+   <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="{{ asset('public/feed/') }}">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
