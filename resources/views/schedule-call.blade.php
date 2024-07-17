@@ -2426,9 +2426,9 @@
                     success: function(response) {
                         // window.location.href = "https://wiseadvizor.com/checkout";
 
-                        $.post("https://wiseadvizor.com/checkout", {price:price, mentor:mentor}, function(response){
+                        // $.post("https://wiseadvizor.com/checkout", {price:price, mentor:mentor}, function(response){
 
-                        });
+                        // });
                         // $('.payment-page').html(response);
                     },
                     // error: function(error) {w
