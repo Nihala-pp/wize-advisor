@@ -2423,7 +2423,8 @@
                         "data": formdata
                     },
                     success: function(response) {
-                        $('.payment-page').html(response);
+                        window.location.href = "https://wiseadvizor.com/checkout";
+                        // $('.payment-page').html(response);
                     },
                     // error: function(error) {
                     //     let errors = error.responseJSON.errors
