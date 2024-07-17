@@ -453,13 +453,21 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     Stripe::setApiKey($clientSecret);
 
-    $voucher = Voucher::where('mentor_id', $data['mentor'])->first();
+        $voucher = Voucher::where('name', $data['discount_code'])->where('mentor_id', $data['mentor'])->first();
+
+        if($voucher->discount_type == "fixed") {
+            $discount_value =  $data['price'] - $voucher->discount_value;
+        }
+        else {
+            $discount_value =  $data['price'] - $data['price'] * $voucher->discount_value/100;
+        }
+
 
     if($voucher) {
-      $discount_value = $voucher->discount_value;
+      $price = $discount_value;
     }
     else {
-      $discount_value = Voucher::where('mentor_id', 0)->first()->discount_value;
+      $price = $data['price'] * 100;
     }
 
     // $session = Session::create([
