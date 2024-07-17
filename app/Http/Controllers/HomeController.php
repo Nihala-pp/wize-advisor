@@ -45,7 +45,6 @@ use App\Notifications\CallRejectedUser;
 use Redirect;
 use Exception;
 use App\Models\SubscriptionList;
-use Illuminate\Http\RedirectResponse;
 use Stripe\Checkout\Session;
 use Stripe\Exception\ApiErrorException;
 use Stripe\Stripe;
