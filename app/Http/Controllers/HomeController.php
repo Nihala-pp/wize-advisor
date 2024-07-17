@@ -451,6 +451,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $stripe = new \Stripe\StripeClient($clientSecret);
 
+    Stripe::setApiKey($clientSecret);
+
     $voucher = Voucher::where('mentor_id', $data['mentor'])->first();
 
     if($voucher) {
