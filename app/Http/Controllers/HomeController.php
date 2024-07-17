@@ -475,11 +475,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
       $price = $data['price'] * 100;
 
-      if($coupon) {
-        $coupon_id = $coupon['id'];
+      if(!$coupon) {
+        $coupon_id = 0;
       }
       else {
-        $coupon_id = 0;
+        $coupon_id = $coupon['id'];
+
       }
 
     // $session = Session::create([
