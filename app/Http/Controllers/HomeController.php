@@ -45,8 +45,10 @@ use App\Notifications\CallRejectedUser;
 use Redirect;
 use Exception;
 use App\Models\SubscriptionList;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
-
+use Illuminate\Http\RedirectResponse;
+use Stripe\Checkout\Session;
+use Stripe\Exception\ApiErrorException;
+use Stripe\Stripe;
 class HomeController extends Controller
 {
   // /**
@@ -425,6 +427,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
+    $mentor = User::find($data['mentor']);
+
     $call = ScheduledCall::create([
       'user_id' => Auth::id(),
       'mentor_id' => $data['mentor'],
@@ -443,14 +447,36 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $call_update_data = $data['call_id'] ? ScheduledCall::find($data['call_id']) : null;
     $call_data = ScheduledCall::find($call['id']);
 
-    $client_id = env('PAYPAL_SANDBOX_CLIENT');
+    $clientSecret = env('STRIPE_SECRET_KEY');
 
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-        $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
-    }
+    Stripe::setApiKey($clientSecret);
+
+        $session = Session::create([
+            'line_items'  => [
+                [
+                    'price_data' => [
+                        'currency'     => 'usd',
+                        'product_data' => [
+                            'name' => $data['duration'] .'Minute meeting with'. $mentor->name,
+                        ],
+                        'unit_amount'  => $data['price'],
+                    ],
+                    'quantity'   => 1,
+                ],
+            ],
+            'mode'        => 'payment',
+            'success_url' => route('success-test'),
+            'cancel_url'  => route('cancel'),
+        ]);
+
+        return redirect()->away($session->url);
+
+    // if (Auth::id() && auth()->user()->role_id == 3) {    
+    //     $notifications = auth()->user()->unreadNotifications;
+    // }
+    // else {
+    //      $notifications = '';
+    // }
     // $gateway = new \Braintree\Gateway([
     //   'environment' => env("BRAINTREE_ENV"),
     //   'merchantId' => env("BRAINTREE_MERCHANT_ID"),
