@@ -493,7 +493,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                         'product_data' => [
                             'name' => $data['duration'] .' Minute meeting with '. $mentor->name,
                         ],
-                        'unit_amount_decimal' => $price
+                        'unit_amount_decimal' => round($price)
                     ],
                     'quantity'   => 1,
                 ],
