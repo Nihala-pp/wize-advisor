@@ -453,8 +453,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     Stripe::setApiKey($clientSecret);
 
-        $voucher = Voucher::where('name', $data['discount_code'])->where('mentor_id', $data['mentor'])->first();
-
+      $voucher = Voucher::where('name', $data['discount_code'])->first();
         
       if($voucher) {
         if($voucher->discount_type == "fixed") {
