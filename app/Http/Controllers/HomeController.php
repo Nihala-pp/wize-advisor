@@ -487,7 +487,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
 
     dd(round($price));
-    
+
         $session = Session::create([
             'line_items'  => [
                 [
@@ -496,7 +496,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                         'product_data' => [
                             'name' => $data['duration'] .' Minute meeting with '. $mentor->name,
                         ],
-                        'unit_amount_decimal' => round($price)
+                        'unit_amount' => round($price)
                     ],
                     'quantity'   => 1,
                 ],
