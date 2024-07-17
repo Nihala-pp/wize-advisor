@@ -1312,6 +1312,8 @@
                         <!-- <div class="text-danger error" data-error="desc"></div> -->
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
+                        <label class="form-label" style="color:black;">Discount Code</label>
+                        <input type="text" name="discount_code" class="form-control" id="discount_code" placeholder="Enter MENTOR25">
                 </div>
             </div>
         </div>
