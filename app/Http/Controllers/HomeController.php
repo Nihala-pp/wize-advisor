@@ -456,19 +456,19 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $voucher = Voucher::where('name', $data['discount_code'])->first();
         
       if($voucher) {
-        if($voucher->discount_type == "fixed") {
-          $discount_value =  $data['price'] - $voucher->discount_value;
-        }
-        else {
-          $discount_value =  $data['price'] - $data['price'] * $voucher->discount_value/100;
-        }
-
-         $price = $discount_value * 100;
+        // if($voucher->discount_type == "fixed") {
+        //   $discount_value =  $voucher->discount_value;
+        // }
+        // else {
+          $discount_value =  $voucher->discount_value;
+        // }
       }
        else {
-         $price = $data['price'] * 100;
          $discount_value = 0;
       }
+
+      $price = $data['price'] * 100;
+
 
     // $session = Session::create([
     //   'line_items' => [[
@@ -482,7 +482,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     // ]);
 
     $coupon =  $stripe->coupons->create([
-      'percent_off' => $voucher->discount_value,
+      'percent_off' => $discount_value,
       'duration' => 'once',
     ]);
 
@@ -494,7 +494,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                         'product_data' => [
                             'name' => $data['duration'] .' Minute meeting with '. $mentor->name,
                         ],
-                        'unit_amount_decimal' => $price
+                        'unit_amount_decimal' => round($price)
                     ],
                     'quantity'   => 1,
                 ],
