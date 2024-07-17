@@ -467,6 +467,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       }
        else {
          $price = $data['price'] * 100;
+         $discount_value = 0;
       }
 
     // $session = Session::create([
@@ -481,7 +482,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     // ]);
 
     $coupon =  $stripe->coupons->create([
-      'percent_off' => $discount_value,
+      'percent_off' => $voucher->discount_value,
       'duration' => 'once',
     ]);
 
