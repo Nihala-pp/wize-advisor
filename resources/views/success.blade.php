@@ -51,7 +51,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="{{ asset('public/assets/css/checkout.css') }}"> -->
-    <!-- <script src="https://www.paypal.com/sdk/js?client-id={{ $client_id }}&currency=USD"></script> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <script>
     (function(h, o, t, j, a, r) {
