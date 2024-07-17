@@ -14,6 +14,7 @@ use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\Review;
 use App\Models\UserFaq;
+use App\Models\Voucher;
 use App\Models\Webinar;
 use App\Notifications\CallRejectedAdmin;
 use App\Notifications\NewCallRequest;
@@ -448,7 +449,16 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $clientSecret = env('STRIPE_SECRET_KEY');
 
-    Stripe::setApiKey($clientSecret);
+    $stripe = new \Stripe\StripeClient($clientSecret);
+
+    $voucher = Voucher::where('mentor_id', $data['mentor'])->first();
+
+    if($voucher) {
+      $discount_value = $voucher->discount_value;
+    }
+    else {
+      $discount_value = Voucher::where('mentor_id', 0)->first()->discount_value;
+    }
 
     // $session = Session::create([
     //   'line_items' => [[
@@ -460,7 +470,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //   'success_url' => route('success-test'),
     //   'cancel_url' => route('cancel'),
     // ]);
-    
+
+    $stripe->coupons->create([
+      'percent_off' => $discount_value,
+      'duration' => 'once',
+    ]);
 
         $session = Session::create([
             'line_items'  => [
@@ -475,6 +489,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                     'quantity'   => 1,
                 ],
             ],
+            'discounts' => [['coupon' => '{{COUPON_ID}}']],
             'mode'        => 'payment',
             'success_url' => route('success-test'),
             'cancel_url'  => route('cancel'),
