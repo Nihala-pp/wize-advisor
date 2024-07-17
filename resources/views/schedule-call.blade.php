@@ -2404,6 +2404,7 @@
                 // var formdata = new FormData(document.getElementById("scheduleCallForm"));
                 var desc = $('#desc').val();
                 var mentor = $('.mentor').val();
+                var price = $('.price').val();
                 // e.preventDefault();
 
 
@@ -2425,12 +2426,12 @@
                     success: function(response) {
                         // window.location.href = "https://wiseadvizor.com/checkout";
 
-                        $.post("https://wiseadvizor.com/checkout", function(response){
+                        $.post("https://wiseadvizor.com/checkout", {price:price, mentor:mentor}, function(response){
 
                         });
                         // $('.payment-page').html(response);
                     },
-                    // error: function(error) {
+                    // error: function(error) {w
                     //     let errors = error.responseJSON.errors
                     //     for (let key in errors) {
                     //         let errorDiv = $(`.error[data-error="${key}"]`);
