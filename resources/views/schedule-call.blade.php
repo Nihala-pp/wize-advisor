@@ -2423,7 +2423,11 @@
                         "data": formdata
                     },
                     success: function(response) {
-                        window.location.href = "https://wiseadvizor.com/checkout";
+                        // window.location.href = "https://wiseadvizor.com/checkout";
+
+                        $.post("https://wiseadvizor.com/checkout", function(response){
+
+                        });
                         // $('.payment-page').html(response);
                     },
                     // error: function(error) {
