@@ -460,14 +460,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     // $clientToken = $gateway->clientToken()->generate();
 
-    if($data['mentor'] == 143)
-    {
-       return view('test-gateway',  compact('call_data'));
-    }
-    else {
+    // if($data['mentor'] == 143)
+    // {
+    //    return view('test-gateway',  compact('call_data'));
+    // }
        return view('payment', compact('call_data', 'client_id', 'notifications'));
-    }
-
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
