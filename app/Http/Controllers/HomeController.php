@@ -456,19 +456,19 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         $voucher = Voucher::where('name', $data['discount_code'])->where('mentor_id', $data['mentor'])->first();
 
         
-       if($voucher) {
+      if($voucher) {
         if($voucher->discount_type == "fixed") {
           $discount_value =  $data['price'] - $voucher->discount_value;
-      }
-      else {
+        }
+        else {
           $discount_value =  $data['price'] - $data['price'] * $voucher->discount_value/100;
-      }
+        }
 
          $price = $discount_value;
-    }
+      }
        else {
          $price = $data['price'] * 100;
-       }
+      }
 
     // $session = Session::create([
     //   'line_items' => [[
