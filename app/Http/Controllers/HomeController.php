@@ -40,10 +40,9 @@ use Illuminate\Support\Facades\Auth;
 use Hash;
 use Illuminate\Support\Facades\File;
 use App\Rules\ReCaptcha;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Validator;
 use App\Notifications\CallRejectedUser;
-use Redirect;
+use Illuminate\Support\Facades\Redirect;
 use Exception;
 use App\Models\SubscriptionList;
 use Stripe\Checkout\Session;
@@ -514,7 +513,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
             'cancel_url'  => route('cancel'),
         ]);
 
-        return redirect()->away($session->url);
+        return Redirect::to($session->url);
+
+        // return redirect()->$session->url;
 
     // if (Auth::id() && auth()->user()->role_id == 3) {    
     //     $notifications = auth()->user()->unreadNotifications;
