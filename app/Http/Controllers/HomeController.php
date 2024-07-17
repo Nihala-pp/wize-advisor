@@ -463,12 +463,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         }
 
 
-    if($voucher) {
-      $price = $discount_value;
-    }
-    else {
-      $price = $data['price'] * 100;
-    }
+       if($voucher) {
+         $price = $discount_value;
+       }
+       else {
+         $price = $data['price'] * 100;
+       }
 
     // $session = Session::create([
     //   'line_items' => [[
@@ -494,7 +494,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                         'product_data' => [
                             'name' => $data['duration'] .' Minute meeting with '. $mentor->name,
                         ],
-                        'unit_amount_decimal' => $data['price'] * 100
+                        'unit_amount_decimal' => $price
                     ],
                     'quantity'   => 1,
                 ],
