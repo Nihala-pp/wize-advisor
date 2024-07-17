@@ -450,23 +450,35 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     Stripe::setApiKey($clientSecret);
 
-        $session = Session::create([
-            'line_items'  => [
-                [
-                    'price_data' => [
-                        'currency'     => 'USD',
-                        'product_data' => [
-                            'name' => $data['duration'] .'Minute meeting with'. $mentor->name,
-                        ],
-                        'unit_amount'  => $data['price'],
-                    ],
-                    'quantity'   => 1,
-                ],
-            ],
-            'mode'        => 'payment',
-            'success_url' => route('success-test'),
-            'cancel_url'  => route('cancel'),
-        ]);
+    $session = Session::create([
+      'line_items' => [[
+        # Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
+        'price' => $data['price'],
+        'quantity' => 1,
+      ]],
+      'mode' => 'payment',
+      'success_url' => route('success-test'),
+      'cancel_url' => route('cancel'),
+    ]);
+    
+
+        // $session = Session::create([
+        //     'line_items'  => [
+        //         [
+        //             'price_data' => [
+        //                 'currency'     => 'USD',
+        //                 'product_data' => [
+        //                     'name' => $data['duration'] .'Minute meeting with'. $mentor->name,
+        //                 ],
+        //                 'unit_amount'  => $data['price'],
+        //             ],
+        //             'quantity'   => 1,
+        //         ],
+        //     ],
+        //     'mode'        => 'payment',
+        //     'success_url' => route('success-test'),
+        //     'cancel_url'  => route('cancel'),
+        // ]);
 
         return redirect()->away($session->url);
 
