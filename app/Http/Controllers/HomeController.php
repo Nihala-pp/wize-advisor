@@ -588,6 +588,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
       $call = ScheduledCall::find($call_id);
 
+      $call->update(['is_paid' => 1]);
+      
       $mentor_timezone = AvailableSchedule::where('mentor_id', $call->mentor_id)->where('date', Carbon::parse($call->date)->format('Y-m-d'))->first();
 
       $user_timezone = new \DateTime($call->date . ' ' . $call->start_time, new \DateTimeZone($call->utc));
