@@ -477,9 +477,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'percent_off' => $discount_value,
       'duration' => 'once',
     ]);
-
-dd($coupon['id']);
-
+q
         $session = Session::create([
             'line_items'  => [
                 [
@@ -493,7 +491,7 @@ dd($coupon['id']);
                     'quantity'   => 1,
                 ],
             ],
-            'discounts' => [['coupon' => '{{COUPON_ID}}']],
+            'discounts' => [['coupon' => $coupon['id']]],
             'mode'        => 'payment',
             'success_url' => route('success-test'),
             'cancel_url'  => route('cancel'),
