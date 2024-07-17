@@ -478,7 +478,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'duration' => 'once',
     ]);
 
-dd($coupon);
+dd($coupon['id']);
 
         $session = Session::create([
             'line_items'  => [
