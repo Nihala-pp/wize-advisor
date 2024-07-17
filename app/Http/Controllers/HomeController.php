@@ -461,6 +461,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //   'cancel_url' => route('cancel'),
     // ]);
     
+    $price = number_format($data['price']/100, 2, '.', ' ');
 
         $session = Session::create([
             'line_items'  => [
@@ -470,7 +471,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                         'product_data' => [
                             'name' => $data['duration'] .'Minute meeting with'. $mentor->name,
                         ],
-                        'unit_amount_decimal' => $data['price']
+                        'unit_amount_decimal' => $price
                     ],
                     'quantity'   => 1,
                 ],
