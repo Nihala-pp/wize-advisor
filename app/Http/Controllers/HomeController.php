@@ -509,7 +509,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
             ],
             'discounts' => [['coupon' => $coupon_id]],
             'mode'        => 'payment',
-            'success_url' => route('success-test'),
+            'success_url' => route('success', [$call['id']]),
             'cancel_url'  => route('cancel'),
         ]);
 
