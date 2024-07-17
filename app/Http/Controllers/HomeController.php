@@ -513,7 +513,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
             'cancel_url'  => route('cancel'),
         ]);
 
-        return Redirect::to($session->url);
+        return response()->json($session->url);
 
         // return redirect()->$session->url;
 
