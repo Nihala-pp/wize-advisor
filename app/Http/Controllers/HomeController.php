@@ -502,7 +502,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                     'quantity'   => 1,
                 ],
             ],
-            'discounts' => [['coupon' => $coupon['id'] ?: '']],
+            'discounts' => [['coupon' => $coupon ? $coupon['id'] : '']],
             'mode'        => 'payment',
             'success_url' => route('success-test'),
             'cancel_url'  => route('cancel'),
