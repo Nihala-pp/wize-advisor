@@ -463,7 +463,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
           $discount_value =  $data['price'] - $data['price'] * $voucher->discount_value/100;
         }
 
-         $price = $discount_value;
+         $price = $discount_value * 100;
       }
        else {
          $price = $data['price'] * 100;
