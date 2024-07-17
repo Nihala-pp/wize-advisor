@@ -1496,7 +1496,7 @@
                     </div>
                     <div class="text-center">
                         <button type="submit"  class="btn btn-dark btn-lg mt-5 payNow" id="payNow"
-                            style="align:center;background-color:#001E64;">Checkout</button>
+                            style="align:center;background-color:#001E64;">Continue</button>
                     </div>
                 </div>
             </div>
