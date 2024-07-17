@@ -460,7 +460,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         //   $discount_value =  $voucher->discount_value;
         // }
         // else {
-          $discount_value =  $voucher->discount_value;
+          $discount_value =  $voucher->discount_value * 100;
         // }
       }
        else {
