@@ -588,8 +588,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
       $call = ScheduledCall::find($call_id);
 
-      $call->update(['is_paid' => 1]);
-      
+      // $call->update(['is_paid' => 1]);
+
       $mentor_timezone = AvailableSchedule::where('mentor_id', $call->mentor_id)->where('date', Carbon::parse($call->date)->format('Y-m-d'))->first();
 
       $user_timezone = new \DateTime($call->date . ' ' . $call->start_time, new \DateTimeZone($call->utc));
@@ -602,6 +602,15 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         ->where('date', Carbon::parse($call->date)->format('Y-m-d'))
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first();
+
+        $schedule->update([
+          'is_booked' => 1,
+          'call_id' => $call_data->id
+        ]);
+  
+        $call->update([
+          'is_paid' => 1
+        ]);
 
       $mentor = User::find($call->mentor_id);
       $user = User::find($call->user_id);
