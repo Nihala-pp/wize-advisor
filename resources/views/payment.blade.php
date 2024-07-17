@@ -76,7 +76,7 @@
         s1.setAttribute('crossorigin', '*');
         s0.parentNode.insertBefore(s1, s0);
     })();
-   </script>
+    </script>
     <script>
     $('.coupon_code').on('click', function() {
         var coupon = $('#discount_code').val();
