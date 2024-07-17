@@ -605,7 +605,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
         $schedule->update([
           'is_booked' => 1,
-          'call_id' => $call_data->id
+          'call_id' => $call->id
         ]);
   
         $call->update([
