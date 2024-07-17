@@ -2146,10 +2146,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script src="{{ asset('public/assets/js/popper.js') }}"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script> -->
-    <!-- <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script> -->
+    <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script> -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
