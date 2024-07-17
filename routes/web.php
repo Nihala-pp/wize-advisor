@@ -218,7 +218,7 @@ Route::controller(MentorController::class)
         // Route::get('/sign-in', 'signin')->name('sign-in');
     });
 
-    Route::controller(UserController::class)
+Route::controller(UserController::class)
     ->as('user.')
     ->prefix('user')
     ->group(function () {

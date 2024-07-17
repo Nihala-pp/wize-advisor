@@ -464,7 +464,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     // {
     //    return view('test-gateway',  compact('call_data'));
     // }
-       return view('payment', compact('call_data', 'client_id', 'notifications'));
+      //  return view('payment', compact('call_data', 'client_id', 'notifications'));
+
+       return redirect()->route('checkout');
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
