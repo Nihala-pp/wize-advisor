@@ -473,10 +473,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //   'cancel_url' => route('cancel'),
     // ]);
 
-    $stripe->coupons->create([
+  $coupon =  $stripe->coupons->create([
       'percent_off' => $discount_value,
       'duration' => 'once',
     ]);
+
+dd($coupon);
 
         $session = Session::create([
             'line_items'  => [
