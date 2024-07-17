@@ -456,11 +456,17 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $voucher = Voucher::where('name', $data['discount_code'])->first();
         
       if($voucher) {
+        
         // if($voucher->discount_type == "fixed") {
         //   $discount_value =  $voucher->discount_value;
         // }
         // else {
           $discount_value =  $voucher->discount_value;
+
+          $coupon =  $stripe->coupons->create([
+            'percent_off' => $discount_value,
+            'duration' => 'once',
+          ]);
         // }
       }
        else {
@@ -481,10 +487,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //   'cancel_url' => route('cancel'),
     // ]);
 
-    $coupon =  $stripe->coupons->create([
-      'percent_off' => $discount_value,
-      'duration' => 'once',
-    ]);
+    
 
         $session = Session::create([
             'line_items'  => [
@@ -499,7 +502,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                     'quantity'   => 1,
                 ],
             ],
-            'discounts' => [['coupon' => $coupon['id']]],
+            'discounts' => [['coupon' => $coupon['id'] ?: '']],
             'mode'        => 'payment',
             'success_url' => route('success-test'),
             'cancel_url'  => route('cancel'),
