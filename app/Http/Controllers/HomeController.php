@@ -471,6 +471,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
                             'name' => $data['duration'] .'Minute meeting with'. $mentor->name,
                         ],
                         'unit_amount'  => $data['price'],
+                        'unit_amount_decimal' => $data['price']
                     ],
                     'quantity'   => 1,
                 ],
