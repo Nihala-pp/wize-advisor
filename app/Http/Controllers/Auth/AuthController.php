@@ -131,6 +131,7 @@ class AuthController extends Controller
         ]);
 
         $data = $request->all();
+        dd($request->timezone);
         $check = $this->create($data);
         $admin = User::find(1);
         $user = User::find($check);
@@ -185,7 +186,7 @@ class AuthController extends Controller
             'timezone' => $data['timezone']
         ]);
 
-        return $user['id'];
+        return $user['id'];qwq
     }
 
     /**
