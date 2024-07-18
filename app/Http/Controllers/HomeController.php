@@ -410,11 +410,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         // ), 422);
     }
 
-    if ($validator->fails()) {
-      return Redirect::back()
-                  ->withErrors($validator)
-                  ->withInput();
-    }
+    $validator->validate();
 
     if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
