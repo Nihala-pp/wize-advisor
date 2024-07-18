@@ -402,11 +402,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     ]);
 
     // dd($data);
-
-    if(!$voucher) 
-    {
-      $validator->errors()->add('discount_code', 'Voucher  doesnt exists');
-    }
+    $validator->after(function ($validator) use($voucher) {
+       if(!$voucher)
+       {
+           $validator->errors()->add('discount_code', 'Voucher  doesnt exists');
+       }
+    });
 
      $validator->validate();
 
