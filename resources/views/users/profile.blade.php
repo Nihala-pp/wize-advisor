@@ -3,6 +3,7 @@
 @include('partials.web-header-new')
 <link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
 <link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
     @include('partials.header-common')
@@ -72,6 +73,7 @@
                                             @php
                                             $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                             @endphp
+                                            @if(!empty($expt))
                                             @foreach($expt as $exp)
                                             @foreach($expertise as $key => $expert)
                                             <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
@@ -79,6 +81,13 @@
                                             </option>
                                             @endforeach
                                             @endforeach
+                                            @else
+                                            @foreach($expertise as $key => $expert)
+                                            <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
+                                                {{ $expert }}
+                                            </option>
+                                            @endforeach
+                                            @endif
                                         </select>
                                     </div>
                                     <div class="timezone mb-3">
