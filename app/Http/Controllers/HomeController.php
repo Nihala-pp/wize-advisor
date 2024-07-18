@@ -405,11 +405,10 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     if(!$voucher) 
     {
-      dd("dsdsfdg");
-      $validator->errors()->add('discount_code', 'Voucher  doesnt exists');
+      $validator->errors()->add('discount_code', 'Voucher  doesnt exists')->validate();
     }
 
-      $validator->validate();
+      // $validator->validate();
 
     if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
