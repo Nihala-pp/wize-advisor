@@ -411,7 +411,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     }
 
     if ($validator->fails()) {
-      return redirect('schedule-call')
+      return Redirect::back()
                   ->withErrors($validator)
                   ->withInput();
     }
