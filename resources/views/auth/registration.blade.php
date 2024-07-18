@@ -2146,6 +2146,8 @@ html body .animated {
     </script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="{{ asset('public/assets/js/tstz.js') }}"></script>
+    <script src="{{ asset('public/assets/js/tstz.min.js') }}"></script>
+
 
     <!-- <script id="elementor-admin-bar-js-before">
     var elementorAdminBarConfig = {
