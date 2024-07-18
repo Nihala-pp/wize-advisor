@@ -2205,6 +2205,10 @@ html body .animated {
                 confirm_password.setCustomValidity('');
             }
         }
+
+        var tz = jstz.determine(); 
+            tz.name(); 
+            alert(tz.name());
     });
 
        function validate_pass() {
