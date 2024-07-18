@@ -1139,6 +1139,7 @@ html body .animated {
                                         @csrf
                                         <input type="hidden" name="token" value="{{ $token ?: Null }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
+                                        <input type="hidden" name="timezone" class="timezone">
                                         @if ($errors->any())
                                         @foreach ($errors->all() as $error)
                                         <div>{{$error}}</div>
@@ -1214,7 +1215,7 @@ html body .animated {
                                             <label class="">LinkedIn Url</label>
                                             <input type="url" class="form-control" name="linked_in">
                                         </div> -->
-                                        <div class="mb-1">
+                                        <!-- <div class="mb-1">
                                             <label class="form-label time">Timezone</label>
                                             <select name="timezone"
                                                 class="timezone select2 form-control @error('timezone') is-invalid @enderror"
@@ -1229,7 +1230,7 @@ html body .animated {
                                                 <strong>{{ $message }}</strong>
                                             </span>
                                             @enderror
-                                        </div>
+                                        </div> -->
                                         <!-- <div class="mb-0">
                                             <label class="form-label">Expertise you are looking for?</label></br>
                                             <select class="select form-control @error('expert') is-invalid @enderror"
@@ -2209,8 +2210,11 @@ html body .animated {
         }
 
         var tz = jstz.determine(); 
-            tz.name(); 
-            alert(tz.name());
+        var timezone = tz.name(); 
+
+        $('body').find('.timezone').val(timezone);    
+          
+            // alert(tz.name());
     });
 
        function validate_pass() {
