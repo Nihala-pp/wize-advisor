@@ -393,11 +393,21 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     parse_str($requestData['data'], $data);
     $id = json_encode($data['mentor']);
 
+    $voucher = Voucher::where('name', $data['discount_code'])->first();
+
     Validator::make($data, [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
     ])->validate();
+
+    if(!$voucher) 
+    {
+        return response()->json(array(
+        'code'      =>  401,
+        'message'   =>  "The Voucher doesn't exists"
+        ), 401);
+    }
 
     if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
@@ -451,8 +461,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $stripe = new \Stripe\StripeClient($clientSecret);
 
     Stripe::setApiKey($clientSecret);
-
-      $voucher = Voucher::where('name', $data['discount_code'])->first();
         
       if($voucher) {
         
