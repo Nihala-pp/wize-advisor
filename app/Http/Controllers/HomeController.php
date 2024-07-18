@@ -401,6 +401,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'timezone' => 'required',
     ]);
 
+    dd($data);
+
     if(!$voucher) 
     {
       dd("dsdsfdg");
