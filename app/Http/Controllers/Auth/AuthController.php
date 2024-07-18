@@ -186,7 +186,7 @@ class AuthController extends Controller
             'timezone' => $data['timezone']
         ]);
 
-        return $user['id'];qwq
+        return $user['id'];
     }
 
     /**
