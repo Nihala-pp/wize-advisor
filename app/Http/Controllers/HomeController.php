@@ -404,9 +404,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     if(!$voucher) 
     {
         return response()->json(array(
-        'code'      =>  500,
+        'code'      =>  422,
         'message'   =>  "The Voucher doesn't exists"
-        ), 500);
+        ), 422);
     }
 
     if ($request->hasFile('doc')) {
