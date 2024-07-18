@@ -395,18 +395,25 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $voucher = Voucher::where('name', $data['discount_code'])->first();
 
-    Validator::make($data, [
+    $validator =  Validator::make($data, [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
-    ])->validate();
+    ]);
 
     if(!$voucher) 
     {
+      $validator->errors()->add('discount_code', 'Please select an event');
         return response()->json(array(
         'code'      =>  422,
         'message'   =>  "The Voucher doesn't exists"
         ), 422);
+    }
+
+    if ($validator->fails()) {
+      return redirect('schedule-call')
+                  ->withErrors($validator)
+                  ->withInput();
     }
 
     if ($request->hasFile('doc')) {
