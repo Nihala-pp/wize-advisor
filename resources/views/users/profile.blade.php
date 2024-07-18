@@ -55,12 +55,12 @@
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Company Name</label>
                                         <input type="text" class="form-control" name="company_name"
-                                            value="{{ $data->metaData ? $data->metaData->company : '' }}">
+                                            value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Designation</label>
                                         <input type="text" class="form-control" name="designation"
-                                            value="{{ $data->metaData ? $data->metaData->designation : '' }}">
+                                            value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
                                     </div>
                                     <div class="input-group input-group-static mb-3">
                                         <label class="">Linked-In Url</label>
