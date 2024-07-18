@@ -401,14 +401,16 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'timezone' => 'required',
     ]);
 
-    $validator->after(function ($validator) use($voucher) {
-       if(!$voucher)
-       {
-           $validator->errors()->add('discount_code', 'Voucher  doesnt exists');
-       }
-    });
-
-     $validator->validate();
+    if(!empty($data['discount_code'])) {
+       $validator->after(function ($validator) use($voucher) {
+          if(!$voucher)
+          {
+              $validator->errors()->add('discount_code', 'Voucher  doesnt exists');
+          }
+        });
+    }  
+    
+    $validator->validate();
 
     if ($request->hasFile('doc')) {
       $completeFileName = $request->file('doc')->getClientOriginalName();
