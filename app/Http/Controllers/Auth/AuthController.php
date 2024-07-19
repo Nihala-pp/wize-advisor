@@ -32,8 +32,7 @@ class AuthController extends Controller
     {
         $mentor = null;
 
-        if(!$id) {
-            dd($id);
+        if($id) {
             $mentor = User::find($id)->name;
         }
 
