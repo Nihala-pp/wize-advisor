@@ -1101,9 +1101,9 @@
     <link rel="stylesheet" id="niso-carousel-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
         media="all">
-    <link rel="stylesheet" id="niso-carousel-lightbox-css"
+    <!-- <link rel="stylesheet" id="niso-carousel-lightbox-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.css?ver=1.0"
-        media="all">
+        media="all"> -->
     <!-- <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.css?ver=1.0"
         media="all"> -->
