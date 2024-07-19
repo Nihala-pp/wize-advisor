@@ -30,7 +30,13 @@ class AuthController extends Controller
 
     public function index($token = Null, $id = Null, $name = Null)
     {
-        return view('auth.login', compact('token', 'id', 'name'));
+        $mentor = null;
+
+        if(!$id) {
+            $mentor = User::find($id)->name;
+        }
+
+        return view('auth.login', compact('token', 'id', 'name','mentor'));
     }
 
     /**
