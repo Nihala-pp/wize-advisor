@@ -25,6 +25,8 @@
 <meta name="keywords" content="business guidance, building a startup, business coach, Startup mentors">
 @if($id && $token)
 <link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
+@elseif($id && $name)
+<link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $name }}">
 @else
 <link rel="canonical" href="https://wiseadvizor.com/login">
 @endif
