@@ -128,7 +128,7 @@
                                                 @if(!empty($name))
                                                   Register Here!<span class="text">and Schedule call with {{ $name }}</span>
                                                 @elseif(!empty($token))
-                                                  Create Account <span class="text">and Schedule call with {{ $name }}</span>
+                                                  Create Account <span class="text">and Schedule call with {{ $mentor }}</span>
                                                 @else
                                                 Create New Account
                                                 @endif
