@@ -36,7 +36,7 @@ class AuthController extends Controller
             $mentor = User::find($id)->name;
         }
 
-        return view('auth.login', compact('token', 'id', 'name','mentor'));
+        return view('auth.login', compact('token', 'id', 'name', 'mentor'));
     }
 
     /**
