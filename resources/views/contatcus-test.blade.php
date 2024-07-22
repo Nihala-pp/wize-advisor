@@ -2,14 +2,43 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact us new page &#8211; WISE ADVIZOR</title>
-    <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
-        href="https://wiseadvizor.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/" />
+    <meta charset="UTF-8">
+    <title>Top Mentoring Organizations : One-on-One Mentoring Programs</title>
+    <meta name="description"
+        content="Experience the transformative impact of one-on-one mentoring through our organization, empowering individuals and fostering growth in mentoring relationships.">
+    <meta name="keywords" content="mentoring organizations, one on one mentoring">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_nonce = "41e9834823";
+    </script>
+    <meta name="description"
+        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+    <meta property="og:description"
+        content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+    <meta property="og:image"
+        content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta property="og:url" content="https://wiseadvizor.com">
+    <meta property="og:site_name" content="wiseAdvizor" />
+    <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+    <meta name="twitter:description"
+        content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+    <meta name="twitter:url" content="https://wiseadvizor.com">
+    <meta name="twitter:image"
+        url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <!-- <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+        href="https://wiseadvizor.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
+        href="https://wiseadvizor.com/comments/feed/"> -->
+    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
