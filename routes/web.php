@@ -241,4 +241,5 @@ Route::controller(UserController::class)
    //***             Test Routes               ****///
 
    Route::get('aboutus-test', [TestController::class, 'aboutuspage'])->name('about-test');
+   Route::get('contactus-test', [TestController::class, 'contactuspage'])->name('contact-test');
    Route::get('be-a-mentor-test', [TestController::class, 'beAMentor'])->name('be-a-mentor');
