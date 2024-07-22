@@ -159,8 +159,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6'
-        media='all' />
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
@@ -607,7 +606,7 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1719392983' media='all' />
     <link rel='stylesheet' id='elementor-post-7046-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7046.css?ver=1720441388' media='all' />
-        <link rel="stylesheet" id="elementor-post-3007-css"
+    <link rel="stylesheet" id="elementor-post-3007-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
     <link rel='stylesheet' id='elementor-post-32-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
@@ -626,8 +625,7 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
-        media='print' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
         media='all' />
@@ -1871,7 +1869,8 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            How it Works</p>
+                                                            <a href="https://wiseadvizor.com/how-it-works/"> How it Works</a>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1884,7 +1883,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://web.pransainvestment.ca/privacy-policy/">Privacy
+                                                            <a href="https://wiseadvizor.com/privacy-policy/">Privacy
                                                                 Policy</a>
                                                         </p>
                                                     </div>
@@ -2364,8 +2363,8 @@
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
         id="wp-dom-ready-js"></script>
     <script id="starter-templates-zip-preview-js-extra">
@@ -2407,8 +2406,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
-        id="wp-hooks-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
@@ -3122,8 +3121,7 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3345,8 +3343,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
@@ -3424,8 +3421,7 @@
         }
     };
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
@@ -3500,86 +3496,86 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
-.elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
-    padding: 0px 20px 10px 100px;
-}
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-    background-color: #fff;
-    color: #001E64;
-}
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64;
+    }
 
-.elementor-button.elementor-size-xs {
-    font-size: 12px;
-    padding: 10px 20px;
-    border-radius: 7px;
-    margin: 10px;
-}
+    .elementor-button.elementor-size-xs {
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin: 10px;
+    }
 
-.elementor-button {
-    display: inline-block;
-    line-height: 1;
-    background-color: #001E64;
-    /* font-size: 15px; */
-    /* padding: 12px 24px; */
-    /* border-radius: 3px; */
-    /* color: #fff; */
-    fill: #fff;
-    text-align: center;
-    transition: all .3s;
-}
+    .elementor-button {
+        display: inline-block;
+        line-height: 1;
+        background-color: #001E64;
+        /* font-size: 15px; */
+        /* padding: 12px 24px; */
+        /* border-radius: 3px; */
+        /* color: #fff; */
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-f871cda {
-    width: 30%;
-}
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-094a417 {
-    width: 50%;
-}
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-a2b9669 {
-    width: 20%;
-}
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-    padding: 0px 0px 0px 30px;
-    margin-top: 60px;
-}
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
 
-#menu-item-5136 {
-    font-size: 8px;
-}
+    #menu-item-5136 {
+        font-size: 8px;
+    }
 
-i.fas.fa-bell.fa-2xl {
-    font-size: 27px !important;
-    color: #000;
-    padding-left: 10px;
-}
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
 
-.rounded-circle {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: auto;
-    max-width: 100%;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-    background-color: #fff;
-    color: #001E64 !important;
-}
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
+    }
 
-/* i.fas.fa-bell.fa-2xl {
+    /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
 color: #000;
@@ -3593,10 +3589,10 @@ margin-bottom: 10px;
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-    padding: 0px 0px 0px 20px;
-    margin-top: 60px;
-}
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 20px;
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 360px) {}
@@ -3606,56 +3602,56 @@ margin-bottom: 10px;
 @media (min-width: 540px) {}
 
 @media (min-width: 768px) and (max-width: 1024px) {
-.elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
-    padding: 25px 10px 0px 0px;
-    margin-left: -60px;
-}
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+        padding: 25px 10px 0px 0px;
+        margin-left: -60px;
+    }
 
-.wp-image-624 {
-    width: 100%;
-    height: 15.02%;
-    max-width: 150px !important;
-}
+    .wp-image-624 {
+        width: 100%;
+        height: 15.02%;
+        max-width: 150px !important;
+    }
 
-/* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
+    /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
 font-size: 40px;
 padding-left: 20px;
 } */
 
-dl,
-ol,
-ul {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: 20px;
-}
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 20px;
+    }
 
-.menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
-    background-color: #fff !important;
-}
+    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
+        background-color: #fff !important;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
-    font-family: "Helvetica", Sans-serif;
-    font-size: 10px;
-    margin-right: 15px;
-    font-weight: 400;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
-    border-style: none;
-    border-radius: 7px 7px 7px 7px;
-}
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        margin-right: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
 
-.elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
-    font-family: "Helvetica", Sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
-    border-style: none;
-    border-radius: 7px 7px 7px 7px;
-}
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
 
-/* .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
+    /* .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
 } */
