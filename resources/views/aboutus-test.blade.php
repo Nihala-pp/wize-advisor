@@ -3179,6 +3179,12 @@ i.fas.fa-bell.fa-2xl {
     overflow: hidden;
     background-color: #000000;
 }
+
+body.elementor-page-7317:not(.elementor-motion-effects-element-type-background), body.elementor-page-7317 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+    margin: auto;
+    /* width: 150%; */
+}
 </style>
 
 </html>
