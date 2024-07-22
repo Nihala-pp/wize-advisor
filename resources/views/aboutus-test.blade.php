@@ -3196,7 +3196,7 @@
     background-color: #fff !important;
 }
 
-ehf-header #masthead {
+.ehf-header #masthead {
     margin-top: -35px;
     z-index: 99;
     position: relative;
