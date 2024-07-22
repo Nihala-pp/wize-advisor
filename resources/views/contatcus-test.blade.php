@@ -66,7 +66,7 @@
                         n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                             "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                             "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                            );
+                        );
                 case "emoji":
                     return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
                         "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
@@ -620,6 +620,8 @@
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1719392983' media='all' />
     <link rel='stylesheet' id='elementor-post-7478-css'
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-7478.css?ver=1721657651' media='all' />
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
     <link rel='stylesheet' id='elementor-post-32-css'
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
@@ -880,2287 +882,2236 @@
 
 <body
     class="page-template page-template-elementor_header_footer page page-id-7478 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1  elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7478">
-        <!-- <div id="content" class="site-content">
+        @include('partials.header-common')
+    <!-- <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main"> -->
-                    <div data-elementor-type="wp-page" data-elementor-id="7478" class="elementor elementor-7478">
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-7d8bc02 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="7d8bc02" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d5c6218"
-                                    data-id="d5c6218" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-5d88f9d elementor-widget elementor-widget-heading"
-                                            data-id="5d88f9d" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                                .elementor-heading-title {
-                                                    padding: 0;
-                                                    margin: 0;
-                                                    line-height: 1
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                    color: inherit;
-                                                    font-size: inherit;
-                                                    line-height: inherit
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                    font-size: 15px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                    font-size: 19px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                    font-size: 29px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                    font-size: 39px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                    font-size: 59px
-                                                }
-                                                </style>
-                                                <h4 class="elementor-heading-title elementor-size-default">How can we
-                                                    help?</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-465b197 elementor-widget elementor-widget-heading"
-                                            data-id="465b197" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">We're here to
-                                                    assist and address any questions you may have.</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-6efce1a50 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="6efce1a50" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-background-overlay"></div>
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2b3679d8 animated-slow elementor-invisible"
-                                    data-id="2b3679d8" data-element_type="column"
-                                    data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-e293c91 elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="e293c91" data-element_type="widget"
-                                            data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container">
-                                                <link rel="stylesheet"
-                                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
-                                                <div class="elementor-icon-box-wrapper">
-
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="fas fa-envelope"></i> </span>
-                                                    </div>
-
-                                                    <div class="elementor-icon-box-content">
-
-                                                        <h4 class="elementor-icon-box-title">
-                                                            <span>
-                                                                Contact support </span>
-                                                        </h4>
-
-                                                        <p class="elementor-icon-box-description">
-                                                            Have questions or need assistance? We're here to help you
-                                                            succeed. Drop us a line below and we'll get back to you
-                                                            soon. </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-170c1ad wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                            data-id="170c1ad" data-element_type="widget"
-                                            data-widget_type="wpr-button.default">
-                                            <div class="elementor-widget-container">
-
-
-
-                                                <div class="wpr-button-wrap elementor-clearfix">
-                                                    <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="#link">
-
-                                                        <span class="wpr-button-content">
-                                                            <span class="wpr-button-text">Contact</span>
-
-                                                            <span class="wpr-button-icon"><i
-                                                                    class="fas fa-angle-right"></i></span>
-                                                        </span>
-                                                    </a>
-
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13db209 animated-slow elementor-invisible"
-                                    data-id="13db209" data-element_type="column"
-                                    data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-element elementor-element-eed10b6 elementor-position-left elementor-widget__width-initial elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="eed10b6" data-element_type="widget"
-                                            data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-icon-box-wrapper">
-
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="fas fa-envelope"></i> </span>
-                                                    </div>
-
-                                                    <div class="elementor-icon-box-content">
-
-                                                        <h4 class="elementor-icon-box-title">
-                                                            <span>
-                                                                Want to be a mentor </span>
-                                                        </h4>
-
-                                                        <p class="elementor-icon-box-description">
-                                                            Want to be a mentor or want to know more about wiseAdvizor,
-                                                            fill the below form and we'll be get back to you soon. </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-c4e0a17 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                            data-id="c4e0a17" data-element_type="widget"
-                                            data-widget_type="wpr-button.default">
-                                            <div class="elementor-widget-container">
-
-
-
-                                                <div class="wpr-button-wrap elementor-clearfix">
-                                                    <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="#link">
-
-                                                        <span class="wpr-button-content">
-                                                            <span class="wpr-button-text">Be a Mentor</span>
-
-                                                            <span class="wpr-button-icon"><i
-                                                                    class="fas fa-angle-right"></i></span>
-                                                        </span>
-                                                    </a>
-
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-0524b99 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="0524b99" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63129fa"
-                                    data-id="63129fa" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-9256819 elementor-position-left elementor-widget__width-initial elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="9256819" data-element_type="widget"
-                                            data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-icon-box-wrapper">
-
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="far fa-handshake"></i> </span>
-                                                    </div>
-
-                                                    <div class="elementor-icon-box-content">
-
-                                                        <h3 class="elementor-icon-box-title">
-                                                            <span>
-                                                                Partner with us </span>
-                                                        </h3>
-
-                                                        <p class="elementor-icon-box-description">
-                                                            Want to partner with us, write us on below email and we'll
-                                                            get back to you soon. </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-476ef86 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                            data-id="476ef86" data-element_type="widget"
-                                            data-widget_type="wpr-button.default">
-                                            <div class="elementor-widget-container">
-
-
-
-                                                <div class="wpr-button-wrap elementor-clearfix">
-                                                    <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="#link">
-
-                                                        <span class="wpr-button-content">
-                                                            <span class="wpr-button-text">Send proposal</span>
-
-                                                            <span class="wpr-button-icon"><i
-                                                                    class="fas fa-angle-right"></i></span>
-                                                        </span>
-                                                    </a>
-
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-607d996 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="607d996" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f7f55aa"
-                                    data-id="f7f55aa" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-748405b elementor-widget elementor-widget-heading"
-                                            data-id="748405b" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Start your
-                                                    mentorship experience today and achieve your business goals with
-                                                    confidence.</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-38b7817 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                            data-id="38b7817" data-element_type="widget"
-                                            data-widget_type="wpr-button.default">
-                                            <div class="elementor-widget-container">
-
-
-
-                                                <div class="wpr-button-wrap elementor-clearfix">
-                                                    <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="#link">
-
-                                                        <span class="wpr-button-content">
-                                                            <span class="wpr-button-text">Get started</span>
-
-                                                            <span class="wpr-button-icon"><i
-                                                                    class="fas fa-angle-right"></i></span>
-                                                        </span>
-                                                    </a>
-
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-188016720 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="188016720" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66733ea"
-                                    data-id="66733ea" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-a3c6108 elementor-widget elementor-widget-heading"
-                                            data-id="a3c6108" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Lets' get
-                                                    social</h2>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-91afd59 elementor-grid-0 elementor-widget elementor-widget-wpr-sharing-buttons"
-                                            data-id="91afd59" data-element_type="widget"
-                                            data-widget_type="wpr-sharing-buttons.default">
-                                            <div class="elementor-widget-container">
-                                                <div
-                                                    class="wpr-sharing-buttons elementor-grid wpr-sharing-official wpr-sharing-label-off wpr-sharing-icon-tr wpr-sharing-label-tr">
-                                                    <div class="elementor-grid-item"><a
-                                                            href="https://www.facebook.com/sharer.php?u=https://web.wiseadvizor.com/elementor-7478/"
-                                                            class="wpr-sharing-icon wpr-sharing-facebook-f" title=""
-                                                            target="_blank"><i class="fab fa-facebook-f"></i></a></div>
-                                                    <div class="elementor-grid-item"><a
-                                                            href="https://twitter.com/intent/tweet?url=https://web.wiseadvizor.com/elementor-7478/"
-                                                            class="wpr-sharing-icon wpr-sharing-twitter" title=""
-                                                            target="_blank"><i class="fab fa-twitter"></i></a></div>
-                                                    <div class="elementor-grid-item"><a
-                                                            href="mailto:?subject=Contact us new page&body=https://web.wiseadvizor.com/elementor-7478/"
-                                                            class="wpr-sharing-icon wpr-sharing-envelope" title=""
-                                                            target="_blank"><i class="fas fa-envelope"></i></a></div>
-                                                    <div class="elementor-grid-item"><a
-                                                            href="https://www.linkedin.com/shareArticle?mini=true&url=https://web.wiseadvizor.com/elementor-7478/&title=Contact us new page&summary=How can we help? We&#8217;re here to assist and address any questions you may have. Contact support Have questions or need assistance? We&#8217;re here to help you succeed. Drop us a line below and we&#8217;ll get back to you soon. Contact Want to be a mentor Want to be a mentor or want to know&hellip; &lt;a class=&quot;more-link&quot; href=&quot;https://web.wiseadvizor.com/elementor-7478/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Contact us new page&lt;/span&gt;&lt;/a&gt;&source=https://web.wiseadvizor.com/elementor-7478/"
-                                                            class="wpr-sharing-icon wpr-sharing-linkedin-in" title=""
-                                                            target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-
-                    <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon"
-                        role="contentinfo">
-                        <div class='footer-width-fixer'>
-                            <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
-                                <footer
-                                    class="elementor-section elementor-top-section elementor-element elementor-element-60f0ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                    data-id="60f0ea5" data-element_type="section"
-                                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-                                    <div class="elementor-container elementor-column-gap-no">
-                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a49692e"
-                                            data-id="a49692e" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-dd4d324 elementor-button-align-stretch elementor-widget elementor-widget-form"
-                                                    data-id="dd4d324" data-element_type="widget"
-                                                    data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                                    data-widget_type="form.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                        /*! elementor-pro - v3.8.2 - 21-11-2022 */
-                                                        .elementor-button.elementor-hidden,
-                                                        .elementor-hidden {
-                                                            display: none
-                                                        }
-
-                                                        .e-form__step {
-                                                            width: 100%
-                                                        }
-
-                                                        .e-form__step:not(.elementor-hidden) {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -ms-flex-wrap: wrap;
-                                                            flex-wrap: wrap
-                                                        }
-
-                                                        .e-form__buttons {
-                                                            -ms-flex-wrap: wrap;
-                                                            flex-wrap: wrap
-                                                        }
-
-                                                        .e-form__buttons,
-                                                        .e-form__buttons__wrapper {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex
-                                                        }
-
-                                                        .e-form__indicators {
-                                                            -webkit-box-pack: justify;
-                                                            -ms-flex-pack: justify;
-                                                            justify-content: space-between;
-                                                            -ms-flex-wrap: nowrap;
-                                                            flex-wrap: nowrap;
-                                                            font-size: 13px;
-                                                            margin-bottom: var(--e-form-steps-indicators-spacing)
-                                                        }
-
-                                                        .e-form__indicators,
-                                                        .e-form__indicators__indicator {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center
-                                                        }
-
-                                                        .e-form__indicators__indicator {
-                                                            -webkit-box-orient: vertical;
-                                                            -webkit-box-direction: normal;
-                                                            -ms-flex-direction: column;
-                                                            flex-direction: column;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -ms-flex-preferred-size: 0;
-                                                            flex-basis: 0;
-                                                            padding: 0 var(--e-form-steps-divider-gap)
-                                                        }
-
-                                                        .e-form__indicators__indicator__progress {
-                                                            width: 100%;
-                                                            position: relative;
-                                                            background-color: var(--e-form-steps-indicator-progress-background-color);
-                                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                                            overflow: hidden
-                                                        }
-
-                                                        .e-form__indicators__indicator__progress__meter {
-                                                            width: var(--e-form-steps-indicator-progress-meter-width, 0);
-                                                            height: var(--e-form-steps-indicator-progress-height);
-                                                            line-height: var(--e-form-steps-indicator-progress-height);
-                                                            padding-right: 15px;
-                                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                                            background-color: var(--e-form-steps-indicator-progress-color);
-                                                            color: var(--e-form-steps-indicator-progress-meter-color);
-                                                            text-align: right;
-                                                            -webkit-transition: width .1s linear;
-                                                            -o-transition: width .1s linear;
-                                                            transition: width .1s linear
-                                                        }
-
-                                                        .e-form__indicators__indicator:first-child {
-                                                            padding-left: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator:last-child {
-                                                            padding-right: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-inactive {
-                                                            color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                            background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-inactive object,
-                                                        .e-form__indicators__indicator--state-inactive svg {
-                                                            fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-active {
-                                                            color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
-                                                            border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                            background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-active object,
-                                                        .e-form__indicators__indicator--state-active svg {
-                                                            fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed {
-                                                            color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                            background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
-                                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
-                                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
-                                                            background-color: initial
-                                                        }
-
-                                                        .e-form__indicators__indicator--state-completed object,
-                                                        .e-form__indicators__indicator--state-completed svg {
-                                                            fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                                        }
-
-                                                        .e-form__indicators__indicator__icon {
-                                                            width: var(--e-form-steps-indicator-padding, 30px);
-                                                            height: var(--e-form-steps-indicator-padding, 30px);
-                                                            font-size: var(--e-form-steps-indicator-icon-size);
-                                                            border-width: 1px;
-                                                            border-style: solid;
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center;
-                                                            overflow: hidden;
-                                                            margin-bottom: 10px
-                                                        }
-
-                                                        .e-form__indicators__indicator__icon img,
-                                                        .e-form__indicators__indicator__icon object,
-                                                        .e-form__indicators__indicator__icon svg {
-                                                            width: var(--e-form-steps-indicator-icon-size);
-                                                            height: auto
-                                                        }
-
-                                                        .e-form__indicators__indicator__icon .e-font-icon-svg {
-                                                            height: 1em
-                                                        }
-
-                                                        .e-form__indicators__indicator__number {
-                                                            width: var(--e-form-steps-indicator-padding, 30px);
-                                                            height: var(--e-form-steps-indicator-padding, 30px);
-                                                            border-width: 1px;
-                                                            border-style: solid;
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center;
-                                                            margin-bottom: 10px
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-circle {
-                                                            border-radius: 50%
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-square {
-                                                            border-radius: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-rounded {
-                                                            border-radius: 5px
-                                                        }
-
-                                                        .e-form__indicators__indicator--shape-none {
-                                                            border: 0
-                                                        }
-
-                                                        .e-form__indicators__indicator__label {
-                                                            text-align: center
-                                                        }
-
-                                                        .e-form__indicators__indicator__separator {
-                                                            width: 100%;
-                                                            height: var(--e-form-steps-divider-width);
-                                                            background-color: #c2cbd2
-                                                        }
-
-                                                        .e-form__indicators--type-icon,
-                                                        .e-form__indicators--type-icon_text,
-                                                        .e-form__indicators--type-number,
-                                                        .e-form__indicators--type-number_text {
-                                                            -webkit-box-align: start;
-                                                            -ms-flex-align: start;
-                                                            align-items: flex-start
-                                                        }
-
-                                                        .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
-                                                        .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
-                                                        .e-form__indicators--type-number .e-form__indicators__indicator__separator,
-                                                        .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
-                                                            margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
-                                                        }
-
-                                                        .elementor-field-type-hidden {
-                                                            display: none
-                                                        }
-
-                                                        .elementor-field-type-html {
-                                                            display: inline-block
-                                                        }
-
-                                                        .elementor-login .elementor-lost-password,
-                                                        .elementor-login .elementor-remember-me {
-                                                            font-size: .85em
-                                                        }
-
-                                                        .elementor-field-type-recaptcha_v3 .elementor-field-label {
-                                                            display: none
-                                                        }
-
-                                                        .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
-                                                            z-index: 1
-                                                        }
-
-                                                        .elementor-button .elementor-form-spinner {
-                                                            -webkit-box-ordinal-group: 4;
-                                                            -ms-flex-order: 3;
-                                                            order: 3
-                                                        }
-
-                                                        .elementor-form .elementor-button>span {
-                                                            display: -webkit-box;
-                                                            display: -ms-flexbox;
-                                                            display: flex;
-                                                            -webkit-box-pack: center;
-                                                            -ms-flex-pack: center;
-                                                            justify-content: center;
-                                                            -webkit-box-align: center;
-                                                            -ms-flex-align: center;
-                                                            align-items: center
-                                                        }
-
-                                                        .elementor-form .elementor-button .elementor-button-text {
-                                                            white-space: normal;
-                                                            -webkit-box-flex: 0;
-                                                            -ms-flex-positive: 0;
-                                                            flex-grow: 0
-                                                        }
-
-                                                        .elementor-form .elementor-button svg {
-                                                            height: auto
-                                                        }
-
-                                                        .elementor-form .elementor-button .e-font-icon-svg {
-                                                            height: 1em
-                                                        }
-
-                                                        .elementor-select-wrapper .select-caret-down-wrapper {
-                                                            position: absolute;
-                                                            top: 50%;
-                                                            -webkit-transform: translateY(-50%);
-                                                            -ms-transform: translateY(-50%);
-                                                            transform: translateY(-50%);
-                                                            inset-inline-end: 10px;
-                                                            pointer-events: none;
-                                                            font-size: 11px
-                                                        }
-
-                                                        .elementor-select-wrapper .select-caret-down-wrapper svg {
-                                                            display: unset;
-                                                            width: 1em;
-                                                            aspect-ratio: unset;
-                                                            fill: currentColor
-                                                        }
-
-                                                        .elementor-select-wrapper .select-caret-down-wrapper i {
-                                                            font-size: 19px;
-                                                            line-height: 2
-                                                        }
-
-                                                        .elementor-select-wrapper.remove-before:before {
-                                                            content: "" !important
-                                                        }
-                                                        </style>
-                                                        <form class="elementor-form" method="post"
-                                                            name="Subscribe Form">
-                                                            <input type="hidden" name="post_id" value="32" />
-                                                            <input type="hidden" name="form_id" value="dd4d324" />
-                                                            <input type="hidden" name="referer_title"
-                                                                value="Contact us new page" />
-
-                                                            <input type="hidden" name="queried_id" value="7478" />
-
-                                                            <div
-                                                                class="elementor-form-fields-wrapper elementor-labels-above">
-                                                                <div
-                                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
-                                                                    <label for="form-field-email"
-                                                                        class="elementor-field-label">
-                                                                        Subscribe to news updates </label>
-                                                                    <input size="1" type="email"
-                                                                        name="form_fields[email]" id="form-field-email"
-                                                                        class="elementor-field elementor-size-md  elementor-field-textual"
-                                                                        placeholder="Your email address"
-                                                                        required="required" aria-required="true">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
-                                                                    <button type="submit"
-                                                                        class="elementor-button elementor-size-sm">
-                                                                        <span>
-                                                                            <span class=" elementor-button-icon">
-                                                                            </span>
-                                                                            <span
-                                                                                class="elementor-button-text">SUBSCRIBE</span>
-                                                                        </span>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                                <section
-                                                    class="elementor-section elementor-inner-section elementor-element elementor-element-13e9ca2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                                    data-id="13e9ca2" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-default">
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c9b61e2"
-                                                            data-id="c9b61e2" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-b84e421 elementor-widget elementor-widget-heading"
-                                                                    data-id="b84e421" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            How it Works</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b1ed54d"
-                                                            data-id="b1ed54d" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-7b6d864 elementor-widget elementor-widget-heading"
-                                                                    data-id="7b6d864" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/privacy-policy/">Privacy
-                                                                                Policy</a></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c000038"
-                                                            data-id="c000038" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading"
-                                                                    data-id="aaf88ad" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/terms-and-conditions/">Terms
-                                                                                & Conditions</a></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-bd39b49"
-                                                            data-id="bd39b49" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-b23aa07 elementor-widget elementor-widget-heading"
-                                                                    data-id="b23aa07" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/community-guidelines/">Community
-                                                                                Guidelines</a></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-2775f92"
-                                                            data-id="2775f92" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-269f902 elementor-widget elementor-widget-heading"
-                                                                    data-id="269f902" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/about-us/">About
-                                                                                Us</a></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-12e052a"
-                                                            data-id="12e052a" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-32f5614 elementor-widget elementor-widget-heading"
-                                                                    data-id="32f5614" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/contact-us/">Contact
-                                                                                Us</a></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-7c20640"
-                                                            data-id="7c20640" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-159e6db elementor-widget elementor-widget-heading"
-                                                                    data-id="159e6db" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/blogs/">FAQs</a>
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b37b831"
-                                                            data-id="b37b831" data-element_type="column">
-                                                            <div
-                                                                class="elementor-widget-wrap elementor-element-populated">
-                                                                <div class="elementor-element elementor-element-5db6379 elementor-widget elementor-widget-heading"
-                                                                    data-id="5db6379" data-element_type="widget"
-                                                                    data-widget_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <p
-                                                                            class="elementor-heading-title elementor-size-default">
-                                                                            <a
-                                                                                href="https://web.pransainvestment.ca/browse-mentor/">Browse
-                                                                                Mentors</a></p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                <div class="elementor-element elementor-element-6bd5898 elementor-widget__width-auto elementor-widget elementor-widget-copyright"
-                                                    data-id="6bd5898" data-element_type="widget"
-                                                    data-settings="{&quot;align&quot;:&quot;left&quot;}"
-                                                    data-widget_type="copyright.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="hfe-copyright-wrapper">
-                                                            <a href="https://wiseadvizor.com">
-                                                                <span>Copyright © 2024 wiseAdvizor | Powered by IVY
-                                                                    Investment LLC</span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-540d2d1 elementor-shape-circle elementor-grid-6 elementor-widget__width-auto elementor-grid-mobile-6 elementor-widget-mobile__width-initial elementor-widget elementor-widget-social-icons"
-                                                    data-id="540d2d1" data-element_type="widget"
-                                                    data-widget_type="social-icons.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                        /*! elementor - v3.21.0 - 20-05-2024 */
-                                                        .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
-                                                        .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
-                                                        .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
-                                                            line-height: 1;
-                                                            font-size: 0
-                                                        }
-
-                                                        .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-                                                            display: inline-grid
-                                                        }
-
-                                                        .elementor-widget-social-icons .elementor-grid {
-                                                            grid-column-gap: var(--grid-column-gap, 5px);
-                                                            grid-row-gap: var(--grid-row-gap, 5px);
-                                                            grid-template-columns: var(--grid-template-columns);
-                                                            justify-content: var(--justify-content, center);
-                                                            justify-items: var(--justify-content, center)
-                                                        }
-
-                                                        .elementor-icon.elementor-social-icon {
-                                                            font-size: var(--icon-size, 25px);
-                                                            line-height: var(--icon-size, 25px);
-                                                            width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
-                                                            height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
-                                                        }
-
-                                                        .elementor-social-icon {
-                                                            --e-social-icon-icon-color: #fff;
-                                                            display: inline-flex;
-                                                            background-color: #69727d;
-                                                            align-items: center;
-                                                            justify-content: center;
-                                                            text-align: center;
-                                                            cursor: pointer
-                                                        }
-
-                                                        .elementor-social-icon i {
-                                                            color: var(--e-social-icon-icon-color)
-                                                        }
-
-                                                        .elementor-social-icon svg {
-                                                            fill: var(--e-social-icon-icon-color)
-                                                        }
-
-                                                        .elementor-social-icon:last-child {
-                                                            margin: 0
-                                                        }
-
-                                                        .elementor-social-icon:hover {
-                                                            opacity: .9;
-                                                            color: #fff
-                                                        }
-
-                                                        .elementor-social-icon-android {
-                                                            background-color: #a4c639
-                                                        }
-
-                                                        .elementor-social-icon-apple {
-                                                            background-color: #999
-                                                        }
-
-                                                        .elementor-social-icon-behance {
-                                                            background-color: #1769ff
-                                                        }
-
-                                                        .elementor-social-icon-bitbucket {
-                                                            background-color: #205081
-                                                        }
-
-                                                        .elementor-social-icon-codepen {
-                                                            background-color: #000
-                                                        }
-
-                                                        .elementor-social-icon-delicious {
-                                                            background-color: #39f
-                                                        }
-
-                                                        .elementor-social-icon-deviantart {
-                                                            background-color: #05cc47
-                                                        }
-
-                                                        .elementor-social-icon-digg {
-                                                            background-color: #005be2
-                                                        }
-
-                                                        .elementor-social-icon-dribbble {
-                                                            background-color: #ea4c89
-                                                        }
-
-                                                        .elementor-social-icon-elementor {
-                                                            background-color: #d30c5c
-                                                        }
-
-                                                        .elementor-social-icon-envelope {
-                                                            background-color: #ea4335
-                                                        }
-
-                                                        .elementor-social-icon-facebook,
-                                                        .elementor-social-icon-facebook-f {
-                                                            background-color: #3b5998
-                                                        }
-
-                                                        .elementor-social-icon-flickr {
-                                                            background-color: #0063dc
-                                                        }
-
-                                                        .elementor-social-icon-foursquare {
-                                                            background-color: #2d5be3
-                                                        }
-
-                                                        .elementor-social-icon-free-code-camp,
-                                                        .elementor-social-icon-freecodecamp {
-                                                            background-color: #006400
-                                                        }
-
-                                                        .elementor-social-icon-github {
-                                                            background-color: #333
-                                                        }
-
-                                                        .elementor-social-icon-gitlab {
-                                                            background-color: #e24329
-                                                        }
-
-                                                        .elementor-social-icon-globe {
-                                                            background-color: #69727d
-                                                        }
-
-                                                        .elementor-social-icon-google-plus,
-                                                        .elementor-social-icon-google-plus-g {
-                                                            background-color: #dd4b39
-                                                        }
-
-                                                        .elementor-social-icon-houzz {
-                                                            background-color: #7ac142
-                                                        }
-
-                                                        .elementor-social-icon-instagram {
-                                                            background-color: #262626
-                                                        }
-
-                                                        .elementor-social-icon-jsfiddle {
-                                                            background-color: #487aa2
-                                                        }
-
-                                                        .elementor-social-icon-link {
-                                                            background-color: #818a91
-                                                        }
-
-                                                        .elementor-social-icon-linkedin,
-                                                        .elementor-social-icon-linkedin-in {
-                                                            background-color: #0077b5
-                                                        }
-
-                                                        .elementor-social-icon-medium {
-                                                            background-color: #00ab6b
-                                                        }
-
-                                                        .elementor-social-icon-meetup {
-                                                            background-color: #ec1c40
-                                                        }
-
-                                                        .elementor-social-icon-mixcloud {
-                                                            background-color: #273a4b
-                                                        }
-
-                                                        .elementor-social-icon-odnoklassniki {
-                                                            background-color: #f4731c
-                                                        }
-
-                                                        .elementor-social-icon-pinterest {
-                                                            background-color: #bd081c
-                                                        }
-
-                                                        .elementor-social-icon-product-hunt {
-                                                            background-color: #da552f
-                                                        }
-
-                                                        .elementor-social-icon-reddit {
-                                                            background-color: #ff4500
-                                                        }
-
-                                                        .elementor-social-icon-rss {
-                                                            background-color: #f26522
-                                                        }
-
-                                                        .elementor-social-icon-shopping-cart {
-                                                            background-color: #4caf50
-                                                        }
-
-                                                        .elementor-social-icon-skype {
-                                                            background-color: #00aff0
-                                                        }
-
-                                                        .elementor-social-icon-slideshare {
-                                                            background-color: #0077b5
-                                                        }
-
-                                                        .elementor-social-icon-snapchat {
-                                                            background-color: #fffc00
-                                                        }
-
-                                                        .elementor-social-icon-soundcloud {
-                                                            background-color: #f80
-                                                        }
-
-                                                        .elementor-social-icon-spotify {
-                                                            background-color: #2ebd59
-                                                        }
-
-                                                        .elementor-social-icon-stack-overflow {
-                                                            background-color: #fe7a15
-                                                        }
-
-                                                        .elementor-social-icon-steam {
-                                                            background-color: #00adee
-                                                        }
-
-                                                        .elementor-social-icon-stumbleupon {
-                                                            background-color: #eb4924
-                                                        }
-
-                                                        .elementor-social-icon-telegram {
-                                                            background-color: #2ca5e0
-                                                        }
-
-                                                        .elementor-social-icon-threads {
-                                                            background-color: #000
-                                                        }
-
-                                                        .elementor-social-icon-thumb-tack {
-                                                            background-color: #1aa1d8
-                                                        }
-
-                                                        .elementor-social-icon-tripadvisor {
-                                                            background-color: #589442
-                                                        }
-
-                                                        .elementor-social-icon-tumblr {
-                                                            background-color: #35465c
-                                                        }
-
-                                                        .elementor-social-icon-twitch {
-                                                            background-color: #6441a5
-                                                        }
-
-                                                        .elementor-social-icon-twitter {
-                                                            background-color: #1da1f2
-                                                        }
-
-                                                        .elementor-social-icon-viber {
-                                                            background-color: #665cac
-                                                        }
-
-                                                        .elementor-social-icon-vimeo {
-                                                            background-color: #1ab7ea
-                                                        }
-
-                                                        .elementor-social-icon-vk {
-                                                            background-color: #45668e
-                                                        }
-
-                                                        .elementor-social-icon-weibo {
-                                                            background-color: #dd2430
-                                                        }
-
-                                                        .elementor-social-icon-weixin {
-                                                            background-color: #31a918
-                                                        }
-
-                                                        .elementor-social-icon-whatsapp {
-                                                            background-color: #25d366
-                                                        }
-
-                                                        .elementor-social-icon-wordpress {
-                                                            background-color: #21759b
-                                                        }
-
-                                                        .elementor-social-icon-x-twitter {
-                                                            background-color: #000
-                                                        }
-
-                                                        .elementor-social-icon-xing {
-                                                            background-color: #026466
-                                                        }
-
-                                                        .elementor-social-icon-yelp {
-                                                            background-color: #af0606
-                                                        }
-
-                                                        .elementor-social-icon-youtube {
-                                                            background-color: #cd201f
-                                                        }
-
-                                                        .elementor-social-icon-500px {
-                                                            background-color: #0099e5
-                                                        }
-
-                                                        .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                                            border-radius: 10%
-                                                        }
-
-                                                        .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                                            border-radius: 50%
-                                                        }
-                                                        </style>
-                                                        <div class="elementor-social-icons-wrapper elementor-grid">
-                                                            <span class="elementor-grid-item">
-                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a96e0b3"
-                                                                    href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
-                                                                    target="_blank">
-                                                                    <span class="elementor-screen-only">Facebook</span>
-                                                                    <i class="fab fa-facebook"></i> </a>
-                                                            </span>
-                                                            <span class="elementor-grid-item">
-                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-50885d5"
-                                                                    href="https://twitter.com/WiseAdvizor"
-                                                                    target="_blank">
-                                                                    <span class="elementor-screen-only">Twitter</span>
-                                                                    <i class="fab fa-twitter"></i> </a>
-                                                            </span>
-                                                            <span class="elementor-grid-item">
-                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-39b2a58"
-                                                                    href="https://www.youtube.com/@wiseAdvizor"
-                                                                    target="_blank">
-                                                                    <span class="elementor-screen-only">Youtube</span>
-                                                                    <i class="fab fa-youtube"></i> </a>
-                                                            </span>
-                                                            <span class="elementor-grid-item">
-                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-9d2b1b1"
-                                                                    href="https://www.linkedin.com/company/wiseadvizor/"
-                                                                    target="_blank">
-                                                                    <span class="elementor-screen-only">Linkedin</span>
-                                                                    <i class="fab fa-linkedin"></i> </a>
-                                                            </span>
-                                                            <span class="elementor-grid-item">
-                                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
-                                                                    target="_blank">
-                                                                    <span class="elementor-screen-only">Instagram</span>
-                                                                    <i class="fab fa-instagram"></i> </a>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </footer>
+    <div data-elementor-type="wp-page" data-elementor-id="7478" class="elementor elementor-7478">
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-7d8bc02 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="7d8bc02" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d5c6218"
+                    data-id="d5c6218" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-5d88f9d elementor-widget elementor-widget-heading"
+                            data-id="5d88f9d" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
+                                </style>
+                                <h4 class="elementor-heading-title elementor-size-default">How can we
+                                    help?</h4>
                             </div>
                         </div>
-                    </footer>
-            </div><!-- #page -->
-            <link rel='stylesheet' id='hfe-widgets-style-css'
-                href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
-                media='all' />
-            <link rel='stylesheet' id='wpr-button-animations-css-css'
-                href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.975'
-                media='all' />
-            <link rel='stylesheet' id='e-animations-css'
-                href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.21.6'
-                media='all' />
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
-                id="wp-polyfill-inert-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
-                id="regenerator-runtime-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-                id="wp-polyfill-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
-                id="wp-dom-ready-js"></script>
-            <script id="starter-templates-zip-preview-js-extra">
-            var starter_templates_zip_preview = {
-                "AstColorPaletteVarPrefix": "--ast-global-",
-                "AstEleColorPaletteVarPrefix": "--ast-global-"
-            };
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=06758d4d807d9d22c6ea"
-                id="starter-templates-zip-preview-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
-                id="jquery-ui-core-js"></script>
-            <script id="qi-addons-for-elementor-script-js-extra">
-            var qodefQiAddonsGlobal = {
-                "vars": {
-                    "adminBarHeight": 32,
-                    "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
-                    "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
-                    "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
-                }
-            };
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.7.1"
-                id="qi-addons-for-elementor-script-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
-                id="wpr-particles-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-                id="wpr-jarallax-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
-                id="wpr-parallax-hover-js"></script>
-            <script
-                src="//web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.5.3"
-                id="plus-purge-js-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js">
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0"
-                id="react-dom-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
-                id="wp-hooks-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef"
-                id="wp-i18n-js"></script>
-            <script id="wp-i18n-js-after">
-            wp.i18n.setLocaleData({
-                'text direction\u0004ltr': ['ltr']
+                        <div class="elementor-element elementor-element-465b197 elementor-widget elementor-widget-heading"
+                            data-id="465b197" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h4 class="elementor-heading-title elementor-size-default">We're here to
+                                    assist and address any questions you may have.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-6efce1a50 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="6efce1a50" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2b3679d8 animated-slow elementor-invisible"
+                    data-id="2b3679d8" data-element_type="column"
+                    data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-element elementor-element-e293c91 elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            data-id="e293c91" data-element_type="widget" data-widget_type="icon-box.default">
+                            <div class="elementor-widget-container">
+                                <link rel="stylesheet"
+                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                                <div class="elementor-icon-box-wrapper">
+
+                                    <div class="elementor-icon-box-icon">
+                                        <span class="elementor-icon elementor-animation-">
+                                            <i aria-hidden="true" class="fas fa-envelope"></i> </span>
+                                    </div>
+
+                                    <div class="elementor-icon-box-content">
+
+                                        <h4 class="elementor-icon-box-title">
+                                            <span>
+                                                Contact support </span>
+                                        </h4>
+
+                                        <p class="elementor-icon-box-description">
+                                            Have questions or need assistance? We're here to help you
+                                            succeed. Drop us a line below and we'll get back to you
+                                            soon. </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-170c1ad wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                            data-id="170c1ad" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+
+
+
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+
+                                        <span class="wpr-button-content">
+                                            <span class="wpr-button-text">Contact</span>
+
+                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
+                                        </span>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13db209 animated-slow elementor-invisible"
+                    data-id="13db209" data-element_type="column"
+                    data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-element elementor-element-eed10b6 elementor-position-left elementor-widget__width-initial elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            data-id="eed10b6" data-element_type="widget" data-widget_type="icon-box.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-icon-box-wrapper">
+
+                                    <div class="elementor-icon-box-icon">
+                                        <span class="elementor-icon elementor-animation-">
+                                            <i aria-hidden="true" class="fas fa-envelope"></i> </span>
+                                    </div>
+
+                                    <div class="elementor-icon-box-content">
+
+                                        <h4 class="elementor-icon-box-title">
+                                            <span>
+                                                Want to be a mentor </span>
+                                        </h4>
+
+                                        <p class="elementor-icon-box-description">
+                                            Want to be a mentor or want to know more about wiseAdvizor,
+                                            fill the below form and we'll be get back to you soon. </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-c4e0a17 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                            data-id="c4e0a17" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+
+
+
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+
+                                        <span class="wpr-button-content">
+                                            <span class="wpr-button-text">Be a Mentor</span>
+
+                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
+                                        </span>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-0524b99 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="0524b99" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63129fa"
+                    data-id="63129fa" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-9256819 elementor-position-left elementor-widget__width-initial elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            data-id="9256819" data-element_type="widget" data-widget_type="icon-box.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-icon-box-wrapper">
+
+                                    <div class="elementor-icon-box-icon">
+                                        <span class="elementor-icon elementor-animation-">
+                                            <i aria-hidden="true" class="far fa-handshake"></i> </span>
+                                    </div>
+
+                                    <div class="elementor-icon-box-content">
+
+                                        <h3 class="elementor-icon-box-title">
+                                            <span>
+                                                Partner with us </span>
+                                        </h3>
+
+                                        <p class="elementor-icon-box-description">
+                                            Want to partner with us, write us on below email and we'll
+                                            get back to you soon. </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-476ef86 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                            data-id="476ef86" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+
+
+
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+
+                                        <span class="wpr-button-content">
+                                            <span class="wpr-button-text">Send proposal</span>
+
+                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
+                                        </span>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-607d996 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="607d996" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f7f55aa"
+                    data-id="f7f55aa" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-748405b elementor-widget elementor-widget-heading"
+                            data-id="748405b" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h4 class="elementor-heading-title elementor-size-default">Start your
+                                    mentorship experience today and achieve your business goals with
+                                    confidence.</h4>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-38b7817 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                            data-id="38b7817" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+
+
+
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+
+                                        <span class="wpr-button-content">
+                                            <span class="wpr-button-text">Get started</span>
+
+                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
+                                        </span>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-188016720 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="188016720" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66733ea"
+                    data-id="66733ea" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-a3c6108 elementor-widget elementor-widget-heading"
+                            data-id="a3c6108" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Lets' get
+                                    social</h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-91afd59 elementor-grid-0 elementor-widget elementor-widget-wpr-sharing-buttons"
+                            data-id="91afd59" data-element_type="widget" data-widget_type="wpr-sharing-buttons.default">
+                            <div class="elementor-widget-container">
+                                <div
+                                    class="wpr-sharing-buttons elementor-grid wpr-sharing-official wpr-sharing-label-off wpr-sharing-icon-tr wpr-sharing-label-tr">
+                                    <div class="elementor-grid-item"><a
+                                            href="https://www.facebook.com/sharer.php?u=https://web.wiseadvizor.com/elementor-7478/"
+                                            class="wpr-sharing-icon wpr-sharing-facebook-f" title="" target="_blank"><i
+                                                class="fab fa-facebook-f"></i></a></div>
+                                    <div class="elementor-grid-item"><a
+                                            href="https://twitter.com/intent/tweet?url=https://web.wiseadvizor.com/elementor-7478/"
+                                            class="wpr-sharing-icon wpr-sharing-twitter" title="" target="_blank"><i
+                                                class="fab fa-twitter"></i></a></div>
+                                    <div class="elementor-grid-item"><a
+                                            href="mailto:?subject=Contact us new page&body=https://web.wiseadvizor.com/elementor-7478/"
+                                            class="wpr-sharing-icon wpr-sharing-envelope" title="" target="_blank"><i
+                                                class="fas fa-envelope"></i></a></div>
+                                    <div class="elementor-grid-item"><a
+                                            href="https://www.linkedin.com/shareArticle?mini=true&url=https://web.wiseadvizor.com/elementor-7478/&title=Contact us new page&summary=How can we help? We&#8217;re here to assist and address any questions you may have. Contact support Have questions or need assistance? We&#8217;re here to help you succeed. Drop us a line below and we&#8217;ll get back to you soon. Contact Want to be a mentor Want to be a mentor or want to know&hellip; &lt;a class=&quot;more-link&quot; href=&quot;https://web.wiseadvizor.com/elementor-7478/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;Contact us new page&lt;/span&gt;&lt;/a&gt;&source=https://web.wiseadvizor.com/elementor-7478/"
+                                            class="wpr-sharing-icon wpr-sharing-linkedin-in" title="" target="_blank"><i
+                                                class="fab fa-linkedin-in"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+        <div class='footer-width-fixer'>
+            <div data-elementor-type="wp-post" data-elementor-id="32" class="elementor elementor-32">
+                <footer
+                    class="elementor-section elementor-top-section elementor-element elementor-element-60f0ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                    data-id="60f0ea5" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a49692e"
+                            data-id="a49692e" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-dd4d324 elementor-button-align-stretch elementor-widget elementor-widget-form"
+                                    data-id="dd4d324" data-element_type="widget"
+                                    data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+                                    data-widget_type="form.default">
+                                    <div class="elementor-widget-container">
+                                        <style>
+                                        /*! elementor-pro - v3.8.2 - 21-11-2022 */
+                                        .elementor-button.elementor-hidden,
+                                        .elementor-hidden {
+                                            display: none
+                                        }
+
+                                        .e-form__step {
+                                            width: 100%
+                                        }
+
+                                        .e-form__step:not(.elementor-hidden) {
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -ms-flex-wrap: wrap;
+                                            flex-wrap: wrap
+                                        }
+
+                                        .e-form__buttons {
+                                            -ms-flex-wrap: wrap;
+                                            flex-wrap: wrap
+                                        }
+
+                                        .e-form__buttons,
+                                        .e-form__buttons__wrapper {
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex
+                                        }
+
+                                        .e-form__indicators {
+                                            -webkit-box-pack: justify;
+                                            -ms-flex-pack: justify;
+                                            justify-content: space-between;
+                                            -ms-flex-wrap: nowrap;
+                                            flex-wrap: nowrap;
+                                            font-size: 13px;
+                                            margin-bottom: var(--e-form-steps-indicators-spacing)
+                                        }
+
+                                        .e-form__indicators,
+                                        .e-form__indicators__indicator {
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -webkit-box-align: center;
+                                            -ms-flex-align: center;
+                                            align-items: center
+                                        }
+
+                                        .e-form__indicators__indicator {
+                                            -webkit-box-orient: vertical;
+                                            -webkit-box-direction: normal;
+                                            -ms-flex-direction: column;
+                                            flex-direction: column;
+                                            -webkit-box-pack: center;
+                                            -ms-flex-pack: center;
+                                            justify-content: center;
+                                            -ms-flex-preferred-size: 0;
+                                            flex-basis: 0;
+                                            padding: 0 var(--e-form-steps-divider-gap)
+                                        }
+
+                                        .e-form__indicators__indicator__progress {
+                                            width: 100%;
+                                            position: relative;
+                                            background-color: var(--e-form-steps-indicator-progress-background-color);
+                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
+                                            overflow: hidden
+                                        }
+
+                                        .e-form__indicators__indicator__progress__meter {
+                                            width: var(--e-form-steps-indicator-progress-meter-width, 0);
+                                            height: var(--e-form-steps-indicator-progress-height);
+                                            line-height: var(--e-form-steps-indicator-progress-height);
+                                            padding-right: 15px;
+                                            border-radius: var(--e-form-steps-indicator-progress-border-radius);
+                                            background-color: var(--e-form-steps-indicator-progress-color);
+                                            color: var(--e-form-steps-indicator-progress-meter-color);
+                                            text-align: right;
+                                            -webkit-transition: width .1s linear;
+                                            -o-transition: width .1s linear;
+                                            transition: width .1s linear
+                                        }
+
+                                        .e-form__indicators__indicator:first-child {
+                                            padding-left: 0
+                                        }
+
+                                        .e-form__indicators__indicator:last-child {
+                                            padding-right: 0
+                                        }
+
+                                        .e-form__indicators__indicator--state-inactive {
+                                            color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
+                                        }
+
+                                        .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                            background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
+                                        }
+
+                                        .e-form__indicators__indicator--state-inactive object,
+                                        .e-form__indicators__indicator--state-inactive svg {
+                                            fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
+                                        }
+
+                                        .e-form__indicators__indicator--state-active {
+                                            color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
+                                            border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
+                                        }
+
+                                        .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                            background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
+                                        }
+
+                                        .e-form__indicators__indicator--state-active object,
+                                        .e-form__indicators__indicator--state-active svg {
+                                            fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
+                                        }
+
+                                        .e-form__indicators__indicator--state-completed {
+                                            color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
+                                        }
+
+                                        .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
+                                            background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
+                                        }
+
+                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
+                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
+                                        }
+
+                                        .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
+                                            color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
+                                            background-color: initial
+                                        }
+
+                                        .e-form__indicators__indicator--state-completed object,
+                                        .e-form__indicators__indicator--state-completed svg {
+                                            fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
+                                        }
+
+                                        .e-form__indicators__indicator__icon {
+                                            width: var(--e-form-steps-indicator-padding, 30px);
+                                            height: var(--e-form-steps-indicator-padding, 30px);
+                                            font-size: var(--e-form-steps-indicator-icon-size);
+                                            border-width: 1px;
+                                            border-style: solid;
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -webkit-box-pack: center;
+                                            -ms-flex-pack: center;
+                                            justify-content: center;
+                                            -webkit-box-align: center;
+                                            -ms-flex-align: center;
+                                            align-items: center;
+                                            overflow: hidden;
+                                            margin-bottom: 10px
+                                        }
+
+                                        .e-form__indicators__indicator__icon img,
+                                        .e-form__indicators__indicator__icon object,
+                                        .e-form__indicators__indicator__icon svg {
+                                            width: var(--e-form-steps-indicator-icon-size);
+                                            height: auto
+                                        }
+
+                                        .e-form__indicators__indicator__icon .e-font-icon-svg {
+                                            height: 1em
+                                        }
+
+                                        .e-form__indicators__indicator__number {
+                                            width: var(--e-form-steps-indicator-padding, 30px);
+                                            height: var(--e-form-steps-indicator-padding, 30px);
+                                            border-width: 1px;
+                                            border-style: solid;
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -webkit-box-pack: center;
+                                            -ms-flex-pack: center;
+                                            justify-content: center;
+                                            -webkit-box-align: center;
+                                            -ms-flex-align: center;
+                                            align-items: center;
+                                            margin-bottom: 10px
+                                        }
+
+                                        .e-form__indicators__indicator--shape-circle {
+                                            border-radius: 50%
+                                        }
+
+                                        .e-form__indicators__indicator--shape-square {
+                                            border-radius: 0
+                                        }
+
+                                        .e-form__indicators__indicator--shape-rounded {
+                                            border-radius: 5px
+                                        }
+
+                                        .e-form__indicators__indicator--shape-none {
+                                            border: 0
+                                        }
+
+                                        .e-form__indicators__indicator__label {
+                                            text-align: center
+                                        }
+
+                                        .e-form__indicators__indicator__separator {
+                                            width: 100%;
+                                            height: var(--e-form-steps-divider-width);
+                                            background-color: #c2cbd2
+                                        }
+
+                                        .e-form__indicators--type-icon,
+                                        .e-form__indicators--type-icon_text,
+                                        .e-form__indicators--type-number,
+                                        .e-form__indicators--type-number_text {
+                                            -webkit-box-align: start;
+                                            -ms-flex-align: start;
+                                            align-items: flex-start
+                                        }
+
+                                        .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
+                                        .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
+                                        .e-form__indicators--type-number .e-form__indicators__indicator__separator,
+                                        .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
+                                            margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
+                                        }
+
+                                        .elementor-field-type-hidden {
+                                            display: none
+                                        }
+
+                                        .elementor-field-type-html {
+                                            display: inline-block
+                                        }
+
+                                        .elementor-login .elementor-lost-password,
+                                        .elementor-login .elementor-remember-me {
+                                            font-size: .85em
+                                        }
+
+                                        .elementor-field-type-recaptcha_v3 .elementor-field-label {
+                                            display: none
+                                        }
+
+                                        .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
+                                            z-index: 1
+                                        }
+
+                                        .elementor-button .elementor-form-spinner {
+                                            -webkit-box-ordinal-group: 4;
+                                            -ms-flex-order: 3;
+                                            order: 3
+                                        }
+
+                                        .elementor-form .elementor-button>span {
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            -webkit-box-pack: center;
+                                            -ms-flex-pack: center;
+                                            justify-content: center;
+                                            -webkit-box-align: center;
+                                            -ms-flex-align: center;
+                                            align-items: center
+                                        }
+
+                                        .elementor-form .elementor-button .elementor-button-text {
+                                            white-space: normal;
+                                            -webkit-box-flex: 0;
+                                            -ms-flex-positive: 0;
+                                            flex-grow: 0
+                                        }
+
+                                        .elementor-form .elementor-button svg {
+                                            height: auto
+                                        }
+
+                                        .elementor-form .elementor-button .e-font-icon-svg {
+                                            height: 1em
+                                        }
+
+                                        .elementor-select-wrapper .select-caret-down-wrapper {
+                                            position: absolute;
+                                            top: 50%;
+                                            -webkit-transform: translateY(-50%);
+                                            -ms-transform: translateY(-50%);
+                                            transform: translateY(-50%);
+                                            inset-inline-end: 10px;
+                                            pointer-events: none;
+                                            font-size: 11px
+                                        }
+
+                                        .elementor-select-wrapper .select-caret-down-wrapper svg {
+                                            display: unset;
+                                            width: 1em;
+                                            aspect-ratio: unset;
+                                            fill: currentColor
+                                        }
+
+                                        .elementor-select-wrapper .select-caret-down-wrapper i {
+                                            font-size: 19px;
+                                            line-height: 2
+                                        }
+
+                                        .elementor-select-wrapper.remove-before:before {
+                                            content: "" !important
+                                        }
+                                        </style>
+                                        <form class="elementor-form" method="post" name="Subscribe Form">
+                                            <input type="hidden" name="post_id" value="32" />
+                                            <input type="hidden" name="form_id" value="dd4d324" />
+                                            <input type="hidden" name="referer_title" value="Contact us new page" />
+
+                                            <input type="hidden" name="queried_id" value="7478" />
+
+                                            <div class="elementor-form-fields-wrapper elementor-labels-above">
+                                                <div
+                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-20 elementor-field-required elementor-mark-required">
+                                                    <label for="form-field-email" class="elementor-field-label">
+                                                        Subscribe to news updates </label>
+                                                    <input size="1" type="email" name="form_fields[email]"
+                                                        id="form-field-email"
+                                                        class="elementor-field elementor-size-md  elementor-field-textual"
+                                                        placeholder="Your email address" required="required"
+                                                        aria-required="true">
+                                                </div>
+                                                <div
+                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons">
+                                                    <button type="submit" class="elementor-button elementor-size-sm">
+                                                        <span>
+                                                            <span class=" elementor-button-icon">
+                                                            </span>
+                                                            <span class="elementor-button-text">SUBSCRIBE</span>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <section
+                                    class="elementor-section elementor-inner-section elementor-element elementor-element-13e9ca2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                                    data-id="13e9ca2" data-element_type="section">
+                                    <div class="elementor-container elementor-column-gap-default">
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c9b61e2"
+                                            data-id="c9b61e2" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-b84e421 elementor-widget elementor-widget-heading"
+                                                    data-id="b84e421" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            How it Works</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b1ed54d"
+                                            data-id="b1ed54d" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-7b6d864 elementor-widget elementor-widget-heading"
+                                                    data-id="7b6d864" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://web.pransainvestment.ca/privacy-policy/">Privacy
+                                                                Policy</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-c000038"
+                                            data-id="c000038" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-aaf88ad elementor-widget elementor-widget-heading"
+                                                    data-id="aaf88ad" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a
+                                                                href="https://web.pransainvestment.ca/terms-and-conditions/">Terms
+                                                                & Conditions</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-bd39b49"
+                                            data-id="bd39b49" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-b23aa07 elementor-widget elementor-widget-heading"
+                                                    data-id="b23aa07" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a
+                                                                href="https://web.pransainvestment.ca/community-guidelines/">Community
+                                                                Guidelines</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-2775f92"
+                                            data-id="2775f92" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-269f902 elementor-widget elementor-widget-heading"
+                                                    data-id="269f902" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://web.pransainvestment.ca/about-us/">About
+                                                                Us</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-12e052a"
+                                            data-id="12e052a" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-32f5614 elementor-widget elementor-widget-heading"
+                                                    data-id="32f5614" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://web.pransainvestment.ca/contact-us/">Contact
+                                                                Us</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-7c20640"
+                                            data-id="7c20640" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-159e6db elementor-widget elementor-widget-heading"
+                                                    data-id="159e6db" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://web.pransainvestment.ca/blogs/">FAQs</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-column elementor-col-12 elementor-inner-column elementor-element elementor-element-b37b831"
+                                            data-id="b37b831" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-5db6379 elementor-widget elementor-widget-heading"
+                                                    data-id="5db6379" data-element_type="widget"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <p class="elementor-heading-title elementor-size-default">
+                                                            <a href="https://web.pransainvestment.ca/browse-mentor/">Browse
+                                                                Mentors</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="elementor-element elementor-element-6bd5898 elementor-widget__width-auto elementor-widget elementor-widget-copyright"
+                                    data-id="6bd5898" data-element_type="widget"
+                                    data-settings="{&quot;align&quot;:&quot;left&quot;}"
+                                    data-widget_type="copyright.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="hfe-copyright-wrapper">
+                                            <a href="https://wiseadvizor.com">
+                                                <span>Copyright © 2024 wiseAdvizor | Powered by IVY
+                                                    Investment LLC</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-540d2d1 elementor-shape-circle elementor-grid-6 elementor-widget__width-auto elementor-grid-mobile-6 elementor-widget-mobile__width-initial elementor-widget elementor-widget-social-icons"
+                                    data-id="540d2d1" data-element_type="widget"
+                                    data-widget_type="social-icons.default">
+                                    <div class="elementor-widget-container">
+                                        <style>
+                                        /*! elementor - v3.21.0 - 20-05-2024 */
+                                        .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+                                        .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+                                        .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+                                            line-height: 1;
+                                            font-size: 0
+                                        }
+
+                                        .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+                                            display: inline-grid
+                                        }
+
+                                        .elementor-widget-social-icons .elementor-grid {
+                                            grid-column-gap: var(--grid-column-gap, 5px);
+                                            grid-row-gap: var(--grid-row-gap, 5px);
+                                            grid-template-columns: var(--grid-template-columns);
+                                            justify-content: var(--justify-content, center);
+                                            justify-items: var(--justify-content, center)
+                                        }
+
+                                        .elementor-icon.elementor-social-icon {
+                                            font-size: var(--icon-size, 25px);
+                                            line-height: var(--icon-size, 25px);
+                                            width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
+                                            height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+                                        }
+
+                                        .elementor-social-icon {
+                                            --e-social-icon-icon-color: #fff;
+                                            display: inline-flex;
+                                            background-color: #69727d;
+                                            align-items: center;
+                                            justify-content: center;
+                                            text-align: center;
+                                            cursor: pointer
+                                        }
+
+                                        .elementor-social-icon i {
+                                            color: var(--e-social-icon-icon-color)
+                                        }
+
+                                        .elementor-social-icon svg {
+                                            fill: var(--e-social-icon-icon-color)
+                                        }
+
+                                        .elementor-social-icon:last-child {
+                                            margin: 0
+                                        }
+
+                                        .elementor-social-icon:hover {
+                                            opacity: .9;
+                                            color: #fff
+                                        }
+
+                                        .elementor-social-icon-android {
+                                            background-color: #a4c639
+                                        }
+
+                                        .elementor-social-icon-apple {
+                                            background-color: #999
+                                        }
+
+                                        .elementor-social-icon-behance {
+                                            background-color: #1769ff
+                                        }
+
+                                        .elementor-social-icon-bitbucket {
+                                            background-color: #205081
+                                        }
+
+                                        .elementor-social-icon-codepen {
+                                            background-color: #000
+                                        }
+
+                                        .elementor-social-icon-delicious {
+                                            background-color: #39f
+                                        }
+
+                                        .elementor-social-icon-deviantart {
+                                            background-color: #05cc47
+                                        }
+
+                                        .elementor-social-icon-digg {
+                                            background-color: #005be2
+                                        }
+
+                                        .elementor-social-icon-dribbble {
+                                            background-color: #ea4c89
+                                        }
+
+                                        .elementor-social-icon-elementor {
+                                            background-color: #d30c5c
+                                        }
+
+                                        .elementor-social-icon-envelope {
+                                            background-color: #ea4335
+                                        }
+
+                                        .elementor-social-icon-facebook,
+                                        .elementor-social-icon-facebook-f {
+                                            background-color: #3b5998
+                                        }
+
+                                        .elementor-social-icon-flickr {
+                                            background-color: #0063dc
+                                        }
+
+                                        .elementor-social-icon-foursquare {
+                                            background-color: #2d5be3
+                                        }
+
+                                        .elementor-social-icon-free-code-camp,
+                                        .elementor-social-icon-freecodecamp {
+                                            background-color: #006400
+                                        }
+
+                                        .elementor-social-icon-github {
+                                            background-color: #333
+                                        }
+
+                                        .elementor-social-icon-gitlab {
+                                            background-color: #e24329
+                                        }
+
+                                        .elementor-social-icon-globe {
+                                            background-color: #69727d
+                                        }
+
+                                        .elementor-social-icon-google-plus,
+                                        .elementor-social-icon-google-plus-g {
+                                            background-color: #dd4b39
+                                        }
+
+                                        .elementor-social-icon-houzz {
+                                            background-color: #7ac142
+                                        }
+
+                                        .elementor-social-icon-instagram {
+                                            background-color: #262626
+                                        }
+
+                                        .elementor-social-icon-jsfiddle {
+                                            background-color: #487aa2
+                                        }
+
+                                        .elementor-social-icon-link {
+                                            background-color: #818a91
+                                        }
+
+                                        .elementor-social-icon-linkedin,
+                                        .elementor-social-icon-linkedin-in {
+                                            background-color: #0077b5
+                                        }
+
+                                        .elementor-social-icon-medium {
+                                            background-color: #00ab6b
+                                        }
+
+                                        .elementor-social-icon-meetup {
+                                            background-color: #ec1c40
+                                        }
+
+                                        .elementor-social-icon-mixcloud {
+                                            background-color: #273a4b
+                                        }
+
+                                        .elementor-social-icon-odnoklassniki {
+                                            background-color: #f4731c
+                                        }
+
+                                        .elementor-social-icon-pinterest {
+                                            background-color: #bd081c
+                                        }
+
+                                        .elementor-social-icon-product-hunt {
+                                            background-color: #da552f
+                                        }
+
+                                        .elementor-social-icon-reddit {
+                                            background-color: #ff4500
+                                        }
+
+                                        .elementor-social-icon-rss {
+                                            background-color: #f26522
+                                        }
+
+                                        .elementor-social-icon-shopping-cart {
+                                            background-color: #4caf50
+                                        }
+
+                                        .elementor-social-icon-skype {
+                                            background-color: #00aff0
+                                        }
+
+                                        .elementor-social-icon-slideshare {
+                                            background-color: #0077b5
+                                        }
+
+                                        .elementor-social-icon-snapchat {
+                                            background-color: #fffc00
+                                        }
+
+                                        .elementor-social-icon-soundcloud {
+                                            background-color: #f80
+                                        }
+
+                                        .elementor-social-icon-spotify {
+                                            background-color: #2ebd59
+                                        }
+
+                                        .elementor-social-icon-stack-overflow {
+                                            background-color: #fe7a15
+                                        }
+
+                                        .elementor-social-icon-steam {
+                                            background-color: #00adee
+                                        }
+
+                                        .elementor-social-icon-stumbleupon {
+                                            background-color: #eb4924
+                                        }
+
+                                        .elementor-social-icon-telegram {
+                                            background-color: #2ca5e0
+                                        }
+
+                                        .elementor-social-icon-threads {
+                                            background-color: #000
+                                        }
+
+                                        .elementor-social-icon-thumb-tack {
+                                            background-color: #1aa1d8
+                                        }
+
+                                        .elementor-social-icon-tripadvisor {
+                                            background-color: #589442
+                                        }
+
+                                        .elementor-social-icon-tumblr {
+                                            background-color: #35465c
+                                        }
+
+                                        .elementor-social-icon-twitch {
+                                            background-color: #6441a5
+                                        }
+
+                                        .elementor-social-icon-twitter {
+                                            background-color: #1da1f2
+                                        }
+
+                                        .elementor-social-icon-viber {
+                                            background-color: #665cac
+                                        }
+
+                                        .elementor-social-icon-vimeo {
+                                            background-color: #1ab7ea
+                                        }
+
+                                        .elementor-social-icon-vk {
+                                            background-color: #45668e
+                                        }
+
+                                        .elementor-social-icon-weibo {
+                                            background-color: #dd2430
+                                        }
+
+                                        .elementor-social-icon-weixin {
+                                            background-color: #31a918
+                                        }
+
+                                        .elementor-social-icon-whatsapp {
+                                            background-color: #25d366
+                                        }
+
+                                        .elementor-social-icon-wordpress {
+                                            background-color: #21759b
+                                        }
+
+                                        .elementor-social-icon-x-twitter {
+                                            background-color: #000
+                                        }
+
+                                        .elementor-social-icon-xing {
+                                            background-color: #026466
+                                        }
+
+                                        .elementor-social-icon-yelp {
+                                            background-color: #af0606
+                                        }
+
+                                        .elementor-social-icon-youtube {
+                                            background-color: #cd201f
+                                        }
+
+                                        .elementor-social-icon-500px {
+                                            background-color: #0099e5
+                                        }
+
+                                        .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+                                            border-radius: 10%
+                                        }
+
+                                        .elementor-shape-circle .elementor-icon.elementor-social-icon {
+                                            border-radius: 50%
+                                        }
+                                        </style>
+                                        <div class="elementor-social-icons-wrapper elementor-grid">
+                                            <span class="elementor-grid-item">
+                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a96e0b3"
+                                                    href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
+                                                    target="_blank">
+                                                    <span class="elementor-screen-only">Facebook</span>
+                                                    <i class="fab fa-facebook"></i> </a>
+                                            </span>
+                                            <span class="elementor-grid-item">
+                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-50885d5"
+                                                    href="https://twitter.com/WiseAdvizor" target="_blank">
+                                                    <span class="elementor-screen-only">Twitter</span>
+                                                    <i class="fab fa-twitter"></i> </a>
+                                            </span>
+                                            <span class="elementor-grid-item">
+                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-39b2a58"
+                                                    href="https://www.youtube.com/@wiseAdvizor" target="_blank">
+                                                    <span class="elementor-screen-only">Youtube</span>
+                                                    <i class="fab fa-youtube"></i> </a>
+                                            </span>
+                                            <span class="elementor-grid-item">
+                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-9d2b1b1"
+                                                    href="https://www.linkedin.com/company/wiseadvizor/"
+                                                    target="_blank">
+                                                    <span class="elementor-screen-only">Linkedin</span>
+                                                    <i class="fab fa-linkedin"></i> </a>
+                                            </span>
+                                            <span class="elementor-grid-item">
+                                                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-29dcd07"
+                                                    target="_blank">
+                                                    <span class="elementor-screen-only">Instagram</span>
+                                                    <i class="fab fa-instagram"></i> </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </footer>
+    </div><!-- #page -->
+    <link rel='stylesheet' id='hfe-widgets-style-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+        media='all' />
+    <link rel='stylesheet' id='wpr-button-animations-css-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.975'
+        media='all' />
+    <link rel='stylesheet' id='e-animations-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.21.6'
+        media='all' />
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+        id="wp-polyfill-inert-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
+        id="regenerator-runtime-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+        id="wp-polyfill-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
+        id="wp-dom-ready-js"></script>
+    <script id="starter-templates-zip-preview-js-extra">
+    var starter_templates_zip_preview = {
+        "AstColorPaletteVarPrefix": "--ast-global-",
+        "AstEleColorPaletteVarPrefix": "--ast-global-"
+    };
+    </script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?ver=06758d4d807d9d22c6ea"
+        id="starter-templates-zip-preview-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js">
+    </script>
+    <script id="qi-addons-for-elementor-script-js-extra">
+    var qodefQiAddonsGlobal = {
+        "vars": {
+            "adminBarHeight": 32,
+            "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
+            "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
+            "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
+        }
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.7.1"
+        id="qi-addons-for-elementor-script-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
+        id="wpr-particles-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
+        id="wpr-jarallax-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
+        id="wpr-parallax-hover-js"></script>
+    <script
+        src="//web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.5.3"
+        id="plus-purge-js-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
+        id="wp-hooks-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
+    </script>
+    <script id="wp-i18n-js-after">
+    wp.i18n.setLocaleData({
+        'text direction\u0004ltr': ['ltr']
+    });
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/url.min.js?ver=b4979979018b684be209" id="wp-url-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
+        id="wp-api-fetch-js"></script>
+    <script id="wp-api-fetch-js-after">
+    wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://web.wiseadvizor.com/wp-json/"));
+    wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("8f0361e446");
+    wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
+    wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
+    wp.apiFetch.nonceEndpoint = "https://web.wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
+        id="wp-deprecated-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6"
+        id="wp-escape-html-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
+        id="wp-element-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
+        id="wp-is-shallow-equal-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
+        id="wp-keycodes-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219"
+        id="wp-priority-queue-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
+        id="wp-compose-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
+    </script>
+    <script id="moment-js-after">
+    moment.updateLocale('en_US', {
+        "months": ["January", "February", "March", "April", "May", "June", "July", "August",
+            "September", "October", "November", "December"
+        ],
+        "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov",
+            "Dec"
+        ],
+        "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        "week": {
+            "dow": 1
+        },
+        "longDateFormat": {
+            "LT": "g:i a",
+            "LTS": null,
+            "L": null,
+            "LL": "F j, Y",
+            "LLL": "F j, Y g:i a",
+            "LLLL": null
+        }
+    });
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
+    </script>
+    <script id="wp-date-js-after">
+    wp.date.setSettings({
+        "l10n": {
+            "locale": "en_US",
+            "months": ["January", "February", "March", "April", "May", "June", "July", "August",
+                "September", "October", "November", "December"
+            ],
+            "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov",
+                "Dec"
+            ],
+            "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+            "meridiem": {
+                "am": "am",
+                "pm": "pm",
+                "AM": "AM",
+                "PM": "PM"
+            },
+            "relative": {
+                "future": "%s from now",
+                "past": "%s ago",
+                "s": "a second",
+                "ss": "%d seconds",
+                "m": "a minute",
+                "mm": "%d minutes",
+                "h": "an hour",
+                "hh": "%d hours",
+                "d": "a day",
+                "dd": "%d days",
+                "M": "a month",
+                "MM": "%d months",
+                "y": "a year",
+                "yy": "%d years"
+            },
+            "startOfWeek": 1
+        },
+        "formats": {
+            "time": "g:i a",
+            "date": "F j, Y",
+            "datetime": "F j, Y g:i a",
+            "datetimeAbbreviated": "M j, Y g:i a"
+        },
+        "timezone": {
+            "offset": 0,
+            "string": "",
+            "abbr": ""
+        }
+    });
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
+        id="wp-html-entities-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
+        id="wp-primitives-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/private-apis.min.js?ver=11cb2ebaa70a9f1f0ab5"
+        id="wp-private-apis-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"
+        id="wp-redux-routine-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
+    </script>
+    <script id="wp-data-js-after">
+    (function() {
+        var userId = 1;
+        var storageKey = "WP_DATA_USER_" + userId;
+        wp.data
+            .use(wp.data.plugins.persistence, {
+                storageKey: storageKey
             });
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/url.min.js?ver=b4979979018b684be209"
-                id="wp-url-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
-                id="wp-api-fetch-js"></script>
-            <script id="wp-api-fetch-js-after">
-            wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://web.wiseadvizor.com/wp-json/"));
-            wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("8f0361e446");
-            wp.apiFetch.use(wp.apiFetch.nonceMiddleware);
-            wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
-            wp.apiFetch.nonceEndpoint = "https://web.wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608"
-                id="wp-a11y-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
-                id="wp-deprecated-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23"
-                id="wp-dom-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6"
-                id="wp-escape-html-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
-                id="wp-element-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
-                id="wp-is-shallow-equal-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
-                id="wp-keycodes-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219"
-                id="wp-priority-queue-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
-                id="wp-compose-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4"
-                id="moment-js"></script>
-            <script id="moment-js-after">
-            moment.updateLocale('en_US', {
-                "months": ["January", "February", "March", "April", "May", "June", "July", "August",
-                    "September", "October", "November", "December"
-                ],
-                "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov",
-                    "Dec"
-                ],
-                "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-                "week": {
-                    "dow": 1
+    })();
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
+        id="wp-rich-text-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/warning.min.js?ver=122829a085511691f14d"
+        id="wp-warning-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/components.min.js?ver=387d6480ace3103ccd8b"
+        id="wp-components-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
+        id="wp-plugins-js"></script>
+    <script id="zip-ai-sidebar-js-extra">
+    var zip_ai_react = {
+        "ajax_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+        "ajax_nonce": "1f89442bb8",
+        "admin_nonce": "45eee064e2",
+        "current_post_id": "7478",
+        "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fweb.wiseadvizor.com%2Fwp-admin%2F%3Fnonce%3Dedaf358ae9%26scs-authorize%3Dtrue",
+        "is_authorized": "",
+        "is_ai_assistant_enabled": "1",
+        "is_customize_preview": "",
+        "collab_product_details": null,
+        "zip_ai_assistant_options": ""
+    };
+    </script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.js?ver=195428426d8559d53d29"
+        id="zip-ai-sidebar-js"></script>
+    <script id="twenty-twenty-one-ie11-polyfills-js-after">
+    (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
+    document.write(
+        '<script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
+        'ipt>');
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
+        id="twenty-twenty-one-responsive-embeds-script-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
+        id="jquery-ui-draggable-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js">
+    </script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
+        id="backbone-marionette-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
+        id="backbone-radio-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.21.6"
+        id="elementor-common-modules-js"></script>
+    <script id="elementor-web-cli-js-before">
+    var elementorWebCliConfig = {
+        "isDebug": true,
+        "urls": {
+            "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "nonce": "8f0361e446",
+        "version": "3.21.6"
+    };
+    var elementorWebCliConfig = {
+        "isDebug": true,
+        "urls": {
+            "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "nonce": "8f0361e446",
+        "version": "3.21.6"
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
+        id="elementor-web-cli-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+        id="elementor-dialog-js"></script>
+    <script id="wp-api-request-js-extra">
+    var wpApiSettings = {
+        "root": "https:\/\/web.wiseadvizor.com\/wp-json\/",
+        "nonce": "8f0361e446",
+        "versionString": "wp\/v2\/"
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
+    </script>
+    <script id="elementor-dev-tools-js-before">
+    var elementorDevToolsConfig = {
+        "isDebug": true,
+        "urls": {
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "deprecation": {
+            "soft_notices": [],
+            "soft_version_count": 4,
+            "hard_version_count": 8,
+            "current_version": "3.21.6"
+        }
+    };
+    var elementorDevToolsConfig = {
+        "isDebug": true,
+        "urls": {
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "deprecation": {
+            "soft_notices": [],
+            "soft_version_count": 4,
+            "hard_version_count": 8,
+            "current_version": "3.21.6"
+        }
+    };
+    var elementorDevToolsConfig = {
+        "isDebug": true,
+        "urls": {
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "deprecation": {
+            "soft_notices": [],
+            "soft_version_count": 4,
+            "hard_version_count": 8,
+            "current_version": "3.21.6"
+        }
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.21.6"
+        id="elementor-dev-tools-js"></script>
+    <script id="elementor-common-js-before">
+    var elementorCommonConfig = {
+        "version": "3.21.6",
+        "isRTL": false,
+        "isDebug": true,
+        "isElementorDebug": false,
+        "activeModules": ["ajax", "finder", "connect", "event-tracker"],
+        "experimentalFeatures": {
+            "e_optimized_assets_loading": true,
+            "e_optimized_css_loading": true,
+            "additional_custom_breakpoints": true,
+            "e_swiper_latest": true,
+            "container_grid": true,
+            "theme_builder_v2": true,
+            "home_screen": true,
+            "ai-layout": true,
+            "landing-pages": true,
+            "page-transitions": true,
+            "notes": true,
+            "form-submissions": true,
+            "e_scroll_snap": true
+        },
+        "urls": {
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
+            "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
+        },
+        "filesUpload": {
+            "unfilteredFiles": true
+        },
+        "library_connect": {
+            "is_connected": true,
+            "subscription_plans": {
+                "free": {
+                    "label": null,
+                    "promotion_url": null,
+                    "color": null
                 },
-                "longDateFormat": {
-                    "LT": "g:i a",
-                    "LTS": null,
-                    "L": null,
-                    "LL": "F j, Y",
-                    "LLL": "F j, Y g:i a",
-                    "LLLL": null
+                "essential": {
+                    "label": "Pro",
+                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                    "color": "#92003B"
+                },
+                "essential-oct2023": {
+                    "label": "Advanced",
+                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                    "color": "#92003B"
+                },
+                "advanced": {
+                    "label": "Advanced",
+                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                    "color": "#92003B"
+                },
+                "expert": {
+                    "label": "Expert",
+                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                    "color": "#92003B"
+                },
+                "agency": {
+                    "label": "Agency",
+                    "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
+                    "color": "#92003B"
                 }
-            });
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea"
-                id="wp-date-js"></script>
-            <script id="wp-date-js-after">
-            wp.date.setSettings({
-                "l10n": {
-                    "locale": "en_US",
-                    "months": ["January", "February", "March", "April", "May", "June", "July", "August",
-                        "September", "October", "November", "December"
-                    ],
-                    "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov",
-                        "Dec"
-                    ],
-                    "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                    "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-                    "meridiem": {
-                        "am": "am",
-                        "pm": "pm",
-                        "AM": "AM",
-                        "PM": "PM"
-                    },
-                    "relative": {
-                        "future": "%s from now",
-                        "past": "%s ago",
-                        "s": "a second",
-                        "ss": "%d seconds",
-                        "m": "a minute",
-                        "mm": "%d minutes",
-                        "h": "an hour",
-                        "hh": "%d hours",
-                        "d": "a day",
-                        "dd": "%d days",
-                        "M": "a month",
-                        "MM": "%d months",
-                        "y": "a year",
-                        "yy": "%d years"
-                    },
-                    "startOfWeek": 1
+            },
+            "base_access_level": 0,
+            "base_access_tier": "free",
+            "current_access_level": 0,
+            "current_access_tier": "free"
+        },
+        "ajax": {
+            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+            "nonce": "f9ebcfbb83"
+        },
+        "finder": {
+            "data": {
+                "edit": {
+                    "title": "Edit",
+                    "dynamic": true,
+                    "name": "edit"
                 },
-                "formats": {
-                    "time": "g:i a",
-                    "date": "F j, Y",
-                    "datetime": "F j, Y g:i a",
-                    "datetimeAbbreviated": "M j, Y g:i a"
-                },
-                "timezone": {
-                    "offset": 0,
-                    "string": "",
-                    "abbr": ""
-                }
-            });
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
-                id="wp-html-entities-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
-                id="wp-primitives-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/private-apis.min.js?ver=11cb2ebaa70a9f1f0ab5"
-                id="wp-private-apis-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"
-                id="wp-redux-routine-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5"
-                id="wp-data-js"></script>
-            <script id="wp-data-js-after">
-            (function() {
-                var userId = 1;
-                var storageKey = "WP_DATA_USER_" + userId;
-                wp.data
-                    .use(wp.data.plugins.persistence, {
-                        storageKey: storageKey
-                    });
-            })();
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
-                id="wp-rich-text-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/warning.min.js?ver=122829a085511691f14d"
-                id="wp-warning-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/components.min.js?ver=387d6480ace3103ccd8b"
-                id="wp-components-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
-                id="wp-plugins-js"></script>
-            <script id="zip-ai-sidebar-js-extra">
-            var zip_ai_react = {
-                "ajax_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-                "ajax_nonce": "1f89442bb8",
-                "admin_nonce": "45eee064e2",
-                "current_post_id": "7478",
-                "auth_middleware": "https:\/\/app.zipwp.com\/auth\/?type=token&redirect_url=https%3A%2F%2Fweb.wiseadvizor.com%2Fwp-admin%2F%3Fnonce%3Dedaf358ae9%26scs-authorize%3Dtrue",
-                "is_authorized": "",
-                "is_ai_assistant_enabled": "1",
-                "is_customize_preview": "",
-                "collab_product_details": null,
-                "zip_ai_assistant_options": ""
-            };
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.js?ver=195428426d8559d53d29"
-                id="zip-ai-sidebar-js"></script>
-            <script id="twenty-twenty-one-ie11-polyfills-js-after">
-            (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) ||
-            document.write(
-                '<script src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
-                'ipt>');
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=2.0"
-                id="twenty-twenty-one-responsive-embeds-script-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2"
-                id="jquery-ui-mouse-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
-                id="jquery-ui-draggable-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js">
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js">
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1"
-                id="backbone-marionette-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4"
-                id="backbone-radio-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.21.6"
-                id="elementor-common-modules-js"></script>
-            <script id="elementor-web-cli-js-before">
-            var elementorWebCliConfig = {
-                "isDebug": true,
-                "urls": {
-                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-                },
-                "nonce": "8f0361e446",
-                "version": "3.21.6"
-            };
-            var elementorWebCliConfig = {
-                "isDebug": true,
-                "urls": {
-                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/",
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-                },
-                "nonce": "8f0361e446",
-                "version": "3.21.6"
-            };
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
-                id="elementor-web-cli-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
-                id="elementor-dialog-js"></script>
-            <script id="wp-api-request-js-extra">
-            var wpApiSettings = {
-                "root": "https:\/\/web.wiseadvizor.com\/wp-json\/",
-                "nonce": "8f0361e446",
-                "versionString": "wp\/v2\/"
-            };
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3"
-                id="wp-api-request-js"></script>
-            <script id="elementor-dev-tools-js-before">
-            var elementorDevToolsConfig = {
-                "isDebug": true,
-                "urls": {
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-                },
-                "deprecation": {
-                    "soft_notices": [],
-                    "soft_version_count": 4,
-                    "hard_version_count": 8,
-                    "current_version": "3.21.6"
-                }
-            };
-            var elementorDevToolsConfig = {
-                "isDebug": true,
-                "urls": {
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-                },
-                "deprecation": {
-                    "soft_notices": [],
-                    "soft_version_count": 4,
-                    "hard_version_count": 8,
-                    "current_version": "3.21.6"
-                }
-            };
-            var elementorDevToolsConfig = {
-                "isDebug": true,
-                "urls": {
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-                },
-                "deprecation": {
-                    "soft_notices": [],
-                    "soft_version_count": 4,
-                    "hard_version_count": 8,
-                    "current_version": "3.21.6"
-                }
-            };
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.21.6"
-                id="elementor-dev-tools-js"></script>
-            <script id="elementor-common-js-before">
-            var elementorCommonConfig = {
-                "version": "3.21.6",
-                "isRTL": false,
-                "isDebug": true,
-                "isElementorDebug": false,
-                "activeModules": ["ajax", "finder", "connect", "event-tracker"],
-                "experimentalFeatures": {
-                    "e_optimized_assets_loading": true,
-                    "e_optimized_css_loading": true,
-                    "additional_custom_breakpoints": true,
-                    "e_swiper_latest": true,
-                    "container_grid": true,
-                    "theme_builder_v2": true,
-                    "home_screen": true,
-                    "ai-layout": true,
-                    "landing-pages": true,
-                    "page-transitions": true,
-                    "notes": true,
-                    "form-submissions": true,
-                    "e_scroll_snap": true
-                },
-                "urls": {
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
-                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
-                },
-                "filesUpload": {
-                    "unfilteredFiles": true
-                },
-                "library_connect": {
-                    "is_connected": true,
-                    "subscription_plans": {
-                        "free": {
-                            "label": null,
-                            "promotion_url": null,
-                            "color": null
+                "general": {
+                    "title": "General",
+                    "dynamic": false,
+                    "items": {
+                        "saved-templates": {
+                            "title": "Saved Templates",
+                            "icon": "library-save",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library",
+                            "keywords": ["template", "section", "page", "library"]
                         },
-                        "essential": {
-                            "label": "Pro",
-                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                            "color": "#92003B"
+                        "system-info": {
+                            "title": "System Info",
+                            "icon": "info-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-system-info",
+                            "keywords": ["system", "info", "environment", "elementor"]
                         },
-                        "essential-oct2023": {
-                            "label": "Advanced",
-                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                            "color": "#92003B"
+                        "role-manager": {
+                            "title": "Role Manager",
+                            "icon": "person",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-role-manager",
+                            "keywords": ["role", "manager", "user", "elementor"]
+                        },
+                        "knowledge-base": {
+                            "title": "Knowledge Base",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=go_knowledge_base_site",
+                            "keywords": ["help", "knowledge", "docs", "elementor"]
+                        },
+                        "theme-builder": {
+                            "title": "Theme Builder",
+                            "icon": "library-save",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor",
+                            "keywords": ["template", "header", "footer", "single", "archive", "search",
+                                "404", "library"
+                            ]
+                        },
+                        "kit-library": {
+                            "title": "Kit Library",
+                            "icon": "kit-parts",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/kit-library",
+                            "keywords": ["kit library", "kit", "library", "site parts", "parts", "assets",
+                                "templates"
+                            ]
+                        },
+                        "popups": {
+                            "title": "Popups",
+                            "icon": "library-save",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup",
+                            "keywords": ["template", "popup", "library"]
+                        }
+                    },
+                    "name": "general"
+                },
+                "create": {
+                    "title": "Create",
+                    "dynamic": false,
+                    "items": {
+                        "page": {
+                            "title": "Add New Page Template",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New Page Template", "post", "page", "template", "new",
+                                "create"
+                            ]
+                        },
+                        "section": {
+                            "title": "Add New Section",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=section",
+                            "keywords": ["Add New Section", "post", "page", "template", "new", "create"]
+                        },
+                        "wp-post": {
+                            "title": "Add New Post",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New Post", "post", "page", "template", "new", "create"]
+                        },
+                        "wp-page": {
+                            "title": "Add New Page",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New Page", "post", "page", "template", "new", "create"]
+                        },
+                        "wpr-theme-builder": {
+                            "title": "Add New WPR Theme Builder",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New WPR Theme Builder", "post", "page", "template", "new",
+                                "create"
+                            ]
+                        },
+                        "wpr-popups": {
+                            "title": "Add New WPR Popup",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New WPR Popup", "post", "page", "template", "new", "create"]
+                        },
+                        "landing-page": {
+                            "title": "Add New Landing Page",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=4eba568a0a#library",
+                            "keywords": ["Add New Landing Page", "post", "page", "template", "new",
+                                "create"
+                            ]
+                        },
+                        "popup": {
+                            "title": "Add New Popup",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=popup",
+                            "keywords": ["Add New Popup", "post", "page", "template", "new", "create"]
+                        },
+                        "header": {
+                            "title": "Add New Header",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=header",
+                            "keywords": ["Add New Header", "post", "page", "template", "new", "create"]
+                        },
+                        "footer": {
+                            "title": "Add New Footer",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=footer",
+                            "keywords": ["Add New Footer", "post", "page", "template", "new", "create"]
+                        },
+                        "single": {
+                            "title": "Add New Single",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=single",
+                            "keywords": ["Add New Single", "post", "page", "template", "new", "create"]
+                        },
+                        "single-post": {
+                            "title": "Add New Single Post",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=single-post",
+                            "keywords": ["Add New Single Post", "post", "page", "template", "new", "create"]
+                        },
+                        "single-page": {
+                            "title": "Add New Single Page",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=single-page&_elementor_template_sub_type=page",
+                            "keywords": ["Add New Single Page", "post", "page", "template", "new", "create"]
+                        },
+                        "archive": {
+                            "title": "Add New Archive",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=archive",
+                            "keywords": ["Add New Archive", "post", "page", "template", "new", "create"]
+                        },
+                        "search-results": {
+                            "title": "Add New Search Results",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=search-results&_elementor_template_sub_type=search",
+                            "keywords": ["Add New Search Results", "post", "page", "template", "new",
+                                "create"
+                            ]
+                        },
+                        "error-404": {
+                            "title": "Add New Error 404",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=error-404&_elementor_template_sub_type=not_found404",
+                            "keywords": ["Add New Error 404", "post", "page", "template", "new", "create"]
+                        },
+                        "code_snippet": {
+                            "title": "Add New Custom Code",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/post-new.php?post_type=elementor_snippet",
+                            "keywords": ["Add New Custom Code", "post", "page", "template", "new", "create"]
+                        },
+                        "wpr_templates": {
+                            "title": "Add New Royal Templates",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New Royal Templates", "post", "page", "template", "new",
+                                "create"
+                            ]
+                        },
+                        "elementor-hf": {
+                            "title": "Add New Elementor Header &amp; Footer Builder",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New Elementor Header &amp; Footer Builder", "post", "page",
+                                "template", "new", "create"
+                            ]
+                        },
+                        "wpr_mega_menu": {
+                            "title": "Add New Royal Mega Menu",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=4eba568a0a",
+                            "keywords": ["Add New Royal Mega Menu", "post", "page", "template", "new",
+                                "create"
+                            ]
+                        },
+                        "theme-template": {
+                            "title": "Add New Theme Template",
+                            "icon": "plus-circle-o",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor\/add-new",
+                            "keywords": ["template", "theme", "new", "create"]
+                        }
+                    },
+                    "name": "create"
+                },
+                "site": {
+                    "title": "Site",
+                    "dynamic": false,
+                    "items": {
+                        "homepage": {
+                            "title": "Homepage",
+                            "url": "https:\/\/web.wiseadvizor.com",
+                            "icon": "home-heart",
+                            "keywords": ["home", "page"]
+                        },
+                        "wordpress-dashboard": {
+                            "title": "Dashboard",
+                            "icon": "dashboard",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
+                            "keywords": ["dashboard", "wordpress"]
+                        },
+                        "wordpress-menus": {
+                            "title": "Menus",
+                            "icon": "wordpress",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/nav-menus.php",
+                            "keywords": ["menu", "wordpress"]
+                        },
+                        "wordpress-themes": {
+                            "title": "Themes",
+                            "icon": "wordpress",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/themes.php",
+                            "keywords": ["themes", "wordpress"]
+                        },
+                        "wordpress-customizer": {
+                            "title": "Customizer",
+                            "icon": "wordpress",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/customize.php",
+                            "keywords": ["customizer", "wordpress"]
+                        },
+                        "wordpress-plugins": {
+                            "title": "Plugins",
+                            "icon": "wordpress",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/plugins.php",
+                            "keywords": ["plugins", "wordpress"]
+                        },
+                        "wordpress-users": {
+                            "title": "Users",
+                            "icon": "wordpress",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/users.php",
+                            "keywords": ["users", "profile", "wordpress"]
+                        },
+                        "apps": {
+                            "title": "Add-ons",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-apps",
+                            "icon": "apps",
+                            "keywords": ["apps", "addon", "plugin", "extension", "integration"]
+                        }
+                    },
+                    "name": "site"
+                },
+                "settings": {
+                    "title": "Settings",
+                    "dynamic": false,
+                    "items": {
+                        "general-settings": {
+                            "title": "General Settings",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor",
+                            "keywords": ["general", "settings", "elementor"]
                         },
                         "advanced": {
-                            "label": "Advanced",
-                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                            "color": "#92003B"
+                            "title": "Advanced",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-advanced",
+                            "keywords": ["advanced", "settings", "elementor"]
                         },
-                        "expert": {
-                            "label": "Expert",
-                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                            "color": "#92003B"
+                        "experiments": {
+                            "title": "Experiments",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
+                            "keywords": ["settings", "elementor", "experiments"]
                         },
-                        "agency": {
-                            "label": "Agency",
-                            "promotion_url": "https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro",
-                            "color": "#92003B"
+                        "features": {
+                            "title": "Features",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
+                            "keywords": ["settings", "elementor", "features"]
+                        },
+                        "element-manager": {
+                            "title": "Element Manager",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-element-manager",
+                            "keywords": ["settings", "elements", "widgets", "manager"]
+                        },
+                        "custom-fonts": {
+                            "title": "Custom Fonts",
+                            "icon": "typography",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_font",
+                            "keywords": ["custom", "fonts", "elementor"]
+                        },
+                        "custom-icons": {
+                            "title": "Custom Icons",
+                            "icon": "favorite",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_icons",
+                            "keywords": ["custom", "icons", "elementor"]
                         }
                     },
-                    "base_access_level": 0,
-                    "base_access_tier": "free",
-                    "current_access_level": 0,
-                    "current_access_tier": "free"
+                    "name": "settings"
                 },
-                "ajax": {
-                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-                    "nonce": "f9ebcfbb83"
-                },
-                "finder": {
-                    "data": {
-                        "edit": {
-                            "title": "Edit",
-                            "dynamic": true,
-                            "name": "edit"
-                        },
-                        "general": {
-                            "title": "General",
-                            "dynamic": false,
-                            "items": {
-                                "saved-templates": {
-                                    "title": "Saved Templates",
-                                    "icon": "library-save",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library",
-                                    "keywords": ["template", "section", "page", "library"]
-                                },
-                                "system-info": {
-                                    "title": "System Info",
-                                    "icon": "info-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-system-info",
-                                    "keywords": ["system", "info", "environment", "elementor"]
-                                },
-                                "role-manager": {
-                                    "title": "Role Manager",
-                                    "icon": "person",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-role-manager",
-                                    "keywords": ["role", "manager", "user", "elementor"]
-                                },
-                                "knowledge-base": {
-                                    "title": "Knowledge Base",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=go_knowledge_base_site",
-                                    "keywords": ["help", "knowledge", "docs", "elementor"]
-                                },
-                                "theme-builder": {
-                                    "title": "Theme Builder",
-                                    "icon": "library-save",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor",
-                                    "keywords": ["template", "header", "footer", "single", "archive", "search",
-                                        "404", "library"
-                                    ]
-                                },
-                                "kit-library": {
-                                    "title": "Kit Library",
-                                    "icon": "kit-parts",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/kit-library",
-                                    "keywords": ["kit library", "kit", "library", "site parts", "parts", "assets",
-                                        "templates"
-                                    ]
-                                },
-                                "popups": {
-                                    "title": "Popups",
-                                    "icon": "library-save",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup",
-                                    "keywords": ["template", "popup", "library"]
-                                }
-                            },
-                            "name": "general"
-                        },
-                        "create": {
-                            "title": "Create",
-                            "dynamic": false,
-                            "items": {
-                                "page": {
-                                    "title": "Add New Page Template",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New Page Template", "post", "page", "template", "new",
-                                        "create"
-                                    ]
-                                },
-                                "section": {
-                                    "title": "Add New Section",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=section",
-                                    "keywords": ["Add New Section", "post", "page", "template", "new", "create"]
-                                },
-                                "wp-post": {
-                                    "title": "Add New Post",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New Post", "post", "page", "template", "new", "create"]
-                                },
-                                "wp-page": {
-                                    "title": "Add New Page",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New Page", "post", "page", "template", "new", "create"]
-                                },
-                                "wpr-theme-builder": {
-                                    "title": "Add New WPR Theme Builder",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-theme-builder&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New WPR Theme Builder", "post", "page", "template", "new",
-                                        "create"
-                                    ]
-                                },
-                                "wpr-popups": {
-                                    "title": "Add New WPR Popup",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=wpr-popups&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New WPR Popup", "post", "page", "template", "new", "create"]
-                                },
-                                "landing-page": {
-                                    "title": "Add New Landing Page",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=4eba568a0a#library",
-                                    "keywords": ["Add New Landing Page", "post", "page", "template", "new",
-                                        "create"]
-                                },
-                                "popup": {
-                                    "title": "Add New Popup",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=popup",
-                                    "keywords": ["Add New Popup", "post", "page", "template", "new", "create"]
-                                },
-                                "header": {
-                                    "title": "Add New Header",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=header",
-                                    "keywords": ["Add New Header", "post", "page", "template", "new", "create"]
-                                },
-                                "footer": {
-                                    "title": "Add New Footer",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=footer",
-                                    "keywords": ["Add New Footer", "post", "page", "template", "new", "create"]
-                                },
-                                "single": {
-                                    "title": "Add New Single",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=single",
-                                    "keywords": ["Add New Single", "post", "page", "template", "new", "create"]
-                                },
-                                "single-post": {
-                                    "title": "Add New Single Post",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=single-post",
-                                    "keywords": ["Add New Single Post", "post", "page", "template", "new", "create"]
-                                },
-                                "single-page": {
-                                    "title": "Add New Single Page",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=single-page&_elementor_template_sub_type=page",
-                                    "keywords": ["Add New Single Page", "post", "page", "template", "new", "create"]
-                                },
-                                "archive": {
-                                    "title": "Add New Archive",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=archive",
-                                    "keywords": ["Add New Archive", "post", "page", "template", "new", "create"]
-                                },
-                                "search-results": {
-                                    "title": "Add New Search Results",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=search-results&_elementor_template_sub_type=search",
-                                    "keywords": ["Add New Search Results", "post", "page", "template", "new",
-                                        "create"
-                                    ]
-                                },
-                                "error-404": {
-                                    "title": "Add New Error 404",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=4eba568a0a&template_type=error-404&_elementor_template_sub_type=not_found404",
-                                    "keywords": ["Add New Error 404", "post", "page", "template", "new", "create"]
-                                },
-                                "code_snippet": {
-                                    "title": "Add New Custom Code",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/post-new.php?post_type=elementor_snippet",
-                                    "keywords": ["Add New Custom Code", "post", "page", "template", "new", "create"]
-                                },
-                                "wpr_templates": {
-                                    "title": "Add New Royal Templates",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_templates&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New Royal Templates", "post", "page", "template", "new",
-                                        "create"
-                                    ]
-                                },
-                                "elementor-hf": {
-                                    "title": "Add New Elementor Header &amp; Footer Builder",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor-hf&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New Elementor Header &amp; Footer Builder", "post", "page",
-                                        "template", "new", "create"
-                                    ]
-                                },
-                                "wpr_mega_menu": {
-                                    "title": "Add New Royal Mega Menu",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=wpr_mega_menu&_wpnonce=4eba568a0a",
-                                    "keywords": ["Add New Royal Mega Menu", "post", "page", "template", "new",
-                                        "create"
-                                    ]
-                                },
-                                "theme-template": {
-                                    "title": "Add New Theme Template",
-                                    "icon": "plus-circle-o",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor\/add-new",
-                                    "keywords": ["template", "theme", "new", "create"]
-                                }
-                            },
-                            "name": "create"
-                        },
-                        "site": {
-                            "title": "Site",
-                            "dynamic": false,
-                            "items": {
-                                "homepage": {
-                                    "title": "Homepage",
-                                    "url": "https:\/\/web.wiseadvizor.com",
-                                    "icon": "home-heart",
-                                    "keywords": ["home", "page"]
-                                },
-                                "wordpress-dashboard": {
-                                    "title": "Dashboard",
-                                    "icon": "dashboard",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
-                                    "keywords": ["dashboard", "wordpress"]
-                                },
-                                "wordpress-menus": {
-                                    "title": "Menus",
-                                    "icon": "wordpress",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/nav-menus.php",
-                                    "keywords": ["menu", "wordpress"]
-                                },
-                                "wordpress-themes": {
-                                    "title": "Themes",
-                                    "icon": "wordpress",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/themes.php",
-                                    "keywords": ["themes", "wordpress"]
-                                },
-                                "wordpress-customizer": {
-                                    "title": "Customizer",
-                                    "icon": "wordpress",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/customize.php",
-                                    "keywords": ["customizer", "wordpress"]
-                                },
-                                "wordpress-plugins": {
-                                    "title": "Plugins",
-                                    "icon": "wordpress",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/plugins.php",
-                                    "keywords": ["plugins", "wordpress"]
-                                },
-                                "wordpress-users": {
-                                    "title": "Users",
-                                    "icon": "wordpress",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/users.php",
-                                    "keywords": ["users", "profile", "wordpress"]
-                                },
-                                "apps": {
-                                    "title": "Add-ons",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-apps",
-                                    "icon": "apps",
-                                    "keywords": ["apps", "addon", "plugin", "extension", "integration"]
-                                }
-                            },
-                            "name": "site"
-                        },
-                        "settings": {
-                            "title": "Settings",
-                            "dynamic": false,
-                            "items": {
-                                "general-settings": {
-                                    "title": "General Settings",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor",
-                                    "keywords": ["general", "settings", "elementor"]
-                                },
-                                "advanced": {
-                                    "title": "Advanced",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-advanced",
-                                    "keywords": ["advanced", "settings", "elementor"]
-                                },
-                                "experiments": {
-                                    "title": "Experiments",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
-                                    "keywords": ["settings", "elementor", "experiments"]
-                                },
-                                "features": {
-                                    "title": "Features",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor#tab-experiments",
-                                    "keywords": ["settings", "elementor", "features"]
-                                },
-                                "element-manager": {
-                                    "title": "Element Manager",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-element-manager",
-                                    "keywords": ["settings", "elements", "widgets", "manager"]
-                                },
-                                "custom-fonts": {
-                                    "title": "Custom Fonts",
-                                    "icon": "typography",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_font",
-                                    "keywords": ["custom", "fonts", "elementor"]
-                                },
-                                "custom-icons": {
-                                    "title": "Custom Icons",
-                                    "icon": "favorite",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_icons",
-                                    "keywords": ["custom", "icons", "elementor"]
-                                }
-                            },
-                            "name": "settings"
-                        },
+                "tools": {
+                    "title": "Tools",
+                    "dynamic": false,
+                    "items": {
                         "tools": {
                             "title": "Tools",
-                            "dynamic": false,
-                            "items": {
-                                "tools": {
-                                    "title": "Tools",
-                                    "icon": "tools",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools",
-                                    "keywords": ["tools", "regenerate css", "safe mode", "debug bar",
-                                        "sync library", "elementor"
-                                    ]
-                                },
-                                "replace-url": {
-                                    "title": "Replace URL",
-                                    "icon": "tools",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url",
-                                    "keywords": ["tools", "replace url", "domain", "elementor"]
-                                },
-                                "maintenance-mode": {
-                                    "title": "Maintenance Mode",
-                                    "icon": "tools",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode",
-                                    "keywords": ["tools", "maintenance", "coming soon", "elementor"]
-                                },
-                                "import-export": {
-                                    "title": "Import Export",
-                                    "icon": "import-export",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit",
-                                    "keywords": ["tools", "import export", "import", "export", "kit"]
-                                },
-                                "version-control": {
-                                    "title": "Version Control",
-                                    "icon": "time-line",
-                                    "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-versions",
-                                    "keywords": ["tools", "version", "control", "rollback", "beta", "elementor"]
-                                }
-                            },
-                            "name": "tools"
+                            "icon": "tools",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools",
+                            "keywords": ["tools", "regenerate css", "safe mode", "debug bar",
+                                "sync library", "elementor"
+                            ]
+                        },
+                        "replace-url": {
+                            "title": "Replace URL",
+                            "icon": "tools",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url",
+                            "keywords": ["tools", "replace url", "domain", "elementor"]
+                        },
+                        "maintenance-mode": {
+                            "title": "Maintenance Mode",
+                            "icon": "tools",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode",
+                            "keywords": ["tools", "maintenance", "coming soon", "elementor"]
+                        },
+                        "import-export": {
+                            "title": "Import Export",
+                            "icon": "import-export",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit",
+                            "keywords": ["tools", "import export", "import", "export", "kit"]
+                        },
+                        "version-control": {
+                            "title": "Version Control",
+                            "icon": "time-line",
+                            "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-tools#tab-versions",
+                            "keywords": ["tools", "version", "control", "rollback", "beta", "elementor"]
                         }
-                    }
-                },
-                "connect": [],
-                "event-tracker": {
-                    "isUserDataShared": true
+                    },
+                    "name": "tools"
                 }
-            };
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.21.6"
-                id="elementor-common-js"></script>
-            <script id="elementor-app-loader-js-before">
-            var elementorAppConfig = {
-                "menu_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor",
-                "assets_url": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
-                "pages_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=page",
-                "return_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
-                "hasPro": true,
-                "admin_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
-                "login_url": "https:\/\/web.wiseadvizor.com\/wp-login.php",
-                "base_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6",
-                "promotion": {
-                    "upgrade_url": "https:\/\/go.elementor.com\/go-pro-theme-builder\/"
-                },
-                "site-editor": [],
-                "import-export": [],
-                "kit-library": [],
-                "onboarding": []
-            };
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
-                id="elementor-app-loader-js"></script>
-            <script id="tpgb-admin-bar-js-before">
-            var TpgbAdminbar = {
-                "tpgb_edit_template": []
             }
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.9"
-                id="tpgb-admin-bar-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.6"
-                id="elementor-webpack-runtime-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
-                id="elementor-frontend-modules-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-                id="elementor-waypoints-js"></script>
-            <script id="elementor-frontend-js-before">
-            var elementorFrontendConfig = {
-                "environmentMode": {
-                    "edit": false,
-                    "wpPreview": true,
-                    "isScriptDebug": false
+        },
+        "connect": [],
+        "event-tracker": {
+            "isUserDataShared": true
+        }
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.21.6"
+        id="elementor-common-js"></script>
+    <script id="elementor-app-loader-js-before">
+    var elementorAppConfig = {
+        "menu_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor",
+        "assets_url": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/",
+        "pages_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?post_type=page",
+        "return_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
+        "hasPro": true,
+        "admin_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/",
+        "login_url": "https:\/\/web.wiseadvizor.com\/wp-login.php",
+        "base_url": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6",
+        "promotion": {
+            "upgrade_url": "https:\/\/go.elementor.com\/go-pro-theme-builder\/"
+        },
+        "site-editor": [],
+        "import-export": [],
+        "kit-library": [],
+        "onboarding": []
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
+        id="elementor-app-loader-js"></script>
+    <script id="tpgb-admin-bar-js-before">
+    var TpgbAdminbar = {
+        "tpgb_edit_template": []
+    }
+    </script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/js/main/general/tpgb-admin-bar.min.js?ver=3.2.9"
+        id="tpgb-admin-bar-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.21.6"
+        id="elementor-webpack-runtime-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
+        id="elementor-frontend-modules-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+        id="elementor-waypoints-js"></script>
+    <script id="elementor-frontend-js-before">
+    var elementorFrontendConfig = {
+        "environmentMode": {
+            "edit": false,
+            "wpPreview": true,
+            "isScriptDebug": false
+        },
+        "i18n": {
+            "shareOnFacebook": "Share on Facebook",
+            "shareOnTwitter": "Share on Twitter",
+            "pinIt": "Pin it",
+            "download": "Download",
+            "downloadImage": "Download image",
+            "fullscreen": "Fullscreen",
+            "zoom": "Zoom",
+            "share": "Share",
+            "playVideo": "Play Video",
+            "previous": "Previous",
+            "next": "Next",
+            "close": "Close",
+            "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+            "a11yCarouselPrevSlideMessage": "Previous slide",
+            "a11yCarouselNextSlideMessage": "Next slide",
+            "a11yCarouselFirstSlideMessage": "This is the first slide",
+            "a11yCarouselLastSlideMessage": "This is the last slide",
+            "a11yCarouselPaginationBulletMessage": "Go to slide"
+        },
+        "is_rtl": false,
+        "breakpoints": {
+            "xs": 0,
+            "sm": 480,
+            "md": 768,
+            "lg": 1025,
+            "xl": 1440,
+            "xxl": 1600
+        },
+        "responsive": {
+            "breakpoints": {
+                "mobile": {
+                    "label": "Mobile Portrait",
+                    "value": 767,
+                    "default_value": 767,
+                    "direction": "max",
+                    "is_enabled": true
                 },
-                "i18n": {
-                    "shareOnFacebook": "Share on Facebook",
-                    "shareOnTwitter": "Share on Twitter",
-                    "pinIt": "Pin it",
-                    "download": "Download",
-                    "downloadImage": "Download image",
-                    "fullscreen": "Fullscreen",
-                    "zoom": "Zoom",
-                    "share": "Share",
-                    "playVideo": "Play Video",
-                    "previous": "Previous",
-                    "next": "Next",
-                    "close": "Close",
-                    "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
-                    "a11yCarouselPrevSlideMessage": "Previous slide",
-                    "a11yCarouselNextSlideMessage": "Next slide",
-                    "a11yCarouselFirstSlideMessage": "This is the first slide",
-                    "a11yCarouselLastSlideMessage": "This is the last slide",
-                    "a11yCarouselPaginationBulletMessage": "Go to slide"
+                "mobile_extra": {
+                    "label": "Mobile Landscape",
+                    "value": 880,
+                    "default_value": 880,
+                    "direction": "max",
+                    "is_enabled": false
                 },
-                "is_rtl": false,
-                "breakpoints": {
-                    "xs": 0,
-                    "sm": 480,
-                    "md": 768,
-                    "lg": 1025,
-                    "xl": 1440,
-                    "xxl": 1600
+                "tablet": {
+                    "label": "Tablet Portrait",
+                    "value": 1024,
+                    "default_value": 1024,
+                    "direction": "max",
+                    "is_enabled": true
                 },
-                "responsive": {
-                    "breakpoints": {
-                        "mobile": {
-                            "label": "Mobile Portrait",
-                            "value": 767,
-                            "default_value": 767,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "mobile_extra": {
-                            "label": "Mobile Landscape",
-                            "value": 880,
-                            "default_value": 880,
-                            "direction": "max",
-                            "is_enabled": false
-                        },
-                        "tablet": {
-                            "label": "Tablet Portrait",
-                            "value": 1024,
-                            "default_value": 1024,
-                            "direction": "max",
-                            "is_enabled": true
-                        },
-                        "tablet_extra": {
-                            "label": "Tablet Landscape",
-                            "value": 1200,
-                            "default_value": 1200,
-                            "direction": "max",
-                            "is_enabled": false
-                        },
-                        "laptop": {
-                            "label": "Laptop",
-                            "value": 1366,
-                            "default_value": 1366,
-                            "direction": "max",
-                            "is_enabled": false
-                        },
-                        "widescreen": {
-                            "label": "Widescreen",
-                            "value": 2400,
-                            "default_value": 2400,
-                            "direction": "min",
-                            "is_enabled": false
-                        }
-                    }
+                "tablet_extra": {
+                    "label": "Tablet Landscape",
+                    "value": 1200,
+                    "default_value": 1200,
+                    "direction": "max",
+                    "is_enabled": false
                 },
-                "version": "3.21.6",
-                "is_static": false,
-                "experimentalFeatures": {
-                    "e_optimized_assets_loading": true,
-                    "e_optimized_css_loading": true,
-                    "additional_custom_breakpoints": true,
-                    "e_swiper_latest": true,
-                    "container_grid": true,
-                    "theme_builder_v2": true,
-                    "home_screen": true,
-                    "ai-layout": true,
-                    "landing-pages": true,
-                    "page-transitions": true,
-                    "notes": true,
-                    "form-submissions": true,
-                    "e_scroll_snap": true
+                "laptop": {
+                    "label": "Laptop",
+                    "value": 1366,
+                    "default_value": 1366,
+                    "direction": "max",
+                    "is_enabled": false
                 },
-                "urls": {
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-                },
-                "swiperClass": "swiper",
-                "settings": {
-                    "page": [],
-                    "editorPreferences": []
-                },
-                "kit": {
-                    "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
-                    "global_image_lightbox": "yes",
-                    "lightbox_enable_counter": "yes",
-                    "lightbox_enable_fullscreen": "yes",
-                    "lightbox_enable_zoom": "yes",
-                    "lightbox_enable_share": "yes",
-                    "lightbox_title_src": "title",
-                    "lightbox_description_src": "description"
-                },
-                "post": {
-                    "id": 7478,
-                    "title": "Contact%20us%20new%20page%20%E2%80%93%20WISE%20ADVIZOR",
-                    "excerpt": "",
-                    "featuredImage": false
-                },
-                "user": {
-                    "roles": ["administrator"]
+                "widescreen": {
+                    "label": "Widescreen",
+                    "value": 2400,
+                    "default_value": 2400,
+                    "direction": "min",
+                    "is_enabled": false
                 }
-            };
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.6"
-                id="elementor-frontend-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
-                id="qi-addons-for-elementor-elementor-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
-                id="elementor-pro-webpack-runtime-js"></script>
-            <script id="elementor-pro-frontend-js-before">
-            var ElementorProFrontendConfig = {
-                "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-                "nonce": "f555cdf375",
-                "urls": {
-                    "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-                    "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
-                },
-                "shareButtonsNetworks": {
-                    "facebook": {
-                        "title": "Facebook",
-                        "has_counter": true
-                    },
-                    "twitter": {
-                        "title": "Twitter"
-                    },
-                    "linkedin": {
-                        "title": "LinkedIn",
-                        "has_counter": true
-                    },
-                    "pinterest": {
-                        "title": "Pinterest",
-                        "has_counter": true
-                    },
-                    "reddit": {
-                        "title": "Reddit",
-                        "has_counter": true
-                    },
-                    "vk": {
-                        "title": "VK",
-                        "has_counter": true
-                    },
-                    "odnoklassniki": {
-                        "title": "OK",
-                        "has_counter": true
-                    },
-                    "tumblr": {
-                        "title": "Tumblr"
-                    },
-                    "digg": {
-                        "title": "Digg"
-                    },
-                    "skype": {
-                        "title": "Skype"
-                    },
-                    "stumbleupon": {
-                        "title": "StumbleUpon",
-                        "has_counter": true
-                    },
-                    "mix": {
-                        "title": "Mix"
-                    },
-                    "telegram": {
-                        "title": "Telegram"
-                    },
-                    "pocket": {
-                        "title": "Pocket",
-                        "has_counter": true
-                    },
-                    "xing": {
-                        "title": "XING",
-                        "has_counter": true
-                    },
-                    "whatsapp": {
-                        "title": "WhatsApp"
-                    },
-                    "email": {
-                        "title": "Email"
-                    },
-                    "print": {
-                        "title": "Print"
-                    }
-                },
-                "facebook_sdk": {
-                    "lang": "en_US",
-                    "app_id": ""
-                },
-                "lottie": {
-                    "defaultAnimationUrl": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-                }
-            };
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
-                id="elementor-pro-frontend-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
-                id="pro-elements-handlers-js"></script>
-            <script id="wpr-addons-js-js-extra">
-            var WprConfig = {
-                "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
-                "resturl": "https:\/\/web.wiseadvizor.com\/wp-json\/wpraddons\/v1",
-                "nonce": "ec237ea721",
-                "addedToCartText": "was added to cart",
-                "viewCart": "View Cart",
-                "comparePageID": "",
-                "comparePageURL": "https:\/\/web.wiseadvizor.com\/elementor-7478\/",
-                "wishlistPageID": "",
-                "wishlistPageURL": "https:\/\/web.wiseadvizor.com\/elementor-7478\/",
-                "chooseQuantityText": "Please select the required number of items.",
-                "site_key": "",
-                "is_admin": "1",
-                "input_empty": "Please fill out this field",
-                "select_empty": "Nothing selected",
-                "file_empty": "Please upload a file",
-                "recaptcha_error": "Recaptcha Error"
-            };
-            </script>
-            <script data-cfasync="false"
-                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.975"
-                id="wpr-addons-js-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.975"
-                id="wpr-modal-popups-js-js"></script>
-            <script id="wp-util-js-extra">
-            var _wpUtilSettings = {
-                "ajax": {
-                    "url": "\/wp-admin\/admin-ajax.php"
-                }
-            };
-            </script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
-            <script id="wpforms-elementor-js-extra">
-            var wpformsElementorVars = {
-                "captcha_provider": "recaptcha",
-                "recaptcha_type": "v2"
-            };
-            </script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.8.3"
-                id="wpforms-elementor-js"></script>
-            <script
-                src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
-                id="elementor-admin-bar-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
-                id="hoverintent-js-js"></script>
-            <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
-            </script>
+            }
+        },
+        "version": "3.21.6",
+        "is_static": false,
+        "experimentalFeatures": {
+            "e_optimized_assets_loading": true,
+            "e_optimized_css_loading": true,
+            "additional_custom_breakpoints": true,
+            "e_swiper_latest": true,
+            "container_grid": true,
+            "theme_builder_v2": true,
+            "home_screen": true,
+            "ai-layout": true,
+            "landing-pages": true,
+            "page-transitions": true,
+            "notes": true,
+            "form-submissions": true,
+            "e_scroll_snap": true
+        },
+        "urls": {
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "swiperClass": "swiper",
+        "settings": {
+            "page": [],
+            "editorPreferences": []
+        },
+        "kit": {
+            "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+            "global_image_lightbox": "yes",
+            "lightbox_enable_counter": "yes",
+            "lightbox_enable_fullscreen": "yes",
+            "lightbox_enable_zoom": "yes",
+            "lightbox_enable_share": "yes",
+            "lightbox_title_src": "title",
+            "lightbox_description_src": "description"
+        },
+        "post": {
+            "id": 7478,
+            "title": "Contact%20us%20new%20page%20%E2%80%93%20WISE%20ADVIZOR",
+            "excerpt": "",
+            "featuredImage": false
+        },
+        "user": {
+            "roles": ["administrator"]
+        }
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.21.6"
+        id="elementor-frontend-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.4.3"
+        id="qi-addons-for-elementor-elementor-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
+        id="elementor-pro-webpack-runtime-js"></script>
+    <script id="elementor-pro-frontend-js-before">
+    var ElementorProFrontendConfig = {
+        "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+        "nonce": "f555cdf375",
+        "urls": {
+            "assets": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
+            "rest": "https:\/\/web.wiseadvizor.com\/wp-json\/"
+        },
+        "shareButtonsNetworks": {
+            "facebook": {
+                "title": "Facebook",
+                "has_counter": true
+            },
+            "twitter": {
+                "title": "Twitter"
+            },
+            "linkedin": {
+                "title": "LinkedIn",
+                "has_counter": true
+            },
+            "pinterest": {
+                "title": "Pinterest",
+                "has_counter": true
+            },
+            "reddit": {
+                "title": "Reddit",
+                "has_counter": true
+            },
+            "vk": {
+                "title": "VK",
+                "has_counter": true
+            },
+            "odnoklassniki": {
+                "title": "OK",
+                "has_counter": true
+            },
+            "tumblr": {
+                "title": "Tumblr"
+            },
+            "digg": {
+                "title": "Digg"
+            },
+            "skype": {
+                "title": "Skype"
+            },
+            "stumbleupon": {
+                "title": "StumbleUpon",
+                "has_counter": true
+            },
+            "mix": {
+                "title": "Mix"
+            },
+            "telegram": {
+                "title": "Telegram"
+            },
+            "pocket": {
+                "title": "Pocket",
+                "has_counter": true
+            },
+            "xing": {
+                "title": "XING",
+                "has_counter": true
+            },
+            "whatsapp": {
+                "title": "WhatsApp"
+            },
+            "email": {
+                "title": "Email"
+            },
+            "print": {
+                "title": "Print"
+            }
+        },
+        "facebook_sdk": {
+            "lang": "en_US",
+            "app_id": ""
+        },
+        "lottie": {
+            "defaultAnimationUrl": "https:\/\/web.wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+        }
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+        id="elementor-pro-frontend-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+        id="pro-elements-handlers-js"></script>
+    <script id="wpr-addons-js-js-extra">
+    var WprConfig = {
+        "ajaxurl": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin-ajax.php",
+        "resturl": "https:\/\/web.wiseadvizor.com\/wp-json\/wpraddons\/v1",
+        "nonce": "ec237ea721",
+        "addedToCartText": "was added to cart",
+        "viewCart": "View Cart",
+        "comparePageID": "",
+        "comparePageURL": "https:\/\/web.wiseadvizor.com\/elementor-7478\/",
+        "wishlistPageID": "",
+        "wishlistPageURL": "https:\/\/web.wiseadvizor.com\/elementor-7478\/",
+        "chooseQuantityText": "Please select the required number of items.",
+        "site_key": "",
+        "is_admin": "1",
+        "input_empty": "Please fill out this field",
+        "select_empty": "Nothing selected",
+        "file_empty": "Please upload a file",
+        "recaptcha_error": "Recaptcha Error"
+    };
+    </script>
+    <script data-cfasync="false"
+        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.975"
+        id="wpr-addons-js-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.975"
+        id="wpr-modal-popups-js-js"></script>
+    <script id="wp-util-js-extra">
+    var _wpUtilSettings = {
+        "ajax": {
+            "url": "\/wp-admin\/admin-ajax.php"
+        }
+    };
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/wp-util.min.js?ver=6.4.3" id="wp-util-js"></script>
+    <script id="wpforms-elementor-js-extra">
+    var wpformsElementorVars = {
+        "captcha_provider": "recaptcha",
+        "recaptcha_type": "v2"
+    };
+    </script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.8.3"
+        id="wpforms-elementor-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+        id="elementor-admin-bar-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
+    </script>
 </body>
 
 </html>
