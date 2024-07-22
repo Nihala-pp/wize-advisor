@@ -157,8 +157,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6'
-        media='all' />
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
@@ -624,8 +623,7 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
-        media='print' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
     <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
         media='all' />
@@ -867,7 +865,7 @@
 
 <body
     class="page-template page-template-elementor_header_footer page page-id-7478 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1  elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7478">
-        @include('partials.header-common')
+    @include('partials.header-common')
     <!-- <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main"> -->
@@ -1568,8 +1566,9 @@
                                                     data-id="b84e421" data-element_type="widget"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">
-                                                            How it Works</p>
+                                                        <p class="elementor-heading-title elementor-size-default"><a
+                                                                href="https://wiseadvizor.com/how-it-works">How it
+                                                                Works</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1582,7 +1581,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://web.pransainvestment.ca/privacy-policy/">Privacy
+                                                            <a href="https://wiseadvizor.com/privacy-policy/">Privacy
                                                                 Policy</a>
                                                         </p>
                                                     </div>
@@ -1597,8 +1596,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a
-                                                                href="https://web.pransainvestment.ca/terms-and-conditions/">Terms
+                                                            <a href="https://wiseadvizor.com/terms-conditions/">Terms
                                                                 & Conditions</a>
                                                         </p>
                                                     </div>
@@ -1613,8 +1611,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a
-                                                                href="https://web.pransainvestment.ca/community-guidelines/">Community
+                                                            <a href="https://wiseadvizor.com/community-guidelines/">Community
                                                                 Guidelines</a>
                                                         </p>
                                                     </div>
@@ -1629,7 +1626,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://web.pransainvestment.ca/about-us/">About
+                                                            <a href="https://wiseadvizor.com/about-us/">About
                                                                 Us</a>
                                                         </p>
                                                     </div>
@@ -1644,7 +1641,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://web.pransainvestment.ca/contact-us/">Contact
+                                                            <a href="https://wiseadvizor.com/contact-us/">Contact
                                                                 Us</a>
                                                         </p>
                                                     </div>
@@ -1659,7 +1656,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://web.pransainvestment.ca/blogs/">FAQs</a>
+                                                            <a href="https://wiseadvizor.com/faq/">FAQs</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1673,7 +1670,7 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default">
-                                                            <a href="https://web.pransainvestment.ca/browse-mentor/">Browse
+                                                            <a href="https://wiseadvizor.com/BrowseMentors/">Browse
                                                                 Mentors</a>
                                                         </p>
                                                     </div>
@@ -2063,8 +2060,8 @@
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
         id="regenerator-runtime-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca"
         id="wp-dom-ready-js"></script>
     <script id="starter-templates-zip-preview-js-extra">
@@ -2106,8 +2103,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1"
-        id="wp-hooks-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
+    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
     </script>
     <script id="wp-i18n-js-after">
@@ -2821,8 +2818,7 @@
         id="elementor-webpack-runtime-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.21.6"
         id="elementor-frontend-modules-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
         id="elementor-waypoints-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -3044,8 +3040,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
         id="elementor-pro-frontend-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
     <script id="wpr-addons-js-js-extra">
     var WprConfig = {
@@ -3090,14 +3085,14 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.8.3"
         id="wpforms-elementor-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
     </script>
 </body>
+
 </html>
 <style>
 .resource-button {
