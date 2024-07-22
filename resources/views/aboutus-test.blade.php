@@ -2280,14 +2280,6 @@
     </footer>
     <div id="zip-ai-sidebar-admin-trigger"></div>
     <div id="zip-ai-sidebar"></div>
-    <script>
-    document.body.classList.remove("no-js");
-    </script>
-    <script>
-    if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
-        document.body.classList.add('is-IE');
-    }
-    </script>
     <link rel='stylesheet' id='hfe-widgets-style-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
         media='all' />
