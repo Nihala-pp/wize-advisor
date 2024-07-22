@@ -3118,7 +3118,9 @@
         id="elementor-admin-bar-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
+    </script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
 
