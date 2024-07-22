@@ -1249,16 +1249,16 @@
                                                     <div class="wpr-member-media">
                                                         <div class="wpr-member-image">
                                                             <img decoding="async"
-                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/pexels-dziana-hasanbekava-scaled-1.jpg"
-                                                                alt="Annabelle Perry">
+                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Nihala.jpg"
+                                                                alt="Nihala PP">
                                                         </div>
                                                     </div>
 
 
                                                     <div class="wpr-member-content">
-                                                        <h3 class="wpr-member-name">Annabelle Perry</h3>
+                                                        <h3 class="wpr-member-name">Nihala PP</h3>
 
-                                                        <div class="wpr-member-job">Architect</div>
+                                                        <div class="wpr-member-job">Software Developer</div>
 
 
 
