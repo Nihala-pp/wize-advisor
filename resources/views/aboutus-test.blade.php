@@ -3156,5 +3156,10 @@
     height: 263px;
     width: 61%;
 }
+
+.elementor-7317 .elementor-element.elementor-element-f63534a:not(.elementor-motion-effects-element-type-background), .elementor-7317 .elementor-element.elementor-element-f63534a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    overflow: hidden;
+    background-color: #000000;
+}
 </style>
 </html>
