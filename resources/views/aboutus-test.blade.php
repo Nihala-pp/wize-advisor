@@ -1081,56 +1081,77 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4-70.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3-70.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1-70.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp)">
 
 
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/Lucile-Rio-Business-Developer-4.png)">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp)">
+
+
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="elementor-carousel-image"
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp)">
+
+
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="elementor-carousel-image"
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp)">
+
+
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="elementor-carousel-image"
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp)">
 
 
                                                 </div>
@@ -1148,7 +1169,8 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://wiseadvizor.com/be-a-mentor">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="https://wiseadvizor.com/be-a-mentor">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
@@ -1583,7 +1605,8 @@
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
                                                         <p class="elementor-heading-title elementor-size-default"><a
-                                                                href="https://wiseadvizor.com/how-it-works">How it Works</a></p>
+                                                                href="https://wiseadvizor.com/how-it-works">How it
+                                                                Works</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3180,7 +3203,8 @@ i.fas.fa-bell.fa-2xl {
     background-color: #000000;
 }
 
-body.elementor-page-7317:not(.elementor-motion-effects-element-type-background), body.elementor-page-7317 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+body.elementor-page-7317:not(.elementor-motion-effects-element-type-background),
+body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
     margin: auto;
     /* width: 150%; */
