@@ -541,9 +541,9 @@
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
-    <link rel='stylesheet' id='wpforms-admin-bar-css'
+    <!-- <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
-        media='all' />
+        media='all' /> -->
     <style id='wpforms-admin-bar-inline-css'>
     #wpadminbar .wpforms-menu-notification-counter,
     #wpadminbar .wpforms-menu-notification-indicator {
