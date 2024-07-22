@@ -879,7 +879,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_header_footer page page-id-7478 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7478">
+    class="page-template page-template-elementor_header_footer page page-id-7478 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7478">
     <script>
     (function() {
         var request, b = document.body,
@@ -2347,81 +2347,6 @@
                         </div>
                     </footer>
             </div><!-- #page -->
-            <div id="zip-ai-sidebar-admin-trigger"></div>
-            <div id="zip-ai-sidebar"></div>
-            <script>
-            document.body.classList.remove("no-js");
-            </script>
-            <script>
-            if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
-                document.body.classList.add('is-IE');
-            }
-            </script>
-            <script type="text/template" id="tmpl-elementor-templates-modal__header">
-                <div class="elementor-templates-modal__header__logo-area"></div>
-	<div class="elementor-templates-modal__header__menu-area"></div>
-	<div class="elementor-templates-modal__header__items-area">
-		<# if ( closeType ) { #>
-			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
-				<# if ( 'skip' === closeType ) { #>
-				<span>Skip</span>
-				<# } #>
-				<i class="eicon-close" aria-hidden="true"></i>
-				<span class="elementor-screen-only">Close</span>
-			</div>
-		<# } #>
-		<div id="elementor-template-library-header-tools"></div>
-	</div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
-                <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
-		<i class="eicon-elementor"></i>
-	</span>
-	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
-</script>
-            <script type="text/template" id="tmpl-elementor-finder">
-                <div id="elementor-finder__search">
-		<i class="eicon-search" aria-hidden="true"></i>
-		<input id="elementor-finder__search__input" placeholder="Type to find anything in Elementor" autocomplete="off">
-	</div>
-	<div id="elementor-finder__content"></div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-finder-results-container">
-                <div id="elementor-finder__no-results">No Results Found</div>
-	<div id="elementor-finder__results"></div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-finder__results__category">
-                <div class="elementor-finder__results__category__title">{{{ title }}}</div>
-	<div class="elementor-finder__results__category__items"></div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-finder__results__item">
-                <a href="{{ url }}" class="elementor-finder__results__item__link">
-		<div class="elementor-finder__results__item__icon">
-			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
-		</div>
-		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
-		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
-		<# } #>
-
-		<# if ( lock ) { #>
-		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
-		<# } #>
-	</a>
-	<# if ( actions.length ) { #>
-		<div class="elementor-finder__results__item__actions">
-		<# jQuery.each( actions, function() { #>
-			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
-				<i class="eicon-{{{ this.icon }}}"></i>
-			</a>
-		<# } ); #>
-		</div>
-	<# } #>
-</script>
             <link rel='stylesheet' id='hfe-widgets-style-css'
                 href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
                 media='all' />
