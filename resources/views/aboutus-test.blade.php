@@ -1260,12 +1260,8 @@
 
                                                         <div class="wpr-member-job">Software Developer</div>
 
-
-
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
