@@ -16,6 +16,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\weeklySlotUpdateController;
 use App\Http\Controllers\CompletedCallsMailController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Auth\Events\PasswordReset;
 
@@ -234,3 +235,10 @@ Route::controller(UserController::class)
         Route::post('/save-password', 'savePassword')->name('password.save');
         Route::get('/my-reviews', 'listReviews')->name('reviews.list');
     });
+
+
+
+   //***             Test Routes               ****///
+
+
+   Route::get('aboutus-test', [TestController::class, 'aboutuspage'])->name('about-test');
