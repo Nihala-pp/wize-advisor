@@ -879,7 +879,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_header_footer page page-id-7478 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7478">
+    class="page-template page-template-elementor_header_footer page page-id-7478 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1  elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7478">
         <!-- <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main"> -->
