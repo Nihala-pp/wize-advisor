@@ -497,6 +497,8 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1719392983' media='all' />
     <link rel='stylesheet' id='elementor-post-7317-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7317.css?ver=1720441384' media='all' />
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
     <link rel='stylesheet' id='elementor-post-32-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
@@ -754,7 +756,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-7317 wp-embed-responsive ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1  elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-7317">
-    
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="7317" class="elementor elementor-7317">
@@ -3146,9 +3148,11 @@
     width: 61%;
 }
 
-.elementor-7317 .elementor-element.elementor-element-f63534a:not(.elementor-motion-effects-element-type-background), .elementor-7317 .elementor-element.elementor-element-f63534a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-7317 .elementor-element.elementor-element-f63534a:not(.elementor-motion-effects-element-type-background),
+.elementor-7317 .elementor-element.elementor-element-f63534a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     overflow: hidden;
     background-color: #000000;
 }
 </style>
+
 </html>
