@@ -3143,6 +3143,32 @@
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
 </body>
 <style>
+.resource-button {
+    background-color: #fff !important;
+}
+
+i.fas.fa-chevron-down {
+    margin-top: -15px !important;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+    /* Margin-top: 7px; */
+}
+
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+    background-color: #fff;
+    color: #001E64 !important;
+}
+
 .elementor-7317 .elementor-element.elementor-element-80e6f82 .elementor-main-swiper {
     height: 263px;
     width: 61%;
