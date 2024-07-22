@@ -1060,7 +1060,7 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://wiseadvizor.com/be-a-mentor-test">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
@@ -1160,7 +1160,7 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://wiseadvizor.com/registration">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get started</span>
