@@ -3481,6 +3481,11 @@
 
 </html>
 <style>
+.elementor-7046 .elementor-element.elementor-element-55e59a87>.elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+    margin-top: -20px;
+}
+
 .resource-button {
     background-color: #fff !important;
 }
