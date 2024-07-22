@@ -754,20 +754,9 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-7317 wp-embed-responsive ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1  elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-7317">
-    <script>
-    (function() {
-        var request, b = document.body,
-            c = 'className',
-            cs = 'customize-support',
-            rcs = new RegExp('(^|\\s+)(no-)?' + cs + '(\\s+|$)');
+    
+    @include('partials.header-common')
 
-        request = true;
-
-        b[c] = b[c].replace(rcs, ' ');
-        // The customizer requires postMessage and CORS (if the site is cross domain).
-        b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
-    }());
-    </script>
     <div data-elementor-type="wp-page" data-elementor-id="7317" class="elementor elementor-7317">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-7bb951300 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
