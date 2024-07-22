@@ -1085,7 +1085,7 @@
             href="https://web.wiseadvizor.com/wp-login.php?action=logout&#038;_wpnonce=d7863c09bb">Log Out</a>
     </div> -->
 
-    <div id="page" class="site">
+    <!-- <div id="page" class="site"> -->
         <!-- <a class="skip-link screen-reader-text" href="#content">
             Skip to content </a>
 
