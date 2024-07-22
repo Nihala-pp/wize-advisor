@@ -1040,18 +1040,13 @@
                                         <p class="elementor-icon-box-description">
                                             Want to be a mentor or want to know more about wiseAdvizor,
                                             fill the below form and we'll be get back to you soon. </p>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-c4e0a17 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
                             data-id="c4e0a17" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
-
-
-
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://wiseadvizor.com/be-a-mentor-test">
 
@@ -1061,10 +1056,7 @@
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
                                         </span>
                                     </a>
-
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
