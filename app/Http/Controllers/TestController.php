@@ -17,8 +17,8 @@ class TestController extends Controller
         return view('aboutus-test');
     }
 
-    public function browsementor()
+    public function beAMentor()
     {
-        return view('browse-mentor-test');
+        return view('be-a-mentor-test');
     }
 }
