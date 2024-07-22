@@ -236,8 +236,6 @@ Route::controller(UserController::class)
         Route::get('/my-reviews', 'listReviews')->name('reviews.list');
     });
 
-
-
    //***             Test Routes               ****///
 
    Route::get('aboutus-test', [TestController::class, 'aboutuspage'])->name('about-test');
