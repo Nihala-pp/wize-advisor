@@ -3519,12 +3519,6 @@ i.fas.fa-bell.fa-2xl {
     color: #001E64 !important;
 }
 
-.elementor-7317 .elementor-element.elementor-element-10cf8180 > .elementor-widget-container {
-    padding: 15px 15px 15px 15px;
-    background-color: #4285F4;
-    box-shadow: 0px 0px 7px 0px rgba(159, 159, 159, 0.18);
-}
-
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
