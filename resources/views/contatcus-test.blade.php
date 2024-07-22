@@ -1003,7 +1003,7 @@
                             data-id="170c1ad" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="mailto:?subject=Contact us&amp;body= Have a query">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Contact</span>
 
@@ -1104,7 +1104,7 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="mailto:?subject=Send proposal&amp;body= Have a query">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Send proposal</span>
