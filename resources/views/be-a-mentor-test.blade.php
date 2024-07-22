@@ -2671,9 +2671,9 @@
 				<!-- <# if ( 'skip' === closeType ) { #> -->
 				<!-- <span>Skip</span> --> 
 				<!-- <# } #>
-				<i class="eicon-close" aria-hidden="true"></i>
-				<span class="elementor-screen-only">Close</span>
-			</div> --> 
+				  <i class="eicon-close" aria-hidden="true"></i> -->
+				<!-- <span class="elementor-screen-only">Close</span> --> 
+			<!-- </div> -->  
 		<!-- <# } #> --> 
             <!-- <div id="elementor-template-library-header-tools"></div>
 	</div>
