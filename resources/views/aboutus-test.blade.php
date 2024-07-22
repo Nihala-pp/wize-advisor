@@ -1233,19 +1233,19 @@
                                 <div
                                     class="wpr-sharing-buttons elementor-grid wpr-sharing-official wpr-sharing-label-off wpr-sharing-icon-tr wpr-sharing-label-tr">
                                     <div class="elementor-grid-item"><a
-                                            href="https://www.facebook.com/sharer.php?u=https://wiseadvizor.com/elementor-7317/"
+                                            href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
                                             class="wpr-sharing-icon wpr-sharing-facebook-f" title="" target="_blank"><i
                                                 class="fab fa-facebook-f"></i></a></div>
                                     <div class="elementor-grid-item"><a
-                                            href="https://twitter.com/intent/tweet?url=https://wiseadvizor.com/elementor-7317/"
+                                            href="https://x.com/WiseAdvizor"
                                             class="wpr-sharing-icon wpr-sharing-twitter" title="" target="_blank"><i
                                                 class="fab fa-twitter"></i></a></div>
                                     <div class="elementor-grid-item"><a
-                                            href="mailto:?subject=About us New design&body=https://wiseadvizor.com/elementor-7317/"
+                                            href="mailto:?subject=About us&body=https://wiseadvizor.com/elementor-7317/"
                                             class="wpr-sharing-icon wpr-sharing-envelope" title="" target="_blank"><i
                                                 class="fas fa-envelope"></i></a></div>
                                     <div class="elementor-grid-item"><a
-                                            href="https://www.linkedin.com/shareArticle?mini=true&url=https://wiseadvizor.com/elementor-7317/&title=About us New design&summary=How wiseAdvizor.com | started? WiseAdvizor was born from a simple idea: to connect ambition with expertise. Inspired by our own journey in entrepreneurship, we saw the need for a platform that offers personalized mentorship in a transparent and empowering way. Unlike traditional mentorship models, WiseAdvizor offers a dynamic and inclusive platform where mentors and mentees&hellip; &lt;a class=&quot;more-link&quot; href=&quot;https://wiseadvizor.com/elementor-7317/&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;About us New design&lt;/span&gt;&lt;/a&gt;&source=https://wiseadvizor.com/elementor-7317/"
+                                            href="https://www.linkedin.com/company/wiseadvizor/"
                                             class="wpr-sharing-icon wpr-sharing-linkedin-in" title="" target="_blank"><i
                                                 class="fab fa-linkedin-in"></i></a></div>
                                 </div>
