@@ -3196,6 +3196,12 @@
     background-color: #fff !important;
 }
 
+ehf-header #masthead {
+    margin-top: -35px;
+    z-index: 99;
+    position: relative;
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
