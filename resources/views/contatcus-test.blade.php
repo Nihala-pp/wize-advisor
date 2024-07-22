@@ -1002,22 +1002,15 @@
                         <div class="elementor-element elementor-element-170c1ad wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
                             data-id="170c1ad" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
-
-
-
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
-
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Contact</span>
 
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
                                         </span>
                                     </a>
-
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
