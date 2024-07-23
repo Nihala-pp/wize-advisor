@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Become a Mentor| Ignite Business Growth Today - wiseAdvizor</title>
+    <title>how to be a mentor| Ignite Business Growth Today - wiseAdvizor</title>
     <meta name="description"
-        content="Be a mentor on wiseAdvizor, help entrepreneurs on their business growth. Share your expertise, guide them in crafting their startup stories.">
+        content="learn how to be a mentor on wiseAdvizor, help entrepreneurs on their business growth. Share your expertise, guide them in crafting their startup stories.">
     <meta name="keywords" content="how to be a mentor, benefits of being a mentor, Become a Mentor">
     <meta name="description"
         content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
