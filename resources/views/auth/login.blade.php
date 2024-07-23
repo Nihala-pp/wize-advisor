@@ -26,7 +26,7 @@
 @if($id && $token)
 <link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
 @elseif($id && $name)
-<link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $name }}">
+<link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $mentor }}">
 @else
 <link rel="canonical" href="https://wiseadvizor.com/login">
 @endif
