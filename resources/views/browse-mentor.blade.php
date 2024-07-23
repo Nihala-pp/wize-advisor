@@ -1603,7 +1603,8 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano filter-section"
             data-id="2aff472" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and strategic advice.
+            <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and
+                strategic advice.
             </h1>
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
@@ -3519,7 +3520,6 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
-
 .filter-section h1 {
     font-size: 20px;
     background-color: #F3EEF5;
@@ -4600,6 +4600,18 @@ i.fas.fa-bell.fa-2xl {
         --e-column-margin-right: 100px;
         --e-column-margin-left: 100px;
         padding: 75px 0px 25px 0px;
+    }
+
+    .filter-section h1 {
+        text-align: center;
+        font-size: 20px;
+        background-color: #F3EEF5;
+        color: #262626;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 25px;
+        padding: 35px 95px 25px 0px;
     }
 }
 
