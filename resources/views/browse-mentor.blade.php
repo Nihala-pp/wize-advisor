@@ -1604,6 +1604,8 @@
             data-id="2aff472" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
+                <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and strategic advice.
+                </h1>
                 <div class="container">
                     <form class="filterForm">
                         <div class="row">
