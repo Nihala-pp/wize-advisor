@@ -7,7 +7,7 @@
 <title>Become a Mentor| Ignite Business Growth Today - wiseAdvizor</title>
 <meta name="description"
     content="Be a mentor on wiseAdvizor, help entrepreneurs on their business growth. Share your expertise, guide them in crafting their startup stories.">
-<meta name="keywords" content="business growth, startup stories, Become a Mentor">
+<meta name="keywords" content="Become a Mentor, business growth, startup stories">
 <meta name="description"
     content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
 <meta property="og:locale" content="en_US" />
