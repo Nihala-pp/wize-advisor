@@ -3820,7 +3820,7 @@
                                 <div class="elementor-widget-container">
                                     <ul>
                                         @foreach($articles as $article)
-                                        <li><a href="{{ $article->name }}">{{ $article->name }}</a></li>
+                                        <li><a href="{{ $article->name }}">{{ $article->title }}</a></li>
                                         @endforeach
                                         <!-- <li>https://www.sada-elarab.com/166309</li>
                                     <li>https://alnaasher.com/archives/83532</li>
