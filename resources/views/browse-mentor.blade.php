@@ -1604,7 +1604,7 @@
             data-id="2aff472" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and strategic advice.
-                </h1>qw
+            </h1>
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <form class="filterForm">
@@ -3519,6 +3519,18 @@
     <!--End of Tawk.to Script-->
 </body>
 <style>
+
+.filter-section h1 {
+    font-size: 20px;
+    background-color: #F3EEF5;
+    color: #000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 35px 0 0px 160px;
+}
+
 .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
 .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item:first-letter {
     text-transform: none !important;
