@@ -3237,8 +3237,8 @@
     </script> -->
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
         id="wp-deprecated-js"></script> -->
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
+    </script> -->
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6"
         id="wp-escape-html-js"></script> -->
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
