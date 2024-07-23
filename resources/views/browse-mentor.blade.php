@@ -3528,7 +3528,7 @@
     font-size: 18px;
     font-weight: 800;
     line-height: 25px;
-    padding: 35px 0 35px 160px;
+    padding: 35px 0 35px 150px;
 }
 
 .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
