@@ -15,7 +15,7 @@
     gtag('config', 'G-QC47PPTD6T');
     </script>
     <meta charset="UTF-8">
-    <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 50)  }}|Mentorship Platform </title>
+    <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 40)  }}|Mentorship Platform </title>
     <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
     <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
     <meta name="description"
