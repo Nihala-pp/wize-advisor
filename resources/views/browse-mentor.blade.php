@@ -3523,7 +3523,7 @@
 .filter-section h1 {
     font-size: 20px;
     background-color: #F3EEF5;
-    color: #000;
+    color: #262626;
     font-family: "Helvetica", Sans-serif;
     font-size: 20px;
     font-weight: 700;
