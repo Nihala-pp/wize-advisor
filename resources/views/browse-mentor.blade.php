@@ -1614,7 +1614,7 @@
                                 <!-- <label>Select with Button Class</label> -->
                                 <select id="expertise" class="selectpicker" data-style="btn-info"
                                     name="filters[expertise]">
-                                    <option value="">Exp45t45tertise</option>
+                                    <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
                                     <option value="{{ $expert->name }}"
                                         {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
