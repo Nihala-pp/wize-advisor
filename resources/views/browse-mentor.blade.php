@@ -1603,9 +1603,9 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano filter-section"
             data-id="2aff472" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and
+            <!-- <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and
                 strategic advice.
-            </h1>
+            </h1> -->
             <div class="elementor-container elementor-column-gap-default">
                 <div class="container">
                     <form class="filterForm">
@@ -1614,7 +1614,7 @@
                                 <!-- <label>Select with Button Class</label> -->
                                 <select id="expertise" class="selectpicker" data-style="btn-info"
                                     name="filters[expertise]">
-                                    <option value="">Expertise</option>
+                                    <option value="">Exp45t45tertise</option>
                                     @foreach($expertise as $expert)
                                     <option value="{{ $expert->name }}"
                                         {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
