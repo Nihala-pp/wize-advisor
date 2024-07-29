@@ -3368,6 +3368,10 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         margin-top: -80px;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-4b16e5b>.elementor-widget-container {
+        padding: 20px 0px 0px 5px;
+    }
+
 
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
