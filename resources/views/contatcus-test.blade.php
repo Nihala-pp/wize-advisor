@@ -3244,6 +3244,12 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -50px;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-2b3679d8:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor-7478 .elementor-element.elementor-element-2b3679d8>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #161616;
+        margin-top: -50px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
