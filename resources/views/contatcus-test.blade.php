@@ -3362,10 +3362,21 @@ i.fas.fa-bell.fa-2xl {
         margin: 0px 30px 0px 30px;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-a3c6108 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: -50px;
+    }
 
-
-
-
+    .elementor-7478 .elementor-element.elementor-element-a3c6108 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: -50px;
+    }
 
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
@@ -3443,7 +3454,7 @@ padding-left: 20px;
         border-radius: 7px 7px 7px 7px;
     }
 
-    
+
     /* .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
