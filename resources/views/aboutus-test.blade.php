@@ -3346,6 +3346,23 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         color: #001E64 !important;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-56f0be6a {
+        color: #FFFFFF;
+        font-family: "Raleway", Sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+    }
+
+    .elementor-7317 .elementor-element.elementor-element-56f0be6a {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        padding-left: 20px;
+    }
+
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
@@ -3374,25 +3391,9 @@ margin-bottom: 10px;
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .elementor-7317 .elementor-element.elementor-element-56f0be6a {
-        color: #FFFFFF;
-        font-family: "Raleway", Sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 23px;
-        letter-spacing: 0.3px;
-        padding-left: 10px;
-    }
-
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
         margin-left: -60px;
-    }
-
-    .elementor-7317 .elementor-element.elementor-element-56f0be6a {
-        font-size: 12px;
-        letter-spacing: 0.3px;
-        padding-left: 20px;
     }
 
     .wp-image-624 {
