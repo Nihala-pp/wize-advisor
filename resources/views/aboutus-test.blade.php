@@ -3405,6 +3405,18 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         font-family: "Helvetica", sans-serif;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-15ec15d .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .elementor-7317 .elementor-element.elementor-element-15ec15d {
+        text-align: center;
+        margin-top: -40px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
