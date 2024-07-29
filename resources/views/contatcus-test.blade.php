@@ -3321,6 +3321,16 @@ i.fas.fa-bell.fa-2xl {
         margin: 40px;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-description {
+        color: #B9B9B9;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+        margin: 0px;
+        padding-left: 65px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
