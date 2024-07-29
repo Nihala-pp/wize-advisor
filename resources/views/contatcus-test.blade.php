@@ -3257,6 +3257,16 @@ i.fas.fa-bell.fa-2xl {
         margin: 20px;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-c4e0a17>.elementor-widget-container {
+        margin: 4px 0px 0px 50px;
+        padding: 0px 0px 0px 55px;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-170c1ad>.elementor-widget-container {
+        margin: -14px 0px 0px 60px;
+        padding: 0px 0px 0px 55px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
