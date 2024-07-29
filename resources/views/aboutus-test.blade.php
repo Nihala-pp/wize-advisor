@@ -3448,6 +3448,13 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         font-family: 'helvetica', sans-serif;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-ef07943 .wpr-button-text {
+        /* -webkit-justify-content: center; */
+        justify-content: center;
+        color: #ffffff;
+        font-family: 'Helvetica', sans-serif;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
