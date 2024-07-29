@@ -3434,6 +3434,14 @@ padding-left: 20px;
         border-radius: 7px 7px 7px 7px;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-748405b .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "helvetica", Sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 0px 30px 0px 30px;
+    }
+
     /* .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #FFFFFF;
