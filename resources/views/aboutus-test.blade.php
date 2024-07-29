@@ -1236,8 +1236,7 @@
                                             href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
                                             class="wpr-sharing-icon wpr-sharing-facebook-f" title="" target="_blank"><i
                                                 class="fab fa-facebook-f"></i></a></div>
-                                    <div class="elementor-grid-item"><a
-                                            href="https://x.com/WiseAdvizor"
+                                    <div class="elementor-grid-item"><a href="https://x.com/WiseAdvizor"
                                             class="wpr-sharing-icon wpr-sharing-twitter" title="" target="_blank"><i
                                                 class="fab fa-twitter"></i></a></div>
                                     <div class="elementor-grid-item"><a
@@ -3248,13 +3247,19 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
     /* width: 150%; */
 }
 
-.elementor-7317 .elementor-element.elementor-element-10cf8180 > .elementor-widget-container {
+.elementor-7317 .elementor-element.elementor-element-10cf8180>.elementor-widget-container {
     padding: 15px 15px 15px 15px;
     background-color: #4285F4;
     box-shadow: 0px 0px 7px 0px rgba(159, 159, 159, 0.18);
 }
 
 @media (max-width: 767px) {
+
+    .ehf-header #masthead {
+        margin-top: -35px;
+        z-index: 99;
+        position: relative;
+    }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
@@ -3417,4 +3422,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>
