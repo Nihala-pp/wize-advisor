@@ -3377,7 +3377,7 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         font-family: "Helvetica", Sans-serif;
         font-size: 35px;
         font-weight: 400;
-        margin-top: -30px;
+        margin-top: -35px;
     }
 
 
