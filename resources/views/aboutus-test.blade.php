@@ -3362,6 +3362,12 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         padding-left: 20px;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-1c35c18:not(.elementor-motion-effects-element-type-background),
+    .elementor-7317 .elementor-element.elementor-element-1c35c18>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #000000;
+        margin-top: -65px;
+    }
+
 
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
