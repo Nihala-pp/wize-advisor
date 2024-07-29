@@ -3318,7 +3318,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-7478 .elementor-element.elementor-element-63129fa>.elementor-element-populated>.elementor-background-overlay,
     .elementor-7478 .elementor-element.elementor-element-63129fa>.elementor-background-slideshow {
         border-radius: 16px 16px 16px 16px;
-        margin: 40px;
+        margin: -50px 40px 0px 40px;
     }
 
     .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-description {
@@ -3330,6 +3330,33 @@ i.fas.fa-bell.fa-2xl {
         margin: 0px;
         padding-left: 65px;
     }
+
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-title,
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-title a {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 250px;
+        padding-left: 60px;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-title,
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-title a {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 250px;
+        padding-left: 70px;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon {
+        font-size: 28px;
+        padding-left: 60px;
+    }
+
+
+
+
 
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
