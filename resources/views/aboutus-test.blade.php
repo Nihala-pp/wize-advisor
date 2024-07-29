@@ -3356,6 +3356,13 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         padding-left: 10px;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-15ec15d .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
     .elementor-7317 .elementor-element.elementor-element-56f0be6a {
         font-size: 12px;
         letter-spacing: 0.3px;
