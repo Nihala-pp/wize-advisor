@@ -3380,6 +3380,10 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         margin-top: -35px;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-5402054b .wpr-member-job {
+        font-size: 14px;
+        font-family: sans-serif, helvetica;
+    }
 
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
