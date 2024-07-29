@@ -3417,6 +3417,13 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         margin-top: -40px;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-6575132 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Roboto", Sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
