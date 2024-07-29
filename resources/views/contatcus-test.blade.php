@@ -1003,7 +1003,8 @@
                             data-id="170c1ad" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="mailto:?subject=Contact us&amp;body= Have a query">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="mailto:?subject=Contact us&amp;body= Have a query">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Contact</span>
 
@@ -1048,7 +1049,8 @@
                             data-id="c4e0a17" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://wiseadvizor.com/be-a-mentor-test">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="https://wiseadvizor.com/be-a-mentor-test">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
@@ -1104,7 +1106,8 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="mailto:?subject=Send proposal&amp;body= Have a query">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="mailto:?subject=Send proposal&amp;body= Have a query">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Send proposal</span>
@@ -1145,7 +1148,8 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://wiseadvizor.com/registration">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="https://wiseadvizor.com/registration">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get started</span>
@@ -1187,8 +1191,7 @@
                                             href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
                                             class="wpr-sharing-icon wpr-sharing-facebook-f" title="" target="_blank"><i
                                                 class="fab fa-facebook-f"></i></a></div>
-                                    <div class="elementor-grid-item"><a
-                                            href="https://x.com/WiseAdvizor"
+                                    <div class="elementor-grid-item"><a href="https://x.com/WiseAdvizor"
                                             class="wpr-sharing-icon wpr-sharing-twitter" title="" target="_blank"><i
                                                 class="fab fa-twitter"></i></a></div>
                                     <div class="elementor-grid-item"><a
@@ -3228,6 +3231,17 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
         color: #001E64 !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #FFFFFF;
+        margin-top: -50px;
     }
 
     /* i.fas.fa-bell.fa-2xl {
