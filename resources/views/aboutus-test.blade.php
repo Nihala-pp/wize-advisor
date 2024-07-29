@@ -3506,7 +3506,7 @@ margin-bottom: 10px;
 
     .elementor-7317 .elementor-element.elementor-element-4b16e5b .elementor-heading-title {
         font-size: 12px;
-        margin-top: -60px;
+        margin-top: -50px;
         font-family: 'Helvetica', sans-serif;
     }
 
