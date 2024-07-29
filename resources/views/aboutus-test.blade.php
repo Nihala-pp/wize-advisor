@@ -3424,6 +3424,30 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         font-weight: 400;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-4b16e5b .elementor-heading-title {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        font-family: 'Helvetica', sans-serif;
+    }
+
+    .elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-anim-text {
+        font-family: 'Helvetica', sans-serif;
+        color: #FFFFFF;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-advanced-text-preffix {
+        color: #FFFFFF;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: 'Helvetica', sans-serif;
+    }
+
+    .elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-advanced-text-suffix {
+        color: #FFFFFF;
+        font-family: 'helvetica', sans-serif;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
