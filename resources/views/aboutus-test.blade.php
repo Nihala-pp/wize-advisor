@@ -3378,6 +3378,12 @@ margin-bottom: 10px;
         margin-left: -60px;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-56f0be6a {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        padding-left: 22.5px;
+    }
+
     .wp-image-624 {
         width: 100%;
         height: 15.02%;
@@ -3428,4 +3434,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>
