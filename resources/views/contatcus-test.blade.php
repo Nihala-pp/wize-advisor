@@ -3248,6 +3248,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-7478 .elementor-element.elementor-element-2b3679d8>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #161616;
         margin-top: -50px;
+        margin-left: 20px;
     }
 
     /* i.fas.fa-bell.fa-2xl {
