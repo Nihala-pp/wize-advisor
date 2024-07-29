@@ -3261,6 +3261,12 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         position: relative;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #FFFFFF;
+        margin-top: -35px;
+    }
+
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
@@ -3422,5 +3428,4 @@ margin-bottom: 10px;
     } */
 }
 </style>
-
 </html>
