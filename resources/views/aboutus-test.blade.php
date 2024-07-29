@@ -3419,7 +3419,7 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
 
     .elementor-7317 .elementor-element.elementor-element-6575132 .elementor-heading-title {
         color: #FFFFFF;
-        font-family: "Roboto", Sans-serif;
+        font-family: "Helvetica", Sans-serif;
         font-size: 20px;
         font-weight: 400;
     }
