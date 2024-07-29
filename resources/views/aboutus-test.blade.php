@@ -3365,7 +3365,7 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-7317 .elementor-element.elementor-element-1c35c18:not(.elementor-motion-effects-element-type-background),
     .elementor-7317 .elementor-element.elementor-element-1c35c18>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #000000;
-        margin-top: -65px;
+        margin-top: -75px;
     }
 
 
