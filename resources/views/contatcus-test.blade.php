@@ -3267,6 +3267,13 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 55px;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-465b197 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
