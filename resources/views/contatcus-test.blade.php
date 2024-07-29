@@ -3281,6 +3281,46 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 600;
     }
 
+    .elementor-7478 .elementor-element.elementor-element-9256819>.elementor-widget-container {
+        padding: 0px 0px 0px 70px;
+        background-color: #000000;
+        border-style: none;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-description {
+        color: #B9B9B9;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-9256819>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        background-color: #000000;
+        border-style: none;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-476ef86>.elementor-widget-container {
+        margin: 4px 0px 0px 100px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-title,
+    .elementor-7478 .elementor-element.elementor-element-9256819 .elementor-icon-box-title a {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 250px;
+    }
+
+    .elementor-7478 .elementor-element.elementor-element-63129fa>.elementor-element-populated,
+    .elementor-7478 .elementor-element.elementor-element-63129fa>.elementor-element-populated>.elementor-background-overlay,
+    .elementor-7478 .elementor-element.elementor-element-63129fa>.elementor-background-slideshow {
+        border-radius: 16px 16px 16px 16px;
+        margin: 40px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
