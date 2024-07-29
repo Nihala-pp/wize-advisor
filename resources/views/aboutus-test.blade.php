@@ -3385,6 +3385,11 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         font-family: Helvetica, Sans-serif;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-5402054b .wpr-member-name {
+        font-size: 24px;
+        font-family: helvetica, sans-serif;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
