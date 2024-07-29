@@ -3373,6 +3373,17 @@ margin-bottom: 10px;
 @media (min-width: 540px) {}
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .elementor-7317 .elementor-element.elementor-element-56f0be6a {
+        color: #FFFFFF;
+        font-family: "Raleway", Sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
         padding: 25px 10px 0px 0px;
         margin-left: -60px;
