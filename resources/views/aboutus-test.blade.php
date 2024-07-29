@@ -3455,6 +3455,16 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
         font-family: 'Helvetica', sans-serif;
     }
 
+    .elementor-7317 .elementor-element.elementor-element-10cf8180 .wpr-member-job {
+        color: #BABABA;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        margin: 0 0 10px;
+        text-align: center;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
