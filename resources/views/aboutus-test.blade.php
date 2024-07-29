@@ -3348,7 +3348,7 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
 
     .elementor-7317 .elementor-element.elementor-element-56f0be6a {
         color: #FFFFFF;
-        font-family: Helvetica, Sans-serif;
+        font-family: "Helvetica", sans-serif;        
         font-size: 18px;
         font-weight: 500;
         line-height: 23px;
@@ -3374,7 +3374,7 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
 
     .elementor-7317 .elementor-element.elementor-element-4d10ef8 .elementor-heading-title {
         color: #FFFFFF;
-        font-family: Helvetica, Sans-serif;
+        font-family: "Helvetica", sans-serif;
         font-size: 35px;
         font-weight: 400;
         margin-top: -35px;
@@ -3382,13 +3382,13 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
 
     .elementor-7317 .elementor-element.elementor-element-5402054b .wpr-member-job {
         font-size: 14px;
-        font-family: Helvetica, Sans-serif;
-    }
+        font-family: "Helvetica", sans-serif;
+    }    
 
     .elementor-7317 .elementor-element.elementor-element-5402054b .wpr-member-name {
         font-size: 24px;
-        font-family: helvetica, sans-serif;
-    }
+        font-family: "Helvetica", sans-serif;
+    }    
 
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
