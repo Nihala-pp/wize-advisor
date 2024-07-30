@@ -1281,237 +1281,7 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg> -->
-
+    
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772">
@@ -2187,35 +1957,6 @@
         sibling.parentElement.insertBefore(skipLink, sibling);
     }());
     </script>
-    <!-- <script
-            src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
-            id="niso-carousel-owl.min-js"></script>
-        <script
-            src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
-            id="jquery.mousewheel.min-js"></script>
-        <script
-            src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
-            id="niso-carousel-lightbox.min-js"></script>
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2') }}" id="jquery-ui-core-js">
-        </script>
-        <script id="qi-addons-for-elementor-script-js-extra">
-        var qodefQiAddonsGlobal = {
-            "vars": {
-                "adminBarHeight": 0,
-                "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
-                "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
-                "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
-            }
-        };
-        </script>
-        <script src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
-            id="qi-addons-for-elementor-script-js"></script>
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
-        </script>
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
-        </script>
-        <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
-            id="theplus-front-js-js" defer></script> -->
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
         id="wpr-particles-js"></script>
@@ -2357,28 +2098,6 @@
     </script>
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
-            id="wp-polyfill-inert-js"></script>
-        <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
-            id="regenerator-runtime-js"></script>
-        <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}"
-            id="wp-polyfill-js">
-        </script>
-        <script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
-        </script>
-        <script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
-        </script>
-        <script id="wp-i18n-js-after">
-        wp.i18n.setLocaleData({
-            'text directionltr': ['ltr']
-        });
-        </script>
-        <script
-            src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2') }}"
-            id="qi-addons-for-elementor-elementor-js"></script>
-        <script
-            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-            id="elementor-pro-webpack-runtime-js"></script> -->
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
         "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -2468,9 +2187,6 @@
         id="elementor-pro-frontend-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2') }}"
         id="pro-elements-handlers-js"></script>
-    <!-- <script
-            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-            id="e-sticky-js"></script> -->
     <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
         id="wpr-addons-js-js"></script>
@@ -2495,10 +2211,6 @@
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -2507,14 +2219,10 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
     </script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js">
-        </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
-    <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}">
-        </script> -->
     <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
@@ -2549,119 +2257,9 @@
                     }
                 });
             });
-
-            // $('#name').on('change', function() {
-            //     var name = $(this).val();
-            //     var filter = "name";
-            //     return $.ajax({
-            //         type: 'GET',
-            //         url: "{{ route('browseMentor', '') }}" + "/" + name + "/" +
-            //             filter + "",
-            //         data: {
-            //             "slug": "name",
-            //             "_token": "{{ csrf_token() }}",
-            //         },
-            //         success: function(response) {
-            //             $('.mentors').html(response);
-            //             $('.mentorsList').hide();
-            //         }
-            //     });
-            // });
-
-            // $('#price').on('change', function() {
-            //     var price = $(this).val();
-            //     var filter = "price";
-            //     return $.ajax({
-            //         type: 'GET',
-            //         url: "{{ route('browseMentor', '') }}" + "/" + price + "/" +
-            //             filter + "",
-            //         data: {
-            //             "slug": "name",
-            //             "_token": "{{ csrf_token() }}",
-            //         },
-            //         success: function(response) {
-            //             $('.mentors').html(response);
-            //             $('.mentorsList').hide();
-            //         }
-            //     });
-            // });
-
-            // $('#time').on('change', function() {
-            //     var time = $(this).val();
-            //     var filter = "time";
-            //     return $.ajax({
-            //         type: 'GET',
-            //         url: "{{ route('browseMentor', '') }}" + "/" + time + "/" +
-            //             filter + "",
-            //         data: {
-            //             "slug": "name",
-            //             "_token": "{{ csrf_token() }}",
-            //         },
-            //         success: function(response) {
-            //             $('.mentors').html(response);
-            //             $('.mentorsList').hide();
-            //         }
-            //     });
-            // });
-
-            // $('#date').on('change', function(ev) {
-            //     var date = $(this).val();
-            //     // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
-            //     var filter = "date";
-            //     return $.ajax({
-            //         type: 'GET',
-            //         url: "{{ route('browseMentor', '') }}" + "/" + date + "/" +
-            //             filter + "",
-            //         data: {
-            //             "slug": "name",
-            //             "_token": "{{ csrf_token() }}",
-            //         },
-            //         success: function(response) {
-            //             $('.mentors').html(response);
-            //             $('.mentorsList').hide();
-            //         }
-            //     });
-            // });
-
-            // $('#expertise').on('change', function() {
-            //     var expertise = $(this).val();
-            //     var filter = "expertise";
-            //     return $.ajax({
-            //         type: 'GET',
-            //         url: "{{ route('browseMentor', '') }}" + "/" + expertise + "/" +
-            //             filter + "",
-            //         data: {
-            //             "slug": "name",
-            //             "_token": "{{ csrf_token() }}",
-            //         },
-            //         success: function(response) {
-            //             $('.mentors').html(response);
-            //             $('.mentorsList').hide();
-            //         }
-            //     });
-            // });
-
-            // $('#sort').on('change', function() {
-            //     var sort = $(this).val();
-            //     var filter = "sortBy";
-            //     return $.ajax({
-            //         type: 'GET',
-            //         url: "{{ route('browseMentor', '') }}" + "/" + sort + "/" +
-            //             filter + "",
-            //         data: {
-            //             "slug": "name",
-            //             "_token": "{{ csrf_token() }}",
-            //         },
-            //         success: function(response) {
-            //             $('.mentors').html(response);
-            //             $('.mentorsList').hide();
-            //         }
-            //     });
-            // });
         });
     }(jQuery));
     </script>
-
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
@@ -2734,14 +2332,6 @@ span.charge {
     grid-gap: 20px;
 }
 
-/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #fff !important;
-    font-family: "Roboto", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-} */
-
 .para {
     background-color: #001E64 !important;
 }
@@ -2780,15 +2370,6 @@ span.charge {
     padding-top: 5px;
     padding-bottom: 10px;
 }
-
-/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #343F5A;
-    font-family: "Roboto", Sans-serif;
-    font-size: 23px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 30px;
-} */
 
 .selectpicker {
     background-color: #54b4d3 !important;
@@ -2873,53 +2454,7 @@ body {
             118px;
     }
 
-    /*
-input#date.form-control.selectpicker
-{
-padding-left:
-20px;
-padding-top:
-10px;
-*/
-    /*
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-100%
- !important;
-width:
-200%
- !important;
-font-size:
-0.75rem
- !important;
-*/
-    /*
-}
-*/
-    /*
-.datefilter
-{
-/*
-padding-top:
-20px;
-*/
-    /*
-margin-bottom:
-10px;
-*/
-    /*
-}
-*/
     .filters {
-        /*margin-left:*/
-        /*    95px;*/
         margin-right:
             50px;
     }
@@ -2937,34 +2472,6 @@ margin-bottom:
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
-
-    /*
-#date
-{
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-140%
- !important;
-width:
-75%
- !important;
-FONT-VARIANT:
-JIS78;
-/*
-padding-left:
-20px
- !important;
-*/
-    /*
-}
-*/
     .selectpicker {
         font-size:
             10px;
@@ -2981,10 +2488,6 @@ padding-left:
     }
 
     .butto {
-        /*
-/*
-margin-left:50px;
-*/
         padding-left:
             25px;
     }
@@ -3007,13 +2510,6 @@ screen and (min-width: 1024px) {
         margin-bottom: 0px;
         padding: 20px 20px 20px 20px;
     }
-
-    /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin-top: -47px;
-        margin-bottom: 0px;
-        padding: 20px 20px 20px 275px;
-    } */
 
     input[type="date"]:not(.has-value):before {
         color:
@@ -3054,10 +2550,6 @@ margin-top:
     div.d-grid.gap-2.col-6.butto {
         padding-left:
             80px;
-        /*
-text-align:
-right !important;
-*/
     }
 
     #date {
@@ -3180,26 +2672,11 @@ margin-left:
     }
 }
 
-/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #343F5A;
-    font-family: "Roboto", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-} */
-
 .card-deck .card {
     margin-bottom:
         50px;
 }
 
-/*
-.browseMentor
-{
-padding-right:
-20px;
-}
-*/
 i.fas.fa-bell.fa-2xl {
     font-size:
         32px !important;
@@ -3237,11 +2714,6 @@ i.fas.fa-bell.fa-2xl {
         height: 15.02%;
         max-width: 150px !important;
     }
-
-    /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
-        font-size: 40px;
-        padding-left: 20px;
-    } */
 
     dl,
     ol,
@@ -3396,14 +2868,6 @@ i.fas.fa-bell.fa-2xl {
         text-align: left;
         /* background-color: #000; */
     }
-
-
-    /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin-top: -47px;
-        margin-bottom: 0px;
-        padding: 20px 0px 20px 180px;
-    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -3490,15 +2954,6 @@ i.fas.fa-bell.fa-2xl {
         padding: 35px 5px 75px 5px;
     }
 
-    /* .search {
-        width:
-            55% !important;
-        text-align:
-            left;
-        background-color:
-            #000;
-    } */
-
     .elementor-star-rating__wrapper {
         padding-left:
             120px;
@@ -3537,19 +2992,6 @@ i.fas.fa-bell.fa-2xl {
         font-size: 15px !important;
         padding-bottom: 25px;
     }
-
-    /* input[type="date"] {
-        padding-right:
-            16px !important;
-        padding-left:
-            5px !important;
-        padding-top:
-            16px !important;
-        color:
-            #fff !important;
-        font-size:
-            12px !important;
-    } */
 
     input[type="date"]::before {
         padding-right:
@@ -3777,11 +3219,6 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-        font-family: "Roboto", Sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-    } */
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding:
@@ -3860,9 +3297,6 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 77% !important;
         text-align: left;
-        /* background-color: #000; */
-        /* margin-left: 125px
-         !important; */
     }
 }
 
