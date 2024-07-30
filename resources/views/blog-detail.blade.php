@@ -102,9 +102,6 @@
         padding: 0 !important;
     }
     </style>
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.min.css?ver=2.0'
-        media='all' /> -->
     <style id='global-styles-inline-css'>
     body {
         --wp--preset--color--black: #000000;
@@ -532,10 +529,6 @@
     <link rel='stylesheet' id='zip-ai-sidebar-css'
         href='https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.css?ver=1.1.6'
         media='all' />
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' /> -->
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.min.css?ver=2.0' media='print' /> -->
     <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
         media='all' />
@@ -616,7 +609,6 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
     <link rel="canonical" href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ $selectedBlog->title }}">
-    <!-- <link rel='shortlink' href='https://wiseadvizor.com/?p=4349' /> -->
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F" />
     <link rel="alternate" type="text/xml+oembed"
@@ -1193,124 +1185,6 @@
                     </div>
                 </div>
                 @endforeach
-                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-239d9b0"
-                    data-id="239d9b0" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-f75921d elementor-widget elementor-widget-image"
-                            data-id="f75921d" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-71d9594 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="71d9594" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a447b04"
-                                    data-id="a447b04" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-3f370dd elementor-widget elementor-widget-heading"
-                                            data-id="3f370dd" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-62b51df elementor-widget elementor-widget-heading"
-                                            data-id="62b51df" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-e47a817 elementor-widget elementor-widget-text-editor"
-                                            data-id="e47a817" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-83f4aa0 elementor-widget elementor-widget-heading"
-                                            data-id="83f4aa0" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6aff601"
-                    data-id="6aff601" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-f9fbfc2 elementor-widget elementor-widget-image"
-                            data-id="f9fbfc2" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img decoding="async" width="750" height="375"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp"
-                                    class="attachment-large size-large wp-image-6398" alt=""
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1024x512.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-300x150.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-768x384.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1536x768.webp 1536w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-2048x1024.webp 2048w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1568x784.webp 1568w, https://wiseadvizor.com/wp-content/uploads/2024/06/reasons-to-choose-project-management-as-a-career-path-1300x650.webp 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:50%;max-width:2400px" />
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-6518f1e elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="6518f1e" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-95c6121"
-                                    data-id="95c6121" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-6c26013 elementor-widget elementor-widget-heading"
-                                            data-id="6c26013" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Work
-                                                    management</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-87e654f elementor-widget elementor-widget-heading"
-                                            data-id="87e654f" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Best business
-                                                    process management software in 2024</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-fc0b0a2 elementor-widget elementor-widget-text-editor"
-                                            data-id="fc0b0a2" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                                                    tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-9aa895c elementor-widget elementor-widget-heading"
-                                            data-id="9aa895c" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Rebecca Noori
-                                                    | 4 min read</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div> -->
             </div>
         </section>
     </div>
@@ -2223,9 +2097,6 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.5.3"
         id="plus-purge-js-js"></script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
-    </script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
@@ -2235,10 +2106,6 @@
         'text direction\u0004ltr': ['ltr']
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/url.min.js?ver=b4979979018b684be209" id="wp-url-js">
-    </script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
-        id="wp-api-fetch-js"></script> -->
     <script id="wp-api-fetch-js-after">
     wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://wiseadvizor.com/wp-json/"));
     wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("8534adba64");
@@ -2246,25 +2113,6 @@
     wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
     wp.apiFetch.nonceEndpoint = "https://wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
-    </script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
-        id="wp-deprecated-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
-    </script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6"
-        id="wp-escape-html-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
-        id="wp-element-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
-        id="wp-is-shallow-equal-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
-        id="wp-keycodes-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219"
-        id="wp-priority-queue-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
-        id="wp-compose-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js"></script> -->
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June",0 "July", "August", "September",
@@ -2286,8 +2134,6 @@
         }
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
-    </script> -->
     <script id="wp-date-js-after">
     wp.date.setSettings({
         "l10n": {
@@ -2335,16 +2181,6 @@
         }
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
-        id="wp-html-entities-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
-        id="wp-primitives-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/private-apis.min.js?ver=11cb2ebaa70a9f1f0ab5"
-        id="wp-private-apis-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"
-        id="wp-redux-routine-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
-    </script> -->
     <script id="wp-data-js-after">
     (function() {
         var userId = 1;
@@ -2355,14 +2191,6 @@
             });
     })();
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/rich-text.min.js?ver=6222504ebedf0627981b"
-        id="wp-rich-text-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/warning.min.js?ver=122829a085511691f14d"
-        id="wp-warning-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/components.min.js?ver=387d6480ace3103ccd8b"
-        id="wp-components-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
-        id="wp-plugins-js"></script> -->
     <script id="zip-ai-sidebar-js-extra">
     var zip_ai_react = {
         "ajax_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -2385,9 +2213,6 @@
     document.write(
         '<script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=2.0"></scr' +
         'ipt>');
-    </script>
-    <!-- <script src="https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.min.js?ver=2.0"
-        id="twenty-twenty-one-responsive-embeds-script-js"></script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
@@ -2931,7 +2756,6 @@
         id="lightgallery_autoplay_js-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1"
         id="vimeo_player_js-js"></script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script> -->
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
         "tpgb_edit_template": []
@@ -3211,9 +3035,6 @@
         "recaptcha_type": "v2"
     };
     </script>
-    <!-- <script
-        src="https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.8.3"
-        id="wpforms-elementor-js"></script> -->
     <script id="elementor-admin-bar-js-before">
     var elementorAdminBarConfig = {
         "elementor_edit_page": {
