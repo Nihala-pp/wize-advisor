@@ -2097,6 +2097,9 @@
             </div>
         </section>
     </div>
+
+    @include('partials.footer-web')
+
     <style id="skip-link-styles">
     .skip-link.screen-reader-text {
         border: 0;
