@@ -712,7 +712,7 @@
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/7046" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.3" />
-    <link rel="canonical" href="https://wiseadvizor.com/elementor-7046/" />
+    <link rel="canonical" href="https://wiseadvizor.com/be-a-mentor-test" />
     <link rel='shortlink' href='https://wiseadvizor.com/?p=7046' />
     <link rel="alternate" type="application/json+oembed"
         href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-7046%2F" />
