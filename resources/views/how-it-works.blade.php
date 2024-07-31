@@ -3481,7 +3481,7 @@
                 notifications.insertAdjacentHTML('afterend', template.innerHTML);
             }
         };
-        document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
+        document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init, {passive: true});
     }());
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
