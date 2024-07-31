@@ -5704,8 +5704,8 @@
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
                                                 @else
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
+                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
                                                     alt="user-avatar"
                                                     srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
