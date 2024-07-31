@@ -3395,6 +3395,8 @@
                 // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
             });
 
+            window.addEventListener('touchstart', onTouchStart, {passive: true});
+
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
 
