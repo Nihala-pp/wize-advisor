@@ -249,7 +249,8 @@
         font-style: normal;
         font-weight: 900;
         src: url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.eot#iefix) format('embedded-opentype'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.woff2) format('woff2'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.woff) format('woff'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.ttf) format('truetype'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.svg#fontawesome) format('svg');
-    }
+        font-display: swap;
+        }
 
     .fa,
     .fas {
@@ -1459,7 +1460,8 @@
         font-style: normal;
         font-weight: 900;
         src: url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot#iefix) format('embedded-opentype'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2) format('woff2'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format('woff'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format('truetype'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format('svg');
-    }
+        font-display: swap;
+        }
 
     .fa,
     .fas {
