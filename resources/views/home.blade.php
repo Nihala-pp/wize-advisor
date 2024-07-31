@@ -829,6 +829,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Bold.ttf) format('truetype');
+        font-display: swap;
     }
 
     @font-face {
@@ -836,6 +837,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Light.ttf) format('truetype');
+        font-display: swap;
     }
 
     @font-face {
@@ -843,6 +845,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Medium.ttf) format('truetype');
+        font-display: swap;
     }
 
     @font-face {
@@ -850,6 +853,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Regular-Italic.ttf) format('truetype');
+        font-display: swap;
     }
 
     @font-face {
@@ -857,6 +861,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Thin.ttf) format('truetype');
+        font-display: swap;
     }
 
     @font-face {
@@ -864,6 +869,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Thin.ttf) format('truetype');
+        font-display: swap;
     }
 
     @font-face {
@@ -871,6 +877,7 @@
         font-style: normal;
         font-weight: normal;
         src: url(https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Bold.ttf) format('truetype');
+        font-display: swap;
     }
 
     .hfe-nav-menu li,

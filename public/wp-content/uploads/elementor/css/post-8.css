@@ -31,12 +31,14 @@
 /* Start custom CSS for column, class: .elementor-element-e84c9ef */.elementor-8 .elementor-element.elementor-element-e84c9ef {
     height:150px;
 }/* End custom CSS */
-/* Start Custom Fonts CSS */@font-face {
+/* Start Custom Fonts CSS */
+@font-face {
 	font-family: 'Sailec';
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
 	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Bold.ttf') format('truetype');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Sailec';
@@ -44,6 +46,7 @@
 	font-weight: normal;
 	font-display: auto;
 	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Light.ttf') format('truetype');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Sailec';
@@ -51,6 +54,7 @@
 	font-weight: normal;
 	font-display: auto;
 	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Medium.ttf') format('truetype');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Sailec';
@@ -58,6 +62,7 @@
 	font-weight: normal;
 	font-display: auto;
 	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Regular-Italic.ttf') format('truetype');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Sailec';
@@ -65,20 +70,24 @@
 	font-weight: normal;
 	font-display: auto;
 	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Thin.ttf') format('truetype');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'Sailec';
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Thin.ttf') format('truetype')
+	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Thin.ttf') format('truetype');
+	font-display: swap;
 }
 /* End Custom Fonts CSS */
-/* Start Custom Fonts CSS */@font-face {
+/* Start Custom Fonts CSS */
+@font-face {
 	font-family: 'Sailec Bold';
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
 	src: url('wiseAdvizor/wp-content/uploads/2023/06/Sailec-Bold.ttf') format('truetype');
+	font-display: swap;
 }
 /* End Custom Fonts CSS */
