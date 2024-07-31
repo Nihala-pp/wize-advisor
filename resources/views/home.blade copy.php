@@ -3214,7 +3214,7 @@
                                         });
                                         jQuery('#slider_1094').css('visibility', 'visible');
                                         sa_resize_slider_1094();
-                                        window.addEventListener('resize', sa_resize_slider_1094);
+                                        window.addEventListener('resize', sa_resize_slider_1094, {passive: true});
 
                                         function sa_resize_slider_1094() {
                                             var min_height = '50';
