@@ -5511,8 +5511,8 @@
                                             <div class="elementor-widget-container">
                                                 @if ($review2->user->metaData->profile_pic)
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
+                                                    data-src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}"
+                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
                                                     alt="best business to start"
                                                     srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
                                                     450w sizes="(max-width: 150px) 100vw, 150px">
