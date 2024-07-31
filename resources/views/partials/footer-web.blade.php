@@ -468,9 +468,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="hfe-copyright-wrapper">
                                             <a href="https://wiseadvizor.com/">
-                                                <span>Copyright © <script>
-                                                    document.write(new Date().getFullYear())
-                                                    </script>, wiseAdvizor | Powered by IVY Investment
+                                                <span>Copyright © <span id="copyright-year"></span>, wiseAdvizor | Powered by IVY Investment
                                                     LLC</span>
                                             </a>
                                         </div>
@@ -822,3 +820,6 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+    </script>
