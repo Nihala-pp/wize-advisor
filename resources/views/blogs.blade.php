@@ -4280,9 +4280,8 @@
             window.scroll(0, window.pageYOffset)
         }
 
-        window.addEventListener("scroll", scrollEventHandler, false);
+        window.addEventListener("scroll", scrollEventHandler, {passive: true});
 
-        window.addEventListener('touchstart', onTouchStart, {passive: true});
 
         jQuery('#slider_7004').owlCarousel({
             items: 1,

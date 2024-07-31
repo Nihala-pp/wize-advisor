@@ -3621,6 +3621,8 @@
         (function($) {
             $(document).ready(function() {
 
+                window
+
                 $('#name').on('change', function() {
                     var name = $(this).val();
                     var filter = "name";
