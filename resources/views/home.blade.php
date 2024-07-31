@@ -3825,10 +3825,10 @@
                                                                                                     class="qodef-e-images-holder">
                                                                                                     <div
                                                                                                         class="qodef-e-main-image">
-                                                                                                        <img loading="lazy" width="300"
+                                                                                                        <img width="300"
                                                                                                             height="200"
-                                                                                                            src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                                                            class="attachment-medium size-medium"
+                                                                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                                                            class="lazyload attachment-medium size-medium"
                                                                                                             alt="ideas of business"
                                                                                                             decoding="async"
                                                                                                             srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
@@ -7390,6 +7390,8 @@
         id="wpforms-elementor-js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
+      <script src="{{ asset('public/assets/js/lazysizes.min.js') }}" async></script>
+
     <!-- <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
