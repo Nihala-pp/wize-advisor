@@ -3136,7 +3136,7 @@
 
                                                 <img decoding="async" alt="business coach"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.webp"
-                                                    type="image/webp">
+                                                    type="image/webp" width="297" height="297">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
@@ -3189,7 +3189,7 @@
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="types of mentoring"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png"
-                                                    type="image/webp">
+                                                    type="image/webp" width="297" height="297">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Professionals</h3>
@@ -3241,7 +3241,7 @@
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="growth mentor"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.webp"
-                                                    type="image/webp">
+                                                    type="image/webp" width="297" height="297">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
