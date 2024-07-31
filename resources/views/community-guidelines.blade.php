@@ -2801,8 +2801,7 @@
                 }
             })
 
-
-
+            window.addEventListener('touchstart', onTouchStart, {passive: true});
         });
     }(jQuery));
     </script>
