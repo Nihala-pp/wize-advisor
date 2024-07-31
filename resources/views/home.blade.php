@@ -6580,7 +6580,7 @@
     /* Post Carousel Lite scripts: */
 
     jQuery(document).ready(function() {
-        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+        // document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 
         function uc_uc_card_post_carousel_elementor_df03b3c_start() {
 
