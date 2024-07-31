@@ -4282,7 +4282,7 @@
 
         window.addEventListener("scroll", scrollEventHandler, false);
 
-        document.addEventListener('touchstart', onTouchStart, {passive: true});
+        window.addEventListener('touchstart', onTouchStart, {passive: true});
 
         jQuery('#slider_7004').owlCarousel({
             items: 1,
