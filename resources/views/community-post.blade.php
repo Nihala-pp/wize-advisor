@@ -2356,6 +2356,8 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
+            document.addEventListener('touchstart', onTouchStart, {passive: true});
+
             $('#niso-carousel-952.owl-carousel').owlCarousel({
                 //Multiple carousel settings
                 items: 4,
