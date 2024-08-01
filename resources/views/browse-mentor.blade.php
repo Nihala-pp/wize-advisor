@@ -1117,9 +1117,13 @@
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
         media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
+    <!-- <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
-        media="all">
+        media="all"> -->
+        <link rel="preload" id='qi-addons-for-elementor-style-css' href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
+    </noscript>
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel="stylesheet" id="theplus-front-css-css"
