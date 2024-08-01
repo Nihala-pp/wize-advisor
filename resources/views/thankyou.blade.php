@@ -1441,7 +1441,7 @@ wsedwduhewr
     <body>
         <h1 style="text-align:center;">Thankyou For Contacting Us.</h1>
         <h4 style="text-align:center;">We'll get back to you shortly. </h4>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
         </script>
 
         <!--Start of Tawk.to Script-->

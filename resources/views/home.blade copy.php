@@ -5343,7 +5343,7 @@
     <!-- <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
     </script>
 
     <!--   Unlimited Elements 1.5.75 Scripts -->
