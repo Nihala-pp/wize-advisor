@@ -988,9 +988,16 @@
     <link rel="stylesheet" id="elementor-icons-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
         media="all">
-    <link rel="stylesheet" id="elementor-frontend-css"
+    <!-- <link rel="stylesheet" id="elementor-frontend-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        media="all">
+        media="all"> -->
+        <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+        as="style" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" id="elementor-frontend-css"
+            href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
+    </noscript>
     <link rel="stylesheet" id="swiper-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
         media="all">
