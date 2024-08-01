@@ -663,9 +663,13 @@
     <link rel='stylesheet' id='wpr-text-animations-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.975'
         media='all' />
-    <link rel='stylesheet' id='wpr-addons-css-css'
+    <!-- <link rel='stylesheet' id='wpr-addons-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975'
-        media='all' />
+        media='all' /> -->
+    <link rel="preload" id='wpr-addons-css-css' href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975">
+    </noscript>
     <link rel='stylesheet' id='font-awesome-5-all-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.975'
         media='all' />
