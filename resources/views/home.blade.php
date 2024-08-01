@@ -46,6 +46,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" fetchpriority="high" as="image" href="{{ }}" type="image/webp">
     <noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css">
     </noscript>
@@ -250,7 +251,7 @@
         font-weight: 900;
         src: url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.eot#iefix) format('embedded-opentype'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.woff2) format('woff2'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.woff) format('woff'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.ttf) format('truetype'), url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/fonts/fa-solid-900.svg#fontawesome) format('svg');
         font-display: swap;
-        }
+    }
 
     .fa,
     .fas {
@@ -1461,7 +1462,7 @@
         font-weight: 900;
         src: url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot#iefix) format('embedded-opentype'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2) format('woff2'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff) format('woff'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf) format('truetype'), url(https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format('svg');
         font-display: swap;
-        }
+    }
 
     .fa,
     .fas {
@@ -2960,7 +2961,12 @@
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
                             data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                            <img fetchpriority="high" decoding="async" width="260" height="260" src="https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" class="attachment-full size-full wp-image-8033" alt="define mentorship" srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp 360w, https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-300x300.webp 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-150x150.webp 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-700x700.webp 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-650x650.webp 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-1300x1300.webp 1300w" sizes="(max-width: 360px) 100vw, 360px" style="width:100%;height:100%;max-width:260px" />													
+                                <img fetchpriority="high" decoding="async" width="260" height="260"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp"
+                                    class="attachment-full size-full wp-image-8033" alt="define mentorship"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp 360w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-300x300.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-150x150.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-700x700.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-650x650.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-1300x1300.webp 1300w"
+                                    sizes="(max-width: 360px) 100vw, 360px"
+                                    style="width:100%;height:100%;max-width:260px" />
                                 <!-- <img srcset="" rel="preload" fetchpriority="high" as="image" width="360" height="360"
                                     src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.webp') }}"
                                     class="attachment-full size-full wp-image-2588" alt="define mentorship"
@@ -3455,7 +3461,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/product-new.png') }}"
-                                                            class="lazyload" alt="project manager mentor" width="50" height="50">
+                                                            class="lazyload" alt="project manager mentor" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['product-market-fit']) }}">
@@ -4369,7 +4376,9 @@
                                         });
                                         jQuery('#slider_1094').css('visibility', 'visible');
                                         sa_resize_slider_1094();
-                                        window.addEventListener('resize', sa_resize_slider_1094, {passive: true});
+                                        window.addEventListener('resize', sa_resize_slider_1094, {
+                                            passive: true
+                                        });
 
                                         function sa_resize_slider_1094() {
                                             var min_height = '50';
@@ -6569,7 +6578,7 @@
         id="wpforms-elementor-js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
-      <script src="{{ asset('public/assets/js/lazysizes.min.js') }}" async></script>
+    <script src="{{ asset('public/assets/js/lazysizes.min.js') }}" async></script>
 
     <!-- <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>  -->
     <!-- <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>  -->
