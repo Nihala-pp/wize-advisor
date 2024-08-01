@@ -4108,8 +4108,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1703246740"
-        id="theplus-front-js-js" defer></script>
+    <!-- <script src="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1703246740"
+        id="theplus-front-js-js" defer></script> -->
     <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.22"
         id="hfe-frontend-js-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
