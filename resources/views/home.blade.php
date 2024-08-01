@@ -2706,8 +2706,7 @@
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18">
     </noscript>
     <link rel="stylesheet" id="niso-carousel-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18"
-        media="all">
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18" defer>
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0"
         media="all">
