@@ -1,6 +1,6 @@
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" async></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,40
-        0,500,700,900|Roboto+Slab:400,700" />
+        0,500,700,900|Roboto+Slab:400,700" async>
     <!-- Nucleo Icons -->
     <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
