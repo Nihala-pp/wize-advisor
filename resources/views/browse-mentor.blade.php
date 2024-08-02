@@ -1090,7 +1090,8 @@
     <link rel="stylesheet" id="elementor-frontend-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
         media="all">
-    <link href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1" id="elementor-frontend-css">
+    <link href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+ id="elementor-frontend-css">
     <!-- <noscript>
         <link rel="stylesheet" id="elementor-frontend-css"
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
