@@ -3391,11 +3391,11 @@
                                         src="https://www.canva.com/design/DAFpQ4GcAh0/4eHgU5JmdwNppzpWZ4J1Ug/watch"
                                         autoplay="" loop="" muted="muted" playsinline=""
                                         controlslist="nodownload"></video> -->
-                                    <iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/5TupRvOd6OE?si=cRjt8BPQSRWWQj6x"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <iframe loading="lazy"
+                                        style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFpQ4GcAh0&#x2F;4eHgU5JmdwNppzpWZ4J1Ug&#x2F;watch?embed"
+                                        allowfullscreen="allowfullscreen" allow="fullscreen">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
