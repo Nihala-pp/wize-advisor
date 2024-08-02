@@ -1312,7 +1312,7 @@
         id="wpr-particles-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-        id="wpr-jarallax-js"></script>
+        id="wpr-jarallax-js" async></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
         id="wpr-parallax-hover-js"></script>
