@@ -6062,7 +6062,7 @@
         id="hfe-frontend-js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.4.2"
-        id="swiper-js"></script>
+        id="swiper-js" async></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1"
         id="owl_carousel_js-js"></script>
