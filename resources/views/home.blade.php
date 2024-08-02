@@ -6302,7 +6302,7 @@
         id="packery-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}" async>
     </script>
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
     </script>

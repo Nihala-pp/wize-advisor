@@ -5767,7 +5767,7 @@ flexibility(document.documentElement);
     <script src="https://ivygroupco.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3"
         id="elementor-webpack-runtime-js"></script>
     <script src="https://ivygroupco.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3"
-        id="elementor-frontend-modules-js"></script>
+        id="elementor-frontend-modules-js" async></script>
     <script id="elementor-pro-frontend-js-before">
     var ElementorProFrontendConfig = {
         "ajaxurl": "https:\/\/ivygroupco.com\/wp-admin\/admin-ajax.php",
