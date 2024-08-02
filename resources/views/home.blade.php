@@ -2729,7 +2729,7 @@
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/?ver=3.14.1">
     </noscript>
     <link rel="stylesheet" id="swiper-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" async>
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" defer>
     <link rel='stylesheet' id='elementor-pro-css'
