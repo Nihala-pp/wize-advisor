@@ -3375,7 +3375,7 @@
                                 </style>
                                 <div class="e-hosted-video elementor-wrapper elementor-open-inline">
                                     <video class="elementor-video"
-                                        src="{{ asset('public/wp-content/uploads/2023/06/Blue-Liquid-Art-Design-Gallery-Intro-Video.mp4') }}"
+                                        src="https://www.canva.com/design/DAFpQ4GcAh0/4eHgU5JmdwNppzpWZ4J1Ug/watch"
                                         autoplay="" loop="" muted="muted" playsinline=""
                                         controlslist="nodownload"></video>
                                 </div>
