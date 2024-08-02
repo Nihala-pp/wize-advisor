@@ -2759,9 +2759,9 @@
     <link rel="stylesheet" id="elementor-post-32-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" defer>
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" async>
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" defer>
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" async>
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
         as="style" id="qi-addons-for-elementor-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -6259,7 +6259,7 @@
     };
     </script>
     <script src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
-        id="qi-addons-for-elementor-script-js" async></script>
+        id="qi-addons-for-elementor-script-js" defer></script>
     <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
     </script>
     <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
@@ -6270,7 +6270,7 @@
         id="hfe-frontend-js-js"></script>
     <script
         src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
-        id="swiper-js" async></script>
+        id="swiper-js" defer></script>
     <script src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
         id="owl_carousel_js-js"></script>
     <script src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
