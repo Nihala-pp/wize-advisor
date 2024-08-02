@@ -46,7 +46,8 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin async>
-    <link rel="preload" fetchpriority="high" as="image" href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
+    <link rel="preload" fetchpriority="high" as="image"
+        href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
     <noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" async>
     </noscript>
@@ -2044,8 +2045,7 @@
         as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-           >
+            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
     </noscript>
     <link rel="preload"
         href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2"
@@ -2706,9 +2706,11 @@
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18">
     </noscript>
     <link rel="stylesheet" id="niso-carousel-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18"
+        defer>
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0"
+        defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0"
         as="style" id="niso-carousel-lightbox-theme-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
@@ -2720,20 +2722,22 @@
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
         defer>
     <link rel="stylesheet" id="elementor-icons-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
+        defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
         as="style" id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
-        <link rel="stylesheet"
-            href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/?ver=3.14.1">
+        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/?ver=3.14.1">
     </noscript>
     <link rel="stylesheet" id="swiper-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" async>
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        async>
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" defer>
     <link rel='stylesheet' id='elementor-pro-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2' defer>
+        href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
+        defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
         as="style" id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
@@ -2759,12 +2763,15 @@
     <link rel="stylesheet" id="elementor-post-32-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" defer>
     <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1"
+        defer>
     <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
+        defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
-        as="style" id="qi-addons-for-elementor-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+        as="style" id="qi-addons-for-elementor-style-css" onload="this.onload=null;this.rel='stylesheet'"
+        crossorigin="anonymous">
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1">
@@ -2788,13 +2795,17 @@
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
     </noscript>
     <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
+        defer>
     <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
+        defer>
     <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
+        defer>
     <link rel='stylesheet' id='wpr-text-animations-css-css'
-        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85"
+        defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
         as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
@@ -2803,9 +2814,11 @@
             href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85">
     </noscript>
     <link rel='stylesheet' id='wpr-button-animations-css-css'
-        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85" defer>
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85"
+        defer>
     <link rel='stylesheet' id='wpr-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85' defer>
+        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85'
+        defer>
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -2813,13 +2826,13 @@
     };
     var smoothAllowedBrowsers = [];
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"  id="jquery-core-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5" defer
-        id="she-header-js"></script>
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
+        defer id="she-header-js"></script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
     <!-- <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/8"> -->
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
@@ -3374,10 +3387,15 @@
                                 }
                                 </style>
                                 <div class="e-hosted-video elementor-wrapper elementor-open-inline">
-                                    <video class="elementor-video"
+                                    <!-- <video class="elementor-video"
                                         src="https://www.canva.com/design/DAFpQ4GcAh0/4eHgU5JmdwNppzpWZ4J1Ug/watch"
                                         autoplay="" loop="" muted="muted" playsinline=""
-                                        controlslist="nodownload"></video>
+                                        controlslist="nodownload"></video> -->
+                                    <iframe loading="lazy"
+                                        style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFpQ4GcAh0&#x2F;4eHgU5JmdwNppzpWZ4J1Ug&#x2F;watch?embed"
+                                        allowfullscreen="allowfullscreen" allow="fullscreen">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
@@ -3414,8 +3432,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
-                                                            class="lazyload" alt="online mentoring" width="50" height="50"
-                                                            type="image/webp">
+                                                            class="lazyload" alt="online mentoring" width="50"
+                                                            height="50" type="image/webp">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Sales']) }}">
@@ -3465,7 +3483,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}"
-                                                            class="lazyload" alt="marketing mentor" width="50" height="50">
+                                                            class="lazyload" alt="marketing mentor" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Marketing']) }}">
@@ -3481,7 +3500,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
-                                                            class="lazyload" alt="leadership mentoring" width="50" height="50">
+                                                            class="lazyload" alt="leadership mentoring" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Leadership']) }}">
@@ -3508,7 +3528,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}"
-                                                            class="lazyload" alt="goals for a mentorship" width="50" height="50">
+                                                            class="lazyload" alt="goals for a mentorship" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Fund raising']) }}">
@@ -3524,7 +3545,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}"
-                                                            class="lazyload" alt="mentorship network" width="50" height="50">
+                                                            class="lazyload" alt="mentorship network" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Networking']) }}">
@@ -3555,7 +3577,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}"
-                                                            class="lazyload" alt="cheapest business to start" width="50" height="50">
+                                                            class="lazyload" alt="cheapest business to start" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Pricing Strategy']) }}">
@@ -3571,7 +3594,8 @@
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}"
-                                                            class="lazyload" alt="start up business" width="50" height="50">
+                                                            class="lazyload" alt="start up business" width="50"
+                                                            height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Social Media']) }}">
@@ -6243,8 +6267,8 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
         id="wpr-parallax-hover-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85" async
-        id="wpr-addons-js-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+        async id="wpr-addons-js-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.85"
         id="wpr-modal-popups-js-js"></script>
