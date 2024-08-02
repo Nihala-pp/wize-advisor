@@ -8,7 +8,7 @@
     <title>wiseAdvizor </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" async>
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700">
     <!-- Nucleo Icons -->
     <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
@@ -20,7 +20,7 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" async>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <!-- MDB -->
     <!-- <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
@@ -44,7 +44,7 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
         href="https://wiseadvizor.com/comments/feed/">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
 
     <!-- <link href="asset('public/assets/css/pe-icon-7-stroke.css')" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
@@ -99,7 +99,7 @@
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
     <script>
     (function(h, o, t, j, a, r) {
@@ -517,7 +517,7 @@
             media="all">
     </noscript>
     <link rel="stylesheet" id="tpgb-gfonts-global-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2" async>
+        href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2">
     <link rel="stylesheet" id="plus-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1687439283" media="all">
     <style id="global-styles-inline-css">
@@ -1203,7 +1203,7 @@
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
     <link rel="stylesheet" id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2" async>
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.2.2">
     <link rel="stylesheet" id="elementor-icons-shared-0-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
         media="all">
@@ -1326,7 +1326,7 @@
     id="wpr-particles-js"></script>
 <script
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-    id="wpr-jarallax-js" async></script>
+    id="wpr-jarallax-js"></script>
 <script
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
     id="wpr-parallax-hover-js"></script>
@@ -1335,7 +1335,7 @@
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
     id="elementor-webpack-runtime-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
-    id="elementor-frontend-modules-js" async></script>
+    id="elementor-frontend-modules-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
     id="elementor-waypoints-js"></script>
 <script id="elementor-frontend-js-before">
@@ -1617,7 +1617,7 @@ var wpformsElementorVars = {
 </script> -->
 <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}">
 </script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
 </script>
 
 <!-- <body
