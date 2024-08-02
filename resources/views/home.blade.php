@@ -3413,8 +3413,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
-                                                            alt="online mentoring" width="50" height="50"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
+                                                            class="lazyload" alt="online mentoring" width="50" height="50"
                                                             type="image/webp">
                                                     </div>
                                                 </div>
@@ -3430,8 +3430,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
-                                                            alt="business build" width="50" height="50"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
+                                                            class="lazyload" alt="business build" width="50" height="50"
                                                             type="image/webp">
                                                     </div>
                                                 </div>
@@ -3464,8 +3464,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}"
-                                                            alt="marketing mentor" width="50" height="50">
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}"
+                                                            class="lazyload" alt="marketing mentor" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Marketing']) }}">
@@ -3480,8 +3480,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
-                                                            alt="leadership mentoring" width="50" height="50">
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
+                                                            class="lazyload" alt="leadership mentoring" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Leadership']) }}">
@@ -3507,8 +3507,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}"
-                                                            alt="goals for a mentorship" width="50" height="50">
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}"
+                                                            class="lazyload" alt="goals for a mentorship" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Fund raising']) }}">
@@ -3523,8 +3523,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}"
-                                                            alt="mentorship network" width="50" height="50">
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}"
+                                                            class="lazyload" alt="mentorship network" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Networking']) }}">
@@ -3554,8 +3554,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}"
-                                                            alt="cheapest business to start" width="50" height="50">
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}"
+                                                            class="lazyload" alt="cheapest business to start" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Pricing Strategy']) }}">
@@ -3570,8 +3570,8 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img decoding="async"
-                                                            src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}"
-                                                            alt="start up business" width="50" height="50">
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}"
+                                                            class="lazyload" alt="start up business" width="50" height="50">
                                                     </div>
                                                 </div>
                                                 <a href="{{ route('browseMentor', ['Social Media']) }}">
