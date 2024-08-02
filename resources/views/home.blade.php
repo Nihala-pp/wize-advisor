@@ -45,8 +45,8 @@
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor" href="https://wiseadvizor.com">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
-        onload="this.onload=null;this.rel='stylesheet'" async>
-    <link rel="preload" fetchpriority="high" as="image" href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp">
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin async>
+    <link rel="preload" fetchpriority="high" as="image" href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
     <noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" async>
     </noscript>
@@ -2041,7 +2041,7 @@
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
             href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
@@ -2052,7 +2052,7 @@
         as="font" type="font/woff2" async crossorigin>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954" as="style"
-        id="plus-global-css" media="all" onload="this.onload=null;this.rel='stylesheet'">
+        id="plus-global-css" media="all" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
@@ -2679,28 +2679,28 @@
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
-        as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0">
     </noscript>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0"
-        as="style" id="niso-carousel-owl-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="niso-carousel-owl-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0">
     </noscript>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0"
-        as="style" id="niso-theme-default-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="niso-theme-default-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0">
     </noscript>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18"
-        as="style" id="niso-animate-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="niso-animate-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18">
@@ -2711,7 +2711,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0" defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0"
-        as="style" id="niso-carousel-lightbox-theme-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="niso-carousel-lightbox-theme-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0">
@@ -2723,7 +2723,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0" defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        as="style" id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/?ver=3.14.1">
@@ -2736,7 +2736,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2' defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
-        as="style" id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5">
@@ -2747,7 +2747,7 @@
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637" defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
-        as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14">
@@ -2782,7 +2782,7 @@
         as="font" type="font/woff2" id="google-fonts-1-css" crossorigin async>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-        as="style" id="elementor-icons-shared-0-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="elementor-icons-shared-0-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
@@ -2797,7 +2797,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85" defer>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
-        as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet"
             href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85">
@@ -3137,8 +3137,8 @@
                                             <div class="wpr-flip-box-image">
 
                                                 <img decoding="async" alt="business coach"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.webp"
-                                                    type="image/webp" width="297" height="297">
+                                                    data-src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.webp"
+                                                    class="lazyload" type="image/webp" width="297" height="297">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
@@ -3190,8 +3190,8 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="types of mentoring"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png"
-                                                    type="image/webp" width="297" height="297">
+                                                    data-src="https://wiseadvizor.com/wp-content/uploads/2023/07/behavior.png"
+                                                    class="lazyload" type="image/webp" width="297" height="297">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Professionals</h3>
@@ -3242,8 +3242,8 @@
 
                                             <div class="wpr-flip-box-image">
                                                 <img decoding="async" alt="growth mentor"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.webp"
-                                                    type="image/webp" width="297" height="297">
+                                                    data-src="https://wiseadvizor.com/wp-content/uploads/2023/07/growth-mindset.webp"
+                                                    class="lazyload" type="image/webp" width="297" height="297">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Students &amp; Graduates</h3>
