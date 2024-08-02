@@ -6270,7 +6270,7 @@
         id="hfe-frontend-js-js"></script>
     <script
         src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
-        id="swiper-js"></script>
+        id="swiper-js" async></script>
     <script src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
         id="owl_carousel_js-js"></script>
     <script src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
