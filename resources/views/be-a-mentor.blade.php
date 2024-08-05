@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -1533,7 +1534,7 @@
         </section>
     </div>
 
-     @include('partials.footer-web')
+    @include('partials.footer-web')
 
     <link rel='stylesheet' id='hfe-widgets-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
@@ -2706,7 +2707,8 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Helvetica", Sans-serif;
 }
 
-.elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button-text, .elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button::after {
+.elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button-text,
+.elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button::after {
     font-family: "Helvetica", Sans-serif;
 }
 
@@ -2722,7 +2724,8 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Helvetica", Sans-serif;
 }
 
-.elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button-text, .elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button::after {
+.elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button-text,
+.elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button::after {
     font-family: "Helvetica", Sans-serif;
 }
 
@@ -2734,7 +2737,10 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Sailec", Sans-serif;
 }
 
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b, .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i, .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text, .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
     font-family: "Sailec", Sans-serif;
 }
 
@@ -3012,7 +3018,27 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 360px) {}
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
+        font-size: 48px !important;
+        padding-right: 38px;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
+        font-family: "Sailec", Sans-serif;
+        padding-right: 32px;
+    }
+}
+
+@media(max-width: 390px) {
+    .elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button-wrap {
+    max-width: 190px;
+    margin-left: 80px;
+}
+}
 
 @media (min-width: 540px) {}
 
