@@ -3035,9 +3035,9 @@ i.fas.fa-bell.fa-2xl {
 
 @media(max-width: 390px) {
     .elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button-wrap {
-    max-width: 190px;
-    margin-left: 80px;
-}
+        max-width: 190px;
+        margin-left: 80px;
+    }
 }
 
 @media (min-width: 540px) {}
