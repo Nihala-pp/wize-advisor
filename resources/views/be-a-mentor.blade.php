@@ -2749,7 +2749,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
-    body{
+    body {
         overflow: hidden;
     }
 
