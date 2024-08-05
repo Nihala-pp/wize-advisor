@@ -3555,6 +3555,11 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -35px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button-wrap {
+        max-width: 190px;
+        margin-left: 110px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
         margin: -43px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
