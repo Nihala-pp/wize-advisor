@@ -3574,6 +3574,17 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Helvetica", Sans-serif;
 }
 
+.elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button-text, .elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button::after {
+    font-family: "Helvetica", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-2dacc65f .elementor-heading-title {
+    font-family: "Helvetica", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-55e59a87 .elementor-heading-title {
+    font-family: "Sailec", Sans-serif;
+}
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
