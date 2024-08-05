@@ -1184,7 +1184,7 @@
                                                     <div class="elementor-image-box-content">
                                                         <h3 class="elementor-image-box-title"><a
                                                                 href="https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/digital-consultant/">Flexibility
-                                                                and Convenienc</a></h3>
+                                                                and Convenience</a></h3>
                                                         <p class="elementor-image-box-description">Set
                                                             your own availability and enjoy the freedom
                                                             to share your expertise to entrepreneurs on
