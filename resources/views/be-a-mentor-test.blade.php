@@ -3562,6 +3562,10 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Helvetica", Sans-serif;
 }
 
+.elementor-7046 .elementor-element.elementor-element-167d1802 .elementor-heading-title {
+    font-family: "Sailec", Sans-serif;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
