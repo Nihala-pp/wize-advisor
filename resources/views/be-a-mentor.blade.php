@@ -2774,6 +2774,12 @@ i.fas.fa-bell.fa-2xl {
         background-color: #000000;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-31605aff:not(.elementor-motion-effects-element-type-background),
+    .elementor-7046 .elementor-element.elementor-element-31605aff>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        overflow: hidden;
+        background-color: #000000;
+    }
+
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
