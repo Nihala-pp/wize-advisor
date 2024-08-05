@@ -3544,6 +3544,11 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 20px 10px 100px;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        margin-top: -5px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
     .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
