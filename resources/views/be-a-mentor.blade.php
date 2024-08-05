@@ -1022,7 +1022,8 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://form.jotform.com/wiseAdvizor/Be-a-mentor-wiseadvizor">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="https://form.jotform.com/wiseAdvizor/Be-a-mentor-wiseadvizor">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Become a Mentor</span>
@@ -1545,7 +1546,8 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://form.jotform.com/wiseAdvizor/Be-a-mentor-wiseadvizor">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="https://form.jotform.com/wiseAdvizor/Be-a-mentor-wiseadvizor">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Become a Mentor</span>
@@ -2679,6 +2681,17 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
     font-family: "Sailec", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-58306eb {
+    color: #C3C1C1;
+    /* font-family: "Red Hat Display", Sans-serif; */
+    font-size: 15px;
+    font-weight: 500;
+    width: var(--container-widget-width, 75%);
+    max-width: 75%;
+    --container-widget-width: 75%;
+    --container-widget-flex-grow: 0;
 }
 
 @media (max-width: 767px) {
