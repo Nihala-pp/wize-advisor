@@ -3575,7 +3575,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7046 .elementor-element.elementor-element-e4a606d {
-        margin-left: 45px;
+        margin-left: 55px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
