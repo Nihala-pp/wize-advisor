@@ -5811,8 +5811,7 @@
                 </section> -->
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="b2c5733" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/wiseadvizor.com\/wp-content\/uploads\/2023\/07\/Orange abstract circle orange fire time tunnel _ 4K free animated motion background.mp4&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+            data-id="b2c5733" data-element_type="section" style="background-color:#000">
             <!-- <div class="elementor-background-video-container">
                 <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted=""
                     playsinline="" loop=""
