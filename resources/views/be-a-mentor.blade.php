@@ -3038,6 +3038,10 @@ i.fas.fa-bell.fa-2xl {
         max-width: 190px;
         margin-left: 80px;
     }
+
+    .elementor-7046 .elementor-element.elementor-element-e4a606d {
+        margin-left: 35px;
+    }
 }
 
 @media (min-width: 540px) {}
