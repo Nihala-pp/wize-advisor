@@ -3555,6 +3555,11 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -35px;
     }
 
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -43px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
