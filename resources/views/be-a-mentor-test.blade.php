@@ -3742,6 +3742,22 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 400;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-28302062 .elementor-accordion-title {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-167d1802 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 43px;
+        font-weight: 600;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+    }
+
     /* i.fas.fa-bell.fa-2xl {
 font-size: 32px !important;
 padding-left: 10px;
