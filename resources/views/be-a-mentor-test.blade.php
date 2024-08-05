@@ -3544,6 +3544,11 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 20px 10px 100px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-55e59a87>.elementor-widget-container {
+        padding: 70px 0px 0px 0px;
+        /* margin-top: -20px; */
+    }
+
     .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
         margin-top: -5px;
