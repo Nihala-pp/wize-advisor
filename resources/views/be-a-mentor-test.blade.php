@@ -3560,12 +3560,22 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 0px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-58306eb {
+        text-align: center;
+        width: var(--container-widget-width, 561px);
+        max-width: 561px;
+        --container-widget-width: 561px;
+        --container-widget-flex-grow: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
         font-size: 48px !important;
     }
 
     .elementor-7046 .elementor-element.elementor-element-e4a606d {
-        margin-left: 25px;
+        margin-left: 45px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
