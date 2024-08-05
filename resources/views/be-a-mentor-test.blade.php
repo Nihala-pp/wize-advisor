@@ -3585,6 +3585,11 @@ i.fas.fa-bell.fa-2xl {
         margin-right: 15px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-58306eb>.elementor-widget-container {
+        font-family: 'helvetica', sans-serif;
+        padding: 0px 0px 0px 0px;
+    }
+
     .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
         font-size: 48px !important;
     }
