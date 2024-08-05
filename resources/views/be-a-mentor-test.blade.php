@@ -3560,6 +3560,14 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 0px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
+        font-size: 48px !important;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-e4a606d {
+        margin-left: 25px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
