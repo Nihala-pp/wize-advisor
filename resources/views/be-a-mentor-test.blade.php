@@ -3592,6 +3592,13 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 400;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-120a2952 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 500;
+        line-height: 1.3em;
+    }
+
     .elementor-7046 .elementor-element.elementor-element-58306eb>.elementor-widget-container {
         font-family: 'helvetica', sans-serif;
         padding: 0px 0px 0px 0px;
@@ -3688,6 +3695,51 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
         background-color: #fff;
         color: #001E64 !important;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-b5af20f .elementor-image-box-title {
+        margin-bottom: 0px;
+        color: #343F5A;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-7971839 .elementor-image-box-description {
+        color: #777777;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-1a44c70 .elementor-image-box-description {
+        color: #777777;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-1a44c70 .elementor-image-box-title {
+        margin-bottom: 0px;
+        color: #343F5A;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-7971839 .elementor-image-box-title {
+        margin-bottom: 0px;
+        color: #343F5A;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-b5af20f .elementor-image-box-description {
+        color: #777777;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     /* i.fas.fa-bell.fa-2xl {
