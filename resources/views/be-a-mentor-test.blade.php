@@ -3585,6 +3585,13 @@ i.fas.fa-bell.fa-2xl {
         margin-right: 15px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button-text,
+    .elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button::after {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
     .elementor-7046 .elementor-element.elementor-element-58306eb>.elementor-widget-container {
         font-family: 'helvetica', sans-serif;
         padding: 0px 0px 0px 0px;
