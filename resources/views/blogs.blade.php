@@ -3496,7 +3496,7 @@
 </html>
 <style>
 
-.elementor .elementor-2650 {
+.elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
    margin-top: -20px !important;
 }
 
