@@ -3585,6 +3585,15 @@ i.fas.fa-bell.fa-2xl {
 .elementor-7046 .elementor-element.elementor-element-55e59a87 .elementor-heading-title {
     font-family: "Sailec", Sans-serif;
 }
+
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b, .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i, .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text, .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
+    font-family: "Sailec", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
+    font-family: "Sailec", Sans-serif;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
