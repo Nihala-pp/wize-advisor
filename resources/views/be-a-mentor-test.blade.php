@@ -3538,6 +3538,22 @@ i.fas.fa-bell.fa-2xl {
     color: #001E64 !important;
 }
 
+.elementor-7046 .elementor-element.elementor-element-120a2952 .elementor-heading-title {
+    font-family: "Helvetica", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-b5af20f .elementor-image-box-title {
+    font-family: "Helvetica", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-b5af20f .elementor-image-box-description {
+    font-family: "Helvetica", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-7971839 .elementor-image-box-title {
+    font-family: "Helvetica", Sans-serif;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
