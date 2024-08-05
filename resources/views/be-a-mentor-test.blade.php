@@ -3565,6 +3565,16 @@ i.fas.fa-bell.fa-2xl {
         padding: 0px 0px 0px 0px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-167d1802 .elementor-heading-title {
+        margin-top: -70px;
+        font-size: 30px;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-28302062>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        margin-top: -40px;
+    }
+
     .elementor-7046 .elementor-element.elementor-element-58306eb {
         text-align: center;
         width: var(--container-widget-width, 561px);
@@ -3579,8 +3589,18 @@ i.fas.fa-bell.fa-2xl {
         font-size: 48px !important;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-838b868 .wpr-button-wrap {
+        max-width: 190px;
+        margin-left: 100px;
+    }
+
     .elementor-7046 .elementor-element.elementor-element-e4a606d {
         margin-left: 55px;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-55e59a87 .elementor-heading-title {
+        margin-top: -90px;
+        font-size: 45px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
