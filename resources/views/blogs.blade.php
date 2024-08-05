@@ -817,7 +817,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-shortocde">
                                     <div class="white"
-                                        style="background:rgba(0,0,0,0); border:solid 0px rgba(0,0,0,0); border-radius:0px; padding:0px 0px 0px 0px;">
+                                        style="background:rgba(0,0,0,0); border:solid 0px rgba(0,0,0,0); border-radius:0px; padding:0px 0px 0px 0px;margin-top:-25px">
                                         <div id="slider_7004"
                                             class="owl-carousel sa_owl_theme owl-pagination-true autohide-arrows sa_hero_slider owl-loaded"
                                             data-slider-id="slider_7004" style="visibility: visible;">
