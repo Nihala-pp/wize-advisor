@@ -760,7 +760,7 @@ h1 {
     .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
     .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
-        margin-top: -35px;
+        margin-top: -65px;
     }
 }
 </style>
