@@ -2689,10 +2689,10 @@ i.fas.fa-bell.fa-2xl {
         overflow-x: hidden;
     }
 
-    .ehf-header #masthead {
-        margin-top: -35px;
-        z-index: 99;
-        position: relative;
+    body.elementor-page-7046:not(.elementor-motion-effects-element-type-background),
+    body.elementor-page-7046>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #FFFFFF;
+        margin-top: -30px;
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
