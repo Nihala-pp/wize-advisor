@@ -3058,6 +3058,18 @@ i.fas.fa-bell.fa-2xl {
         max-width: 150px !important;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-fb48e33>.elementor-element-populated {
+        text-align: left;
+        margin-left: 45px;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
+        font-size: 45px;
+    }
+
     /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
 font-size: 40px;
 padding-left: 20px;
