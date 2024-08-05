@@ -3776,15 +3776,10 @@ i.fas.fa-bell.fa-2xl {
         margin: -18px 23px 0px;
     }
 
-    /* i.fas.fa-bell.fa-2xl {
-font-size: 32px !important;
-padding-left: 10px;
-color: #000;
-}
+    .elementor-7046 .elementor-element.elementor-element-3ca7e65>.elementor-widget-container {
+        padding: 10px 25px 10px 25px;
+    }
 
-img.rounded-circle {
-margin-bottom: 10px;
-} */
 }
 
 @media (max-width: 320px) {}
