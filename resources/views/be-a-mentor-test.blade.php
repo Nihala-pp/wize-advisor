@@ -3566,6 +3566,14 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Sailec", Sans-serif;
 }
 
+.elementor-7046 .elementor-element.elementor-element-28302062 .elementor-accordion-title {
+    font-family: "Helvetica", Sans-serif;
+}
+
+.elementor-7046 .elementor-element.elementor-element-28302062 .elementor-tab-content {
+    font-family: "Lato", Sans-serif;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
