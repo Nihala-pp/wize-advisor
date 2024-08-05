@@ -1022,7 +1022,7 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://form.jotform.com/wiseAdvizor/Be-a-mentor-wiseadvizor">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Become a Mentor</span>
@@ -1545,7 +1545,7 @@
 
 
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="https://form.jotform.com/wiseAdvizor/Be-a-mentor-wiseadvizor">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Become a Mentor</span>
