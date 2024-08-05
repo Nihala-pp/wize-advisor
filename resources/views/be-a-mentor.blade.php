@@ -2688,8 +2688,8 @@ i.fas.fa-bell.fa-2xl {
         max-width: 100%;
         overflow-x: hidden;
     }
-w
-    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+
+    w .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
 
@@ -2698,10 +2698,10 @@ w
         /* margin-top: -20px; */
     }
 
-    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+    /* .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
         margin-top: -5px;
-    }
+    } */
 
     .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
     .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
@@ -2942,6 +2942,22 @@ w
         line-height: 1.7em;
         letter-spacing: 0.4px;
         padding: 0px 40px 0px 20px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -33px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #FFFFFF;
+        margin-top: -20px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+        padding: 12px 0px 0px 0px;
+        margin-top: -8px;
     }
 
 }
