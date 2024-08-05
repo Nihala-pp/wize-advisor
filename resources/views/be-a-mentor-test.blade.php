@@ -3566,8 +3566,9 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7046 .elementor-element.elementor-element-167d1802 .elementor-heading-title {
-        margin-top: -70px;
-        font-size: 30px;
+        margin-top: -45px;
+        margin: -25px 0px 30px 0px;
+        font-size: 30px !important;
     }
 
     .elementor-7046 .elementor-element.elementor-element-28302062>.elementor-widget-container {
@@ -3756,6 +3757,18 @@ i.fas.fa-bell.fa-2xl {
         font-weight: 600;
         line-height: 1.3em;
         letter-spacing: 0px;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-55e59a87 .elementor-heading-title {
+        color: #ffffff;
+        font-family: 'salilec', sans-serif;
+        font-size: 35px !important;
+        font-weight: 900;
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-2dacc65f .elementor-heading-title {
+        font-size: 16px;
+        margin: -18px 23px 0px;
     }
 
     /* i.fas.fa-bell.fa-2xl {
