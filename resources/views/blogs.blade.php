@@ -3,7 +3,7 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" async></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -600,7 +600,7 @@
     var smoothAllowedBrowsers = [];
     </script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js" async></script>
+        id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script
