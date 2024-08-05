@@ -2685,31 +2685,31 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-7046 .elementor-element.elementor-element-a7d9039:not(.elementor-motion-effects-element-type-background),
     .elementor-7046 .elementor-element.elementor-element-a7d9039>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        overflow: hidden;
+        overflow-x: hidden;
         background-color: #000000;
     }
 
     .elementor-7046 .elementor-element.elementor-element-6c8eaf6c:not(.elementor-motion-effects-element-type-background),
     .elementor-7046 .elementor-element.elementor-element-6c8eaf6c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        overflow: hidden;
+        overflow-x: hidden;
         background-color: #000000;
     }
 
     .elementor-7046 .elementor-element.elementor-element-735632ea2:not(.elementor-motion-effects-element-type-background),
     .elementor-7046 .elementor-element.elementor-element-735632ea2>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        overflow: hidden;
+        overflow-x: hidden;
         background-color: #000000;
     }
 
     .elementor-7046 .elementor-element.elementor-element-c813d23:not(.elementor-motion-effects-element-type-background),
     .elementor-7046 .elementor-element.elementor-element-c813d23>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        overflow: hidden;
+        overflow-x: hidden;
         background-color: #000000;
     }
 
     .elementor-7046 .elementor-element.elementor-element-31605aff:not(.elementor-motion-effects-element-type-background),
     .elementor-7046 .elementor-element.elementor-element-31605aff>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        overflow: hidden;
+        overflow-x: hidden;
         background-color: #000000;
     }
 
