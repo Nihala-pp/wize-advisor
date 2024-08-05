@@ -3571,7 +3571,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-7046 .elementor-element.elementor-element-28302062 .elementor-tab-content {
-    font-family: "Lato", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
 }
 
 @media (max-width: 767px) {
