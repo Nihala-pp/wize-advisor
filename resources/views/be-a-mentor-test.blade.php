@@ -3784,6 +3784,17 @@ i.fas.fa-bell.fa-2xl {
         padding: 50px 20px 10px 20px;
     }
 
+    .elementor-7046 .elementor-element.elementor-element-28302062 .elementor-tab-content {
+        background-color: #FFFFFF00;
+        color: #E3E3E3;
+        font-family: "helvetica", Sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7em;
+        letter-spacing: 0.4px;
+        padding: 0px 40px 0px 20px;
+    }
+
 }
 
 @media (max-width: 320px) {}
