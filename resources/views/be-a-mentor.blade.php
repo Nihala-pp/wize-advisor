@@ -653,8 +653,8 @@
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1706785961' media='all' />
-    <link rel='stylesheet' id='elementor-post-7317-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7317.css?ver=1720441384' media='all' />
+    <link rel='stylesheet' id='elementor-post-7046-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7046.css?ver=1720441388' media='all' />
     <link rel='stylesheet' id='hfe-widgets-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.24'
         media='all' />
