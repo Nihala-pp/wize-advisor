@@ -204,9 +204,9 @@
         padding: 0 !important;
     }
     </style>
-    <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
+    <!-- <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
-        media='all' />
+        media='all' /> -->
     <style id='classic-theme-styles-inline-css'>
     /*! This file is auto-generated */
     .wp-block-button__link {
@@ -1307,16 +1307,16 @@
         id="wp-escape-html-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
         id="wp-element-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
-        id="wp-is-shallow-equal-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
+        id="wp-is-shallow-equal-js"></script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
         id="wp-keycodes-js"></script>
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219"
         id="wp-priority-queue-js"></script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
         id="wp-compose-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
+    </script> -->
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June", "July", "August",

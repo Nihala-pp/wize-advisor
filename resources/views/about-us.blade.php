@@ -500,9 +500,9 @@
             line-height: 1.6;
         }
     </style>
-    <!-- <link rel='stylesheet' id='hfe-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.33'
-        media='all' /> -->
+    <link rel='stylesheet' id='hfe-style-css'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.33'
+        media='all' />
     <link rel='stylesheet' id='elementor-frontend-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.21.6'
         media='all' />
@@ -515,7 +515,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
         media='all' />
     <link rel='stylesheet' id='she-header-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.11'
+        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.11'
         media='all' />
     <link rel='stylesheet' id='elementor-global-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1719392983' media='all' />
@@ -591,9 +591,9 @@
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <!-- <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
-        id="she-header-js"></script> -->
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.11"
+        id="she-header-js"></script>
     <script id="elementor-pro-app-js-before">
         var elementorAppProConfig = {
             "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
@@ -1320,8 +1320,8 @@
         src="//wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.5.3"
         id="plus-purge-js-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
+    </script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
@@ -1346,22 +1346,22 @@
     </script> -->
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
         id="wp-deprecated-js"></script> -->
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
+    </script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6"
         id="wp-escape-html-js"></script>
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
         id="wp-element-js"></script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
         id="wp-is-shallow-equal-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
-        id="wp-keycodes-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
+        id="wp-keycodes-js"></script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219"
         id="wp-priority-queue-js"></script>
     <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
         id="wp-compose-js"></script> -->
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
+    </script> -->
     <script id="moment-js-after">
         moment.updateLocale('en_US', {
             "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
@@ -1383,8 +1383,8 @@
             }
         });
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
-    </script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
+    </script> -->
     <script id="wp-date-js-after">
         wp.date.setSettings({
             "l10n": {
