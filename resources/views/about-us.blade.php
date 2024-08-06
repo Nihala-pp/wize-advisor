@@ -1434,8 +1434,8 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
         id="wp-html-entities-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
-        id="wp-primitives-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
+        id="wp-primitives-js"></script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/private-apis.min.js?ver=11cb2ebaa70a9f1f0ab5"
         id="wp-private-apis-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"

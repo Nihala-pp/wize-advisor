@@ -1417,8 +1417,8 @@
         id="wp-warning-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/components.min.js?ver=387d6480ace3103ccd8b"
         id="wp-components-js"></script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
-        id="wp-plugins-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/plugins.min.js?ver=c485ff6186cdddabcf91"
+        id="wp-plugins-js"></script> -->
     <script id="zip-ai-sidebar-js-extra">
     var zip_ai_react = {
         "ajax_url": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
