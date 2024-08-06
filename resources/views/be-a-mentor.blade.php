@@ -2218,7 +2218,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.19.0"
         id="elementor-app-loader-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.24"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.24"
         id="hfe-frontend-js-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {
