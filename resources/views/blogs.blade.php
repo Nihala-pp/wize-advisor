@@ -572,7 +572,7 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
         media='all' />
     <link rel='stylesheet' id='owl_carousel_css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.css?ver=2.2.1.1'
+        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1'
         media='all' />
     <link rel='stylesheet' id='owl_theme_css-css'
         href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0'
