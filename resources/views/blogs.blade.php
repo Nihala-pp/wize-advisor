@@ -515,7 +515,7 @@
     <link rel='stylesheet' id='elementor-post-2651-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' />
     <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.33'
         media='all' />
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1717402369' media='all' />
@@ -3058,7 +3058,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
         id="elementor-app-loader-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.33"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.33"
         id="hfe-frontend-js-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1"
         id="owl_carousel_js-js"></script>
