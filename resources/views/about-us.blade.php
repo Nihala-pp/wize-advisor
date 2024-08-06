@@ -1268,7 +1268,7 @@
     <!-- <div id="zip-ai-sidebar-admin-trigger"></div>
     <div id="zip-ai-sidebar"></div> -->
     <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.33'
         media='all' />
     <link rel='stylesheet' id='wpr-animations-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.975'
