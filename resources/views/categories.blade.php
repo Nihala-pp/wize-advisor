@@ -1267,7 +1267,7 @@
     @include('partials.footer-web')
 
     <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.33'
         media='all' />
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
@@ -1950,7 +1950,7 @@
     </script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
         id="elementor-app-loader-js"></script>
-    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.33"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.33"
         id="hfe-frontend-js-js"></script>
     <script id="tpgb-admin-bar-js-before">
     var TpgbAdminbar = {

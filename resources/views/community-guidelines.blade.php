@@ -940,7 +940,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.css?ver=1.3.18"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18"
         media="all">
     <link rel="stylesheet" id="niso-carousel-lightbox-css"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0"
@@ -1005,7 +1005,7 @@
     <link rel="stylesheet" id="elementor-post-2942-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2942.css?ver=1688381122" media="all">
     <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.14"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
         media="all">
     <link rel="stylesheet" id="elementor-post-3007-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
@@ -1692,7 +1692,7 @@
     </script>
     <!-- <script src="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688381122"
         id="theplus-front-js-js" defer></script> -->
-    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14"
+    <script src="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14"
         id="hfe-frontend-js-js"></script>
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1"
         id="elementor-webpack-runtime-js"></script>
@@ -1840,7 +1840,7 @@
     });
     </script>
     <script
-        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2"
+        src="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2"
         id="qi-addons-for-elementor-elementor-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0"
