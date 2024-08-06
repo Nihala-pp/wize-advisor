@@ -1318,8 +1318,8 @@
         'text direction\u0004ltr': ['ltr']
     });
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
-        id="wp-api-fetch-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
+        id="wp-api-fetch-js"></script> -->
     <script id="wp-api-fetch-js-after">
     wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://wiseadvizor.com/wp-json/"));
     wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("57a7cdee92");
