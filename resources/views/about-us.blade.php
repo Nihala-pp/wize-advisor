@@ -78,7 +78,7 @@
     };
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/about-us" />
-    <script>
+    <!-- <script>
     (function() {
         window.onpageshow = function(event) {
             // Defined window.wpforms means that a form exists on a page.
@@ -89,10 +89,10 @@
             }
         };
     }());
-    </script>
+    </script> -->
     <meta name="generator"
         content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <style id="wpr_lightbox_styles">
+    <!-- <style id="wpr_lightbox_styles">
     .lg-backdrop {
         background-color: rgba(0, 0, 0, 0.6) !important;
     }
@@ -224,7 +224,7 @@
         --wpforms-container-shadow-size-box-shadow: none;
 
     }
-    </style>
+    </style> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
@@ -709,7 +709,7 @@
     @include('partials.footer-web')
     @include('partials.web-script')
    
-    <script id="admin-bar-js-before">
+    <!-- <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
             var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
@@ -734,7 +734,7 @@
         document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
     }());
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script> -->
 </body>
 <style>
 .resource-button {
