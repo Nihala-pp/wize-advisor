@@ -343,347 +343,8 @@
 
     @include('partials.footer-web')
 
-    <style id="skip-link-styles">
-    .skip-link.screen-reader-text {
-        border: 0;
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50%);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute !important;
-        width: 1px;
-        word-wrap: normal !important;
-    }
-
-    .skip-link.screen-reader-text:focus {
-        background-color: #eee;
-        clip: auto !important;
-        clip-path: none;
-        color: #444;
-        display: block;
-        font-size: 1em;
-        height: auto;
-        left: 5px;
-        padding: 15px 23px 14px;
-        text-decoration: none;
-        top: 5px;
-        width: auto;
-        z-index: 100000;
-    }
-
-    /* #date {
-            width: 220px;
-            height: 35px;
-            /* padding-top: 10px !important; */
-    /* padding-top: 20px!important; */
-    /* background-color: #54b4d3; */
-    /* color: #fff; */
-    /* font-weight: 200px; */
-    /* line-height: normal; */
-    /* height: 70%;
-            width: 140%; */
-    /* font-size: 0.75rem !important; */
-    /* padding-left: 20px !important; */
-    /* } */
-
-    /* [type=date] {
-            padding: 1em 16px 1em 1em;
-        } */
-    </style>
-    <script>
-    (function() {
-        var skipLinkTarget = document.querySelector('main'),
-            sibling,
-            skipLinkTargetID,
-            skipLink;
-
-        // Early exit if a skip-link target can't be located.
-        if (!skipLinkTarget) {
-            return;
-        }
-
-        // Get the site wrapper.
-        // The skip-link will be injected in the beginning of it.
-        sibling = document.querySelector('.wp-site-blocks');
-
-        // Early exit if the root element was not found.
-        if (!sibling) {
-            return;
-        }
-
-        // Get the skip-link target's ID, and generate one if it doesn't exist.
-        skipLinkTargetID = skipLinkTarget.id;
-        if (!skipLinkTargetID) {
-            skipLinkTargetID = 'wp--skip-link--target';
-            skipLinkTarget.id = skipLinkTargetID;
-        }
-
-        // Create the skip link.
-        skipLink = document.createElement('a');
-        skipLink.classList.add('skip-link', 'screen-reader-text');
-        skipLink.href = '#' + skipLinkTargetID;
-        skipLink.innerHTML = 'Skip to content';
-
-        // Inject the skip link.
-        sibling.parentElement.insertBefore(skipLink, sibling);
-    }());
-    </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
-        id="wpr-particles-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-        id="wpr-jarallax-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
-        id="wpr-parallax-hover-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
-        id="hfe-frontend-js-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
-        id="elementor-webpack-runtime-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
-        id="elementor-frontend-modules-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
-        id="elementor-waypoints-js"></script>
-    <script id="elementor-frontend-js-before">
-    var elementorFrontendConfig = {
-        "environmentMode": {
-            "edit": false,
-            "wpPreview": false,
-            "isScriptDebug": false
-        },
-        "i18n": {
-            "shareOnFacebook": "Share on Facebook",
-            "shareOnTwitter": "Share on Twitter",
-            "pinIt": "Pin it",
-            "download": "Download",
-            "downloadImage": "Download image",
-            "fullscreen": "Fullscreen",
-            "zoom": "Zoom",
-            "share": "Share",
-            "playVideo": "Play Video",
-            "previous": "Previous",
-            "next": "Next",
-            "close": "Close",
-            "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
-            "a11yCarouselPrevSlideMessage": "Previous slide",
-            "a11yCarouselNextSlideMessage": "Next slide",
-            "a11yCarouselFirstSlideMessage": "This is the first slide",
-            "a11yCarouselLastSlideMessage": "This is the last slide",
-            "a11yCarouselPaginationBulletMessage": "Go to slide"
-        },
-        "is_rtl": false,
-        "breakpoints": {
-            "xs": 0,
-            "sm": 480,
-            "md": 768,
-            "lg": 1025,
-            "xl": 1440,
-            "xxl": 1600
-        },
-        "responsive": {
-            "breakpoints": {
-                "mobile": {
-                    "label": "Mobile Portrait",
-                    "value": 767,
-                    "default_value": 767,
-                    "direction": "max",
-                    "is_enabled": true
-                },
-                "mobile_extra": {
-                    "label": "Mobile Landscape",
-                    "value": 880,
-                    "default_value": 880,
-                    "direction": "max",
-                    "is_enabled": false
-                },
-                "tablet": {
-                    "label": "Tablet Portrait",
-                    "value": 1024,
-                    "default_value": 1024,
-                    "direction": "max",
-                    "is_enabled": true
-                },
-                "tablet_extra": {
-                    "label": "Tablet Landscape",
-                    "value": 1200,
-                    "default_value": 1200,
-                    "direction": "max",
-                    "is_enabled": false
-                },
-                "laptop": {
-                    "label": "Laptop",
-                    "value": 1366,
-                    "default_value": 1366,
-                    "direction": "max",
-                    "is_enabled": false
-                },
-                "widescreen": {
-                    "label": "Widescreen",
-                    "value": 2400,
-                    "default_value": 2400,
-                    "direction": "min",
-                    "is_enabled": false
-                }
-            }
-        },
-        "version": "3.14.1",
-        "is_static": false,
-        "experimentalFeatures": {
-            "e_dom_optimization": true,
-            "e_optimized_assets_loading": true,
-            "e_optimized_css_loading": true,
-            "a11y_improvements": true,
-            "additional_custom_breakpoints": true,
-            "e_swiper_latest": true,
-            "theme_builder_v2": true,
-            "landing-pages": true,
-            "form-submissions": true,
-            "e_scroll_snap": true
-        },
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-        },
-        "swiperClass": "swiper",
-        "settings": {
-            "page": [],
-            "editorPreferences": []
-        },
-        "kit": {
-            "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
-            "global_image_lightbox": "yes",
-            "lightbox_enable_counter": "yes",
-            "lightbox_enable_fullscreen": "yes",
-            "lightbox_enable_zoom": "yes",
-            "lightbox_enable_share": "yes",
-            "lightbox_title_src": "title",
-            "lightbox_description_src": "description"
-        },
-        "post": {
-            "id": 2772,
-            "title": "Browse%20Mentor%20%E2%80%93%20WISE%20ADVIZOR",
-            "excerpt": "",
-            "featuredImage": false
-        }
-    };
-    </script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
-        id="elementor-frontend-js"></script>
-    <script id="elementor-pro-frontend-js-before">
-    var ElementorProFrontendConfig = {
-        "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-        "nonce": "3a5ad37dc1",
-        "urls": {
-            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-            "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
-        },
-        "i18n": {
-            "toc_no_headings_found": "No headings were found on this page."
-        },
-        "shareButtonsNetworks": {
-            "facebook": {
-                "title": "Facebook",
-                "has_counter": true
-            },
-            "twitter": {
-                "title": "Twitter"
-            },
-            "linkedin": {
-                "title": "LinkedIn",
-                "has_counter": true
-            },
-            "pinterest": {
-                "title": "Pinterest",
-                "has_counter": true
-            },
-            "reddit": {
-                "title": "Reddit",
-                "has_counter": true
-            },
-            "vk": {
-                "title": "VK",
-                "has_counter": true
-            },
-            "odnoklassniki": {
-                "title": "OK",
-                "has_counter": true
-            },
-            "tumblr": {
-                "title": "Tumblr"
-            },
-            "digg": {
-                "title": "Digg"
-            },
-            "skype": {
-                "title": "Skype"
-            },
-            "stumbleupon": {
-                "title": "StumbleUpon",
-                "has_counter": true
-            },
-            "mix": {
-                "title": "Mix"
-            },
-            "telegram": {
-                "title": "Telegram"
-            },
-            "pocket": {
-                "title": "Pocket",
-                "has_counter": true
-            },
-            "xing": {
-                "title": "XING",
-                "has_counter": true
-            },
-            "whatsapp": {
-                "title": "WhatsApp"
-            },
-            "email": {
-                "title": "Email"
-            },
-            "print": {
-                "title": "Print"
-            }
-        },
-        "facebook_sdk": {
-            "lang": "en_US",
-            "app_id": ""
-        },
-        "lottie": {
-            "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-        }
-    };
-    </script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2') }}"
-        id="elementor-pro-frontend-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2') }}"
-        id="pro-elements-handlers-js"></script>
-    <script data-cfasync="false"
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
-        id="wpr-addons-js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
-        id="wpr-modal-popups-js-js"></script>
-    <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4') }}" id="underscore-js"></script>
-    <script id="wp-util-js-extra">
-    var _wpUtilSettings = {
-        "ajax": {
-            "url": "\/wp-admin\/admin-ajax.php"
-        }
-    };
-    </script>
-    <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js"></script>
-    <script id="wpforms-elementor-js-extra">
-    var wpformsElementorVars = {
-        "captcha_provider": "recaptcha",
-        "recaptcha_type": "v2"
-    };
-    </script>
-    <script
-        src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
-        id="wpforms-elementor-js"></script>
+    @include('partials.web-script')
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -694,25 +355,20 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script> -->
     <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
 
-            x = "true";
+            // x = "true";
 
-            $('.hfe-nav-menu__toggle').on('click', function() {
-                // alert("asdsfdsfd");
+            // $('.hfe-nav-menu__toggle').on('click', function() {
 
-                $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+            //     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
 
-                $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
-                // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
-
-                // document.getElementById("open_nav").setAttribute("aria-expanded", x);
-                // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
-            });
+            //     $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
+            // });
 
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
@@ -733,21 +389,6 @@
         });
     }(jQuery));
     </script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-    (function() {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/65046147b1aaa13b7a770b04/1hacho0lm';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
 </body>
 <style>
 .filter-section h1 {
@@ -1776,5 +1417,4 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
-
 </html>
