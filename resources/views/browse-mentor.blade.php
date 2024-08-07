@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" async></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-QC47PPTD6T');
-    </script>
-
     <meta charset="UTF-8">
     @if(!empty($expertise_name))
     <title>Find a Mentor and Get {{ $expertise_name }} Advice Today</title>
