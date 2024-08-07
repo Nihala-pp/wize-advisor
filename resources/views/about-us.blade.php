@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>Mentorship for New Ventures: Explore Easy Start-Up Ideas</title>
@@ -45,544 +44,12 @@
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <!-- <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
-        media='all' /> -->
+
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
 
-    <!-- <style id='admin-bar-inline-css'>
-    @media screen {
-        html {
-            margin-top: 32px !important;
-        }
-    }
-
-    @media screen and (max-width: 782px) {
-        html {
-            margin-top: 46px !important;
-        }
-    }
-
-    @media print {
-        #wpadminbar {
-            display: none;
-        }
-    }
-    </style> -->
-    <link rel='stylesheet' id='elementor-icons-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
-        media='all' />
-    <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
-    <link rel='stylesheet' id='e-theme-ui-light-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' />
-    <style id='wp-emoji-styles-inline-css'>
-    img.wp-smiley,
-    img.emoji {
-        display: inline !important;
-        border: none !important;
-        box-shadow: none !important;
-        height: 1em !important;
-        width: 1em !important;
-        margin: 0 0.07em !important;
-        vertical-align: -0.1em !important;
-        background: none !important;
-        padding: 0 !important;
-    }
-    </style>
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
-        media='all' /> -->
-    <style id='classic-theme-styles-inline-css'>
-    /*! This file is auto-generated */
-    .wp-block-button__link {
-        color: #fff;
-        background-color: #32373c;
-        border-radius: 9999px;
-        box-shadow: none;
-        text-decoration: none;
-        padding: calc(.667em + 2px) calc(1.333em + 2px);
-        font-size: 1.125em
-    }
-
-    .wp-block-file__button {
-        background: #32373c;
-        color: #fff;
-        text-decoration: none
-    }
-    </style>
-    <style id='global-styles-inline-css'>
-    body {
-        --wp--preset--color--black: #000000;
-        --wp--preset--color--cyan-bluish-gray: #abb8c3;
-        --wp--preset--color--white: #FFFFFF;
-        --wp--preset--color--pale-pink: #f78da7;
-        --wp--preset--color--vivid-red: #cf2e2e;
-        --wp--preset--color--luminous-vivid-orange: #ff6900;
-        --wp--preset--color--luminous-vivid-amber: #fcb900;
-        --wp--preset--color--light-green-cyan: #7bdcb5;
-        --wp--preset--color--vivid-green-cyan: #00d084;
-        --wp--preset--color--pale-cyan-blue: #8ed1fc;
-        --wp--preset--color--vivid-cyan-blue: #0693e3;
-        --wp--preset--color--vivid-purple: #9b51e0;
-        --wp--preset--color--dark-gray: #28303D;
-        --wp--preset--color--gray: #39414D;
-        --wp--preset--color--green: #D1E4DD;
-        --wp--preset--color--blue: #D1DFE4;
-        --wp--preset--color--purple: #D1D1E4;
-        --wp--preset--color--red: #E4D1D1;
-        --wp--preset--color--orange: #E4DAD1;
-        --wp--preset--color--yellow: #EEEADD;
-        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-        --wp--preset--gradient--purple-to-yellow: linear-gradient(160deg, #D1D1E4 0%, #EEEADD 100%);
-        --wp--preset--gradient--yellow-to-purple: linear-gradient(160deg, #EEEADD 0%, #D1D1E4 100%);
-        --wp--preset--gradient--green-to-yellow: linear-gradient(160deg, #D1E4DD 0%, #EEEADD 100%);
-        --wp--preset--gradient--yellow-to-green: linear-gradient(160deg, #EEEADD 0%, #D1E4DD 100%);
-        --wp--preset--gradient--red-to-yellow: linear-gradient(160deg, #E4D1D1 0%, #EEEADD 100%);
-        --wp--preset--gradient--yellow-to-red: linear-gradient(160deg, #EEEADD 0%, #E4D1D1 100%);
-        --wp--preset--gradient--purple-to-red: linear-gradient(160deg, #D1D1E4 0%, #E4D1D1 100%);
-        --wp--preset--gradient--red-to-purple: linear-gradient(160deg, #E4D1D1 0%, #D1D1E4 100%);
-        --wp--preset--font-size--small: 18px;
-        --wp--preset--font-size--medium: 20px;
-        --wp--preset--font-size--large: 24px;
-        --wp--preset--font-size--x-large: 42px;
-        --wp--preset--font-size--extra-small: 16px;
-        --wp--preset--font-size--normal: 20px;
-        --wp--preset--font-size--extra-large: 40px;
-        --wp--preset--font-size--huge: 96px;
-        --wp--preset--font-size--gigantic: 144px;
-        --wp--preset--spacing--20: 0.44rem;
-        --wp--preset--spacing--30: 0.67rem;
-        --wp--preset--spacing--40: 1rem;
-        --wp--preset--spacing--50: 1.5rem;
-        --wp--preset--spacing--60: 2.25rem;
-        --wp--preset--spacing--70: 3.38rem;
-        --wp--preset--spacing--80: 5.06rem;
-        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-    }
-
-    :where(.is-layout-flex) {
-        gap: 0.5em;
-    }
-
-    :where(.is-layout-grid) {
-        gap: 0.5em;
-    }
-
-    body .is-layout-flow>.alignleft {
-        float: left;
-        margin-inline-start: 0;
-        margin-inline-end: 2em;
-    }
-
-    body .is-layout-flow>.alignright {
-        float: right;
-        margin-inline-start: 2em;
-        margin-inline-end: 0;
-    }
-
-    body .is-layout-flow>.aligncenter {
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    body .is-layout-constrained>.alignleft {
-        float: left;
-        margin-inline-start: 0;
-        margin-inline-end: 2em;
-    }
-
-    body .is-layout-constrained>.alignright {
-        float: right;
-        margin-inline-start: 2em;
-        margin-inline-end: 0;
-    }
-
-    body .is-layout-constrained>.aligncenter {
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-        max-width: var(--wp--style--global--content-size);
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    body .is-layout-constrained>.alignwide {
-        max-width: var(--wp--style--global--wide-size);
-    }
-
-    body .is-layout-flex {
-        display: flex;
-    }
-
-    body .is-layout-flex {
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    body .is-layout-flex>* {
-        margin: 0;
-    }
-
-    body .is-layout-grid {
-        display: grid;
-    }
-
-    body .is-layout-grid>* {
-        margin: 0;
-    }
-
-    :where(.wp-block-columns.is-layout-flex) {
-        gap: 2em;
-    }
-
-    :where(.wp-block-columns.is-layout-grid) {
-        gap: 2em;
-    }
-
-    :where(.wp-block-post-template.is-layout-flex) {
-        gap: 1.25em;
-    }
-
-    :where(.wp-block-post-template.is-layout-grid) {
-        gap: 1.25em;
-    }
-
-    .has-black-color {
-        color: var(--wp--preset--color--black) !important;
-    }
-
-    .has-cyan-bluish-gray-color {
-        color: var(--wp--preset--color--cyan-bluish-gray) !important;
-    }
-
-    .has-white-color {
-        color: var(--wp--preset--color--white) !important;
-    }
-
-    .has-pale-pink-color {
-        color: var(--wp--preset--color--pale-pink) !important;
-    }
-
-    .has-vivid-red-color {
-        color: var(--wp--preset--color--vivid-red) !important;
-    }
-
-    .has-luminous-vivid-orange-color {
-        color: var(--wp--preset--color--luminous-vivid-orange) !important;
-    }
-
-    .has-luminous-vivid-amber-color {
-        color: var(--wp--preset--color--luminous-vivid-amber) !important;
-    }
-
-    .has-light-green-cyan-color {
-        color: var(--wp--preset--color--light-green-cyan) !important;
-    }
-
-    .has-vivid-green-cyan-color {
-        color: var(--wp--preset--color--vivid-green-cyan) !important;
-    }
-
-    .has-pale-cyan-blue-color {
-        color: var(--wp--preset--color--pale-cyan-blue) !important;
-    }
-
-    .has-vivid-cyan-blue-color {
-        color: var(--wp--preset--color--vivid-cyan-blue) !important;
-    }
-
-    .has-vivid-purple-color {
-        color: var(--wp--preset--color--vivid-purple) !important;
-    }
-
-    .has-black-background-color {
-        background-color: var(--wp--preset--color--black) !important;
-    }
-
-    .has-cyan-bluish-gray-background-color {
-        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-    }
-
-    .has-white-background-color {
-        background-color: var(--wp--preset--color--white) !important;
-    }
-
-    .has-pale-pink-background-color {
-        background-color: var(--wp--preset--color--pale-pink) !important;
-    }
-
-    .has-vivid-red-background-color {
-        background-color: var(--wp--preset--color--vivid-red) !important;
-    }
-
-    .has-luminous-vivid-orange-background-color {
-        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-    }
-
-    .has-luminous-vivid-amber-background-color {
-        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-    }
-
-    .has-light-green-cyan-background-color {
-        background-color: var(--wp--preset--color--light-green-cyan) !important;
-    }
-
-    .has-vivid-green-cyan-background-color {
-        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-    }
-
-    .has-pale-cyan-blue-background-color {
-        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-    }
-
-    .has-vivid-cyan-blue-background-color {
-        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-    }
-
-    .has-vivid-purple-background-color {
-        background-color: var(--wp--preset--color--vivid-purple) !important;
-    }
-
-    .has-black-border-color {
-        border-color: var(--wp--preset--color--black) !important;
-    }
-
-    .has-cyan-bluish-gray-border-color {
-        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-    }
-
-    .has-white-border-color {
-        border-color: var(--wp--preset--color--white) !important;
-    }
-
-    .has-pale-pink-border-color {
-        border-color: var(--wp--preset--color--pale-pink) !important;
-    }
-
-    .has-vivid-red-border-color {
-        border-color: var(--wp--preset--color--vivid-red) !important;
-    }
-
-    .has-luminous-vivid-orange-border-color {
-        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-    }
-
-    .has-luminous-vivid-amber-border-color {
-        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-    }
-
-    .has-light-green-cyan-border-color {
-        border-color: var(--wp--preset--color--light-green-cyan) !important;
-    }
-
-    .has-vivid-green-cyan-border-color {
-        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-    }
-
-    .has-pale-cyan-blue-border-color {
-        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-    }
-
-    .has-vivid-cyan-blue-border-color {
-        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-    }
-
-    .has-vivid-purple-border-color {
-        border-color: var(--wp--preset--color--vivid-purple) !important;
-    }
-
-    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-    }
-
-    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-    }
-
-    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-    }
-
-    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-    }
-
-    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-    }
-
-    .has-cool-to-warm-spectrum-gradient-background {
-        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-    }
-
-    .has-blush-light-purple-gradient-background {
-        background: var(--wp--preset--gradient--blush-light-purple) !important;
-    }
-
-    .has-blush-bordeaux-gradient-background {
-        background: var(--wp--preset--gradient--blush-bordeaux) !important;
-    }
-
-    .has-luminous-dusk-gradient-background {
-        background: var(--wp--preset--gradient--luminous-dusk) !important;
-    }
-
-    .has-pale-ocean-gradient-background {
-        background: var(--wp--preset--gradient--pale-ocean) !important;
-    }
-
-    .has-electric-grass-gradient-background {
-        background: var(--wp--preset--gradient--electric-grass) !important;
-    }
-
-    .has-midnight-gradient-background {
-        background: var(--wp--preset--gradient--midnight) !important;
-    }
-
-    .has-small-font-size {
-        font-size: var(--wp--preset--font-size--small) !important;
-    }
-
-    .has-medium-font-size {
-        font-size: var(--wp--preset--font-size--medium) !important;
-    }
-
-    .has-large-font-size {
-        font-size: var(--wp--preset--font-size--large) !important;
-    }
-
-    .has-x-large-font-size {
-        font-size: var(--wp--preset--font-size--x-large) !important;
-    }
-
-    .wp-block-navigation a:where(:not(.wp-element-button)) {
-        color: inherit;
-    }
-
-    :where(.wp-block-post-template.is-layout-flex) {
-        gap: 1.25em;
-    }
-
-    :where(.wp-block-post-template.is-layout-grid) {
-        gap: 1.25em;
-    }
-
-    :where(.wp-block-columns.is-layout-flex) {
-        gap: 2em;
-    }
-
-    :where(.wp-block-columns.is-layout-grid) {
-        gap: 2em;
-    }
-
-    .wp-block-pullquote {
-        font-size: 1.5em;
-        line-height: 1.6;
-    }
-    </style>
-    <link rel='stylesheet' id='hfe-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.33'
-        media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.21.6'
-        media='all' />
-    <link rel='stylesheet' id='swiper-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-5-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1719392981' media='all' />
-    <link rel='stylesheet' id='elementor-pro-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'
-        media='all' />
-    <!-- <link rel='stylesheet' id='she-header-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.11'
-        media='all' /> -->
-    <link rel='stylesheet' id='elementor-global-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1719392983' media='all' />
-    <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
-    <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
-    <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
-        media='all' />
-    <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.1'
-        media='all' />
-    <!-- <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
-        media='all' /> -->
-    <link rel="preload" id='qi-addons-for-elementor-style-css'
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
-    </noscript>
-    <link rel='stylesheet' id='zip-ai-sidebar-css'
-        href='https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.css?ver=1.1.6'
-        media='all' />
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' /> -->
-    <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
-    <!-- <link rel='stylesheet' id='wpforms-admin-bar-css'
-        href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
-        media='all' /> -->
-    <!-- <style id='wpforms-admin-bar-inline-css'>
-    #wpadminbar .wpforms-menu-notification-counter,
-    #wpadminbar .wpforms-menu-notification-indicator {
-        background-color: #d63638 !important;
-        color: #ffffff !important;
-    } -->
-    <!-- </style> -->
-    <link rel='stylesheet' id='wpr-text-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.975'
-        media='all' />
-    <!-- <link rel='stylesheet' id='wpr-addons-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975'
-        media='all' /> -->
-    <link rel="preload" id='wpr-addons-css-css'
-        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975">
-    </noscript>
-    <link rel='stylesheet' id='font-awesome-5-all-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.975'
-        media='all' />
-    <link rel='stylesheet' id='google-fonts-1-css'
-        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRaleway%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COswald%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3'
-        async>
-    <link rel='stylesheet' id='elementor-icons-shared-0-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
-        media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
-        media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
-        media='all' />
+    @include('partials.web-style')
+    
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -610,35 +77,7 @@
         "import-export": []
     };
     </script>
-    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/7317" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
-    <meta name="generator" content="WordPress 6.4.3" />
     <link rel="canonical" href="https://wiseadvizor.com/about-us" />
-    <!-- <link rel='shortlink' href='https://wiseadvizor.com/?p=7317' /> -->
-    <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-7317%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Felementor-7317%2F&#038;format=xml" />
-    <style>
-    #wpadminbar .theplus-purge-clear>.ab-item:before {
-        content: '';
-        background-image: url("https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/images/theplus-logo-small.png") !important;
-        background-size: 20px !important;
-        background-position: center;
-        width: 20px;
-        height: 20px;
-        background-repeat: no-repeat;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    @media (max-width:660px) {
-        #wpadminbar {
-            position: fixed;
-        }
-    }
-    </style>
     <script>
     (function() {
         window.onpageshow = function(event) {
@@ -1266,19 +705,9 @@
             </div>
         </section>
     </div>
+    
     @include('partials.footer-web')
 
-    <!-- <div id="zip-ai-sidebar-admin-trigger"></div>
-    <div id="zip-ai-sidebar"></div> -->
-    <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.33'
-        media='all' />
-    <link rel='stylesheet' id='wpr-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.975'
-        media='all' />
-    <link rel='stylesheet' id='wpr-button-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.975'
-        media='all' />
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
@@ -1322,9 +751,6 @@
     <script
         src="//wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/js/main/general/theplus-purge.js?ver=5.5.3"
         id="plus-purge-js-js"></script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0" id="react-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0" id="react-dom-js">
-    </script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js">
@@ -1334,10 +760,6 @@
         'text direction\u0004ltr': ['ltr']
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/url.min.js?ver=b4979979018b684be209" id="wp-url-js">
-    </script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a"
-        id="wp-api-fetch-js"></script> -->
     <script id="wp-api-fetch-js-after">
     wp.apiFetch.use(wp.apiFetch.createRootURLMiddleware("https://wiseadvizor.com/wp-json/"));
     wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware("1f38b2350a");
@@ -1345,26 +767,6 @@
     wp.apiFetch.use(wp.apiFetch.mediaUploadMiddleware);
     wp.apiFetch.nonceEndpoint = "https://wiseadvizor.com/wp-admin/admin-ajax.php?action=rest-nonce";
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js">
-    </script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a"
-        id="wp-deprecated-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/dom.min.js?ver=49ff2869626fbeaacc23" id="wp-dom-js">
-    </script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6"
-        id="wp-escape-html-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
-        id="wp-element-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
-        id="wp-is-shallow-equal-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
-        id="wp-keycodes-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219"
-        id="wp-priority-queue-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
-        id="wp-compose-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
-    </script> -->
     <script id="moment-js-after">
     moment.updateLocale('en_US', {
         "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September",
@@ -1386,8 +788,6 @@
         }
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/date.min.js?ver=936c461ad5dce9c2c8ea" id="wp-date-js">
-    </script> -->
     <script id="wp-date-js-after">
     wp.date.setSettings({
         "l10n": {
@@ -1435,16 +835,6 @@
         }
     });
     </script>
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e"
-        id="wp-html-entities-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/primitives.min.js?ver=6984e6eb5d6157c4fe44"
-        id="wp-primitives-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/private-apis.min.js?ver=11cb2ebaa70a9f1f0ab5"
-        id="wp-private-apis-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531"
-        id="wp-redux-routine-js"></script> -->
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/dist/data.min.js?ver=dc5f255634f3da29c8d5" id="wp-data-js">
-    </script> -->
     <script id="wp-data-js-after">
     (function() {
         var userId = 1;
