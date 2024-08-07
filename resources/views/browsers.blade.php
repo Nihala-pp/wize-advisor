@@ -29,9 +29,9 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-        var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
-        var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-        var theplus_nonce = "e7ae24e787";
+    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
+    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
+    var theplus_nonce = "e7ae24e787";
     </script>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
@@ -42,1139 +42,134 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-    <!-- <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
-        rel='stylesheet'> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
-    <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
-    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
-
-    <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PK457VCB');
-    </script>
-    <!-- End Google Tag Manager -->
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 3668045,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-    <script>
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "\/https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
-            }
-        };
-        /*! This file is auto-generated */
-        ! function (i, n) {
-            var o, s, e;
-
-            function c(e) {
-                try {
-                    var t = {
-                        supportTests: e,
-                        timestamp: (new Date).valueOf()
-                    };
-                    sessionStorage.setItem(o, JSON.stringify(t))
-                } catch (e) { }
-            }
-
-            function p(e, t, n) {
-                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
-                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
-                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
-                        .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-                return t.every(function (e, t) {
-                    return e === r[t]
-                })
-            }
-
-            function u(e, t, n) {
-                switch (t) {
-                    case "flag":
-                        return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
-                            "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
-                            "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
-                    case "emoji":
-                        return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
-                }
-                return !1
-            }
-
-            function f(e, t, n) {
-                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
-                    300, 150) : i.createElement("canvas"),
-                    a = r.getContext("2d", {
-                        willReadFrequently: !0
-                    }),
-                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-                return e.forEach(function (e) {
-                    o[e] = t(a, e, n)
-                }), o
-            }
-
-            function t(e) {
-                var t = i.createElement("script");
-                t.src = e, t.defer = !0, i.head.appendChild(t)
-            }
-            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
-                everything: !0,
-                everythingExceptFlag: !0
-            }, e = new Promise(function (e) {
-                i.addEventListener("DOMContentLoaded", e, {
-                    once: !0
-                })
-            }), new Promise(function (t) {
-                var n = function () {
-                    try {
-                        var e = JSON.parse(sessionStorage.getItem(o));
-                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
-                            e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-                    } catch (e) { }
-                    return null
-                }();
-                if (!n) {
-                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
-                        typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
-                            var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
-                                .toString()
-                            ].join(",") + "));",
-                                r = new Blob([e], {
-                                    type: "text/javascript"
-                                }),
-                                a = new Worker(URL.createObjectURL(r), {
-                                    name: "wpTestEmojiSupports"
-                                });
-                            return void (a.onmessage = function (e) {
-                                c(n = e.data), a.terminate(), t(n)
-                            })
-                        } catch (e) { }
-                    c(n = f(s, u, p))
-                }
-                t(n)
-            }).then(function (e) {
-                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
-                    .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
-                        .everythingExceptFlag && n.supports[t]);
-                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
-                    .DOMReady = !1, n.readyCallback = function () {
-                        n.DOMReady = !0
-                    }
-            }).then(function () {
-                return e
-            }).then(function () {
-                var e;
-                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
-                    .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
-            }))
-        }((window, document), window._wpemojiSettings);
-    </script>
-    <style id="wp-emoji-styles-inline-css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 0.07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-    </style>
-    <style id="wp-block-library-inline-css">
-        :root {
-            --wp-admin-theme-color: #007cba;
-            --wp-admin-theme-color--rgb: 0, 124, 186;
-            --wp-admin-theme-color-darker-10: #006ba1;
-            --wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
-            --wp-admin-theme-color-darker-20: #005a87;
-            --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
-            --wp-admin-border-width-focus: 2px;
-            --wp-block-synced-color: #7a00df;
-            --wp-block-synced-color--rgb: 122, 0, 223
-        }
-
-        @media (min-resolution:192dpi) {
-            :root {
-                --wp-admin-border-width-focus: 1.5px
-            }
-        }
-
-        .wp-element-button {
-            cursor: pointer
-        }
-
-        :root {
-            --wp--preset--font-size--normal: 16px;
-            --wp--preset--font-size--huge: 42px
-        }
-
-        :root .has-very-light-gray-background-color {
-            background-color: #eee
-        }
-
-        :root .has-very-dark-gray-background-color {
-            background-color: #313131
-        }
-
-        :root .has-very-light-gray-color {
-            color: #eee
-        }
-
-        :root .has-very-dark-gray-color {
-            color: #313131
-        }
-
-        :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
-            background: linear-gradient(135deg, #00d084, #0693e3)
-        }
-
-        :root .has-purple-crush-gradient-background {
-            background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
-        }
-
-        :root .has-hazy-dawn-gradient-background {
-            background: linear-gradient(135deg, #faaca8, #dad0ec)
-        }
-
-        :root .has-subdued-olive-gradient-background {
-            background: linear-gradient(135deg, #fafae1, #67a671)
-        }
-
-        :root .has-atomic-cream-gradient-background {
-            background: linear-gradient(135deg, #fdd79a, #004a59)
-        }
-
-        :root .has-nightshade-gradient-background {
-            background: linear-gradient(135deg, #330968, #31cdcf)
-        }
-
-        :root .has-midnight-gradient-background {
-            background: linear-gradient(135deg, #020381, #2874fc)
-        }
-
-        .has-regular-font-size {
-            font-size: 1em
-        }
-
-        .has-larger-font-size {
-            font-size: 2.625em
-        }
-
-        .has-normal-font-size {
-            font-size: var(--wp--preset--font-size--normal)
-        }
-
-        .has-huge-font-size {
-            font-size: var(--wp--preset--font-size--huge)
-        }
-
-        .has-text-align-center {
-            text-align: center
-        }
-
-        .has-text-align-left {
-            text-align: left
-        }
-
-        .has-text-align-right {
-            text-align: right
-        }
-
-        #end-resizable-editor-section {
-            display: none
-        }
-
-        .aligncenter {
-            clear: both
-        }
-
-        .items-justified-left {
-            justify-content: flex-start
-        }
-
-        .items-justified-center {
-            justify-content: center
-        }
-
-        .items-justified-right {
-            justify-content: flex-end
-        }
-
-        .items-justified-space-between {
-            justify-content: space-between
-        }
-
-        .screen-reader-text {
-            clip: rect(1px, 1px, 1px, 1px);
-            word-wrap: normal !important;
-            border: 0;
-            -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute;
-            width: 1px
-        }
-
-        .screen-reader-text:focus {
-            clip: auto !important;
-            background-color: #ddd;
-            -webkit-clip-path: none;
-            clip-path: none;
-            color: #444;
-            display: block;
-            font-size: 1em;
-            height: auto;
-            left: 5px;
-            line-height: normal;
-            padding: 15px 23px 14px;
-            text-decoration: none;
-            top: 5px;
-            width: auto;
-            z-index: 100000
-        }
-
-        html :where(.has-border-color) {
-            border-style: solid
-        }
-
-        html :where([style*=border-top-color]) {
-            border-top-style: solid
-        }
-
-        html :where([style*=border-right-color]) {
-            border-right-style: solid
-        }
-
-        html :where([style*=border-bottom-color]) {
-            border-bottom-style: solid
-        }
-
-        html :where([style*=border-left-color]) {
-            border-left-style: solid
-        }
-
-        html :where([style*=border-width]) {
-            border-style: solid
-        }
-
-        html :where([style*=border-top-width]) {
-            border-top-style: solid
-        }
-
-        html :where([style*=border-right-width]) {
-            border-right-style: solid
-        }
-
-        html :where([style*=border-bottom-width]) {
-            border-bottom-style: solid
-        }
-
-        html :where([style*=border-left-width]) {
-            border-left-style: solid
-        }
-
-        html :where(img[class*=wp-image-]) {
-            height: auto;
-            max-width: 100%
-        }
-
-        :where(figure) {
-            margin: 0 0 1em
-        }
-
-        html :where(.is-position-sticky) {
-            --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
-        }
-
-        @media screen and (max-width:600px) {
-            html :where(.is-position-sticky) {
-                --wp-admin--admin-bar--position-offset: 0px
-            }
-        }
-    </style>
-    <link rel="preload"
-        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" id="tpgb-fontawesome-css"
-            href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
-    </noscript>
-    <link rel="stylesheet" id="tpgb-gfonts-global-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;display=swap&#038;ver=3.0.2">
-    <link rel="stylesheet" id="plus-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1688368797" media="all">
-    <style id="global-styles-inline-css">
-        body {
-            --wp--preset--color--black: #000000;
-            --wp--preset--color--cyan-bluish-gray: #abb8c3;
-            --wp--preset--color--white: #ffffff;
-            --wp--preset--color--pale-pink: #f78da7;
-            --wp--preset--color--vivid-red: #cf2e2e;
-            --wp--preset--color--luminous-vivid-orange: #ff6900;
-            --wp--preset--color--luminous-vivid-amber: #fcb900;
-            --wp--preset--color--light-green-cyan: #7bdcb5;
-            --wp--preset--color--vivid-green-cyan: #00d084;
-            --wp--preset--color--pale-cyan-blue: #8ed1fc;
-            --wp--preset--color--vivid-cyan-blue: #0693e3;
-            --wp--preset--color--vivid-purple: #9b51e0;
-            --wp--preset--color--foreground: #000000;
-            --wp--preset--color--background: #ffffff;
-            --wp--preset--color--primary: #1a4548;
-            --wp--preset--color--secondary: #ffe2c7;
-            --wp--preset--color--tertiary: #F6F6F6;
-            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-            --wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%);
-            --wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--background) 100%);
-            --wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--background) 100%);
-            --wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--foreground) 100%);
-            --wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--secondary) 50%, var(--wp--preset--color--background) 50%);
-            --wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--secondary) 50%);
-            --wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 50%, var(--wp--preset--color--background) 50%);
-            --wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right, var(--wp--preset--color--background) 50%, var(--wp--preset--color--tertiary) 50%);
-            --wp--preset--font-size--small: 1rem;
-            --wp--preset--font-size--medium: 1.125rem;
-            --wp--preset--font-size--large: 1.75rem;
-            --wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);
-            --wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-            --wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;
-            --wp--preset--spacing--20: 0.44rem;
-            --wp--preset--spacing--30: 0.67rem;
-            --wp--preset--spacing--40: 1rem;
-            --wp--preset--spacing--50: 1.5rem;
-            --wp--preset--spacing--60: 2.25rem;
-            --wp--preset--spacing--70: 3.38rem;
-            --wp--preset--spacing--80: 5.06rem;
-            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
-            --wp--custom--spacing--small: max(1.25rem, 5vw);
-            --wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));
-            --wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);
-            --wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);
-            --wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);
-            --wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);
-            --wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);
-            --wp--custom--typography--line-height--tiny: 1.15;
-            --wp--custom--typography--line-height--small: 1.2;
-            --wp--custom--typography--line-height--medium: 1.4;
-            --wp--custom--typography--line-height--normal: 1.6;
-        }
-
-        /* body {
-        margin: 0;
-        --wp--style--global--content-size: 650px;
-        --wp--style--global--wide-size: 1000px;
-    } */
-
-        .wp-site-blocks>.alignleft {
-            float: left;
-            margin-right: 2em;
-        }
-
-        .wp-site-blocks>.alignright {
-            float: right;
-            margin-left: 2em;
-        }
-
-        .wp-site-blocks>.aligncenter {
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        :where(.wp-site-blocks)>* {
-            margin-block-start: 1.5rem;
-            margin-block-end: 0;
-        }
-
-        :where(.wp-site-blocks)> :first-child:first-child {
-            margin-block-start: 0;
-        }
-
-        :where(.wp-site-blocks)> :last-child:last-child {
-            margin-block-end: 0;
-        }
-
-        body {
-            --wp--style--block-gap: 1.5rem;
-        }
-
-        :where(body .is-layout-flow)> :first-child:first-child {
-            margin-block-start: 0;
-        }
-
-        :where(body .is-layout-flow)> :last-child:last-child {
-            margin-block-end: 0;
-        }
-
-        :where(body .is-layout-flow)>* {
-            margin-block-start: 1.5rem;
-            margin-block-end: 0;
-        }
-
-        :where(body .is-layout-constrained)> :first-child:first-child {
-            margin-block-start: 0;
-        }
-
-        :where(body .is-layout-constrained)> :last-child:last-child {
-            margin-block-end: 0;
-        }
-
-        :where(body .is-layout-constrained)>* {
-            margin-block-start: 1.5rem;
-            margin-block-end: 0;
-        }
-
-        :where(body .is-layout-flex) {
-            gap: 1.5rem;
-        }
-
-        :where(body .is-layout-grid) {
-            gap: 1.5rem;
-        }
-
-        body .is-layout-flow>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
-
-        body .is-layout-flow>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
-
-        body .is-layout-flow>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
-
-        body .is-layout-constrained>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
-
-        body .is-layout-constrained>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-            max-width: var(--wp--style--global--content-size);
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained>.alignwide {
-            max-width: var(--wp--style--global--wide-size);
-        }
-
-        body .is-layout-flex {
-            display: flex;
-        }
-
-        body .is-layout-flex {
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        body .is-layout-flex>* {
-            margin: 0;
-        }
-
-        body .is-layout-grid {
-            display: grid;
-        }
-
-        body .is-layout-grid>* {
-            margin: 0;
-        }
-
-        body {
-            background-color: var(--wp--preset--color--background);
-            color: var(--wp--preset--color--foreground);
-            font-family: var(--wp--preset--font-family--system-font);
-            font-size: var(--wp--preset--font-size--medium);
-            line-height: var(--wp--custom--typography--line-height--normal);
-            padding-top: 0px;
-            padding-right: 0px;
-            padding-bottom: 0px;
-            padding-left: 0px;
-        }
-
-        a:where(:not(.wp-element-button)) {
-            color: var(--wp--preset--color--foreground);
-            text-decoration: underline;
-        }
-
-        h1 {
-            font-family: var(--wp--preset--font-family--source-serif-pro);
-            font-size: var(--wp--custom--typography--font-size--colossal);
-            font-weight: 300;
-            line-height: var(--wp--custom--typography--line-height--tiny);
-        }
-
-        h2 {
-            font-family: var(--wp--preset--font-family--source-serif-pro);
-            font-size: var(--wp--custom--typography--font-size--gigantic);
-            font-weight: 300;
-            line-height: var(--wp--custom--typography--line-height--small);
-        }
-
-        h3 {
-            font-family: var(--wp--preset--font-family--source-serif-pro);
-            font-size: var(--wp--custom--typography--font-size--huge);
-            font-weight: 300;
-            line-height: var(--wp--custom--typography--line-height--tiny);
-        }
-
-        h4 {
-            font-family: var(--wp--preset--font-family--source-serif-pro);
-            font-size: var(--wp--preset--font-size--x-large);
-            font-weight: 300;
-            line-height: var(--wp--custom--typography--line-height--tiny);
-        }
-
-        h5 {
-            font-family: var(--wp--preset--font-family--system-font);
-            font-size: var(--wp--preset--font-size--medium);
-            font-weight: 700;
-            line-height: var(--wp--custom--typography--line-height--normal);
-            text-transform: capitalize;
-        }
-
-        h6 {
-            font-family: var(--wp--preset--font-family--system-font);
-            font-size: var(--wp--preset--font-size--medium);
-            font-weight: 400;
-            line-height: var(--wp--custom--typography--line-height--normal);
-            text-transform: capitalize;
-        }
-
-        .wp-element-button,
-        .wp-block-button__link {
-            background-color: #32373c;
-            border-width: 0;
-            color: #fff;
-            font-family: inherit;
-            font-size: inherit;
-            line-height: inherit;
-            padding: calc(0.667em + 2px) calc(1.333em + 2px);
-            text-decoration: none;
-        }
-
-        .has-black-color {
-            color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-color {
-            color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-color {
-            color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-color {
-            color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-color {
-            color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-color {
-            color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-color {
-            color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-color {
-            color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-color {
-            color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-color {
-            color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-color {
-            color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-color {
-            color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-foreground-color {
-            color: var(--wp--preset--color--foreground) !important;
-        }
-
-        .has-background-color {
-            color: var(--wp--preset--color--background) !important;
-        }
-
-        .has-primary-color {
-            color: var(--wp--preset--color--primary) !important;
-        }
-
-        .has-secondary-color {
-            color: var(--wp--preset--color--secondary) !important;
-        }
-
-        .has-tertiary-color {
-            color: var(--wp--preset--color--tertiary) !important;
-        }
-
-        .has-black-background-color {
-            background-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-background-color {
-            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-background-color {
-            background-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-background-color {
-            background-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-background-color {
-            background-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-background-color {
-            background-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-background-color {
-            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-background-color {
-            background-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-foreground-background-color {
-            background-color: var(--wp--preset--color--foreground) !important;
-        }
-
-        .has-background-background-color {
-            background-color: var(--wp--preset--color--background) !important;
-        }
-
-        .has-primary-background-color {
-            background-color: var(--wp--preset--color--primary) !important;
-        }
-
-        .has-secondary-background-color {
-            background-color: var(--wp--preset--color--secondary) !important;
-        }
-
-        .has-tertiary-background-color {
-            background-color: var(--wp--preset--color--tertiary) !important;
-        }
-
-        .has-black-border-color {
-            border-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-border-color {
-            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-border-color {
-            border-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-border-color {
-            border-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-border-color {
-            border-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-border-color {
-            border-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-border-color {
-            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-border-color {
-            border-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-foreground-border-color {
-            border-color: var(--wp--preset--color--foreground) !important;
-        }
-
-        .has-background-border-color {
-            border-color: var(--wp--preset--color--background) !important;
-        }
-
-        .has-primary-border-color {
-            border-color: var(--wp--preset--color--primary) !important;
-        }
-
-        .has-secondary-border-color {
-            border-color: var(--wp--preset--color--secondary) !important;
-        }
-
-        .has-tertiary-border-color {
-            border-color: var(--wp--preset--color--tertiary) !important;
-        }
-
-        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-        }
-
-        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-        }
-
-        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-        }
-
-        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-        }
-
-        .has-cool-to-warm-spectrum-gradient-background {
-            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-        }
-
-        .has-blush-light-purple-gradient-background {
-            background: var(--wp--preset--gradient--blush-light-purple) !important;
-        }
-
-        .has-blush-bordeaux-gradient-background {
-            background: var(--wp--preset--gradient--blush-bordeaux) !important;
-        }
-
-        .has-luminous-dusk-gradient-background {
-            background: var(--wp--preset--gradient--luminous-dusk) !important;
-        }
-
-        .has-pale-ocean-gradient-background {
-            background: var(--wp--preset--gradient--pale-ocean) !important;
-        }
-
-        .has-electric-grass-gradient-background {
-            background: var(--wp--preset--gradient--electric-grass) !important;
-        }
-
-        .has-midnight-gradient-background {
-            background: var(--wp--preset--gradient--midnight) !important;
-        }
-
-        .has-vertical-secondary-to-tertiary-gradient-background {
-            background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;
-        }
-
-        .has-vertical-secondary-to-background-gradient-background {
-            background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;
-        }
-
-        .has-vertical-tertiary-to-background-gradient-background {
-            background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;
-        }
-
-        .has-diagonal-primary-to-foreground-gradient-background {
-            background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;
-        }
-
-        .has-diagonal-secondary-to-background-gradient-background {
-            background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;
-        }
-
-        .has-diagonal-background-to-secondary-gradient-background {
-            background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;
-        }
-
-        .has-diagonal-tertiary-to-background-gradient-background {
-            background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;
-        }
-
-        .has-diagonal-background-to-tertiary-gradient-background {
-            background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;
-        }
-
-        .has-small-font-size {
-            font-size: var(--wp--preset--font-size--small) !important;
-        }
-
-        .has-medium-font-size {
-            font-size: var(--wp--preset--font-size--medium) !important;
-        }
-
-        .has-large-font-size {
-            font-size: var(--wp--preset--font-size--large) !important;
-        }
-
-        .has-x-large-font-size {
-            font-size: var(--wp--preset--font-size--x-large) !important;
-        }
-
-        .has-system-font-font-family {
-            font-family: var(--wp--preset--font-family--system-font) !important;
-        }
-
-        .has-source-serif-pro-font-family {
-            font-family: var(--wp--preset--font-family--source-serif-pro) !important;
-        }
-    </style>
-    <style id="wp-block-template-skip-link-inline-css">
-        .skip-link.screen-reader-text {
-            border: 0;
-            clip: rect(1px, 1px, 1px, 1px);
-            clip-path: inset(50%);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute !important;
-            width: 1px;
-            word-wrap: normal !important;
-        }
-
-        .skip-link.screen-reader-text:focus {
-            background-color: #eee;
-            clip: auto !important;
-            clip-path: none;
-            color: #444;
-            display: block;
-            font-size: 1em;
-            height: auto;
-            left: 5px;
-            line-height: normal;
-            padding: 15px 23px 14px;
-            text-decoration: none;
-            top: 5px;
-            width: auto;
-            z-index: 100000;
-        }
-    </style>
-    <link rel="stylesheet" id="niso-carousel-fontello-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-owl-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0"
-        media="all">
-    <link rel="stylesheet" id="niso-theme-default-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0"
-        media="all">
-    <link rel="stylesheet" id="niso-animate-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-lightbox-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0"
-        media="all">
-    <link rel="stylesheet" id="niso-carousel-lightbox-theme-css"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0"
-        media="all">
-    <link rel="stylesheet" id="hfe-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
-        media="all">
-    <!-- <link rel="stylesheet" id="elementor-frontend-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        media="all"> -->
-    <link rel="preload"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        as="style" id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" id="elementor-frontend-css"
-            href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
-    </noscript>
-    <link rel="stylesheet" id="swiper-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-5-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" media="all">
-    <link rel="stylesheet" id="she-header-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
-        media="all">
-    <link rel="stylesheet" id="elementor-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419" media="all">
     <link rel="stylesheet" id="elementor-post-2772-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
-    <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1699609169" media="all">
-    <link rel="stylesheet" id="elementor-post-32-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1"
-        media="all">
-    <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
-        media="all">
-    <!-- <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
-        media="all"> -->
-    <link rel="preload" id='qi-addons-for-elementor-style-css'
-        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
-    </noscript>
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/css/print.css?ver=2.0' media='print' /> -->
-    <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364619" media="all">
-    <link rel="stylesheet" id="twentytwentytwo-style-css"
-        href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" media="all">
-    <link rel='stylesheet' id='wpr-text-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
-        media='all' />
-    <!-- <link rel='stylesheet' id='wpr-addons-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.87'
-        media='all' /> -->
-    <link rel="preload" id='wpr-addons-css-css'
-        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet"
-            href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975">
-    </noscript>
-    <link rel='stylesheet' id='wpr-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.87'
-        media='all' />
-    <link rel="stylesheet" id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1">
-    <link rel="stylesheet" id="elementor-icons-shared-0-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-regular-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
-        media="all">
-    <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
-        media="all">
+    <script>
+    window._wpemojiSettings = {
+        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+        "ext": ".png",
+        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+        "svgExt": ".svg",
+        "source": {
+            "concatemoji": "\/https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
+        }
+    };
+    /*! This file is auto-generated */
+    ! function(i, n) {
+        var o, s, e;
+
+        function c(e) {
+            try {
+                var t = {
+                    supportTests: e,
+                    timestamp: (new Date).valueOf()
+                };
+                sessionStorage.setItem(o, JSON.stringify(t))
+            } catch (e) {}
+        }
+
+        function p(e, t, n) {
+            e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+            var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
+                    .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+            return t.every(function(e, t) {
+                return e === r[t]
+            })
+        }
+
+        function u(e, t, n) {
+            switch (t) {
+                case "flag":
+                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
+                        "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
+                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
+                case "emoji":
+                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
+            }
+            return !1
+        }
+
+        function f(e, t, n) {
+            var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
+                    300, 150) : i.createElement("canvas"),
+                a = r.getContext("2d", {
+                    willReadFrequently: !0
+                }),
+                o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+            return e.forEach(function(e) {
+                o[e] = t(a, e, n)
+            }), o
+        }
+
+        function t(e) {
+            var t = i.createElement("script");
+            t.src = e, t.defer = !0, i.head.appendChild(t)
+        }
+        "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+            everything: !0,
+            everythingExceptFlag: !0
+        }, e = new Promise(function(e) {
+            i.addEventListener("DOMContentLoaded", e, {
+                once: !0
+            })
+        }), new Promise(function(t) {
+            var n = function() {
+                try {
+                    var e = JSON.parse(sessionStorage.getItem(o));
+                    if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
+                        e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                } catch (e) {}
+                return null
+            }();
+            if (!n) {
+                if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
+                    typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                    var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
+                            .toString()
+                        ].join(",") + "));",
+                        r = new Blob([e], {
+                            type: "text/javascript"
+                        }),
+                        a = new Worker(URL.createObjectURL(r), {
+                            name: "wpTestEmojiSupports"
+                        });
+                    return void(a.onmessage = function(e) {
+                        c(n = e.data), a.terminate(), t(n)
+                    })
+                } catch (e) {}
+                c(n = f(s, u, p))
+            }
+            t(n)
+        }).then(function(e) {
+            for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
+                .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
+                    .everythingExceptFlag && n.supports[t]);
+            n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
+                .DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+        }).then(function() {
+            return e
+        }).then(function() {
+            var e;
+            n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
+                .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+        }))
+    }((window, document), window._wpemojiSettings);
+    </script>
+    @include('partials.web-style')
+
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
-        var tpgb_load = {
-            "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
-        };
-        var smoothAllowedBrowsers = [];
+    var tpgb_load = {
+        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+    };
+    var smoothAllowedBrowsers = [];
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
@@ -1188,12 +183,12 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
     <meta name="generator" content="WordPress 6.4.1">
     @php
-        $expert_coloumn = $expertise_name ? $expertise_name : NULL;
+    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
     @endphp
     @if(!empty($expert_coloumn))
-        <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
     @else
-        <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
     @endif
     <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
     <link rel="alternate" type="application/json+oembed"
@@ -1203,96 +198,96 @@
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style id="wp-fonts-local">
-        @font-face {
-            font-family: "Source Serif Pro";
-            font-style: normal;
-            font-weight: 200 900;
-            font-display: fallback;
-            src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
-            font-stretch: normal;
-        }
+    @font-face {
+        font-family: "Source Serif Pro";
+        font-style: normal;
+        font-weight: 200 900;
+        font-display: fallback;
+        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
+        font-stretch: normal;
+    }
 
-        @font-face {
-            font-family: "Source Serif Pro";
-            font-style: italic;
-            font-weight: 200 900;
-            font-display: fallback;
-            src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
-            font-stretch: normal;
-        }
+    @font-face {
+        font-family: "Source Serif Pro";
+        font-style: italic;
+        font-weight: 200 900;
+        font-display: fallback;
+        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
+        font-stretch: normal;
+    }
     </style>
     <style type="text/css">
-        #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
-            height: 350px;
-        }
+    #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
+        height: 350px;
+    }
 
-        #niso-carousel-952.niso-carousel {
-            margin: 10px 0px;
-        }
+    #niso-carousel-952.niso-carousel {
+        margin: 10px 0px;
+    }
 
-        #niso-carousel-952.niso-theme .owl-nav {
-            margin: 0px 0px 0px 0px;
-        }
+    #niso-carousel-952.niso-theme .owl-nav {
+        margin: 0px 0px 0px 0px;
+    }
 
-        #niso-carousel-952.owl-theme .owl-dots {
-            text-align: center;
-        }
+    #niso-carousel-952.owl-theme .owl-dots {
+        text-align: center;
+    }
 
-        #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i {
-            color: #ffffff;
-        }
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i {
+        color: #ffffff;
+    }
 
-        #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover {
-            color: #cccccc;
-        }
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover {
+        color: #cccccc;
+    }
 
-        #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:after {
-            background-color: #111111;
-            opacity: 0.80;
-            filter: alpha(opacity=80);
-        }
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:after {
+        background-color: #111111;
+        opacity: 0.80;
+        filter: alpha(opacity=80);
+    }
 
-        #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover:after {
-            background-color: #555555;
-        }
+    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover:after {
+        background-color: #555555;
+    }
 
-        html body .animated {
-            -webkit-animation-duration: 500000 ms;
-            animation-duration: 500000 ms;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
+    html body .animated {
+        -webkit-animation-duration: 500000 ms;
+        animation-duration: 500000 ms;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
     </style>
     <style id="wpforms-css-vars-root">
-        :root {
-            --wpforms-field-border-radius: 3px;
-            --wpforms-field-background-color: #ffffff;
-            --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
-            --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
-            --wpforms-label-color: rgba(0, 0, 0, 0.85);
-            --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
-            --wpforms-label-error-color: #d63637;
-            --wpforms-button-border-radius: 3px;
-            --wpforms-button-background-color: #066aab;
-            --wpforms-button-text-color: #ffffff;
-            --wpforms-field-size-input-height: 43px;
-            --wpforms-field-size-input-spacing: 15px;
-            --wpforms-field-size-font-size: 16px;
-            --wpforms-field-size-line-height: 19px;
-            --wpforms-field-size-padding-h: 14px;
-            --wpforms-field-size-checkbox-size: 16px;
-            --wpforms-field-size-sublabel-spacing: 5px;
-            --wpforms-field-size-icon-size: 1;
-            --wpforms-label-size-font-size: 16px;
-            --wpforms-label-size-line-height: 19px;
-            --wpforms-label-size-sublabel-font-size: 14px;
-            --wpforms-label-size-sublabel-line-height: 17px;
-            --wpforms-button-size-font-size: 17px;
-            --wpforms-button-size-height: 41px;
-            --wpforms-button-size-padding-h: 15px;
-            --wpforms-button-size-margin-top: 10px;
+    :root {
+        --wpforms-field-border-radius: 3px;
+        --wpforms-field-background-color: #ffffff;
+        --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
+        --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
+        --wpforms-label-color: rgba(0, 0, 0, 0.85);
+        --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
+        --wpforms-label-error-color: #d63637;
+        --wpforms-button-border-radius: 3px;
+        --wpforms-button-background-color: #066aab;
+        --wpforms-button-text-color: #ffffff;
+        --wpforms-field-size-input-height: 43px;
+        --wpforms-field-size-input-spacing: 15px;
+        --wpforms-field-size-font-size: 16px;
+        --wpforms-field-size-line-height: 19px;
+        --wpforms-field-size-padding-h: 14px;
+        --wpforms-field-size-checkbox-size: 16px;
+        --wpforms-field-size-sublabel-spacing: 5px;
+        --wpforms-field-size-icon-size: 1;
+        --wpforms-label-size-font-size: 16px;
+        --wpforms-label-size-line-height: 19px;
+        --wpforms-label-size-sublabel-font-size: 14px;
+        --wpforms-label-size-sublabel-line-height: 17px;
+        --wpforms-button-size-font-size: 17px;
+        --wpforms-button-size-height: 41px;
+        --wpforms-button-size-padding-h: 15px;
+        --wpforms-button-size-margin-top: 10px;
 
-        }
+    }
     </style>
 </head>
 
@@ -1545,39 +540,39 @@
                             data-id="2ad683c" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <style>
-                                    /*! elementor - v3.19.0 - 29-01-2024 */
-                                    .elementor-heading-title {
-                                        padding: 0;
-                                        margin: 0;
-                                        line-height: 1
-                                    }
+                                /*! elementor - v3.19.0 - 29-01-2024 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
 
-                                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                        color: inherit;
-                                        font-size: inherit;
-                                        line-height: inherit
-                                    }
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
 
 
-                                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                        font-size: 15px
-                                    }
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
 
-                                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                        font-size: 19px
-                                    }
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
 
-                                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                        font-size: 29px
-                                    }
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
 
-                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                        font-size: 39px
-                                    }
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
 
-                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                        font-size: 59px
-                                    }
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
                                 <div class="elementor-heading-title elementor-size-default">
@@ -1635,9 +630,10 @@
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
-                                        <option value="{{ $expert->name }}" {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
-                                            {{ $expert->name }}
-                                        </option>
+                                    <option value="{{ $expert->name }}"
+                                        {{ ($expertise_name == $expert->name) ? 'selected' : '' }}>
+                                        {{ $expert->name }}
+                                    </option>
                                     @endforeach
                                 </select>
                             </div>
@@ -1648,7 +644,7 @@
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
-                                        <option value="{{ $pr->name }}">{{ $pr->name }}</option>
+                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -1672,323 +668,318 @@
             data-id="lqdwygc" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <style>
-                /*! elementor - v3.14.0 - 26-06-2023 */
-                @charset "UTF-8";
+            /*! elementor - v3.14.0 - 26-06-2023 */
+            @charset "UTF-8";
 
-                .elementor-star-rating {
-                    color: #ccd6df;
-                    font-family: eicons;
-                    display: inline-block
-                }
+            .elementor-star-rating {
+                color: #ccd6df;
+                font-family: eicons;
+                display: inline-block
+            }
 
-                .elementor-star-rating i {
-                    display: inline-block;
-                    position: relative;
-                    font-style: normal;
-                    cursor: default;
-                    font-size: 80%;
-                }
+            .elementor-star-rating i {
+                display: inline-block;
+                position: relative;
+                font-style: normal;
+                cursor: default;
+                font-size: 80%;
+            }
 
-                .elementor-star-rating i:before {
-                    content: "\e934";
-                    display: block;
-                    font-size: inherit;
-                    font-family: inherit;
-                    position: absolute;
-                    overflow: hidden;
-                    color: #f0ad4e;
-                    top: 0;
-                    left: 0
-                }
+            .elementor-star-rating i:before {
+                content: "\e934";
+                display: block;
+                font-size: inherit;
+                font-family: inherit;
+                position: absolute;
+                overflow: hidden;
+                color: #f0ad4e;
+                top: 0;
+                left: 0
+            }
 
-                .elementor-star-rating .elementor-star-empty:before {
-                    content: none
-                }
+            .elementor-star-rating .elementor-star-empty:before {
+                content: none
+            }
 
-                .elementor-star-rating .elementor-star-1:before {
-                    width: 10%
-                }
+            .elementor-star-rating .elementor-star-1:before {
+                width: 10%
+            }
 
-                .elementor-star-rating .elementor-star-2:before {
-                    width: 20%
-                }
+            .elementor-star-rating .elementor-star-2:before {
+                width: 20%
+            }
 
-                .elementor-star-rating .elementor-star-3:before {
-                    width: 30%
-                }
+            .elementor-star-rating .elementor-star-3:before {
+                width: 30%
+            }
 
-                .elementor-star-rating .elementor-star-4:before {
-                    width: 40%
-                }
+            .elementor-star-rating .elementor-star-4:before {
+                width: 40%
+            }
 
-                .elementor-star-rating .elementor-star-5:before {
-                    width: 50%
-                }
+            .elementor-star-rating .elementor-star-5:before {
+                width: 50%
+            }
 
-                .elementor-star-rating .elementor-star-6:before {
-                    width: 60%
-                }
+            .elementor-star-rating .elementor-star-6:before {
+                width: 60%
+            }
 
-                .elementor-star-rating .elementor-star-7:before {
-                    width: 70%
-                }
+            .elementor-star-rating .elementor-star-7:before {
+                width: 70%
+            }
 
-                .elementor-star-rating .elementor-star-8:before {
-                    width: 80%
-                }
+            .elementor-star-rating .elementor-star-8:before {
+                width: 80%
+            }
 
-                .elementor-star-rating .elementor-star-9:before {
-                    width: 90%
-                }
+            .elementor-star-rating .elementor-star-9:before {
+                width: 90%
+            }
 
-                .elementor-star-rating__wrapper {
-                    display: flex;
-                    align-items: right
-                }
+            .elementor-star-rating__wrapper {
+                display: flex;
+                align-items: right
+            }
 
-                .elementor-star-rating__title {
-                    margin-right: 10px
-                }
+            .elementor-star-rating__title {
+                margin-right: 10px
+            }
 
-                .elementor-star-rating--align-right .elementor-star-rating__wrapper {
+            .elementor-star-rating--align-right .elementor-star-rating__wrapper {
+                text-align: right;
+                justify-content: flex-end
+            }
+
+            .elementor-star-rating--align-left .elementor-star-rating__wrapper {
+                text-align: left;
+                justify-content: flex-start
+            }
+
+            .elementor-star-rating--align-center .elementor-star-rating__wrapper {
+                text-align: center;
+                justify-content: center
+            }
+
+            .elementor-star-rating--align-justify .elementor-star-rating__title {
+                margin-right: auto
+            }
+
+            @media (max-width:1024px) {
+                .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
                     text-align: right;
                     justify-content: flex-end
                 }
 
-                .elementor-star-rating--align-left .elementor-star-rating__wrapper {
+                .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
                     text-align: left;
                     justify-content: flex-start
                 }
 
-                .elementor-star-rating--align-center .elementor-star-rating__wrapper {
+                .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
                     text-align: center;
                     justify-content: center
                 }
 
-                .elementor-star-rating--align-justify .elementor-star-rating__title {
+                .elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
                     margin-right: auto
                 }
+            }
 
-                @media (max-width:1024px) {
-                    .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper {
-                        text-align: right;
-                        justify-content: flex-end
-                    }
-
-                    .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper {
-                        text-align: left;
-                        justify-content: flex-start
-                    }
-
-                    .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper {
-                        text-align: center;
-                        justify-content: center
-                    }
-
-                    .elementor-star-rating-tablet--align-justify .elementor-star-rating__title {
-                        margin-right: auto
-                    }
+            @media (max-width:767px) {
+                .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: flex-end
                 }
 
-                @media (max-width:767px) {
-                    .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper {
-                        text-align: right;
-                        justify-content: flex-end
-                    }
-
-                    .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
-                        text-align: right;
-                        justify-content: flex-start
-                    }
-
-                    .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
-                        text-align: right;
-                        justify-content: right
-                    }
-
-                    .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
-                        margin-right: auto
-                    }
+                .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: flex-start
                 }
 
-                .last-star {
-                    letter-spacing: 0
+                .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper {
+                    text-align: right;
+                    justify-content: right
                 }
 
-                .elementor--star-style-star_unicode .elementor-star-rating {
-                    font-family: Arial, Helvetica, sans-serif
+                .elementor-star-rating-mobile--align-justify .elementor-star-rating__title {
+                    margin-right: auto
                 }
+            }
 
-                .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
-                    content: "РўЁ"
-                }
+            .last-star {
+                letter-spacing: 0
+            }
+
+            .elementor--star-style-star_unicode .elementor-star-rating {
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before {
+                content: "РўЁ"
+            }
             </style>
             <div class="elementor-container elementor-column-gap-no">
                 <div class="row elementor-hidden-mobile filter_result">
                     @php
-                        if ($mentors->count() == 1) {
-                            $class_name = 'one-width';
-                        } else {
-                            $class_name = '';
-                        }
+                    if ($mentors->count() == 1) {
+                    $class_name = 'one-width';
+                    } else {
+                    $class_name = '';
+                    }
                     @endphp
                     @foreach($mentors as $mentor)
-                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe {{ $class_name }}"
-                                            data-id="6a69efe" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                                                    data-id="b4f3275" data-element_type="widget"
-                                                    data-widget_type="wpr-content-toggle.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="wpr-content-toggle">
-                                                            <div class="wpr-switcher-container" data-active-switcher="1">
-                                                                <!-- <div class="wpr-switcher-inner wpr-switcher-first">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe {{ $class_name }}"
+                        data-id="6a69efe" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
+                                data-id="b4f3275" data-element_type="widget"
+                                data-widget_type="wpr-content-toggle.default">
+                                <div class="elementor-widget-container">
+                                    <div class="wpr-content-toggle">
+                                        <div class="wpr-switcher-container" data-active-switcher="1">
+                                            <!-- <div class="wpr-switcher-inner wpr-switcher-first">
                                                                   <div class="wpr-switcher-label">Before</div>
 
                                                                  </div> -->
 
-                                                                <!-- <div class="wpr-switcher-outer"> -->
-                                                                <!-- <div class="wpr-switcher-wrap">
+                                            <!-- <div class="wpr-switcher-outer"> -->
+                                            <!-- <div class="wpr-switcher-wrap">
                                                                     <div class="wpr-switcher" data-switcher="1"></div>
 
                                                                     <div class="wpr-switcher" data-switcher="2"></div>
 
                                                                     <div class="wpr-switcher-bg"></div>
                                                                 </div> -->
-                                                                <!-- </div> -->
+                                            <!-- </div> -->
 
-                                                                <!-- <div class="wpr-switcher-inner wpr-switcher-second">
+                                            <!-- <div class="wpr-switcher-inner wpr-switcher-second">
                                                                 <div class="wpr-switcher-label">After</div>
 
                                                                 </div> -->
-                                                            </div>
-                                                            <div class="wpr-switcher-content-wrap">
-                                                                <div class="wpr-switcher-content" data-switcher="1">
-                                                                    <div
-                                                                        class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                                        <h5><strong><img decoding="async" class="alignleft wp-image-5531"
-                                                                                    src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                                    alt="expert mentorship" width="221" height="221"
-                                                                                    srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                                    sizes="(max-width: 221px) 100vw, 221px" /></strong><span
-                                                                                class="mentor_name"
-                                                                                style="color: #000000">{{ $mentor->name }}</span></h5>
-                                                                        <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
-                                                                                {{ $mentor->metaData->company }}</span><br />
-                                                                            <span style="font-size:14px;color: #000000">
-                                                                                @php
-                                                                                    $totalReviews = \App\Models\Review::where(
-                                                                                        'mentor_id',
-                                                                                        $mentor->id
-                                                                                    )->get()->count();
-                                                                                    $totalSessions =
-                                                                                        \App\Models\ScheduledCall::where(
-                                                                                            'mentor_id',
-                                                                                            $mentor->id
-                                                                                        )->where(
-                                                                                                'status',
-                                                                                                'Approved'
-                                                                                            )->where(
-                                                                                                'is_paid',
-                                                                                                1
-                                                                                            )->get()->count();
-                                                                                    echo $totalReviews;
-                                                                                    if ($totalReviews > 1) {
-                                                                                        echo " Reviews / " . $totalSessions . " Sessions";
-                                                                                    } else {
-                                                                                        echo " Review / " . $totalSessions . " Sessions";
-                                                                                    }
-                                                                                @endphp
-                                                                            </span>
-                                                                        </p>
-                                                                        <div class="elementor-star-rating" title="5/5"
-                                                                            itemtype="http://schema.org/Rating" itemscope=""
-                                                                            itemprop="reviewRating">
-                                                                            <i class="elementor-star-full">&#xE934;</i><i
-                                                                                class="elementor-star-full">&#xE934;</i><i
-                                                                                class="elementor-star-full">&#xE934;</i><i
-                                                                                class="elementor-star-full">&#xE934;</i><i
-                                                                                class="elementor-star-full">&#xE934;</i> <span
-                                                                                itemprop="ratingValue"
-                                                                                class="elementor-screen-only">5/5</span>
-                                                                        </div>
-                                                                        <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                                        <p><span class="exp" style="color: #000000">Expertise:</span>
-                                                                        </p>
-                                                                        <ul>
-                                                                            @php
-                                                                                $expertise = \App\Models\Expertise::where(
-                                                                                    'mentor_id',
-                                                                                    $mentor->id
-                                                                                )->take(4)->get();
-                                                                            @endphp
-                                                                            @foreach($expertise as $expert)
-                                                                                <li class="expertise"><span
-                                                                                        style="color: #000000">{{ $expert->expertise }}</span>
-                                                                                </li>
-                                                                            @endforeach
-                                                                        </ul>
-                                                                        <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                                            data-id="0e640ef" data-element_type="widget"
-                                                                            data-widget_type="text-editor.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <!-- <p>&nbsp </p> -->
-                                                                                <p class="bio" style="float:left;"><span
-                                                                                        style="color: #000000">
-                                                                                        {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
-                                                                                </p>
-                                                                                <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
-                                                                                    data-id="a92b341" data-element_type="widget"
-                                                                                    data-widget_type="heading.default">
-                                                                                    <div class="elementor-widget-container" style="">
-                                                                                        <span class="slot"
-                                                                                            style="font-size:14px;color: #000000">
-                                                                                            Next Slot -
-                                                                                            @php
-                                                                                                $nextAvailability =
-                                                                                                    \App\Models\AvailableSchedule::where(
-                                                                                                        'mentor_id',
-                                                                                                        $mentor->id
-                                                                                                    )
-                                                                                                        ->whereDate('date', '>', now())
-                                                                                                        ->where('is_booked', 0)
-                                                                                                        ->orderBy('date', 'asc')
-                                                                                                        ->first();
-                                                                                            @endphp
-                                                                                            @if(!empty($nextAvailability))
-                                                                                                {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                                            @endif
-                                                                                        </span>
-                                                                                        <span class="charge"
-                                                                                            style="font-size:14px;float:right;color: #000000">
-                                                                                            $
-                                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                                            / 30
-                                                                                            Min</span>
-                                                                                    </div>
-                                                                                    <div>
-                                                                                    </div>
-                                                                                    <div style="">
-                                                                                        <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                            class="btn btn-primary"
-                                                                                            style="margin-top:5px;background-color:#001E64;">View
-                                                                                            Profile</a>
-                                                                                        @if(Auth::id() && auth()->user()->role_id == 3)
-                                                                                            <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                                class="btn btn-primary"
-                                                                                                style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                                                Call</a>
-                                                                                        @else
-                                                                                            <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                                class="btn btn-primary"
-                                                                                                style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                                                Call</a>
-                                                                                        @endif
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                        </div>
+                                        <div class="wpr-switcher-content-wrap">
+                                            <div class="wpr-switcher-content" data-switcher="1">
+                                                <div
+                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
+                                                    <h5><strong><img decoding="async" class="alignleft wp-image-5531"
+                                                                src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                alt="expert mentorship" width="221" height="221"
+                                                                srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
+                                                                sizes="(max-width: 221px) 100vw, 221px" /></strong><span
+                                                            class="mentor_name"
+                                                            style="color: #000000">{{ $mentor->name }}</span></h5>
+                                                    <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
+                                                            {{ $mentor->metaData->company }}</span><br />
+                                                        <span style="font-size:14px;color: #000000">
+                                                            @php
+                                                            $totalReviews = \App\Models\Review::where(
+                                                            'mentor_id',
+                                                            $mentor->id
+                                                            )->get()->count();
+                                                            $totalSessions =
+                                                            \App\Models\ScheduledCall::where(
+                                                            'mentor_id',
+                                                            $mentor->id
+                                                            )->where(
+                                                            'status',
+                                                            'Approved'
+                                                            )->where(
+                                                            'is_paid',
+                                                            1
+                                                            )->get()->count();
+                                                            echo $totalReviews;
+                                                            if ($totalReviews > 1) {
+                                                            echo " Reviews / " . $totalSessions . " Sessions";
+                                                            } else {
+                                                            echo " Review / " . $totalSessions . " Sessions";
+                                                            }
+                                                            @endphp
+                                                        </span>
+                                                    </p>
+                                                    <div class="elementor-star-rating" title="5/5"
+                                                        itemtype="http://schema.org/Rating" itemscope=""
+                                                        itemprop="reviewRating">
+                                                        <i class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i><i
+                                                            class="elementor-star-full">&#xE934;</i> <span
+                                                            itemprop="ratingValue"
+                                                            class="elementor-screen-only">5/5</span>
+                                                    </div>
+                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                    <p><span class="exp" style="color: #000000">Expertise:</span>
+                                                    </p>
+                                                    <ul>
+                                                        @php
+                                                        $expertise = \App\Models\Expertise::where(
+                                                        'mentor_id',
+                                                        $mentor->id
+                                                        )->take(4)->get();
+                                                        @endphp
+                                                        @foreach($expertise as $expert)
+                                                        <li class="expertise"><span
+                                                                style="color: #000000">{{ $expert->expertise }}</span>
+                                                        </li>
+                                                        @endforeach
+                                                    </ul>
+                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                                        data-id="0e640ef" data-element_type="widget"
+                                                        data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <!-- <p>&nbsp </p> -->
+                                                            <p class="bio" style="float:left;"><span
+                                                                    style="color: #000000">
+                                                                    {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
+                                                            </p>
+                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile"
+                                                                data-id="a92b341" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container" style="">
+                                                                    <span class="slot"
+                                                                        style="font-size:14px;color: #000000">
+                                                                        Next Slot -
+                                                                        @php
+                                                                        $nextAvailability =
+                                                                        \App\Models\AvailableSchedule::where(
+                                                                        'mentor_id',
+                                                                        $mentor->id
+                                                                        )
+                                                                        ->whereDate('date', '>', now())
+                                                                        ->where('is_booked', 0)
+                                                                        ->orderBy('date', 'asc')
+                                                                        ->first();
+                                                                        @endphp
+                                                                        @if(!empty($nextAvailability))
+                                                                        {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
+                                                                        @endif
+                                                                    </span>
+                                                                    <span class="charge"
+                                                                        style="font-size:14px;float:right;color: #000000">
+                                                                        $
+                                                                        {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                        / 30
+                                                                        Min</span>
+                                                                </div>
+                                                                <div>
+                                                                </div>
+                                                                <div style="">
+                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;background-color:#001E64;">View
+                                                                        Profile</a>
+                                                                    @if(Auth::id() && auth()->user()->role_id == 3)
+                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @else
+                                                                    <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1996,161 +987,161 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     @endforeach
                 </div>
                 <div class="row elementor-hidden-desktop elementor-hidden-tablet filter_result">
                     @foreach($mentors as $mentor)
-                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
-                                            data-id="6a69efe" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
-                                                    data-id="b4f3275" data-element_type="widget"
-                                                    data-widget_type="wpr-content-toggle.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="wpr-content-toggle">
-                                                            <div class="wpr-switcher-container" data-active-switcher="1">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
+                        data-id="6a69efe" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle"
+                                data-id="b4f3275" data-element_type="widget"
+                                data-widget_type="wpr-content-toggle.default">
+                                <div class="elementor-widget-container">
+                                    <div class="wpr-content-toggle">
+                                        <div class="wpr-switcher-container" data-active-switcher="1">
+                                        </div>
+                                        <div class="wpr-switcher-content-wrap">
+                                            <div class="wpr-switcher-content" data-switcher="1">
+                                                <div
+                                                    class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
+                                                    <div class="grid-container">
+                                                        <div class="grid-child">
+                                                            <h5><strong><img decoding="async"
+                                                                        class="alignleft wp-image-5531"
+                                                                        src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                        alt="Business Strategy" width="221" height="221"
+                                                                        srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
+                                                                        sizes="(max-width: 221px) 100vw, 221px" /></strong>
+                                                            </h5>
+                                                        </div>
+
+                                                        <div class="grid-child green">
+                                                            <h5><span style="color: #000000">{{ $mentor->name }}</span>
+                                                            </h5>
+                                                            <p><span style="color: #000000"><abbr
+                                                                        title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
+                                                                    {{ $mentor->metaData->company }}</span><br />
+                                                                <span style="font-size:10px;color: #000000">
+                                                                    @php
+                                                                    $totalReviews =
+                                                                    \App\Models\Review::where(
+                                                                    'mentor_id',
+                                                                    $mentor->id
+                                                                    )->get()->count();
+                                                                    $totalSessions =
+                                                                    \App\Models\ScheduledCall::where(
+                                                                    'mentor_id',
+                                                                    $mentor->id
+                                                                    )->where(
+                                                                    'status',
+                                                                    'Approved'
+                                                                    )->where(
+                                                                    'is_paid',
+                                                                    1
+                                                                    )->get()->count();
+                                                                    echo $totalReviews;
+                                                                    if ($totalReviews > 1) {
+                                                                    echo " Reviews / " . $totalSessions . " Sessions";
+                                                                    } else {
+                                                                    echo " Review / " . $totalSessions . " Sessions";
+                                                                    }
+                                                                    @endphp
+                                                                </span>
+                                                            </p>
+                                                            <div class="elementor-star-rating" title="5/5"
+                                                                itemtype="http://schema.org/Rating" itemscope=""
+                                                                itemprop="reviewRating">
+                                                                <i class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i><i
+                                                                    class="elementor-star-full">&#xE934;</i> <span
+                                                                    itemprop="ratingValue"
+                                                                    class="elementor-screen-only">5/5</span>
                                                             </div>
-                                                            <div class="wpr-switcher-content-wrap">
-                                                                <div class="wpr-switcher-content" data-switcher="1">
-                                                                    <div
-                                                                        class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                                        <div class="grid-container">
-                                                                            <div class="grid-child">
-                                                                                <h5><strong><img decoding="async"
-                                                                                            class="alignleft wp-image-5531"
-                                                                                            src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                                            alt="Business Strategy" width="221" height="221"
-                                                                                            srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
-                                                                                            sizes="(max-width: 221px) 100vw, 221px" /></strong>
-                                                                                </h5>
-                                                                            </div>
+                                                            <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
+                                                            <p class="exp-heading"><span
+                                                                    style="color: #000000"><strong>Expertise:</strong></span>
+                                                            </p>
+                                                            <ul class="list-expert">
+                                                                @php
+                                                                $expertise =
+                                                                \App\Models\Expertise::where(
+                                                                'mentor_id',
+                                                                $mentor->id
+                                                                )->take(4)->get();
+                                                                @endphp
+                                                                @foreach($expertise as $expert)
+                                                                <li class="expertise"><span
+                                                                        style="color: #000000">{{ $expert->expertise }}</span>
+                                                                </li>
+                                                                @endforeach
+                                                            </ul>
+                                                        </div>
+                                                    </div>
 
-                                                                            <div class="grid-child green">
-                                                                                <h5><span style="color: #000000">{{ $mentor->name }}</span>
-                                                                                </h5>
-                                                                                <p><span style="color: #000000"><abbr
-                                                                                            title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
-                                                                                        {{ $mentor->metaData->company }}</span><br />
-                                                                                    <span style="font-size:10px;color: #000000">
-                                                                                        @php
-                                                                                            $totalReviews =
-                                                                                                \App\Models\Review::where(
-                                                                                                    'mentor_id',
-                                                                                                    $mentor->id
-                                                                                                )->get()->count();
-                                                                                            $totalSessions =
-                                                                                                \App\Models\ScheduledCall::where(
-                                                                                                    'mentor_id',
-                                                                                                    $mentor->id
-                                                                                                )->where(
-                                                                                                        'status',
-                                                                                                        'Approved'
-                                                                                                    )->where(
-                                                                                                        'is_paid',
-                                                                                                        1
-                                                                                                    )->get()->count();
-                                                                                            echo $totalReviews;
-                                                                                            if ($totalReviews > 1) {
-                                                                                                echo " Reviews / " . $totalSessions . " Sessions";
-                                                                                            } else {
-                                                                                                echo " Review / " . $totalSessions . " Sessions";
-                                                                                            }
-                                                                                        @endphp
-                                                                                    </span>
-                                                                                </p>
-                                                                                <div class="elementor-star-rating" title="5/5"
-                                                                                    itemtype="http://schema.org/Rating" itemscope=""
-                                                                                    itemprop="reviewRating">
-                                                                                    <i class="elementor-star-full">&#xE934;</i><i
-                                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                                        class="elementor-star-full">&#xE934;</i><i
-                                                                                        class="elementor-star-full">&#xE934;</i> <span
-                                                                                        itemprop="ratingValue"
-                                                                                        class="elementor-screen-only">5/5</span>
-                                                                                </div>
-                                                                                <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                                                <p class="exp-heading"><span
-                                                                                        style="color: #000000"><strong>Expertise:</strong></span>
-                                                                                </p>
-                                                                                <ul class="list-expert">
-                                                                                    @php
-                                                                                        $expertise =
-                                                                                            \App\Models\Expertise::where(
-                                                                                                'mentor_id',
-                                                                                                $mentor->id
-                                                                                            )->take(4)->get();
-                                                                                    @endphp
-                                                                                    @foreach($expertise as $expert)
-                                                                                        <li class="expertise"><span
-                                                                                                style="color: #000000">{{ $expert->expertise }}</span>
-                                                                                        </li>
-                                                                                    @endforeach
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
-                                                                            data-id="0e640ef" data-element_type="widget"
-                                                                            data-widget_type="text-editor.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <!-- <p>&nbsp </p> -->
-                                                                                <p class="bio" style="float:left;"><span
-                                                                                        style="color: #000000">
-                                                                                        {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
-                                                                                </p>
-                                                                                <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
-                                                                                    data-id="a92b341" data-element_type="widget"
-                                                                                    data-widget_type="heading.default">
-                                                                                    <div class="elementor-widget-container" style="">
-                                                                                        <span class="slot"
-                                                                                            style="font-size:11px;color: #000000"><strong>
-                                                                                                Next Slot -
-                                                                                                @php
-                                                                                                    $nextAvailability =
-                                                                                                        \App\Models\AvailableSchedule::where(
-                                                                                                            'mentor_id',
-                                                                                                            $mentor->id
-                                                                                                        )
-                                                                                                            ->whereDate('date', '>', now())
-                                                                                                            ->where('is_booked', 0)
-                                                                                                            ->orderBy('date', 'asc')
-                                                                                                            ->first();
-                                                                                                @endphp
-                                                                                                @if(!empty($nextAvailability))
-                                                                                                    {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                                                @endif
-                                                                                            </strong></span>
-                                                                                        <span class="charge"
-                                                                                            style="font-size:11px;float:right;color: #000000"><strong>
-                                                                                                $
-                                                                                                {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
-                                                                                                / 30
-                                                                                                Min</strong></span>
-                                                                                    </div>
-                                                                                    <div>
-                                                                                    </div>
-                                                                                    <div class="buttons" style="">
-                                                                                        <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                            class="btn btn-primary view_profile"
-                                                                                            style="margin-top:5px;background-color:#001E64;font-size:11px;">View
-                                                                                            Profile</a>
-                                                                                        @if(Auth::id() && auth()->user()->role_id == 3)
-                                                                                            <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                                class="btn btn-primary"
-                                                                                                style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                                                Call</a>
-                                                                                        @else
-                                                                                            <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
-                                                                                                class="btn btn-primary"
-                                                                                                style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                                                Call</a>
-                                                                                        @endif
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                    <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
+                                                        data-id="0e640ef" data-element_type="widget"
+                                                        data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <!-- <p>&nbsp </p> -->
+                                                            <p class="bio" style="float:left;"><span
+                                                                    style="color: #000000">
+                                                                    {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
+                                                            </p>
+                                                            <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
+                                                                data-id="a92b341" data-element_type="widget"
+                                                                data-widget_type="heading.default">
+                                                                <div class="elementor-widget-container" style="">
+                                                                    <span class="slot"
+                                                                        style="font-size:11px;color: #000000"><strong>
+                                                                            Next Slot -
+                                                                            @php
+                                                                            $nextAvailability =
+                                                                            \App\Models\AvailableSchedule::where(
+                                                                            'mentor_id',
+                                                                            $mentor->id
+                                                                            )
+                                                                            ->whereDate('date', '>', now())
+                                                                            ->where('is_booked', 0)
+                                                                            ->orderBy('date', 'asc')
+                                                                            ->first();
+                                                                            @endphp
+                                                                            @if(!empty($nextAvailability))
+                                                                            {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
+                                                                            @endif
+                                                                        </strong></span>
+                                                                    <span class="charge"
+                                                                        style="font-size:11px;float:right;color: #000000"><strong>
+                                                                            $
+                                                                            {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
+                                                                            / 30
+                                                                            Min</strong></span>
+                                                                </div>
+                                                                <div>
+                                                                </div>
+                                                                <div class="buttons" style="">
+                                                                    <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary view_profile"
+                                                                        style="margin-top:5px;background-color:#001E64;font-size:11px;">View
+                                                                        Profile</a>
+                                                                    @if(Auth::id() && auth()->user()->role_id == 3)
+                                                                    <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @else
+                                                                    <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
+                                                                        class="btn btn-primary"
+                                                                        style="margin-top:5px;float: right;background-color:#001E64;">Schedule
+                                                                        Call</a>
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2158,6 +1149,11 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     @endforeach
                 </div>
             </div>
@@ -2165,630 +1161,100 @@
     </div>
     @include('partials.footer-web')
 
-    <style id="skip-link-styles">
-        .skip-link.screen-reader-text {
-            border: 0;
-            clip: rect(1px, 1px, 1px, 1px);
-            clip-path: inset(50%);
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            padding: 0;
-            position: absolute !important;
-            width: 1px;
-            word-wrap: normal !important;
-        }
-
-        .skip-link.screen-reader-text:focus {
-            background-color: #eee;
-            clip: auto !important;
-            clip-path: none;
-            color: #444;
-            display: block;
-            font-size: 1em;
-            height: auto;
-            left: 5px;
-            padding: 15px 23px 14px;
-            text-decoration: none;
-            top: 5px;
-            width: auto;
-            z-index: 100000;
-        }
-
-        /* #date {
-            width: 220px;
-            height: 35px;
-            /* padding-top: 10px !important; */
-        /* padding-top: 20px!important; */
-        /* background-color: #54b4d3; */
-        /* color: #fff; */
-        /* font-weight: 200px; */
-        /* line-height: normal; */
-        /* height: 70%;
-            width: 140%; */
-        /* font-size: 0.75rem !important; */
-        /* padding-left: 20px !important; */
-        /* } */
-
-        /* [type=date] {
-            padding: 1em 16px 1em 1em;
-        } */
-    </style>
-    <script>
-        (function () {
-            var skipLinkTarget = document.querySelector('main'),
-                sibling,
-                skipLinkTargetID,
-                skipLink;
-
-            // Early exit if a skip-link target can't be located.
-            if (!skipLinkTarget) {
-                return;
-            }
-
-            // Get the site wrapper.
-            // The skip-link will be injected in the beginning of it.
-            sibling = document.querySelector('.wp-site-blocks');
-
-            // Early exit if the root element was not found.
-            if (!sibling) {
-                return;
-            }
-
-            // Get the skip-link target's ID, and generate one if it doesn't exist.
-            skipLinkTargetID = skipLinkTarget.id;
-            if (!skipLinkTargetID) {
-                skipLinkTargetID = 'wp--skip-link--target';
-                skipLinkTarget.id = skipLinkTargetID;
-            }
-
-            // Create the skip link.
-            skipLink = document.createElement('a');
-            skipLink.classList.add('skip-link', 'screen-reader-text');
-            skipLink.href = '#' + skipLinkTargetID;
-            skipLink.innerHTML = 'Skip to content';
-
-            // Inject the skip link.
-            sibling.parentElement.insertBefore(skipLink, sibling);
-        }());
-    </script>
-    <!-- <script
-            src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
-            id="niso-carousel-owl.min-js"></script>
-        <script
-            src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
-            id="jquery.mousewheel.min-js"></script>
-        <script
-            src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
-            id="niso-carousel-lightbox.min-js"></script>
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2') }}" id="jquery-ui-core-js">
-        </script>
-        <script id="qi-addons-for-elementor-script-js-extra">
-        var qodefQiAddonsGlobal = {
-            "vars": {
-                "adminBarHeight": 0,
-                "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
-                "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
-                "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
-            }
-        };
-        </script>
-        <script src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
-            id="qi-addons-for-elementor-script-js"></script>
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
-        </script>
-        <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
-        </script>
-        <script src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688723442') }}"
-            id="theplus-front-js-js" defer></script> -->
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
-        id="wpr-particles-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-        id="wpr-jarallax-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
-        id="wpr-parallax-hover-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
-        id="hfe-frontend-js-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
-        id="elementor-webpack-runtime-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
-        id="elementor-frontend-modules-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
-        id="elementor-waypoints-js"></script>
-    <script id="elementor-frontend-js-before">
-        var elementorFrontendConfig = {
-            "environmentMode": {
-                "edit": false,
-                "wpPreview": false,
-                "isScriptDebug": false
-            },
-            "i18n": {
-                "shareOnFacebook": "Share on Facebook",
-                "shareOnTwitter": "Share on Twitter",
-                "pinIt": "Pin it",
-                "download": "Download",
-                "downloadImage": "Download image",
-                "fullscreen": "Fullscreen",
-                "zoom": "Zoom",
-                "share": "Share",
-                "playVideo": "Play Video",
-                "previous": "Previous",
-                "next": "Next",
-                "close": "Close",
-                "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
-                "a11yCarouselPrevSlideMessage": "Previous slide",
-                "a11yCarouselNextSlideMessage": "Next slide",
-                "a11yCarouselFirstSlideMessage": "This is the first slide",
-                "a11yCarouselLastSlideMessage": "This is the last slide",
-                "a11yCarouselPaginationBulletMessage": "Go to slide"
-            },
-            "is_rtl": false,
-            "breakpoints": {
-                "xs": 0,
-                "sm": 480,
-                "md": 768,
-                "lg": 1025,
-                "xl": 1440,
-                "xxl": 1600
-            },
-            "responsive": {
-                "breakpoints": {
-                    "mobile": {
-                        "label": "Mobile Portrait",
-                        "value": 767,
-                        "default_value": 767,
-                        "direction": "max",
-                        "is_enabled": true
-                    },
-                    "mobile_extra": {
-                        "label": "Mobile Landscape",
-                        "value": 880,
-                        "default_value": 880,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "tablet": {
-                        "label": "Tablet Portrait",
-                        "value": 1024,
-                        "default_value": 1024,
-                        "direction": "max",
-                        "is_enabled": true
-                    },
-                    "tablet_extra": {
-                        "label": "Tablet Landscape",
-                        "value": 1200,
-                        "default_value": 1200,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "laptop": {
-                        "label": "Laptop",
-                        "value": 1366,
-                        "default_value": 1366,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "widescreen": {
-                        "label": "Widescreen",
-                        "value": 2400,
-                        "default_value": 2400,
-                        "direction": "min",
-                        "is_enabled": false
-                    }
-                }
-            },
-            "version": "3.14.1",
-            "is_static": false,
-            "experimentalFeatures": {
-                "e_dom_optimization": true,
-                "e_optimized_assets_loading": true,
-                "e_optimized_css_loading": true,
-                "a11y_improvements": true,
-                "additional_custom_breakpoints": true,
-                "e_swiper_latest": true,
-                "theme_builder_v2": true,
-                "landing-pages": true,
-                "form-submissions": true,
-                "e_scroll_snap": true
-            },
-            "urls": {
-                "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
-            },
-            "swiperClass": "swiper",
-            "settings": {
-                "page": [],
-                "editorPreferences": []
-            },
-            "kit": {
-                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
-                "global_image_lightbox": "yes",
-                "lightbox_enable_counter": "yes",
-                "lightbox_enable_fullscreen": "yes",
-                "lightbox_enable_zoom": "yes",
-                "lightbox_enable_share": "yes",
-                "lightbox_title_src": "title",
-                "lightbox_description_src": "description"
-            },
-            "post": {
-                "id": 2772,
-                "title": "Browse%20Mentor%20%E2%80%93%20WISE%20ADVIZOR",
-                "excerpt": "",
-                "featuredImage": false
-            }
-        };
-    </script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
-        id="elementor-frontend-js"></script>
-    <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
-            id="wp-polyfill-inert-js"></script>
-        <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
-            id="regenerator-runtime-js"></script>
-        <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}"
-            id="wp-polyfill-js">
-        </script>
-        <script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
-        </script>
-        <script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
-        </script>
-        <script id="wp-i18n-js-after">
-        wp.i18n.setLocaleData({
-            'text directionltr': ['ltr']
-        });
-        </script>
-        <script
-            src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=6.2.2') }}"
-            id="qi-addons-for-elementor-elementor-js"></script>
-        <script
-            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-            id="elementor-pro-webpack-runtime-js"></script> -->
-    <script id="elementor-pro-frontend-js-before">
-        var ElementorProFrontendConfig = {
-            "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-            "nonce": "3a5ad37dc1",
-            "urls": {
-                "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-                "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
-            },
-            "i18n": {
-                "toc_no_headings_found": "No headings were found on this page."
-            },
-            "shareButtonsNetworks": {
-                "facebook": {
-                    "title": "Facebook",
-                    "has_counter": true
-                },
-                "twitter": {
-                    "title": "Twitter"
-                },
-                "linkedin": {
-                    "title": "LinkedIn",
-                    "has_counter": true
-                },
-                "pinterest": {
-                    "title": "Pinterest",
-                    "has_counter": true
-                },
-                "reddit": {
-                    "title": "Reddit",
-                    "has_counter": true
-                },
-                "vk": {
-                    "title": "VK",
-                    "has_counter": true
-                },
-                "odnoklassniki": {
-                    "title": "OK",
-                    "has_counter": true
-                },
-                "tumblr": {
-                    "title": "Tumblr"
-                },
-                "digg": {
-                    "title": "Digg"
-                },
-                "skype": {
-                    "title": "Skype"
-                },
-                "stumbleupon": {
-                    "title": "StumbleUpon",
-                    "has_counter": true
-                },
-                "mix": {
-                    "title": "Mix"
-                },
-                "telegram": {
-                    "title": "Telegram"
-                },
-                "pocket": {
-                    "title": "Pocket",
-                    "has_counter": true
-                },
-                "xing": {
-                    "title": "XING",
-                    "has_counter": true
-                },
-                "whatsapp": {
-                    "title": "WhatsApp"
-                },
-                "email": {
-                    "title": "Email"
-                },
-                "print": {
-                    "title": "Print"
-                }
-            },
-            "facebook_sdk": {
-                "lang": "en_US",
-                "app_id": ""
-            },
-            "lottie": {
-                "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-            }
-        };
-    </script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2') }}"
-        id="elementor-pro-frontend-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2') }}"
-        id="pro-elements-handlers-js"></script>
-    <!-- <script
-            src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-            id="e-sticky-js"></script> -->
-    <script data-cfasync="false"
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.87"
-        id="wpr-addons-js-js"></script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.87"
-        id="wpr-modal-popups-js-js"></script>
-    <script src="{{ asset('public/wp-includes/js/underscore.min.js?ver=1.13.4') }}" id="underscore-js"></script>
-    <script id="wp-util-js-extra">
-        var _wpUtilSettings = {
-            "ajax": {
-                "url": "\/wp-admin\/admin-ajax.php"
-            }
-        };
-    </script>
-    <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js"></script>
-    <script id="wpforms-elementor-js-extra">
-        var wpformsElementorVars = {
-            "captcha_provider": "recaptcha",
-            "recaptcha_type": "v2"
-        };
-    </script>
-    <script
-        src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
-        id="wpforms-elementor-js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    @include('partials.web-script')
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
     </script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js">
-        </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
-    <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}">
-        </script> -->
     <script type="text/javascript">
-        (function ($) {
-            $(document).ready(function () {
+    (function($) {
+        $(document).ready(function() {
 
-                x = "true";
+            // x = "true";
 
-                $('.hfe-nav-menu__toggle').on('click', function () {
-                    // alert("asdsfdsfd");
+            // $('.hfe-nav-menu__toggle').on('click', function() {
 
-                    $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
+            //     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
 
-                    $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
-                    // $('.hfe-nav-menu').setAttribute("aria-expanded", 'true');
+            //     $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
+        
+            // });
 
-                    // document.getElementById("open_nav").setAttribute("aria-expanded", x);
-                    // $(".hfe-nav-menu").setAttribute("aria-expanded", 'true');
-                });
-
-                window.addEventListener('touchstart', onTouchStart, { passive: true });
-
-                $('.apply_filters').on('click', function () {
-                    var form = $('.filterForm').serialize();
-
-                    return $.ajax({
-                        type: 'GET',
-                        url: "{{ route('browseMentor') }}",
-                        data: {
-                            form,
-                            "_token": "{{ csrf_token() }}",
-                        },
-                        success: function (response) {
-                            // $('.filter_result').html(response);
-                            // $('.mentorsList').hide();
-                        }
-                    });
-                });
-
-                // $('#name').on('change', function() {
-                //     var name = $(this).val();
-                //     var filter = "name";
-                //     return $.ajax({
-                //         type: 'GET',
-                //         url: "{{ route('browseMentor', '') }}" + "/" + name + "/" +
-                //             filter + "",
-                //         data: {
-                //             "slug": "name",
-                //             "_token": "{{ csrf_token() }}",
-                //         },
-                //         success: function(response) {
-                //             $('.mentors').html(response);
-                //             $('.mentorsList').hide();
-                //         }
-                //     });
-                // });
-
-                // $('#price').on('change', function() {
-                //     var price = $(this).val();
-                //     var filter = "price";
-                //     return $.ajax({
-                //         type: 'GET',
-                //         url: "{{ route('browseMentor', '') }}" + "/" + price + "/" +
-                //             filter + "",
-                //         data: {
-                //             "slug": "name",
-                //             "_token": "{{ csrf_token() }}",
-                //         },
-                //         success: function(response) {
-                //             $('.mentors').html(response);
-                //             $('.mentorsList').hide();
-                //         }
-                //     });
-                // });
-
-                // $('#time').on('change', function() {
-                //     var time = $(this).val();
-                //     var filter = "time";
-                //     return $.ajax({
-                //         type: 'GET',
-                //         url: "{{ route('browseMentor', '') }}" + "/" + time + "/" +
-                //             filter + "",
-                //         data: {
-                //             "slug": "name",
-                //             "_token": "{{ csrf_token() }}",
-                //         },
-                //         success: function(response) {
-                //             $('.mentors').html(response);
-                //             $('.mentorsList').hide();
-                //         }
-                //     });
-                // });
-
-                // $('#date').on('change', function(ev) {
-                //     var date = $(this).val();
-                //     // var DateCreated = new Date(Date.parse(date)).format("yyyy/MM/dd");
-                //     var filter = "date";
-                //     return $.ajax({
-                //         type: 'GET',
-                //         url: "{{ route('browseMentor', '') }}" + "/" + date + "/" +
-                //             filter + "",
-                //         data: {
-                //             "slug": "name",
-                //             "_token": "{{ csrf_token() }}",
-                //         },
-                //         success: function(response) {
-                //             $('.mentors').html(response);
-                //             $('.mentorsList').hide();
-                //         }
-                //     });
-                // });
-
-                // $('#expertise').on('change', function() {
-                //     var expertise = $(this).val();
-                //     var filter = "expertise";
-                //     return $.ajax({
-                //         type: 'GET',
-                //         url: "{{ route('browseMentor', '') }}" + "/" + expertise + "/" +
-                //             filter + "",
-                //         data: {
-                //             "slug": "name",
-                //             "_token": "{{ csrf_token() }}",
-                //         },
-                //         success: function(response) {
-                //             $('.mentors').html(response);
-                //             $('.mentorsList').hide();
-                //         }
-                //     });
-                // });
-
-                // $('#sort').on('change', function() {
-                //     var sort = $(this).val();
-                //     var filter = "sortBy";
-                //     return $.ajax({
-                //         type: 'GET',
-                //         url: "{{ route('browseMentor', '') }}" + "/" + sort + "/" +
-                //             filter + "",
-                //         data: {
-                //             "slug": "name",
-                //             "_token": "{{ csrf_token() }}",
-                //         },
-                //         success: function(response) {
-                //             $('.mentors').html(response);
-                //             $('.mentorsList').hide();
-                //         }
-                //     });
-                // });
+            window.addEventListener('touchstart', onTouchStart, {
+                passive: true
             });
-        }(jQuery));
-    </script>
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/65046147b1aaa13b7a770b04/1hacho0lm';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
+            $('.apply_filters').on('click', function() {
+                var form = $('.filterForm').serialize();
+
+                return $.ajax({
+                    type: 'GET',
+                    url: "{{ route('browseMentor') }}",
+                    data: {
+                        form,
+                        "_token": "{{ csrf_token() }}",
+                    },
+                    success: function(response) {
+                    }
+                });
+            });
+        });
+    }(jQuery));
     </script>
-    <!--End of Tawk.to Script-->
 </body>
 <style>
-    .one-width {
-        width: 100% !important;
-    }
+.one-width {
+    width: 100% !important;
+}
 
-    .elementor-2772 .elementor-element.elementor-element-55b12a5 {
-        width: 100%;
-    }
+.elementor-2772 .elementor-element.elementor-element-55b12a5 {
+    width: 100%;
+}
 
-    .elementor-2772 .elementor-element.elementor-element-2ad683c {
-        text-align: center;
-    }
+.elementor-2772 .elementor-element.elementor-element-2ad683c {
+    text-align: center;
+}
 
-    .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-        color: #FFFFFF;
-        font-family: "Helvetica", Sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 25px;
-    }
+.elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
 
-    .elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin: 0px 130px 0px 100px;
-        --e-column-margin-right: 130px;
-        --e-column-margin-left: 100px;
-        padding: 75px 0px 25px 0px;
-    }
+.elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 130px 0px 100px;
+    --e-column-margin-right: 130px;
+    --e-column-margin-left: 100px;
+    padding: 75px 0px 25px 0px;
+}
 
-    span.charge {
-        font-weight: bold;
-    }
+span.charge {
+    font-weight: bold;
+}
 
-    .exp {
-        font-weight: bold;
-    }
+.exp {
+    font-weight: bold;
+}
 
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-    }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 
-    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #fff !important;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
@@ -2796,46 +1262,46 @@
     text-align: center;
 } */
 
-    .para {
-        background-color: #001E64 !important;
-    }
+.para {
+    background-color: #001E64 !important;
+}
 
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:active,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:focus,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:hover,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:active,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:focus,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:hover,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:active,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:focus,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:hover,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:active,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:focus,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:hover,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:active,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:focus,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:hover,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus,
-    .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
-        color: rgba(255, 255, 255, .5);
-        background-color: #54b4d3 !important;
-    }
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
+    color: rgba(255, 255, 255, .5);
+    background-color: #54b4d3 !important;
+}
 
-    .bio {
-        margin-top: -15px;
-        font-size: 13.5px;
-        padding-top: 5px;
-        padding-bottom: 10px;
-    }
+.bio {
+    margin-top: -15px;
+    font-size: 13.5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
 
-    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #343F5A;
     font-family: "Roboto", Sans-serif;
     font-size: 23px;
@@ -2844,90 +1310,90 @@
     line-height: 30px;
 } */
 
-    .selectpicker {
-        background-color: #54b4d3 !important;
-        color: #fff !important;
+.selectpicker {
+    background-color: #54b4d3 !important;
+    color: #fff !important;
+}
+
+.filter-section {
+    background-color: #F3EEF5;
+}
+
+a {
+    text-transform: capitalize !important;
+}
+
+.btn.btn-primary {
+    background-color: #001E64 !important;
+}
+
+.expertise {
+    font-size: 14px;
+}
+
+.bio {
+    margin-top: -15px;
+    font-size: 13.5px;
+    padding-top: 5px;
+}
+
+span.slot {
+    font-weight: bold;
+    padding-bottom: 15px !important;
+}
+
+< !-- .next_availability {
+    padding-right: 95px;
+}
+
+.schedule-call {
+    margin-left:
+        70px;
+}
+
+-->.wp-image-5531 {
+    border-radius:
+        10px !important;
+}
+
+i.fas.fa-chevron-down {
+    margin-top: -30px;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+.mobile-display {
+    visibility: hidden;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-device-width: 480px) and (min-width: 410px) {
+    div.d-grid.gap-2.col-6.butto {
+        padding-left:
+            75px;
+        text-align:
+            center !important;
     }
 
-    .filter-section {
-        background-color: #F3EEF5;
+    .card {
+        width:
+            15rem;
     }
 
-    a {
-        text-transform: capitalize !important;
+    .elementor-star-rating__wrapper {
+        padding-left:
+            118px;
     }
 
-    .btn.btn-primary {
-        background-color: #001E64 !important;
-    }
-
-    .expertise {
-        font-size: 14px;
-    }
-
-    .bio {
-        margin-top: -15px;
-        font-size: 13.5px;
-        padding-top: 5px;
-    }
-
-    span.slot {
-        font-weight: bold;
-        padding-bottom: 15px !important;
-    }
-
-    < !-- .next_availability {
-        padding-right: 95px;
-    }
-
-    .schedule-call {
-        margin-left:
-            70px;
-    }
-
-    -->.wp-image-5531 {
-        border-radius:
-            10px !important;
-    }
-
-    i.fas.fa-chevron-down {
-        margin-top: -30px;
-        padding-left: 10px !important;
-        font-size: 9px !important;
-        font-family: "Font Awesome 5 Free" !important;
-        font-weight: 900 !important;
-    }
-
-    .mobile-display {
-        visibility: hidden;
-    }
-
-    html,
-    body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-
-    @media screen and (max-device-width: 480px) and (min-width: 410px) {
-        div.d-grid.gap-2.col-6.butto {
-            padding-left:
-                75px;
-            text-align:
-                center !important;
-        }
-
-        .card {
-            width:
-                15rem;
-        }
-
-        .elementor-star-rating__wrapper {
-            padding-left:
-                118px;
-        }
-
-        /*
+    /*
 input#date.form-control.selectpicker
 {
 padding-left:
@@ -2935,7 +1401,7 @@ padding-left:
 padding-top:
 10px;
 */
-        /*
+    /*
 background-color:
 #54b4d3;
 color:
@@ -2954,45 +1420,45 @@ font-size:
 0.75rem
  !important;
 */
-        /*
+    /*
 }
 */
-        /*
+    /*
 .datefilter
 {
 /*
 padding-top:
 20px;
 */
-        /*
+    /*
 margin-bottom:
 10px;
 */
-        /*
+    /*
 }
 */
-        .filters {
-            /*margin-left:*/
-            /*    95px;*/
-            margin-right:
-                50px;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
-            color:
-                white !important;
-        }
-
-        .price {
-            padding-left:
-                100px !important;
-        }
+    .filters {
+        /*margin-left:*/
+        /*    95px;*/
+        margin-right:
+            50px;
     }
 
-    @media screen and (max-width: 400px) and (min-width: 320px) {
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .menu-item.current-menu-ancestor a.hfe-menu-item {
+        color:
+            white !important;
+    }
 
-        /*
+    .price {
+        padding-left:
+            100px !important;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 320px) {
+
+    /*
 #date
 {
 background-color:
@@ -3016,225 +1482,225 @@ padding-left:
 20px
  !important;
 */
-        /*
+    /*
 }
 */
-        .selectpicker {
-            font-size:
-                10px;
-        }
+    .selectpicker {
+        font-size:
+            10px;
+    }
 
-        .datefilter {
-            margin-bottom:
-                10px;
-        }
+    .datefilter {
+        margin-bottom:
+            10px;
+    }
 
-        .filters {
-            padding-left:
-                30px;
-        }
+    .filters {
+        padding-left:
+            30px;
+    }
 
-        .butto {
-            /*
+    .butto {
+        /*
 /*
 margin-left:50px;
 */
-            padding-left:
-                25px;
-        }
-
-        .filters {
-            padding-left: 75px;
-        }
+        padding-left:
+            25px;
     }
 
-    @media screen and (max-width: 1280px),
-    screen and (min-width: 1024px) {
+    .filters {
+        padding-left: 75px;
+    }
+}
 
-        .one-width {
-            width: 100% !importante;
-        }
+@media screen and (max-width: 1280px),
+screen and (min-width: 1024px) {
 
-        .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-            margin-top: -47px;
-            margin-bottom: 0px;
-            padding: 20px 20px 20px 20px;
-        }
+    .one-width {
+        width: 100% !importante;
+    }
 
-        /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+    .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: -47px;
+        margin-bottom: 0px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         margin-top: -47px;
         margin-bottom: 0px;
         padding: 20px 20px 20px 275px;
     } */
 
-        input[type="date"]:not(.has-value):before {
-            color:
-                lightgray;
-            content:
-                attr(placeholder);
-        }
+    input[type="date"]:not(.has-value):before {
+        color:
+            lightgray;
+        content:
+            attr(placeholder);
+    }
 
-        ::placeholder {
-            /*
+    ::placeholder {
+        /*
 margin-top:
 15px
  !important;
 */
-            color:
-                #fff !important;
-            opacity:
-                1 !important;
-        }
+        color:
+            #fff !important;
+        opacity:
+            1 !important;
+    }
 
-        ::-ms-input-placeholder {
-            /*
+    ::-ms-input-placeholder {
+        /*
 margin-top:
 15px
  !important;
 */
-            color:
-                #fff !important;
-            opacity:
-                1 !important;
-        }
+        color:
+            #fff !important;
+        opacity:
+            1 !important;
+    }
 
-        ::-webkit-calendar-picker-indicator {
-            filter:
-                invert(1);
-        }
+    ::-webkit-calendar-picker-indicator {
+        filter:
+            invert(1);
+    }
 
-        div.d-grid.gap-2.col-6.butto {
-            padding-left:
-                80px;
-            /*
+    div.d-grid.gap-2.col-6.butto {
+        padding-left:
+            80px;
+        /*
 text-align:
 right !important;
 */
-        }
+    }
 
-        #date {
-            width: 220px;
-            height: 36px;
-            background-color: #54b4d3;
-            color: #fff !important;
-            font-weight: 200px;
-            border-color: #54b4d3 !important;
-            border-radius: 5px;
-            font-size: 0.75rem !important;
-            padding-left: 20px !important;
-            padding-bottom: 20px;
-            padding-top: 0px;
-        }
+    #date {
+        width: 220px;
+        height: 36px;
+        background-color: #54b4d3;
+        color: #fff !important;
+        font-weight: 200px;
+        border-color: #54b4d3 !important;
+        border-radius: 5px;
+        font-size: 0.75rem !important;
+        padding-left: 20px !important;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
 
-        .card {
-            width:
-                22rem !important;
-        }
+    .card {
+        width:
+            22rem !important;
+    }
 
-        .elementor-star-rating__wrapper {
-            padding-left:
-                115px;
-            display:
-                flex;
-            /*
+    .elementor-star-rating__wrapper {
+        padding-left:
+            115px;
+        display:
+            flex;
+        /*
 align-items:
 right;
 */
-        }
+    }
 
-        .price {
-            padding-left:
-                100px;
-            display:
-                flex;
-            align-items:
-                center;
-        }
+    .price {
+        padding-left:
+            100px;
+        display:
+            flex;
+        align-items:
+            center;
+    }
 
-        .name {
-            margin-top:
-                15px;
-        }
+    .name {
+        margin-top:
+            15px;
+    }
 
-        input[type="date"]::before {
-            padding-right:
-                16px !important;
-            padding-top:
-                0px;
-            padding-left:
-                16px !important;
-            color:
-                #fff !important;
-            content:
-                attr(placeholder);
-        }
+    input[type="date"]::before {
+        padding-right:
+            16px !important;
+        padding-top:
+            0px;
+        padding-left:
+            16px !important;
+        color:
+            #fff !important;
+        content:
+            attr(placeholder);
+    }
 
-        input[type="date"] {
-            padding-right:
-                16px !important;
-            padding-left:
-                5px !important;
-            /*
+    input[type="date"] {
+        padding-right:
+            16px !important;
+        padding-left:
+            5px !important;
+        /*
 padding-top:
 16px
  !important;
 */
-            color:
-                #54b4d3 !important;
-        }
+        color:
+            #54b4d3 !important;
+    }
 
-        input[type="date"]:focus,
-        input[type="date"]:valid {
-            padding-right:
-                16px !important;
-            /*
+    input[type="date"]:focus,
+    input[type="date"]:valid {
+        padding-right:
+            16px !important;
+        /*
 padding-left:
 16px
  !important;
 */
-            /*
+        /*
 padding-top:
 25px
  !important;
 */
-            color:
-                #fff !important;
-        }
+        color:
+            #fff !important;
+    }
 
-        input[type="date"]:focus::before,
-        input[type="date"]:valid::before {
-            padding-right:
-                16px !important;
-            padding-left:
-                16px !important;
-            /*
+    input[type="date"]:focus::before,
+    input[type="date"]:valid::before {
+        padding-right:
+            16px !important;
+        padding-left:
+            16px !important;
+        /*
 padding-top:
 25px
  !important;
 */
-            content:
-                ""
-                !important;
-        }
+        content:
+            ""
+             !important;
+    }
 
-        .search {
-            width:
-                130%;
-            text-align:
-                left;
-            background-color:
-                #000;
-            /*
+    .search {
+        width:
+            130%;
+        text-align:
+            left;
+        background-color:
+            #000;
+        /*
 margin-left:
 125px
  !important;
 */
-        }
     }
+}
 
-    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
     color: #343F5A;
     font-family: "Roboto", Sans-serif;
     font-size: 20px;
@@ -3242,309 +1708,309 @@ margin-left:
     text-align: center;
 } */
 
-    .card-deck .card {
-        margin-bottom:
-            50px;
-    }
+.card-deck .card {
+    margin-bottom:
+        50px;
+}
 
-    /*
+/*
 .browseMentor
 {
 padding-right:
 20px;
 }
 */
-    i.fas.fa-bell.fa-2xl {
-        font-size:
-            32px !important;
+i.fas.fa-bell.fa-2xl {
+    font-size:
+        32px !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .mentor_name {
+        font-size: 14px;
     }
 
-    @media screen and (max-width: 1024px) {
+    p>span {
+        font-size: 12px !important;
+    }
 
-        .mentor_name {
-            font-size: 14px;
-        }
+    .wp-image-5531 {
+        border-radius: 10px !important;
+        max-width: 50% !important;
+        height: 200px !important;
+    }
 
-        p>span {
-            font-size: 12px !important;
-        }
+    .expertise {
+        font-size: 11px;
+    }
 
-        .wp-image-5531 {
-            border-radius: 10px !important;
-            max-width: 50% !important;
-            height: 200px !important;
-        }
+    /* header*/
 
-        .expertise {
-            font-size: 11px;
-        }
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
+        padding: 25px 10px 0px 0px;
+        margin-left: -60px;
+    }
 
-        /* header*/
+    .wp-image-624 {
+        width: 100%;
+        height: 15.02%;
+        max-width: 150px !important;
+    }
 
-        .elementor-3007 .elementor-element.elementor-element-4bc8cfa>.elementor-widget-container {
-            padding: 25px 10px 0px 0px;
-            margin-left: -60px;
-        }
-
-        .wp-image-624 {
-            width: 100%;
-            height: 15.02%;
-            max-width: 150px !important;
-        }
-
-        /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
+    /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
         font-size: 40px;
         padding-left: 20px;
     } */
 
-        dl,
-        ol,
-        ul {
-            margin-top: 0;
-            margin-bottom: 1rem;
-            margin-left: 20px;
-        }
-
-        .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
-            background-color: #fff !important;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
-            font-family: "Helvetica", Sans-serif;
-            font-size: 10px;
-            margin-right: 15px;
-            font-weight: 400;
-            background-color: transparent;
-            background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
-            border-style: none;
-            border-radius: 7px 7px 7px 7px;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
-            font-family: "Helvetica", Sans-serif;
-            font-size: 10px;
-            font-weight: 400;
-            background-color: transparent;
-            background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
-            border-style: none;
-            border-radius: 7px 7px 7px 7px;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
-        .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-color: #FFFFFF;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
-        .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-color: #F3EEF5;
-            /* padding-left: 275px; */
-        }
+    dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 20px;
     }
 
-    @media screen and (max-width: 768px) {
-
-        p>span {
-            margin-top: -15px !important;
-            font-size: 7px !important;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-            margin-top: -47px;
-            margin-bottom: 0px;
-            padding: 20px 20px 20px 20px;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
-        .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            /* padding-left: 200px; */
-            background-color: #F3EEF5;
-        }
-
-        .filter-section {
-            background-color: #F3EEF5;
-            padding-left: 85px;
-        }
-
-        .search {
-            width: 70% !important;
-            text-align: left;
-            /* background-color: #000; */
-        }
+    .menu-item .menu-item-type-post_type .menu-item-object-page .menu-item-has-children .parent .hfe-has-submenu .hfe-creative-menu .parent-has-child {
+        background-color: #fff !important;
     }
 
-    @media screen and (max-width: 820px) {
+    .elementor-3007 .elementor-element.elementor-element-78270f3 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        margin-right: 15px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
 
-        .search {
-            width: 65%;
-            text-align: left;
-            background-color: #000;
-        }
+    .elementor-3007 .elementor-element.elementor-element-4bc8cfa .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--e-global-color-1e1892c) 0%, var(--e-global-color-1e1892c) 100%);
+        border-style: none;
+        border-radius: 7px 7px 7px 7px;
+    }
 
-        .wp-image-5531 {
-            border-radius: 10px !important;
-            max-width: 50% !important;
-            height: 170px !important;
-        }
+    .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
+    .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #FFFFFF;
+    }
 
-        .mentor_name {
-            font-size: 10px;
-        }
+    .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
+    .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #F3EEF5;
+        /* padding-left: 275px; */
+    }
+}
 
-        p>span {
-            margin-top: -15px !important;
-            font-size: 8px !important;
-        }
+@media screen and (max-width: 768px) {
 
-        .elementor-star-rating {
-            margin-bottom: -10px !important;
-            margin-top: -20px !important;
-            font-size: 10px;
-            color: #ccd6df;
-            font-family: eicons;
-            display: inline-block;
-        }
+    p>span {
+        margin-top: -15px !important;
+        font-size: 7px !important;
+    }
 
-        .expertise {
-            margin-top: -5px;
-            font-size: 7px;
-        }
+    .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: -47px;
+        margin-bottom: 0px;
+        padding: 20px 20px 20px 20px;
+    }
 
-        span.slot {
-            font-weight: bold;
-            font-size: 10px !important;
-        }
+    .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
+    .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        /* padding-left: 200px; */
+        background-color: #F3EEF5;
+    }
 
-        span.charge {
-            font-weight: bold;
-            font-size: 10px !important;
-        }
+    .filter-section {
+        background-color: #F3EEF5;
+        padding-left: 85px;
+    }
 
-        .bio {
-            /* margin-top: -15px; */
-            font-size: 10px;
-            padding-top: 15px;
-        }
+    .search {
+        width: 70% !important;
+        text-align: left;
+        /* background-color: #000; */
+    }
+}
 
-        .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-            margin-top: -47px;
-            margin-bottom: 0px;
-            padding: 20px 20px 20px 20px;
-        }
+@media screen and (max-width: 820px) {
 
-        .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
-        .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-            background-color: #F3EEF5;
-            /* padding-left: 200px; */
-        }
+    .search {
+        width: 65%;
+        text-align: left;
+        background-color: #000;
+    }
 
-        .filter-section {
-            background-color: #F3EEF5;
-            padding-left: 90px;
-        }
+    .wp-image-5531 {
+        border-radius: 10px !important;
+        max-width: 50% !important;
+        height: 170px !important;
+    }
 
-        .search {
-            width: 68%;
-            text-align: left;
-            /* background-color: #000; */
-        }
+    .mentor_name {
+        font-size: 10px;
+    }
+
+    p>span {
+        margin-top: -15px !important;
+        font-size: 8px !important;
+    }
+
+    .elementor-star-rating {
+        margin-bottom: -10px !important;
+        margin-top: -20px !important;
+        font-size: 10px;
+        color: #ccd6df;
+        font-family: eicons;
+        display: inline-block;
+    }
+
+    .expertise {
+        margin-top: -5px;
+        font-size: 7px;
+    }
+
+    span.slot {
+        font-weight: bold;
+        font-size: 10px !important;
+    }
+
+    span.charge {
+        font-weight: bold;
+        font-size: 10px !important;
+    }
+
+    .bio {
+        /* margin-top: -15px; */
+        font-size: 10px;
+        padding-top: 15px;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: -47px;
+        margin-bottom: 0px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
+    .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #F3EEF5;
+        /* padding-left: 200px; */
+    }
+
+    .filter-section {
+        background-color: #F3EEF5;
+        padding-left: 90px;
+    }
+
+    .search {
+        width: 68%;
+        text-align: left;
+        /* background-color: #000; */
+    }
 
 
-        /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
+    /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         margin-top: -47px;
         margin-bottom: 0px;
         padding: 20px 0px 20px 180px;
     } */
+}
+
+@media screen and (max-width: 767px) {
+
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
     }
 
-    @media screen and (max-width: 767px) {
+    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
+        padding: 0px 20px 10px 100px;
+    }
 
-        .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
-            padding: 0px 20px 10px 100px;
-        }
-
-        .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
-            padding: 0px 20px 10px 100px;
-        }
-
-        .search {
-            width: 70% !important;
-            text-align: left;
-            /* background-color: #000; */
-            /* margin-left: 125px
+    .search {
+        width: 70% !important;
+        text-align: left;
+        /* background-color: #000; */
+        /* margin-left: 125px
  !important; */
-        }
+    }
 
-        h2 {
-            text-align: center !important;
-        }
+    h2 {
+        text-align: center !important;
+    }
 
-        .elementor-2772 .elementor-element.elementor-element-2ad683c>.elementor-widget-container {
-            padding: 0px 0px 0px 0px;
-        }
+    .elementor-2772 .elementor-element.elementor-element-2ad683c>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
 
-        body {
-            color: #fff !important;
-            /* max-width: 100%; */
-        }
+    body {
+        color: #fff !important;
+        /* max-width: 100%; */
+    }
 
-        ul,
-        ol {
-            font-family: var(--list--font-family);
-            margin: 0;
-            padding-left: 0px !important;
-        }
+    ul,
+    ol {
+        font-family: var(--list--font-family);
+        margin: 0;
+        padding-left: 0px !important;
+    }
 
-        .elementor-widget-text-editor .buttons {
-            font-size: 11px !important;
-        }
+    .elementor-widget-text-editor .buttons {
+        font-size: 11px !important;
+    }
 
-        .bio {
-            margin-top: 5px;
-            font-size: 10px;
-            padding-top: 0px;
-        }
+    .bio {
+        margin-top: 5px;
+        font-size: 10px;
+        padding-top: 0px;
+    }
 
-        .desktop-display {
-            display: none;
-        }
+    .desktop-display {
+        display: none;
+    }
 
-        .grid-child h5 {
-            font-size: 11px;
-        }
+    .grid-child h5 {
+        font-size: 11px;
+    }
 
-        .grid-child p {
-            font-size: 10px;
-        }
+    .grid-child p {
+        font-size: 10px;
+    }
 
-        .expertise {
-            font-size: 10px !important;
-        }
+    .expertise {
+        font-size: 10px !important;
+    }
 
-        .mobile-display {
-            visibility: visible;
-        }
+    .mobile-display {
+        visibility: visible;
+    }
 
-        .elementor-star-rating {
-            font-size: 9px;
-        }
+    .elementor-star-rating {
+        font-size: 9px;
+    }
 
-        .wp-image-5531 {
-            height: auto;
-            max-width: 100% !important;
-            border: none;
-            border-radius: 0;
-            box-shadow: none;
-        }
+    .wp-image-5531 {
+        height: auto;
+        max-width: 100% !important;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
 
-        .elementor-2772 .elementor-element.elementor-element-lqdwygc {
-            padding: 35px 5px 75px 5px;
-        }
+    .elementor-2772 .elementor-element.elementor-element-lqdwygc {
+        padding: 35px 5px 75px 5px;
+    }
 
-        /* .search {
+    /* .search {
         width:
             55% !important;
         text-align:
@@ -3553,46 +2019,46 @@ padding-right:
             #000;
     } */
 
-        .elementor-star-rating__wrapper {
-            padding-left:
-                120px;
-            display:
-                flex;
-        }
+    .elementor-star-rating__wrapper {
+        padding-left:
+            120px;
+        display:
+            flex;
+    }
 
-        ::placeholder {
-            padding-top:
-                15px !important;
-            color:
-                #fff !important;
-            opacity:
-                1 !important;
-        }
+    ::placeholder {
+        padding-top:
+            15px !important;
+        color:
+            #fff !important;
+        opacity:
+            1 !important;
+    }
 
-        ::-ms-input-placeholder {
-            padding-top:
-                15px !important;
-            color:
-                #fff !important;
-            opacity:
-                1 !important;
-        }
+    ::-ms-input-placeholder {
+        padding-top:
+            15px !important;
+        color:
+            #fff !important;
+        opacity:
+            1 !important;
+    }
 
-        ::-webkit-calendar-picker-indicator {
-            filter:
-                invert(1);
-        }
+    ::-webkit-calendar-picker-indicator {
+        filter:
+            invert(1);
+    }
 
-        input[type="date"] {
-            /* padding-right: 16px !important; */
-            padding-left: 20px !important;
-            padding-top: 5px !important;
-            color: #fff !important;
-            font-size: 15px !important;
-            padding-bottom: 25px;
-        }
+    input[type="date"] {
+        /* padding-right: 16px !important; */
+        padding-left: 20px !important;
+        padding-top: 5px !important;
+        color: #fff !important;
+        font-size: 15px !important;
+        padding-bottom: 25px;
+    }
 
-        /* input[type="date"] {
+    /* input[type="date"] {
         padding-right:
             16px !important;
         padding-left:
@@ -3605,312 +2071,312 @@ padding-right:
             12px !important;
     } */
 
-        input[type="date"]::before {
-            padding-right:
-                16px !important;
-            margin-top:
-                10px !important;
-            padding-left:
-                16px !important;
-            color:
-                #fff !important;
-            content:
-                attr(placeholder);
-        }
-
-        input[type="date"]:focus,
-        input[type="date"]:valid {
-            padding-right:
-                16px !important;
-            color:
-                #fff !important;
-        }
-
-        input[type="date"]:focus::before,
-        input[type="date"]:valid::before {
-            padding-right:
-                16px !important;
-            padding-left:
-                16px !important;
-            content:
-                ""
-                !important;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-b97627d {
-            width:
-                30%;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-a2b9669 {
-            width:
-                50%;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-094a417 {
-            width:
-                20%;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-            background-color:
-                #fff;
-            color:
-                #001E64 !important;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-094a417>.elementor-element-populated {
-            padding:
-                0px 0px 0px 35px;
-            margin-top:
-                45px;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
-            padding:
-                0px 0px 0px 10px;
-            margin-top:
-                -20px;
-        }
-
-        .elementor-button.elementor-size-xs {
-            font-size:
-                12px;
-            padding:
-                10px 20px;
-            border-radius:
-                7px;
-            margin:
-                10px;
-        }
-
-        .elementor-button {
-            display:
-                inline-block;
-            line-height:
-                1;
-            background-color:
-                #001E64;
-            fill:
-                #fff;
-            text-align:
-                center;
-            transition:
-                all .3s;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-f871cda {
-            width:
-                30%;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-094a417 {
-            width:
-                50%;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-a2b9669 {
-            width:
-                20%;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-            padding:
-                0px 0px 0px 30px;
-            margin-top:
-                45px;
-        }
-
-        #menu-item-5136 {
-            font-size:
-                8px;
-        }
-
-        i.fas.fa-bell.fa-2xl {
-            font-size:
-                27px !important;
-            color:
-                #000;
-            padding-left:
-                10px;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-556f326 img {
-            width:
-                200%;
-            height:
-                80px;
-            object-fit:
-                contain;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
-            margin:
-                -40px 0px 0px 0px;
-            padding:
-                20px 0px 0px 0px;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-556f326 img {
-            width:
-                92%;
-            height:
-                80px;
-            object-fit:
-                contain;
-        }
-
-        .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
-            padding:
-                20px 0px 0px 0px;
-        }
-
-        .rounded-circle {
-            margin-top:
-                10px;
-            margin-bottom:
-                10px;
-            height:
-                auto;
-            max-width:
-                100%;
-            border:
-                none;
-            border-radius:
-                0;
-            box-shadow:
-                none;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap {
-            background-color: #FFFFFF;
-            border-style: none;
-            border-radius: 20px 20px 20px 20px;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-55b12a5 {
-            width: 100%;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-2ad683c {
-            text-align: left;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-            color: #FFFFFF;
-            font-family: "Helvetica", Sans-serif;
-            font-size: 16px;
-            font-weight: 700;
-        }
-
-        .elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
-            transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-            margin: 0px 0px 0px 0px;
-            --e-column-margin-right: 100px;
-            --e-column-margin-left: 100px;
-            padding: 75px 0px 25px 0px;
-        }
+    input[type="date"]::before {
+        padding-right:
+            16px !important;
+        margin-top:
+            10px !important;
+        padding-left:
+            16px !important;
+        color:
+            #fff !important;
+        content:
+            attr(placeholder);
     }
 
-    @media (max-width: 320px) {}
+    input[type="date"]:focus,
+    input[type="date"]:valid {
+        padding-right:
+            16px !important;
+        color:
+            #fff !important;
+    }
 
-    @media (max-width: 280px) {
-        /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+    input[type="date"]:focus::before,
+    input[type="date"]:valid::before {
+        padding-right:
+            16px !important;
+        padding-left:
+            16px !important;
+        content:
+            ""
+             !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-b97627d {
+        width:
+            30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width:
+            50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width:
+            20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color:
+            #fff;
+        color:
+            #001E64 !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417>.elementor-element-populated {
+        padding:
+            0px 0px 0px 35px;
+        margin-top:
+            45px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-f871cda>.elementor-element-populated {
+        padding:
+            0px 0px 0px 10px;
+        margin-top:
+            -20px;
+    }
+
+    .elementor-button.elementor-size-xs {
+        font-size:
+            12px;
+        padding:
+            10px 20px;
+        border-radius:
+            7px;
+        margin:
+            10px;
+    }
+
+    .elementor-button {
+        display:
+            inline-block;
+        line-height:
+            1;
+        background-color:
+            #001E64;
+        fill:
+            #fff;
+        text-align:
+            center;
+        transition:
+            all .3s;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width:
+            30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width:
+            50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width:
+            20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding:
+            0px 0px 0px 30px;
+        margin-top:
+            45px;
+    }
+
+    #menu-item-5136 {
+        font-size:
+            8px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size:
+            27px !important;
+        color:
+            #000;
+        padding-left:
+            10px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width:
+            200%;
+        height:
+            80px;
+        object-fit:
+            contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin:
+            -40px 0px 0px 0px;
+        padding:
+            20px 0px 0px 0px;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326 img {
+        width:
+            92%;
+        height:
+            80px;
+        object-fit:
+            contain;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-556f326>.elementor-widget-container {
+        padding:
+            20px 0px 0px 0px;
+    }
+
+    .rounded-circle {
+        margin-top:
+            10px;
+        margin-bottom:
+            10px;
+        height:
+            auto;
+        max-width:
+            100%;
+        border:
+            none;
+        border-radius:
+            0;
+        box-shadow:
+            none;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-b4f3275>.elementor-widget-container>.wpr-content-toggle>.wpr-switcher-content-wrap {
+        background-color: #FFFFFF;
+        border-style: none;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-55b12a5 {
+        width: 100%;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-2ad683c {
+        text-align: left;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .elementor-2772 .elementor-element.elementor-element-55b12a5>.elementor-element-populated {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin: 0px 0px 0px 0px;
+        --e-column-margin-right: 100px;
+        --e-column-margin-left: 100px;
+        padding: 75px 0px 25px 0px;
+    }
+}
+
+@media (max-width: 320px) {}
+
+@media (max-width: 280px) {
+    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
         font-family: "Roboto", Sans-serif;
         font-size: 18px;
         font-weight: 600;
     } */
 
-        .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-            padding:
-                0px 0px 0px 20px;
-            margin-top:
-                45px;
-        }
-
-        .grid-child p {
-            margin-bottom: -10px;
-            font-size: 8px;
-        }
-
-        .grid-child p span {
-            font-size: 7px !important;
-        }
-
-        .expertise {
-            font-size: 5px !important;
-            margin-bottom: -16px;
-        }
-
-        .elementor-star-rating {
-            margin-top: -20px !important;
-            font-size: 7px;
-            padding-bottom: 5px;
-            /* margin-top: -60px !important; */
-            padding-top: 5px;
-        }
-
-        .grid-child .exp-heading {
-            margin-top: -10px;
-            padding-bottom: 5px;
-        }
-
-        .list-expert {
-            margin-top: -10px;
-        }
-
-        .bio {
-            margin-top: 5px;
-            font-size: 7px;
-            padding-top: 10px;
-        }
-
-        .grid-child h5 {
-            font-size: 9px;
-        }
-
-        .view_profile {
-            font-size: 7px !important;
-        }
-
-        .schedule_call {
-            font-size: 7px !important;
-        }
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding:
+            0px 0px 0px 20px;
+        margin-top:
+            45px;
     }
 
-    @media (max-width: 360px) {}
+    .grid-child p {
+        margin-bottom: -10px;
+        font-size: 8px;
+    }
 
-    @media (max-width: 375px) {
-        .filters {
-            padding-left:
-                75px;
-        }
+    .grid-child p span {
+        font-size: 7px !important;
+    }
 
-        .card {
-            width:
-                18.5rem !important;
-        }
+    .expertise {
+        font-size: 5px !important;
+        margin-bottom: -16px;
+    }
 
-        .name {
-            margin-top: 5px;
-        }
+    .elementor-star-rating {
+        margin-top: -20px !important;
+        font-size: 7px;
+        padding-bottom: 5px;
+        /* margin-top: -60px !important; */
+        padding-top: 5px;
+    }
 
-        .search {
-            width: 77% !important;
-            text-align: left;
-            /* background-color: #000; */
-            /* margin-left: 125px
+    .grid-child .exp-heading {
+        margin-top: -10px;
+        padding-bottom: 5px;
+    }
+
+    .list-expert {
+        margin-top: -10px;
+    }
+
+    .bio {
+        margin-top: 5px;
+        font-size: 7px;
+        padding-top: 10px;
+    }
+
+    .grid-child h5 {
+        font-size: 9px;
+    }
+
+    .view_profile {
+        font-size: 7px !important;
+    }
+
+    .schedule_call {
+        font-size: 7px !important;
+    }
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 375px) {
+    .filters {
+        padding-left:
+            75px;
+    }
+
+    .card {
+        width:
+            18.5rem !important;
+    }
+
+    .name {
+        margin-top: 5px;
+    }
+
+    .search {
+        width: 77% !important;
+        text-align: left;
+        /* background-color: #000; */
+        /* margin-left: 125px
          !important; */
-        }
     }
+}
 
-    @media (min-width: 540px) {}
+@media (min-width: 540px) {}
 
-    @media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {}
 </style>
 
 </html>
