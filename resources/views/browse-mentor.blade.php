@@ -68,6 +68,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" id="elementor-post-2772-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
+    <link rel='stylesheet' id='twenty-twenty-one-style-css'
+        href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
