@@ -2431,7 +2431,7 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
     .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
     .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
-        margin-top: -35px;
+        /* margin-top: -35px; */
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
