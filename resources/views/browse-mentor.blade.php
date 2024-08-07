@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" async></script>
@@ -61,35 +60,12 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-    <!-- <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
-        rel='stylesheet'> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" id="elementor-post-2772-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
-    <!-- <link href="{{ asset('public/assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
-    <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
-
-    <script>
-    (function(h, o, t, j, a, r) {
-        h.hj = h.hj || function() {
-            (h.hj.q = h.hj.q || []).push(arguments)
-        };
-        h._hjSettings = {
-            hjid: 3668045,
-            hjsv: 6
-        };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
