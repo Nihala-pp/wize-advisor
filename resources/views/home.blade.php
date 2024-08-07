@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
@@ -35,6 +36,8 @@
         onload="this.onload=null;this.rel='stylesheet'" crossorigin async>
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
+    <link rel="stylesheet" id="elementor-post-30-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" defer>
     <noscript>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" async>
     </noscript>
@@ -1667,7 +1670,7 @@
         }))
     }((window, document), window._wpemojiSettings);
     </script>
-   
+
     <script id="jquery-core-js-extra">
     var tpgb_load = {
         "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
@@ -1788,6 +1791,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     @include('partials.web-style')
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
     <!-- Google Tag Manager (noscript) -->
@@ -2236,9 +2240,8 @@
                                 </style>
                                 <div class="e-hosted-video elementor-wrapper elementor-open-inline">
                                     <video class="elementor-video"
-                                        src="{{ asset('wp-content/uploads/2023/07/How it works.mp4') }}"
-                                        autoplay="" loop="" muted="muted" playsinline=""
-                                        controlslist="nodownload"></video>
+                                        src="{{ asset('wp-content/uploads/2023/07/How it works.mp4') }}" autoplay=""
+                                        loop="" muted="muted" playsinline="" controlslist="nodownload"></video>
                                     <!-- <iframe loading="lazy"
                                         style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
                                         src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFpQ4GcAh0&#x2F;4eHgU5JmdwNppzpWZ4J1Ug&#x2F;watch?embed"
@@ -5272,4 +5275,5 @@
     }(jQuery));
     </script>
 </body>
+
 </html>

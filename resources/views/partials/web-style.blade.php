@@ -1069,8 +1069,6 @@ h6 {
 </noscript>
 <link rel='stylesheet' id='elementor-post-3007-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' defer>
-<link rel="stylesheet" id="elementor-post-30-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" defer>
 <link rel="stylesheet" id="elementor-post-32-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" defer>
 <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css"
