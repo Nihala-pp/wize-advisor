@@ -2,18 +2,6 @@
 <html lang="en-US">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-QC47PPTD6T');
-    </script>
     <meta charset="UTF-8">
     <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
     <meta name="description"
@@ -38,12 +26,17 @@
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
-        href="https://wiseadvizor.com" />
+    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed" href="https://wiseadvizor.com" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='elementor-post-2651-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' />
+    <link rel='stylesheet' id='elementor-post-7005-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7009-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7009.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7012-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7012.css?ver=1717773569' media='all' />
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -55,38 +48,7 @@
         }
     };
     </script>
-    <!-- <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
-        id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
-        <link rel='stylesheet' id='dashicons-css'
-            href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
-    </noscript>
-    <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
-    <link rel='stylesheet' id='e-theme-ui-light-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' /> -->
     @include('partials.web-style')
-    <link rel='stylesheet' id='owl_carousel_css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1'
-        media='all' />
-    <link rel='stylesheet' id='owl_theme_css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0'
-        media='all' />
-    <link rel='stylesheet' id='owl_animate_css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0'
-        media='all' />
-    <link rel='stylesheet' id='lightgallery_css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.min.css?ver=2.5.0'
-        media='all' />
-    <link rel='stylesheet' id='lightgallery_bundle_css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0'
-        media='all' />
-    <link rel='stylesheet' id='elementor-post-7005-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
-    <link rel='stylesheet' id='elementor-post-7009-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7009.css?ver=1717773569' media='all' />
-    <link rel='stylesheet' id='elementor-post-7012-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7012.css?ver=1717773569' media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
@@ -762,7 +724,8 @@
                                 <div class="elementor-widget-container">
                                     <img fetchpriority="high" decoding="async" width="750" height="375"
                                         src="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }}"
-                                        class="attachment-large size-large wp-image-6398" alt="digital marketing strategies"
+                                        class="attachment-large size-large wp-image-6398"
+                                        alt="digital marketing strategies"
                                         srcset="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 768w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1300w"
                                         sizes="(max-width: 750px) 100vw, 750px"
                                         style="width:100%;height:50%;max-width:2400px" />
@@ -1956,7 +1919,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
+    </script>
     <script id="admin-bar-js-before">
     (function() {
         function wpforms_admin_bar_menu_init() {
@@ -1989,7 +1953,9 @@
             window.scroll(0, window.pageYOffset)
         }
 
-        window.addEventListener("scroll", scrollEventHandler, {passive: true});
+        window.addEventListener("scroll", scrollEventHandler, {
+            passive: true
+        });
 
 
         jQuery('#slider_7004').owlCarousel({
@@ -2050,7 +2016,7 @@
 }
 
 .elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
-   margin-top: -20px !important;
+    margin-top: -20px !important;
 }
 
 .elementor-2650 .elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
