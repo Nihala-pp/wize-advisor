@@ -301,22 +301,6 @@
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ea06128"
                     data-id="ea06128" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <!-- <div class="elementor-element elementor-element-4f3b33b elementor-widget elementor-widget-heading"
-                            data-id="4f3b33b" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">Embarking on a startup journey
-                                    can be both exhilarating and challenging. As an entrepreneur, you're faced with
-                                    numerous decisions, uncertainties, and hurdles along the way. That's where
-                                    mentorship becomes invaluable. In this blog, we will explore the power of mentorship
-                                    and how wiseAdvizor can transform your startup journey</p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="elementor-element elementor-element-34a10af elementor-widget elementor-widget-heading"
-                            data-id="34a10af" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">The Impact of Mentorship</h2>
-                            </div>
-                        </div> -->
                         <div class="elementor-element elementor-element-dc0f3cb elementor-widget elementor-widget-text-editor"
                             data-id="dc0f3cb" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
@@ -466,9 +450,6 @@
         id="jquery-core-js" async></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <!-- <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.11"
-        id="she-header-js"></script> -->
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -480,7 +461,6 @@
     });
     </script>
 </body>
-
 </html>
 <style>
 /* html,
