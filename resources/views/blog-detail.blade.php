@@ -492,7 +492,7 @@ body {
     color: #6161ff;
     font-family: "Helvetica", Sans-serif !important;
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
 .elementor-4349 .elementor-element.elementor-element-1419ff0 .elementor-heading-title:hover {
