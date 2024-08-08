@@ -483,7 +483,7 @@ i.fas.fa-bell.fa-2xl {
     .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
     .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
-        margin-top: -50px;
+        /* margin-top: -50px; */
     }
 
     .elementor-7478 .elementor-element.elementor-element-2b3679d8:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
