@@ -1041,8 +1041,6 @@ i.fas.fa-chevron-down {
         position: relative;
         margin-bottom: -40px;
     }
-
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
