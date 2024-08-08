@@ -384,6 +384,8 @@ var wpformsElementorVars = {
   <script
       src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
       id="wpforms-elementor-js"></script>
+  <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
+      id="niso-carousel-owl.min-js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
   </script>
   <script src="{{ asset('public/assets/js/lazysizes.min.js') }}" async></script>
@@ -460,9 +462,9 @@ jQuery(document).ready(function() {
   </script>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
+var Tawk_API = Tawk_API || {},
     Tawk_LoadStart = new Date();
-    (function() {
+(function() {
     var s1 = document.createElement("script"),
         s0 = document.getElementsByTagName("script")[0];
     s1.async = true;
@@ -470,23 +472,23 @@ jQuery(document).ready(function() {
     s1.charset = 'UTF-8';
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
-   })();
+})();
   </script>
 
-<script>
-    (function(h, o, t, j, a, r) {
-        h.hj = h.hj || function() {
-            (h.hj.q = h.hj.q || []).push(arguments)
-        };
-        h._hjSettings = {
-            hjid: 3668045,
-            hjsv: 6
-        };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+  <script>
+(function(h, o, t, j, a, r) {
+    h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+    };
+    h._hjSettings = {
+        hjid: 3668045,
+        hjsv: 6
+    };
+    a = o.getElementsByTagName('head')[0];
+    r = o.createElement('script');
+    r.async = 1;
+    r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
   <!--End of Tawk.to Script-->
