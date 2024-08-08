@@ -88,24 +88,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
-        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
     };
     var smoothAllowedBrowsers = [];
     </script>
-
-    <script id="elementor-pro-app-js-before">
-    var elementorAppProConfig = {
-        "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
-        "site-editor": {
-            "urls": {
-                "legacy_view": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
-            }
-        },
-        "kit-library": [],
-        "onboarding": [],
-        "import-export": []
-    };
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
+        id="she-header-js"></script>
     <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
     <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/6547" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
@@ -804,10 +797,6 @@
     <link rel='stylesheet' id='hfe-widgets-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.33'
         media='all' />
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js" async></script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0"
