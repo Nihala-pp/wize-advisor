@@ -40,8 +40,6 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com" />
-    <!-- <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/" /> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='elementor-post-2651-css'
@@ -105,9 +103,6 @@
         padding: 0 !important;
     }
     </style>
-    <!-- <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.min.css?ver=2.0'
-        media='all' /> -->
     <style id='global-styles-inline-css'>
     body {
         --wp--preset--color--black: #000000;
