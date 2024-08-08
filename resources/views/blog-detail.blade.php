@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 35)  }}|Mentorship Platform </title>
@@ -25,9 +26,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet"  async>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='post-4349-css'
-    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717513898' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717513898' media='all' />
     <link rel='stylesheet' id='elementor-post-7005-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
     <link rel='stylesheet' id='elementor-post-7009-css'
@@ -51,6 +52,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     @include('partials.web-style')
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-4349 page-child parent-pageid-18 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4349">
     @include('partials.header-common')
@@ -142,7 +144,8 @@
                                                 }
                                                 </style> <img decoding="async" width="150" height="150"
                                                     src="{{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-5883" alt="startup success"
+                                                    class="attachment-thumbnail size-thumbnail wp-image-5883"
+                                                    alt="startup success"
                                                     srcset="{{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 150w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 700w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 650w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 1300w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 98w"
                                                     sizes="(max-width: 150px) 100vw, 150px"
                                                     style="width:100%;height:100%;max-width:98px" />
@@ -456,7 +459,7 @@
         </section>
     </div>
     @include('partials.footer-web')
-    
+
     @include('partials.web-script')
 
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
@@ -477,6 +480,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 /* html,
@@ -486,9 +490,9 @@ body {
 
 .elementor-4349 .elementor-element.elementor-element-15c3afc .elementor-heading-title {
     color: #6161ff;
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "Helvetica", Sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
 }
 
 .elementor-4349 .elementor-element.elementor-element-1419ff0 .elementor-heading-title:hover {
