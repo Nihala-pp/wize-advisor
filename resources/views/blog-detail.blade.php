@@ -650,7 +650,7 @@ i.fas.fa-chevron-down {
     }
 
     .ehf-header #masthead {
-        margin-top: -45px;
+        /* margin-top: -45px; */
         z-index: 99;
         position: relative;
         /* margin-bottom: -70px; */
