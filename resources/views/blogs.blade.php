@@ -55,40 +55,16 @@
         }
     };
     </script>
-    <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
+    <!-- <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
         id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
-        media='all' />
-    <style id='admin-bar-inline-css'>
-    @media screen {
-        html {
-            margin-top: 32px !important;
-        }
-    }
-
-    @media screen and (max-width: 782px) {
-        html {
-            margin-top: 46px !important;
-        }
-    }
-
-    @media print {
-        #wpadminbar {
-            display: none;
-        }
-    }
-    </style>
-    <link rel='stylesheet' id='elementor-icons-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
-        media='all' />
     <link rel='stylesheet' id='elementor-common-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' />
+        media='all' /> -->
     @include('partials.web-style')
     <link rel='stylesheet' id='owl_carousel_css-css'
         href='https://wiseadvizor.com/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1'
@@ -2066,6 +2042,12 @@
 
 </html>
 <style>
+.elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
+    color: #6161ff;
+    font-family: "helvetica", "Sans-serif";
+    font-size: 16px;
+    font-weight: 600;
+}
 
 .elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
    margin-top: -20px !important;
