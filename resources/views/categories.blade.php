@@ -1340,7 +1340,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .ehf-header #masthead {
-    margin-top: -35px;
+    /* margin-top: -35px; */
     z-index: 99;
     position: relative;
 }
