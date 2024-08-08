@@ -289,7 +289,6 @@
     </div>
     @include('partials.footer-web')
     @include('partials.web-script')
-    <!-- <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script> -->
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
