@@ -583,7 +583,7 @@ i.fas.fa-chevron-down {
 }
 
 .ehf-header #masthead {
-    margin-top: -35px;
+    /* margin-top: -35px; */
     z-index: 99;
     position: relative;
 }
@@ -795,7 +795,6 @@ i.fas.fa-bell.fa-2xl {
 
     #menu-item-5136 {
         font-size: 8px;
-        /* padding-left: 15px; */
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
