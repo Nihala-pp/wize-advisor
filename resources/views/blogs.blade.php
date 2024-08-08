@@ -633,7 +633,7 @@
     @include('partials.footer-web')
     
     @include('partials.web-script')
-    
+
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -701,9 +701,9 @@
     font-weight: 600;
 }
 
-.elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
+/* .elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     margin-top: -20px !important;
-}
+} */
 
 .elementor-2650 .elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     margin-left: -45px !important;
