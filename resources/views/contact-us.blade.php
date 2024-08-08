@@ -372,7 +372,7 @@
 
 .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    margin-top: -35px;
+    /* margin-top: -35px; */
     background-color: #FFFFFF;
 }
 
