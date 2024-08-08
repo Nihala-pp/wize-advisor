@@ -51,7 +51,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-     @include('partials.web-style')
+    @include('partials.web-style')
 </head>
 
 <body
@@ -682,11 +682,12 @@
     });
     </script>
 </body>
+
 </html>
 <style>
-
-button .owl-dot {
-    margin-top:-35px !important;
+.white .sa_hero_slider,
+.black .sa_hero_slider {
+    /* height: 100vh !important; */
 }
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
