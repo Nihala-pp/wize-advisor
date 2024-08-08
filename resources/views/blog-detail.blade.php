@@ -45,11 +45,11 @@
         }
     };
     </script>
-    @include('partials.web-style')
     <link rel="canonical" href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ $selectedBlog->title }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    @include('partials.web-style')
 </head>
 <body
     class="page-template page-template-elementor_canvas page page-id-4349 page-child parent-pageid-18 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4349">
@@ -463,9 +463,9 @@
         id="jquery-core-js" async></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.11"
-        id="she-header-js"></script>
+        id="she-header-js"></script> -->
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
