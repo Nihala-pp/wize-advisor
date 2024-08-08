@@ -71,6 +71,13 @@
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
     @include('partials.web-style')
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script id="jquery-core-js-extra">
+    var tpgb_load = {
+        "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
+    };
+    var smoothAllowedBrowsers = [];
+    </script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js" async></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
