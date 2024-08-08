@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>{{ $category->name }} | wiseAdvizor Blog</title>
@@ -315,9 +316,9 @@
 
 .elementor-6547 .elementor-element.elementor-element-51ab099 .elementor-heading-title {
     color: #6161ff;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .elementor-6547 .elementor-element.elementor-element-553eb28 .elementor-heading-title:hover {
