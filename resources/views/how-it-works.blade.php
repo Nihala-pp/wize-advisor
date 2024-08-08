@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Connect with Startup Mentors - Ignite Your Startup Success Now</title>
@@ -29,6 +30,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='elementor-post-5607-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5607.css?ver=1710409200' media='all' />
+    <link rel="stylesheet" id="elementor-post-5225-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5225.css?ver=1722102336" media="all">
     @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js" async></script>
@@ -37,9 +40,10 @@
     <link rel="canonical" href="https://wiseadvizor.com/how-it-works" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-5225 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.7 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5225">
-   
+
     @include('partials.header-common')
 
     <div data-elementor-type="wp-page" data-elementor-id="5225" class="elementor elementor-5225">
@@ -560,7 +564,7 @@
             </div>
         </section>
     </div>
-    
+
     @include('partials.footer-web')
 
     @include('partials.web-script')
@@ -884,4 +888,5 @@ i.fas.fa-bell.fa-2xl {
     } */
 }
 </style>
+
 </html>
