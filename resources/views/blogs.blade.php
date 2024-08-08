@@ -49,7 +49,7 @@
     };
     </script>
     @include('partials.web-style')
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> -->
     <script id="jquery-core-js-extra">
     var tpgb_load = {
         "ajaxUrl": "https:\/\/https://wiseadvizor.com\/wp-admin\/admin-ajax.php"
@@ -76,49 +76,9 @@
         "import-export": []
     };
     </script>
-    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2650" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
-    <meta name="generator" content="WordPress 6.4.3" />
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
-    <link rel='shortlink' href='https://wiseadvizor.com/?p=2650' />
-    <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps://wiseadvizor.com%2Ffaq%2F&#038;format=xml" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-    #wpadminbar .theplus-purge-clear>.ab-item:before {
-        content: '';
-        background-image: url(https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-elementor-page-builder//assets/images/theplus-logo-small.png) !important;
-        background-size: 20px !important;
-        background-position: center;
-        width: 20px;
-        height: 20px;
-        background-repeat: no-repeat;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    @media (max-width:660px) {
-        #wpadminbar {
-            position: fixed;
-        }
-    }
-    </style>
-    <script>
-    (function() {
-        window.onpageshow = function(event) {
-            // Defined window.wpforms means that a form exists on a page.
-            // If so and back/forward button has been clicked,
-            // force reload a page to prevent the submit button state stuck.
-            if (typeof window.wpforms !== 'undefined' && event.persisted) {
-                window.location.reload();
-            }
-        };
-    }());
-    </script>
     <meta name="generator"
         content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <style id="wpr_lightbox_styles">
