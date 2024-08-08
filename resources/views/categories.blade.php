@@ -38,7 +38,7 @@
         }
     };
     </script>
-    <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
+    <!-- <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
         id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
@@ -82,16 +82,10 @@
         media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' />
+        media='all' /> -->
 
     @include('partials.web-style')
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <!-- <script id="jquery-core-js-extra">
-    var tpgb_load = {
-        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
-    };
-    var smoothAllowedBrowsers = [];
-    </script> -->
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
@@ -99,22 +93,11 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
         id="she-header-js"></script>
-    <!-- <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/6547" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
-    <meta name="generator" content="WordPress 6.4.3" /> -->
     <link rel="canonical"
         href="https://wiseadvizor.com/categories/{{ $category->id }}/{{ Str::slug($category->name) }}" />
-    <!-- <link rel='shortlink' href='https://wiseadvizor.com/?p=6547' />
-    <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fcatgories%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwiseadvizor.com%2Fcatgories%2F&#038;format=xml" /> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <meta name="generator"
-        content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"> -->
-    <style id="wpr_lightbox_styles">
+    <!-- <style id="wpr_lightbox_styles">
     .lg-backdrop {
         background-color: rgba(0, 0, 0, 0.6) !important;
     }
@@ -246,7 +229,7 @@
         --wpforms-container-shadow-size-box-shadow: none;
 
     }
-    </style>
+    </style> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
