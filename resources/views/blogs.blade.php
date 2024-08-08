@@ -632,8 +632,8 @@
     </div>
     @include('partials.footer-web')
     
-    @include('partials.web-style')
-   
+    @include('partials.web-script')
+    
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
