@@ -289,12 +289,7 @@
     </div>
     @include('partials.footer-web')
     @include('partials.web-script')
-
-
-    <!-- <link rel='stylesheet' id='hfe-widgets-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.33'
-        media='all' /> -->
-    <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script>
+    <!-- <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js"></script> -->
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
