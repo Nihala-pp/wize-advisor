@@ -70,7 +70,21 @@
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
-     @include('partials.web-style')
+    <link rel='stylesheet' id='zip-ai-sidebar-css'
+        href='https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.css?ver=1.1.6'
+        media='all' />
+    <link rel='stylesheet' id='wpforms-admin-bar-css'
+        href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
+        media='all' />
+
+    <link rel='stylesheet' id='font-awesome-5-all-css'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.975'
+        media='all' />
+    <link rel='stylesheet' id='e-theme-ui-light-css'
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
+        media='all' />
+
+    @include('partials.web-style')
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script id="jquery-core-js-extra">
     var tpgb_load = {
