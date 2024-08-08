@@ -33,7 +33,7 @@
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7478.css?ver=1721657651' media='all' />
     @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js" async></script>
+        id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <link rel="canonical" href="https://wiseadvizor.com/contact-us" />
