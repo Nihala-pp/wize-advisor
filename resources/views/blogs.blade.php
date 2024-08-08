@@ -687,7 +687,7 @@
 <style>
 .white .sa_hero_slider,
 .black .sa_hero_slider {
-     height: 50vh !important; 
+     height: 75vh !important; 
 }
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
