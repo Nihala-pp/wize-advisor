@@ -688,8 +688,8 @@
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff;
     font-family: "helvetica", "Sans-serif" !important;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 16px !important;
+    font-weight: 600 !important;
 }
 
 /* .elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
