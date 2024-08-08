@@ -376,7 +376,7 @@ var _wpUtilSettings = {
   <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js">
   </script>
   <script id="wpforms-elementor-js-extra">
-var wpformsElementorVars = {
+    var wpformsElementorVars = {
     "captcha_provider": "recaptcha",
     "recaptcha_type": "v2"
 };
@@ -473,7 +473,7 @@ jQuery(document).ready(function() {
    })();
   </script>
 
-<script>
+    <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
