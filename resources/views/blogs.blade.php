@@ -631,23 +631,6 @@
         </section>
     </div>
     @include('partials.footer-web')
-    <div id="zip-ai-sidebar-admin-trigger"></div>
-    <div id="zip-ai-sidebar"></div>
-    <script>
-    document.body.classList.remove("no-js");
-    </script>
-    <script>
-    if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
-        document.body.classList.add('is-IE');
-    }
-    </script>
-    <script type="text/template" id="tmpl-elementor-templates-modal__header">
-        <div class="elementor-templates-modal__header__logo-area"></div>
-	<div class="elementor-templates-modal__header__menu-area"></div>
-	<div class="elementor-templates-modal__header__items-area">
-		<div id="elementor-template-library-header-tools"></div>
-	</div>
-</script>
     <link rel='stylesheet' id='e-animations-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.21.6'
         media='all' />
