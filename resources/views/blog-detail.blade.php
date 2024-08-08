@@ -51,6 +51,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     @include('partials.web-style')
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js"></script>
 </head>
 
 <body
@@ -443,11 +447,6 @@
         </section>
     </div>
     @include('partials.footer-web')
-
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js" async></script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
 
     @include('partials.web-script')
 
