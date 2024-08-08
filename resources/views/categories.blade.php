@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>{{ $category->name }} | wiseAdvizor Blog</title>
@@ -38,198 +37,19 @@
         }
     };
     </script>
-    <!-- <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
-        id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
-        <link rel='stylesheet' id='dashicons-css'
-            href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
-    </noscript>
-    <style id='admin-bar-inline-css'>
-    @media screen {
-        html {
-            margin-top: 32px !important;
-        }
-    }
-
-    @media screen and (max-width: 782px) {
-        html {
-            margin-top: 46px !important;
-        }
-    }
-
-    @media print {
-        #wpadminbar {
-            display: none;
-        }
-    }
-    </style>
-    <link rel='stylesheet' id='elementor-icons-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
-        media='all' />
-    <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
-    <link rel='stylesheet' id='e-theme-ui-light-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' />
-    <link rel='stylesheet' id='zip-ai-sidebar-css'
-        href='https://wiseadvizor.com/wp-content/plugins/astra-sites/inc/lib/zip-ai/sidebar/build/sidebar-app.css?ver=1.1.6'
-        media='all' />
-    <link rel='stylesheet' id='wpforms-admin-bar-css'
-        href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
-        media='all' />
-
-    <link rel='stylesheet' id='font-awesome-5-all-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.3.975'
-        media='all' />
-    <link rel='stylesheet' id='e-theme-ui-light-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
-        media='all' /> -->
-
     @include('partials.web-style')
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
-        id="she-header-js"></script>
+        id="she-header-js"></script> -->
     <link rel="canonical"
         href="https://wiseadvizor.com/categories/{{ $category->id }}/{{ Str::slug($category->name) }}" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <style id="wpr_lightbox_styles">
-    .lg-backdrop {
-        background-color: rgba(0, 0, 0, 0.6) !important;
-    }
-
-    .lg-toolbar,
-    .lg-dropdown {
-        background-color: rgba(0, 0, 0, 0.8) !important;
-    }
-
-    .lg-dropdown:after {
-        border-bottom-color: rgba(0, 0, 0, 0.8) !important;
-    }
-
-    .lg-sub-html {
-        background-color: rgba(0, 0, 0, 0.8) !important;
-    }
-
-    .lg-thumb-outer,
-    .lg-progress-bar {
-        background-color: #444444 !important;
-    }
-
-    .lg-progress {
-        background-color: #a90707 !important;
-    }
-
-    .lg-icon {
-        color: #efefef !important;
-        font-size: 20px !important;
-    }
-
-    .lg-icon.lg-toogle-thumb {
-        font-size: 24px !important;
-    }
-
-    .lg-icon:hover,
-    .lg-dropdown-text:hover {
-        color: #ffffff !important;
-    }
-
-    .lg-sub-html,
-    .lg-dropdown-text {
-        color: #efefef !important;
-        font-size: 14px !important;
-    }
-
-    #lg-counter {
-        color: #efefef !important;
-        font-size: 14px !important;
-    }
-
-    .lg-prev,
-    .lg-next {
-        font-size: 35px !important;
-    }
-
-    /* Defaults */
-    .lg-icon {
-        background-color: transparent !important;
-    }
-
-    #lg-counter {
-        opacity: 0.9;
-    }
-
-    .lg-thumb-outer {
-        padding: 0 10px;
-    }
-
-    .lg-thumb-item {
-        border-radius: 0 !important;
-        border: none !important;
-        opacity: 0.5;
-    }
-
-    .lg-thumb-item.active {
-        opacity: 1;
-    }
-    </style>
-    <style id="wpforms-css-vars-root">
-    :root {
-        --wpforms-field-border-radius: 3px;
-        --wpforms-field-border-style: solid;
-        --wpforms-field-border-size: 1px;
-        --wpforms-field-background-color: #ffffff;
-        --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
-        --wpforms-field-border-color-spare: rgba(0, 0, 0, 0.25);
-        --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
-        --wpforms-field-menu-color: #ffffff;
-        --wpforms-label-color: rgba(0, 0, 0, 0.85);
-        --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
-        --wpforms-label-error-color: #d63637;
-        --wpforms-button-border-radius: 3px;
-        --wpforms-button-border-style: none;
-        --wpforms-button-border-size: 1px;
-        --wpforms-button-background-color: #066aab;
-        --wpforms-button-border-color: #066aab;
-        --wpforms-button-text-color: #ffffff;
-        --wpforms-page-break-color: #066aab;
-        --wpforms-background-image: none;
-        --wpforms-background-position: center center;
-        --wpforms-background-repeat: no-repeat;
-        --wpforms-background-size: cover;
-        --wpforms-background-width: 100px;
-        --wpforms-background-height: 100px;
-        --wpforms-background-color: rgba(0, 0, 0, 0);
-        --wpforms-background-url: none;
-        --wpforms-container-padding: 0px;
-        --wpforms-container-border-style: none;
-        --wpforms-container-border-width: 1px;
-        --wpforms-container-border-color: #000000;
-        --wpforms-container-border-radius: 3px;
-        --wpforms-field-size-input-height: 43px;
-        --wpforms-field-size-input-spacing: 15px;
-        --wpforms-field-size-font-size: 16px;
-        --wpforms-field-size-line-height: 19px;
-        --wpforms-field-size-padding-h: 14px;
-        --wpforms-field-size-checkbox-size: 16px;
-        --wpforms-field-size-sublabel-spacing: 5px;
-        --wpforms-field-size-icon-size: 1;
-        --wpforms-label-size-font-size: 16px;
-        --wpforms-label-size-line-height: 19px;
-        --wpforms-label-size-sublabel-font-size: 14px;
-        --wpforms-label-size-sublabel-line-height: 17px;
-        --wpforms-button-size-font-size: 17px;
-        --wpforms-button-size-height: 41px;
-        --wpforms-button-size-padding-h: 15px;
-        --wpforms-button-size-margin-top: 10px;
-        --wpforms-container-shadow-size-box-shadow: none;
-
-    }
-    </style> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
