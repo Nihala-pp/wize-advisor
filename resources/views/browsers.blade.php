@@ -293,236 +293,6 @@
 
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK457VCB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-foreground-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-background">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 1"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 1"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-secondary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 1"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.88627450980392"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.78039215686275"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-        style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-primary-and-tertiary">
-                <fecolormatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </fecolormatrix>
-                <fecomponenttransfer color-interpolation-filters="sRGB">
-                    <fefuncr type="table" tablevalues="0.10196078431373 0.96470588235294"></fefuncr>
-                    <fefuncg type="table" tablevalues="0.27058823529412 0.96470588235294"></fefuncg>
-                    <fefuncb type="table" tablevalues="0.28235294117647 0.96470588235294"></fefuncb>
-                    <fefunca type="table" tablevalues="1 1"></fefunca>
-                </fecomponenttransfer>
-                <fecomposite in2="SourceGraphic" operator="in"></fecomposite>
-            </filter>
-        </defs>
-    </svg> -->
 
     @include('partials.header-common')
 
@@ -1179,16 +949,6 @@
     (function($) {
         $(document).ready(function() {
 
-            // x = "true";
-
-            // $('.hfe-nav-menu__toggle').on('click', function() {
-
-            //     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
-
-            //     $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
-        
-            // });
-
             window.addEventListener('touchstart', onTouchStart, {
                 passive: true
             });
@@ -1254,14 +1014,6 @@ span.charge {
     grid-gap: 20px;
 }
 
-/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #fff !important;
-    font-family: "Roboto", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-} */
-
 .para {
     background-color: #001E64 !important;
 }
@@ -1300,15 +1052,6 @@ span.charge {
     padding-top: 5px;
     padding-bottom: 10px;
 }
-
-/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #343F5A;
-    font-family: "Roboto", Sans-serif;
-    font-size: 23px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 30px;
-} */
 
 .selectpicker {
     background-color: #54b4d3 !important;
@@ -1393,53 +1136,7 @@ body {
             118px;
     }
 
-    /*
-input#date.form-control.selectpicker
-{
-padding-left:
-20px;
-padding-top:
-10px;
-*/
-    /*
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-100%
- !important;
-width:
-200%
- !important;
-font-size:
-0.75rem
- !important;
-*/
-    /*
-}
-*/
-    /*
-.datefilter
-{
-/*
-padding-top:
-20px;
-*/
-    /*
-margin-bottom:
-10px;
-*/
-    /*
-}
-*/
     .filters {
-        /*margin-left:*/
-        /*    95px;*/
         margin-right:
             50px;
     }
@@ -1458,33 +1155,6 @@ margin-bottom:
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
 
-    /*
-#date
-{
-background-color:
-#54b4d3;
-color:
-#fff;
-font-weight:
-400px;
-line-height:
-1;
-height:
-140%
- !important;
-width:
-75%
- !important;
-FONT-VARIANT:
-JIS78;
-/*
-padding-left:
-20px
- !important;
-*/
-    /*
-}
-*/
     .selectpicker {
         font-size:
             10px;
@@ -1501,10 +1171,6 @@ padding-left:
     }
 
     .butto {
-        /*
-/*
-margin-left:50px;
-*/
         padding-left:
             25px;
     }
@@ -1528,13 +1194,6 @@ screen and (min-width: 1024px) {
         padding: 20px 20px 20px 20px;
     }
 
-    /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin-top: -47px;
-        margin-bottom: 0px;
-        padding: 20px 20px 20px 275px;
-    } */
-
     input[type="date"]:not(.has-value):before {
         color:
             lightgray;
@@ -1543,23 +1202,13 @@ screen and (min-width: 1024px) {
     }
 
     ::placeholder {
-        /*
-margin-top:
-15px
- !important;
-*/
+ 
         color:
             #fff !important;
         opacity:
             1 !important;
     }
 
-    ::-ms-input-placeholder {
-        /*
-margin-top:
-15px
- !important;
-*/
         color:
             #fff !important;
         opacity:
@@ -1574,10 +1223,6 @@ margin-top:
     div.d-grid.gap-2.col-6.butto {
         padding-left:
             80px;
-        /*
-text-align:
-right !important;
-*/
     }
 
     #date {
@@ -1604,10 +1249,6 @@ right !important;
             115px;
         display:
             flex;
-        /*
-align-items:
-right;
-*/
     }
 
     .price {
@@ -1642,11 +1283,6 @@ right;
             16px !important;
         padding-left:
             5px !important;
-        /*
-padding-top:
-16px
- !important;
-*/
         color:
             #54b4d3 !important;
     }
@@ -1655,16 +1291,6 @@ padding-top:
     input[type="date"]:valid {
         padding-right:
             16px !important;
-        /*
-padding-left:
-16px
- !important;
-*/
-        /*
-padding-top:
-25px
- !important;
-*/
         color:
             #fff !important;
     }
@@ -1675,11 +1301,6 @@ padding-top:
             16px !important;
         padding-left:
             16px !important;
-        /*
-padding-top:
-25px
- !important;
-*/
         content:
             ""
              !important;
@@ -1691,35 +1312,14 @@ padding-top:
         text-align:
             left;
         background-color:
-            #000;
-        /*
-margin-left:
-125px
- !important;
-*/
     }
 }
-
-/* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-    color: #343F5A;
-    font-family: "Roboto", Sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-} */
 
 .card-deck .card {
     margin-bottom:
         50px;
 }
 
-/*
-.browseMentor
-{
-padding-right:
-20px;
-}
-*/
 i.fas.fa-bell.fa-2xl {
     font-size:
         32px !important;
@@ -1757,11 +1357,6 @@ i.fas.fa-bell.fa-2xl {
         height: 15.02%;
         max-width: 150px !important;
     }
-
-    /* .elementor-5225 .elementor-element.elementor-element-13dfc598 .elementor-heading-title {
-        font-size: 40px;
-        padding-left: 20px;
-    } */
 
     dl,
     ol,
@@ -1804,7 +1399,6 @@ i.fas.fa-bell.fa-2xl {
     .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
     .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #F3EEF5;
-        /* padding-left: 275px; */
     }
 }
 
@@ -1824,7 +1418,6 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
     .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        /* padding-left: 200px; */
         background-color: #F3EEF5;
     }
 
@@ -1836,7 +1429,6 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 70% !important;
         text-align: left;
-        /* background-color: #000; */
     }
 }
 
@@ -1888,7 +1480,6 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .bio {
-        /* margin-top: -15px; */
         font-size: 10px;
         padding-top: 15px;
     }
@@ -1903,7 +1494,6 @@ i.fas.fa-bell.fa-2xl {
     .elementor-2772 .elementor-element.elementor-element-9bcde29:not(.elementor-motion-effects-element-type-background),
     .elementor-2772 .elementor-element.elementor-element-9bcde29>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #F3EEF5;
-        /* padding-left: 200px; */
     }
 
     .filter-section {
@@ -1914,16 +1504,7 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 68%;
         text-align: left;
-        /* background-color: #000; */
     }
-
-
-    /* .elementor-2772 .elementor-element.elementor-element-9bcde29 {
-        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        margin-top: -47px;
-        margin-bottom: 0px;
-        padding: 20px 0px 20px 180px;
-    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -1939,9 +1520,6 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 70% !important;
         text-align: left;
-        /* background-color: #000; */
-        /* margin-left: 125px
- !important; */
     }
 
     h2 {
@@ -1954,7 +1532,6 @@ i.fas.fa-bell.fa-2xl {
 
     body {
         color: #fff !important;
-        /* max-width: 100%; */
     }
 
     ul,
@@ -2010,15 +1587,6 @@ i.fas.fa-bell.fa-2xl {
         padding: 35px 5px 75px 5px;
     }
 
-    /* .search {
-        width:
-            55% !important;
-        text-align:
-            left;
-        background-color:
-            #000;
-    } */
-
     .elementor-star-rating__wrapper {
         padding-left:
             120px;
@@ -2050,26 +1618,12 @@ i.fas.fa-bell.fa-2xl {
     }
 
     input[type="date"] {
-        /* padding-right: 16px !important; */
         padding-left: 20px !important;
         padding-top: 5px !important;
         color: #fff !important;
         font-size: 15px !important;
         padding-bottom: 25px;
     }
-
-    /* input[type="date"] {
-        padding-right:
-            16px !important;
-        padding-left:
-            5px !important;
-        padding-top:
-            16px !important;
-        color:
-            #fff !important;
-        font-size:
-            12px !important;
-    } */
 
     input[type="date"]::before {
         padding-right:
@@ -2285,11 +1839,6 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
-    /* .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
-        font-family: "Roboto", Sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-    } */
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding:
@@ -2316,7 +1865,6 @@ i.fas.fa-bell.fa-2xl {
         margin-top: -20px !important;
         font-size: 7px;
         padding-bottom: 5px;
-        /* margin-top: -60px !important; */
         padding-top: 5px;
     }
 
@@ -2368,9 +1916,6 @@ i.fas.fa-bell.fa-2xl {
     .search {
         width: 77% !important;
         text-align: left;
-        /* background-color: #000; */
-        /* margin-left: 125px
-         !important; */
     }
 }
 
