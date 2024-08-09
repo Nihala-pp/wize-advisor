@@ -690,14 +690,14 @@
 }
 
 .ehf-header #masthead {
-    margin-top: -35px;
+    /* margin-top: -35px; */
     z-index: 99;
     position: relative;
 }
 
 .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    margin-top: -35px;
+    /* margin-top: -35px; */
     background-color: #FFFFFF;
 }
 
@@ -806,7 +806,7 @@ i.fas.fa-bell.fa-2xl {
     body.elementor-page-7046:not(.elementor-motion-effects-element-type-background),
     body.elementor-page-7046>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
-        margin-top: -30px;
+        /* margin-top: -30px; */
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
