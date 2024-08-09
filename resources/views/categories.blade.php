@@ -6,6 +6,7 @@
     <title>{{ $category->name }} | wiseAdvizor Blog</title>
     <meta name="description"
         content="wiseAdvizor: Discover diverse categories of {{ $category->name }} blogs on our platform. Find expert advice and resources to grow your business.">
+    <meta name="keywords" content="{{ $category->name }}, business journey, startup strategy">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -27,17 +28,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='elementor-post-6547-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-6547.css?ver=1717569989' media='all' />
-    <script>
-    window._wpemojiSettings = {
-        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-        "ext": ".png",
-        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-        "svgExt": ".svg",
-        "source": {
-            "concatemoji": "https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"
-        }
-    };
-    </script>
     @include('partials.web-style')
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>

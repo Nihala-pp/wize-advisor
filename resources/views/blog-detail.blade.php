@@ -6,8 +6,6 @@
     <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 35)  }}|Mentorship Platform </title>
     <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
     <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">

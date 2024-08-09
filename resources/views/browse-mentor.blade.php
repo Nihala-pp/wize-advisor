@@ -19,8 +19,6 @@
     var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
     var theplus_nonce = "e7ae24e787";
     </script>
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">

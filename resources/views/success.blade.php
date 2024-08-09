@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" async></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-QC47PPTD6T');
-    </script>
     <meta charset="utf-8">
     <title>Successfully Scheduled Call with{{ $mentor->name }}</title>
     <meta name="description"
         content="Get professional mentoring from highly accomplished mentor {{ $mentor->name }} at wiseAdvizor. Discover her expertise and see what her mentees have to say.">
     <meta name="keywords" content="professional mentor, my mentor, Find a mentor, Startup mentor">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
