@@ -75,7 +75,7 @@
         "import-export": []
     };
     </script>
-    <link rel="canonical" href="https://wiseadvizor.com/about-us" />
+    <link rel="canonical" href="https://wiseadvizor.com/about-us">
     <!-- <script>
     (function() {
         window.onpageshow = function(event) {
