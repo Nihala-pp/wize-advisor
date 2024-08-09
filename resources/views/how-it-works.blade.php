@@ -7,8 +7,6 @@
     <meta name="description"
         content="Unlock the secrets to startup success - your platform for connecting with experienced entrepreneurs and industry leaders.">
     <meta name="keywords" content="startup success, find a mentor, business growth">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
