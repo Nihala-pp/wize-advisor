@@ -28,6 +28,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel="stylesheet" id="elementor-post-2917-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2917.css?ver=1688380749" media="all">
+     @include('partials.web-style')
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
     </script>
@@ -238,7 +239,6 @@
         </section>
     </div>
     @include('partials.footer-web')
-
 
     <style id="skip-link-styles">
     .skip-link.screen-reader-text {
