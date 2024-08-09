@@ -157,7 +157,7 @@
                                 }
                                 </style><img fetchpriority="high" decoding="async" width="300" height="200"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/Post-3.jpg"
-                                    class="attachment-medium size-medium wp-image-7358" alt="how to be a mentor"
+                                    class="attachment-medium size-medium wp-image-7358" alt="mentor"
                                     style="width:100%;height:66.67%;max-width:900px" />
                             </div>
                         </div>
