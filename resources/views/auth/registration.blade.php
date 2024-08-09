@@ -214,7 +214,7 @@
                 </div>
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56e8bbb create-form"
                     data-id="56e8bbb" data-element_type="column"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"  style="width:50%;">
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="width:50%;">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div
                             class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
