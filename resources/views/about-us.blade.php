@@ -155,9 +155,9 @@
                                     vertical-align: middle;
                                     display: inline-block
                                 }
-                                </style> <img fetchpriority="high" decoding="async" width="300" height="200"
+                                </style><img fetchpriority="high" decoding="async" width="300" height="200"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/Post-3.jpg"
-                                    class="attachment-medium size-medium wp-image-7358" alt=""
+                                    class="attachment-medium size-medium wp-image-7358" alt="how to be a mentor"
                                     style="width:100%;height:66.67%;max-width:900px" />
                             </div>
                         </div>
@@ -240,9 +240,7 @@
                                             data-id="5402054b" data-element_type="widget"
                                             data-widget_type="wpr-team-member.default">
                                             <div class="elementor-widget-container">
-
                                                 <div class="wpr-team-member">
-
                                                     <div class="wpr-member-media">
                                                         <div class="wpr-member-image">
                                                             <img decoding="async"
@@ -250,19 +248,12 @@
                                                                 alt="Deep Shikha">
                                                         </div>
                                                     </div>
-
-
                                                     <div class="wpr-member-content">
                                                         <h3 class="wpr-member-name">Deep Shikha</h3>
 
                                                         <div class="wpr-member-job">Director</div>
-
-
-
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -275,9 +266,7 @@
                                             data-id="10cf8180" data-element_type="widget"
                                             data-widget_type="wpr-team-member.default">
                                             <div class="elementor-widget-container">
-
                                                 <div class="wpr-team-member">
-
                                                     <div class="wpr-member-media">
                                                         <div class="wpr-member-image">
                                                             <img decoding="async"
@@ -285,19 +274,11 @@
                                                                 alt="Ankur Sharma">
                                                         </div>
                                                     </div>
-
-
                                                     <div class="wpr-member-content">
                                                         <h3 class="wpr-member-name">Ankur Sharma</h3>
-
                                                         <div class="wpr-member-job">Product Manager</div>
-
-
-
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -309,9 +290,7 @@
                                             data-id="4f6eb3c5" data-element_type="widget"
                                             data-widget_type="wpr-team-member.default">
                                             <div class="elementor-widget-container">
-
                                                 <div class="wpr-team-member">
-
                                                     <div class="wpr-member-media">
                                                         <div class="wpr-member-image">
                                                             <img decoding="async"
@@ -319,13 +298,9 @@
                                                                 alt="Nihala PP">
                                                         </div>
                                                     </div>
-
-
                                                     <div class="wpr-member-content">
                                                         <h3 class="wpr-member-name">Nihala PP</h3>
-
                                                         <div class="wpr-member-job">Software Developer</div>
-
                                                     </div>
                                                 </div>
                                             </div>
@@ -365,79 +340,57 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp)"  alt="Startup Mentor">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp)" alt="manufacturing">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp)" alt="Business Coach">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp)" alt="Content Strategist">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp)" alt="Investment Partner">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp)" alt="product marketer">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp)" alt="marketing strategist">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp)" alt="business strategist">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp)" alt="IOT">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp)" alt="pricing strategy">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp)">
-
-
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp)" alt="digital marketing strategist">
                                                 </div>
                                             </div>
                                         </div>
@@ -449,23 +402,15 @@
                         <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
                             data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
-
-
-
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
                                         href="https://wiseadvizor.com/be-a-mentor">
-
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
-
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
                                         </span>
                                     </a>
-
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -515,7 +460,6 @@
             </div>
         </section>
     </div>
-    
     @include('partials.footer-web')
     @include('partials.web-script')
 
