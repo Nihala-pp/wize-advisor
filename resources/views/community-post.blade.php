@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
+    <title>Get entrepreneur advice & tips for budding entrepreneurs</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="wiseAdvizor: Discover valuable startup tips and insights shared by mentors and mentees on our online mentorship platform's community posts.">
+    content="Unlock valuable entrepreneur advice & discover the best business to start by setting clear goals & finding the perfect mentor.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -22,10 +24,6 @@
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <title>Get entrepreneur advice & tips for budding entrepreneurs</title>
-    <meta name="description"
-        content="Unlock valuable entrepreneur advice & discover the best business to start by setting clear goals & finding the perfect mentor.">
-    <meta name="keywords" content="entrepreneur advice, best business to start">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel='stylesheet' id='elementor-post-2-css'
         href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' />
@@ -274,4 +272,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
