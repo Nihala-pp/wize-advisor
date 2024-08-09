@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">`
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <title>Protecting Your Privacy on wiseAdvizor | Mentorship Program</title>
