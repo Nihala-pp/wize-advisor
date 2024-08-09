@@ -609,6 +609,14 @@
     margin-left: 5px;
 }
 
+.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-16ea950 .signup {
+    width: 50% !important;
+}
+
+.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-56e8bbb .create-form {
+    width: 50% !important;
+}
+
 @media screen and (max-width: 767px) {
 
     .create-form {
