@@ -8,8 +8,6 @@
     <meta name="description"
         content="learn how to be a mentor on wiseAdvizor, help entrepreneurs on their business growth. Share your expertise, guide them in crafting their startup stories.">
     <meta name="keywords" content="how to be a mentor, benefits of being a mentor, Become a Mentor">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Elevate your entrepreneurial journey. Learn how to be a mentor on wiseAdvizor. ">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">

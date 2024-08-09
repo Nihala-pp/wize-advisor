@@ -20,8 +20,6 @@
     <meta name="description"
         content="Get professional mentoring from highly accomplished mentor {{ $mentor->name }} at wiseAdvizor. Discover her expertise and see what her mentees have to say.">
     <meta name="keywords" content="professional mentor, my mentor, Find a mentor, Startup mentor">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">

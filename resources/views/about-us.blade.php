@@ -6,8 +6,6 @@
     <meta name="description"
         content="Find the ideal mentor to kickstart your career and explore a range of easy-to-start businesses on our website. Start your entrepreneurial journey with ease.">
     <meta name="keywords" content="easy businesses to start, i need a mentor for my career, Startup Growth">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">

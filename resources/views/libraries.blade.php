@@ -8,8 +8,6 @@
     <meta name="description"
         content="Enhance your library knowledge and skills by joining our mentorship platform. Connect with mentors, access resources, and grow in your library career.">
     <meta name="keywords" content="mentoring organizations, one on one mentoring">
-    <meta name="description"
-        content="wiseAdvizor: Your startup mentorship platform. Get personalized 1:1 guidance from experienced mentors. Elevate your entrepreneurial journey.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">

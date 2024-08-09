@@ -670,11 +670,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
          $notifications = '';
     }
 
-      return view('success', compact('details', 'mentor', 'notifications'));
+      return view('success', compact('details', 'mentor', 'notifications', 'call_id'));
 
     } catch (Exception $e) {
       if (451 == $e->getCode()) {
-        return view('success', compact('details', 'mentor', 'notifications'));
+        return view('success', compact('details', 'mentor', 'notifications', 'call_id'));
       }
     }
 
