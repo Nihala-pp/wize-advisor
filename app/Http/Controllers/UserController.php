@@ -338,4 +338,9 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
     return view('users.my-reviews', compact('reviews'));
   }
+
+  Public function profileTest()
+  {
+    return view('users.profile-test');
+  }
 }
