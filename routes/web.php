@@ -234,10 +234,10 @@ Route::controller(UserController::class)
         Route::get('/change-password', 'changePassword')->name('change-password');
         Route::post('/save-password', 'savePassword')->name('password.save');
         Route::get('/my-reviews', 'listReviews')->name('reviews.list');
+        Route::get('/profileTest', 'profileTest')->name('profileTest');
     });
 
    //***             Test Routes               ****///
 
 //    Route::get('aboutus-test', [TestController::class, 'aboutuspage'])->name('about-test');
 //    Route::get('contactus-test', [TestController::class, 'contactuspage'])->name('contact-test');
-   Route::get('profileTest', [UserController::class, 'profileTest'])->name('profileTest');
