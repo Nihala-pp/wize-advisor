@@ -3056,7 +3056,7 @@ li {
 .elementor-element .elementor-element-a7cb679 h3 {
     color: #150E1F;
     text-transform: capitalize !important;
-    margin-top: -55px;
+    margin-top: -60px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-3f8ebce>.elementor-widget-container {
