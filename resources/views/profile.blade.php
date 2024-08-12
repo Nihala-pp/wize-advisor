@@ -3162,6 +3162,11 @@ li {
 }
 
 .elementor-4878 .elementor-element.elementor-element-202f85c {
+    .elementor-4878 .elementor-element.elementor-element-202f85c {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
     margin-top: 65px;
     margin-bottom: 20px;
     text-align: center;
@@ -3460,7 +3465,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 }
 
 .elementor-4878 .elementor-element.elementor-element-202f85c {
-    margin-top: 25px;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
 }
