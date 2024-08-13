@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Connect with Startup Mentors - Ignite Your Startup Success Now</title>
     <meta name="description"
-        content="Unlock the secrets to startup success - your platform for connecting with experienced entrepreneurs and industry leaders.">
+        content="Unlock the secrets to startup success - your platform for connecting with experienced entrepreneurs for your business growth.">
     <meta name="keywords" content="startup success, find a mentor, business growth">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
