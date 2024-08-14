@@ -103,46 +103,15 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
                                 <div class="elementor-heading-title elementor-size-default">
                                     <h1>
                                         {{$expertise_name }}
                                     </h1>
-                                    <!-- Find a mentor for your
-                                    startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
-                                    invaluable guidance. Find the perfect mentor to elevate your journey and achieve
-                                    your
-                                    goals with confidence. -->
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading"
-                            data-id="7fd4600" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Skip the trial and error
-                                    approach! Browse our mentors and overcome obstacles with personalized guidance.
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
-                <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29a38af"
-                    data-id="29a38af" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-e813b77 elementor-align-center elementor-widget elementor-widget-button"
-                            data-id="e813b77" data-element_type="widget" data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Browse Mentors</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </section>
         <section
@@ -154,7 +123,6 @@
                     <form class="filterForm">
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
-                                <!-- <label>Select with Button Class</label> -->
                                 <select id="expertise" class="selectpicker" data-style="btn-info"
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
@@ -367,25 +335,6 @@
                                 <div class="elementor-widget-container">
                                     <div class="wpr-content-toggle">
                                         <div class="wpr-switcher-container" data-active-switcher="1">
-                                            <!-- <div class="wpr-switcher-inner wpr-switcher-first">
-                                                                  <div class="wpr-switcher-label">Before</div>
-
-                                                                 </div> -->
-
-                                            <!-- <div class="wpr-switcher-outer"> -->
-                                            <!-- <div class="wpr-switcher-wrap">
-                                                                    <div class="wpr-switcher" data-switcher="1"></div>
-
-                                                                    <div class="wpr-switcher" data-switcher="2"></div>
-
-                                                                    <div class="wpr-switcher-bg"></div>
-                                                                </div> -->
-                                            <!-- </div> -->
-
-                                            <!-- <div class="wpr-switcher-inner wpr-switcher-second">
-                                                                <div class="wpr-switcher-label">After</div>
-
-                                                                </div> -->
                                         </div>
                                         <div class="wpr-switcher-content-wrap">
                                             <div class="wpr-switcher-content" data-switcher="1">
@@ -437,7 +386,6 @@
                                                             itemprop="ratingValue"
                                                             class="elementor-screen-only">5/5</span>
                                                     </div>
-                                                    <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                     <p><span class="exp" style="color: #000000">Expertise:</span>
                                                     </p>
                                                     <ul>
@@ -457,7 +405,6 @@
                                                         data-id="0e640ef" data-element_type="widget"
                                                         data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <!-- <p>&nbsp </p> -->
                                                             <p class="bio" style="float:left;"><span
                                                                     style="color: #000000">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
@@ -594,7 +541,6 @@
                                                                     itemprop="ratingValue"
                                                                     class="elementor-screen-only">5/5</span>
                                                             </div>
-                                                            <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                             <p class="exp-heading"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
@@ -619,7 +565,6 @@
                                                         data-id="0e640ef" data-element_type="widget"
                                                         data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <!-- <p>&nbsp </p> -->
                                                             <p class="bio" style="float:left;"><span
                                                                     style="color: #000000">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
