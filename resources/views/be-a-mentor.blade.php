@@ -57,7 +57,7 @@
                             data-widget_type="wpr-advanced-text.default">
                             <div class="elementor-widget-container">
 
-                                <h3 class="wpr-advanced-text">
+                                <h1 class="wpr-advanced-text">
 
 
                                     <span class="wpr-advanced-text-preffix">Be a Mentor<br></span>
@@ -74,7 +74,7 @@
                                         </svg>
                                     </span>
 
-                                </h3>
+                                </h1>
 
                             </div>
                         </div>
