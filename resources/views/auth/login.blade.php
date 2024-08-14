@@ -23,10 +23,10 @@
     content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with a business coach today.">
 @endif
 <meta name="keywords" content="business guidance, building a startup, business coach, Startup mentors">
-@if($id && $token)
+@if($id && empty($name))
 <link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
 @elseif($token && $name)
-<link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $mentor }}">
+<link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $name }}">
 @else
 <link rel="canonical" href="https://wiseadvizor.com/login">
 @endif
