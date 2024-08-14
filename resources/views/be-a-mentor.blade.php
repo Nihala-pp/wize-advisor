@@ -816,7 +816,8 @@ i.fas.fa-bell.fa-2xl {
     .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
     .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
         font-family: "Sailec", Sans-serif;
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
