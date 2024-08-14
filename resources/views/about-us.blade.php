@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Mentorship for New Ventures: Explore Easy Start-Up Ideas</title>
@@ -29,7 +30,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
 
     @include('partials.web-style')
-    
+
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -340,57 +341,68 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp)"  alt="Startup Mentor">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp)"
+                                                    alt="Startup Mentor">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp)" alt="manufacturing">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp)"
+                                                    alt="manufacturing">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp)" alt="Business Coach">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp)"
+                                                    alt="Business Coach">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp)" alt="Content Strategist">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp)"
+                                                    alt="Content Strategist">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp)" alt="Investment Partner">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp)"
+                                                    alt="Investment Partner">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp)" alt="product marketer">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp)"
+                                                    alt="product marketer">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp)" alt="marketing strategist">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp)"
+                                                    alt="marketing strategist">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp)" alt="business strategist">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp)"
+                                                    alt="business strategist">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp)" alt="IOT">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp)"
+                                                    alt="IOT">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp)" alt="pricing strategy">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp)"
+                                                    alt="pricing strategy">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp)" alt="digital marketing strategist">
+                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp)"
+                                                    alt="digital marketing strategist">
                                                 </div>
                                             </div>
                                         </div>
@@ -465,6 +477,16 @@
 
 </body>
 <style>
+.elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-anim-text {
+    color: #FFFFFF;
+    margin-top: -60px;
+}
+
+.elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-advanced-text-suffix {
+    color: #FFFFFF;
+    margin-top: -60px;
+}
+
 .resource-button {
     background-color: #fff !important;
 }
@@ -847,4 +869,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>
