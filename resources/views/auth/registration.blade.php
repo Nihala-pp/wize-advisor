@@ -634,9 +634,9 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='font-awesome-4-shim-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.19.0'
     media='all' />
-<link rel='stylesheet' id='she-header-style-css'
+<!-- <link rel='stylesheet' id='she-header-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10'
-    media='all' />
+    media='all' /> -->
 <link rel='stylesheet' id='elementor-global-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1706785961' media='all' />
 <link rel='stylesheet' id='elementor-post-5595-css'
