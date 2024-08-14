@@ -31,7 +31,7 @@
     <link rel="stylesheet" id="elementor-post-2372-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2372.css?ver=1703246740" media="all">
     <link rel="stylesheet"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/profile.min.css" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/profile.css" media="all">
     <link rel='stylesheet' id='elementor-post-442-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-442.css?ver=1703156297' media='all' />
     <link rel='stylesheet' id='elementor-post-4878-css'
