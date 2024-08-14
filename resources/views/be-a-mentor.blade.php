@@ -282,7 +282,7 @@
                                                             tabindex="-1"><img fetchpriority="high" decoding="async"
                                                                 width="512" height="512"
                                                                 src="https://wiseadvizor.com/wp-content/uploads/2024/06/globalization.png"
-                                                                class="attachment-full size-full wp-image-7310" alt=""
+                                                                class="attachment-full size-full wp-image-7310" alt="how to be a mentor"
                                                                 style="width:100%;height:100%;max-width:512px"
                                                                 srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/globalization.png 512w, https://wiseadvizor.com/wp-content/uploads/2024/06/globalization-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/globalization-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/06/globalization-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/06/globalization-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/06/globalization-1300x1300.png 1300w"
                                                                 sizes="(max-width: 512px) 100vw, 512px" /></a>
@@ -315,7 +315,7 @@
                                                             href="https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/digital-consultant/"
                                                             tabindex="-1"><img decoding="async" width="512" height="512"
                                                                 src="https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4.png"
-                                                                class="attachment-full size-full wp-image-7313" alt=""
+                                                                class="attachment-full size-full wp-image-7313" alt="how to be a mentor"
                                                                 style="width:100%;height:100%;max-width:512px"
                                                                 srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4.png 512w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-1300x1300.png 1300w"
                                                                 sizes="(max-width: 512px) 100vw, 512px" /></a>
@@ -347,7 +347,7 @@
                                                             href="https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/digital-consultant/"
                                                             tabindex="-1"><img decoding="async" width="512" height="512"
                                                                 src="https://wiseadvizor.com/wp-content/uploads/2024/06/identification.png"
-                                                                class="attachment-full size-full wp-image-7312" alt=""
+                                                                class="attachment-full size-full wp-image-7312" alt="how to be a mentor"
                                                                 style="width:100%;height:100%;max-width:512px"
                                                                 srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/identification.png 512w, https://wiseadvizor.com/wp-content/uploads/2024/06/identification-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/identification-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/06/identification-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/06/identification-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/06/identification-1300x1300.png 1300w"
                                                                 sizes="(max-width: 512px) 100vw, 512px" /></a>
