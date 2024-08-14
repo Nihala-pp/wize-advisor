@@ -10,7 +10,6 @@ gtag('js', new Date());
 
 gtag('config', 'G-QC47PPTD6T');
 </script>
-
   <script>
 (function() {
     var skipLinkTarget = document.querySelector('main'),
