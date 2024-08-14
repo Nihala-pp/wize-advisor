@@ -681,14 +681,6 @@
 
 </html>
 <style>
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
-    font-family: "Sailec", Sans-serif;
-    margin-top: -90px;
-}
-
 .elementor-7046 .elementor-element.elementor-element-55e59a87>.elementor-widget-container {
     padding: 0px 0px 0px 0px;
     margin-top: -20px;
@@ -787,6 +779,7 @@ i.fas.fa-bell.fa-2xl {
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
     font-family: "Sailec", Sans-serif;
+    margin-top: -90px;
 }
 
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-advanced-text-preffix {
@@ -816,6 +809,14 @@ i.fas.fa-bell.fa-2xl {
     body.elementor-page-7046>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #FFFFFF;
         /* margin-top: -30px; */
+    }
+
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
+    .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
+        font-family: "Sailec", Sans-serif;
+        margin-top: 10px;
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
@@ -1088,6 +1089,8 @@ i.fas.fa-bell.fa-2xl {
         padding: 12px 0px 0px 0px;
         margin-top: -8px;
     }
+
+
 
 }
 
