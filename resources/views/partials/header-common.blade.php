@@ -274,7 +274,7 @@
                                             </li>
                                             <li id="menu-item-28" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                <a href="https://wiseadvizor.com/faq" itemprop="url"
                                                     class="hfe-sub-menu-item">FAQ'S</a>
                                             </li>
                                             <li id="menu-item-27" itemprop="name"
@@ -370,7 +370,7 @@
                                             </li>
                                             <li id="menu-item-28" itemprop="name"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                <a href="https://wiseadvizor.com/faq/" itemprop="url"
+                                                <a href="https://wiseadvizor.com/faq" itemprop="url"
                                                     class="hfe-sub-menu-item">FAQ's</a>
                                             </li>
                                             <li id="menu-item-27" itemprop="name"
