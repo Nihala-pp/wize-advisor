@@ -105,7 +105,7 @@
                                 </style>
                                 <div class="elementor-heading-title elementor-size-default">
                                     <h1>
-                                        {{ $expertise_name }}
+                                        {{ $expertise_name ? :  $filters['expertise'] }}
                                     </h1>
                                 </div>
                             </div>
