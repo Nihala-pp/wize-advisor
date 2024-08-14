@@ -14,11 +14,6 @@
     <meta name="keywords"
         content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    var theplus_nonce = "e7ae24e787";
-    </script>
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -36,11 +31,6 @@
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -51,140 +41,11 @@
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
-    <script>
-    window._wpemojiSettings = {
-        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-        "ext": ".png",
-        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-        "svgExt": ".svg",
-        "source": {
-            "concatemoji": "\/https:\/\/wiseadvizor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1"
-        }
-    };
-    /*! This file is auto-generated */
-    ! function(i, n) {
-        var o, s, e;
-
-        function c(e) {
-            try {
-                var t = {
-                    supportTests: e,
-                    timestamp: (new Date).valueOf()
-                };
-                sessionStorage.setItem(o, JSON.stringify(t))
-            } catch (e) {}
-        }
-
-        function p(e, t, n) {
-            e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
-            var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
-                r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
-                    .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-            return t.every(function(e, t) {
-                return e === r[t]
-            })
-        }
-
-        function u(e, t, n) {
-            switch (t) {
-                case "flag":
-                    return n(e, "­ЪЈ│№ИЈРђЇРџД№ИЈ", "­ЪЈ│№ИЈРђІРџД№ИЈ") ? !1 : !n(e, "­ЪЄ║­ЪЄ│", "­ЪЄ║РђІ­ЪЄ│") && !n(e,
-                        "­ЪЈ┤заЂДзаЂбзаЂЦзаЂ«заЂДзаЂ┐",
-                        "­ЪЈ┤РђІзаЂДРђІзаЂбРђІзаЂЦРђІзаЂ«РђІзаЂДРђІзаЂ┐");
-                case "emoji":
-                    return !n(e, "­ЪФ▒­ЪЈ╗РђЇ­ЪФ▓­ЪЈ┐", "­ЪФ▒­ЪЈ╗РђІ­ЪФ▓­ЪЈ┐")
-            }
-            return !1
-        }
-
-        function f(e, t, n) {
-            var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
-                    300, 150) : i.createElement("canvas"),
-                a = r.getContext("2d", {
-                    willReadFrequently: !0
-                }),
-                o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-            return e.forEach(function(e) {
-                o[e] = t(a, e, n)
-            }), o
-        }
-
-        function t(e) {
-            var t = i.createElement("script");
-            t.src = e, t.defer = !0, i.head.appendChild(t)
-        }
-        "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
-            everything: !0,
-            everythingExceptFlag: !0
-        }, e = new Promise(function(e) {
-            i.addEventListener("DOMContentLoaded", e, {
-                once: !0
-            })
-        }), new Promise(function(t) {
-            var n = function() {
-                try {
-                    var e = JSON.parse(sessionStorage.getItem(o));
-                    if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
-                        e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-                } catch (e) {}
-                return null
-            }();
-            if (!n) {
-                if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
-                    typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
-                    var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
-                            .toString()
-                        ].join(",") + "));",
-                        r = new Blob([e], {
-                            type: "text/javascript"
-                        }),
-                        a = new Worker(URL.createObjectURL(r), {
-                            name: "wpTestEmojiSupports"
-                        });
-                    return void(a.onmessage = function(e) {
-                        c(n = e.data), a.terminate(), t(n)
-                    })
-                } catch (e) {}
-                c(n = f(s, u, p))
-            }
-            t(n)
-        }).then(function(e) {
-            for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
-                .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
-                    .everythingExceptFlag && n.supports[t]);
-            n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
-                .DOMReady = !1, n.readyCallback = function() {
-                    n.DOMReady = !0
-                }
-        }).then(function() {
-            return e
-        }).then(function() {
-            var e;
-            n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
-                .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
-        }))
-    }((window, document), window._wpemojiSettings);
-    </script>
     @include('partials.web-style')
-  
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script id="jquery-core-js-extra">
-    var tpgb_load = {
-        "ajaxUrl": "\/https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
-    };
-    var smoothAllowedBrowsers = [];
-    </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
-        id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
-    <meta name="generator" content="WordPress 6.4.1">
     @php
     $expert_coloumn = $expertise_name ? $expertise_name : NULL;
     @endphp
@@ -193,113 +54,12 @@
     @else
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
     @endif
-    <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
-    <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F">
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F#038;format=xml">
-    <meta name="generator"
-        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <style id="wp-fonts-local">
-    @font-face {
-        font-family: "Source Serif Pro";
-        font-style: normal;
-        font-weight: 200 900;
-        font-display: fallback;
-        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
-        font-stretch: normal;
-    }
-
-    @font-face {
-        font-family: "Source Serif Pro";
-        font-style: italic;
-        font-weight: 200 900;
-        font-display: fallback;
-        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
-        font-stretch: normal;
-    }
-    </style>
-    <style type="text/css">
-    #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
-        height: 350px;
-    }
-
-    #niso-carousel-952.niso-carousel {
-        margin: 10px 0px;
-    }
-
-    #niso-carousel-952.niso-theme .owl-nav {
-        margin: 0px 0px 0px 0px;
-    }
-
-    #niso-carousel-952.owl-theme .owl-dots {
-        text-align: center;
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i {
-        color: #ffffff;
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover {
-        color: #cccccc;
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:after {
-        background-color: #111111;
-        opacity: 0.80;
-        filter: alpha(opacity=80);
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover:after {
-        background-color: #555555;
-    }
-
-    html body .animated {
-        -webkit-animation-duration: 500000 ms;
-        animation-duration: 500000 ms;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-    }
-    </style>
-    <style id="wpforms-css-vars-root">
-    :root {
-        --wpforms-field-border-radius: 3px;
-        --wpforms-field-background-color: #ffffff;
-        --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
-        --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
-        --wpforms-label-color: rgba(0, 0, 0, 0.85);
-        --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
-        --wpforms-label-error-color: #d63637;
-        --wpforms-button-border-radius: 3px;
-        --wpforms-button-background-color: #066aab;
-        --wpforms-button-text-color: #ffffff;
-        --wpforms-field-size-input-height: 43px;
-        --wpforms-field-size-input-spacing: 15px;
-        --wpforms-field-size-font-size: 16px;
-        --wpforms-field-size-line-height: 19px;
-        --wpforms-field-size-padding-h: 14px;
-        --wpforms-field-size-checkbox-size: 16px;
-        --wpforms-field-size-sublabel-spacing: 5px;
-        --wpforms-field-size-icon-size: 1;
-        --wpforms-label-size-font-size: 16px;
-        --wpforms-label-size-line-height: 19px;
-        --wpforms-label-size-sublabel-font-size: 14px;
-        --wpforms-label-size-sublabel-line-height: 17px;
-        --wpforms-button-size-font-size: 17px;
-        --wpforms-button-size-height: 41px;
-        --wpforms-button-size-padding-h: 15px;
-        --wpforms-button-size-margin-top: 10px;
-
-    }
-    </style>
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
     
     @include('partials.header-common')
 
-    
  <div data-elementor-type="wp-page" data-elementor-id="2772" class="elementor elementor-2772"> <section class="elementor-section elementor-top-section elementor-element elementor-element-9bcde29 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no para" data-id="9bcde29" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> <div class="elementor-container elementor-column-gap-default"> <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55b12a5" data-id="55b12a5" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}"> <div class="elementor-widget-wrap elementor-element-populated"> <div class="elementor-element elementor-element-2ad683c elementor-widget elementor-widget-heading" data-id="2ad683c" data-element_type="widget" data-widget_type="heading.default"> <div class="elementor-widget-container"> <style> /*! elementor - v3.19.0 - 29-01-2024 */ .elementor-heading-title { padding: 0; margin: 0; line-height: 1 } .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a { color: inherit; font-size: inherit; line-height: inherit } .elementor-widget-heading .elementor-heading-title.elementor-size-small { font-size: 15px } .elementor-widget-heading .elementor-heading-title.elementor-size-medium { font-size: 19px } .elementor-widget-heading .elementor-heading-title.elementor-size-large { font-size: 29px } .elementor-widget-heading .elementor-heading-title.elementor-size-xl { font-size: 39px } .elementor-widget-heading .elementor-heading-title.elementor-size-xxl { font-size: 59px } </style> <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>--> <div class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering invaluable guidance. Find the perfect mentor to elevate your journey and achieve your goals with confidence.</div> </div> </div> <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading" data-id="7fd4600" data-element_type="widget" data-widget_type="heading.default"> <div class="elementor-widget-container"> <div class="elementor-heading-title elementor-size-default">Skip the trial and error approach! Browse our mentors and overcome obstacles with personalized guidance. </div> </div> </div> --> </div> </div> <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29a38af" data-id="29a38af" data-element_type="column"> <div class="elementor-widget-wrap elementor-element-populated"> <div class="elementor-element elementor-element-e813b77 elementor-align-center elementor-widget elementor-widget-button" data-id="e813b77" data-element_type="widget" data-widget_type="button.default"> <div class="elementor-widget-container"> <div class="elementor-button-wrapper"> <a class="elementor-button elementor-button-link elementor-size-sm" href="#"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Browse Mentors</span> </span> </a> </div> </div> </div> </div> </div> --> </div> </section> <section class="elementor-section elementor-top-section elementor-element elementor-element-2aff472 elementor-section-boxed elementor-section-height-default elementor-section-height-default section-ano filter-section" data-id="2aff472" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> <!-- <h1>Achieve your entrepreneurial goals faster with our mentors network through personalized 1:1 guidance and strategic advice. </h1> --> <div class="elementor-container elementor-column-gap-default"> <div class="container"> <form class="filterForm"> <div class="row"> <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters"> <!-- <label>Select with Button Class</label> --> <select id="expertise" class="selectpicker" data-style="btn-info" name="filters[expertise]"> <option value="">Expertise</option> @foreach($expertise as $expert) <option value="{{ $expert->name }}" {{ ($expertise_name == $expert->name) ? 'selected' : '' }}> {{ $expert->name }} </option> @endforeach </select> </div> <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter"> <input type="date" class="form-control selectpicker" id="date" name="filters[date]"> </div> <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 filters name"> <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]"> <option value="">Search by name</option> @foreach($price as $pr) <option value="{{ $pr->name }}">{{ $pr->name }}</option> @endforeach </select> </div> <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters"> <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]"> <option value="">Sort by Price</option> <option value="asc">ASC</option> <option value="desc">DESC </option> </select> </div> <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mt-3 filters"> <button class="btn btn-info apply_filters search">Apply To Search</button> </div> </div> </form> </div> </div> </section> <section class="elementor-section elementor-top-section elementor-element elementor-element-lqdwygc elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="lqdwygc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}"> <style> /*! elementor - v3.14.0 - 26-06-2023 */ @charset "UTF-8"; .elementor-star-rating { color: #ccd6df; font-family: eicons; display: inline-block } .elementor-star-rating i { display: inline-block; position: relative; font-style: normal; cursor: default; font-size: 80%; } .elementor-star-rating i:before { content: "\e934"; display: block; font-size: inherit; font-family: inherit; position: absolute; overflow: hidden; color: #f0ad4e; top: 0; left: 0 } .elementor-star-rating .elementor-star-empty:before { content: none } .elementor-star-rating .elementor-star-1:before { width: 10% } .elementor-star-rating .elementor-star-2:before { width: 20% } .elementor-star-rating .elementor-star-3:before { width: 30% } .elementor-star-rating .elementor-star-4:before { width: 40% } .elementor-star-rating .elementor-star-5:before { width: 50% } .elementor-star-rating .elementor-star-6:before { width: 60% } .elementor-star-rating .elementor-star-7:before { width: 70% } .elementor-star-rating .elementor-star-8:before { width: 80% } .elementor-star-rating .elementor-star-9:before { width: 90% } .elementor-star-rating__wrapper { display: flex; align-items: right } .elementor-star-rating__title { margin-right: 10px } .elementor-star-rating--align-right .elementor-star-rating__wrapper { text-align: right; justify-content: flex-end } .elementor-star-rating--align-left .elementor-star-rating__wrapper { text-align: left; justify-content: flex-start } .elementor-star-rating--align-center .elementor-star-rating__wrapper { text-align: center; justify-content: center } .elementor-star-rating--align-justify .elementor-star-rating__title { margin-right: auto } @media (max-width:1024px) { .elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper { text-align: right; justify-content: flex-end } .elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper { text-align: left; justify-content: flex-start } .elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper { text-align: center; justify-content: center } .elementor-star-rating-tablet--align-justify .elementor-star-rating__title { margin-right: auto } } @media (max-width:767px) { .elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper { text-align: right; justify-content: flex-end } .elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper { text-align: right; justify-content: flex-start } .elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper { text-align: right; justify-content: right } .elementor-star-rating-mobile--align-justify .elementor-star-rating__title { margin-right: auto } } .last-star { letter-spacing: 0 } .elementor--star-style-star_unicode .elementor-star-rating { font-family: Arial, Helvetica, sans-serif } .elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before { content: "РўЁ" } </style> <div class="elementor-container elementor-column-gap-no"> <div class="row elementor-hidden-mobile filter_result"> @foreach($mentors as $mentor) <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe" data-id="6a69efe" data-element_type="column"> <div class="elementor-widget-wrap elementor-element-populated"> <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle" data-id="b4f3275" data-element_type="widget" data-widget_type="wpr-content-toggle.default"> <div class="elementor-widget-container"> <div class="wpr-content-toggle"> <div class="wpr-switcher-container" data-active-switcher="1"> </div> <div class="wpr-switcher-content-wrap"> <div class="wpr-switcher-content" data-switcher="1"> <div class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none"> <h5><strong><img decoding="async" class="alignleft wp-image-5531" src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}" alt="expert mentorship" width="221" height="221" srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w" sizes="(max-width: 221px) 100vw, 221px" /></strong><span class="mentor_name" style="color: #000000">{{ $mentor->name }}</span></h5> <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }}, {{ $mentor->metaData->company }}</span><br /> <span style="font-size:14px;color: #000000"> @php $totalReviews = \App\Models\Review::where('mentor_id', $mentor->id)->get()->count(); $totalSessions = \App\Models\ScheduledCall::where('mentor_id', $mentor->id)->where('status', 'Approved')->where('is_paid', 1)->get()->count(); echo $totalReviews; if($totalReviews > 1) { echo " Reviews / ".$totalSessions. " Sessions"; } else { echo " Review / ".$totalSessions. " Sessions"; } @endphp </span> </p> <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"> <i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span> </div> <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> --> <p><span class="exp" style="color: #000000">Expertise:</span> </p> <ul> @php $expertise = \App\Models\Expertise::where('mentor_id', $mentor->id)->take(4)->get(); @endphp @foreach($expertise as $expert) <li class="expertise"><span style="color: #000000">{{ $expert->expertise }}</span> </li> @endforeach </ul> <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor" data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default"> <div class="elementor-widget-container"> <!-- <p>&nbsp </p> --> <p class="bio" style="float:left;"><span style="color: #000000"> {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span> </p> <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading elementor-hidden-mobile" data-id="a92b341" data-element_type="widget" data-widget_type="heading.default"> <div class="elementor-widget-container" style=""> <span class="slot" style="font-size:14px;color: #000000"> Next Slot - @php $nextAvailability = \App\Models\AvailableSchedule::where('mentor_id', $mentor->id) ->whereDate('date', '>', now()) ->where('is_booked', 0) ->orderBy('date', 'asc') ->first(); @endphp @if(!empty($nextAvailability)) {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }} @endif </span> <span class="charge" style="font-size:14px;float:right;color: #000000"> $ {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }} / 30 Min</span> </div> <div> </div> <div style=""> <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}" class="btn btn-primary" style="margin-top:5px;background-color:#001E64;">View Profile</a> @if(Auth::id() && auth()->user()->role_id == 3) <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}" class="btn btn-primary" style="margin-top:5px;float: right;background-color:#001E64;">Schedule Call</a> @else <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}" class="btn btn-primary" style="margin-top:5px;float: right;background-color:#001E64;">Schedule Call</a> @endif </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> @endforeach </div> <div class="row elementor-hidden-desktop elementor-hidden-tablet filter_result"> @foreach($mentors as $mentor) <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe" data-id="6a69efe" data-element_type="column"> <div class="elementor-widget-wrap elementor-element-populated"> <div class="elementor-element elementor-element-b4f3275 wpr-switcher-style-dual wpr-switcher-label-style-outer wpr-switcher-icon-position-right elementor-widget elementor-widget-wpr-content-toggle" data-id="b4f3275" data-element_type="widget" data-widget_type="wpr-content-toggle.default"> <div class="elementor-widget-container"> <div class="wpr-content-toggle"> <div class="wpr-switcher-container" data-active-switcher="1"> </div> <div class="wpr-switcher-content-wrap"> <div class="wpr-switcher-content" data-switcher="1"> <div class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none"> <div class="grid-container"> <div class="grid-child"> <h5><strong><img decoding="async" class="alignleft wp-image-5531" src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}" alt="Business Strategy" width="221" height="221" srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w" sizes="(max-width: 221px) 100vw, 221px" /></strong> </h5> </div> <div class="grid-child green"> <h5><span style="color: #000000">{{ $mentor->name }}</span> </h5> <p><span style="color: #000000"><abbr title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>, {{ $mentor->metaData->company }}</span><br /> <span style="font-size:10px;color: #000000"> @php $totalReviews = \App\Models\Review::where('mentor_id', $mentor->id)->get()->count(); $totalSessions = \App\Models\ScheduledCall::where('mentor_id', $mentor->id)->where('status', 'Approved')->where('is_paid', 1)->get()->count(); echo $totalReviews; if($totalReviews > 1) { echo " Reviews / ".$totalSessions. " Sessions"; } else { echo " Review / ".$totalSessions. " Sessions"; } @endphp </span> </p> <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"> <i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span> </div> <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> --> <p class="exp-heading"><span style="color: #000000"><strong>Expertise:</strong></span> </p> <ul class="list-expert"> @php $expertise = \App\Models\Expertise::where('mentor_id', $mentor->id)->take(4)->get(); @endphp @foreach($expertise as $expert) <li class="expertise"><span style="color: #000000">{{ $expert->expertise }}</span> </li> @endforeach </ul> </div> </div> <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor" data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default"> <div class="elementor-widget-container"> <!-- <p>&nbsp </p> --> <p class="bio" style="float:left;"><span style="color: #000000"> {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span> </p> <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading" data-id="a92b341" data-element_type="widget" data-widget_type="heading.default"> <div class="elementor-widget-container" style=""> <span class="slot" style="font-size:11px;color: #000000"><strong> Next Slot - @php $nextAvailability = \App\Models\AvailableSchedule::where('mentor_id', $mentor->id) ->whereDate('date', '>', now()) ->where('is_booked', 0) ->orderBy('date', 'asc') ->first(); @endphp @if(!empty($nextAvailability)) {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }} @endif </strong></span> <span class="charge" style="font-size:11px;float:right;color: #000000"><strong> $ {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }} / 30 Min</strong></span> </div> <div> </div> <div class="buttons" style=""> <a href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}" class="btn btn-primary view_profile" style="margin-top:5px;background-color:#001E64;font-size:11px;">View Profile</a> @if(Auth::id() && auth()->user()->role_id == 3) <a href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}" class="btn btn-primary" style="margin-top:5px;float: right;background-color:#001E64;">Schedule Call</a> @else <a href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}" class="btn btn-primary" style="margin-top:5px;float: right;background-color:#001E64;">Schedule Call</a> @endif </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> @endforeach </div> </div> </section> </div>
 
     @include('partials.footer-web')
@@ -319,16 +79,6 @@
     <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
-
-            // x = "true";
-
-            // $('.hfe-nav-menu__toggle').on('click', function() {
-
-            //     $("#open_nav").addClass('hfe-active-menu hfe-active-menu-full-width');
-
-            //     $('.hfe-nav-menu').setAttribute("aria-expanded", "true");
-            // });
-
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
 
@@ -340,8 +90,6 @@
                         "_token": "{{ csrf_token() }}",
                     },
                     success: function(response) {
-                        // $('.filter_result').html(response);
-                        // $('.mentorsList').hide();
                     }
                 });
             });

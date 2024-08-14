@@ -26,16 +26,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
-    var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
-    var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
-    var theplus_nonce = "e7ae24e787";
-    </script>
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-        href="{{ asset('public/feed/') }}">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="{{ asset('public/comments/feed/') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -51,13 +41,6 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.5"
-        id="she-header-js"></script>
-    <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/">
-    <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/2772">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd">
-    <meta name="generator" content="WordPress 6.4.1">
     @php
     $expert_coloumn = $expertise_name ? $expertise_name : NULL;
     @endphp
@@ -66,107 +49,7 @@
     @else
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
     @endif
-    <link rel="shortlink" href="https://wiseadvizor.com/?p=2772">
-    <link rel="alternate" type="application/json+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F">
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fbrowse-mentor%2F#038;format=xml">
-    <meta name="generator"
-        content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <style id="wp-fonts-local">
-    @font-face {
-        font-family: "Source Serif Pro";
-        font-style: normal;
-        font-weight: 200 900;
-        font-display: fallback;
-        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
-        font-stretch: normal;
-    }
-
-    @font-face {
-        font-family: "Source Serif Pro";
-        font-style: italic;
-        font-weight: 200 900;
-        font-display: fallback;
-        src: url('https://wiseadvizor.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
-        font-stretch: normal;
-    }
-    </style>
-    <style type="text/css">
-    #niso-carousel-952.niso-carousel .niso-post-item .post-img img {
-        height: 350px;
-    }
-
-    #niso-carousel-952.niso-carousel {
-        margin: 10px 0px;
-    }
-
-    #niso-carousel-952.niso-theme .owl-nav {
-        margin: 0px 0px 0px 0px;
-    }
-
-    #niso-carousel-952.owl-theme .owl-dots {
-        text-align: center;
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i {
-        color: #ffffff;
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover {
-        color: #cccccc;
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:after {
-        background-color: #111111;
-        opacity: 0.80;
-        filter: alpha(opacity=80);
-    }
-
-    #niso-carousel-952.owl-theme .owl-nav [class*="owl-"] i:hover:after {
-        background-color: #555555;
-    }
-
-    html body .animated {
-        -webkit-animation-duration: 500000 ms;
-        animation-duration: 500000 ms;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-    }
-    </style>
-    <style id="wpforms-css-vars-root">
-    :root {
-        --wpforms-field-border-radius: 3px;
-        --wpforms-field-background-color: #ffffff;
-        --wpforms-field-border-color: rgba(0, 0, 0, 0.25);
-        --wpforms-field-text-color: rgba(0, 0, 0, 0.7);
-        --wpforms-label-color: rgba(0, 0, 0, 0.85);
-        --wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
-        --wpforms-label-error-color: #d63637;
-        --wpforms-button-border-radius: 3px;
-        --wpforms-button-background-color: #066aab;
-        --wpforms-button-text-color: #ffffff;
-        --wpforms-field-size-input-height: 43px;
-        --wpforms-field-size-input-spacing: 15px;
-        --wpforms-field-size-font-size: 16px;
-        --wpforms-field-size-line-height: 19px;
-        --wpforms-field-size-padding-h: 14px;
-        --wpforms-field-size-checkbox-size: 16px;
-        --wpforms-field-size-sublabel-spacing: 5px;
-        --wpforms-field-size-icon-size: 1;
-        --wpforms-label-size-font-size: 16px;
-        --wpforms-label-size-line-height: 19px;
-        --wpforms-label-size-sublabel-font-size: 14px;
-        --wpforms-label-size-sublabel-line-height: 17px;
-        --wpforms-button-size-font-size: 17px;
-        --wpforms-button-size-height: 41px;
-        --wpforms-button-size-padding-h: 15px;
-        --wpforms-button-size-margin-top: 10px;
-
-    }
-    </style>
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
 
@@ -1799,5 +1682,4 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
-
 </html>
