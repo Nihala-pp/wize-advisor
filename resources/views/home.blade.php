@@ -3651,6 +3651,10 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+
+    body {
+        overflow-x: hidden;
+    }
     /* header new */
 
     .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
