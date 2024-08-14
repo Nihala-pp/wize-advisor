@@ -795,6 +795,7 @@ i.fas.fa-bell.fa-2xl {
     max-width: 75%;
     --container-widget-width: 75%;
     --container-widget-flex-grow: 0;
+    margin-top: -25px;
 }
 
 @media (max-width: 767px) {
