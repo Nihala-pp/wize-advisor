@@ -870,6 +870,7 @@ i.fas.fa-bell.fa-2xl {
         --container-widget-flex-grow: 0;
         margin-left: 15px;
         margin-right: 15px;
+        margin-top: 10px;
     }
 
     .elementor-7046 .elementor-element.elementor-element-d0a1b32 .wpr-button-text,
