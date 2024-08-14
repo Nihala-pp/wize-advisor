@@ -529,6 +529,12 @@ body.elementor-page-7317>.elementor-motion-effects-container>.elementor-motion-e
 
 @media (max-width: 767px) {
 
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .ehf-header #masthead {
         margin-top: -35px;
         z-index: 99;
