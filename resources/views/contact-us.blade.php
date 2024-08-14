@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Top Mentoring Organizations : One-on-One Mentoring Programs</title>
@@ -28,7 +29,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='elementor-post-7478-css'
-    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7478.css?ver=1721657651' media='all' />
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7478.css?ver=1721657651' media='all' />
     @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
@@ -356,6 +357,7 @@
     @include('partials.footer-web')
     @include('partials.web-script')
 </body>
+
 </html>
 <style>
 .resource-button {
@@ -397,6 +399,12 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
