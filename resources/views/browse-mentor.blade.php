@@ -39,7 +39,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" id="elementor-post-2772-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/browse-mentor.css') }}">
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     @include('partials.web-style')
@@ -55,6 +54,7 @@
     @else
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
     @endif
+    <link rel="stylesheet" href="{{ asset('public/assets/css/browse-mentor.css') }}"  media="all">
 </head>
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
