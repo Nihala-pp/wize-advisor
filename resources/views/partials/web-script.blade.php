@@ -1,6 +1,6 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
-  <script>
+<script>
 window.dataLayer = window.dataLayer || [];
 
 function gtag() {
@@ -9,7 +9,7 @@ function gtag() {
 gtag('js', new Date());
 
 gtag('config', 'G-QC47PPTD6T');
-  </script>
+</script>
 
   <script>
 (function() {
