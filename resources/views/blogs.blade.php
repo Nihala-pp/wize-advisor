@@ -379,8 +379,7 @@
                                                                                             class="elementor-widget-container">
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
-                                                                                                <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, Str::slug($featured_blog3->title)]) }}">
+                                                                                                <a href="{{ route('blogDetail', [$featured_blog3->id, Str::slug($featured_blog3->title)]) }}" class="elementor-button elementor-button-link elementor-size-sm">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -537,8 +536,8 @@
                                                 data-id="8acd220" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default"><a
-                                                            href="{{ route('blogCategories', [$blog->category_id, Str::slug($blog->category->name)]) }}">{{ $blog->category->name ?? '' }}</a>
+                                                    <h6 class="elementor-heading-title elementor-size-default">
+                                                        <a href="{{ route('blogCategories', [$blog->category_id, Str::slug($blog->category->name)]) }}">{{ $blog->category->name ?? '' }}</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -546,8 +545,8 @@
                                                 data-id="b12b619" data-element_type="widget"
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h4 class="elementor-heading-title elementor-size-default"><a
-                                                            href="{{ route('blogDetail', [$blog->id, Str::slug($blog->title)]) }}">{{ $blog->title }}</a>
+                                                    <h4 class="elementor-heading-title elementor-size-default">
+                                                        <a href="{{ route('blogDetail', [$blog->id, Str::slug($blog->title)]) }}">{{ $blog->title }}</a>
                                                     </h4>
                                                 </div>
                                             </div>
