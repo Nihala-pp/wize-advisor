@@ -20,9 +20,7 @@
             <i class="fab fa-time"><b>Time: {{ $details['mentor_start_time'] }} - {{ $details['mentor_finish_time'] }} {{ $details['mentor_timezone'] }} </b></i>
             <i class="fab fa-time"><b>Duration: {{ $details['duration'] }} Min Meeting </b></i>
             <i class="fab fa-time"><b>User's Description: {{ $details['desc'] }}</b> </i>
-            <p class="card-text mt-2">You can accept or reject the call by login into your portal. Please do the needful
-                as it is important for us to respect your time as well as the user’s time.
-
+            <p class="card-text mt-2"><b>Please approve the call as it is important for us to respect your time as well as the user’s time.</b>
             </p><br />
             <p class="card-text mt-2">As a mentor on wiseAdvizor, you have agreed to provide support and guidance to
                 users who seek your expertise. Your mentorship is vital in empowering individuals to achieve their goals
