@@ -193,6 +193,11 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:767px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     h1 {
         font-size: 17px;
