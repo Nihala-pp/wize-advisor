@@ -2,9 +2,9 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title> Meet Professional Mentor {{ $data->name }} - wiseAdvizor</title>
+    <title> Meet {{ $data->name }} for {{ $data->metaData->keyword }} strategies</title>
     <meta name="description"
-        content="Looking for a mentor ? Discover startup growth strategies with {{ $data->name }} on wiseAdvizor.">
+        content="Looking for a mentor ? Discover {{ $data->metaData->keyword }} strategies with {{ $data->name }} on wiseAdvizor.">
     <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
