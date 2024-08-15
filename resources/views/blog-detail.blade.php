@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
+    @if(!empty($blog->keywords))
+    <title> {{ $blog->meta_title }}|Mentorship Platform </title>
+    <meta name="description" content="{{ $blog->meta_desc }}">
+    <meta name="keywords" content="{{ $blog->keywords }}">
+    @else
     <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 35)  }}|Mentorship Platform </title>
     <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
-    <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
+    <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">    
+    @endif
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
