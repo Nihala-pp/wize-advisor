@@ -313,7 +313,7 @@
     <script src="{{ asset('public/assets/js/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/bootstrap-datepicker.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@6.1.5/index.global.min.js"></script>
-    <script src="https://kit.fontawesome.com/42d5adcbca.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/42d5adcbca.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="{{ asset('public/assets/js/core/bootstrap.min.js') }}"></script>
     <script src="{{ asset('public/assets/js/plugins/datatables.js') }}"></script>
