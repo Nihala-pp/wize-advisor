@@ -965,6 +965,11 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     .elementor-field-group-last_name {
         padding-left: 0px;
