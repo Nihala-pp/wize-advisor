@@ -137,7 +137,7 @@
                                     </div>
                                     <p class="mt-4 text-sm text-center">
                                         <!-- Don't have an account? -->
-                                        <a class="btn btn-link" href="{{ route('forget.password.get') }}">
+                                        <a href="{{ route('forget.password.get') }}" class="btn btn-link">
                                             {{ __('Forgot Your Password?') }}
                                         </a>
                                     </p>
@@ -156,7 +156,7 @@
                                 document.write(new Date().getFullYear())
                                 </script> , wiseAdvizor | 
                                 Powered by
-                                <a href="" class="font-weight-bold text-white" target="_blank">IVY Investment LLC</a>
+                                <a href="https://ivygroupco.com/" class="font-weight-bold text-white" target="_blank">IVY Investment LLC</a>
                             </div>
                         </div>
                     </div>
