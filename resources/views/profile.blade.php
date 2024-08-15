@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title> Meet {{ $data->name }} for {{ $data->metaData->keyword }} strategies</title>
@@ -37,7 +38,7 @@
     <link rel='stylesheet' id='elementor-post-4454-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4454.css?ver=1703156298' media='all' />
     <link rel='stylesheet' id='elementor-post-4509-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' /> 
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
     @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js" async></script>
@@ -1729,6 +1730,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
 <style>
 .elementor-3007 .elementor-element.elementor-element-78270f3>.elementor-widget-container {
@@ -2106,10 +2108,11 @@ li {
 
 .elementor-4878 .elementor-element.elementor-element-202f85c {
     .elementor-4878 .elementor-element.elementor-element-202f85c {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
     margin-top: 65px;
     margin-bottom: 20px;
     text-align: center;
@@ -2132,7 +2135,6 @@ li {
 }
 </style>
 <style>
-
 .main-data-wrp a:hover {
     color: #3153C6;
 }
@@ -2418,6 +2420,12 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 }
 
 @media screen and (max-width: 767px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     li>.elementor-button .elementor-button-link .elementor-size-xs {
         display: inline-block;
