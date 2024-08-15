@@ -177,6 +177,14 @@ class AuthController extends Controller
      */
     public function create(array $data)
     {
+        if($data['timezone'] == "Asia/Calcutta") {
+          $timezone = "Asia/Kolkata";
+        }
+        else {
+          $timezone = $data['timezone'];
+        }
+
+
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
@@ -188,7 +196,7 @@ class AuthController extends Controller
             'user_id' => $user['id'],
             // 'designation' => $data['designation'],
             // 'expertise' => json_encode($data['expert']),
-            'timezone' => $data['timezone']
+            'timezone' => $timezone
         ]);
 
         return $user['id'];
