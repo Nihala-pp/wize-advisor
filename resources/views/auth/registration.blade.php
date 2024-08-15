@@ -2216,8 +2216,9 @@ html body .animated {
             }
         }
 
-        var tz = jstz.determine(); 
-        var timezone = tz.name(); 
+        // var tz = jstz.determine(); 
+        // var timezone = tz.name(); 
+        var timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
         $('body').find('.timezone').val(timezone);    
           
