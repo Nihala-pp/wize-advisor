@@ -511,6 +511,13 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .elementor-4349 .elementor-element.elementor-element-1abaa4f .elementor-button {
         font-size: 10px;
         margin-left: -8px;

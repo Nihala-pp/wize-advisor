@@ -368,6 +368,12 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .elementor-button.elementor-size-xs {
         font-size: 12px;
         padding: 10px 20px;

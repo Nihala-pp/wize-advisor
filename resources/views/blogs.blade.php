@@ -776,6 +776,12 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     // .page-template .page-template-elementor_canvas .page page-id-2650 .wp-embed-responsive .ehf-header .ehf-footer .ehf-template-twentytwentytwo .ehf-stylesheet-twentytwentytwo .qodef-qi--no-touch .qi-addons-for-elementor-1.6.2 .elementor-default .elementor-template-canvas .elementor-kit-5 .elementor-page .elementor-page-2650 .horizontal-scroll-class {
     //     max-width: 100%;
     //     overflow-x: hidden !important;
