@@ -1,20 +1,15 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name='robots' content='max-image-preview:large' />
     <link rel='stylesheet' id='elementor-preview-8222-css'
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
-        <!-- integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
 </head>
-
 <body
     class="page-template page-template-elementor_header_footer page page-id-8108  wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-8108">
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
@@ -284,9 +279,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom07" class="form-label">Expertise</label>
-                                    <select data-mdb-select-init multiple class="form-select form-select-lg mb-3"
-                                        id="validationCustom07" aria-label=".form-select-lg example" name="expert[]"
-                                        required>
+                                    <select class="selectpicker" multiple data-live-search="true"
+                                        id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
                                         $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
@@ -360,17 +354,13 @@
             </div>
         </section>
     </div>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script> -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script type="text/javascript">
-        $('select').selectpicker();
-
+       $('select').selectpicker();
     </script>
 </body>
-
 </html>
 <style>
 label {
