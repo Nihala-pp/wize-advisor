@@ -16,7 +16,7 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-658d30a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="658d30a" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="row elementor-container elementor-column-gap-default">
+            <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-06004d0"
                     data-id="06004d0" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
