@@ -12,6 +12,7 @@
 <body
     class="page-template page-template-elementor_header_footer page page-id-8108 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-8108">
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
+      w
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-658d30a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="658d30a" data-element_type="section"
@@ -24,21 +25,27 @@
                             data-id="7259f9a" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                 <div class="elementor-icon-box-wrapper">
+
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
                                             <i aria-hidden="true" class="fas fa-user-circle"></i>
                                         </span>
                                     </div>
+
                                     <div class="elementor-icon-box-content">
+
                                         <h5 class="elementor-icon-box-title">
                                             <span>
                                                 Ankur Sharma </span>
                                         </h5>
+
                                         <p class="elementor-icon-box-description">
                                             Change profile photo </p>
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
