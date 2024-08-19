@@ -279,7 +279,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom07" class="form-label">Expertise</label>
-                                    <select class="selectpicker" multiple data-live-search="true"
+                                    <select class="selectpicker" multiple data-live-search="true" data-width="100%"
                                         id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
@@ -307,7 +307,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-select form-select-lg mb-3"
+                                    <select name="timezone" class="form-select form-select-lg mb-3" data-width="100%"
                                         id="validationCustom06" aria-label=".form-select-lg example" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
