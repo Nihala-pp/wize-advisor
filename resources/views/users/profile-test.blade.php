@@ -32,25 +32,27 @@
                                     <div class="elementor-icon-box-wrapper">
                                         <div class="elementor-icon-box-icon">
                                             <span class="elementor-icon elementor-animation-">
-                                                <i aria-hidden="true" class="fas fa-user-circle"></i> </span>
+                                                @if ($data->metaData && $data->metaData->profile_pic)
+                                                <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
+                                                    height="50px;" width="50px;">
+                                                @else
+                                                <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                                    height="50px;" width="50px;">
+                                                @endif
+                                            </span>
                                         </div>
                                         <div class="elementor-icon-box-content">
                                             <h5 class="elementor-icon-box-title">
                                                 <span>
                                                     Ankur Sharma </span>
                                             </h5>
-                                            @if ($data->metaData && $data->metaData->profile_pic)
-                                            <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
-                                                height="50px;" width="50px;">
-                                            @else
-                                            <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                height="50px;" width="50px;">
-                                            @endif
+                                            <p class="elementor-icon-box-description">
+                                                Change profile photo </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-80e2a2d elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                            <div class="elementor-elementq elementor-element-80e2a2d elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
                                 data-id="80e2a2d" data-element_type="widget" data-widget_type="icon-box.default">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-icon-box-wrapper">
