@@ -245,13 +245,6 @@
                             <div class="row mt-5">
                                 <div class="col-12 col-lg-10 m-auto">
                                     <div class="card">
-                                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                                            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) My
-                                                    Profile @else
-                                                    My Profile @endif</h6>
-                                            </div>
-                                        </div>
                                         <div class="card-body">
                                             <div class="row">
                                                 <form method="POST" action="{{ route('user.save') }}"
@@ -267,24 +260,6 @@
                                                         <label class="">Email</label>
                                                         <input type="email" name="email" class="form-control"
                                                             value="{{ $data->email ? : '' }}" required>
-                                                    </div>
-                                                    <!-- <div class="input-group input-group-static mb-3">
-                                    <label class="">Password</label>
-                                    <input id="password" type="password"
-                                        class="form-control @error('password') is-invalid @enderror" name="password"
-                                         autocomplete="current-password">
-                                    @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
-                                </div>
-                                <div class="input-group input-group-static mb-3">
-                                    <label class="">Confirm Password</label>
-                                    <input id="password" type="password"
-                                        class="form-control @error('password') is-invalid @enderror"
-                                        name="password_confirmation" autocomplete="current-password">
-                                </div> -->
                                                     <div class="input-group input-group-static mb-3">
                                                         <label class="">Company Name</label>
                                                         <input type="text" class="form-control" name="company_name"
