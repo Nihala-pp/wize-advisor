@@ -37,7 +37,7 @@
                                                     height="50px;" width="50px;">
                                                 @else
                                                 <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    height="50px;" width="5a0px;">
+                                                    height="50px;" width="50px;">
                                                 @endif
                                             </span>
                                         </div>
