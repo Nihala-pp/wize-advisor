@@ -241,7 +241,6 @@
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
                     data-id="8b1b580" data-element_type="row">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="container-fluid py-4">
                             <div class="row mt-5">
                                 <div class="col-12 col-lg-10 m-auto">
                                     <div class="card">
@@ -346,8 +345,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+qw                    </div>
                 </div>
             </div>
         </section>
