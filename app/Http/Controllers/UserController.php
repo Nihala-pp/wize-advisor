@@ -341,6 +341,9 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
   Public function profileTest()
   {
-    return view('users.profile-test');
+
+    $data = User::find('970');
+
+    return view('users.profile-test', compact('data'));
   }
 }
