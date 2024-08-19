@@ -409,7 +409,7 @@ img {
         width: 100%;
         padding: .375rem .75rem;
         font-size: 1rem;
-        line-height: 1.5;
+        /* line-height: 1.5; */
         color: #495057;
         background-color: #000 !important;
         background-clip: padding-box;
