@@ -26,25 +26,19 @@
                                 <link rel="stylesheet"
                                     href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                 <div class="elementor-icon-box-wrapper">
-
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
                                             <i aria-hidden="true" class="fas fa-user-circle"></i>
                                         </span>
                                     </div>
-
                                     <div class="elementor-icon-box-content">
-
                                         <h5 class="elementor-icon-box-title">
                                             <span>
                                                 Ankur Sharma </span>
                                         </h5>
-
                                         <p class="elementor-icon-box-description">
                                             Change profile photo </p>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
