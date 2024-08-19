@@ -47,13 +47,29 @@
                                                     Ankur Sharma </span>
                                             </h5>
                                             <p class="elementor-icon-box-description">
-                                                Change profile photo </p>
+                                                <input type="file" id="validationCustom09" name="profile_pic"
+                                                    class="form-control"
+                                                    value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
+                                                @php 
+                                                  if($data->metaData && $data->metaData->profile_pic)
+                                                  {
+                                                    $validation = '';
+                                                  }
+                                                  else {
+                                                    $validation = 'required';
+                                                  }
+                                                   echo $validation;
+                                                @endphp
+                                                >
+                                                Change profile photo
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="elementor-elementq elementor-element-80e2a2d elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                data-id="80e2a2d" data-element_type="widget" data-widget_type="icon-box.default" style="margin-left:10px">
+                                data-id="80e2a2d" data-element_type="widget" data-widget_type="icon-box.default"
+                                style="margin-left:10px">
                                 <div class="elementor-widget-container">
                                     <div class="elementor-icon-box-wrapper">
 
