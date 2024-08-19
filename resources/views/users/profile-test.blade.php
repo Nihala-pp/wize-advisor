@@ -280,8 +280,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom07" class="form-label">Expertise</label>
-                                    <select class="form-select form-select-lg mb-3" id="validationCustom07"
-                                        aria-label=".form-select-lg example" multiple name="expert[]" required>
+                                    <select data-mdb-select-init multiple class="form-select form-select-lg mb-3" id="validationCustom07"
+                                        aria-label=".form-select-lg example" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
                                         $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
