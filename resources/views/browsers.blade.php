@@ -677,7 +677,7 @@
 </body>
 <style>
 h1 {
-    font: size 50px !important;
+    font-size: 50px !important;
 }
 
 .one-width {
