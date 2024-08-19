@@ -48,17 +48,16 @@
                                             </h5>
                                             <p class="elementor-icon-box-description">
                                                 <input type="file" id="validationCustom09" name="profile_pic"
-                                                    class="form-control"
+                                                    class="form-control photo"
                                                     value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
-                                                @php 
-                                                  if($data->metaData && $data->metaData->profile_pic)
-                                                  {
-                                                    $validation = '';
-                                                  }
-                                                  else {
-                                                    $validation = 'required';
-                                                  }
-                                                   echo $validation;
+                                                    @php if($data->metaData && $data->metaData->profile_pic)
+                                                {
+                                                $validation = '';
+                                                }
+                                                else {
+                                                $validation = 'required';
+                                                }
+                                                echo $validation;
                                                 @endphp
                                                 >
                                             </p>
@@ -403,5 +402,19 @@ img {
     padding-right: 20px;
     padding-left: 50px;
     padding-top: 50px;
+}
+
+.photo {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #000;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 </style>
