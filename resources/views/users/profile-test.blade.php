@@ -379,7 +379,7 @@ img {
 }
 
 .elementor-elementq .elementor-element-80e2a2d .elementor-position-left .elementor-view-default .elementor-mobile-position-top .elementor-vertical-align-top .elementor-widget .elementor-widget-icon-box {
-    margin-left: 10px;
+    margin-left: 10px !important;
 }
 
 .elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
