@@ -321,7 +321,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-control form-select form-select-lg mb-3" data-width="100%"
+                                    <select name="timezone" class="form-control form-select-lg mb-3" data-width="100%"
                                         id="validationCustom06" aria-label=".form-select-lg example" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
