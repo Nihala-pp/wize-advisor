@@ -239,7 +239,7 @@
                     </div>
                 </div>
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
-                    data-id="8b1b580" data-element_type="column">
+                    data-id="8b1b580" data-element_type="row">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="container-fluid py-4">
                             <div class="row mt-5">
