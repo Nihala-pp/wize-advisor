@@ -372,10 +372,7 @@ label {
     color: #fff;
 }
 
-img {
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
+/* q */
 
 .elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
 .elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
