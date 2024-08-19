@@ -374,6 +374,10 @@ label {
     color: #fff;
 }
 
+img {
+    margin-bottom: 15px;
+}
+
 .elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
 .elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000000;
