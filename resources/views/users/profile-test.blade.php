@@ -334,7 +334,7 @@
                                         Please choose a Timezone.
                                     </div>
                                 </div>
-                                <div class="mb-3">
+                                <!-- <div class="mb-3">
                                     <label for="validationCustom09" class="form-label">Profile Pic</label>
                                     @if ($data->metaData && $data->metaData->profile_pic)
                                     <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
@@ -358,7 +358,7 @@
                                     <div class="invalid-feedback">
                                         Please choose a Profile Pic.
                                     </div>
-                                </div>
+                                </div> -->
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                             </form>
