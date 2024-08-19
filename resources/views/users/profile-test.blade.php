@@ -39,8 +39,13 @@
                                                 <span>
                                                     Ankur Sharma </span>
                                             </h5>
-                                            <p class="elementor-icon-box-description">
-                                                Change profile photo </p>
+                                            @if ($data->metaData && $data->metaData->profile_pic)
+                                            <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
+                                                height="50px;" width="50px;">
+                                            @else
+                                            <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                                height="50px;" width="50px;">
+                                            @endif
                                         </div>
                                     </div>
                                 </div>
