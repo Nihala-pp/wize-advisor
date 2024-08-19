@@ -9,6 +9,7 @@
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
 </head>
 
 <body
@@ -280,8 +281,9 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom07" class="form-label">Expertise</label>
-                                    <select data-mdb-select-init multiple class="form-select form-select-lg mb-3" id="validationCustom07"
-                                        aria-label=".form-select-lg example" name="expert[]" required>
+                                    <select data-mdb-select-init multiple class="form-select form-select-lg mb-3"
+                                        id="validationCustom07" aria-label=".form-select-lg example" name="expert[]"
+                                        required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
                                         $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
@@ -357,6 +359,8 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js">
     </script>
 </body>
 
