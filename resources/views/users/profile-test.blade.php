@@ -13,57 +13,6 @@
     class="page-template page-template-elementor_header_footer page page-id-8108 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-8108">
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-b5cb7be elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="b5cb7be" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-be0d3fd"
-                    data-id="be0d3fd" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-8ad721e elementor-widget elementor-widget-text-editor"
-                            data-id="8ad721e" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <style>
-                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                    background-color: #69727d;
-                                    color: #fff
-                                }
-
-                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                    color: #69727d;
-                                    border: 3px solid;
-                                    background-color: transparent
-                                }
-
-                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                    margin-top: 8px
-                                }
-
-                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                    width: 1em;
-                                    height: 1em
-                                }
-
-                                .elementor-widget-text-editor .elementor-drop-cap {
-                                    float: left;
-                                    text-align: center;
-                                    line-height: 1;
-                                    font-size: 50px
-                                }
-
-                                .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                    display: inline-block
-                                }
-                                </style>
-                                <p>Profile</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-658d30a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="658d30a" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
