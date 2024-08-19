@@ -366,4 +366,9 @@
 label {
     color: #fff;
 }
+
+img {
+    margin-bottom:20px;
+    padding-left:10px;
+}
 </style>
