@@ -34,10 +34,10 @@
                                             <span class="elementor-icon elementor-animation-">
                                                 @if ($data->metaData && $data->metaData->profile_pic)
                                                 <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
-                                                    height="50px;" width="50px;">
+                                                    height="40px;" width="40px;">
                                                 @else
                                                 <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    height="50px;" width="50px;">
+                                                    height="40px;" width="40px;">
                                                 @endif
                                             </span>
                                         </div>
