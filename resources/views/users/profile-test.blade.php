@@ -380,4 +380,12 @@ img {
     margin-bottom: 20px;
     padding-left: 10px;
 }
+
+.elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
+.elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
 </style>
