@@ -676,6 +676,9 @@
     </script>
 </body>
 <style>
+    h1 {
+        font-size:10px !important;
+    }
 .one-width {
     width: 100% !important;
 }
