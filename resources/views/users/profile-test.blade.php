@@ -241,105 +241,101 @@
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
                     data-id="8b1b580" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="row mt-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <form method="POST" action="{{ route('user.save') }}"
-                                            enctype="multipart/form-data">
-                                            @csrf
-                                            <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <form method="POST" action="{{ route('user.save') }}" enctype="multipart/form-data">
+                                        @csrf
+                                        <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
+                                        <div class="input-group input-group-static mb-3">
+                                            <label>Full Name</label>
+                                            <input type="text" name="name" class="form-control"
+                                                value="{{ $data->name ? : '' }}" required>
+                                        </div>
+                                        <div class="input-group input-group-static mb-3">
+                                            <label class="">Email</label>
+                                            <input type="email" name="email" class="form-control"
+                                                value="{{ $data->email ? : '' }}" required>
                                             <div class="input-group input-group-static mb-3">
-                                                <label>Full Name</label>
-                                                <input type="text" name="name" class="form-control"
-                                                    value="{{ $data->name ? : '' }}" required>
+                                                <label class="">Company Name</label>
+                                                <input type="text" class="form-control" name="company_name"
+                                                    value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                             </div>
                                             <div class="input-group input-group-static mb-3">
-                                                <label class="">Email</label>
-                                                <input type="email" name="email" class="form-control"
-                                                    value="{{ $data->email ? : '' }}" required>
-                                                <div class="input-group input-group-static mb-3">
-                                                    <label class="">Company Name</label>
-                                                    <input type="text" class="form-control" name="company_name"
-                                                        value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
-                                                </div>
-                                                <div class="input-group input-group-static mb-3">
-                                                    <label class="">Designation</label>
-                                                    <input type="text" class="form-control" name="designation"
-                                                        value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
-                                                </div>
-                                                <div class="input-group input-group-static mb-3">
-                                                    <label class="">Linked-In Url</label>
-                                                    <input type="url" class="form-control" name="linked_in"
-                                                        value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label class="form-label">Expertise you are looking
-                                                        for?</label><br />
-                                                    <select class="select form-control" multiple name="expert[]"
-                                                        required>
-                                                        @php
-                                                        $expt = $data->metaData ?
-                                                        json_decode($data->metaData->expertise) : '';
-                                                        @endphp
-                                                        @if(!empty($expt))
-                                                        @foreach($expt as $exp)
-                                                        @foreach($expertise as $key => $expert)
-                                                        <option value="{{ $expert }}"
-                                                            {{ $expert == $exp ? 'selected' : '' }}>
-                                                            {{ $expert }}
-                                                        </option>
-                                                        @endforeach
-                                                        @endforeach
-                                                        @else
-                                                        @foreach($expertise as $key => $expert)
-                                                        <option value="{{ $expert }}">
-                                                            {{ $expert }}
-                                                        </option>
-                                                        @endforeach
-                                                        @endif
-                                                    </select>
-                                                </div>
-                                                <div class="timezone mb-3">
-                                                    <label class=""></label><br />
-                                                    <select name="timezone"
-                                                        class="select form-control @error('timezone') is-invalid @enderror"
-                                                        required>
-                                                        <option value="">Choose Your Timezone</option>
-                                                        @foreach($timezone as $zone => $time)
-                                                        <option value="{{ $zone }}"
-                                                            {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
-                                                            {{ $zone }}</option>
-                                                        @endforeach
-                                                    </select>
-                                                </div>
-                                                <div class="input-group input-group-static mb-3">
-                                                    <label style="padding-right:30px;">Profile Pic</label><br />
-                                                    @if ($data->metaData && $data->metaData->profile_pic)
-                                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
-                                                        height="50px;" width="50px;">
-                                                    @else
-                                                    <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                        height="50px;" width="50px;">
-                                                    @endif
-                                                    <input type="file" name="profile_pic" class="form-control"
-                                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
-                                                        @php if($data->metaData && $data->metaData->profile_pic)
-                                                    {
-                                                    $validation = '';
-                                                    }
-                                                    else {
-                                                    $validation = 'required';
-                                                    }
-                                                    echo $validation;
+                                                <label class="">Designation</label>
+                                                <input type="text" class="form-control" name="designation"
+                                                    value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
+                                            </div>
+                                            <div class="input-group input-group-static mb-3">
+                                                <label class="">Linked-In Url</label>
+                                                <input type="url" class="form-control" name="linked_in"
+                                                    value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Expertise you are looking
+                                                    for?</label><br />
+                                                <select class="select form-control" multiple name="expert[]" required>
+                                                    @php
+                                                    $expt = $data->metaData ?
+                                                    json_decode($data->metaData->expertise) : '';
                                                     @endphp
-                                                    >
-                                                </div>
-                                                <button type="submit" name="submitform" id="submitform"
-                                                    class="btn btn-primary"><i
-                                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                                        </form>
-                                    </div>
+                                                    @if(!empty($expt))
+                                                    @foreach($expt as $exp)
+                                                    @foreach($expertise as $key => $expert)
+                                                    <option value="{{ $expert }}"
+                                                        {{ $expert == $exp ? 'selected' : '' }}>
+                                                        {{ $expert }}
+                                                    </option>
+                                                    @endforeach
+                                                    @endforeach
+                                                    @else
+                                                    @foreach($expertise as $key => $expert)
+                                                    <option value="{{ $expert }}">
+                                                        {{ $expert }}
+                                                    </option>
+                                                    @endforeach
+                                                    @endif
+                                                </select>
+                                            </div>
+                                            <div class="timezone mb-3">
+                                                <label class=""></label><br />
+                                                <select name="timezone"
+                                                    class="select form-control @error('timezone') is-invalid @enderror"
+                                                    required>
+                                                    <option value="">Choose Your Timezone</option>
+                                                    @foreach($timezone as $zone => $time)
+                                                    <option value="{{ $zone }}"
+                                                        {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
+                                                        {{ $zone }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                            <div class="input-group input-group-static mb-3">
+                                                <label style="padding-right:30px;">Profile Pic</label><br />
+                                                @if ($data->metaData && $data->metaData->profile_pic)
+                                                <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
+                                                    height="50px;" width="50px;">
+                                                @else
+                                                <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                                    height="50px;" width="50px;">
+                                                @endif
+                                                <input type="file" name="profile_pic" class="form-control"
+                                                    value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
+                                                    @php if($data->metaData && $data->metaData->profile_pic)
+                                                {
+                                                $validation = '';
+                                                }
+                                                else {
+                                                $validation = 'required';
+                                                }
+                                                echo $validation;
+                                                @endphp
+                                                >
+                                            </div>
+                                            <button type="submit" name="submitform" id="submitform"
+                                                class="btn btn-primary"><i
+                                                    class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
