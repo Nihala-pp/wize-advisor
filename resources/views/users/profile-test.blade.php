@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,6 +11,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
 </head>
+
 <body
     class="page-template page-template-elementor_header_footer page page-id-8108  wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-8108">
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
@@ -358,17 +360,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script type="text/javascript">
-       $('select').selectpicker();
+    $('select').selectpicker();
     </script>
 </body>
+
 </html>
 <style>
+body,
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 label {
     color: #fff;
 }
 
 img {
-    margin-bottom:20px;
-    padding-left:10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
 }
 </style>
