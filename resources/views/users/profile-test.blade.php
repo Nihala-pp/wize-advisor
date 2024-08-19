@@ -61,7 +61,6 @@
                                                    echo $validation;
                                                 @endphp
                                                 >
-                                                <!-- Change profile photo -->
                                             </p>
                                         </div>
                                     </div>
