@@ -279,3 +279,8 @@
 </body>
 
 </html>
+<style>
+    label {
+        color:#fff;
+    }
+</style>
