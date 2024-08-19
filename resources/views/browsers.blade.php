@@ -1523,7 +1523,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-2772 .elementor-element.elementor-element-2ad683c {
-        text-align: left;
+        text-align: center;
     }
 
     .elementor-2772 .elementor-element.elementor-element-2ad683c .elementor-heading-title {
