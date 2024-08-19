@@ -50,6 +50,7 @@
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
     @endif
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
 
@@ -105,7 +106,7 @@
                                 </style>
                                 <div class="elementor-heading-title elementor-size-default">
                                     <h1>
-                                       Find a mentor for {{ $expertise_name ? :  $filters['expertise'] }}
+                                        Find a mentor for {{ $expertise_name ? :  $filters['expertise'] }}
                                     </h1>
                                 </div>
                             </div>
@@ -636,7 +637,7 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
-    
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -667,8 +668,7 @@
                         form,
                         "_token": "{{ csrf_token() }}",
                     },
-                    success: function(response) {
-                    }
+                    success: function(response) {}
                 });
             });
         });
@@ -676,9 +676,10 @@
     </script>
 </body>
 <style>
-    h1 {
-        font: size 20px;px !important;
-    }
+h1 {
+    font: size 20px !important;
+}
+
 .one-width {
     width: 100% !important;
 }
@@ -909,12 +910,6 @@ screen and (min-width: 1024px) {
     }
 
     ::placeholder {
- 
-        color:
-            #fff !important;
-        opacity:
-            1 !important;
-    }
 
         color:
             #fff !important;
@@ -922,104 +917,108 @@ screen and (min-width: 1024px) {
             1 !important;
     }
 
-    ::-webkit-calendar-picker-indicator {
-        filter:
-            invert(1);
-    }
+    color: #fff !important;
+    opacity: 1 !important;
+}
 
-    div.d-grid.gap-2.col-6.butto {
-        padding-left:
-            80px;
-    }
+::-webkit-calendar-picker-indicator {
+    filter:
+        invert(1);
+}
 
-    #date {
-        width: 220px;
-        height: 36px;
-        background-color: #54b4d3;
-        color: #fff !important;
-        font-weight: 200px;
-        border-color: #54b4d3 !important;
-        border-radius: 5px;
-        font-size: 0.75rem !important;
-        padding-left: 20px !important;
-        padding-bottom: 20px;
-        padding-top: 0px;
-    }
+div.d-grid.gap-2.col-6.butto {
+    padding-left:
+        80px;
+}
 
-    .card {
-        width:
-            22rem !important;
-    }
+#date {
+    width: 220px;
+    height: 36px;
+    background-color: #54b4d3;
+    color: #fff !important;
+    font-weight: 200px;
+    border-color: #54b4d3 !important;
+    border-radius: 5px;
+    font-size: 0.75rem !important;
+    padding-left: 20px !important;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
 
-    .elementor-star-rating__wrapper {
-        padding-left:
-            115px;
-        display:
-            flex;
-    }
+.card {
+    width:
+        22rem !important;
+}
 
-    .price {
-        padding-left:
-            100px;
-        display:
-            flex;
-        align-items:
-            center;
-    }
+.elementor-star-rating__wrapper {
+    padding-left:
+        115px;
+    display:
+        flex;
+}
 
-    .name {
-        margin-top:
-            15px;
-    }
+.price {
+    padding-left:
+        100px;
+    display:
+        flex;
+    align-items:
+        center;
+}
 
-    input[type="date"]::before {
-        padding-right:
-            16px !important;
-        padding-top:
-            0px;
-        padding-left:
-            16px !important;
-        color:
-            #fff !important;
-        content:
-            attr(placeholder);
-    }
+.name {
+    margin-top:
+        15px;
+}
 
-    input[type="date"] {
-        padding-right:
-            16px !important;
-        padding-left:
-            5px !important;
-        color:
-            #54b4d3 !important;
-    }
+input[type="date"]::before {
+    padding-right:
+        16px !important;
+    padding-top:
+        0px;
+    padding-left:
+        16px !important;
+    color:
+        #fff !important;
+    content:
+        attr(placeholder);
+}
 
-    input[type="date"]:focus,
-    input[type="date"]:valid {
-        padding-right:
-            16px !important;
-        color:
-            #fff !important;
-    }
+input[type="date"] {
+    padding-right:
+        16px !important;
+    padding-left:
+        5px !important;
+    color:
+        #54b4d3 !important;
+}
 
-    input[type="date"]:focus::before,
-    input[type="date"]:valid::before {
-        padding-right:
-            16px !important;
-        padding-left:
-            16px !important;
-        content:
-            ""
-             !important;
-    }
+input[type="date"]:focus,
+input[type="date"]:valid {
+    padding-right:
+        16px !important;
+    color:
+        #fff !important;
+}
 
-    .search {
-        width:
-            130%;
-        text-align:
-            left;
-        background-color:
-    }
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+    padding-right:
+        16px !important;
+    padding-left:
+        16px !important;
+    content:
+        ""
+         !important;
+}
+
+.search {
+    width:
+        130%;
+    text-align:
+        left;
+    background-color:
+}
 }
 
 .card-deck .card {
@@ -1630,4 +1629,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
