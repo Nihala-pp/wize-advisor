@@ -378,7 +378,7 @@ img {
     margin-bottom: 15px;
 }
 
-.elementor-element-80e2a2d .elementor-position-left {
+.elementor-elementq .elementor-element-80e2a2d .elementor-position-left .elementor-view-default .elementor-mobile-position-top .elementor-vertical-align-top .elementor-widget .elementor-widget-icon-box {
     margin-left: 10px;
 }
 
