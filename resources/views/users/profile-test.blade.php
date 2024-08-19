@@ -24,7 +24,7 @@
                             data-id="7259f9a" data-element_type="widget" data-widget_type="icon-box.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                                    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
                                 <div class="elementor-icon-box-wrapper">
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
