@@ -480,11 +480,12 @@ img {
 input[type="file"]:before {
   content: attr(placeholder);
   visibility: visible;
-  /* box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   display: block;
   width: 100%;
-  height: 100%; */
+  height: 100%;
+
   /* Add here your design... */
   background-color: #000;
   color:#0000ee;
