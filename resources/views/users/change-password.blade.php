@@ -72,7 +72,7 @@
 <style>
 body {
     background-color:#000;
-} as
+} 
 
 i.fas.fa-chevron-down {
     font-size: 9px !important;
@@ -88,16 +88,16 @@ i.fas.fa-chevron-down {
 
 .form-control {
     color: #fff;
-    background-color: #000;
+    background-color: #656565;
 }
 
 .card {
-    background-color: #000;
+    background-color: #656565;
 }
 
 .form-control:focus {
     color: #fff;
-    background-color: #000;
+    background-color: #656565;
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
