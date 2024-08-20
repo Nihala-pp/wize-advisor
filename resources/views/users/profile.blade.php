@@ -23,7 +23,7 @@
     <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
     as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
-    @include('partials.web-style')
+    <!-- @include('partials.web-style') -->
     
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
