@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.web-header-new')
-<link rel="stylesheet" href="{{ asset('public/assets/css/material-kit-pro.min.css') }}">
-<link rel="stylesheet" href="{{ asset('public/assets/css/material-dashboard.min.css') }}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='stylesheet' id='elementor-preview-8222-css'
+        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+</head>
 
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
