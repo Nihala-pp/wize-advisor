@@ -477,16 +477,9 @@ img {
     font-size: 18px;
 }
 
-input#validationCustom09 {
+input#validationCustom09.form-control.photo {
     color:#007bff !important;
     background-color: #000 !important;
 
 }
-
-input[type="file" i] {
-    background-color: #000 !important;
-    color:#fff;
-}
-
-
 </style>
