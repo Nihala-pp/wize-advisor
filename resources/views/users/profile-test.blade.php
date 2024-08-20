@@ -419,7 +419,7 @@ img {
 }
 
 .form-control {
-    color: as#7A7A7A !important;
+    color: #7A7A7A !important;
     background-color: #000 !important;
 }
-</style>
+</style>q
