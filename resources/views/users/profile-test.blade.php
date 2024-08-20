@@ -399,7 +399,10 @@ img {
     background-color: #000 !important;
 }
 
-.bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active {
     color: #fff;
     background-color: #000;
 }
@@ -439,11 +442,11 @@ img {
     list-style: none;
     background-color: #000;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
 }
 
-.elementor-8108 .elementor-element.elementor-element-8b1b580 > .elementor-element-populated {
+.elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     border-color: #4A4A4A;
@@ -464,5 +467,12 @@ img {
     /* border: 1px solid #000; */
     /* border-radius: .25rem; */
     /* transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; */
+}
+
+.elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title,
+.elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title a {
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 </style>
