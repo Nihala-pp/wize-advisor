@@ -482,9 +482,6 @@ h3 {
 }
 
 @media(max-width:480px) {
-    .col-4 {
-        width: 100% !important;
-    }
 
     .elementor-3007 .elementor-element.elementor-element-f871cda {
         width: 30%;
