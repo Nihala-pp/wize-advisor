@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-@include('partials.web-header-new')
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
