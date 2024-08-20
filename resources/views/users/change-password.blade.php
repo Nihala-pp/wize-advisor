@@ -80,6 +80,12 @@
     border-color: #434343;
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #434343;
+}
+
 body {
     background-color: #000;
 }
