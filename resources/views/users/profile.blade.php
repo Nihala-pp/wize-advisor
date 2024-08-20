@@ -9,8 +9,8 @@
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
     <link rel="stylesheet" id="hfe-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14">
-    <link rel="stylesheet" id="elementor-icons-css"
-        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0">
+    <!-- <link rel="stylesheet" id="elementor-icons-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"> -->
     <!-- <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
         as="style" id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin> -->
