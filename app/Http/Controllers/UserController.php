@@ -196,6 +196,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     $timezone = AvailableSchedule::timezones();
     $id = Auth::id();
     $data = User::find($id);
+    $total_learning = ScheduledCall::where('user_id', $id)->where('status', 'Approved')->where('is_paid', 1)->get();
     $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
 
     return view('users.profile', compact('data', 'scheduled_calls', 'expertise', 'timezone'));

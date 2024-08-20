@@ -67,7 +67,7 @@
                                             <div class="elementor-icon-box-content">
                                                 <h5 class="elementor-icon-box-title">
                                                     <span>
-                                                        Ankur Sharma </span>
+                                                        {{ $data->name }} </span>
                                                 </h5>
                                                 <p class="elementor-icon-box-description">
                                                     <input type="file" id="validationCustom09" name="profile_pic"
