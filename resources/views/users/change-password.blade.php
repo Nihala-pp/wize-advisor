@@ -51,7 +51,7 @@
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" autocomplete="current-password">
                                     </div> -->
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary savePassword"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
                             </div>
@@ -81,7 +81,7 @@
     box-shadow: #000 !important;
 }
 
-.btn {
+.savePasswordw {
     box-shadow: #000 !important;s
 }
 
