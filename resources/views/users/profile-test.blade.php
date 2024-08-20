@@ -50,7 +50,7 @@
                                                 </h5>
                                                 <p class="elementor-icon-box-description">
                                                     <input type="file" id="validationCustom09" name="profile_pic"
-                                                        class="form-control photo"q
+                                                        class="form-control photo"
                                                         value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                                         @php if($data->metaData && $data->metaData->profile_pic)
                                                     {
