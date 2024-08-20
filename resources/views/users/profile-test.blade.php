@@ -381,20 +381,6 @@ img {
     padding-top: 50px;
 }
 
-.photo {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    /* line-height: 1.5; */
-    color: #495057;
-    background-color: #000 !important;
-    background-clip: padding-box;
-    /* border: 1px solid #ced4da; */
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
 .form-control {
     color: #fff !important;
     background-color: #000 !important;
@@ -428,13 +414,8 @@ img {
 }
 
 .dropdown-menu {
-    /* position: absolute; */
-    /* top: 100%; */
-    /* left: 0; */
     z-index: 1000;
-    /* display: none; */
     float: left;
-    /* min-width: 10rem; */
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
@@ -458,16 +439,9 @@ img {
 .photo {
     border: none;
     color: #fff !important;
-    /* display: block; */
-    /* width: 100%; */
     padding: 0rem 0rem;
     font-size: 12px;
-    /* line-height: 1.5; */
     background-color: #000 !important;
-    /* background-clip: padding-box; */
-    /* border: 1px solid #000; */
-    /* border-radius: .25rem; */
-    /* transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; */
 }
 
 .elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title,
