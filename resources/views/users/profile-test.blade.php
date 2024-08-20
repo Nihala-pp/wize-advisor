@@ -452,11 +452,11 @@ img {
     COLOR: #FFF;
 }
 
-.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-06004d0 {
-    width:25%;
+.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
+    width:25% !important;
 }
 
-.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-8b1b580 {
-    width:70%;
+.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8b1b580 {
+    width:70% !important;
 }
 </style>
