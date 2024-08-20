@@ -463,6 +463,13 @@ img {
 }
 
 h3 {
+   font-size:18px;
+   color:#fff;
+}
 
+.elementor-widget-icon-box .elementor-icon-box-description {
+    margin: 0;
+    color: #7A7A7A;
+    font-size: 16px;
 }
 </style>
