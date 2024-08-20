@@ -15,12 +15,10 @@
             <div class="row mt-5">
                 <div class="col-8 col-lg-8 m-auto">
                     <div class="card">
-                        <div class="card-header">
-                            <!-- <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3"> -->
+                        <!-- <div class="card-header"> -->
                                 <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Change Password @else
                                     Change Password @endif</h6>
-                            <!-- </div> -->
-                        </div>
+                        <!-- </div> -->
                         <div class="card-body">
                             <div class="row">
                                 <form method="POST" action="{{ route('user.password.save') }}"
