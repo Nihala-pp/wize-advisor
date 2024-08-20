@@ -449,7 +449,7 @@ img {
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
     font-size: 18px;
-    COLOR: #FFF;
+    color: #fff;
 }
 
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
