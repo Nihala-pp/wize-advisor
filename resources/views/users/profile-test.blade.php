@@ -50,7 +50,7 @@
                                                 </h5>
                                                 <p class="elementor-icon-box-description">
                                                     <input type="file" id="validationCustom09" name="profile_pic"
-                                                        class="form-control photo"
+                                                        class="form-control photo" placeholder="Change profile picture"
                                                         value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                                         @php if($data->metaData && $data->metaData->profile_pic)
                                                     {
@@ -475,5 +475,9 @@ img {
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
     font-size: 18px;
+}
+
+input([type=file])::before{
+   content::attr(::placeholder);
 }
 </style>
