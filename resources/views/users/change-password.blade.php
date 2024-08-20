@@ -103,7 +103,7 @@ i.fas.fa-chevron-down {
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
 }
 
-@media(max-width:480px) {q
+@media(max-width:480px) {
     .col-4 {
         width: 100% !important;
     }
