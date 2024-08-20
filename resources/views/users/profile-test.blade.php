@@ -480,22 +480,13 @@ img {
 input[type="file"]:before {
   content: attr(placeholder);
   visibility: visible;
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   position: absolute;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 100%; */
   /* Add here your design... */
-  line-height: 16px;
-  padding: 8px 32px 8px 8px;
-  color: rgba(0,0,0,.3);
   background-color: #000;
   color:#0000ee;
-  border: 1px solid rgba(0, 0, 0, .5);
-  border-radius: 4px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  cursor: pointer;
 }
 </style>
