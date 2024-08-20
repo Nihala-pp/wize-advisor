@@ -362,8 +362,6 @@
     $('select').selectpicker();
     </script>
 </body>
-
-</html>
 <style>
 body,
 html {
@@ -725,3 +723,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+</html>
