@@ -442,4 +442,12 @@ img {
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
 }
+
+.elementor-8108 .elementor-element.elementor-element-8b1b580 > .elementor-element-populated {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #4A4A4A;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 25px 35px 25px 35px;
+}
 </style>
