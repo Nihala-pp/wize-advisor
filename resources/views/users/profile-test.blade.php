@@ -403,4 +403,17 @@ img {
     color: #fff;
     background-color: #000;
 }
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #fff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #000;
+    border: 0;
+}
 </style>
