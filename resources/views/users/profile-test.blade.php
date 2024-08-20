@@ -478,7 +478,7 @@ img {
 }
 
 #validationCustom09 {
-    color:#007bff;
+    color:#007bff !important;
     background-color: #000 !important;
 
 }
