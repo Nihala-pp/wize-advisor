@@ -81,6 +81,10 @@
     box-shadow: #000 !important;
 }
 
+.btn {
+    box-shadow: #000 !important;s
+}
+
 .btn-primary:hover {
     color: #fff;
     background-color: #000 !important;
