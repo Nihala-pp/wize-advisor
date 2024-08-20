@@ -433,6 +433,7 @@ img {
     border-color: #4A4A4A;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 25px 35px 25px 35px;
+    border-radius:5px;
 }
 
 .photo {
@@ -449,5 +450,13 @@ img {
     font-weight: 400;
     font-size: 18px;
     COLOR: #FFF;
+}
+
+.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-06004d0 {
+    width:25%;
+}
+
+.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-8b1b580 {
+    width:70%;
 }
 </style>
