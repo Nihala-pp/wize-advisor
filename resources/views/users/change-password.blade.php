@@ -78,12 +78,14 @@
     color: #fff;
     background-color: #000 !important;
     border-color: #434343 !important;
+    box-shadow: #000 !important;
 }
 
 .btn-primary:hover {
     color: #fff;
     background-color: #000 !important;
     border-color: #434343 !important;
+    box-shadow: #000 !important;W
 }
 
 body {
