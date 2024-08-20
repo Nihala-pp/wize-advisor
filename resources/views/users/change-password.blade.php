@@ -88,16 +88,16 @@ i.fas.fa-chevron-down {
 
 .form-control {
     color: #fff;
-    background-color: #656565;
+    background-color: #2B4162;
 }
 
 .card {
-    background-color: #656565;
+    background-color: #2B4162;
 }
 
 .form-control:focus {
     color: #fff;
-    background-color: #656565;
+    background-color: #2B4162;
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
