@@ -321,8 +321,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="selectpicker form-control" data-width="100%"
-                                        id="validationCustom06" required>
+                                    <select class="selectpicker form-control" data-live-search="true" data-width="100%"
+                                        id="validationCustom06" name="timezone" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
                                         <option value="{{ $zone }}"
