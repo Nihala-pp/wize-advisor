@@ -81,6 +81,10 @@ i.fas.fa-chevron-down {
     padding-left: 10px;
 }
 
+.card {
+    background-color: #000;
+}
+
 @media(max-width:480px) {
     .col-4 {
         width: 100% !important;
