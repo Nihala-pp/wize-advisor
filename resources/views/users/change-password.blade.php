@@ -92,7 +92,7 @@ i.fas.fa-chevron-down {
 }
 
 .card {
-    background-color: #2B4162;
+    background: linear-gradient(to right, #434343, #000000);
 }
 
 .form-control:focus {
@@ -103,7 +103,7 @@ i.fas.fa-chevron-down {
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
 }
 
-@media(max-width:480px) {
+@media(max-width:480px) {q
     .col-4 {
         width: 100% !important;
     }
