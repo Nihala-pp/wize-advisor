@@ -115,7 +115,7 @@
                                                         Change Password </span>
                                                 </h3>
 
-                                                <p class="elementor-icon-box-description"><a href="{{ route('change-password') }}">
+                                                <p class="elementor-icon-box-description"><a href="{{ route('user.change-password') }}">
                                                     Update your profile password </a></p>
 
                                             </div>
