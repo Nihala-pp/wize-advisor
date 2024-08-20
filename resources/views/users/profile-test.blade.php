@@ -416,4 +416,10 @@ img {
     background-color: #000;
     border: 0;
 }
+
+.btn-light {
+    color: #fff;
+    background-color: #000;
+    border-color: #f8f9fa;
+}
 </style>
