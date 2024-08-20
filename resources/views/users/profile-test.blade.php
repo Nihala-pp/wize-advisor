@@ -293,8 +293,8 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom07" class="form-label">Expertise</label>
-                                    <select class="selectpicker form-control" multiple data-live-search="true" data-width="100%"
-                                        id="validationCustom07" name="expert[]" required>
+                                    <select class="selectpicker form-control" multiple data-live-search="true"
+                                        data-width="100%" id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
                                         $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
@@ -395,6 +395,11 @@ img {
 }
 
 .form-control {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.selectpicker {
     color: #fff !important;
     background-color: #000 !important;
 }
