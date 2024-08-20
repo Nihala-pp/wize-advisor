@@ -81,6 +81,16 @@ i.fas.fa-chevron-down {
     padding-left: 10px;
 }
 
+.form-label {
+    margin-bottom: .5rem;
+    color: #fff;
+}
+
+.form-control {
+    color: #fff;
+    background-color: #000;
+}
+
 .card {
     background-color: #000;
 }
