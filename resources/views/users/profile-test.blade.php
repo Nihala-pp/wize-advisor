@@ -399,8 +399,8 @@ img {
     background-color: #000 !important;
 }
 
-.selectpicker {
-    color: #fff !important;
-    background-color: #000 !important;
+.bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
+    color: #fff;
+    background-color: #000;
 }
 </style>
