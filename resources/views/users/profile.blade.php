@@ -11,20 +11,20 @@
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
     <link rel="stylesheet" id="elementor-post-32-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" id="hfe-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
-    defer>
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
+        defer>
     <link rel="stylesheet"
-    href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5">
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5">
     <link rel="preload"
-    href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
-    as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
+        as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <!-- @include('partials.web-style') -->
-    
+
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -371,7 +371,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
-      id="hfe-frontend-js-js"></script>
+        id="hfe-frontend-js-js"></script>
     <script type="text/javascript">
     $('select').selectpicker();
     </script>
@@ -411,13 +411,13 @@ img {
     background-color: #000 !important;
 }
 
- .bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:hover,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active {
     color: #fff;
     background-color: #000;
-} 
+}
 
 .dropdown-item {
     display: block;
@@ -451,7 +451,7 @@ img {
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
-} 
+}
 
 .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
     border-style: solid;
@@ -511,144 +511,88 @@ i.fas.fa-bell.fa-2xl {
     color: #000;
 }
 
-.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
-.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title a {
-    color: #ffff !important;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.25ch;
-}
-
 .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
-    .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-color: #FFFFFF;
-        /* margin-top: -35px; */
-    }
+.elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+    /* margin-top: -35px; */
+}
 
-    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
-        padding: 0px 20px 10px 100px;
-    }
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+    background-color: #fff;
+    color: #001E64;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-        background-color: #fff;
-        color: #001E64;
-    }
+.elementor-button.elementor-size-xs {
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 10px;
+}
 
-    .elementor-button.elementor-size-xs {
-        font-size: 12px;
-        padding: 10px 20px;
-        border-radius: 7px;
-        margin: 10px;
-    }
+.elementor-button {
+    display: inline-block;
+    line-height: 1;
+    background-color: #001E64;
+    /* font-size: 15px; */
+    /* padding: 12px 24px; */
+    /* border-radius: 3px; */
+    /* color: #fff; */
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+}
 
-    .elementor-button {
-        display: inline-block;
-        line-height: 1;
-        background-color: #001E64;
-        /* font-size: 15px; */
-        /* padding: 12px 24px; */
-        /* border-radius: 3px; */
-        /* color: #fff; */
-        fill: #fff;
-        text-align: center;
-        transition: all .3s;
-    }
+.elementor-3007 .elementor-element.elementor-element-f871cda {
+    width: 30%;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-f871cda {
-        width: 30%;
-    }
+.elementor-3007 .elementor-element.elementor-element-094a417 {
+    width: 50%;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-094a417 {
-        width: 50%;
-    }
+.elementor-3007 .elementor-element.elementor-element-a2b9669 {
+    width: 20%;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
-        width: 20%;
-    }
+.elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+    padding: 0px 0px 0px 30px;
+    margin-top: 60px;
+}
 
-    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
-        padding: 0px 0px 0px 30px;
-        margin-top: 60px;
-    }
+#menu-item-5136 {
+    font-size: 8px;
+}
 
-    #menu-item-5136 {
-        font-size: 8px;
-    }
+i.fas.fa-bell.fa-2xl {
+    font-size: 27px !important;
+    color: #000;
+    padding-left: 10px;
+}
 
-    i.fas.fa-bell.fa-2xl {
-        font-size: 27px !important;
-        color: #000;
-        padding-left: 10px;
-    }
+.rounded-circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
 
-    .rounded-circle {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        height: auto;
-        max-width: 100%;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-    }
-
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
-        background-color: #fff;
-        color: #001E64 !important;
-    }
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+    background-color: #fff;
+    color: #001E64 !important;
+}
 
 @media (max-width: 767px) {
-
-    .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
-        padding: 0px 20px 10px 100px;
-    }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
