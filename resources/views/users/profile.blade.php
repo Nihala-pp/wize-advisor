@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-US">
-
+@include('partials.web-header-new')
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,15 +9,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     <link rel='stylesheet' id='elementor-preview-8222-css'
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
-    @include('partials.web-style')
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
-    </script>
-
 </head>
 
 <body
