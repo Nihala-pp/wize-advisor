@@ -74,6 +74,12 @@
     background: linear-gradient(to right, #434343, #000000);
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #434343;
+}
+
 body {
     background-color: #000;
 }
