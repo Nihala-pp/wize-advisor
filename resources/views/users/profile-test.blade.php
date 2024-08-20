@@ -378,6 +378,7 @@ img {
     padding-right: 20px;
     padding-left: 50px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .form-control {
@@ -432,7 +433,7 @@ img {
     border-width: 2px 2px 2px 2px;
     border-color: #4A4A4A;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 25px 35px 0px 35px;
+    padding: 25px 35px 25px 35px;
     border-radius:15px;
 }
 
