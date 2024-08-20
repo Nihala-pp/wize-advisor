@@ -76,14 +76,14 @@
 
 .btn-primary {
     color: #fff;
-    background-color: #000;
-    border-color: #434343;
+    background-color: #000 !important;
+    border-color: #434343 !important;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #000;
-    border-color: #434343;
+    background-color: #000 !important;
+    border-color: #434343 !important;
 }
 
 body {
