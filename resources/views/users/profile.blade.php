@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+@include('partials.web-header-new')
 
 <head>
     <meta charset="UTF-8" />
@@ -71,7 +72,8 @@
                                     </div>
                                 </div>
                                 <div class="elementor-elementq elementor-element-80e2a2d elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                    data-id="80e2a2d" data-element_type="widget" data-widget_type="icon-box.default" style="margin-bottom:10px;">
+                                    data-id="80e2a2d" data-element_type="widget" data-widget_type="icon-box.default"
+                                    style="margin-bottom:10px;">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-icon-box-wrapper">
 
@@ -116,8 +118,9 @@
                                                         Change Password </span>
                                                 </h3>
 
-                                                <p class="elementor-icon-box-description"><a href="{{ route('user.change-password') }}">
-                                                    Update your profile password </a></p>
+                                                <p class="elementor-icon-box-description"><a
+                                                        href="{{ route('user.change-password') }}">
+                                                        Update your profile password </a></p>
 
                                             </div>
 
@@ -125,7 +128,8 @@
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-d356614 elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                    data-id="d356614" data-element_type="widget" data-widget_type="icon-box.default" style="margin-bottom:10px;">
+                                    data-id="d356614" data-element_type="widget" data-widget_type="icon-box.default"
+                                    style="margin-bottom:10px;">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-icon-box-wrapper">
 
@@ -435,7 +439,7 @@ img {
     border-color: #4A4A4A;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 25px 35px 25px 35px;
-    border-radius:15px;
+    border-radius: 15px;
 }
 
 .photo {
@@ -455,16 +459,16 @@ img {
 }
 
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
-    width:25% !important;
+    width: 25% !important;
 }
 
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8b1b580 {
-    width:70% !important;
+    width: 70% !important;
 }
 
 h3 {
-   font-size:16px;
-   color:#fff;
+    font-size: 16px;
+    color: #fff;
 }
 
 .elementor-widget-icon-box .elementor-icon-box-description {
