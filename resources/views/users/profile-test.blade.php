@@ -477,22 +477,9 @@ img {
     font-size: 18px;
 }
 
-/* input[type="file"]:before {
-  content: attr(placeholder);
-  visibility: visible;
-  box-sizing: border-box;
-  position: absolute;
-  display: block;
-  /* Add here your design... */
-  background-color: #000;
-  color:#007bff;
-}
+#validationCustom09 {
+    color:#007bff;
+    background-color: #000 !important;
 
-input[type="file"]:after {
-  content: "\1F5BF";
-  visibility: visible;
-  position: absolute;
-  margin-top: 8px;
-  right: 8px;
-} */
+}
 </style>
