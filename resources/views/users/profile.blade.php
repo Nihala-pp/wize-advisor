@@ -395,15 +395,15 @@ img {
     background-color: #000 !important;
 }
 
-/* .bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:hover,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active {
     color: #fff;
     background-color: #000;
-} */
+}
 
-.dropdown-item {
+/* .dropdown-item {
     display: block;
     width: 100%;
     padding: .25rem 1.5rem;
@@ -414,7 +414,7 @@ img {
     white-space: nowrap;
     background-color: #000;
     border: 0;
-}
+} */
 
 .btn-light {
     color: #fff;
