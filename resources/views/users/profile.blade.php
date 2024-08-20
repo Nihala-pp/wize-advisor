@@ -496,8 +496,11 @@ h3 {
     color: #7A7A7A;
     font-size: 14px;
 }
-</style>
-<style>
+
+
+/***  header ***/
+
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
