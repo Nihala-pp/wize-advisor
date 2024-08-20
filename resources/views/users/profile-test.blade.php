@@ -452,6 +452,17 @@ img {
 }
 
 .photo {
+    border: none;
+    color: #fff !important;
+    /* display: block; */
+    /* width: 100%; */
+    padding: 0rem 0rem;
+    font-size: 12px;
+    /* line-height: 1.5; */
     background-color: #000 !important;
+    /* background-clip: padding-box; */
+    /* border: 1px solid #000; */
+    /* border-radius: .25rem; */
+    /* transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out; */
 }
 </style>
