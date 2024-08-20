@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
                             data-id="8b1b580" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
@@ -340,10 +340,7 @@
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                 </form>
             </div>
-    </div>
-    </div>
-    </div>
-    </section>
+        </section>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
