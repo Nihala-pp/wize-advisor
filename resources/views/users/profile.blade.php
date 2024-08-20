@@ -13,10 +13,6 @@
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
     <link rel='stylesheet' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161'>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
-    </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
-    </script>
 
 </head>
 
@@ -1253,12 +1249,6 @@
             </section>
         </div>
     </header>
-    <style>
-    .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
-    .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
-        color: #001E64;
-    }
-    </style>
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-658d30a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
@@ -1594,7 +1584,7 @@
         </section>
     </div>
     @include('partials.web-script')
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script type="text/javascript">
@@ -1816,6 +1806,11 @@ i.fas.fa-bell.fa-2xl {
 .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
     background-color: #fff;
     color: #001E64 !important;
+}
+
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
+    color: #001E64;
 }
 
 @media (max-width: 767px) {
