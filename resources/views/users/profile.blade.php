@@ -278,7 +278,7 @@
                                 <div class="invalid-feedback">
                                     Please Enter your Name.
                                 </div>
-                            </div><br/>
+                            </div><hr/>
                             <div class="mb-3">
                                 <label for="validationCustom02" class="form-label">Email </label>
                                 <input type="email" name="email" class="form-control" id="validationCustom02"
