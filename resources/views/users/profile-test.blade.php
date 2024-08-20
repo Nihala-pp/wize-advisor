@@ -488,6 +488,6 @@ input[type="file"]:before {
 
   /* Add here your design... */
   background-color: #000;
-  color:#0000ee;
+  color:#007bff;
 }
 </style>
