@@ -26,6 +26,7 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <form method="POST" action="{{ route('user.save') }}" enctype="multipart/form-data">
                                 @csrf
+                                <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                                 <div class="elementor-element elementor-element-7259f9a elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
                                     data-id="7259f9a" data-element_type="widget" data-widget_type="icon-box.default">
                                     <div class="elementor-widget-container">
@@ -459,5 +460,9 @@ img {
 
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8b1b580 {
     width:70% !important;
+}
+
+h3 {
+
 }
 </style>
