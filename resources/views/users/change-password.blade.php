@@ -122,6 +122,9 @@ i.fas.fa-chevron-down {
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
 }
 
+h6 {
+    font-size: 20px;
+}
 @media(max-width:480px) {
     .col-4 {
         width: 100% !important;
