@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @include('partials.web-header-new')
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,6 +12,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
 </head>
+
 <body
     class="page-template page-template-elementor_header_footer page page-id-8108  wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-8108">
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
@@ -354,6 +356,124 @@
     </script>
 </body>
 <style>
+body,
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+label {
+    color: #fff;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
+.elementor-elementq .elementor-element-80e2a2d .elementor-position-left .elementor-view-default .elementor-mobile-position-top .elementor-vertical-align-top .elementor-widget .elementor-widget-icon-box {
+    margin-left: 10px !important;
+}
+
+.elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
+.elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+    padding-right: 20px;
+    padding-left: 85px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-control {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active {
+    color: #fff;
+    background-color: #000;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #fff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #000;
+    border: 0;
+}
+
+.btn-light {
+    color: #fff;
+    background-color: #000;
+    border-color: #f8f9fa;
+}
+
+.dropdown-menu {
+    z-index: 1000;
+    float: left;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+    list-style: none;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+.elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #4A4A4A;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 25px 35px 25px 35px;
+    border-radius: 15px;
+}
+
+.photo {
+    border: none;
+    color: #fff !important;
+    padding: 0rem 0rem;
+    font-size: 12px;
+    background-color: #000 !important;
+}
+
+.elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title,
+.elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title a {
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
+    width: 25% !important;
+}
+
+.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8b1b580 {
+    width: 70% !important;
+}
+
+h3 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.elementor-widget-icon-box .elementor-icon-box-description {
+    margin: 0;
+    color: #7A7A7A;
+    font-size: 14px;
+}
+
 i.fas.fa-chevron-down {
     font-size: 9px !important;
     font-family: "Font Awesome 5 Free" !important;
@@ -445,5 +565,4 @@ i.fas.fa-chevron-down {
     }
 }
 </style>
-
 </html>
