@@ -14,13 +14,13 @@
     <!-- <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
         as="style" id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin> -->
-    <link rel="stylesheet" id="hfe-style-css"
+    <!-- <link rel="stylesheet" id="hfe-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14">
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5">
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
-        as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+        as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin> -->
     <link rel="stylesheet" id="elementor-post-5-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418">
     <link rel="stylesheet" id="elementor-post-3007-css"
