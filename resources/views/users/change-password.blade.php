@@ -75,6 +75,7 @@
 }
 
 .btn-primary {
+    --mdb-btn-box-shadow:000 !important;
     color: #fff;
     background-color: #000 !important;
     border-color: #434343 !important;
