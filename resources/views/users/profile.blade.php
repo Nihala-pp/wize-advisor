@@ -189,7 +189,7 @@
 
                                                 <h3 class="elementor-icon-box-title">
                                                     <span>
-                                                        200 minutes </span>
+                                                        {{ $total_learning }} minutes </span>
                                                 </h3>
 
                                                 <p class="elementor-icon-box-description">
@@ -268,7 +268,7 @@
 
                                                 <h3 class="elementor-icon-box-title">
                                                     <span>
-                                                        2 sessions </span>
+                                                        {{ $completed_sessions }} sessions </span>
                                                 </h3>
 
                                                 <p class="elementor-icon-box-description">

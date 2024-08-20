@@ -197,9 +197,10 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     $id = Auth::id();
     $data = User::find($id);
     $total_learning = ScheduledCall::where('user_id', $id)->where('status', 'Approved')->where('is_paid', 1)->get()->count() * 30;
+    $completed_sessions = ScheduledCall::where('user_id', $id)->where('status', 'Approved')->where('is_paid', 1)->get()->count();
     $scheduled_calls = ScheduledCall::where('mentor_id', $id)->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
 
-    return view('users.profile', compact('data', 'scheduled_calls', 'expertise', 'timezone', 'total_learning'));
+    return view('users.profile', compact('data', 'scheduled_calls', 'expertise', 'timezone', 'total_learning', 'completed_sessions'));
   }
 
   public function getDateAvailability($scheduled_call)
