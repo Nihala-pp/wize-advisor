@@ -384,7 +384,7 @@ html {
 }
 
 label {
-    color: #fff;
+    color: #fff !important;
 }
 
 img {
