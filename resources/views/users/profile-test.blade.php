@@ -60,7 +60,7 @@
                                                 echo $validation;
                                                 @endphp
                                                 >
-                                                <label for="validationCustom09" style="color:#0000ee;q">Change profile picture</label>
+                                                <label for="validationCustom09" style="color:#007bff;">Change profile picture</label>
                                             </p>
                                         </div>
                                     </div>
