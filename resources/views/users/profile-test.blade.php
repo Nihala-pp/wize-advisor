@@ -483,9 +483,7 @@ input[type="file"]:before {
   box-sizing: border-box;
   position: absolute;
   display: block;
-  width: 100%;
-  /* height: 100%; */
-
+qw
   /* Add here your design... */
   background-color: #000;
   color:#007bff;
