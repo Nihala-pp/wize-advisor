@@ -483,9 +483,16 @@ input[type="file"]:before {
   box-sizing: border-box;
   position: absolute;
   display: block;
-qw
   /* Add here your design... */
   background-color: #000;
   color:#007bff;
+}
+
+input[type="file"]:after {
+  content: "\1F5BF";
+  visibility: visible;
+  position: absolute;
+  margin-top: 8px;
+  right: 8px;
 }
 </style>
