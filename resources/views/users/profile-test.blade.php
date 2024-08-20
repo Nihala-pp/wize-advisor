@@ -340,7 +340,6 @@
                                     class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                         </div>
                     </div>
-                    </form>
                 </div>
             </div>
         </section>
