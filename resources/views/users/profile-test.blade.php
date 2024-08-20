@@ -422,4 +422,24 @@ img {
     background-color: #000;
     border-color: #f8f9fa;
 }
+
+.dropdown-menu {
+    /* position: absolute; */
+    /* top: 100%; */
+    /* left: 0; */
+    z-index: 1000;
+    /* display: none; */
+    float: left;
+    /* min-width: 10rem; */
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+    list-style: none;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
 </style>
