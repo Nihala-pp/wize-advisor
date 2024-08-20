@@ -422,7 +422,7 @@ img {
     border-color: #f8f9fa;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
     z-index: 1000;
     float: left;
     padding: .5rem 0;
@@ -435,7 +435,7 @@ img {
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: .25rem;
-}
+} */
 
 .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
     border-style: solid;
