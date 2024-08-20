@@ -92,6 +92,7 @@ i.fas.fa-chevron-down {
 }
 
 .card {
+    background: #434343;q
     background: linear-gradient(to right, #434343, #000000);
 }
 
