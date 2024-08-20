@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
                             data-id="8b1b580" data-element_type="column">
                             <div class="elementor-widget-wrap elementor-element-populated">
                                 <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
@@ -338,6 +338,9 @@
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </section>
@@ -448,5 +451,4 @@ img {
     font-size: 18px;
     COLOR: #FFF;
 }
-
 </style>
