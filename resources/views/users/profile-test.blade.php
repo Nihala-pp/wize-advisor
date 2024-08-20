@@ -477,7 +477,7 @@ img {
     font-size: 18px;
 }
 
-#validationCustom09 {
+input#validationCustom09 {
     color:#007bff !important;
     background-color: #000 !important;
 
