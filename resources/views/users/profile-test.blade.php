@@ -482,4 +482,11 @@ img {
     background-color: #000 !important;
 
 }
+
+input[type="file" i] {
+    background-color: #000 !important;
+    color:#fff;
+}
+
+
 </style>
