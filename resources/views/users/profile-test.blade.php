@@ -450,4 +450,8 @@ img {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 25px 35px 25px 35px;
 }
+
+.photo {
+    background-color: #000 !important;
+}
 </style>
