@@ -449,6 +449,7 @@ img {
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
     font-size: 18px;
+    COLOR: #FFF;
 }
 
 </style>
