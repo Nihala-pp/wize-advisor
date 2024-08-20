@@ -484,7 +484,7 @@ input[type="file"]:before {
   position: absolute;
   display: block;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 
   /* Add here your design... */
   background-color: #000;
