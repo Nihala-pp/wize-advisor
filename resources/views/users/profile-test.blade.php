@@ -376,7 +376,7 @@ img {
 .elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000000;
     padding-right: 20px;
-    padding-left: 85qwqpx;
+    padding-left: 85px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
