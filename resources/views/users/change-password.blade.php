@@ -2,8 +2,9 @@
 <html lang="en">
 
 @include('partials.web-header-new')
+
 <head>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 </head>
 
 <body
@@ -25,7 +26,17 @@
                                 <form method="POST" action="{{ route('user.password.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
-                                    <div class="input-group input-group-dynamic mb-4">
+                                    <div class="mb-3">
+                                        <label for="validationCustom03" class="form-label">Password </label>
+                                        <input type="password" name="password" class="form-control"
+                                            id="validationCustom03">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="validationCustom04" class="form-label">Confirm Password</label>
+                                        <input type="password" name="password_confirmation" class="form-control"
+                                            id="validationCustom04">
+                                    </div>
+                                    <!-- <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Password</label>
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror" name="password"
@@ -41,7 +52,7 @@
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" autocomplete="current-password">
-                                    </div>
+                                    </div> -->
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
