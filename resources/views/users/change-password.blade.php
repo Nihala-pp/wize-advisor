@@ -16,8 +16,8 @@
                 <div class="col-8 col-lg-8 m-auto">
                     <div class="card">
                         <!-- <div class="card-header"> -->
-                                <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Change Password @else
-                                    Change Password @endif</h6>
+                        <h6 class="text-white text-capitalize ps-3">@if(!empty($data)) Change Password @else
+                            Change Password @endif</h6>
                         <!-- </div> -->
                         <div class="card-body">
                             <div class="row">
@@ -68,9 +68,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
 </body>
 <style>
+.card {
+    border-radius: 15px;
+    padding-top: 30px;
+    background: linear-gradient(to right, #434343, #000000);
+}
+
 body {
-    background-color:#000;
-} 
+    background-color: #000;
+}
 
 i.fas.fa-chevron-down {
     font-size: 9px !important;
@@ -89,16 +95,12 @@ i.fas.fa-chevron-down {
     background-color: #000;
 }
 
-.card {
-    background: linear-gradient(to right, #434343, #000000);
-}
-
 .form-control:focus {
     color: #fff;
     background-color: #000;
     border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
 }
 
 @media(max-width:480px) {
