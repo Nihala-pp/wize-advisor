@@ -95,6 +95,14 @@ i.fas.fa-chevron-down {
     background-color: #000;
 }
 
+.form-control:focus {
+    color: #fff;
+    background-color: #000;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+
 @media(max-width:480px) {
     .col-4 {
         width: 100% !important;
