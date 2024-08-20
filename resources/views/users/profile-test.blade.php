@@ -321,13 +321,14 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-control" data-width="100%"
-                                        id="validationCustom06" aria-label=".form-select-lg example" required>
+                                    <select name="timezone" class="selectpicker form-control" data-width="100%"
+                                        id="validationCustom06" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
                                         <option value="{{ $zone }}"
                                             {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
-                                            {{ $zone }}</option>
+                                            {{ $zone }}
+                                        </option>
                                         @endforeach
                                     </select>
                                     <div class="invalid-feedback">
