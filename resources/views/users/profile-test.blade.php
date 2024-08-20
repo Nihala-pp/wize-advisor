@@ -321,7 +321,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-control form-select-lg mb-3" data-width="100%"
+                                    <select name="timezone" class="form-control" data-width="100%"
                                         id="validationCustom06" aria-label=".form-select-lg example" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
@@ -334,31 +334,6 @@
                                         Please choose a Timezone.
                                     </div>
                                 </div>
-                                <!-- <div class="mb-3">
-                                    <label for="validationCustom09" class="form-label">Profile Pic</label>
-                                    @if ($data->metaData && $data->metaData->profile_pic)
-                                    <img src="{{ asset('public/assets/img') }}/{{ $data->metaData->profile_pic }}"
-                                        height="50px;" width="50px;">
-                                    @else
-                                    <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                        height="50px;" width="50px;">
-                                    @endif
-                                    <input type="file" id="validationCustom09" name="profile_pic" class="form-control"
-                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}" @php
-                                        if($data->metaData && $data->metaData->profile_pic)
-                                    {
-                                    $validation = '';
-                                    }
-                                    else {
-                                    $validation = 'required';
-                                    }
-                                    echo $validation;
-                                    @endphp
-                                    >
-                                    <div class="invalid-feedback">
-                                        Please choose a Profile Pic.
-                                    </div>
-                                </div> -->
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                             </form>
