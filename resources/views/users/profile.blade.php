@@ -502,7 +502,7 @@ i.fas.fa-bell.fa-2xl {
     margin-top: -100px;
     font-size: 32px !important;
     color: #000;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
