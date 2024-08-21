@@ -132,10 +132,14 @@ h6 {
     font-size: 20px;
 }
 
+button#submitform.btn.btn-primary.savePassword {
+    text-transform: capitalize !important;
+}
+
 @media (max-width: 767px) {
     button#submitform.btn.btn-primary.savePassword {
         margin-left: 50px;
-        text-transform: capitalize !important;
+        text-transform: capitalize !important;w
     }
 
     h6 {
