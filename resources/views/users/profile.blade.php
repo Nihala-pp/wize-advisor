@@ -472,8 +472,8 @@ h3 {
     font-size: 14px;
 }
 
-.elementor-icon-box-title {
-
+.elementor-icon-box-description a {
+  color:#007bff !important
 }
 
 
