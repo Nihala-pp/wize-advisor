@@ -567,7 +567,7 @@ i.fas.fa-bell.fa-2xl {
 } */
 
 .rounded-circle {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
     height: auto;
     max-width: 100%;
