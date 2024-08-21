@@ -311,7 +311,7 @@
                                         data-live-search="true" data-width="100%" id="validationCustom07" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
-                                        $expt = $data->metaData ? json_decode($data->metaDawta->expertise) : '';
+                                        $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
                                         @endphp
                                         @if(!empty($expt))
                                         @foreach($expt as $exp)
