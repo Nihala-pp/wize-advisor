@@ -129,7 +129,7 @@ i.fas.fa-chevron-down {
 }
 
 h6 {
-    font-size: 20px;w
+    font-size: 20px;
 }
 
 @media (max-width: 767px) {
