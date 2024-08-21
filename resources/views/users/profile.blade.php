@@ -367,7 +367,7 @@
     </script>
 </body>
 <style>
-Q label {
+label {
     color: #fff !important;
 }
 
