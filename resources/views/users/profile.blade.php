@@ -268,7 +268,7 @@
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom01">Full Name </label>
+                                    <label for="validationCustom01" class="form-label">Full Name </label>
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
                                         value="{{ $data->name ? : '' }}" required>
                                     <div class="invalid-feedback">
@@ -276,7 +276,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom02">Email </label>
+                                    <label for="validationCustom02" class="form-label">Email </label>
                                     <input type="email" name="email" class="form-control" id="validationCustom02"
                                         value="{{ $data->email ? : '' }}" required>
                                     <div class="invalid-feedback">
@@ -284,22 +284,22 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom03">Company Name</label>
+                                    <label for="validationCustom03" class="form-label">Company Name</label>
                                     <input type="text" name="company_name" class="form-control" id="validationCustom03"
                                         value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom04">Designation</label>
+                                    <label for="validationCustom04" class="form-label">Designation</label>
                                     <input type="text" name="designation" class="form-control" id="validationCustom04"
                                         value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom05">Linked-In Url</label>
+                                    <label for="validationCustom05" class="form-label">Linked-In Url</label>
                                     <input type="url" name="linked_in" class="form-control" id="validationCustom05"
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom07">Expertise</label>
+                                    <label for="validationCustom07" class="form-label">Expertise</label>
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
@@ -327,7 +327,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom06">Timezone</label>
+                                    <label for="validationCustom06" class="form-label">Timezone</label>
                                     <select class="selectpicker form-control" data-live-search="true" data-width="100%"
                                         id="validationCustom06" name="timezone" required>
                                         <option value="">Choose Your Timezone</option>
