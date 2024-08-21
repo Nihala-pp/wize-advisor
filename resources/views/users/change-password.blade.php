@@ -51,7 +51,8 @@
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" autocomplete="current-password">
                                     </div> -->
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary savePassword"><i
+                                    <button type="submit" name="submitform" id="submitform"
+                                        class="btn btn-primary savePassword"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
                             </div>
@@ -75,7 +76,7 @@
 }
 
 .btn-primary {
-    --mdb-btn-box-shadow:000 !important;
+    --mdb-btn-box-shadow: 000 !important;
     color: #fff;
     background-color: #000 !important;
     border-color: #434343 !important;
@@ -83,14 +84,16 @@
 }
 
 .savePasswordw {
-    box-shadow: #000 !important;s
+    box-shadow: #000 !important;
+    s
 }
 
 .btn-primary:hover {
     color: #fff;
     background-color: #000 !important;
     border-color: #434343 !important;
-    box-shadow: #000 !important;W
+    box-shadow: #000 !important;
+    W
 }
 
 body {
@@ -127,9 +130,13 @@ h6 {
 }
 
 @media (max:width: 767px) {
-   #submitform {
-     margin-left:50px;
-   }
+    #submitform {
+        margin-left: 50px;
+    }
+
+    h6 {
+        margin-left: 15px;
+    }
 }
 
 @media(max-width:480px) {
