@@ -504,7 +504,7 @@ h3 {
     font-size: 13px;
 }
 
-button #submitform {
+button#submitform.btn.btn-primary {
     background: linear-gradient(to right, #434343, #000000);
 }
 
