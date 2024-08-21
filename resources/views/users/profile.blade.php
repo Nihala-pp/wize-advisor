@@ -378,13 +378,7 @@
     $('select').selectpicker();
     </script>
 </body>
-<style>
-body,
-html {
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
+<style>Q
 label {
     color: #fff !important;
 }
