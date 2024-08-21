@@ -6,7 +6,7 @@
     <meta name='robots' content='max-image-preview:large' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css">
     <link rel='stylesheet' id='elementor-preview-8222-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async> -->
@@ -60,7 +60,7 @@
                                                     <input type="file" id="validationCustom09" name="profile_pic"
                                                         class="form-control photo"
                                                         value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}">
-                                                        <!-- @php 
+                                                    <!-- @php 
                                                         if($data->metaData && $data->metaData->profile_pic)
                                                     {
                                                     $validation = '';
@@ -304,7 +304,8 @@
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom07" class="form-label">Expertise you are looking for ?</label>
+                                    <label for="validationCustom07" class="form-label">Expertise you are looking for
+                                        ?</label>
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
@@ -360,8 +361,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+
     <script type="text/javascript">
-    $('select').selectpicker();
+      $('select').selectpicker();
     </script>
 </body>
 <style>
@@ -506,7 +508,7 @@ h3 {
 }
 
 button#submitform.btn.btn-primary {
-    border-color:#000;
+    border-color: #000;
     background-color: #000;
     padding-right: 18px;
     margin-left: 10px;
@@ -620,7 +622,7 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 767px) {
 
     #submitform {
-        margin-left:100px;
+        margin-left: 100px;
     }
 
     .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
