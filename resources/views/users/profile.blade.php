@@ -275,7 +275,7 @@
                                         Please Enter your Name.
                                     </div>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom02">Email </label>
                                     <input type="email" name="email" class="form-control" id="validationCustom02"
                                         value="{{ $data->email ? : '' }}" required>
@@ -283,22 +283,22 @@
                                         Please Enter your Email.
                                     </div>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom03">Company Name</label>
                                     <input type="text" name="company_name" class="form-control" id="validationCustom03"
                                         value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom04">Designation</label>
                                     <input type="text" name="designation" class="form-control" id="validationCustom04"
                                         value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom05">Linked-In Url</label>
                                     <input type="url" name="linked_in" class="form-control" id="validationCustom05"
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom07">Expertise</label>
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
@@ -326,7 +326,7 @@
                                         Please choose Expertise.
                                     </div>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom06">Timezone</label>
                                     <select class="selectpicker form-control" data-live-search="true" data-width="100%"
                                         id="validationCustom06" name="timezone" required>
