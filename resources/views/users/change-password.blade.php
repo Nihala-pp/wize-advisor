@@ -139,7 +139,7 @@ button#submitform.btn.btn-primary.savePassword {
 @media (max-width: 767px) {
     button#submitform.btn.btn-primary.savePassword {
         margin-left: 50px;
-        text-transform: capitalize !important;w
+        text-transform: capitalize !important;
     }
 
     h6 {
