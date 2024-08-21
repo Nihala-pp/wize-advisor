@@ -280,68 +280,78 @@
                             <div class="form-group row">
                                 <label for="validationCustom02" class="col-sm-2 col-form-label">Email </label>
                                 <div class="col-sm-10">
-                                <input type="email" name="email" class="form-control" id="validationCustom02"
-                                    value="{{ $data->email ? : '' }}" required>
+                                    <input type="email" name="email" class="form-control" id="validationCustom02"
+                                        value="{{ $data->email ? : '' }}" required>
                                 </div>
                                 <div class="invalid-feedback">
                                     Please Enter your Email.
                                 </div>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="validationCustom03" class="form-label">Company Name</label>
-                                <input type="text" name="company_name" class="form-control" id="validationCustom03"
-                                    value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
+                            <div class="form-group row">
+                                <label for="validationCustom03" class="col-sm-2 col-form-label">Company Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="company_name" class="form-control" id="validationCustom03"
+                                        value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
+                                </div>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="validationCustom04" class="form-label">Designation</label>
-                                <input type="text" name="designation" class="form-control" id="validationCustom04"
-                                    value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
+                            <div class="form-group row">
+                                <label for="validationCustom04" class="col-sm-2 col-form-label">Designation</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="designation" class="form-control" id="validationCustom04"
+                                        value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
+                                </div>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="validationCustom05" class="form-label">Linked-In Url</label>
-                                <input type="url" name="linked_in" class="form-control" id="validationCustom05"
-                                    value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
+                            <div class="form-group row">
+                                <label for="validationCustom05" class="col-sm-2 col-form-label">Linked-In Url</label>
+                                <div class="col-sm-10">
+                                    <input type="url" name="linked_in" class="form-control" id="validationCustom05"
+                                        value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
+                                </div>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="validationCustom07" class="form-label">Expertise</label>
-                                <select class="selectpicker form-control" multiple data-live-search="true"
-                                    data-width="100%" id="validationCustom07" name="expert[]" required>
-                                    <option value="">Choose Your Expertise</option>
-                                    @php
-                                    $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
-                                    @endphp
-                                    @if(!empty($expt))
-                                    @foreach($expt as $exp)
-                                    @foreach($expertise as $key => $expert)
-                                    <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
-                                        {{ $expert }}
-                                    </option>
-                                    @endforeach
-                                    @endforeach
-                                    @else
-                                    @foreach($expertise as $key => $expert)
-                                    <option value="{{ $expert }}">
-                                        {{ $expert }}
-                                    </option>
-                                    @endforeach
-                                    @endif
-                                </select>
+                            <div class="form-group row">
+                                <label for="validationCustom07" class="col-sm-2 col-form-label">Expertise</label>
+                                <div class="col-sm-10">
+                                    <select class="selectpicker form-control" multiple data-live-search="true"
+                                        data-width="100%" id="validationCustom07" name="expert[]" required>
+                                        <option value="">Choose Your Expertise</option>
+                                        @php
+                                        $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
+                                        @endphp
+                                        @if(!empty($expt))
+                                        @foreach($expt as $exp)
+                                        @foreach($expertise as $key => $expert)
+                                        <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
+                                            {{ $expert }}
+                                        </option>
+                                        @endforeach
+                                        @endforeach
+                                        @else
+                                        @foreach($expertise as $key => $expert)
+                                        <option value="{{ $expert }}">
+                                            {{ $expert }}
+                                        </option>
+                                        @endforeach
+                                        @endif
+                                    </select>
+                                </div>
                                 <div class="invalid-feedback">
                                     Please choose Expertise.
                                 </div>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="validationCustom06" class="form-label">Timezone</label>
-                                <select class="selectpicker form-control" data-live-search="true" data-width="100%"
-                                    id="validationCustom06" name="timezone" required>
-                                    <option value="">Choose Your Timezone</option>
-                                    @foreach($timezone as $zone => $time)
-                                    <option value="{{ $zone }}"
-                                        {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
-                                        {{ $zone }}
-                                    </option>
-                                    @endforeach
-                                </select>
+                            <div class="form-group row">
+                                <label for="validationCustom06" class="col-sm-2 col-form-label">Timezone</label>
+                                <div class="col-sm-10">
+                                    <select class="selectpicker form-control" data-live-search="true" data-width="100%"
+                                        id="validationCustom06" name="timezone" required>
+                                        <option value="">Choose Your Timezone</option>
+                                        @foreach($timezone as $zone => $time)
+                                        <option value="{{ $zone }}"
+                                            {{ $zone == $data->metaData->timezone  ? 'selected' : '' }}>
+                                            {{ $zone }}
+                                        </option>
+                                        @endforeach
+                                    </select>
+                                </div>
                                 <div class="invalid-feedback">
                                     Please choose a Timezone.
                                 </div>
