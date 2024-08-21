@@ -498,9 +498,10 @@ i.fas.fa-chevron-down {
 }
 
 i.fas.fa-bell.fa-2xl {
+    margin-top: -100px;
     font-size: 32px !important;
     color: #000;
-    padding-left:10px;
+    padding-right: 15px;
 }
 
 .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
@@ -559,11 +560,11 @@ i.fas.fa-bell.fa-2xl {
     font-size: 8px;
 }
 
-i.fas.fa-bell.fa-2xl {
+/* i.fas.fa-bell.fa-2xl {
     font-size: 27px !important;
     color: #000;
     padding-left: 10px;
-}
+} */
 
 .rounded-circle {
     margin-top: 10px;
