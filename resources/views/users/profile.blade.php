@@ -300,14 +300,14 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom05" class="form-label">Linked-In Url</label>
-                                    <input type="url" name="linked_in" class="form-control" id="validationCustom05"
+                                    <input type="url" name="linked_in" class="form-control" id="validationCustom05"s
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom07" class="form-label">Expertise you are looking for
                                         ?</label>
-                                    <select class="selectpicker form-control" multiple data-live-search="true"
-                                        data-width="100%" id="validationCustom07" name="expert[]" required>
+                                    <select name="expert[]" class="selectpicker form-control" multiple data-live-search="true"
+                                        data-width="100%" id="validationCustom07" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
                                         $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
@@ -334,8 +334,8 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select class="selectpicker form-control" data-live-search="true" data-width="100%"
-                                        id="validationCustom06" name="timezone" required>
+                                    <select name="timezone" class="selectpicker form-control" data-live-search="true" data-width="100%"
+                                        id="validationCustom06"  required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
                                         <option value="{{ $zone }}"
