@@ -502,7 +502,8 @@ i.fas.fa-bell.fa-2xl {
     margin-top: -100px;
     font-size: 32px !important;
     color: #000;
-a}
+    margin-right:15px;q
+}
 
 .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
