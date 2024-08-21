@@ -591,6 +591,10 @@ i.fas.fa-bell.fa-2xl {
         width: 100% !important;
     }
 
+    .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8b1b580 {
+        width: 100% !important;
+    }
+w
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
