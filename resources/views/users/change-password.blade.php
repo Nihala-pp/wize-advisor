@@ -135,7 +135,7 @@ h6 {
 @media (max-width: 767px) {
     #submitform {
         margin-left: 50px;
-        text-transform: capitalize;
+        text-transform: capitalize !important;
     }
 
     h6 {
