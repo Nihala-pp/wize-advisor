@@ -504,6 +504,10 @@ h3 {
     font-size: 13px;
 }
 
+button {
+    background: linear-gradient(to right, #434343, #000000);
+}
+
 
 /***  header ***/
 
