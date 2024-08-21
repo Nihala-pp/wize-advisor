@@ -129,10 +129,10 @@ h6 {
     font-size: 20px;
 }
 
-@media (max:width: 767px) {
+@media (max-width: 767px) {
     #submitform {
         margin-left: 50px;
-    }w
+    }
 
     h6 {
         margin-left: 15px !important;
