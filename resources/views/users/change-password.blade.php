@@ -125,6 +125,11 @@ i.fas.fa-chevron-down {
 h6 {
     font-size: 20px;
 }
+
+@media (max:width: 767px) {
+  margin-left:50px
+}
+
 @media(max-width:480px) {
     .col-4 {
         width: 100% !important;
