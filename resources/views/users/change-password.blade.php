@@ -100,7 +100,7 @@
 
        function validate_pass() {
 
-        // var myInput = document.getElementById("password");
+        var password = document.getElementById("password");
         var letter = document.getElementById("letter");
         var capital = document.getElementById("capital");
         var length = document.getElementById("length");
