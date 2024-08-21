@@ -403,6 +403,7 @@ img {
 .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
     margin-left: 30px;
     margin-right: 30px;
+    margin-top:30px;
     /* margin-right: 60px; */
 }
 
