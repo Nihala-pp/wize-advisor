@@ -370,7 +370,7 @@
     </script>
     <script type="text/javascript">
     $(function() {
-        $('select').selectpicker();a
+        $('select').selectpicker();
     });
     </script>
 </body>
