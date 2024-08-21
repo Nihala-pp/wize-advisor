@@ -76,9 +76,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-elementq elementor-element-80e2a2d elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                                <div class="elementor-element elementor-element-80e2a2d elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
                                     data-id="80e2a2d" data-element_type="widget" data-widget_type="icon-box.default"
-                                    style="margin-bottom:10px;margin-top:-20px !important">
+                                    style="margin-bottom:10px;margin-top:-20px !important; margin-left:10px;">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-icon-box-wrapper">
 
@@ -379,7 +379,7 @@ img {
     margin-bottom: 15px;
 }
 
-.elementor-elementq .elementor-element-80e2a2d .elementor-position-left .elementor-view-default .elementor-mobile-position-top .elementor-vertical-align-top .elementor-widget .elementor-widget-icon-box {
+.elementor-element .elementor-element-80e2a2d .elementor-position-left .elementor-view-default .elementor-mobile-position-top .elementor-vertical-align-top .elementor-widget .elementor-widget-icon-box {
     margin-left: 10px !important;
 }
 
