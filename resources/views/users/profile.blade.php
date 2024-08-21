@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-US">
 @include('partials.web-header-new')
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -268,8 +269,10 @@
                             <input Stype="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-group row">
                                 <label for="validationCustom01" class="form-label">Full Name </label>
-                                <input type="text" name="name" class="form-control" id="validationCustom01"
-                                    value="{{ $data->name ? : '' }}" required>
+                                <div class="col-sm-10">
+                                    <input type="text" name="name" class="form-control" id="validationCustom01"
+                                        value="{{ $data->name ? : '' }}" required>
+                                </div>
                                 <div class="invalid-feedback">
                                     Please Enter your Name.
                                 </div>
