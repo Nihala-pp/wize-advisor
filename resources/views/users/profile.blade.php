@@ -6,8 +6,8 @@
     <meta name='robots' content='max-image-preview:large' />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css"> -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css"> -->
     <link rel='stylesheet' id='elementor-preview-8222-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8108.css?ver=1723472779' media='all' />
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async> -->
@@ -307,7 +307,7 @@
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom07" class="form-label">Expertise you are looking for
                                         ?</label>
-                                    <select name="expert[]" class="form-control" multiple
+                                    <select name="expert[]" class="selectpicker form-control" multiple
                                         data-live-search="true" data-width="100%" id="validationCustom07" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
