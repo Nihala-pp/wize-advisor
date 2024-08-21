@@ -500,6 +500,7 @@ i.fas.fa-chevron-down {
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
     color: #000;
+    padding-left:10px;
 }
 
 .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
