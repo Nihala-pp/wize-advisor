@@ -339,7 +339,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
        </script>
        <?php
 
-  return redirect()->route('user.change-password')->with($notification, 'Password Updated Successfully!');
+    return redirect()->route('user.change-password')->with($notification, 'Password Updated Successfully!');
   }
 
   public function listReviews()
