@@ -132,10 +132,10 @@ h6 {
 @media (max:width: 767px) {
     #submitform {
         margin-left: 50px;
-    }
+    }w
 
     h6 {
-        margin-left: 15px;
+        margin-left: 15px !important;
     }
 }
 
