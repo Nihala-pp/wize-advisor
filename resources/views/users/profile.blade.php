@@ -269,7 +269,7 @@
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-group row">
                                 <label for="validationCustom01" class="form-label">Full Name </label>
-                                <div class="col-sm-10">
+                                <div class="col-sm-12">
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
                                         value="{{ $data->name ? : '' }}" required>
                                 </div>
