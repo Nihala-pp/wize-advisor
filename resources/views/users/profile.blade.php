@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name='robots' content='max-image-preview:large' />
@@ -16,6 +17,7 @@
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_header_footer page page-id-8108  wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-8108">
     @include('partials.header-common')
@@ -503,7 +505,7 @@ i.fas.fa-bell.fa-2xl {
     margin-top: -100px;
     font-size: 32px !important;
     color: #000;
-    margin-right:15px;
+    margin-right: 15px;
 }
 
 .elementor-3007 .elementor-element.elementor-element-9adafe6:not(.elementor-motion-effects-element-type-background),
@@ -599,6 +601,15 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
         margin-right: 60px;
+    }
+
+    .elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
+    .elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #000000;
+        /* padding-right: 10px; */
+        padding-left: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
