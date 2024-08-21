@@ -508,6 +508,7 @@ button#submitform.btn.btn-primary {
     border-color:#000;
     background-color: #434343;
     padding-right: 18px;
+    margin-left: 10px;
 }
 
 
