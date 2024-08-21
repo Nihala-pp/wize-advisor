@@ -740,5 +740,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>
