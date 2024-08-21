@@ -613,11 +613,21 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-8108 .elementor-element.elementor-element-7259f9a>.elementor-widget-container {
-        padding: 5px 0px 5px 50px;
+        padding: 5px 0px 5px 5px;
         border-style: solid;
         border-width: 1px 1px 1px 1px;
         border-color: #3B3B3B;
         border-radius: 5px 5px 5px 5px;
+    }
+
+    .elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title,
+    .elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title a {
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        text-transform: capitalize;
+        padding-left: 40px;
     }
 
     .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
