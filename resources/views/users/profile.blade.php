@@ -505,8 +505,8 @@ h3 {
 }
 
 button#submitform.btn.btn-primary {
-    background: linear-gradient(to right, #434343, #000000);
     border-color:#000;
+    background-color: #434343;
 }
 
 
