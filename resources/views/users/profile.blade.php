@@ -271,7 +271,7 @@
                         data-id="8b1b580" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
-                            <div class="form-row">
+                            <form class="form-row">
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom01" class="form-label">Full Name </label>
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
@@ -300,14 +300,14 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom05" class="form-label">Linked-In Url</label>
-                                    <input type="url" name="linked_in" class="form-control" id="validationCustom05"s
+                                    <input type="url" name="linked_in" class="form-control" id="validationCustom05" s
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom07" class="form-label">Expertise you are looking for
                                         ?</label>
-                                    <select name="expert[]" class="selectpicker form-control" multiple data-live-search="true"
-                                        data-width="100%" id="validationCustom07" required>
+                                    <select name="expert[]" class="selectpicker form-control" multiple
+                                        data-live-search="true" data-width="100%" id="validationCustom07" required>
                                         <option value="">Choose Your Expertise</option>
                                         @php
                                         $expt = $data->metaData ? json_decode($data->metaData->expertise) : '';
@@ -334,8 +334,8 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="selectpicker form-control" data-live-search="true" data-width="100%"
-                                        id="validationCustom06"  required>
+                                    <select name="timezone" class="selectpicker form-control" data-live-search="true"
+                                        data-width="100%" id="validationCustom06" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
                                         <option value="{{ $zone }}"
@@ -350,12 +350,13 @@
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
     @include('partials.web-script')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -363,7 +364,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 
     <script type="text/javascript">
-      $('select').selectpicker();
+    $('select').selectpicker();
     </script>
 </body>
 <style>
