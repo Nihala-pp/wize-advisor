@@ -686,6 +686,12 @@ i.fas.fa-bell.fa-2xl {
         background-color: #fff;
         color: #001E64 !important;
     }
+
+    .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-wrapper {
+        /* display: block; */
+        /* text-align: center; */
+        flex-direction: unset;
+    }
 }
 
 @media (max-width: 320px) {}
