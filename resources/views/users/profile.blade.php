@@ -304,7 +304,7 @@
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="validationCustom07" class="form-label">Expertise</label>
+                                    <label for="validationCustom07" class="form-label">Expertise you are looking for ?</label>
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
