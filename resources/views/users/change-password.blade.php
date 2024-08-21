@@ -31,7 +31,7 @@
                                     <div class="mb-3">
                                         <label for="validationCustom03" class="form-label">Password </label>
                                         <input type="password" name="password" class="form-control"
-                                            id="validationCustom03"  pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                            id="validationCustom03" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                             title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters">
                                         <div id="message">
                                             <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
@@ -88,8 +88,54 @@
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
 
-        validate_pass();
 
+        function validate_pass() {
+            var letter = document.getElementById("letter");
+            var capital = document.getElementById("capital");
+            var length = document.getElementById("length");
+
+            // When the user clicks on the password field, show the message box
+            password.onfocus = function() {
+                document.getElementById("message").style.display = "block";
+            }
+
+            // When the user clicks outside of the password field, hide the message box
+            password.onblur = function() {
+                document.getElementById("message").style.display = "none";
+            }
+
+            // When the user starts to type something inside the password field
+            password.onkeyup = function() {
+                // Validate lowercase letters
+                var lowerCaseLetters = /[a-z]/g;
+                if (password.value.match(lowerCaseLetters)) {
+                    letter.classList.remove("invalid");
+                    letter.classList.add("valid");
+                } else {
+                    letter.classList.remove("valid");
+                    letter.classList.add("invalid");
+                }
+
+                // Validate capital letters
+                var upperCaseLetters = /[A-Z]/g;
+                if (password.value.match(upperCaseLetters)) {
+                    capital.classList.remove("invalid");
+                    capital.classList.add("valid");
+                } else {
+                    capital.classList.remove("valid");
+                    capital.classList.add("invalid");
+                }
+
+                // Validate length
+                if (password.value.length >= 8) {
+                    length.classList.remove("invalid");
+                    length.classList.add("valid");
+                } else {
+                    length.classList.remove("valid");
+                    length.classList.add("invalid");
+                }
+            }
+        }
 
         function validatePassword() {
             if (password.value != confirm_password.value) {
@@ -99,56 +145,6 @@
             }
         }
     });
-
-       function validate_pass() {
-
-        var password = document.getElementById("password");
-        var letter = document.getElementById("letter");
-        var capital = document.getElementById("capital");
-        var length = document.getElementById("length");
-
-        // When the user clicks on the password field, show the message box
-        password.onfocus = function() {
-            document.getElementById("message").style.display = "block";
-        }
-
-        // When the user clicks outside of the password field, hide the message box
-        password.onblur = function() {
-            document.getElementById("message").style.display = "none";
-        }
-
-        // When the user starts to type something inside the password field
-        password.onkeyup = function() {
-            // Validate lowercase letters
-            var lowerCaseLetters = /[a-z]/g;
-            if (password.value.match(lowerCaseLetters)) {
-                letter.classList.remove("invalid");
-                letter.classList.add("valid");
-            } else {
-                letter.classList.remove("valid");
-                letter.classList.add("invalid");
-            }
-
-            // Validate capital letters
-            var upperCaseLetters = /[A-Z]/g;
-            if (password.value.match(upperCaseLetters)) {
-                capital.classList.remove("invalid");
-                capital.classList.add("valid");
-            } else {
-                capital.classList.remove("valid");
-                capital.classList.add("invalid");
-            }
-
-            // Validate length
-            if (password.value.length >= 8) {
-                length.classList.remove("invalid");
-                length.classList.add("valid");
-            } else {
-                length.classList.remove("valid");
-                length.classList.add("invalid");
-            }
-        }
-    }
     </script>
 </body>
 <style>
@@ -381,7 +377,7 @@ button#submitform.btn.btn-primary.savePassword {
     /* padding: 5px 10px; */
     font-size: 10px;
     margin-bottom: -5px;
-    padding-left:5px;
+    padding-left: 5px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
@@ -406,4 +402,5 @@ button#submitform.btn.btn-primary.savePassword {
     content: "✖";
 }
 </style>
+
 </html>
