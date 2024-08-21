@@ -507,7 +507,7 @@ h3 {
 
 button#submitform.btn.btn-primary {
     border-color:#000;
-    background-color: #434343;
+    background-color: #000;
     padding-right: 18px;
     margin-left: 10px;
 }
