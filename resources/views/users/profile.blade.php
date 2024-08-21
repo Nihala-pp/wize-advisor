@@ -266,7 +266,7 @@
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b1b580"
                         data-id="8b1b580" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
-                            <input Stype="hidden" name="row_id" value="{{ $data->id ? : '' }}">
+                            <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-group row">
                                 <label for="validationCustom01" class="form-label">Full Name </label>
                                 <div class="col-sm-10">
