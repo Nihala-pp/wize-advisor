@@ -59,8 +59,9 @@
                                                 <p class="elementor-icon-box-description">
                                                     <input type="file" id="validationCustom09" name="profile_pic"
                                                         class="form-control photo"
-                                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
-                                                        @php if($data->metaData && $data->metaData->profile_pic)
+                                                        value="{{ $data->metaData ? $data->metaData->profile_pic : '' }}">
+                                                        <!-- @php 
+                                                        if($data->metaData && $data->metaData->profile_pic)
                                                     {
                                                     $validation = '';
                                                     }
@@ -68,8 +69,7 @@
                                                     $validation = 'required';
                                                     }
                                                     echo $validation;
-                                                    @endphp
-                                                    >
+                                                    @endphp -->
                                                     <!-- <label for="validationCustom09" style="color:#007bff;">Change profile picture</label> -->
                                                 </p>
                                             </div>
