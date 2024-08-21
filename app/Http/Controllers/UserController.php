@@ -285,13 +285,20 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
     $user->notify(new profileUpdate($user));
 
-    $notification = array(
-      'message' => 'Profile Updated Successfully!',
-      'alert-type' => 'success'
-    );
+    // $notification = array(
+    //   'message' => 'Profile Updated Successfully!',
+    //   'alert-type' => 'success'
+    // );
 
-    return redirect()->route('user.profile', [$request->row_id])
-      ->with($notification, 'Profile Updated Successfully!');
+    ?>
+       <script type="text/javascript">
+       alert("Profile Updated Successfully!");
+       window.location.href = "{{ route('user.profile', [$request->row_id]) }}";
+       </script>
+       <?php
+
+    // return redirect()->route('user.profile', [$request->row_id])
+    //   ->with('Profile Updated Successfully!');
   }
 
   public function changePassword()
