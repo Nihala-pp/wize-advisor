@@ -335,7 +335,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="selectpicker form-control" data-live-search="true"
+                                    <select name="timezone" class="selectpicker form-control timezone" data-live-search="true"
                                         data-width="100%" id="validationCustom06" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
@@ -372,6 +372,8 @@
     (function($) {
         $(document).ready(function() {
             $('select').selectpicker();
+
+            $('.timezone').val();
         });
     }(jQuery));
     </script>
