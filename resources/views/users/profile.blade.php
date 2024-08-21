@@ -628,6 +628,12 @@ i.fas.fa-bell.fa-2xl {
         padding-bottom: 50px;
     }
 
+    .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-wrapper {
+        /* display: block; */
+        text-align: center;
+        flex-direction: unset;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
