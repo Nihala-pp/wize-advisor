@@ -129,11 +129,11 @@ i.fas.fa-chevron-down {
 }
 
 h6 {
-    font-size: 20px;
+    font-size: 20px;w
 }
 
 @media (max-width: 767px) {
-    #submitform {
+    button#submitform.btn.btn-primary.savePassword {
         margin-left: 50px;
         text-transform: capitalize !important;
     }
