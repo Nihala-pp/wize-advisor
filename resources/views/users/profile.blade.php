@@ -373,7 +373,7 @@
         $(document).ready(function() {
             $('select').selectpicker();
 
-            $('.timezone').val();
+            alert($('.timezone').val());
         });
     }(jQuery));
     </script>
