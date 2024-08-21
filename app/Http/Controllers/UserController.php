@@ -330,8 +330,15 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
       'alert-type' => 'success'
     );
 
-    return redirect()->route('user.change-password')
-      ->with($notification, 'Password Updated Successfully!');
+    ?>
+       <script type="text/javascript">
+       alert("Password Updated Successfully!");
+       window.location.href = "{{ route('user.change-password') }}";
+       </script>
+       <?php
+
+    // return redirect()->route('user.change-password')
+    //   ->with($notification, 'Password Updated Successfully!');
   }
 
   public function listReviews()
