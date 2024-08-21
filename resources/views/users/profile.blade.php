@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <meta name='robots' content='max-image-preview:large' />
