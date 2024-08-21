@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -360,6 +361,12 @@
     </script>
 </body>
 <style>
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}w
+
 label {
     color: #fff !important;
 }
@@ -473,7 +480,7 @@ h3 {
 }
 
 .elementor-icon-box-description a {
-  color:#007bff !important
+    color: #007bff !important
 }
 
 
