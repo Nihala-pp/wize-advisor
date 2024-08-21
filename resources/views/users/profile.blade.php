@@ -400,6 +400,12 @@ img {
     border-radius: 5px 5px 5px 5px;
 }
 
+.elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
+    margin-left: 30px;
+    margin-right: 30px;
+    /* margin-right: 60px; */
+}
+
 .form-control {
     color: #fff !important;
     background-color: #000 !important;
@@ -615,9 +621,9 @@ i.fas.fa-bell.fa-2xl {
         width: 100% !important;
     }
 
-    .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
+    /* .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
         margin-right: 60px;
-    }
+    } */
 
     .elementor-8108 .elementor-element.elementor-element-658d30a:not(.elementor-motion-effects-element-type-background),
     .elementor-8108 .elementor-element.elementor-element-658d30a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
