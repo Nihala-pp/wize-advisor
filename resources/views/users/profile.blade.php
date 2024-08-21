@@ -620,6 +620,14 @@ i.fas.fa-bell.fa-2xl {
         border-radius: 5px 5px 5px 5px;
     }
 
+    .elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-description {
+        color: #609DFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 45px;
+    }
+
     .elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title,
     .elementor-8108 .elementor-element.elementor-element-7259f9a .elementor-icon-box-title a {
         font-family: "Helvetica", Sans-serif;
@@ -627,7 +635,15 @@ i.fas.fa-bell.fa-2xl {
         font-size: 18px;
         color: #fff;
         text-transform: capitalize;
-        padding-left: 40px;
+        padding-left: 70qpx;
+    }
+
+    .elementor-8108 .elementor-element.elementor-element-80e2a2d .elementor-icon-box-title,
+    .elementor-8108 .elementor-element.elementor-element-80e2a2d .elementor-icon-box-title a {
+        font-family: "Helvetica", Sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 30px;
     }
 
     .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
