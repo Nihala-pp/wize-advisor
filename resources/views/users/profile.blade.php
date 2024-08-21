@@ -447,8 +447,8 @@ img {
 .photo {
     border: none;
     color: #fff !important;
-    padding: 0rem 0rem;
-    font-size: 12px;
+    padding: 0px 0px;
+    font-size: 9px;
     background-color: #000 !important;
 }
 
