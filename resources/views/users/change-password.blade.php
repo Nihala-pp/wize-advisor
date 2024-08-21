@@ -31,7 +31,7 @@
                                     <div class="mb-3">
                                         <label for="validationCustom03" class="form-label">Password </label>
                                         <input type="password" name="password" class="form-control"
-                                            id="validationCustom03" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                            id="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                             title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters">
                                         <div id="message">
                                             <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
@@ -45,7 +45,7 @@
                                     <div class="mb-3">
                                         <label for="validationCustom04" class="form-label">Confirm Password</label>
                                         <input type="password" name="password_confirmation" class="form-control"
-                                            id="validationCustom04">
+                                            id="password-confirm">
                                     </div>
                                     <!-- <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Password</label>
