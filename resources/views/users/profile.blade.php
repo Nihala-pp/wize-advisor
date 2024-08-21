@@ -370,8 +370,6 @@
     (function($) {
         $(document).ready(function() {
             $('select').selectpicker();
-
-            alert($('.timezone').val());
         });
     }(jQuery));
     </script>
