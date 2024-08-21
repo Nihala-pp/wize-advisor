@@ -481,7 +481,8 @@ h3 {
 }
 
 .elementor-icon-box-description a {
-    color: #007bff !important
+    color: #007bff !important;
+    font-size: 13px;
 }
 
 
