@@ -56,8 +56,7 @@
                                             name="password_confirmation" autocomplete="current-password">
                                     </div> -->
                                     <button type="submit" name="submitform" id="submitform"
-                                        class="btn btn-primary savePassword"><i
-                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                        class="btn btn-primary savePassword">{{ __('Save') }}</button>
                                 </form>
                             </div>
                         </div>
