@@ -607,7 +607,7 @@ i.fas.fa-bell.fa-2xl {
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
     margin-top: 55px;
     width: 25% !important;
-}q
+}
 
 @media (max-width: 767px) {
 
