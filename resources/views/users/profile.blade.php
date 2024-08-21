@@ -634,6 +634,7 @@ i.fas.fa-bell.fa-2xl {
         flex-direction: unset;
     }
 
+
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
     .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
