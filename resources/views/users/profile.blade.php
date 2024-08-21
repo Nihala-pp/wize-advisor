@@ -356,8 +356,10 @@
                                     Please choose a Timezone.
                                 </div>
                             </div>
-                            <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                    class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                            <div class="form-group row">
+                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -740,4 +742,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
