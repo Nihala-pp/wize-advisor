@@ -96,14 +96,6 @@
                 confirm_password.setCustomValidity('');
             }
         }
-
-        // var tz = jstz.determine(); 
-        // var timezone = tz.name(); 
-        var timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
-        $('body').find('.timezone').val(timezone);    
-          
-            // alert(tz.name());
     });
 
        function validate_pass() {
