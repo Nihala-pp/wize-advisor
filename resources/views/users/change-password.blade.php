@@ -31,7 +31,16 @@
                                     <div class="mb-3">
                                         <label for="validationCustom03" class="form-label">Password </label>
                                         <input type="password" name="password" class="form-control"
-                                            id="validationCustom03">
+                                            id="validationCustom03"  pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                            title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters">
+                                        <div id="message">
+                                            <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
+                                            <p id="letter" class="invalid">Must include one <b>lowercase</b>
+                                                character</p>
+                                            <p id="capital" class="invalid">Must include one <b>capital
+                                                    (uppercase)</b> character</p>
+                                            <p id="length" class="invalid">Must be atleast <b>8 characters</b></p>
+                                        </div>
                                     </div>
                                     <div class="mb-3">
                                         <label for="validationCustom04" class="form-label">Confirm Password</label>
@@ -263,5 +272,67 @@ button#submitform.btn.btn-primary.savePassword {
     }
 }
 </style>
+<style>
+/* Style all input fields */
+/* input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+} */
 
+/* Style the submit button */
+/* input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+} */
+
+/* Style the container for inputs */
+/* .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+} */
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    /* background: #f1f1f1; */
+    color: #000;
+    position: relative;
+    /* padding: 5px; */
+    /* margin-top: 10px; */
+}
+
+#message p {
+    /* padding: 5px 10px; */
+    font-size: 10px;
+    margin-bottom: -5px;
+    padding-left:5px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -5px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -5px;
+    content: "✖";
+}
+</style>
 </html>
