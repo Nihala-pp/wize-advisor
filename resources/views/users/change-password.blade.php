@@ -127,7 +127,9 @@ h6 {
 }
 
 @media (max:width: 767px) {
-  margin-left:50px
+   .savePassword {
+     margin-left:50px;
+   }
 }
 
 @media(max-width:480px) {
