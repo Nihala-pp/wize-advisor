@@ -266,50 +266,40 @@
                         data-id="8b1b580" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
-                            <div class="form-group row">
-                                <label for="validationCustom01" class="col-sm-2 col-form-label">Full Name </label>
-                                <div class="col-sm-10">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom01">Full Name </label>
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
                                         value="{{ $data->name ? : '' }}" required>
+                                    <div class="invalid-feedback">
+                                        Please Enter your Name.
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">
-                                    Please Enter your Name.
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="validationCustom02" class="col-sm-2 col-form-label">Email </label>
-                                <div class="col-sm-10">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom02">Email </label>
                                     <input type="email" name="email" class="form-control" id="validationCustom02"
                                         value="{{ $data->email ? : '' }}" required>
+                                    <div class="invalid-feedback">
+                                        Please Enter your Email.
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">
-                                    Please Enter your Email.
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="validationCustom03" class="col-sm-2 col-form-label">Company Name</label>
-                                <div class="col-sm-10">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom03">Company Name</label>
                                     <input type="text" name="company_name" class="form-control" id="validationCustom03"
                                         value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                 </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="validationCustom04" class="col-sm-2 col-form-label">Designation</label>
-                                <div class="col-sm-10">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom04">Designation</label>
                                     <input type="text" name="designation" class="form-control" id="validationCustom04"
                                         value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
                                 </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="validationCustom05" class="col-sm-2 col-form-label">Linked-In Url</label>
-                                <div class="col-sm-10">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom05">Linked-In Url</label>
                                     <input type="url" name="linked_in" class="form-control" id="validationCustom05"
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="validationCustom07" class="col-sm-2 col-form-label">Expertise</label>
-                                <div class="col-sm-10">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom07">Expertise</label>
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
                                         <option value="">Choose Your Expertise</option>
@@ -332,14 +322,12 @@
                                         @endforeach
                                         @endif
                                     </select>
+                                    <div class="invalid-feedback">
+                                        Please choose Expertise.
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">
-                                    Please choose Expertise.
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="validationCustom06" class="col-sm-2 col-form-label">Timezone</label>
-                                <div class="col-sm-10">
+                                <div class="form-group col-md-6">
+                                    <label for="validationCustom06">Timezone</label>
                                     <select class="selectpicker form-control" data-live-search="true" data-width="100%"
                                         id="validationCustom06" name="timezone" required>
                                         <option value="">Choose Your Timezone</option>
@@ -350,13 +338,13 @@
                                         </option>
                                         @endforeach
                                     </select>
+                                    <div class="invalid-feedback">
+                                        Please choose a Timezone.
+                                    </div>
                                 </div>
-                                <div class="invalid-feedback">
-                                    Please choose a Timezone.
-                                </div>
+                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                             </div>
-                            <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                    class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                         </div>
                     </div>
                 </div>
@@ -378,8 +366,8 @@
     $('select').selectpicker();
     </script>
 </body>
-<style>Q
-label {
+<style>
+Q label {
     color: #fff !important;
 }
 
