@@ -293,12 +293,12 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     ?>
        <script type="text/javascript">
        alert("Profile Updated Successfully!");
-       window.location.href = "{{ route('user.profile', [$request->row_id]) }}";
+       window.location.href = "<?php echo(route('user.profile', [$request->row_id])) ?>";
        </script>
        <?php
 
     // return redirect()->route('user.profile', [$request->row_id])
-    //   ->with('Profile Updated Successfully!');
+    //   ->with('Profile Updated Successfully!');q
   }
 
   public function changePassword()
