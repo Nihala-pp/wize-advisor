@@ -458,6 +458,7 @@ img {
     font-weight: 400;
     font-size: 18px;
     color: #fff;
+    text-transform: capitalize;
 }
 
 .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
