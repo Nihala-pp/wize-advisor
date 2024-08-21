@@ -81,13 +81,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
     $(function() {
-        validate_pass();
 
         var password = document.getElementById("password");
         var confirm_password = document.getElementById("password-confirm");
 
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
+
+        validate_pass();
+
 
         function validatePassword() {
             if (password.value != confirm_password.value) {
