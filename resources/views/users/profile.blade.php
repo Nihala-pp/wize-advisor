@@ -6,8 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel='stylesheet' id='elementor-preview-8222-css'
@@ -268,7 +267,7 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-group row">
-                                <label for="validationCustom01" class="col-form-label">Full Name </label>
+                                <label for="validationCustom01" class="col-sm-2 col-form-label">Full Name </label>
                                 <div class="col-sm-10">
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
                                         value="{{ $data->name ? : '' }}" required>
@@ -278,7 +277,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom02" class="col-form-label">Email </label>
+                                <label for="validationCustom02" class="col-sm-2 col-form-label">Email </label>
                                 <div class="col-sm-10">
                                     <input type="email" name="email" class="form-control" id="validationCustom02"
                                         value="{{ $data->email ? : '' }}" required>
@@ -288,28 +287,28 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom03" class="col-form-label">Company Name</label>
+                                <label for="validationCustom03" class="col-sm-2 col-form-label">Company Name</label>
                                 <div class="col-sm-10">
                                     <input type="text" name="company_name" class="form-control" id="validationCustom03"
                                         value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom04" class="col-form-label">Designation</label>
+                                <label for="validationCustom04" class="col-sm-2 col-form-label">Designation</label>
                                 <div class="col-sm-10">
                                     <input type="text" name="designation" class="form-control" id="validationCustom04"
                                         value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom05" class="col-form-label">Linked-In Url</label>
+                                <label for="validationCustom05" class="col-sm-2 col-form-label">Linked-In Url</label>
                                 <div class="col-sm-10">
                                     <input type="url" name="linked_in" class="form-control" id="validationCustom05"
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom07" class="col-form-label">Expertise</label>
+                                <label for="validationCustom07" class="col-sm-2 col-form-label">Expertise</label>
                                 <div class="col-sm-10">
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
@@ -339,7 +338,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom06" class="col-form-label">Timezone</label>
+                                <label for="validationCustom06" class="col-sm-2 col-form-label">Timezone</label>
                                 <div class="col-sm-10">
                                     <select class="selectpicker form-control" data-live-search="true" data-width="100%"
                                         id="validationCustom06" name="timezone" required>
@@ -356,10 +355,8 @@
                                     Please choose a Timezone.
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                            </div>
+                            <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                    class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                         </div>
                     </div>
                 </div>
