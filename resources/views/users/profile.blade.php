@@ -629,7 +629,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-wrapper {
-        /* display: block; */
+        display: flex !important;
         text-align: center;
         flex-direction: unset;
     }
