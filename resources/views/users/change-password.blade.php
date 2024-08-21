@@ -127,7 +127,7 @@ h6 {
 }
 
 @media (max:width: 767px) {
-   .savePassword {
+   #submitform {
      margin-left:50px;
    }
 }
