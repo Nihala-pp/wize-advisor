@@ -404,6 +404,7 @@ img {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 50px;
+    background: linear-gradient(to right, #434343, #000000);
     /* margin-right: 60px; */
 }
 
