@@ -302,7 +302,7 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
   public function savePassword(Request $request)
   {
     $user = User::find(Auth::id());
-     $request->validate([w
+     $request->validate([
       'password' => [
           'required',
           'confirmed',
