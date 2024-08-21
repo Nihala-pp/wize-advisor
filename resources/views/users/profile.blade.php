@@ -403,7 +403,7 @@ img {
 .elementor-8108 .elementor-element.elementor-element-8b1b580>.elementor-element-populated {
     margin-left: 30px;
     margin-right: 30px;
-    margin-top:50px;
+    margin-top: 50px;
     /* margin-right: 60px; */
 }
 
@@ -605,6 +605,12 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
+
+    .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
+        margin-left: 65px;
+        margin-right: 50px;
+        width: 100% !important;
+    }
 
     .elementor-8108 .elementor-element.elementor-element-7259f9a>.elementor-widget-container {
         padding: 5px 0px 5px 50px;
