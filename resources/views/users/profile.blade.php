@@ -277,10 +277,12 @@
                                     Please Enter your Name.
                                 </div>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="validationCustom02" class="form-label">Email </label>
+                            <div class="form-group row">
+                                <label for="validationCustom02" class="col-sm-2 col-form-label">Email </label>
+                                <div class="col-sm-10">
                                 <input type="email" name="email" class="form-control" id="validationCustom02"
                                     value="{{ $data->email ? : '' }}" required>
+                                </div>
                                 <div class="invalid-feedback">
                                     Please Enter your Email.
                                 </div>
