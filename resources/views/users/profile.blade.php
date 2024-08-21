@@ -268,7 +268,7 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-group row">
-                                <label for="validationCustom01" class="col-sm-2 col-form-label">Full Name </label>
+                                <label for="validationCustom01" class="col-form-label">Full Name </label>
                                 <div class="col-sm-10">
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
                                         value="{{ $data->name ? : '' }}" required>
@@ -278,7 +278,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom02" class="col-sm-2 col-form-label">Email </label>
+                                <label for="validationCustom02" class="col-form-label">Email </label>
                                 <div class="col-sm-10">
                                     <input type="email" name="email" class="form-control" id="validationCustom02"
                                         value="{{ $data->email ? : '' }}" required>
@@ -288,28 +288,28 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom03" class="col-sm-2 col-form-label">Company Name</label>
+                                <label for="validationCustom03" class="col-form-label">Company Name</label>
                                 <div class="col-sm-10">
                                     <input type="text" name="company_name" class="form-control" id="validationCustom03"
                                         value="{{ $data->metaData->company ? $data->metaData->company : '' }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom04" class="col-sm-2 col-form-label">Designation</label>
+                                <label for="validationCustom04" class="col-form-label">Designation</label>
                                 <div class="col-sm-10">
                                     <input type="text" name="designation" class="form-control" id="validationCustom04"
                                         value="{{ $data->metaData->designation ? $data->metaData->designation : '' }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom05" class="col-sm-2 col-form-label">Linked-In Url</label>
+                                <label for="validationCustom05" class="col-form-label">Linked-In Url</label>
                                 <div class="col-sm-10">
                                     <input type="url" name="linked_in" class="form-control" id="validationCustom05"
                                         value="{{ $data->metaData ? $data->metaData->social_linked_in : '' }}">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom07" class="col-sm-2 col-form-label">Expertise</label>
+                                <label for="validationCustom07" class="col-form-label">Expertise</label>
                                 <div class="col-sm-10">
                                     <select class="selectpicker form-control" multiple data-live-search="true"
                                         data-width="100%" id="validationCustom07" name="expert[]" required>
@@ -339,7 +339,7 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="validationCustom06" class="col-sm-2 col-form-label">Timezone</label>
+                                <label for="validationCustom06" class="col-form-label">Timezone</label>
                                 <div class="col-sm-10">
                                     <select class="selectpicker form-control" data-live-search="true" data-width="100%"
                                         id="validationCustom06" name="timezone" required>
