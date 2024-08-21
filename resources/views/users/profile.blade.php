@@ -267,7 +267,7 @@
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <input type="hidden" name="row_id" value="{{ $data->id ? : '' }}">
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="validationCustom01">Full Name </label>
                                     <input type="text" name="name" class="form-control" id="validationCustom01"
                                         value="{{ $data->name ? : '' }}" required>
