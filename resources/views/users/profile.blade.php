@@ -608,7 +608,7 @@ i.fas.fa-bell.fa-2xl {
 
     .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-06004d0 {
         margin-left: 65px;
-        margin-right: 50px;
+        margin-right: 30px;
         width: 100% !important;
     }
 
