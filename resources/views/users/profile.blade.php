@@ -635,7 +635,7 @@ i.fas.fa-bell.fa-2xl {
         font-size: 18px;
         color: #fff;
         text-transform: capitalize;
-        padding-left: 70qpx;
+        padding-left: 70px;
     }
 
     .elementor-8108 .elementor-element.elementor-element-80e2a2d .elementor-icon-box-title,
