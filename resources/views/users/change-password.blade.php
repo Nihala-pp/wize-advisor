@@ -44,6 +44,7 @@
                                         <label for="validationCustom04" class="form-label">Confirm Password</label>
                                         <input type="password" name="password_confirmation" class="form-control"
                                             id="password-confirm" required>
+                                            <span id ="password_validation" style="color:red"></span>
                                     </div>
                                     <!-- <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Password</label>
@@ -90,13 +91,10 @@
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
 
-
         function validatePassword() {
             if (password.value != confirm_password.value) {
+                document.getElementById("password_validation").innerHTML = "Password Doesn't Match";  
                 // confirm_password.setCustomValidity("Passwords Don't Match");
-                alert("Passwords Don't Match");
-            } else {
-                confirm_password.setCustomValidity('');
             }
         }
     });
