@@ -547,6 +547,11 @@ button#submitform.btn.btn-primary {
     position: relative;
 }
 
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid #ced4da 1px;
+    outline: 0;
+}
+
 
 /***  header ***/
 
