@@ -309,7 +309,8 @@
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom07" class="form-label">Expertise you are looking for
                                         ?</label>
-                                    <select class="js-example-basic-multiple form-control" name="expert[]" multiple="multiple">
+                                    <select class="js-example-basic-multiple form-control" name="expert[]"
+                                        multiple="multiple">
                                         <!-- <select name="expert[]" class="selectpicker form-control" multiple -->
                                         <!-- data-live-search="true" data-width="100%" id="validationCustom07" required> -->
                                         <option value="">Choose Your Expertise</option>
@@ -338,7 +339,8 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-control timezonedropdown" id="validationCustom06" required>
+                                    <select name="timezone" class="form-control timezonedropdown"
+                                        id="validationCustom06" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
                                         <option value="{{ $zone }}"
@@ -533,6 +535,16 @@ button#submitform.btn.btn-primary {
 
 .js-example-basic-multiple {
     background-color: #000 !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: #000;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: text;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    position: relative;
 }
 
 
