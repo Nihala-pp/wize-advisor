@@ -291,12 +291,6 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     //   'alert-type' => 'success'
     // );
 
-    ?>
-       <!-- <script type="text/javascript">
-       alert("Profile Updated Successfully!");
-       </script> -->
-       <?php
-
     return redirect()->route('user.profile', [$request->row_id]) ->with('Profile Updated Successfully!');
   }
 
