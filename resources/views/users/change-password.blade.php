@@ -198,6 +198,7 @@ h6 {
 
 button#submitform.btn.btn-primary.savePassword {
     background-color: #000 !important;
+    color:#fff !important
     text-transform: capitalize !important;
 }
 
