@@ -351,9 +351,9 @@
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
                                 <div>
-                                    <button type="submit" class="btn btn-primary btn-block">Save</button>
+                                    <button style="width:50px" type="submit" class="btn btn-primary">Save</button>
                                 </div>
-                            </form>
+                            </form>qwe
                         </div>
                     </div>
                 </div>
@@ -587,7 +587,7 @@ button#submitform.btn.btn-primary {
     padding-top: 2px;
 }
 
-.btn.btn-primary:focus {
+.btn:focus {
     display: inline-block;
     font-weight: 400;
     text-align: center;
