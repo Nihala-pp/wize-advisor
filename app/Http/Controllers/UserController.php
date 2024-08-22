@@ -308,19 +308,19 @@ alert("Profile Updated Successfully!");
   public function savePassword(Request $request)
   {
     $user = User::find(Auth::id());
-     $request->validate([
-      'password' => [
-          'required',
-          'confirmed',
-          Password::min(8)
-              ->letters()
-              ->mixedCase()
-      ]
-    ]);
+    //  $request->validate([
+    //   'password' => [
+    //       'required',
+    //       'confirmed',
+    //       Password::min(8)
+    //           ->letters()
+    //           ->mixedCase()
+    //   ]
+    // ]);
 
     if($request->password != $request->password_confirmation)
     {
-        dd($request->password_confirmation);
+        // dd($request->password_confirmation);
 
          ?>
          <script type="text/javascript">
