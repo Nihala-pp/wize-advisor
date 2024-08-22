@@ -522,7 +522,7 @@ h3 {
 .elementor-icon-box-description a {
     color: #007bff !important;
     font-size: 13px;
-}qw
+}
 
 button#submitform.btn.btn-primary {
     border-color: #000;
@@ -532,7 +532,7 @@ button#submitform.btn.btn-primary {
 }
 
 .js-example-basic-multiple {
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 
