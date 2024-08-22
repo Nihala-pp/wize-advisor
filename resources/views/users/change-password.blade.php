@@ -166,7 +166,6 @@
 
 .savePasswordw {
     box-shadow: #000 !important;
-    s
 }
 
 .btn-primary:hover {
@@ -174,7 +173,6 @@
     background-color: #000 !important;
     border-color: #434343 !important;
     box-shadow: #000 !important;
-    W
 }
 
 body {
