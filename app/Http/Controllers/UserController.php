@@ -286,6 +286,12 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
     $user->notify(new profileUpdate($user));
 
+    ?>
+<script type="text/javascript">
+alert("Profile Updated Successfully!");
+</script>
+<?php
+
     // $notification = array(
     //   'message' => 'Profile Updated Successfully!',
     //   'alert-type' => 'success'
@@ -329,10 +335,10 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     );
 
     ?>
-       <script type="text/javascript">
-       alert("Password Updated Successfully!");
-       </script>
-       <?php
+<script type="text/javascript">
+alert("Password Updated Successfully!");
+</script>
+<?php
 
     return redirect()->route('user.change-password')->with($notification, 'Password Updated Successfully!');
   }
