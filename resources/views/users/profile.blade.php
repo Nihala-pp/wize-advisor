@@ -353,7 +353,7 @@
                                 <div>
                                     <button style="width:50px" type="submit" class="btn btn-primary">Save</button>
                                 </div>
-                            </form>qwe
+                            </form>
                         </div>
                     </div>
                 </div>
