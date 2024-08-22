@@ -372,9 +372,7 @@
 
             $('.timezonedropdown').select2();
 
-            $('html, body').animate({
-                scrollTop: $(".form-row").offset().top
-            }, 2000);
+            $('html').css('overflow', 'hidden');
 
         });
     }(jQuery));
