@@ -356,8 +356,8 @@
                     </div>
                 </div>
             </div>
+        </section>
     </div>
-    </section>
     </div>
     @include('partials.web-script')
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
