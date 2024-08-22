@@ -18,7 +18,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_header_footer page page-id-8108  wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1  elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8108">
+    class="page-template page-template-elementor_canvas  page page-id-8108  wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.6.2  elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8108">
     @include('partials.header-common')
     <div data-elementor-type="wp-page" data-elementor-id="8108" class="elementor elementor-8108">
         <section
