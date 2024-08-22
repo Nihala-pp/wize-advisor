@@ -571,6 +571,18 @@ button#submitform.btn.btn-primary {
     white-space: nowrap;
 }
 
+.select2-container--default .select2-selection--single {
+    /* color: #fff !important; */
+    background-color: #000;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff;
+    line-height: 28px;
+}
+
 /***  header ***/
 
 
