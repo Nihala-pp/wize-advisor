@@ -350,7 +350,8 @@
                                     </div>
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
-                                <div> <button type="submit" class="btn btn-primary">Save</button>
+                                <div> 
+                                    <button type="submit" class="btn btn-primary">Save</button>
                                 </div>
                             </form>
                         </div>
@@ -912,5 +913,4 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-
 </html>
