@@ -584,29 +584,10 @@ button#submitform.btn.btn-primary {
     -webkit-user-select: none;
     padding-top: 2px;
 }
-
-.btn:focus {
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
 /***  header ***/
 
 
-i.fas.fa-chevron-down {q
+i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
     font-size: 9px !important;
