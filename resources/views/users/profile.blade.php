@@ -349,8 +349,8 @@
                                         Please choose a Timezone.
                                     </div>
                                 </div>
-                                <input class="btn btn-primary" type="submit" value="Save">
-                                <!-- <button type="submit" class="btn btn-primary">Save</button> -->
+                                <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
+                                sa<button type="submit" class="btn btn-primary">Save</button>
                             </form>
                         </div>
                     </div>
@@ -517,12 +517,12 @@ h3 {
     font-size: 13px;
 }
 
-button#submitform.btn.btn-primary {
+/* button#submitform.btn.btn-primary {
     border-color: #000;
     background-color: #000;
     padding-right: 18px;
     margin-left: 10px;
-}
+} */
 
 .js-example-basic-multiple {
     background-color: #000 !important;
