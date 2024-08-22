@@ -318,27 +318,37 @@ alert("Profile Updated Successfully!");
       ]
     ]);
 
-    $data = [
-      'password' => Hash::make($request->password),
-    ];
-
-    User::updateOrCreate(
-      ['id' => Auth::id()],
-      $data
-    );
-
-    $user->notify(new passwordChange($user));
-
-    $notification = array(
-      'message' => 'Password Updated Successfully!',
-      'alert-type' => 'success'
-    );
-
-    ?>
-<script type="text/javascript">
-alert("Password Updated Successfully!");
-</script>
-<?php
+    if($request->password !== $request->password_confirmation)
+    {
+      ?>
+      <script type="text/javascript">
+        alert("Password Updated Successfully!");
+      </script>
+      <?php
+    }
+    else {
+      $data = [
+        'password' => Hash::make($request->password),
+      ];
+  
+      User::updateOrCreate(
+        ['id' => Auth::id()],
+        $data
+      );
+  
+      $user->notify(new passwordChange($user));
+  
+      $notification = array(
+        'message' => 'Password Updated Successfully!',
+        'alert-type' => 'success'
+      );
+  
+      ?>
+     <script type="text/javascript">
+  alert("Password Updated Successfully!");
+     </script>
+  <?php
+    }
 
     return redirect()->route('user.change-password')->with($notification, 'Password Updated Successfully!');
   }
