@@ -5,7 +5,7 @@
 <head>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-   
+
 </head>
 
 <body
@@ -44,7 +44,7 @@
                                         <label for="validationCustom04" class="form-label">Confirm Password</label>
                                         <input type="password" name="password_confirmation" class="form-control"
                                             id="password-confirm" required>
-                                            <span id ="password_validation" style="color:red"></span>
+                                        <span id="password_validation" style="color:red"></span>
                                     </div>
                                     <!-- <div class="input-group input-group-dynamic mb-4">
                                         <label class="form-label">Password</label>
@@ -88,8 +88,8 @@
         var password = document.getElementById("password");
         var confirm_password = document.getElementById("password-confirm");
 
-         // var myInput = document.getElementById("password");
-         var letter = document.getElementById("letter");
+        // var myInput = document.getElementById("password");
+        var letter = document.getElementById("letter");
         var capital = document.getElementById("capital");
         var length = document.getElementById("length");
 
@@ -201,7 +201,20 @@ button#submitform.btn.btn-primary.savePassword {
     text-transform: capitalize !important;
 }
 
+.btn:hover {
+    color: #fff;
+    background-color: #000 !important;
+    border-color: var(--mdb-btn-hover-border-color);
+}
+
 @media (max-width: 767px) {
+
+    .btn:hover {
+        color: #fff;
+        background-color: #000 !important;
+        border-color: var(--mdb-btn-hover-border-color);
+    }
+
     button#submitform.btn.btn-primary.savePassword {
         margin-left: 50px;
         text-transform: capitalize !important;
