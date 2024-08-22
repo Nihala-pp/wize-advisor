@@ -553,7 +553,7 @@ button#submitform.btn.btn-primary {
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
-    font-size:16px;wq
+    font-size:16px;
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 4px;
