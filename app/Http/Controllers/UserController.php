@@ -319,6 +319,7 @@ alert("Profile Updated Successfully!");
     ]);
 
     if($request->password !== $request->password_confirmation)
+      dd($request->password_confirmation);
     {
       ?>
       <script type="text/javascript">
@@ -348,7 +349,7 @@ alert("Profile Updated Successfully!");
      <script type="text/javascript">
        alert("Password Updated Successfully!");
      </script>
-  <?php
+       <?php
     }
 
     return redirect()->route('user.change-password')->with($notification, 'Password Updated Successfully!');
