@@ -99,7 +99,7 @@
             }
         }
     
-        function validate_pass() {a
+        function validate_pass() {
 
 // var myInput = document.getElementById("password");
 var letter = document.getElementById("letter");
