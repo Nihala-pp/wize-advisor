@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    @include('partials.web-style')
+    @include('partials.web-header-new')
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js">
@@ -30,9 +30,10 @@
                                     @csrf
                                     <div class="mb-3">
                                         <label for="validationCustom03" class="form-label">Password </label>
-                                        <input type="password" name="password" class="form-control"
-                                            id="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                                            title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters" required>
+                                        <input type="password" name="password" class="form-control" id="password"
+                                            pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                            title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
+                                            required>
                                         <div id="message">
                                             <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
                                             <p id="letter" class="invalid">Must include one <b>lowercase</b>
@@ -75,9 +76,8 @@
         </div>
         <!-- @include('partials.web-footer') -->
     </main>
-    @include('partials.web-script')
     <!--   Core JS Files   -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
     $(function() {
@@ -100,7 +100,7 @@
         }
     });
 
-       function validate_pass() {
+    function validate_pass() {
 
         // var myInput = document.getElementById("password");
         var letter = document.getElementById("letter");
