@@ -519,12 +519,12 @@ h3 {
     font-size: 13px;
 }
 
-/* button#submitform.btn.btn-primary {
+button#submitform.btn.btn-primary {
     border-color: #000;
     background-color: #000;
     padding-right: 18px;
     margin-left: 10px;
-} */
+} 
 
 .js-example-basic-multiple {
     background-color: #000 !important;
@@ -587,7 +587,7 @@ h3 {
     padding-top: 2px;
 }
 
-button:focus {
+.btn-primary.dropdown-toggle:focus {
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -608,7 +608,7 @@ button:focus {
 /***  header ***/
 
 
-i.fas.fa-chevron-down {
+i.fas.fa-chevron-down {q
     margin-top: -15px !important;
     padding-left: 10px !important;
     font-size: 9px !important;
