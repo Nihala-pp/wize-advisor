@@ -583,6 +583,15 @@ button#submitform.btn.btn-primary {
     line-height: 28px;
 }
 
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 38px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
 /***  header ***/
 
 
