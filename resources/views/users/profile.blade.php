@@ -335,7 +335,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-control timezonedropdown"
+                                    <select name="timezone" class="timezonedropdown form-control"
                                         id="validationCustom06" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
