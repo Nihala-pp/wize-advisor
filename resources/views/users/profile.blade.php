@@ -353,8 +353,8 @@
                                         Please choose a Timezone.
                                     </div>
                                 </div>
-                                <button type="submit" name="submitform" id="submitform"
-                                    class="btn btn-primary">{{ __('Save') }}</button>
+                                <input type="submit" name="submitform" id="submitform"
+                                    class="btn btn-primary">{{ __('Save') }}</input>
                             </form>
                         </div>
                     </div>
