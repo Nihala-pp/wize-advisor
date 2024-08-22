@@ -309,7 +309,7 @@
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom07" class="form-label">Expertise you are looking for
                                         ?</label>
-                                    <select class="js-example-basic-multiple form-controle" name="expert[]" multiple="multiple">
+                                    <select class="js-example-basic-multiple form-control" name="expert[]" multiple="multiple">
                                         <!-- <select name="expert[]" class="selectpicker form-control" multiple -->
                                         <!-- data-live-search="true" data-width="100%" id="validationCustom07" required> -->
                                         <option value="">Choose Your Expertise</option>
