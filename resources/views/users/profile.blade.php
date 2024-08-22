@@ -587,7 +587,7 @@ button#submitform.btn.btn-primary {
     padding-top: 2px;
 }
 
-.btn-primary.dropdown-toggle:focus {
+.btn.btn-primary:focus {
     display: inline-block;
     font-weight: 400;
     text-align: center;
