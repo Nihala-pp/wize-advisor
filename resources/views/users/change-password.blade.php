@@ -83,26 +83,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
     $(function() {
-        validate_pass();
+        // validate_pass();
 
         var password = document.getElementById("password");
         var confirm_password = document.getElementById("password-confirm");
 
-        password.onchange = validatePassword;
-        confirm_password.onkeyup = validatePassword;
-
-        function validatePassword() {
-            if (password.value != confirm_password.value) {
-                document.getElementById("password_validation").innerHTML = "Password Doesn't Match";  
-                // confirm_password.setCustomValidity("Passwords Don't Match");
-            }
-        }
-    });
-
-    function validate_pass() {
-
-        // var myInput = document.getElementById("password");
-        var letter = document.getElementById("letter");
+         // var myInput = document.getElementById("password");
+         var letter = document.getElementById("letter");
         var capital = document.getElementById("capital");
         var length = document.getElementById("length");
 
@@ -147,7 +134,7 @@
                 length.classList.add("invalid");
             }
         }
-    }
+    });
     </script>
 </body>
 <style>
