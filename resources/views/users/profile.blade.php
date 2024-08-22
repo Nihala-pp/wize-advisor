@@ -350,11 +350,12 @@
                                     </div>
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
-                                <button type="submit" class="btn btn-primary">Save</button>
+                                <div> <button type="submit" class="btn btn-primary">Save</button>
+                                </div>
                             </form>
                         </div>
                     </div>
-                </div>
+                </div>w
             </div>
     </div>
     </section>
@@ -544,7 +545,7 @@ h3 {
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
-    font-size:16px;
+    font-size: 16px;
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 4px;
