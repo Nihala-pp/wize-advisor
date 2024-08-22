@@ -318,7 +318,7 @@ alert("Profile Updated Successfully!");
       ]
     ]);
 
-    if($request->password !== $request->password_confirmation)
+    if($request->password != $request->password_confirmation)
     {
         dd($request->password_confirmation);
 
