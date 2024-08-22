@@ -319,13 +319,14 @@ alert("Profile Updated Successfully!");
     ]);
 
     if($request->password !== $request->password_confirmation)
-      dd($request->password_confirmation);
     {
-      ?>
-      <script type="text/javascript">
-        alert("Password Doesn't Match!");
-        window.location.href="https://wiseadvizor.com/user/change-password";
-      </script>
+        dd($request->password_confirmation);
+
+         ?>
+         <script type="text/javascript">
+          alert("Password Doesn't Match!");
+           window.location.href="https://wiseadvizor.com/user/change-password";
+        </script>
       <?php
     }
     else {
