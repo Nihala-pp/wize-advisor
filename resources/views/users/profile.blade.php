@@ -349,7 +349,8 @@
                                         Please choose a Timezone.
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Save</button>
+                                <input class="btn btn-primary" type="submit" value="Save">
+                                <!-- <button type="submit" class="btn btn-primary">Save</button> -->
                             </form>
                         </div>
                     </div>
