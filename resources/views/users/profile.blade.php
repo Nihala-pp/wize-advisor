@@ -517,7 +517,7 @@ h3 {
     font-size: 13px;
 }
 
-button#submitform.btn.btn-primary {
+button.btn.btn-primary {
     border-color: #000;
     background-color: #000;
     padding-right: 18px;
