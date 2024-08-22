@@ -568,7 +568,7 @@ button#submitform.btn.btn-primary {
     text-overflow: ellipsis;
     vertical-align: bottom;
     white-space: nowrap;
-}24
+}
 
 /***  header ***/
 
