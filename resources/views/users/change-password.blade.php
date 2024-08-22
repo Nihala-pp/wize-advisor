@@ -89,7 +89,7 @@
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
 
-        console.log(confirm_password.value);
+        console.log({confirm_password.value}, {password.value});
 
         function validatePassword() {
             if (password.value != confirm_password.value) {
