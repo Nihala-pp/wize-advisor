@@ -89,11 +89,11 @@
         password.onchange = validatePassword;
         confirm_password.onkeyup = validatePassword;
 
-        alert(confirm_password.value);
 
         function validatePassword() {
             if (password.value != confirm_password.value) {
                 confirm_password.setCustomValidity("Passwords Don't Match");
+                alert(confirm_password.value);
             } else {
                 confirm_password.setCustomValidity('');
             }
